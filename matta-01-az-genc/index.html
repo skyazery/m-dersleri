@@ -110,6 +110,12 @@ label{font-family:var(--ui);font-size:14.5px;color:var(--soft)}
 button:focus-visible{outline:3px solid var(--teal);outline-offset:2px}
 
 body{word-break:keep-all;-webkit-font-smoothing:antialiased}h1,h2,h3{letter-spacing:-.02em}
+
+:root{--z:1}.wrap>:not(.audio),.sheet{zoom:var(--z)}
+.fs{display:inline-flex;align-items:center;gap:6px;margin-left:auto}
+.fs .pill{min-width:44px;justify-content:center;font-weight:800}
+.fs .pill:disabled{opacity:.4;cursor:default}
+#fsVal{font-size:13px;color:var(--soft);min-width:3.2em;text-align:center;font-variant-numeric:tabular-nums}
 </style>
 </head>
 <body>
@@ -146,6 +152,7 @@ body{word-break:keep-all;-webkit-font-smoothing:antialiased}h1,h2,h3{letter-spac
 <button class="pill" id="playAll"><svg viewbox="0 0 16 16"><path d="M4 2l10 6-10 6z" fill="currentColor"></path></svg>Hamısını dinlə</button>
 <button class="pill ghost" id="stopAll">Dayandır</button>
 <button aria-pressed="false" class="pill ghost" id="slow">Yavaş</button>
+<span class="fs" role="group" aria-label="Yazı ölçüsü"><button class="pill ghost" id="fsDown" aria-label="Yazını kiçilt">A−</button><span id="fsVal" aria-live="polite">100%</span><button class="pill ghost" id="fsUp" aria-label="Yazını böyüt">A+</button></span>
 <p class="note" id="ttsNote">Nöqtəli xətt altındakı sözlərə toxun: mənası, orijinal dildə forması və koreyacası çıxacaq.</p>
 </div>
 <section class="aims">
@@ -456,6 +463,12 @@ Q.forEach((it,qi)=>{const d=document.createElement('div');d.className='q';d.inne
  d.querySelector('p').textContent=(qi+1)+'. '+it.q;const op=d.querySelector('.opts'),fb=d.querySelector('.fb');
  it.o.forEach((t,oi)=>{const b=document.createElement('button');b.textContent=t;
   b.onclick=()=>{if(oi===it.a){b.className='ok';fb.textContent=it.f}else{b.className='no';fb.textContent='Yenə fikirləş. Mətni bir daha oxu.'}};op.appendChild(b)});qz.appendChild(d)});
+
+/* Yazı ölçüsü */
+(()=>{const steps=[0.9,1,1.15,1.3,1.45];let i=1;try{const v=parseInt(localStorage.getItem('fs-genc'));if(v>=0&&v<steps.length)i=v}catch(e){}
+ const val=document.getElementById('fsVal'),dn=document.getElementById('fsDown'),up=document.getElementById('fsUp');
+ function apply(){document.documentElement.style.setProperty('--z',steps[i]);val.textContent=Math.round(steps[i]*100)+'%';dn.disabled=i===0;up.disabled=i===steps.length-1;try{localStorage.setItem('fs-genc',i)}catch(e){}}
+ dn.onclick=()=>{if(i>0){i--;apply()}};up.onclick=()=>{if(i<steps.length-1){i++;apply()}};apply();})();
 </script>
 </body>
 </html>
