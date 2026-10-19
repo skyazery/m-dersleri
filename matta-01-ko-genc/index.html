@@ -4,22 +4,22 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>마태복음 1과 청소년</title>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Gowun+Batang:wght@400;700&family=Gowun+Dodum&display=swap">
+<link rel="stylesheet" href="../fonts/pretendardvariable-dynamic-subset.css">
 <style>body{margin:0}img,svg{max-width:100%}[hidden]{display:none!important}</style>
 <style>
 /* Layout: 스터디 노트 — 장면마다 그림(좌)·본문(우), 아래에 '깊이 보기' 해설 상자, 원어·배경을 함께 */
 :root{
   --bg:#F2F4F8; --paper:#FFFFFF; --ink:#18203E; --soft:#58627E; --line:#D8DDE8;
   --indigo:#253170; --gold:#C2861C; --gold-soft:#F7EAD0; --rose:#B4544A; --rose-soft:#F6E2DF; --teal:#2A7F7A; --teal-soft:#DDEEEC;
-  --display:"Black Han Sans","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
-  --body:"Gowun Batang","Nanum Myeongjo","AppleMyungjo",serif;
-  --ui:"Gowun Dodum","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --display:"Pretendard Variable",Pretendard,-apple-system,"Apple SD Gothic Neo","Segoe UI","Noto Sans KR",sans-serif;
+  --body:"Pretendard Variable",Pretendard,-apple-system,"Apple SD Gothic Neo","Segoe UI","Noto Sans KR",sans-serif;
+  --ui:"Pretendard Variable",Pretendard,-apple-system,"Apple SD Gothic Neo","Segoe UI","Noto Sans KR",sans-serif;
 }
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#0F1426;--paper:#171E38;--ink:#E9EDF7;--soft:#A3ADC6;--line:#2A3355;--indigo:#9DAAF0;--gold:#E6AE48;--gold-soft:#372C17;--rose:#E08A80;--rose-soft:#3A2224;--teal:#5DC0B8;--teal-soft:#16363A;color-scheme:dark}}
 :root[data-theme="dark"]{--bg:#0F1426;--paper:#171E38;--ink:#E9EDF7;--soft:#A3ADC6;--line:#2A3355;--indigo:#9DAAF0;--gold:#E6AE48;--gold-soft:#372C17;--rose:#E08A80;--rose-soft:#3A2224;--teal:#5DC0B8;--teal-soft:#16363A;color-scheme:dark}
 body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.85}
 .wrap{max-width:900px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:16px 80px;display:flex;flex-direction:column;gap:30px}
-h1,h2,h3{font-family:var(--display);font-weight:400;text-wrap:balance;margin:0;line-height:1.25;letter-spacing:-.01em}
+h1,h2,h3{font-family:var(--display);font-weight:800;text-wrap:balance;margin:0;line-height:1.25;letter-spacing:-.01em}
 p{margin:0}
 svg{display:block;width:100%;height:auto}
 .label{font-family:var(--ui);font-size:13px;letter-spacing:.08em;color:var(--gold)}
@@ -39,7 +39,7 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 
 .aims{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
 .aims div{background:var(--paper);border-top:3px solid var(--indigo);padding:14px 16px;display:flex;flex-direction:column;gap:4px}
-.aims b{font-family:var(--display);font-weight:400;font-size:18px;color:var(--indigo)}
+.aims b{font-family:var(--display);font-weight:800;font-size:18px;color:var(--indigo)}
 .aims p{font-size:15px;color:var(--soft);font-family:var(--ui);line-height:1.6}
 
 .scene{display:grid;grid-template-columns:1fr;background:var(--paper);border-radius:6px;overflow:hidden;border:1px solid var(--line)}
@@ -81,7 +81,7 @@ td:first-child{font-family:var(--display);font-size:17px;white-space:nowrap}
 .dict button:hover,.dict button:focus-visible{border-color:var(--gold);outline:none}
 .dict .ic{width:40px;height:40px;flex:none;border-radius:6px;background:var(--gold-soft);display:flex;align-items:center;justify-content:center}
 .dict .ic svg{width:28px;height:28px}
-.dict b{display:block;font-family:var(--display);font-weight:400;font-size:18px}
+.dict b{display:block;font-family:var(--display);font-weight:800;font-size:18px}
 .dict small{display:block;font-family:var(--ui);font-size:13.5px;color:var(--soft);line-height:1.5}
 
 .quiz{display:flex;flex-direction:column;gap:12px}
@@ -108,6 +108,8 @@ label{font-family:var(--ui);font-size:14.5px;color:var(--soft)}
 .sheet .ex{background:var(--bg);padding:10px 14px;border-radius:6px;font-size:15.5px}
 .sheet .btns{display:flex;gap:8px;justify-content:flex-end}
 button:focus-visible{outline:3px solid var(--teal);outline-offset:2px}
+
+body{word-break:keep-all;-webkit-font-smoothing:antialiased}h1,h2,h3{letter-spacing:-.02em}
 </style>
 </head>
 <body>
@@ -167,7 +169,7 @@ button:focus-visible{outline:3px solid var(--teal);outline-offset:2px}
 <g><path d="M62 262 L88 222 L114 262Z" fill="#B65F3A"/><path d="M82 262 L88 244 L94 262Z" fill="#6E3420"/><line x1="88" y1="222" x2="88" y2="214" stroke="#6E3420" stroke-width="2"/></g>
 <g><rect x="190" y="160" width="26" height="34" fill="#E4D6B4"/><path d="M190 160 v-6 h6 v6 h4 v-6 h6 v6 h4 v-6 h6 v6" fill="#E4D6B4"/><path d="M193 146 l4-12 6 7 6-9 6 9 6-7 4 12z" fill="#D9A23B"/></g>
 <g><path d="M334 96 h44 v-20 l-22-14 -22 14z" fill="#7A5A3E"/><rect x="346" y="80" width="20" height="16" fill="#F3C98B"/><path d="M356 34 l3 10 10 3 -10 3 -3 10 -3-10 -10-3 10-3z" fill="#E7A93A"/></g>
-<g font-family="Jua, sans-serif" font-size="13" text-anchor="middle">
+<g font-family="Pretendard Variable, Pretendard, sans-serif" font-size="13" text-anchor="middle">
 <rect x="56" y="268" width="64" height="22" rx="11" fill="#FFFFFF"/><text x="88" y="284" fill="#1C2A48">아브라함</text>
 <rect x="176" y="200" width="54" height="22" rx="11" fill="#FFFFFF"/><text x="203" y="216" fill="#1C2A48">다윗 왕</text>
 <rect x="320" y="102" width="70" height="22" rx="11" fill="#2C8A84"/><text x="355" y="118" fill="#FFFFFF">예수님</text>
@@ -191,16 +193,16 @@ button:focus-visible{outline:3px solid var(--teal);outline-offset:2px}
         <rect x="20" y="86" width="220" height="10" rx="5" fill="var(--gold-soft)"/>
         <rect x="250" y="86" width="220" height="10" rx="5" fill="var(--line)"/>
         <rect x="480" y="86" width="220" height="10" rx="5" fill="var(--teal-soft)"/>
-        <g font-family="Gowun Dodum, sans-serif" font-size="12" fill="var(--soft)" text-anchor="middle">
+        <g font-family="Pretendard Variable, Pretendard, sans-serif" font-size="12" fill="var(--soft)" text-anchor="middle">
           <text x="130" y="30">① 약속의 시대 · 14대</text><text x="360" y="30">② 왕들의 시대 · 14대</text><text x="590" y="30">③ 기다림의 시대 · 14대</text>
         </g>
-        <g font-family="Black Han Sans, sans-serif" font-size="14" fill="var(--ink)" text-anchor="middle">
+        <g font-family="Pretendard Variable, Pretendard, sans-serif" font-size="14" fill="var(--ink)" text-anchor="middle">
           <circle cx="24" cy="91" r="9" fill="var(--gold)"/><text x="30" y="68">아브라함</text>
           <circle cx="245" cy="91" r="11" fill="var(--gold)"/><text x="245" y="68">다윗 왕</text>
           <circle cx="475" cy="91" r="9" fill="var(--soft)"/><text x="475" y="68">바벨론 포로</text>
           <circle cx="700" cy="91" r="12" fill="var(--teal)"/><text x="688" y="68">예수님</text>
         </g>
-        <g font-family="Gowun Dodum, sans-serif" font-size="12.5" text-anchor="middle">
+        <g font-family="Pretendard Variable, Pretendard, sans-serif" font-size="12.5" text-anchor="middle">
           <line x1="80" y1="96" x2="80" y2="130" stroke="var(--rose)"/><circle cx="80" cy="91" r="6" fill="var(--rose)"/><text x="80" y="146" fill="var(--rose)">다말</text><text x="80" y="162" fill="var(--soft)">유다의 며느리</text>
           <line x1="150" y1="96" x2="150" y2="130" stroke="var(--rose)"/><circle cx="150" cy="91" r="6" fill="var(--rose)"/><text x="150" y="146" fill="var(--rose)">라합</text><text x="150" y="162" fill="var(--soft)">여리고의 이방인</text>
           <line x1="200" y1="96" x2="200" y2="176" stroke="var(--rose)"/><circle cx="200" cy="91" r="6" fill="var(--rose)"/><text x="200" y="192" fill="var(--rose)">룻</text><text x="200" y="206" fill="var(--soft)">모압 여인</text>
@@ -295,7 +297,7 @@ button:focus-visible{outline:3px solid var(--teal);outline-offset:2px}
 <path d="M300 228 C300 210 318 204 340 210 L356 204 C352 214 346 222 336 228Z" fill="#C08A4E"/>
 <path d="M352 196 C346 186 352 176 356 170 C360 178 364 188 352 196Z" fill="#FFC44D"/>
 <circle cx="355" cy="186" r="16" fill="#FFE29A" opacity=".45"/>
-<text x="172" y="252" text-anchor="middle" font-family="Jua, sans-serif" font-size="14" fill="#F3DDB0">이사야 7:14 · 약 700년 전</text>
+<text x="172" y="252" text-anchor="middle" font-family="Pretendard Variable, Pretendard, sans-serif" font-size="14" fill="#F3DDB0">이사야 7:14 · 약 700년 전</text>
 </svg>
 
     <div class="txt">

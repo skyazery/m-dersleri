@@ -4,21 +4,21 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>마태복음 1과 어린이</title>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jua&family=Gowun+Dodum&display=swap">
+<link rel="stylesheet" href="../fonts/pretendardvariable-dynamic-subset.css">
 <style>body{margin:0}img,svg{max-width:100%}[hidden]{display:none!important}</style>
 <style>
 /* Layout: 그림책 한 권 — 큰 그림 아래 짧은 이야기, 장면마다 듣기 버튼, 노란 낱말은 눌러서 사전 */
 :root{
   --sky:#EEF2F8; --paper:#FFFFFF; --ink:#1C2A48; --soft:#5A6A88; --line:#D9E0EC;
   --gold:#D9A23B; --gold-soft:#FBEFD5; --teal:#2C8A84; --teal-soft:#DCEFEC; --night:#1A2550;
-  --display:"Jua","Gowun Dodum","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
-  --body:"Gowun Dodum","Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR",sans-serif;
+  --display:"Pretendard Variable",Pretendard,-apple-system,"Apple SD Gothic Neo","Segoe UI","Noto Sans KR",sans-serif;
+  --body:"Pretendard Variable",Pretendard,-apple-system,"Apple SD Gothic Neo","Segoe UI","Noto Sans KR",sans-serif;
 }
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--sky:#111829;--paper:#1A2340;--ink:#EBF0F8;--soft:#A8B5CC;--line:#2C385A;--gold:#EDB650;--gold-soft:#3A3220;--teal:#5CC2B9;--teal-soft:#173A39;--night:#0B1228;color-scheme:dark}}
 :root[data-theme="dark"]{--sky:#111829;--paper:#1A2340;--ink:#EBF0F8;--soft:#A8B5CC;--line:#2C385A;--gold:#EDB650;--gold-soft:#3A3220;--teal:#5CC2B9;--teal-soft:#173A39;--night:#0B1228;color-scheme:dark}
 body{background:var(--sky);color:var(--ink);font-family:var(--body);font-size:18px;line-height:1.8}
 .wrap{max-width:720px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:16px 80px;display:flex;flex-direction:column;gap:26px}
-h1,h2,h3{font-family:var(--display);font-weight:400;text-wrap:balance;margin:0;line-height:1.3}
+h1,h2,h3{font-family:var(--display);font-weight:800;text-wrap:balance;margin:0;line-height:1.3}
 p{margin:0}
 svg{display:block;width:100%;height:auto}
 .hero{border-radius:24px;overflow:hidden;background:var(--night);color:#F6F1E4}
@@ -67,7 +67,7 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .dict button:hover,.dict button:focus-visible{border-color:var(--gold);outline:none}
 .dict .ic{width:40px;height:40px;flex:none;border-radius:12px;background:var(--gold-soft);display:flex;align-items:center;justify-content:center}
 .dict .ic svg{width:30px;height:30px}
-.dict b{font-family:var(--display);font-weight:400;font-size:19px}
+.dict b{font-family:var(--display);font-weight:800;font-size:19px}
 
 .q{background:var(--paper);border-radius:18px;padding:16px 18px;display:flex;flex-direction:column;gap:10px}
 .q p{font-weight:700}
@@ -99,6 +99,8 @@ label{font-size:15px;color:var(--soft)}
 .sheet .btns{display:flex;gap:8px;justify-content:flex-end}
 button:focus-visible{outline:3px solid var(--teal);outline-offset:2px}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+
+body{word-break:keep-all;-webkit-font-smoothing:antialiased}h1,h2,h3{letter-spacing:-.02em}
 </style>
 </head>
 <body>
@@ -160,7 +162,7 @@ button:focus-visible{outline:3px solid var(--teal);outline-offset:2px}
 <g><path d="M62 262 L88 222 L114 262Z" fill="#B65F3A"/><path d="M82 262 L88 244 L94 262Z" fill="#6E3420"/><line x1="88" y1="222" x2="88" y2="214" stroke="#6E3420" stroke-width="2"/></g>
 <g><rect x="190" y="160" width="26" height="34" fill="#E4D6B4"/><path d="M190 160 v-6 h6 v6 h4 v-6 h6 v6 h4 v-6 h6 v6" fill="#E4D6B4"/><path d="M193 146 l4-12 6 7 6-9 6 9 6-7 4 12z" fill="#D9A23B"/></g>
 <g><path d="M334 96 h44 v-20 l-22-14 -22 14z" fill="#7A5A3E"/><rect x="346" y="80" width="20" height="16" fill="#F3C98B"/><path d="M356 34 l3 10 10 3 -10 3 -3 10 -3-10 -10-3 10-3z" fill="#E7A93A"/></g>
-<g font-family="Jua, sans-serif" font-size="13" text-anchor="middle">
+<g font-family="Pretendard Variable, Pretendard, sans-serif" font-size="13" text-anchor="middle">
 <rect x="56" y="268" width="64" height="22" rx="11" fill="#FFFFFF"/><text x="88" y="284" fill="#1C2A48">아브라함</text>
 <rect x="176" y="200" width="54" height="22" rx="11" fill="#FFFFFF"/><text x="203" y="216" fill="#1C2A48">다윗 왕</text>
 <rect x="320" y="102" width="70" height="22" rx="11" fill="#2C8A84"/><text x="355" y="118" fill="#FFFFFF">예수님</text>
@@ -260,7 +262,7 @@ button:focus-visible{outline:3px solid var(--teal);outline-offset:2px}
 <path d="M300 228 C300 210 318 204 340 210 L356 204 C352 214 346 222 336 228Z" fill="#C08A4E"/>
 <path d="M352 196 C346 186 352 176 356 170 C360 178 364 188 352 196Z" fill="#FFC44D"/>
 <circle cx="355" cy="186" r="16" fill="#FFE29A" opacity=".45"/>
-<text x="172" y="252" text-anchor="middle" font-family="Jua, sans-serif" font-size="14" fill="#F3DDB0">이사야 7:14 · 약 700년 전</text>
+<text x="172" y="252" text-anchor="middle" font-family="Pretendard Variable, Pretendard, sans-serif" font-size="14" fill="#F3DDB0">이사야 7:14 · 약 700년 전</text>
 </svg>
 
     <div class="txt">
