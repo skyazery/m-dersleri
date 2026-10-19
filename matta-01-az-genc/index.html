@@ -27,7 +27,7 @@ svg{display:block;width:100%;height:auto}
 .hero-text{padding:18px 24px 26px;display:flex;flex-direction:column;gap:8px}
 .hero h1{font-size:clamp(30px,6.4vw,50px);color:#FFF6E2}
 .hero .sub{font-family:var(--ui);color:#C6CFE6;font-size:15px}
-.hero .q{font-size:18px;color:#F3EFE3;max-width:38em}
+.hero .hero-q{font-size:18px;color:#F3EFE3;max-width:38em}
 
 .audio{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);padding-block:8px;display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-family:var(--ui)}
 body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
@@ -112,9 +112,10 @@ button:focus-visible{outline:3px solid var(--teal);outline-offset:2px}
 body{word-break:keep-all;-webkit-font-smoothing:antialiased}h1,h2,h3{letter-spacing:-.02em}
 
 :root{--z:1}.wrap>:not(.audio),.sheet{zoom:var(--z)}
-.fs{display:inline-flex;align-items:center;gap:6px;margin-left:auto}
-.fs .pill{min-width:44px;justify-content:center;font-weight:800}
-.fs .pill:disabled{opacity:.4;cursor:default}
+.fs-float{position:fixed;right:max(12px,env(safe-area-inset-right,0px));bottom:calc(12px + env(safe-area-inset-bottom,0px));z-index:15;display:inline-flex;align-items:center;gap:4px;background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:5px;box-shadow:0 6px 20px rgba(10,16,40,.18)}
+.fs-float .pill{min-width:44px;min-height:40px;justify-content:center;font-weight:800;border-radius:999px;border:0;background:var(--bg)}
+.fs-float .pill:disabled{opacity:.35;cursor:default}
+.wrap{padding-bottom:110px}
 #fsVal{font-size:13px;color:var(--soft);min-width:3.2em;text-align:center;font-variant-numeric:tabular-nums}
 </style>
 </head>
@@ -145,14 +146,13 @@ body{word-break:keep-all;-webkit-font-smoothing:antialiased}h1,h2,h3{letter-spac
 <span class="label">Yeniyetmələr üçün Müqəddəs Kitab dərsi · Matta, 1-ci dərs</span>
 <h1>Bizimlə olan Allah</h1>
 <p class="sub">Matta 1:1–25 · təxminən 50 dəqiqə</p>
-<p class="q">Əhdi-Cədidin ilk səhifəsini açanda qırxdan çox yad ad görürük. Matta niyə Müjdəni bu darıxdırıcı görünən siyahı ilə başlayır?</p>
+<p class="hero-q">Əhdi-Cədidin ilk səhifəsini açanda qırxdan çox yad ad görürük. Matta niyə Müjdəni bu darıxdırıcı görünən siyahı ilə başlayır?</p>
 </div>
 </header>
 <div aria-label="Səsli oxu" class="audio" role="group">
 <button class="pill" id="playAll"><svg viewbox="0 0 16 16"><path d="M4 2l10 6-10 6z" fill="currentColor"></path></svg>Hamısını dinlə</button>
 <button class="pill ghost" id="stopAll">Dayandır</button>
 <button aria-pressed="false" class="pill ghost" id="slow">Yavaş</button>
-<span class="fs" role="group" aria-label="Yazı ölçüsü"><button class="pill ghost" id="fsDown" aria-label="Yazını kiçilt">A−</button><span id="fsVal" aria-live="polite">100%</span><button class="pill ghost" id="fsUp" aria-label="Yazını böyüt">A+</button></span>
 <p class="note" id="ttsNote">Nöqtəli xətt altındakı sözlərə toxun: mənası, orijinal dildə forması və koreyacası çıxacaq.</p>
 </div>
 <section class="aims">
@@ -381,6 +381,7 @@ body{word-break:keep-all;-webkit-font-smoothing:antialiased}h1,h2,h3{letter-spac
 <button class="pill ghost" id="sayPrayer" style="align-self:flex-start">🔊 Duanı dinlə</button>
 </section>
 </div>
+<span class="fs-float" role="group" aria-label="Yazı ölçüsü"><button class="pill ghost" id="fsDown" aria-label="Yazını kiçilt">A−</button><span id="fsVal" aria-live="polite">100%</span><button class="pill ghost" id="fsUp" aria-label="Yazını böyüt">A+</button></span>
 <div class="sheet-bg" hidden="" id="sheetBg"></div>
 <div aria-labelledby="sTitle" aria-modal="true" class="sheet" hidden="" id="sheet" role="dialog">
 <div class="row"><div class="ic" id="sIcon"></div><div><h3 id="sTitle"></h3><div class="az" id="sAz"></div></div></div>
