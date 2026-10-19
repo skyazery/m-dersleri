@@ -1,0 +1,459 @@
+<!doctype html>
+<html lang="az">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Matta 1-ci dərs yeniyetmələr</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@600;700;800&family=Noto+Serif:wght@400;700&family=Nunito:wght@500;700;800&display=swap">
+<style>body{margin:0}img,svg{max-width:100%}[hidden]{display:none!important}</style>
+<style>
+/* Layout: 스터디 노트 — 장면마다 그림(좌)·본문(우), 아래에 '깊이 보기' 해설 상자, 원어·배경을 함께 */
+:root{
+  --bg:#F2F4F8; --paper:#FFFFFF; --ink:#18203E; --soft:#58627E; --line:#D8DDE8;
+  --indigo:#253170; --gold:#C2861C; --gold-soft:#F7EAD0; --rose:#B4544A; --rose-soft:#F6E2DF; --teal:#2A7F7A; --teal-soft:#DDEEEC;
+  --display:"Rubik","Nunito","Segoe UI",sans-serif;
+  --body:"Noto Serif","Georgia",serif;
+  --ui:"Nunito","Segoe UI","Roboto",sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#0F1426;--paper:#171E38;--ink:#E9EDF7;--soft:#A3ADC6;--line:#2A3355;--indigo:#9DAAF0;--gold:#E6AE48;--gold-soft:#372C17;--rose:#E08A80;--rose-soft:#3A2224;--teal:#5DC0B8;--teal-soft:#16363A;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0F1426;--paper:#171E38;--ink:#E9EDF7;--soft:#A3ADC6;--line:#2A3355;--indigo:#9DAAF0;--gold:#E6AE48;--gold-soft:#372C17;--rose:#E08A80;--rose-soft:#3A2224;--teal:#5DC0B8;--teal-soft:#16363A;color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.85}
+.wrap{max-width:900px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:16px 80px;display:flex;flex-direction:column;gap:30px}
+h1,h2,h3{font-family:var(--display);font-weight:800;text-wrap:balance;margin:0;line-height:1.25;letter-spacing:-.01em}
+p{margin:0}
+svg{display:block;width:100%;height:auto}
+.label{font-family:var(--ui);font-size:13px;letter-spacing:.08em;color:var(--gold)}
+.hero{border-radius:6px;overflow:hidden;background:#0E1736;color:#F3EFE3}
+.hero-text{padding:18px 24px 26px;display:flex;flex-direction:column;gap:8px}
+.hero h1{font-size:clamp(30px,6.4vw,50px);color:#FFF6E2}
+.hero .sub{font-family:var(--ui);color:#C6CFE6;font-size:15px}
+.hero .q{font-size:18px;color:#F3EFE3;max-width:38em}
+
+.audio{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);padding-block:8px;display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-family:var(--ui)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.pill{font:inherit;font-family:var(--ui);font-size:15px;border:0;border-radius:6px;padding:7px 14px;cursor:pointer;background:var(--indigo);color:var(--paper);display:inline-flex;align-items:center;gap:6px}
+.pill.ghost{background:var(--paper);color:var(--ink);border:1px solid var(--line)}
+.pill[aria-pressed="true"]{background:var(--gold);color:#18203E}
+.pill svg{width:14px;height:14px;display:inline}
+.audio .note{font-size:13px;color:var(--soft);flex-basis:100%}
+
+.aims{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.aims div{background:var(--paper);border-top:3px solid var(--indigo);padding:14px 16px;display:flex;flex-direction:column;gap:4px}
+.aims b{font-family:var(--display);font-weight:700;font-size:18px;color:var(--indigo)}
+.aims p{font-size:15px;color:var(--soft);font-family:var(--ui);line-height:1.6}
+
+.scene{display:grid;grid-template-columns:1fr;background:var(--paper);border-radius:6px;overflow:hidden;border:1px solid var(--line)}
+@media (min-width:760px){.scene{grid-template-columns:300px minmax(0,1fr)}.scene>svg{align-self:start}}
+.scene .txt{padding:20px 24px 24px;display:flex;flex-direction:column;gap:12px;min-width:0}
+.scene .top{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap}
+.scene h3{font-size:26px}
+.reading{background:var(--teal-soft);box-shadow:0 0 0 6px var(--teal-soft);border-radius:4px}
+.deep{background:var(--gold-soft);border-left:4px solid var(--gold);padding:12px 16px;display:flex;flex-direction:column;gap:6px}
+.deep.rose{background:var(--rose-soft);border-left-color:var(--rose)}
+.deep h4{margin:0;font-family:var(--ui);font-size:14px;letter-spacing:.06em;color:var(--gold)}
+.deep.rose h4{color:var(--rose)}
+.deep p{font-size:15.5px;line-height:1.75}
+.ref{font-family:var(--ui);font-size:13px;color:var(--soft);background:var(--bg);padding:1px 7px;border-radius:4px;white-space:nowrap}
+.w{font:inherit;color:inherit;background:none;border:0;border-bottom:2px dotted var(--gold);padding:0 1px;cursor:pointer}
+.w:hover,.w:focus-visible{background:var(--gold-soft);outline:none}
+
+.chart{background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:18px;display:flex;flex-direction:column;gap:10px}
+.chart .scroll{overflow-x:auto}
+.chart svg{min-width:640px}
+.chart p{font-family:var(--ui);font-size:14px;color:var(--soft)}
+
+.head{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;border-bottom:2px solid var(--ink);padding-bottom:6px}
+.head h2{font-size:28px}.head span{font-family:var(--ui);color:var(--soft);font-size:14px}
+
+.tbl{overflow-x:auto;background:var(--paper);border:1px solid var(--line);border-radius:6px}
+table{border-collapse:collapse;width:100%;min-width:560px;font-size:15.5px}
+th,td{text-align:left;padding:11px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-family:var(--ui);font-weight:400;font-size:13px;letter-spacing:.06em;color:var(--soft)}
+td:first-child{font-family:var(--display);font-weight:700;font-size:17px;white-space:nowrap}
+
+.verse{background:var(--indigo);color:#F4F1E6;border-radius:6px;padding:24px;display:flex;flex-direction:column;gap:10px}
+.verse .big{font-size:clamp(20px,4.6vw,26px);line-height:1.6;font-weight:700}
+.verse .src{font-family:var(--ui);font-size:14px;color:#C6CFE6}
+.verse .pill.ghost{background:transparent;color:#F4F1E6;border-color:rgba(255,255,255,.4)}
+
+.dict{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:10px}
+.dict button{font:inherit;text-align:left;background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:12px 14px;color:var(--ink);cursor:pointer;display:flex;gap:12px;align-items:flex-start}
+.dict button:hover,.dict button:focus-visible{border-color:var(--gold);outline:none}
+.dict .ic{width:40px;height:40px;flex:none;border-radius:6px;background:var(--gold-soft);display:flex;align-items:center;justify-content:center}
+.dict .ic svg{width:28px;height:28px}
+.dict b{display:block;font-family:var(--display);font-weight:700;font-size:18px}
+.dict small{display:block;font-family:var(--ui);font-size:13.5px;color:var(--soft);line-height:1.5}
+
+.quiz{display:flex;flex-direction:column;gap:12px}
+.q{background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:16px 18px;display:flex;flex-direction:column;gap:10px}
+.q p{font-weight:700}
+.opts{display:flex;flex-direction:column;gap:6px}
+.opts button{font:inherit;font-family:var(--ui);text-align:left;border:1px solid var(--line);background:var(--bg);color:var(--ink);border-radius:6px;padding:8px 12px;cursor:pointer}
+.opts button.ok{border-color:var(--teal);background:var(--teal-soft)}
+.opts button.no{opacity:.5}
+.fb{font-family:var(--ui);font-size:14.5px;color:var(--teal);min-height:1.4em}
+
+.card{background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:20px;display:flex;flex-direction:column;gap:10px}
+.card ol{margin:0;padding-left:22px;display:flex;flex-direction:column;gap:8px}
+textarea{font:inherit;width:100%;box-sizing:border-box;min-height:110px;border-radius:6px;border:1px solid var(--line);background:var(--bg);color:var(--ink);padding:12px}
+label{font-family:var(--ui);font-size:14.5px;color:var(--soft)}
+
+.sheet-bg{position:fixed;inset:0;background:rgba(6,10,24,.55);z-index:20}
+.sheet{position:fixed;left:0;right:0;bottom:0;z-index:21;background:var(--paper);border-radius:12px 12px 0 0;max-width:620px;margin:0 auto;padding:20px max(20px,env(safe-area-inset-right,0px)) calc(22px + env(safe-area-inset-bottom,0px)) max(20px,env(safe-area-inset-left,0px));display:flex;flex-direction:column;gap:12px;box-shadow:0 -10px 30px rgba(0,0,0,.25)}
+.sheet .row{display:flex;gap:14px;align-items:center}
+.sheet .ic{width:60px;height:60px;flex:none;border-radius:8px;background:var(--gold-soft);display:flex;align-items:center;justify-content:center}
+.sheet .ic svg{width:42px;height:42px}
+.sheet h3{font-size:28px}
+.sheet .az{font-family:var(--ui);font-size:13.5px;color:var(--teal)}
+.sheet .ex{background:var(--bg);padding:10px 14px;border-radius:6px;font-size:15.5px}
+.sheet .btns{display:flex;gap:8px;justify-content:flex-end}
+button:focus-visible{outline:3px solid var(--teal);outline-offset:2px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <a href="../" style="font-family:inherit;font-size:14px;color:inherit;opacity:.7;text-decoration:none">← Bütün dərslər</a>
+<header class="hero">
+    <svg viewBox="0 0 800 340" role="img" aria-label="Ulduzlu gecə, təpələr üstündə Bet-Lexem kəndi">
+<defs>
+<linearGradient id="hSky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0E1736"/><stop offset=".55" stop-color="#273970"/><stop offset="1" stop-color="#6C6FA6"/></linearGradient>
+<radialGradient id="hGlow"><stop offset="0" stop-color="#FFF1C4" stop-opacity=".85"/><stop offset=".35" stop-color="#FFE7A8" stop-opacity=".25"/><stop offset="1" stop-color="#FFE7A8" stop-opacity="0"/></radialGradient>
+<linearGradient id="hBeam" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFF1C4" stop-opacity=".28"/><stop offset="1" stop-color="#FFF1C4" stop-opacity="0"/></linearGradient>
+</defs>
+<rect width="800" height="340" fill="url(#hSky)"/>
+<g fill="#FFF6DA"><circle cx="48" cy="38" r="1.6"/><circle cx="120" cy="92" r="1.2"/><circle cx="196" cy="30" r="1.8"/><circle cx="280" cy="70" r="1.1"/><circle cx="360" cy="24" r="1.5"/><circle cx="430" cy="96" r="1.2"/><circle cx="700" cy="40" r="1.7"/><circle cx="752" cy="110" r="1.2"/><circle cx="650" cy="130" r="1"/><circle cx="92" cy="150" r="1"/><circle cx="240" cy="140" r="1.1"/></g>
+<polygon points="572,96 580,96 690,340 470,340" fill="url(#hBeam)"/>
+<circle cx="576" cy="82" r="90" fill="url(#hGlow)"/>
+<path d="M576 46 L582 76 L612 82 L582 88 L576 118 L570 88 L540 82 L570 76Z" fill="#FFF4D0"/>
+<path d="M0 238 C120 205 220 214 330 228 S560 198 800 226 V340 H0Z" fill="#33467E"/>
+<g fill="#28396A"><rect x="430" y="196" width="34" height="30" rx="2"/><rect x="460" y="184" width="40" height="42" rx="2"/><rect x="498" y="200" width="30" height="26" rx="2"/><rect x="526" y="190" width="38" height="36" rx="2"/><rect x="560" y="204" width="28" height="22" rx="2"/><path d="M470 184 a10 10 0 0 1 20 0z"/></g>
+<g fill="#F2C46B"><rect x="474" y="198" width="6" height="8" rx="1"/><rect x="540" y="202" width="6" height="7" rx="1"/><rect x="442" y="206" width="5" height="7" rx="1"/></g>
+<path d="M0 276 C180 250 300 262 440 276 S700 256 800 266 V340 H0Z" fill="#1D2A55"/>
+<g fill="#16214A"><ellipse cx="120" cy="262" rx="26" ry="18"/><ellipse cx="146" cy="254" rx="20" ry="16"/><rect x="128" y="262" width="5" height="22"/><ellipse cx="710" cy="256" rx="24" ry="16"/><rect x="707" y="262" width="5" height="18"/></g>
+<path d="M0 310 C220 292 420 300 800 302 V340 H0Z" fill="#131C3E"/>
+</svg>
+
+    <div class="hero-text">
+<span class="label">Yeniyetmələr üçün Müqəddəs Kitab dərsi · Matta, 1-ci dərs</span>
+<h1>Bizimlə olan Allah</h1>
+<p class="sub">Matta 1:1–25 · təxminən 50 dəqiqə</p>
+<p class="q">Əhdi-Cədidin ilk səhifəsini açanda qırxdan çox yad ad görürük. Matta niyə Müjdəni bu darıxdırıcı görünən siyahı ilə başlayır?</p>
+</div>
+</header>
+<div aria-label="Səsli oxu" class="audio" role="group">
+<button class="pill" id="playAll"><svg viewbox="0 0 16 16"><path d="M4 2l10 6-10 6z" fill="currentColor"></path></svg>Hamısını dinlə</button>
+<button class="pill ghost" id="stopAll">Dayandır</button>
+<button aria-pressed="false" class="pill ghost" id="slow">Yavaş</button>
+<p class="note" id="ttsNote">Nöqtəli xətt altındakı sözlərə toxun: mənası, orijinal dildə forması və koreyacası çıxacaq.</p>
+</div>
+<section class="aims">
+<div><b>Fon</b><p>Matta Müjdəsinin ilk oxucularını və nəsil şəcərəsinin mənasını anlayırıq.</p></div>
+<div><b>Əsas fikir</b><p>“İsa” və “İmmanuel” adlarının İsa Məsih haqqında nə dediyini izah edə bilirik.</p></div>
+<div><b>Tətbiq</b><p>Yusifin imanının sözlə yox, əməllə necə göründüyünü öz həyatımızla müqayisə edirik.</p></div>
+</section>
+<article class="scene">
+    <svg viewBox="0 0 400 300" role="img" aria-label="Dolama yolda üç nişan: İbrahimin çadırı, Davudun tacı, İsanın doğulduğu tövlə">
+<defs><linearGradient id="a1Sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#CFE2EC"/><stop offset="1" stop-color="#F4E8D2"/></linearGradient></defs>
+<rect width="400" height="300" fill="url(#a1Sky)"/>
+<circle cx="70" cy="56" r="22" fill="#FBE6B4" opacity=".9"/>
+<path d="M0 140 C80 110 160 128 230 112 S350 96 400 108 V300 H0Z" fill="#D7C9A0"/>
+<path d="M0 190 C90 160 170 182 260 160 S360 150 400 158 V300 H0Z" fill="#B9AD7C"/>
+<path d="M0 240 C110 215 220 238 400 214 V300 H0Z" fill="#8F9663"/>
+<path d="M24 300 C110 262 70 226 168 206 S300 170 252 140 S330 92 362 80" fill="none" stroke="#F6EEDD" stroke-width="16" stroke-linecap="round"/>
+<path d="M24 300 C110 262 70 226 168 206 S300 170 252 140 S330 92 362 80" fill="none" stroke="#E2D2B0" stroke-width="2" stroke-dasharray="2 10" stroke-linecap="round"/>
+<g><path d="M62 262 L88 222 L114 262Z" fill="#B65F3A"/><path d="M82 262 L88 244 L94 262Z" fill="#6E3420"/><line x1="88" y1="222" x2="88" y2="214" stroke="#6E3420" stroke-width="2"/></g>
+<g><rect x="190" y="160" width="26" height="34" fill="#E4D6B4"/><path d="M190 160 v-6 h6 v6 h4 v-6 h6 v6 h4 v-6 h6 v6" fill="#E4D6B4"/><path d="M193 146 l4-12 6 7 6-9 6 9 6-7 4 12z" fill="#D9A23B"/></g>
+<g><path d="M334 96 h44 v-20 l-22-14 -22 14z" fill="#7A5A3E"/><rect x="346" y="80" width="20" height="16" fill="#F3C98B"/><path d="M356 34 l3 10 10 3 -10 3 -3 10 -3-10 -10-3 10-3z" fill="#E7A93A"/></g>
+<g font-family="Nunito, sans-serif" font-size="13" text-anchor="middle">
+<rect x="56" y="268" width="64" height="22" rx="11" fill="#FFFFFF"/><text x="88" y="284" fill="#1C2A48">İbrahim</text>
+<rect x="158" y="200" width="90" height="22" rx="11" fill="#FFFFFF"/><text x="203" y="216" fill="#1C2A48">Padşah Davud</text>
+<rect x="330" y="102" width="50" height="22" rx="11" fill="#2C8A84"/><text x="355" y="118" fill="#FFFFFF">İsa</text>
+<text x="126" y="236" fill="#4F5A35" font-size="12">14 nəsil</text><text x="300" y="168" fill="#4F5A35" font-size="12">14 + 14 nəsil</text>
+</g>
+</svg>
+
+    <div class="txt">
+<div class="top"><span class="label">1 · 1–17-ci ayələr</span><button class="pill ghost say">🔊 Dinlə</button></div>
+<h3 data-a="y0">Niyə nəsil şəcərəsi ilə başlayır?</h3>
+<p data-a="y1">Matta ilk cümlədə İsanı “<button class="w" data-w="Davud oğlu">Davud oğlu</button>” və “İbrahim oğlu” olan <button class="w" data-w="Məsih">Məsih</button> kimi təqdim edir. İlk oxucular olan yəhudilər üçün <button class="w" data-w="nəsil şəcərəsi">nəsil şəcərəsi</button> şəxsiyyət vəsiqəsi kimi idi. Çünki vəd olunmuş Məsih mütləq Davudun nəslindən gəlməli idi.</p>
+<p data-a="y2">Allah İbrahimə “Sənin vasitənlə bütün millətlər xeyir-dua alacaq” <span class="ref">Yar. 12:3</span>, Davuda isə “Sənin taxtın əbədi olacaq” <span class="ref">2Şam. 7:16</span> demişdi. Matta göstərir ki, İsa bu iki vədin sahibidir.</p>
+<div class="deep"><h4>Dərindən baxaq · 14-ün sirri</h4><p data-a="y3">İbrani hərfləri rəqəm kimi də işlənirdi. Davud (דוד) adı ד(4)+ו(6)+ד(4)=14 edir. Bir çox alim düşünür ki, Matta şəcərəni 14 nəsildən ibarət üç hissəyə bölərək “Davud oğlu” fikrini vurğulayır.</p></div>
+</div>
+</article>
+<section aria-labelledby="chartT" class="chart">
+<h3 id="chartT" style="font-size:20px">Şəcərəyə bir baxış və dörd qadın</h3>
+<div class="scroll">
+<svg aria-label="İbrahimdən Davuda, Babil sürgününə və İsaya qədər hər biri 14 nəsildən ibarət üç hissə və şəcərədəki dörd qadın" role="img" viewbox="0 0 720 210">
+<rect fill="var(--gold-soft)" height="10" rx="5" width="220" x="20" y="86"></rect>
+<rect fill="var(--line)" height="10" rx="5" width="220" x="250" y="86"></rect>
+<rect fill="var(--teal-soft)" height="10" rx="5" width="220" x="480" y="86"></rect>
+<g fill="var(--soft)" font-family="Nunito, sans-serif" font-size="12" text-anchor="middle">
+<text x="130" y="30">① Vəd dövrü · 14 nəsil</text><text x="360" y="30">② Padşahlar dövrü · 14 nəsil</text><text x="590" y="30">③ Gözləmə dövrü · 14 nəsil</text>
+</g>
+<g fill="var(--ink)" font-family="Rubik, Nunito, sans-serif" font-size="14" font-weight="700" text-anchor="middle">
+<circle cx="24" cy="91" fill="var(--gold)" r="9"></circle><text x="40" y="68">İbrahim</text>
+<circle cx="245" cy="91" fill="var(--gold)" r="11"></circle><text x="245" y="68">Padşah Davud</text>
+<circle cx="475" cy="91" fill="var(--soft)" r="9"></circle><text x="475" y="68">Babil sürgünü</text>
+<circle cx="700" cy="91" fill="var(--teal)" r="12"></circle><text x="690" y="68">İsa</text>
+</g>
+<g font-family="Nunito, sans-serif" font-size="12.5" text-anchor="middle">
+<line stroke="var(--rose)" x1="80" x2="80" y1="96" y2="130"></line><circle cx="80" cy="91" fill="var(--rose)" r="6"></circle><text fill="var(--rose)" x="80" y="146">Tamar</text><text fill="var(--soft)" x="80" y="162">Yəhudanın gəlini</text>
+<line stroke="var(--rose)" x1="155" x2="155" y1="96" y2="130"></line><circle cx="155" cy="91" fill="var(--rose)" r="6"></circle><text fill="var(--rose)" x="160" y="146">Rahav</text><text fill="var(--soft)" x="160" y="162">Yerixolu yadelli</text>
+<line stroke="var(--rose)" x1="205" x2="205" y1="96" y2="176"></line><circle cx="205" cy="91" fill="var(--rose)" r="6"></circle><text fill="var(--rose)" x="205" y="192">Rut</text><text fill="var(--soft)" x="205" y="206">Moavlı qadın</text>
+<line stroke="var(--rose)" x1="285" x2="285" y1="96" y2="130"></line><circle cx="285" cy="91" fill="var(--rose)" r="6"></circle><text fill="var(--rose)" x="300" y="146">Uriyanın arvadı</text><text fill="var(--soft)" x="300" y="162">Bat-Şeva</text>
+<circle cx="680" cy="91" fill="var(--indigo)" r="6"></circle><text fill="var(--indigo)" x="650" y="130">Yusif · Məryəm</text>
+</g>
+</svg>
+</div>
+<div class="deep rose"><h4>Dərindən baxaq · Şəcərədəki dörd qadın</h4><p data-a="y4">O dövrün şəcərələrində adətən yalnız kişilərin adı yazılırdı. Amma Matta qəsdən dörd qadının adını əlavə edir. Onlar ya yadelli idilər, ya da ağrılı bir keçmişləri var idi. Allahın xilas hekayəsində kamil insanlarla yanaşı, səhv edən və yaralanan insanlar, həmçinin İsraildən kənarda olanlar da var.</p></div>
+</section>
+<article class="scene">
+    <svg viewBox="0 0 400 300" role="img" aria-label="Gün batanda Nazaretdə üz-üzə dayanan Məryəm və Yusif">
+<defs><linearGradient id="a2Sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#EBA87E"/><stop offset=".6" stop-color="#F6D3A6"/><stop offset="1" stop-color="#F8E3C2"/></linearGradient>
+<radialGradient id="a2Glow"><stop offset="0" stop-color="#FFF8E4" stop-opacity=".9"/><stop offset="1" stop-color="#FFF8E4" stop-opacity="0"/></radialGradient></defs>
+<rect width="400" height="300" fill="url(#a2Sky)"/>
+<circle cx="292" cy="150" r="46" fill="#FCE5BE"/>
+<path d="M0 182 C90 160 200 172 400 160 V300 H0Z" fill="#D9A274"/>
+<g fill="#EBCDA2"><rect x="230" y="150" width="40" height="34"/><rect x="266" y="140" width="34" height="44"/><rect x="300" y="156" width="44" height="28"/><rect x="340" y="146" width="36" height="38"/></g>
+<g fill="#B47C52"><rect x="244" y="166" width="10" height="18"/><rect x="310" y="168" width="8" height="10"/><rect x="352" y="160" width="7" height="8"/></g>
+<path d="M0 222 C120 206 250 214 400 204 V300 H0Z" fill="#C59365"/>
+<g><rect x="54" y="150" width="7" height="80" fill="#6B5440"/><ellipse cx="58" cy="140" rx="38" ry="22" fill="#7C8A57"/><ellipse cx="38" cy="156" rx="22" ry="14" fill="#6B7A4A"/><ellipse cx="80" cy="152" rx="22" ry="14" fill="#6B7A4A"/></g>
+<circle cx="176" cy="150" r="54" fill="url(#a2Glow)"/>
+<ellipse cx="176" cy="282" rx="34" ry="6" fill="#9E7148" opacity=".5"/>
+<ellipse cx="242" cy="282" rx="34" ry="6" fill="#9E7148" opacity=".5"/>
+<path d="M152 282 C150 232 158 196 176 186 C194 196 202 232 200 282Z" fill="#3F5FA0"/>
+<path d="M158 196 C152 168 162 148 176 146 C190 148 200 168 194 196 C188 188 164 188 158 196Z" fill="#7F9BD1"/>
+<circle cx="176" cy="166" r="11" fill="#E8B98F"/>
+<path d="M163 168 C163 150 189 150 189 168 C186 158 166 158 163 168Z" fill="#7F9BD1"/>
+<path d="M220 282 C218 230 226 196 242 186 C258 196 266 230 264 282Z" fill="#8F5A39"/>
+<rect x="222" y="226" width="40" height="6" rx="3" fill="#D9A85B"/>
+<path d="M226 190 C224 164 230 150 242 148 C254 150 260 164 258 190Z" fill="#EADBBE"/>
+<circle cx="242" cy="168" r="10" fill="#D9A983"/>
+<path d="M231 160 q11 -7 22 0" stroke="#9C6B43" stroke-width="3" fill="none" stroke-linecap="round"/>
+</svg>
+
+    <div class="txt">
+<div class="top"><span class="label">2 · 18-ci ayə</span><button class="pill ghost say">🔊 Dinlə</button></div>
+<h3 data-a="y5">Nişanlı, amma hələ evlənməmiş</h3>
+<p data-a="y6">O dövrdə yəhudilərin <button class="w" data-w="nişan">nişan</button>ı bugünkündən daha ciddi söz idi. Qanuna görə onlar artıq ər-arvad sayılırdılar və nişanı pozmaq üçün boşanma lazım idi. Adətən təxminən bir il sonra bəy gəlini evinə aparır və onlar birlikdə yaşamağa başlayırdılar.</p>
+<p data-a="y7">Elə bu müddətdə Məryəm <button class="w" data-w="Müqəddəs Ruh">Müqəddəs Ruh</button> vasitəsilə hamilə olur. Matta açıq göstərir ki, bu, insan planı deyil, Allahın Özünün etdiyi işdir.</p>
+</div>
+</article>
+<article class="scene">
+    <svg viewBox="0 0 400 300" role="img" aria-label="Gecə yatan Yusifin yanında parlaq mələk">
+<defs><linearGradient id="a3Bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#18244A"/><stop offset="1" stop-color="#2E3F74"/></linearGradient>
+<radialGradient id="a3Glow"><stop offset="0" stop-color="#FFF4D2" stop-opacity=".95"/><stop offset=".4" stop-color="#FFE9B0" stop-opacity=".35"/><stop offset="1" stop-color="#FFE9B0" stop-opacity="0"/></radialGradient>
+<linearGradient id="a3Robe" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#F1E2BE"/></linearGradient></defs>
+<rect width="400" height="300" fill="url(#a3Bg)"/>
+
+<path d="M36 102 a35 35 0 0 0 70 0 V40 H36Z" fill="#0D1530"/>
+<path d="M82 62 a14 14 0 1 0 8 24 a11 11 0 1 1 -8 -24z" fill="#F4E4B0"/>
+<circle cx="52" cy="58" r="1.4" fill="#FFF6DA"/><circle cx="64" cy="94" r="1.2" fill="#FFF6DA"/>
+<rect x="0" y="240" width="400" height="60" fill="#223060"/>
+<circle cx="290" cy="150" r="120" fill="url(#a3Glow)"/>
+<rect x="34" y="236" width="190" height="18" rx="9" fill="#6E5640"/>
+<path d="M62 238 C80 214 200 212 218 236Z" fill="#A86E48"/>
+<circle cx="56" cy="228" r="11" fill="#D9A983"/>
+<path d="M44 230 C44 214 68 214 68 228 C62 222 50 222 44 230Z" fill="#EADBBE"/>
+<path d="M276 120 C236 92 214 130 222 170 C236 150 256 140 276 140Z" fill="#FFF8E6" opacity=".92"/>
+<path d="M304 120 C344 92 366 130 358 170 C344 150 324 140 304 140Z" fill="#FFF8E6" opacity=".92"/>
+<path d="M290 112 C278 140 268 196 262 244 H318 C312 196 302 140 290 112Z" fill="url(#a3Robe)"/>
+<circle cx="290" cy="104" r="12" fill="#F2D3AE"/>
+<ellipse cx="290" cy="86" rx="15" ry="4" fill="none" stroke="#F0C46A" stroke-width="2.5"/>
+<g fill="#F7D98A"><circle cx="230" cy="200" r="2"/><circle cx="196" cy="214" r="1.6"/><circle cx="160" cy="206" r="1.3"/><circle cx="128" cy="218" r="1.1"/></g>
+</svg>
+
+    <div class="txt">
+<div class="top"><span class="label">3 · 19–21-ci ayələr</span><button class="pill ghost say">🔊 Dinlə</button></div>
+<h3 data-a="y8">Saleh adam Yusifin seçimi</h3>
+<p data-a="y9">Qanuna görə Yusif bu işi hamının qarşısında qaldıra bilərdi. Amma o, Məryəmi rüsvay etmək istəmir və gizlicə ayrılmağı qərara alır. Mattanın dediyi <button class="w" data-w="saleh">saleh</button>lik qanuna əməl etməklə insanı sevməyin bir yerdə olmasıdır.</p>
+<p data-a="y10">O zaman yuxuda bir mələk ona “Davud oğlu Yusif, qorxma” deyir və körpənin adını <button class="w" data-w="İsa">İsa</button> qoymağı tapşırır. Çünki O, Öz xalqını <button class="w" data-w="günah">günah</button>larından <button class="w" data-w="xilas">xilas</button> edəcək.</p>
+<div class="deep"><h4>Dərindən baxaq · Adın içindəki vəzifə</h4><p data-a="y11">“İsa” adı İbranicə “Yeşua” adından gəlir və “Rəbb xilas edir” deməkdir. Bir çox yəhudi onları Roma hakimiyyətindən azad edəcək Məsihi gözləyirdi. Amma mələk İsanın xilas edəcəyi şeyin “günah” olduğunu deyir. Bu o deməkdir ki, O, daha dərin problemi həll etməyə gəldi.</p></div>
+</div>
+</article>
+<article class="scene">
+    <svg viewBox="0 0 400 300" role="img" aria-label="Çıraq yanında açılmış Yeşaya tumarı">
+<defs><linearGradient id="a4Bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#352820"/><stop offset="1" stop-color="#5A3F2F"/></linearGradient>
+<radialGradient id="a4Glow"><stop offset="0" stop-color="#FFD98E" stop-opacity=".75"/><stop offset="1" stop-color="#FFD98E" stop-opacity="0"/></radialGradient>
+<linearGradient id="a4Par" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F7EACB"/><stop offset="1" stop-color="#E8D3A6"/></linearGradient></defs>
+<rect width="400" height="300" fill="url(#a4Bg)"/>
+<circle cx="322" cy="190" r="140" fill="url(#a4Glow)"/>
+<rect x="0" y="228" width="400" height="72" fill="#6E4C36"/>
+<rect x="0" y="228" width="400" height="4" fill="#83603F"/>
+<rect x="74" y="116" width="196" height="104" fill="url(#a4Par)"/>
+<rect x="60" y="108" width="18" height="120" rx="9" fill="#9A6B45"/><rect x="266" y="108" width="18" height="120" rx="9" fill="#9A6B45"/>
+<g fill="#7A5A36"><rect x="65" y="100" width="8" height="10" rx="3"/><rect x="65" y="226" width="8" height="10" rx="3"/><rect x="271" y="100" width="8" height="10" rx="3"/><rect x="271" y="226" width="8" height="10" rx="3"/></g>
+<g stroke="#B79A6C" stroke-width="3" stroke-linecap="round"><line x1="96" y1="138" x2="246" y2="138"/><line x1="96" y1="154" x2="226" y2="154"/><line x1="96" y1="186" x2="236" y2="186"/><line x1="96" y1="202" x2="200" y2="202"/></g>
+<line x1="96" y1="170" x2="250" y2="170" stroke="#D9A23B" stroke-width="5" stroke-linecap="round"/>
+<path d="M300 228 C300 210 318 204 340 210 L356 204 C352 214 346 222 336 228Z" fill="#C08A4E"/>
+<path d="M352 196 C346 186 352 176 356 170 C360 178 364 188 352 196Z" fill="#FFC44D"/>
+<circle cx="355" cy="186" r="16" fill="#FFE29A" opacity=".45"/>
+<text x="172" y="252" text-anchor="middle" font-family="Nunito, sans-serif" font-size="14" fill="#F3DDB0">Yeşaya 7:14 · təxminən 700 il əvvəl</text>
+</svg>
+
+    <div class="txt">
+<div class="top"><span class="label">4 · 22–23-cü ayələr</span><button class="pill ghost say">🔊 Dinlə</button></div>
+<h3 data-a="y12">“Vəd yerinə yetsin deyə”</h3>
+<p data-a="y13">Matta deyir ki, bu hadisə <button class="w" data-w="peyğəmbər">peyğəmbər</button> Yeşayanın sözünün <span class="ref">Yeş. 7:14</span> <button class="w" data-w="yerinə yetmək">yerinə yetməsi</button> üçün baş verdi. Matta Müjdəsində bu cür “yerinə yetmə” ifadəsi ondan çox dəfə keçir. Matta göstərmək istəyir ki, İsanın bütün həyatı Əhdi-Ətiqdəki vədlərin tamamlanmasıdır.</p>
+<p data-a="y14">O uşağın adı <button class="w" data-w="İmmanuel">İmmanuel</button>dir, yəni “Allah bizimlədir”.</p>
+<div class="deep"><h4>Dərindən baxaq · Başlanğıc və son</h4><p data-a="y15">Matta Müjdəsi 1:23-də “Allah bizimlədir” sözləri ilə başlayır və sonda, 28:20-də İsanın “Mən dünyanın sonunadək hər zaman sizinləyəm” vədi ilə bitir. Bütün kitab “bizimlə olan Allah” mövzusu ilə əhatələnib.</p></div>
+</div>
+</article>
+<article class="scene">
+    <svg viewBox="0 0 400 300" role="img" aria-label="Ulduz işığı altında tövlədə körpə İsanı qucaqlayan Məryəm və yanında Yusif">
+<defs><linearGradient id="a5Sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#132048"/><stop offset="1" stop-color="#3A4A82"/></linearGradient>
+<radialGradient id="a5In"><stop offset="0" stop-color="#FFE0A6"/><stop offset="1" stop-color="#E8A960"/></radialGradient>
+<linearGradient id="a5Beam" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFF1C4" stop-opacity=".35"/><stop offset="1" stop-color="#FFF1C4" stop-opacity="0"/></linearGradient></defs>
+<rect width="400" height="300" fill="url(#a5Sky)"/>
+<polygon points="196,52 204,52 270,170 130,170" fill="url(#a5Beam)"/>
+<path d="M200 22 l4 18 18 4 -18 4 -4 18 -4-18 -18-4 18-4z" fill="#FFF1C4"/>
+<path d="M60 116 L200 76 L340 116 L340 128 L60 128Z" fill="#5E432F"/>
+<rect x="76" y="126" width="248" height="128" fill="url(#a5In)"/>
+<rect x="70" y="126" width="12" height="134" fill="#6B4A34"/><rect x="318" y="126" width="12" height="134" fill="#6B4A34"/>
+<rect x="0" y="252" width="400" height="48" fill="#2A355F"/>
+<path d="M76 254 C130 240 270 240 324 254Z" fill="#D9B26C"/>
+<path d="M150 254 C146 220 152 196 172 188 C192 196 198 220 196 254Z" fill="#3F5FA0"/>
+<path d="M156 198 C150 172 160 154 172 152 C184 154 194 172 188 198 C182 190 162 190 156 198Z" fill="#7F9BD1"/>
+<circle cx="172" cy="170" r="10" fill="#E8B98F"/>
+<path d="M160 172 C160 156 184 156 184 172 C181 162 163 162 160 172Z" fill="#7F9BD1"/>
+<ellipse cx="180" cy="216" rx="22" ry="11" fill="#FBF3E1"/><circle cx="166" cy="212" r="7" fill="#EAC09A"/>
+<path d="M226 254 C224 210 230 180 246 170 C262 180 268 210 266 254Z" fill="#8F5A39"/>
+<rect x="228" y="212" width="36" height="5" rx="2.5" fill="#D9A85B"/>
+<path d="M231 176 C229 150 235 136 246 134 C257 136 263 150 261 176Z" fill="#EADBBE"/>
+<circle cx="246" cy="154" r="9.5" fill="#D9A983"/>
+<path d="M236 146 q10 -6 20 0" stroke="#9C6B43" stroke-width="3" fill="none" stroke-linecap="round"/>
+<line x1="276" y1="150" x2="270" y2="254" stroke="#7A5638" stroke-width="4" stroke-linecap="round"/>
+</svg>
+
+    <div class="txt">
+<div class="top"><span class="label">5 · 24–25-ci ayələr</span><button class="pill ghost say">🔊 Dinlə</button></div>
+<h3 data-a="y16">Söz yox, əməl</h3>
+<p data-a="y17">Yusif yuxudan oyanır və mələyin əmr etdiyi kimi Məryəmi evinə aparır. Körpə doğulanda onun adını İsa qoyur.</p>
+<p data-a="y18">Müqəddəs Kitabda Yusifin dediyi bir kəlmə də yazılmayıb. Onun imanı sözlə deyil, əməllə görünür. Atanın uşağa ad qoyması o uşağı qanuni olaraq öz oğlu kimi qəbul etmək demək idi. Buna görə İsa Yusif vasitəsilə “Davud oğlu” olur.</p>
+</div>
+</article>
+<div class="head"><h2>Adlarla xülasə</h2><span>1-ci fəsil İsanı beş adla çağırır</span></div>
+<div class="tbl"><table>
+<thead><tr><th>Ad</th><th>Mənası</th><th>Mattanın demək istədiyi</th></tr></thead>
+<tbody>
+<tr><td>İbrahim oğlu</td><td>İmanın atasının nəsli</td><td>Bütün millətlərə xeyir-dua vədinin yerinə yetməsi</td></tr>
+<tr><td>Davud oğlu</td><td>Padşah Davudun nəsli</td><td>Əbədi Padşah, vəd olunmuş Məsih</td></tr>
+<tr><td>Məsih</td><td>Məsh olunmuş</td><td>Allahın təyin etdiyi Xilaskar Padşah</td></tr>
+<tr><td>İsa</td><td>Rəbb xilas edir</td><td>Öz xalqını günahlarından xilas edir</td></tr>
+<tr><td>İmmanuel</td><td>Allah bizimlədir</td><td>Allah insanlar arasına gəlib bizimlə olur</td></tr>
+</tbody>
+</table></div>
+<section class="verse">
+<div style="display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap"><span class="label" style="color:#F0C46A">Bu həftənin əzbər ayəsi</span><button class="pill ghost" id="sayVerse">🔊 Dinlə</button></div>
+<p class="big" data-a="verse" id="verseText">“Məryəm bir oğul doğacaq. Onun adını İsa qoy. Çünki O, Öz xalqını günahlarından xilas edəcək.”</p>
+<p class="src">Matta 1:21 · sadə dildə · birlikdə oxu: Matta 1:23, 28:20</p>
+</section>
+<div class="head"><h2>Söz lüğəti və orijinal dil</h2><span>Toxun, ətraflı bax</span></div>
+<div class="dict" id="dict"></div>
+<div class="head"><h2>Yoxlama sualları</h2><span>5 sual</span></div>
+<div class="quiz" id="quiz"></div>
+<section class="card">
+<h2 style="font-size:24px">Paylaşma sualları</h2>
+<ol>
+<li>Mattanın şəcərəyə dörd qadının adını yazması sənə necə təsəlli verir?</li>
+<li>Sən Yusif olsaydın, yuxudan sonrakı səhər nə hiss edərdin? Ən çətin nə olardı?</li>
+<li>“Allah bizimlədir” sözü məktəbdə, evdə və dostluqda hansı fərqi yarada bilər?</li>
+<li>Bu həftə imanını sözlə yox, əməllə göstərə biləcəyin bir iş nədir?</li>
+</ol>
+</section>
+<section class="card">
+<h2 style="font-size:24px">Mənim etirafım</h2>
+<label for="mine">Bu gün öyrəndiyimiz beş addan hansı indi sənə ən çox lazımdır? Səbəbini də yazaraq üç-dörd cümlə yaz.</label>
+<textarea id="mine" placeholder="Məsələn: Mənə ən çox “İmmanuel” lazımdır. Son vaxtlar məktəbdə özümü tək hiss edirəm…"></textarea>
+</section>
+<section class="verse" style="background:#0E1736">
+<span class="label" style="color:#F0C46A">Bağlanış duası</span>
+<p data-a="prayer" id="prayerText" style="font-size:17px;line-height:1.8">Ya Rəbb Allah, çoxdan verdiyin vədi unutmayıb İsanı göndərdiyin üçün Sənə şükür edirik. Səhvləri və yaraları olan insanları da qucaqlayan lütfünü öyrəndik. Yusif kimi, anlamadığımız vaxtlarda belə Sənin sözünə inanıb əməl etməyə kömək et. İmmanuel İsa Məsihin adı ilə dua edirik. Amin.</p>
+<button class="pill ghost" id="sayPrayer" style="align-self:flex-start">🔊 Duanı dinlə</button>
+</section>
+</div>
+<div class="sheet-bg" hidden="" id="sheetBg"></div>
+<div aria-labelledby="sTitle" aria-modal="true" class="sheet" hidden="" id="sheet" role="dialog">
+<div class="row"><div class="ic" id="sIcon"></div><div><h3 id="sTitle"></h3><div class="az" id="sAz"></div></div></div>
+<p id="sMean"></p>
+<p class="ex" id="sEx"></p>
+<div class="btns"><button class="pill ghost" id="sSay">🔊 Dinlə</button><button class="pill" id="sClose">Bağla</button></div>
+</div>
+
+<script>
+/* Səsli oxu: əvvəlcədən yazılmış Azərbaycan dili səs faylları (Banu) */
+const ttsNote=document.getElementById('ttsNote');
+const AUD={el:null,queue:[],rate:0.9,cur:null,follow:false};
+function stopTTS(){AUD.queue=[];if(AUD.el){try{AUD.el.pause()}catch(e){}AUD.el=null}document.querySelectorAll('.reading').forEach(e=>e.classList.remove('reading'))}
+function next(){if(AUD.cur)AUD.cur.classList.remove('reading');const it=AUD.queue.shift();if(!it){AUD.el=null;AUD.cur=null;return}
+ const a=new Audio('audio/'+it.k+'.mp3');a.playbackRate=AUD.rate;a.preservesPitch=true;AUD.el=a;AUD.cur=it.el||null;
+ if(it.el){it.el.classList.add('reading');if(AUD.follow){const m=matchMedia('(prefers-reduced-motion: reduce)').matches;it.el.scrollIntoView({block:'center',behavior:m?'auto':'smooth'})}}
+ a.onended=next;a.onerror=()=>{if(ttsNote)ttsNote.textContent='Səs faylı açılmadı. İnterneti yoxla və yenidən cəhd et.';next()};
+ a.play().catch(()=>next());}
+function speakEls(els,follow){stopTTS();AUD.follow=!!follow;AUD.queue=els.filter(e=>e&&e.dataset.a).map(e=>({k:e.dataset.a,el:e}));next()}
+function speakKey(k){stopTTS();AUD.queue=[{k}];next()}
+const I={
+ tree:'<svg viewBox="0 0 48 48"><rect x="21" y="26" width="6" height="18" rx="2" fill="#8A6A4E"/><circle cx="24" cy="20" r="15" fill="#2A7F7A"/><circle cx="18" cy="16" r="3" fill="#C2861C"/><circle cx="30" cy="22" r="3" fill="#C2861C"/></svg>',
+ oil:'<svg viewBox="0 0 48 48"><path d="M16 14h16l-2 6c6 4 8 10 6 18H12c-2-8 0-14 6-18z" fill="#C2861C"/><path d="M24 30c-4 4 4 8 0 12" stroke="#fff" stroke-width="2" fill="none"/></svg>',
+ crown:'<svg viewBox="0 0 48 48"><path d="M7 36l3-20 9 9 5-13 5 13 9-9 3 20z" fill="#C2861C"/></svg>',
+ ring:'<svg viewBox="0 0 48 48"><circle cx="24" cy="29" r="12" fill="none" stroke="#C2861C" stroke-width="5"/><path d="M18 13l6-7 6 7-6 6z" fill="#5C7FC1"/></svg>',
+ dove:'<svg viewBox="0 0 48 48"><path d="M6 28q14-4 20-16q4 10 16 8q-6 14-24 14q-6 0-12-6z" fill="#fff" stroke="#58627E" stroke-width="2"/></svg>',
+ scale:'<svg viewBox="0 0 48 48"><path d="M24 6v34M12 40h24M8 14h32" stroke="#58627E" stroke-width="3" stroke-linecap="round"/><path d="M8 14l-5 12h10zM40 14l-5 12h10z" fill="#C2861C"/></svg>',
+ name:'<svg viewBox="0 0 48 48"><rect x="6" y="12" width="36" height="24" rx="4" fill="#fff" stroke="#C2861C" stroke-width="2"/><text x="24" y="30" text-anchor="middle" font-size="14" font-family="sans-serif" fill="#253170">ישוע</text></svg>',
+ target:'<svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="18" fill="none" stroke="#58627E" stroke-width="3"/><circle cx="24" cy="24" r="10" fill="none" stroke="#58627E" stroke-width="3"/><circle cx="24" cy="24" r="3" fill="#58627E"/><path d="M40 8L30 14" stroke="#B4544A" stroke-width="3"/><circle cx="40" cy="8" r="3" fill="#B4544A"/></svg>',
+ hand:'<svg viewBox="0 0 48 48"><path d="M6 30q8-8 18 0h12q4 0 4 4t-4 4H18" stroke="#58627E" stroke-width="3" fill="none" stroke-linecap="round"/><circle cx="34" cy="16" r="7" fill="#C2861C"/></svg>',
+ scroll:'<svg viewBox="0 0 48 48"><rect x="10" y="12" width="28" height="24" fill="#F7EACB"/><rect x="6" y="9" width="6" height="30" rx="3" fill="#9A6B45"/><rect x="36" y="9" width="6" height="30" rx="3" fill="#9A6B45"/><line x1="15" y1="24" x2="33" y2="24" stroke="#C2861C" stroke-width="3"/></svg>',
+ fill:'<svg viewBox="0 0 48 48"><path d="M14 10h20l-4 28H18z" fill="none" stroke="#58627E" stroke-width="3"/><path d="M16 22h16l-2 16H18z" fill="#2A7F7A"/></svg>',
+ heart:'<svg viewBox="0 0 48 48"><path d="M24 40Q4 26 8 14q6-10 16 0q10-10 16 0q4 12-16 26z" fill="#B4544A"/></svg>'
+};
+const W={
+ "nəsil şəcərəsi":{i:"tree",o:"Yunanca biblos geneseos (nəsil kitabı)",k:"족보",short:"Əcdadların adlarının ardıcıl siyahısı",m:"Bir ailənin nəslini nəsildən-nəslə yazan qeyddir. Yəhudi cəmiyyətində kimin hansı qəbilədən, hansı ailədən olduğunu sübut edən vacib sənəd idi.",e:"Matta 1:1-dəki “genesis” sözü Yaradılış kitabının adı ilə eynidir. Bu, yeni yaradılışın başlanğıcı hissini verir."},
+ "Məsih":{i:"oil",o:"Yunanca Xristos · İbranicə Maşiah",k:"그리스도",short:"Məsh olunmuş, vəd edilmiş Xilaskar",m:"“Məsh olunmuş” deməkdir. Əhdi-Ətiqdə padşah və kahin təyin olunanda başına yağ tökülürdü. Bu söz Allahın vəd etdiyi Xilaskar Padşahı göstərir.",e:"“İsa Məsih” ad və soyad deyil, “İsa Məsihdir” imanının ifadəsidir."},
+ "Davud oğlu":{i:"crown",o:"Yunanca hüios David",k:"다윗의 자손",short:"Yəhudilərin Məsihə verdiyi ad",m:"Allah Davuda əbədi taxt vəd etdiyi üçün yəhudilər Məsihi “Davud oğlu” adlandırırdılar.",e:"Matta Müjdəsində xəstələr bir neçə dəfə “Ya Davud Oğlu, bizə rəhm et!” deyə fəryad edirlər."},
+ "nişan":{i:"ring",o:"Yunanca mnesteuo",k:"약혼",short:"Qanuni gücü olan evlilik sözü",m:"O dövrdə nişan qanuni olaraq ər-arvadlıqla eyni idi. Nişanlılar birlikdə yaşamasalar da, nişanı pozmaq üçün boşanma kağızı lazım idi.",e:"19–20-ci ayələrdə Yusif Məryəmin “əri”, Məryəm isə Yusifin “arvadı” adlanır."},
+ "Müqəddəs Ruh":{i:"dove",o:"Yunanca Pnevma Hagion",k:"성령",short:"Allahın Ruhu",m:"Allahın Ruhudur. Yaradılış 1-də dünya yaradılanda hərəkət edən Allahın Ruhu indi yeni bir başlanğıc edir.",e:"İsanın ana bətninə düşməsi insan gücü ilə deyil, Allahın qüdrəti ilə oldu."},
+ "saleh":{i:"scale",o:"Yunanca dikaios",k:"의로운",short:"Allah qarşısında düz insan",m:"Allahın iradəsinə uyğun yaşamaqdır. Matta Müjdəsində salehlik təkcə qaydalara əməl etmək deyil, mərhəmətlə bir yerdədir.",e:"İsanın “Mən qurban deyil, mərhəmət istəyirəm” (Mat. 9:13) sözü ilə bağlıdır."},
+ "İsa":{i:"name",o:"İbranicə Yeşua · Yunanca İesus",k:"예수",short:"Rəbb xilas edir",m:"Əhdi-Ətiqdəki Yeşua adı ilə eynidir. “Rəbb xilas edir” deməkdir; adın özü İsanın vəzifəsini bildirir.",e:"Yeşua xalqı vəd olunmuş torpağa apardığı kimi, İsa da xalqı günahdan xilasa aparır."},
+ "günah":{i:"target",o:"Yunanca hamartia",k:"죄",short:"Hədəfdən yayınmaq",m:"Əslində “hədəfi vura bilməmək” deməkdir. Allahın yaratdığı məqsəddən uzaqlaşmış vəziyyəti və əməlləri bildirir.",e:"Günah yalnız bir neçə pis əməl deyil, ürəyin Allahdan uzaqlaşmasıdır."},
+ "xilas":{i:"hand",o:"Yunanca sozo",k:"구원",short:"Təhlükədən qurtarıb həyat vermək",m:"Təhlükədən qurtarmaq, xəstəliyi sağaltmaq və insanı tam etmək mənalarını da daşıyır.",e:"Matta Müjdəsində eyni söz xəstələrin “sağalması” üçün də işlənir."},
+ "peyğəmbər":{i:"scroll",o:"Yunanca profetes · İbranicə navi",k:"선지자",short:"Allahın sözünü çatdıran insan",m:"Allahın sözünü alıb xalqa çatdıran insandır. Gələcəkdən də danışırdılar, amma ən çox xalqı Allaha qayıtmağa çağırırdılar.",e:"Yeşaya İsadan təxminən 700 il əvvəl yaşamışdı."},
+ "yerinə yetmək":{i:"fill",o:"Yunanca pleroo",k:"이루다 (성취)",short:"Doldurmaq, tamamlamaq",m:"Boş qabı doldurmaq kimi vədi tamamlamaq deməkdir. Matta Müjdəsinin əsas sözlərindən biridir.",e:"“Mən Qanunu və ya peyğəmbərlərin sözlərini ləğv etməyə deyil, yerinə yetirməyə gəldim” (Mat. 5:17) ayəsində də bu söz var."},
+ "İmmanuel":{i:"heart",o:"İbranicə İmmanu El",k:"임마누엘",short:"Allah bizimlədir",m:"“İmmanu” – “bizimlə”, “El” – “Allah” deməkdir. Allahın uzaqda deyil, aramıza gələn Allah olduğunu bildirir.",e:"Matta 28:20-dəki son vədlə cüt təşkil edir."}
+};
+const Q=[
+ {q:'Mattanın şəcərəni 14 nəsildən ibarət üç hissəyə bölməsinin səbəbi kimi ən çox nə deyilir?',o:['14 xoşbəxt rəqəm olduğu üçün','İbranicə Davud adının rəqəm cəmi 14 olduğu üçün','Həqiqi nəsil sayı düz 42 olduğu üçün'],a:1,f:'Düzdür. Bütün şəcərə “Davud oğlu” İsanı göstərir.'},
+ {q:'Matta şəcərəsindəki dörd qadından biri olmayan kimdir?',o:['Tamar','Rahav','Sara','Rut'],a:2,f:'Düzdür. Sara İbrahimin arvadıdır, amma Mattanın şəcərəsində yoxdur.'},
+ {q:'Matta 1-də Yusifin salehliyini ən yaxşı izah edən hansıdır?',o:['Qanunu sərt tətbiq etmək','Qanuna əməl edib Məryəmi də qorumaq','Heç nə etmədən gözləmək'],a:1,f:'Düzdür. Qayda ilə mərhəmət bir yerdədir.'},
+ {q:'“İsa” adı nə deməkdir?',o:['Məsh olunmuş','Allah bizimlədir','Rəbb xilas edir'],a:2,f:'Düzdür. “Məsh olunmuş” Məsih, “Allah bizimlədir” isə İmmanueldir.'},
+ {q:'1:23-dəki “İmmanuel” ilə cüt təşkil edən son vəd harada yazılıb?',o:['Matta 5:17','Matta 16:16','Matta 28:20'],a:2,f:'Düzdür. “Mən dünyanın sonunadək hər zaman sizinləyəm.”'}
+];
+
+const bg=document.getElementById('sheetBg'),sh=document.getElementById('sheet');let lastBtn=null,curWord=null;
+function openW(k,btn){const d=W[k];if(!d)return;lastBtn=btn;curWord=k;
+ document.getElementById('sIcon').innerHTML=I[d.i]||'';document.getElementById('sTitle').textContent=k;
+ document.getElementById('sAz').textContent='Orijinal: '+d.o+' · Koreyaca: '+d.k;
+ document.getElementById('sMean').textContent=d.m;document.getElementById('sEx').textContent=d.e;
+ bg.hidden=false;sh.hidden=false;document.getElementById('sClose').focus();}
+function closeW(){stopTTS();bg.hidden=true;sh.hidden=true;if(lastBtn)lastBtn.focus();}
+bg.onclick=closeW;document.getElementById('sClose').onclick=closeW;
+document.getElementById('sSay').onclick=()=>{const n=Object.keys(W).indexOf(curWord);if(n>=0)speakKey('d'+n)};
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!sh.hidden)closeW()});
+document.querySelectorAll('.w').forEach(b=>b.onclick=()=>openW(b.dataset.w,b));
+const dictEl=document.getElementById('dict');
+Object.keys(W).forEach(k=>{const b=document.createElement('button');b.innerHTML='<span class="ic">'+(I[W[k].i]||'')+'</span><span><b></b><small></small></span>';
+ b.querySelector('b').textContent=k;b.querySelector('small').textContent=W[k].short;b.onclick=()=>openW(k,b);dictEl.appendChild(b)});
+document.querySelectorAll('.scene .say').forEach(b=>b.onclick=()=>speakEls([...b.closest('.scene').querySelectorAll('[data-a]')]));
+document.getElementById('playAll').onclick=()=>speakEls([...document.querySelectorAll('[data-a]')].filter(e=>e.id!=='prayerText'),true);
+document.getElementById('stopAll').onclick=stopTTS;
+AUD.rate=1;const slow=document.getElementById('slow');
+slow.onclick=()=>{const on=slow.getAttribute('aria-pressed')!=='true';slow.setAttribute('aria-pressed',on);AUD.rate=on?0.85:1;if(AUD.el)AUD.el.playbackRate=AUD.rate};
+document.getElementById('sayVerse').onclick=()=>speakEls([document.getElementById('verseText')]);
+document.getElementById('sayPrayer').onclick=()=>speakEls([document.getElementById('prayerText')]);
+const qz=document.getElementById('quiz');
+Q.forEach((it,qi)=>{const d=document.createElement('div');d.className='q';d.innerHTML='<p></p><div class="opts"></div><div class="fb" aria-live="polite"></div>';
+ d.querySelector('p').textContent=(qi+1)+'. '+it.q;const op=d.querySelector('.opts'),fb=d.querySelector('.fb');
+ it.o.forEach((t,oi)=>{const b=document.createElement('button');b.textContent=t;
+  b.onclick=()=>{if(oi===it.a){b.className='ok';fb.textContent=it.f}else{b.className='no';fb.textContent='Yenə fikirləş. Mətni bir daha oxu.'}};op.appendChild(b)});qz.appendChild(d)});
+</script>
+</body>
+</html>
