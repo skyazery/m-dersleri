@@ -1,0 +1,480 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>마태복음 1과 청소년</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Gowun+Batang:wght@400;700&family=Gowun+Dodum&display=swap">
+<style>body{margin:0}img,svg{max-width:100%}[hidden]{display:none!important}</style>
+<style>
+/* Layout: 스터디 노트 — 장면마다 그림(좌)·본문(우), 아래에 '깊이 보기' 해설 상자, 원어·배경을 함께 */
+:root{
+  --bg:#F2F4F8; --paper:#FFFFFF; --ink:#18203E; --soft:#58627E; --line:#D8DDE8;
+  --indigo:#253170; --gold:#C2861C; --gold-soft:#F7EAD0; --rose:#B4544A; --rose-soft:#F6E2DF; --teal:#2A7F7A; --teal-soft:#DDEEEC;
+  --display:"Black Han Sans","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  --body:"Gowun Batang","Nanum Myeongjo","AppleMyungjo",serif;
+  --ui:"Gowun Dodum","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#0F1426;--paper:#171E38;--ink:#E9EDF7;--soft:#A3ADC6;--line:#2A3355;--indigo:#9DAAF0;--gold:#E6AE48;--gold-soft:#372C17;--rose:#E08A80;--rose-soft:#3A2224;--teal:#5DC0B8;--teal-soft:#16363A;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0F1426;--paper:#171E38;--ink:#E9EDF7;--soft:#A3ADC6;--line:#2A3355;--indigo:#9DAAF0;--gold:#E6AE48;--gold-soft:#372C17;--rose:#E08A80;--rose-soft:#3A2224;--teal:#5DC0B8;--teal-soft:#16363A;color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.85}
+.wrap{max-width:900px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:16px 80px;display:flex;flex-direction:column;gap:30px}
+h1,h2,h3{font-family:var(--display);font-weight:400;text-wrap:balance;margin:0;line-height:1.25;letter-spacing:-.01em}
+p{margin:0}
+svg{display:block;width:100%;height:auto}
+.label{font-family:var(--ui);font-size:13px;letter-spacing:.08em;color:var(--gold)}
+.hero{border-radius:6px;overflow:hidden;background:#0E1736;color:#F3EFE3}
+.hero-text{padding:18px 24px 26px;display:flex;flex-direction:column;gap:8px}
+.hero h1{font-size:clamp(30px,6.4vw,50px);color:#FFF6E2}
+.hero .sub{font-family:var(--ui);color:#C6CFE6;font-size:15px}
+.hero .q{font-size:18px;color:#F3EFE3;max-width:38em}
+
+.audio{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);padding-block:8px;display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-family:var(--ui)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.pill{font:inherit;font-family:var(--ui);font-size:15px;border:0;border-radius:6px;padding:7px 14px;cursor:pointer;background:var(--indigo);color:var(--paper);display:inline-flex;align-items:center;gap:6px}
+.pill.ghost{background:var(--paper);color:var(--ink);border:1px solid var(--line)}
+.pill[aria-pressed="true"]{background:var(--gold);color:#18203E}
+.pill svg{width:14px;height:14px;display:inline}
+.audio .note{font-size:13px;color:var(--soft);flex-basis:100%}
+
+.aims{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.aims div{background:var(--paper);border-top:3px solid var(--indigo);padding:14px 16px;display:flex;flex-direction:column;gap:4px}
+.aims b{font-family:var(--display);font-weight:400;font-size:18px;color:var(--indigo)}
+.aims p{font-size:15px;color:var(--soft);font-family:var(--ui);line-height:1.6}
+
+.scene{display:grid;grid-template-columns:1fr;background:var(--paper);border-radius:6px;overflow:hidden;border:1px solid var(--line)}
+@media (min-width:760px){.scene{grid-template-columns:300px minmax(0,1fr)}.scene>svg{align-self:start}}
+.scene .txt{padding:20px 24px 24px;display:flex;flex-direction:column;gap:12px;min-width:0}
+.scene .top{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap}
+.scene h3{font-size:26px}
+.reading{background:var(--teal-soft);box-shadow:0 0 0 6px var(--teal-soft);border-radius:4px}
+.deep{background:var(--gold-soft);border-left:4px solid var(--gold);padding:12px 16px;display:flex;flex-direction:column;gap:6px}
+.deep.rose{background:var(--rose-soft);border-left-color:var(--rose)}
+.deep h4{margin:0;font-family:var(--ui);font-size:14px;letter-spacing:.06em;color:var(--gold)}
+.deep.rose h4{color:var(--rose)}
+.deep p{font-size:15.5px;line-height:1.75}
+.ref{font-family:var(--ui);font-size:13px;color:var(--soft);background:var(--bg);padding:1px 7px;border-radius:4px;white-space:nowrap}
+.w{font:inherit;color:inherit;background:none;border:0;border-bottom:2px dotted var(--gold);padding:0 1px;cursor:pointer}
+.w:hover,.w:focus-visible{background:var(--gold-soft);outline:none}
+
+.chart{background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:18px;display:flex;flex-direction:column;gap:10px}
+.chart .scroll{overflow-x:auto}
+.chart svg{min-width:640px}
+.chart p{font-family:var(--ui);font-size:14px;color:var(--soft)}
+
+.head{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;border-bottom:2px solid var(--ink);padding-bottom:6px}
+.head h2{font-size:28px}.head span{font-family:var(--ui);color:var(--soft);font-size:14px}
+
+.tbl{overflow-x:auto;background:var(--paper);border:1px solid var(--line);border-radius:6px}
+table{border-collapse:collapse;width:100%;min-width:560px;font-size:15.5px}
+th,td{text-align:left;padding:11px 14px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-family:var(--ui);font-weight:400;font-size:13px;letter-spacing:.06em;color:var(--soft)}
+td:first-child{font-family:var(--display);font-size:17px;white-space:nowrap}
+
+.verse{background:var(--indigo);color:#F4F1E6;border-radius:6px;padding:24px;display:flex;flex-direction:column;gap:10px}
+.verse .big{font-size:clamp(20px,4.6vw,26px);line-height:1.6;font-weight:700}
+.verse .src{font-family:var(--ui);font-size:14px;color:#C6CFE6}
+.verse .pill.ghost{background:transparent;color:#F4F1E6;border-color:rgba(255,255,255,.4)}
+
+.dict{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:10px}
+.dict button{font:inherit;text-align:left;background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:12px 14px;color:var(--ink);cursor:pointer;display:flex;gap:12px;align-items:flex-start}
+.dict button:hover,.dict button:focus-visible{border-color:var(--gold);outline:none}
+.dict .ic{width:40px;height:40px;flex:none;border-radius:6px;background:var(--gold-soft);display:flex;align-items:center;justify-content:center}
+.dict .ic svg{width:28px;height:28px}
+.dict b{display:block;font-family:var(--display);font-weight:400;font-size:18px}
+.dict small{display:block;font-family:var(--ui);font-size:13.5px;color:var(--soft);line-height:1.5}
+
+.quiz{display:flex;flex-direction:column;gap:12px}
+.q{background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:16px 18px;display:flex;flex-direction:column;gap:10px}
+.q p{font-weight:700}
+.opts{display:flex;flex-direction:column;gap:6px}
+.opts button{font:inherit;font-family:var(--ui);text-align:left;border:1px solid var(--line);background:var(--bg);color:var(--ink);border-radius:6px;padding:8px 12px;cursor:pointer}
+.opts button.ok{border-color:var(--teal);background:var(--teal-soft)}
+.opts button.no{opacity:.5}
+.fb{font-family:var(--ui);font-size:14.5px;color:var(--teal);min-height:1.4em}
+
+.card{background:var(--paper);border:1px solid var(--line);border-radius:6px;padding:20px;display:flex;flex-direction:column;gap:10px}
+.card ol{margin:0;padding-left:22px;display:flex;flex-direction:column;gap:8px}
+textarea{font:inherit;width:100%;box-sizing:border-box;min-height:110px;border-radius:6px;border:1px solid var(--line);background:var(--bg);color:var(--ink);padding:12px}
+label{font-family:var(--ui);font-size:14.5px;color:var(--soft)}
+
+.sheet-bg{position:fixed;inset:0;background:rgba(6,10,24,.55);z-index:20}
+.sheet{position:fixed;left:0;right:0;bottom:0;z-index:21;background:var(--paper);border-radius:12px 12px 0 0;max-width:620px;margin:0 auto;padding:20px max(20px,env(safe-area-inset-right,0px)) calc(22px + env(safe-area-inset-bottom,0px)) max(20px,env(safe-area-inset-left,0px));display:flex;flex-direction:column;gap:12px;box-shadow:0 -10px 30px rgba(0,0,0,.25)}
+.sheet .row{display:flex;gap:14px;align-items:center}
+.sheet .ic{width:60px;height:60px;flex:none;border-radius:8px;background:var(--gold-soft);display:flex;align-items:center;justify-content:center}
+.sheet .ic svg{width:42px;height:42px}
+.sheet h3{font-size:28px}
+.sheet .az{font-family:var(--ui);font-size:13.5px;color:var(--teal)}
+.sheet .ex{background:var(--bg);padding:10px 14px;border-radius:6px;font-size:15.5px}
+.sheet .btns{display:flex;gap:8px;justify-content:flex-end}
+button:focus-visible{outline:3px solid var(--teal);outline-offset:2px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <a href="../" style="font-family:inherit;font-size:14px;color:inherit;opacity:.7;text-decoration:none">← 목차로</a>
+  <header class="hero">
+    <svg viewBox="0 0 800 340" role="img" aria-label="별이 빛나는 밤, 언덕 위의 베들레헴 마을">
+<defs>
+<linearGradient id="hSky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0E1736"/><stop offset=".55" stop-color="#273970"/><stop offset="1" stop-color="#6C6FA6"/></linearGradient>
+<radialGradient id="hGlow"><stop offset="0" stop-color="#FFF1C4" stop-opacity=".85"/><stop offset=".35" stop-color="#FFE7A8" stop-opacity=".25"/><stop offset="1" stop-color="#FFE7A8" stop-opacity="0"/></radialGradient>
+<linearGradient id="hBeam" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFF1C4" stop-opacity=".28"/><stop offset="1" stop-color="#FFF1C4" stop-opacity="0"/></linearGradient>
+</defs>
+<rect width="800" height="340" fill="url(#hSky)"/>
+<g fill="#FFF6DA"><circle cx="48" cy="38" r="1.6"/><circle cx="120" cy="92" r="1.2"/><circle cx="196" cy="30" r="1.8"/><circle cx="280" cy="70" r="1.1"/><circle cx="360" cy="24" r="1.5"/><circle cx="430" cy="96" r="1.2"/><circle cx="700" cy="40" r="1.7"/><circle cx="752" cy="110" r="1.2"/><circle cx="650" cy="130" r="1"/><circle cx="92" cy="150" r="1"/><circle cx="240" cy="140" r="1.1"/></g>
+<polygon points="572,96 580,96 690,340 470,340" fill="url(#hBeam)"/>
+<circle cx="576" cy="82" r="90" fill="url(#hGlow)"/>
+<path d="M576 46 L582 76 L612 82 L582 88 L576 118 L570 88 L540 82 L570 76Z" fill="#FFF4D0"/>
+<path d="M0 238 C120 205 220 214 330 228 S560 198 800 226 V340 H0Z" fill="#33467E"/>
+<g fill="#28396A"><rect x="430" y="196" width="34" height="30" rx="2"/><rect x="460" y="184" width="40" height="42" rx="2"/><rect x="498" y="200" width="30" height="26" rx="2"/><rect x="526" y="190" width="38" height="36" rx="2"/><rect x="560" y="204" width="28" height="22" rx="2"/><path d="M470 184 a10 10 0 0 1 20 0z"/></g>
+<g fill="#F2C46B"><rect x="474" y="198" width="6" height="8" rx="1"/><rect x="540" y="202" width="6" height="7" rx="1"/><rect x="442" y="206" width="5" height="7" rx="1"/></g>
+<path d="M0 276 C180 250 300 262 440 276 S700 256 800 266 V340 H0Z" fill="#1D2A55"/>
+<g fill="#16214A"><ellipse cx="120" cy="262" rx="26" ry="18"/><ellipse cx="146" cy="254" rx="20" ry="16"/><rect x="128" y="262" width="5" height="22"/><ellipse cx="710" cy="256" rx="24" ry="16"/><rect x="707" y="262" width="5" height="18"/></g>
+<path d="M0 310 C220 292 420 300 800 302 V340 H0Z" fill="#131C3E"/>
+</svg>
+
+    <div class="hero-text">
+      <span class="label">청소년 성경 공부 · 마태복음 제1과</span>
+      <h1>함께 계시는 하나님</h1>
+      <p class="sub">마태복음 1장 1–25절 · 약 50분</p>
+      <p class="q">신약성경 첫 장을 펴면 낯선 이름이 40개 넘게 이어져요. 마태는 왜 이 지루해 보이는 목록으로 복음서를 시작했을까요?</p>
+    </div>
+  </header>
+
+  <div class="audio" role="group" aria-label="읽어 주기">
+    <button class="pill" id="playAll"><svg viewBox="0 0 16 16"><path d="M4 2l10 6-10 6z" fill="currentColor"/></svg>전체 듣기</button>
+    <button class="pill ghost" id="stopAll">멈추기</button>
+    <button class="pill ghost" id="slow" aria-pressed="false">천천히</button>
+    <p class="note" id="ttsNote">점선 낱말을 누르면 뜻·원어·아제르바이잔어가 나와요.</p>
+  </div>
+
+  <section class="aims">
+    <div><b>배경</b><p>마태복음의 첫 독자와 족보가 가진 의미를 이해해요.</p></div>
+    <div><b>핵심</b><p>‘예수’와 ‘임마누엘’ 두 이름이 말하는 예수님이 누구신지 설명할 수 있어요.</p></div>
+    <div><b>적용</b><p>요셉의 믿음이 말이 아니라 행동으로 드러난 방식을 내 삶에 비추어 봐요.</p></div>
+  </section>
+
+  <article class="scene">
+    <svg viewBox="0 0 400 300" role="img" aria-label="구불구불한 길 위의 세 표지: 아브라함의 장막, 다윗의 왕관, 예수님이 태어난 마구간">
+<defs><linearGradient id="a1Sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#CFE2EC"/><stop offset="1" stop-color="#F4E8D2"/></linearGradient></defs>
+<rect width="400" height="300" fill="url(#a1Sky)"/>
+<circle cx="70" cy="56" r="22" fill="#FBE6B4" opacity=".9"/>
+<path d="M0 140 C80 110 160 128 230 112 S350 96 400 108 V300 H0Z" fill="#D7C9A0"/>
+<path d="M0 190 C90 160 170 182 260 160 S360 150 400 158 V300 H0Z" fill="#B9AD7C"/>
+<path d="M0 240 C110 215 220 238 400 214 V300 H0Z" fill="#8F9663"/>
+<path d="M24 300 C110 262 70 226 168 206 S300 170 252 140 S330 92 362 80" fill="none" stroke="#F6EEDD" stroke-width="16" stroke-linecap="round"/>
+<path d="M24 300 C110 262 70 226 168 206 S300 170 252 140 S330 92 362 80" fill="none" stroke="#E2D2B0" stroke-width="2" stroke-dasharray="2 10" stroke-linecap="round"/>
+<g><path d="M62 262 L88 222 L114 262Z" fill="#B65F3A"/><path d="M82 262 L88 244 L94 262Z" fill="#6E3420"/><line x1="88" y1="222" x2="88" y2="214" stroke="#6E3420" stroke-width="2"/></g>
+<g><rect x="190" y="160" width="26" height="34" fill="#E4D6B4"/><path d="M190 160 v-6 h6 v6 h4 v-6 h6 v6 h4 v-6 h6 v6" fill="#E4D6B4"/><path d="M193 146 l4-12 6 7 6-9 6 9 6-7 4 12z" fill="#D9A23B"/></g>
+<g><path d="M334 96 h44 v-20 l-22-14 -22 14z" fill="#7A5A3E"/><rect x="346" y="80" width="20" height="16" fill="#F3C98B"/><path d="M356 34 l3 10 10 3 -10 3 -3 10 -3-10 -10-3 10-3z" fill="#E7A93A"/></g>
+<g font-family="Jua, sans-serif" font-size="13" text-anchor="middle">
+<rect x="56" y="268" width="64" height="22" rx="11" fill="#FFFFFF"/><text x="88" y="284" fill="#1C2A48">아브라함</text>
+<rect x="176" y="200" width="54" height="22" rx="11" fill="#FFFFFF"/><text x="203" y="216" fill="#1C2A48">다윗 왕</text>
+<rect x="320" y="102" width="70" height="22" rx="11" fill="#2C8A84"/><text x="355" y="118" fill="#FFFFFF">예수님</text>
+<text x="132" y="236" fill="#4F5A35" font-size="12">14대</text><text x="288" y="168" fill="#4F5A35" font-size="12">14대 + 14대</text>
+</g>
+</svg>
+
+    <div class="txt">
+      <div class="top"><span class="label">1 · 1–17절</span><button class="pill ghost say">🔊 듣기</button></div>
+      <h3>왜 족보로 시작할까?</h3>
+      <p>마태는 첫 문장에서 예수님을 ‘<button class="w" data-w="다윗의 자손">다윗의 자손</button>’, ‘아브라함의 자손’인 <button class="w" data-w="그리스도">그리스도</button>라고 소개해요. 첫 독자였던 유대인들에게 <button class="w" data-w="족보">족보</button>는 신분증과 같았어요. 약속된 메시아는 반드시 다윗의 집안에서 나와야 했거든요.</p>
+      <p>하나님은 아브라함에게 “너를 통해 모든 민족이 복을 받는다” <span class="ref">창 12:3</span>, 다윗에게는 “네 왕위가 영원히 서리라” <span class="ref">삼하 7:16</span>고 약속하셨어요. 마태는 예수님이 이 두 약속의 주인공이라고 말하고 있어요.</p>
+      <div class="deep"><h4>깊이 보기 · 14의 비밀</h4><p>히브리어 글자는 숫자로도 쓰였어요. 다윗(דוד)은 ד(4)+ו(6)+ד(4)=14예요. 마태가 족보를 14대씩 세 묶음으로 나눈 것은 ‘다윗의 자손’을 강조하려는 장치라고 보는 학자가 많아요.</p></div>
+    </div>
+  </article>
+
+  <section class="chart" aria-labelledby="chartT">
+    <h3 id="chartT" style="font-size:20px">족보 한눈에 보기 · 그리고 네 여인</h3>
+    <div class="scroll">
+      <svg viewBox="0 0 720 210" role="img" aria-label="아브라함부터 다윗, 바벨론 포로, 예수님까지 14대씩 세 구간과 족보에 나오는 네 여인">
+        <rect x="20" y="86" width="220" height="10" rx="5" fill="var(--gold-soft)"/>
+        <rect x="250" y="86" width="220" height="10" rx="5" fill="var(--line)"/>
+        <rect x="480" y="86" width="220" height="10" rx="5" fill="var(--teal-soft)"/>
+        <g font-family="Gowun Dodum, sans-serif" font-size="12" fill="var(--soft)" text-anchor="middle">
+          <text x="130" y="30">① 약속의 시대 · 14대</text><text x="360" y="30">② 왕들의 시대 · 14대</text><text x="590" y="30">③ 기다림의 시대 · 14대</text>
+        </g>
+        <g font-family="Black Han Sans, sans-serif" font-size="14" fill="var(--ink)" text-anchor="middle">
+          <circle cx="24" cy="91" r="9" fill="var(--gold)"/><text x="30" y="68">아브라함</text>
+          <circle cx="245" cy="91" r="11" fill="var(--gold)"/><text x="245" y="68">다윗 왕</text>
+          <circle cx="475" cy="91" r="9" fill="var(--soft)"/><text x="475" y="68">바벨론 포로</text>
+          <circle cx="700" cy="91" r="12" fill="var(--teal)"/><text x="688" y="68">예수님</text>
+        </g>
+        <g font-family="Gowun Dodum, sans-serif" font-size="12.5" text-anchor="middle">
+          <line x1="80" y1="96" x2="80" y2="130" stroke="var(--rose)"/><circle cx="80" cy="91" r="6" fill="var(--rose)"/><text x="80" y="146" fill="var(--rose)">다말</text><text x="80" y="162" fill="var(--soft)">유다의 며느리</text>
+          <line x1="150" y1="96" x2="150" y2="130" stroke="var(--rose)"/><circle cx="150" cy="91" r="6" fill="var(--rose)"/><text x="150" y="146" fill="var(--rose)">라합</text><text x="150" y="162" fill="var(--soft)">여리고의 이방인</text>
+          <line x1="200" y1="96" x2="200" y2="176" stroke="var(--rose)"/><circle cx="200" cy="91" r="6" fill="var(--rose)"/><text x="200" y="192" fill="var(--rose)">룻</text><text x="200" y="206" fill="var(--soft)">모압 여인</text>
+          <line x1="275" y1="96" x2="275" y2="130" stroke="var(--rose)"/><circle cx="275" cy="91" r="6" fill="var(--rose)"/><text x="285" y="146" fill="var(--rose)">우리야의 아내</text><text x="285" y="162" fill="var(--soft)">밧세바</text>
+          <circle cx="680" cy="91" r="6" fill="var(--indigo)"/><text x="650" y="130" fill="var(--indigo)">요셉 · 마리아</text>
+        </g>
+      </svg>
+    </div>
+    <div class="deep rose"><h4>깊이 보기 · 족보 속 네 여인</h4><p>당시 족보에는 보통 남자 이름만 적었어요. 그런데 마태는 네 여인을 일부러 넣어요. 이방인이거나 아픈 사연이 있는 사람들이에요. 하나님의 구원 이야기에는 완벽한 사람만이 아니라 실수하고 상처 입은 사람들, 그리고 이스라엘 밖의 사람들도 들어 있어요.</p></div>
+  </section>
+
+  <article class="scene">
+    <svg viewBox="0 0 400 300" role="img" aria-label="해 질 녘 나사렛 마을에서 마주 선 마리아와 요셉">
+<defs><linearGradient id="a2Sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#EBA87E"/><stop offset=".6" stop-color="#F6D3A6"/><stop offset="1" stop-color="#F8E3C2"/></linearGradient>
+<radialGradient id="a2Glow"><stop offset="0" stop-color="#FFF8E4" stop-opacity=".9"/><stop offset="1" stop-color="#FFF8E4" stop-opacity="0"/></radialGradient></defs>
+<rect width="400" height="300" fill="url(#a2Sky)"/>
+<circle cx="292" cy="150" r="46" fill="#FCE5BE"/>
+<path d="M0 182 C90 160 200 172 400 160 V300 H0Z" fill="#D9A274"/>
+<g fill="#EBCDA2"><rect x="230" y="150" width="40" height="34"/><rect x="266" y="140" width="34" height="44"/><rect x="300" y="156" width="44" height="28"/><rect x="340" y="146" width="36" height="38"/></g>
+<g fill="#B47C52"><rect x="244" y="166" width="10" height="18"/><rect x="310" y="168" width="8" height="10"/><rect x="352" y="160" width="7" height="8"/></g>
+<path d="M0 222 C120 206 250 214 400 204 V300 H0Z" fill="#C59365"/>
+<g><rect x="54" y="150" width="7" height="80" fill="#6B5440"/><ellipse cx="58" cy="140" rx="38" ry="22" fill="#7C8A57"/><ellipse cx="38" cy="156" rx="22" ry="14" fill="#6B7A4A"/><ellipse cx="80" cy="152" rx="22" ry="14" fill="#6B7A4A"/></g>
+<circle cx="176" cy="150" r="54" fill="url(#a2Glow)"/>
+<ellipse cx="176" cy="282" rx="34" ry="6" fill="#9E7148" opacity=".5"/>
+<ellipse cx="242" cy="282" rx="34" ry="6" fill="#9E7148" opacity=".5"/>
+<path d="M152 282 C150 232 158 196 176 186 C194 196 202 232 200 282Z" fill="#3F5FA0"/>
+<path d="M158 196 C152 168 162 148 176 146 C190 148 200 168 194 196 C188 188 164 188 158 196Z" fill="#7F9BD1"/>
+<circle cx="176" cy="166" r="11" fill="#E8B98F"/>
+<path d="M163 168 C163 150 189 150 189 168 C186 158 166 158 163 168Z" fill="#7F9BD1"/>
+<path d="M220 282 C218 230 226 196 242 186 C258 196 266 230 264 282Z" fill="#8F5A39"/>
+<rect x="222" y="226" width="40" height="6" rx="3" fill="#D9A85B"/>
+<path d="M226 190 C224 164 230 150 242 148 C254 150 260 164 258 190Z" fill="#EADBBE"/>
+<circle cx="242" cy="168" r="10" fill="#D9A983"/>
+<path d="M231 160 q11 -7 22 0" stroke="#9C6B43" stroke-width="3" fill="none" stroke-linecap="round"/>
+</svg>
+
+    <div class="txt">
+      <div class="top"><span class="label">2 · 18절</span><button class="pill ghost say">🔊 듣기</button></div>
+      <h3>약혼, 그러나 아직 결혼 전</h3>
+      <p>당시 유대인의 <button class="w" data-w="약혼">약혼</button>은 오늘보다 훨씬 무거운 약속이었어요. 법적으로는 이미 부부로 여겨져서, 끝내려면 이혼 절차가 필요했어요. 보통 1년쯤 지나 신랑이 신부를 집으로 데려가면서 함께 살기 시작했어요.</p>
+      <p>바로 그 사이에 마리아가 <button class="w" data-w="성령">성령</button>으로 아기를 갖게 돼요. 마태는 이 일이 사람의 계획이 아니라 하나님이 직접 하신 일이라는 점을 분명히 해요.</p>
+    </div>
+  </article>
+
+  <article class="scene">
+    <svg viewBox="0 0 400 300" role="img" aria-label="밤에 잠든 요셉 곁에 빛나는 천사가 서 있는 모습">
+<defs><linearGradient id="a3Bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#18244A"/><stop offset="1" stop-color="#2E3F74"/></linearGradient>
+<radialGradient id="a3Glow"><stop offset="0" stop-color="#FFF4D2" stop-opacity=".95"/><stop offset=".4" stop-color="#FFE9B0" stop-opacity=".35"/><stop offset="1" stop-color="#FFE9B0" stop-opacity="0"/></radialGradient>
+<linearGradient id="a3Robe" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#F1E2BE"/></linearGradient></defs>
+<rect width="400" height="300" fill="url(#a3Bg)"/>
+
+<path d="M36 102 a35 35 0 0 0 70 0 V40 H36Z" fill="#0D1530"/>
+<path d="M82 62 a14 14 0 1 0 8 24 a11 11 0 1 1 -8 -24z" fill="#F4E4B0"/>
+<circle cx="52" cy="58" r="1.4" fill="#FFF6DA"/><circle cx="64" cy="94" r="1.2" fill="#FFF6DA"/>
+<rect x="0" y="240" width="400" height="60" fill="#223060"/>
+<circle cx="290" cy="150" r="120" fill="url(#a3Glow)"/>
+<rect x="34" y="236" width="190" height="18" rx="9" fill="#6E5640"/>
+<path d="M62 238 C80 214 200 212 218 236Z" fill="#A86E48"/>
+<circle cx="56" cy="228" r="11" fill="#D9A983"/>
+<path d="M44 230 C44 214 68 214 68 228 C62 222 50 222 44 230Z" fill="#EADBBE"/>
+<path d="M276 120 C236 92 214 130 222 170 C236 150 256 140 276 140Z" fill="#FFF8E6" opacity=".92"/>
+<path d="M304 120 C344 92 366 130 358 170 C344 150 324 140 304 140Z" fill="#FFF8E6" opacity=".92"/>
+<path d="M290 112 C278 140 268 196 262 244 H318 C312 196 302 140 290 112Z" fill="url(#a3Robe)"/>
+<circle cx="290" cy="104" r="12" fill="#F2D3AE"/>
+<ellipse cx="290" cy="86" rx="15" ry="4" fill="none" stroke="#F0C46A" stroke-width="2.5"/>
+<g fill="#F7D98A"><circle cx="230" cy="200" r="2"/><circle cx="196" cy="214" r="1.6"/><circle cx="160" cy="206" r="1.3"/><circle cx="128" cy="218" r="1.1"/></g>
+</svg>
+
+    <div class="txt">
+      <div class="top"><span class="label">3 · 19–21절</span><button class="pill ghost say">🔊 듣기</button></div>
+      <h3>의로운 사람 요셉의 선택</h3>
+      <p>율법대로라면 요셉은 이 일을 공개적으로 문제 삼을 수 있었어요. 하지만 요셉은 마리아가 수치를 당하지 않도록 조용히 끝내려고 해요. 마태가 말하는 <button class="w" data-w="의로운">의로움</button>은 규칙을 지키는 것과 사람을 아끼는 마음이 함께 있는 모습이에요.</p>
+      <p>그때 꿈에 천사가 “다윗의 자손 요셉아, 두려워하지 마라”고 말해요. 그리고 아기 이름을 <button class="w" data-w="예수">예수</button>라고 지으라고 해요. 그가 자기 백성을 <button class="w" data-w="죄">죄</button>에서 <button class="w" data-w="구원">구원</button>할 것이기 때문이에요.</p>
+      <div class="deep"><h4>깊이 보기 · 이름 속의 사명</h4><p>‘예수’는 히브리어 ‘예슈아’(여호수아)에서 온 이름으로 ‘여호와는 구원이시다’라는 뜻이에요. 많은 유대인은 로마에서 해방시켜 줄 메시아를 기다렸어요. 그런데 천사는 예수님이 구원하실 대상을 ‘죄’라고 말해요. 더 깊은 문제를 해결하러 오신 분이라는 뜻이에요.</p></div>
+    </div>
+  </article>
+
+  <article class="scene">
+    <svg viewBox="0 0 400 300" role="img" aria-label="등잔불 옆에 펼쳐진 이사야의 두루마리">
+<defs><linearGradient id="a4Bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#352820"/><stop offset="1" stop-color="#5A3F2F"/></linearGradient>
+<radialGradient id="a4Glow"><stop offset="0" stop-color="#FFD98E" stop-opacity=".75"/><stop offset="1" stop-color="#FFD98E" stop-opacity="0"/></radialGradient>
+<linearGradient id="a4Par" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F7EACB"/><stop offset="1" stop-color="#E8D3A6"/></linearGradient></defs>
+<rect width="400" height="300" fill="url(#a4Bg)"/>
+<circle cx="322" cy="190" r="140" fill="url(#a4Glow)"/>
+<rect x="0" y="228" width="400" height="72" fill="#6E4C36"/>
+<rect x="0" y="228" width="400" height="4" fill="#83603F"/>
+<rect x="74" y="116" width="196" height="104" fill="url(#a4Par)"/>
+<rect x="60" y="108" width="18" height="120" rx="9" fill="#9A6B45"/><rect x="266" y="108" width="18" height="120" rx="9" fill="#9A6B45"/>
+<g fill="#7A5A36"><rect x="65" y="100" width="8" height="10" rx="3"/><rect x="65" y="226" width="8" height="10" rx="3"/><rect x="271" y="100" width="8" height="10" rx="3"/><rect x="271" y="226" width="8" height="10" rx="3"/></g>
+<g stroke="#B79A6C" stroke-width="3" stroke-linecap="round"><line x1="96" y1="138" x2="246" y2="138"/><line x1="96" y1="154" x2="226" y2="154"/><line x1="96" y1="186" x2="236" y2="186"/><line x1="96" y1="202" x2="200" y2="202"/></g>
+<line x1="96" y1="170" x2="250" y2="170" stroke="#D9A23B" stroke-width="5" stroke-linecap="round"/>
+<path d="M300 228 C300 210 318 204 340 210 L356 204 C352 214 346 222 336 228Z" fill="#C08A4E"/>
+<path d="M352 196 C346 186 352 176 356 170 C360 178 364 188 352 196Z" fill="#FFC44D"/>
+<circle cx="355" cy="186" r="16" fill="#FFE29A" opacity=".45"/>
+<text x="172" y="252" text-anchor="middle" font-family="Jua, sans-serif" font-size="14" fill="#F3DDB0">이사야 7:14 · 약 700년 전</text>
+</svg>
+
+    <div class="txt">
+      <div class="top"><span class="label">4 · 22–23절</span><button class="pill ghost say">🔊 듣기</button></div>
+      <h3>“약속을 이루려고”</h3>
+      <p>마태는 이 사건이 <button class="w" data-w="선지자">선지자</button> 이사야의 말씀 <span class="ref">사 7:14</span>을 <button class="w" data-w="이루다">이루려고</button> 일어났다고 말해요. 마태복음에는 이런 ‘성취’ 표현이 열 번 넘게 나와요. 예수님의 삶 전체가 구약 약속의 완성이라는 것을 보여 주려는 거예요.</p>
+      <p>그 아이의 이름은 <button class="w" data-w="임마누엘">임마누엘</button>, ‘하나님이 우리와 함께 계시다’는 뜻이에요.</p>
+      <div class="deep"><h4>깊이 보기 · 처음과 끝</h4><p>마태복음은 1장 23절에서 ‘하나님이 우리와 함께’로 시작해서, 마지막 28장 20절에서 예수님의 약속 ‘내가 세상 끝날까지 너희와 항상 함께 있으리라’로 끝나요. 책 전체가 ‘함께 계시는 하나님’이라는 주제로 감싸여 있어요.</p></div>
+    </div>
+  </article>
+
+  <article class="scene">
+    <svg viewBox="0 0 400 300" role="img" aria-label="별빛 아래 마구간에서 아기 예수님을 안은 마리아와 곁에 선 요셉">
+<defs><linearGradient id="a5Sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#132048"/><stop offset="1" stop-color="#3A4A82"/></linearGradient>
+<radialGradient id="a5In"><stop offset="0" stop-color="#FFE0A6"/><stop offset="1" stop-color="#E8A960"/></radialGradient>
+<linearGradient id="a5Beam" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFF1C4" stop-opacity=".35"/><stop offset="1" stop-color="#FFF1C4" stop-opacity="0"/></linearGradient></defs>
+<rect width="400" height="300" fill="url(#a5Sky)"/>
+<polygon points="196,52 204,52 270,170 130,170" fill="url(#a5Beam)"/>
+<path d="M200 22 l4 18 18 4 -18 4 -4 18 -4-18 -18-4 18-4z" fill="#FFF1C4"/>
+<path d="M60 116 L200 76 L340 116 L340 128 L60 128Z" fill="#5E432F"/>
+<rect x="76" y="126" width="248" height="128" fill="url(#a5In)"/>
+<rect x="70" y="126" width="12" height="134" fill="#6B4A34"/><rect x="318" y="126" width="12" height="134" fill="#6B4A34"/>
+<rect x="0" y="252" width="400" height="48" fill="#2A355F"/>
+<path d="M76 254 C130 240 270 240 324 254Z" fill="#D9B26C"/>
+<path d="M150 254 C146 220 152 196 172 188 C192 196 198 220 196 254Z" fill="#3F5FA0"/>
+<path d="M156 198 C150 172 160 154 172 152 C184 154 194 172 188 198 C182 190 162 190 156 198Z" fill="#7F9BD1"/>
+<circle cx="172" cy="170" r="10" fill="#E8B98F"/>
+<path d="M160 172 C160 156 184 156 184 172 C181 162 163 162 160 172Z" fill="#7F9BD1"/>
+<ellipse cx="180" cy="216" rx="22" ry="11" fill="#FBF3E1"/><circle cx="166" cy="212" r="7" fill="#EAC09A"/>
+<path d="M226 254 C224 210 230 180 246 170 C262 180 268 210 266 254Z" fill="#8F5A39"/>
+<rect x="228" y="212" width="36" height="5" rx="2.5" fill="#D9A85B"/>
+<path d="M231 176 C229 150 235 136 246 134 C257 136 263 150 261 176Z" fill="#EADBBE"/>
+<circle cx="246" cy="154" r="9.5" fill="#D9A983"/>
+<path d="M236 146 q10 -6 20 0" stroke="#9C6B43" stroke-width="3" fill="none" stroke-linecap="round"/>
+<line x1="276" y1="150" x2="270" y2="254" stroke="#7A5638" stroke-width="4" stroke-linecap="round"/>
+</svg>
+
+    <div class="txt">
+      <div class="top"><span class="label">5 · 24–25절</span><button class="pill ghost say">🔊 듣기</button></div>
+      <h3>말 대신 행동으로</h3>
+      <p>요셉은 잠에서 깨어 천사가 말한 대로 마리아를 아내로 맞아요. 아기가 태어나자 이름을 예수라고 지어요.</p>
+      <p>성경에는 요셉이 한 말이 한 마디도 기록되어 있지 않아요. 그의 믿음은 말이 아니라 행동으로 드러나요. 아버지가 이름을 지어 준다는 것은 그 아이를 법적으로 자기 아들로 받아들인다는 뜻이기도 해요. 그래서 예수님은 요셉을 통해 ‘다윗의 자손’이 되세요.</p>
+    </div>
+  </article>
+
+  <div class="head"><h2>이름으로 정리하기</h2><span>1장이 예수님을 부르는 다섯 이름</span></div>
+  <div class="tbl"><table>
+    <thead><tr><th>이름</th><th>뜻</th><th>마태가 말하려는 것</th></tr></thead>
+    <tbody>
+      <tr><td>아브라함의 자손</td><td>믿음의 조상의 후손</td><td>모든 민족에게 복을 주시겠다는 약속의 성취</td></tr>
+      <tr><td>다윗의 자손</td><td>다윗 왕의 후손</td><td>영원한 왕, 약속된 메시아</td></tr>
+      <tr><td>그리스도</td><td>기름 부음 받은 자</td><td>하나님이 세우신 구원자 왕</td></tr>
+      <tr><td>예수</td><td>여호와는 구원이시다</td><td>자기 백성을 죄에서 구원하심</td></tr>
+      <tr><td>임마누엘</td><td>하나님이 우리와 함께</td><td>하나님이 사람 가운데 오셔서 함께 계심</td></tr>
+    </tbody>
+  </table></div>
+
+  <section class="verse">
+    <div style="display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap"><span class="label" style="color:#F0C46A">이번 주 외울 말씀</span><button class="pill ghost" id="sayVerse">🔊 듣기</button></div>
+    <p class="big" id="verseText">“마리아가 아들을 낳을 것이다. 그 이름을 예수라 하여라. 그가 자기 백성을 죄에서 구원하실 것이기 때문이다.”</p>
+    <p class="src">마태복음 1:21 · 쉬운 말로 옮김 · 함께 읽기: 마태복음 1:23, 28:20</p>
+  </section>
+
+  <div class="head"><h2>낱말·원어 사전</h2><span>눌러서 자세히</span></div>
+  <div class="dict" id="dict"></div>
+
+  <div class="head"><h2>확인 문제</h2><span>5문제</span></div>
+  <div class="quiz" id="quiz"></div>
+
+  <section class="card">
+    <h2 style="font-size:24px">나눔 질문</h2>
+    <ol>
+      <li>마태가 족보에 네 여인을 넣은 것은 나에게 어떤 위로가 되나요?</li>
+      <li>내가 요셉이었다면 꿈을 꾼 다음 날 아침에 어떤 마음이 들었을까요? 무엇이 가장 어려웠을까요?</li>
+      <li>‘하나님이 함께 계신다’는 말이 학교, 집, 친구 관계에서 구체적으로 어떤 차이를 만들 수 있을까요?</li>
+      <li>이번 주에 말보다 행동으로 믿음을 보여 줄 수 있는 일 한 가지는 무엇인가요?</li>
+    </ol>
+  </section>
+
+  <section class="card">
+    <h2 style="font-size:24px">나의 고백</h2>
+    <label for="mine">오늘 배운 다섯 이름 가운데 지금 나에게 가장 필요한 이름은 무엇인가요? 이유와 함께 서너 문장으로 써 보세요.</label>
+    <textarea id="mine" placeholder="예) 나에게는 ‘임마누엘’이 가장 필요해요. 요즘 학교에서 혼자라고 느낄 때가 많은데…"></textarea>
+  </section>
+
+  <section class="verse" style="background:#0E1736">
+    <span class="label" style="color:#F0C46A">마침 기도</span>
+    <p id="prayerText" style="font-size:17px;line-height:1.8">하나님, 오래전 약속을 잊지 않고 예수님을 보내 주셔서 감사합니다. 실수와 상처가 있는 사람들까지 품으시는 하나님의 은혜를 배웠습니다. 요셉처럼 이해되지 않을 때도 말씀을 믿고 행동하게 해 주세요. 임마누엘 예수님 이름으로 기도합니다. 아멘.</p>
+    <button class="pill ghost" id="sayPrayer" style="align-self:flex-start">🔊 기도 듣기</button>
+  </section>
+</div>
+
+<div class="sheet-bg" id="sheetBg" hidden></div>
+<div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="sTitle" hidden>
+  <div class="row"><div class="ic" id="sIcon"></div><div><h3 id="sTitle"></h3><div class="az" id="sAz"></div></div></div>
+  <p id="sMean"></p>
+  <p class="ex" id="sEx"></p>
+  <div class="btns"><button class="pill ghost" id="sSay">🔊 듣기</button><button class="pill" id="sClose">닫기</button></div>
+</div>
+
+<script>
+/* 읽어 주기: 기기에 있는 음성(Web Speech)으로 읽어요 */
+const TTS={ok:('speechSynthesis' in window)&&('SpeechSynthesisUtterance' in window),voice:null,rate:0.85};
+const ttsNote=document.getElementById('ttsNote');
+function pickVoice(){try{const vs=speechSynthesis.getVoices();TTS.voice=vs.find(v=>/^ko/i.test(v.lang)&&/google|yuna|sun-?hi|heami|natural/i.test(v.name))||vs.find(v=>/^ko/i.test(v.lang))||null;return vs.length}catch(e){return 0}}
+if(TTS.ok){pickVoice();try{speechSynthesis.addEventListener('voiceschanged',pickVoice)}catch(e){}
+ setTimeout(()=>{if(pickVoice()&&!TTS.voice&&ttsNote)ttsNote.textContent='이 기기에는 한국어 음성이 설치되어 있지 않아 발음이 어색할 수 있어요. 휴대폰 크롬이나 사파리에서 열어 보세요.';},1500);}
+function stopTTS(){if(!TTS.ok)return;try{speechSynthesis.cancel()}catch(e){}document.querySelectorAll('.reading').forEach(e=>e.classList.remove('reading'))}
+function speakEls(els,follow){if(!TTS.ok)return;stopTTS();
+ els.forEach(el=>{const t=(el.dataset.say||el.textContent).replace(/\s+/g,' ').trim();if(!t)return;
+  const u=new SpeechSynthesisUtterance(t);u.lang='ko-KR';if(TTS.voice)u.voice=TTS.voice;u.rate=TTS.rate;
+  u.onstart=()=>{el.classList.add('reading');if(follow){const m=matchMedia('(prefers-reduced-motion: reduce)').matches;el.scrollIntoView({block:'center',behavior:m?'auto':'smooth'})}};
+  u.onend=u.onerror=()=>el.classList.remove('reading');speechSynthesis.speak(u);});}
+function speakText(t){const d=document.createElement('span');d.dataset.say=t;speakEls([d])}
+if(!TTS.ok){document.querySelectorAll('.say,#playAll,#sayVerse,#sayPrayer,#sSay').forEach(b=>b.hidden=true);if(ttsNote)ttsNote.textContent='이 브라우저에서는 읽어 주기가 안 돼요. 휴대폰 크롬이나 사파리에서 열어 보세요.';}
+
+const I={
+ tree:'<svg viewBox="0 0 48 48"><rect x="21" y="26" width="6" height="18" rx="2" fill="#8A6A4E"/><circle cx="24" cy="20" r="15" fill="#2A7F7A"/><circle cx="18" cy="16" r="3" fill="#C2861C"/><circle cx="30" cy="22" r="3" fill="#C2861C"/></svg>',
+ oil:'<svg viewBox="0 0 48 48"><path d="M16 14h16l-2 6c6 4 8 10 6 18H12c-2-8 0-14 6-18z" fill="#C2861C"/><path d="M24 30c-4 4 4 8 0 12" stroke="#fff" stroke-width="2" fill="none"/></svg>',
+ crown:'<svg viewBox="0 0 48 48"><path d="M7 36l3-20 9 9 5-13 5 13 9-9 3 20z" fill="#C2861C"/></svg>',
+ ring:'<svg viewBox="0 0 48 48"><circle cx="24" cy="29" r="12" fill="none" stroke="#C2861C" stroke-width="5"/><path d="M18 13l6-7 6 7-6 6z" fill="#5C7FC1"/></svg>',
+ dove:'<svg viewBox="0 0 48 48"><path d="M6 28q14-4 20-16q4 10 16 8q-6 14-24 14q-6 0-12-6z" fill="#fff" stroke="#58627E" stroke-width="2"/></svg>',
+ scale:'<svg viewBox="0 0 48 48"><path d="M24 6v34M12 40h24M8 14h32" stroke="#58627E" stroke-width="3" stroke-linecap="round"/><path d="M8 14l-5 12h10zM40 14l-5 12h10z" fill="#C2861C"/></svg>',
+ name:'<svg viewBox="0 0 48 48"><rect x="6" y="12" width="36" height="24" rx="4" fill="#fff" stroke="#C2861C" stroke-width="2"/><text x="24" y="30" text-anchor="middle" font-size="14" font-family="sans-serif" fill="#253170">ישוע</text></svg>',
+ target:'<svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="18" fill="none" stroke="#58627E" stroke-width="3"/><circle cx="24" cy="24" r="10" fill="none" stroke="#58627E" stroke-width="3"/><circle cx="24" cy="24" r="3" fill="#58627E"/><path d="M40 8L30 14" stroke="#B4544A" stroke-width="3"/><circle cx="40" cy="8" r="3" fill="#B4544A"/></svg>',
+ hand:'<svg viewBox="0 0 48 48"><path d="M6 30q8-8 18 0h12q4 0 4 4t-4 4H18" stroke="#58627E" stroke-width="3" fill="none" stroke-linecap="round"/><circle cx="34" cy="16" r="7" fill="#C2861C"/></svg>',
+ scroll:'<svg viewBox="0 0 48 48"><rect x="10" y="12" width="28" height="24" fill="#F7EACB"/><rect x="6" y="9" width="6" height="30" rx="3" fill="#9A6B45"/><rect x="36" y="9" width="6" height="30" rx="3" fill="#9A6B45"/><line x1="15" y1="24" x2="33" y2="24" stroke="#C2861C" stroke-width="3"/></svg>',
+ fill:'<svg viewBox="0 0 48 48"><path d="M14 10h20l-4 28H18z" fill="none" stroke="#58627E" stroke-width="3"/><path d="M16 22h16l-2 16H18z" fill="#2A7F7A"/></svg>',
+ heart:'<svg viewBox="0 0 48 48"><path d="M24 40Q4 26 8 14q6-10 16 0q10-10 16 0q4 12-16 26z" fill="#B4544A"/></svg>'
+};
+const W={
+ "족보":{i:"tree",o:"헬라어 비블로스 게네세오스(계보의 책)",az:"nəsil şəcərəsi",short:"조상의 이름을 차례대로 적은 기록",m:"한 집안의 혈통을 대대로 적은 기록이에요. 유대 사회에서는 누가 어떤 지파, 어떤 집안인지를 증명하는 중요한 문서였어요.",e:"마태 1:1의 ‘계보’는 창세기(게네시스)와 같은 말이에요. 새 창조의 시작이라는 느낌을 줘요."},
+ "그리스도":{i:"oil",o:"헬라어 크리스토스 · 히브리어 마쉬아흐(메시아)",az:"Məsih",short:"기름 부음 받은 자, 메시아",m:"‘기름 부음 받은 자’라는 뜻이에요. 구약에서 왕과 제사장을 세울 때 머리에 기름을 부었어요. 하나님이 약속하신 구원자 왕을 가리켜요.",e:"‘예수 그리스도’는 성과 이름이 아니라 ‘예수는 그리스도(메시아)이시다’라는 고백이에요."},
+ "다윗의 자손":{i:"crown",o:"헬라어 휘오스 다위드",az:"Davud oğlu",short:"메시아를 부르는 유대인의 칭호",m:"하나님이 다윗에게 영원한 왕위를 약속하셨기 때문에, 유대인들은 메시아를 ‘다윗의 자손’이라고 불렀어요.",e:"마태복음에서 병자들이 “다윗의 자손이여, 불쌍히 여기소서” 하고 부르짖는 장면이 여러 번 나와요."},
+ "약혼":{i:"ring",o:"헬라어 므네스테우오",az:"nişanlı olmaq",short:"법적으로 효력이 있는 결혼 약속",m:"당시 약혼은 법적으로 부부 관계와 같았어요. 약혼 기간에는 함께 살지 않았지만, 끝내려면 이혼 증서가 필요했어요.",e:"요셉은 마리아의 ‘남편’으로, 마리아는 요셉의 ‘아내’로 불려요(19–20절)."},
+ "성령":{i:"dove",o:"헬라어 프뉴마 하기온",az:"Müqəddəs Ruh",short:"하나님의 영",m:"하나님의 영이에요. 창세기 1장에서 창조 때 움직이셨던 하나님의 영이 이제 새로운 시작을 이루세요.",e:"예수님의 잉태는 사람의 힘이 아니라 하나님의 능력으로 이루어졌어요."},
+ "의로운":{i:"scale",o:"헬라어 디카이오스",az:"saleh",short:"하나님 앞에 바른 사람",m:"하나님의 뜻에 맞게 사는 것이에요. 마태복음에서 의로움은 규칙만 지키는 것이 아니라 자비와 함께 가요.",e:"“나는 자비를 원하고 제사를 원하지 않는다”(마 9:13)는 예수님의 말씀과 연결돼요."},
+ "예수":{i:"name",o:"히브리어 예슈아 · 헬라어 이에수스",az:"İsa",short:"여호와는 구원이시다",m:"구약의 여호수아와 같은 이름이에요. ‘여호와는 구원이시다’라는 뜻으로, 이름 자체가 예수님의 사명을 말해요.",e:"여호수아가 백성을 약속의 땅으로 이끌었듯, 예수님은 백성을 죄에서 구원으로 이끄세요."},
+ "죄":{i:"target",o:"헬라어 하마르티아",az:"günah",short:"과녁을 빗나감",m:"원래 ‘과녁을 빗나가다’라는 뜻이에요. 하나님이 만드신 목적에서 벗어난 상태와 행동을 말해요.",e:"죄는 나쁜 행동 몇 가지만이 아니라 하나님에게서 멀어진 마음의 방향이에요."},
+ "구원":{i:"hand",o:"헬라어 소조",az:"xilas",short:"위험에서 건져 살려 냄",m:"위험에서 건지고, 병을 고치고, 온전하게 만든다는 뜻까지 포함해요.",e:"마태복음에서 같은 단어가 병자를 ‘낫게 하다’에도 쓰여요."},
+ "선지자":{i:"scroll",o:"헬라어 프로페테스 · 히브리어 나비",az:"peyğəmbər",short:"하나님의 말씀을 대신 전하는 사람",m:"하나님의 말씀을 받아 백성에게 전한 사람이에요. 미래를 말하기도 했지만, 무엇보다 하나님께 돌아오라고 외쳤어요.",e:"이사야는 예수님보다 약 700년 앞서 활동했어요."},
+ "이루다":{i:"fill",o:"헬라어 플레로오",az:"yerinə yetmək",short:"가득 채우다, 완성하다",m:"빈 그릇을 가득 채우듯 약속을 완성한다는 뜻이에요. 마태복음의 핵심 단어예요.",e:"“내가 율법이나 선지자를 폐하러 온 것이 아니라 완전하게 하려 함이라”(마 5:17)에도 같은 말이 쓰여요."},
+ "임마누엘":{i:"heart",o:"히브리어 임마누 엘",az:"İmmanuel",short:"하나님이 우리와 함께",m:"‘임마누’는 ‘우리와 함께’, ‘엘’은 ‘하나님’이에요. 하나님이 멀리 계신 분이 아니라 우리 가운데 오신 분이라는 고백이에요.",e:"마태복음 28:20의 마지막 약속과 짝을 이뤄요."}
+};
+const bg=document.getElementById('sheetBg'),sh=document.getElementById('sheet');let lastBtn=null,curWord=null;
+function openW(k,btn){const d=W[k];if(!d)return;lastBtn=btn;curWord=k;
+ document.getElementById('sIcon').innerHTML=I[d.i]||'';document.getElementById('sTitle').textContent=k;
+ document.getElementById('sAz').textContent=(d.o?'원어: '+d.o+' · ':'')+'아제르바이잔어: '+d.az;
+ document.getElementById('sMean').textContent=d.m;document.getElementById('sEx').textContent=d.e;
+ bg.hidden=false;sh.hidden=false;document.getElementById('sClose').focus();}
+function closeW(){stopTTS();bg.hidden=true;sh.hidden=true;if(lastBtn)lastBtn.focus();}
+bg.onclick=closeW;document.getElementById('sClose').onclick=closeW;
+document.getElementById('sSay').onclick=()=>{const d=W[curWord];if(d)speakText(curWord+'. '+d.m+' '+d.e)};
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!sh.hidden)closeW()});
+document.querySelectorAll('.w').forEach(b=>b.onclick=()=>openW(b.dataset.w,b));
+const dictEl=document.getElementById('dict');
+Object.keys(W).forEach(k=>{const b=document.createElement('button');b.innerHTML='<span class="ic">'+(I[W[k].i]||'')+'</span><span><b></b><small></small></span>';
+ b.querySelector('b').textContent=k;const s=b.querySelector('small');if(W[k].short)s.textContent=W[k].short;else s.remove();b.onclick=()=>openW(k,b);dictEl.appendChild(b)});
+const sceneEls=sc=>[...sc.querySelectorAll('.txt h3, .txt > p, .txt .deep p')];
+document.querySelectorAll('.scene .say').forEach(b=>b.onclick=()=>speakEls(sceneEls(b.closest('.scene'))));
+document.getElementById('playAll').onclick=()=>{let all=[];document.querySelectorAll('.scene').forEach(s=>all=all.concat(sceneEls(s)));const v=document.getElementById('verseText');if(v)all.push(v);speakEls(all,true)};
+document.getElementById('stopAll').onclick=stopTTS;
+const slow=document.getElementById('slow');TTS.rate=slow.getAttribute('aria-pressed')==='true'?0.8:1;
+slow.onclick=()=>{const on=slow.getAttribute('aria-pressed')!=='true';slow.setAttribute('aria-pressed',on);TTS.rate=on?0.8:1};
+const sv=document.getElementById('sayVerse');if(sv)sv.onclick=()=>speakEls([document.getElementById('verseText')]);
+const sp=document.getElementById('sayPrayer');if(sp)sp.onclick=()=>speakEls([document.getElementById('prayerText')]);
+function buildQuiz(Q){const qz=document.getElementById('quiz');
+ Q.forEach((it,qi)=>{const d=document.createElement('div');d.className='q';d.innerHTML='<p></p><div class="opts"></div><div class="fb" aria-live="polite"></div>';
+  d.querySelector('p').textContent=(qi+1)+'. '+it.q;const op=d.querySelector('.opts'),fb=d.querySelector('.fb');
+  it.o.forEach((t,oi)=>{const b=document.createElement('button');b.textContent=t;
+   b.onclick=()=>{if(oi===it.a){b.className='ok';fb.textContent=it.f}else{b.className='no';fb.textContent='다시 생각해 보세요. 본문을 한 번 더 읽어 봐요.'}};op.appendChild(b)});qz.appendChild(d)})}
+
+buildQuiz([
+ {q:'마태가 족보를 14대씩 세 묶음으로 나눈 이유로 많이 이야기되는 것은?',o:['14가 행운의 숫자라서','히브리어로 다윗 이름의 숫자 합이 14라서','실제 세대 수가 정확히 42대라서'],a:1,f:'맞아요. 족보 전체가 ‘다윗의 자손’ 예수님을 가리켜요.'},
+ {q:'마태복음 족보에 나오는 네 여인이 아닌 사람은?',o:['다말','라합','사라','룻'],a:2,f:'맞아요. 사라는 아브라함의 아내지만 마태의 족보에는 나오지 않아요.'},
+ {q:'마태복음 1장에서 요셉의 ‘의로움’에 가장 가까운 설명은?',o:['율법을 엄격하게 적용하는 것','율법을 지키면서도 마리아를 배려하는 것','아무것도 하지 않고 기다리는 것'],a:1,f:'맞아요. 규칙과 자비가 함께 있는 모습이에요.'},
+ {q:'‘예수’라는 이름의 뜻은?',o:['기름 부음 받은 자','하나님이 우리와 함께','여호와는 구원이시다'],a:2,f:'맞아요. ‘기름 부음 받은 자’는 그리스도, ‘하나님이 우리와 함께’는 임마누엘이에요.'},
+ {q:'1장 23절의 ‘임마누엘’과 짝을 이루는 마태복음 마지막 약속은 어디에 있나요?',o:['5장 17절','16장 16절','28장 20절'],a:2,f:'맞아요. “세상 끝날까지 너희와 항상 함께 있으리라.”'}
+]);
+</script>
+</body>
+</html>
