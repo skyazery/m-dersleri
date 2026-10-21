@@ -1,0 +1,450 @@
+<!doctype html>
+<html lang="az">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Gündəlik Oxu</title>
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="../fonts/pretendardvariable-dynamic-subset.css">
+<style>
+/* Layout: 한 줄 읽기 칼럼 — 밤하늘 머리띠(진도), 듣기 바, 본문, 오늘의 구절, 퀴즈, 묵상 나눔 */
+:root{
+  --bg:#F2F4F8; --paper:#FFFFFF; --ink:#18203E; --soft:#58627E; --line:#D8DDE8;
+  --indigo:#253170; --gold:#C2861C; --gold-soft:#F7EAD0; --teal:#2A7F7A; --teal-soft:#DDEEEC; --rose:#B4544A; --rose-soft:#F6E2DF;
+  --night:#0E1736; --night-ink:#F3EFE3; --night-soft:#C6CFE6; --star:#F2C46B;
+  --font:"Pretendard Variable",Pretendard,-apple-system,"Apple SD Gothic Neo","Segoe UI","Noto Sans",sans-serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#0F1426;--paper:#171E38;--ink:#E9EDF7;--soft:#A3ADC6;--line:#2A3355;--indigo:#9DAAF0;--gold:#E6AE48;--gold-soft:#372C17;--teal:#5DC0B8;--teal-soft:#16363A;--rose:#E08A80;--rose-soft:#3A2224;--night:#0B1228;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0F1426;--paper:#171E38;--ink:#E9EDF7;--soft:#A3ADC6;--line:#2A3355;--indigo:#9DAAF0;--gold:#E6AE48;--gold-soft:#372C17;--teal:#5DC0B8;--teal-soft:#16363A;--rose:#E08A80;--rose-soft:#3A2224;--night:#0B1228;color-scheme:dark}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font);font-size:17px;line-height:1.7;word-break:keep-all;-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.wrap{max-width:720px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:16px 60px;display:flex;flex-direction:column;gap:20px}
+h1,h2,h3{margin:0;font-weight:800;line-height:1.25;text-wrap:balance}
+p{margin:0}
+button{font:inherit;cursor:pointer}
+a{color:inherit}
+button:focus-visible,a:focus-visible,textarea:focus-visible,.w:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+.label{font-size:13px;letter-spacing:.08em;color:var(--gold);font-weight:800;text-transform:uppercase}
+.note{font-size:14px;color:var(--soft)}
+
+/* 머리띠 */
+.hero{background:var(--night);color:var(--night-ink);border-radius:20px;padding:20px 22px 18px;display:flex;flex-direction:column;gap:6px;position:relative;overflow:hidden}
+.hero .star{position:absolute;right:18px;top:16px;width:46px;height:46px}
+.hero .who{font-size:14px;color:var(--night-soft);padding-right:56px}
+.hero .who b{color:var(--star)}
+.hero h1{font-size:clamp(26px,7vw,36px);color:#FFF6E2;padding-right:40px}
+.hero .sub{color:var(--night-soft);font-size:15px}
+.prog{margin-top:12px;display:grid;grid-template-columns:repeat(14,1fr);gap:5px;max-width:420px}
+.d{aspect-ratio:1;max-width:100%;border:0;padding:0;border-radius:5px;background:rgba(255,255,255,.12);color:transparent;font-size:0}
+.d.done{background:var(--star)}
+.d.now{background:transparent;box-shadow:inset 0 0 0 2px var(--star)}
+.d.view{outline:2px solid #fff;outline-offset:1px}
+.d:disabled{cursor:default;opacity:.55}
+.prog-cap{font-size:13px;color:var(--night-soft);display:flex;gap:12px;flex-wrap:wrap}
+.prog-cap b{color:var(--star)}
+
+/* 듣기 바 */
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);padding-block:6px;display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.pill{display:inline-flex;align-items:center;gap:8px;text-decoration:none;font-size:15px;font-weight:700;border-radius:999px;padding:9px 16px;border:0;background:var(--indigo);color:var(--paper)}
+.pill svg{width:16px;height:16px;fill:currentColor;flex:none}
+.pill.ghost{background:var(--paper);color:var(--ink);border:1px solid var(--line)}
+.bar .note{flex-basis:100%;font-size:13px}
+
+/* 본문 */
+.intro{display:grid;gap:10px}
+.look{display:flex;flex-wrap:wrap;gap:8px}
+.look span{background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:5px 12px;font-size:15px}
+.look b{color:var(--gold);margin-right:4px}
+.scripture{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:20px}
+.scripture .hint{font-size:14px;color:var(--soft);margin-bottom:12px}
+.scripture .hint i{font-style:normal;border-bottom:2px dotted var(--gold)}
+.text{font-size:19px;line-height:1.9}
+.verse{display:block;padding:3px 8px;margin:0 -8px;border-radius:8px}
+.verse.key{background:var(--gold-soft)}
+.vn{font-size:12px;font-weight:800;color:var(--teal);vertical-align:super;margin-right:3px}
+.w{cursor:pointer;border-radius:4px}
+.w:hover{background:var(--gold-soft)}
+.w.dict{border-bottom:2px dotted var(--gold)}
+.copy{font-size:12px;color:var(--soft);margin-top:14px;border-top:1px solid var(--line);padding-top:10px}
+
+.card{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:20px;display:grid;gap:14px}
+.card h2{font-size:22px}
+.memory{font-size:21px;line-height:1.55;font-weight:600}
+.memory small{display:block;font-size:14px;font-weight:400;color:var(--soft);margin-top:6px}
+
+.q{display:grid;gap:8px}
+.q p{font-weight:600}
+.opts{display:flex;flex-wrap:wrap;gap:8px}
+.opt{border:1.5px solid var(--line);background:var(--bg);color:var(--ink);border-radius:12px;padding:8px 14px;text-align:left}
+.opt.right{border-color:var(--teal);background:var(--teal-soft);color:var(--teal);font-weight:800}
+.opt.wrong{border-color:var(--rose);color:var(--rose);text-decoration:line-through}
+.score{font-size:15px;color:var(--soft)}
+
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{border:1.5px solid var(--line);background:var(--bg);color:var(--ink);border-radius:999px;padding:6px 12px;font-size:14px}
+.chip[aria-pressed="true"]{border-color:var(--indigo);color:var(--indigo);font-weight:800}
+.field{display:grid;gap:6px}
+.field label{font-size:15px;font-weight:600}
+textarea,input[type=text]{width:100%;border:1.5px solid var(--line);background:var(--bg);color:var(--ink);border-radius:12px;padding:10px 12px;font:inherit;font-size:16px}
+textarea{min-height:120px;resize:vertical}
+.btn{border:0;border-radius:14px;padding:15px 18px;width:100%;font-size:17px;font-weight:800;background:var(--indigo);color:var(--paper)}
+.btn:disabled{opacity:.5;cursor:default}
+.btn.ok{background:var(--teal)}
+.msg{font-size:15px;border-radius:12px;padding:12px 14px}
+.msg.ok{background:var(--teal-soft);color:var(--teal)}
+.msg.err{background:var(--rose-soft);color:var(--rose)}
+.msg.info{background:var(--gold-soft);color:var(--ink)}
+
+.center{min-height:60vh;display:grid;place-items:center;text-align:center;gap:10px}
+
+/* 사전 */
+.sheet{position:fixed;left:0;right:0;bottom:0;z-index:30;padding:0 max(12px,env(safe-area-inset-right,0px)) calc(12px + env(safe-area-inset-bottom,0px)) max(12px,env(safe-area-inset-left,0px));transform:translateY(115%);transition:transform .25s ease}
+.sheet.open{transform:none}
+.sheet .box{max-width:640px;margin:0 auto;background:var(--paper);border:1px solid var(--line);border-radius:20px;box-shadow:0 10px 40px rgba(14,23,54,.25);padding:18px 20px 20px;display:grid;gap:8px}
+.sheet .head{display:flex;justify-content:space-between;gap:10px;align-items:start}
+.sheet h3{font-size:24px}
+.tag{font-size:12px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--gold)}
+.x{border:0;background:var(--bg);color:var(--ink);width:38px;height:38px;border-radius:50%;font-size:22px;line-height:1;flex:none}
+.bil{background:var(--gold-soft);border-radius:12px;padding:10px 12px;font-size:15px}
+.bil b{color:var(--gold)}
+@media (prefers-reduced-motion:reduce){.sheet{transition:none}}
+</style>
+<script src="ayarlar.js"></script>
+</head>
+<body>
+<div class="wrap">
+  <div id="loading" class="center"><p class="note">Yüklənir…</p></div>
+
+  <div id="fail" class="center" hidden>
+    <div style="display:grid;gap:10px;max-width:420px">
+      <h2>Link açılmadı</h2>
+      <p id="failText">Bu link səhvdir və ya köhnədir. Zəhmət olmasa müəlliminə yaz.</p>
+    </div>
+  </div>
+
+  <main id="app" hidden style="display:flex;flex-direction:column;gap:20px">
+    <header class="hero">
+      <svg class="star" viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="22" fill="#F2C46B" opacity=".18"/><path d="M24 4 L27 21 L44 24 L27 27 L24 44 L21 27 L4 24 L21 21Z" fill="#FFF4D0"/></svg>
+      <p class="who" id="who"></p>
+      <h1 id="title"></h1>
+      <p class="sub" id="sub"></p>
+      <div class="prog" id="prog" aria-label="Fəsillər"></div>
+      <p class="prog-cap"><span>Oxunub: <b id="doneN">0</b> / <span id="totalN">28</span></span><span id="nextCap"></span></p>
+    </header>
+
+    <div class="bar">
+      <a class="pill" id="listen" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24"><path d="M3 10v4h4l5 5V5L7 10H3zm13.5 2A4.5 4.5 0 0 0 14 7.97v8.05A4.5 4.5 0 0 0 16.5 12zM14 3.23v2.06a7 7 0 0 1 0 13.42v2.06A9 9 0 0 0 14 3.23z"/></svg>
+        <span>Səsli dinlə</span>
+      </a>
+      <p class="note">Səs Müqəddəs Kitab Tərcüməsi İnstitutunun (IBT) saytında açılır. Dinləyə-dinləyə buradan oxu.</p>
+    </div>
+
+    <section class="intro" aria-labelledby="introH">
+      <span class="label" id="introH">Oxumazdan əvvəl</span>
+      <p id="giris"></p>
+      <div class="look" id="look"></div>
+    </section>
+
+    <article class="scripture" aria-labelledby="refH">
+      <h2 class="label" id="refH"></h2>
+      <p class="hint">Hər sözə toxuna bilərsən. <i>Altı xətli</i> sözlərin lüğət izahı var.</p>
+      <div class="text" id="text"></div>
+      <p class="copy" id="copy"></p>
+    </article>
+
+    <section class="card" aria-labelledby="memH">
+      <span class="label" id="memH">Bu günün ayəsi</span>
+      <p class="memory" id="memory"></p>
+    </section>
+
+    <section class="card" aria-labelledby="quizH">
+      <h2 id="quizH">Kiçik yoxlama</h2>
+      <div id="quiz" style="display:grid;gap:16px"></div>
+      <p class="score" id="score"></p>
+    </section>
+
+    <section class="card" aria-labelledby="refl">
+      <h2 id="refl">Sənin fikrin</h2>
+      <p class="note">Bir sual seç və cavabını yaz. Yazdıqların müəlliminə gedəcək.</p>
+      <div class="chips" id="chips" role="group" aria-label="Düşünmək üçün suallar"></div>
+      <div class="field">
+        <label for="thought" id="promptLabel"></label>
+        <textarea id="thought" placeholder="Fikrini bura yaz…"></textarea>
+      </div>
+      <div class="field">
+        <label for="question">Sualın varmı? (istəyə görə)</label>
+        <input type="text" id="question" placeholder="Məsələn: «Tövbə» nə deməkdir?">
+      </div>
+      <p class="note" id="need"></p>
+      <button class="btn" id="send" type="button">Oxudum və göndər</button>
+      <div class="msg" id="result" hidden></div>
+      <button class="btn ok" id="next" type="button" hidden></button>
+    </section>
+  </main>
+</div>
+
+<div class="sheet" id="sheet" role="dialog" aria-labelledby="dWord">
+  <div class="box">
+    <div class="head">
+      <div><h3 id="dWord"></h3><span class="tag" id="dTag"></span></div>
+      <button class="x" id="dClose" type="button" aria-label="Bağla">×</button>
+    </div>
+    <p id="dMean"></p>
+    <p class="bil" id="dBil"></p>
+    <button class="pill ghost" id="dAsk" type="button" style="justify-self:start">Sualıma əlavə et</button>
+  </div>
+</div>
+
+<script>
+(async function () {
+  const AYAR = window.OXU_AYAR || {};
+  const $ = id => document.getElementById(id);
+  const params = new URLSearchParams(location.search);
+  const KEY = (params.get("k") || "").trim();
+  const DEMO = !KEY || !AYAR.SCRIPT_URL;
+  const store = {
+    get(k, d) { try { const v = localStorage.getItem(k); return v == null ? d : JSON.parse(v); } catch (e) { return d; } },
+    set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} }
+  };
+  const fail = t => { $("loading").hidden = true; $("fail").hidden = false; if (t) $("failText").textContent = t; };
+
+  // 1) 데이터 불러오기
+  let METN = {}, OYR = { fesiller: {}, lugat: [] }, menbe = "";
+  try {
+    const metn = await Promise.all((AYAR.METN || []).map(u => fetch(u).then(r => r.json())));
+    const oyr = await Promise.all((AYAR.OYRENME || []).map(u => fetch(u).then(r => r.json())));
+    metn.forEach(m => { Object.assign(METN, m.fesiller); menbe = m.menbe; });
+    oyr.forEach(o => { Object.assign(OYR.fesiller, o.fesiller); OYR.lugat.push(...o.lugat); ["kitab", "kitabAd", "ibt", "cemi", "umumiFikir"].forEach(k => { if (o[k] != null) OYR[k] = o[k]; }); });
+  } catch (e) { return fail("Məlumat yüklənmədi. İnterneti yoxla və səhifəni yenilə."); }
+  const AVAIL = Object.keys(METN).map(Number).sort((a, b) => a - b);
+  const MAXCH = AVAIL[AVAIL.length - 1] || 1;
+  const TOTAL = OYR.cemi || MAXCH;
+
+  // 2) 학생 정보
+  let ad = "", son = store.get("oxu-son-" + (KEY || "demo"), 0);
+  if (!DEMO) {
+    try {
+      const r = await fetch(AYAR.SCRIPT_URL + "?k=" + encodeURIComponent(KEY));
+      const j = await r.json();
+      if (!j.ok) return fail("Bu link tapılmadı. Zəhmət olmasa müəlliminə yaz.");
+      ad = j.ad || ""; son = Number(j.son) || 0;
+      store.set("oxu-son-" + KEY, son); store.set("oxu-ad-" + KEY, ad);
+    } catch (e) {
+      ad = store.get("oxu-ad-" + KEY, "");
+    }
+  }
+
+  // 3) 사전
+  const low = s => s.replace(/İ/g, "i").replace(/I/g, "ı").toLowerCase();
+  const EXACT = {}, PREF = [];
+  OYR.lugat.forEach(e => { (e.x || []).forEach(k => EXACT[k] = e); (e.s || []).forEach(k => PREF.push([k, e])); });
+  PREF.sort((a, b) => b[0].length - a[0].length);
+  const lookup = w => { const l = low(w); if (EXACT[l]) return EXACT[l]; const p = PREF.find(([k]) => l.startsWith(k)); return p ? p[1] : null; };
+
+  let view = 1, answers = {}, promptIdx = 0, sending = false;
+  const nextCh = () => Math.min(son + 1, MAXCH);
+  const isOpen = c => METN[c] && c <= son + 1;
+
+  function drawProg() {
+    const p = $("prog"); p.innerHTML = "";
+    for (let c = 1; c <= TOTAL; c++) {
+      const b = document.createElement("button");
+      b.type = "button"; b.className = "d" + (c <= son ? " done" : c === son + 1 ? " now" : "") + (c === view ? " view" : "");
+      b.textContent = c; b.setAttribute("aria-label", OYR.kitab + " " + c + (c <= son ? " · oxunub" : ""));
+      b.disabled = !isOpen(c);
+      b.addEventListener("click", () => show(c));
+      p.appendChild(b);
+    }
+    $("doneN").textContent = son; $("totalN").textContent = TOTAL;
+    $("nextCap").textContent = son >= MAXCH ? (MAXCH < TOTAL ? "Növbəti fəsillər tezliklə açılacaq" : "Kitab bitdi!") : "Növbəti: " + OYR.kitab + " " + (son + 1);
+  }
+
+  function show(c) {
+    view = c; answers = {}; promptIdx = 0;
+    const f = OYR.fesiller[c] || {}, verses = METN[c];
+    $("who").innerHTML = "";
+    const who = document.createElement("span");
+    who.textContent = (ad ? "Salam, " + ad + "! · " : "") + OYR.kitabAd;
+    $("who").appendChild(who);
+    if (DEMO) { const d = document.createElement("b"); d.textContent = " · nümunə"; $("who").appendChild(d); }
+    $("title").textContent = f.basliq || (OYR.kitab + " " + c);
+    $("sub").textContent = OYR.kitab + " " + c + "-ci fəsil · " + verses.length + " ayə";
+    document.title = OYR.kitab + " " + c + " · Gündəlik Oxu";
+    $("listen").href = "https://ibtrussia.org/Azeri/Bible/study?audio=AZE&verse=" + (OYR.ibt || "Matt") + "." + c;
+    $("giris").textContent = f.giris || "";
+    $("look").innerHTML = "";
+    (f.bax || []).forEach((t, i) => { const s = document.createElement("span"); s.innerHTML = "<b>" + (i + 1) + "</b>"; s.appendChild(document.createTextNode(t)); $("look").appendChild(s); });
+    $("refH").textContent = OYR.kitab + " " + c;
+    $("copy").textContent = "Mətn: " + menbe + " Səs: IBT.";
+
+    // 본문
+    const key = f["ayə"];
+    const text = $("text"); text.innerHTML = "";
+    verses.forEach((v, i) => {
+      const line = document.createElement("span");
+      line.className = "verse" + (i + 1 === key ? " key" : "");
+      const n = document.createElement("span"); n.className = "vn"; n.textContent = i + 1; line.appendChild(n);
+      v.split(/(\s+)/).forEach(tok => {
+        if (!tok || /^\s+$/.test(tok)) { line.appendChild(document.createTextNode(tok)); return; }
+        const m = tok.match(/^([«“"(\[–—]*)(.*?)([»”".,:;!?)\]–—]*)$/u);
+        if (m[1]) line.appendChild(document.createTextNode(m[1]));
+        if (m[2]) {
+          const w = document.createElement("span");
+          w.className = "w" + (lookup(m[2]) ? " dict" : ""); w.textContent = m[2]; w.tabIndex = 0; w.setAttribute("role", "button");
+          w.addEventListener("click", () => openDict(m[2]));
+          w.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); openDict(m[2]); } });
+          line.appendChild(w);
+        }
+        if (m[3]) line.appendChild(document.createTextNode(m[3]));
+      });
+      text.appendChild(line); text.appendChild(document.createTextNode(" "));
+    });
+    $("memory").innerHTML = "";
+    if (key && verses[key - 1]) {
+      $("memory").appendChild(document.createTextNode("«" + verses[key - 1].replace(/^[«“]+|[»”]+$/g, "") + "»"));
+      const sm = document.createElement("small"); sm.textContent = OYR.kitab + " " + c + ":" + key + " · Bu ayəni əzbərlə"; $("memory").appendChild(sm);
+    }
+
+    // 퀴즈
+    const quiz = $("quiz"); quiz.innerHTML = "";
+    const tests = f.test || [];
+    tests.forEach(([q, opts, right], qi) => {
+      const box = document.createElement("div"); box.className = "q";
+      const p = document.createElement("p"); p.textContent = (qi + 1) + ". " + q; box.appendChild(p);
+      const row = document.createElement("div"); row.className = "opts";
+      opts.forEach((o, oi) => {
+        const b = document.createElement("button"); b.type = "button"; b.className = "opt"; b.textContent = o;
+        b.addEventListener("click", () => {
+          if (qi in answers) return;
+          answers[qi] = oi === right;
+          row.children[right].classList.add("right");
+          if (oi !== right) b.classList.add("wrong");
+          updateScore(); checkReady();
+        });
+        row.appendChild(b);
+      });
+      box.appendChild(row); quiz.appendChild(box);
+    });
+    updateScore();
+
+    // 묵상
+    const prompts = [...(f.fikir || []), OYR.umumiFikir].filter(Boolean);
+    const chips = $("chips"); chips.innerHTML = "";
+    const short = ["1-ci sual", "2-ci sual", "Təsir edən ayə"];
+    prompts.forEach((t, i) => {
+      const b = document.createElement("button"); b.type = "button"; b.className = "chip";
+      b.textContent = i === prompts.length - 1 ? "Təsir edən ayə" : short[i];
+      b.setAttribute("aria-pressed", i === 0 ? "true" : "false");
+      b.addEventListener("click", () => { promptIdx = i; [...chips.children].forEach((x, j) => x.setAttribute("aria-pressed", j === i ? "true" : "false")); $("promptLabel").textContent = prompts[i]; });
+      chips.appendChild(b);
+    });
+    $("promptLabel").textContent = prompts[0] || "";
+    show.prompts = prompts;
+    const draft = store.get("oxu-draft-" + (KEY || "demo") + "-" + c, { t: "", q: "" });
+    $("thought").value = draft.t; $("question").value = draft.q;
+    $("result").hidden = true; $("next").hidden = true;
+    $("send").hidden = false;
+    $("send").textContent = c <= son ? "Yenidən oxudum və göndər" : "Oxudum və göndər";
+    checkReady(); drawProg();
+    window.scrollTo({ top: 0 });
+  }
+
+  function updateScore() {
+    const total = (OYR.fesiller[view]?.test || []).length, n = Object.keys(answers).length, ok = Object.values(answers).filter(Boolean).length;
+    $("score").textContent = n < total ? `${total} sualdan ${n}-i cavablandırıldı` : `Nəticə: ${ok} / ${total}` + (ok === total ? " · Əla!" : " · Ayələrə yenidən bax");
+  }
+  function checkReady() {
+    const total = (OYR.fesiller[view]?.test || []).length;
+    const quizDone = Object.keys(answers).length >= total;
+    const long = $("thought").value.trim().length >= 10;
+    const miss = [];
+    if (!quizDone) miss.push("yoxlama suallarına cavab ver");
+    if (!long) miss.push("fikrini ən azı bir cümlə ilə yaz");
+    $("need").textContent = miss.length ? "Göndərmək üçün: " + miss.join(", ") + "." : "";
+    $("send").disabled = !!miss.length || sending;
+  }
+  ["thought", "question"].forEach(id => $(id).addEventListener("input", () => {
+    store.set("oxu-draft-" + (KEY || "demo") + "-" + view, { t: $("thought").value, q: $("question").value });
+    checkReady();
+  }));
+
+  // 사전 창
+  let dictWord = "";
+  function openDict(word) {
+    dictWord = word;
+    const e = lookup(word);
+    $("dWord").textContent = e ? e.b : word;
+    $("dTag").textContent = e ? e.n : "Lüğətdə yoxdur";
+    $("dMean").textContent = e ? e.m : "Bu söz hələ lüğətimizdə yoxdur. Mənasını müəllimindən soruşa bilərsən.";
+    $("dBil").hidden = !(e && e.bil);
+    if (e && e.bil) { $("dBil").innerHTML = "<b>Bilirsənmi?</b> "; $("dBil").appendChild(document.createTextNode(e.bil)); }
+    $("dAsk").hidden = !!e;
+    $("sheet").classList.add("open");
+    $("dClose").focus({ preventScroll: true });
+  }
+  const closeDict = () => $("sheet").classList.remove("open");
+  $("dClose").addEventListener("click", closeDict);
+  document.addEventListener("keydown", e => { if (e.key === "Escape") closeDict(); });
+  $("dAsk").addEventListener("click", () => {
+    const q = $("question"); q.value = (q.value ? q.value + " " : "") + "«" + dictWord + "» sözü nə deməkdir?";
+    q.dispatchEvent(new Event("input")); closeDict();
+  });
+
+  // 보내기
+  $("send").addEventListener("click", async () => {
+    if (sending) return;
+    const total = (OYR.fesiller[view]?.test || []).length, ok = Object.values(answers).filter(Boolean).length;
+    const payload = {
+      k: KEY, fesil: view, kitab: OYR.kitab, test: ok + "/" + total,
+      sual: show.prompts[promptIdx] || "", fikir: $("thought").value.trim(), soru: $("question").value.trim(),
+      tekrar: view <= son
+    };
+    const res = $("result");
+    if (DEMO) {
+      res.className = "msg info"; res.hidden = false;
+      res.textContent = "Nümunə rejimi: şəxsi link olmadığı üçün göndərilmədi.";
+      if (view > son) { son = view; store.set("oxu-son-demo", son); }
+      afterSend(); return;
+    }
+    sending = true; checkReady(); $("send").textContent = "Göndərilir…";
+    try {
+      const r = await fetch(AYAR.SCRIPT_URL, { method: "POST", body: JSON.stringify(payload) });
+      const j = await r.json();
+      if (!j.ok) throw new Error(j.error || "xəta");
+      son = Number(j.son) || son; store.set("oxu-son-" + KEY, son);
+      store.set("oxu-draft-" + KEY + "-" + view, { t: "", q: "" });
+      res.className = "msg ok"; res.hidden = false;
+      res.textContent = "Göndərildi! Müəllimin fikrini oxuyacaq. Afərin!";
+      afterSend();
+    } catch (e) {
+      res.className = "msg err"; res.hidden = false;
+      res.textContent = "Göndərmək alınmadı. İnterneti yoxla və yenidən bas. Yazdıqların silinməyib.";
+      $("send").textContent = "Yenidən göndər";
+    }
+    sending = false; checkReady();
+  });
+  function afterSend() {
+    $("send").hidden = true;
+    drawProg();
+    const n = view + 1;
+    if (METN[n] && n <= son + 1) {
+      $("next").hidden = false; $("next").textContent = "Növbəti fəsil: " + OYR.kitab + " " + n;
+      $("next").onclick = () => show(n);
+    } else if (n > MAXCH && MAXCH < TOTAL) {
+      $("next").hidden = true;
+      $("result").textContent += " Növbəti fəsillər tezliklə açılacaq.";
+    }
+  }
+
+  $("loading").hidden = true; $("app").hidden = false;
+  const want = Number(params.get("f"));
+  show(want && isOpen(want) ? want : nextCh());
+})();
+</script>
+</body>
+</html>
