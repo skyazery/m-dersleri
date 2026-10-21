@@ -7,11 +7,11 @@
  "fesiller": {
   "1": {
    "basliq": "İsanın ailə ağacı",
-   "giris": "Matta Müjdəni İsanın nəsil şəcərəsi ilə başlayır: İbrahimdən Davuda, Davuddan İsaya qədər. Sonra mələk röyada Yusifə Körpənin adını deyir.",
+   "giris": "İsanın ailə ağacı və mələyin Yusifə gətirdiyi xəbər.",
    "bax": [
-    "Siyahıda hansı tanış adlar var?",
-    "Mələk Yusifə nə deyir?",
-    "«İmmanuel» nə deməkdir?"
+    "🌳 Tanış adları tap",
+    "👼 Mələk nə deyir?",
+    "💬 «İmmanuel» nədir?"
    ],
    "ayə": 21,
    "test": [
@@ -46,15 +46,60 @@
    "fikir": [
     "Allah «bizimlədir». Bu gün bunu harada hiss etdin?",
     "Yusif qorxmaq yerinə Allaha itaət etdi. Sən çətin vəziyyətdə necə qərar verirsən?"
-   ]
+   ],
+   "sehne": {
+    "fon": "seher",
+    "e": [
+     [
+      "🌳",
+      42,
+      22,
+      64,
+      "float",
+      0
+     ],
+     [
+      "👑",
+      14,
+      14,
+      30,
+      "twinkle",
+      0
+     ],
+     [
+      "👼",
+      76,
+      10,
+      36,
+      "float",
+      0.6
+     ],
+     [
+      "💭",
+      80,
+      48,
+      24,
+      "pulse",
+      1
+     ],
+     [
+      "👶",
+      24,
+      58,
+      30,
+      "float",
+      1.2
+     ]
+    ]
+   }
   },
   "2": {
    "basliq": "Ulduzun ardınca",
-   "giris": "Şərqdən gələn müdrik adamlar bir ulduzu izləyərək Körpə İsanı axtarırlar. Padşah Hirod isə qorxuya düşür.",
+   "giris": "Ulduz müdrik adamları Körpə İsaya aparır.",
    "bax": [
-    "Ulduz nə edir?",
-    "Hirod nə istəyir?",
-    "Allah Yusifə necə yol göstərir?"
+    "⭐ Ulduz nə edir?",
+    "👑 Hirod nə istəyir?",
+    "💭 Röyalar"
    ],
    "ayə": 10,
    "test": [
@@ -89,15 +134,76 @@
    "fikir": [
     "Müdrik adamlar İsanı tapmaq üçün uzaq yol gəldilər. Sən bu gün İsaya yaxınlaşmaq üçün nə edə bilərsən?",
     "Yusif Allahın sözünü eşidən kimi «qalxdı». Allahın səndən istədiyi, amma təxirə saldığın bir şey varmı?"
-   ]
+   ],
+   "sehne": {
+    "fon": "gece",
+    "e": [
+     [
+      "⭐",
+      10,
+      8,
+      34,
+      "travel",
+      0
+     ],
+     [
+      "✨",
+      30,
+      18,
+      16,
+      "twinkle",
+      0.4
+     ],
+     [
+      "✨",
+      70,
+      12,
+      14,
+      "twinkle",
+      1.1
+     ],
+     [
+      "🏠",
+      70,
+      52,
+      38,
+      "none",
+      0
+     ],
+     [
+      "🐪",
+      6,
+      62,
+      30,
+      "walk",
+      0
+     ],
+     [
+      "🐪",
+      18,
+      64,
+      26,
+      "walk",
+      0.3
+     ],
+     [
+      "🎁",
+      56,
+      66,
+      20,
+      "float",
+      0.8
+     ]
+    ]
+   }
   },
   "3": {
    "basliq": "Çöldə bir səs",
-   "giris": "Vəftizçi Yəhya insanları tövbəyə çağırır. Sonra İsa vəftiz olunur və göydən Allahın səsi gəlir.",
+   "giris": "Yəhya xalqı tövbəyə çağırır, İsa vəftiz olunur.",
    "bax": [
-    "Yəhya nə geyinir, nə yeyir?",
-    "«Tövbə edin» nə deməkdir?",
-    "Göydən gələn səs nə deyir?"
+    "🦗 Yəhya nə yeyir?",
+    "🌊 Vəftiz harada?",
+    "🕊️ Göydən səs"
    ],
    "ayə": 17,
    "test": [
@@ -132,15 +238,76 @@
    "fikir": [
     "Allah İsaya «sevimli Oğlum» dedi. Allahın səni də sevdiyini bilmək sənə nə hiss etdirir?",
     "Tövbə yalnız «bağışla» demək deyil, yolunu dəyişməkdir. Həyatında dəyişmək istədiyin bir şey varmı?"
-   ]
+   ],
+   "sehne": {
+    "fon": "cay",
+    "e": [
+     [
+      "🕊️",
+      46,
+      4,
+      34,
+      "descend",
+      0
+     ],
+     [
+      "🌊",
+      8,
+      70,
+      26,
+      "wave",
+      0
+     ],
+     [
+      "🌊",
+      30,
+      72,
+      26,
+      "wave",
+      0.5
+     ],
+     [
+      "🌊",
+      56,
+      70,
+      26,
+      "wave",
+      1
+     ],
+     [
+      "🌊",
+      78,
+      72,
+      26,
+      "wave",
+      1.5
+     ],
+     [
+      "🦗",
+      14,
+      44,
+      22,
+      "hop",
+      0.3
+     ],
+     [
+      "🍯",
+      80,
+      44,
+      24,
+      "float",
+      0.7
+     ]
+    ]
+   }
   },
   "4": {
    "basliq": "Səhrada sınaq",
-   "giris": "İblis İsanı üç dəfə sınağa çəkir. İsa hər dəfə Allahın Kəlamı ilə cavab verir. Sonra ilk şagirdlərini çağırır.",
+   "giris": "İblis İsanı sınayır. İsa ilk şagirdlərini çağırır.",
    "bax": [
-    "İblis İsanı neçə dəfə sınayır?",
-    "İsa hər dəfə nə ilə cavab verir?",
-    "Balıqçılar İsanın çağırışına necə cavab verir?"
+    "🏜️ Üç sınaq",
+    "📖 İsanın cavabı",
+    "🎣 Balıqçılar"
    ],
    "ayə": 19,
    "test": [
@@ -175,15 +342,68 @@
    "fikir": [
     "Sənin üçün ən çətin sınaq nədir? Allahın Kəlamı sənə necə kömək edə bilər?",
     "Şagirdlər «dərhal» İsanın ardınca getdilər. İsanın ardınca getmək sənin üçün nə deməkdir?"
-   ]
+   ],
+   "sehne": {
+    "fon": "sehra",
+    "e": [
+     [
+      "☀️",
+      74,
+      6,
+      40,
+      "pulse",
+      0
+     ],
+     [
+      "🌵",
+      12,
+      40,
+      40,
+      "swing",
+      0
+     ],
+     [
+      "🌵",
+      86,
+      46,
+      30,
+      "swing",
+      0.8
+     ],
+     [
+      "🍞",
+      44,
+      54,
+      28,
+      "pulse",
+      0.4
+     ],
+     [
+      "🎣",
+      60,
+      34,
+      28,
+      "swing",
+      0.2
+     ],
+     [
+      "🐟",
+      30,
+      66,
+      22,
+      "hop",
+      1
+     ]
+    ]
+   }
   },
   "5": {
    "basliq": "Duz və nur",
-   "giris": "İsa dağda şagirdlərinə öyrədir: kim həqiqətən bəxtiyardır, necə duz və nur olmaq olar, düşmənləri necə sevmək olar.",
+   "giris": "Dağda İsa öyrədir: kim bəxtiyardır?",
    "bax": [
-    "«Nə bəxtiyardır» sözü neçə dəfə təkrarlanır?",
-    "Duz və nur nəyi göstərir?",
-    "İsa düşmənlər haqqında nə deyir?"
+    "😊 Kim bəxtiyardır?",
+    "🧂 Duz və 🕯️ nur",
+    "❤️ Düşməni sevmək"
    ],
    "ayə": 16,
    "test": [
@@ -218,15 +438,60 @@
    "fikir": [
     "Sən bu həftə harada «nur» ola bilərsən: evdə, məktəbdə, dostlar arasında?",
     "Səni incidən biri üçün dua etmək asandırmı? Onun üçün qısa bir dua yaz."
-   ]
+   ],
+   "sehne": {
+    "fon": "dag",
+    "e": [
+     [
+      "⛰️",
+      34,
+      20,
+      90,
+      "none",
+      0
+     ],
+     [
+      "☀️",
+      80,
+      6,
+      32,
+      "pulse",
+      0
+     ],
+     [
+      "🧂",
+      10,
+      50,
+      28,
+      "float",
+      0.3
+     ],
+     [
+      "🕯️",
+      84,
+      48,
+      28,
+      "twinkle",
+      0.6
+     ],
+     [
+      "👥",
+      40,
+      66,
+      28,
+      "float",
+      1
+     ]
+    ]
+   }
   },
   "6": {
    "basliq": "Göylərdə olan Atamız",
-   "giris": "İsa gizlində yaxşılıq etməyi və necə dua etməyi öyrədir. Sonra deyir: qayğı çəkməyin, əvvəlcə Allahın Padşahlığını axtarın.",
+   "giris": "İsa dua etməyi öyrədir: «Göylərdə olan Atamız…»",
    "bax": [
-    "İsa hansı duanı öyrədir?",
-    "Xəzinəni harada yığmaq lazımdır?",
-    "Quşlar və zanbaqlar bizə nə öyrədir?"
+    "🙏 Atamız duası",
+    "💎 Göydəki xəzinə",
+    "🐦 Quşlar və 🌸 çiçəklər"
    ],
    "ayə": 33,
    "test": [
@@ -261,15 +526,68 @@
    "fikir": [
     "Səni ən çox narahat edən nədir? Onu dua ilə Allaha de.",
     "«Atamız» duasını öz sözlərinlə yaz."
-   ]
+   ],
+   "sehne": {
+    "fon": "seher",
+    "e": [
+     [
+      "🙏",
+      44,
+      30,
+      44,
+      "pulse",
+      0
+     ],
+     [
+      "🐦",
+      8,
+      10,
+      24,
+      "fly",
+      0
+     ],
+     [
+      "🐦",
+      20,
+      22,
+      20,
+      "fly",
+      1.4
+     ],
+     [
+      "🌸",
+      10,
+      64,
+      26,
+      "swing",
+      0.2
+     ],
+     [
+      "🌼",
+      80,
+      64,
+      26,
+      "swing",
+      0.9
+     ],
+     [
+      "💎",
+      80,
+      20,
+      22,
+      "twinkle",
+      0.5
+     ]
+    ]
+   }
   },
   "7": {
    "basliq": "Qaya üzərində ev",
-   "giris": "İsa başqalarını mühakimə etməmək, dua ilə diləmək, dar qapıdan girmək və sözlərinə əməl etmək haqqında öyrədir.",
+   "giris": "Evini qaya üzərində qur!",
    "bax": [
-    "Çöp və tir nəyi göstərir?",
-    "«Diləyin, axtarın, döyün» nə vəd edir?",
-    "Ağıllı və ağılsız adam nə ilə fərqlənir?"
+    "👁️ Çöp və tir",
+    "🚪 Dar qapı",
+    "🏠 Qaya və qum"
    ],
    "ayə": 24,
    "test": [
@@ -304,15 +622,68 @@
    "fikir": [
     "İsanın sözlərinə «əməl etmək» nə deməkdir? Bu həftə Onun bir sözünə necə əməl edəcəksən?",
     "«İnsanların sizinlə necə rəftar etməsini istəyirsinizsə, siz də onlarla elə rəftar edin» (12-ci ayə). Bu gün kimə yaxşılıq edə bilərsən?"
-   ]
+   ],
+   "sehne": {
+    "fon": "yagis",
+    "e": [
+     [
+      "🌧️",
+      18,
+      4,
+      36,
+      "float",
+      0
+     ],
+     [
+      "🌧️",
+      64,
+      8,
+      30,
+      "float",
+      0.8
+     ],
+     [
+      "🏠",
+      40,
+      40,
+      44,
+      "none",
+      0
+     ],
+     [
+      "🪨",
+      42,
+      68,
+      40,
+      "none",
+      0
+     ],
+     [
+      "🚪",
+      84,
+      56,
+      24,
+      "swing",
+      0.4
+     ],
+     [
+      "⚡",
+      84,
+      14,
+      24,
+      "flash",
+      1
+     ]
+    ]
+   }
   },
   "8": {
    "basliq": "Küləklər də itaət edir",
-   "giris": "İsa cüzamlını pak edir, yüzbaşının xidmətçisini sağaldır və tufanı susdurur. Hamı soruşur: «Bu necə bir Adamdır?»",
+   "giris": "İsa xəstələri sağaldır və tufanı susdurur.",
    "bax": [
-    "Yüzbaşının imanı niyə böyükdür?",
-    "Tufan zamanı İsa nə edir?",
-    "Şagirdlər nə soruşur?"
+    "🙌 Yüzbaşının imanı",
+    "⛵ Tufan",
+    "🐷 Donuz sürüsü"
    ],
    "ayə": 26,
    "test": [
@@ -347,15 +718,76 @@
    "fikir": [
     "Sənin həyatında «tufan» kimi bir problem varmı? İsaya nə demək istəyirsən?",
     "Yüzbaşı «Ancaq bir söz söylə» dedi. Sən İsanın sözünə nə qədər güvənirsən?"
-   ]
+   ],
+   "sehne": {
+    "fon": "deniz",
+    "e": [
+     [
+      "🌩️",
+      70,
+      4,
+      34,
+      "flash",
+      0
+     ],
+     [
+      "💨",
+      6,
+      18,
+      28,
+      "drift",
+      0
+     ],
+     [
+      "⛵",
+      40,
+      38,
+      44,
+      "rock",
+      0
+     ],
+     [
+      "🌊",
+      6,
+      68,
+      30,
+      "wave",
+      0
+     ],
+     [
+      "🌊",
+      34,
+      70,
+      30,
+      "wave",
+      0.4
+     ],
+     [
+      "🌊",
+      64,
+      68,
+      30,
+      "wave",
+      0.8
+     ],
+     [
+      "🐷",
+      86,
+      52,
+      20,
+      "hop",
+      1.2
+     ]
+    ]
+   }
   },
   "9": {
    "basliq": "«Ardımca gəl», Matta",
-   "giris": "İsa iflici sağaldır, vergiyığan Mattanı çağırır, ölmüş qızı diriltir və korların gözlərini açır. Bu Müjdəni yazan da həmin Mattadır.",
+   "giris": "İsa Mattanı çağırır və korların gözlərini açır.",
    "bax": [
-    "İsa Mattanı harada görür?",
-    "Qadın İsanın nəyinə toxunur?",
-    "İsa izdihamı görəndə nə hiss edir?"
+    "💰 Vergiyığan Matta",
+    "👗 Paltarın ətəyi",
+    "👀 Korlar görür"
    ],
    "ayə": 13,
    "test": [
@@ -390,15 +822,68 @@
    "fikir": [
     "İsa başqalarının sevmədiyi Mattanı çağırdı. Səndən uzaq duran bir yaşıdına necə yaxınlaşa bilərsən?",
     "«Məhsul çoxdur, işçilərsə azdır.» Ətrafında Allahı tanımalı olan kim var? Onun üçün dua yaz."
-   ]
+   ],
+   "sehne": {
+    "fon": "kend",
+    "e": [
+     [
+      "💰",
+      12,
+      18,
+      28,
+      "float",
+      0
+     ],
+     [
+      "🍽️",
+      30,
+      56,
+      30,
+      "none",
+      0
+     ],
+     [
+      "👀",
+      70,
+      20,
+      32,
+      "blink",
+      0.3
+     ],
+     [
+      "✨",
+      84,
+      12,
+      16,
+      "twinkle",
+      0.8
+     ],
+     [
+      "👧",
+      62,
+      54,
+      30,
+      "rise",
+      0.5
+     ],
+     [
+      "👗",
+      86,
+      58,
+      22,
+      "swing",
+      1
+     ]
+    ]
+   }
   },
   "10": {
    "basliq": "On İki həvari yola çıxır",
-   "giris": "İsa on iki şagirdini seçib xidmətə göndərir. Çətinliklər olacaq, amma İsa deyir: «Qorxmayın, siz sərçələrdən daha dəyərlisiniz».",
+   "giris": "İsa On İki həvarini xidmətə göndərir.",
    "bax": [
-    "On iki həvarinin adlarını say.",
-    "İsa onlara yola nə götürməməyi deyir?",
-    "İsa sərçələr haqqında nə deyir?"
+    "👥 12 həvari",
+    "🐑 Quzular və 🐺 qurdlar",
+    "🐦 Sərçələr"
    ],
    "ayə": 31,
    "test": [
@@ -433,7 +918,68 @@
    "fikir": [
     "«Siz saysız-hesabsız sərçədən daha dəyərlisiniz.» Allahın gözündə dəyərli olduğunu bilmək sənə nə deyir?",
     "İsa həvarilərini göndərdi. Sən İsa haqqında kimə danışa bilərsən?"
-   ]
+   ],
+   "sehne": {
+    "fon": "yol",
+    "e": [
+     [
+      "👥",
+      40,
+      34,
+      38,
+      "float",
+      0
+     ],
+     [
+      "👣",
+      12,
+      66,
+      22,
+      "walk",
+      0
+     ],
+     [
+      "🐑",
+      18,
+      40,
+      28,
+      "float",
+      0.6
+     ],
+     [
+      "🐺",
+      78,
+      44,
+      28,
+      "float",
+      1.1
+     ],
+     [
+      "🐦",
+      70,
+      8,
+      20,
+      "fly",
+      0
+     ],
+     [
+      "🕊️",
+      30,
+      10,
+      20,
+      "fly",
+      1.5
+     ],
+     [
+      "🐍",
+      88,
+      70,
+      18,
+      "swing",
+      0.4
+     ]
+    ]
+   }
   }
  },
  "lugat": [
@@ -1537,26 +2083,30 @@
   }
  ],
  "melumat": {
-  "basliq": "Mattanın yazdığı Müjdə haqqında",
+  "basliq": "📘 Mattanın yazdığı Müjdə",
   "satirlar": [
    [
+    "✍️",
     "Kim yazdı?",
-    "Matta. Əvvəl vergiyığan idi, İsa onu çağırdı və o, On İki həvaridən biri oldu (9:9)."
+    "Matta: əvvəl vergiyığan, sonra həvari"
    ],
    [
+    "📅",
     "Nə vaxt?",
-    "Təxminən eramızın 50–80-ci illəri arasında. Dəqiq il məlum deyil."
+    "Təxminən e. 50–80-ci illər"
    ],
    [
+    "👥",
     "Kimə?",
-    "Əsasən yəhudi oxuculara: Əhdi-Ətiqi bilən və Məsihi gözləyən insanlara."
+    "Yəhudi oxuculara"
    ],
    [
+    "🎯",
     "Niyə?",
-    "İsanın peyğəmbərlərin vəd etdiyi Məsih, Davud Oğlu və Səmavi Padşahlığın Padşahı olduğunu göstərmək üçün."
+    "İsa vəd edilən Məsih və Padşahdır!"
    ]
   ],
-  "bil": "Matta Əhdi-Ətiqdən çox sitat gətirir və tez-tez «peyğəmbər vasitəsilə söylənən söz yerinə yetdi» deyir.",
+  "bil": "💡 Matta tez-tez yazır: «peyğəmbərin sözü yerinə yetdi».",
   "hisseler": [
    [
     1,

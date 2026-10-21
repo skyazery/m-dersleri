@@ -7,12 +7,13 @@
 <meta name="robots" content="noindex">
 <link rel="stylesheet" href="../fonts/pretendardvariable-dynamic-subset.css">
 <style>
-/* Layout: 한 줄 읽기 칼럼 — 밤하늘 머리띠(진도), 듣기 바, 본문, 오늘의 구절, 퀴즈, 묵상 나눔 */
+/* Layout: 한 줄 읽기 칼럼 — 움직이는 장면 + 진도, 책 소개, 듣기, 본문, 오늘의 구절, 퀴즈, 묵상 */
 :root{
   --bg:#F2F4F8; --paper:#FFFFFF; --ink:#18203E; --soft:#58627E; --line:#D8DDE8;
   --indigo:#253170; --gold:#C2861C; --gold-soft:#F7EAD0; --teal:#2A7F7A; --teal-soft:#DDEEEC; --rose:#B4544A; --rose-soft:#F6E2DF;
   --night:#0E1736; --night-ink:#F3EFE3; --night-soft:#C6CFE6; --star:#F2C46B;
   --font:"Pretendard Variable",Pretendard,-apple-system,"Apple SD Gothic Neo","Segoe UI","Noto Sans",sans-serif;
+  --emoji:"Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif;
   color-scheme:light;
 }
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#0F1426;--paper:#171E38;--ink:#E9EDF7;--soft:#A3ADC6;--line:#2A3355;--indigo:#9DAAF0;--gold:#E6AE48;--gold-soft:#372C17;--teal:#5DC0B8;--teal-soft:#16363A;--rose:#E08A80;--rose-soft:#3A2224;--night:#0B1228;color-scheme:dark}}
@@ -22,60 +23,111 @@
 html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font);font-size:17px;line-height:1.7;word-break:keep-all;-webkit-font-smoothing:antialiased}
 body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
-.wrap{max-width:720px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:16px 110px;display:flex;flex-direction:column;gap:20px}
+.wrap{max-width:720px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:16px 110px;display:flex;flex-direction:column;gap:18px}
 h1,h2,h3{margin:0;font-weight:800;line-height:1.25;text-wrap:balance}
 p{margin:0}
 button{font:inherit;cursor:pointer}
 a{color:inherit}
-button:focus-visible,a:focus-visible,textarea:focus-visible,.w:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
-.label{font-size:13px;letter-spacing:.08em;color:var(--gold);font-weight:800;text-transform:uppercase}
+button:focus-visible,a:focus-visible,textarea:focus-visible,input:focus-visible,.w:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+.em{font-family:var(--emoji);font-style:normal}
+.label{font-size:13px;letter-spacing:.06em;color:var(--gold);font-weight:800;text-transform:uppercase}
 .note{font-size:14px;color:var(--soft)}
 
-/* 머리띠 */
-.hero{background:var(--night);color:var(--night-ink);border-radius:20px;padding:20px 22px 18px;display:flex;flex-direction:column;gap:6px;position:relative;overflow:hidden}
-.hero .star{position:absolute;right:18px;top:16px;width:46px;height:46px}
-.hero .who{font-size:14px;color:var(--night-soft);padding-right:56px}
-.hero .who b{color:var(--star)}
-.hero h1{font-size:clamp(26px,7vw,36px);color:#FFF6E2;padding-right:40px}
-.hero .sub{color:var(--night-soft);font-size:15px}
-.prog{margin-top:12px;display:grid;grid-template-columns:repeat(14,1fr);gap:5px;max-width:420px}
-.d{aspect-ratio:1;max-width:100%;border:0;padding:0;border-radius:5px;background:rgba(255,255,255,.12);color:transparent;font-size:0}
+/* ===== 머리: 움직이는 장면 ===== */
+.hero{border-radius:22px;overflow:hidden;background:var(--night);color:var(--night-ink)}
+.scene{position:relative;height:190px;overflow:hidden}
+.scene .e{position:absolute;line-height:1;font-family:var(--emoji);transform-origin:50% 80%;will-change:transform;filter:drop-shadow(0 3px 4px rgba(0,0,0,.18))}
+.scene::after{content:"";position:absolute;left:0;right:0;bottom:0;height:34%;border-radius:50% 50% 0 0/22px 22px 0 0;background:var(--ground)}
+.scene .e{z-index:1}
+.fon-gece{background:linear-gradient(#0E1736,#2B3D78);--ground:#1D2A55}
+.fon-seher{background:linear-gradient(#FFD9A8,#FFB8A0 55%,#C9A3D6);--ground:#7FB069}
+.fon-cay{background:linear-gradient(#BFE6FF,#E8F7FF);--ground:#3A93C9}
+.fon-sehra{background:linear-gradient(#FFCF7A,#FFE7B8);--ground:#E3B062}
+.fon-dag{background:linear-gradient(#8FD3FF,#DDF2FF);--ground:#6DBE6A}
+.fon-yagis{background:linear-gradient(#6E7FA3,#A9B6CE);--ground:#5E7D4E}
+.fon-deniz{background:linear-gradient(#3B4A6B,#6F84A8);--ground:#2B5C8A}
+.fon-kend{background:linear-gradient(#FFE8B0,#FFF6DC);--ground:#C9A06A}
+.fon-yol{background:linear-gradient(#BDE3C3,#F0F9E8);--ground:#B9935A}
+.fon-yagis .rain,.fon-deniz .rain{position:absolute;inset:0;z-index:2;pointer-events:none;background-image:repeating-linear-gradient(105deg,rgba(255,255,255,.45) 0 2px,transparent 2px 22px);background-size:120px 120px;animation:rain .6s linear infinite;opacity:.55}
+@keyframes rain{to{background-position:-30px 120px}}
+.a-float{animation:float 3.2s ease-in-out infinite}
+.a-twinkle{animation:twinkle 2.2s ease-in-out infinite}
+.a-pulse{animation:pulse 2.6s ease-in-out infinite}
+.a-swing{animation:swing 2.8s ease-in-out infinite}
+.a-travel{animation:travel 7s ease-in-out infinite alternate}
+.a-walk{animation:walk 9s linear infinite}
+.a-descend{animation:descend 3.5s ease-out both, float 3.2s ease-in-out 3.5s infinite}
+.a-wave{animation:wave 2.4s ease-in-out infinite}
+.a-hop{animation:hop 1.6s ease-in-out infinite}
+.a-fly{animation:fly 6s ease-in-out infinite}
+.a-rock{animation:rock 2.2s ease-in-out infinite}
+.a-drift{animation:drift 4s ease-in-out infinite alternate}
+.a-flash{animation:flash 3s steps(1) infinite}
+.a-blink{animation:blink 3.4s ease-in-out infinite}
+.a-rise{animation:rise 3s ease-in-out infinite}
+@keyframes float{50%{transform:translateY(-8px)}}
+@keyframes twinkle{50%{transform:scale(1.25);opacity:.55}}
+@keyframes pulse{50%{transform:scale(1.12)}}
+@keyframes swing{0%,100%{transform:rotate(-8deg)}50%{transform:rotate(8deg)}}
+@keyframes travel{from{transform:translate(0,0)}to{transform:translate(min(55vw,360px),36px)}}
+@keyframes walk{0%{transform:translateX(0)}50%{transform:translateX(min(45vw,280px))}50.01%{transform:translateX(min(45vw,280px)) scaleX(-1)}100%{transform:translateX(0) scaleX(-1)}}
+@keyframes descend{from{transform:translateY(-70px);opacity:0}to{transform:translateY(0);opacity:1}}
+@keyframes wave{50%{transform:translateX(8px) rotate(-6deg)}}
+@keyframes hop{0%,100%{transform:translateY(0)}40%{transform:translateY(-16px)}}
+@keyframes fly{0%{transform:translate(0,0)}25%{transform:translate(60px,-10px)}50%{transform:translate(120px,8px)}75%{transform:translate(60px,16px)}100%{transform:translate(0,0)}}
+@keyframes rock{0%,100%{transform:rotate(-9deg) translateY(0)}50%{transform:rotate(9deg) translateY(-6px)}}
+@keyframes drift{to{transform:translateX(40px)}}
+@keyframes flash{0%,88%{opacity:.35}90%,96%{opacity:1}}
+@keyframes blink{0%,40%,100%{transform:scaleY(1)}45%{transform:scaleY(.1)}50%{transform:scaleY(1)}}
+@keyframes rise{0%,100%{transform:translateY(10px)}50%{transform:translateY(-4px)}}
+@media (prefers-reduced-motion:reduce){.scene .e,.scene .rain{animation:none!important}}
+
+.head{padding:14px 20px 16px;display:flex;flex-direction:column;gap:4px}
+.head .who{font-size:14px;color:var(--night-soft)}
+.head .who b{color:var(--star)}
+.head h1{font-size:clamp(25px,6.6vw,34px);color:#FFF6E2}
+.head .sub{color:var(--night-soft);font-size:14px}
+.prog{margin-top:10px;display:grid;grid-template-columns:repeat(14,1fr);gap:5px;max-width:420px}
+.d{aspect-ratio:1;max-width:100%;border:0;padding:0;border-radius:6px;background:rgba(255,255,255,.12);color:#1A1405;font-size:10px;line-height:1;display:grid;place-items:center;font-family:var(--emoji)}
 .d.done{background:var(--star)}
-.d.now{background:transparent;box-shadow:inset 0 0 0 2px var(--star)}
+.d.now{background:transparent;box-shadow:inset 0 0 0 2px var(--star);animation:nowpulse 1.8s ease-in-out infinite}
+@keyframes nowpulse{50%{box-shadow:inset 0 0 0 2px var(--star),0 0 0 3px rgba(242,196,107,.35)}}
 .d.view{outline:2px solid #fff;outline-offset:1px}
-.d:disabled{cursor:default;opacity:.55}
+.d:disabled{cursor:default;opacity:.5}
 .prog-cap{font-size:13px;color:var(--night-soft);display:flex;gap:12px;flex-wrap:wrap}
 .prog-cap b{color:var(--star)}
 
-/* 듣기 바 */
-.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);padding-block:6px;display:flex;gap:8px;flex-wrap:wrap;align-items:center}
-.pill{display:inline-flex;align-items:center;gap:8px;text-decoration:none;font-size:15px;font-weight:700;border-radius:999px;padding:9px 16px;border:0;background:var(--indigo);color:var(--paper)}
-.pill svg{width:16px;height:16px;fill:currentColor;flex:none}
-.pill.ghost{background:var(--paper);color:var(--ink);border:1px solid var(--line)}
-.bar .note{flex-basis:100%;font-size:13px}
-
-/* 책 소개 */
-.book{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:18px 20px;display:grid;gap:14px}
-.facts{margin:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 18px}
-.facts div{display:grid;gap:2px;min-width:0;align-content:start}
-.facts dt{font-size:13px;font-weight:800;color:var(--teal)}
-.facts dd{margin:0;font-size:15px;line-height:1.55}
-@media (max-width:480px){.facts{grid-template-columns:1fr}}
+/* ===== 책 소개 ===== */
+.book{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:16px 18px;display:grid;gap:12px}
+.book h2{font-size:17px}
+.facts{margin:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.fact{display:flex;gap:10px;align-items:center;background:var(--bg);border-radius:14px;padding:8px 10px;min-width:0}
+.fact .ic{font-size:24px;font-family:var(--emoji);flex:none}
+.fact dt{font-size:12px;font-weight:800;color:var(--teal);line-height:1.3}
+.fact dd{margin:0;font-size:14px;line-height:1.4}
 .parts{display:flex;gap:3px}
-.part{flex-grow:1;flex-basis:0;height:8px;border-radius:4px;background:var(--line)}
+.part{flex-basis:0;height:8px;border-radius:4px;background:var(--line)}
 .part.on{background:var(--gold)}
-.part-now{font-size:14px;color:var(--soft);margin-top:-6px}
+.part-now{font-size:14px;color:var(--soft);margin-top:-4px}
 .part-now b{color:var(--ink)}
-.book-bil{font-size:14px;color:var(--soft);border-top:1px solid var(--line);padding-top:10px}
+.book-bil{font-size:14px;color:var(--soft)}
 
-/* 본문 */
+/* ===== 듣기 ===== */
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);padding-block:6px}
+.pill{display:inline-flex;align-items:center;gap:8px;text-decoration:none;font-size:15px;font-weight:800;border-radius:999px;padding:9px 16px;border:0;background:var(--indigo);color:var(--paper)}
+.pill .em{font-size:17px}
+.pill.ghost{background:var(--paper);color:var(--ink);border:1px solid var(--line)}
+
+/* ===== 읽기 전 ===== */
 .intro{display:grid;gap:10px}
+.intro p{font-size:18px;font-weight:600}
 .look{display:flex;flex-wrap:wrap;gap:8px}
-.look span{background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:5px 12px;font-size:15px}
-.look b{color:var(--gold);margin-right:4px}
-.scripture{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:20px}
-.scripture .hint{font-size:14px;color:var(--soft);margin-bottom:12px}
-.scripture .hint i{font-style:normal;border-bottom:2px dotted var(--gold)}
+.look span{background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:6px 13px;font-size:15px}
+
+/* ===== 본문 ===== */
+.scripture{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:18px 20px}
+.scripture .top{display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap;margin-bottom:10px}
+.scripture .hint{font-size:13px;color:var(--soft)}
 .text{font-size:19px;line-height:1.9}
 .verse{display:block;padding:3px 8px;margin:0 -8px;border-radius:8px}
 .verse.key{background:var(--gold-soft)}
@@ -85,38 +137,55 @@ button:focus-visible,a:focus-visible,textarea:focus-visible,.w:focus-visible{out
 .w.dict{border-bottom:2px dotted var(--gold)}
 .copy{font-size:12px;color:var(--soft);margin-top:14px;border-top:1px solid var(--line);padding-top:10px}
 
-.card{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:20px;display:grid;gap:14px}
-.card h2{font-size:22px}
-.memory{font-size:21px;line-height:1.55;font-weight:600}
+/* ===== 카드 ===== */
+.card{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:18px 20px;display:grid;gap:14px}
+.card h2{font-size:21px;display:flex;align-items:center;gap:8px}
+.card h2 .em{font-size:24px}
+.memory{position:relative;overflow:hidden;background:linear-gradient(135deg,var(--gold-soft),var(--paper));}
+.memory .vtext{font-size:20px;line-height:1.55;font-weight:700}
 .memory small{display:block;font-size:14px;font-weight:400;color:var(--soft);margin-top:6px}
+.memory .spark{position:absolute;right:14px;top:12px;font-size:22px;font-family:var(--emoji);animation:twinkle 2.4s ease-in-out infinite}
 
 .q{display:grid;gap:8px}
-.q p{font-weight:600}
+.q p{font-weight:700}
 .opts{display:flex;flex-wrap:wrap;gap:8px}
-.opt{border:1.5px solid var(--line);background:var(--bg);color:var(--ink);border-radius:12px;padding:8px 14px;text-align:left}
-.opt.right{border-color:var(--teal);background:var(--teal-soft);color:var(--teal);font-weight:800}
-.opt.wrong{border-color:var(--rose);color:var(--rose);text-decoration:line-through}
+.opt{border:1.5px solid var(--line);background:var(--bg);color:var(--ink);border-radius:12px;padding:8px 14px;text-align:left;transition:transform .15s}
+.opt:active{transform:scale(.97)}
+.opt.right{border-color:var(--teal);background:var(--teal-soft);color:var(--teal);font-weight:800;animation:pop .35s ease}
+.opt.wrong{border-color:var(--rose);color:var(--rose);text-decoration:line-through;animation:shake .35s ease}
+@keyframes pop{50%{transform:scale(1.08)}}
+@keyframes shake{25%{transform:translateX(-5px)}75%{transform:translateX(5px)}}
+.fb{font-size:15px;font-weight:700}
+.fb.ok{color:var(--teal)}
+.fb.no{color:var(--rose)}
 .score{font-size:15px;color:var(--soft)}
+.stars{font-family:var(--emoji);font-size:22px;letter-spacing:2px}
 
-.chips{display:flex;flex-wrap:wrap;gap:8px}
-.chip{border:1.5px solid var(--line);background:var(--bg);color:var(--ink);border-radius:999px;padding:6px 12px;font-size:14px}
-.chip[aria-pressed="true"]{border-color:var(--indigo);color:var(--indigo);font-weight:800}
 .field{display:grid;gap:6px}
-.field label{font-size:15px;font-weight:600}
+.field label{font-size:15px;font-weight:700}
 textarea,input[type=text]{width:100%;border:1.5px solid var(--line);background:var(--bg);color:var(--ink);border-radius:12px;padding:10px 12px;font:inherit;font-size:16px}
-textarea{min-height:120px;resize:vertical}
-.btn{border:0;border-radius:14px;padding:15px 18px;width:100%;font-size:17px;font-weight:800;background:var(--indigo);color:var(--paper)}
+textarea{min-height:96px;resize:vertical}
+.btn{border:0;border-radius:16px;padding:15px 18px;width:100%;font-size:17px;font-weight:800;background:var(--indigo);color:var(--paper);display:flex;justify-content:center;align-items:center;gap:8px}
+.btn .em{font-size:20px}
 .btn:disabled{opacity:.5;cursor:default}
 .btn.ok{background:var(--teal)}
 .msg{font-size:15px;border-radius:12px;padding:12px 14px}
-.msg.ok{background:var(--teal-soft);color:var(--teal)}
 .msg.err{background:var(--rose-soft);color:var(--rose)}
 .msg.info{background:var(--gold-soft);color:var(--ink)}
 
+/* 축하 */
+.party{background:var(--teal-soft);border-radius:16px;padding:18px;text-align:center;display:grid;gap:4px}
+.party .big{font-size:52px;font-family:var(--emoji);line-height:1.1;animation:bounce 1s ease 2}
+.party b{font-size:20px;color:var(--teal)}
+@keyframes bounce{30%{transform:translateY(-14px) scale(1.1)}60%{transform:translateY(0)}}
+.confetti{position:fixed;inset:0;pointer-events:none;z-index:40;overflow:hidden}
+.confetti span{position:absolute;top:-40px;font-family:var(--emoji);animation:fall linear forwards}
+@keyframes fall{to{transform:translateY(110vh) rotate(540deg)}}
+
 .center{min-height:60vh;display:grid;place-items:center;text-align:center;gap:10px}
+.center .big{font-size:48px;font-family:var(--emoji);animation:float 2s ease-in-out infinite}
 
-
-/* 글자 크기 (화면에 고정) */
+/* 글자 크기 */
 :root{--z:1}
 #app>:not(.hero):not(.bar),.sheet .box{zoom:var(--z)}
 .fs{position:fixed;right:max(12px,env(safe-area-inset-right,0px));bottom:calc(12px + env(safe-area-inset-bottom,0px));z-index:20;display:inline-flex;align-items:center;gap:4px;background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:5px;box-shadow:0 6px 20px rgba(10,16,40,.18)}
@@ -128,88 +197,92 @@ textarea{min-height:120px;resize:vertical}
 .sheet{position:fixed;left:0;right:0;bottom:0;z-index:30;padding:0 max(12px,env(safe-area-inset-right,0px)) calc(12px + env(safe-area-inset-bottom,0px)) max(12px,env(safe-area-inset-left,0px));transform:translateY(115%);transition:transform .25s ease}
 .sheet.open{transform:none}
 .sheet .box{max-width:640px;margin:0 auto;background:var(--paper);border:1px solid var(--line);border-radius:20px;box-shadow:0 10px 40px rgba(14,23,54,.25);padding:18px 20px 20px;display:grid;gap:8px}
-.sheet .head{display:flex;justify-content:space-between;gap:10px;align-items:start}
+.sheet .head2{display:flex;justify-content:space-between;gap:10px;align-items:center}
+.sheet .ttl{display:flex;gap:12px;align-items:center}
+.sheet .ic{font-size:36px;font-family:var(--emoji);line-height:1}
 .sheet h3{font-size:24px}
 .tag{font-size:12px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--gold)}
 .x{border:0;background:var(--bg);color:var(--ink);width:38px;height:38px;border-radius:50%;font-size:22px;line-height:1;flex:none}
 .bil{background:var(--gold-soft);border-radius:12px;padding:10px 12px;font-size:15px}
-.bil b{color:var(--gold)}
-@media (prefers-reduced-motion:reduce){.sheet{transition:none}}
+@media (prefers-reduced-motion:reduce){.sheet{transition:none}.d.now,.memory .spark,.party .big,.center .big,.opt{animation:none!important}}
 </style>
 <script src="ayarlar.js"></script>
 </head>
 <body>
 <div class="wrap">
-  <div id="loading" class="center"><p class="note">Yüklənir…</p></div>
+  <div id="loading" class="center"><div><div class="big">📖</div><p class="note">Yüklənir…</p></div></div>
 
   <div id="fail" class="center" hidden>
     <div style="display:grid;gap:10px;max-width:420px">
+      <div class="big">🙈</div>
       <h2>Link açılmadı</h2>
-      <p id="failText">Bu link səhvdir və ya köhnədir. Zəhmət olmasa müəlliminə yaz.</p>
+      <p id="failText">Bu link səhvdir. Müəlliminə yaz.</p>
     </div>
   </div>
 
-  <main id="app" hidden style="display:flex;flex-direction:column;gap:20px">
+  <main id="app" hidden style="display:flex;flex-direction:column;gap:18px">
     <header class="hero">
-      <svg class="star" viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="22" fill="#F2C46B" opacity=".18"/><path d="M24 4 L27 21 L44 24 L27 27 L24 44 L21 27 L4 24 L21 21Z" fill="#FFF4D0"/></svg>
-      <p class="who" id="who"></p>
-      <h1 id="title"></h1>
-      <p class="sub" id="sub"></p>
-      <div class="prog" id="prog" aria-label="Fəsillər"></div>
-      <p class="prog-cap"><span>Oxunub: <b id="doneN">0</b> / <span id="totalN">28</span></span><span id="nextCap"></span></p>
+      <div class="scene" id="scene" aria-hidden="true"></div>
+      <div class="head">
+        <p class="who" id="who"></p>
+        <h1 id="title"></h1>
+        <p class="sub" id="sub"></p>
+        <div class="prog" id="prog" aria-label="Fəsillər"></div>
+        <p class="prog-cap"><span><span class="em">⭐</span> <b id="doneN">0</b> / <span id="totalN">28</span></span><span id="nextCap"></span></p>
+      </div>
     </header>
 
-    <div class="bar">
-      <a class="pill" id="listen" target="_blank" rel="noopener">
-        <svg viewBox="0 0 24 24"><path d="M3 10v4h4l5 5V5L7 10H3zm13.5 2A4.5 4.5 0 0 0 14 7.97v8.05A4.5 4.5 0 0 0 16.5 12zM14 3.23v2.06a7 7 0 0 1 0 13.42v2.06A9 9 0 0 0 14 3.23z"/></svg>
-        <span>Səsli dinlə</span>
-      </a>
-      <p class="note">Səs Müqəddəs Kitab Tərcüməsi İnstitutunun (IBT) saytında açılır. Dinləyə-dinləyə buradan oxu.</p>
-    </div>
-
     <section class="book" id="book" aria-labelledby="bookH" hidden>
-      <span class="label" id="bookH"></span>
+      <h2 id="bookH"></h2>
       <dl class="facts" id="facts"></dl>
       <div class="parts" id="parts" aria-label="Kitabın hissələri"></div>
       <p class="part-now" id="partNow"></p>
       <p class="book-bil" id="bookBil"></p>
     </section>
 
+    <div class="bar">
+      <a class="pill" id="listen" target="_blank" rel="noopener"><span class="em">🎧</span><span>Səsli dinlə</span></a>
+    </div>
+
     <section class="intro" aria-labelledby="introH">
-      <span class="label" id="introH">Oxumazdan əvvəl</span>
+      <span class="label" id="introH">👀 Oxumazdan əvvəl</span>
       <p id="giris"></p>
       <div class="look" id="look"></div>
     </section>
 
     <article class="scripture" aria-labelledby="refH">
-      <h2 class="label" id="refH"></h2>
-      <p class="hint">Hər sözə toxuna bilərsən. <i>Altı xətli</i> sözlərin lüğət izahı var.</p>
+      <div class="top">
+        <h2 class="label" id="refH"></h2>
+        <span class="hint">👆 Sözə toxun, mənasını gör</span>
+      </div>
       <div class="text" id="text"></div>
       <p class="copy" id="copy"></p>
     </article>
 
-    <section class="card" aria-labelledby="memH">
+    <section class="card memory" aria-labelledby="memH">
+      <span class="spark" aria-hidden="true">✨</span>
       <span class="label" id="memH">Bu günün ayəsi</span>
-      <p class="memory" id="memory"></p>
+      <p id="memory"></p>
     </section>
 
     <section class="card" aria-labelledby="quizH">
-      <h2 id="quizH">Kiçik yoxlama</h2>
-      <div id="quiz" style="display:grid;gap:16px"></div>
+      <h2 id="quizH"><span class="em">🧠</span> Kiçik yoxlama</h2>
+      <div id="quiz" style="display:grid;gap:18px"></div>
       <p class="score" id="score"></p>
     </section>
 
     <section class="card" aria-labelledby="refl">
-      <h2 id="refl">Sənin fikrin</h2>
-      <p class="note">Suallara cavab yaz. Ən azı birinə cavab ver, hamısına yazsan daha yaxşı! Yazdıqların müəlliminə gedəcək.</p>
+      <h2 id="refl"><span class="em">💭</span> Sənin fikrin</h2>
+      <p class="note">✍️ Ən azı birinə cavab yaz.</p>
       <div id="fikirler" style="display:grid;gap:16px"></div>
       <div class="field">
-        <label for="question">Sualın varmı? (istəyə görə)</label>
-        <input type="text" id="question" placeholder="Məsələn: «Tövbə» nə deməkdir?">
+        <label for="question">❓ Sualın varmı?</label>
+        <input type="text" id="question" placeholder="Məsələn: «Tövbə» nədir?">
       </div>
       <p class="note" id="need"></p>
-      <button class="btn" id="send" type="button">Oxudum və göndər</button>
+      <button class="btn" id="send" type="button"><span class="em">📨</span><span id="sendT">Oxudum, göndər</span></button>
       <div class="msg" id="result" hidden></div>
+      <div class="party" id="party" hidden><div class="big">🎉</div><b id="partyT"></b><span class="note" id="partyS"></span></div>
       <button class="btn ok" id="next" type="button" hidden></button>
     </section>
   </main>
@@ -219,13 +292,13 @@ textarea{min-height:120px;resize:vertical}
 
 <div class="sheet" id="sheet" role="dialog" aria-labelledby="dWord">
   <div class="box">
-    <div class="head">
-      <div><h3 id="dWord"></h3><span class="tag" id="dTag"></span></div>
+    <div class="head2">
+      <div class="ttl"><span class="ic" id="dIc" aria-hidden="true"></span><div><h3 id="dWord"></h3><span class="tag" id="dTag"></span></div></div>
       <button class="x" id="dClose" type="button" aria-label="Bağla">×</button>
     </div>
     <p id="dMean"></p>
     <p class="bil" id="dBil"></p>
-    <button class="pill ghost" id="dAsk" type="button" style="justify-self:start">Sualıma əlavə et</button>
+    <button class="pill ghost" id="dAsk" type="button" style="justify-self:start"><span class="em">❓</span> Sualıma əlavə et</button>
   </div>
 </div>
 
@@ -236,13 +309,15 @@ textarea{min-height:120px;resize:vertical}
   const params = new URLSearchParams(location.search);
   const KEY = (params.get("k") || "").trim();
   const DEMO = !KEY || !AYAR.SCRIPT_URL;
+  const REDUCE = matchMedia("(prefers-reduced-motion: reduce)").matches;
   const store = {
     get(k, d) { try { const v = localStorage.getItem(k); return v == null ? d : JSON.parse(v); } catch (e) { return d; } },
     set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} }
   };
   const fail = t => { $("loading").hidden = true; $("fail").hidden = false; if (t) $("failText").textContent = t; };
+  const el = (tag, cls, txt) => { const e = document.createElement(tag); if (cls) e.className = cls; if (txt != null) e.textContent = txt; return e; };
 
-  // 1) 데이터 불러오기
+  // 1) 데이터
   let METN = {}, OYR = { fesiller: {}, lugat: [] }, menbe = "";
   try {
     const metn = await Promise.all((AYAR.METN || []).map(u => fetch(u).then(r => r.json())));
@@ -254,18 +329,15 @@ textarea{min-height:120px;resize:vertical}
   const MAXCH = AVAIL[AVAIL.length - 1] || 1;
   const TOTAL = OYR.cemi || MAXCH;
 
-  // 2) 학생 정보
+  // 2) 학생
   let ad = "", son = store.get("oxu-son-" + (KEY || "demo"), 0);
   if (!DEMO) {
     try {
-      const r = await fetch(AYAR.SCRIPT_URL + "?k=" + encodeURIComponent(KEY));
-      const j = await r.json();
-      if (!j.ok) return fail("Bu link tapılmadı. Zəhmət olmasa müəlliminə yaz.");
+      const j = await (await fetch(AYAR.SCRIPT_URL + "?k=" + encodeURIComponent(KEY))).json();
+      if (!j.ok) return fail("Bu link tapılmadı. Müəlliminə yaz.");
       ad = j.ad || ""; son = Number(j.son) || 0;
       store.set("oxu-son-" + KEY, son); store.set("oxu-ad-" + KEY, ad);
-    } catch (e) {
-      ad = store.get("oxu-ad-" + KEY, "");
-    }
+    } catch (e) { ad = store.get("oxu-ad-" + KEY, ""); }
   }
 
   // 3) 사전
@@ -274,75 +346,93 @@ textarea{min-height:120px;resize:vertical}
   OYR.lugat.forEach(e => { (e.x || []).forEach(k => EXACT[k] = e); (e.s || []).forEach(k => PREF.push([k, e])); });
   PREF.sort((a, b) => b[0].length - a[0].length);
   const lookup = w => { const l = low(w); if (EXACT[l]) return EXACT[l]; const p = PREF.find(([k]) => l.startsWith(k)); return p ? p[1] : null; };
+  const typeIcon = n => /Şəxs/.test(n) ? "👤" : /Yer/.test(n) ? "📍" : /Hədiyyə/.test(n) ? "🎁" : /Qrup|Xalq/.test(n) ? "👥" : /Ad/.test(n) ? "🏷️" : /Hadisə/.test(n) ? "📜" : "💬";
 
   let view = 1, answers = {}, sending = false;
-  const nextCh = () => Math.min(son + 1, MAXCH);
   const isOpen = c => METN[c] && c <= son + 1;
+
+  // 꽃가루
+  function confetti(n) {
+    if (REDUCE) return;
+    const box = el("div", "confetti"); document.body.appendChild(box);
+    const pick = ["🎉", "⭐", "✨", "🎊", "💛", "🌟"];
+    for (let i = 0; i < (n || 26); i++) {
+      const s = el("span", null, pick[i % pick.length]);
+      s.style.left = Math.random() * 100 + "vw"; s.style.fontSize = 14 + Math.random() * 18 + "px";
+      s.style.animationDuration = 1.6 + Math.random() * 1.6 + "s"; s.style.animationDelay = Math.random() * .4 + "s";
+      box.appendChild(s);
+    }
+    setTimeout(() => box.remove(), 3800);
+  }
+
+  function drawScene(f) {
+    const sc = $("scene"); sc.innerHTML = ""; sc.className = "scene fon-" + ((f.sehne && f.sehne.fon) || "gece");
+    if (f.sehne && /yagis|deniz/.test(f.sehne.fon)) sc.appendChild(el("div", "rain"));
+    ((f.sehne && f.sehne.e) || []).forEach(([em, x, y, size, anim, delay]) => {
+      const s = el("span", "e" + (anim && anim !== "none" ? " a-" + anim : ""), em);
+      s.style.left = x + "%"; s.style.top = y + "%"; s.style.fontSize = size + "px";
+      if (delay) s.style.animationDelay = delay + "s";
+      sc.appendChild(s);
+    });
+  }
 
   function drawProg() {
     const p = $("prog"); p.innerHTML = "";
     for (let c = 1; c <= TOTAL; c++) {
-      const b = document.createElement("button");
-      b.type = "button"; b.className = "d" + (c <= son ? " done" : c === son + 1 ? " now" : "") + (c === view ? " view" : "");
-      b.textContent = c; b.setAttribute("aria-label", OYR.kitab + " " + c + (c <= son ? " · oxunub" : ""));
-      b.disabled = !isOpen(c);
-      b.addEventListener("click", () => show(c));
+      const b = el("button", "d" + (c <= son ? " done" : c === son + 1 ? " now" : "") + (c === view ? " view" : ""), c <= son ? "⭐" : "");
+      b.type = "button"; b.setAttribute("aria-label", OYR.kitab + " " + c + (c <= son ? " · oxunub" : ""));
+      b.disabled = !isOpen(c); b.addEventListener("click", () => show(c));
       p.appendChild(b);
     }
     $("doneN").textContent = son; $("totalN").textContent = TOTAL;
-    $("nextCap").textContent = son >= MAXCH ? (MAXCH < TOTAL ? "Növbəti fəsillər tezliklə açılacaq" : "Kitab bitdi!") : "Növbəti: " + OYR.kitab + " " + (son + 1);
+    $("nextCap").textContent = son >= MAXCH ? (MAXCH < TOTAL ? "⏳ Yeni fəsillər tezliklə" : "🏆 Kitab bitdi!") : "👉 Növbəti: " + OYR.kitab + " " + (son + 1);
+  }
+
+  function drawBook(c) {
+    const M = OYR.melumat; $("book").hidden = !M; if (!M) return;
+    $("bookH").textContent = M.basliq;
+    $("facts").innerHTML = "";
+    M.satirlar.forEach(([ic, k, v]) => {
+      const d = el("div", "fact"); d.appendChild(el("span", "ic", ic));
+      const t = el("div"); t.appendChild(el("dt", null, k)); t.appendChild(el("dd", null, v)); d.appendChild(t);
+      $("facts").appendChild(d);
+    });
+    $("parts").innerHTML = ""; let cur = null;
+    (M.hisseler || []).forEach(([a, b, ad]) => {
+      const on = c >= a && c <= b; const s = el("span", "part" + (on ? " on" : "")); s.style.flexGrow = b - a + 1; s.title = a + "–" + b + ": " + ad;
+      if (on) cur = [a, b, ad]; $("parts").appendChild(s);
+    });
+    $("partNow").innerHTML = "";
+    if (cur) { $("partNow").append("📍 Bu fəsil: "); $("partNow").appendChild(el("b", null, cur[2])); $("partNow").append(" (" + cur[0] + "–" + cur[1] + ")"); }
+    $("bookBil").textContent = M.bil || ""; $("bookBil").hidden = !M.bil;
   }
 
   function show(c) {
     view = c; answers = {};
     const f = OYR.fesiller[c] || {}, verses = METN[c];
+    drawScene(f); drawBook(c);
     $("who").innerHTML = "";
-    const who = document.createElement("span");
-    who.textContent = (ad ? "Salam, " + ad + "! · " : "") + OYR.kitabAd;
-    $("who").appendChild(who);
-    if (DEMO) { const d = document.createElement("b"); d.textContent = " · nümunə"; $("who").appendChild(d); }
+    $("who").appendChild(el("span", null, (ad ? "👋 Salam, " + ad + "! · " : "") + OYR.kitabAd));
+    if (DEMO) $("who").appendChild(el("b", null, " · nümunə"));
     $("title").textContent = f.basliq || (OYR.kitab + " " + c);
-    $("sub").textContent = OYR.kitab + " " + c + "-ci fəsil · " + verses.length + " ayə";
+    $("sub").textContent = OYR.kitab + " " + c + " · " + verses.length + " ayə";
     document.title = OYR.kitab + " " + c + " · Gündəlik Oxu";
     $("listen").href = "https://ibtrussia.org/Azeri/Bible/study?audio=AZE&verse=" + (OYR.ibt || "Matt") + "." + c;
-    // 책 소개
-    const M = OYR.melumat;
-    $("book").hidden = !M;
-    if (M) {
-      $("bookH").textContent = M.basliq;
-      $("facts").innerHTML = "";
-      M.satirlar.forEach(([k, v]) => { const d = document.createElement("div"), dt = document.createElement("dt"), dd = document.createElement("dd"); dt.textContent = k; dd.textContent = v; d.append(dt, dd); $("facts").appendChild(d); });
-      $("parts").innerHTML = "";
-      let cur = null;
-      (M.hisseler || []).forEach(([a, b, ad]) => {
-        const s = document.createElement("span"); s.className = "part" + (c >= a && c <= b ? " on" : ""); s.style.flexGrow = b - a + 1; s.title = a + "–" + b + ": " + ad;
-        if (c >= a && c <= b) cur = [a, b, ad];
-        $("parts").appendChild(s);
-      });
-      $("partNow").innerHTML = "";
-      if (cur) { $("partNow").append("Bu fəsil: "); const bb = document.createElement("b"); bb.textContent = cur[2]; $("partNow").append(bb, " (" + cur[0] + "–" + cur[1] + "-ci fəsillər)"); }
-      $("bookBil").textContent = M.bil || ""; $("bookBil").hidden = !M.bil;
-    }
     $("giris").textContent = f.giris || "";
-    $("look").innerHTML = "";
-    (f.bax || []).forEach((t, i) => { const s = document.createElement("span"); s.innerHTML = "<b>" + (i + 1) + "</b>"; s.appendChild(document.createTextNode(t)); $("look").appendChild(s); });
-    $("refH").textContent = OYR.kitab + " " + c;
+    $("look").innerHTML = ""; (f.bax || []).forEach(t => $("look").appendChild(el("span", null, t)));
+    $("refH").textContent = "📖 " + OYR.kitab + " " + c;
     $("copy").textContent = "Mətn: " + menbe + " Səs: IBT.";
 
-    // 본문
-    const key = f["ayə"];
-    const text = $("text"); text.innerHTML = "";
+    const key = f["ayə"], text = $("text"); text.innerHTML = "";
     verses.forEach((v, i) => {
-      const line = document.createElement("span");
-      line.className = "verse" + (i + 1 === key ? " key" : "");
-      const n = document.createElement("span"); n.className = "vn"; n.textContent = i + 1; line.appendChild(n);
+      const line = el("span", "verse" + (i + 1 === key ? " key" : ""));
+      line.appendChild(el("span", "vn", i + 1));
       v.split(/(\s+)/).forEach(tok => {
         if (!tok || /^\s+$/.test(tok)) { line.appendChild(document.createTextNode(tok)); return; }
         const m = tok.match(/^([«“"(\[–—]*)(.*?)([»”".,:;!?)\]–—]*)$/u);
         if (m[1]) line.appendChild(document.createTextNode(m[1]));
         if (m[2]) {
-          const w = document.createElement("span");
-          w.className = "w" + (lookup(m[2]) ? " dict" : ""); w.textContent = m[2]; w.tabIndex = 0; w.setAttribute("role", "button");
+          const w = el("span", "w" + (lookup(m[2]) ? " dict" : ""), m[2]); w.tabIndex = 0; w.setAttribute("role", "button");
           w.addEventListener("click", () => openDict(m[2]));
           w.addEventListener("keydown", e => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); openDict(m[2]); } });
           line.appendChild(w);
@@ -353,148 +443,131 @@ textarea{min-height:120px;resize:vertical}
     });
     $("memory").innerHTML = "";
     if (key && verses[key - 1]) {
-      $("memory").appendChild(document.createTextNode("«" + verses[key - 1].replace(/^[«“]+|[»”]+$/g, "") + "»"));
-      const sm = document.createElement("small"); sm.textContent = OYR.kitab + " " + c + ":" + key + " · Bu ayəni əzbərlə"; $("memory").appendChild(sm);
+      $("memory").appendChild(el("span", "vtext", "«" + verses[key - 1].replace(/^[«“]+|[»”]+$/g, "") + "»"));
+      $("memory").appendChild(el("small", null, "🧩 " + OYR.kitab + " " + c + ":" + key + " · Əzbərlə!"));
     }
 
     // 퀴즈
     const quiz = $("quiz"); quiz.innerHTML = "";
-    const tests = f.test || [];
-    tests.forEach(([q, opts, right], qi) => {
-      const box = document.createElement("div"); box.className = "q";
-      const p = document.createElement("p"); p.textContent = (qi + 1) + ". " + q; box.appendChild(p);
-      const row = document.createElement("div"); row.className = "opts";
+    (f.test || []).forEach(([q, opts, right], qi) => {
+      const box = el("div", "q"); box.appendChild(el("p", null, (qi + 1) + ". " + q));
+      const row = el("div", "opts"), fb = el("p", "fb"); fb.hidden = true;
       opts.forEach((o, oi) => {
-        const b = document.createElement("button"); b.type = "button"; b.className = "opt"; b.textContent = o;
+        const b = el("button", "opt", o); b.type = "button";
         b.addEventListener("click", () => {
           if (qi in answers) return;
           answers[qi] = oi === right;
           row.children[right].classList.add("right");
           if (oi !== right) b.classList.add("wrong");
+          fb.hidden = false;
+          if (oi === right) { fb.className = "fb ok"; fb.textContent = ["🎉 Düzdür!", "👏 Afərin!", "🌟 Əla!"][qi % 3]; confetti(10); }
+          else { fb.className = "fb no"; fb.textContent = "🙂 Düz cavab yaşıldır."; }
           updateScore(); checkReady();
         });
         row.appendChild(b);
       });
-      box.appendChild(row); quiz.appendChild(box);
+      box.appendChild(row); box.appendChild(fb); quiz.appendChild(box);
     });
     updateScore();
 
-    // 묵상: 질문마다 답 칸
+    // 묵상
     const prompts = [...(f.fikir || []), OYR.umumiFikir].filter(Boolean);
     show.prompts = prompts;
     const draft = store.get("oxu-draft-" + (KEY || "demo") + "-" + c, { a: [], q: "" });
     const box = $("fikirler"); box.innerHTML = "";
+    const icons = ["💡", "🌱", "📌"];
     prompts.forEach((t, i) => {
-      const fd = document.createElement("div"); fd.className = "field";
-      const lb = document.createElement("label"); lb.htmlFor = "fikir" + i; lb.textContent = (i + 1) + ". " + t;
-      const ta = document.createElement("textarea"); ta.id = "fikir" + i; ta.className = "fikir"; ta.placeholder = "Cavabını bura yaz…";
-      ta.value = (draft.a || [])[i] || "";
-      ta.addEventListener("input", saveDraft);
-      fd.appendChild(lb); fd.appendChild(ta); box.appendChild(fd);
+      const fd = el("div", "field");
+      const lb = el("label", null, icons[i % 3] + " " + t); lb.htmlFor = "fikir" + i;
+      const ta = el("textarea", "fikir"); ta.id = "fikir" + i; ta.placeholder = "Cavabını yaz…";
+      ta.value = (draft.a || [])[i] || ""; ta.addEventListener("input", saveDraft);
+      fd.append(lb, ta); box.appendChild(fd);
     });
     $("question").value = draft.q || "";
-    $("result").hidden = true; $("next").hidden = true;
+    $("result").hidden = true; $("next").hidden = true; $("party").hidden = true;
     $("send").hidden = false;
-    $("send").textContent = c <= son ? "Yenidən oxudum və göndər" : "Oxudum və göndər";
+    $("sendT").textContent = c <= son ? "Yenidən oxudum, göndər" : "Oxudum, göndər";
     checkReady(); drawProg();
     window.scrollTo({ top: 0 });
   }
 
   function updateScore() {
     const total = (OYR.fesiller[view]?.test || []).length, n = Object.keys(answers).length, ok = Object.values(answers).filter(Boolean).length;
-    $("score").textContent = n < total ? `${total} sualdan ${n}-i cavablandırıldı` : `Nəticə: ${ok} / ${total}` + (ok === total ? " · Əla!" : " · Ayələrə yenidən bax");
+    const s = $("score"); s.innerHTML = "";
+    if (n < total) { s.textContent = `${n} / ${total} cavab`; return; }
+    s.appendChild(el("span", "stars", "⭐".repeat(ok) + "☆".repeat(total - ok)));
+    s.append(" " + (ok === total ? "Hamısı düz!" : ok + " / " + total + " düz"));
   }
+  const answersText = () => [...document.querySelectorAll("#fikirler .fikir")].map(t => t.value.trim());
   function checkReady() {
     const total = (OYR.fesiller[view]?.test || []).length;
-    const quizDone = Object.keys(answers).length >= total;
-    const long = answersText().some(a => a.length >= 10);
     const miss = [];
-    if (!quizDone) miss.push("yoxlama suallarına cavab ver");
-    if (!long) miss.push("ən azı bir suala bir cümlə ilə cavab yaz");
-    $("need").textContent = miss.length ? "Göndərmək üçün: " + miss.join(", ") + "." : "";
+    if (Object.keys(answers).length < total) miss.push("🧠 sualları cavabla");
+    if (!answersText().some(a => a.length >= 10)) miss.push("💭 bir fikir yaz");
+    $("need").textContent = miss.length ? "Göndərmək üçün: " + miss.join(" · ") : "";
     $("send").disabled = !!miss.length || sending;
   }
-  function answersText() { return [...document.querySelectorAll("#fikirler .fikir")].map(t => t.value.trim()); }
-  function saveDraft() {
-    store.set("oxu-draft-" + (KEY || "demo") + "-" + view, { a: answersText(), q: $("question").value });
-    checkReady();
-  }
+  function saveDraft() { store.set("oxu-draft-" + (KEY || "demo") + "-" + view, { a: answersText(), q: $("question").value }); checkReady(); }
   $("question").addEventListener("input", saveDraft);
 
   // 사전 창
   let dictWord = "";
   function openDict(word) {
-    dictWord = word;
-    const e = lookup(word);
+    dictWord = word; const e = lookup(word);
+    $("dIc").textContent = e ? typeIcon(e.n) : "🤔";
     $("dWord").textContent = e ? e.b : word;
     $("dTag").textContent = e ? e.n : "Lüğətdə yoxdur";
-    $("dMean").textContent = e ? e.m : "Bu söz hələ lüğətimizdə yoxdur. Mənasını müəllimindən soruşa bilərsən.";
+    $("dMean").textContent = e ? e.m : "Bu sözü müəllimindən soruş!";
     $("dBil").hidden = !(e && e.bil);
-    if (e && e.bil) { $("dBil").innerHTML = "<b>Bilirsənmi?</b> "; $("dBil").appendChild(document.createTextNode(e.bil)); }
+    if (e && e.bil) $("dBil").textContent = "💡 " + e.bil;
     $("dAsk").hidden = !!e;
-    $("sheet").classList.add("open");
-    $("dClose").focus({ preventScroll: true });
+    $("sheet").classList.add("open"); $("dClose").focus({ preventScroll: true });
   }
   const closeDict = () => $("sheet").classList.remove("open");
   $("dClose").addEventListener("click", closeDict);
   document.addEventListener("keydown", e => { if (e.key === "Escape") closeDict(); });
   $("dAsk").addEventListener("click", () => {
-    const q = $("question"); q.value = (q.value ? q.value + " " : "") + "«" + dictWord + "» sözü nə deməkdir?";
-    q.dispatchEvent(new Event("input")); closeDict();
+    const q = $("question"); q.value = (q.value ? q.value + " " : "") + "«" + dictWord + "» nə deməkdir?"; saveDraft(); closeDict();
   });
 
   // 보내기
   $("send").addEventListener("click", async () => {
     if (sending) return;
     const total = (OYR.fesiller[view]?.test || []).length, ok = Object.values(answers).filter(Boolean).length;
-    const ans = answersText();
-    const filled = ans.filter(Boolean).length;
+    const ans = answersText(), filled = ans.filter(Boolean).length;
     const fikir = show.prompts.map((p, i) => ans[i] ? (i + 1) + ") " + p + "\n→ " + ans[i] : "").filter(Boolean).join("\n\n");
-    const payload = {
-      k: KEY, fesil: view, kitab: OYR.kitab, test: ok + "/" + total,
-      sual: "Fikirlər: " + filled + "/" + show.prompts.length + " suala cavab", fikir, cavablar: ans,
-      soru: $("question").value.trim(), tekrar: view <= son
-    };
-    const res = $("result");
+    const payload = { k: KEY, fesil: view, kitab: OYR.kitab, test: ok + "/" + total, sual: "Fikirlər: " + filled + "/" + show.prompts.length + " suala cavab", fikir, cavablar: ans, soru: $("question").value.trim(), tekrar: view <= son };
     if (DEMO) {
-      res.className = "msg info"; res.hidden = false;
-      res.textContent = "Nümunə rejimi: şəxsi link olmadığı üçün göndərilmədi.";
       if (view > son) { son = view; store.set("oxu-son-demo", son); }
-      afterSend(); return;
+      celebrate("Nümunə rejimi: göndərilmədi."); return;
     }
-    sending = true; checkReady(); $("send").textContent = "Göndərilir…";
+    sending = true; checkReady(); $("sendT").textContent = "Göndərilir…";
     try {
-      const r = await fetch(AYAR.SCRIPT_URL, { method: "POST", body: JSON.stringify(payload) });
-      const j = await r.json();
+      const j = await (await fetch(AYAR.SCRIPT_URL, { method: "POST", body: JSON.stringify(payload) })).json();
       if (!j.ok) throw new Error(j.error || "xəta");
       son = Number(j.son) || son; store.set("oxu-son-" + KEY, son);
       store.set("oxu-draft-" + KEY + "-" + view, { a: [], q: "" });
-      res.className = "msg ok"; res.hidden = false;
-      res.textContent = "Göndərildi! Müəllimin fikrini oxuyacaq. Afərin!";
-      afterSend();
+      celebrate("Müəllimin fikrini oxuyacaq.");
     } catch (e) {
-      res.className = "msg err"; res.hidden = false;
-      res.textContent = "Göndərmək alınmadı. İnterneti yoxla və yenidən bas. Yazdıqların silinməyib.";
-      $("send").textContent = "Yenidən göndər";
+      const r = $("result"); r.className = "msg err"; r.hidden = false;
+      r.textContent = "😕 Göndərilmədi. İnterneti yoxla, yenidən bas. Yazdıqların silinməyib.";
+      $("sendT").textContent = "Yenidən göndər";
     }
     sending = false; checkReady();
   });
-  function afterSend() {
-    $("send").hidden = true;
-    drawProg();
+  function celebrate(sub) {
+    $("send").hidden = true; $("result").hidden = true;
+    $("party").hidden = false;
+    $("partyT").textContent = (ad ? "Afərin, " + ad + "!" : "Afərin!") + " " + OYR.kitab + " " + view + " oxundu";
+    $("partyS").textContent = "⭐ " + son + " / " + TOTAL + " fəsil · " + sub;
+    confetti(34); drawProg();
     const n = view + 1;
-    if (METN[n] && n <= son + 1) {
-      $("next").hidden = false; $("next").textContent = "Növbəti fəsil: " + OYR.kitab + " " + n;
-      $("next").onclick = () => show(n);
-    } else if (n > MAXCH && MAXCH < TOTAL) {
-      $("next").hidden = true;
-      $("result").textContent += " Növbəti fəsillər tezliklə açılacaq.";
-    }
+    if (METN[n] && n <= son + 1) { $("next").hidden = false; $("next").textContent = "👉 Növbəti: " + OYR.kitab + " " + n; $("next").onclick = () => show(n); }
   }
 
   $("loading").hidden = true; $("app").hidden = false;
   const want = Number(params.get("f"));
-  show(want && isOpen(want) ? want : nextCh());
+  show(want && isOpen(want) ? want : Math.min(son + 1, MAXCH));
 })();
 </script>
 <script>
