@@ -1,252 +1,1598 @@
 {
-"kitab": "Matta",
-"kitabAd": "Mattanın yazdığı Müjdə",
-"ibt": "Matt",
-"cemi": 28,
-"umumiFikir": "Bu fəsildə sənə ən çox təsir edən ayə hansıdır? Niyə?",
-"fesiller": {
-"1": {
-  "basliq": "İsanın ailə ağacı",
-  "giris": "Matta Müjdəni İsanın nəsil şəcərəsi ilə başlayır: İbrahimdən Davuda, Davuddan İsaya qədər. Sonra mələk röyada Yusifə Körpənin adını deyir.",
-  "bax": ["Siyahıda hansı tanış adlar var?", "Mələk Yusifə nə deyir?", "«İmmanuel» nə deməkdir?"],
-  "ayə": 21,
-  "test": [
-    ["«İmmanuel» adı nə deməkdir?", ["«Allah bizimlədir»", "«Padşah gəlir»", "«Sülh olsun»"], 0],
-    ["Mələk Yusifə harada göründü?", ["Məbəddə", "Röyada", "Çöldə"], 1],
-    ["Körpənin adı niyə İsa qoyuldu?", ["Çünki O, xalqını günahlarından xilas edəcək", "Çünki babasının adı idi", "Çünki padşah belə istədi"], 0]
+ "kitab": "Matta",
+ "kitabAd": "Mattanın yazdığı Müjdə",
+ "ibt": "Matt",
+ "cemi": 28,
+ "umumiFikir": "Bu fəsildə sənə ən çox təsir edən ayə hansıdır? Niyə?",
+ "fesiller": {
+  "1": {
+   "basliq": "İsanın ailə ağacı",
+   "giris": "Matta Müjdəni İsanın nəsil şəcərəsi ilə başlayır: İbrahimdən Davuda, Davuddan İsaya qədər. Sonra mələk röyada Yusifə Körpənin adını deyir.",
+   "bax": [
+    "Siyahıda hansı tanış adlar var?",
+    "Mələk Yusifə nə deyir?",
+    "«İmmanuel» nə deməkdir?"
+   ],
+   "ayə": 21,
+   "test": [
+    [
+     "«İmmanuel» adı nə deməkdir?",
+     [
+      "«Allah bizimlədir»",
+      "«Padşah gəlir»",
+      "«Sülh olsun»"
+     ],
+     0
+    ],
+    [
+     "Mələk Yusifə harada göründü?",
+     [
+      "Məbəddə",
+      "Röyada",
+      "Çöldə"
+     ],
+     1
+    ],
+    [
+     "Körpənin adı niyə İsa qoyuldu?",
+     [
+      "Çünki O, xalqını günahlarından xilas edəcək",
+      "Çünki babasının adı idi",
+      "Çünki padşah belə istədi"
+     ],
+     0
+    ]
+   ],
+   "fikir": [
+    "Allah «bizimlədir». Bu gün bunu harada hiss etdin?",
+    "Yusif qorxmaq yerinə Allaha itaət etdi. Sən çətin vəziyyətdə necə qərar verirsən?"
+   ]
+  },
+  "2": {
+   "basliq": "Ulduzun ardınca",
+   "giris": "Şərqdən gələn müdrik adamlar bir ulduzu izləyərək Körpə İsanı axtarırlar. Padşah Hirod isə qorxuya düşür.",
+   "bax": [
+    "Ulduz nə edir?",
+    "Hirod nə istəyir?",
+    "Allah Yusifə necə yol göstərir?"
+   ],
+   "ayə": 10,
+   "test": [
+    [
+     "Müdrik adamlara kim yol göstərdi?",
+     [
+      "Mələk",
+      "Ulduz",
+      "Padşah Hirod"
+     ],
+     1
+    ],
+    [
+     "Müdrik adamlar Körpəyə hansı hədiyyələri verdilər?",
+     [
+      "Çörək, su və şərab",
+      "Qızıl, kündür və mirra",
+      "Tac, qılınc və paltar"
+     ],
+     1
+    ],
+    [
+     "Yusif ailəsini götürüb əvvəlcə hara qaçdı?",
+     [
+      "Nazaretə",
+      "Misirə",
+      "Romaya"
+     ],
+     1
+    ]
+   ],
+   "fikir": [
+    "Müdrik adamlar İsanı tapmaq üçün uzaq yol gəldilər. Sən bu gün İsaya yaxınlaşmaq üçün nə edə bilərsən?",
+    "Yusif Allahın sözünü eşidən kimi «qalxdı». Allahın səndən istədiyi, amma təxirə saldığın bir şey varmı?"
+   ]
+  },
+  "3": {
+   "basliq": "Çöldə bir səs",
+   "giris": "Vəftizçi Yəhya insanları tövbəyə çağırır. Sonra İsa vəftiz olunur və göydən Allahın səsi gəlir.",
+   "bax": [
+    "Yəhya nə geyinir, nə yeyir?",
+    "«Tövbə edin» nə deməkdir?",
+    "Göydən gələn səs nə deyir?"
+   ],
+   "ayə": 17,
+   "test": [
+    [
+     "Yəhya nə yeyirdi?",
+     [
+      "Çörək və balıq",
+      "Çəyirtkə və çöl balı",
+      "Üzüm və əncir"
+     ],
+     1
+    ],
+    [
+     "İsa harada vəftiz olundu?",
+     [
+      "İordan çayında",
+      "Qalileya gölündə",
+      "Yerusəlimdə"
+     ],
+     0
+    ],
+    [
+     "Allahın Ruhu İsanın üzərinə necə endi?",
+     [
+      "Od kimi",
+      "Göyərçin kimi",
+      "Ulduz kimi"
+     ],
+     1
+    ]
+   ],
+   "fikir": [
+    "Allah İsaya «sevimli Oğlum» dedi. Allahın səni də sevdiyini bilmək sənə nə hiss etdirir?",
+    "Tövbə yalnız «bağışla» demək deyil, yolunu dəyişməkdir. Həyatında dəyişmək istədiyin bir şey varmı?"
+   ]
+  },
+  "4": {
+   "basliq": "Səhrada sınaq",
+   "giris": "İblis İsanı üç dəfə sınağa çəkir. İsa hər dəfə Allahın Kəlamı ilə cavab verir. Sonra ilk şagirdlərini çağırır.",
+   "bax": [
+    "İblis İsanı neçə dəfə sınayır?",
+    "İsa hər dəfə nə ilə cavab verir?",
+    "Balıqçılar İsanın çağırışına necə cavab verir?"
+   ],
+   "ayə": 19,
+   "test": [
+    [
+     "İsa səhrada neçə gün oruc tutdu?",
+     [
+      "7 gün",
+      "40 gün",
+      "12 gün"
+     ],
+     1
+    ],
+    [
+     "İsa sınaqlara nə ilə cavab verdi?",
+     [
+      "Susaraq",
+      "Allahın yazılmış Kəlamı ilə",
+      "Möcüzə göstərərək"
+     ],
+     1
+    ],
+    [
+     "Peter və Andrey nə iş görürdü?",
+     [
+      "Balıqçı idilər",
+      "Çoban idilər",
+      "Dülgər idilər"
+     ],
+     0
+    ]
+   ],
+   "fikir": [
+    "Sənin üçün ən çətin sınaq nədir? Allahın Kəlamı sənə necə kömək edə bilər?",
+    "Şagirdlər «dərhal» İsanın ardınca getdilər. İsanın ardınca getmək sənin üçün nə deməkdir?"
+   ]
+  },
+  "5": {
+   "basliq": "Duz və nur",
+   "giris": "İsa dağda şagirdlərinə öyrədir: kim həqiqətən bəxtiyardır, necə duz və nur olmaq olar, düşmənləri necə sevmək olar.",
+   "bax": [
+    "«Nə bəxtiyardır» sözü neçə dəfə təkrarlanır?",
+    "Duz və nur nəyi göstərir?",
+    "İsa düşmənlər haqqında nə deyir?"
+   ],
+   "ayə": 16,
+   "test": [
+    [
+     "İsa şagirdlərinə nə dedi?",
+     [
+      "«Siz yer üzünün duzusunuz»",
+      "«Siz yerin daşısınız»",
+      "«Siz göyün ulduzusunuz»"
+     ],
+     0
+    ],
+    [
+     "İsaya görə düşmənlərə qarşı necə davranmalıyıq?",
+     [
+      "Onlardan qaçmalıyıq",
+      "Onları sevməli və onlar üçün dua etməliyik",
+      "Onlara cavab qaytarmalıyıq"
+     ],
+     1
+    ],
+    [
+     "Qardaşının sənə qarşı şikayəti varsa, əvvəlcə nə etməlisən?",
+     [
+      "Qurbanını təqdim et",
+      "Get, qardaşınla barış",
+      "Hakimə get"
+     ],
+     1
+    ]
+   ],
+   "fikir": [
+    "Sən bu həftə harada «nur» ola bilərsən: evdə, məktəbdə, dostlar arasında?",
+    "Səni incidən biri üçün dua etmək asandırmı? Onun üçün qısa bir dua yaz."
+   ]
+  },
+  "6": {
+   "basliq": "Göylərdə olan Atamız",
+   "giris": "İsa gizlində yaxşılıq etməyi və necə dua etməyi öyrədir. Sonra deyir: qayğı çəkməyin, əvvəlcə Allahın Padşahlığını axtarın.",
+   "bax": [
+    "İsa hansı duanı öyrədir?",
+    "Xəzinəni harada yığmaq lazımdır?",
+    "Quşlar və zanbaqlar bizə nə öyrədir?"
+   ],
+   "ayə": 33,
+   "test": [
+    [
+     "Dua edəndə İsa nə məsləhət görür?",
+     [
+      "Küçədə ucadan dua et",
+      "Otağına gir və gizlində dua et",
+      "Çox söz danış"
+     ],
+     1
+    ],
+    [
+     "«Xəzinən haradadırsa, … da orada olacaq.» Boşluğa nə gəlir?",
+     [
+      "ürəyin",
+      "evin",
+      "pulun"
+     ],
+     0
+    ],
+    [
+     "İsa qayğı haqqında hansı nümunəni verir?",
+     [
+      "Göydə uçan quşlar",
+      "Dağdakı qurdlar",
+      "Dənizdəki balıqlar"
+     ],
+     0
+    ]
+   ],
+   "fikir": [
+    "Səni ən çox narahat edən nədir? Onu dua ilə Allaha de.",
+    "«Atamız» duasını öz sözlərinlə yaz."
+   ]
+  },
+  "7": {
+   "basliq": "Qaya üzərində ev",
+   "giris": "İsa başqalarını mühakimə etməmək, dua ilə diləmək, dar qapıdan girmək və sözlərinə əməl etmək haqqında öyrədir.",
+   "bax": [
+    "Çöp və tir nəyi göstərir?",
+    "«Diləyin, axtarın, döyün» nə vəd edir?",
+    "Ağıllı və ağılsız adam nə ilə fərqlənir?"
+   ],
+   "ayə": 24,
+   "test": [
+    [
+     "Ağıllı adam evini harada qurdu?",
+     [
+      "Qum üzərində",
+      "Qaya üzərində",
+      "Çay kənarında"
+     ],
+     1
+    ],
+    [
+     "Yalançı peyğəmbərləri necə tanıyacağıq?",
+     [
+      "Paltarlarından",
+      "Bəhrələrindən",
+      "Səslərindən"
+     ],
+     1
+    ],
+    [
+     "Həyata aparan qapı necədir?",
+     [
+      "Geniş",
+      "Dar",
+      "Qızıldan"
+     ],
+     1
+    ]
+   ],
+   "fikir": [
+    "İsanın sözlərinə «əməl etmək» nə deməkdir? Bu həftə Onun bir sözünə necə əməl edəcəksən?",
+    "«İnsanların sizinlə necə rəftar etməsini istəyirsinizsə, siz də onlarla elə rəftar edin» (12-ci ayə). Bu gün kimə yaxşılıq edə bilərsən?"
+   ]
+  },
+  "8": {
+   "basliq": "Küləklər də itaət edir",
+   "giris": "İsa cüzamlını pak edir, yüzbaşının xidmətçisini sağaldır və tufanı susdurur. Hamı soruşur: «Bu necə bir Adamdır?»",
+   "bax": [
+    "Yüzbaşının imanı niyə böyükdür?",
+    "Tufan zamanı İsa nə edir?",
+    "Şagirdlər nə soruşur?"
+   ],
+   "ayə": 26,
+   "test": [
+    [
+     "Yüzbaşı İsaya nə dedi?",
+     [
+      "«Evimə gəl»",
+      "«Ancaq bir söz söylə, xidmətçim sağalacaq»",
+      "«Məni də sağalt»"
+     ],
+     1
+    ],
+    [
+     "Tufan qopanda İsa nə edirdi?",
+     [
+      "Avar çəkirdi",
+      "Yatırdı",
+      "Balıq tuturdu"
+     ],
+     1
+    ],
+    [
+     "Cinlər hara göndərilməyi istədi?",
+     [
+      "Donuz sürüsünə",
+      "Səhraya",
+      "Dənizin dibinə"
+     ],
+     0
+    ]
+   ],
+   "fikir": [
+    "Sənin həyatında «tufan» kimi bir problem varmı? İsaya nə demək istəyirsən?",
+    "Yüzbaşı «Ancaq bir söz söylə» dedi. Sən İsanın sözünə nə qədər güvənirsən?"
+   ]
+  },
+  "9": {
+   "basliq": "«Ardımca gəl», Matta",
+   "giris": "İsa iflici sağaldır, vergiyığan Mattanı çağırır, ölmüş qızı diriltir və korların gözlərini açır. Bu Müjdəni yazan da həmin Mattadır.",
+   "bax": [
+    "İsa Mattanı harada görür?",
+    "Qadın İsanın nəyinə toxunur?",
+    "İsa izdihamı görəndə nə hiss edir?"
+   ],
+   "ayə": 13,
+   "test": [
+    [
+     "Matta nə iş görürdü?",
+     [
+      "Balıqçı idi",
+      "Vergiyığan idi",
+      "Həkim idi"
+     ],
+     1
+    ],
+    [
+     "İsa niyə günahkarlarla birgə yemək yeyirdi?",
+     [
+      "Çünki xəstələrin həkimə ehtiyacı var",
+      "Çünki ac idi",
+      "Çünki fariseylər Onu dəvət etmişdi"
+     ],
+     0
+    ],
+    [
+     "İki kor adam İsaya necə müraciət etdi?",
+     [
+      "«Ey Davud Oğlu!»",
+      "«Ey Müəllim!»",
+      "«Ey Peyğəmbər!»"
+     ],
+     0
+    ]
+   ],
+   "fikir": [
+    "İsa başqalarının sevmədiyi Mattanı çağırdı. Səndən uzaq duran bir yaşıdına necə yaxınlaşa bilərsən?",
+    "«Məhsul çoxdur, işçilərsə azdır.» Ətrafında Allahı tanımalı olan kim var? Onun üçün dua yaz."
+   ]
+  },
+  "10": {
+   "basliq": "On İki həvari yola çıxır",
+   "giris": "İsa on iki şagirdini seçib xidmətə göndərir. Çətinliklər olacaq, amma İsa deyir: «Qorxmayın, siz sərçələrdən daha dəyərlisiniz».",
+   "bax": [
+    "On iki həvarinin adlarını say.",
+    "İsa onlara yola nə götürməməyi deyir?",
+    "İsa sərçələr haqqında nə deyir?"
+   ],
+   "ayə": 31,
+   "test": [
+    [
+     "İsa şagirdlərini necə göndərdi?",
+     [
+      "Qurdlar arasına quzular kimi",
+      "Aslanlar kimi",
+      "Padşahlar kimi"
+     ],
+     0
+    ],
+    [
+     "Atanızın izni olmadan nə yerə düşməz?",
+     [
+      "Sərçə",
+      "Yarpaq",
+      "Ulduz"
+     ],
+     0
+    ],
+    [
+     "İsaya xəyanət edən şagird kimdir?",
+     [
+      "Tomas",
+      "Yəhuda İskaryot",
+      "Filip"
+     ],
+     1
+    ]
+   ],
+   "fikir": [
+    "«Siz saysız-hesabsız sərçədən daha dəyərlisiniz.» Allahın gözündə dəyərli olduğunu bilmək sənə nə deyir?",
+    "İsa həvarilərini göndərdi. Sən İsa haqqında kimə danışa bilərsən?"
+   ]
+  }
+ },
+ "lugat": [
+  {
+   "s": [
+    "isa"
+   ],
+   "b": "İsa Məsih",
+   "n": "Şəxs",
+   "m": "Allahın Oğlu, dünyaya Xilaskar kimi gəldi.",
+   "bil": "«İsa» adı «Rəbb xilas edir» mənasını verir (Matta 1:21)."
+  },
+  {
+   "s": [
+    "məsih"
+   ],
+   "b": "Məsih",
+   "n": "Söz",
+   "m": "Allahın göndərəcəyini vəd etdiyi Xilaskar Padşah. Mənası «məsh olunmuş» deməkdir.",
+   "bil": "Yunanca «Xristos» da eyni mənanı verir."
+  },
+  {
+   "s": [
+    "davud"
+   ],
+   "b": "Davud",
+   "n": "Şəxs",
+   "m": "İsrailin ən məşhur padşahı. Allah ona nəslindən əbədi Padşah çıxacağını vəd etmişdi.",
+   "bil": "İsaya «Davud Oğlu» deyilməsi Onun həmin vəd edilmiş Padşah olduğunu göstərir."
+  },
+  {
+   "s": [
+    "ibrahim"
+   ],
+   "b": "İbrahim",
+   "n": "Şəxs",
+   "m": "İsrail xalqının atası. Allah ona: «Sənin vasitənlə yer üzünün bütün xalqları xeyir-dua alacaq» demişdi.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "yaqub"
+   ],
+   "b": "Yaqub",
+   "n": "Şəxs",
+   "m": "1) İbrahimin nəvəsi, İsrailin on iki qəbiləsinin atası. 2) İsanın həvarilərindən ikisinin adı da Yaqubdur (4:21, 10:2-3).",
+   "bil": ""
+  },
+  {
+   "s": [
+    "şəcərə"
+   ],
+   "b": "Nəsil şəcərəsi",
+   "n": "Söz",
+   "m": "Ailə ağacı: kimin kimdən törədiyini göstərən siyahı.",
+   "bil": "Mattanın siyahısında beş qadının adı var: Tamar, Raxav, Rut, Uriyanın arvadı və Məryəm."
+  },
+  {
+   "s": [
+    "babil"
+   ],
+   "b": "Babil sürgünü",
+   "n": "Hadisə",
+   "m": "İsrail xalqının vətənindən zorla Babilə aparılması (təxminən İsadan 600 il əvvəl).",
+   "bil": ""
+  },
+  {
+   "s": [
+    "bakirə"
+   ],
+   "b": "Bakirə",
+   "n": "Söz",
+   "m": "Ərə getməmiş gənc qız.",
+   "bil": "Məryəm Müqəddəs Ruhun qüdrəti ilə hamilə oldu (1:18)."
+  },
+  {
+   "s": [
+    "immanuel"
+   ],
+   "b": "İmmanuel",
+   "n": "Ad",
+   "m": "«Allah bizimlədir» deməkdir.",
+   "bil": "Mattanın Müjdəsi bu vədlə başlayır və İsanın hər gün bizimlə olacağı vədi ilə bitir (28:20)."
+  },
+  {
+   "s": [
+    "saleh"
+   ],
+   "b": "Saleh",
+   "n": "Söz",
+   "m": "Allahın gözündə doğru və ədalətli yaşayan. «Salehlik» Allahın istədiyi doğru həyatdır.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "ruh"
+   ],
+   "b": "Ruh",
+   "n": "Söz",
+   "m": "1) Müqəddəs Ruh: Allahın Ruhu. 2) «Natəmiz ruhlar»: cinlər. «Ruhən yoxsul» isə Allaha ehtiyacı olduğunu bilən insandır.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "mələ"
+   ],
+   "b": "Mələk",
+   "n": "Söz",
+   "m": "Allahın xəbərçisi, Onun göndərdiyi göy varlığı.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "röya"
+   ],
+   "b": "Röya",
+   "n": "Söz",
+   "m": "Yuxuda görülən görüntü. Allah bəzən insanlarla röya vasitəsilə danışırdı.",
+   "bil": "1-ci və 2-ci fəsillərdə Allah Yusifə dörd dəfə röyada yol göstərir."
+  },
+  {
+   "s": [
+    "peyğəmbər"
+   ],
+   "b": "Peyğəmbər",
+   "n": "Şəxs",
+   "m": "Allahın sözünü insanlara çatdıran şəxs.",
+   "bil": "Matta tez-tez «peyğəmbər vasitəsilə söylənən söz yerinə yetdi» deyir. O göstərmək istəyir ki, İsa vəd edilən Məsihdir."
+  },
+  {
+   "s": [
+    "yusif"
+   ],
+   "b": "Yusif",
+   "n": "Şəxs",
+   "m": "Məryəmin əri, dülgər. Allahın sözünə dərhal itaət etdi.",
+   "bil": "Yusif Müjdədə heç bir söz demir, sadəcə «qalxır» və itaət edir."
+  },
+  {
+   "s": [
+    "məryəm"
+   ],
+   "b": "Məryəm",
+   "n": "Şəxs",
+   "m": "İsanın anası.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "hirod"
+   ],
+   "b": "Hirod",
+   "n": "Şəxs",
+   "m": "Böyük Hirod. Romalıların təyin etdiyi Yəhudeya padşahı. Taxtını itirməkdən çox qorxurdu.",
+   "bil": "O, «Yəhudilərin Padşahı» sözünü eşidəndə özünə rəqib gördü."
+  },
+  {
+   "s": [
+    "bet-lexem"
+   ],
+   "b": "Bet-Lexem",
+   "n": "Yer",
+   "m": "Yerusəlimin cənubunda, təxminən 8 km uzaqlıqda kiçik şəhər. Padşah Davud da burada doğulmuşdu.",
+   "bil": "«Bet-Lexem» adı «çörək evi» deməkdir."
+  },
+  {
+   "s": [
+    "yəhudeya"
+   ],
+   "b": "Yəhudeya",
+   "n": "Yer",
+   "m": "İsrail torpağının cənub bölgəsi. Yerusəlim və Bet-Lexem burada yerləşir.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "yəhuda"
+   ],
+   "b": "Yəhuda",
+   "n": "Şəxs / Yer",
+   "m": "1) Yaqubun oğlu, onun nəslindən gələn qəbilə və bu qəbilənin torpağı. 2) 10-cu fəsildə: İsaya xəyanət edən şagird Yəhuda İskaryot.",
+   "bil": "Padşah Davud və İsa Yəhuda qəbiləsindəndir."
+  },
+  {
+   "s": [
+    "yəhudi"
+   ],
+   "b": "Yəhudi",
+   "n": "Xalq",
+   "m": "İsrail xalqından olan insan.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "yerusəlim"
+   ],
+   "b": "Yerusəlim",
+   "n": "Yer",
+   "m": "Yəhudilərin paytaxtı. Allahın məbədi bu şəhərdə idi.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "israil"
+   ],
+   "b": "İsrail",
+   "n": "Yer / Xalq",
+   "m": "Allahın seçdiyi xalq və onun torpağı.",
+   "bil": "«İsrail» adı əvvəlcə Yaquba verilmişdi."
+  },
+  {
+   "s": [
+    "müdrik"
+   ],
+   "b": "Müdrik",
+   "n": "Söz",
+   "m": "Ağıllı, bilikli. 2-ci fəsildə: şərqdən gələn, ulduzları öyrənən alimlər.",
+   "bil": "Müjdə onların neçə nəfər olduğunu demir. «Üç» sayı üç hədiyyədən gəlir."
+  },
+  {
+   "s": [
+    "səcdə"
+   ],
+   "b": "Səcdə qılmaq",
+   "n": "Söz",
+   "m": "Yerə əyilib birinə ən böyük hörmət və ibadət göstərmək.",
+   "bil": "4-cü fəsildə İsa deyir: yalnız Allaha səcdə et (4:10)."
+  },
+  {
+   "s": [
+    "kahin"
+   ],
+   "b": "Kahin",
+   "n": "Şəxs",
+   "m": "Məbəddə Allaha qurban təqdim edən və xalq üçün dua edən xidmətçi.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "ilahiyyatçı"
+   ],
+   "b": "İlahiyyatçı",
+   "n": "Şəxs",
+   "m": "Müqəddəs Kitabı, xüsusilə Musanın Qanununu öyrənən və xalqa öyrədən alim.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "qızıl"
+   ],
+   "b": "Qızıl",
+   "n": "Söz",
+   "m": "Ən qiymətli metal. Padşaha layiq hədiyyə.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "kündür"
+   ],
+   "b": "Kündür",
+   "n": "Söz",
+   "m": "Ətirli ağac qatranı. Yandırılanda xoş qoxu verir və Allaha ibadətdə istifadə olunurdu.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "mirra"
+   ],
+   "b": "Mirra",
+   "n": "Söz",
+   "m": "Qiymətli, acı ətirli qatran. Dərman kimi və ölüləri dəfn edərkən istifadə olunurdu.",
+   "bil": "Bu hədiyyə İsanın əzab çəkib öləcəyinə işarə kimi başa düşülür."
+  },
+  {
+   "s": [
+    "misir"
+   ],
+   "b": "Misir",
+   "n": "Yer",
+   "m": "İsraildən cənub-qərbdə böyük ölkə. Hirodun hakimiyyəti oraya çatmırdı.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "yeremya"
+   ],
+   "b": "Yeremya",
+   "n": "Şəxs",
+   "m": "İsadan təxminən 600 il əvvəl yaşamış peyğəmbər.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "rəhilə"
+   ],
+   "b": "Rəhilə",
+   "n": "Şəxs",
+   "m": "Yaqubun sevimli arvadı, İsrail xalqının analarından biri.",
+   "bil": "Burada o, övladları üçün ağlayan bütün anaların rəmzidir."
+  },
+  {
+   "s": [
+    "qalileya"
+   ],
+   "b": "Qalileya",
+   "n": "Yer",
+   "m": "İsrailin şimal bölgəsi. İsa xidmətinin çoxunu burada etdi.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "nazaret"
+   ],
+   "b": "Nazaret",
+   "n": "Yer",
+   "m": "Qalileyada kiçik, sadə bir şəhər. İsa burada böyüdü.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "arxela"
+   ],
+   "b": "Arxela",
+   "n": "Şəxs",
+   "m": "Hirodun oğlu. Atası kimi qəddar hökmdar idi.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "çoban"
+   ],
+   "b": "Çoban",
+   "n": "Söz",
+   "m": "Qoyunları otaran və qoruyan adam.",
+   "bil": "Müqəddəs Kitabda xalqını qoruyan rəhbərin rəmzidir (9:36)."
+  },
+  {
+   "s": [
+    "təlaş"
+   ],
+   "b": "Təlaş",
+   "n": "Söz",
+   "m": "Narahatlıq, həyəcan, qorxu.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "xəzinə"
+   ],
+   "b": "Xəzinə",
+   "n": "Söz",
+   "m": "Qiymətli əşyalar və onların saxlandığı yer.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "hiddət"
+   ],
+   "b": "Hiddətlənmək",
+   "n": "Söz",
+   "m": "Çox böyük qəzəblənmək.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "ulduz"
+   ],
+   "b": "Ulduz",
+   "n": "Söz",
+   "m": "2-ci fəsildə: müdrik adamlara yol göstərən xüsusi ulduz.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "vəftiz"
+   ],
+   "b": "Vəftiz",
+   "n": "Söz",
+   "m": "Suya batırılmaq. Günahlardan dönüb təmiz həyata başlamağın işarəsi.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "tövbə"
+   ],
+   "b": "Tövbə",
+   "n": "Söz",
+   "m": "Günaha peşman olub ondan dönmək və Allaha tərəf qayıtmaq.",
+   "bil": "Tövbə yalnız hiss deyil, yolu dəyişməkdir."
+  },
+  {
+   "s": [
+    "səmavi"
+   ],
+   "b": "Səmavi Padşahlıq",
+   "n": "Söz",
+   "m": "Allahın hökm sürməsi: Allahın Padşah olduğu və Onun iradəsinin yerinə yetdiyi yer.",
+   "bil": "Matta «Allahın Padşahlığı» yerinə çox vaxt «Səmavi Padşahlıq» deyir."
+  },
+  {
+   "s": [
+    "vəz"
+   ],
+   "b": "Vəz etmək",
+   "n": "Söz",
+   "m": "Allahın sözünü xalqa elan etmək, təbliğ etmək.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "yəhya"
+   ],
+   "b": "Yəhya",
+   "n": "Şəxs",
+   "m": "1) Vəftizçi Yəhya: İsadan əvvəl gəlib xalqı tövbəyə çağıran peyğəmbər. 2) Zavday oğlu Yəhya: İsanın həvarisi.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "yeşaya"
+   ],
+   "b": "Yeşaya",
+   "n": "Şəxs",
+   "m": "İsadan təxminən 700 il əvvəl yaşamış böyük peyğəmbər.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "iordan"
+   ],
+   "b": "İordan çayı",
+   "n": "Yer",
+   "m": "İsrailin ən böyük çayı. Qalileya gölündən Ölü dənizə axır.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "farisey"
+   ],
+   "b": "Fariseylər",
+   "n": "Qrup",
+   "m": "Qanunun hər qaydasına ciddi əməl etməyə çalışan dini qrup.",
+   "bil": "İsa onları ürəkdən çox görünüşə fikir verdikləri üçün tənqid edirdi."
+  },
+  {
+   "s": [
+    "sadukey"
+   ],
+   "b": "Sadukeylər",
+   "n": "Qrup",
+   "m": "Başçı kahinlərin çoxunun aid olduğu varlı dini qrup. Ölülərin dirilməsinə inanmırdılar.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "gürzə"
+   ],
+   "b": "Gürzə",
+   "n": "Söz",
+   "m": "Zəhərli ilan.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "bəhrə"
+   ],
+   "b": "Bəhrə",
+   "n": "Söz",
+   "m": "Meyvə. Burada: insanın əməlləri, həyatının nəticəsi.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "çəyirtkə"
+   ],
+   "b": "Çəyirtkə",
+   "n": "Söz",
+   "m": "Tullanan böcək. O bölgədə yoxsul adamlar onu yeyirdi.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "xırman"
+   ],
+   "b": "Xırman",
+   "n": "Söz",
+   "m": "Taxılı küləşdən ayırmaq üçün döyülən yer.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "küləş"
+   ],
+   "b": "Küləş",
+   "n": "Söz",
+   "m": "Taxıl ayrıldıqdan sonra qalan quru saman.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "göyərçin"
+   ],
+   "b": "Göyərçin",
+   "n": "Söz",
+   "m": "Ağ quş. Müqəddəs Kitabda sülh və saflıq rəmzidir.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "çarıq"
+   ],
+   "b": "Çarıq",
+   "n": "Söz",
+   "m": "Sadə dəri ayaqqabı.",
+   "bil": "Ağanın çarığını daşımaq ən aşağı qulun işi idi."
+  },
+  {
+   "s": [
+    "iblis"
+   ],
+   "b": "İblis",
+   "n": "Şəxs",
+   "m": "Allaha və insanlara düşmən olan pis ruh, Şeytan.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "şeytan"
+   ],
+   "b": "Şeytan",
+   "n": "Şəxs",
+   "m": "İblisin başqa adı. Mənası «düşmən, qarşı duran» deməkdir.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "sına"
+   ],
+   "b": "Sınaq",
+   "n": "Söz",
+   "m": "İnsanı günaha çəkmək cəhdi və ya imanının yoxlanması.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "oruc"
+   ],
+   "b": "Oruc",
+   "n": "Söz",
+   "m": "Dua etmək üçün müəyyən vaxt yeməkdən imtina etmək.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "məbəd"
+   ],
+   "b": "Məbəd",
+   "n": "Yer",
+   "m": "Yerusəlimdə Allaha ibadət edilən böyük bina.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "şagird"
+   ],
+   "b": "Şagird",
+   "n": "Söz",
+   "m": "Müəllimin ardınca gedib ondan öyrənən adam.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "sinaqoq"
+   ],
+   "b": "Sinaqoq",
+   "n": "Yer",
+   "m": "Yəhudilərin toplaşıb dua etdikləri və Müqəddəs Yazıları oxuduqları bina.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "müjdə"
+   ],
+   "b": "Müjdə",
+   "n": "Söz",
+   "m": "Sevincli xəbər: Allahın İsa Məsih vasitəsilə insanları xilas etməsi.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "kefernahum"
+   ],
+   "b": "Kefernahum",
+   "n": "Yer",
+   "m": "Qalileya gölünün sahilində şəhər. İsa burada yaşayırdı.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "peter"
+   ],
+   "b": "Peter",
+   "n": "Şəxs",
+   "m": "Balıqçı Şimon. İsa ona «Peter» (qaya) adını verdi.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "şimon"
+   ],
+   "b": "Şimon",
+   "n": "Şəxs",
+   "m": "1) Peter adlanan Şimon. 2) Kənançı Şimon: başqa bir həvari.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "şəfa"
+   ],
+   "b": "Şəfa",
+   "n": "Söz",
+   "m": "Sağalma, xəstəlikdən qurtulma.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "izdiham"
+   ],
+   "b": "İzdiham",
+   "n": "Söz",
+   "m": "Çox böyük insan kütləsi.",
+   "bil": ""
+  },
+  {
+   "x": [
+    "cin",
+    "cinə",
+    "cinlər",
+    "cinləri",
+    "cinlərin",
+    "cinlərə"
+   ],
+   "b": "Cin",
+   "n": "Söz",
+   "m": "Natəmiz, pis ruh. İnsanlara zərər verir.",
+   "bil": "İsa cinləri bir sözlə qovurdu (8:16)."
+  },
+  {
+   "s": [
+    "bəxtiyar"
+   ],
+   "b": "Bəxtiyar",
+   "n": "Söz",
+   "m": "Xoşbəxt, Allahın xeyir-duası altında olan.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "həlim"
+   ],
+   "b": "Həlim",
+   "n": "Söz",
+   "m": "Yumşaq, təvazökar, qəzəbini idarə edən.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "mərhəmət"
+   ],
+   "b": "Mərhəmət",
+   "n": "Söz",
+   "m": "Başqasına rəhm etmək, ona yazığı gəlib kömək etmək.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "sülhyaradan"
+   ],
+   "b": "Sülhyaradan",
+   "n": "Söz",
+   "m": "Küsülüləri barışdıran, sülh gətirən insan.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "duz"
+   ],
+   "b": "Duz",
+   "n": "Söz",
+   "m": "Yeməyə dad verən və onu xarab olmaqdan qoruyan maddə.",
+   "bil": "«Yer üzünün duzu» olmaq dünyaya yaxşı dad vermək deməkdir."
+  },
+  {
+   "s": [
+    "nur"
+   ],
+   "b": "Nur",
+   "n": "Söz",
+   "m": "İşıq.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "çıraq",
+    "çırağ"
+   ],
+   "b": "Çıraq",
+   "n": "Söz",
+   "m": "Yağla yanan kiçik lampa. «Çıraqdan» onun qoyulduğu yerdir.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "qanun"
+   ],
+   "b": "Qanun",
+   "n": "Söz",
+   "m": "Allahın Musa vasitəsilə verdiyi əmrlər. «Qanun və Peyğəmbərlər» bütün Əhdi-Ətiq deməkdir.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "şura"
+   ],
+   "b": "Ali Şura",
+   "n": "Qrup",
+   "m": "Yəhudilərin ən yüksək məhkəməsi.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "cəhənnəm"
+   ],
+   "b": "Cəhənnəm",
+   "n": "Söz",
+   "m": "Allahdan ayrı, əbədi cəza yeri.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "qurbangah"
+   ],
+   "b": "Qurbangah",
+   "n": "Söz",
+   "m": "Allaha qurban təqdim edilən yer.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "vergiyığan"
+   ],
+   "b": "Vergiyığan",
+   "n": "Şəxs",
+   "m": "Romalılar üçün vergi toplayan yəhudi. Xalq onları satqın və oğru sayırdı.",
+   "bil": "Matta da əvvəl vergiyığan idi (9:9)."
+  },
+  {
+   "s": [
+    "bütpərəst"
+   ],
+   "b": "Bütpərəst",
+   "n": "Söz",
+   "m": "Əl ilə düzəldilmiş bütlərə ibadət edən insan; həqiqi Allahı tanımayan.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "kamil"
+   ],
+   "b": "Kamil",
+   "n": "Söz",
+   "m": "Tam, qüsursuz, mükəmməl.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "zina"
+   ],
+   "b": "Zina",
+   "n": "Söz",
+   "m": "Evli insanın başqası ilə yaxınlıq edərək nikaha xəyanət etməsi.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "sədəqə"
+   ],
+   "b": "Sədəqə",
+   "n": "Söz",
+   "m": "Yoxsullara verilən kömək, pul və ya yemək.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "ikiüzlü"
+   ],
+   "b": "İkiüzlü",
+   "n": "Söz",
+   "m": "Göründüyü kimi olmayan, yalandan özünü yaxşı göstərən insan.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "amin"
+   ],
+   "b": "Amin",
+   "n": "Söz",
+   "m": "«Belə olsun!» Duanın sonunda deyilir.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "güvə"
+   ],
+   "b": "Güvə",
+   "n": "Söz",
+   "m": "Paltarı yeyib dəlik açan kiçik həşərat.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "zanbaq"
+   ],
+   "b": "Zanbaq",
+   "n": "Söz",
+   "m": "Gözəl çöl çiçəyi.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "süleyman"
+   ],
+   "b": "Süleyman",
+   "n": "Şəxs",
+   "m": "Davudun oğlu, çox varlı və müdrik padşah.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "iman"
+   ],
+   "b": "İman",
+   "n": "Söz",
+   "m": "Allaha inanmaq və Ona güvənmək.",
+   "bil": "«İmanı az olanlar» İsanın qorxan şagirdlərinə dediyi sözdür."
+  },
+  {
+   "s": [
+    "mühakimə"
+   ],
+   "b": "Mühakimə etmək",
+   "n": "Söz",
+   "m": "Başqasını günahlandırıb hökm çıxarmaq.",
+   "bil": ""
+  },
+  {
+   "x": [
+    "tir",
+    "tiri"
+   ],
+   "b": "Tir",
+   "n": "Söz",
+   "m": "Damı saxlayan böyük, uzun taxta.",
+   "bil": "İsa zarafatla deyir: gözündə taxta var, amma başqasının gözündə çöp axtarırsan!"
+  },
+  {
+   "s": [
+    "çöp"
+   ],
+   "b": "Çöp",
+   "n": "Söz",
+   "m": "Çox kiçik taxta parçası.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "mirvari"
+   ],
+   "b": "Mirvari",
+   "n": "Söz",
+   "m": "Dənizdə tapılan qiymətli ağ daş.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "qaratikan"
+   ],
+   "b": "Qaratikan",
+   "n": "Söz",
+   "m": "Tikanlı kol.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "qanqal"
+   ],
+   "b": "Qanqal",
+   "n": "Söz",
+   "m": "Tikanlı alaq otu.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "quzu"
+   ],
+   "b": "Quzu",
+   "n": "Söz",
+   "m": "Balaca qoyun.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "cüzam"
+   ],
+   "b": "Cüzam",
+   "n": "Söz",
+   "m": "Dərini və bədəni məhv edən ağır xəstəlik. Cüzamlılar şəhərdən kənarda yaşamalı idilər.",
+   "bil": "İsa cüzamlıya toxundu. O zaman heç kim belə etmirdi."
+  },
+  {
+   "s": [
+    "pak"
+   ],
+   "b": "Pak",
+   "n": "Söz",
+   "m": "Təmiz.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "yüzbaşı"
+   ],
+   "b": "Yüzbaşı",
+   "n": "Şəxs",
+   "m": "Yüz əsgərə rəhbərlik edən Roma zabiti. O, yəhudi deyildi.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "iflic"
+   ],
+   "b": "İflic",
+   "n": "Söz",
+   "m": "Əl-ayağını hərəkət etdirə bilməyən xəstə.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "bəşər"
+   ],
+   "b": "Bəşər Oğlu",
+   "n": "Ad",
+   "m": "İsanın Özü üçün işlətdiyi ad. Daniel peyğəmbərin kitabında göydən gələn hökmdar belə adlanır.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "tufan"
+   ],
+   "b": "Tufan",
+   "n": "Söz",
+   "m": "Çox güclü külək və fırtına.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "qadaralı"
+   ],
+   "b": "Qadaralılar",
+   "n": "Yer",
+   "m": "Qalileya gölünün şərq sahilində yaşayan xalq.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "küfr"
+   ],
+   "b": "Küfr",
+   "n": "Söz",
+   "m": "Allaha qarşı hörmətsiz söz. İlahiyyatçılar düşünürdü ki, yalnız Allah günahı bağışlaya bilər.",
+   "bil": ""
+  },
+  {
+   "x": [
+    "matta",
+    "mattanı",
+    "mattanın"
+   ],
+   "b": "Matta",
+   "n": "Şəxs",
+   "m": "Vergiyığan idi. İsa onu çağırdı və o, İsanın həvarisi oldu.",
+   "bil": "Bu Müjdəni yazan da Mattadır."
+  },
+  {
+   "s": [
+    "tuluq"
+   ],
+   "b": "Tuluq",
+   "n": "Söz",
+   "m": "Dəridən tikilmiş qab. İçində şərab saxlanırdı.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "sağdış"
+   ],
+   "b": "Sağdış və soldış",
+   "n": "Söz",
+   "m": "Toyda bəyin yanında duran dostları.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "rəis"
+   ],
+   "b": "Rəis",
+   "n": "Şəxs",
+   "m": "Sinaqoqun başçısı.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "tütək"
+   ],
+   "b": "Tütək",
+   "n": "Söz",
+   "m": "Nəfəslə çalınan musiqi aləti. Yas mərasimlərində çalınırdı.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "həvari"
+   ],
+   "b": "Həvari",
+   "n": "Şəxs",
+   "m": "İsanın seçib göndərdiyi on iki şagird. Sözün mənası «göndərilən» deməkdir.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "sərçə"
+   ],
+   "b": "Sərçə",
+   "n": "Söz",
+   "m": "Kiçik, ucuz quş.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "çarmıx"
+   ],
+   "b": "Çarmıx",
+   "n": "Söz",
+   "m": "Romalıların insanları edam etdikləri taxta xaç.",
+   "bil": "«Çarmıxını götürmək» İsa üçün hər şeydən keçməyə hazır olmaq deməkdir."
+  },
+  {
+   "s": [
+    "əsa"
+   ],
+   "b": "Əsa",
+   "n": "Söz",
+   "m": "Yol gedərkən əldə tutulan ağac, çəlik.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "qiyamət"
+   ],
+   "b": "Qiyamət günü",
+   "n": "Söz",
+   "m": "Allahın bütün insanları mühakimə edəcəyi son gün.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "sodom"
+   ],
+   "b": "Sodom və Homorra",
+   "n": "Yer",
+   "m": "Çox pis əməllərinə görə Allahın məhv etdiyi iki şəhər.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "samariya"
+   ],
+   "b": "Samariyalılar",
+   "n": "Xalq",
+   "m": "Yəhudilərlə düşmən olan qonşu xalq.",
+   "bil": ""
+  },
+  {
+   "s": [
+    "baal-zevul"
+   ],
+   "b": "Baal-Zevul",
+   "n": "Ad",
+   "m": "Cinlərin başçısının adı, yəni Şeytan.",
+   "bil": ""
+  }
+ ],
+ "melumat": {
+  "basliq": "Mattanın yazdığı Müjdə haqqında",
+  "satirlar": [
+   [
+    "Kim yazdı?",
+    "Matta. Əvvəl vergiyığan idi, İsa onu çağırdı və o, On İki həvaridən biri oldu (9:9)."
+   ],
+   [
+    "Nə vaxt?",
+    "Təxminən eramızın 50–80-ci illəri arasında. Dəqiq il məlum deyil."
+   ],
+   [
+    "Kimə?",
+    "Əsasən yəhudi oxuculara: Əhdi-Ətiqi bilən və Məsihi gözləyən insanlara."
+   ],
+   [
+    "Niyə?",
+    "İsanın peyğəmbərlərin vəd etdiyi Məsih, Davud Oğlu və Səmavi Padşahlığın Padşahı olduğunu göstərmək üçün."
+   ]
   ],
-  "fikir": ["Allah «bizimlədir». Bu gün bunu harada hiss etdin?", "Yusif qorxmaq yerinə Allaha itaət etdi. Sən çətin vəziyyətdə necə qərar verirsən?"]
-},
-"2": {
-  "basliq": "Ulduzun ardınca",
-  "giris": "Şərqdən gələn müdrik adamlar bir ulduzu izləyərək Körpə İsanı axtarırlar. Padşah Hirod isə qorxuya düşür.",
-  "bax": ["Ulduz nə edir?", "Hirod nə istəyir?", "Allah Yusifə necə yol göstərir?"],
-  "ayə": 10,
-  "test": [
-    ["Müdrik adamlara kim yol göstərdi?", ["Mələk", "Ulduz", "Padşah Hirod"], 1],
-    ["Müdrik adamlar Körpəyə hansı hədiyyələri verdilər?", ["Çörək, su və şərab", "Qızıl, kündür və mirra", "Tac, qılınc və paltar"], 1],
-    ["Yusif ailəsini götürüb əvvəlcə hara qaçdı?", ["Nazaretə", "Misirə", "Romaya"], 1]
-  ],
-  "fikir": ["Müdrik adamlar İsanı tapmaq üçün uzaq yol gəldilər. Sən bu gün İsaya yaxınlaşmaq üçün nə edə bilərsən?", "Yusif Allahın sözünü eşidən kimi «qalxdı». Allahın səndən istədiyi, amma təxirə saldığın bir şey varmı?"]
-},
-"3": {
-  "basliq": "Çöldə bir səs",
-  "giris": "Vəftizçi Yəhya insanları tövbəyə çağırır. Sonra İsa vəftiz olunur və göydən Allahın səsi gəlir.",
-  "bax": ["Yəhya nə geyinir, nə yeyir?", "«Tövbə edin» nə deməkdir?", "Göydən gələn səs nə deyir?"],
-  "ayə": 17,
-  "test": [
-    ["Yəhya nə yeyirdi?", ["Çörək və balıq", "Çəyirtkə və çöl balı", "Üzüm və əncir"], 1],
-    ["İsa harada vəftiz olundu?", ["İordan çayında", "Qalileya gölündə", "Yerusəlimdə"], 0],
-    ["Allahın Ruhu İsanın üzərinə necə endi?", ["Od kimi", "Göyərçin kimi", "Ulduz kimi"], 1]
-  ],
-  "fikir": ["Allah İsaya «sevimli Oğlum» dedi. Allahın səni də sevdiyini bilmək sənə nə hiss etdirir?", "Tövbə yalnız «bağışla» demək deyil, yolunu dəyişməkdir. Həyatında dəyişmək istədiyin bir şey varmı?"]
-},
-"4": {
-  "basliq": "Səhrada sınaq",
-  "giris": "İblis İsanı üç dəfə sınağa çəkir. İsa hər dəfə Allahın Kəlamı ilə cavab verir. Sonra ilk şagirdlərini çağırır.",
-  "bax": ["İblis İsanı neçə dəfə sınayır?", "İsa hər dəfə nə ilə cavab verir?", "Balıqçılar İsanın çağırışına necə cavab verir?"],
-  "ayə": 19,
-  "test": [
-    ["İsa səhrada neçə gün oruc tutdu?", ["7 gün", "40 gün", "12 gün"], 1],
-    ["İsa sınaqlara nə ilə cavab verdi?", ["Susaraq", "Allahın yazılmış Kəlamı ilə", "Möcüzə göstərərək"], 1],
-    ["Peter və Andrey nə iş görürdü?", ["Balıqçı idilər", "Çoban idilər", "Dülgər idilər"], 0]
-  ],
-  "fikir": ["Sənin üçün ən çətin sınaq nədir? Allahın Kəlamı sənə necə kömək edə bilər?", "Şagirdlər «dərhal» İsanın ardınca getdilər. İsanın ardınca getmək sənin üçün nə deməkdir?"]
-},
-"5": {
-  "basliq": "Duz və nur",
-  "giris": "İsa dağda şagirdlərinə öyrədir: kim həqiqətən bəxtiyardır, necə duz və nur olmaq olar, düşmənləri necə sevmək olar.",
-  "bax": ["«Nə bəxtiyardır» sözü neçə dəfə təkrarlanır?", "Duz və nur nəyi göstərir?", "İsa düşmənlər haqqında nə deyir?"],
-  "ayə": 16,
-  "test": [
-    ["İsa şagirdlərinə nə dedi?", ["«Siz yer üzünün duzusunuz»", "«Siz yerin daşısınız»", "«Siz göyün ulduzusunuz»"], 0],
-    ["İsaya görə düşmənlərə qarşı necə davranmalıyıq?", ["Onlardan qaçmalıyıq", "Onları sevməli və onlar üçün dua etməliyik", "Onlara cavab qaytarmalıyıq"], 1],
-    ["Qardaşının sənə qarşı şikayəti varsa, əvvəlcə nə etməlisən?", ["Qurbanını təqdim et", "Get, qardaşınla barış", "Hakimə get"], 1]
-  ],
-  "fikir": ["Sən bu həftə harada «nur» ola bilərsən: evdə, məktəbdə, dostlar arasında?", "Səni incidən biri üçün dua etmək asandırmı? Onun üçün qısa bir dua yaz."]
-},
-"6": {
-  "basliq": "Göylərdə olan Atamız",
-  "giris": "İsa gizlində yaxşılıq etməyi və necə dua etməyi öyrədir. Sonra deyir: qayğı çəkməyin, əvvəlcə Allahın Padşahlığını axtarın.",
-  "bax": ["İsa hansı duanı öyrədir?", "Xəzinəni harada yığmaq lazımdır?", "Quşlar və zanbaqlar bizə nə öyrədir?"],
-  "ayə": 33,
-  "test": [
-    ["Dua edəndə İsa nə məsləhət görür?", ["Küçədə ucadan dua et", "Otağına gir və gizlində dua et", "Çox söz danış"], 1],
-    ["«Xəzinən haradadırsa, … da orada olacaq.» Boşluğa nə gəlir?", ["ürəyin", "evin", "pulun"], 0],
-    ["İsa qayğı haqqında hansı nümunəni verir?", ["Göydə uçan quşlar", "Dağdakı qurdlar", "Dənizdəki balıqlar"], 0]
-  ],
-  "fikir": ["Səni ən çox narahat edən nədir? Onu dua ilə Allaha de.", "«Atamız» duasını öz sözlərinlə yaz."]
-},
-"7": {
-  "basliq": "Qaya üzərində ev",
-  "giris": "İsa başqalarını mühakimə etməmək, dua ilə diləmək, dar qapıdan girmək və sözlərinə əməl etmək haqqında öyrədir.",
-  "bax": ["Çöp və tir nəyi göstərir?", "«Diləyin, axtarın, döyün» nə vəd edir?", "Ağıllı və ağılsız adam nə ilə fərqlənir?"],
-  "ayə": 24,
-  "test": [
-    ["Ağıllı adam evini harada qurdu?", ["Qum üzərində", "Qaya üzərində", "Çay kənarında"], 1],
-    ["Yalançı peyğəmbərləri necə tanıyacağıq?", ["Paltarlarından", "Bəhrələrindən", "Səslərindən"], 1],
-    ["Həyata aparan qapı necədir?", ["Geniş", "Dar", "Qızıldan"], 1]
-  ],
-  "fikir": ["İsanın sözlərinə «əməl etmək» nə deməkdir? Bu həftə Onun bir sözünə necə əməl edəcəksən?", "«İnsanların sizinlə necə rəftar etməsini istəyirsinizsə, siz də onlarla elə rəftar edin» (12-ci ayə). Bu gün kimə yaxşılıq edə bilərsən?"]
-},
-"8": {
-  "basliq": "Küləklər də itaət edir",
-  "giris": "İsa cüzamlını pak edir, yüzbaşının xidmətçisini sağaldır və tufanı susdurur. Hamı soruşur: «Bu necə bir Adamdır?»",
-  "bax": ["Yüzbaşının imanı niyə böyükdür?", "Tufan zamanı İsa nə edir?", "Şagirdlər nə soruşur?"],
-  "ayə": 26,
-  "test": [
-    ["Yüzbaşı İsaya nə dedi?", ["«Evimə gəl»", "«Ancaq bir söz söylə, xidmətçim sağalacaq»", "«Məni də sağalt»"], 1],
-    ["Tufan qopanda İsa nə edirdi?", ["Avar çəkirdi", "Yatırdı", "Balıq tuturdu"], 1],
-    ["Cinlər hara göndərilməyi istədi?", ["Donuz sürüsünə", "Səhraya", "Dənizin dibinə"], 0]
-  ],
-  "fikir": ["Sənin həyatında «tufan» kimi bir problem varmı? İsaya nə demək istəyirsən?", "Yüzbaşı «Ancaq bir söz söylə» dedi. Sən İsanın sözünə nə qədər güvənirsən?"]
-},
-"9": {
-  "basliq": "«Ardımca gəl», Matta",
-  "giris": "İsa iflici sağaldır, vergiyığan Mattanı çağırır, ölmüş qızı diriltir və korların gözlərini açır. Bu Müjdəni yazan da həmin Mattadır.",
-  "bax": ["İsa Mattanı harada görür?", "Qadın İsanın nəyinə toxunur?", "İsa izdihamı görəndə nə hiss edir?"],
-  "ayə": 13,
-  "test": [
-    ["Matta nə iş görürdü?", ["Balıqçı idi", "Vergiyığan idi", "Həkim idi"], 1],
-    ["İsa niyə günahkarlarla birgə yemək yeyirdi?", ["Çünki xəstələrin həkimə ehtiyacı var", "Çünki ac idi", "Çünki fariseylər Onu dəvət etmişdi"], 0],
-    ["İki kor adam İsaya necə müraciət etdi?", ["«Ey Davud Oğlu!»", "«Ey Müəllim!»", "«Ey Peyğəmbər!»"], 0]
-  ],
-  "fikir": ["İsa başqalarının sevmədiyi Mattanı çağırdı. Səndən uzaq duran bir yaşıdına necə yaxınlaşa bilərsən?", "«Məhsul çoxdur, işçilərsə azdır.» Ətrafında Allahı tanımalı olan kim var? Onun üçün dua yaz."]
-},
-"10": {
-  "basliq": "On İki həvari yola çıxır",
-  "giris": "İsa on iki şagirdini seçib xidmətə göndərir. Çətinliklər olacaq, amma İsa deyir: «Qorxmayın, siz sərçələrdən daha dəyərlisiniz».",
-  "bax": ["On iki həvarinin adlarını say.", "İsa onlara yola nə götürməməyi deyir?", "İsa sərçələr haqqında nə deyir?"],
-  "ayə": 31,
-  "test": [
-    ["İsa şagirdlərini necə göndərdi?", ["Qurdlar arasına quzular kimi", "Aslanlar kimi", "Padşahlar kimi"], 0],
-    ["Atanızın izni olmadan nə yerə düşməz?", ["Sərçə", "Yarpaq", "Ulduz"], 0],
-    ["İsaya xəyanət edən şagird kimdir?", ["Tomas", "Yəhuda İskaryot", "Filip"], 1]
-  ],
-  "fikir": ["«Siz saysız-hesabsız sərçədən daha dəyərlisiniz.» Allahın gözündə dəyərli olduğunu bilmək sənə nə deyir?", "İsa həvarilərini göndərdi. Sən İsa haqqında kimə danışa bilərsən?"]
-}
-},
-"lugat": [
-  {"s":["isa"],"b":"İsa Məsih","n":"Şəxs","m":"Allahın Oğlu, dünyaya Xilaskar kimi gəldi.","bil":"«İsa» adı «Rəbb xilas edir» mənasını verir (Matta 1:21)."},
-  {"s":["məsih"],"b":"Məsih","n":"Söz","m":"Allahın göndərəcəyini vəd etdiyi Xilaskar Padşah. Mənası «məsh olunmuş» deməkdir.","bil":"Yunanca «Xristos» da eyni mənanı verir."},
-  {"s":["davud"],"b":"Davud","n":"Şəxs","m":"İsrailin ən məşhur padşahı. Allah ona nəslindən əbədi Padşah çıxacağını vəd etmişdi.","bil":"İsaya «Davud Oğlu» deyilməsi Onun həmin vəd edilmiş Padşah olduğunu göstərir."},
-  {"s":["ibrahim"],"b":"İbrahim","n":"Şəxs","m":"İsrail xalqının atası. Allah ona: «Sənin vasitənlə yer üzünün bütün xalqları xeyir-dua alacaq» demişdi.","bil":""},
-  {"s":["yaqub"],"b":"Yaqub","n":"Şəxs","m":"1) İbrahimin nəvəsi, İsrailin on iki qəbiləsinin atası. 2) İsanın həvarilərindən ikisinin adı da Yaqubdur (4:21, 10:2-3).","bil":""},
-  {"s":["şəcərə"],"b":"Nəsil şəcərəsi","n":"Söz","m":"Ailə ağacı: kimin kimdən törədiyini göstərən siyahı.","bil":"Mattanın siyahısında beş qadının adı var: Tamar, Raxav, Rut, Uriyanın arvadı və Məryəm."},
-  {"s":["babil"],"b":"Babil sürgünü","n":"Hadisə","m":"İsrail xalqının vətənindən zorla Babilə aparılması (təxminən İsadan 600 il əvvəl).","bil":""},
-  {"s":["bakirə"],"b":"Bakirə","n":"Söz","m":"Ərə getməmiş gənc qız.","bil":"Məryəm Müqəddəs Ruhun qüdrəti ilə hamilə oldu (1:18)."},
-  {"s":["immanuel"],"b":"İmmanuel","n":"Ad","m":"«Allah bizimlədir» deməkdir.","bil":"Mattanın Müjdəsi bu vədlə başlayır və İsanın hər gün bizimlə olacağı vədi ilə bitir (28:20)."},
-  {"s":["saleh"],"b":"Saleh","n":"Söz","m":"Allahın gözündə doğru və ədalətli yaşayan. «Salehlik» Allahın istədiyi doğru həyatdır.","bil":""},
-  {"s":["ruh"],"b":"Ruh","n":"Söz","m":"1) Müqəddəs Ruh: Allahın Ruhu. 2) «Natəmiz ruhlar»: cinlər. «Ruhən yoxsul» isə Allaha ehtiyacı olduğunu bilən insandır.","bil":""},
-  {"s":["mələ"],"b":"Mələk","n":"Söz","m":"Allahın xəbərçisi, Onun göndərdiyi göy varlığı.","bil":""},
-  {"s":["röya"],"b":"Röya","n":"Söz","m":"Yuxuda görülən görüntü. Allah bəzən insanlarla röya vasitəsilə danışırdı.","bil":"1-ci və 2-ci fəsillərdə Allah Yusifə dörd dəfə röyada yol göstərir."},
-  {"s":["peyğəmbər"],"b":"Peyğəmbər","n":"Şəxs","m":"Allahın sözünü insanlara çatdıran şəxs.","bil":"Matta tez-tez «peyğəmbər vasitəsilə söylənən söz yerinə yetdi» deyir. O göstərmək istəyir ki, İsa vəd edilən Məsihdir."},
-  {"s":["yusif"],"b":"Yusif","n":"Şəxs","m":"Məryəmin əri, dülgər. Allahın sözünə dərhal itaət etdi.","bil":"Yusif Müjdədə heç bir söz demir, sadəcə «qalxır» və itaət edir."},
-  {"s":["məryəm"],"b":"Məryəm","n":"Şəxs","m":"İsanın anası.","bil":""},
-  {"s":["hirod"],"b":"Hirod","n":"Şəxs","m":"Böyük Hirod. Romalıların təyin etdiyi Yəhudeya padşahı. Taxtını itirməkdən çox qorxurdu.","bil":"O, «Yəhudilərin Padşahı» sözünü eşidəndə özünə rəqib gördü."},
-  {"s":["bet-lexem"],"b":"Bet-Lexem","n":"Yer","m":"Yerusəlimin cənubunda, təxminən 8 km uzaqlıqda kiçik şəhər. Padşah Davud da burada doğulmuşdu.","bil":"«Bet-Lexem» adı «çörək evi» deməkdir."},
-  {"s":["yəhudeya"],"b":"Yəhudeya","n":"Yer","m":"İsrail torpağının cənub bölgəsi. Yerusəlim və Bet-Lexem burada yerləşir.","bil":""},
-  {"s":["yəhuda"],"b":"Yəhuda","n":"Şəxs / Yer","m":"1) Yaqubun oğlu, onun nəslindən gələn qəbilə və bu qəbilənin torpağı. 2) 10-cu fəsildə: İsaya xəyanət edən şagird Yəhuda İskaryot.","bil":"Padşah Davud və İsa Yəhuda qəbiləsindəndir."},
-  {"s":["yəhudi"],"b":"Yəhudi","n":"Xalq","m":"İsrail xalqından olan insan.","bil":""},
-  {"s":["yerusəlim"],"b":"Yerusəlim","n":"Yer","m":"Yəhudilərin paytaxtı. Allahın məbədi bu şəhərdə idi.","bil":""},
-  {"s":["israil"],"b":"İsrail","n":"Yer / Xalq","m":"Allahın seçdiyi xalq və onun torpağı.","bil":"«İsrail» adı əvvəlcə Yaquba verilmişdi."},
-  {"s":["müdrik"],"b":"Müdrik","n":"Söz","m":"Ağıllı, bilikli. 2-ci fəsildə: şərqdən gələn, ulduzları öyrənən alimlər.","bil":"Müjdə onların neçə nəfər olduğunu demir. «Üç» sayı üç hədiyyədən gəlir."},
-  {"s":["səcdə"],"b":"Səcdə qılmaq","n":"Söz","m":"Yerə əyilib birinə ən böyük hörmət və ibadət göstərmək.","bil":"4-cü fəsildə İsa deyir: yalnız Allaha səcdə et (4:10)."},
-  {"s":["kahin"],"b":"Kahin","n":"Şəxs","m":"Məbəddə Allaha qurban təqdim edən və xalq üçün dua edən xidmətçi.","bil":""},
-  {"s":["ilahiyyatçı"],"b":"İlahiyyatçı","n":"Şəxs","m":"Müqəddəs Kitabı, xüsusilə Musanın Qanununu öyrənən və xalqa öyrədən alim.","bil":""},
-  {"s":["qızıl"],"b":"Qızıl","n":"Söz","m":"Ən qiymətli metal. Padşaha layiq hədiyyə.","bil":""},
-  {"s":["kündür"],"b":"Kündür","n":"Söz","m":"Ətirli ağac qatranı. Yandırılanda xoş qoxu verir və Allaha ibadətdə istifadə olunurdu.","bil":""},
-  {"s":["mirra"],"b":"Mirra","n":"Söz","m":"Qiymətli, acı ətirli qatran. Dərman kimi və ölüləri dəfn edərkən istifadə olunurdu.","bil":"Bu hədiyyə İsanın əzab çəkib öləcəyinə işarə kimi başa düşülür."},
-  {"s":["misir"],"b":"Misir","n":"Yer","m":"İsraildən cənub-qərbdə böyük ölkə. Hirodun hakimiyyəti oraya çatmırdı.","bil":""},
-  {"s":["yeremya"],"b":"Yeremya","n":"Şəxs","m":"İsadan təxminən 600 il əvvəl yaşamış peyğəmbər.","bil":""},
-  {"s":["rəhilə"],"b":"Rəhilə","n":"Şəxs","m":"Yaqubun sevimli arvadı, İsrail xalqının analarından biri.","bil":"Burada o, övladları üçün ağlayan bütün anaların rəmzidir."},
-  {"s":["qalileya"],"b":"Qalileya","n":"Yer","m":"İsrailin şimal bölgəsi. İsa xidmətinin çoxunu burada etdi.","bil":""},
-  {"s":["nazaret"],"b":"Nazaret","n":"Yer","m":"Qalileyada kiçik, sadə bir şəhər. İsa burada böyüdü.","bil":""},
-  {"s":["arxela"],"b":"Arxela","n":"Şəxs","m":"Hirodun oğlu. Atası kimi qəddar hökmdar idi.","bil":""},
-  {"s":["çoban"],"b":"Çoban","n":"Söz","m":"Qoyunları otaran və qoruyan adam.","bil":"Müqəddəs Kitabda xalqını qoruyan rəhbərin rəmzidir (9:36)."},
-  {"s":["təlaş"],"b":"Təlaş","n":"Söz","m":"Narahatlıq, həyəcan, qorxu.","bil":""},
-  {"s":["xəzinə"],"b":"Xəzinə","n":"Söz","m":"Qiymətli əşyalar və onların saxlandığı yer.","bil":""},
-  {"s":["hiddət"],"b":"Hiddətlənmək","n":"Söz","m":"Çox böyük qəzəblənmək.","bil":""},
-  {"s":["ulduz"],"b":"Ulduz","n":"Söz","m":"2-ci fəsildə: müdrik adamlara yol göstərən xüsusi ulduz.","bil":""},
-  {"s":["vəftiz"],"b":"Vəftiz","n":"Söz","m":"Suya batırılmaq. Günahlardan dönüb təmiz həyata başlamağın işarəsi.","bil":""},
-  {"s":["tövbə"],"b":"Tövbə","n":"Söz","m":"Günaha peşman olub ondan dönmək və Allaha tərəf qayıtmaq.","bil":"Tövbə yalnız hiss deyil, yolu dəyişməkdir."},
-  {"s":["səmavi"],"b":"Səmavi Padşahlıq","n":"Söz","m":"Allahın hökm sürməsi: Allahın Padşah olduğu və Onun iradəsinin yerinə yetdiyi yer.","bil":"Matta «Allahın Padşahlığı» yerinə çox vaxt «Səmavi Padşahlıq» deyir."},
-  {"s":["vəz"],"b":"Vəz etmək","n":"Söz","m":"Allahın sözünü xalqa elan etmək, təbliğ etmək.","bil":""},
-  {"s":["yəhya"],"b":"Yəhya","n":"Şəxs","m":"1) Vəftizçi Yəhya: İsadan əvvəl gəlib xalqı tövbəyə çağıran peyğəmbər. 2) Zavday oğlu Yəhya: İsanın həvarisi.","bil":""},
-  {"s":["yeşaya"],"b":"Yeşaya","n":"Şəxs","m":"İsadan təxminən 700 il əvvəl yaşamış böyük peyğəmbər.","bil":""},
-  {"s":["iordan"],"b":"İordan çayı","n":"Yer","m":"İsrailin ən böyük çayı. Qalileya gölündən Ölü dənizə axır.","bil":""},
-  {"s":["farisey"],"b":"Fariseylər","n":"Qrup","m":"Qanunun hər qaydasına ciddi əməl etməyə çalışan dini qrup.","bil":"İsa onları ürəkdən çox görünüşə fikir verdikləri üçün tənqid edirdi."},
-  {"s":["sadukey"],"b":"Sadukeylər","n":"Qrup","m":"Başçı kahinlərin çoxunun aid olduğu varlı dini qrup. Ölülərin dirilməsinə inanmırdılar.","bil":""},
-  {"s":["gürzə"],"b":"Gürzə","n":"Söz","m":"Zəhərli ilan.","bil":""},
-  {"s":["bəhrə"],"b":"Bəhrə","n":"Söz","m":"Meyvə. Burada: insanın əməlləri, həyatının nəticəsi.","bil":""},
-  {"s":["çəyirtkə"],"b":"Çəyirtkə","n":"Söz","m":"Tullanan böcək. O bölgədə yoxsul adamlar onu yeyirdi.","bil":""},
-  {"s":["xırman"],"b":"Xırman","n":"Söz","m":"Taxılı küləşdən ayırmaq üçün döyülən yer.","bil":""},
-  {"s":["küləş"],"b":"Küləş","n":"Söz","m":"Taxıl ayrıldıqdan sonra qalan quru saman.","bil":""},
-  {"s":["göyərçin"],"b":"Göyərçin","n":"Söz","m":"Ağ quş. Müqəddəs Kitabda sülh və saflıq rəmzidir.","bil":""},
-  {"s":["çarıq"],"b":"Çarıq","n":"Söz","m":"Sadə dəri ayaqqabı.","bil":"Ağanın çarığını daşımaq ən aşağı qulun işi idi."},
-  {"s":["iblis"],"b":"İblis","n":"Şəxs","m":"Allaha və insanlara düşmən olan pis ruh, Şeytan.","bil":""},
-  {"s":["şeytan"],"b":"Şeytan","n":"Şəxs","m":"İblisin başqa adı. Mənası «düşmən, qarşı duran» deməkdir.","bil":""},
-  {"s":["sına"],"b":"Sınaq","n":"Söz","m":"İnsanı günaha çəkmək cəhdi və ya imanının yoxlanması.","bil":""},
-  {"s":["oruc"],"b":"Oruc","n":"Söz","m":"Dua etmək üçün müəyyən vaxt yeməkdən imtina etmək.","bil":""},
-  {"s":["məbəd"],"b":"Məbəd","n":"Yer","m":"Yerusəlimdə Allaha ibadət edilən böyük bina.","bil":""},
-  {"s":["şagird"],"b":"Şagird","n":"Söz","m":"Müəllimin ardınca gedib ondan öyrənən adam.","bil":""},
-  {"s":["sinaqoq"],"b":"Sinaqoq","n":"Yer","m":"Yəhudilərin toplaşıb dua etdikləri və Müqəddəs Yazıları oxuduqları bina.","bil":""},
-  {"s":["müjdə"],"b":"Müjdə","n":"Söz","m":"Sevincli xəbər: Allahın İsa Məsih vasitəsilə insanları xilas etməsi.","bil":""},
-  {"s":["kefernahum"],"b":"Kefernahum","n":"Yer","m":"Qalileya gölünün sahilində şəhər. İsa burada yaşayırdı.","bil":""},
-  {"s":["peter"],"b":"Peter","n":"Şəxs","m":"Balıqçı Şimon. İsa ona «Peter» (qaya) adını verdi.","bil":""},
-  {"s":["şimon"],"b":"Şimon","n":"Şəxs","m":"1) Peter adlanan Şimon. 2) Kənançı Şimon: başqa bir həvari.","bil":""},
-  {"s":["şəfa"],"b":"Şəfa","n":"Söz","m":"Sağalma, xəstəlikdən qurtulma.","bil":""},
-  {"s":["izdiham"],"b":"İzdiham","n":"Söz","m":"Çox böyük insan kütləsi.","bil":""},
-  {"x":["cin","cinə","cinlər","cinləri","cinlərin","cinlərə"],"b":"Cin","n":"Söz","m":"Natəmiz, pis ruh. İnsanlara zərər verir.","bil":"İsa cinləri bir sözlə qovurdu (8:16)."},
-  {"s":["bəxtiyar"],"b":"Bəxtiyar","n":"Söz","m":"Xoşbəxt, Allahın xeyir-duası altında olan.","bil":""},
-  {"s":["həlim"],"b":"Həlim","n":"Söz","m":"Yumşaq, təvazökar, qəzəbini idarə edən.","bil":""},
-  {"s":["mərhəmət"],"b":"Mərhəmət","n":"Söz","m":"Başqasına rəhm etmək, ona yazığı gəlib kömək etmək.","bil":""},
-  {"s":["sülhyaradan"],"b":"Sülhyaradan","n":"Söz","m":"Küsülüləri barışdıran, sülh gətirən insan.","bil":""},
-  {"s":["duz"],"b":"Duz","n":"Söz","m":"Yeməyə dad verən və onu xarab olmaqdan qoruyan maddə.","bil":"«Yer üzünün duzu» olmaq dünyaya yaxşı dad vermək deməkdir."},
-  {"s":["nur"],"b":"Nur","n":"Söz","m":"İşıq.","bil":""},
-  {"s":["çıraq","çırağ"],"b":"Çıraq","n":"Söz","m":"Yağla yanan kiçik lampa. «Çıraqdan» onun qoyulduğu yerdir.","bil":""},
-  {"s":["qanun"],"b":"Qanun","n":"Söz","m":"Allahın Musa vasitəsilə verdiyi əmrlər. «Qanun və Peyğəmbərlər» bütün Əhdi-Ətiq deməkdir.","bil":""},
-  {"s":["şura"],"b":"Ali Şura","n":"Qrup","m":"Yəhudilərin ən yüksək məhkəməsi.","bil":""},
-  {"s":["cəhənnəm"],"b":"Cəhənnəm","n":"Söz","m":"Allahdan ayrı, əbədi cəza yeri.","bil":""},
-  {"s":["qurbangah"],"b":"Qurbangah","n":"Söz","m":"Allaha qurban təqdim edilən yer.","bil":""},
-  {"s":["vergiyığan"],"b":"Vergiyığan","n":"Şəxs","m":"Romalılar üçün vergi toplayan yəhudi. Xalq onları satqın və oğru sayırdı.","bil":"Matta da əvvəl vergiyığan idi (9:9)."},
-  {"s":["bütpərəst"],"b":"Bütpərəst","n":"Söz","m":"Əl ilə düzəldilmiş bütlərə ibadət edən insan; həqiqi Allahı tanımayan.","bil":""},
-  {"s":["kamil"],"b":"Kamil","n":"Söz","m":"Tam, qüsursuz, mükəmməl.","bil":""},
-  {"s":["zina"],"b":"Zina","n":"Söz","m":"Evli insanın başqası ilə yaxınlıq edərək nikaha xəyanət etməsi.","bil":""},
-  {"s":["sədəqə"],"b":"Sədəqə","n":"Söz","m":"Yoxsullara verilən kömək, pul və ya yemək.","bil":""},
-  {"s":["ikiüzlü"],"b":"İkiüzlü","n":"Söz","m":"Göründüyü kimi olmayan, yalandan özünü yaxşı göstərən insan.","bil":""},
-  {"s":["amin"],"b":"Amin","n":"Söz","m":"«Belə olsun!» Duanın sonunda deyilir.","bil":""},
-  {"s":["güvə"],"b":"Güvə","n":"Söz","m":"Paltarı yeyib dəlik açan kiçik həşərat.","bil":""},
-  {"s":["zanbaq"],"b":"Zanbaq","n":"Söz","m":"Gözəl çöl çiçəyi.","bil":""},
-  {"s":["süleyman"],"b":"Süleyman","n":"Şəxs","m":"Davudun oğlu, çox varlı və müdrik padşah.","bil":""},
-  {"s":["iman"],"b":"İman","n":"Söz","m":"Allaha inanmaq və Ona güvənmək.","bil":"«İmanı az olanlar» İsanın qorxan şagirdlərinə dediyi sözdür."},
-  {"s":["mühakimə"],"b":"Mühakimə etmək","n":"Söz","m":"Başqasını günahlandırıb hökm çıxarmaq.","bil":""},
-  {"x":["tir","tiri"],"b":"Tir","n":"Söz","m":"Damı saxlayan böyük, uzun taxta.","bil":"İsa zarafatla deyir: gözündə taxta var, amma başqasının gözündə çöp axtarırsan!"},
-  {"s":["çöp"],"b":"Çöp","n":"Söz","m":"Çox kiçik taxta parçası.","bil":""},
-  {"s":["mirvari"],"b":"Mirvari","n":"Söz","m":"Dənizdə tapılan qiymətli ağ daş.","bil":""},
-  {"s":["qaratikan"],"b":"Qaratikan","n":"Söz","m":"Tikanlı kol.","bil":""},
-  {"s":["qanqal"],"b":"Qanqal","n":"Söz","m":"Tikanlı alaq otu.","bil":""},
-  {"s":["quzu"],"b":"Quzu","n":"Söz","m":"Balaca qoyun.","bil":""},
-  {"s":["cüzam"],"b":"Cüzam","n":"Söz","m":"Dərini və bədəni məhv edən ağır xəstəlik. Cüzamlılar şəhərdən kənarda yaşamalı idilər.","bil":"İsa cüzamlıya toxundu. O zaman heç kim belə etmirdi."},
-  {"s":["pak"],"b":"Pak","n":"Söz","m":"Təmiz.","bil":""},
-  {"s":["yüzbaşı"],"b":"Yüzbaşı","n":"Şəxs","m":"Yüz əsgərə rəhbərlik edən Roma zabiti. O, yəhudi deyildi.","bil":""},
-  {"s":["iflic"],"b":"İflic","n":"Söz","m":"Əl-ayağını hərəkət etdirə bilməyən xəstə.","bil":""},
-  {"s":["bəşər"],"b":"Bəşər Oğlu","n":"Ad","m":"İsanın Özü üçün işlətdiyi ad. Daniel peyğəmbərin kitabında göydən gələn hökmdar belə adlanır.","bil":""},
-  {"s":["tufan"],"b":"Tufan","n":"Söz","m":"Çox güclü külək və fırtına.","bil":""},
-  {"s":["qadaralı"],"b":"Qadaralılar","n":"Yer","m":"Qalileya gölünün şərq sahilində yaşayan xalq.","bil":""},
-  {"s":["küfr"],"b":"Küfr","n":"Söz","m":"Allaha qarşı hörmətsiz söz. İlahiyyatçılar düşünürdü ki, yalnız Allah günahı bağışlaya bilər.","bil":""},
-  {"x":["matta","mattanı","mattanın"],"b":"Matta","n":"Şəxs","m":"Vergiyığan idi. İsa onu çağırdı və o, İsanın həvarisi oldu.","bil":"Bu Müjdəni yazan da Mattadır."},
-  {"s":["tuluq"],"b":"Tuluq","n":"Söz","m":"Dəridən tikilmiş qab. İçində şərab saxlanırdı.","bil":""},
-  {"s":["sağdış"],"b":"Sağdış və soldış","n":"Söz","m":"Toyda bəyin yanında duran dostları.","bil":""},
-  {"s":["rəis"],"b":"Rəis","n":"Şəxs","m":"Sinaqoqun başçısı.","bil":""},
-  {"s":["tütək"],"b":"Tütək","n":"Söz","m":"Nəfəslə çalınan musiqi aləti. Yas mərasimlərində çalınırdı.","bil":""},
-  {"s":["həvari"],"b":"Həvari","n":"Şəxs","m":"İsanın seçib göndərdiyi on iki şagird. Sözün mənası «göndərilən» deməkdir.","bil":""},
-  {"s":["sərçə"],"b":"Sərçə","n":"Söz","m":"Kiçik, ucuz quş.","bil":""},
-  {"s":["çarmıx"],"b":"Çarmıx","n":"Söz","m":"Romalıların insanları edam etdikləri taxta xaç.","bil":"«Çarmıxını götürmək» İsa üçün hər şeydən keçməyə hazır olmaq deməkdir."},
-  {"s":["əsa"],"b":"Əsa","n":"Söz","m":"Yol gedərkən əldə tutulan ağac, çəlik.","bil":""},
-  {"s":["qiyamət"],"b":"Qiyamət günü","n":"Söz","m":"Allahın bütün insanları mühakimə edəcəyi son gün.","bil":""},
-  {"s":["sodom"],"b":"Sodom və Homorra","n":"Yer","m":"Çox pis əməllərinə görə Allahın məhv etdiyi iki şəhər.","bil":""},
-  {"s":["samariya"],"b":"Samariyalılar","n":"Xalq","m":"Yəhudilərlə düşmən olan qonşu xalq.","bil":""},
-  {"s":["baal-zevul"],"b":"Baal-Zevul","n":"Ad","m":"Cinlərin başçısının adı, yəni Şeytan.","bil":""}
-]
+  "bil": "Matta Əhdi-Ətiqdən çox sitat gətirir və tez-tez «peyğəmbər vasitəsilə söylənən söz yerinə yetdi» deyir.",
+  "hisseler": [
+   [
+    1,
+    4,
+    "Padşah gəlir"
+   ],
+   [
+    5,
+    7,
+    "Dağüstü vəz"
+   ],
+   [
+    8,
+    10,
+    "Möcüzələr və həvarilər"
+   ],
+   [
+    11,
+    13,
+    "Kim qəbul edir, kim rədd edir"
+   ],
+   [
+    14,
+    18,
+    "Şagirdlərin hazırlanması"
+   ],
+   [
+    19,
+    25,
+    "Yerusəlimə doğru"
+   ],
+   [
+    26,
+    28,
+    "Çarmıx və diriliş"
+   ]
+  ]
+ }
 }

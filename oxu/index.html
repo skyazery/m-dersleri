@@ -54,6 +54,20 @@ button:focus-visible,a:focus-visible,textarea:focus-visible,.w:focus-visible{out
 .pill.ghost{background:var(--paper);color:var(--ink);border:1px solid var(--line)}
 .bar .note{flex-basis:100%;font-size:13px}
 
+/* 책 소개 */
+.book{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:18px 20px;display:grid;gap:14px}
+.facts{margin:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 18px}
+.facts div{display:grid;gap:2px;min-width:0;align-content:start}
+.facts dt{font-size:13px;font-weight:800;color:var(--teal)}
+.facts dd{margin:0;font-size:15px;line-height:1.55}
+@media (max-width:480px){.facts{grid-template-columns:1fr}}
+.parts{display:flex;gap:3px}
+.part{flex-grow:1;flex-basis:0;height:8px;border-radius:4px;background:var(--line)}
+.part.on{background:var(--gold)}
+.part-now{font-size:14px;color:var(--soft);margin-top:-6px}
+.part-now b{color:var(--ink)}
+.book-bil{font-size:14px;color:var(--soft);border-top:1px solid var(--line);padding-top:10px}
+
 /* 본문 */
 .intro{display:grid;gap:10px}
 .look{display:flex;flex-wrap:wrap;gap:8px}
@@ -144,6 +158,14 @@ textarea{min-height:120px;resize:vertical}
       <p class="note">Səs Müqəddəs Kitab Tərcüməsi İnstitutunun (IBT) saytında açılır. Dinləyə-dinləyə buradan oxu.</p>
     </div>
 
+    <section class="book" id="book" aria-labelledby="bookH" hidden>
+      <span class="label" id="bookH"></span>
+      <dl class="facts" id="facts"></dl>
+      <div class="parts" id="parts" aria-label="Kitabın hissələri"></div>
+      <p class="part-now" id="partNow"></p>
+      <p class="book-bil" id="bookBil"></p>
+    </section>
+
     <section class="intro" aria-labelledby="introH">
       <span class="label" id="introH">Oxumazdan əvvəl</span>
       <p id="giris"></p>
@@ -215,7 +237,7 @@ textarea{min-height:120px;resize:vertical}
     const metn = await Promise.all((AYAR.METN || []).map(u => fetch(u).then(r => r.json())));
     const oyr = await Promise.all((AYAR.OYRENME || []).map(u => fetch(u).then(r => r.json())));
     metn.forEach(m => { Object.assign(METN, m.fesiller); menbe = m.menbe; });
-    oyr.forEach(o => { Object.assign(OYR.fesiller, o.fesiller); OYR.lugat.push(...o.lugat); ["kitab", "kitabAd", "ibt", "cemi", "umumiFikir"].forEach(k => { if (o[k] != null) OYR[k] = o[k]; }); });
+    oyr.forEach(o => { Object.assign(OYR.fesiller, o.fesiller); OYR.lugat.push(...o.lugat); ["kitab", "kitabAd", "ibt", "cemi", "umumiFikir", "melumat"].forEach(k => { if (o[k] != null) OYR[k] = o[k]; }); });
   } catch (e) { return fail("Məlumat yüklənmədi. İnterneti yoxla və səhifəni yenilə."); }
   const AVAIL = Object.keys(METN).map(Number).sort((a, b) => a - b);
   const MAXCH = AVAIL[AVAIL.length - 1] || 1;
@@ -272,6 +294,24 @@ textarea{min-height:120px;resize:vertical}
     $("sub").textContent = OYR.kitab + " " + c + "-ci fəsil · " + verses.length + " ayə";
     document.title = OYR.kitab + " " + c + " · Gündəlik Oxu";
     $("listen").href = "https://ibtrussia.org/Azeri/Bible/study?audio=AZE&verse=" + (OYR.ibt || "Matt") + "." + c;
+    // 책 소개
+    const M = OYR.melumat;
+    $("book").hidden = !M;
+    if (M) {
+      $("bookH").textContent = M.basliq;
+      $("facts").innerHTML = "";
+      M.satirlar.forEach(([k, v]) => { const d = document.createElement("div"), dt = document.createElement("dt"), dd = document.createElement("dd"); dt.textContent = k; dd.textContent = v; d.append(dt, dd); $("facts").appendChild(d); });
+      $("parts").innerHTML = "";
+      let cur = null;
+      (M.hisseler || []).forEach(([a, b, ad]) => {
+        const s = document.createElement("span"); s.className = "part" + (c >= a && c <= b ? " on" : ""); s.style.flexGrow = b - a + 1; s.title = a + "–" + b + ": " + ad;
+        if (c >= a && c <= b) cur = [a, b, ad];
+        $("parts").appendChild(s);
+      });
+      $("partNow").innerHTML = "";
+      if (cur) { $("partNow").append("Bu fəsil: "); const bb = document.createElement("b"); bb.textContent = cur[2]; $("partNow").append(bb, " (" + cur[0] + "–" + cur[1] + "-ci fəsillər)"); }
+      $("bookBil").textContent = M.bil || ""; $("bookBil").hidden = !M.bil;
+    }
     $("giris").textContent = f.giris || "";
     $("look").innerHTML = "";
     (f.bax || []).forEach((t, i) => { const s = document.createElement("span"); s.innerHTML = "<b>" + (i + 1) + "</b>"; s.appendChild(document.createTextNode(t)); $("look").appendChild(s); });
