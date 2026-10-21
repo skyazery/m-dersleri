@@ -170,12 +170,8 @@ textarea{min-height:120px;resize:vertical}
 
     <section class="card" aria-labelledby="refl">
       <h2 id="refl">Sənin fikrin</h2>
-      <p class="note">Bir sual seç və cavabını yaz. Yazdıqların müəlliminə gedəcək.</p>
-      <div class="chips" id="chips" role="group" aria-label="Düşünmək üçün suallar"></div>
-      <div class="field">
-        <label for="thought" id="promptLabel"></label>
-        <textarea id="thought" placeholder="Fikrini bura yaz…"></textarea>
-      </div>
+      <p class="note">Suallara cavab yaz. Ən azı birinə cavab ver, hamısına yazsan daha yaxşı! Yazdıqların müəlliminə gedəcək.</p>
+      <div id="fikirler" style="display:grid;gap:16px"></div>
       <div class="field">
         <label for="question">Sualın varmı? (istəyə görə)</label>
         <input type="text" id="question" placeholder="Məsələn: «Tövbə» nə deməkdir?">
@@ -246,7 +242,7 @@ textarea{min-height:120px;resize:vertical}
   PREF.sort((a, b) => b[0].length - a[0].length);
   const lookup = w => { const l = low(w); if (EXACT[l]) return EXACT[l]; const p = PREF.find(([k]) => l.startsWith(k)); return p ? p[1] : null; };
 
-  let view = 1, answers = {}, promptIdx = 0, sending = false;
+  let view = 1, answers = {}, sending = false;
   const nextCh = () => Math.min(son + 1, MAXCH);
   const isOpen = c => METN[c] && c <= son + 1;
 
@@ -265,7 +261,7 @@ textarea{min-height:120px;resize:vertical}
   }
 
   function show(c) {
-    view = c; answers = {}; promptIdx = 0;
+    view = c; answers = {};
     const f = OYR.fesiller[c] || {}, verses = METN[c];
     $("who").innerHTML = "";
     const who = document.createElement("span");
@@ -332,21 +328,20 @@ textarea{min-height:120px;resize:vertical}
     });
     updateScore();
 
-    // 묵상
+    // 묵상: 질문마다 답 칸
     const prompts = [...(f.fikir || []), OYR.umumiFikir].filter(Boolean);
-    const chips = $("chips"); chips.innerHTML = "";
-    const short = ["1-ci sual", "2-ci sual", "Təsir edən ayə"];
-    prompts.forEach((t, i) => {
-      const b = document.createElement("button"); b.type = "button"; b.className = "chip";
-      b.textContent = i === prompts.length - 1 ? "Təsir edən ayə" : short[i];
-      b.setAttribute("aria-pressed", i === 0 ? "true" : "false");
-      b.addEventListener("click", () => { promptIdx = i; [...chips.children].forEach((x, j) => x.setAttribute("aria-pressed", j === i ? "true" : "false")); $("promptLabel").textContent = prompts[i]; });
-      chips.appendChild(b);
-    });
-    $("promptLabel").textContent = prompts[0] || "";
     show.prompts = prompts;
-    const draft = store.get("oxu-draft-" + (KEY || "demo") + "-" + c, { t: "", q: "" });
-    $("thought").value = draft.t; $("question").value = draft.q;
+    const draft = store.get("oxu-draft-" + (KEY || "demo") + "-" + c, { a: [], q: "" });
+    const box = $("fikirler"); box.innerHTML = "";
+    prompts.forEach((t, i) => {
+      const fd = document.createElement("div"); fd.className = "field";
+      const lb = document.createElement("label"); lb.htmlFor = "fikir" + i; lb.textContent = (i + 1) + ". " + t;
+      const ta = document.createElement("textarea"); ta.id = "fikir" + i; ta.className = "fikir"; ta.placeholder = "Cavabını bura yaz…";
+      ta.value = (draft.a || [])[i] || "";
+      ta.addEventListener("input", saveDraft);
+      fd.appendChild(lb); fd.appendChild(ta); box.appendChild(fd);
+    });
+    $("question").value = draft.q || "";
     $("result").hidden = true; $("next").hidden = true;
     $("send").hidden = false;
     $("send").textContent = c <= son ? "Yenidən oxudum və göndər" : "Oxudum və göndər";
@@ -361,17 +356,19 @@ textarea{min-height:120px;resize:vertical}
   function checkReady() {
     const total = (OYR.fesiller[view]?.test || []).length;
     const quizDone = Object.keys(answers).length >= total;
-    const long = $("thought").value.trim().length >= 10;
+    const long = answersText().some(a => a.length >= 10);
     const miss = [];
     if (!quizDone) miss.push("yoxlama suallarına cavab ver");
-    if (!long) miss.push("fikrini ən azı bir cümlə ilə yaz");
+    if (!long) miss.push("ən azı bir suala bir cümlə ilə cavab yaz");
     $("need").textContent = miss.length ? "Göndərmək üçün: " + miss.join(", ") + "." : "";
     $("send").disabled = !!miss.length || sending;
   }
-  ["thought", "question"].forEach(id => $(id).addEventListener("input", () => {
-    store.set("oxu-draft-" + (KEY || "demo") + "-" + view, { t: $("thought").value, q: $("question").value });
+  function answersText() { return [...document.querySelectorAll("#fikirler .fikir")].map(t => t.value.trim()); }
+  function saveDraft() {
+    store.set("oxu-draft-" + (KEY || "demo") + "-" + view, { a: answersText(), q: $("question").value });
     checkReady();
-  }));
+  }
+  $("question").addEventListener("input", saveDraft);
 
   // 사전 창
   let dictWord = "";
@@ -399,10 +396,13 @@ textarea{min-height:120px;resize:vertical}
   $("send").addEventListener("click", async () => {
     if (sending) return;
     const total = (OYR.fesiller[view]?.test || []).length, ok = Object.values(answers).filter(Boolean).length;
+    const ans = answersText();
+    const filled = ans.filter(Boolean).length;
+    const fikir = show.prompts.map((p, i) => ans[i] ? (i + 1) + ") " + p + "\n→ " + ans[i] : "").filter(Boolean).join("\n\n");
     const payload = {
       k: KEY, fesil: view, kitab: OYR.kitab, test: ok + "/" + total,
-      sual: show.prompts[promptIdx] || "", fikir: $("thought").value.trim(), soru: $("question").value.trim(),
-      tekrar: view <= son
+      sual: "Fikirlər: " + filled + "/" + show.prompts.length + " suala cavab", fikir, cavablar: ans,
+      soru: $("question").value.trim(), tekrar: view <= son
     };
     const res = $("result");
     if (DEMO) {
@@ -417,7 +417,7 @@ textarea{min-height:120px;resize:vertical}
       const j = await r.json();
       if (!j.ok) throw new Error(j.error || "xəta");
       son = Number(j.son) || son; store.set("oxu-son-" + KEY, son);
-      store.set("oxu-draft-" + KEY + "-" + view, { t: "", q: "" });
+      store.set("oxu-draft-" + KEY + "-" + view, { a: [], q: "" });
       res.className = "msg ok"; res.hidden = false;
       res.textContent = "Göndərildi! Müəllimin fikrini oxuyacaq. Afərin!";
       afterSend();
