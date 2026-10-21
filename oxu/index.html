@@ -22,7 +22,7 @@
 html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font);font-size:17px;line-height:1.7;word-break:keep-all;-webkit-font-smoothing:antialiased}
 body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
-.wrap{max-width:720px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:16px 60px;display:flex;flex-direction:column;gap:20px}
+.wrap{max-width:720px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:16px 110px;display:flex;flex-direction:column;gap:20px}
 h1,h2,h3{margin:0;font-weight:800;line-height:1.25;text-wrap:balance}
 p{margin:0}
 button{font:inherit;cursor:pointer}
@@ -115,6 +115,15 @@ textarea{min-height:120px;resize:vertical}
 
 .center{min-height:60vh;display:grid;place-items:center;text-align:center;gap:10px}
 
+
+/* 글자 크기 (화면에 고정) */
+:root{--z:1}
+#app>:not(.hero):not(.bar),.sheet .box{zoom:var(--z)}
+.fs{position:fixed;right:max(12px,env(safe-area-inset-right,0px));bottom:calc(12px + env(safe-area-inset-bottom,0px));z-index:20;display:inline-flex;align-items:center;gap:4px;background:var(--paper);border:1px solid var(--line);border-radius:999px;padding:5px;box-shadow:0 6px 20px rgba(10,16,40,.18)}
+.fs .aa{font-weight:800;font-size:15px;color:var(--soft);padding:0 6px 0 8px}
+.fs button{min-width:52px;min-height:40px;border:0;border-radius:999px;background:var(--bg);color:var(--ink);font-weight:800;font-size:14px;font-variant-numeric:tabular-nums}
+.fs button[aria-pressed="true"]{background:var(--indigo);color:var(--paper)}
+
 /* 사전 */
 .sheet{position:fixed;left:0;right:0;bottom:0;z-index:30;padding:0 max(12px,env(safe-area-inset-right,0px)) calc(12px + env(safe-area-inset-bottom,0px)) max(12px,env(safe-area-inset-left,0px));transform:translateY(115%);transition:transform .25s ease}
 .sheet.open{transform:none}
@@ -205,6 +214,8 @@ textarea{min-height:120px;resize:vertical}
     </section>
   </main>
 </div>
+
+<div class="fs" role="group" aria-label="Yazı ölçüsü"><span class="aa" aria-hidden="true">Aa</span><button type="button" data-z="1" aria-pressed="true">100%</button><button type="button" data-z="1.5" aria-pressed="false">150%</button><button type="button" data-z="2" aria-pressed="false">200%</button></div>
 
 <div class="sheet" id="sheet" role="dialog" aria-labelledby="dWord">
   <div class="box">
@@ -484,6 +495,21 @@ textarea{min-height:120px;resize:vertical}
   $("loading").hidden = true; $("app").hidden = false;
   const want = Number(params.get("f"));
   show(want && isOpen(want) ? want : nextCh());
+})();
+</script>
+<script>
+/* Yazı ölçüsü: seçim yadda qalır */
+(function () {
+  const btns = [...document.querySelectorAll(".fs button")];
+  function apply(z, save) {
+    document.documentElement.style.setProperty("--z", z);
+    btns.forEach(b => b.setAttribute("aria-pressed", b.dataset.z === String(z) ? "true" : "false"));
+    if (save) { try { localStorage.setItem("oxu-fs", String(z)); } catch (e) {} }
+  }
+  let z = "1"; try { z = localStorage.getItem("oxu-fs") || "1"; } catch (e) {}
+  if (!btns.some(b => b.dataset.z === z)) z = "1";
+  apply(z, false);
+  btns.forEach(b => b.addEventListener("click", () => apply(b.dataset.z, true)));
 })();
 </script>
 </body>
