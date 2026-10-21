@@ -36,6 +36,7 @@ button:focus-visible,a:focus-visible,textarea:focus-visible,input:focus-visible,
 /* ===== 머리: 움직이는 장면 ===== */
 .hero{border-radius:22px;overflow:hidden;background:var(--night);color:var(--night-ink)}
 .scene{position:relative;height:190px;overflow:hidden}
+.scene.art{height:auto;aspect-ratio:5/2;max-width:100%}
 .scene .e{position:absolute;line-height:1;font-family:var(--emoji);transform-origin:50% 80%;will-change:transform;filter:drop-shadow(0 3px 4px rgba(0,0,0,.18))}
 .scene::after{content:"";position:absolute;left:0;right:0;bottom:0;height:34%;border-radius:50% 50% 0 0/22px 22px 0 0;background:var(--ground)}
 .scene .e{z-index:1}
@@ -81,6 +82,48 @@ button:focus-visible,a:focus-visible,textarea:focus-visible,input:focus-visible,
 @keyframes blink{0%,40%,100%{transform:scaleY(1)}45%{transform:scaleY(.1)}50%{transform:scaleY(1)}}
 @keyframes rise{0%,100%{transform:translateY(10px)}50%{transform:translateY(-4px)}}
 @media (prefers-reduced-motion:reduce){.scene .e,.scene .rain{animation:none!important}}
+
+
+/* SVG səhnə animasiyaları */
+.scene.art::after{display:none}
+.scene svg{position:absolute;inset:0;width:100%;height:100%;display:block}
+.scene svg *{transform-box:fill-box}
+.scene .tw{animation:s-tw 2.6s ease-in-out infinite}
+.scene .tw.slow{animation-duration:4s}
+.scene .pulse{transform-origin:center;animation:s-pulse 4s ease-in-out infinite}
+.scene .sway{animation:s-sway 3.6s ease-in-out infinite}
+.scene .sway.slow{animation-duration:6s}
+.scene .bob{animation:s-bob 2.4s ease-in-out infinite}
+.scene .drift{animation:s-drift 14s ease-in-out infinite alternate}
+.scene .wave{animation:s-wave 3s linear infinite}
+.scene .wave2{animation:s-wave 4.2s linear infinite reverse}
+.scene .rain{animation:s-rain .7s linear infinite}
+.scene .flash{opacity:0;animation:s-flash 5s steps(1) infinite}
+.scene .travel{animation:s-travel 12s ease-in-out infinite alternate}
+.scene .walk{animation:s-walk 16s ease-in-out infinite alternate}
+.scene .descend{animation:s-descend 3s ease-out both,s-bob 3s ease-in-out 3s infinite}
+.scene .fly{animation:s-fly 9s ease-in-out infinite}
+.scene .flap{animation:s-flap .5s ease-in-out infinite alternate}
+.scene .flap2{animation:s-flap .7s ease-in-out infinite alternate}
+.scene .rock{animation:s-rock 2.6s ease-in-out infinite}
+.scene .spin{animation:s-spin 60s linear infinite}
+.scene .spray{animation:s-tw 1.2s ease-in-out infinite}
+@keyframes s-tw{50%{opacity:.35}}
+@keyframes s-pulse{50%{transform:scale(1.06)}}
+@keyframes s-sway{0%,100%{transform:rotate(-3deg)}50%{transform:rotate(3deg)}}
+@keyframes s-bob{50%{transform:translateY(-3px)}}
+@keyframes s-drift{to{transform:translateX(40px)}}
+@keyframes s-wave{to{transform:translateX(40px)}}
+@keyframes s-rain{to{transform:translate(-8px,22px)}}
+@keyframes s-flash{0%,86%{opacity:0}87%,89%{opacity:1}90%,92%{opacity:0}93%,95%{opacity:.9}96%{opacity:0}}
+@keyframes s-travel{to{transform:translateX(-60px)}}
+@keyframes s-walk{to{transform:translateX(70px)}}
+@keyframes s-descend{from{transform:translateY(-120px);opacity:0}to{transform:none;opacity:1}}
+@keyframes s-fly{0%{transform:translate(0,0)}50%{transform:translate(140px,-20px)}100%{transform:translate(0,0)}}
+@keyframes s-flap{to{transform:scaleY(.55)}}
+@keyframes s-rock{0%,100%{transform:rotate(-6deg)}50%{transform:rotate(6deg) translateY(-4px)}}
+@keyframes s-spin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion:reduce){.scene svg *{animation:none!important}.scene .flash{opacity:0}}
 
 .head{padding:14px 20px 16px;display:flex;flex-direction:column;gap:4px}
 .head .who{font-size:16px;color:var(--night-soft)}
@@ -208,6 +251,7 @@ textarea{min-height:96px;resize:vertical}
 @media (prefers-reduced-motion:reduce){.sheet{transition:none}.d.now,.memory .spark,.party .big,.center .big,.opt{animation:none!important}}
 </style>
 <script src="ayarlar.js"></script>
+<script src="sehne.js"></script>
 </head>
 <body>
 <div class="wrap">
@@ -367,7 +411,9 @@ textarea{min-height:96px;resize:vertical}
   }
 
   function drawScene(f) {
-    const sc = $("scene"); sc.innerHTML = ""; sc.className = "scene fon-" + ((f.sehne && f.sehne.fon) || "gece");
+    const sc = $("scene"); sc.innerHTML = "";
+    const art = window.OXU_SEHNE && OXU_SEHNE[OYR.kitab] && OXU_SEHNE[OYR.kitab][view];
+    if (art) { sc.className = "scene art"; sc.innerHTML = art(); return; } sc.className = "scene fon-" + ((f.sehne && f.sehne.fon) || "gece");
     if (f.sehne && /yagis|deniz/.test(f.sehne.fon)) sc.appendChild(el("div", "rain"));
     ((f.sehne && f.sehne.e) || []).forEach(([em, x, y, size, anim, delay]) => {
       const s = el("span", "e" + (anim && anim !== "none" ? " a-" + anim : ""), em);
