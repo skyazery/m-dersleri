@@ -471,5 +471,7 @@ Q.forEach((it,qi)=>{const d=document.createElement('div');d.className='q';d.inne
  function apply(){document.documentElement.style.setProperty('--z',steps[i]);val.textContent=Math.round(steps[i]*100)+'%';dn.disabled=i===0;up.disabled=i===steps.length-1;try{localStorage.setItem('fs-genc',i)}catch(e){}}
  dn.onclick=()=>{if(i>0){i--;apply()}};up.onclick=()=>{if(i<steps.length-1){i++;apply()}};apply();})();
 </script>
+<script>window.DERS={sinif:"genc",ders:"matta-01"};</script>
+<script src="../js/ders-izle.js" defer></script>
 </body>
 </html>
