@@ -3,7 +3,7 @@
 (function () {
   'use strict';
   // Google Apps Script veb tətbiqinin ünvanı (müəllim quraşdırandan sonra yazılır)
-  var ENDPOINT = '';
+  var ENDPOINT = 'https://script.google.com/macros/s/AKfycbzpx5LBqs88_WiBL27NbdiaM0xDYjVHWJBDA12EW1wVlyllqQCzJqW4nwD1JpMe25Q/exec';
 
   var CFG = window.DERS || {};
   if (!CFG.sinif || !CFG.ders) return;
