@@ -26,6 +26,7 @@
     var q = readQ();
     q.push({
       sinif: CFG.sinif, ders: CFG.ders, nov: nov,
+      sagird: getName(),
       netice: netice == null ? '' : String(netice).slice(0, 40),
       etrafli: etrafli == null ? '' : String(etrafli).slice(0, 1500),
       vaxt: new Date().toISOString(), cihaz: deviceId()
@@ -40,7 +41,7 @@
     var q = readQ();
     if (!q.length) return;
     var name = getName();
-    var batch = q.slice(0, 25).map(function (e) { var c = {}; for (var k in e) c[k] = e[k]; c.sagird = name; return c; });
+    var batch = q.slice(0, 25).map(function (e) { var c = {}; for (var k in e) c[k] = e[k]; if (!c.sagird) c.sagird = name; return c; });
     busy = true;
     fetch(ENDPOINT, {
       method: 'POST', mode: 'no-cors', keepalive: true,
@@ -91,7 +92,7 @@
   var K_ROSTER = 'mders-siyahi-' + CFG.sinif;
   var roster = [];
   try { roster = JSON.parse(lsGet(K_ROSTER) || '[]'); } catch (e) { roster = []; }
-  var typing = false;
+  var typing = false, switching = false;
   var onNameChange = [];
   function loadRoster() {
     if (!KIDS || !ENDPOINT || !window.fetch) return;
@@ -108,6 +109,7 @@
     if (!v) return false;
     v = v.charAt(0).toLocaleUpperCase('az') + v.slice(1);
     lsSet(K_NAME, v); typing = false;
+    if (switching) { flush(); location.reload(); return true; }
     renderName(); flush();
     onNameChange.forEach(function (f) { f(); });
     return true;
@@ -137,7 +139,7 @@
       s.querySelector('b').textContent = name;
       var ch = document.createElement('button');
       ch.className = 'dz-link'; ch.type = 'button'; ch.textContent = 'Adı dəyiş';
-      ch.onclick = function () { lsSet(K_NAME, ''); typing = false; renderName(); onNameChange.forEach(function (f) { f(); }); };
+      ch.onclick = function () { lsSet(K_NAME, ''); typing = false; switching = true; renderName(); };
       box.appendChild(s); box.appendChild(ch);
       return;
     }
@@ -177,24 +179,37 @@
   renderName();
   loadRoster();
 
-  /* ---------- davamiyyət: gündə bir dəfə ---------- */
-  var today = new Date();
-  var dkey = 'mders-gun-' + CFG.ders + '-' + today.getFullYear() + '-' + (today.getMonth() + 1) + '-' + today.getDate();
-  if (!lsGet(dkey)) { lsSet(dkey, '1'); send('open', '✓'); }
+  /* ---------- davamiyyət: hər şagird üçün gündə bir dəfə ---------- */
+  function sk(base) { return base + '|' + getName(); }
+  function markOpen() {
+    if (!getName()) return;
+    var d = new Date();
+    var key = sk('mders-gun-' + CFG.ders + '-' + d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate());
+    if (!lsGet(key)) { lsSet(key, '1'); send('open', '✓'); }
+  }
+  markOpen();
+  onNameChange.push(markOpen);
 
   /* ---------- irəliləyiş: oxunan bölmələr ---------- */
   var parts = [].slice.call(document.querySelectorAll('.scene'));
   ['verseText', 'quiz'].forEach(function (id) { var el = document.getElementById(id); if (el) parts.push(el); });
-  var seen = new Set(), pkey = 'mders-proq-' + CFG.ders, best = parseInt(lsGet(pkey) || '0', 10), ptimer = null;
+  var seen = new Set(), ptimer = null;
+  function pkey() { return sk('mders-proq-' + CFG.ders); }
+  function pbest() { return parseInt(lsGet(pkey()) || '0', 10); }
+  function checkProgress() {
+    if (!getName() || !parts.length) return;
+    var pct = Math.round(seen.size / parts.length * 100);
+    if (pct > pbest()) {
+      lsSet(pkey(), String(pct));
+      clearTimeout(ptimer);
+      ptimer = setTimeout(function () { send('progress', pct + '%'); }, pct === 100 ? 0 : 4000);
+    }
+  }
+  onNameChange.push(checkProgress);
   if ('IntersectionObserver' in window && parts.length) {
     var io = new IntersectionObserver(function (ents) {
       ents.forEach(function (en) { if (en.isIntersecting) { seen.add(en.target); io.unobserve(en.target); } });
-      var pct = Math.round(seen.size / parts.length * 100);
-      if (pct > best) {
-        best = pct; lsSet(pkey, String(pct));
-        clearTimeout(ptimer);
-        ptimer = setTimeout(function () { send('progress', best + '%'); }, pct === 100 ? 0 : 4000);
-      }
+      checkProgress();
     }, { threshold: 0.4 });
     parts.forEach(function (p) { io.observe(p); });
   }
@@ -226,15 +241,19 @@
     vrow.className = 'dz-row'; vrow.style.alignItems = 'center';
     var vb = document.createElement('button');
     vb.className = 'dz-btn'; vb.type = 'button';
-    var vkey = 'mders-ayə-' + CFG.ders;
+    function vkey() { return sk('mders-ayə-' + CFG.ders); }
     var vmsg = document.createElement('span'); vmsg.className = 'dz-ok';
     function vstate() {
-      var done = !!lsGet(vkey);
+      var done = !!getName() && !!lsGet(vkey());
       vb.textContent = done ? '✓ Əzbərlədim' : 'Ayəni əzbərlədim';
       vb.disabled = done;
     }
-    vb.onclick = function () { lsSet(vkey, '1'); send('verse', '✓'); vstate(); vmsg.textContent = 'Afərin! Müəllimin görəcək.'; };
+    vb.onclick = function () {
+      if (!getName()) { vmsg.textContent = 'Əvvəlcə yuxarıda adını seç.'; box.scrollIntoView({ block: 'center' }); return; }
+      lsSet(vkey(), '1'); send('verse', '✓'); vstate(); vmsg.textContent = 'Afərin! Müəllimin görəcək.';
+    };
     vstate();
+    onNameChange.push(vstate);
     vrow.appendChild(vb); vrow.appendChild(vmsg);
     verseBox.appendChild(vrow);
   }
