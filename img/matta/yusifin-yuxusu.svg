@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 852" width="1440" height="852">
+<defs>
+  <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5B4A2E"/><stop offset=".7" stop-color="#7C6436"/><stop offset="1" stop-color="#8A7040"/></linearGradient>
+  <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6E5A3A"/><stop offset="1" stop-color="#4A3B26"/></linearGradient>
+  <linearGradient id="night" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#16245A"/><stop offset="1" stop-color="#3E4F98"/></linearGradient>
+  <radialGradient id="aglow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#FFF8D6" stop-opacity="1"/><stop offset=".35" stop-color="#FFE9A0" stop-opacity=".75"/><stop offset=".7" stop-color="#F6D06A" stop-opacity=".25"/><stop offset="1" stop-color="#F6D06A" stop-opacity="0"/></radialGradient>
+  <radialGradient id="lamp" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#FFE7A0" stop-opacity=".9"/><stop offset="1" stop-color="#FFE7A0" stop-opacity="0"/></radialGradient>
+  <linearGradient id="robe" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset=".6" stop-color="#F1F1EE"/><stop offset="1" stop-color="#D8D8D2"/></linearGradient>
+  <linearGradient id="wing" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#C9CDD2"/></linearGradient>
+  <linearGradient id="blanket" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5F8A55"/><stop offset="1" stop-color="#3F6340"/></linearGradient>
+  <linearGradient id="mat" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B98A55"/><stop offset="1" stop-color="#8E6438"/></linearGradient>
+  <linearGradient id="hair" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFF08A"/><stop offset="1" stop-color="#E7C238"/></linearGradient>
+</defs>
+<g stroke="#3B2A1E" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+  <!-- room -->
+  <rect x="-4" y="-4" width="1448" height="640" fill="url(#wall)" stroke="none"/>
+  <path d="M-4 630 L1444 630 L1444 860 L-4 860Z" fill="url(#floor)"/>
+  <!-- window -->
+  <rect x="250" y="120" width="300" height="170" rx="6" fill="url(#night)"/>
+  <rect x="236" y="106" width="328" height="198" rx="10" fill="none" stroke="#3B2A1E" stroke-width="14" opacity=".55"/>
+  <g fill="#FFF6C8" stroke="none"><circle cx="300" cy="160" r="4"/><circle cx="360" cy="200" r="3"/><circle cx="430" cy="150" r="4.5"/><circle cx="500" cy="230" r="3"/><circle cx="470" cy="190" r="2.5"/><circle cx="330" cy="250" r="3"/><circle cx="520" cy="160" r="3"/></g>
+  <path d="M410 168 a26 26 0 1 0 22 40 a20 20 0 1 1 -22 -40z" fill="#FBE7A8" stroke="none"/>
+  <!-- angel glow -->
+  <circle cx="1080" cy="380" r="470" fill="url(#aglow)" stroke="none"/>
+  <!-- shelf with oil lamp -->
+  <circle cx="610" cy="300" r="110" fill="url(#lamp)" stroke="none"/>
+  <rect x="560" y="330" width="120" height="16" rx="4" fill="#9A6C3E"/>
+  <path d="M574 330 Q574 304 616 302 Q656 304 652 318 L676 308 Q670 328 648 332Z" fill="#B87A3E"/>
+  <path d="M668 304 Q660 282 672 266 Q686 286 676 304Z" fill="#FFC23D" stroke="#C9851A" stroke-width="3"/>
+  <!-- sleeping mat -->
+  <path d="M120 720 Q130 676 190 672 L930 664 Q990 666 994 712 L990 760 Q900 778 160 780 Q118 774 120 720Z" fill="url(#mat)"/>
+  <!-- pillow -->
+  <path d="M160 650 Q170 610 250 612 Q330 616 330 660 Q326 694 250 696 Q166 694 160 650Z" fill="#E9DFC6"/>
+  <!-- Joseph: blanket body -->
+  <path d="M300 688 Q340 600 470 592 Q640 586 760 620 Q900 650 940 700 Q900 730 600 734 Q380 736 300 720Z" fill="url(#blanket)"/>
+  <path d="M470 600 Q520 660 500 728" fill="none" stroke="#2F4C30" stroke-width="3" opacity=".6"/>
+  <path d="M680 610 Q700 670 690 730" fill="none" stroke="#2F4C30" stroke-width="3" opacity=".6"/>
+  <!-- mantle edge near neck -->
+  <path d="M300 690 Q330 640 380 630 L400 700 Q350 714 300 712Z" fill="#B9C9B3"/>
+  <!-- Joseph head (lying, facing up-right) -->
+  <g>
+    <path d="M196 640 Q182 580 230 560 Q286 540 318 580 Q340 612 324 652 Q300 690 252 690 Q206 684 196 640Z" fill="#F0C7A1"/>
+    <!-- curly hair behind/top -->
+    <path d="M190 646 Q164 610 184 574 Q196 540 236 536 Q270 520 300 540 Q330 548 330 574 Q300 560 272 566 Q240 560 222 586 Q206 610 212 650Z" fill="#6B4224"/>
+    <g fill="#6B4224"><circle cx="190" cy="600" r="16"/><circle cx="200" cy="570" r="16"/><circle cx="226" cy="548" r="16"/><circle cx="258" cy="538" r="16"/><circle cx="292" cy="544" r="15"/><circle cx="318" cy="562" r="13"/></g>
+    <!-- beard -->
+    <path d="M256 690 Q236 682 238 660 Q262 676 296 664 Q320 650 328 630 Q338 666 316 690 Q288 712 256 690Z" fill="#6B4224"/>
+    <!-- closed eyes -->
+    <path d="M250 606 Q262 616 274 606" fill="none" stroke-width="3.5"/>
+    <path d="M292 600 Q302 608 312 600" fill="none" stroke-width="3.5"/>
+    <path d="M246 594 Q260 586 276 594" fill="none" stroke-width="3"/>
+    <path d="M290 588 Q302 582 314 588" fill="none" stroke-width="3"/>
+    <path d="M286 616 Q292 634 282 640" fill="none" stroke-width="3"/>
+    <ellipse cx="256" cy="634" rx="12" ry="7" fill="#F3A99A" stroke="none" opacity=".6"/>
+    <path d="M276 652 Q288 658 298 652" fill="none" stroke-width="3"/>
+  </g>
+  <!-- z z z -->
+  <g fill="none" stroke="#FFF3C4" stroke-width="5" opacity=".9"><path d="M372 520 h22 l-22 26 h22"/><path d="M412 476 h28 l-28 32 h28"/><path d="M460 424 h34 l-34 40 h34"/></g>
+  <!-- sparkles between -->
+  <g fill="#FFF0A8" stroke="none"><circle cx="560" cy="520" r="6"/><circle cx="640" cy="470" r="5"/><circle cx="720" cy="430" r="7"/><circle cx="800" cy="410" r="5"/><path d="M600 420 l6 16 16 6 -16 6 -6 16 -6 -16 -16 -6 16 -6z"/><path d="M760 520 l5 12 12 5 -12 5 -5 12 -5 -12 -12 -5 12 -5z"/></g>
+  <!-- Angel wings -->
+  <path d="M1010 330 Q880 220 860 380 Q850 500 930 560 Q960 470 1010 430Z" fill="url(#wing)"/>
+  <path d="M1150 330 Q1280 220 1300 380 Q1310 500 1230 560 Q1200 470 1150 430Z" fill="url(#wing)"/>
+  <g fill="none" stroke="#9BA2AA" stroke-width="3"><path d="M880 330 Q920 360 960 350"/><path d="M872 390 Q920 410 970 400"/><path d="M890 450 Q930 460 980 450"/><path d="M1280 330 Q1240 360 1200 350"/><path d="M1288 390 Q1240 410 1190 400"/><path d="M1270 450 Q1230 460 1180 450"/></g>
+  <!-- Angel robe -->
+  <path d="M1040 340 Q1080 320 1120 340 Q1150 420 1170 560 Q1190 680 1210 760 Q1080 790 950 760 Q980 660 1000 560 Q1012 440 1040 340Z" fill="url(#robe)"/>
+  <path d="M1080 360 Q1070 520 1060 760" fill="none" stroke="#C9C9C2" stroke-width="3"/>
+  <path d="M1120 380 Q1140 560 1150 760" fill="none" stroke="#C9C9C2" stroke-width="3"/>
+  <!-- arm reaching toward Joseph -->
+  <path d="M1040 380 Q980 420 920 470 Q904 486 916 498 Q930 506 946 494 Q1010 452 1060 420Z" fill="url(#robe)"/>
+  <path d="M916 498 Q894 506 884 494 Q878 480 896 474 Q912 470 920 478" fill="#F0C7A1"/>
+  <!-- angel head -->
+  <path d="M1040 250 Q1030 190 1080 180 Q1132 176 1132 236 Q1132 300 1086 312 Q1044 310 1040 250Z" fill="#F4D0AC"/>
+  <path d="M1030 260 Q1016 180 1072 166 Q1138 158 1146 226 Q1150 300 1140 380 L1120 372 Q1128 300 1118 240 Q1096 214 1056 222 Q1046 290 1050 370 L1028 380 Q1022 320 1030 260Z" fill="url(#hair)"/>
+  <ellipse cx="1072" cy="252" rx="7" ry="9" fill="#5A3A20" stroke="none"/>
+  <ellipse cx="1106" cy="252" rx="7" ry="9" fill="#5A3A20" stroke="none"/>
+  <path d="M1062 238 Q1072 232 1082 238" fill="none" stroke-width="3"/>
+  <path d="M1098 238 Q1108 232 1116 238" fill="none" stroke-width="3"/>
+  <path d="M1076 284 Q1090 292 1102 284" fill="none" stroke-width="3"/>
+  <ellipse cx="1064" cy="272" rx="9" ry="5" fill="#F3A99A" stroke="none" opacity=".55"/>
+  <ellipse cx="1114" cy="272" rx="9" ry="5" fill="#F3A99A" stroke="none" opacity=".55"/>
+</g>
+</svg>

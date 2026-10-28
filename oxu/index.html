@@ -249,6 +249,9 @@ textarea{min-height:96px;resize:vertical}
 .x{border:0;background:var(--bg);color:var(--ink);width:38px;height:38px;border-radius:50%;font-size:22px;line-height:1;flex:none}
 .bil{background:var(--gold-soft);border-radius:12px;padding:10px 12px;font-size:17px}
 @media (prefers-reduced-motion:reduce){.sheet{transition:none}.d.now,.memory .spark,.party .big,.center .big,.opt{animation:none!important}}
+.scene.foto{height:auto;aspect-ratio:1280/757;max-width:100%}
+.scene.foto::after{display:none}
+.scene.foto img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
 </style>
 <script src="ayarlar.js"></script>
 <script src="sehne.js"></script>
@@ -410,8 +413,39 @@ textarea{min-height:96px;resize:vertical}
     setTimeout(() => box.remove(), 3800);
   }
 
+  /* Fəsil şəkilləri (img/nt — Əhdi-Cədid şəkilləri). Şəkil olmayan fəsildə çəkilmiş səhnə göstərilir. */
+  const OXU_SEKIL = { Matta: {
+    1: ["02-isanin-dogulmasi.jpg", "Tövlədə körpə İsa, Məryəm və Yusif"],
+    2: ["03-majuslar.jpg", "Şərqdən gələn müdriklər körpə İsaya səcdə edir"],
+    3: ["06-vaftiz.jpg", "İsa İordan çayında vəftiz olunur"],
+    4: ["07-sinaq.jpg", "İsa səhrada şeytan tərəfindən sınanır"],
+    5: ["13-dagustu-vaaz.jpg", "İsa dağda xalqa öyrədir"],
+    6: ["13-dagustu-vaaz.jpg", "İsa dağda xalqa öyrədir"],
+    7: ["13-dagustu-vaaz.jpg", "İsa dağda xalqa öyrədir"],
+    8: ["17-firtina.jpg", "İsa göldə fırtınanı sakitləşdirir"],
+    9: ["09-iflic-adam.jpg", "Dostları iflic adamı damdan İsanın yanına endirir"],
+    10: ["08-sagirdler-cagirilir.jpg", "İsa şagirdlərini çağırır"],
+    13: ["16-toxumcu.jpg", "Toxumçu məsəli: dörd cür torpaq"],
+    14: ["21-5000-doyurulur.jpg", "İsa beş çörək və iki balıqla minlərlə insanı doyurur"],
+    17: ["24-suret-deyisme.jpg", "İsa dağda nurlu görünür"],
+    18: ["30-yaxshi-coban.jpg", "Çoban qoyunlarını qoruyur"],
+    19: ["27-usaqlar.jpg", "İsa uşaqları sevir və onlara xeyir-dua verir"],
+    20: ["28-bartimey.jpg", "İsa kor adamın gözlərini açır"],
+    21: ["33-hosanna.jpg", "Xalq «Hosanna!» deyərək İsanı qarşılayır"],
+    26: ["36-son-sam.jpg", "İsa şagirdləri ilə son şam yeməyində"],
+    27: ["40-carmix.jpg", "İsa çarmıxda"],
+    28: ["41-dirilme.jpg", "Boş qəbir: İsa dirildi"]
+  } };
+
   function drawScene(f) {
     const sc = $("scene"); sc.innerHTML = "";
+    const pic = OXU_SEKIL[OYR.kitab] && OXU_SEKIL[OYR.kitab][view];
+    if (pic) {
+      sc.className = "scene foto";
+      const im = el("img"); im.src = "../img/nt/" + pic[0]; im.alt = pic[1]; im.width = 1280; im.height = 757;
+      sc.removeAttribute("aria-hidden"); sc.appendChild(im); return;
+    }
+    sc.setAttribute("aria-hidden", "true");
     const art = window.OXU_SEHNE && OXU_SEHNE[OYR.kitab] && OXU_SEHNE[OYR.kitab][view];
     if (art) { sc.className = "scene art"; sc.innerHTML = art(); return; } sc.className = "scene fon-" + ((f.sehne && f.sehne.fon) || "gece");
     if (f.sehne && /yagis|deniz/.test(f.sehne.fon)) sc.appendChild(el("div", "rain"));
