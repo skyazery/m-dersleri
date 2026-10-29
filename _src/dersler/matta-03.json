@@ -1,0 +1,903 @@
+{
+ "no": 3,
+ "ref": "2:13–23",
+ "deq": {
+  "usaq": 40,
+  "genc": 50
+ },
+ "img": [
+  "matta/03-gece-yola.jpg",
+  "04-misire-qacis.jpg",
+  "matta/03-hirod-qezeb.jpg",
+  "matta/03-nazaret.jpg"
+ ],
+ "hero": 1,
+ "ko": {
+  "usaq": {
+   "basliq": "하나님이 지켜 주신 아기 예수님",
+   "hedef": [
+    "요셉 가족이 이집트로 피한 이야기를 알아요.",
+    "하나님은 위험할 때도 지켜 주시는 분임을 알아요.",
+    "요셉처럼 하나님 말씀에 바로 순종하는 마음을 배워요."
+   ],
+   "sehneler": [
+    {
+     "b": "한밤중의 꿈",
+     "ayə": "2:13–14",
+     "alt": "한밤중에 아기 예수님을 데리고 길을 떠나는 요셉과 마리아",
+     "p": [
+      "동방박사들이 떠난 뒤, 천사가 다시 요셉의 [[꿈]]에 나타났어요. “일어나 아기와 엄마를 데리고 [[이집트]]로 피하라. 헤롯이 아기를 해치려고 찾고 있다.”",
+      "요셉은 곧바로 일어나 [[순종]]했어요. 그 밤에 마리아와 아기 예수님을 데리고 길을 떠났어요."
+     ]
+    },
+    {
+     "b": "멀고 먼 피난길",
+     "ayə": "2:14–15",
+     "alt": "당나귀를 타고 이집트로 가는 요셉 가족",
+     "p": [
+      "요셉 가족은 당나귀와 함께 사막을 지나 이집트까지 [[피난]]을 갔어요. 아주 멀고 힘든 길이었어요.",
+      "가족은 헤롯이 죽을 때까지 이집트에서 살았어요. [[선지자]]가 “내가 이집트에서 내 아들을 불러냈다”고 한 말씀이 이루어진 거예요."
+     ]
+    },
+    {
+     "b": "화가 난 헤롯",
+     "ayə": "2:16–18",
+     "alt": "화가 나서 군사들에게 명령하는 헤롯 왕",
+     "p": [
+      "동방박사들이 돌아오지 않자 헤롯은 몹시 화가 났어요. 그리고 베들레헴의 어린 아기들을 해치라는 아주 나쁜 명령을 내렸어요.",
+      "베들레헴의 엄마들은 많이 울었어요. 하나님은 아이들의 눈물을 아시고 함께 슬퍼하세요. 그리고 아기 예수님을 [[보호]]해 주셨어요."
+     ]
+    },
+    {
+     "b": "나사렛으로",
+     "ayə": "2:19–23",
+     "alt": "나사렛 마을에 도착한 요셉 가족",
+     "p": [
+      "헤롯이 죽자 천사가 또 요셉의 꿈에 나타났어요. “이제 이스라엘 땅으로 돌아가라.”",
+      "요셉 가족은 갈릴리의 작은 마을 [[나사렛]]에 가서 살았어요. 그래서 예수님은 ‘나사렛 사람’이라고 불리셨어요."
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "“내가 이집트에서 내 아들을 불러냈다.”",
+    "ref": "2:15",
+    "bos": "내가 ___에서 내 ___을 ___.",
+    "sozler": [
+     "이집트",
+     "아들",
+     "불러냈다"
+    ],
+    "yalan": "나사렛"
+   },
+   "lugat": {
+    "꿈": {
+     "i": "💭",
+     "x": "yuxu",
+     "m": "잠잘 때 보는 것이에요. 하나님은 가끔 꿈으로 말씀하셨어요.",
+     "e": "천사가 요셉의 꿈에 나타났어요."
+    },
+    "이집트": {
+     "i": "🏜️",
+     "x": "Misir",
+     "m": "이스라엘 남쪽에 있는 큰 나라예요. 나일강이 흐르고 피라미드가 있어요.",
+     "e": "요셉 가족은 이집트에서 안전하게 지냈어요."
+    },
+    "순종": {
+     "i": "👣",
+     "x": "itaət",
+     "m": "말씀을 듣고 그대로 따르는 거예요.",
+     "e": "요셉은 꿈에서 깨자마자 순종했어요."
+    },
+    "피난": {
+     "i": "🏃",
+     "x": "qaçmaq",
+     "m": "위험을 피해 안전한 곳으로 가는 거예요.",
+     "e": "요셉 가족은 한밤중에 이집트로 피난을 갔어요."
+    },
+    "선지자": {
+     "i": "📜",
+     "x": "peyğəmbər",
+     "m": "하나님의 말씀을 받아 사람들에게 전한 사람이에요.",
+     "e": "선지자 호세아가 미리 한 말씀이 이루어졌어요."
+    },
+    "보호": {
+     "i": "🛡️",
+     "x": "qorumaq",
+     "m": "나쁜 일에서 지켜 안전하게 하는 거예요.",
+     "e": "하나님은 아기 예수님을 보호해 주셨어요."
+    },
+    "나사렛": {
+     "i": "🏘️",
+     "x": "Nazaret",
+     "m": "갈릴리 지방의 작은 마을이에요. 예수님이 이곳에서 자라셨어요.",
+     "e": "사람들은 예수님을 ‘나사렛 예수’라고 불렀어요."
+    }
+   },
+   "test": [
+    {
+     "q": "천사는 요셉에게 어디로 피하라고 했나요?",
+     "o": [
+      "이집트",
+      "로마",
+      "바다 건너 섬"
+     ],
+     "a": 0,
+     "f": "맞아요! 이집트로 피하라고 했어요."
+    },
+    {
+     "q": "요셉은 언제 길을 떠났나요?",
+     "o": [
+      "그날 밤 바로",
+      "일주일 뒤",
+      "헤롯이 죽은 뒤"
+     ],
+     "a": 0,
+     "f": "맞아요! 요셉은 바로 순종했어요."
+    },
+    {
+     "q": "헤롯이 죽은 뒤 요셉 가족은 어디에서 살았나요?",
+     "o": [
+      "나사렛",
+      "이집트",
+      "예루살렘"
+     ],
+     "a": 0,
+     "f": "맞아요! 예수님은 나사렛에서 자라셨어요."
+    },
+    {
+     "q": "이 이야기에서 배우는 것은?",
+     "o": [
+      "하나님이 지켜 주신다",
+      "꿈은 무섭다",
+      "사막은 덥다"
+     ],
+     "a": 0,
+     "f": "맞아요! 하나님은 위험할 때도 지켜 주세요."
+    }
+   ],
+   "dusun": [
+    "한밤중에 갑자기 먼 곳으로 떠나야 했다면 요셉은 어떤 마음이었을까요?",
+    "무섭거나 힘들 때 하나님이 나를 지켜 주신다고 느낀 적이 있나요?",
+    "요셉처럼 하나님 말씀을 ‘바로’ 따른다는 것은 어떤 걸까요?"
+   ],
+   "fealiyyet": {
+    "ciz": "당나귀를 타고 이집트로 가는 요셉 가족을 그려 보세요.",
+    "b": "나를 지켜 주시는 하나님",
+    "p": "하나님이 지켜 주시기를 바라는 때를 써 보세요.",
+    "ph": "예) 밤에 혼자 있을 때 지켜 주세요."
+   },
+   "dua": "하나님, 위험한 때에도 아기 예수님을 지켜 주신 것처럼 저와 우리 가족도 지켜 주셔서 감사합니다. 요셉처럼 하나님 말씀을 바로 따르게 해 주세요. 슬퍼하는 친구들을 위로해 주세요. 예수님 이름으로 기도합니다. 아멘."
+  },
+  "genc": {
+   "basliq": "피난민이 되신 왕",
+   "giris": "온 세상의 왕으로 오신 분이 태어나자마자 피난민이 되셨습니다. 하나님은 왜 아들을 이렇게 약하고 위험한 길로 보내셨을까요?",
+   "meqsed": [
+    "마태가 인용한 세 가지 예언이 무엇을 말하는지 이해해요.",
+    "예수님이 이스라엘의 이야기를 다시 걸으신 분임을 설명할 수 있어요.",
+    "불의와 고통 속에서도 일하시는 하나님을 믿는다는 게 무엇인지 생각해요."
+   ],
+   "sehneler": [
+    {
+     "b": "다시 찾아온 꿈",
+     "ayə": "2:13–15",
+     "alt": "한밤중에 아기 예수님을 데리고 길을 떠나는 요셉과 마리아",
+     "p": [
+      "요셉은 또다시 꿈으로 말씀을 받고 그 밤에 바로 떠나요. 1장처럼 요셉은 말이 아니라 행동으로 [[순종]]해요.",
+      "이집트는 예부터 이스라엘 사람들이 위기 때 피하던 곳이었어요. 당시 알렉산드리아에는 큰 유대인 공동체도 있었어요."
+     ],
+     "deep": {
+      "b": "깊이 보기 · 이집트에서 불러낸 아들",
+      "p": "마태는 호세아 11:1 “내가 이집트에서 내 아들을 불러냈다”를 인용해요. 원래 이 말씀은 이스라엘의 [[출애굽]]을 가리켜요. 마태는 예수님이 이스라엘의 역사를 다시 걸으시며, 이스라엘이 실패한 자리에서 완전히 순종하시는 분임을 보여 줘요."
+     }
+    },
+    {
+     "b": "베들레헴의 눈물",
+     "ayə": "2:16–18",
+     "alt": "화가 나서 군사들에게 명령하는 헤롯 왕",
+     "p": [
+      "헤롯은 베들레헴 근처의 두 살 아래 남자아이들을 모두 죽이라고 명령했어요. 작은 마을이라 희생된 아이는 열 명 남짓이었을 것으로 보지만, 한 아이 한 아이가 한 가정의 전부였어요.",
+      "마태는 [[예레미야]]의 말을 인용해요. “[[라헬]]이 자식 때문에 울며 위로받기를 거절하였다.”"
+     ],
+     "deep": {
+      "b": "깊이 보기 · 성경은 슬픔을 숨기지 않는다",
+      "p": "마태는 이 비극을 미화하지 않아요. 성경은 고통 앞에서 함께 우는 책이에요. 그런데 예레미야 31장은 같은 장에서 ‘새 언약’과 회복을 약속해요. 눈물 한가운데서도 하나님의 이야기는 끝나지 않아요.",
+      "rose": true
+     },
+     "r": 2
+    },
+    {
+     "b": "꿈으로 이끄시는 하나님",
+     "ayə": "2:19–22",
+     "alt": "당나귀를 타고 이집트로 가는 요셉 가족",
+     "p": [
+      "헤롯이 죽자 천사가 다시 꿈에 나타나 이스라엘로 돌아가라고 해요. 그런데 유대 지역은 헤롯의 잔인한 아들 [[아켈라오]]가 다스리고 있었어요.",
+      "요셉이 두려워하자 하나님은 또 꿈으로 갈릴리 쪽으로 이끄셨어요. 마태복음 1–2장에서만 하나님은 꿈으로 다섯 번 인도하세요."
+     ],
+     "r": 1
+    },
+    {
+     "b": "나사렛 사람",
+     "ayə": "2:23",
+     "alt": "나사렛 마을에 도착한 요셉 가족",
+     "p": [
+      "요셉 가족은 갈릴리의 작은 마을 [[나사렛]]에 자리를 잡아요. 인구 수백 명의 보잘것없는 마을이었어요.",
+      "“나사렛에서 무슨 선한 것이 나올 수 있느냐” {{요 1:46}}는 말처럼, 나사렛은 무시당하던 곳이었어요. 예수님은 그런 곳에서 자라셨어요."
+     ],
+     "deep": {
+      "b": "깊이 보기 · ‘나사렛 사람’",
+      "p": "구약에 이 문장이 그대로 나오지는 않아요. 많은 학자는 이사야 11:1의 ‘가지(히브리어 네체르)’와 소리가 비슷한 말놀이이자, 멸시받는 메시아(사 53장)를 가리키는 표현으로 봐요."
+     }
+    }
+   ],
+   "cedvel": {
+    "b": "마태가 인용한 예언",
+    "alt": "2장의 세 가지 ‘성취’",
+    "bas": [
+     "구절",
+     "원래 뜻",
+     "예수님 안에서"
+    ],
+    "set": [
+     [
+      "호세아 11:1",
+      "이스라엘의 출애굽",
+      "예수님이 이집트에서 나오심"
+     ],
+     [
+      "예레미야 31:15",
+      "포로로 끌려간 자식들 때문에 우는 라헬",
+      "베들레헴 엄마들의 눈물"
+     ],
+     [
+      "‘나사렛 사람’",
+      "가지(네체르), 멸시받는 종",
+      "무시당하던 마을에서 자라신 메시아"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "“요셉은 일어나 밤에 아기와 그의 어머니를 데리고 이집트로 떠났다.”",
+    "ref": "2:14"
+   },
+   "lugat": {
+    "순종": {
+     "i": "👣",
+     "o": "헬라어 휘파쿠오",
+     "x": "itaət",
+     "s": "듣고 그대로 따르는 것",
+     "m": "원래 ‘아래에서 듣다’라는 뜻이에요. 들은 말씀대로 행동하는 거예요.",
+     "e": "요셉은 1–2장에서 한 마디도 하지 않지만, 꿈을 꿀 때마다 즉시 순종해요."
+    },
+    "출애굽": {
+     "i": "🌊",
+     "o": "헬라어 엑소도스",
+     "x": "Misirdən çıxış",
+     "s": "이스라엘이 이집트에서 나온 사건",
+     "m": "모세 때 하나님이 이스라엘을 이집트의 종살이에서 건져 내신 사건이에요. 구원의 대표적인 그림이에요.",
+     "e": "4장에서 예수님이 광야에서 40일 시험받으신 것도 이스라엘의 40년 광야와 이어져요."
+    },
+    "예레미야": {
+     "i": "📜",
+     "o": "히브리어 이르메야후",
+     "x": "Yeremya peyğəmbər",
+     "s": "‘눈물의 선지자’",
+     "m": "바벨론 포로 시대에 활동한 선지자로, 나라의 멸망을 보며 많이 울어서 ‘눈물의 선지자’라고 불려요.",
+     "e": "예레미야 31장에는 하나님의 ‘새 언약’ 약속도 나와요."
+    },
+    "라헬": {
+     "i": "😢",
+     "o": "히브리어 라헬",
+     "x": "Rəhilə",
+     "s": "야곱의 아내, 이스라엘의 어머니",
+     "m": "야곱이 가장 사랑한 아내로, 베들레헴 가는 길에 묻혔어요. 이스라엘 어머니들을 상징해요.",
+     "e": "라헬의 무덤은 지금도 베들레헴 입구에 있어요."
+    },
+    "아켈라오": {
+     "i": "⚔️",
+     "o": "헤롯 아켈라오, 주전 4–주후 6년",
+     "x": "Arxelay",
+     "s": "헤롯의 잔인한 아들",
+     "m": "아버지가 죽은 뒤 유대를 다스렸지만, 너무 잔인해서 결국 로마가 쫓아냈어요.",
+     "e": "다스리기 시작할 때 성전에서 3천 명을 죽였다는 기록이 있어요."
+    },
+    "나사렛": {
+     "i": "🏘️",
+     "o": "헬라어 나자렛",
+     "x": "Nazaret",
+     "s": "예수님이 자라신 갈릴리 마을",
+     "m": "구약에 한 번도 나오지 않을 만큼 작고 이름 없는 마을이었어요.",
+     "e": "예수님을 따르는 사람들은 한때 ‘나사렛 이단’이라고 불리기도 했어요(행 24:5)."
+    }
+   },
+   "test": [
+    {
+     "q": "요셉은 언제 이집트로 떠났나요?",
+     "o": [
+      "그날 밤 바로",
+      "다음 날 아침",
+      "헤롯이 죽은 뒤"
+     ],
+     "a": 0,
+     "f": "맞아요. 요셉은 늘 즉시 순종해요."
+    },
+    {
+     "q": "‘내가 이집트에서 내 아들을 불러냈다’는 원래 무엇을 가리켰나요?",
+     "o": [
+      "이스라엘의 출애굽",
+      "아브라함의 이주",
+      "요셉의 노예 생활"
+     ],
+     "a": 0,
+     "f": "맞아요. 예수님은 이스라엘의 이야기를 다시 걸으셨어요."
+    },
+    {
+     "q": "마태가 라헬의 울음을 인용한 장면은?",
+     "o": [
+      "베들레헴 아이들의 죽음",
+      "예수님의 탄생",
+      "동방박사의 방문"
+     ],
+     "a": 0,
+     "f": "맞아요. 성경은 슬픔을 숨기지 않아요."
+    },
+    {
+     "q": "요셉이 유대로 가지 않고 갈릴리로 간 이유는?",
+     "o": [
+      "아켈라오가 두려워서",
+      "고향이 그리워서",
+      "일자리 때문에"
+     ],
+     "a": 0,
+     "f": "맞아요. 그리고 하나님이 꿈으로 이끄셨어요."
+    },
+    {
+     "q": "마태복음 1–2장에서 하나님이 꿈으로 인도하신 것은 몇 번인가요?",
+     "o": [
+      "두 번",
+      "다섯 번",
+      "일곱 번"
+     ],
+     "a": 1,
+     "f": "맞아요. 요셉에게 네 번, 동방박사에게 한 번이에요."
+    }
+   ],
+   "paylas": [
+    "예수님이 피난민이셨다는 사실은 고향을 떠나 사는 사람들에게 어떤 의미가 있을까요?",
+    "하나님을 믿는데도 억울하고 슬픈 일이 일어날 때, 나는 어떻게 반응하나요?",
+    "요셉처럼 ‘바로’ 순종해야 하는데 미루고 있는 일이 있나요?",
+    "무시당하던 나사렛에서 자라신 예수님은 나의 어떤 부분을 위로하시나요?"
+   ],
+   "etiraf": {
+    "b": "나의 고백",
+    "p": "요즘 내 삶에서 피하고 싶은 일이 있나요? 그 상황에서 나를 이끄시는 하나님께 서너 문장으로 써 보세요.",
+    "ph": "예) 요즘 학교에 가기가 힘들어요. 하나님, …"
+   },
+   "dua": "하나님, 피난민이 되어 가장 낮은 자리로 오신 예수님을 찬양합니다. 고통과 눈물 속에서도 하나님의 이야기가 끝나지 않음을 믿게 해 주세요. 요셉처럼 듣는 즉시 순종하는 사람이 되게 해 주세요. 나사렛 사람 예수님 이름으로 기도합니다. 아멘."
+  }
+ },
+ "az": {
+  "usaq": {
+   "basliq": "Allahın qoruduğu körpə İsa",
+   "hedef": [
+    "Yusifin ailəsinin Misirə qaçdığını öyrənəcəyik.",
+    "Allahın təhlükə vaxtı da bizi qoruduğunu öyrənəcəyik.",
+    "Yusif kimi Allahın sözünə dərhal itaət etməyi öyrənəcəyik."
+   ],
+   "sehneler": [
+    {
+     "b": "Gecə yarısı yuxu",
+     "ayə": "Matta 2:13–14",
+     "alt": "Gecə yarısı körpə İsanı götürüb yola düşən Yusif və Məryəm",
+     "p": [
+      "Müdriklər gedəndən sonra mələk yenə Yusifin [[yuxu]]suna gəldi: “Qalx, körpəni və anasını götür, [[Misir]]ə qaç. Hirod körpəni öldürmək üçün axtarır.”",
+      "Yusif dərhal qalxıb [[itaət]] etdi. Elə həmin gecə Məryəmi və körpə İsanı götürüb yola düşdü."
+     ]
+    },
+    {
+     "b": "Uzun və çətin yol",
+     "ayə": "Matta 2:14–15",
+     "alt": "Eşşəklə Misirə gedən Yusifin ailəsi",
+     "p": [
+      "Yusifin ailəsi eşşəklə səhradan keçib Misirə [[qaçdı|qaçmaq]]. Bu, çox uzun və çətin yol idi.",
+      "Onlar Hirod ölənə qədər Misirdə yaşadılar. Beləcə [[peyğəmbər]]in “Oğlumu Misirdən çağırdım” sözü yerinə yetdi."
+     ]
+    },
+    {
+     "b": "Hirodun qəzəbi",
+     "ayə": "Matta 2:16–18",
+     "alt": "Qəzəblə əsgərlərinə əmr verən padşah Hirod",
+     "p": [
+      "Müdriklər geri qayıtmayanda Hirod çox qəzəbləndi. O, Bet-Lexemdəki kiçik uşaqlara pislik etmək üçün çox pis bir əmr verdi.",
+      "Bet-Lexemdəki analar çox ağladılar. Allah uşaqların göz yaşlarını görür və onlarla birlikdə kədərlənir. Allah körpə İsanı da [[qorudu|qorumaq]]."
+     ]
+    },
+    {
+     "b": "Nazaretə",
+     "ayə": "Matta 2:19–23",
+     "alt": "Nazaret kəndinə çatan Yusifin ailəsi",
+     "p": [
+      "Hirod öləndən sonra mələk yenə Yusifin yuxusuna gəldi: “İndi İsrail torpağına qayıt.”",
+      "Yusifin ailəsi Qalileyadakı kiçik [[Nazaret]] kəndinə gedib orada yaşadı. Buna görə İsanı “Nazaretli” deyə çağırdılar."
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "“Mən Oğlumu Misirdən çağırdım.”",
+    "ref": "2:15",
+    "bos": "Mən ___ ___dən ___.",
+    "sozler": [
+     "Oğlumu",
+     "Misir",
+     "çağırdım"
+    ],
+    "yalan": "Nazaret"
+   },
+   "lugat": {
+    "yuxu": {
+     "i": "💭",
+     "x": "꿈",
+     "m": "Yatanda gördüyümüz şeydir. Allah bəzən yuxuda danışırdı.",
+     "e": "Mələk Yusifə yuxuda göründü."
+    },
+    "Misir": {
+     "i": "🏜️",
+     "x": "이집트",
+     "m": "İsraildən cənubda olan böyük ölkədir. Orada Nil çayı və ehramlar var.",
+     "e": "Yusifin ailəsi Misirdə təhlükəsiz qaldı."
+    },
+    "itaət": {
+     "i": "👣",
+     "x": "순종",
+     "m": "Sözü eşidib ona əməl etməkdir.",
+     "e": "Yusif yuxudan oyanan kimi itaət etdi."
+    },
+    "qaçmaq": {
+     "i": "🏃",
+     "x": "피난",
+     "m": "Təhlükədən uzaqlaşıb təhlükəsiz yerə getməkdir.",
+     "e": "Yusifin ailəsi gecə yarısı Misirə qaçdı."
+    },
+    "peyğəmbər": {
+     "i": "📜",
+     "x": "선지자",
+     "m": "Allahdan söz alıb insanlara çatdıran adamdır.",
+     "e": "Huşə peyğəmbərin əvvəlcədən dediyi söz yerinə yetdi."
+    },
+    "qorumaq": {
+     "i": "🛡️",
+     "x": "보호",
+     "m": "Pislikdən saxlamaq, təhlükəsiz etməkdir.",
+     "e": "Allah körpə İsanı qorudu."
+    },
+    "Nazaret": {
+     "i": "🏘️",
+     "x": "나사렛",
+     "m": "Qalileyada kiçik bir kənddir. İsa orada böyüdü.",
+     "e": "İsanı “Nazaretli İsa” deyə çağırırdılar."
+    }
+   },
+   "test": [
+    {
+     "q": "Mələk Yusifə hara qaçmağı dedi?",
+     "o": [
+      "Misirə",
+      "Romaya",
+      "Dənizin o tayındakı adaya"
+     ],
+     "a": 0,
+     "f": "Düzdür! Mələk Misirə qaçmağı dedi."
+    },
+    {
+     "q": "Yusif nə vaxt yola düşdü?",
+     "o": [
+      "Elə həmin gecə",
+      "Bir həftə sonra",
+      "Hirod öləndən sonra"
+     ],
+     "a": 0,
+     "f": "Düzdür! Yusif dərhal itaət etdi."
+    },
+    {
+     "q": "Hirod öləndən sonra Yusifin ailəsi harada yaşadı?",
+     "o": [
+      "Nazaretdə",
+      "Misirdə",
+      "Yerusəlimdə"
+     ],
+     "a": 0,
+     "f": "Düzdür! İsa Nazaretdə böyüdü."
+    },
+    {
+     "q": "Bu hekayədən nə öyrənirik?",
+     "o": [
+      "Allah bizi qoruyur",
+      "Yuxu qorxuludur",
+      "Səhra istidir"
+     ],
+     "a": 0,
+     "f": "Düzdür! Allah təhlükə vaxtı da bizi qoruyur."
+    }
+   ],
+   "dusun": [
+    "Gecə yarısı birdən uzaq yerə getmək lazım olsaydı, Yusif nə hiss edərdi?",
+    "Qorxanda və ya çətin vaxtda Allahın səni qoruduğunu hiss etmisənmi?",
+    "Yusif kimi Allahın sözünə “dərhal” əməl etmək necə olur?"
+   ],
+   "fealiyyet": {
+    "ciz": "Eşşəklə Misirə gedən Yusifin ailəsini çək.",
+    "b": "Məni qoruyan Allah",
+    "p": "Allahın səni qorumasını istədiyin vaxtı seç.",
+    "ph": "",
+    "secim": {
+     "basliq": "Allah səni nə vaxt qoruyur?",
+     "izah": "Toxun və seç. Bir neçəsini seçə bilərsən.",
+     "cumle": "Allah məni {x} qoruyur!",
+     "bos": "hər zaman",
+     "bag": "və",
+     "secimler": [
+      [
+       "🌙",
+       "gecə"
+      ],
+      [
+       "🏠",
+       "evdə"
+      ],
+      [
+       "🏫",
+       "məktəbdə"
+      ],
+      [
+       "🚶",
+       "yolda"
+      ],
+      [
+       "😨",
+       "qorxanda"
+      ],
+      [
+       "🤒",
+       "xəstə olanda"
+      ],
+      [
+       "🚌",
+       "səfərdə"
+      ],
+      [
+       "😢",
+       "kədərlənəndə"
+      ]
+     ]
+    }
+   },
+   "dua": "Ya Rəbb Allah, təhlükə vaxtı körpə İsanı qoruduğun kimi məni və ailəmi də qoruduğun üçün Sənə şükür edirəm. Yusif kimi Sənin sözünə dərhal itaət etməyə kömək et. Kədərli dostlarıma təsəlli ver. İsa Məsihin adı ilə dua edirəm. Amin."
+  },
+  "genc": {
+   "basliq": "Qaçqın olan Padşah",
+   "giris": "Bütün dünyanın Padşahı kimi gələn İsa doğulan kimi qaçqın oldu. Allah niyə Öz Oğlunu belə zəif və təhlükəli yolla göndərdi?",
+   "meqsed": [
+    "Mattanın gətirdiyi üç peyğəmbərliyin nə dediyini anlayırıq.",
+    "İsanın İsrailin tarixini yenidən yaşadığını izah edə bilirik.",
+    "Haqsızlıq və əzab içində də işləyən Allaha iman etməyin nə olduğunu düşünürük."
+   ],
+   "sehneler": [
+    {
+     "b": "Yenə yuxu",
+     "ayə": "Matta 2:13–15",
+     "alt": "Gecə yarısı körpə İsanı götürüb yola düşən Yusif və Məryəm",
+     "p": [
+      "Yusif yenə yuxuda söz alır və elə həmin gecə yola düşür. Birinci fəsildə olduğu kimi, Yusif sözlə deyil, əməllə [[itaət]] edir.",
+      "Misir qədimdən israillilərin çətin vaxtlarda sığındığı yer idi. O dövrdə İsgəndəriyyədə böyük yəhudi icması da var idi."
+     ],
+     "deep": {
+      "b": "Dərindən baxaq · Misirdən çağırılan Oğul",
+      "p": "Matta Huşə 11:1-dən sitat gətirir: “Oğlumu Misirdən çağırdım.” Əslində bu söz İsrailin [[Misirdən çıxış]]ından danışır. Matta göstərir ki, İsa İsrailin tarixini yenidən yaşayır və İsrailin uğursuz olduğu yerdə tam itaət edir."
+     }
+    },
+    {
+     "b": "Bet-Lexemin göz yaşları",
+     "ayə": "Matta 2:16–18",
+     "alt": "Qəzəblə əsgərlərinə əmr verən padşah Hirod",
+     "p": [
+      "Hirod Bet-Lexem ətrafındakı iki yaşınadək bütün oğlan uşaqlarının öldürülməsini əmr etdi. Kənd kiçik olduğu üçün ölən uşaqların on nəfər qədər olduğu düşünülür, amma hər uşaq bir ailənin bütün dünyası idi.",
+      "Matta [[Yeremya]] peyğəmbərin sözünü gətirir: “[[Rəhilə]] övladları üçün ağlayır və təsəlli tapmaq istəmir.”"
+     ],
+     "deep": {
+      "b": "Dərindən baxaq · Müqəddəs Kitab kədəri gizlətmir",
+      "p": "Matta bu faciəni gözəl göstərməyə çalışmır. Müqəddəs Kitab əzab qarşısında birlikdə ağlayan kitabdır. Amma Yeremya 31-ci fəsil eyni fəsildə “yeni əhd” və bərpa vəd edir. Göz yaşlarının ortasında belə Allahın hekayəsi bitmir.",
+      "rose": true
+     },
+     "r": 2
+    },
+    {
+     "b": "Yuxu ilə yol göstərən Allah",
+     "ayə": "Matta 2:19–22",
+     "alt": "Eşşəklə Misirə gedən Yusifin ailəsi",
+     "p": [
+      "Hirod öləndən sonra mələk yenə yuxuda görünüb İsrailə qayıtmağı deyir. Amma Yəhudeyada Hirodun qəddar oğlu [[Arxelay]] hakimiyyətdə idi.",
+      "Yusif qorxanda Allah onu yenə yuxu ilə Qalileyaya yönəltdi. Matta 1–2-ci fəsillərdə Allah beş dəfə yuxu ilə yol göstərir."
+     ],
+     "r": 1
+    },
+    {
+     "b": "Nazaretli",
+     "ayə": "Matta 2:23",
+     "alt": "Nazaret kəndinə çatan Yusifin ailəsi",
+     "p": [
+      "Yusifin ailəsi Qalileyadakı kiçik [[Nazaret]] kəndində yerləşir. Bura cəmi bir neçə yüz nəfərin yaşadığı adi bir kənd idi.",
+      "“Nazaretdən yaxşı bir şey çıxa bilərmi?” {{Yəh. 1:46}} sözü göstərir ki, Nazareti xor görürdülər. İsa belə bir yerdə böyüdü."
+     ],
+     "deep": {
+      "b": "Dərindən baxaq · “Nazaretli”",
+      "p": "Əhdi-Ətiqdə bu cümlə olduğu kimi yazılmayıb. Bir çox alim bunu Yeşaya 11:1-dəki “budaq” (İbranicə netser) sözü ilə səs oyunu və xor görülən Məsihə (Yeş. 53) işarə kimi izah edir."
+     }
+    }
+   ],
+   "cedvel": {
+    "b": "Mattanın gətirdiyi peyğəmbərliklər",
+    "alt": "2-ci fəsildə üç “yerinə yetmə”",
+    "bas": [
+     "Ayə",
+     "Əsl mənası",
+     "İsada"
+    ],
+    "set": [
+     [
+      "Huşə 11:1",
+      "İsrailin Misirdən çıxışı",
+      "İsanın Misirdən çıxması"
+     ],
+     [
+      "Yeremya 31:15",
+      "Sürgünə aparılan övladları üçün ağlayan Rəhilə",
+      "Bet-Lexem analarının göz yaşları"
+     ],
+     [
+      "“Nazaretli”",
+      "Budaq (netser), xor görülən qul",
+      "Xor görülən kənddə böyüyən Məsih"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "“Yusif qalxıb körpəni və anasını götürdü və gecə ikən Misirə yola düşdü.”",
+    "ref": "2:14"
+   },
+   "lugat": {
+    "itaət": {
+     "i": "👣",
+     "o": "Yunanca hüpakuo",
+     "x": "순종",
+     "s": "Eşidib əməl etmək",
+     "m": "Əslində “altında dinləmək” deməkdir. Eşitdiyin sözə görə hərəkət etməkdir.",
+     "e": "Yusif 1–2-ci fəsillərdə bir kəlmə də danışmır, amma hər yuxudan sonra dərhal itaət edir."
+    },
+    "Misirdən çıxış": {
+     "i": "🌊",
+     "o": "Yunanca eksodos",
+     "x": "출애굽",
+     "s": "İsrailin Misirdən çıxması",
+     "m": "Musanın vaxtında Allah İsraili Misirdəki köləlikdən xilas etdi. Bu, xilasın əsas şəklidir.",
+     "e": "4-cü fəsildə İsanın səhrada 40 gün sınanması İsrailin 40 il səhrada qalması ilə bağlıdır."
+    },
+    "Yeremya": {
+     "i": "📜",
+     "o": "İbranicə Yirmeyahu",
+     "x": "예레미야",
+     "s": "“Ağlayan peyğəmbər”",
+     "m": "Babil sürgünü dövründə yaşayan peyğəmbərdir. Xalqın məhvini görüb çox ağladığı üçün “ağlayan peyğəmbər” adlanır.",
+     "e": "Yeremya 31-ci fəsildə Allahın “yeni əhd” vədi də var."
+    },
+    "Rəhilə": {
+     "i": "😢",
+     "o": "İbranicə Rahel",
+     "x": "라헬",
+     "s": "Yaqubun arvadı, İsrailin anası",
+     "m": "Yaqubun ən çox sevdiyi arvad idi və Bet-Lexem yolunda dəfn olundu. İsrail analarının simvoludur.",
+     "e": "Rəhilənin qəbri bu gün də Bet-Lexemin girişindədir."
+    },
+    "Arxelay": {
+     "i": "⚔️",
+     "o": "Hirod Arxelay, e.ə. 4 – e. 6-cı il",
+     "x": "아켈라오",
+     "s": "Hirodun qəddar oğlu",
+     "m": "Atası öləndən sonra Yəhudeyanı idarə etdi, amma o qədər qəddar idi ki, sonda Roma onu qovdu.",
+     "e": "Hakimiyyətə gələndə məbəddə üç min nəfəri öldürdüyü yazılır."
+    },
+    "Nazaret": {
+     "i": "🏘️",
+     "o": "Yunanca Nazaret",
+     "x": "나사렛",
+     "s": "İsanın böyüdüyü Qalileya kəndi",
+     "m": "Əhdi-Ətiqdə bir dəfə də adı çəkilməyən kiçik, tanınmayan kənd idi.",
+     "e": "İsanın ardıcıllarını bir vaxt “Nazaretlilər təriqəti” adlandırırdılar (Həv. 24:5)."
+    }
+   },
+   "test": [
+    {
+     "q": "Yusif Misirə nə vaxt yola düşdü?",
+     "o": [
+      "Elə həmin gecə",
+      "Səhəri gün",
+      "Hirod öləndən sonra"
+     ],
+     "a": 0,
+     "f": "Düzdür. Yusif həmişə dərhal itaət edir."
+    },
+    {
+     "q": "“Oğlumu Misirdən çağırdım” sözü əslində nədən danışırdı?",
+     "o": [
+      "İsrailin Misirdən çıxışından",
+      "İbrahimin köçündən",
+      "Yusifin köləliyindən"
+     ],
+     "a": 0,
+     "f": "Düzdür. İsa İsrailin tarixini yenidən yaşadı."
+    },
+    {
+     "q": "Matta Rəhilənin ağlamasını hansı hadisəyə görə gətirir?",
+     "o": [
+      "Bet-Lexem uşaqlarının ölümünə",
+      "İsanın doğulmasına",
+      "Müdriklərin gəlişinə"
+     ],
+     "a": 0,
+     "f": "Düzdür. Müqəddəs Kitab kədəri gizlətmir."
+    },
+    {
+     "q": "Yusif niyə Yəhudeyaya deyil, Qalileyaya getdi?",
+     "o": [
+      "Arxelaydan qorxduğu üçün",
+      "Doğma yerləri üçün darıxdığı üçün",
+      "İş tapmaq üçün"
+     ],
+     "a": 0,
+     "f": "Düzdür. Allah da onu yuxu ilə yönəltdi."
+    },
+    {
+     "q": "Matta 1–2-ci fəsillərdə Allah neçə dəfə yuxu ilə yol göstərir?",
+     "o": [
+      "İki dəfə",
+      "Beş dəfə",
+      "Yeddi dəfə"
+     ],
+     "a": 1,
+     "f": "Düzdür. Yusifə dörd dəfə, müdriklərə bir dəfə."
+    }
+   ],
+   "paylas": [
+    "İsanın qaçqın olması bu gün öz yurdundan uzaqda yaşayan insanlar üçün nə deməkdir?",
+    "Allaha iman etdiyim halda haqsız və kədərli bir şey baş verəndə necə reaksiya verirəm?",
+    "Yusif kimi “dərhal” itaət etməli olduğum, amma təxirə saldığım bir iş varmı?",
+    "Xor görülən Nazaretdə böyüyən İsa mənim hansı tərəfimə təsəlli verir?"
+   ],
+   "etiraf": {
+    "b": "Mənim etirafım",
+    "p": "Son vaxtlar həyatında qaçmaq istədiyin bir şey varmı? Səni yönəldən Allaha üç-dörd cümlə yaz.",
+    "ph": "Məsələn: Son vaxtlar məktəbə getmək mənə çətindir. Ya Rəbb, …"
+   },
+   "dua": "Ya Rəbb Allah, qaçqın olub ən aşağı yerə gələn İsanı izzətləndirirəm. Əzab və göz yaşları içində belə Sənin hekayənin bitmədiyinə inanmağa kömək et. Yusif kimi eşidən kimi itaət edən insan olmağıma kömək et. Nazaretli İsa Məsihin adı ilə dua edirəm. Amin."
+  }
+ },
+ "muellim": {
+  "mesaj": "3과의 중심은 한 문장입니다. **하나님은 위험과 슬픔 속에서도 아들을 지키시고, 약하고 낮은 길을 통해 구원을 이루신다.**",
+  "hazirliq": [
+   "학생용 교재를 열 휴대폰이나 태블릿, 이어폰",
+   "지도(베들레헴–이집트 거리 확인용) 또는 지도 앱",
+   "어린이반: 담요나 천 (‘밤에 떠나기’ 놀이)"
+  ],
+  "fon": [
+   [
+    "1. 이집트 피난",
+    "베들레헴에서 이집트 국경까지는 최소 120km, 걸어서 1–2주 걸리는 길입니다. 동방박사의 선물이 여행 경비가 되었을 것이라는 해석도 있습니다."
+   ],
+   [
+    "2. 베들레헴 아기 학살",
+    "성경 밖 기록에는 없지만, 아내와 아들까지 처형한 헤롯의 성품으로 보아 충분히 가능한 일로 봅니다. 베들레헴 인구로 보아 희생자는 열 명 남짓으로 추정합니다."
+   ],
+   [
+    "3. 호세아 11:1",
+    "원래 출애굽을 돌아보는 말씀입니다. 마태는 예수님을 ‘이스라엘의 역사를 다시 사시는 분’으로 읽습니다. 4장 광야 시험(40일)과 연결됩니다."
+   ],
+   [
+    "4. 예레미야 31:15",
+    "바벨론 포로 때 라마에서 끌려가는 자식들을 두고 우는 라헬입니다. 같은 장 31절에 ‘새 언약’이 나옵니다."
+   ],
+   [
+    "5. 나사렛 사람",
+    "구약에 똑같은 문장은 없습니다. ‘가지(네체르)’ 말놀이와 ‘멸시받는 메시아’ 주제를 함께 가리킨다고 보는 해석이 많습니다."
+   ]
+  ],
+  "usaq_plan": [
+   [
+    "5분",
+    "밤에 떠나기 놀이",
+    "불을 끄고 담요를 들고 조용히 교실 한쪽으로 이동하기",
+    "“요셉 가족도 한밤중에 조용히 떠났어요.”"
+   ],
+   [
+    "15분",
+    "장면 1–4 듣고 읽기",
+    "장면마다 듣기를 누르고 노란 낱말 누르기",
+    "“요셉은 왜 아침까지 기다리지 않았을까요?”"
+   ],
+   [
+    "5분",
+    "외울 말씀",
+    "빈칸 놀이 → 세 번 소리 내어 읽기",
+    ""
+   ],
+   [
+    "5분",
+    "확인 퀴즈",
+    "혼자 풀고 함께 확인",
+    ""
+   ],
+   [
+    "10분",
+    "활동과 기도",
+    "하나님이 지켜 주시는 때 고르기 → 발표 → 기도",
+    "“무서울 때 하나님께 기도할 수 있어요.”"
+   ]
+  ],
+  "genc_plan": [
+   [
+    "5분",
+    "열기",
+    "“태어나자마자 난민이 된 왕”이라는 말을 듣고 떠오르는 생각 나누기",
+    ""
+   ],
+   [
+    "15분",
+    "장면 1–2와 예언 표",
+    "출애굽과 라헬의 눈물을 연결해 읽기",
+    "“마태는 구약을 어떻게 읽고 있나요?”"
+   ],
+   [
+    "10분",
+    "장면 3–4",
+    "꿈으로 이끄심과 ‘나사렛 사람’",
+    ""
+   ],
+   [
+    "5분",
+    "확인 문제",
+    "혼자 풀고 틀린 문제만 함께 확인",
+    ""
+   ],
+   [
+    "15분",
+    "나눔과 고백",
+    "나눔 질문 2개 → 나의 고백 쓰기 → 기도",
+    ""
+   ]
+  ],
+  "ipucu_usaq": [
+   "베들레헴 아기 학살은 어린이반에서 자세히 설명하지 마세요. ‘헤롯이 아주 나쁜 명령을 내렸고 엄마들이 많이 슬퍼했다’ 정도면 충분합니다.",
+   "무서워하는 아이가 있으면 ‘하나님은 아이들의 눈물을 아시고 함께 슬퍼하신다’는 점을 강조하세요.",
+   "이주 가정 아이가 있다면 예수님도 고향을 떠나 사셨다는 점을 따뜻하게 연결해 주세요."
+  ],
+  "ipucu_genc": [
+   "‘왜 하나님은 다른 아이들은 지키지 않으셨나’라는 질문이 나올 수 있어요. 쉬운 답을 서두르지 말고, 성경도 그 슬픔을 그대로 기록했다는 점에서 시작하세요.",
+   "예언 표는 외우게 하기보다 ‘마태가 구약을 어떻게 읽는지’ 보여 주는 도구로 쓰세요.",
+   "나사렛의 낮음은 열등감이 있는 청소년에게 큰 위로가 될 수 있어요."
+  ],
+  "suallar": [
+   [
+    "왜 하나님은 다른 아기들은 안 지켜 주셨어요?",
+    "하나님은 그 아이들과 엄마들을 보시고 함께 슬퍼하셨어요. 나쁜 일은 헤롯의 잘못이에요.",
+    "성경은 이 질문에 쉬운 답을 주지 않아요. 다만 고통을 숨기지 않고 기록하고, 그 악을 이기실 분으로 예수님을 보내셨다고 말해요. 예수님도 결국 불의한 권력에 죽임을 당하셨어요."
+   ],
+   [
+    "지금도 하나님이 꿈으로 말씀하세요?",
+    "하나님은 여러 방법으로 말씀하실 수 있어요. 가장 확실한 방법은 성경 말씀이에요.",
+    "하나님은 자유롭게 말씀하실 수 있지만, 꿈이나 느낌은 반드시 성경과 교회 공동체 안에서 분별해야 해요."
+   ],
+   [
+    "예수님은 이집트에 얼마나 계셨어요?",
+    "헤롯 왕이 죽을 때까지 계셨어요.",
+    "헤롯이 주전 4년경 죽었으니 1–2년 정도로 보는 견해가 많아요."
+   ]
+  ]
+ }
+}

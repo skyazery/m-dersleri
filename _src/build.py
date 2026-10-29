@@ -177,7 +177,7 @@ def build_usaq(L, lang):
     o.append(f'  <section class="goal">\n    <h3>{ui["goal"]}</h3>\n    <ul>\n' + ''.join(f'      <li>{inline(g)}</li>\n' for g in d['hedef']) + '    </ul>\n  </section>\n')
     for i, sc in enumerate(d['sehneler']):
         o.append(f'''  <article class="scene">
-    <img src="{img_src(L["img"][i])}" width="1280" height="757" loading="lazy" alt="{E(sc.get("alt", sc["b"]))}">
+    <img src="{img_src(L["img"][sc.get("r", i)])}" width="1280" height="757" loading="lazy" alt="{E(sc.get("alt", sc["b"]))}">
     <div class="txt">
       <div class="top"><span class="num">{ui["scene"]} {i + 1} · {E(sc["ayə"])}</span><button class="pill ghost say" type="button">{ui["say"]}</button></div>
       <h3{a_attr(au, sc["b"])}>{E(sc["b"])}</h3>
@@ -256,7 +256,7 @@ def build_genc(L, lang):
     o.append('  <section class="aims">\n' + ''.join(f'    <div><b>{E(b)}</b><p>{inline(p)}</p></div>\n' for b, p in zip(ui['aims'], d['meqsed'])) + '  </section>\n')
     for i, sc in enumerate(d['sehneler']):
         o.append(f'''  <article class="scene">
-    <img src="{img_src(L["img"][i])}" width="1280" height="757" loading="lazy" alt="{E(sc.get("alt", sc["b"]))}">
+    <img src="{img_src(L["img"][sc.get("r", i)])}" width="1280" height="757" loading="lazy" alt="{E(sc.get("alt", sc["b"]))}">
     <div class="txt">
       <div class="top"><span class="label">{i + 1} · {E(sc["ayə"])}</span><button class="pill ghost say" type="button">{ui["say"]}</button></div>
       <h3{a_attr(au, sc["b"])}>{E(sc["b"])}</h3>
