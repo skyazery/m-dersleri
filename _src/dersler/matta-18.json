@@ -1,0 +1,157 @@
+{
+"no": 18, "ref": "13:24–58", "deq": {"usaq": 40, "genc": 50},
+"img": ["matta/18-kerkulek.jpg", "matta/18-xardal.jpg", "matta/18-xezine.jpg", "matta/18-tor.jpg"],
+"hero": 2,
+"ko": {
+ "usaq": {
+  "basliq": "밭에 감추인 보물",
+  "hedef": ["하늘나라를 설명하는 여러 비유를 알아요.", "하늘나라는 작게 시작해서 크게 자란다는 것을 배워요.", "예수님이 세상 무엇보다 귀한 보물임을 고백해요."],
+  "sehneler": [
+   {"b": "밀과 가라지", "ayə": "13:24–30", "alt": "밀밭 사이에 가라지를 뿌리는 원수", "p": ["어떤 사람이 밭에 좋은 밀 씨를 뿌렸어요. 그런데 밤에 원수가 와서 [[가라지]] 씨를 뿌리고 갔어요.", "종들이 가라지를 뽑겠다고 하자 주인이 말했어요. “밀까지 뽑힐 수 있으니 추수 때까지 함께 자라게 두어라.” 하나님은 마지막 날에 바르게 나누실 거예요."]},
+   {"b": "겨자씨와 누룩", "ayə": "13:31–33", "alt": "큰 나무로 자란 겨자와 빵 반죽을 하는 여인", "p": ["“하늘나라는 [[겨자씨]]와 같아요. 아주 작은 씨지만 자라면 새들이 깃들 만큼 큰 나무가 돼요.”", "“하늘나라는 [[누룩]]과 같아요. 조금만 넣어도 반죽 전체가 부풀어 올라요.” 하나님 나라는 작게 시작해서 크게 자라요."]},
+   {"b": "보물과 진주", "ayə": "13:44–46", "alt": "밭에서 보물 상자를 발견하고 기뻐하는 사람", "p": ["“하늘나라는 밭에 숨겨진 [[보화]]와 같아요. 그것을 발견한 사람은 너무 기뻐서 가진 것을 다 팔아 그 밭을 사요.”", "“좋은 [[진주]]를 찾던 상인이 아주 값진 진주 하나를 발견하자, 가진 것을 다 팔아 그것을 샀어요.” 예수님은 그만큼 귀한 분이에요."]},
+   {"b": "물고기를 모으는 그물", "ayə": "13:47–52", "alt": "물고기를 고르는 어부들", "p": ["“하늘나라는 바다에 던져 온갖 물고기를 모으는 [[그물]]과 같아요. 어부들은 좋은 물고기는 그릇에 담고 나쁜 것은 버려요.”", "예수님이 물으셨어요. “이 모든 것을 깨달았느냐?” 제자들이 “네!” 하고 대답했어요."]}
+  ],
+  "aye": {"metn": "“천국은 마치 밭에 감추인 보화와 같으니”", "ref": "13:44", "bos": "___은 마치 ___에 감추인 ___와 같으니", "sozler": ["천국", "밭", "보화"], "yalan": "돌"},
+  "lugat": {
+   "가라지": {"i": "🌿", "x": "dən otu", "m": "밀과 아주 비슷하게 생긴 나쁜 풀이에요.", "e": "원수가 밭에 가라지를 뿌렸어요."},
+   "겨자씨": {"i": "🌱", "x": "xardal toxumu", "m": "아주아주 작은 씨예요. 자라면 사람 키보다 커져요.", "e": "하늘나라는 겨자씨와 같아요."},
+   "누룩": {"i": "🍞", "x": "maya", "m": "빵 반죽을 부풀게 하는 효모예요.", "e": "누룩이 반죽 전체를 부풀게 해요."},
+   "보화": {"i": "💎", "x": "xəzinə", "m": "아주 값진 보물이에요.", "e": "밭에 숨겨진 보화를 찾았어요."},
+   "진주": {"i": "🦪", "x": "mirvari", "m": "조개 속에서 생기는 하얗고 빛나는 보석이에요.", "e": "상인이 값진 진주를 샀어요."},
+   "그물": {"i": "🕸️", "x": "tor", "m": "물고기를 잡는 실로 엮은 도구예요.", "e": "그물에 온갖 물고기가 모였어요."}
+  },
+  "test": [
+   {"q": "밤에 원수가 밭에 뿌린 것은?", "o": ["가라지", "꽃씨", "돌멩이"], "a": 0, "f": "맞아요! 밀과 비슷한 나쁜 풀이에요."},
+   {"q": "겨자씨는 자라서 어떻게 되나요?", "o": ["새가 깃드는 큰 나무", "작은 꽃", "아무것도 안 돼요"], "a": 0, "f": "맞아요! 작은 시작이 크게 자라요."},
+   {"q": "보물을 발견한 사람은 어떻게 했나요?", "o": ["기뻐하며 다 팔아 밭을 샀어요", "다시 묻고 잊었어요", "친구에게 줬어요"], "a": 0, "f": "맞아요! 그만큼 귀했어요."},
+   {"q": "예수님이 “깨달았느냐?” 묻자 제자들은?", "o": ["네!", "아니요", "모르겠어요"], "a": 0, "f": "맞아요! 비유의 뜻을 배웠어요."}
+  ],
+  "dusun": ["작은 겨자씨처럼, 내가 할 수 있는 작은 일이 하나님 나라에 쓰일 수 있을까요?", "나에게 가장 소중한 보물은 무엇인가요?", "예수님이 보물보다 귀하다는 것은 어떤 뜻일까요?"],
+  "fealiyyet": {"ciz": "밭에서 보물 상자를 발견하고 기뻐하는 나를 그려 보세요. 상자 안에는 예수님을 그려 넣어도 좋아요.", "b": "나의 보물", "p": "예수님이 왜 나에게 보물인지 써 보세요.", "ph": "예) 예수님은 언제나 저를 사랑하시니까요."},
+  "dua": "예수님, 하늘나라의 비밀을 쉬운 이야기로 알려 주셔서 감사합니다. 작은 겨자씨 같은 제 믿음도 크게 자라게 해 주세요. 예수님이 세상 어떤 보물보다 귀한 분이심을 기억하며 기쁘게 따르게 해 주세요. 예수님 이름으로 기도합니다. 아멘."
+ },
+ "genc": {
+  "basliq": "모든 것을 걸 만한 나라",
+  "giris": "하나님 나라가 왔다면 왜 세상에는 여전히 악이 있을까요? 왜 이렇게 작고 느려 보일까요? 예수님은 여섯 개의 짧은 비유로 이 질문에 답하시고, 마지막에 우리에게 묻습니다. 너는 이 나라에 모든 것을 걸겠느냐?",
+  "meqsed": ["가라지, 겨자씨, 누룩 비유로 하나님 나라의 현재 모습을 이해해요.", "보화와 진주 비유가 말하는 하나님 나라의 가치를 설명할 수 있어요.", "나사렛의 거절을 보며 내가 예수님을 어떻게 대하는지 돌아봐요."],
+  "sehneler": [
+   {"b": "가라지가 왜 있을까?", "ayə": "13:24–30, 36–43", "alt": "밀밭 사이에 가라지를 뿌리는 원수", "p": ["[[가라지]](독보리)는 이삭이 패기 전까지 밀과 거의 구별되지 않았어요. 뿌리도 서로 엉켜 있어서 하나를 뽑으면 다른 것도 뽑혔어요.", "예수님은 해석해 주세요. 밭은 세상, 좋은 씨는 천국의 아들들, 가라지는 악한 자의 아들들, 원수는 마귀, 추수는 세상 끝이에요. 지금은 섞여 있지만 심판은 하나님이 하세요."], "deep": {"b": "깊이 보기 · 성급한 심판 금지", "p": "종들의 열심(“뽑을까요?”)은 좋아 보이지만 주인은 막아요. 누가 밀이고 누가 가라지인지 사람은 완벽히 알 수 없어요. 교회는 정결을 추구하지만, 최종 판단은 하나님께 맡겨야 해요(7:1)."}},
+   {"b": "작고 숨겨진 시작", "ayə": "13:31–35", "alt": "큰 나무로 자란 겨자와 빵 반죽을 하는 여인", "p": ["[[겨자씨]]는 당시 ‘가장 작은 것’의 대명사였지만 갈릴리에서는 3m 넘게 자랐어요. 누룩 비유에서 여인이 넣은 가루 세 말은 약 40kg, 100명 넘게 먹을 빵이에요.", "열두 명의 평범한 제자로 시작한 하나님 나라는 보잘것없어 보였어요. 그러나 그것은 조용히, 안에서부터, 멈추지 않고 자라요. 지금 전 세계 교회가 그 증거예요."], "deep": {"b": "깊이 보기 · 새들이 깃들다", "p": "에스겔 17:23과 다니엘 4장에서 ‘새들이 깃드는 큰 나무’는 모든 민족을 품는 나라를 상징해요. 겨자씨 비유는 이방인까지 품는 하나님 나라를 예고해요."}},
+   {"b": "기쁨으로 다 팔고", "ayə": "13:44–46", "alt": "밭에서 보물 상자를 발견하고 기뻐하는 사람", "p": ["전쟁이 잦던 시대에는 귀중품을 땅에 묻어 두는 일이 흔했어요. 품꾼이 밭을 갈다 우연히 [[보화]]를 발견했어요. 한편 상인은 평생 좋은 진주를 찾다가 최고의 진주를 발견했어요.", "한 사람은 우연히, 한 사람은 오래 찾다가 발견했어요. 하지만 둘 다 ‘전부’를 팔았어요. 핵심은 희생이 아니라 ‘기쁨’이에요. “기뻐하며 돌아가서 자기의 소유를 다 팔아.”"], "deep": {"b": "깊이 보기 · 손해가 아니라 거래", "p": "보화를 산 사람은 손해 본 것이 아니라 인생 최고의 거래를 한 거예요. 예수님을 따르며 내려놓는 것은 상실이 아니라, 더 큰 것을 얻은 사람의 자연스러운 반응이에요(빌 3:8).", "rose": true}},
+   {"b": "그물, 그리고 나사렛", "ayə": "13:47–58", "alt": "물고기를 고르는 어부들", "p": ["그물 비유는 가라지 비유처럼 마지막 날의 분리를 말해요. 예수님은 “천국의 제자 된 서기관마다 새것과 옛것을 그 곳간에서 내오는 집주인과 같다”고 하세요.", "그리고 고향 나사렛에 가셨는데, 사람들은 “이 사람은 목수의 아들이 아니냐?” 하며 [[배척]]했어요. 너무 익숙해서 보화를 알아보지 못했어요. 예수님은 그들이 믿지 않아서 거기서 많은 능력을 행하지 않으셨어요."], "deep": {"b": "깊이 보기 · 익숙함의 함정", "p": "교회에서 자란 사람도 나사렛 사람들처럼 될 수 있어요. 예수님 이야기가 너무 익숙해서 감동이 없을 때, 우리는 밭에 숨겨진 보화 위를 매일 걸으면서도 모르는 사람일지도 몰라요."}}
+  ],
+  "cedvel": {"b": "13장의 일곱 비유", "alt": "13:1–52", "bas": ["비유", "하나님 나라는…"], "set": [["씨 뿌리는 자", "듣는 마음에 따라 열매가 달라요"], ["가라지", "지금은 섞여 있고 마지막에 나뉘어요"], ["겨자씨", "작게 시작해서 크게 자라요"], ["누룩", "보이지 않게 안에서부터 퍼져요"], ["감추인 보화", "우연히 발견해도 모든 것을 걸 가치가 있어요"], ["값진 진주", "오래 찾던 사람에게도 최고의 가치예요"], ["그물", "마지막 날 좋은 것과 나쁜 것이 나뉘어요"]]},
+  "aye": {"metn": "“천국은 마치 밭에 감추인 보화와 같으니 사람이 이를 발견한 후 숨겨 두고 기뻐하며 돌아가서 자기의 소유를 다 팔아 그 밭을 사느니라.”", "ref": "13:44"},
+  "lugat": {
+   "가라지": {"i": "🌿", "o": "헬라어 지자니아, 독보리", "x": "dən otu", "s": "밀과 닮은 독초", "m": "학명 Lolium temulentum. 낟알에 곰팡이가 슬면 독성이 있어요. 원수의 밭에 독보리를 뿌리는 것은 로마법에도 처벌 조항이 있던 실제 범죄였어요.", "e": "이삭이 패면 밀은 고개를 숙이고 독보리는 꼿꼿이 서요."},
+   "겨자씨": {"i": "🌱", "o": "헬라어 시나피", "x": "xardal toxumu", "s": "가장 작은 시작", "m": "지름 1–2mm 정도의 씨예요. 17:20에서 예수님은 “겨자씨만 한 믿음”을 말씀하세요.", "e": "작은 믿음도 살아 있으면 자라요."},
+   "보화": {"i": "💎", "o": "헬라어 테사우로스", "x": "xəzinə", "s": "모든 것보다 귀한 가치", "m": "6:21 “네 보물 있는 그곳에 네 마음도 있느니라”에 쓰인 같은 낱말이에요.", "e": "영어 thesaurus(단어의 보고)의 어원이에요."},
+   "배척": {"i": "🚫", "o": "헬라어 스칸달리조, ‘걸려 넘어지다’", "x": "rədd etmək", "s": "걸림돌로 여김", "m": "예수님이 너무 평범해 보여서 오히려 걸려 넘어진 거예요. ‘스캔들’의 어원이에요.", "e": "“선지자가 자기 고향과 자기 집 외에서는 존경을 받지 않음이 없느니라”(13:57)."}
+  },
+  "test": [
+   {"q": "가라지를 바로 뽑지 말라고 한 이유는?", "o": ["밀까지 뽑힐 수 있어서", "가라지가 더 귀해서", "종들이 게을러서"], "a": 0, "f": "맞아요. 심판은 하나님이 하세요."},
+   {"q": "가라지 비유에서 ‘추수’가 뜻하는 것은?", "o": ["세상 끝", "봄 축제", "성전 제사"], "a": 0, "f": "맞아요. 마지막 날의 분리예요."},
+   {"q": "겨자씨와 누룩 비유의 공통 메시지는?", "o": ["작고 숨겨진 시작이 크게 자람", "크고 화려하게 시작함", "곧 사라짐"], "a": 0, "f": "맞아요. 하나님 나라의 성장 방식이에요."},
+   {"q": "보화와 진주 비유에서 강조된 감정은?", "o": ["기쁨", "두려움", "슬픔"], "a": 0, "f": "맞아요. 희생보다 기쁨이 먼저예요."},
+   {"q": "나사렛 사람들이 예수님을 배척한 이유는?", "o": ["목수의 아들로 너무 익숙해서", "외국인이라서", "부자라서"], "a": 0, "f": "맞아요. 익숙함이 눈을 가렸어요."}
+  ],
+  "paylas": ["세상(또는 교회)에 ‘가라지’가 섞여 있어서 실망한 적이 있나요? 이 비유는 어떤 관점을 주나요?", "내 삶에서 ‘겨자씨’처럼 작게 시작했지만 자라고 있는 믿음의 흔적이 있나요?", "예수님을 ‘모든 것을 팔아도 아깝지 않은 보화’로 느낀 적이 있나요? 아니라면 무엇이 그것을 가리고 있나요?", "나는 예수님 이야기에 너무 익숙해진 ‘나사렛 사람’은 아닌가요?"],
+  "etiraf": {"b": "나의 고백", "p": "보화를 발견한 사람처럼, 예수님 때문에 기쁘게 내려놓을 수 있는 것과 그 이유를 서너 문장으로 써 보세요.", "ph": "예) 저는 친구들에게 인정받고 싶은 마음을 붙들고 있어요. 그런데 예수님이 …"},
+  "dua": "예수님, 작고 숨겨진 것처럼 보이지만 결국 온 세상을 채울 하나님 나라를 보여 주셔서 감사합니다. 가라지를 판단하는 사람보다 좋은 밀로 자라는 사람이 되게 해 주세요. 무엇보다 예수님을 밭에 감추인 보화로 알아보고 기쁘게 모든 것을 걸게 해 주세요. 예수님 이름으로 기도합니다. 아멘."
+ }
+},
+"az": {
+ "usaq": {
+  "basliq": "Tarlada gizlədilmiş xəzinə",
+  "hedef": ["Səmavi Padşahlığı izah edən müxtəlif məsəlləri öyrənəcəyik.", "Səmavi Padşahlığın kiçik başlayıb böyüdüyünü öyrənəcəyik.", "İsanın dünyadakı hər şeydən qiymətli xəzinə olduğunu etiraf edəcəyik."],
+  "sehneler": [
+   {"b": "Buğda və dən otu", "ayə": "Matta 13:24–30", "alt": "Buğda zəmisinə dən otu səpən düşmən", "p": ["Bir adam tarlasına yaxşı buğda toxumu səpdi. Amma gecə düşməni gəlib [[dən otu]] toxumu səpib getdi.", "Qulları dən otunu yolmaq istəyəndə sahib dedi: “Buğda da qopa bilər, biçinə qədər qoyun birlikdə böyüsünlər.” Allah son gündə düzgün ayıracaq."]},
+   {"b": "Xardal toxumu və maya", "ayə": "Matta 13:31–33", "alt": "Böyük ağaca çevrilən xardal və xəmir yoğuran qadın", "p": ["“Səmavi Padşahlıq [[xardal toxumu]]na bənzəyir. Çox kiçik toxumdur, amma böyüyəndə quşların yuva qurduğu böyük ağac olur.”", "“Səmavi Padşahlıq [[maya]]ya bənzəyir. Bir az qatsan da, bütün xəmir qabarır.” Allahın Padşahlığı kiçik başlayıb böyüyür."]},
+   {"b": "Xəzinə və mirvari", "ayə": "Matta 13:44–46", "alt": "Tarlada xəzinə sandığı tapıb sevinən adam", "p": ["“Səmavi Padşahlıq tarlada gizlədilmiş [[xəzinə]]yə bənzəyir. Onu tapan adam çox sevinib varını satır və o tarlanı alır.”", "“Yaxşı [[mirvari]] axtaran tacir çox qiymətli bir mirvari tapanda varını satıb onu aldı.” İsa bu qədər qiymətlidir."]},
+   {"b": "Balıq toplayan tor", "ayə": "Matta 13:47–52", "alt": "Balıqları seçən balıqçılar", "p": ["“Səmavi Padşahlıq dənizə atılıb hər cür balıq toplayan [[tor]]a bənzəyir. Balıqçılar yaxşı balıqları qablara yığır, pisləri isə atırlar.”", "İsa soruşdu: “Bütün bunları anladınızmı?” Şagirdlər “Bəli!” deyə cavab verdilər."]}
+  ],
+  "aye": {"metn": "“Səmavi Padşahlıq tarlada gizlədilmiş xəzinəyə bənzəyir.”", "ref": "13:44", "bos": "___ Padşahlıq ___ gizlədilmiş ___ bənzəyir.", "sozler": ["Səmavi", "tarlada", "xəzinəyə"], "yalan": "evdə"},
+  "lugat": {
+   "dən otu": {"i": "🌿", "x": "가라지", "m": "Buğdaya çox bənzəyən zərərli otdur.", "e": "Düşmən tarlaya dən otu səpdi."},
+   "xardal toxumu": {"i": "🌱", "x": "겨자씨", "m": "Çox-çox kiçik toxumdur. Böyüyəndə insan boyundan da hündür olur.", "e": "Səmavi Padşahlıq xardal toxumuna bənzəyir."},
+   "maya": {"i": "🍞", "x": "누룩", "m": "Çörək xəmirini qabardan şeydir.", "e": "Maya bütün xəmiri qabardır."},
+   "xəzinə": {"i": "💎", "x": "보화", "m": "Çox qiymətli sərvətdir.", "e": "Tarlada gizlədilmiş xəzinə tapdı."},
+   "mirvari": {"i": "🦪", "x": "진주", "m": "Balıqqulağının içində yaranan ağ və parlaq daş-qaşdır.", "e": "Tacir qiymətli mirvari aldı."},
+   "tor": {"i": "🕸️", "x": "그물", "m": "Balıq tutmaq üçün ipdən toxunmuş alətdir.", "e": "Tora hər cür balıq yığıldı."}
+  },
+  "test": [
+   {"q": "Gecə düşmən tarlaya nə səpdi?", "o": ["Dən otu", "Çiçək toxumu", "Daş"], "a": 0, "f": "Düzdür! Buğdaya bənzəyən zərərli ot."},
+   {"q": "Xardal toxumu böyüyəndə nə olur?", "o": ["Quşların yuva qurduğu böyük ağac", "Kiçik çiçək", "Heç nə"], "a": 0, "f": "Düzdür! Kiçik başlanğıc böyüyür."},
+   {"q": "Xəzinə tapan adam nə etdi?", "o": ["Sevinib varını satdı və tarlanı aldı", "Yenə basdırıb unutdu", "Dostuna verdi"], "a": 0, "f": "Düzdür! O, çox qiymətli idi."},
+   {"q": "İsa “anladınızmı?” deyə soruşanda şagirdlər nə dedi?", "o": ["Bəli!", "Xeyr", "Bilmirik"], "a": 0, "f": "Düzdür! Məsəllərin mənasını öyrəndilər."}
+  ],
+  "dusun": ["Kiçik xardal toxumu kimi, mənim edə biləcəyim kiçik iş Allahın Padşahlığında işlənə bilərmi?", "Mənim ən qiymətli xəzinəm nədir?", "İsanın xəzinədən qiymətli olması nə deməkdir?"],
+  "fealiyyet": {"ciz": "Tarlada xəzinə sandığı tapıb sevinən özünü çək. Sandığın içinə İsanı da çəkə bilərsən.", "b": "İsa nədən qiymətlidir?", "p": "İsanın səndən ötrü nədən qiymətli olduğunu seç.", "ph": "",
+   "secim": {"basliq": "İsa nədən qiymətlidir?", "izah": "Toxun və seç. Bir neçəsini seçə bilərsən.", "cumle": "İsa mənim üçün {x} daha qiymətlidir!", "bos": "qızıldan", "bag": "və",
+    "secimler": [["🪙", "qızıldan"], ["🧸", "oyuncaqlardan"], ["📱", "telefondan"], ["🍬", "konfetdən"], ["💰", "puldan"], ["🌍", "hər şeydən"]]}},
+  "dua": "İsa, Səmavi Padşahlığın sirlərini sadə hekayələrlə öyrətdiyin üçün Sənə şükür edirəm. Kiçik xardal toxumu kimi olan imanımı da böyüt. Sənin dünyanın hər xəzinəsindən qiymətli olduğunu xatırlayıb sevinclə ardınca gedim. İsa Məsihin adı ilə dua edirəm. Amin."
+ },
+ "genc": {
+  "basliq": "Hər şeyə dəyən Padşahlıq",
+  "giris": "Allahın Padşahlığı gəlibsə, niyə dünyada hələ də şər var? Niyə bu qədər kiçik və yavaş görünür? İsa altı qısa məsəllə bu suallara cavab verir və sonda bizdən soruşur: bu Padşahlıq üçün hər şeyini qoyarsanmı?",
+  "meqsed": ["Dən otu, xardal toxumu və maya məsəlləri ilə Allahın Padşahlığının indiki görünüşünü anlayırıq.", "Xəzinə və mirvari məsəllərinin Padşahlığın dəyəri haqqında dediyini izah edə bilirik.", "Nazaretdəki rədd edilməyə baxaraq İsaya necə yanaşdığımızı yoxlayırıq."],
+  "sehneler": [
+   {"b": "Dən otu niyə var?", "ayə": "Matta 13:24–30, 36–43", "alt": "Buğda zəmisinə dən otu səpən düşmən", "p": ["[[Dən otu]] (zəhərli çəyirtkə otu) sünbül verənə qədər buğdadan demək olar ki, seçilmirdi. Kökləri də bir-birinə dolaşırdı, birini yolsan, o biri də çıxırdı.", "İsa izah edir: tarla dünyadır, yaxşı toxum Padşahlığın övladları, dən otu Şər Olanın övladları, düşmən iblis, biçin isə dövrün sonudur. İndi qarışıqdırlar, amma hökmü Allah verir."], "deep": {"b": "Dərindən baxaq · Tələsik hökm yoxdur", "p": "Qulların qeyrəti (“yolaqmı?”) yaxşı görünür, amma sahib mane olur. Kimin buğda, kimin dən otu olduğunu insan tam bilə bilməz. Cəmiyyət paklığa can atır, amma son hökmü Allaha tapşırmalıdır (7:1)."}},
+   {"b": "Kiçik və gizli başlanğıc", "ayə": "Matta 13:31–35", "alt": "Böyük ağaca çevrilən xardal və xəmir yoğuran qadın", "p": ["[[Xardal toxumu]] o vaxt “ən kiçik şeyin” rəmzi idi, amma Qalileyada 3 metrdən hündür böyüyürdü. Maya məsəlindəki qadının qatdığı üç ölçü un təxminən 40 kq idi, yüz nəfərdən çox adamı doyuracaq çörək.", "On iki adi şagirdlə başlayan Allahın Padşahlığı əhəmiyyətsiz görünürdü. Amma o, səssizcə, içəridən və dayanmadan böyüyür. Bu gün bütün dünyadakı cəmiyyətlər bunun sübutudur."], "deep": {"b": "Dərindən baxaq · Quşlar yuva qurur", "p": "Yezekel 17:23 və Daniel 4-də “quşların yuva qurduğu böyük ağac” bütün xalqları əhatə edən padşahlığın rəmzidir. Xardal toxumu məsəli yadelliləri də əhatə edən Allahın Padşahlığını xəbər verir."}},
+   {"b": "Sevinclə hər şeyini satıb", "ayə": "Matta 13:44–46", "alt": "Tarlada xəzinə sandığı tapıb sevinən adam", "p": ["Müharibələrin tez-tez olduğu dövrdə qiymətli əşyaları torpağa basdırmaq adi hal idi. Bir muzdur tarlanı şumlayarkən təsadüfən [[xəzinə]] tapdı. Tacir isə ömrü boyu yaxşı mirvari axtarıb ən yaxşısını tapdı.", "Biri təsadüfən, o biri uzun axtarışdan sonra tapdı. Amma hər ikisi “hər şeyini” satdı. Əsas olan qurban deyil, “sevinc”dir: “sevinərək gedib varını satır.”"], "deep": {"b": "Dərindən baxaq · Ziyan deyil, alış-veriş", "p": "Xəzinəni alan adam ziyana düşmədi, həyatının ən yaxşı alış-verişini etdi. İsanın ardınca gedərkən buraxdıqlarımız itki deyil, daha böyüyünü qazanmış insanın təbii cavabıdır (Filip. 3:8).", "rose": true}},
+   {"b": "Tor və Nazaret", "ayə": "Matta 13:47–58", "alt": "Balıqları seçən balıqçılar", "p": ["Tor məsəli dən otu məsəli kimi son gündəki ayrılıqdan danışır. İsa deyir: “Səmavi Padşahlığın şagirdi olan hər ilahiyyatçı xəzinəsindən təzə və köhnə şeylər çıxaran ev sahibinə bənzəyir.”", "Sonra öz şəhəri Nazaretə getdi, amma insanlar “Bu, dülgərin oğlu deyilmi?” deyib Onu [[rədd etdilər|rədd etmək]]. Çox tanış olduğu üçün xəzinəni tanımadılar. İsa onların imansızlığına görə orada çox möcüzə göstərmədi."], "deep": {"b": "Dərindən baxaq · Tanışlıq tələsi", "p": "Cəmiyyətdə böyüyən insan da Nazaretlilər kimi ola bilər. İsanın hekayəsi bizə o qədər tanış olur ki, təsirlənmirik. Bəlkə də hər gün tarladakı xəzinənin üstündən keçib onu görməyən insanıq."}}
+  ],
+  "cedvel": {"b": "13-cü fəslin yeddi məsəli", "alt": "13:1–52", "bas": ["Məsəl", "Allahın Padşahlığı…"], "set": [["Toxum əkən", "Dinləyən ürəyə görə fərqli bəhrə verir"], ["Dən otu", "İndi qarışıqdır, sonda ayrılacaq"], ["Xardal toxumu", "Kiçik başlayıb böyüyür"], ["Maya", "Görünmədən içəridən yayılır"], ["Gizli xəzinə", "Təsadüfən tapılsa da, hər şeyə dəyər"], ["Qiymətli mirvari", "Uzun axtaran üçün də ən böyük dəyərdir"], ["Tor", "Son gündə yaxşı ilə pis ayrılacaq"]]},
+  "aye": {"metn": "“Səmavi Padşahlıq tarlada gizlədilmiş xəzinəyə bənzəyir. Bir adam onu tapıb yenə gizlədir və sevinərək gedib varını satır və o tarlanı alır.”", "ref": "13:44"},
+  "lugat": {
+   "Dən otu": {"i": "🌿", "o": "Yunanca zizania, çəyirtkə otu", "x": "가라지", "s": "Buğdaya bənzəyən zəhərli ot", "m": "Elmi adı Lolium temulentum. Dəninə kif düşəndə zəhərli olur. Düşmənin tarlasına belə ot səpmək Roma qanununda da cəzalandırılan real cinayət idi.", "e": "Sünbül verəndə buğda başını əyir, dən otu isə dik durur."},
+   "Xardal toxumu": {"i": "🌱", "o": "Yunanca sinapi", "x": "겨자씨", "s": "Ən kiçik başlanğıc", "m": "Diametri 1–2 mm olan toxumdur. 17:20-də İsa “xardal toxumu qədər iman”dan danışır.", "e": "Kiçik iman da canlıdırsa, böyüyür."},
+   "xəzinə": {"i": "💎", "o": "Yunanca tesavros", "x": "보화", "s": "Hər şeydən qiymətli dəyər", "m": "6:21-dəki “xəzinən harada isə, ürəyin də orada olacaq” ayəsində işlənən eyni sözdür.", "e": "İngiliscə thesaurus (söz xəzinəsi) sözünün kökü budur."},
+   "rədd etmək": {"i": "🚫", "o": "Yunanca skandalizo, “büdrəmək”", "x": "배척하다", "s": "Büdrəmə daşı saymaq", "m": "İsa çox adi göründüyü üçün Ona görə büdrədilər. “Skandal” sözünün kökü budur.", "e": "“Peyğəmbər öz şəhərindən və evindən başqa hər yerdə hörmət görür” (13:57)."}
+  },
+  "test": [
+   {"q": "Dən otunu dərhal yolmamağın səbəbi nə idi?", "o": ["Buğda da qopa bilərdi", "Dən otu daha qiymətli idi", "Qullar tənbəl idi"], "a": 0, "f": "Düzdür. Hökmü Allah verir."},
+   {"q": "Dən otu məsəlində “biçin” nəyi bildirir?", "o": ["Dövrün sonunu", "Bahar bayramını", "Məbəd qurbanını"], "a": 0, "f": "Düzdür. Son gündəki ayrılıq."},
+   {"q": "Xardal toxumu və maya məsəllərinin ortaq mesajı nədir?", "o": ["Kiçik və gizli başlanğıc böyüyür", "Böyük və təmtəraqlı başlayır", "Tezliklə yox olur"], "a": 0, "f": "Düzdür. Padşahlığın böyümə tərzi."},
+   {"q": "Xəzinə və mirvari məsəllərində vurğulanan hiss hansıdır?", "o": ["Sevinc", "Qorxu", "Kədər"], "a": 0, "f": "Düzdür. Qurbandan əvvəl sevinc gəlir."},
+   {"q": "Nazaretlilər İsanı niyə rədd etdilər?", "o": ["Dülgər oğlu kimi çox tanış olduğu üçün", "Yadelli olduğu üçün", "Varlı olduğu üçün"], "a": 0, "f": "Düzdür. Tanışlıq gözlərini bağladı."}
+  ],
+  "paylas": ["Dünyada (və ya cəmiyyətdə) “dən otu” qarışdığı üçün məyus olduğun olubmu? Bu məsəl hansı baxış verir?", "Həyatımda “xardal toxumu” kimi kiçik başlayıb böyüyən imanın izi varmı?", "İsanı “hər şeyi satmağa dəyən xəzinə” kimi hiss etdiyin olubmu? Olmayıbsa, onu nə örtür?", "Mən İsanın hekayəsinə çox öyrəşmiş bir “Nazaretli” deyiləmmi?"],
+  "etiraf": {"b": "Mənim etirafım", "p": "Xəzinə tapan adam kimi, İsaya görə sevinclə buraxa biləcəyin şeyi və səbəbini üç-dörd cümlə ilə yaz.", "ph": "Məsələn: Mən dostlarımın məni bəyənməsini çox istəyirəm. Amma İsa …"},
+  "dua": "İsa, kiçik və gizli görünsə də, sonda bütün dünyanı dolduracaq Allahın Padşahlığını göstərdiyin üçün Sənə şükür edirəm. Dən otunu mühakimə edən deyil, yaxşı buğda kimi böyüyən olum. Hər şeydən əvvəl Səni tarlada gizlədilmiş xəzinə kimi tanıyıb sevinclə hər şeyimi qoyum. İsa Məsihin adı ilə dua edirəm. Amin."
+ }
+},
+"muellim": {
+ "mesaj": "18과의 중심은 한 문장입니다. **하나님 나라는 지금 작고 섞여 보이지만 반드시 자라 완성되며, 그것을 발견한 사람은 기쁨으로 모든 것을 건다.**",
+ "hazirliq": ["학생용 교재를 열 휴대폰이나 태블릿, 이어폰", "겨자씨(또는 깨)와 빵 반죽 사진", "작은 상자에 ‘보물’ 숨기기 (보물찾기)"],
+ "fon": [
+  ["1. 독보리", "가라지(zizania)는 독보리입니다. 이삭이 나오기 전에는 밀과 구분이 어렵습니다. 원수의 밭에 독보리를 뿌리는 것은 실제로 있던 악행이었습니다."],
+  ["2. 겨자", "흑겨자(Brassica nigra)는 갈릴리 호숫가에서 3–4m까지 자랍니다. ‘가장 작은 씨’는 당시 속담 같은 표현입니다."],
+  ["3. 누룩", "성경에서 누룩은 대개 악의 상징(16:6)이지만 여기서는 긍정적으로 쓰였습니다. 가루 세 스아(약 40L)는 잔치 규모의 양입니다(창 18:6)."],
+  ["4. 감추인 보화", "랍비 법에 따르면 밭에서 발견한 물건은 밭 주인의 것이 될 수 있었습니다. 그래서 밭을 사는 것이 합법적인 방법이었습니다. 비유의 초점은 법이 아니라 기쁨과 결단입니다."],
+  ["5. 나사렛", "13:53–58은 13장 비유 설교의 결말입니다. ‘듣고도 깨닫지 못하는’ 이사야의 예언(13:14)이 예수님의 고향에서 실제로 이루어집니다."]
+ ],
+ "usaq_plan": [
+  ["5분", "보물찾기", "교실에 숨긴 작은 상자 찾기", "“보물을 찾았을 때 기분이 어땠나요?”"],
+  ["15분", "장면 1–4 듣고 읽기", "장면마다 듣기, 노란 낱말 누르기", "“겨자씨가 얼마나 작은지 직접 보세요!”"],
+  ["5분", "외울 말씀", "빈칸 놀이 → 보물 상자를 여는 동작으로 외우기", ""],
+  ["5분", "확인 퀴즈", "혼자 풀고 함께 확인", ""],
+  ["10분", "활동과 기도", "예수님이 무엇보다 귀한지 고르기 → 기도", ""]
+ ],
+ "genc_plan": [
+  ["5분", "열기", "“하나님 나라가 왔다면 왜 세상에 악이 있을까?”", ""],
+  ["15분", "장면 1–2", "가라지(성급한 심판 금지), 겨자씨와 누룩(작은 시작)", ""],
+  ["10분", "장면 3–4와 일곱 비유 표", "보화와 진주(기쁨의 결단), 그물, 나사렛의 배척", "“나는 익숙해진 나사렛 사람인가?”"],
+  ["5분", "확인 문제", "", ""],
+  ["15분", "나눔과 고백", "나눔 질문 2개 → 기쁘게 내려놓을 것 쓰기 → 기도", ""]
+ ],
+ "ipucu_usaq": ["가라지 이야기는 ‘나쁜 친구를 미워하자’가 아니라 ‘하나님이 다 알고 바르게 하세요’로 마무리하세요.", "그물 비유의 ‘버린다’를 무섭게 강조하지 마세요.", "보물찾기 보물 안에 ‘예수님’ 그림이나 말씀 카드를 넣어 두면 좋습니다."],
+ "ipucu_genc": ["가라지 비유를 교회 안의 특정 사람을 판단하는 근거로 쓰지 않도록 주의하세요.", "‘모든 것을 판다’를 강요나 죄책감이 아닌 ‘기쁨’의 언어로 전하세요.", "다음 과(14장)는 오천 명을 먹이심과 물 위를 걸으심입니다."],
+ "suallar": [
+  ["왜 하나님은 나쁜 사람을 바로 벌하지 않으세요?", "하나님은 모든 사람에게 돌아올 기회를 주시고 싶어 하세요.", "가라지 비유는 하나님의 인내를 보여 줘요(벧후 3:9). 또 우리가 성급하게 판단하면 ‘밀’도 다칠 수 있어요. 마지막 심판은 공정하신 하나님께 맡겨요."],
+  ["진짜 다 팔아야 예수님을 믿을 수 있어요?", "아니에요. 예수님이 그만큼 귀하다는 뜻이에요. 예수님을 가장 사랑하면 돼요.", "비유의 초점은 ‘얼마를 내야 하나’가 아니라 ‘얼마나 귀한가’예요. 예수님이 가장 귀하면 다른 것의 자리가 자연스럽게 바뀌어요."],
+  ["예수님은 왜 나사렛에서 기적을 많이 안 하셨어요?", "사람들이 예수님을 믿지 않았기 때문이에요.", "기적은 쇼가 아니라 믿음에 대한 응답이자 하나님 나라의 표지예요. 마음을 닫은 사람들 앞에서 예수님은 능력을 과시하지 않으셨어요."]
+ ]
+}
+}
