@@ -104,7 +104,7 @@ document.getElementById('add').onsubmit=e=>{e.preventDefault();const ad=document
  else document.getElementById('msg').textContent='이미 있거나 이름이 비어 있어요.';};
 document.getElementById('load').onclick=async()=>{
  const m=document.getElementById('msg');m.textContent='불러오는 중…';let n=0;
- for(const [sinif,q] of [['usaq','az'],['genc','az-genc']]){
+ for(const [sinif,q] of [['usaq','az'],['genc','az-genc'],['ko-usaq','ko-usaq'],['ko-genc','ko-genc']]){
   try{const r=await fetch(ENDPOINT+'?siyahi='+sinif);const d=await r.json();(d.names||[]).forEach(x=>{if(addOne(x,q,''))n++;});}catch(e){}
  }
  save(S);render();m.textContent=n?n+'명을 추가했어요.':'새로 추가할 이름이 없어요. (시트 ‘명단’을 확인해 주세요)';
