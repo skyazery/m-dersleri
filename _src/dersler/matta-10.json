@@ -1,0 +1,155 @@
+{
+"no": 10, "ref": "6:19–34", "deq": {"usaq": 40, "genc": 50},
+"img": ["matta/10-xezine.jpg", "matta/10-iki-aga.jpg", "matta/10-quslar.jpg", "matta/10-axtarin.jpg"],
+"hero": 2,
+"ko": {
+ "usaq": {
+  "basliq": "걱정하지 마세요",
+  "hedef": ["하늘에 보물을 쌓는다는 뜻을 알아요.", "하나님이 새와 꽃을 돌보시듯 나를 돌보신다는 것을 배워요.", "걱정 대신 하나님 나라를 먼저 구하는 법을 배워요."],
+  "sehneler": [
+   {"b": "하늘에 쌓는 보물", "ayə": "6:19–21", "alt": "좀먹고 녹슨 보물 상자", "p": ["예수님이 말씀하셨어요. “땅에 [[보물]]을 쌓아 두지 마세요. 좀이 먹고 녹이 슬고 도둑이 훔쳐 가요.”", "“하늘에 보물을 쌓으세요. 너의 보물이 있는 곳에 너의 마음도 있어요.” 사랑하고 나누는 일은 하늘에 쌓는 보물이에요."]},
+   {"b": "두 주인", "ayə": "6:22–24", "alt": "돈과 하나님 사이에서 고민하는 아이", "p": ["“한 사람이 두 [[주인]]을 섬길 수는 없어요.”", "“하나님과 돈을 함께 섬길 수 없어요.” 돈은 필요하지만, 우리 마음의 주인은 하나님 한 분이에요."]},
+   {"b": "새와 들꽃을 보세요", "ayə": "6:25–30", "alt": "새와 들꽃을 가리키며 이야기하시는 예수님", "p": ["“무엇을 먹을까, 무엇을 입을까 [[걱정]]하지 마세요. 하늘의 새를 보세요. 씨를 뿌리지도 않는데 하나님이 먹여 주세요.”", "“들의 [[백합화]]를 보세요. 솔로몬 왕의 옷보다 더 아름답게 하나님이 입혀 주세요. 하물며 너희는 얼마나 더 귀하게 돌보시겠어요?”"]},
+   {"b": "먼저 구하세요", "ayə": "6:31–34", "alt": "식탁에서 감사 기도를 드리는 가족", "p": ["“하늘 아버지는 너희에게 무엇이 필요한지 다 아세요.”", "“먼저 하나님의 [[나라]]와 그분의 뜻을 구하세요. 그러면 이 모든 것을 더해 주실 거예요. 내일 일은 내일 걱정하세요.”"]}
+  ],
+  "aye": {"metn": "“너희는 먼저 그의 나라와 그의 의를 구하라. 그리하면 이 모든 것을 너희에게 더하시리라.”", "ref": "6:33", "bos": "너희는 ___ 그의 ___와 그의 의를 ___하라. 그리하면 이 모든 것을 너희에게 더하시리라.", "sozler": ["먼저", "나라", "구"], "yalan": "나중에"},
+  "lugat": {
+   "보물": {"i": "💎", "x": "xəzinə", "m": "아주 귀하고 값진 것이에요.", "e": "하늘에 보물을 쌓으세요."},
+   "주인": {"i": "👑", "x": "ağa", "m": "다스리고 명령하는 사람이에요.", "e": "두 주인을 함께 섬길 수 없어요."},
+   "걱정": {"i": "😟", "x": "narahatlıq", "m": "나쁜 일이 생길까 봐 마음이 불안한 거예요.", "e": "먹을 것과 입을 것을 걱정하지 마세요."},
+   "백합화": {"i": "🌸", "x": "zanbaq", "m": "들판에 피는 예쁜 꽃이에요.", "e": "하나님이 들의 백합화를 아름답게 입히세요."},
+   "나라": {"i": "🏰", "x": "Padşahlıq", "m": "하나님이 왕이 되셔서 다스리시는 곳이에요.", "e": "먼저 하나님의 나라를 구하세요."}
+  },
+  "test": [
+   {"q": "땅에 쌓은 보물은 어떻게 되나요?", "o": ["좀먹고 녹슬고 도둑맞아요", "영원히 남아요", "점점 많아져요"], "a": 0, "f": "맞아요! 그래서 하늘에 쌓아요."},
+   {"q": "한 사람이 함께 섬길 수 없는 두 주인은?", "o": ["하나님과 돈", "아빠와 엄마", "선생님과 친구"], "a": 0, "f": "맞아요! 마음의 주인은 하나님 한 분이에요."},
+   {"q": "씨를 뿌리지 않는데도 하나님이 먹이시는 것은?", "o": ["하늘의 새", "돌멩이", "구름"], "a": 0, "f": "맞아요! 하물며 우리는 더 돌보세요."},
+   {"q": "예수님은 무엇을 ‘먼저’ 구하라고 하셨나요?", "o": ["하나님의 나라와 의", "맛있는 음식", "멋진 옷"], "a": 0, "f": "맞아요! 그러면 필요한 것을 더해 주세요."}
+  ],
+  "dusun": ["요즘 내가 가장 걱정하는 것은 무엇인가요?", "새와 꽃을 보면 하나님에 대해 무엇을 알 수 있나요?", "‘하늘에 보물을 쌓는’ 일에는 어떤 것이 있을까요?"],
+  "fealiyyet": {"ciz": "하늘을 나는 새와 들에 핀 꽃, 그리고 웃고 있는 나를 그려 보세요.", "b": "하나님께 맡길 걱정", "p": "하나님께 맡기고 싶은 걱정을 써 보세요.", "ph": "예) 시험이 걱정돼요. 하나님께 맡길게요."},
+  "dua": "하늘 아버지, 새를 먹이시고 꽃을 입히시는 것처럼 저를 돌봐 주셔서 감사합니다. 제 걱정을 아버지께 맡깁니다. 걱정 대신 하나님 나라를 먼저 구하게 해 주세요. 예수님 이름으로 기도합니다. 아멘."
+ },
+ "genc": {
+  "basliq": "먼저 구할 것",
+  "giris": "성적, 진로, 돈, 외모, 가족. 청소년의 걱정은 생각보다 무겁습니다. 예수님은 걱정을 꾸짖기보다 시선을 바꾸라고 하셨습니다. 하늘의 새와 들의 꽃을 보라고요.",
+  "meqsed": ["하늘에 보물을 쌓는 것과 두 주인의 의미를 이해해요.", "걱정의 뿌리와 하나님 아버지의 돌보심을 설명할 수 있어요.", "‘먼저 구하기’를 내 일상의 우선순위로 정해요."],
+  "sehneler": [
+   {"b": "보물이 있는 곳에", "ayə": "6:19–21", "alt": "좀먹고 녹슨 보물 상자", "p": ["당시 재산은 좋은 옷, 곡식, 동전이었어요. 옷은 [[좀]]이 먹고, 곡식은 벌레가 먹고, 흙벽 집은 도둑이 뚫고 들어왔어요.", "“네 보물 있는 그곳에는 네 마음도 있느니라.” 무엇에 시간과 돈을 쓰는지 보면 내 마음이 어디 있는지 알 수 있어요."], "deep": {"b": "깊이 보기 · 하늘의 보물", "p": "하늘의 보물은 죽어서 받는 보상만이 아니에요. 가난한 사람을 돕고(19:21), 하나님을 사랑하고, 사람을 살리는 일은 이미 지금 영원한 가치를 가져요."}},
+   {"b": "눈과 두 주인", "ayə": "6:22–24", "alt": "돈과 하나님 사이에서 고민하는 아이", "p": ["“눈은 몸의 등불이다.” 히브리식 표현에서 ‘성한 눈’은 너그러움, ‘나쁜 눈’은 인색함을 뜻했어요.", "“한 사람이 두 주인을 섬기지 못한다. 너희가 하나님과 [[재물]]을 겸하여 섬기지 못하느니라.” 여기서 ‘섬기다’는 노예가 주인에게 속한 것을 말해요."], "deep": {"b": "깊이 보기 · 맘몬", "p": "‘재물’은 아람어 ‘맘몬’이에요. 예수님은 돈을 하나님과 경쟁하는 인격처럼 부르세요. 돈은 좋은 종이지만 나쁜 주인이에요."}},
+   {"b": "새와 들꽃", "ayə": "6:25–30", "alt": "새와 들꽃을 가리키며 이야기하시는 예수님", "p": ["“목숨을 위하여 무엇을 먹을까 무엇을 마실까, 몸을 위하여 무엇을 입을까 [[염려]]하지 말라.” 예수님은 공중의 새와 들의 백합화를 보라고 하세요.", "“너희 중에 누가 염려함으로 그 키를 한 자라도 더할 수 있겠느냐?” 걱정은 아무것도 바꾸지 못하고 오늘의 기쁨만 빼앗아 가요."], "deep": {"b": "깊이 보기 · ‘하물며’", "p": "예수님의 논리는 ‘작은 것에서 큰 것으로’예요. 오늘 피었다 내일 아궁이에 던져질 풀도 입히신다면, 하나님의 자녀는 ‘하물며’ 얼마나 더 돌보시겠어요. 걱정의 반대는 무책임이 아니라 신뢰예요.", "rose": true}},
+   {"b": "먼저 그의 나라를", "ayə": "6:31–34", "alt": "식탁에서 감사 기도를 드리는 가족", "p": ["이방인들은 이 모든 것을 구하지만 하늘 아버지는 너희에게 필요한 줄 아세요. “너희는 먼저 그의 나라와 그의 [[의]]를 구하라.”", "“내일 일을 위하여 염려하지 말라. 내일 일은 내일이 염려할 것이요, 한 날의 괴로움은 그날로 족하니라.”"], "deep": {"b": "깊이 보기 · 주기도문과 연결", "p": "‘먼저 나라를 구하라’는 주기도문의 “나라가 임하시오며”, ‘필요를 아신다’는 “일용할 양식을 주시옵고”와 이어져요. 걱정을 기도로 바꾸는 것이 예수님의 방법이에요(빌 4:6)."}}
+  ],
+  "cedvel": {"b": "걱정을 신뢰로", "alt": "6:25–34", "bas": ["나의 걱정", "예수님의 말씀", "바꿔 볼 행동"], "set": [["먹을 것, 돈", "새를 먹이시는 아버지", "감사 기도로 하루 시작하기"], ["옷, 외모", "백합화를 입히시는 하나님", "비교 대신 나를 지으신 분께 감사하기"], ["미래, 진로", "내일 일은 내일이", "오늘 할 일 한 가지에 집중하기"], ["모든 것", "먼저 그의 나라와 의를", "걱정을 기도 제목으로 적기"]]},
+  "aye": {"metn": "“그런즉 너희는 먼저 그의 나라와 그의 의를 구하라. 그리하면 이 모든 것을 너희에게 더하시리라. 그러므로 내일 일을 위하여 염려하지 말라.”", "ref": "6:33–34"},
+  "lugat": {
+   "좀": {"i": "🦋", "o": "헬라어 세스", "x": "güvə", "s": "옷을 갉아먹는 벌레", "m": "비싼 옷이 큰 재산이던 시대에, 좀은 재산을 조용히 망가뜨리는 존재였어요.", "e": "야고보서 5:2도 “옷은 좀먹었다”고 해요."},
+   "재물": {"i": "💰", "o": "아람어 맘몬", "x": "var-dövlət", "s": "하나님과 경쟁하는 주인", "m": "돈과 재산 전체를 가리키는 말이에요. 예수님은 그것을 섬김의 대상이 될 수 있는 ‘주인’으로 부르세요.", "e": "누가복음 16:13에도 같은 말씀이 나와요."},
+   "염려": {"i": "😟", "o": "헬라어 메림나오, ‘마음이 나뉘다’", "x": "qayğı çəkmək", "s": "갈라진 마음", "m": "마음이 여러 방향으로 찢어지는 상태예요. 6:25–34에 여섯 번이나 나와요.", "e": "“너희 염려를 다 주께 맡기라”(벧전 5:7)."},
+   "의": {"i": "⚖️", "o": "헬라어 디카이오쉬네", "x": "salehlik", "s": "하나님 앞에 바른 삶", "m": "산상설교 전체의 주제예요. 하나님의 다스림 아래 바르게 사는 삶이에요.", "e": "“의에 주리고 목마른 자는 복이 있나니”(5:6)."}
+  },
+  "test": [
+   {"q": "“네 보물 있는 그곳에는 …도 있느니라.” 빈칸은?", "o": ["네 마음", "네 친구", "네 집"], "a": 0, "f": "맞아요. 보물이 마음의 방향을 보여 줘요."},
+   {"q": "‘재물’로 번역된 아람어는?", "o": ["맘몬", "아바", "호산나"], "a": 0, "f": "맞아요. 하나님과 경쟁하는 주인이에요."},
+   {"q": "‘염려’(메림나오)의 원래 뜻은?", "o": ["마음이 나뉘다", "기도하다", "계획하다"], "a": 0, "f": "맞아요. 걱정은 마음을 찢어 놓아요."},
+   {"q": "예수님이 보라고 하신 두 가지는?", "o": ["공중의 새와 들의 백합화", "별과 달", "바다와 산"], "a": 0, "f": "맞아요. 하물며 우리는 더 귀해요."},
+   {"q": "6:34에 따르면 내일 일은?", "o": ["내일이 염려할 것", "오늘 다 끝내야 할 것", "생각하지 말아야 할 것"], "a": 0, "f": "맞아요. 오늘에 충실하라는 뜻이에요."}
+  ],
+  "paylas": ["내 시간과 돈이 가장 많이 쓰이는 곳은 어디인가요? 그것이 내 마음에 대해 무엇을 말해 주나요?", "돈이 ‘좋은 종’이 아니라 ‘주인’이 되는 순간은 언제일까요?", "요즘 가장 큰 걱정 하나를 나눠 보세요. 그 걱정에 ‘하물며’를 적용하면 어떻게 될까요?", "이번 주 ‘먼저 구하기’를 실천할 구체적인 방법은 무엇인가요?"],
+  "etiraf": {"b": "나의 고백", "p": "지금 나를 가장 무겁게 하는 걱정을 적고, 그것을 하나님께 맡기는 기도로 바꿔 써 보세요.", "ph": "예) 하나님, 대학 입시가 너무 걱정돼요. 하지만 하늘의 새를 먹이시는 아버지께서 …"},
+  "dua": "하늘 아버지, 새를 먹이시고 들꽃을 입히시는 아버지께서 저를 ‘하물며’ 더 돌보심을 믿습니다. 제 마음을 나누는 걱정과 돈의 주인 노릇에서 자유롭게 해 주세요. 오늘 먼저 아버지의 나라와 의를 구하며 살게 해 주세요. 예수님 이름으로 기도합니다. 아멘."
+ }
+},
+"az": {
+ "usaq": {
+  "basliq": "Narahat olmayın",
+  "hedef": ["Göydə xəzinə toplamağın nə demək olduğunu öyrənəcəyik.", "Allahın quşlara və çiçəklərə qayğı göstərdiyi kimi bizə də qayğı göstərdiyini öyrənəcəyik.", "Narahatlıq əvəzinə əvvəlcə Allahın Padşahlığını axtarmağı öyrənəcəyik."],
+  "sehneler": [
+   {"b": "Göydə toplanan xəzinə", "ayə": "Matta 6:19–21", "alt": "Güvə yemiş və paslanmış xəzinə sandığı", "p": ["İsa dedi: “Yer üzündə özünüzə [[xəzinə]] toplamayın. Orada güvə və pas onu məhv edir, oğrular da oğurlayır.”", "“Göydə xəzinə toplayın. Xəzinən harada isə, ürəyin də orada olacaq.” Sevmək və paylaşmaq göydə toplanan xəzinədir."]},
+   {"b": "İki ağa", "ayə": "Matta 6:22–24", "alt": "Pul ilə Allah arasında düşünən uşaq", "p": ["“Heç kim iki [[ağa]]ya qulluq edə bilməz.”", "“Siz həm Allaha, həm də var-dövlətə qulluq edə bilməzsiniz.” Pul lazımdır, amma ürəyimizin Ağası yalnız Allahdır."]},
+   {"b": "Quşlara və çiçəklərə baxın", "ayə": "Matta 6:25–30", "alt": "Quşları və çöl çiçəklərini göstərib danışan İsa", "p": ["“Nə yeyəcəyik, nə geyinəcəyik deyə [[narahat olmayın|narahatlıq]]. Göydəki quşlara baxın. Onlar toxum əkmir, amma Allah onları yedizdirir.”", "“Çöldəki [[zanbaq]]lara baxın. Allah onları Süleyman padşahın paltarından da gözəl geyindirir. Bəs sizə nə qədər çox qayğı göstərəcək!”"]},
+   {"b": "Əvvəlcə axtarın", "ayə": "Matta 6:31–34", "alt": "Süfrə başında şükür duası edən ailə", "p": ["“Səmavi Atanız nəyə ehtiyacınız olduğunu bilir.”", "“Əvvəlcə Allahın [[Padşahlığını|Padşahlıq]] və Onun salehliyini axtarın, bütün bunlar da sizə əlavə olaraq veriləcək. Sabah üçün narahat olmayın.”"]}
+  ],
+  "aye": {"metn": "“Amma siz əvvəlcə Allahın Padşahlığını və Onun salehliyini axtarın, bütün bunlar da sizə əlavə olaraq veriləcək.”", "ref": "6:33", "bos": "Amma siz ___ Allahın ___ və Onun salehliyini axtarın, bütün bunlar da sizə ___ olaraq veriləcək.", "sozler": ["əvvəlcə", "Padşahlığını", "əlavə"], "yalan": "sonra"},
+  "lugat": {
+   "xəzinə": {"i": "💎", "x": "보물", "m": "Çox qiymətli və dəyərli şeydir.", "e": "Göydə xəzinə toplayın."},
+   "ağa": {"i": "👑", "x": "주인", "m": "Hökm edən və əmr verən adamdır.", "e": "Heç kim iki ağaya qulluq edə bilməz."},
+   "narahatlıq": {"i": "😟", "x": "걱정", "m": "Pis bir şey olacaq deyə ürəyin rahat olmamasıdır.", "e": "Yemək və paltar üçün narahat olmayın."},
+   "zanbaq": {"i": "🌸", "x": "백합화", "m": "Çöldə bitən gözəl çiçəkdir.", "e": "Allah çöldəki zanbaqları gözəl geyindirir."},
+   "Padşahlıq": {"i": "🏰", "x": "나라", "m": "Allahın Padşah kimi hökm sürdüyü yerdir.", "e": "Əvvəlcə Allahın Padşahlığını axtarın."}
+  },
+  "test": [
+   {"q": "Yer üzündə toplanan xəzinəyə nə olur?", "o": ["Güvə yeyir, paslanır, oğurlanır", "Əbədi qalır", "Getdikcə çoxalır"], "a": 0, "f": "Düzdür! Buna görə göydə toplayırıq."},
+   {"q": "Bir adamın birlikdə qulluq edə bilmədiyi iki ağa kimdir?", "o": ["Allah və var-dövlət", "Ata və ana", "Müəllim və dost"], "a": 0, "f": "Düzdür! Ürəyimizin Ağası yalnız Allahdır."},
+   {"q": "Toxum əkmədiyi halda Allahın yedizdirdiyi hansıdır?", "o": ["Göydəki quşlar", "Daşlar", "Buludlar"], "a": 0, "f": "Düzdür! Bizə isə daha çox qayğı göstərir."},
+   {"q": "İsa “əvvəlcə” nəyi axtarmağı dedi?", "o": ["Allahın Padşahlığını və salehliyini", "Dadlı yeməkləri", "Gözəl paltarları"], "a": 0, "f": "Düzdür! Lazım olanları da əlavə edəcək."}
+  ],
+  "dusun": ["Bu günlərdə ən çox nəyə görə narahat olursan?", "Quşlara və çiçəklərə baxanda Allah haqqında nə öyrənirik?", "“Göydə xəzinə toplamaq” üçün nə edə bilərik?"],
+  "fealiyyet": {"ciz": "Göydə uçan quşları, çöldə açan çiçəkləri və gülümsəyən özünü çək.", "b": "Hansı narahatlığını Allaha verəcəksən?", "p": "Allaha vermək istədiyin narahatlığı seç.", "ph": "",
+   "secim": {"basliq": "Hansı narahatlığını Allaha verəcəksən?", "izah": "Toxun və seç. Bir neçəsini seçə bilərsən.", "cumle": "Mən {x} haqqında narahatlığımı Allaha verirəm!", "bos": "dərslərim", "bag": "və",
+    "secimler": [["📚", "dərslərim"], ["👨‍👩‍👧", "ailəm"], ["👫", "dostlarım"], ["🤒", "sağlamlığım"], ["🏠", "evimiz"], ["🌱", "gələcəyim"], ["🍞", "yeməyimiz"], ["😨", "qorxularım"]]}},
+  "dua": "Səmavi Atam, quşları yedizdirdiyin və çiçəkləri geyindirdiyin kimi mənə də qayğı göstərdiyin üçün Sənə şükür edirəm. Narahatlıqlarımı Sənə verirəm. Narahat olmaq əvəzinə əvvəlcə Sənin Padşahlığını axtarmağıma kömək et. İsa Məsihin adı ilə dua edirəm. Amin."
+ },
+ "genc": {
+  "basliq": "Əvvəlcə nəyi axtarmalı",
+  "giris": "Qiymətlər, gələcək, pul, görünüş, ailə. Gənclərin narahatlıqları düşündüyümüzdən ağırdır. İsa narahatlığı danlamaq əvəzinə baxışımızı dəyişməyi dedi: göydəki quşlara və çöldəki çiçəklərə baxın.",
+  "meqsed": ["Göydə xəzinə toplamağın və iki ağanın mənasını anlayırıq.", "Narahatlığın kökünü və Səmavi Atanın qayğısını izah edə bilirik.", "“Əvvəlcə axtarmağı” gündəlik həyatımızın üstünlüyü edirik."],
+  "sehneler": [
+   {"b": "Xəzinən harada isə", "ayə": "Matta 6:19–21", "alt": "Güvə yemiş və paslanmış xəzinə sandığı", "p": ["O dövrdə var-dövlət bahalı paltar, taxıl və pul idi. Paltarı [[güvə]] yeyir, taxılı həşərat yeyir, oğrular isə palçıq divarı deşib evə girirdilər.", "“Xəzinən harada isə, ürəyin də orada olacaq.” Vaxtımızı və pulumuzu nəyə xərclədiyimizə baxsaq, ürəyimizin harada olduğunu görərik."], "deep": {"b": "Dərindən baxaq · Göydəki xəzinə", "p": "Göydəki xəzinə yalnız öləndən sonra alınan mükafat deyil. Kasıblara kömək etmək (19:21), Allahı sevmək və insanları xilasa aparmaq indidən əbədi dəyər daşıyır."}},
+   {"b": "Göz və iki ağa", "ayə": "Matta 6:22–24", "alt": "Pul ilə Allah arasında düşünən uşaq", "p": ["“Bədənin çırağı gözdür.” İbrani ifadəsində “sağlam göz” səxavəti, “pis göz” isə xəsisliyi bildirirdi.", "“Heç kim iki ağaya qulluq edə bilməz. Siz həm Allaha, həm də [[var-dövlət]]ə qulluq edə bilməzsiniz.” Burada “qulluq etmək” qulun ağasına məxsus olmasını bildirir."], "deep": {"b": "Dərindən baxaq · Mammon", "p": "“Var-dövlət” arami dilində “mammon”dur. İsa pulu Allahla rəqabət aparan bir şəxs kimi adlandırır. Pul yaxşı qul, amma pis ağadır."}},
+   {"b": "Quşlar və çöl çiçəkləri", "ayə": "Matta 6:25–30", "alt": "Quşları və çöl çiçəklərini göstərib danışan İsa", "p": ["“Canınız üçün nə yeyəcəyik, nə içəcəyik, bədəniniz üçün nə geyinəcəyik deyə [[qayğı çəkməyin|qayğı çəkmək]].” İsa göydəki quşlara və çöldəki zanbaqlara baxmağı deyir.", "“Hansınız qayğı çəkməklə ömrünüzə bir an əlavə edə bilər?” Narahatlıq heç nəyi dəyişmir, yalnız bu günün sevincini əlimizdən alır."], "deep": {"b": "Dərindən baxaq · “Bəs siz?”", "p": "İsanın məntiqi “kiçikdən böyüyə”dir. Bu gün olub sabah sobaya atılan otu belə geyindirirsə, Allahın övladlarına nə qədər çox qayğı göstərər. Narahatlığın əksi məsuliyyətsizlik deyil, etimaddır.", "rose": true}},
+   {"b": "Əvvəlcə Onun Padşahlığını", "ayə": "Matta 6:31–34", "alt": "Süfrə başında şükür duası edən ailə", "p": ["Bütpərəstlər bütün bunların ardınca qaçırlar, amma Səmavi Atanız bunlara ehtiyacınız olduğunu bilir. “Amma siz əvvəlcə Allahın Padşahlığını və Onun [[salehlik]]ini axtarın.”", "“Sabahkı gün üçün qayğı çəkməyin, çünki sabahkı gün öz qayğısını çəkəcək. Hər günün öz zəhməti kifayətdir.”"], "deep": {"b": "Dərindən baxaq · Rəbbin duası ilə əlaqə", "p": "“Əvvəlcə Padşahlığı axtarın” Rəbbin duasındakı “Qoy Sənin Padşahlığın gəlsin”, “ehtiyacınızı bilir” isə “Gündəlik çörəyimizi ver” ilə bağlıdır. Narahatlığı duaya çevirmək İsanın yoludur (Filip. 4:6)."}}
+  ],
+  "cedvel": {"b": "Narahatlıqdan etimada", "alt": "6:25–34", "bas": ["Narahatlığım", "İsanın sözü", "Dəyişəcəyim addım"], "set": [["Yemək, pul", "Quşları yedizdirən Ata", "Günə şükür duası ilə başlamaq"], ["Paltar, görünüş", "Zanbaqları geyindirən Allah", "Müqayisə əvəzinə Yaradanıma şükür etmək"], ["Gələcək, peşə", "Sabahkı gün öz qayğısını çəkəcək", "Bu günün bir işinə diqqət yetirmək"], ["Hər şey", "Əvvəlcə Onun Padşahlığını", "Narahatlığı dua mövzusu kimi yazmaq"]]},
+  "aye": {"metn": "“Amma siz əvvəlcə Allahın Padşahlığını və Onun salehliyini axtarın, bütün bunlar da sizə əlavə olaraq veriləcək. Buna görə sabahkı gün üçün qayğı çəkməyin.”", "ref": "6:33–34"},
+  "lugat": {
+   "güvə": {"i": "🦋", "o": "Yunanca ses", "x": "좀", "s": "Paltarı yeyən həşərat", "m": "Bahalı paltarın böyük var-dövlət sayıldığı dövrdə güvə sərvəti səssizcə məhv edirdi.", "e": "Yaqub 5:2 də “paltarlarınızı güvə yeyib” deyir."},
+   "var-dövlət": {"i": "💰", "o": "Arami dilində mammon", "x": "재물", "s": "Allahla rəqabət aparan ağa", "m": "Pul və bütün əmlakı bildirən sözdür. İsa onu qulluq edilə bilən “ağa” adlandırır.", "e": "Luka 16:13-də də eyni söz var."},
+   "qayğı çəkmək": {"i": "😟", "o": "Yunanca merimnao, “ürəyin bölünməsi”", "x": "염려하다", "s": "Bölünmüş ürək", "m": "Ürəyin müxtəlif tərəflərə parçalanması halıdır. 6:25–34-də altı dəfə keçir.", "e": "“Bütün qayğınızı Ona həvalə edin” (1 Peter 5:7)."},
+   "salehlik": {"i": "⚖️", "o": "Yunanca dikayosine", "x": "의", "s": "Allah qarşısında düzgün həyat", "m": "Bütün Dağüstü vəzin mövzusudur. Allahın hökmranlığı altında düzgün yaşanan həyatdır.", "e": "“Nə bəxtiyardır salehliyə ac və susuz olanlar” (5:6)."}
+  },
+  "test": [
+   {"q": "“Xəzinən harada isə, … da orada olacaq.” Boşluq nədir?", "o": ["ürəyin", "dostun", "evin"], "a": 0, "f": "Düzdür. Xəzinə ürəyin istiqamətini göstərir."},
+   {"q": "“Var-dövlət” kimi tərcümə olunan arami sözü hansıdır?", "o": ["Mammon", "Abba", "Hosanna"], "a": 0, "f": "Düzdür. Allahla rəqabət aparan ağa."},
+   {"q": "“Qayğı çəkmək” (merimnao) sözünün əsl mənası nədir?", "o": ["Ürəyin bölünməsi", "Dua etmək", "Plan qurmaq"], "a": 0, "f": "Düzdür. Narahatlıq ürəyi parçalayır."},
+   {"q": "İsanın baxmağı dediyi iki şey hansıdır?", "o": ["Göydəki quşlar və çöldəki zanbaqlar", "Ulduzlar və ay", "Dəniz və dağ"], "a": 0, "f": "Düzdür. Biz isə daha qiymətliyik."},
+   {"q": "6:34-ə görə sabahkı gün nə edəcək?", "o": ["Öz qayğısını çəkəcək", "Bu gün bitirilməlidir", "Heç düşünülməməlidir"], "a": 0, "f": "Düzdür. Bu günə sadiq olmaq deməkdir."}
+  ],
+  "paylas": ["Vaxtım və pulum ən çox nəyə gedir? Bu, ürəyim haqqında nə deyir?", "Pul nə vaxt “yaxşı qul” deyil, “ağa” olur?", "Bu günlərdəki ən böyük narahatlığını paylaş. Ona “bəs siz?” məntiqini tətbiq etsək nə olar?", "Bu həftə “əvvəlcə axtarmağı” necə konkret yaşaya bilərəm?"],
+  "etiraf": {"b": "Mənim etirafım", "p": "Hazırda səni ən çox yükləyən narahatlığı yaz və onu Allaha həvalə edən duaya çevir.", "ph": "Məsələn: Allahım, imtahanlar məni çox narahat edir. Amma göydəki quşları yedizdirən Ata …"},
+  "dua": "Səmavi Atam, quşları yedizdirən və çöl çiçəklərini geyindirən Sənin mənə daha çox qayğı göstərdiyinə inanıram. Ürəyimi bölən narahatlıqlardan və pulun ağalığından azad et. Bu gün əvvəlcə Sənin Padşahlığını və salehliyini axtararaq yaşamağıma kömək et. İsa Məsihin adı ilə dua edirəm. Amin."
+ }
+},
+"muellim": {
+ "mesaj": "10과의 중심은 한 문장입니다. **새와 들꽃을 돌보시는 아버지를 신뢰하는 사람은 걱정과 돈의 지배에서 벗어나 먼저 하나님 나라를 구한다.**",
+ "hazirliq": ["학생용 교재를 열 휴대폰이나 태블릿, 이어폰", "꽃 한 송이나 새 사진", "작은 종이와 ‘걱정 상자’ (어린이반)"],
+ "fon": [
+  ["1. 고대의 재산", "옷감, 곡식, 동전이 주요 재산이었습니다. 좀, ‘녹’(브로시스: 갉아먹음, 부식), 흙벽을 ‘뚫는’ 도둑은 모두 일상적 위협이었습니다."],
+  ["2. 성한 눈과 나쁜 눈", "신명기 15:9, 잠언 22:9에서 ‘악한 눈’은 인색함, ‘선한 눈’은 너그러움을 뜻합니다. 6:22–23은 돈 이야기 사이에 있어 이 의미로 읽는 것이 자연스럽습니다."],
+  ["3. 들의 백합화", "특정 꽃이라기보다 갈릴리 들판에 봄마다 피는 아네모네 등 들꽃 전체를 가리킵니다. 말린 풀은 화덕 땔감으로 썼습니다."],
+  ["4. 염려(메림나)", "6:25–34에 동사가 여섯 번 반복됩니다. ‘마음이 갈라짐’이라는 뉘앙스가 있습니다. 걱정 자체를 정죄하기보다 신뢰로 초대하는 본문입니다."],
+  ["5. 현지 상황", "경제적으로 어려운 가정의 학생도 있을 수 있습니다. ‘걱정하지 말라’가 가볍게 들리지 않도록, 교회 공동체가 서로 돕는 것(행 2:45)도 하나님의 돌보심의 방법임을 함께 말해 주세요."]
+ ],
+ "usaq_plan": [
+  ["5분", "꽃과 새 관찰", "꽃을 돌려 보거나 새 사진 보기", "“이 꽃은 누가 이렇게 예쁘게 만들었을까요?”"],
+  ["15분", "장면 1–4 듣고 읽기", "장면마다 듣기, 노란 낱말 누르기", "“하나님은 새보다 우리를 더 사랑하세요.”"],
+  ["5분", "외울 말씀", "빈칸 놀이 → ‘먼저’에 손뼉 치며 외우기", ""],
+  ["5분", "확인 퀴즈", "혼자 풀고 함께 확인", ""],
+  ["10분", "활동과 기도", "걱정 고르기 → 종이에 써서 ‘걱정 상자’에 넣고 함께 기도", ""]
+ ],
+ "genc_plan": [
+  ["5분", "열기", "“요즘 걱정 순위 1–3위” 익명 쪽지", ""],
+  ["15분", "장면 1–2", "보물과 마음, 성한 눈, 맘몬", ""],
+  ["10분", "장면 3–4와 표", "새와 들꽃, ‘하물며’, 먼저 구하기", "“걱정의 반대는 무책임이 아니라 신뢰”"],
+  ["5분", "확인 문제", "", ""],
+  ["15분", "나눔과 고백", "나눔 질문 2개 → 걱정을 기도로 바꿔 쓰기 → 서로 기도", ""]
+ ],
+ "ipucu_usaq": ["‘걱정하면 안 돼요’가 아니라 ‘걱정을 하나님께 드려요’로 말해 주세요.", "가정 형편이 어려운 아이가 상처받지 않도록 돈과 음식 이야기에 주의하세요.", "걱정 상자의 쪽지는 교사만 읽고, 개별적으로 챙겨 주세요."],
+ "ipucu_genc": ["불안이나 우울이 심해 보이는 학생은 따로 대화하고 필요하면 전문가의 도움을 연결하세요.", "‘먼저 구하라’를 ‘공부를 소홀히 해도 된다’로 오해하지 않게 하세요. 우선순위와 신뢰의 문제입니다.", "다음 과(7장)는 산상설교의 마지막입니다. 반석 위에 지은 집으로 마무리됩니다."],
+ "suallar": [
+  ["새는 먹이를 찾으러 다니잖아요?", "맞아요. 새도 열심히 날아다녀요. 하지만 걱정하지는 않아요. 우리도 열심히 하되 걱정은 하나님께 맡겨요.", "예수님은 일하지 말라는 게 아니에요. 새도 먹이를 찾지만 창고를 쌓으며 불안해하지 않아요. 수고와 염려는 달라요."],
+  ["우리 집은 정말 돈이 없는데 걱정이 안 될 수 있어요?", "걱정되는 마음은 당연해요. 그 마음을 하나님께 말씀드리고, 교회 식구들도 함께 도울 거예요.", "예수님은 가난을 가볍게 여기지 않으셨어요. 하나님은 공동체를 통해서도 돌보세요. 필요가 있다면 선생님께 꼭 이야기해 주세요."],
+  ["부자가 되면 안 돼요?", "돈이 많아도 하나님을 가장 사랑하면 괜찮아요. 돈이 내 주인이 되면 안 돼요.", "문제는 돈의 양이 아니라 누가 주인이냐예요. 돈은 하나님 나라를 위해 쓸 때 ‘하늘의 보물’이 돼요."]
+ ]
+}
+}
