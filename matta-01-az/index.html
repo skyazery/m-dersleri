@@ -122,7 +122,7 @@ body{word-break:keep-all;-webkit-font-smoothing:antialiased}h1,h2,h3{letter-spac
 <div aria-label="Səsli oxu" class="audio" role="group">
 <button class="pill" id="playAll"><svg viewbox="0 0 16 16"><path d="M4 2l10 6-10 6z" fill="currentColor"></path></svg>Əvvəldən dinlə</button>
 <button class="pill ghost" id="stopAll">Dayandır</button>
-<button aria-pressed="true" class="pill ghost" id="slow">Yavaş</button>
+<button aria-pressed="false" class="pill ghost" id="slow">Yavaş</button>
 <p class="note" id="ttsNote">Sarı sözlərə toxun, mənası çıxacaq. 🔊 düyməsi Azərbaycan dilində oxuyur.</p>
 </div>
 <section class="goal">
@@ -235,7 +235,7 @@ body{word-break:keep-all;-webkit-font-smoothing:antialiased}h1,h2,h3{letter-spac
 <script>
 /* Səsli oxu: əvvəlcədən yazılmış Azərbaycan dili səs faylları (Banu) */
 const ttsNote=document.getElementById('ttsNote');
-const AUD={el:null,queue:[],rate:0.9,cur:null,follow:false};
+const AUD={el:null,queue:[],rate:1,cur:null,follow:false};
 function stopTTS(){AUD.queue=[];if(AUD.el){try{AUD.el.pause()}catch(e){}AUD.el=null}document.querySelectorAll('.reading').forEach(e=>e.classList.remove('reading'))}
 function next(){if(AUD.cur)AUD.cur.classList.remove('reading');const it=AUD.queue.shift();if(!it){AUD.el=null;AUD.cur=null;return}
  const a=new Audio('audio/'+it.k+'.mp3');a.playbackRate=AUD.rate;a.preservesPitch=true;AUD.el=a;AUD.cur=it.el||null;
@@ -290,7 +290,7 @@ document.querySelectorAll('.scene .say').forEach(b=>b.onclick=()=>speakEls(scene
 document.getElementById('playAll').onclick=()=>{let all=[];document.querySelectorAll('.scene').forEach(s=>all=all.concat(sceneEls(s)));all.push(document.getElementById('verseText'));speakEls(all,true)};
 document.getElementById('stopAll').onclick=stopTTS;
 const slow=document.getElementById('slow');
-slow.onclick=()=>{const on=slow.getAttribute('aria-pressed')!=='true';slow.setAttribute('aria-pressed',on);AUD.rate=on?0.9:1.1;if(AUD.el)AUD.el.playbackRate=AUD.rate};
+slow.onclick=()=>{const on=slow.getAttribute('aria-pressed')!=='true';slow.setAttribute('aria-pressed',on);AUD.rate=on?0.85:1;if(AUD.el)AUD.el.playbackRate=AUD.rate};
 document.getElementById('sayVerse').onclick=()=>speakEls([document.getElementById('verseText')]);
 document.getElementById('sayPrayer').onclick=()=>speakEls([document.getElementById('prayerText')]);
 const Q=[
