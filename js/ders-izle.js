@@ -269,21 +269,31 @@
   var ta = document.getElementById('mine');
   if (ta && KIDS) {
     /* Uşaqlar üçün yazmaq əvəzinə düymələrlə cümlə qururuq */
-    var PLACES = [['🏠', 'evdə'], ['🏫', 'məktəbdə'], ['🚶', 'yolda'], ['🛏️', 'yatağımda'],
+    /* Dərsə görə seçimlər: window.DERS.secim = {basliq, izah, cumle:'… {ad} … {x}', adsiz, bos, bag, secimler:[[emoji, söz]]} */
+    var SC = CFG.secim || null;
+    var PLACES = SC ? SC.secimler : [['🏠', 'evdə'], ['🏫', 'məktəbdə'], ['🚶', 'yolda'], ['🛏️', 'yatağımda'],
       ['👨‍👩‍👧', 'ailəmlə'], ['🤝', 'dostlarımla'], ['⛪', 'Cəmiyyətdə'],
       ['😨', 'qorxanda'], ['😢', 'kədərlənəndə'], ['😊', 'sevinəndə']];
     var picked = [];
     var lbl = document.querySelector('label[for="mine"]');
-    if (lbl) lbl.textContent = 'Toxun və seç. Bir neçəsini seçə bilərsən.';
+    if (lbl) lbl.textContent = (SC && SC.izah) || 'Toxun və seç. Bir neçəsini seçə bilərsən.';
     var card = ta.closest('.card'); var h = card && card.querySelector('h3');
-    if (h) h.textContent = 'Allah səninlə haradadır?';
+    if (h) h.textContent = (SC && SC.basliq) || 'Allah səninlə haradadır?';
     ta.hidden = true;
     var wrapB = document.createElement('div'); wrapB.className = 'dz-build';
     var grid2 = document.createElement('div'); grid2.className = 'dz-chips';
     var sent = document.createElement('p'); sent.className = 'dz-sent'; sent.setAttribute('aria-live', 'polite');
     function particle(w) { var m = w.match(/[aıouəeiöüAIOUƏEİÖÜ](?=[^aıouəeiöüAIOUƏEİÖÜ]*$)/); return m && /[aıouAIOU]/.test(m[0]) ? 'da' : 'də'; }
+    function joinAz(list) {
+      if (list.length < 2) return list.join('');
+      return list.slice(0, -1).join(', ') + ' ' + (SC.bag || 'və') + ' ' + list[list.length - 1];
+    }
     function sentence() {
       var n = getName();
+      if (SC) {
+        var s2 = SC.cumle.replace('{ad}', n || SC.adsiz || 'mən').replace('{x}', picked.length ? joinAz(picked) : (SC.bos || '…'));
+        return s2.charAt(0).toLocaleUpperCase('az') + s2.slice(1);
+      }
       var s = n ? 'Allah ' + n + ' ilə birlikdədir.' : 'Allah mənimlə birlikdədir.';
       if (picked.length) {
         var parts2 = picked.map(function (w) { return w + ' ' + particle(w); });
