@@ -1,512 +1,89 @@
 <!doctype html>
-<html lang="az">
+<html lang="ko">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Müqəddəs Kitab dərsləri</title>
+<title>성경교재 · Müqəddəs Kitab dərsləri</title>
 <link rel="stylesheet" href="fonts/pretendardvariable-dynamic-subset.css">
 <style>
-:root{--bg:#EEF2F8;--paper:#fff;--ink:#1C2A48;--soft:#5A6A88;--line:#D9E0EC;--gold:#D9A23B;--teal:#2C8A84;--teal-soft:#DCEFEC;--night:#1A2550;color-scheme:light}
-@media (prefers-color-scheme:dark){:root{--bg:#111829;--paper:#1A2340;--ink:#EBF0F8;--soft:#A8B5CC;--line:#2C385A;--gold:#EDB650;--teal:#5CC2B9;--teal-soft:#173A39;--night:#0B1228;color-scheme:dark}}
+:root{--bg:#F3F5F9;--paper:#fff;--ink:#1C2A48;--soft:#5E6C87;--line:#DCE2EC;--teal:#2C8A84;--teal-soft:#E1F1EF;--gold:#C98F22;color-scheme:light}
+@media (prefers-color-scheme:dark){:root{--bg:#111829;--paper:#1A2340;--ink:#EBF0F8;--soft:#A8B5CC;--line:#2C385A;--teal:#5CC2B9;--teal-soft:#173A39;--gold:#EDB650;color-scheme:dark}}
 *{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--ink);font-family:"Pretendard Variable",Pretendard,-apple-system,"Apple SD Gothic Neo","Segoe UI","Noto Sans KR",sans-serif;line-height:1.6}
-.wrap{max-width:720px;margin:0 auto;padding:16px max(16px,env(safe-area-inset-left)) 60px;display:flex;flex-direction:column;gap:22px}
-.hero{border-radius:24px;overflow:hidden;background:var(--night);color:#F6F1E4}
-.hero svg{display:block;width:100%;height:auto}
-.hero div{padding:16px 22px 22px}
-.hero h1{margin:0;font-weight:900;font-size:clamp(28px,7vw,40px);color:#FFF8E8;line-height:1.2}
-.hero p{margin:6px 0 0;color:#C7D0E6;font-family:"Pretendard Variable",Pretendard,-apple-system,"Apple SD Gothic Neo","Segoe UI","Noto Sans KR",sans-serif}
-h2{margin:0;font-weight:900;font-size:22px}
-.card{background:var(--paper);border-radius:20px;padding:18px 20px;display:flex;flex-direction:column;gap:12px;border:1px solid var(--line)}
-.card .eyebrow{font-size:13px;letter-spacing:.06em;color:var(--gold);font-weight:800}
-.card h3{margin:0;font-weight:900;font-size:22px}
-.card .ref{color:var(--soft);font-size:14px}
-.links{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:8px}
-.links a{display:flex;flex-direction:column;gap:2px;text-decoration:none;color:var(--ink);background:var(--bg);border:2px solid var(--line);border-radius:14px;padding:10px 14px}
-.links a:hover,.links a:focus-visible{border-color:var(--teal);outline:none}
-.links a.main{background:var(--teal);border-color:var(--teal);color:#fff}
-.links b{font-weight:800}
-.links small{font-family:"Pretendard Variable",Pretendard,-apple-system,"Apple SD Gothic Neo","Segoe UI","Noto Sans KR",sans-serif;opacity:.8}
-.soon{opacity:.6}
-footer{color:var(--soft);font-size:13px;text-align:center}
-
-body{word-break:keep-all;-webkit-font-smoothing:antialiased}h1,h2,h3{letter-spacing:-.02em}
-.hero img{display:block;width:100%;height:auto;aspect-ratio:5/2;object-fit:cover;object-position:50% 55%}
-.card{padding:0;overflow:hidden;gap:0}.card .thumb{display:block;width:100%;height:auto;aspect-ratio:5/2;object-fit:cover}.card .body{padding:16px 20px 18px;display:flex;flex-direction:column;gap:8px}.card .ko{margin:0;color:var(--soft)}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Pretendard Variable",Pretendard,-apple-system,"Apple SD Gothic Neo","Segoe UI","Noto Sans KR",sans-serif;line-height:1.55;word-break:keep-all;-webkit-font-smoothing:antialiased}
+.wrap{max-width:640px;margin:0 auto;padding:40px max(16px,env(safe-area-inset-left)) 60px}
+header{text-align:center;margin-bottom:28px}
+h1{margin:0;font-size:clamp(34px,9vw,46px);font-weight:900;letter-spacing:-.03em}
+header p{margin:6px 0 0;color:var(--soft);font-size:15px}
+.group{margin:0 0 14px}
+.group h2{margin:0 0 8px;font-size:14px;font-weight:800;color:var(--soft);letter-spacing:.04em}
+.btns{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.btns button{font:inherit;font-size:17px;font-weight:800;padding:16px 10px;border-radius:16px;border:2px solid var(--line);background:var(--paper);color:var(--ink);cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:2px}
+.btns button span{font-size:26px;line-height:1}
+.btns button small{font-size:12px;font-weight:600;color:var(--soft)}
+.btns button:hover{border-color:var(--teal)}
+.btns button[aria-pressed="true"]{background:var(--teal);border-color:var(--teal);color:#fff}
+.btns button[aria-pressed="true"] small{color:#E6F4F2}
+#list{margin-top:26px}
+#list h3{margin:0 0 4px;font-size:20px;font-weight:900}
+#list .sub{margin:0 0 12px;color:var(--soft);font-size:14px}
+ol{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px}
+ol a{display:flex;align-items:center;gap:14px;padding:12px 14px;background:var(--paper);border:1px solid var(--line);border-radius:14px;text-decoration:none;color:var(--ink)}
+ol a:hover,ol a:focus-visible{border-color:var(--teal);outline:none}
+.no{flex:none;width:40px;height:40px;border-radius:12px;background:var(--teal-soft);color:var(--teal);display:grid;place-items:center;font-weight:900;font-size:17px}
+.tt{display:flex;flex-direction:column;min-width:0}
+.tt b{font-weight:800;font-size:16px}
+.tt small{color:var(--soft);font-size:13px}
+.hint{text-align:center;color:var(--soft);padding:24px 0}
+footer{margin-top:40px;text-align:center;color:var(--soft);font-size:13px}
 </style>
 </head>
 <body>
 <div class="wrap">
-<header class="hero"><img src="img/nt/02-isanin-dogulmasi.jpg" width="1280" height="757" alt="Tövlədə körpə İsa, Məryəm və Yusif">
-<div><h1>Müqəddəs Kitab dərsləri</h1><p>Uşaqlar və yeniyetmələr üçün · 어린이·청소년 성경 공부</p></div></header>
+<header>
+<h1>성경교재</h1>
+<p>Müqəddəs Kitab dərsləri · Mattanın yazdığı Müjdə</p>
+</header>
 
-<h2>Mattanın yazdığı Müjdə</h2>
-<!-- dersler:basla -->
-<section class="card">
-<img class="thumb" src="img/nt/02-isanin-dogulmasi.jpg" width="1280" height="757" loading="lazy" alt="">
-<div class="body">
-<span class="eyebrow">1-ci dərs · 제1과 · Matta 1:1–25</span>
-<h3>İmmanuel — Allah bizimlədir!</h3>
-<p class="ko">임마누엘, 하나님이 우리와 함께</p>
-<div class="links">
-<a class="main" href="matta-01-az/"><b>Azərbaycanca · uşaqlar</b><small>🔊 səsli oxu ilə</small></a>
-<a class="main" href="matta-01-az-genc/"><b>Azərbaycanca · yeniyetmələr</b><small>🔊 səsli oxu ilə</small></a>
-<a href="matta-01-ko-usaq/"><b>한국어 · 어린이</b><small>그림 이야기와 퀴즈</small></a>
-<a href="matta-01-ko-genc/"><b>한국어 · 청소년</b><small>배경·원어·나눔</small></a>
+<div class="group">
+<h2>AZƏRBAYCANCA</h2>
+<div class="btns">
+<button type="button" data-k="az" aria-pressed="false"><span>🧒</span>Uşaqlar<small>🔊 səsli oxu ilə</small></button>
+<button type="button" data-k="az-genc" aria-pressed="false"><span>🧑</span>Yeniyetmələr<small>🔊 səsli oxu ilə</small></button>
 </div>
 </div>
-</section>
-<section class="card">
-<img class="thumb" src="img/nt/03-majuslar.jpg" width="1280" height="757" loading="lazy" alt="">
-<div class="body">
-<span class="eyebrow">2-ci dərs · 제2과 · Matta 2:1–12</span>
-<h3>Ulduzun ardınca gələn müdriklər</h3>
-<p class="ko">별을 따라온 동방박사</p>
-<div class="links">
-<a class="main" href="matta-02-az/"><b>Azərbaycanca · uşaqlar</b><small>🔊 səsli oxu ilə</small></a>
-<a class="main" href="matta-02-az-genc/"><b>Azərbaycanca · yeniyetmələr</b><small>🔊 səsli oxu ilə</small></a>
-<a href="matta-02-ko-usaq/"><b>한국어 · 어린이</b><small>그림 이야기와 퀴즈</small></a>
-<a href="matta-02-ko-genc/"><b>한국어 · 청소년</b><small>배경·원어·나눔</small></a>
+<div class="group">
+<h2>한국어</h2>
+<div class="btns">
+<button type="button" data-k="ko-usaq" aria-pressed="false"><span>🧒</span>어린이<small>그림 이야기와 퀴즈</small></button>
+<button type="button" data-k="ko-genc" aria-pressed="false"><span>🧑</span>청소년<small>배경·원어·나눔</small></button>
 </div>
 </div>
-</section>
-<section class="card">
-<img class="thumb" src="img/nt/04-misire-qacis.jpg" width="1280" height="757" loading="lazy" alt="">
-<div class="body">
-<span class="eyebrow">3-cü dərs · 제3과 · Matta 2:13–23</span>
-<h3>Allahın qoruduğu körpə İsa</h3>
-<p class="ko">하나님이 지켜 주신 아기 예수님</p>
-<div class="links">
-<a class="main" href="matta-03-az/"><b>Azərbaycanca · uşaqlar</b><small>🔊 səsli oxu ilə</small></a>
-<a class="main" href="matta-03-az-genc/"><b>Azərbaycanca · yeniyetmələr</b><small>🔊 səsli oxu ilə</small></a>
-<a href="matta-03-ko-usaq/"><b>한국어 · 어린이</b><small>그림 이야기와 퀴즈</small></a>
-<a href="matta-03-ko-genc/"><b>한국어 · 청소년</b><small>배경·원어·나눔</small></a>
-</div>
-</div>
-</section>
-<section class="card">
-<img class="thumb" src="img/nt/06-vaftiz.jpg" width="1280" height="757" loading="lazy" alt="">
-<div class="body">
-<span class="eyebrow">4-cü dərs · 제4과 · Matta 3:1–17</span>
-<h3>Göydən gələn səs</h3>
-<p class="ko">하늘에서 들린 목소리</p>
-<div class="links">
-<a class="main" href="matta-04-az/"><b>Azərbaycanca · uşaqlar</b><small>🔊 səsli oxu ilə</small></a>
-<a class="main" href="matta-04-az-genc/"><b>Azərbaycanca · yeniyetmələr</b><small>🔊 səsli oxu ilə</small></a>
-<a href="matta-04-ko-usaq/"><b>한국어 · 어린이</b><small>그림 이야기와 퀴즈</small></a>
-<a href="matta-04-ko-genc/"><b>한국어 · 청소년</b><small>배경·원어·나눔</small></a>
-</div>
-</div>
-</section>
-<section class="card">
-<img class="thumb" src="img/nt/07-sinaq.jpg" width="1280" height="757" loading="lazy" alt="">
-<div class="body">
-<span class="eyebrow">5-ci dərs · 제5과 · Matta 4:1–11</span>
-<h3>Kəlamla qalib gələn İsa</h3>
-<p class="ko">말씀으로 이기신 예수님</p>
-<div class="links">
-<a class="main" href="matta-05-az/"><b>Azərbaycanca · uşaqlar</b><small>🔊 səsli oxu ilə</small></a>
-<a class="main" href="matta-05-az-genc/"><b>Azərbaycanca · yeniyetmələr</b><small>🔊 səsli oxu ilə</small></a>
-<a href="matta-05-ko-usaq/"><b>한국어 · 어린이</b><small>그림 이야기와 퀴즈</small></a>
-<a href="matta-05-ko-genc/"><b>한국어 · 청소년</b><small>배경·원어·나눔</small></a>
-</div>
-</div>
-</section>
-<section class="card">
-<img class="thumb" src="img/nt/08-sagirdler-cagirilir.jpg" width="1280" height="757" loading="lazy" alt="">
-<div class="body">
-<span class="eyebrow">6-cı dərs · 제6과 · Matta 4:12–25</span>
-<h3>Ardımca gəlin</h3>
-<p class="ko">나를 따라오너라</p>
-<div class="links">
-<a class="main" href="matta-06-az/"><b>Azərbaycanca · uşaqlar</b><small>🔊 səsli oxu ilə</small></a>
-<a class="main" href="matta-06-az-genc/"><b>Azərbaycanca · yeniyetmələr</b><small>🔊 səsli oxu ilə</small></a>
-<a href="matta-06-ko-usaq/"><b>한국어 · 어린이</b><small>그림 이야기와 퀴즈</small></a>
-<a href="matta-06-ko-genc/"><b>한국어 · 청소년</b><small>배경·원어·나눔</small></a>
-</div>
-</div>
-</section>
-<section class="card">
-<img class="thumb" src="img/nt/13-dagustu-vaaz.jpg" width="1280" height="757" loading="lazy" alt="">
-<div class="body">
-<span class="eyebrow">7-ci dərs · 제7과 · Matta 5:1–16</span>
-<h3>Dünyanın duzu və nuru</h3>
-<p class="ko">세상의 소금과 빛</p>
-<div class="links">
-<a class="main" href="matta-07-az/"><b>Azərbaycanca · uşaqlar</b><small>🔊 səsli oxu ilə</small></a>
-<a class="main" href="matta-07-az-genc/"><b>Azərbaycanca · yeniyetmələr</b><small>🔊 səsli oxu ilə</small></a>
-<a href="matta-07-ko-usaq/"><b>한국어 · 어린이</b><small>그림 이야기와 퀴즈</small></a>
-<a href="matta-07-ko-genc/"><b>한국어 · 청소년</b><small>배경·원어·나눔</small></a>
-</div>
-</div>
-</section>
-<section class="card">
-<img class="thumb" src="img/matta/08-gunes.jpg" width="1280" height="757" loading="lazy" alt="">
-<div class="body">
-<span class="eyebrow">8-ci dərs · 제8과 · Matta 5:17–48</span>
-<h3>Düşmənlərinizi sevin</h3>
-<p class="ko">원수를 사랑하라</p>
-<div class="links">
-<a class="main" href="matta-08-az/"><b>Azərbaycanca · uşaqlar</b><small>🔊 səsli oxu ilə</small></a>
-<a class="main" href="matta-08-az-genc/"><b>Azərbaycanca · yeniyetmələr</b><small>🔊 səsli oxu ilə</small></a>
-<a href="matta-08-ko-usaq/"><b>한국어 · 어린이</b><small>그림 이야기와 퀴즈</small></a>
-<a href="matta-08-ko-genc/"><b>한국어 · 청소년</b><small>배경·원어·나눔</small></a>
-</div>
-</div>
-</section>
-<section class="card">
-<img class="thumb" src="img/matta/09-ata-dua.jpg" width="1280" height="757" loading="lazy" alt="">
-<div class="body">
-<span class="eyebrow">9-cu dərs · 제9과 · Matta 6:1–18</span>
-<h3>Göylərdə olan Atamız</h3>
-<p class="ko">하늘에 계신 우리 아버지</p>
-<div class="links">
-<a class="main" href="matta-09-az/"><b>Azərbaycanca · uşaqlar</b><small>🔊 səsli oxu ilə</small></a>
-<a class="main" href="matta-09-az-genc/"><b>Azərbaycanca · yeniyetmələr</b><small>🔊 səsli oxu ilə</small></a>
-<a href="matta-09-ko-usaq/"><b>한국어 · 어린이</b><small>그림 이야기와 퀴즈</small></a>
-<a href="matta-09-ko-genc/"><b>한국어 · 청소년</b><small>배경·원어·나눔</small></a>
-</div>
-</div>
-</section>
-<section class="card">
-<img class="thumb" src="img/matta/10-quslar.jpg" width="1280" height="757" loading="lazy" alt="">
-<div class="body">
-<span class="eyebrow">10-cu dərs · 제10과 · Matta 6:19–34</span>
-<h3>Narahat olmayın</h3>
-<p class="ko">걱정하지 마세요</p>
-<div class="links">
-<a class="main" href="matta-10-az/"><b>Azərbaycanca · uşaqlar</b><small>🔊 səsli oxu ilə</small></a>
-<a class="main" href="matta-10-az-genc/"><b>Azərbaycanca · yeniyetmələr</b><small>🔊 səsli oxu ilə</small></a>
-<a href="matta-10-ko-usaq/"><b>한국어 · 어린이</b><small>그림 이야기와 퀴즈</small></a>
-<a href="matta-10-ko-genc/"><b>한국어 · 청소년</b><small>배경·원어·나눔</small></a>
-</div>
-</div>
-</section>
-<section class="card">
-<img class="thumb" src="img/matta/11-qaya-ev.jpg" width="1280" height="757" loading="lazy" alt="">
-<div class="body">
-<span class="eyebrow">11-ci dərs · 제11과 · Matta 7:1–29</span>
-<h3>Qaya üzərində tikilən ev</h3>
-<p class="ko">반석 위에 지은 집</p>
-<div class="links">
-<a class="main" href="matta-11-az/"><b>Azərbaycanca · uşaqlar</b><small>🔊 səsli oxu ilə</small></a>
-<a class="main" href="matta-11-az-genc/"><b>Azərbaycanca · yeniyetmələr</b><small>🔊 səsli oxu ilə</small></a>
-<a href="matta-11-ko-usaq/"><b>한국어 · 어린이</b><small>그림 이야기와 퀴즈</small></a>
-<a href="matta-11-ko-genc/"><b>한국어 · 청소년</b><small>배경·원어·나눔</small></a>
-</div>
-</div>
-</section>
-<section class="card">
-<img class="thumb" src="img/nt/17-firtina.jpg" width="1280" height="757" loading="lazy" alt="">
-<div class="body">
-<span class="eyebrow">12-ci dərs · 제12과 · Matta 8:1–34</span>
-<h3>Küləklər və dəniz də itaət edir</h3>
-<p class="ko">바람과 바다도 순종해요</p>
-<div class="links">
-<a class="main" href="matta-12-az/"><b>Azərbaycanca · uşaqlar</b><small>🔊 səsli oxu ilə</small></a>
-<a class="main" href="matta-12-az-genc/"><b>Azərbaycanca · yeniyetmələr</b><small>🔊 səsli oxu ilə</small></a>
-<a href="matta-12-ko-usaq/"><b>한국어 · 어린이</b><small>그림 이야기와 퀴즈</small></a>
-<a href="matta-12-ko-genc/"><b>한국어 · 청소년</b><small>배경·원어·나눔</small></a>
-</div>
-</div>
-</section>
-<section class="card">
-<img class="thumb" src="img/nt/20-yair-qizi.jpg" width="1280" height="757" loading="lazy" alt="">
-<div class="body">
-<span class="eyebrow">13-cü dərs · 제13과 · Matta 9:1–38</span>
-<h3>Günahkarları çağırmağa gəldi</h3>
-<p class="ko">죄인을 부르러 오셨어요</p>
-<div class="links">
-<a class="main" href="matta-13-az/"><b>Azərbaycanca · uşaqlar</b><small>🔊 səsli oxu ilə</small></a>
-<a class="main" href="matta-13-az-genc/"><b>Azərbaycanca · yeniyetmələr</b><small>🔊 səsli oxu ilə</small></a>
-<a href="matta-13-ko-usaq/"><b>한국어 · 어린이</b><small>그림 이야기와 퀴즈</small></a>
-<a href="matta-13-ko-genc/"><b>한국어 · 청소년</b><small>배경·원어·나눔</small></a>
-</div>
-</div>
-</section>
-<section class="card">
-<img class="thumb" src="img/matta/14-on-iki.jpg" width="1280" height="757" loading="lazy" alt="">
-<div class="body">
-<span class="eyebrow">14-cü dərs · 제14과 · Matta 10:1–42</span>
-<h3>Siz sərçələrdən dəyərlisiniz</h3>
-<p class="ko">너희는 참새보다 귀해요</p>
-<div class="links">
-<a class="main" href="matta-14-az/"><b>Azərbaycanca · uşaqlar</b><small>🔊 səsli oxu ilə</small></a>
-<a class="main" href="matta-14-az-genc/"><b>Azərbaycanca · yeniyetmələr</b><small>🔊 səsli oxu ilə</small></a>
-<a href="matta-14-ko-usaq/"><b>한국어 · 어린이</b><small>그림 이야기와 퀴즈</small></a>
-<a href="matta-14-ko-genc/"><b>한국어 · 청소년</b><small>배경·원어·나눔</small></a>
-</div>
-</div>
-</section>
-<section class="card">
-<img class="thumb" src="img/matta/15-boyunduruq.jpg" width="1280" height="757" loading="lazy" alt="">
-<div class="body">
-<span class="eyebrow">15-ci dərs · 제15과 · Matta 11:1–30</span>
-<h3>Hamınız yanıma gəlin</h3>
-<p class="ko">다 내게로 오라</p>
-<div class="links">
-<a class="main" href="matta-15-az/"><b>Azərbaycanca · uşaqlar</b><small>🔊 səsli oxu ilə</small></a>
-<a class="main" href="matta-15-az-genc/"><b>Azərbaycanca · yeniyetmələr</b><small>🔊 səsli oxu ilə</small></a>
-<a href="matta-15-ko-usaq/"><b>한국어 · 어린이</b><small>그림 이야기와 퀴즈</small></a>
-<a href="matta-15-ko-genc/"><b>한국어 · 청소년</b><small>배경·원어·나눔</small></a>
-</div>
-</div>
-</section>
-<section class="card">
-<img class="thumb" src="img/matta/16-qurumus-el.jpg" width="1280" height="757" loading="lazy" alt="">
-<div class="body">
-<span class="eyebrow">16-cı dərs · 제16과 · Matta 12:1–50</span>
-<h3>Şənbə gününün Rəbbi</h3>
-<p class="ko">안식일의 주인</p>
-<div class="links">
-<a class="main" href="matta-16-az/"><b>Azərbaycanca · uşaqlar</b><small>🔊 səsli oxu ilə</small></a>
-<a class="main" href="matta-16-az-genc/"><b>Azərbaycanca · yeniyetmələr</b><small>🔊 səsli oxu ilə</small></a>
-<a href="matta-16-ko-usaq/"><b>한국어 · 어린이</b><small>그림 이야기와 퀴즈</small></a>
-<a href="matta-16-ko-genc/"><b>한국어 · 청소년</b><small>배경·원어·나눔</small></a>
-</div>
-</div>
-</section>
-<section class="card">
-<img class="thumb" src="img/nt/16-toxumcu.jpg" width="1280" height="757" loading="lazy" alt="">
-<div class="body">
-<span class="eyebrow">17-ci dərs · 제17과 · Matta 13:1–23</span>
-<h3>Toxum əkən adam</h3>
-<p class="ko">씨 뿌리는 사람</p>
-<div class="links">
-<a class="main" href="matta-17-az/"><b>Azərbaycanca · uşaqlar</b><small>🔊 səsli oxu ilə</small></a>
-<a class="main" href="matta-17-az-genc/"><b>Azərbaycanca · yeniyetmələr</b><small>🔊 səsli oxu ilə</small></a>
-<a href="matta-17-ko-usaq/"><b>한국어 · 어린이</b><small>그림 이야기와 퀴즈</small></a>
-<a href="matta-17-ko-genc/"><b>한국어 · 청소년</b><small>배경·원어·나눔</small></a>
-</div>
-</div>
-</section>
-<section class="card">
-<img class="thumb" src="img/matta/18-xezine.jpg" width="1280" height="757" loading="lazy" alt="">
-<div class="body">
-<span class="eyebrow">18-ci dərs · 제18과 · Matta 13:24–58</span>
-<h3>Tarlada gizlədilmiş xəzinə</h3>
-<p class="ko">밭에 감추인 보물</p>
-<div class="links">
-<a class="main" href="matta-18-az/"><b>Azərbaycanca · uşaqlar</b><small>🔊 səsli oxu ilə</small></a>
-<a class="main" href="matta-18-az-genc/"><b>Azərbaycanca · yeniyetmələr</b><small>🔊 səsli oxu ilə</small></a>
-<a href="matta-18-ko-usaq/"><b>한국어 · 어린이</b><small>그림 이야기와 퀴즈</small></a>
-<a href="matta-18-ko-genc/"><b>한국어 · 청소년</b><small>배경·원어·나눔</small></a>
-</div>
-</div>
-</section>
-<section class="card">
-<img class="thumb" src="img/nt/23-su-uzerinde.jpg" width="1280" height="757" loading="lazy" alt="">
-<div class="body">
-<span class="eyebrow">19-cu dərs · 제19과 · Matta 14:1–36</span>
-<h3>Cəsarətli olun, Mənəm</h3>
-<p class="ko">안심하라, 나다</p>
-<div class="links">
-<a class="main" href="matta-19-az/"><b>Azərbaycanca · uşaqlar</b><small>🔊 səsli oxu ilə</small></a>
-<a class="main" href="matta-19-az-genc/"><b>Azərbaycanca · yeniyetmələr</b><small>🔊 səsli oxu ilə</small></a>
-<a href="matta-19-ko-usaq/"><b>한국어 · 어린이</b><small>그림 이야기와 퀴즈</small></a>
-<a href="matta-19-ko-genc/"><b>한국어 · 청소년</b><small>배경·원어·나눔</small></a>
-</div>
-</div>
-</section>
-<section class="card">
-<img class="thumb" src="img/matta/20-kenanli.jpg" width="1280" height="757" loading="lazy" alt="">
-<div class="body">
-<span class="eyebrow">20-ci dərs · 제20과 · Matta 15:1–39</span>
-<h3>Ey qadın, imanın böyükdür</h3>
-<p class="ko">여자여, 네 믿음이 크도다</p>
-<div class="links">
-<a class="main" href="matta-20-az/"><b>Azərbaycanca · uşaqlar</b><small>🔊 səsli oxu ilə</small></a>
-<a class="main" href="matta-20-az-genc/"><b>Azərbaycanca · yeniyetmələr</b><small>🔊 səsli oxu ilə</small></a>
-<a href="matta-20-ko-usaq/"><b>한국어 · 어린이</b><small>그림 이야기와 퀴즈</small></a>
-<a href="matta-20-ko-genc/"><b>한국어 · 청소년</b><small>배경·원어·나눔</small></a>
-</div>
-</div>
-</section>
-<section class="card">
-<img class="thumb" src="img/matta/21-etiraf.jpg" width="1280" height="757" loading="lazy" alt="">
-<div class="body">
-<span class="eyebrow">21-ci dərs · 제21과 · Matta 16:1–28</span>
-<h3>Siz Məni kim hesab edirsiniz?</h3>
-<p class="ko">너는 나를 누구라 하느냐</p>
-<div class="links">
-<a class="main" href="matta-21-az/"><b>Azərbaycanca · uşaqlar</b><small>🔊 səsli oxu ilə</small></a>
-<a class="main" href="matta-21-az-genc/"><b>Azərbaycanca · yeniyetmələr</b><small>🔊 səsli oxu ilə</small></a>
-<a href="matta-21-ko-usaq/"><b>한국어 · 어린이</b><small>그림 이야기와 퀴즈</small></a>
-<a href="matta-21-ko-genc/"><b>한국어 · 청소년</b><small>배경·원어·나눔</small></a>
-</div>
-</div>
-</section>
-<section class="card">
-<img class="thumb" src="img/nt/24-suret-deyisme.jpg" width="1280" height="757" loading="lazy" alt="">
-<div class="body">
-<span class="eyebrow">22-ci dərs · 제22과 · Matta 17:1–27</span>
-<h3>Onu dinləyin</h3>
-<p class="ko">그의 말을 들으라</p>
-<div class="links">
-<a class="main" href="matta-22-az/"><b>Azərbaycanca · uşaqlar</b><small>🔊 səsli oxu ilə</small></a>
-<a class="main" href="matta-22-az-genc/"><b>Azərbaycanca · yeniyetmələr</b><small>🔊 səsli oxu ilə</small></a>
-<a href="matta-22-ko-usaq/"><b>한국어 · 어린이</b><small>그림 이야기와 퀴즈</small></a>
-<a href="matta-22-ko-genc/"><b>한국어 · 청소년</b><small>배경·원어·나눔</small></a>
-</div>
-</div>
-</section>
-<section class="card">
-<img class="thumb" src="img/nt/30-yaxshi-coban.jpg" width="1280" height="757" loading="lazy" alt="">
-<div class="body">
-<span class="eyebrow">23-cü dərs · 제23과 · Matta 18:1–35</span>
-<h3>İtmiş bir qoyun</h3>
-<p class="ko">잃은 양 한 마리</p>
-<div class="links">
-<a class="main" href="matta-23-az/"><b>Azərbaycanca · uşaqlar</b><small>🔊 səsli oxu ilə</small></a>
-<a class="main" href="matta-23-az-genc/"><b>Azərbaycanca · yeniyetmələr</b><small>🔊 səsli oxu ilə</small></a>
-<a href="matta-23-ko-usaq/"><b>한국어 · 어린이</b><small>그림 이야기와 퀴즈</small></a>
-<a href="matta-23-ko-genc/"><b>한국어 · 청소년</b><small>배경·원어·나눔</small></a>
-</div>
-</div>
-</section>
-<section class="card">
-<img class="thumb" src="img/nt/27-usaqlar.jpg" width="1280" height="757" loading="lazy" alt="">
-<div class="body">
-<span class="eyebrow">24-cü dərs · 제24과 · Matta 19:1–30</span>
-<h3>Qoyun uşaqlar yanıma gəlsin</h3>
-<p class="ko">어린아이들을 내게 오게 하라</p>
-<div class="links">
-<a class="main" href="matta-24-az/"><b>Azərbaycanca · uşaqlar</b><small>🔊 səsli oxu ilə</small></a>
-<a class="main" href="matta-24-az-genc/"><b>Azərbaycanca · yeniyetmələr</b><small>🔊 səsli oxu ilə</small></a>
-<a href="matta-24-ko-usaq/"><b>한국어 · 어린이</b><small>그림 이야기와 퀴즈</small></a>
-<a href="matta-24-ko-genc/"><b>한국어 · 청소년</b><small>배경·원어·나눔</small></a>
-</div>
-</div>
-</section>
-<section class="card">
-<img class="thumb" src="img/matta/25-dinar.jpg" width="1280" height="757" loading="lazy" alt="">
-<div class="body">
-<span class="eyebrow">25-ci dərs · 제25과 · Matta 20:1–34</span>
-<h3>Xidmət etməyə gələn İsa</h3>
-<p class="ko">섬기러 오신 예수님</p>
-<div class="links">
-<a class="main" href="matta-25-az/"><b>Azərbaycanca · uşaqlar</b><small>🔊 səsli oxu ilə</small></a>
-<a class="main" href="matta-25-az-genc/"><b>Azərbaycanca · yeniyetmələr</b><small>🔊 səsli oxu ilə</small></a>
-<a href="matta-25-ko-usaq/"><b>한국어 · 어린이</b><small>그림 이야기와 퀴즈</small></a>
-<a href="matta-25-ko-genc/"><b>한국어 · 청소년</b><small>배경·원어·나눔</small></a>
-</div>
-</div>
-</section>
-<section class="card">
-<img class="thumb" src="img/nt/33-hosanna.jpg" width="1280" height="757" loading="lazy" alt="">
-<div class="body">
-<span class="eyebrow">26-cı dərs · 제26과 · Matta 21:1–22</span>
-<h3>Hosanna!</h3>
-<p class="ko">호산나!</p>
-<div class="links">
-<a class="main" href="matta-26-az/"><b>Azərbaycanca · uşaqlar</b><small>🔊 səsli oxu ilə</small></a>
-<a class="main" href="matta-26-az-genc/"><b>Azərbaycanca · yeniyetmələr</b><small>🔊 səsli oxu ilə</small></a>
-<a href="matta-26-ko-usaq/"><b>한국어 · 어린이</b><small>그림 이야기와 퀴즈</small></a>
-<a href="matta-26-ko-genc/"><b>한국어 · 청소년</b><small>배경·원어·나눔</small></a>
-</div>
-</div>
-</section>
-<section class="card">
-<img class="thumb" src="img/matta/27-toy.jpg" width="1280" height="757" loading="lazy" alt="">
-<div class="body">
-<span class="eyebrow">27-ci dərs · 제27과 · Matta 21:23–22:46</span>
-<h3>Ən böyük əmr</h3>
-<p class="ko">가장 큰 계명</p>
-<div class="links">
-<a class="main" href="matta-27-az/"><b>Azərbaycanca · uşaqlar</b><small>🔊 səsli oxu ilə</small></a>
-<a class="main" href="matta-27-az-genc/"><b>Azərbaycanca · yeniyetmələr</b><small>🔊 səsli oxu ilə</small></a>
-<a href="matta-27-ko-usaq/"><b>한국어 · 어린이</b><small>그림 이야기와 퀴즈</small></a>
-<a href="matta-27-ko-genc/"><b>한국어 · 청소년</b><small>배경·원어·나눔</small></a>
-</div>
-</div>
-</section>
-<section class="card">
-<img class="thumb" src="img/matta/28-toyuq.jpg" width="1280" height="757" loading="lazy" alt="">
-<div class="body">
-<span class="eyebrow">28-ci dərs · 제28과 · Matta 23:1–24:51</span>
-<h3>Ayıq olun</h3>
-<p class="ko">깨어 있으라</p>
-<div class="links">
-<a class="main" href="matta-28-az/"><b>Azərbaycanca · uşaqlar</b><small>🔊 səsli oxu ilə</small></a>
-<a class="main" href="matta-28-az-genc/"><b>Azərbaycanca · yeniyetmələr</b><small>🔊 səsli oxu ilə</small></a>
-<a href="matta-28-ko-usaq/"><b>한국어 · 어린이</b><small>그림 이야기와 퀴즈</small></a>
-<a href="matta-28-ko-genc/"><b>한국어 · 청소년</b><small>배경·원어·나눔</small></a>
-</div>
-</div>
-</section>
-<section class="card">
-<img class="thumb" src="img/matta/29-en-kicik.jpg" width="1280" height="757" loading="lazy" alt="">
-<div class="body">
-<span class="eyebrow">29-cu dərs · 제29과 · Matta 25:1–46</span>
-<h3>Ən kiçik qardaşlarımdan birinə</h3>
-<p class="ko">지극히 작은 자 하나에게</p>
-<div class="links">
-<a class="main" href="matta-29-az/"><b>Azərbaycanca · uşaqlar</b><small>🔊 səsli oxu ilə</small></a>
-<a class="main" href="matta-29-az-genc/"><b>Azərbaycanca · yeniyetmələr</b><small>🔊 səsli oxu ilə</small></a>
-<a href="matta-29-ko-usaq/"><b>한국어 · 어린이</b><small>그림 이야기와 퀴즈</small></a>
-<a href="matta-29-ko-genc/"><b>한국어 · 청소년</b><small>배경·원어·나눔</small></a>
-</div>
-</div>
-</section>
-<section class="card">
-<img class="thumb" src="img/nt/36-son-sam.jpg" width="1280" height="757" loading="lazy" alt="">
-<div class="body">
-<span class="eyebrow">30-cu dərs · 제30과 · Matta 26:1–35</span>
-<h3>Son Şam yeməyi</h3>
-<p class="ko">마지막 만찬</p>
-<div class="links">
-<a class="main" href="matta-30-az/"><b>Azərbaycanca · uşaqlar</b><small>🔊 səsli oxu ilə</small></a>
-<a class="main" href="matta-30-az-genc/"><b>Azərbaycanca · yeniyetmələr</b><small>🔊 səsli oxu ilə</small></a>
-<a href="matta-30-ko-usaq/"><b>한국어 · 어린이</b><small>그림 이야기와 퀴즈</small></a>
-<a href="matta-30-ko-genc/"><b>한국어 · 청소년</b><small>배경·원어·나눔</small></a>
-</div>
-</div>
-</section>
-<section class="card">
-<img class="thumb" src="img/nt/37-getsemani.jpg" width="1280" height="757" loading="lazy" alt="">
-<div class="body">
-<span class="eyebrow">31-ci dərs · 제31과 · Matta 26:36–75</span>
-<h3>Sənin istədiyin kimi olsun</h3>
-<p class="ko">아버지의 원대로</p>
-<div class="links">
-<a class="main" href="matta-31-az/"><b>Azərbaycanca · uşaqlar</b><small>🔊 səsli oxu ilə</small></a>
-<a class="main" href="matta-31-az-genc/"><b>Azərbaycanca · yeniyetmələr</b><small>🔊 səsli oxu ilə</small></a>
-<a href="matta-31-ko-usaq/"><b>한국어 · 어린이</b><small>그림 이야기와 퀴즈</small></a>
-<a href="matta-31-ko-genc/"><b>한국어 · 청소년</b><small>배경·원어·나눔</small></a>
-</div>
-</div>
-</section>
-<section class="card">
-<img class="thumb" src="img/nt/40-carmix.jpg" width="1280" height="757" loading="lazy" alt="">
-<div class="body">
-<span class="eyebrow">32-ci dərs · 제32과 · Matta 27:1–66</span>
-<h3>Çarmıx</h3>
-<p class="ko">십자가</p>
-<div class="links">
-<a class="main" href="matta-32-az/"><b>Azərbaycanca · uşaqlar</b><small>🔊 səsli oxu ilə</small></a>
-<a class="main" href="matta-32-az-genc/"><b>Azərbaycanca · yeniyetmələr</b><small>🔊 səsli oxu ilə</small></a>
-<a href="matta-32-ko-usaq/"><b>한국어 · 어린이</b><small>그림 이야기와 퀴즈</small></a>
-<a href="matta-32-ko-genc/"><b>한국어 · 청소년</b><small>배경·원어·나눔</small></a>
-</div>
-</div>
-</section>
-<section class="card">
-<img class="thumb" src="img/nt/41-dirilme.jpg" width="1280" height="757" loading="lazy" alt="">
-<div class="body">
-<span class="eyebrow">33-cü dərs · 제33과 · Matta 28:1–20</span>
-<h3>O dirildi!</h3>
-<p class="ko">살아나셨어요!</p>
-<div class="links">
-<a class="main" href="matta-33-az/"><b>Azərbaycanca · uşaqlar</b><small>🔊 səsli oxu ilə</small></a>
-<a class="main" href="matta-33-az-genc/"><b>Azərbaycanca · yeniyetmələr</b><small>🔊 səsli oxu ilə</small></a>
-<a href="matta-33-ko-usaq/"><b>한국어 · 어린이</b><small>그림 이야기와 퀴즈</small></a>
-<a href="matta-33-ko-genc/"><b>한국어 · 청소년</b><small>배경·원어·나눔</small></a>
-</div>
-</div>
-</section>
-<!-- dersler:son -->
 
-<footer>Matta · Müqəddəs Kitab dərsləri</footer>
+<section id="list" aria-live="polite"><p class="hint">위에서 언어와 세대를 고르세요<br>Yuxarıdan dil və yaşı seçin</p></section>
+
+<footer>Mattanın yazdığı Müjdə · 마태복음</footer>
 </div>
+<script>
+const D={"az":[[1,"1:1–25","İmmanuel — Allah bizimlədir!"],[2,"2:1–12","Ulduzun ardınca gələn müdriklər"],[3,"2:13–23","Allahın qoruduğu körpə İsa"],[4,"3:1–17","Göydən gələn səs"],[5,"4:1–11","Kəlamla qalib gələn İsa"],[6,"4:12–25","Ardımca gəlin"],[7,"5:1–16","Dünyanın duzu və nuru"],[8,"5:17–48","Düşmənlərinizi sevin"],[9,"6:1–18","Göylərdə olan Atamız"],[10,"6:19–34","Narahat olmayın"],[11,"7:1–29","Qaya üzərində tikilən ev"],[12,"8:1–34","Küləklər və dəniz də itaət edir"],[13,"9:1–38","Günahkarları çağırmağa gəldi"],[14,"10:1–42","Siz sərçələrdən dəyərlisiniz"],[15,"11:1–30","Hamınız yanıma gəlin"],[16,"12:1–50","Şənbə gününün Rəbbi"],[17,"13:1–23","Toxum əkən adam"],[18,"13:24–58","Tarlada gizlədilmiş xəzinə"],[19,"14:1–36","Cəsarətli olun, Mənəm"],[20,"15:1–39","Ey qadın, imanın böyükdür"],[21,"16:1–28","Siz Məni kim hesab edirsiniz?"],[22,"17:1–27","Onu dinləyin"],[23,"18:1–35","İtmiş bir qoyun"],[24,"19:1–30","Qoyun uşaqlar yanıma gəlsin"],[25,"20:1–34","Xidmət etməyə gələn İsa"],[26,"21:1–22","Hosanna!"],[27,"21:23–22:46","Ən böyük əmr"],[28,"23:1–24:51","Ayıq olun"],[29,"25:1–46","Ən kiçik qardaşlarımdan birinə"],[30,"26:1–35","Son Şam yeməyi"],[31,"26:36–75","Sənin istədiyin kimi olsun"],[32,"27:1–66","Çarmıx"],[33,"28:1–20","O dirildi!"]],"az-genc":[[1,"1:1–25","Bizimlə olan Allah"],[2,"2:1–12","Əsl Padşah kimdir?"],[3,"2:13–23","Qaçqın olan Padşah"],[4,"3:1–17","Tövbə və açılan göylər"],[5,"4:1–11","Səhrada qalib gələn Oğul"],[6,"4:12–25","Torları buraxıb"],[7,"5:1–16","Tərsinə çevrilmiş xoşbəxtlik"],[8,"5:17–48","Daha dərin salehlik"],[9,"6:1–18","Ataya dua"],[10,"6:19–34","Əvvəlcə nəyi axtarmalı"],[11,"7:1–29","Eşidib əməl edən"],[12,"8:1–34","Sözün səlahiyyəti"],[13,"9:1–38","Həkimə ehtiyacı olanlar"],[14,"10:1–42","Göndərilənlər"],[15,"11:1–30","Rahatlıq verən"],[16,"12:1–50","Şənbə gününün Rəbbi"],[17,"13:1–23","Dörd ürək torpağı"],[18,"13:24–58","Hər şeyə dəyən Padşahlıq"],[19,"14:1–36","Küləyə deyil, İsaya"],[20,"15:1–39","Qırıntı da bəsdir"],[21,"16:1–28","Qaya üzərində etiraf"],[22,"17:1–27","Dağda izzət, dağın ətəyində gerçəklik"],[23,"18:1–35","Kiçiklərin və bağışlamanın cəmiyyəti"],[24,"19:1–30","Daha nəyim çatışmır?"],[25,"20:1–34","Lütfün hesabı"],[26,"21:1–22","Hansı Padşahı qarşılayırıq?"],[27,"21:23–22:46","Suallara cavab verən İsa"],[28,"23:1–24:51","Təvazökarlıq və ayıqlıq"],[29,"25:1–46","Gözləmə nə ilə doldurulur?"],[30,"26:1–35","Ətir və otuz gümüş"],[31,"26:36–75","Ən qaranlıq gecə"],[32,"27:1–66","Həqiqətən, Allahın Oğlu"],[33,"28:1–20","Sondan başlanğıca"]],"ko-usaq":[[1,"1:1–25","임마누엘, 하나님이 우리와 함께 계셔요"],[2,"2:1–12","별을 따라온 동방박사"],[3,"2:13–23","하나님이 지켜 주신 아기 예수님"],[4,"3:1–17","하늘에서 들린 목소리"],[5,"4:1–11","말씀으로 이기신 예수님"],[6,"4:12–25","나를 따라오너라"],[7,"5:1–16","세상의 소금과 빛"],[8,"5:17–48","원수를 사랑하라"],[9,"6:1–18","하늘에 계신 우리 아버지"],[10,"6:19–34","걱정하지 마세요"],[11,"7:1–29","반석 위에 지은 집"],[12,"8:1–34","바람과 바다도 순종해요"],[13,"9:1–38","죄인을 부르러 오셨어요"],[14,"10:1–42","너희는 참새보다 귀해요"],[15,"11:1–30","다 내게로 오라"],[16,"12:1–50","안식일의 주인"],[17,"13:1–23","씨 뿌리는 사람"],[18,"13:24–58","밭에 감추인 보물"],[19,"14:1–36","안심하라, 나다"],[20,"15:1–39","여자여, 네 믿음이 크도다"],[21,"16:1–28","너는 나를 누구라 하느냐"],[22,"17:1–27","그의 말을 들으라"],[23,"18:1–35","잃은 양 한 마리"],[24,"19:1–30","어린아이들을 내게 오게 하라"],[25,"20:1–34","섬기러 오신 예수님"],[26,"21:1–22","호산나!"],[27,"21:23–22:46","가장 큰 계명"],[28,"23:1–24:51","깨어 있으라"],[29,"25:1–46","지극히 작은 자 하나에게"],[30,"26:1–35","마지막 만찬"],[31,"26:36–75","아버지의 원대로"],[32,"27:1–66","십자가"],[33,"28:1–20","살아나셨어요!"]],"ko-genc":[[1,"1:1–25","함께 계시는 하나님"],[2,"2:1–12","누가 진짜 왕인가"],[3,"2:13–23","피난민이 되신 왕"],[4,"3:1–17","회개와 열린 하늘"],[5,"4:1–11","광야에서 이기신 아들"],[6,"4:12–25","그물을 버려두고"],[7,"5:1–16","거꾸로 된 행복"],[8,"5:17–48","더 깊은 의"],[9,"6:1–18","아버지께 드리는 기도"],[10,"6:19–34","먼저 구할 것"],[11,"7:1–29","듣고 행하는 사람"],[12,"8:1–34","말씀의 권위"],[13,"9:1–38","의사가 필요한 사람"],[14,"10:1–42","보냄받은 사람들"],[15,"11:1–30","쉼을 주시는 분"],[16,"12:1–50","안식일의 주인"],[17,"13:1–23","네 가지 마음밭"],[18,"13:24–58","모든 것을 걸 만한 나라"],[19,"14:1–36","바람이 아니라 예수님을"],[20,"15:1–39","부스러기라도 좋습니다"],[21,"16:1–28","반석 위의 고백"],[22,"17:1–27","산 위의 영광, 산 아래의 현실"],[23,"18:1–35","작은 자와 용서의 공동체"],[24,"19:1–30","무엇이 부족합니까?"],[25,"20:1–34","은혜의 계산법"],[26,"21:1–22","어떤 왕을 맞이하는가"],[27,"21:23–22:46","질문에 답하신 예수님"],[28,"23:1–24:51","겸손과 깨어 있음"],[29,"25:1–46","기다림은 무엇으로 채워지는가"],[30,"26:1–35","향유와 은 삼십"],[31,"26:36–75","가장 어두운 밤"],[32,"27:1–66","진실로 하나님의 아들"],[33,"28:1–20","끝에서 시작으로"]]};
+const INFO={
+ 'az':{h:'Azərbaycanca · Uşaqlar',s:n=>n+' dərs',l:(n,r)=>n+'-ci dərs · Matta '+r},
+ 'az-genc':{h:'Azərbaycanca · Yeniyetmələr',s:n=>n+' dərs',l:(n,r)=>n+'-ci dərs · Matta '+r},
+ 'ko-usaq':{h:'한국어 · 어린이',s:n=>'모두 '+n+'과',l:(n,r)=>'제'+n+'과 · 마태복음 '+r},
+ 'ko-genc':{h:'한국어 · 청소년',s:n=>'모두 '+n+'과',l:(n,r)=>'제'+n+'과 · 마태복음 '+r}};
+function ord(n){const a={1:'ci',2:'ci',5:'ci',7:'ci',8:'ci',3:'cü',4:'cü',0:'cu',6:'cı',9:'cu'};let s;if(n%10===0){s=(n%100===0)?'cü':({10:'cu',20:'ci',30:'cu',40:'cı',50:'ci',60:'cı',70:'ci',80:'ci',90:'cı'})[n%100];}else s=a[n%10];return n+'-'+s;}
+const esc=t=>t.replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+function show(k,save){
+ document.querySelectorAll('.btns button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.k===k));
+ const I=INFO[k],rows=D[k],az=k.startsWith('az');
+ const pad=n=>String(n).padStart(2,'0');
+ let h='<h3>'+I.h+'</h3><p class="sub">'+I.s(rows.length)+'</p><ol>';
+ rows.forEach(([n,r,t])=>{h+='<li><a href="matta-'+pad(n)+'-'+k+'/"><span class="no">'+n+'</span><span class="tt"><b>'+esc(t)+'</b><small>'+(az?ord(n)+' dərs · Matta '+r:'제'+n+'과 · 마태복음 '+r)+'</small></span></a></li>';});
+ document.getElementById('list').innerHTML=h+'</ol>';
+ if(save){try{localStorage.setItem('ana-secim',k)}catch(e){}history.replaceState(null,'','#'+k);}
+}
+document.querySelectorAll('.btns button').forEach(b=>b.addEventListener('click',()=>{show(b.dataset.k,true);document.getElementById('list').scrollIntoView({behavior:'smooth',block:'start'});}));
+let k0=location.hash.slice(1);if(!D[k0]){try{k0=localStorage.getItem('ana-secim')}catch(e){k0=null}}
+if(D[k0])show(k0,false);
+</script>
 </body>
 </html>
