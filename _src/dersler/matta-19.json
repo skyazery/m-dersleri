@@ -1,0 +1,157 @@
+{
+"no": 19, "ref": "14:1–36", "deq": {"usaq": 40, "genc": 50},
+"img": ["matta/19-tenha.jpg", "21-5000-doyurulur.jpg", "23-su-uzerinde.jpg", "matta/19-peter-batir.jpg"],
+"hero": 2,
+"ko": {
+ "usaq": {
+  "basliq": "안심하라, 나다",
+  "hedef": ["예수님이 떡 다섯 개와 물고기 두 마리로 오천 명을 먹이신 이야기를 알아요.", "예수님이 물 위를 걸으신 이야기를 배워요.", "무서울 때 예수님을 바라보는 법을 배워요."],
+  "sehneler": [
+   {"b": "조용한 곳으로", "ayə": "14:1–14", "alt": "배를 타고 조용한 곳으로 가시는 예수님과 따라오는 무리", "p": ["세례 요한이 헤롯 왕 때문에 죽었다는 슬픈 소식을 들으셨어요. 예수님은 배를 타고 조용한 곳으로 가셨어요.", "그런데 많은 사람이 걸어서 따라왔어요. 예수님은 그들을 [[불쌍히 여기셔서|불쌍히 여기다]] 아픈 사람들을 고쳐 주셨어요."]},
+   {"b": "떡 다섯 개와 물고기 두 마리", "ayə": "14:15–21", "alt": "떡과 물고기를 축복하시고 나누시는 예수님", "p": ["저녁이 되자 제자들이 말했어요. “사람들을 보내서 먹을 것을 사게 하세요.” 예수님은 “너희가 먹을 것을 주어라” 하셨어요. 그런데 [[떡]] 다섯 개와 물고기 두 마리뿐이었어요.", "예수님이 하늘을 보시며 [[축사]]하시고 떡을 떼어 주셨어요. 남자만 오천 명이 배불리 먹고도 열두 바구니가 남았어요!"]},
+   {"b": "물 위를 걸어오신 예수님", "ayə": "14:22–27", "alt": "폭풍 치는 밤바다 위를 걸어오시는 예수님", "p": ["밤에 제자들이 탄 배가 바람과 파도 때문에 고생하고 있었어요. 새벽에 예수님이 [[물 위]]를 걸어오셨어요.", "제자들은 [[유령]]인 줄 알고 소리를 질렀어요. 예수님이 말씀하셨어요. “안심하라, 나다. 두려워하지 말라.”"]},
+   {"b": "주님, 저를 구해 주세요", "ayə": "14:28–36", "alt": "물에 빠지는 베드로의 손을 잡아 주시는 예수님", "p": ["베드로가 말했어요. “주님이시면 저도 물 위로 오라고 하세요.” 예수님이 “오너라” 하시자 베드로도 물 위를 걸었어요!", "그런데 바람을 보고 무서워하자 물에 빠지기 시작했어요. “주님, 저를 구해 주세요!” 예수님이 곧 손을 내밀어 붙잡아 주셨어요. 배에 있던 사람들이 [[경배]]했어요. “진실로 하나님의 아들이십니다!”"]}
+  ],
+  "aye": {"metn": "“안심하라 나니 두려워하지 말라.”", "ref": "14:27", "bos": "___하라 ___니 ___하지 말라.", "sozler": ["안심", "나", "두려워"], "yalan": "도망"},
+  "lugat": {
+   "불쌍히 여기다": {"i": "💗", "x": "rəhmi gəlmək", "m": "다른 사람의 아픔을 보고 마음 아파하며 돕고 싶어 하는 거예요.", "e": "예수님은 사람들을 불쌍히 여기셨어요."},
+   "떡": {"i": "🍞", "x": "çörək", "m": "그때 사람들이 먹던 둥글고 납작한 빵이에요.", "e": "떡 다섯 개와 물고기 두 마리가 있었어요."},
+   "축사": {"i": "🙏", "x": "şükür etmək", "m": "음식을 주신 하나님께 감사 기도를 드리는 거예요.", "e": "예수님이 떡을 들고 축사하셨어요."},
+   "물 위": {"i": "🌊", "x": "suyun üstü", "m": "가라앉지 않고 물 표면 위예요.", "e": "예수님이 물 위를 걸으셨어요."},
+   "유령": {"i": "👻", "x": "xəyal", "m": "사람들이 무서워하는, 보이는 듯한 이상한 모습이에요.", "e": "제자들은 예수님을 유령인 줄 알았어요."},
+   "경배": {"i": "🙇", "x": "səcdə", "m": "하나님께 엎드려 높여 드리는 거예요.", "e": "제자들이 예수님께 경배했어요."}
+  },
+  "test": [
+   {"q": "제자들에게 있던 음식은?", "o": ["떡 다섯 개와 물고기 두 마리", "떡 백 개", "아무것도 없었어요"], "a": 0, "f": "맞아요! 작은 것이 예수님 손에서 많아졌어요."},
+   {"q": "먹고 남은 것은 몇 바구니였나요?", "o": ["열두 바구니", "한 바구니", "하나도 없었어요"], "a": 0, "f": "맞아요! 넉넉하게 남았어요."},
+   {"q": "예수님이 물 위를 걸어오시며 하신 말씀은?", "o": ["안심하라, 나다", "빨리 노를 저어라", "배에서 내려라"], "a": 0, "f": "맞아요! 두려워하지 말라고 하셨어요."},
+   {"q": "베드로는 왜 물에 빠지기 시작했나요?", "o": ["바람을 보고 무서워해서", "수영을 못해서", "배가 고파서"], "a": 0, "f": "맞아요! 예수님 대신 바람을 봤어요."}
+  ],
+  "dusun": ["내가 가진 작은 것을 예수님께 드리면 어떻게 될까요?", "베드로처럼 무서울 때 나는 무엇을 바라보나요?", "“주님, 저를 구해 주세요” 하고 기도한 적이 있나요?"],
+  "fealiyyet": {"ciz": "물 위에서 베드로의 손을 잡아 주시는 예수님을 그려 보세요.", "b": "예수님께 드릴 나의 작은 것", "p": "예수님께 드리고 나눌 수 있는 것을 써 보세요.", "ph": "예) 제 간식을 동생과 나눌 거예요."},
+  "dua": "예수님, 작은 떡과 물고기로 많은 사람을 먹이시고 물 위를 걸어오신 예수님을 찬양합니다. 제가 가진 작은 것도 예수님께 드리게 해 주세요. 무서울 때 바람이 아니라 예수님을 바라보게 하시고, 빠질 때는 손을 잡아 주세요. 예수님 이름으로 기도합니다. 아멘."
+ },
+ "genc": {
+  "basliq": "바람이 아니라 예수님을",
+  "giris": "요한의 죽음이라는 슬픔 속에서 시작된 하루. 예수님은 쉬려고 하셨지만 몰려온 무리를 먹이시고, 밤새 기도하시고, 새벽에 폭풍을 밟고 오셨습니다. 그리고 물에 빠지는 베드로에게 손을 내미셨습니다.",
+  "meqsed": ["헤롯의 잔치와 예수님의 잔치를 대비해 하나님 나라의 모습을 이해해요.", "물 위를 걸으신 사건이 예수님의 정체에 대해 무엇을 말하는지 설명할 수 있어요.", "내 삶의 폭풍 속에서 시선을 예수님께 고정하는 연습을 해요."],
+  "sehneler": [
+   {"b": "두 개의 잔치", "ayə": "14:1–14", "alt": "배를 타고 조용한 곳으로 가시는 예수님과 따라오는 무리", "p": ["헤롯 안티파스의 생일 잔치에서 세례 요한이 죽임을 당했어요. 권력자의 체면과 맹세가 의인의 목숨보다 중요했던 잔치였어요.", "소식을 들은 예수님은 따로 빈 들로 가셨어요. 슬퍼하실 시간이 필요했어요. 그런데 무리가 따라오자 예수님은 귀찮아하지 않고 [[불쌍히 여기셨어요|불쌍히 여기다]]. 슬픔 속에서도 사랑을 멈추지 않으셨어요."], "deep": {"b": "깊이 보기 · 왕궁 vs 빈 들", "p": "궁전의 잔치는 죽음을 낳았고, 빈 들의 잔치는 생명을 낳았어요. 마태는 두 이야기를 나란히 두어 ‘진짜 왕’이 누구인지 보여 줘요."}},
+   {"b": "너희가 먹을 것을 주라", "ayə": "14:15–21", "alt": "떡과 물고기를 축복하시고 나누시는 예수님", "p": ["제자들은 현실적인 해결책을 냈어요. “무리를 보내소서.” 예수님은 “갈 것 없다. 너희가 먹을 것을 주라”고 하세요. 불가능을 제자들에게 맡기신 거예요.", "“가져다 하늘을 우러러 [[축사]]하시고 떡을 떼어 제자들에게 주시매 제자들이 무리에게 주니.” 이 동사들(가지다, 축사하다, 떼다, 주다)은 최후의 만찬(26:26)에서 똑같이 반복돼요."], "deep": {"b": "깊이 보기 · 광야의 만나", "p": "광야에서 백성을 먹인 일은 출애굽기의 만나를 떠올리게 해요. 열두 바구니는 열두 지파를 상징할 수 있어요. 예수님은 새 모세 이상, 백성을 먹이시는 하나님이세요."}},
+   {"b": "물 위의 “나다”", "ayə": "14:22–27", "alt": "폭풍 치는 밤바다 위를 걸어오시는 예수님", "p": ["예수님은 무리를 보내시고 홀로 산에 올라 기도하셨어요. 그사이 제자들은 밤새 역풍과 싸웠어요. ‘밤 사경’은 새벽 3–6시예요. 가장 지치고 어두운 시간에 예수님이 오셨어요.", "“안심하라 [[내니|나다]] 두려워하지 말라.” 헬라어로 ‘에고 에이미’, 곧 “나는 ~이다”예요. 하나님이 모세에게 자신을 “나는 스스로 있는 자”라고 알리신 이름과 같은 울림이에요(출 3:14)."], "deep": {"b": "깊이 보기 · 바다를 밟으시는 분", "p": "욥기 9:8은 하나님을 “바다 물결을 밟으시는 이”라고 해요. 구약에서 바다는 혼돈의 상징이에요. 예수님은 그 혼돈 위를 걸으시는 창조주이세요."}},
+   {"b": "작은 믿음, 붙드시는 손", "ayə": "14:28–36", "alt": "물에 빠지는 베드로의 손을 잡아 주시는 예수님", "p": ["베드로는 용감하게 물 위로 나갔어요. 다른 제자들은 배에 있었어요. 그런데 “바람을 보고 무서워” 빠지기 시작했어요. 상황은 그대로였는데 시선이 바뀌었어요.", "예수님은 “즉시” 손을 내밀어 붙잡으셨어요. “믿음이 작은 자여 왜 의심하였느냐.” 꾸중보다 손이 먼저였어요. 그리고 배에 있던 사람들이 처음으로 “진실로 하나님의 아들이로소이다” 하고 [[경배]]했어요."], "deep": {"b": "깊이 보기 · 실패한 베드로?", "p": "베드로는 빠졌지만, 물 위를 걸어 본 유일한 제자예요. 실패는 배 밖으로 나간 사람만 겪어요. 예수님은 빠지는 순간에도 붙잡아 주세요. 의심(디스타조)은 ‘두 마음’이라는 뜻이에요.", "rose": true}}
+  ],
+  "cedvel": {"b": "두 잔치 비교", "alt": "14:1–21", "bas": ["", "헤롯의 잔치", "예수님의 잔치"], "set": [["장소", "궁전", "빈 들"], ["손님", "권력자들", "병자와 가난한 무리"], ["동기", "체면과 맹세", "불쌍히 여김"], ["결과", "의인의 죽음", "오천 명이 배부르고 열두 바구니가 남음"]]},
+  "aye": {"metn": "“예수께서 즉시 손을 내밀어 그를 붙잡으시며 이르시되 믿음이 작은 자여 왜 의심하였느냐 하시고 … 배에 있는 사람들이 예수께 절하며 이르되 진실로 하나님의 아들이로소이다 하더라.”", "ref": "14:31–33"},
+  "lugat": {
+   "불쌍히 여기다": {"i": "💔", "o": "헬라어 스플랑크니조마이", "x": "rəhmi gəlmək", "s": "창자가 끊어지는 공감", "m": "9:36에 이어 다시 나와요. 예수님의 기적은 능력 과시가 아니라 이 마음에서 나왔어요.", "e": "15:32, 20:34에도 같은 말이 나와요."},
+   "축사": {"i": "🙏", "o": "헬라어 율로게오, ‘좋게 말하다, 축복하다’", "x": "şükür etmək", "s": "식사 전 감사 기도", "m": "유대인은 “땅에서 떡을 내시는 우리 하나님을 찬양합니다”라고 기도했어요.", "e": "최후의 만찬에서도 같은 동사가 나와요(26:26)."},
+   "나다": {"i": "✨", "o": "헬라어 에고 에이미", "x": "Mənəm", "s": "하나님의 이름을 떠올리게 하는 말", "m": "단순한 “나야”이면서도 출애굽기 3:14의 “나는 스스로 있는 자”를 울려요.", "e": "요한복음에는 “나는 생명의 떡이다” 등 ‘에고 에이미’가 일곱 번 나와요."},
+   "경배": {"i": "🙇", "o": "헬라어 프로스퀴네오", "x": "səcdə", "s": "하나님께만 드리는 엎드림", "m": "2장의 동방 박사들이 아기 예수께 한 그 행동이에요. 제자들이 처음으로 예수님을 하나님의 아들로 경배해요.", "e": "4:10 “주 너의 하나님께 경배하라”와 비교해 보세요."}
+  },
+  "test": [
+   {"q": "세례 요한이 죽임을 당한 곳은?", "o": ["헤롯의 생일 잔치", "성전", "요단강"], "a": 0, "f": "맞아요. 예수님의 잔치와 대비돼요."},
+   {"q": "예수님이 떡에 하신 네 가지 동작이 다시 나오는 장면은?", "o": ["최후의 만찬", "세례", "변화산"], "a": 0, "f": "맞아요. 가지고, 축사하고, 떼고, 주셨어요."},
+   {"q": "‘밤 사경’은 언제인가요?", "o": ["새벽 3–6시", "저녁 6–9시", "한낮"], "a": 0, "f": "맞아요. 가장 지친 시간에 오셨어요."},
+   {"q": "“안심하라 내니”의 헬라어 ‘에고 에이미’가 떠올리게 하는 구약 본문은?", "o": ["출애굽기 3:14", "창세기 1:1", "시편 23:1"], "a": 0, "f": "맞아요. 하나님의 이름이에요."},
+   {"q": "베드로가 빠지기 시작한 이유는?", "o": ["바람을 보고 무서워해서", "예수님이 손을 놓으셔서", "배가 떠나서"], "a": 0, "f": "맞아요. 상황이 아니라 시선이 바뀌었어요."}
+  ],
+  "paylas": ["예수님은 슬픔 속에서도 사람들을 불쌍히 여기셨어요. 내가 힘들 때도 다른 사람을 돌볼 수 있을까요?", "“너희가 먹을 것을 주라”처럼, 내 능력으로 불가능해 보이는데 예수님이 맡기신 일이 있나요?", "요즘 나를 빠지게 하는 ‘바람’은 무엇인가요?", "베드로처럼 ‘배 밖으로’ 나가 본 믿음의 경험이 있나요?"],
+  "etiraf": {"b": "나의 고백", "p": "지금 내 삶의 폭풍과, 그 위에서 들려오는 “안심하라 나다”라는 음성에 대한 고백을 서너 문장으로 써 보세요.", "ph": "예) 요즘 가족 문제 때문에 바람만 보여요. 그런데 예수님은 …"},
+  "dua": "예수님, 슬픔 속에서도 무리를 불쌍히 여기시고 작은 것으로 많은 사람을 먹이신 예수님을 찬양합니다. 폭풍 위를 걸어오셔서 “안심하라 나다” 하시는 음성을 듣게 해 주세요. 바람이 아니라 예수님을 바라보고, 빠질 때는 붙잡아 주시는 손을 의지하게 해 주세요. 예수님 이름으로 기도합니다. 아멘."
+ }
+},
+"az": {
+ "usaq": {
+  "basliq": "Cəsarətli olun, Mənəm",
+  "hedef": ["İsanın beş çörək və iki balıqla beş min nəfəri doyurduğunu öyrənəcəyik.", "İsanın suyun üstü ilə yeridiyini öyrənəcəyik.", "Qorxanda İsaya baxmağı öyrənəcəyik."],
+  "sehneler": [
+   {"b": "Sakit yerə", "ayə": "Matta 14:1–14", "alt": "Qayıqla sakit yerə gedən İsa və ardınca gələn izdiham", "p": ["İsa Vəftizçi Yəhyanın Hirod padşah üzündən öldürüldüyü kədərli xəbəri eşitdi. O, qayığa minib sakit bir yerə getdi.", "Amma çoxlu insan piyada Onun ardınca gəldi. İsa onları görüb [[rəhmi gəldi|rəhmi gəlmək]] və xəstələrə şəfa verdi."]},
+   {"b": "Beş çörək və iki balıq", "ayə": "Matta 14:15–21", "alt": "Çörəyə və balığa xeyir-dua verib paylayan İsa", "p": ["Axşam düşəndə şagirdlər dedilər: “İnsanları burax, gedib yemək alsınlar.” İsa dedi: “Siz onlara yemək verin.” Amma cəmi beş [[çörək]] və iki balıq var idi.", "İsa göyə baxıb [[şükür etdi|şükür etmək]], çörəkləri bölüb verdi. Təkcə kişilər beş min nəfər idi, hamı doyunca yedi və on iki səbət artıq qaldı!"]},
+   {"b": "Suyun üstü ilə gələn İsa", "ayə": "Matta 14:22–27", "alt": "Fırtınalı gecə dənizin üstü ilə gələn İsa", "p": ["Gecə şagirdlərin qayığı külək və dalğalar üzündən əziyyət çəkirdi. Səhərə yaxın İsa [[suyun üstü]] ilə onlara tərəf gəldi.", "Şagirdlər Onu [[xəyal]] sanıb qışqırdılar. İsa dedi: “Cəsarətli olun! Mənəm, qorxmayın!”"]},
+   {"b": "Ya Rəbb, məni xilas et", "ayə": "Matta 14:28–36", "alt": "Suya batan Peterin əlindən tutan İsa", "p": ["Peter dedi: “Ya Rəbb, əgər Sənsənsə, mənə əmr et ki, suyun üstü ilə yanına gəlim.” İsa “Gəl” deyəndə Peter də suyun üstü ilə yeridi!", "Amma küləyi görüb qorxanda batmağa başladı. “Ya Rəbb, məni xilas et!” İsa dərhal əlini uzadıb onu tutdu. Qayıqdakılar [[səcdə]] edib dedilər: “Sən həqiqətən Allahın Oğlusan!”"]}
+  ],
+  "aye": {"metn": "“Cəsarətli olun! Mənəm, qorxmayın!”", "ref": "14:27", "bos": "___ olun! ___, ___!", "sozler": ["Cəsarətli", "Mənəm", "qorxmayın"], "yalan": "qaçın"},
+  "lugat": {
+   "rəhmi gəlmək": {"i": "💗", "x": "불쌍히 여기다", "m": "Başqasının ağrısını görüb ürəyi yanmaq və kömək etmək istəməkdir.", "e": "İsanın insanlara rəhmi gəldi."},
+   "çörək": {"i": "🍞", "x": "떡", "m": "O vaxt insanların yediyi dəyirmi, yastı çörəkdir.", "e": "Beş çörək və iki balıq var idi."},
+   "şükür etmək": {"i": "🙏", "x": "축사하다", "m": "Yemək verdiyi üçün Allaha şükür duası etməkdir.", "e": "İsa çörəyi götürüb şükür etdi."},
+   "suyun üstü": {"i": "🌊", "x": "물 위", "m": "Batmadan suyun səthinin üzəridir.", "e": "İsa suyun üstü ilə yeridi."},
+   "xəyal": {"i": "👻", "x": "유령", "m": "İnsanların qorxduğu, görünən kimi olan qəribə şəkildir.", "e": "Şagirdlər İsanı xəyal sandılar."},
+   "səcdə": {"i": "🙇", "x": "경배", "m": "Allahın qarşısında yerə əyilib Onu uca tutmaqdır.", "e": "Şagirdlər İsaya səcdə etdilər."}
+  },
+  "test": [
+   {"q": "Şagirdlərdə hansı yemək var idi?", "o": ["Beş çörək və iki balıq", "Yüz çörək", "Heç nə"], "a": 0, "f": "Düzdür! Kiçik şey İsanın əlində çoxaldı."},
+   {"q": "Neçə səbət artıq qaldı?", "o": ["On iki səbət", "Bir səbət", "Heç nə qalmadı"], "a": 0, "f": "Düzdür! Bol-bol qaldı."},
+   {"q": "İsa suyun üstü ilə gələndə nə dedi?", "o": ["Cəsarətli olun, Mənəm", "Tez avar çəkin", "Qayıqdan düşün"], "a": 0, "f": "Düzdür! Qorxmayın dedi."},
+   {"q": "Peter niyə batmağa başladı?", "o": ["Küləyi görüb qorxduğu üçün", "Üzə bilmədiyi üçün", "Ac olduğu üçün"], "a": 0, "f": "Düzdür! İsaya deyil, küləyə baxdı."}
+  ],
+  "dusun": ["Əlimdəki kiçik şeyi İsaya versəm, nə olar?", "Peter kimi qorxanda mən nəyə baxıram?", "“Ya Rəbb, məni xilas et” deyə dua etdiyin olubmu?"],
+  "fealiyyet": {"ciz": "Suyun üstündə Peterin əlindən tutan İsanı çək.", "b": "Nəyi paylaşacaqsan?", "p": "İsaya verib paylaşa biləcəyin şeyi seç.", "ph": "",
+   "secim": {"basliq": "Nəyi paylaşacaqsan?", "izah": "Toxun və seç. Bir neçəsini seçə bilərsən.", "cumle": "Mən İsa üçün {x} paylaşacağam!", "bos": "çörəyimi", "bag": "və",
+    "secimler": [["🍞", "çörəyimi"], ["🧸", "oyuncaqlarımı"], ["⏰", "vaxtımı"], ["✏️", "qələmlərimi"], ["🍎", "meyvəmi"], ["😊", "sevincimi"]]}},
+  "dua": "İsa, kiçik çörək və balıqla çox adamı doyurduğun və suyun üstü ilə yeridiyin üçün Səni izzətləndirirəm. Əlimdəki kiçik şeyi də Sənə verim. Qorxanda küləyə deyil, Sənə baxım, batanda isə əlimdən tut. İsa Məsihin adı ilə dua edirəm. Amin."
+ },
+ "genc": {
+  "basliq": "Küləyə deyil, İsaya",
+  "giris": "Yəhyanın ölüm kədəri ilə başlayan bir gün. İsa dincəlmək istəyirdi, amma axışıb gələn izdihamı doyurdu, bütün gecə dua etdi, səhərə yaxın fırtınanı tapdalayıb gəldi. Və batan Peterə əlini uzatdı.",
+  "meqsed": ["Hirodun ziyafəti ilə İsanın ziyafətini müqayisə edərək Allahın Padşahlığının görünüşünü anlayırıq.", "Suyun üstü ilə yeriməyin İsanın kimliyi haqqında nə dediyini izah edə bilirik.", "Həyatımızın fırtınasında baxışımızı İsaya dikməyi məşq edirik."],
+  "sehneler": [
+   {"b": "İki ziyafət", "ayə": "Matta 14:1–14", "alt": "Qayıqla sakit yerə gedən İsa və ardınca gələn izdiham", "p": ["Hirod Antipanın ad günü ziyafətində Vəftizçi Yəhya öldürüldü. Bu, hakimin nüfuzu və andının saleh insanın həyatından vacib olduğu ziyafət idi.", "Xəbəri eşidən İsa tək olmaq üçün kimsəsiz yerə getdi. Kədərlənməyə vaxt lazım idi. Amma izdiham ardınca gələndə İsa bezmədi, onlara [[rəhmi gəldi|rəhmi gəlmək]]. Kədərin içində də məhəbbəti dayanmadı."], "deep": {"b": "Dərindən baxaq · Saray və çöl", "p": "Saraydakı ziyafət ölüm doğurdu, çöldəki ziyafət isə həyat. Matta iki hekayəni yan-yana qoyaraq “əsl Padşahın” kim olduğunu göstərir."}},
+   {"b": "Siz onlara yemək verin", "ayə": "Matta 14:15–21", "alt": "Çörəyə və balığa xeyir-dua verib paylayan İsa", "p": ["Şagirdlər real həll təklif etdilər: “İzdihamı burax.” İsa deyir: “Getmələrinə ehtiyac yoxdur. Siz onlara yemək verin.” İmkansızı şagirdlərə tapşırdı.", "“Götürüb göyə baxdı, [[şükür etdi|şükür etmək]], çörəkləri bölüb şagirdlərə verdi, şagirdlər də izdihama verdi.” Bu fellər (götürmək, şükür etmək, bölmək, vermək) Son Şam yeməyində (26:26) eynilə təkrarlanır."], "deep": {"b": "Dərindən baxaq · Səhradakı manna", "p": "Səhrada xalqı doyurmaq Çıxış kitabındakı mannanı xatırladır. On iki səbət on iki qəbiləni simvollaşdıra bilər. İsa yeni Musadan da artıq, xalqını doyuran Allahdır."}},
+   {"b": "Suyun üstündə “Mənəm”", "ayə": "Matta 14:22–27", "alt": "Fırtınalı gecə dənizin üstü ilə gələn İsa", "p": ["İsa izdihamı göndərib tək dağa çıxdı və dua etdi. Bu vaxt şagirdlər bütün gecə əks küləklə vuruşurdular. “Gecənin dördüncü növbəsi” səhər saat 3–6 arasıdır. Ən yorğun və qaranlıq vaxtda İsa gəldi.", "“Cəsarətli olun! [[Mənəm]], qorxmayın!” Yunanca “eqo eymi”, yəni “Mənəm”. Bu, Allahın Musaya Özünü “Mən Var Olanam” deyə tanıtdığı adla eyni səslənir (Çıx. 3:14)."], "deep": {"b": "Dərindən baxaq · Dənizi tapdalayan", "p": "Əyyub 9:8 Allahı “dənizin dalğalarını tapdalayan” adlandırır. Əhdi-Ətiqdə dəniz xaosun rəmzidir. İsa o xaosun üstündə yeriyən Yaradandır."}},
+   {"b": "Kiçik iman, tutan əl", "ayə": "Matta 14:28–36", "alt": "Suya batan Peterin əlindən tutan İsa", "p": ["Peter cəsarətlə suyun üstünə çıxdı. Digər şagirdlər qayıqda qaldı. Amma “küləyi görüb qorxdu” və batmağa başladı. Vəziyyət eyni idi, baxışı dəyişdi.", "İsa “dərhal” əlini uzadıb onu tutdu. “Ey kiçik imanlı, niyə şübhə etdin?” Danlaqdan əvvəl əl gəldi. Qayıqdakılar ilk dəfə “Sən həqiqətən Allahın Oğlusan” deyə [[səcdə]] etdilər."], "deep": {"b": "Dərindən baxaq · Uğursuz Peter?", "p": "Peter batdı, amma suyun üstündə yeriyən yeganə şagird oldu. Uğursuzluğu yalnız qayıqdan çıxan yaşayır. İsa batan anda da tutur. Şübhə (distazo) “iki ürəkli olmaq” deməkdir.", "rose": true}}
+  ],
+  "cedvel": {"b": "İki ziyafətin müqayisəsi", "alt": "14:1–21", "bas": ["", "Hirodun ziyafəti", "İsanın ziyafəti"], "set": [["Yer", "Saray", "Kimsəsiz çöl"], ["Qonaqlar", "Hakimlər", "Xəstələr və yoxsul izdiham"], ["Səbəb", "Nüfuz və and", "Rəhmi gəlmək"], ["Nəticə", "Saleh insanın ölümü", "Beş min nəfər doydu, on iki səbət qaldı"]]},
+  "aye": {"metn": "“İsa dərhal əlini uzadıb onu tutdu və dedi: “Ey kiçik imanlı, niyə şübhə etdin?” … Qayıqda olanlar Ona səcdə edib dedilər: “Sən həqiqətən Allahın Oğlusan.””", "ref": "14:31–33"},
+  "lugat": {
+   "rəhmi gəlmək": {"i": "💔", "o": "Yunanca splanxnizomai", "x": "불쌍히 여기다", "s": "Bağrı yanan şəfqət", "m": "9:36-dan sonra yenə gəlir. İsanın möcüzələri qüdrət nümayişi deyil, bu ürəkdən çıxırdı.", "e": "15:32 və 20:34-də də eyni söz var."},
+   "şükür etmək": {"i": "🙏", "o": "Yunanca evloqeo, “xeyir-dua vermək”", "x": "축사하다", "s": "Yeməkdən əvvəl şükür duası", "m": "Yəhudilər “Torpaqdan çörək çıxaran Allahımıza həmd olsun” deyə dua edirdilər.", "e": "Son Şam yeməyində də eyni fel işlənir (26:26)."},
+   "Mənəm": {"i": "✨", "o": "Yunanca eqo eymi", "x": "나다", "s": "Allahın adını xatırladan söz", "m": "Sadə “Mənəm” olsa da, Çıxış 3:14-dəki “Mən Var Olanam” sözünü xatırladır.", "e": "Yəhya Müjdəsində “Mən həyat çörəyiyəm” kimi yeddi “eqo eymi” var."},
+   "səcdə": {"i": "🙇", "o": "Yunanca proskineo", "x": "경배", "s": "Yalnız Allaha edilən səcdə", "m": "2-ci fəsildə müdriklərin körpə İsaya etdiyi hərəkətdir. Şagirdlər ilk dəfə İsaya Allahın Oğlu kimi səcdə edir.", "e": "4:10-dakı “Allahın Rəbbə səcdə et” ilə müqayisə edin."}
+  },
+  "test": [
+   {"q": "Vəftizçi Yəhya harada öldürüldü?", "o": ["Hirodun ad günü ziyafətində", "Məbəddə", "İordan çayında"], "a": 0, "f": "Düzdür. İsanın ziyafəti ilə ziddiyyət təşkil edir."},
+   {"q": "İsanın çörəklə etdiyi dörd hərəkət hansı səhnədə təkrarlanır?", "o": ["Son Şam yeməyində", "Vəftizdə", "Dağda görünüşün dəyişməsində"], "a": 0, "f": "Düzdür. Götürdü, şükür etdi, böldü, verdi."},
+   {"q": "“Gecənin dördüncü növbəsi” nə vaxtdır?", "o": ["Səhər saat 3–6", "Axşam 6–9", "Günorta"], "a": 0, "f": "Düzdür. Ən yorğun vaxtda gəldi."},
+   {"q": "“Mənəm” (eqo eymi) hansı Əhdi-Ətiq mətnini xatırladır?", "o": ["Çıxış 3:14", "Yaradılış 1:1", "Zəbur 23:1"], "a": 0, "f": "Düzdür. Allahın adı."},
+   {"q": "Peter niyə batmağa başladı?", "o": ["Küləyi görüb qorxduğu üçün", "İsa əlini buraxdığı üçün", "Qayıq getdiyi üçün"], "a": 0, "f": "Düzdür. Vəziyyət deyil, baxış dəyişdi."}
+  ],
+  "paylas": ["İsa kədər içində də insanlara rəhm etdi. Mən çətin vaxtımda başqalarının qayğısına qala bilərəmmi?", "“Siz onlara yemək verin” kimi, gücümün çatmadığı, amma İsanın tapşırdığı iş varmı?", "Bu günlərdə məni batıran “külək” nədir?", "Peter kimi “qayıqdan çıxdığım” iman təcrübəm olubmu?"],
+  "etiraf": {"b": "Mənim etirafım", "p": "Həyatındakı fırtınanı və onun üstündən gələn “Cəsarətli olun, Mənəm” səsi haqqında etirafını üç-dörd cümlə ilə yaz.", "ph": "Məsələn: Bu günlərdə ailə problemi üzündən yalnız küləyi görürəm. Amma İsa …"},
+  "dua": "İsa, kədər içində də izdihama rəhmi gələn və kiçik şeylə çoxlarını doyuran Səni izzətləndirirəm. Fırtınanın üstündən gəlib “Cəsarətli olun, Mənəm” deyən səsini eşidim. Küləyə deyil, Sənə baxım, batanda isə məni tutan əlinə güvənim. İsa Məsihin adı ilə dua edirəm. Amin."
+ }
+},
+"muellim": {
+ "mesaj": "19과의 중심은 한 문장입니다. **예수님은 슬픔 속에서도 무리를 불쌍히 여겨 먹이시는 참된 왕이시며, 폭풍 위를 걸어오셔서 “나다”라고 말씀하시는 하나님의 아들이시다.**",
+ "hazirliq": ["학생용 교재를 열 휴대폰이나 태블릿, 이어폰", "빵 다섯 조각과 물고기 모양 과자 (나눔 체험)", "파란 천 (물 위 걷기 놀이)"],
+ "fon": [
+  ["1. 헤롯 안티파스", "헤롯 대왕의 아들로 갈릴리와 베레아의 분봉 왕이었습니다. 요한의 처형은 마케루스 요새에서 있었습니다. 어린이반에서는 ‘헤롯 때문에 죽었다’ 정도로만 다루세요."],
+  ["2. 오천 명", "‘남자만 오천 명’이므로 여자와 아이를 합하면 만 명이 넘었을 수 있습니다. 네 복음서에 모두 나오는 유일한 기적입니다."],
+  ["3. 떡을 떼심", "14:19의 네 동사(가지사, 축사하시고, 떼어, 주시매)는 26:26에서 반복됩니다. 이 기적은 성찬을 미리 보여 줍니다."],
+  ["4. 에고 에이미", "14:27 “내니”는 헬라어 ‘에고 에이미’입니다. 출애굽기 3:14, 이사야 43:10–11의 하나님 자기 계시와 연결됩니다."],
+  ["5. 그림 안내", "두 번째(오천 명)와 세 번째(물 위를 걸으심) 장면은 PPT 그림입니다. 첫 번째와 네 번째는 같은 화풍으로 새로 그렸습니다. PPT의 요한 처형 그림은 어린이에게 적합하지 않아 쓰지 않았습니다."]
+ ],
+ "usaq_plan": [
+  ["5분", "나눔 체험", "빵 다섯 조각을 반 전체가 나눠 보기", "“예수님 손에서는 작은 것이 아주 많아졌어요!”"],
+  ["15분", "장면 1–4 듣고 읽기", "장면마다 듣기, 노란 낱말 누르기", "“베드로는 무엇을 보고 무서워했나요?”"],
+  ["5분", "물 위 걷기와 외울 말씀", "파란 천 위를 교사를 바라보며 걷기 → 빈칸 놀이", ""],
+  ["5분", "확인 퀴즈", "혼자 풀고 함께 확인", ""],
+  ["10분", "활동과 기도", "나눌 것 고르기 → “주님, 저를 구해 주세요” 기도", ""]
+ ],
+ "genc_plan": [
+  ["5분", "열기", "“최근 나를 가장 흔든 ‘바람’은?” 한 단어로", ""],
+  ["15분", "장면 1–2와 잔치 비교 표", "헤롯의 잔치와 예수님의 잔치, 너희가 먹을 것을 주라", ""],
+  ["10분", "장면 3–4", "밤 사경, 에고 에이미, 베드로의 시선", "“실패는 배 밖으로 나간 사람만 겪는다”"],
+  ["5분", "확인 문제", "", ""],
+  ["15분", "나눔과 고백", "나눔 질문 2개 → 폭풍 속 고백 쓰기 → 손잡고 기도", ""]
+ ],
+ "ipucu_usaq": ["요한의 죽음은 아주 짧게, 무섭지 않게 다루세요.", "‘믿음이 작아서 빠졌다’를 강조하기보다 ‘예수님이 바로 손을 잡아 주셨다’를 강조하세요.", "나눔 체험 때 알레르기가 있는 아이가 없는지 확인하세요."],
+ "ipucu_genc": ["가족을 잃은 경험이 있는 학생에게 ‘예수님도 슬퍼하셨다’는 점이 위로가 될 수 있습니다.", "베드로의 실패를 비웃지 않도록 하세요. 용기와 은혜의 이야기입니다.", "다음 과(15장)는 가나안 여인의 믿음입니다."],
+ "suallar": [
+  ["진짜로 사람이 물 위를 걸을 수 있어요?", "보통은 못 해요. 하지만 예수님은 바다를 만드신 하나님이셔서 걸으실 수 있었어요.", "이 기적은 예수님이 자연을 다스리시는 창조주이심을 보여 줘요(욥 9:8). 베드로도 예수님의 말씀(“오라”)에 힘입어 걸었어요."],
+  ["예수님은 왜 요한을 감옥에서 구해 주지 않으셨어요?", "우리가 다 알 수는 없지만, 하나님은 요한을 하늘나라에서 크게 칭찬하셨어요.", "하나님은 모든 고난을 이 땅에서 없애지는 않으세요. 예수님도 요한처럼 고난의 길을 가셨어요. 하지만 부활이 마지막 말이에요."],
+  ["오천 명은 어떻게 먹었어요? 빵이 계속 생겼어요?", "예수님이 기도하시고 나누실 때 하나님이 넉넉하게 채워 주셨어요.", "성경은 방법을 자세히 말하지 않아요. 중요한 것은 예수님이 백성을 먹이시는 하나님이시라는 점이에요. 광야의 만나처럼 하나님이 공급하셨어요."]
+ ]
+}
+}
