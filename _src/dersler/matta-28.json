@@ -1,0 +1,155 @@
+{
+"no": 28, "ref": "23:1–24:51", "deq": {"usaq": 40, "genc": 50},
+"img": ["matta/28-ferisey.jpg", "matta/28-toyuq.jpg", "matta/28-mebed-das.jpg", "matta/28-sadiq-qul.jpg"],
+"hero": 1,
+"ko": {
+ "usaq": {
+  "basliq": "깨어 있으라",
+  "hedef": ["자기를 높이는 사람이 아니라 낮추는 사람이 되어야 함을 알아요.", "예수님이 암탉처럼 우리를 품고 싶어 하신다는 것을 배워요.", "예수님이 다시 오실 날을 기다리며 깨어 있는 법을 배워요."],
+  "sehneler": [
+   {"b": "높은 자리를 좋아한 사람들", "ayə": "23:1–12", "alt": "높은 자리에 앉아 자랑하는 바리새인들", "p": ["[[바리새인]]들은 말은 잘했지만 행동은 하지 않았어요. 사람들에게 보이려고 옷을 크게 꾸미고, 잔치에서는 높은 자리에 앉고 싶어 했어요.", "예수님이 말씀하셨어요. “너희 중에 큰 사람은 너희를 섬기는 사람이 되어야 한다. 자기를 높이는 사람은 낮아지고, 자기를 [[낮추는]] 사람은 높아질 것이다.”"]},
+   {"b": "암탉이 병아리를 모으듯", "ayə": "23:37–39", "alt": "예루살렘을 바라보며 우시는 예수님과 병아리를 품은 암탉", "p": ["예수님은 예루살렘을 보시며 슬퍼하셨어요. “예루살렘아, 예루살렘아!”", "“[[암탉]]이 병아리를 날개 아래 모으듯 내가 너희를 모으려 했는데 너희가 원하지 않았구나.” 예수님은 우리를 따뜻하게 품고 싶어 하세요."]},
+   {"b": "무너질 성전", "ayə": "24:1–14", "alt": "성전의 큰 돌을 보며 이야기하시는 예수님과 제자들", "p": ["제자들이 크고 멋진 성전 건물을 보며 감탄했어요. 예수님이 말씀하셨어요. “돌 하나도 돌 위에 남지 않고 다 무너질 것이다.”", "예수님은 앞으로 전쟁과 지진과 어려운 일이 있을 거라고 하셨어요. 그러나 “끝까지 [[견디는]] 사람은 구원을 얻을 것이다. 이 복음이 온 세상에 전파될 것이다.”"]},
+   {"b": "깨어 있는 종", "ayə": "24:36–51", "alt": "등불을 켜고 집안사람들을 돌보는 성실한 종", "p": ["예수님은 다시 오실 거예요. 하지만 그날과 그 시간은 아무도 몰라요. 그래서 예수님이 말씀하셨어요. “[[깨어]] 있어라!”", "주인이 언제 와도 맡긴 일을 성실히 하고 있는 [[종]]은 복이 있어요. 우리도 매일 예수님을 기다리며 착하게 살아요."]}
+  ],
+  "aye": {"metn": "“누구든지 자기를 높이는 자는 낮아지고 누구든지 자기를 낮추는 자는 높아지리라.”", "ref": "23:12", "bos": "누구든지 자기를 ___ 자는 낮아지고 누구든지 자기를 ___ 자는 ___지리라.", "sozler": ["높이는", "낮추는", "높아"], "yalan": "숨는"},
+  "lugat": {
+   "바리새인": {"i": "📜", "x": "farisey", "m": "율법을 아주 엄격하게 지키려던 유대 사람들이에요. 그러나 많은 사람이 겉모습만 신경 썼어요.", "e": "바리새인들은 높은 자리를 좋아했어요."},
+   "낮추는": {"i": "⬇️", "x": "alçaltmaq", "m": "자랑하지 않고 겸손하게 하는 거예요.", "e": "자기를 낮추는 사람이 높아져요."},
+   "암탉": {"i": "🐔", "x": "toyuq", "m": "병아리를 낳아 기르는 어미 닭이에요.", "e": "암탉이 병아리를 날개 아래 모아요."},
+   "견디는": {"i": "💪", "x": "dözmək", "m": "힘들어도 포기하지 않고 버티는 거예요.", "e": "끝까지 견디는 사람은 구원을 얻어요."},
+   "깨어": {"i": "👀", "x": "ayıq", "m": "잠들지 않고 준비하고 있는 거예요.", "e": "깨어 있어라!"},
+   "종": {"i": "🧺", "x": "qul", "m": "주인의 일을 맡아 하는 사람이에요.", "e": "성실한 종은 복이 있어요."}
+  },
+  "test": [
+   {"q": "예수님은 누가 높아진다고 하셨나요?", "o": ["자기를 낮추는 사람", "자기를 자랑하는 사람", "높은 자리에 앉는 사람"], "a": 0, "f": "맞아요! 겸손한 사람이에요."},
+   {"q": "예수님은 자신을 무엇에 비유하셨나요?", "o": ["병아리를 모으는 암탉", "사자", "독수리"], "a": 0, "f": "맞아요! 우리를 따뜻하게 품고 싶어 하세요."},
+   {"q": "예수님이 다시 오실 날은 누가 아나요?", "o": ["하나님 아버지만 아세요", "모두 알아요", "달력에 있어요"], "a": 0, "f": "맞아요! 그래서 늘 깨어 있어야 해요."},
+   {"q": "주인이 왔을 때 복 있는 종은?", "o": ["맡긴 일을 성실히 하고 있는 종", "자고 있는 종", "놀고 있는 종"], "a": 0, "f": "맞아요! 매일 성실하게 살아요."}
+  ],
+  "dusun": ["내가 자랑하고 싶을 때는 언제인가요?", "예수님이 암탉처럼 나를 품으신다면 어떤 기분일까요?", "예수님을 기다리며 ‘깨어 있는’ 하루는 어떤 모습일까요?"],
+  "fealiyyet": {"ciz": "병아리들을 날개 아래 품은 암탉을 그리고, 병아리 하나에 내 이름을 써 보세요.", "b": "깨어 있는 나", "p": "예수님을 기다리며 매일 할 일을 써 보세요.", "ph": "예) 매일 아침 “예수님, 오늘도 함께해 주세요” 하고 기도할 거예요."},
+  "dua": "예수님, 암탉이 병아리를 품듯 저를 품어 주셔서 감사합니다. 자랑하지 않고 겸손하게 섬기는 사람이 되게 해 주세요. 예수님이 다시 오실 날을 기다리며 매일 깨어 성실하게 살게 해 주세요. 예수님 이름으로 기도합니다. 아멘."
+ },
+ "genc": {
+  "basliq": "겸손과 깨어 있음",
+  "giris": "예수님의 마지막 공개 설교는 날카로운 경고와 눈물로 시작합니다. 위선에 대한 일곱 번의 “화 있을진저”, 그리고 예루살렘을 향한 탄식. 이어서 감람산에서 미래를 말씀하시며 한 가지를 당부하십니다. 깨어 있으라.",
+  "meqsed": ["예수님이 바리새인의 위선을 꾸짖으신 이유와 겸손의 원리를 이해해요.", "마태복음 다섯 번째 설교(종말 설교)의 핵심 메시지를 설명할 수 있어요.", "‘깨어 있음’을 두려움이 아닌 성실함으로 내 일상에 적용해요."],
+  "sehneler": [
+   {"b": "말만 하고 행하지 않는", "ayə": "23:1–12", "alt": "높은 자리에 앉아 자랑하는 바리새인들", "p": ["예수님은 서기관과 바리새인이 “모세의 자리에 앉았으니” 그들의 가르침은 지키되 행위는 본받지 말라고 하세요. “그들은 말만 하고 행하지 아니하며.”", "그들은 [[경문]] 띠를 넓게 하고 옷술을 길게 하며 잔치의 윗자리와 ‘랍비’ 칭호를 좋아했어요. 예수님은 “너희 선생은 하나요 너희는 다 형제니라” 하시며, 큰 자는 섬기는 자라고 다시 말씀하세요(20:26)."], "deep": {"b": "깊이 보기 · 일곱 번의 화", "p": "23:13–36에는 “화 있을진저 외식하는 서기관들과 바리새인들이여”가 일곱 번 나와요. 5장 팔복(복 있는 자)과 대비되는 구조예요. 하루살이는 걸러 내고 낙타는 삼키는, 겉은 깨끗하고 속은 더러운 잔, 회칠한 무덤이라는 강한 비유가 나와요."}},
+   {"b": "어미 닭의 날개", "ayə": "23:37–39", "alt": "예루살렘을 바라보며 우시는 예수님과 병아리를 품은 암탉", "p": ["일곱 번의 경고 끝에 예수님의 목소리가 바뀌어요. “예루살렘아 예루살렘아 선지자들을 죽이고 네게 파송된 자들을 돌로 치는 자여.” 분노 뒤에는 눈물이 있었어요.", "“암탉이 그 새끼를 날개 아래에 모음 같이 내가 네 자녀를 모으려 한 일이 몇 번이더냐 그러나 너희가 [[원하지 아니하였도다|원하다]].” 하나님은 억지로 품지 않으세요. 초대를 거절할 자유까지 존중하세요."], "deep": {"b": "깊이 보기 · 하나님의 모성", "p": "성경은 하나님을 독수리(신 32:11), 어머니(사 66:13)로도 그려요. 날개 아래 피하는 이미지는 시편(91:4)에 자주 나와요. 예수님은 그 하나님의 품을 자신에게 적용하세요.", "rose": true}},
+   {"b": "돌 위에 돌 하나도", "ayə": "24:1–31", "alt": "성전의 큰 돌을 보며 이야기하시는 예수님과 제자들", "p": ["헤롯 성전의 돌 중에는 길이 12m가 넘는 것도 있었어요. 제자들이 감탄하자 예수님은 “돌 하나도 돌 위에 남지 않고 다 무너뜨려지리라” 하세요. 이 예언은 주후 70년 로마군에 의해 그대로 이루어졌어요.", "감람산에서 예수님은 거짓 그리스도, 전쟁, 기근, 지진, 박해를 말씀하시며 “이런 일이 있어야 하되 아직 끝은 아니니라”, “재난의 시작”이라고 하세요. 그리고 “이 천국 복음이 모든 민족에게 증언되기 위하여 온 세상에 전파되리니 그제야 끝이 오리라.”"], "deep": {"b": "깊이 보기 · 종말 설교 읽기", "p": "24장은 가까운 미래(주후 70년 성전 파괴)와 먼 미래(예수님의 재림)가 겹쳐 있어요. 목적은 날짜 계산이 아니라 미혹되지 않고, 두려워하지 않고, 끝까지 견디며 복음을 전하게 하는 거예요."}},
+   {"b": "충성되고 지혜 있는 종", "ayə": "24:32–51", "alt": "등불을 켜고 집안사람들을 돌보는 성실한 종", "p": ["“그 날과 그 때는 아무도 모르나니 하늘의 천사들도, 아들도 모르고 오직 아버지만 아시느니라.” 노아의 때처럼 사람들은 먹고 마시다 갑자기 맞이할 거예요. 그래서 “[[깨어 있으라]].”", "깨어 있음은 밤새 하늘만 쳐다보는 게 아니에요. 주인이 맡긴 집안사람들에게 “때를 따라 양식을 나눠 주는” 종이 깨어 있는 종이에요. 주인이 늦게 온다고 동료를 때리고 술 마시는 종과 대비돼요."], "deep": {"b": "깊이 보기 · 무화과나무의 교훈", "p": "24:32의 무화과나무는 21장의 저주받은 나무와 달리 희망의 표지예요. 가지가 연해지고 잎이 나면 여름이 가까운 것처럼, 하나님 나라의 완성은 반드시 와요."}}
+  ],
+  "cedvel": {"b": "두 종의 모습", "alt": "24:45–51", "bas": ["", "충성된 종", "악한 종"], "set": [["주인에 대한 생각", "언제든 오실 수 있다", "주인이 더디 오리라"], ["동료에 대한 태도", "때를 따라 양식을 나눠 줌", "동료를 때림"], ["자기 생활", "맡긴 일에 성실함", "술친구들과 먹고 마심"], ["결과", "모든 소유를 맡김", "외식하는 자가 받는 벌"]]},
+  "aye": {"metn": "“그러므로 깨어 있으라. 어느 날에 너희 주가 임할는지 너희가 알지 못함이니라. … 이러므로 너희도 준비하고 있으라. 생각하지 않은 때에 인자가 오리라.”", "ref": "24:42, 44"},
+  "lugat": {
+   "경문": {"i": "📦", "o": "헬라어 퓔락테리온", "x": "tefillin", "s": "말씀 상자", "m": "성경 구절을 넣은 작은 가죽 상자로 이마와 팔에 맸어요(신 6:8). 크게 만들어 경건을 과시했어요.", "e": "지금도 정통 유대인들은 기도할 때 경문을 착용해요."},
+   "원하다": {"i": "🫶", "o": "헬라어 델로", "x": "istəmək", "s": "의지의 선택", "m": "예수님은 “내가 원하였으나 너희가 원하지 않았다”고 하세요. 하나님의 사랑은 강요하지 않아요.", "e": "같은 동사로 8:3 “내가 원하노니 깨끗함을 받으라”가 있어요."},
+   "깨어 있으라": {"i": "👀", "o": "헬라어 그레고레오", "x": "ayıq olun", "s": "영적 각성과 준비", "m": "잠들지 않고 지켜보는 거예요. 겟세마네에서 예수님이 제자들에게 “깨어 있으라” 하셨지만 그들은 잠들었어요(26:38–41).", "e": "그레고리(Gregory)라는 이름이 이 단어에서 나왔어요."}
+  },
+  "test": [
+   {"q": "예수님이 바리새인을 꾸짖으신 핵심 이유는?", "o": ["말만 하고 행하지 않아서", "율법을 몰라서", "가난해서"], "a": 0, "f": "맞아요. 위선이 문제였어요."},
+   {"q": "23장의 ‘일곱 번의 화’와 대비되는 마태복음 본문은?", "o": ["5장 팔복", "1장 족보", "28장 대위임령"], "a": 0, "f": "맞아요. ‘복 있는 자’와 ‘화 있는 자’예요."},
+   {"q": "예수님이 예루살렘을 향해 사용하신 비유는?", "o": ["새끼를 모으는 암탉", "양을 지키는 목자", "포도원 주인"], "a": 0, "f": "맞아요. 분노 뒤의 눈물이에요."},
+   {"q": "성전 파괴 예언이 이루어진 해는?", "o": ["주후 70년", "주후 30년", "주후 313년"], "a": 0, "f": "맞아요. 로마군에 의해 무너졌어요."},
+   {"q": "예수님이 말씀하신 ‘깨어 있는 종’의 모습은?", "o": ["때를 따라 양식을 나눠 주는 종", "밤새 하늘만 보는 종", "날짜를 계산하는 종"], "a": 0, "f": "맞아요. 깨어 있음은 성실한 섬김이에요."}
+  ],
+  "paylas": ["내 신앙에서 ‘경문을 넓게 하는’ 것처럼 보여 주기 위한 모습이 있나요?", "예수님이 분노하시면서도 우셨다는 것은 하나님의 마음에 대해 무엇을 알려 주나요?", "종말에 관한 이야기를 들으면 두려운가요, 기대되나요? 왜 그런가요?", "예수님이 오늘 오신다면 나는 무엇을 하고 있는 모습이고 싶나요?"],
+  "etiraf": {"b": "나의 고백", "p": "‘충성되고 지혜 있는 종’처럼, 주님이 나에게 맡기신 ‘집안사람’(가족, 친구, 공동체)과 그들에게 나눌 ‘양식’을 서너 문장으로 써 보세요.", "ph": "예) 주님은 제게 동생을 맡기셨어요. 저는 동생에게 …"},
+  "dua": "예수님, 위선을 꾸짖으시면서도 예루살렘을 위해 우신 그 마음에 감사합니다. 제가 보여 주기 위한 신앙이 아니라 섬기는 신앙으로 살게 해 주세요. 암탉의 날개 아래로 돌아가며, 주님 오실 날을 두려움이 아니라 기대 속에 깨어 기다리고 맡기신 일에 충성하게 해 주세요. 예수님 이름으로 기도합니다. 아멘."
+ }
+},
+"az": {
+ "usaq": {
+  "basliq": "Ayıq olun",
+  "hedef": ["Özünü ucaldan deyil, alçaldan insan olmağı öyrənəcəyik.", "İsanın bizi toyuq kimi qanadları altına yığmaq istədiyini öyrənəcəyik.", "İsanın yenidən gələcəyi günü gözləyərək ayıq olmağı öyrənəcəyik."],
+  "sehneler": [
+   {"b": "Yüksək yeri sevənlər", "ayə": "Matta 23:1–12", "alt": "Yüksək yerdə oturub öyünən fariseylər", "p": ["[[Farisey]]lər yaxşı danışırdılar, amma dediklərinə əməl etmirdilər. İnsanlara görünmək üçün paltarlarını bəzəyir, ziyafətlərdə yuxarı başda oturmaq istəyirdilər.", "İsa dedi: “Aranızda ən böyüyünüz sizə xidmət edən olsun. Özünü ucaldan alçaldılacaq, özünü [[alçaldan|alçaltmaq]] isə ucaldılacaq.”"]},
+   {"b": "Toyuq cücələrini yığan kimi", "ayə": "Matta 23:37–39", "alt": "Yerusəlimə baxıb ağlayan İsa və cücələrini qanadı altına alan toyuq", "p": ["İsa Yerusəlimə baxıb kədərləndi: “Ey Yerusəlim, ey Yerusəlim!”", "“[[Toyuq]] cücələrini qanadları altına yığdığı kimi Mən də sənin övladlarını yığmaq istədim, amma siz istəmədiniz.” İsa bizi isti qucağına almaq istəyir."]},
+   {"b": "Dağılacaq məbəd", "ayə": "Matta 24:1–14", "alt": "Məbədin böyük daşlarına baxıb danışan İsa və şagirdlər", "p": ["Şagirdlər böyük və gözəl məbəd binasına heyran qaldılar. İsa dedi: “Burada daş üstündə daş qalmayacaq, hamısı dağılacaq.”", "İsa gələcəkdə müharibələr, zəlzələlər və çətinliklər olacağını dedi. Amma “axıradək [[dözən|dözmək]] xilas olacaq. Bu Müjdə bütün dünyada vəz ediləcək.”"]},
+   {"b": "Ayıq qul", "ayə": "Matta 24:36–51", "alt": "Çırağı yandırıb ev əhlinə qayğı göstərən sadiq qul", "p": ["İsa yenidən gələcək. Amma o günü və saatı heç kim bilmir. Buna görə İsa dedi: “[[Ayıq]] olun!”", "Ağası nə vaxt gəlsə də, tapşırılan işi sadiqcəsinə görən [[qul]] bəxtiyardır. Biz də hər gün İsanı gözləyərək yaxşı yaşayırıq."]}
+  ],
+  "aye": {"metn": "“Özünü ucaldan alçaldılacaq, özünü alçaldan isə ucaldılacaq.”", "ref": "23:12", "bos": "Özünü ___ alçaldılacaq, özünü ___ isə ___.", "sozler": ["ucaldan", "alçaldan", "ucaldılacaq"], "yalan": "gizlədən"},
+  "lugat": {
+   "Farisey": {"i": "📜", "x": "바리새인", "m": "Qanuna çox ciddi əməl etməyə çalışan yəhudilər idi. Amma çoxları yalnız zahirə fikir verirdi.", "e": "Fariseylər yüksək yeri sevirdilər."},
+   "alçaltmaq": {"i": "⬇️", "x": "낮추다", "m": "Öyünmədən təvazökar olmaqdır.", "e": "Özünü alçaldan ucaldılacaq."},
+   "Toyuq": {"i": "🐔", "x": "암탉", "m": "Cücələri böyüdən ana toyuqdur.", "e": "Toyuq cücələrini qanadları altına yığır."},
+   "dözmək": {"i": "💪", "x": "견디다", "m": "Çətin olsa da təslim olmadan davam etməkdir.", "e": "Axıradək dözən xilas olacaq."},
+   "Ayıq": {"i": "👀", "x": "깨어 있는", "m": "Yatmayıb hazır olmaqdır.", "e": "Ayıq olun!"},
+   "qul": {"i": "🧺", "x": "종", "m": "Ağasının işini görən adamdır.", "e": "Sadiq qul bəxtiyardır."}
+  },
+  "test": [
+   {"q": "İsa kimin ucaldılacağını dedi?", "o": ["Özünü alçaldanın", "Öyünənin", "Yuxarı başda oturanın"], "a": 0, "f": "Düzdür! Təvazökar insanın."},
+   {"q": "İsa Özünü nəyə bənzətdi?", "o": ["Cücələrini yığan toyuğa", "Aslana", "Qartala"], "a": 0, "f": "Düzdür! Bizi isti qucağına almaq istəyir."},
+   {"q": "İsanın yenidən gələcəyi günü kim bilir?", "o": ["Yalnız Səmavi Ata", "Hamı", "Təqvimdə yazılıb"], "a": 0, "f": "Düzdür! Buna görə həmişə ayıq olmalıyıq."},
+   {"q": "Ağası gələndə bəxtiyar olan qul hansıdır?", "o": ["Tapşırılan işi sadiqcəsinə görən", "Yatan", "Oynayan"], "a": 0, "f": "Düzdür! Hər gün sadiq yaşayırıq."}
+  ],
+  "dusun": ["Nə vaxt öyünmək istəyirəm?", "İsa məni toyuq kimi qucağına alsa, necə hiss edərəm?", "İsanı gözləyərək “ayıq” keçən gün necə olur?"],
+  "fealiyyet": {"ciz": "Cücələrini qanadları altına alan toyuğu çək və cücələrdən birinə adını yaz.", "b": "İsa gələnə qədər nə edəcəksən?", "p": "İsanı gözləyərkən edəcəyin işi seç.", "ph": "",
+   "secim": {"basliq": "İsa gələnə qədər nə edəcəksən?", "izah": "Toxun və seç. Bir neçəsini seçə bilərsən.", "cumle": "İsa gələnə qədər mən {x}!", "bos": "hər gün dua edəcəyəm", "bag": "və",
+    "secimler": [["🙏", "hər gün dua edəcəyəm"], ["💛", "yaxşılıq edəcəyəm"], ["🧽", "ev işinə kömək edəcəyəm"], ["📖", "Kəlamı oxuyacağam"], ["⬇️", "təvazökar olacağam"], ["👫", "dostlarımı sevəcəyəm"]]}},
+  "dua": "İsa, toyuq cücələrini qucağına aldığı kimi məni qucağına aldığın üçün Sənə şükür edirəm. Öyünməyim, təvazökarlıqla xidmət edim. Sənin yenidən gələcəyin günü gözləyərək hər gün ayıq və sadiq yaşayım. İsa Məsihin adı ilə dua edirəm. Amin."
+ },
+ "genc": {
+  "basliq": "Təvazökarlıq və ayıqlıq",
+  "giris": "İsanın son açıq vəzi kəskin xəbərdarlıq və göz yaşları ilə başlayır. İkiüzlülüyə qarşı yeddi dəfə “vay halınıza”, sonra Yerusəlim üçün ah-nalə. Ardınca Zeytun dağında gələcəkdən danışıb bir şeyi tapşırır: ayıq olun.",
+  "meqsed": ["İsanın fariseylərin ikiüzlülüyünü danlamasının səbəbini və təvazökarlıq prinsipini anlayırıq.", "Matta Müjdəsinin beşinci vəzinin (axır zaman vəzi) əsas mesajını izah edə bilirik.", "“Ayıqlığı” qorxu ilə deyil, sadiqliklə gündəlik həyatımıza tətbiq edirik."],
+  "sehneler": [
+   {"b": "Danışıb əməl etməyənlər", "ayə": "Matta 23:1–12", "alt": "Yüksək yerdə oturub öyünən fariseylər", "p": ["İsa deyir ki, ilahiyyatçılar və fariseylər “Musanın kürsüsündə oturublar”, onların təliminə əməl edin, amma əməllərindən nümunə götürməyin. “Çünki deyirlər, amma etmirlər.”", "Onlar [[tefillin]] qutularını genişləndirir, paltarlarının saçaqlarını uzadır, ziyafətlərdə yuxarı başı və “ravvi” adını sevirdilər. İsa “Sizin Müəlliminiz birdir, hamınız qardaşsınız” deyib böyüyün xidmət edən olduğunu yenidən deyir (20:26)."], "deep": {"b": "Dərindən baxaq · Yeddi “vay halınıza”", "p": "23:13–36-da “Vay halınıza, ey ikiüzlü ilahiyyatçılar və fariseylər” yeddi dəfə təkrarlanır. Bu, 5-ci fəsildəki bəxtiyarlıq sözlərinə zidd quruluşdur. Ağcaqanadı süzüb dəvəni udmaq, çölü təmiz, içi çirkli kasa, ağardılmış qəbir kimi güclü bənzətmələr var."}},
+   {"b": "Ana toyuğun qanadları", "ayə": "Matta 23:37–39", "alt": "Yerusəlimə baxıb ağlayan İsa və cücələrini qanadı altına alan toyuq", "p": ["Yeddi xəbərdarlığın sonunda İsanın səsi dəyişir. “Ey Yerusəlim, ey Yerusəlim, peyğəmbərləri öldürən, sənə göndərilənləri daşqalaq edən!” Qəzəbin arxasında göz yaşı var idi.", "“Toyuq cücələrini qanadları altına yığdığı kimi Mən neçə dəfə sənin övladlarını yığmaq istədim, amma siz [[istəmədiniz|istəmək]].” Allah zorla qucaqlamır. Dəvəti rədd etmək azadlığına belə hörmət edir."], "deep": {"b": "Dərindən baxaq · Allahın analıq qayğısı", "p": "Müqəddəs Kitab Allahı qartal (Qan. 32:11), ana (Yeş. 66:13) kimi də təsvir edir. Qanadlar altında sığınmaq surəti Zəburda (91:4) tez-tez keçir. İsa Allahın bu qucağını Özünə aid edir.", "rose": true}},
+   {"b": "Daş üstündə daş", "ayə": "Matta 24:1–31", "alt": "Məbədin böyük daşlarına baxıb danışan İsa və şagirdlər", "p": ["Hirod məbədinin daşlarından bəzilərinin uzunluğu 12 metrdən çox idi. Şagirdlər heyran qalanda İsa deyir: “Burada daş üstündə daş qalmayacaq, hamısı dağılacaq.” Bu peyğəmbərlik eramızın 70-ci ilində Roma ordusu tərəfindən olduğu kimi yerinə yetdi.", "Zeytun dağında İsa yalançı məsihlərdən, müharibələrdən, aclıqdan, zəlzələlərdən, təqiblərdən danışıb deyir: “Bunlar olmalıdır, amma hələ son deyil”, “ağrıların başlanğıcıdır”. Və: “Padşahlığın bu Müjdəsi bütün millətlərə şəhadət olmaq üçün bütün dünyada vəz ediləcək və o zaman son gələcək.”"], "deep": {"b": "Dərindən baxaq · Axır zaman vəzini oxumaq", "p": "24-cü fəsildə yaxın gələcək (eramızın 70-ci ilində məbədin dağılması) ilə uzaq gələcək (İsanın yenidən gəlişi) üst-üstə düşür. Məqsəd tarix hesablamaq deyil, aldanmamaq, qorxmamaq, axıradək dözmək və Müjdəni yaymaqdır."}},
+   {"b": "Sadiq və ağıllı qul", "ayə": "Matta 24:32–51", "alt": "Çırağı yandırıb ev əhlinə qayğı göstərən sadiq qul", "p": ["“O günü və o saatı heç kim bilmir: nə göydəki mələklər, nə də Oğul, yalnız Ata bilir.” Nuhun dövründəki kimi insanlar yeyib-içərkən birdən qarşılayacaqlar. Buna görə “[[ayıq olun]]”.", "Ayıqlıq bütün gecəni göyə baxmaq deyil. Ağanın tapşırdığı ev əhlinə “vaxtında yemək verən” qul ayıq quldur. Ağa gecikir deyə yoldaşlarını döyüb içki içən qulla müqayisə olunur."], "deep": {"b": "Dərindən baxaq · Əncir ağacının dərsi", "p": "24:32-dəki əncir ağacı 21-ci fəsildəki lənətlənmiş ağacdan fərqli olaraq ümid əlamətidir. Budaqlar yumşalıb yarpaq açanda yayın yaxınlaşdığı kimi, Allahın Padşahlığının tamamlanması mütləq gələcək."}}
+  ],
+  "cedvel": {"b": "İki qulun görünüşü", "alt": "24:45–51", "bas": ["", "Sadiq qul", "Pis qul"], "set": [["Ağa haqqında fikri", "Hər an gələ bilər", "Ağam gecikir"], ["Yoldaşlara münasibət", "Vaxtında yemək verir", "Yoldaşlarını döyür"], ["Öz həyatı", "Tapşırılan işdə sadiqdir", "Əyyaşlarla yeyib-içir"], ["Nəticə", "Bütün varı ona tapşırılır", "İkiüzlülərin cəzasını alır"]]},
+  "aye": {"metn": "“Buna görə ayıq olun, çünki Rəbbinizin hansı gün gələcəyini bilmirsiniz. … Siz də hazır olun, çünki Bəşər Oğlu gözləmədiyiniz saatda gələcək.”", "ref": "24:42, 44"},
+  "lugat": {
+   "tefillin": {"i": "📦", "o": "Yunanca filakterion", "x": "경문", "s": "Kəlam qutuları", "m": "İçində Müqəddəs Yazı ayələri olan kiçik dəri qutular idi, alına və qola bağlanırdı (Qan. 6:8). Dindarlığı göstərmək üçün onları böyük edirdilər.", "e": "Bu gün də ortodoks yəhudilər dua edəndə tefillin taxırlar."},
+   "istəmək": {"i": "🫶", "o": "Yunanca telo", "x": "원하다", "s": "İradə seçimi", "m": "İsa “Mən istədim, amma siz istəmədiniz” deyir. Allahın məhəbbəti məcbur etmir.", "e": "Eyni fel 8:3-də “İstəyirəm, pak ol” sözündə var."},
+   "ayıq olun": {"i": "👀", "o": "Yunanca qreqoreo", "x": "깨어 있으라", "s": "Ruhani oyaqlıq və hazırlıq", "m": "Yatmadan gözləməkdir. Getsemanidə İsa şagirdlərinə “ayıq olun” dedi, amma onlar yatdılar (26:38–41).", "e": "Qriqori (Gregory) adı bu sözdən gəlir."}
+  },
+  "test": [
+   {"q": "İsanın fariseyləri danlamasının əsas səbəbi nə idi?", "o": ["Danışıb əməl etmədikləri üçün", "Qanunu bilmədikləri üçün", "Yoxsul olduqları üçün"], "a": 0, "f": "Düzdür. Problem ikiüzlülük idi."},
+   {"q": "23-cü fəsildəki “yeddi vay” hansı Matta mətni ilə ziddiyyət təşkil edir?", "o": ["5-ci fəsildəki bəxtiyarlıq sözləri", "1-ci fəsildəki nəsil şəcərəsi", "28-ci fəsildəki Böyük Tapşırıq"], "a": 0, "f": "Düzdür. “Bəxtiyar” və “vay halına”."},
+   {"q": "İsa Yerusəlimə hansı bənzətməni işlətdi?", "o": ["Cücələrini yığan toyuq", "Qoyunları qoruyan çoban", "Üzüm bağı sahibi"], "a": 0, "f": "Düzdür. Qəzəbin arxasında göz yaşı."},
+   {"q": "Məbədin dağılması peyğəmbərliyi hansı ildə yerinə yetdi?", "o": ["Eramızın 70-ci ilində", "Eramızın 30-cu ilində", "Eramızın 313-cü ilində"], "a": 0, "f": "Düzdür. Roma ordusu dağıtdı."},
+   {"q": "İsanın dediyi “ayıq qul” necədir?", "o": ["Vaxtında yemək paylayan qul", "Bütün gecə göyə baxan qul", "Tarix hesablayan qul"], "a": 0, "f": "Düzdür. Ayıqlıq sadiq xidmətdir."}
+  ],
+  "paylas": ["İmanımda “tefillini genişləndirmək” kimi göstəriş üçün olan bir şey varmı?", "İsanın qəzəblənərkən ağlaması Allahın ürəyi haqqında nə deyir?", "Axır zaman haqqında eşidəndə qorxuram, yoxsa gözləyirəm? Niyə?", "İsa bu gün gəlsə, məni nə edərkən görmək istərdim?"],
+  "etiraf": {"b": "Mənim etirafım", "p": "“Sadiq və ağıllı qul” kimi, Rəbbin sənə tapşırdığı “ev əhlini” (ailə, dostlar, cəmiyyət) və onlara paylayacağın “yeməyi” üç-dörd cümlə ilə yaz.", "ph": "Məsələn: Rəbb mənə kiçik qardaşımı tapşırıb. Mən ona …"},
+  "dua": "İsa, ikiüzlülüyü danlasan da Yerusəlim üçün ağlayan ürəyinə görə Sənə şükür edirəm. Göstəriş üçün deyil, xidmət edən imanla yaşayım. Toyuğun qanadları altına qayıdım və gəlişini qorxu ilə deyil, ümidlə gözləyib tapşırdığın işdə sadiq olum. İsa Məsihin adı ilə dua edirəm. Amin."
+ }
+},
+"muellim": {
+ "mesaj": "28과의 중심은 한 문장입니다. **예수님은 보여 주기 위한 위선을 꾸짖으시면서도 눈물로 품으려 하시며, 다시 오실 그날을 위해 두려움이 아닌 성실한 섬김으로 깨어 있으라고 하신다.**",
+ "hazirliq": ["학생용 교재를 열 휴대폰이나 태블릿, 이어폰", "암탉과 병아리 사진", "작은 등불이나 손전등 (깨어 있음)"],
+ "fon": [
+  ["1. 23장의 구조", "무리와 제자에게 주는 경고(1–12), 일곱 번의 화(13–36), 예루살렘 탄식(37–39). 마태복음에서 예수님의 마지막 공개 가르침입니다."],
+  ["2. 경문과 옷술", "경문(테필린)은 신명기 6:8, 옷술(치치트)은 민수기 15:38에 근거합니다. 말씀을 기억하라는 도구가 경건 과시의 도구가 되었습니다."],
+  ["3. 성전 파괴", "주후 70년 티투스 장군의 로마군이 예루살렘을 함락하고 성전을 불태웠습니다. 지금은 서쪽 옹벽(통곡의 벽)만 남아 있습니다."],
+  ["4. 종말 설교", "24–25장은 다섯 번째이자 마지막 설교입니다. 26:1 “예수께서 이 말씀을 다 마치시고”로 끝납니다. ‘다’라는 말로 모든 설교가 끝났음을 표시합니다."],
+  ["5. 지도 원칙", "종말론을 두려움 마케팅이나 날짜 계산으로 다루지 마세요. 24:36 “아무도 모른다”가 핵심입니다. 이단들이 이 본문을 자주 악용하므로 학생들에게 분별력을 길러 주세요."]
+ ],
+ "usaq_plan": [
+  ["5분", "암탉과 병아리", "사진 보며 “병아리는 무서울 때 어디로 갈까요?”", "“예수님은 우리를 그렇게 품고 싶어 하세요.”"],
+  ["15분", "장면 1–4 듣고 읽기", "장면마다 듣기, 노란 낱말 누르기", "“예수님이 오시는 날은 아무도 몰라요. 그래서 매일 준비해요.”"],
+  ["5분", "외울 말씀", "빈칸 놀이 → ‘높이는’에 손 올리기, ‘낮추는’에 앉기", ""],
+  ["5분", "확인 퀴즈", "혼자 풀고 함께 확인", ""],
+  ["10분", "활동과 기도", "깨어 있는 방법 고르기 → 기도", ""]
+ ],
+ "genc_plan": [
+  ["5분", "열기", "“세상의 끝에 대해 들어 본 이야기”(영화, 유튜브 등) 나누기", ""],
+  ["15분", "장면 1–2", "위선과 겸손, 일곱 번의 화, 암탉의 날개", ""],
+  ["10분", "장면 3–4와 두 종 표", "성전 파괴, 재난의 시작, 아무도 모르는 날, 충성된 종", "“이단의 날짜 계산에 속지 않기”"],
+  ["5분", "확인 문제", "", ""],
+  ["15분", "나눔과 고백", "나눔 질문 2개 → 맡기신 집안사람 쓰기 → 기도", ""]
+ ],
+ "ipucu_usaq": ["종말 이야기를 무섭게 하지 마세요. ‘예수님이 다시 오시면 정말 기쁜 날’이라고 말해 주세요.", "‘화 있을진저’ 부분은 어린이반에서 다루지 않습니다.", "바리새인을 ‘나쁜 사람들’로만 그리지 말고 ‘우리도 그렇게 될 수 있다’고 연결하세요."],
+ "ipucu_genc": ["재림 날짜를 주장하는 단체(이단)에 대한 질문이 나오면 24:36을 근거로 분명히 답하세요.", "‘깨어 있음’을 불안이 아니라 성실함으로 정의하세요.", "다음 과(25장)는 열 처녀, 달란트, 양과 염소 비유입니다."],
+ "suallar": [
+  ["예수님은 언제 다시 와요?", "아무도 몰라요. 예수님도 하나님 아버지만 아신다고 하셨어요. 그래서 매일 준비하며 기다려요.", "24:36이 분명히 말해요. 날짜를 계산하는 사람은 성경을 거스르는 거예요. 우리가 할 일은 날짜가 아니라 준비예요."],
+  ["예수님도 화를 내셨어요? 너무 무서워요.", "예수님은 사람들이 잘못된 길로 가는 게 너무 속상하셔서 그러셨어요. 그리고 바로 우셨어요.", "예수님의 ‘화’ 선언은 저주가 아니라 슬픔이 섞인 경고예요. 바로 뒤에 예루살렘을 향한 눈물이 나와요."],
+  ["세상이 끝나면 무서운 일만 있어요?", "아니에요! 예수님이 오셔서 모든 아픔과 눈물을 없애 주시는 기쁜 날이에요.", "종말은 심판이자 회복이에요. 요한계시록 21:4처럼 하나님이 모든 눈물을 닦아 주시는 날이에요. 그래서 그리스도인은 “마라나타(주여 오시옵소서)”라고 기도해요."]
+ ]
+}
+}
