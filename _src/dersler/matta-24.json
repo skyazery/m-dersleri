@@ -1,0 +1,155 @@
+{
+"no": 24, "ref": "19:1–30", "deq": {"usaq": 40, "genc": 50},
+"img": ["27-usaqlar.jpg", "29-varli-genc.jpg", "matta/24-deve.jpg", "matta/24-hamisini.jpg"],
+"hero": 0,
+"ko": {
+ "usaq": {
+  "basliq": "어린아이들을 내게 오게 하라",
+  "hedef": ["예수님이 어린아이들을 사랑하시고 축복하신 이야기를 알아요.", "부자 청년이 왜 슬퍼하며 떠났는지 배워요.", "무엇보다 예수님을 가장 사랑하기로 해요."],
+  "sehneler": [
+   {"b": "아이들을 축복하신 예수님", "ayə": "19:13–15", "alt": "아이들을 안고 축복하시는 예수님", "p": ["사람들이 예수님께 아이들을 데려왔어요. 예수님이 손을 얹고 기도해 주시기를 바랐어요. 그런데 제자들이 “바쁘신데 귀찮게 하지 마세요!” 하며 막았어요.", "예수님이 말씀하셨어요. “어린아이들이 내게 오는 것을 막지 말라. 하늘나라는 이런 사람들의 것이다.” 그리고 아이들에게 손을 얹어 [[축복]]해 주셨어요."]},
+   {"b": "부자 청년의 질문", "ayə": "19:16–22", "alt": "예수님께 질문하는 부자 청년", "p": ["한 [[청년]]이 와서 물었어요. “선생님, 영원한 생명을 얻으려면 무슨 선한 일을 해야 해요?” 예수님은 계명을 지키라고 하셨어요. 청년은 “다 지켰어요” 했어요.", "예수님이 말씀하셨어요. “네 [[재산]]을 팔아 가난한 사람들에게 주고 나를 따라오너라.” 청년은 재산이 많아서 슬퍼하며 떠나갔어요."]},
+   {"b": "낙타와 바늘귀", "ayə": "19:23–26", "alt": "바늘귀 앞에 서 있는 커다란 낙타", "p": ["예수님이 말씀하셨어요. “[[낙타]]가 [[바늘귀]]로 들어가는 것이 부자가 하늘나라에 들어가는 것보다 쉽다.”", "제자들이 놀라서 물었어요. “그럼 누가 구원받을 수 있어요?” 예수님이 대답하셨어요. “사람으로는 할 수 없지만 하나님은 모든 것을 하실 수 있다.”"]},
+   {"b": "모든 것을 버려두고", "ayə": "19:27–30", "alt": "그물과 배를 두고 예수님을 따르는 제자들", "p": ["베드로가 말했어요. “저희는 모든 것을 버려두고 예수님을 따랐어요.”", "예수님이 약속하셨어요. “나를 위해 집이나 가족이나 땅을 두고 온 사람은 백 배나 받고 영원한 생명을 얻을 것이다. 먼저 된 사람이 나중 되고 나중 된 사람이 먼저 될 것이다.”"]}
+  ],
+  "aye": {"metn": "“어린아이들을 용납하고 내게 오는 것을 금하지 말라. 천국이 이런 사람의 것이니라.”", "ref": "19:14", "bos": "___들을 용납하고 내게 오는 것을 ___하지 말라. ___이 이런 사람의 것이니라.", "sozler": ["어린아이", "금", "천국"], "yalan": "어른"},
+  "lugat": {
+   "축복": {"i": "🙌", "x": "xeyir-dua", "m": "하나님이 좋은 것을 주시기를 비는 거예요.", "e": "예수님이 아이들을 축복하셨어요."},
+   "청년": {"i": "🧑", "x": "gənc", "m": "어른이 되어 가는 젊은 사람이에요.", "e": "부자 청년이 예수님께 왔어요."},
+   "재산": {"i": "💰", "x": "var-dövlət", "m": "가지고 있는 돈과 집과 물건이에요.", "e": "청년은 재산이 많았어요."},
+   "낙타": {"i": "🐫", "x": "dəvə", "m": "사막에 사는 아주 큰 동물이에요.", "e": "낙타가 바늘귀로 들어가요?"},
+   "바늘귀": {"i": "🪡", "x": "iynənin gözü", "m": "실을 꿰는 바늘의 아주 작은 구멍이에요.", "e": "바늘귀는 정말 작아요."}
+  },
+  "test": [
+   {"q": "제자들이 아이들을 막자 예수님은?", "o": ["막지 말라고 하셨어요", "돌려보내셨어요", "모른 척하셨어요"], "a": 0, "f": "맞아요! 예수님은 아이들을 사랑하세요."},
+   {"q": "부자 청년은 왜 슬퍼하며 떠났나요?", "o": ["재산이 많아서", "배가 고파서", "길을 잃어서"], "a": 0, "f": "맞아요! 재산을 예수님보다 더 사랑했어요."},
+   {"q": "바늘귀로 들어가기 어려운 동물은?", "o": ["낙타", "개미", "모기"], "a": 0, "f": "맞아요! 사람 힘으로는 불가능하다는 뜻이에요."},
+   {"q": "예수님은 하나님에 대해 무엇이라고 하셨나요?", "o": ["모든 것을 하실 수 있다", "바쁘시다", "멀리 계신다"], "a": 0, "f": "맞아요! 하나님은 불가능이 없으세요."}
+  ],
+  "dusun": ["예수님이 나를 안고 축복해 주신다면 어떤 기분일까요?", "부자 청년에게 재산이 소중했던 것처럼, 나에게 예수님보다 소중한 것이 있나요?", "‘하나님은 모든 것을 하실 수 있다’는 말이 언제 힘이 되나요?"],
+  "fealiyyet": {"ciz": "예수님이 나를 안고 축복해 주시는 모습을 그려 보세요.", "b": "예수님께 가는 나", "p": "예수님께 드리고 싶은 말을 써 보세요.", "ph": "예) 예수님, 저도 예수님께 가고 싶어요. 저를 축복해 주세요."},
+  "dua": "예수님, 어린아이들을 막지 않으시고 안아 축복해 주시는 예수님께 감사합니다. 저도 언제든 예수님께 갈 수 있어서 기뻐요. 부자 청년처럼 다른 것을 더 사랑하지 않고, 예수님을 가장 사랑하게 해 주세요. 예수님 이름으로 기도합니다. 아멘."
+ },
+ "genc": {
+  "basliq": "무엇이 부족합니까?",
+  "giris": "모든 것을 갖춘 청년이 물었습니다. “아직도 무엇이 부족합니까?” 예수님은 그가 가진 것이 아니라 그를 가진 것을 보셨습니다. 같은 장면에서 아무것도 없는 아이들은 축복을 받고, 모든 것을 가진 청년은 슬퍼하며 떠납니다.",
+  "meqsed": ["어린아이와 부자 청년의 대조를 통해 하나님 나라에 들어가는 길을 이해해요.", "‘낙타와 바늘귀’가 말하는 구원의 원리를 설명할 수 있어요.", "나를 붙잡고 있는 ‘재산’이 무엇인지 돌아보고 따름을 결단해요."],
+  "sehneler": [
+   {"b": "아무것도 없는 자들", "ayə": "19:1–15", "alt": "아이들을 안고 축복하시는 예수님", "p": ["예수님은 갈릴리를 떠나 요단 건너 유대 지방으로 가세요. 십자가를 향한 마지막 여정이 시작돼요. 바리새인들은 이혼 문제로 시험했지만 예수님은 창조의 처음으로 돌아가 결혼의 신성함을 말씀하세요.", "그리고 아이들 장면이 이어져요. 제자들은 막았지만 예수님은 “천국이 이런 자의 것”이라 하세요. 아이들은 아무것도 내세울 게 없어서 오히려 받을 수 있어요. 18:3과 이어져요."], "deep": {"b": "깊이 보기 · 결혼과 독신", "p": "19:3–12에서 예수님은 창세기 1–2장을 근거로 결혼이 하나님이 짝지어 주신 것이라 하시고, 동시에 하나님 나라를 위한 독신도 귀하다고 하세요. 두 길 모두 하나님께 드리는 삶이에요."}},
+   {"b": "한 가지 부족한 것", "ayə": "19:16–22", "alt": "예수님께 질문하는 부자 청년", "p": ["청년은 “무슨 [[선한]] 일을 하여야 영생을 얻으리이까” 물었어요. 그는 영생을 ‘해야 할 일’로 생각했어요. 예수님은 십계명 중 이웃에 관한 계명을 말씀하시고 “네 이웃을 네 자신같이 사랑하라”를 더하세요.", "“다 지켰는데 아직도 무엇이 부족합니까?” 예수님은 “온전하고자 할진대 가서 네 소유를 팔아 가난한 자들에게 주라. 그리하면 하늘에서 보화가 있으리라. 그리고 와서 나를 따르라.” 청년은 [[재물]]이 많으므로 근심하며 갔어요."], "deep": {"b": "깊이 보기 · 첫째 계명", "p": "예수님은 이웃 계명만 말씀하셨어요. 그리고 “소유를 팔라”는 말로 첫째 계명(“나 외에 다른 신을 두지 말라”)을 시험하셨어요. 청년의 진짜 하나님은 재물이었어요. 6:24 “하나님과 재물을 겸하여 섬기지 못하느니라”가 현실이 되었어요."}},
+   {"b": "사람은 할 수 없으되", "ayə": "19:23–26", "alt": "바늘귀 앞에 서 있는 커다란 낙타", "p": ["“[[낙타]]가 바늘귀로 들어가는 것이 부자가 하나님의 나라에 들어가는 것보다 쉬우니라.” 낙타는 팔레스타인에서 가장 큰 동물, 바늘귀는 가장 작은 구멍이에요. 의도적인 불가능이에요.", "당시 부는 하나님의 복의 증거로 여겨졌어요. 그래서 제자들이 “그런즉 누가 구원을 얻을 수 있으리이까” 하고 놀랐어요. 예수님의 대답: “사람으로는 할 수 없으나 하나님으로서는 다 하실 수 있느니라.” 구원은 업적이 아니라 하나님의 일이에요."], "deep": {"b": "깊이 보기 · ‘바늘귀 문’?", "p": "예루살렘에 ‘바늘귀’라는 작은 문이 있어 낙타가 짐을 내리고 무릎 꿇고 지나갔다는 설명이 있지만, 역사적 근거는 없어요. 예수님은 ‘어렵다’가 아니라 ‘불가능하다’를 말씀하셨고, 그래서 하나님만 하실 수 있다고 하신 거예요.", "rose": true}},
+   {"b": "먼저 된 자와 나중 된 자", "ayə": "19:27–30", "alt": "그물과 배를 두고 예수님을 따르는 제자들", "p": ["베드로가 말했어요. “보소서, 우리가 모든 것을 버리고 주를 따랐사온대 그런즉 우리가 무엇을 얻으리이까.” 청년과 반대의 선택을 한 사람들이에요.", "예수님은 새 세상에서 열두 보좌에 앉을 것과, 버린 것의 [[백 배]]와 영생을 약속하세요. 그런데 끝에 경고를 붙이세요. “먼저 된 자로서 나중 되고 나중 된 자로서 먼저 될 자가 많으니라.” 다음 장의 포도원 비유로 이어져요."], "deep": {"b": "깊이 보기 · 보상을 바라는 것은 나쁜가?", "p": "예수님은 베드로의 질문을 꾸짖지 않고 약속으로 대답하세요. 하나님은 아무것도 갚지 않으시는 분이 아니에요. 다만 그 보상은 ‘계산’이 아니라 ‘은혜’라는 것을 다음 장에서 보여 주세요."}}
+  ],
+  "cedvel": {"b": "아이와 청년", "alt": "19:13–22", "bas": ["", "어린아이들", "부자 청년"], "set": [["가진 것", "아무것도 없음", "재산, 젊음, 도덕성"], ["예수님께 온 방법", "다른 사람이 데려옴", "스스로 질문하러 옴"], ["질문", "없음", "무슨 선한 일을 해야 하나"], ["결과", "손을 얹어 축복받음", "근심하며 떠남"]]},
+  "aye": {"metn": "“예수께서 그들을 보시며 이르시되 사람으로는 할 수 없으나 하나님으로서는 다 하실 수 있느니라.”", "ref": "19:26"},
+  "lugat": {
+   "선한": {"i": "🌟", "o": "헬라어 아가토스", "x": "yaxşı", "s": "하나님만이 온전히 선하심", "m": "예수님은 “선한 이는 오직 한 분이시니라”(19:17)고 하세요. 선함의 기준은 내 행위가 아니라 하나님이세요.", "e": "청년은 ‘선한 일’을 물었지만 예수님은 ‘선한 분’을 가리키셨어요."},
+   "재물": {"i": "💰", "o": "헬라어 크테마", "x": "var-dövlət", "s": "소유, 특히 땅", "m": "주로 땅과 재산을 가리켜요. 청년은 ‘많은 재산’ 때문에 근심했어요.", "e": "“네 보물 있는 그곳에는 네 마음도 있느니라”(6:21)."},
+   "낙타": {"i": "🐫", "o": "헬라어 카멜로스", "x": "dəvə", "s": "의도적인 과장", "m": "유대 문헌에는 ‘코끼리가 바늘귀로’라는 비슷한 표현도 있어요. 불가능을 생생하게 보여 주는 말이에요.", "e": "23:24 “하루살이는 걸러 내고 낙타는 삼키는”도 같은 화법이에요."},
+   "백 배": {"i": "💯", "o": "헬라어 헤카톤타플라시온", "x": "yüz qat", "s": "넘치는 보상", "m": "마가복음은 “박해를 겸하여” 받는다고 덧붙여요(막 10:30). 교회라는 새 가족과 집을 얻는다는 뜻이에요.", "e": "13:8의 ‘백 배 결실’과도 연결돼요."}
+  },
+  "test": [
+   {"q": "19장에서 예수님의 여정은 어디로 향하나요?", "o": ["요단 건너 유대, 예루살렘", "갈릴리 북쪽", "이집트"], "a": 0, "f": "맞아요. 십자가를 향한 마지막 여정이에요."},
+   {"q": "부자 청년이 영생에 대해 생각한 방식은?", "o": ["해야 할 선한 일", "받는 선물", "필요 없는 것"], "a": 0, "f": "맞아요. 업적으로 생각했어요."},
+   {"q": "“소유를 팔라”는 말씀이 시험한 것은?", "o": ["첫째 계명, 진짜 하나님이 누구인가", "부모 공경", "안식일"], "a": 0, "f": "맞아요. 재물이 그의 하나님이었어요."},
+   {"q": "제자들이 “누가 구원을 얻을 수 있습니까” 하고 놀란 이유는?", "o": ["부를 하나님의 복의 증거로 여겨서", "부자를 싫어해서", "낙타를 몰라서"], "a": 0, "f": "맞아요. 그래서 하나님만 하실 수 있다고 하셨어요."},
+   {"q": "19:30의 말씀이 이어지는 다음 장의 비유는?", "o": ["포도원 품꾼", "씨 뿌리는 자", "탕자"], "a": 0, "f": "맞아요. 은혜는 계산이 아니에요."}
+  ],
+  "paylas": ["예수님 앞에서 ‘아무것도 없는 아이’와 ‘모든 것을 가진 청년’ 중 나는 누구에 더 가까운가요?", "부자 청년의 ‘재물’처럼 내가 쉽게 내려놓지 못하는 것은 무엇인가요?", "‘사람은 할 수 없으나 하나님은 하실 수 있다’는 말씀이 필요한 내 상황은?", "예수님 때문에 무언가를 포기해 본 경험이 있나요? 그 뒤에 무엇을 얻었나요?"],
+  "etiraf": {"b": "나의 고백", "p": "“아직도 무엇이 부족합니까?” 예수님이 나에게 대답하신다면 무엇을 말씀하실까요? 그에 대한 나의 응답을 써 보세요.", "ph": "예) 예수님은 제 휴대폰 속 인정받고 싶은 마음을 보실 것 같아요. 저는 …"},
+  "dua": "예수님, 아무것도 내세울 것 없는 아이들을 안아 축복하신 예수님께 감사합니다. 저를 붙잡고 있는 ‘재물’을 보여 주시고, 근심하며 떠나는 대신 기쁘게 내려놓고 따르게 해 주세요. 사람은 할 수 없지만 하나님은 하실 수 있음을 믿습니다. 예수님 이름으로 기도합니다. 아멘."
+ }
+},
+"az": {
+ "usaq": {
+  "basliq": "Qoyun uşaqlar yanıma gəlsin",
+  "hedef": ["İsanın uşaqları sevib onlara xeyir-dua verdiyini öyrənəcəyik.", "Varlı gəncin niyə kədərlə getdiyini öyrənəcəyik.", "Hər şeydən çox İsanı sevməyə qərar verəcəyik."],
+  "sehneler": [
+   {"b": "Uşaqlara xeyir-dua verən İsa", "ayə": "Matta 19:13–15", "alt": "Uşaqları qucaqlayıb onlara xeyir-dua verən İsa", "p": ["İnsanlar uşaqları İsanın yanına gətirdilər ki, əllərini onların üstünə qoyub dua etsin. Amma şagirdlər “İsa məşğuldur, narahat etməyin!” deyib onlara mane oldular.", "İsa dedi: “Qoyun uşaqlar yanıma gəlsin, onlara mane olmayın, çünki Səmavi Padşahlıq belələrinindir.” Sonra əllərini uşaqların üstünə qoyub onlara [[xeyir-dua]] verdi."]},
+   {"b": "Varlı gəncin sualı", "ayə": "Matta 19:16–22", "alt": "İsaya sual verən varlı gənc", "p": ["Bir [[gənc]] gəlib soruşdu: “Müəllim, əbədi həyata nail olmaq üçün hansı yaxşı işi görməliyəm?” İsa ona əmrlərə əməl etməyi dedi. Gənc “Hamısına əməl etmişəm” dedi.", "İsa dedi: “Get, [[var-dövlət]]ini sat, yoxsullara ver və gəl, ardımca get.” Gəncin var-dövləti çox olduğu üçün kədərlənib getdi."]},
+   {"b": "Dəvə və iynənin gözü", "ayə": "Matta 19:23–26", "alt": "İynənin gözü qarşısında duran böyük dəvə", "p": ["İsa dedi: “[[Dəvə]]nin [[iynənin gözü]]ndən keçməsi varlının Səmavi Padşahlığa girməsindən asandır.”", "Şagirdlər heyrətlənib soruşdular: “Bəs kim xilas ola bilər?” İsa cavab verdi: “İnsan üçün bu mümkün deyil, amma Allah üçün hər şey mümkündür.”"]},
+   {"b": "Hər şeyi qoyub", "ayə": "Matta 19:27–30", "alt": "Tor və qayığı qoyub İsanın ardınca gedən şagirdlər", "p": ["Peter dedi: “Biz hər şeyi qoyub Sənin ardınca getdik.”", "İsa vəd etdi: “Mənim adım uğrunda evini, ailəsini və ya torpağını qoyan hər kəs yüz qat alacaq və əbədi həyatı irs alacaq. Birincilərin çoxu axırıncı, axırıncılar isə birinci olacaq.”"]}
+  ],
+  "aye": {"metn": "“Qoyun uşaqlar yanıma gəlsin, onlara mane olmayın, çünki Səmavi Padşahlıq belələrinindir.”", "ref": "19:14", "bos": "Qoyun ___ yanıma gəlsin, onlara ___ olmayın, çünki Səmavi ___ belələrinindir.", "sozler": ["uşaqlar", "mane", "Padşahlıq"], "yalan": "böyüklər"},
+  "lugat": {
+   "xeyir-dua": {"i": "🙌", "x": "축복", "m": "Allahın yaxşı şeylər verməsini diləməkdir.", "e": "İsa uşaqlara xeyir-dua verdi."},
+   "gənc": {"i": "🧑", "x": "청년", "m": "Böyüklüyə doğru gedən cavan adamdır.", "e": "Varlı gənc İsanın yanına gəldi."},
+   "var-dövlət": {"i": "💰", "x": "재산", "m": "Sahib olduğumuz pul, ev və əşyalardır.", "e": "Gəncin var-dövləti çox idi."},
+   "Dəvə": {"i": "🐫", "x": "낙타", "m": "Səhrada yaşayan çox böyük heyvandır.", "e": "Dəvə iynənin gözündən keçərmi?"},
+   "iynənin gözü": {"i": "🪡", "x": "바늘귀", "m": "İynədə sap keçirilən çox kiçik deşikdir.", "e": "İynənin gözü çox kiçikdir."}
+  },
+  "test": [
+   {"q": "Şagirdlər uşaqlara mane olanda İsa nə etdi?", "o": ["Mane olmayın dedi", "Uşaqları geri göndərdi", "Görməzliyə vurdu"], "a": 0, "f": "Düzdür! İsa uşaqları sevir."},
+   {"q": "Varlı gənc niyə kədərlənib getdi?", "o": ["Var-dövləti çox olduğu üçün", "Ac olduğu üçün", "Yolu azdığı üçün"], "a": 0, "f": "Düzdür! Var-dövlətini İsadan çox sevirdi."},
+   {"q": "İynənin gözündən keçməsi çətin olan heyvan hansıdır?", "o": ["Dəvə", "Qarışqa", "Ağcaqanad"], "a": 0, "f": "Düzdür! İnsan gücü ilə mümkün deyil deməkdir."},
+   {"q": "İsa Allah haqqında nə dedi?", "o": ["Allah üçün hər şey mümkündür", "Allah məşğuldur", "Allah uzaqdadır"], "a": 0, "f": "Düzdür! Allah üçün mümkünsüz yoxdur."}
+  ],
+  "dusun": ["İsa məni qucaqlayıb xeyir-dua versə, necə hiss edərəm?", "Varlı gənc üçün var-dövləti qiymətli olduğu kimi, mənim üçün İsadan qiymətli bir şey varmı?", "“Allah üçün hər şey mümkündür” sözü nə vaxt mənə güc verir?"],
+  "fealiyyet": {"ciz": "İsanın səni qucaqlayıb xeyir-dua verdiyini çək.", "b": "İsanın yanına necə gələcəksən?", "p": "İsanın yanına necə gələcəyini seç.", "ph": "",
+   "secim": {"basliq": "İsanın yanına necə gələcəksən?", "izah": "Toxun və seç. Bir neçəsini seçə bilərsən.", "cumle": "İsa, mən {x} Sənin yanına gəlirəm!", "bos": "sevinclə", "bag": "və",
+    "secimler": [["😊", "sevinclə"], ["🙏", "dua ilə"], ["🎶", "ilahi ilə"], ["😢", "kədərli olanda da"], ["📅", "hər gün"], ["💖", "bütün ürəyimlə"]]}},
+  "dua": "İsa, uşaqlara mane olmayıb onları qucaqlayan və xeyir-dua verən Sənə şükür edirəm. İstənilən vaxt Sənin yanına gələ bildiyim üçün sevinirəm. Varlı gənc kimi başqa şeyləri daha çox sevməyim, Səni hər şeydən çox sevim. İsa Məsihin adı ilə dua edirəm. Amin."
+ },
+ "genc": {
+  "basliq": "Daha nəyim çatışmır?",
+  "giris": "Hər şeyi olan bir gənc soruşdu: “Daha nəyim çatışmır?” İsa onun sahib olduqlarına deyil, ona sahib olan şeyə baxdı. Eyni səhnədə heç nəyi olmayan uşaqlar xeyir-dua alır, hər şeyi olan gənc isə kədərlə gedir.",
+  "meqsed": ["Uşaqlar və varlı gənc arasındakı ziddiyyət vasitəsilə Allahın Padşahlığına girmək yolunu anlayırıq.", "“Dəvə və iynənin gözü” ifadəsinin xilas prinsipini izah edə bilirik.", "Bizi tutub saxlayan “var-dövlətin” nə olduğuna baxıb ardınca getməyə qərar veririk."],
+  "sehneler": [
+   {"b": "Heç nəyi olmayanlar", "ayə": "Matta 19:1–15", "alt": "Uşaqları qucaqlayıb onlara xeyir-dua verən İsa", "p": ["İsa Qalileyanı tərk edib İordanın o tayındakı Yəhudeyaya gedir. Çarmıxa doğru son səfər başlayır. Fariseylər boşanma məsələsi ilə Onu sınadılar, amma İsa yaradılışın başlanğıcına qayıdıb nikahın müqəddəsliyindən danışır.", "Sonra uşaqlar səhnəsi gəlir. Şagirdlər mane oldular, İsa isə “Səmavi Padşahlıq belələrinindir” deyir. Uşaqların göstərəcək heç nəyi yoxdur, buna görə də qəbul edə bilirlər. Bu, 18:3 ilə bağlıdır."], "deep": {"b": "Dərindən baxaq · Nikah və subaylıq", "p": "19:3–12-də İsa Yaradılış 1–2-yə əsaslanaraq nikahın Allahın birləşdirdiyi bir şey olduğunu deyir, eyni zamanda Allahın Padşahlığı üçün subaylığın da qiymətli olduğunu bildirir. Hər iki yol Allaha həsr olunmuş həyatdır."}},
+   {"b": "Bir şey çatışmır", "ayə": "Matta 19:16–22", "alt": "İsaya sual verən varlı gənc", "p": ["Gənc “Əbədi həyata nail olmaq üçün hansı [[yaxşı]] işi görməliyəm?” deyə soruşdu. O, əbədi həyatı “görülməli iş” kimi düşünürdü. İsa On Əmrdən qonşu ilə bağlı əmrləri deyir və “qonşunu özün kimi sev” əmrini əlavə edir.", "“Hamısına əməl etmişəm, daha nəyim çatışmır?” İsa deyir: “Kamil olmaq istəyirsənsə, get, varını sat, yoxsullara ver, göydə xəzinən olacaq. Sonra gəl, ardımca get.” Gəncin [[var-dövlət]]i çox olduğu üçün kədərlənib getdi."], "deep": {"b": "Dərindən baxaq · Birinci əmr", "p": "İsa yalnız qonşu ilə bağlı əmrləri dedi. Sonra “varını sat” sözü ilə birinci əmri (“Məndən başqa allahın olmasın”) sınadı. Gəncin əsl allahı var-dövlət idi. 6:24-dəki “həm Allaha, həm də var-dövlətə qulluq edə bilməzsiniz” sözü gerçəkləşdi."}},
+   {"b": "İnsan üçün mümkün deyil", "ayə": "Matta 19:23–26", "alt": "İynənin gözü qarşısında duran böyük dəvə", "p": ["“[[Dəvə]]nin iynənin gözündən keçməsi varlının Allahın Padşahlığına girməsindən asandır.” Dəvə Fələstində ən böyük heyvan, iynənin gözü isə ən kiçik deşik idi. Bilərəkdən deyilmiş mümkünsüzlükdür.", "O vaxt var-dövlət Allahın xeyir-duasının sübutu sayılırdı. Buna görə şagirdlər “Bəs kim xilas ola bilər?” deyə heyrətləndilər. İsanın cavabı: “İnsan üçün bu mümkün deyil, amma Allah üçün hər şey mümkündür.” Xilas nailiyyət deyil, Allahın işidir."], "deep": {"b": "Dərindən baxaq · “İynə gözü qapısı”?", "p": "Yerusəlimdə “iynənin gözü” adlı kiçik qapı olduğu, dəvənin yükünü düşürüb diz çökərək oradan keçdiyi barədə izah var, amma bunun tarixi əsası yoxdur. İsa “çətindir” deyil, “mümkün deyil” dedi və buna görə yalnız Allahın edə biləcəyini bildirdi.", "rose": true}},
+   {"b": "Birincilər və axırıncılar", "ayə": "Matta 19:27–30", "alt": "Tor və qayığı qoyub İsanın ardınca gedən şagirdlər", "p": ["Peter dedi: “Budur, biz hər şeyi qoyub Sənin ardınca getdik. Bəs bizə nə olacaq?” Gəncin əksini seçən insanlar idilər.", "İsa yeni dünyada on iki taxtda oturacaqlarını və qoyduqlarının [[yüz qat]]ını və əbədi həyatı vəd edir. Amma sonda xəbərdarlıq edir: “Birincilərin çoxu axırıncı, axırıncıların çoxu isə birinci olacaq.” Bu, növbəti fəsildəki üzüm bağı məsəlinə keçir."], "deep": {"b": "Dərindən baxaq · Mükafat istəmək pisdirmi?", "p": "İsa Peterin sualını danlamır, vədlə cavab verir. Allah heç nəyin əvəzini verməyən deyil. Amma o mükafatın “hesab” deyil, “lütf” olduğunu növbəti fəsildə göstərir."}}
+  ],
+  "cedvel": {"b": "Uşaq və gənc", "alt": "19:13–22", "bas": ["", "Uşaqlar", "Varlı gənc"], "set": [["Sahib olduqları", "Heç nə", "Var-dövlət, gənclik, əxlaq"], ["İsaya necə gəldilər", "Başqaları gətirdi", "Özü sual verməyə gəldi"], ["Sual", "Yoxdur", "Hansı yaxşı işi görməliyəm"], ["Nəticə", "Əl qoyulub xeyir-dua aldılar", "Kədərlənib getdi"]]},
+  "aye": {"metn": "“İsa onlara baxıb dedi: “İnsan üçün bu mümkün deyil, amma Allah üçün hər şey mümkündür.””", "ref": "19:26"},
+  "lugat": {
+   "yaxşı": {"i": "🌟", "o": "Yunanca aqatos", "x": "선한", "s": "Yalnız Allah tam yaxşıdır", "m": "İsa “Yaxşı Olan yalnız Birdir” (19:17) deyir. Yaxşılığın ölçüsü mənim əməllərim deyil, Allahdır.", "e": "Gənc “yaxşı iş” soruşdu, İsa isə “Yaxşı Olanı” göstərdi."},
+   "var-dövlət": {"i": "💰", "o": "Yunanca ktema", "x": "재물", "s": "Mülk, xüsusilə torpaq", "m": "Əsasən torpaq və əmlakı bildirir. Gənc “çox var-dövləti” üzündən kədərləndi.", "e": "“Xəzinən harada isə, ürəyin də orada olacaq” (6:21)."},
+   "Dəvə": {"i": "🐫", "o": "Yunanca kamelos", "x": "낙타", "s": "Bilərəkdən şişirtmə", "m": "Yəhudi yazılarında “filin iynə gözündən keçməsi” kimi oxşar ifadə də var. Mümkünsüzlüyü canlı göstərən sözdür.", "e": "23:24-dəki “ağcaqanadı süzüb, dəvəni udmaq” da eyni üslubdadır."},
+   "yüz qat": {"i": "💯", "o": "Yunanca hekatontaplasion", "x": "백 배", "s": "Daşan mükafat", "m": "Mark “təqiblərlə birlikdə” alacaqlarını əlavə edir (Mark 10:30). Cəmiyyət adlı yeni ailə və ev qazanmaq deməkdir.", "e": "13:8-dəki “yüz qat bəhrə” ilə də bağlıdır."}
+  },
+  "test": [
+   {"q": "19-cu fəsildə İsanın səfəri hara yönəlir?", "o": ["İordanın o tayından Yəhudeyaya, Yerusəlimə", "Qalileyanın şimalına", "Misirə"], "a": 0, "f": "Düzdür. Çarmıxa doğru son səfər."},
+   {"q": "Varlı gənc əbədi həyat haqqında necə düşünürdü?", "o": ["Görülməli yaxşı iş kimi", "Alınan hədiyyə kimi", "Lazımsız şey kimi"], "a": 0, "f": "Düzdür. Nailiyyət kimi düşünürdü."},
+   {"q": "“Varını sat” sözü nəyi sınadı?", "o": ["Birinci əmri, əsl allahın kim olduğunu", "Valideynə hörməti", "Şənbə gününü"], "a": 0, "f": "Düzdür. Var-dövlət onun allahı idi."},
+   {"q": "Şagirdlər niyə “Kim xilas ola bilər?” deyə heyrətləndilər?", "o": ["Var-dövləti Allahın xeyir-duasının sübutu saydıqları üçün", "Varlılardan xoşlanmadıqları üçün", "Dəvəni tanımadıqları üçün"], "a": 0, "f": "Düzdür. Buna görə İsa yalnız Allahın edə biləcəyini dedi."},
+   {"q": "19:30-dakı söz növbəti fəsildəki hansı məsələ keçir?", "o": ["Üzüm bağının işçiləri", "Toxum əkən", "Azğın oğul"], "a": 0, "f": "Düzdür. Lütf hesab deyil."}
+  ],
+  "paylas": ["İsanın qarşısında “heç nəyi olmayan uşaq” ilə “hər şeyi olan gənc” arasında mən kimə daha yaxınam?", "Varlı gəncin “var-dövləti” kimi asanlıqla buraxa bilmədiyim nədir?", "“İnsan üçün mümkün deyil, Allah üçün mümkündür” sözünə ehtiyacım olan vəziyyət hansıdır?", "İsaya görə nədənsə imtina etdiyim olubmu? Sonra nə qazandım?"],
+  "etiraf": {"b": "Mənim etirafım", "p": "“Daha nəyim çatışmır?” İsa sənə cavab versəydi, nə deyərdi? Ona cavabını yaz.", "ph": "Məsələn: Məncə İsa telefonumdakı bəyənilmək istəyimi görərdi. Mən isə …"},
+  "dua": "İsa, göstərəcək heç nəyi olmayan uşaqları qucaqlayıb xeyir-dua verdiyin üçün Sənə şükür edirəm. Məni tutub saxlayan “var-dövləti” göstər və kədərlə getmək əvəzinə sevinclə buraxıb ardınca gedim. İnsan üçün mümkün olmayanın Allah üçün mümkün olduğuna inanıram. İsa Məsihin adı ilə dua edirəm. Amin."
+ }
+},
+"muellim": {
+ "mesaj": "24과의 중심은 한 문장입니다. **하나님 나라는 아무것도 내세울 것 없는 아이처럼 받는 사람의 것이며, 무엇을 가졌든 그것이 나를 가지고 있다면 내려놓고 따라야 한다. 구원은 사람이 아니라 하나님이 하신다.**",
+ "hazirliq": ["학생용 교재를 열 휴대폰이나 태블릿, 이어폰", "바늘과 실, 낙타 그림", "아이들이 소중히 여기는 물건 하나씩 가져오기 (나눔용)"],
+ "fon": [
+  ["1. 여정의 전환", "19:1 “갈릴리를 떠나 요단강 건너 유대 지경에 이르시니.” 마태복음의 마지막 부분, 예루살렘을 향한 여정이 시작됩니다."],
+  ["2. 이혼 논쟁", "신명기 24:1의 ‘수치 되는 일’ 해석을 두고 엄격한 샴마이 학파와 관대한 힐렐 학파가 논쟁했습니다. 예수님은 신명기보다 창세기(창조 질서)로 돌아가십니다. 어린이반에서는 다루지 않습니다."],
+  ["3. 부자 청년", "마태만 ‘청년’이라고 부릅니다. 누가는 ‘관리’라고 합니다. 젊고, 부유하고, 지위 있고, 도덕적인, 당시 기준으로 가장 ‘복받은’ 사람입니다."],
+  ["4. 낙타와 바늘귀", "‘바늘귀 문’ 설은 중세 이후 생긴 설명으로 고고학적 근거가 없습니다. 예수님의 요점은 ‘인간에게 불가능, 하나님께 가능’입니다."],
+  ["5. 그림 안내", "첫째(아이들)와 둘째(부자 청년) 장면은 PPT 그림입니다. 나머지는 같은 화풍으로 새로 그렸습니다."]
+ ],
+ "usaq_plan": [
+  ["5분", "바늘귀 체험", "바늘귀에 실 꿰어 보기 → 낙타 그림 보여 주기", "“낙타가 여기로 들어갈 수 있을까요?”"],
+  ["15분", "장면 1–4 듣고 읽기", "장면마다 듣기, 노란 낱말 누르기", "“예수님은 아이들을 정말 사랑하세요!”"],
+  ["5분", "외울 말씀", "빈칸 놀이 → 교사에게 달려와 안기며 외우기", ""],
+  ["5분", "확인 퀴즈", "혼자 풀고 함께 확인", ""],
+  ["10분", "활동과 기도", "예수님께 가는 방법 고르기 → 손을 얹어 한 명씩 축복 기도", ""]
+ ],
+ "genc_plan": [
+  ["5분", "열기", "“내 방에서 불이 나면 가장 먼저 챙길 물건은?”", ""],
+  ["15분", "장면 1–2와 아이/청년 표", "여정의 시작, 어린아이, 한 가지 부족한 것, 첫째 계명", ""],
+  ["10분", "장면 3–4", "낙타와 바늘귀, 사람은 할 수 없으나, 백 배와 먼저 된 자", "“나를 가진 것은 무엇인가?”"],
+  ["5분", "확인 문제", "", ""],
+  ["15분", "나눔과 고백", "나눔 질문 2개 → “무엇이 부족합니까” 응답 쓰기 → 기도", ""]
+ ],
+ "ipucu_usaq": ["어린이반에서 마지막에 아이들 한 명씩 머리에 손을 얹고 축복해 주면 이 과를 오래 기억합니다.", "‘부자는 나쁘다’로 오해하지 않게, 돈보다 예수님을 더 사랑해야 한다고 설명하세요.", "가정 형편이 어려운 아이가 부끄럽지 않도록 말에 주의하세요."],
+ "ipucu_genc": ["‘모두 재산을 팔아야 한다’는 율법주의로 흐르지 않게, 각자의 ‘재물’(우상)을 찾도록 이끄세요.", "이혼 본문은 부모의 이혼을 겪은 학생에게 상처가 될 수 있습니다. 질문이 나오면 개인적으로 대화하세요.", "다음 과(20장)는 포도원 품꾼 비유와 섬기는 리더십입니다."],
+ "suallar": [
+  ["부자는 천국에 못 가요?", "아니에요. 돈이 아니라 예수님을 가장 사랑하는 사람이 천국에 가요. 하나님은 무엇이든 하실 수 있어요.", "부 자체가 문제가 아니라 부가 마음의 주인이 될 때가 문제예요. 아브라함, 아리마대 요셉(27:57)처럼 부자이지만 하나님을 따른 사람도 있어요."],
+  ["예수님은 왜 청년을 붙잡지 않으셨어요?", "예수님은 억지로 따라오게 하지 않으세요. 스스로 선택하게 하세요.", "마가복음 10:21은 예수님이 “그를 보시고 사랑하사” 말씀하셨다고 해요. 사랑하셨기에 진실을 말씀하셨고, 선택은 그에게 맡기셨어요."],
+  ["백 배로 받는다면 부자가 되는 거예요?", "돈이 아니라 교회 가족, 하나님의 사랑 같은 더 좋은 것을 많이 받는다는 뜻이에요.", "마가복음은 ‘박해를 겸하여’ 받는다고 해요. 물질적 보상보다 하나님 나라의 새 가족과 영생이 핵심이에요."]
+ ]
+}
+}
