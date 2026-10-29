@@ -1,0 +1,165 @@
+{
+"no": 5, "ref": "4:1–11", "deq": {"usaq": 40, "genc": 50},
+"img": ["matta/05-seyrada.jpg", "07-sinaq.jpg", "matta/05-mebed-dam.jpg", "matta/05-melekler.jpg"],
+"hero": 1,
+"ko": {
+ "usaq": {
+  "basliq": "말씀으로 이기신 예수님",
+  "hedef": ["예수님이 광야에서 시험을 받으신 이야기를 알아요.", "예수님이 하나님 말씀으로 시험을 이기신 것을 알아요.", "나도 유혹이 올 때 말씀을 기억하고 ‘아니요’라고 말하는 법을 배워요."],
+  "sehneler": [
+   {"b": "광야의 40일", "ayə": "4:1–2", "alt": "광야에서 홀로 기도하시는 예수님", "p": ["세례를 받으신 뒤 예수님은 성령님의 이끄심으로 [[광야]]에 가셨어요.", "예수님은 40일 동안 아무것도 드시지 않고 [[금식]]하며 기도하셨어요. 그러자 아주아주 배가 고프셨어요."]},
+   {"b": "돌로 빵을 만들어 봐", "ayə": "4:3–4", "alt": "예수님을 시험하는 마귀", "p": ["그때 [[마귀]]가 와서 [[시험]]했어요. “네가 하나님의 아들이라면 이 돌들을 빵으로 만들어 봐.”", "예수님은 성경 말씀으로 대답하셨어요. “사람은 빵으로만 사는 것이 아니라 하나님의 입에서 나오는 모든 [[말씀]]으로 산다.”"]},
+   {"b": "뛰어내려 봐, 나에게 절해 봐", "ayə": "4:5–10", "alt": "성전 꼭대기에서 예수님을 시험하는 마귀", "p": ["마귀는 예수님을 [[성전]] 꼭대기에 세우고 말했어요. “뛰어내려 봐. 천사들이 받아 줄 거야.” 예수님은 “하나님을 시험하지 말라”는 말씀으로 이기셨어요.", "마귀는 높은 산에서 세상 모든 나라를 보여 주며 말했어요. “나에게 절하면 이걸 다 줄게.” 예수님은 “사탄아, 물러가라! 하나님만 [[경배]]하라”고 하셨어요."]},
+   {"b": "천사들이 섬겼어요", "ayə": "4:11", "alt": "시험을 이기신 예수님께 천사들이 와서 섬기는 모습", "p": ["결국 마귀는 예수님을 떠나갔어요. 예수님이 이기셨어요!", "그러자 [[천사]]들이 와서 예수님을 섬겼어요. 하나님 말씀은 유혹을 이기는 가장 강한 힘이에요."]}
+  ],
+  "aye": {"metn": "“사람은 빵으로만 사는 것이 아니라 하나님의 말씀으로 산다.”", "ref": "4:4", "bos": "사람은 ___으로만 사는 것이 아니라 하나님의 ___으로 ___.", "sozler": ["빵", "말씀", "산다"], "yalan": "돌"},
+  "lugat": {
+   "광야": {"i": "🏜️", "x": "səhra", "m": "사람이 거의 살지 않는 메마른 땅이에요.", "e": "예수님은 광야에서 40일을 보내셨어요."},
+   "금식": {"i": "🍽️", "x": "oruc", "m": "하나님께 집중하려고 얼마 동안 음식을 먹지 않는 거예요.", "e": "예수님은 40일 동안 금식하셨어요."},
+   "마귀": {"i": "🐍", "x": "İblis", "m": "하나님을 반대하고 사람들을 나쁜 길로 꾀는 악한 영이에요. ‘사탄’이라고도 해요.", "e": "마귀는 예수님을 세 번 시험했어요."},
+   "시험": {"i": "🪤", "x": "sınaq", "m": "나쁜 일을 하도록 꾀는 것이에요. ‘유혹’이라고도 해요.", "e": "예수님은 시험을 다 이기셨어요."},
+   "말씀": {"i": "📖", "x": "Kəlam", "m": "성경에 적힌 하나님의 말이에요.", "e": "예수님은 세 번 모두 말씀으로 대답하셨어요."},
+   "성전": {"i": "🏛️", "x": "məbəd", "m": "예루살렘에 있던, 하나님께 예배드리는 큰 건물이에요.", "e": "마귀는 예수님을 성전 꼭대기에 세웠어요."},
+   "경배": {"i": "🙇", "x": "səcdə", "m": "하나님께 엎드려 높이고 찬양하는 거예요.", "e": "우리는 하나님만 경배해요."},
+   "천사": {"i": "👼", "x": "mələk", "m": "하나님이 보내시는 하늘의 심부름꾼이에요.", "e": "천사들이 예수님을 섬겼어요."}
+  },
+  "test": [
+   {"q": "예수님은 광야에서 며칠 동안 금식하셨나요?", "o": ["40일", "7일", "3일"], "a": 0, "f": "맞아요! 40일 동안 금식하셨어요."},
+   {"q": "마귀는 처음에 무엇을 만들어 보라고 했나요?", "o": ["돌로 빵", "물로 포도주", "모래로 집"], "a": 0, "f": "맞아요! 배고프신 예수님을 시험했어요."},
+   {"q": "예수님은 어떻게 시험을 이기셨나요?", "o": ["하나님 말씀으로", "큰 소리로 싸워서", "도망쳐서"], "a": 0, "f": "맞아요! 세 번 모두 말씀으로 대답하셨어요."},
+   {"q": "마귀가 떠난 뒤 누가 와서 예수님을 섬겼나요?", "o": ["천사들", "제자들", "동방박사들"], "a": 0, "f": "맞아요! 천사들이 와서 섬겼어요."}
+  ],
+  "dusun": ["배가 아주 고플 때 누가 ‘이것 해 봐’ 하고 유혹하면 어떤 마음이 들까요?", "예수님은 왜 싸우거나 도망치지 않고 말씀으로 대답하셨을까요?", "나를 자꾸 나쁜 쪽으로 꾀는 것은 무엇인가요? 그때 어떤 말씀을 기억할 수 있을까요?"],
+  "fealiyyet": {"ciz": "광야에서 마귀에게 “아니!”라고 말씀하시는 예수님을 그려 보세요.", "b": "유혹을 이기는 방법", "p": "유혹이 올 때 내가 할 수 있는 일을 써 보세요.", "ph": "예) 말씀을 기억하고 ‘싫어!’라고 말할 거예요."},
+  "dua": "하나님, 시험을 말씀으로 이기신 예수님을 찬양합니다. 저도 나쁜 것을 하고 싶을 때 하나님 말씀을 기억하게 해 주세요. 용기 있게 ‘아니요’라고 말하게 도와주세요. 예수님 이름으로 기도합니다. 아멘."
+ },
+ "genc": {
+  "basliq": "광야에서 이기신 아들",
+  "giris": "“네가 하나님의 아들이라면….” 하늘의 음성이 ‘사랑하는 아들’이라고 선언한 직후, 마귀는 바로 그 정체성을 흔듭니다. 유혹은 언제나 ‘나는 누구인가’를 겨냥합니다.",
+  "meqsed": ["세 가지 시험이 각각 무엇을 노렸는지 이해해요.", "예수님이 이스라엘의 광야 40년을 다시 걸으며 이기신 분임을 설명할 수 있어요.", "내가 자주 넘어지는 유혹과 그때 붙잡을 말씀을 찾아요."],
+  "sehneler": [
+   {"b": "성령이 광야로 이끄시다", "ayə": "4:1–2", "alt": "광야에서 홀로 기도하시는 예수님", "p": ["예수님을 광야로 이끄신 분은 [[성령]]이셨어요. 시험은 하나님의 계획 밖에서 일어난 사고가 아니었어요.", "예수님은 40일 밤낮을 금식하셨어요. 이스라엘은 광야에서 40년 동안 시험을 받았고 자주 실패했어요. 예수님은 그 길을 다시 걸으시며 이스라엘이 넘어진 곳에서 이기세요."], "deep": {"b": "깊이 보기 · 세 대답의 출처", "p": "예수님의 세 대답은 모두 신명기 6–8장에서 나와요. 바로 모세가 광야 40년을 돌아보며 이스라엘에게 준 말씀이에요. 예수님은 이스라엘의 실패 이야기를 순종의 이야기로 다시 쓰셨어요."}},
+   {"b": "첫째 시험 · 빵", "ayə": "4:3–4", "alt": "예수님을 시험하는 마귀", "p": ["[[마귀]]는 “네가 하나님의 아들이라면 돌로 빵을 만들어라”고 해요. 배고픔 자체는 죄가 아니에요. 문제는 아버지를 신뢰하지 않고 자기 능력으로 필요를 채우라는 유혹이었어요.", "예수님은 “사람이 빵으로만 사는 것이 아니라 하나님의 입에서 나오는 모든 말씀으로 산다” {{신 8:3}}로 대답하셨어요."], "deep": {"b": "깊이 보기 · 정체성을 흔드는 ‘만약’", "p": "‘네가 하나님의 아들이라면’은 의심을 심는 말이에요. 바로 앞에서 아버지는 ‘사랑하는 아들’이라고 하셨어요. 유혹은 자주 ‘증명해 봐’라는 모습으로 와요. 예수님은 아무것도 증명하지 않으셨어요.", "rose": true}},
+   {"b": "둘째·셋째 시험 · 증명과 권력", "ayə": "4:5–10", "alt": "성전 꼭대기에서 예수님을 시험하는 마귀", "p": ["마귀는 [[성전]] 꼭대기에서 시편 91편을 인용하며 뛰어내리라고 해요. 마귀도 성경을 인용할 수 있어요. 예수님은 “주 너의 하나님을 시험하지 말라” {{신 6:16}}로 대답하셨어요.", "마지막으로 마귀는 자기에게 절하면 세상 모든 나라를 주겠다고 해요. 십자가 없이 영광을 얻는 지름길이었어요. 예수님은 “사탄아, 물러가라! 주 너의 하나님께만 [[경배]]하라” {{신 6:13}}고 하셨어요."]},
+   {"b": "천사들의 섬김", "ayə": "4:11", "alt": "시험을 이기신 예수님께 천사들이 와서 섬기는 모습", "p": ["마귀는 떠나가고 천사들이 와서 예수님을 섬겼어요. 뛰어내리라는 시험에서 거절하셨던 천사의 도움이, 순종의 끝에 선물로 주어졌어요.", "예수님은 우리처럼 모든 일에 시험을 받으셨지만 죄는 없으셨어요 {{히 4:15}}. 그래서 시험받는 우리를 도우실 수 있어요."], "deep": {"b": "깊이 보기 · 말씀을 ‘아는’ 것과 ‘쓰는’ 것", "p": "마귀도 성경을 인용했어요. 중요한 건 구절을 많이 아는 것보다, 말씀 전체의 흐름 안에서 하나님을 신뢰하는 거예요. 예수님은 말씀을 무기로 쓰기 전에 말씀대로 사셨어요."}}
+  ],
+  "cedvel": {"b": "세 가지 시험", "alt": "무엇을 노렸고, 어떻게 이기셨나", "bas": ["시험", "노린 것", "예수님의 대답"], "set": [["돌로 빵을", "하나님 대신 내 힘으로 필요 채우기", "신명기 8:3 · 말씀으로 산다"], ["성전에서 뛰어내려라", "하나님을 시험해 증명받기", "신명기 6:16 · 하나님을 시험하지 말라"], ["나에게 절하라", "십자가 없는 영광, 권력", "신명기 6:13 · 하나님만 경배하라"]]},
+  "aye": {"metn": "“사람이 빵으로만 사는 것이 아니라 하나님의 입에서 나오는 모든 말씀으로 산다.”", "ref": "4:4"},
+  "lugat": {
+   "성령": {"i": "🕊️", "o": "헬라어 프뉴마 하기온", "x": "Müqəddəs Ruh", "s": "예수님을 광야로 이끄신 하나님의 영", "m": "세례 때 내려오신 성령께서 곧바로 예수님을 시험의 자리로 이끄셨어요.", "e": "능력을 받은 뒤 첫 번째 장소가 무대가 아니라 광야였어요."},
+   "마귀": {"i": "🐍", "o": "헬라어 디아볼로스, ‘고소하는 자’", "x": "İblis", "s": "하나님과 사람 사이를 갈라놓는 자", "m": "‘사이를 갈라놓다, 고소하다’라는 뜻이에요. 히브리어 ‘사탄’은 ‘대적자’라는 뜻이에요.", "e": "마귀는 거짓의 아비라고 불려요(요 8:44)."},
+   "성전": {"i": "🏛️", "o": "헬라어 히에론", "x": "məbəd", "s": "예루살렘 성전", "m": "헤롯이 크게 재건한 예루살렘 성전이에요. 남동쪽 모서리는 골짜기 위로 약 45m 높이였어요.", "e": "‘성전 꼭대기’는 아마 그 모서리였을 거예요."},
+   "경배": {"i": "🙇", "o": "헬라어 프로스퀴네오", "x": "səcdə", "s": "엎드려 높이는 것", "m": "2과에서 동방박사가 예수님께 드린 바로 그 행동이에요. 마귀는 그것을 자기에게 하라고 했어요.", "e": "예수님은 오직 하나님께만 경배하라고 하셨어요."},
+   "시험": {"i": "🪤", "o": "헬라어 페이라스모스", "x": "sınaq", "s": "시련 또는 유혹", "m": "‘시험하다, 떠보다’라는 뜻으로, 믿음을 단련하는 시련과 죄로 꾀는 유혹을 모두 말해요.", "e": "주님의 기도에도 “우리를 시험에 들게 하지 마시고”가 있어요(6:13)."},
+   "신명기": {"i": "📜", "o": "헬라어 듀테로노미온, ‘두 번째 율법’", "x": "Qanunun Təkrarı", "s": "모세의 마지막 설교", "m": "광야 40년을 마치고 약속의 땅에 들어가기 전, 모세가 이스라엘에게 율법을 다시 가르친 책이에요.", "e": "예수님의 세 대답은 모두 신명기에서 나와요."}
+  },
+  "test": [
+   {"q": "예수님을 광야로 이끄신 분은?", "o": ["성령", "마귀", "세례 요한"], "a": 0, "f": "맞아요. 시험도 하나님의 계획 안에 있었어요."},
+   {"q": "예수님의 40일 금식이 떠올리게 하는 것은?", "o": ["이스라엘의 광야 40년", "노아의 홍수 40일", "다윗의 통치 40년"], "a": 0, "f": "맞아요. 예수님은 이스라엘이 넘어진 곳에서 이기셨어요."},
+   {"q": "‘네가 하나님의 아들이라면’이라는 말이 노린 것은?", "o": ["정체성을 의심하게 함", "예수님을 칭찬함", "기도를 권함"], "a": 0, "f": "맞아요. 아버지가 하신 말씀을 흔들려는 시도였어요."},
+   {"q": "예수님의 세 대답은 모두 어느 책에서 나왔나요?", "o": ["신명기", "시편", "이사야"], "a": 0, "f": "맞아요. 모세가 광야를 돌아보며 한 말씀이에요."},
+   {"q": "세 번째 시험이 제안한 것은?", "o": ["십자가 없이 세상 나라를 얻는 길", "성전을 다시 짓는 일", "제자를 빨리 모으는 길"], "a": 0, "f": "맞아요. 예수님은 지름길 대신 순종의 길을 택하셨어요."}
+  ],
+  "paylas": ["‘증명해 봐’라는 압박을 느끼는 때는 언제인가요? (SNS, 친구, 성적…)", "배고픔, 인정받고 싶은 마음, 성공하고 싶은 마음 중 나는 어디에서 가장 흔들리나요?", "마귀도 성경을 인용했다는 사실은 무엇을 경고하나요?", "이번 주 유혹이 올 때 붙잡을 말씀 한 구절을 정해 보세요."],
+  "etiraf": {"b": "나의 고백", "p": "내가 자주 넘어지는 유혹 하나와, 그때 붙잡을 말씀을 적어 보세요.", "ph": "예) 저는 밤늦게까지 휴대폰을 놓지 못해요. 그때 …라는 말씀을 기억하고 싶어요."},
+  "dua": "하나님, 광야에서 우리 대신 시험을 이기신 예수님을 찬양합니다. ‘증명해 봐’라는 소리가 들릴 때 이미 사랑받는 자녀라는 사실을 붙잡게 해 주세요. 말씀을 아는 데서 그치지 않고 말씀대로 살게 해 주세요. 이기신 예수님 이름으로 기도합니다. 아멘."
+ }
+},
+"az": {
+ "usaq": {
+  "basliq": "Kəlamla qalib gələn İsa",
+  "hedef": ["İsanın səhrada sınağa çəkildiyini öyrənəcəyik.", "İsanın Allahın Kəlamı ilə sınağa qalib gəldiyini öyrənəcəyik.", "Sınaq gələndə Kəlamı xatırlayıb “yox” deməyi öyrənəcəyik."],
+  "sehneler": [
+   {"b": "Səhrada 40 gün", "ayə": "Matta 4:1–2", "alt": "Səhrada tək dua edən İsa", "p": ["Vəftiz olunandan sonra Müqəddəs Ruh İsanı [[səhra]]ya apardı.", "İsa 40 gün heç nə yemədən [[oruc]] tutdu və dua etdi. Sonra çox acdı."]},
+   {"b": "Daşları çörəyə çevir", "ayə": "Matta 4:3–4", "alt": "İsanı sınağa çəkən İblis", "p": ["Onda [[İblis]] gəlib İsanı [[sınağa|sınaq]] çəkdi: “Əgər Sən Allahın Oğlusansa, bu daşlara de ki, çörək olsun.”", "İsa Müqəddəs Kitabdakı sözlə cavab verdi: “İnsan yalnız çörəklə deyil, Allahın ağzından çıxan hər [[Kəlam]]la yaşayar.”"]},
+   {"b": "Atıl, mənə səcdə et", "ayə": "Matta 4:5–10", "alt": "Məbədin damında İsanı sınayan İblis", "p": ["İblis İsanı [[məbəd]]in damına çıxarıb dedi: “Özünü aşağı at, mələklər Səni tutacaq.” İsa “Allahını sınama” sözü ilə qalib gəldi.", "İblis uca dağdan dünyanın bütün padşahlıqlarını göstərib dedi: “Mənə səcdə etsən, bunların hamısını Sənə verərəm.” İsa dedi: “Rədd ol, Şeytan! Yalnız Allaha [[səcdə]] et.”"]},
+   {"b": "Mələklər xidmət etdi", "ayə": "Matta 4:11", "alt": "Sınağa qalib gələn İsaya xidmət edən mələklər", "p": ["Sonda İblis İsadan əl çəkib getdi. İsa qalib gəldi!", "Onda [[mələk]]lər gəlib İsaya xidmət etdilər. Allahın Kəlamı sınağa qalib gəlmək üçün ən güclü qüvvədir."]}
+  ],
+  "aye": {"metn": "“İnsan yalnız çörəklə deyil, Allahın hər Kəlamı ilə yaşayar.”", "ref": "4:4", "bos": "İnsan yalnız ___lə deyil, Allahın hər ___ ilə ___.", "sozler": ["çörək", "Kəlamı", "yaşayar"], "yalan": "daş"},
+  "lugat": {
+   "səhra": {"i": "🏜️", "x": "광야", "m": "Demək olar ki, heç kimin yaşamadığı quru yerdir.", "e": "İsa səhrada 40 gün qaldı."},
+   "oruc": {"i": "🍽️", "x": "금식", "m": "Allaha diqqət yetirmək üçün bir müddət yemək yeməməkdir.", "e": "İsa 40 gün oruc tutdu."},
+   "İblis": {"i": "🐍", "x": "마귀", "m": "Allaha qarşı çıxan və insanları pis yola çəkən şər ruhdur. Ona Şeytan da deyilir.", "e": "İblis İsanı üç dəfə sınağa çəkdi."},
+   "sınaq": {"i": "🪤", "x": "시험", "m": "İnsanı pis iş görməyə təhrik etməkdir.", "e": "İsa bütün sınaqlara qalib gəldi."},
+   "Kəlam": {"i": "📖", "x": "말씀", "m": "Müqəddəs Kitabda yazılan Allahın sözüdür.", "e": "İsa hər dəfə Kəlamla cavab verdi."},
+   "məbəd": {"i": "🏛️", "x": "성전", "m": "Yerusəlimdə Allaha ibadət edilən böyük bina idi.", "e": "İblis İsanı məbədin damına çıxartdı."},
+   "səcdə": {"i": "🙇", "x": "경배", "m": "Böyük hörmətlə yerə əyilib Allahı izzətləndirməkdir.", "e": "Biz yalnız Allaha səcdə edirik."},
+   "mələk": {"i": "👼", "x": "천사", "m": "Allahın göndərdiyi səmavi elçidir.", "e": "Mələklər İsaya xidmət etdilər."}
+  },
+  "test": [
+   {"q": "İsa səhrada neçə gün oruc tutdu?", "o": ["40 gün", "7 gün", "3 gün"], "a": 0, "f": "Düzdür! 40 gün oruc tutdu."},
+   {"q": "İblis əvvəlcə nə etməyi dedi?", "o": ["Daşları çörəyə çevirməyi", "Suyu şəraba çevirməyi", "Qumdan ev tikməyi"], "a": 0, "f": "Düzdür! Ac olan İsanı sınadı."},
+   {"q": "İsa sınaqlara necə qalib gəldi?", "o": ["Allahın Kəlamı ilə", "Ucadan döyüşməklə", "Qaçmaqla"], "a": 0, "f": "Düzdür! Üç dəfə Kəlamla cavab verdi."},
+   {"q": "İblis gedəndən sonra İsaya kim xidmət etdi?", "o": ["Mələklər", "Şagirdlər", "Müdriklər"], "a": 0, "f": "Düzdür! Mələklər gəlib xidmət etdilər."}
+  ],
+  "dusun": ["Çox ac olanda kimsə “bunu et” deyə səni sınağa çəksə, nə hiss edərsən?", "İsa niyə döyüşmədən və qaçmadan Kəlamla cavab verdi?", "Səni pis tərəfə çəkən nədir? O vaxt hansı Kəlamı xatırlaya bilərsən?"],
+  "fealiyyet": {"ciz": "Səhrada İblisə “Yox!” deyən İsanı çək.", "b": "Sınağa qalib gəlmək", "p": "Sınaq gələndə nə edəcəyini seç.", "ph": "",
+   "secim": {"basliq": "Sınaq gələndə nə edəcəksən?", "izah": "Toxun və seç. Bir neçəsini seçə bilərsən.", "cumle": "Sınaq gələndə {x}!", "bos": "İsaya baxacağam", "bag": "və",
+    "secimler": [["📖", "Kəlamı xatırlayacağam"], ["🙏", "dua edəcəyəm"], ["✋", "“yox” deyəcəyəm"], ["🏃", "oradan uzaqlaşacağam"], ["👨‍👩‍👧", "valideynlərimə danışacağam"], ["🤝", "dostumdan kömək istəyəcəyəm"]]}},
+  "dua": "Ya Rəbb Allah, sınaqlara Kəlamla qalib gələn İsanı izzətləndirirəm. Pis iş görmək istəyəndə Sənin Kəlamını xatırlamağa kömək et. Cəsarətlə “yox” deməyə kömək et. İsa Məsihin adı ilə dua edirəm. Amin."
+ },
+ "genc": {
+  "basliq": "Səhrada qalib gələn Oğul",
+  "giris": "“Əgər Sən Allahın Oğlusansa…” Göydən gələn səs İsanı “sevimli Oğul” adlandırandan dərhal sonra İblis məhz bu kimliyi sarsıtmağa çalışır. Sınaq həmişə “mən kiməm?” sualını hədəfə alır.",
+  "meqsed": ["Üç sınağın hər birinin nəyi hədəf aldığını anlayırıq.", "İsanın İsrailin səhrada keçirdiyi 40 ili yenidən yaşayıb qalib gəldiyini izah edə bilirik.", "Tez-tez yıxıldığımız sınağı və o zaman tutacağımız Kəlamı tapırıq."],
+  "sehneler": [
+   {"b": "Ruh səhraya apardı", "ayə": "Matta 4:1–2", "alt": "Səhrada tək dua edən İsa", "p": ["İsanı səhraya aparan [[Müqəddəs Ruh]] idi. Sınaq Allahın planından kənarda baş verən təsadüf deyildi.", "İsa 40 gün, 40 gecə oruc tutdu. İsrail səhrada 40 il sınandı və tez-tez uğursuz oldu. İsa həmin yolu yenidən keçir və İsrailin yıxıldığı yerdə qalib gəlir."], "deep": {"b": "Dərindən baxaq · Üç cavabın mənbəyi", "p": "İsanın üç cavabının hamısı [[Qanunun Təkrarı]] kitabının 6–8-ci fəsillərindəndir. Bu, Musanın səhradakı 40 ilə baxıb İsrailə dediyi sözlərdir. İsa İsrailin uğursuzluq hekayəsini itaət hekayəsinə çevirdi."}},
+   {"b": "Birinci sınaq · Çörək", "ayə": "Matta 4:3–4", "alt": "İsanı sınağa çəkən İblis", "p": ["[[İblis]] deyir: “Əgər Sən Allahın Oğlusansa, bu daşları çörəyə çevir.” Aclığın özü günah deyil. Sınaq Ataya güvənmədən ehtiyacı öz qüvvəsi ilə ödəmək idi.", "İsa cavab verdi: “İnsan yalnız çörəklə deyil, Allahın ağzından çıxan hər sözlə yaşayar” {{Qan. 8:3}}."], "deep": {"b": "Dərindən baxaq · Kimliyi sarsıdan “əgər”", "p": "“Əgər Sən Allahın Oğlusansa” şübhə əkən sözdür. Bir az əvvəl Ata Onu “sevimli Oğul” adlandırmışdı. Sınaq çox vaxt “sübut et” şəklində gəlir. İsa heç nəyi sübut etməyə çalışmadı.", "rose": true}},
+   {"b": "İkinci və üçüncü sınaq · Sübut və hakimiyyət", "ayə": "Matta 4:5–10", "alt": "Məbədin damında İsanı sınayan İblis", "p": ["İblis [[məbəd]]in damında Məzmur 91-dən sitat gətirib İsanı aşağı atılmağa çağırır. İblis də Müqəddəs Kitabdan sitat gətirə bilər. İsa “Allahın Rəbbi sınama” {{Qan. 6:16}} deyə cavab verdi.", "Sonda İblis ona səcdə etsə, dünyanın bütün padşahlıqlarını verəcəyini deyir. Bu, çarmıxsız izzətə aparan qısa yol idi. İsa dedi: “Rədd ol, Şeytan! Allahın Rəbbə [[səcdə]] et və yalnız Ona ibadət et” {{Qan. 6:13}}."]},
+   {"b": "Mələklərin xidməti", "ayə": "Matta 4:11", "alt": "Sınağa qalib gələn İsaya xidmət edən mələklər", "p": ["İblis getdi və mələklər gəlib İsaya xidmət etdilər. Məbəddən atılma sınağında rədd etdiyi mələklərin köməyi itaətin sonunda hədiyyə kimi gəldi.", "İsa hər cəhətdən bizim kimi sınandı, amma günah etmədi {{İbr. 4:15}}. Buna görə sınanan bizə kömək edə bilir."], "deep": {"b": "Dərindən baxaq · Kəlamı “bilmək” və “yaşamaq”", "p": "İblis də Kəlamdan sitat gətirdi. Vacib olan çoxlu ayə bilmək deyil, Kəlamın bütöv axını içində Allaha güvənməkdir. İsa Kəlamı silah kimi işlətməzdən əvvəl ona görə yaşadı."}}
+  ],
+  "cedvel": {"b": "Üç sınaq", "alt": "Nəyi hədəf aldı və İsa necə qalib gəldi", "bas": ["Sınaq", "Hədəf", "İsanın cavabı"], "set": [["Daşları çörəyə çevir", "Allahın yerinə öz gücünlə ehtiyacı ödəmək", "Qanunun Təkrarı 8:3 · Kəlamla yaşamaq"], ["Məbəddən atıl", "Allahı sınayıb sübut istəmək", "Qanunun Təkrarı 6:16 · Allahı sınama"], ["Mənə səcdə et", "Çarmıxsız izzət, hakimiyyət", "Qanunun Təkrarı 6:13 · Yalnız Allaha səcdə et"]]},
+  "aye": {"metn": "“İnsan yalnız çörəklə deyil, Allahın ağzından çıxan hər sözlə yaşayar.”", "ref": "4:4"},
+  "lugat": {
+   "Müqəddəs Ruh": {"i": "🕊️", "o": "Yunanca pnevma hagion", "x": "성령", "s": "İsanı səhraya aparan Allahın Ruhu", "m": "Vəftizdə enən Ruh İsanı dərhal sınaq yerinə apardı.", "e": "Qüvvət aldıqdan sonra ilk yer səhnə deyil, səhra oldu."},
+   "İblis": {"i": "🐍", "o": "Yunanca diabolos, “ittiham edən”", "x": "마귀", "s": "Allahla insanın arasını vuran", "m": "“Arasını vurmaq, ittiham etmək” deməkdir. İbranicə “Şeytan” isə “düşmən” deməkdir.", "e": "İblis yalanın atası adlanır (Yəh. 8:44)."},
+   "məbəd": {"i": "🏛️", "o": "Yunanca hieron", "x": "성전", "s": "Yerusəlim məbədi", "m": "Hirodun böyük şəkildə yenidən tikdirdiyi Yerusəlim məbədi. Cənub-şərq küncü dərənin üstündə təxminən 45 metr hündürlükdə idi.", "e": "“Məbədin damı” yəqin ki, həmin künc idi."},
+   "səcdə": {"i": "🙇", "o": "Yunanca proskuneo", "x": "경배", "s": "Yerə əyilib izzətləndirmək", "m": "İkinci dərsdə müdriklərin İsaya etdiyi hərəkət məhz budur. İblis bunu özü üçün istədi.", "e": "İsa dedi ki, yalnız Allaha səcdə etmək lazımdır."},
+   "sınaq": {"i": "🪤", "o": "Yunanca peyrasmos", "x": "시험", "s": "Çətinlik və ya günaha çağırış", "m": "“Sınamaq, yoxlamaq” deməkdir. İmanı möhkəmləndirən çətinliyə də, günaha çəkən təhrikə də deyilir.", "e": "Rəbbin duasında da “bizi sınağa salma” deyilir (6:13)."},
+   "Qanunun Təkrarı": {"i": "📜", "o": "Yunanca Devteronomion, “ikinci qanun”", "x": "신명기", "s": "Musanın son vəzi", "m": "40 il səhrada qaldıqdan sonra, vəd olunmuş torpağa girməzdən əvvəl Musanın İsrailə qanunu təkrar öyrətdiyi kitabdır.", "e": "İsanın üç cavabının hamısı bu kitabdandır."}
+  },
+  "test": [
+   {"q": "İsanı səhraya kim apardı?", "o": ["Müqəddəs Ruh", "İblis", "Vəftizçi Yəhya"], "a": 0, "f": "Düzdür. Sınaq da Allahın planı içində idi."},
+   {"q": "İsanın 40 gün orucu nəyi xatırladır?", "o": ["İsrailin səhrada 40 ilini", "Nuhun 40 günlük tufanını", "Davudun 40 illik padşahlığını"], "a": 0, "f": "Düzdür. İsa İsrailin yıxıldığı yerdə qalib gəldi."},
+   {"q": "“Əgər Sən Allahın Oğlusansa” sözü nəyi hədəf alırdı?", "o": ["Kimliyə şübhə salmağı", "İsanı tərifləməyi", "Duaya çağırmağı"], "a": 0, "f": "Düzdür. Atanın dediyi sözü sarsıtmaq istəyirdi."},
+   {"q": "İsanın üç cavabı hansı kitabdandır?", "o": ["Qanunun Təkrarı", "Məzmurlar", "Yeşaya"], "a": 0, "f": "Düzdür. Musanın səhraya baxıb dediyi sözlərdir."},
+   {"q": "Üçüncü sınaq nə təklif edirdi?", "o": ["Çarmıxsız dünya padşahlıqlarını almaq", "Məbədi yenidən tikmək", "Tez şagird toplamaq"], "a": 0, "f": "Düzdür. İsa qısa yolu deyil, itaət yolunu seçdi."}
+  ],
+  "paylas": ["“Sübut et” təzyiqini nə vaxt hiss edirəm? (sosial şəbəkə, dostlar, qiymətlər…)", "Aclıq, tanınmaq istəyi, uğur istəyi — mən ən çox hansında sarsılıram?", "İblisin də Kəlamdan sitat gətirməsi bizi nədən xəbərdar edir?", "Bu həftə sınaq gələndə tutacağım bir ayə seç."],
+  "etiraf": {"b": "Mənim etirafım", "p": "Tez-tez yıxıldığın bir sınağı və o zaman tutacağın Kəlamı yaz.", "ph": "Məsələn: Gecə gec saatlara qədər telefonu buraxa bilmirəm. O vaxt … sözünü xatırlamaq istəyirəm."},
+  "dua": "Ya Rəbb Allah, səhrada bizim yerimizə sınağa qalib gələn İsanı izzətləndirirəm. “Sübut et” səsini eşidəndə artıq sevilən övlad olduğumu xatırlamağa kömək et. Kəlamı bilməklə qalmayıb ona görə yaşamağıma kömək et. Qalib gələn İsa Məsihin adı ilə dua edirəm. Amin."
+ }
+},
+"muellim": {
+ "mesaj": "5과의 중심은 한 문장입니다. **예수님은 우리가 넘어지는 바로 그 자리에서 하나님 말씀을 붙잡고 이기셨다.**",
+ "hazirliq": ["학생용 교재를 열 휴대폰이나 태블릿, 이어폰", "돌멩이 하나와 빵 한 조각 (도입용)", "말씀 카드 (어린이반: 4:4를 적은 작은 카드)"],
+ "fon": [
+  ["1. 성령이 이끄심", "세례 직후 성령이 예수님을 광야로 ‘이끄셨다’는 표현은 시험이 하나님 통제 밖의 사고가 아님을 보여 줍니다. 하나님은 시험하지 않으시지만(약 1:13) 시험을 허락하고 사용하십니다."],
+  ["2. 40일과 40년", "모세의 40일 금식(출 34:28), 엘리야의 40일(왕상 19:8), 이스라엘의 40년 광야가 겹쳐 보입니다. 마태는 예수님을 ‘참 이스라엘’로 그립니다."],
+  ["3. 신명기 인용", "세 대답은 신명기 8:3, 6:16, 6:13입니다. 모두 광야 세대를 돌아보는 본문입니다."],
+  ["4. 마귀의 성경 인용", "둘째 시험에서 마귀는 시편 91:11–12를 인용합니다. 문맥을 무시하고 구절을 떼어 쓰는 위험을 보여 줍니다."],
+  ["5. 마귀 표현", "PPT 그림에는 붉은 모습으로 그려져 있습니다. 어린이에게는 무서운 괴물보다 ‘하나님을 반대하고 거짓말로 꾀는 악한 영’으로 설명하세요."]
+ ],
+ "usaq_plan": [
+  ["5분", "돌과 빵", "돌멩이와 빵을 보여 주며 “배고플 때 이 돌이 빵이 된다면?” 묻기", "“예수님은 그렇게 하실 수 있었지만 하지 않으셨어요.”"],
+  ["15분", "장면 1–4 듣고 읽기", "장면마다 듣기, 노란 낱말 누르기", "“예수님은 세 번 다 무엇으로 대답하셨나요?”"],
+  ["5분", "외울 말씀", "빈칸 놀이 → 말씀 카드 나눠 주기", ""],
+  ["5분", "확인 퀴즈", "혼자 풀고 함께 확인", ""],
+  ["10분", "활동과 기도", "유혹이 올 때 할 일 고르기 → 역할극(친구가 꾀면 ‘싫어!’) → 기도", ""]
+ ],
+ "genc_plan": [
+  ["5분", "열기", "“너 진짜 ○○ 맞아? 증명해 봐” 같은 말을 들어 본 경험 나누기", ""],
+  ["15분", "장면 1–2", "40일과 40년, ‘만약’으로 시작하는 유혹", ""],
+  ["10분", "세 가지 시험 표와 장면 3–4", "각 시험이 노린 것을 오늘의 유혹과 연결", "“나에게 ‘돌로 빵을’은 무엇일까?”"],
+  ["5분", "확인 문제", "", ""],
+  ["15분", "나눔과 고백", "붙잡을 말씀 한 구절 정하기 → 기도", ""]
+ ],
+ "ipucu_usaq": ["마귀를 너무 무섭게 묘사하지 마세요. 예수님이 이기셨다는 데 초점을 두세요.", "유혹의 예는 아이들 일상에서 가져오세요(거짓말, 몰래 먹기, 친구 괴롭히기).", "말씀 카드는 냉장고나 책상에 붙여 두게 하면 좋습니다."],
+ "ipucu_genc": ["세 시험을 ‘육신의 필요, 인정 욕구, 권력·성공’으로 정리하면 청소년이 자기 삶에 연결하기 쉽습니다.", "마귀도 성경을 인용했다는 점은 ‘구절 하나만 떼어 쓰는 신앙’을 점검하게 합니다.", "고백 시간에 구체적인 유혹을 나누기 어려워하면 쓰기만 하고 나누지 않아도 된다고 말해 주세요."],
+ "suallar": [
+  ["예수님은 하나님인데 진짜로 시험을 받으셨어요?", "네, 진짜로 배고프셨고 진짜로 시험받으셨어요. 그래서 우리 마음을 아세요.", "히브리서 4:15는 예수님이 모든 일에 우리와 똑같이 시험받으셨지만 죄는 없으셨다고 말해요. 참 사람이셨기에 시험은 진짜였어요."],
+  ["마귀는 진짜 있어요?", "성경은 하나님을 반대하는 악한 영이 있다고 말해요. 하지만 예수님이 더 강하세요.", "성경은 마귀를 실제 존재로 말하지만, 모든 잘못을 마귀 탓으로 돌리지도 않아요. 우리 욕심도 유혹의 통로가 돼요(약 1:14)."],
+  ["유혹을 받는 것 자체가 죄예요?", "아니에요. 예수님도 유혹을 받으셨어요. 유혹에 ‘네’ 하고 따라가는 게 죄예요.", "시험받는 것과 죄짓는 것은 달라요. 시험의 순간은 오히려 하나님을 신뢰할 기회가 돼요."]
+ ]
+}
+}
