@@ -446,112 +446,30 @@ def build_lesson(L):
 
 
 def build_index(lessons):
-    """Ana səhifə: başlıq + dil/yaş düymələri + seçilən siyahı."""
+    """Ana səhifə: başlıq + dil/yaş düymələri + seçilən siyahı (şəxsi link ?ad=…&q=…)."""
     import re
-    rows = {'az': [], 'az-genc': [], 'ko-usaq': [], 'ko-genc': []}
+    from PIL import Image
+    keys = ['az', 'az-genc', 'ko-usaq', 'ko-genc']
     def h1(folder):
         t = open(os.path.join(ROOT, folder, 'index.html'), encoding='utf-8').read()
         return re.sub('<[^>]+>', '', re.search(r'<h1[^>]*>(.*?)</h1>', t, re.S).group(1)).strip()
-    meta = [{'no': 1, 'ref': '1:1–25', 't': {k: h1('matta-01-' + k) for k in rows}}]
+    meta = [{'no': 1, 'ref': '1:1–25', 'img': '02-isanin-dogulmasi.jpg', 't': {k: h1('matta-01-' + k) for k in keys}}]
     for L in lessons:
-        meta.append({'no': L['no'], 'ref': L['ref'], 't': {'az': L['az']['usaq']['basliq'], 'az-genc': L['az']['genc']['basliq'], 'ko-usaq': L['ko']['usaq']['basliq'], 'ko-genc': L['ko']['genc']['basliq']}})
+        meta.append({'no': L['no'], 'ref': L['ref'], 'img': L['img'][L.get('hero', 0)],
+                     't': {'az': L['az']['usaq']['basliq'], 'az-genc': L['az']['genc']['basliq'], 'ko-usaq': L['ko']['usaq']['basliq'], 'ko-genc': L['ko']['genc']['basliq']}})
     meta.sort(key=lambda m: m['no'])
-    data = {k: [[m['no'], m['ref'], m['t'][k]] for m in meta] for k in rows}
+    os.makedirs(os.path.join(ROOT, 'img', 'th'), exist_ok=True)
+    for m in meta:
+        src = os.path.join(ROOT, 'img', m['img'] if '/' in m['img'] else 'nt/' + m['img'])
+        dst = os.path.join(ROOT, 'img', 'th', f"matta-{m['no']:02d}.jpg")
+        if not os.path.exists(dst) or os.path.getmtime(dst) < os.path.getmtime(src):
+            im = Image.open(src).convert('RGB')
+            w, h = im.size; tw = int(h * 4 / 3)
+            if tw < w: im = im.crop(((w - tw) // 2, 0, (w - tw) // 2 + tw, h))
+            im.resize((240, 180), Image.LANCZOS).save(dst, quality=78)
+    data = {k: [[m['no'], m['ref'], m['t'][k]] for m in meta] for k in keys}
     js = json.dumps(data, ensure_ascii=False, separators=(',', ':'))
-    page = INDEX_TPL.replace('/*DATA*/', js)
-    write(os.path.join(ROOT, 'index.html'), page)
-
-
-INDEX_TPL = r"""<!doctype html>
-<html lang="ko">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>성경교재 · Müqəddəs Kitab dərsləri</title>
-<link rel="stylesheet" href="fonts/pretendardvariable-dynamic-subset.css">
-<style>
-:root{--bg:#F3F5F9;--paper:#fff;--ink:#1C2A48;--soft:#5E6C87;--line:#DCE2EC;--teal:#2C8A84;--teal-soft:#E1F1EF;--gold:#C98F22;color-scheme:light}
-@media (prefers-color-scheme:dark){:root{--bg:#111829;--paper:#1A2340;--ink:#EBF0F8;--soft:#A8B5CC;--line:#2C385A;--teal:#5CC2B9;--teal-soft:#173A39;--gold:#EDB650;color-scheme:dark}}
-*{box-sizing:border-box}
-body{margin:0;background:var(--bg);color:var(--ink);font-family:"Pretendard Variable",Pretendard,-apple-system,"Apple SD Gothic Neo","Segoe UI","Noto Sans KR",sans-serif;line-height:1.55;word-break:keep-all;-webkit-font-smoothing:antialiased}
-.wrap{max-width:640px;margin:0 auto;padding:40px max(16px,env(safe-area-inset-left)) 60px}
-header{text-align:center;margin-bottom:28px}
-h1{margin:0;font-size:clamp(34px,9vw,46px);font-weight:900;letter-spacing:-.03em}
-header p{margin:6px 0 0;color:var(--soft);font-size:15px}
-.group{margin:0 0 14px}
-.group h2{margin:0 0 8px;font-size:14px;font-weight:800;color:var(--soft);letter-spacing:.04em}
-.btns{display:grid;grid-template-columns:1fr 1fr;gap:10px}
-.btns button{font:inherit;font-size:17px;font-weight:800;padding:16px 10px;border-radius:16px;border:2px solid var(--line);background:var(--paper);color:var(--ink);cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:2px}
-.btns button span{font-size:26px;line-height:1}
-.btns button small{font-size:12px;font-weight:600;color:var(--soft)}
-.btns button:hover{border-color:var(--teal)}
-.btns button[aria-pressed="true"]{background:var(--teal);border-color:var(--teal);color:#fff}
-.btns button[aria-pressed="true"] small{color:#E6F4F2}
-#list{margin-top:26px}
-#list h3{margin:0 0 4px;font-size:20px;font-weight:900}
-#list .sub{margin:0 0 12px;color:var(--soft);font-size:14px}
-ol{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px}
-ol a{display:flex;align-items:center;gap:14px;padding:12px 14px;background:var(--paper);border:1px solid var(--line);border-radius:14px;text-decoration:none;color:var(--ink)}
-ol a:hover,ol a:focus-visible{border-color:var(--teal);outline:none}
-.no{flex:none;width:40px;height:40px;border-radius:12px;background:var(--teal-soft);color:var(--teal);display:grid;place-items:center;font-weight:900;font-size:17px}
-.tt{display:flex;flex-direction:column;min-width:0}
-.tt b{font-weight:800;font-size:16px}
-.tt small{color:var(--soft);font-size:13px}
-.hint{text-align:center;color:var(--soft);padding:24px 0}
-footer{margin-top:40px;text-align:center;color:var(--soft);font-size:13px}
-</style>
-</head>
-<body>
-<div class="wrap">
-<header>
-<h1>성경교재</h1>
-<p>Müqəddəs Kitab dərsləri · Mattanın yazdığı Müjdə</p>
-</header>
-
-<div class="group">
-<h2>AZƏRBAYCANCA</h2>
-<div class="btns">
-<button type="button" data-k="az" aria-pressed="false"><span>🧒</span>Uşaqlar<small>🔊 səsli oxu ilə</small></button>
-<button type="button" data-k="az-genc" aria-pressed="false"><span>🧑</span>Yeniyetmələr<small>🔊 səsli oxu ilə</small></button>
-</div>
-</div>
-<div class="group">
-<h2>한국어</h2>
-<div class="btns">
-<button type="button" data-k="ko-usaq" aria-pressed="false"><span>🧒</span>어린이<small>그림 이야기와 퀴즈</small></button>
-<button type="button" data-k="ko-genc" aria-pressed="false"><span>🧑</span>청소년<small>배경·원어·나눔</small></button>
-</div>
-</div>
-
-<section id="list" aria-live="polite"><p class="hint">위에서 언어와 세대를 고르세요<br>Yuxarıdan dil və yaşı seçin</p></section>
-
-<footer>Mattanın yazdığı Müjdə · 마태복음</footer>
-</div>
-<script>
-const D=/*DATA*/;
-const INFO={
- 'az':{h:'Azərbaycanca · Uşaqlar',s:n=>n+' dərs',l:(n,r)=>n+'-ci dərs · Matta '+r},
- 'az-genc':{h:'Azərbaycanca · Yeniyetmələr',s:n=>n+' dərs',l:(n,r)=>n+'-ci dərs · Matta '+r},
- 'ko-usaq':{h:'한국어 · 어린이',s:n=>'모두 '+n+'과',l:(n,r)=>'제'+n+'과 · 마태복음 '+r},
- 'ko-genc':{h:'한국어 · 청소년',s:n=>'모두 '+n+'과',l:(n,r)=>'제'+n+'과 · 마태복음 '+r}};
-function ord(n){const a={1:'ci',2:'ci',5:'ci',7:'ci',8:'ci',3:'cü',4:'cü',0:'cu',6:'cı',9:'cu'};let s;if(n%10===0){s=(n%100===0)?'cü':({10:'cu',20:'ci',30:'cu',40:'cı',50:'ci',60:'cı',70:'ci',80:'ci',90:'cı'})[n%100];}else s=a[n%10];return n+'-'+s;}
-const esc=t=>t.replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-function show(k,save){
- document.querySelectorAll('.btns button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.k===k));
- const I=INFO[k],rows=D[k],az=k.startsWith('az');
- const pad=n=>String(n).padStart(2,'0');
- let h='<h3>'+I.h+'</h3><p class="sub">'+I.s(rows.length)+'</p><ol>';
- rows.forEach(([n,r,t])=>{h+='<li><a href="matta-'+pad(n)+'-'+k+'/"><span class="no">'+n+'</span><span class="tt"><b>'+esc(t)+'</b><small>'+(az?ord(n)+' dərs · Matta '+r:'제'+n+'과 · 마태복음 '+r)+'</small></span></a></li>';});
- document.getElementById('list').innerHTML=h+'</ol>';
- if(save){try{localStorage.setItem('ana-secim',k)}catch(e){}history.replaceState(null,'','#'+k);}
-}
-document.querySelectorAll('.btns button').forEach(b=>b.addEventListener('click',()=>{show(b.dataset.k,true);document.getElementById('list').scrollIntoView({behavior:'smooth',block:'start'});}));
-let k0=location.hash.slice(1);if(!D[k0]){try{k0=localStorage.getItem('ana-secim')}catch(e){k0=null}}
-if(D[k0])show(k0,false);
-</script>
-</body>
-</html>
-"""
+    write(os.path.join(ROOT, 'index.html'), open(os.path.join(SRC, 'ana.html'), encoding='utf-8').read().replace('/*DATA*/', js))
 
 
 def build_teacher_index(lessons):
@@ -560,7 +478,7 @@ def build_teacher_index(lessons):
     items = ['<li><a href="#links">제1과 · 마태복음 1:1–25 · 임마누엘, 하나님이 우리와 함께 (이 페이지)</a></li>']
     for L in lessons:
         items.append(f'<li><a href="matta-{L["no"]:02d}/">제{L["no"]}과 · 마태복음 {E(L["ref"])} · {E(L["ko"]["genc"]["basliq"])}</a></li>')
-    block = '<!-- dersler:basla -->\n<section id="lessons">\n  <h2>과별 교사용 지도서</h2>\n  <ol class="lessons">\n    ' + '\n    '.join(items) + '\n  </ol>\n</section>\n<!-- dersler:son -->\n'
+    block = '<!-- dersler:basla -->\n<section id="lessons">\n  <p style="margin:0 0 14px"><a href="linkler/" style="display:inline-block;background:#25D366;color:#fff;font-weight:800;padding:10px 16px;border-radius:12px;text-decoration:none">👥 학생 개인 링크 만들기 · WhatsApp 보내기</a></p>\n  <h2>과별 교사용 지도서</h2>\n  <ol class="lessons">\n    ' + '\n    '.join(items) + '\n  </ol>\n</section>\n<!-- dersler:son -->\n'
     if '<!-- dersler:basla -->' in s:
         a = s.index('<!-- dersler:basla -->'); b = s.index('<!-- dersler:son -->') + len('<!-- dersler:son -->\n')
         s = s[:a] + block + s[b:]

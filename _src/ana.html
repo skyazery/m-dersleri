@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0A0F1F">
+<title>성경교재 · Müqəddəs Kitab dərsləri</title>
+<link rel="stylesheet" href="fonts/pretendardvariable-dynamic-subset.css">
+<style>
+:root{--bg:#0A0F1F;--ink:#F3F5FB;--soft:#9AA6C3;--glass:rgba(255,255,255,.06);--glass2:rgba(255,255,255,.1);--edge:rgba(255,255,255,.12);--teal:#4FD1C5;--violet:#8B7CF6;--gold:#F6C766;color-scheme:dark}
+*{box-sizing:border-box}
+html,body{background:var(--bg)}
+body{margin:0;color:var(--ink);font-family:"Pretendard Variable",Pretendard,-apple-system,"Apple SD Gothic Neo","Segoe UI","Noto Sans KR",sans-serif;line-height:1.5;word-break:keep-all;-webkit-font-smoothing:antialiased;min-height:100vh;overflow-x:hidden}
+.glow{position:fixed;inset:0;pointer-events:none;z-index:0;background:
+ radial-gradient(40% 35% at 15% 8%,rgba(79,209,197,.28),transparent 70%),
+ radial-gradient(45% 40% at 90% 20%,rgba(139,124,246,.30),transparent 70%),
+ radial-gradient(50% 40% at 50% 100%,rgba(246,199,102,.12),transparent 70%)}
+.wrap{position:relative;z-index:1;max-width:640px;margin:0 auto;padding:44px max(16px,env(safe-area-inset-left)) 64px}
+header{text-align:center;margin-bottom:30px}
+.pill{display:inline-flex;gap:6px;align-items:center;font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--soft);padding:6px 12px;border:1px solid var(--edge);border-radius:999px;background:var(--glass);backdrop-filter:blur(8px)}
+.pill i{width:6px;height:6px;border-radius:50%;background:var(--teal);box-shadow:0 0 10px var(--teal)}
+h1{margin:16px 0 6px;font-size:clamp(46px,14vw,72px);font-weight:900;letter-spacing:-.04em;line-height:1.05;background:linear-gradient(120deg,#fff 20%,var(--gold) 60%,var(--teal));-webkit-background-clip:text;background-clip:text;color:transparent}
+header p{margin:0;color:var(--soft);font-size:15px}
+.hi{display:none;margin:18px auto 0;width:max-content;max-width:100%;padding:8px 16px;border-radius:999px;background:linear-gradient(90deg,rgba(79,209,197,.18),rgba(139,124,246,.18));border:1px solid var(--edge);font-weight:700}
+.hi.on{display:block}
+.group{margin:0 0 16px}
+.group h2{margin:0 0 10px;font-size:12px;font-weight:800;color:var(--soft);letter-spacing:.16em;text-transform:uppercase;display:flex;align-items:center;gap:10px}
+.group h2::after{content:"";flex:1;height:1px;background:var(--edge)}
+.btns{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.btns button{position:relative;font:inherit;color:var(--ink);text-align:left;padding:16px;border-radius:20px;border:1px solid var(--edge);background:var(--glass);backdrop-filter:blur(10px);cursor:pointer;display:flex;flex-direction:column;gap:4px;transition:transform .15s,border-color .15s,background .15s}
+.btns button:hover{transform:translateY(-2px);border-color:rgba(255,255,255,.25)}
+.btns button:focus-visible{outline:2px solid var(--teal);outline-offset:2px}
+.btns .em{font-size:26px;line-height:1}
+.btns b{font-size:18px;font-weight:800;letter-spacing:-.01em}
+.btns small{font-size:12px;color:var(--soft)}
+.btns button[aria-pressed="true"]{background:linear-gradient(135deg,rgba(79,209,197,.28),rgba(139,124,246,.28));border-color:transparent;box-shadow:0 0 0 1.5px rgba(79,209,197,.7),0 10px 30px -10px rgba(139,124,246,.6)}
+.btns button[aria-pressed="true"] small{color:#D8E2F5}
+#list{margin-top:30px;scroll-margin-top:16px}
+.lh{display:flex;align-items:baseline;justify-content:space-between;gap:10px;margin:0 0 14px}
+.lh h3{margin:0;font-size:22px;font-weight:900;letter-spacing:-.02em}
+.lh span{color:var(--soft);font-size:13px;font-weight:700;white-space:nowrap}.lh h3 small{display:block;font-size:12px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--teal);margin-bottom:2px}
+ol{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px}
+ol a{display:flex;align-items:center;gap:14px;padding:10px 14px 10px 10px;border-radius:18px;background:var(--glass);border:1px solid var(--edge);text-decoration:none;color:var(--ink);transition:transform .15s,background .15s,border-color .15s}
+ol a:hover,ol a:focus-visible{transform:translateY(-2px);background:var(--glass2);border-color:rgba(79,209,197,.5);outline:none}
+.th{position:relative;flex:none;width:72px;height:54px;border-radius:12px;overflow:hidden;background:#1a2238}
+.th img{width:100%;height:100%;object-fit:cover;display:block}
+.th em{position:absolute;left:5px;bottom:4px;font-style:normal;font-weight:900;font-size:15px;color:#fff;text-shadow:0 1px 6px rgba(0,0,0,.8)}
+.tt{display:flex;flex-direction:column;min-width:0;flex:1}
+.tt b{font-weight:800;font-size:16px;line-height:1.3}
+.tt small{color:var(--soft);font-size:12.5px;margin-top:2px}
+.ar{flex:none;color:var(--soft);font-size:18px}
+.hint{text-align:center;color:var(--soft);padding:28px 0;font-size:15px}
+footer{margin-top:44px;text-align:center;color:var(--soft);font-size:12px;letter-spacing:.06em}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<div class="glow" aria-hidden="true"></div>
+<div class="wrap">
+<header>
+<span class="pill"><i></i>Matta · 마태복음 · 33</span>
+<h1>성경교재</h1>
+<p>Müqəddəs Kitab dərsləri</p>
+<div class="hi" id="hi"></div>
+</header>
+
+<div class="group">
+<h2>Azərbaycanca</h2>
+<div class="btns">
+<button type="button" data-k="az" aria-pressed="false"><span class="em">🧒</span><b>Uşaqlar</b><small>🔊 Səsli oxu ilə</small></button>
+<button type="button" data-k="az-genc" aria-pressed="false"><span class="em">🎧</span><b>Yeniyetmələr</b><small>🔊 Səsli oxu ilə</small></button>
+</div>
+</div>
+<div class="group">
+<h2>한국어</h2>
+<div class="btns">
+<button type="button" data-k="ko-usaq" aria-pressed="false"><span class="em">🧒</span><b>어린이</b><small>그림 이야기와 퀴즈</small></button>
+<button type="button" data-k="ko-genc" aria-pressed="false"><span class="em">🎧</span><b>청소년</b><small>배경 · 원어 · 나눔</small></button>
+</div>
+</div>
+
+<section id="list" aria-live="polite"><p class="hint">언어와 세대를 고르세요<br>Dil və yaş qrupunu seçin</p></section>
+
+<footer>MATTANIN YAZDIĞI MÜJDƏ · 마태복음</footer>
+</div>
+<script>
+const D=/*DATA*/;
+const H={'az':'Uşaqlar','az-genc':'Yeniyetmələr','ko-usaq':'어린이','ko-genc':'청소년'};
+function ord(n){const t=n%10,h=n%100;let s;if(t===0)s={10:'cu',20:'ci',30:'cu'}[h]||'cu';else s={1:'ci',2:'ci',5:'ci',7:'ci',8:'ci',3:'cü',4:'cü',6:'cı',9:'cu'}[t];return n+'-'+s;}
+const esc=t=>String(t).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+function ls(k,v){try{if(v===undefined)return localStorage.getItem(k);localStorage.setItem(k,v)}catch(e){return null}}
+const qs=new URLSearchParams(location.search);
+let ad=(qs.get('ad')||'').replace(/\s+/g,' ').trim().slice(0,30);
+if(ad)ls('mders-ad',ad);else ad=(ls('mders-ad')||'').trim();
+if(ad){const hi=document.getElementById('hi');hi.textContent='👋 Salam, '+ad+'!';hi.classList.add('on');}
+const tail=ad?'?ad='+encodeURIComponent(ad):'';
+function show(k,save,scroll){
+ document.querySelectorAll('.btns button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.k===k));
+ const rows=D[k],az=k.startsWith('az'),pad=n=>String(n).padStart(2,'0');
+ let h='<div class="lh"><h3><small>'+(az?'Azərbaycanca':'한국어')+'</small>'+H[k]+'</h3><span>'+(az?rows.length+' dərs':'모두 '+rows.length+'과')+'</span></div><ol>';
+ rows.forEach(([n,r,t])=>{h+='<li><a href="matta-'+pad(n)+'-'+k+'/'+tail+'"><span class="th"><img src="img/th/matta-'+pad(n)+'.jpg" alt="" loading="lazy" width="72" height="54"><em>'+n+'</em></span><span class="tt"><b>'+esc(t)+'</b><small>'+(az?ord(n)+' dərs · Matta '+r:'제'+n+'과 · 마태복음 '+r)+'</small></span><span class="ar">›</span></a></li>';});
+ document.getElementById('list').innerHTML=h+'</ol>';
+ if(save)ls('ana-secim',k);
+ if(scroll)document.getElementById('list').scrollIntoView({behavior:'smooth',block:'start'});
+}
+document.querySelectorAll('.btns button').forEach(b=>b.addEventListener('click',()=>show(b.dataset.k,true,true)));
+let k0=qs.get('q')||location.hash.slice(1);
+if(D[k0])ls('ana-secim',k0);else k0=ls('ana-secim');
+if(D[k0])show(k0,false,false);
+</script>
+</body>
+</html>

@@ -87,97 +87,28 @@
   var box = document.createElement('div');
   if (anchor) anchor.insertAdjacentElement('afterend', box);
 
-  /* Uşaqlar üçün: ad siyahıdan düymə ilə seçilir (siyahını müəllim Google cədvəlində yazır) */
+  /* Ad müəllimin göndərdiyi şəxsi linkdən gəlir: ...?ad=Aysel  (ad yazmaq xanası yoxdur) */
   var KIDS = CFG.sinif === 'usaq';
-  var K_ROSTER = 'mders-siyahi-' + CFG.sinif;
-  var roster = [];
-  try { roster = JSON.parse(lsGet(K_ROSTER) || '[]'); } catch (e) { roster = []; }
-  var typing = false, switching = false;
   var onNameChange = [];
-  function loadRoster() {
-    if (!KIDS || !ENDPOINT || !window.fetch) return;
-    fetch(ENDPOINT + '?siyahi=' + CFG.sinif).then(function (r) { return r.json(); }).then(function (d) {
-      if (!d || !Array.isArray(d.names)) return;
-      roster = d.names.map(function (n) { return String(n).trim().slice(0, 30); }).filter(Boolean).slice(0, 80);
-      lsSet(K_ROSTER, JSON.stringify(roster));
-      if (!getName()) renderName();
-    }).catch(function () {});
-  }
-  var AZ_KEYS = ['ə', 'ı', 'ö', 'ü', 'ğ', 'ş', 'ç', 'Ə', 'İ', 'Ö', 'Ü', 'Ş', 'Ç'];
-  function setName(v) {
-    v = String(v || '').replace(/\s+/g, ' ').trim();
-    if (!v) return false;
-    v = v.charAt(0).toLocaleUpperCase('az') + v.slice(1);
-    lsSet(K_NAME, v); typing = false;
-    if (switching) { flush(); location.reload(); return true; }
-    renderName(); flush();
-    onNameChange.forEach(function (f) { f(); });
-    return true;
-  }
-
+  (function () {
+    var m = /[?&]ad=([^&#]*)/.exec(location.search);
+    if (!m) return;
+    var v = '';
+    try { v = decodeURIComponent(m[1].replace(/\+/g, ' ')); } catch (e) { v = ''; }
+    v = v.replace(/\s+/g, ' ').trim().slice(0, 30);
+    if (v) lsSet(K_NAME, v);
+  })();
   function renderName() {
     var name = getName();
     box.innerHTML = '';
-    if (!name && KIDS && roster.length && !typing) {
-      box.className = 'dz-card';
-      box.innerHTML = '<h3>Sən kimsən?</h3><p>Adına toxun.</p><div class="dz-names"></div>' +
-        '<button class="dz-link" type="button">Adım burada yoxdur</button>';
-      var grid = box.querySelector('.dz-names');
-      roster.forEach(function (n) {
-        var b = document.createElement('button');
-        b.type = 'button'; b.className = 'dz-name'; b.textContent = n;
-        b.onclick = function () { setName(n); };
-        grid.appendChild(b);
-      });
-      box.querySelector('.dz-link').onclick = function () { typing = true; renderName(); var i = box.querySelector('#dzName'); if (i) i.focus(); };
-      return;
-    }
-    if (name) {
-      box.className = 'dz-hi';
-      var s = document.createElement('span');
-      s.innerHTML = '👋 Salam, <b></b>! Nəticələrin müəllimə gedir.';
-      s.querySelector('b').textContent = name;
-      var ch = document.createElement('button');
-      ch.className = 'dz-link'; ch.type = 'button'; ch.textContent = 'Adı dəyiş';
-      ch.onclick = function () { lsSet(K_NAME, ''); typing = false; switching = true; renderName(); };
-      box.appendChild(s); box.appendChild(ch);
-      return;
-    }
-    box.className = 'dz-card';
-    box.innerHTML =
-      '<h3>Adın nədir?</h3>' +
-      '<p>Adını yaz ki, müəllimin sənin nəticələrini görsün. Yalnız adın kifayətdir, soyad lazım deyil.</p>' +
-      '<form class="dz-row"><input id="dzName" maxlength="30" autocomplete="given-name" placeholder="Məsələn: Aysel" aria-label="Adın"><button class="dz-btn" type="submit">Yadda saxla</button></form>';
-    var input = box.querySelector('#dzName');
-    if (KIDS) {
-      var keys = document.createElement('div');
-      keys.className = 'dz-keys'; keys.setAttribute('aria-label', 'Azərbaycan hərfləri');
-      AZ_KEYS.forEach(function (ch) {
-        var k = document.createElement('button');
-        k.type = 'button'; k.className = 'dz-key'; k.textContent = ch;
-        k.onclick = function () {
-          var s = input.selectionStart == null ? input.value.length : input.selectionStart;
-          var e2 = input.selectionEnd == null ? s : input.selectionEnd;
-          input.value = (input.value.slice(0, s) + ch + input.value.slice(e2)).slice(0, 30);
-          input.focus(); try { input.setSelectionRange(s + 1, s + 1); } catch (x) {}
-        };
-        keys.appendChild(k);
-      });
-      box.appendChild(keys);
-      if (roster.length) {
-        var back = document.createElement('button');
-        back.type = 'button'; back.className = 'dz-link'; back.textContent = '← Ad siyahısına qayıt';
-        back.onclick = function () { typing = false; renderName(); };
-        box.appendChild(back);
-      }
-    }
-    box.querySelector('form').onsubmit = function (e) {
-      e.preventDefault();
-      if (!setName(input.value)) input.focus();
-    };
+    if (!name) { box.className = ''; return; }
+    box.className = 'dz-hi';
+    var s = document.createElement('span');
+    s.innerHTML = '👋 Salam, <b></b>!';
+    s.querySelector('b').textContent = name;
+    box.appendChild(s);
   }
   renderName();
-  loadRoster();
 
   /* ---------- davamiyyət: hər şagird üçün gündə bir dəfə ---------- */
   function sk(base) { return base + '|' + getName(); }
@@ -244,12 +175,12 @@
     function vkey() { return sk('mders-ayə-' + CFG.ders); }
     var vmsg = document.createElement('span'); vmsg.className = 'dz-ok';
     function vstate() {
-      var done = !!getName() && !!lsGet(vkey());
+      var done = !!lsGet(vkey());
       vb.textContent = done ? '✓ Əzbərlədim' : 'Ayəni əzbərlədim';
       vb.disabled = done;
     }
     vb.onclick = function () {
-      if (!getName()) { vmsg.textContent = 'Əvvəlcə yuxarıda adını seç.'; box.scrollIntoView({ block: 'center' }); return; }
+      
       lsSet(vkey(), '1'); send('verse', '✓'); vstate(); vmsg.textContent = 'Afərin! Müəllimin görəcək.';
     };
     vstate();
@@ -330,8 +261,7 @@
       var t = ta.value.trim();
       if (!t) { amsg.textContent = KIDS ? 'Əvvəlcə bir yer seç.' : 'Əvvəlcə bir neçə söz yaz.'; if (!KIDS) ta.focus(); return; }
       send('activity', 'yazı', t);
-      if (!getName()) amsg.textContent = 'Yadda saxlanıldı. Yuxarıda adını yaz, sonra müəllimə gedəcək.';
-      else if (!navigator.onLine || !ENDPOINT) amsg.textContent = 'Yadda saxlanıldı. İnternet olanda göndəriləcək.';
+      if (!navigator.onLine || !ENDPOINT) amsg.textContent = 'Yadda saxlanıldı. İnternet olanda göndəriləcək.';
       else amsg.textContent = 'Göndərildi ✓';
     };
     arow.appendChild(ab); arow.appendChild(amsg);
