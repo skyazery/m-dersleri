@@ -1,0 +1,157 @@
+{
+"no": 13, "ref": "9:1–38", "deq": {"usaq": 40, "genc": 50},
+"img": ["09-iflic-adam.jpg", "matta/13-matta.jpg", "19-qanaxmali-qadin.jpg", "20-yair-qizi.jpg"],
+"hero": 3,
+"ko": {
+ "usaq": {
+  "basliq": "죄인을 부르러 오셨어요",
+  "hedef": ["예수님이 죄를 용서하시는 분임을 알아요.", "예수님이 아무도 좋아하지 않던 마태를 부르신 이야기를 배워요.", "예수님께 친구를 데려오는 사람이 되어요."],
+  "sehneler": [
+   {"b": "친구들이 데려온 중풍병자", "ayə": "9:1–8", "alt": "친구들이 메고 온 중풍병자를 고치시는 예수님", "p": ["친구들이 [[중풍병자]]를 침상에 눕혀서 예수님께 데려왔어요. 예수님은 그들의 믿음을 보시고 말씀하셨어요. “얘야, 안심하여라. 네 죄가 [[용서]]받았다.”", "그리고 “일어나 네 침상을 들고 집으로 가거라” 하셨어요. 그 사람은 벌떡 일어나 걸어서 집으로 갔어요!"]},
+   {"b": "나를 따라오너라, 마태", "ayə": "9:9–13", "alt": "세관에 앉은 마태를 부르시는 예수님", "p": ["마태는 [[세리]]였어요. 사람들에게 세금을 더 많이 받아서 모두가 싫어했어요. 예수님이 지나가다 말씀하셨어요. “나를 따라오너라.” 마태는 곧바로 일어나 따라갔어요.", "예수님이 세리와 [[죄인]]들과 함께 식사하시자 사람들이 수군거렸어요. 예수님이 말씀하셨어요. “건강한 사람에게는 의사가 필요 없고 아픈 사람에게 필요하다. 나는 죄인을 부르러 왔다.”"]},
+   {"b": "옷자락만 만져도", "ayə": "9:20–22", "alt": "예수님의 옷자락을 만지는 여인", "p": ["열두 해 동안 피가 멈추지 않는 병을 앓던 여자가 있었어요. ‘예수님의 [[옷자락]]만 만져도 나을 거야.’", "여자가 뒤로 와서 살짝 만지자 예수님이 돌아보셨어요. “딸아, 안심하여라. 네 믿음이 너를 구원하였다.” 그 순간 병이 나았어요."]},
+   {"b": "소녀야, 일어나라", "ayə": "9:18–19, 23–26", "alt": "야이로의 딸을 살리시는 예수님", "p": ["회당장 야이로의 딸이 죽었어요. 사람들은 울고 있었지만 예수님은 말씀하셨어요. “소녀는 죽은 것이 아니라 [[자고]] 있다.”", "예수님이 소녀의 손을 잡으시자 소녀가 일어났어요! 이 소문이 온 땅에 퍼졌어요."]}
+  ],
+  "aye": {"metn": "“나는 의인을 부르러 온 것이 아니요 죄인을 부르러 왔노라.”", "ref": "9:13", "bos": "나는 ___을 부르러 온 것이 아니요 ___을 ___ 왔노라.", "sozler": ["의인", "죄인", "부르러"], "yalan": "벌하러"},
+  "lugat": {
+   "중풍병자": {"i": "🛏️", "x": "iflic", "m": "몸이 마비되어서 걸을 수 없는 사람이에요.", "e": "친구들이 중풍병자를 예수님께 데려왔어요."},
+   "용서": {"i": "🤗", "x": "bağışlanmaq", "m": "잘못을 더 이상 따지지 않고 없던 것처럼 해 주는 거예요.", "e": "예수님은 죄를 용서해 주셨어요."},
+   "세리": {"i": "💰", "x": "vergiyığan", "m": "로마를 위해 세금을 걷던 사람이에요. 돈을 더 받아서 사람들이 미워했어요.", "e": "마태는 세리였어요."},
+   "죄인": {"i": "😞", "x": "günahkar", "m": "하나님의 말씀을 지키지 않고 잘못한 사람이에요. 사실 우리 모두가 죄인이에요.", "e": "예수님은 죄인을 부르러 오셨어요."},
+   "옷자락": {"i": "🧵", "x": "paltarın ətəyi", "m": "옷의 아래 끝부분이에요.", "e": "여자가 예수님의 옷자락을 만졌어요."},
+   "자고": {"i": "😴", "x": "yatmaq", "m": "예수님에게 죽음은 잠처럼 다시 깨어날 수 있는 것이에요.", "e": "소녀는 자고 있다."}
+  },
+  "test": [
+   {"q": "중풍병자를 예수님께 데려온 사람은?", "o": ["친구들", "로마 군인", "아무도 없었어요"], "a": 0, "f": "맞아요! 친구들의 믿음을 보셨어요."},
+   {"q": "마태는 원래 무슨 일을 했나요?", "o": ["세금을 걷는 세리", "어부", "목수"], "a": 0, "f": "맞아요! 모두가 싫어하던 사람이었어요."},
+   {"q": "예수님은 누구를 부르러 오셨다고 하셨나요?", "o": ["죄인", "부자", "힘센 사람"], "a": 0, "f": "맞아요! 의사가 아픈 사람에게 가듯이요."},
+   {"q": "예수님이 야이로의 딸에게 하신 일은?", "o": ["손을 잡아 일으키셨어요", "그냥 떠나셨어요", "약을 주셨어요"], "a": 0, "f": "맞아요! 죽은 소녀를 살리셨어요."}
+  ],
+  "dusun": ["중풍병자의 친구들처럼 내가 예수님께 데려오고 싶은 친구가 있나요?", "모두가 싫어하던 마태를 예수님이 부르셨을 때 마태는 어떤 기분이었을까요?", "예수님은 왜 아픈 사람들에게 ‘안심하라’고 하셨을까요?"],
+  "fealiyyet": {"ciz": "친구를 침상에 메고 예수님께 데려가는 나와 친구들을 그려 보세요.", "b": "예수님께 데려갈 친구", "p": "기도로 예수님께 데려가고 싶은 사람을 써 보세요.", "ph": "예) 아픈 우리 반 친구를 위해 기도할래요."},
+  "dua": "예수님, 죄를 용서하시고 아픈 사람을 고치시는 예수님께 감사합니다. 모두가 싫어하던 마태를 부르셨듯이 저도 불러 주셔서 고맙습니다. 제 친구들도 예수님께 데려오는 사람이 되게 해 주세요. 예수님 이름으로 기도합니다. 아멘."
+ },
+ "genc": {
+  "basliq": "의사가 필요한 사람",
+  "giris": "누구와 밥을 먹느냐가 그 사람을 말해 주던 시대였습니다. 예수님은 일부러 ‘같이 밥 먹으면 안 되는 사람들’의 식탁에 앉으셨습니다. 그리고 말씀하셨습니다. 나는 의사다. 아픈 사람에게 왔다.",
+  "meqsed": ["예수님이 죄를 사하는 권세를 가지신 분임을 이해해요.", "마태의 부르심과 ‘긍휼’의 뜻을 설명할 수 있어요.", "추수할 일꾼으로서 내가 품을 사람을 위해 기도해요."],
+  "sehneler": [
+   {"b": "죄를 사하는 권세", "ayə": "9:1–8", "alt": "친구들이 메고 온 중풍병자를 고치시는 예수님", "p": ["예수님은 친구들의 믿음을 보시고 [[중풍병자]]에게 먼저 “네 죄 사함을 받았느니라”고 하셨어요. 서기관들은 속으로 “신성 모독이다”라고 생각했어요. 죄를 사하는 것은 하나님만 하실 수 있으니까요.", "예수님은 “인자가 세상에서 죄를 사하는 권세가 있는 줄을 너희로 알게 하려 하노라” 하시고 그를 걷게 하셨어요. 보이는 치유가 보이지 않는 용서를 증명했어요."], "deep": {"b": "깊이 보기 · 어느 것이 쉽겠느냐", "p": "“죄 사함을 받았다”는 말은 확인할 수 없으니 말하기 쉬워 보여요. “일어나 걸어가라”는 바로 확인돼요. 예수님은 어려워 보이는 것을 하셔서, 진짜 어려운 것을 하실 수 있음을 보여 주셨어요."}},
+   {"b": "세관에서 식탁으로", "ayə": "9:9–13", "alt": "세관에 앉은 마태를 부르시는 예수님", "p": ["[[세리]]는 로마와 헤롯을 위해 동족에게 세금을 걷던 사람이었어요. 매국노이자 사기꾼 취급을 받았고 회당에서도 따돌림을 당했어요. 이 복음서의 이름이 바로 그 세리 마태예요.", "바리새인들이 “왜 세리와 죄인과 함께 먹느냐” 묻자 예수님은 호세아 6:6을 인용하셨어요. “나는 [[긍휼]]을 원하고 제사를 원하지 아니하노라.”"], "deep": {"b": "깊이 보기 · 마태의 겸손", "p": "마가와 누가는 그를 ‘레위’라고 부르지만, 마태복음은 ‘마태’라는 이름을 쓰고 10:3 제자 명단에서는 “세리 마태”라고 스스로 밝혀요. 과거를 숨기지 않고 은혜를 자랑하는 고백이에요."}},
+   {"b": "새 포도주와 손 대심", "ayə": "9:14–26", "alt": "예수님의 옷자락을 만지는 여인", "p": ["예수님은 자신을 신랑에 비유하시며, 새 포도주는 새 부대에 넣어야 한다고 하셨어요. 예수님이 가져오신 하나님 나라는 낡은 틀에 끼워 맞출 수 없어요.", "열두 해 혈루증 앓던 여인은 율법상 ‘부정’해서 사람을 만질 수 없었어요. 그녀가 예수님의 옷술을 만졌을 때 예수님은 숨지 않게 하시고 “딸아” 부르며 공개적으로 회복시키셨어요."], "deep": {"b": "깊이 보기 · 두 딸", "p": "열두 해 아팠던 여인과 열두 살 소녀(막 5:42) 이야기가 서로 엮여 있어요. 둘 다 ‘부정’과 연결되었지만(피, 시체), 예수님은 둘 다 만지시고 둘 다 ‘딸’로 회복시키셨어요.", "rose": true}},
+   {"b": "추수할 일꾼", "ayə": "9:27–38", "alt": "야이로의 딸을 살리시는 예수님", "p": ["예수님은 죽은 소녀를 살리시고, 눈먼 사람과 말 못 하는 사람도 고치셨어요. 4:23과 같은 문장(9:35)으로 8–9장이 마무리돼요.", "예수님은 무리를 보시고 “목자 없는 양과 같이 고생하며 기진함”을 [[불쌍히 여기셨어요|불쌍히 여기다]]. “추수할 것은 많되 일꾼이 적으니, 추수하는 주인에게 청하여 일꾼들을 보내 주소서 하라.”"], "deep": {"b": "깊이 보기 · 창자가 끊어지는 마음", "p": "‘불쌍히 여기다’(스플랑크니조마이)는 ‘내장’에서 나온 말이에요. 배 속 깊은 곳이 아플 만큼의 공감이에요. 이 마음이 다음 장 제자 파송(10장)으로 이어져요."}}
+  ],
+  "cedvel": {"b": "9장의 만남들", "alt": "9:1–38", "bas": ["사람", "사회적 위치", "예수님의 말씀"], "set": [["중풍병자", "몸이 묶인 사람", "“작은 자야, 안심하라”"], ["마태", "미움받는 세리", "“나를 따르라”"], ["혈루증 여인", "부정하다고 격리된 사람", "“딸아, 안심하라”"], ["야이로의 딸", "죽은 소녀", "“소녀가 자고 있다”"], ["무리", "목자 없는 양", "불쌍히 여기심"]]},
+  "aye": {"metn": "“건강한 자에게는 의사가 쓸 데 없고 병든 자에게라야 쓸 데 있느니라. … 나는 의인을 부르러 온 것이 아니요 죄인을 부르러 왔노라.”", "ref": "9:12–13"},
+  "lugat": {
+   "중풍병자": {"i": "🛏️", "o": "헬라어 파랄뤼티코스", "x": "iflic", "s": "몸이 마비된 사람", "m": "영어 paralytic의 어원이에요. 스스로 예수님께 갈 수 없어 친구들의 도움이 필요했어요.", "e": "마가복음은 친구들이 지붕을 뚫었다고 전해요(막 2:4)."},
+   "세리": {"i": "💰", "o": "헬라어 텔로네스", "x": "vergiyığan", "s": "로마의 하청 세금 징수원", "m": "정해진 금액보다 더 걷어 자기 몫을 챙겼어요. 유대 사회에서 창녀와 같은 급의 ‘죄인’으로 여겨졌어요.", "e": "삭개오도 세리장이었어요(눅 19장)."},
+   "긍휼": {"i": "💞", "o": "헬라어 엘레오스, 히브리어 헤세드", "x": "mərhəmət", "s": "언약에 신실한 사랑", "m": "호세아서의 ‘헤세드’는 변하지 않는 신실한 사랑이에요. 예배 형식보다 사람을 향한 사랑을 원하신다는 뜻이에요.", "e": "예수님은 12:7에서 이 구절을 한 번 더 인용하세요."},
+   "불쌍히 여기다": {"i": "💔", "o": "헬라어 스플랑크니조마이", "x": "rəhmi gəlmək", "s": "깊은 곳에서 올라오는 공감", "m": "신약에서 거의 예수님(과 비유 속 하나님)에게만 쓰이는 말이에요.", "e": "탕자의 아버지도 아들을 보고 ‘불쌍히 여겨’ 달려갔어요(눅 15:20)."}
+  },
+  "test": [
+   {"q": "서기관들이 예수님을 ‘신성 모독’이라고 생각한 이유는?", "o": ["죄를 사한다고 하셔서", "안식일에 고치셔서", "세금을 안 내셔서"], "a": 0, "f": "맞아요. 죄 사함은 하나님만의 권한이었어요."},
+   {"q": "마태복음 10:3에서 마태는 자신을 어떻게 소개하나요?", "o": ["세리 마태", "어부 마태", "제사장 마태"], "a": 0, "f": "맞아요. 과거를 숨기지 않았어요."},
+   {"q": "예수님이 9:13에서 인용하신 구약 말씀은?", "o": ["나는 긍휼을 원하고 제사를 원하지 아니하노라", "여호와는 나의 목자시니", "태초에 하나님이"], "a": 0, "f": "맞아요. 호세아 6:6이에요."},
+   {"q": "혈루증 여인에게 예수님이 부르신 호칭은?", "o": ["딸아", "여자여", "죄인아"], "a": 0, "f": "맞아요. 가족으로 회복시키셨어요."},
+   {"q": "예수님이 무리를 보시고 기도하라고 하신 내용은?", "o": ["추수할 일꾼을 보내 달라고", "비를 내려 달라고", "로마를 무너뜨려 달라고"], "a": 0, "f": "맞아요. 다음 장에서 제자들이 보내져요."}
+  ],
+  "paylas": ["중풍병자의 친구들처럼 나를 예수님께 데려와 준 사람이 있나요?", "우리 학교나 동네에서 ‘마태’처럼 따돌림받는 사람은 누구일까요? 나는 그 식탁에 앉을 수 있을까요?", "‘긍휼’보다 ‘제사’(형식)를 앞세웠던 경험이 있나요?", "내가 ‘추수할 일꾼’으로서 기도하며 품을 한 사람은 누구인가요?"],
+  "etiraf": {"b": "나의 고백", "p": "예수님이 세관에 앉은 마태를 부르셨듯이, 지금 나를 부르신다면 나는 무엇에서 일어나야 할까요? 서너 문장으로 써 보세요.", "ph": "예) 저는 스마트폰 앞에 너무 오래 앉아 있어요. 예수님이 부르시면 …"},
+  "dua": "예수님, 의인이 아니라 죄인을 부르러 오신 의사이신 예수님께 감사합니다. 저도 마태처럼 부름받은 죄인임을 기억하게 해 주세요. 목자 없는 양 같은 친구들을 불쌍히 여기는 마음을 주시고, 저를 추수할 일꾼으로 써 주세요. 예수님 이름으로 기도합니다. 아멘."
+ }
+},
+"az": {
+ "usaq": {
+  "basliq": "Günahkarları çağırmağa gəldi",
+  "hedef": ["İsanın günahları bağışlayan olduğunu öyrənəcəyik.", "İsanın heç kimin sevmədiyi Mattanı çağırdığını öyrənəcəyik.", "Dostlarımızı İsanın yanına gətirən insan olacağıq."],
+  "sehneler": [
+   {"b": "Dostlarının gətirdiyi iflic", "ayə": "Matta 9:1–8", "alt": "Dostlarının gətirdiyi iflic adama şəfa verən İsa", "p": ["Dostları [[iflic]] adamı döşəyə uzadıb İsanın yanına gətirdilər. İsa onların imanını görüb dedi: “Oğlum, cəsarətli ol, günahların [[bağışlandı|bağışlanmaq]].”", "Sonra dedi: “Qalx, döşəyini götür və evinə get.” O adam qalxıb ayaq üstə evinə getdi!"]},
+   {"b": "Ardımca gəl, Matta", "ayə": "Matta 9:9–13", "alt": "Vergi yerində oturan Mattanı çağıran İsa", "p": ["Matta [[vergiyığan]] idi. İnsanlardan artıq vergi aldığı üçün hamı ondan zəhlə tökürdü. İsa oradan keçəndə dedi: “Ardımca gəl.” Matta dərhal qalxıb Onun ardınca getdi.", "İsa vergiyığanlar və [[günahkar]]larla birlikdə yemək yeyəndə insanlar deyinməyə başladılar. İsa dedi: “Həkim sağlamlara deyil, xəstələrə lazımdır. Mən günahkarları çağırmağa gəldim.”"]},
+   {"b": "Paltarının ətəyinə toxunsam", "ayə": "Matta 9:20–22", "alt": "İsanın paltarının ətəyinə toxunan qadın", "p": ["On iki il qanaxmadan əziyyət çəkən bir qadın var idi. O düşündü: “İsanın [[paltarının ətəyinə|paltarın ətəyi]] toxunsam, sağalaram.”", "Qadın arxadan gəlib yavaşca toxunanda İsa geri dönüb dedi: “Qızım, cəsarətli ol, imanın səni xilas etdi.” O anda qadın sağaldı."]},
+   {"b": "Qız, qalx!", "ayə": "Matta 9:18–19, 23–26", "alt": "Yairin qızını dirildən İsa", "p": ["Sinaqoq başçısı Yairin qızı öldü. İnsanlar ağlayırdı, amma İsa dedi: “Qız ölməyib, [[yatıb|yatmaq]].”", "İsa qızın əlindən tutanda qız ayağa qalxdı! Bu xəbər bütün ölkəyə yayıldı."]}
+  ],
+  "aye": {"metn": "“Mən salehləri deyil, günahkarları çağırmağa gəldim.”", "ref": "9:13", "bos": "Mən ___ deyil, ___ ___ gəldim.", "sozler": ["salehləri", "günahkarları", "çağırmağa"], "yalan": "cəzalandırmağa"},
+  "lugat": {
+   "iflic": {"i": "🛏️", "x": "중풍병자", "m": "Bədəni tutulduğu üçün yeriyə bilməyən adamdır.", "e": "Dostları iflic adamı İsanın yanına gətirdilər."},
+   "bağışlanmaq": {"i": "🤗", "x": "용서받다", "m": "Səhvin daha xatırlanmır, sanki heç olmayıb.", "e": "İsa günahları bağışladı."},
+   "vergiyığan": {"i": "💰", "x": "세리", "m": "Roma üçün vergi toplayan adam idi. Artıq pul aldığı üçün insanlar ona nifrət edirdi.", "e": "Matta vergiyığan idi."},
+   "günahkar": {"i": "😞", "x": "죄인", "m": "Allahın sözünə əməl etməyib səhv edən adamdır. Əslində hamımız günahkarıq.", "e": "İsa günahkarları çağırmağa gəldi."},
+   "paltarın ətəyi": {"i": "🧵", "x": "옷자락", "m": "Paltarın aşağı ucudur.", "e": "Qadın İsanın paltarının ətəyinə toxundu."},
+   "yatmaq": {"i": "😴", "x": "자다", "m": "İsa üçün ölüm yuxu kimi oyanmaq mümkün olan bir şeydir.", "e": "Qız ölməyib, yatıb."}
+  },
+  "test": [
+   {"q": "İflic adamı İsanın yanına kim gətirdi?", "o": ["Dostları", "Roma əsgərləri", "Heç kim"], "a": 0, "f": "Düzdür! İsa dostlarının imanını gördü."},
+   {"q": "Matta əvvəl nə iş görürdü?", "o": ["Vergiyığan idi", "Balıqçı idi", "Dülgər idi"], "a": 0, "f": "Düzdür! Hamının zəhlə tökdüyü adam idi."},
+   {"q": "İsa kimləri çağırmağa gəldiyini dedi?", "o": ["Günahkarları", "Varlıları", "Güclüləri"], "a": 0, "f": "Düzdür! Həkimin xəstəyə getdiyi kimi."},
+   {"q": "İsa Yairin qızına nə etdi?", "o": ["Əlindən tutub qaldırdı", "Çıxıb getdi", "Dərman verdi"], "a": 0, "f": "Düzdür! Ölmüş qızı diriltdi."}
+  ],
+  "dusun": ["İflic adamın dostları kimi İsanın yanına gətirmək istədiyin dostun varmı?", "Hamının sevmədiyi Mattanı İsa çağıranda Matta nə hiss etdi?", "İsa niyə xəstələrə “cəsarətli ol” deyirdi?"],
+  "fealiyyet": {"ciz": "Dostunu döşəkdə İsanın yanına aparan özünü və dostlarını çək.", "b": "Kimi İsanın yanına gətirəcəksən?", "p": "Dua ilə İsanın yanına gətirmək istədiyin adamı seç.", "ph": "",
+   "secim": {"basliq": "Kimi İsanın yanına gətirəcəksən?", "izah": "Toxun və seç. Bir neçəsini seçə bilərsən.", "cumle": "Mən {x} dua ilə İsanın yanına gətirəcəyəm!", "bos": "xəstə dostumu", "bag": "və",
+    "secimler": [["🤒", "xəstə dostumu"], ["😔", "kədərli sinif yoldaşımı"], ["👵", "nənəmi"], ["👴", "babamı"], ["🏠", "qonşumu"], ["🧒", "qardaşımı"], ["👧", "bacımı"]]}},
+  "dua": "İsa, günahları bağışlayıb xəstələrə şəfa verdiyin üçün Sənə şükür edirəm. Hamının sevmədiyi Mattanı çağırdığın kimi məni də çağırdığın üçün sağ ol. Dostlarımı da Sənin yanına gətirən insan olmağıma kömək et. İsa Məsihin adı ilə dua edirəm. Amin."
+ },
+ "genc": {
+  "basliq": "Həkimə ehtiyacı olanlar",
+  "giris": "Kiminlə yemək yediyin sənin kim olduğunu göstərirdi. İsa bilərəkdən “birlikdə yemək olmaz” deyilən insanların süfrəsinə oturdu. Və dedi: Mən həkiməm, xəstələrə gəlmişəm.",
+  "meqsed": ["İsanın günahları bağışlamaq səlahiyyətinə sahib olduğunu anlayırıq.", "Mattanın çağırılmasını və “mərhəmət” sözünün mənasını izah edə bilirik.", "Məhsul işçisi kimi qəlbimizdə daşıyacağımız insan üçün dua edirik."],
+  "sehneler": [
+   {"b": "Günahları bağışlamaq səlahiyyəti", "ayə": "Matta 9:1–8", "alt": "Dostlarının gətirdiyi iflic adama şəfa verən İsa", "p": ["İsa dostların imanını görüb [[iflic]]ə əvvəlcə “günahların bağışlandı” dedi. İlahiyyatçılar içlərində “bu, küfrdür” düşündülər. Çünki günahları yalnız Allah bağışlaya bilər.", "İsa “Bilin ki, Bəşər Oğlunun yer üzündə günahları bağışlamağa səlahiyyəti var” deyib onu yeritdi. Görünən şəfa görünməyən bağışlanmanı sübut etdi."], "deep": {"b": "Dərindən baxaq · Hansı asandır?", "p": "“Günahların bağışlandı” sözünü yoxlamaq olmur, buna görə demək asan görünür. “Qalx, yeri” isə dərhal yoxlanılır. İsa çətin görünəni edərək həqiqətən çətin olanı da edə bildiyini göstərdi."}},
+   {"b": "Vergi yerindən süfrəyə", "ayə": "Matta 9:9–13", "alt": "Vergi yerində oturan Mattanı çağıran İsa", "p": ["[[Vergiyığan]] Roma və Hirod üçün öz xalqından vergi toplayan adam idi. Onu satqın və fırıldaqçı sayır, sinaqoqda da kənarlaşdırırdılar. Bu Müjdənin adı da həmin vergiyığan Mattadır.", "Fariseylər “Niyə vergiyığanlar və günahkarlarla yemək yeyir?” deyə soruşanda İsa Huşə 6:6-dan sitat gətirdi: “Mən qurban deyil, [[mərhəmət]] istəyirəm.”"], "deep": {"b": "Dərindən baxaq · Mattanın təvazökarlığı", "p": "Mark və Luka onu “Levi” adlandırır, Matta Müjdəsi isə “Matta” adını işlədir və 10:3-dəki siyahıda özünü “vergiyığan Matta” kimi təqdim edir. Keçmişini gizlətməyib lütfü öyən bir etirafdır."}},
+   {"b": "Yeni şərab və toxunuş", "ayə": "Matta 9:14–26", "alt": "İsanın paltarının ətəyinə toxunan qadın", "p": ["İsa Özünü bəyə bənzədib dedi ki, yeni şərab yeni tuluqlara tökülməlidir. İsanın gətirdiyi Allahın Padşahlığı köhnə qəliblərə sığmır.", "On iki il qanaxmadan əziyyət çəkən qadın Qanuna görə “murdar” sayılırdı və insanlara toxuna bilməzdi. O, İsanın paltarının saçağına toxunanda İsa onun gizlənməsinə imkan vermədi, “qızım” deyə çağırıb onu hamının qarşısında bərpa etdi."], "deep": {"b": "Dərindən baxaq · İki qız", "p": "On iki il xəstə olan qadın ilə on iki yaşlı qızın (Mark 5:42) hekayələri bir-birinə hörülüb. Hər ikisi “murdarlıq” ilə bağlı idi (qan, ölü bədən), amma İsa hər ikisinə toxunub hər ikisini “qız” kimi bərpa etdi.", "rose": true}},
+   {"b": "Məhsul işçiləri", "ayə": "Matta 9:27–38", "alt": "Yairin qızını dirildən İsa", "p": ["İsa ölmüş qızı diriltdi, korlara və lallara şəfa verdi. 8–9-cu fəsillər 4:23 ilə eyni cümlə ilə (9:35) bitir.", "İsa izdihamı görüb onların “çobansız qoyunlar kimi yorğun və pərişan” olmasına görə [[rəhmi gəldi|rəhmi gəlmək]]. “Məhsul çoxdur, işçilər isə azdır. Buna görə məhsulun Sahibinə yalvarın ki, məhsulu üçün işçilər göndərsin.”"], "deep": {"b": "Dərindən baxaq · Bağrı yanan ürək", "p": "“Rəhmi gəlmək” (splanxnizomai) “daxili orqanlar” sözündən gəlir. Qarnın dərinliyində ağrı hiss edəcək qədər şəfqətdir. Bu ürək növbəti fəsildə şagirdlərin göndərilməsinə (10-cu fəsil) aparır."}}
+  ],
+  "cedvel": {"b": "9-cu fəsildəki görüşlər", "alt": "9:1–38", "bas": ["İnsan", "Cəmiyyətdəki yeri", "İsanın sözü"], "set": [["İflic", "Bədəni bağlı adam", "“Oğlum, cəsarətli ol”"], ["Matta", "Nifrət edilən vergiyığan", "“Ardımca gəl”"], ["Qanaxması olan qadın", "Murdar sayılıb təcrid olunan", "“Qızım, cəsarətli ol”"], ["Yairin qızı", "Ölmüş qız", "“Qız yatıb”"], ["İzdiham", "Çobansız qoyunlar", "Rəhmi gəldi"]]},
+  "aye": {"metn": "“Həkim sağlamlara deyil, xəstələrə lazımdır. … Mən salehləri deyil, günahkarları çağırmağa gəldim.”", "ref": "9:12–13"},
+  "lugat": {
+   "iflic": {"i": "🛏️", "o": "Yunanca paralitikos", "x": "중풍병자", "s": "Bədəni tutulmuş adam", "m": "İngiliscə paralytic sözünün kökü budur. Özü İsanın yanına gedə bilmədiyi üçün dostlarının köməyinə ehtiyacı var idi.", "e": "Mark Müjdəsi dostlarının damı deşdiyini yazır (Mark 2:4)."},
+   "Vergiyığan": {"i": "💰", "o": "Yunanca telones", "x": "세리", "s": "Romanın vergi toplayıcısı", "m": "Müəyyən məbləğdən artıq toplayıb öz payını götürürdü. Yəhudi cəmiyyətində fahişələrlə bir səviyyədə “günahkar” sayılırdı.", "e": "Zakkay da baş vergiyığan idi (Luka 19)."},
+   "mərhəmət": {"i": "💞", "o": "Yunanca eleos, ivritcə hesed", "x": "긍휼", "s": "Əhdə sadiq məhəbbət", "m": "Huşə kitabındakı “hesed” dəyişməyən sadiq məhəbbətdir. Allah ibadət formasından çox insanlara məhəbbət istəyir.", "e": "İsa bu ayəni 12:7-də bir daha xatırladır."},
+   "rəhmi gəlmək": {"i": "💔", "o": "Yunanca splanxnizomai", "x": "불쌍히 여기다", "s": "Dərinlikdən gələn şəfqət", "m": "Əhdi-Cədiddə demək olar ki, yalnız İsa (və məsəllərdə Allah) üçün işlənən sözdür.", "e": "Azğın oğulun atası da oğlunu görəndə “rəhmi gəlib” qaçdı (Luka 15:20)."}
+  },
+  "test": [
+   {"q": "İlahiyyatçılar niyə İsanın “küfr” etdiyini düşündülər?", "o": ["Günahları bağışladığı üçün", "Şənbə günü şəfa verdiyi üçün", "Vergi ödəmədiyi üçün"], "a": 0, "f": "Düzdür. Günahları bağışlamaq yalnız Allahın haqqı idi."},
+   {"q": "Matta 10:3-də Matta özünü necə təqdim edir?", "o": ["Vergiyığan Matta", "Balıqçı Matta", "Kahin Matta"], "a": 0, "f": "Düzdür. Keçmişini gizlətmədi."},
+   {"q": "İsanın 9:13-də sitat gətirdiyi Əhdi-Ətiq sözü hansıdır?", "o": ["Mən qurban deyil, mərhəmət istəyirəm", "Rəbb mənim Çobanımdır", "Başlanğıcda Allah"], "a": 0, "f": "Düzdür. Huşə 6:6."},
+   {"q": "İsa qanaxması olan qadına necə müraciət etdi?", "o": ["Qızım", "Qadın", "Günahkar"], "a": 0, "f": "Düzdür. Onu ailə kimi bərpa etdi."},
+   {"q": "İsa izdihamı görüb nə üçün dua etməyi dedi?", "o": ["Məhsul üçün işçilər göndərilməsi", "Yağış yağması", "Romanın yıxılması"], "a": 0, "f": "Düzdür. Növbəti fəsildə şagirdlər göndərilir."}
+  ],
+  "paylas": ["İflic adamın dostları kimi məni İsanın yanına gətirən olubmu?", "Məktəbimizdə və ya məhəlləmizdə “Matta” kimi kənarlaşdırılan kimdir? Mən o süfrəyə otura bilərəmmi?", "“Mərhəmət” əvəzinə “qurbanı” (formanı) önə çəkdiyim vaxt olubmu?", "“Məhsul işçisi” kimi dua ilə qəlbimdə daşıyacağım bir nəfər kimdir?"],
+  "etiraf": {"b": "Mənim etirafım", "p": "İsa vergi yerində oturan Mattanı çağırdığı kimi indi səni çağırsa, nədən qalxmalısan? Üç-dörd cümlə yaz.", "ph": "Məsələn: Mən telefonun qarşısında çox otururam. İsa çağırsa …"},
+  "dua": "İsa, salehləri deyil, günahkarları çağırmağa gələn Həkim olduğun üçün Sənə şükür edirəm. Mən də Matta kimi çağırılmış günahkar olduğumu unutmayım. Çobansız qoyunlar kimi olan dostlarıma rəhmi gələn ürək ver və məni məhsul işçisi kimi işlət. İsa Məsihin adı ilə dua edirəm. Amin."
+ }
+},
+"muellim": {
+ "mesaj": "13과의 중심은 한 문장입니다. **예수님은 죄를 사하시는 하나님이시며, 의인이 아니라 아픈 죄인을 찾아오신 의사이시다. 그 긍휼이 우리를 추수할 일꾼으로 부른다.**",
+ "hazirliq": ["학생용 교재를 열 휴대폰이나 태블릿, 이어폰", "담요 한 장 (친구 메고 가기 놀이)", "청진기나 의사 놀이 도구 (‘의사가 필요한 사람’ 도입)"],
+ "fon": [
+  ["1. 9장의 흐름", "중풍병자(죄 사함의 권세) → 마태의 부르심과 식사(긍휼) → 금식 질문(새 포도주) → 야이로의 딸과 혈루증 여인 → 두 맹인, 말 못 하는 사람 → 요약과 추수(9:35–38)."],
+  ["2. 세리", "갈릴리의 세리는 헤롯 안티파스 밑에서 통행세와 관세를 걷는 하급 징수원이었습니다. 가버나움은 다메섹으로 가는 길목이라 세관이 있었습니다."],
+  ["3. 식탁 교제", "함께 먹는 것은 서로를 받아들인다는 뜻이었습니다. 바리새인들은 정결을 위해 식탁을 엄격히 구분했습니다. 예수님의 식탁은 하나님 나라 잔치의 예고였습니다."],
+  ["4. 옷술", "민수기 15:38–39의 ‘술’(치치트)입니다. 율법을 기억하게 하는 표시였습니다. 여인은 율법의 상징을 통해 율법을 완성하시는 분께 닿았습니다."],
+  ["5. 이번 과의 그림", "PPT 그림 세 장(중풍병자, 혈루증 여인, 야이로의 딸)은 누가·마가복음 장면을 그린 것이라 세부가 조금 다를 수 있습니다(예: 지붕 장면). 차이를 질문하면 복음서마다 강조점이 다르다고 설명해 주세요."]
+ ],
+ "usaq_plan": [
+  ["5분", "친구 옮기기", "담요에 인형을 눕혀 네 명이 함께 들기", "“혼자서는 못 가지만 친구들이 함께하면 갈 수 있어요.”"],
+  ["15분", "장면 1–4 듣고 읽기", "장면마다 듣기, 노란 낱말 누르기", "“예수님은 모두가 싫어하던 마태를 부르셨어요.”"],
+  ["5분", "외울 말씀", "빈칸 놀이 → ‘의인 아니고(손 X) 죄인(가슴에 손)’ 동작", ""],
+  ["5분", "확인 퀴즈", "혼자 풀고 함께 확인", ""],
+  ["10분", "활동과 기도", "예수님께 데려갈 사람 고르기 → 함께 기도", ""]
+ ],
+ "genc_plan": [
+  ["5분", "열기", "“점심시간에 혼자 먹는 친구 옆에 앉아 본 적 있나요?”", ""],
+  ["15분", "장면 1–2", "죄 사함의 권세, 세리 마태, 호세아 6:6", ""],
+  ["10분", "장면 3–4와 만남 표", "새 포도주, 두 딸, 목자 없는 양, 추수할 일꾼", "“나의 마태는 누구인가?”"],
+  ["5분", "확인 문제", "", ""],
+  ["15분", "나눔과 고백", "나눔 질문 2개 → 나를 부르시는 예수님께 고백 → 추수 기도", ""]
+ ],
+ "ipucu_usaq": ["‘죽은 소녀가 살아났다’ 이야기는 최근 가족을 잃은 아이가 있는지 미리 살피세요.", "‘죄인’이라는 말이 아이를 겁주지 않게, ‘예수님이 꼭 필요한 사람’이라고 설명하세요.", "친구 옮기기 놀이는 안전하게, 인형이나 가방으로 하세요."],
+ "ipucu_genc": ["‘마태의 식탁’ 나눔에서 특정 학생이 지목되지 않도록 조심하세요.", "죄 사함과 치유를 연결해 ‘병은 죄 때문’이라는 오해가 생기지 않게 하세요(요 9:3).", "다음 과(10장)는 열두 제자 파송입니다. 9:38 기도의 응답으로 연결해 주세요."],
+ "suallar": [
+  ["예수님은 왜 나쁜 사람이랑 밥을 먹었어요?", "그 사람들이 예수님을 가장 필요로 했기 때문이에요. 의사가 아픈 사람에게 가는 것과 같아요.", "예수님은 죄를 좋아하신 게 아니라 죄인을 사랑하셨어요. 함께 먹으며 그들을 하나님 나라로 초대하셨어요. 마태가 그 증거예요."],
+  ["옷만 만져도 낫는 건 마법 아니에요?", "옷에 힘이 있는 게 아니라, 예수님을 믿은 마음을 예수님이 보신 거예요.", "예수님은 “네 믿음이 너를 구원하였다”고 하셨어요. 능력의 근원은 옷이 아니라 예수님이세요. 그래서 그녀를 숨지 않게 불러 관계로 회복하셨어요."],
+  ["추수할 일꾼은 목사님이에요?", "아니에요. 예수님을 아는 우리 모두가 일꾼이에요.", "다음 장에서 보내진 열두 제자는 평범한 사람들이었어요. 친구에게 예수님을 소개하는 모든 사람이 추수할 일꾼이에요."]
+ ]
+}
+}
