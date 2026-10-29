@@ -1,0 +1,155 @@
+{
+"no": 32, "ref": "27:1–66", "deq": {"usaq": 40, "genc": 50},
+"img": ["matta/32-pilat.jpg", "matta/32-simon.jpg", "40-carmix.jpg", "matta/32-defn.jpg"],
+"hero": 2,
+"ko": {
+ "usaq": {
+  "basliq": "십자가",
+  "hedef": ["예수님이 죄가 없으신데도 십자가에 못 박히셨음을 알아요.", "예수님이 나를 위해 십자가를 지셨음을 배워요.", "십자가의 사랑에 감사해요."],
+  "sehneler": [
+   {"b": "빌라도와 바라바", "ayə": "27:11–26", "alt": "빌라도 앞에 서 계신 예수님과 소리치는 무리", "p": ["로마 총독 [[빌라도]]는 예수님에게서 아무 죄도 찾지 못했어요. 명절마다 죄수 한 명을 풀어 주는 관습이 있어서 물었어요. “예수와 강도 바라바 중 누구를 놓아 줄까?”", "무리는 “바라바를 놓아 주고 예수를 십자가에 못 박으라!” 외쳤어요. 빌라도는 손을 씻으며 책임을 피하려 했고, 결국 예수님을 넘겨주었어요. 죄인 바라바는 풀려나고 죄 없으신 예수님이 대신 죽으셨어요."]},
+   {"b": "십자가를 대신 진 시몬", "ayə": "27:27–32", "alt": "예수님의 십자가를 대신 지고 가는 구레네 사람 시몬", "p": ["군인들은 예수님께 가시관을 씌우고 놀렸어요. 예수님은 너무 지치셔서 [[십자가]]를 지고 걸어가기 힘드셨어요.", "그때 구레네 사람 시몬이 지나가다가 예수님의 십자가를 대신 지고 갔어요."]},
+   {"b": "골고다 언덕", "ayə": "27:33–50", "alt": "십자가에 달리신 예수님", "p": ["예수님은 [[골고다]]라는 언덕에서 십자가에 못 박히셨어요. 사람들은 “네가 하나님의 아들이면 내려와 봐라!” 하고 놀렸어요.", "낮 열두 시부터 세 시까지 온 땅이 어두워졌어요. 예수님은 크게 외치시고 숨을 거두셨어요. 예수님은 내 죄를 대신 지시고 돌아가셨어요."]},
+   {"b": "진실로 하나님의 아들", "ayə": "27:51–66", "alt": "무덤에 예수님을 모시는 아리마대 요셉", "p": ["그때 성전의 [[휘장]]이 위에서 아래로 찢어졌어요. 땅이 흔들리자 십자가를 지키던 로마 군인 대장이 말했어요. “이분은 진실로 하나님의 아들이었다!”", "저녁에 부자 요셉이 예수님의 몸을 깨끗한 천으로 싸서 바위 [[무덤]]에 모시고 큰 돌로 막았어요. 하지만 이것이 끝이 아니에요!"]}
+  ],
+  "aye": {"metn": "“이는 진실로 하나님의 아들이었도다.”", "ref": "27:54", "bos": "이는 ___ ___의 ___이었도다.", "sozler": ["진실로", "하나님", "아들"], "yalan": "죄인"},
+  "lugat": {
+   "빌라도": {"i": "🏛️", "x": "Pilat", "m": "유대 지방을 다스리던 로마 총독이에요.", "e": "빌라도는 예수님에게서 죄를 찾지 못했어요."},
+   "십자가": {"i": "✝️", "x": "çarmıx", "m": "로마 사람들이 죄인을 처형하던 나무 형틀이에요. 예수님은 우리를 위해 십자가를 지셨어요.", "e": "예수님은 십자가를 지고 가셨어요."},
+   "골고다": {"i": "⛰️", "x": "Qolqota", "m": "‘해골’이라는 뜻의 예루살렘 성 밖 언덕이에요.", "e": "예수님은 골고다에서 십자가에 못 박히셨어요."},
+   "휘장": {"i": "🧵", "x": "pərdə", "m": "성전 가장 거룩한 곳을 가리던 두꺼운 천이에요.", "e": "성전 휘장이 위에서 아래로 찢어졌어요."},
+   "무덤": {"i": "🪨", "x": "qəbir", "m": "죽은 사람을 모시는 곳이에요. 그때는 바위를 파서 만들었어요.", "e": "요셉이 예수님을 무덤에 모셨어요."}
+  },
+  "test": [
+   {"q": "빌라도는 예수님에게서 죄를 찾았나요?", "o": ["아니요, 찾지 못했어요", "네, 많이 찾았어요", "모르겠어요"], "a": 0, "f": "맞아요! 예수님은 죄가 없으셨어요."},
+   {"q": "예수님 대신 풀려난 사람은?", "o": ["바라바", "베드로", "시몬"], "a": 0, "f": "맞아요! 죄인이 풀려나고 예수님이 대신 죽으셨어요."},
+   {"q": "예수님의 십자가를 대신 진 사람은?", "o": ["구레네 사람 시몬", "빌라도", "유다"], "a": 0, "f": "맞아요!"},
+   {"q": "로마 군인 대장이 한 고백은?", "o": ["진실로 하나님의 아들이었다", "그는 죄인이다", "나는 모른다"], "a": 0, "f": "맞아요! 이방인 군인이 예수님을 알아봤어요."}
+  ],
+  "dusun": ["죄 없으신 예수님이 왜 십자가에 못 박히셨을까요?", "바라바가 풀려났을 때 어떤 마음이었을까요? 나도 바라바 같다는 것은 무슨 뜻일까요?", "십자가를 생각하면 예수님께 어떤 말을 하고 싶나요?"],
+  "fealiyyet": {"ciz": "십자가를 그리고 그 아래에 “예수님, 고맙습니다”라고 써 보세요.", "b": "십자가 앞의 감사", "p": "나를 위해 십자가를 지신 예수님께 감사 편지를 써 보세요.", "ph": "예) 예수님, 제 죄 때문에 아프셨지요. 정말 고맙고 사랑해요."},
+  "dua": "예수님, 죄가 없으신데도 저 대신 십자가를 지시고 돌아가셔서 감사합니다. 바라바처럼 풀려난 저를 위해 생명을 주신 사랑을 잊지 않게 해 주세요. 군인 대장처럼 “예수님은 진실로 하나님의 아들이십니다” 하고 고백합니다. 예수님 이름으로 기도합니다. 아멘."
+ },
+ "genc": {
+  "basliq": "진실로 하나님의 아들",
+  "giris": "마태복음의 모든 길은 이 언덕으로 이어졌습니다. 왕으로 태어나신 분이 ‘유대인의 왕’이라는 죄패 아래 달리십니다. 모든 사람이 조롱하고 버린 그 자리에서, 가장 뜻밖의 사람이 고백합니다. “진실로 하나님의 아들이었도다.”",
+  "meqsed": ["빌라도 재판과 바라바 사건에서 대속의 의미를 이해해요.", "십자가 위 예수님의 외침과 그 순간의 표적들이 말하는 것을 설명할 수 있어요.", "십자가 앞에서 나의 자리를 확인하고 감사와 고백으로 응답해요."],
+  "sehneler": [
+   {"b": "바라바 대신", "ayə": "27:1–26", "alt": "빌라도 앞에 서 계신 예수님과 소리치는 무리", "p": ["유다는 예수님이 정죄되는 것을 보고 후회하며 은 삼십을 돌려주었어요. 대제사장들은 그 ‘피 값’으로 토기장이의 밭을 샀어요. 한편 로마 총독 [[빌라도]]는 “네가 유대인의 왕이냐” 물었고, 예수님은 “네 말이 옳도다” 하신 뒤 침묵하셨어요.", "빌라도의 아내조차 “저 옳은 사람에게 아무 상관도 하지 마소서” 했어요. 그러나 무리는 “바라바!”를 외쳤어요. ‘바라바’는 ‘아버지의 아들’이라는 뜻이에요. 죄 있는 ‘아버지의 아들’이 풀려나고 죄 없는 ‘아버지의 아들’이 죽으셨어요."], "deep": {"b": "깊이 보기 · 손을 씻은 빌라도", "p": "빌라도는 물로 손을 씻으며 “이 사람의 피에 대하여 나는 무죄하니 너희가 당하라” 했어요. 하지만 책임은 씻겨 나가지 않아요. 사도신경은 지금도 “본디오 빌라도에게 고난을 받으사”라고 고백해요."}},
+   {"b": "조롱받는 왕", "ayə": "27:27–44", "alt": "예수님의 십자가를 대신 지고 가는 구레네 사람 시몬", "p": ["군인들은 홍포를 입히고 가시관을 씌우고 갈대를 쥐여 주고 “유대인의 왕이여 평안할지어다” 하며 조롱했어요. 그들이 하는 짓은 거짓 대관식이었지만, 사실은 진짜 왕의 즉위였어요.", "구레네 사람 시몬이 강제로 [[십자가]]를 졌어요. 십자가 위 죄패에는 “유대인의 왕 예수”라고 쓰였어요. 지나가는 자들, 대제사장, 강도들까지 “네가 하나님의 아들이면 내려오라” 조롱했어요. 광야 사탄의 시험(4:3, 6)과 같은 말이에요."], "deep": {"b": "깊이 보기 · 내려오지 않으신 이유", "p": "“남은 구원하였으되 자기는 구원할 수 없도다.” 조롱하는 말이 진실이었어요. 예수님은 자기를 구원하지 않으셨기 때문에 남을 구원하실 수 있었어요. 내려오실 수 있었지만 사랑 때문에 머무셨어요."}},
+   {"b": "엘리 엘리 라마 사박다니", "ayə": "27:45–50", "alt": "십자가에 달리신 예수님", "p": ["제육시부터 제구시(낮 12시–오후 3시)까지 온 땅에 어둠이 임했어요. 예수님은 크게 외치셨어요. “엘리 엘리 라마 사박다니”, 곧 “나의 하나님, 나의 하나님, 어찌하여 나를 버리셨나이까?”", "이것은 시편 22:1이에요. 죄를 대신 지신 예수님이 아버지와의 단절을 겪으셨어요. 우리가 버림받지 않도록 예수님이 버림받으셨어요. 시편 22편은 고난으로 시작하지만 승리와 찬양으로 끝나요."], "deep": {"b": "깊이 보기 · 가장 깊은 외침", "p": "마태복음 1:23에서 예수님은 ‘임마누엘, 하나님이 우리와 함께하신다’로 오셨어요. 그 임마누엘이 십자가에서 ‘하나님이 나를 버리셨다’고 외치세요. 그래서 이제 우리는 절대 버림받지 않아요(28:20).", "rose": true}},
+   {"b": "찢어진 휘장", "ayə": "27:51–66", "alt": "무덤에 예수님을 모시는 아리마대 요셉", "p": ["예수님이 숨을 거두시자 성소의 [[휘장]]이 위로부터 아래까지 찢어졌어요. 사람이 아니라 하나님이 찢으셨어요. 이제 누구나 하나님께 나아갈 길이 열렸어요. 땅이 진동하고 바위가 터지고 무덤들이 열렸어요.", "그 장면을 본 로마 [[백부장]]과 군인들이 고백했어요. “이는 진실로 하나님의 아들이었도다.” 마태복음에서 사람이 처음으로 이렇게 고백한 곳이 십자가 아래, 그것도 이방인 군인의 입이었어요. 부자 요셉이 예수님을 새 무덤에 모셨고, 대제사장들은 무덤을 봉인하고 경비를 세웠어요."], "deep": {"b": "깊이 보기 · 지켜본 여인들", "p": "제자들은 도망갔지만 막달라 마리아를 비롯한 여인들은 멀리서 끝까지 지켜보았고(27:55–56), 무덤에도 앉아 있었어요(27:61). 그들이 부활의 첫 증인이 돼요."}}
+  ],
+  "cedvel": {"b": "십자가 아래 사람들", "alt": "27장", "bas": ["사람", "예수님에 대한 태도"], "set": [["유다", "후회했지만 돌아오지 못함"], ["빌라도", "무죄를 알면서도 손을 씻고 넘겨줌"], ["무리", "“바라바를 놓아 주고 예수를 못 박으라”"], ["구레네 시몬", "억지로 십자가를 짐"], ["대제사장들", "“남은 구원하였으되 자기는 구원할 수 없도다”"], ["백부장", "“진실로 하나님의 아들이었도다”"], ["여인들", "멀리서 끝까지 지켜봄"], ["아리마대 요셉", "자기 새 무덤에 장사함"]]},
+  "aye": {"metn": "“백부장과 및 함께 예수를 지키던 자들이 지진과 그 일어나는 일들을 보고 심히 두려워하여 이르되 이는 진실로 하나님의 아들이었도다 하더라.”", "ref": "27:54"},
+  "lugat": {
+   "빌라도": {"i": "🏛️", "o": "본디오 빌라도", "x": "Pontius Pilat", "s": "로마 유대 총독(주후 26–36년)", "m": "가이사랴에 살다가 명절에는 예루살렘에 왔어요. 1961년 그의 이름이 새겨진 돌이 발견되었어요.", "e": "사도신경에 이름이 들어간 유일한 정치인이에요."},
+   "십자가": {"i": "✝️", "o": "헬라어 스타우로스", "x": "çarmıx", "s": "가장 수치스러운 처형", "m": "로마 시민에게는 쓰지 않던 노예와 반역자의 처형 방식이었어요. 신명기 21:23 “나무에 달린 자는 하나님께 저주를 받았음이니라.”", "e": "가장 저주받은 형틀이 가장 큰 사랑의 상징이 되었어요."},
+   "휘장": {"i": "🧵", "o": "헬라어 카타페타스마", "x": "pərdə", "s": "하나님과 사람 사이의 벽", "m": "지성소를 가린 두꺼운 휘장이에요. 대제사장만 1년에 한 번 들어갈 수 있었어요.", "e": "“그 길은 휘장 가운데로 열어 놓으신 새로운 살 길이요 휘장은 곧 그의 육체니라”(히 10:20)."},
+   "백부장": {"i": "🛡️", "o": "라틴어 켄투리오", "x": "yüzbaşı", "s": "이방인 고백자", "m": "8장의 백부장처럼 이방인 군인이 예수님을 알아봤어요. 28장의 ‘모든 민족’을 미리 보여 줘요.", "e": "2:2 동방 박사(이방인)의 경배와 수미상관을 이뤄요."}
+  },
+  "test": [
+   {"q": "‘바라바’라는 이름의 뜻은?", "o": ["아버지의 아들", "강한 자", "구원자"], "a": 0, "f": "맞아요. 죄 있는 아들이 풀려나고 죄 없는 아들이 죽으셨어요."},
+   {"q": "십자가 위 조롱 “하나님의 아들이면 내려오라”와 같은 말이 나온 곳은?", "o": ["광야의 사탄 시험", "산상설교", "변화산"], "a": 0, "f": "맞아요. 4:3, 6과 같은 시험이에요."},
+   {"q": "“엘리 엘리 라마 사박다니”는 어느 구약 본문인가요?", "o": ["시편 22:1", "이사야 53:1", "창세기 22:1"], "a": 0, "f": "맞아요. 고난으로 시작해 찬양으로 끝나는 시편이에요."},
+   {"q": "성전 휘장이 ‘위로부터 아래로’ 찢어진 의미는?", "o": ["하나님이 길을 여셨다", "지진으로 우연히", "군인이 찢었다"], "a": 0, "f": "맞아요. 누구나 하나님께 나아갈 수 있어요."},
+   {"q": "마태복음에서 십자가 아래 처음 ‘하나님의 아들’이라 고백한 사람은?", "o": ["로마 백부장", "베드로", "대제사장"], "a": 0, "f": "맞아요. 이방인 군인이었어요."}
+  ],
+  "paylas": ["표에 나온 십자가 아래 사람들 중 나는 누구와 가장 닮았나요?", "바라바가 나라고 생각하면 어떤 감정이 드나요?", "예수님이 ‘버림받으셔서’ 내가 버림받지 않는다는 것이 어떤 위로가 되나요?", "찢어진 휘장처럼 하나님께 나아가는 길이 열렸다면, 나는 그 길로 얼마나 자주 가고 있나요?"],
+  "etiraf": {"b": "나의 고백", "p": "백부장처럼 십자가 아래에서 드리는 나의 고백을 서너 문장으로 써 보세요.", "ph": "예) 예수님, 저는 바라바입니다. 풀려날 자격이 없는데 …"},
+  "dua": "예수님, 죄 없으신 분이 바라바 같은 저 대신 정죄받으시고, 조롱 속에서도 내려오지 않으시고, 버림받으셔서 저를 결코 버림받지 않게 하셨습니다. 찢어진 휘장 사이로 열린 길을 따라 하나님께 나아갑니다. 진실로 예수님은 하나님의 아들이십니다. 예수님 이름으로 기도합니다. 아멘."
+ }
+},
+"az": {
+ "usaq": {
+  "basliq": "Çarmıx",
+  "hedef": ["İsanın günahsız olduğu halda çarmıxa çəkildiyini öyrənəcəyik.", "İsanın mənim üçün çarmıxı daşıdığını öyrənəcəyik.", "Çarmıxın məhəbbətinə görə şükür edəcəyik."],
+  "sehneler": [
+   {"b": "Pilat və Barabba", "ayə": "Matta 27:11–26", "alt": "Pilatın qarşısında dayanan İsa və qışqıran izdiham", "p": ["Roma valisi [[Pilat]] İsada heç bir təqsir tapmadı. Bayramlarda bir məhbusu azad etmək adəti var idi, buna görə soruşdu: “İsanı, yoxsa quldur Barabbanı azad edim?”", "İzdiham “Barabbanı azad et, İsanı çarmıxa çək!” deyə qışqırdı. Pilat məsuliyyətdən qaçmaq üçün əllərini yudu və sonda İsanı təslim etdi. Günahkar Barabba azad oldu, günahsız İsa onun əvəzinə öldü."]},
+   {"b": "Çarmıxı daşıyan Simon", "ayə": "Matta 27:27–32", "alt": "İsanın çarmıxını daşıyan Kirenalı Simon", "p": ["Əsgərlər İsanın başına tikanlı tac qoyub Onu ələ saldılar. İsa çox yorğun idi, [[çarmıx]]ı daşıyıb getmək Ona çətin idi.", "O vaxt oradan keçən Kirenalı Simon İsanın çarmıxını götürüb apardı."]},
+   {"b": "Qolqota təpəsi", "ayə": "Matta 27:33–50", "alt": "Çarmıxda olan İsa", "p": ["İsa [[Qolqota]] adlı təpədə çarmıxa çəkildi. İnsanlar “Əgər Allahın Oğlusansa, çarmıxdan en!” deyə Onu ələ salırdılar.", "Günorta saat on ikidən üçə qədər bütün yer qaranlıq oldu. İsa bərkdən qışqırıb canını tapşırdı. İsa mənim günahlarımı daşıyıb öldü."]},
+   {"b": "Həqiqətən, Allahın Oğlu", "ayə": "Matta 27:51–66", "alt": "İsanı qəbirə qoyan Arimateyalı Yusif", "p": ["O an məbədin [[pərdə]]si yuxarıdan aşağıya qədər yırtıldı. Yer titrəyəndə çarmıxı qoruyan Roma yüzbaşısı dedi: “Həqiqətən, bu, Allahın Oğlu idi!”", "Axşam varlı Yusif İsanın bədənini təmiz kətana büküb qayada oyulmuş [[qəbir]]ə qoydu və böyük daşla bağladı. Amma bu, son deyil!"]}
+  ],
+  "aye": {"metn": "“Həqiqətən, bu, Allahın Oğlu idi!”", "ref": "27:54", "bos": "___, bu, ___ ___ idi!", "sozler": ["Həqiqətən", "Allahın", "Oğlu"], "yalan": "günahkar"},
+  "lugat": {
+   "Pilat": {"i": "🏛️", "x": "빌라도", "m": "Yəhudeyanı idarə edən Roma valisi idi.", "e": "Pilat İsada təqsir tapmadı."},
+   "çarmıx": {"i": "✝️", "x": "십자가", "m": "Romalıların cinayətkarları edam etdiyi taxta alət idi. İsa bizim üçün çarmıxı daşıdı.", "e": "İsa çarmıxı daşıyıb getdi."},
+   "Qolqota": {"i": "⛰️", "x": "골고다", "m": "“Kəllə” mənasını verən, Yerusəlim şəhərindən kənarda olan təpədir.", "e": "İsa Qolqotada çarmıxa çəkildi."},
+   "pərdə": {"i": "🧵", "x": "휘장", "m": "Məbədin ən müqəddəs yerini örtən qalın parça idi.", "e": "Məbədin pərdəsi yuxarıdan aşağıya yırtıldı."},
+   "qəbir": {"i": "🪨", "x": "무덤", "m": "Ölüləri qoyduqları yerdir. O vaxt qayada oyulurdu.", "e": "Yusif İsanı qəbirə qoydu."}
+  },
+  "test": [
+   {"q": "Pilat İsada təqsir tapdımı?", "o": ["Xeyr, tapmadı", "Bəli, çox tapdı", "Bilmirəm"], "a": 0, "f": "Düzdür! İsa günahsız idi."},
+   {"q": "İsanın yerinə kim azad edildi?", "o": ["Barabba", "Peter", "Simon"], "a": 0, "f": "Düzdür! Günahkar azad oldu, İsa onun yerinə öldü."},
+   {"q": "İsanın çarmıxını kim daşıdı?", "o": ["Kirenalı Simon", "Pilat", "Yəhuda"], "a": 0, "f": "Düzdür!"},
+   {"q": "Roma yüzbaşısı nə etiraf etdi?", "o": ["Həqiqətən, bu, Allahın Oğlu idi", "O, günahkardır", "Bilmirəm"], "a": 0, "f": "Düzdür! Yadelli əsgər İsanı tanıdı."}
+  ],
+  "dusun": ["Günahsız İsa niyə çarmıxa çəkildi?", "Barabba azad olanda nə hiss etdi? Mənim də Barabba kimi olmağım nə deməkdir?", "Çarmıxı düşünəndə İsaya nə demək istəyirəm?"],
+  "fealiyyet": {"ciz": "Çarmıx çək və altına “İsa, sağ ol” yaz.", "b": "Nəyə görə şükür edirsən?", "p": "Çarmıxa görə İsaya şükür etdiyin şeyi seç.", "ph": "",
+   "secim": {"basliq": "Nəyə görə şükür edirsən?", "izah": "Toxun və seç. Bir neçəsini seçə bilərsən.", "cumle": "İsa, çarmıxda {x} üçün öldüyünə görə Sənə şükür edirəm!", "bos": "mənim günahlarım", "bag": "və",
+    "secimler": [["💧", "mənim günahlarım"], ["👨‍👩‍👧", "ailəm"], ["👫", "dostlarım"], ["🌍", "bütün dünya"], ["🙋", "mən"]]}},
+  "dua": "İsa, günahsız olduğun halda mənim əvəzimə çarmıxı daşıyıb öldüyün üçün Sənə şükür edirəm. Barabba kimi azad olunan mənim üçün canını verdiyin məhəbbəti unutmayım. Yüzbaşı kimi “İsa həqiqətən Allahın Oğludur” deyə etiraf edirəm. İsa Məsihin adı ilə dua edirəm. Amin."
+ },
+ "genc": {
+  "basliq": "Həqiqətən, Allahın Oğlu",
+  "giris": "Matta Müjdəsinin bütün yolları bu təpəyə aparırdı. Padşah kimi doğulan “Yəhudilərin Padşahı” yazısının altında asılır. Hamının ələ saldığı və tərk etdiyi o yerdə ən gözlənilməz insan etiraf edir: “Həqiqətən, bu, Allahın Oğlu idi.”",
+  "meqsed": ["Pilatın məhkəməsi və Barabba hadisəsində əvəzedici qurbanın mənasını anlayırıq.", "İsanın çarmıxdakı nidasının və o andakı əlamətlərin nə dediyini izah edə bilirik.", "Çarmıx qarşısında yerimizi müəyyən edib şükür və etirafla cavab veririk."],
+  "sehneler": [
+   {"b": "Barabbanın əvəzinə", "ayə": "Matta 27:1–26", "alt": "Pilatın qarşısında dayanan İsa və qışqıran izdiham", "p": ["Yəhuda İsanın məhkum edildiyini görüb peşman oldu və otuz gümüşü geri qaytardı. Baş kahinlər o “qan pulu” ilə dulusçunun tarlasını aldılar. Bu vaxt Roma valisi [[Pilat]] “Sən Yəhudilərin Padşahısanmı?” deyə soruşdu, İsa “Sən deyirsən” deyib susdu.", "Pilatın arvadı belə “O saleh adama heç nə etmə” dedi. Amma izdiham “Barabba!” deyə qışqırdı. “Barabba” “atanın oğlu” deməkdir. Günahkar “atanın oğlu” azad olundu, günahsız “Atanın Oğlu” öldü."], "deep": {"b": "Dərindən baxaq · Əllərini yuyan Pilat", "p": "Pilat su ilə əllərini yuyub “Bu adamın qanına görə təqsirim yoxdur, özünüz bilin” dedi. Amma məsuliyyət yuyulub getmir. Həvarilərin İman Etirafı bu gün də “Ponti Pilatın dövründə əzab çəkdi” deyir."}},
+   {"b": "Ələ salınan Padşah", "ayə": "Matta 27:27–44", "alt": "İsanın çarmıxını daşıyan Kirenalı Simon", "p": ["Əsgərlər Ona al plaş geyindirib başına tikanlı tac qoydular, əlinə qamış verib “Salam, ey Yəhudilərin Padşahı!” deyə ələ saldılar. Etdikləri yalançı taxta çıxma mərasimi idi, amma əslində həqiqi Padşahın taxta çıxması idi.", "Kirenalı Simon məcburən [[çarmıx]]ı daşıdı. Çarmıxın üstündəki yazıda “Yəhudilərin Padşahı İsa” yazılmışdı. Yoldan keçənlər, baş kahinlər, hətta quldurlar da “Allahın Oğlusansa, çarmıxdan en” deyə ələ salırdılar. Bu, səhradakı Şeytanın sınağı (4:3, 6) ilə eyni sözdür."], "deep": {"b": "Dərindən baxaq · Niyə enmədi?", "p": "“Başqalarını xilas etdi, özünü xilas edə bilmir.” Lağ edən söz həqiqət idi. İsa özünü xilas etmədiyi üçün başqalarını xilas edə bildi. Enə bilərdi, amma məhəbbət üzündən qaldı."}},
+   {"b": "Eli, Eli, lema şabaqtani", "ayə": "Matta 27:45–50", "alt": "Çarmıxda olan İsa", "p": ["Günorta saat on ikidən üçə qədər bütün yer qaranlıq oldu. İsa bərkdən qışqırdı: “Eli, Eli, lema şabaqtani?”, yəni “Allahım, Allahım, Məni niyə tərk etdin?”", "Bu, Zəbur 22:1-dir. Günahı daşıyan İsa Ata ilə ayrılığı yaşadı. Biz tərk edilməyək deyə İsa tərk edildi. Zəbur 22 əzabla başlayır, amma qələbə və həmdlə bitir."], "deep": {"b": "Dərindən baxaq · Ən dərin nida", "p": "Matta 1:23-də İsa “İmmanuel, Allah bizimlədir” kimi gəldi. O İmmanuel çarmıxda “Allah Məni tərk etdi” deyə qışqırır. Buna görə indi biz heç vaxt tərk edilmirik (28:20).", "rose": true}},
+   {"b": "Yırtılan pərdə", "ayə": "Matta 27:51–66", "alt": "İsanı qəbirə qoyan Arimateyalı Yusif", "p": ["İsa canını tapşıranda məbədin [[pərdə]]si yuxarıdan aşağıya qədər yırtıldı. İnsan deyil, Allah yırtdı. İndi hər kəs üçün Allaha yaxınlaşmaq yolu açıldı. Yer titrədi, qayalar parçalandı, qəbirlər açıldı.", "Bunu görən Roma [[yüzbaşı]]sı və əsgərlər etiraf etdilər: “Həqiqətən, bu, Allahın Oğlu idi.” Matta Müjdəsində bir insanın ilk dəfə belə etiraf etdiyi yer çarmıxın altı idi, özü də yadelli əsgərin ağzından. Varlı Yusif İsanı yeni qəbirə qoydu, baş kahinlər isə qəbiri möhürləyib keşikçi qoydular."], "deep": {"b": "Dərindən baxaq · Seyr edən qadınlar", "p": "Şagirdlər qaçdı, amma Məcdəlli Məryəm və digər qadınlar uzaqdan axıradək baxdılar (27:55–56), qəbrin qarşısında da oturdular (27:61). Onlar dirilmənin ilk şahidləri olacaq."}}
+  ],
+  "cedvel": {"b": "Çarmıxın altındakı insanlar", "alt": "27-ci fəsil", "bas": ["İnsan", "İsaya münasibəti"], "set": [["Yəhuda", "Peşman oldu, amma qayıda bilmədi"], ["Pilat", "Günahsız olduğunu bilsə də, əllərini yuyub təslim etdi"], ["İzdiham", "“Barabbanı azad et, İsanı çarmıxa çək”"], ["Kirenalı Simon", "Məcburən çarmıxı daşıdı"], ["Baş kahinlər", "“Başqalarını xilas etdi, özünü xilas edə bilmir”"], ["Yüzbaşı", "“Həqiqətən, bu, Allahın Oğlu idi”"], ["Qadınlar", "Uzaqdan axıradək baxdılar"], ["Arimateyalı Yusif", "Öz yeni qəbrinə dəfn etdi"]]},
+  "aye": {"metn": "“Yüzbaşı və onunla birlikdə İsanı keşikləyənlər zəlzələni və baş verənləri görəndə çox qorxub dedilər: “Həqiqətən, bu, Allahın Oğlu idi!””", "ref": "27:54"},
+  "lugat": {
+   "Pilat": {"i": "🏛️", "o": "Ponti Pilat", "x": "본디오 빌라도", "s": "Yəhudeyanın Roma valisi (e. 26–36)", "m": "Qeysəriyyədə yaşayır, bayramlarda Yerusəlimə gəlirdi. 1961-ci ildə adı yazılmış daş tapılıb.", "e": "Həvarilərin İman Etirafında adı keçən yeganə siyasətçidir."},
+   "çarmıx": {"i": "✝️", "o": "Yunanca stavros", "x": "십자가", "s": "Ən rüsvayçı edam", "m": "Roma vətəndaşlarına tətbiq olunmayan, qullar və üsyançılar üçün edam üsulu idi. Qanunun Təkrarı 21:23: “Ağacdan asılan Allahın lənətinə düçar olub.”", "e": "Ən lənətli edam aləti ən böyük məhəbbətin rəmzinə çevrildi."},
+   "pərdə": {"i": "🧵", "o": "Yunanca katapetasma", "x": "휘장", "s": "Allahla insan arasındakı divar", "m": "Ən Müqəddəs Yeri örtən qalın pərdə idi. Yalnız baş kahin ildə bir dəfə ora girə bilərdi.", "e": "“O, pərdədən, yəni Öz bədənindən bizə yeni və canlı yol açdı” (İbr. 10:20)."},
+   "yüzbaşı": {"i": "🛡️", "o": "Latınca centurio", "x": "백부장", "s": "Yadelli etiraf edən", "m": "8-ci fəsildəki yüzbaşı kimi yadelli əsgər İsanı tanıdı. Bu, 28-ci fəsildəki “bütün millətləri” əvvəlcədən göstərir.", "e": "2:2-dəki müdriklərin (yadellilər) səcdəsi ilə çərçivə təşkil edir."}
+  },
+  "test": [
+   {"q": "“Barabba” adının mənası nədir?", "o": ["Atanın oğlu", "Güclü adam", "Xilaskar"], "a": 0, "f": "Düzdür. Günahkar oğul azad oldu, günahsız Oğul öldü."},
+   {"q": "Çarmıxdakı “Allahın Oğlusansa, en” lağı hansı səhnə ilə eynidir?", "o": ["Səhradakı Şeytanın sınağı", "Dağüstü vəz", "Görünüşün dəyişməsi"], "a": 0, "f": "Düzdür. 4:3, 6 ilə eyni sınaq."},
+   {"q": "“Eli, Eli, lema şabaqtani” hansı Əhdi-Ətiq mətnidir?", "o": ["Zəbur 22:1", "Yeşaya 53:1", "Yaradılış 22:1"], "a": 0, "f": "Düzdür. Əzabla başlayıb həmdlə bitən Zəbur."},
+   {"q": "Məbəd pərdəsinin “yuxarıdan aşağıya” yırtılmasının mənası nədir?", "o": ["Allah yolu açdı", "Zəlzələdən təsadüfən", "Əsgər yırtdı"], "a": 0, "f": "Düzdür. Hər kəs Allaha yaxınlaşa bilər."},
+   {"q": "Matta Müjdəsində çarmıxın altında ilk dəfə “Allahın Oğlu” deyə etiraf edən kim idi?", "o": ["Roma yüzbaşısı", "Peter", "Baş kahin"], "a": 0, "f": "Düzdür. Yadelli əsgər idi."}
+  ],
+  "paylas": ["Cədvəldəki çarmıxın altındakı insanlardan mən kimə daha çox bənzəyirəm?", "Barabbanın mən olduğumu düşünəndə hansı hissləri yaşayıram?", "İsanın “tərk edilməsi” sayəsində mənim tərk edilməməyim mənə necə təsəlli verir?", "Yırtılan pərdə kimi Allaha yol açılıbsa, mən o yolla nə qədər tez-tez gedirəm?"],
+  "etiraf": {"b": "Mənim etirafım", "p": "Yüzbaşı kimi çarmıxın altında etdiyin etirafı üç-dörd cümlə ilə yaz.", "ph": "Məsələn: İsa, mən Barabbayam. Azad olmağa layiq deyiləm, amma …"},
+  "dua": "İsa, günahsız olduğun halda Barabba kimi olan mənim əvəzimə məhkum olundun, ələ salınsan da çarmıxdan enmədin, tərk edildin ki, mən heç vaxt tərk edilməyim. Yırtılan pərdədən açılan yolla Allaha yaxınlaşıram. Həqiqətən, Sən Allahın Oğlusan. İsa Məsihin adı ilə dua edirəm. Amin."
+ }
+},
+"muellim": {
+ "mesaj": "32과의 중심은 한 문장입니다. **죄 없으신 하나님의 아들이 바라바 같은 우리를 대신해 조롱과 버림받음을 감당하셨고, 그 십자가로 하나님께 나아가는 길이 모든 민족에게 열렸다.**",
+ "hazirliq": ["학생용 교재를 열 휴대폰이나 태블릿, 이어폰", "나무 십자가나 십자가 그림", "작은 종이와 펜 (감사 편지)"],
+ "fon": [
+  ["1. 시간 흐름", "금요일 새벽 산헤드린 결의 → 빌라도 심문 → 오전 9시경 십자가(막 15:25) → 정오–오후 3시 어둠 → 오후 3시 운명 → 해 지기 전 장사."],
+  ["2. 바라바", "‘바르’(아들) + ‘아바’(아버지)입니다. 일부 사본은 ‘예수 바라바’라고 기록합니다. 빌라도의 질문은 “두 예수 중 누구를?”이 됩니다."],
+  ["3. 시편 22편", "예수님의 외침은 시편 전체를 떠올리게 합니다. 22:7–8 조롱, 22:16 손발을 찌름, 22:18 옷을 제비 뽑음이 27장에 그대로 나옵니다. 끝은 “모든 민족이 주께 돌아온다”(22:27)입니다."],
+  ["4. 백부장의 고백", "3:17, 17:5에서 하나님이 선언하신 ‘내 아들’을, 이제 사람이 처음 고백합니다. 이방인이라는 점이 28:19 대위임령을 예고합니다."],
+  ["5. 지도 원칙", "PPT 십자가 그림을 썼습니다. 어린이반에서는 고통의 묘사를 줄이고 ‘나를 위한 사랑’에 집중하세요. 반드시 다음 과(부활)와 연결해 ‘이것이 끝이 아니에요’로 마치세요."]
+ ],
+ "usaq_plan": [
+  ["5분", "조용히 시작", "십자가를 가운데 두고 잠시 침묵", "“오늘은 예수님이 우리를 위해 하신 가장 큰 사랑 이야기예요.”"],
+  ["15분", "장면 1–4 듣고 읽기", "장면마다 듣기, 노란 낱말 누르기", "“바라바 대신 예수님이 죽으셨어요. 나 대신에도요.”"],
+  ["5분", "외울 말씀", "빈칸 놀이 → 군인 대장처럼 함께 고백하기", ""],
+  ["5분", "확인 퀴즈", "혼자 풀고 함께 확인", ""],
+  ["10분", "활동과 기도", "감사할 것 고르기 → 감사 편지 쓰기 → “다음 주는 기쁜 소식!” 예고", ""]
+ ],
+ "genc_plan": [
+  ["5분", "열기", "십자가 앞 1분 침묵", ""],
+  ["15분", "장면 1–2와 사람들 표", "바라바, 손 씻은 빌라도, 조롱받는 왕, 내려오지 않으심", ""],
+  ["10분", "장면 3–4", "엘리 엘리 라마 사박다니, 임마누엘의 외침, 찢어진 휘장, 백부장", "“나는 십자가 아래 누구인가?”"],
+  ["5분", "확인 문제", "", ""],
+  ["15분", "나눔과 고백", "나눔 질문 2개 → 십자가 아래 고백 쓰기 → 함께 기도", ""]
+ ],
+ "ipucu_usaq": ["채찍질, 못 박힘 같은 장면은 자세히 묘사하지 마세요.", "‘누가 예수님을 죽였나?’에서 특정 민족을 탓하지 않도록, ‘우리 모두의 죄 때문’이라고 설명하세요.", "유다의 죽음(27:5)은 어린이반에서 다루지 않습니다."],
+ "ipucu_genc": ["유다의 자살(27:5)에 대한 질문이 나오면 차분히 다루고, 절망이 아니라 회개와 도움 요청이 길임을 강조하세요. 위기 신호가 보이면 반드시 따로 돌보세요.", "27:25 “그 피를 우리와 자손에게”를 반유대주의 근거로 쓰는 역사적 잘못을 짚어 주세요.", "다음 과(28장)는 부활과 대위임령, 마태복음의 마지막입니다."],
+ "suallar": [
+  ["예수님은 하나님인데 왜 죽으셨어요?", "우리 죄를 대신 지시려고 스스로 죽으셨어요. 그리고 사흘 만에 다시 살아나셨어요!", "죄의 값은 죽음이에요(롬 6:23). 예수님은 우리 대신 그 값을 치르셨어요. 참 사람이시기에 죽으실 수 있었고, 참 하나님이시기에 그 죽음이 모든 사람을 위한 것이 될 수 있었어요."],
+  ["하나님이 정말 예수님을 버리셨어요?", "예수님은 우리 죄를 지셔서 하나님과 떨어지는 아픔을 느끼셨어요. 그래서 우리는 하나님과 절대 떨어지지 않아요.", "삼위일체 하나님이 분리된 게 아니라, 죄를 지신 예수님이 죄인이 받아야 할 하나님과의 단절을 경험하셨어요. 시편 22편이 승리로 끝나듯 부활로 이어져요."],
+  ["누가 예수님을 죽였어요?", "로마 군인이 십자가에 못 박았지만, 사실은 우리 모두의 죄 때문이에요. 그리고 예수님이 스스로 생명을 주셨어요.", "유대 지도자, 빌라도, 로마 군인, 무리가 모두 관여했어요. 하지만 성경은 예수님이 “스스로 버리셨다”(요 10:18)고 해요. 특정 민족을 탓하는 것은 잘못이에요."]
+ ]
+}
+}
