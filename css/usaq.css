@@ -103,3 +103,4 @@ body{word-break:keep-all;-webkit-font-smoothing:antialiased}h1,h2,h3{letter-spac
 .ref{font-size:13px;color:var(--soft);background:var(--sky);padding:1px 7px;border-radius:6px;white-space:nowrap}
 .scene .num{font-family:var(--display)}
 .hero>img{aspect-ratio:5/2;object-fit:cover;object-position:50% 45%}
+.hero .ref{background:none;padding:0;border-radius:0;white-space:normal}

@@ -169,7 +169,7 @@ def build_usaq(L, lang):
     <div class="hero-text">
       <span class="eyebrow">{E(ui["usaq_eyebrow"](n))}</span>
       <h1>{E(d["basliq"])}</h1>
-      <p class="ref">{ui["book"]} {E(L["ref"])} · {ui["mins"](L.get("deq", {}).get("usaq", 40))}</p>
+      <p class="ref">{ui["book"]} {E(L["ref"])}</p>
     </div>
   </header>
 ''')
@@ -247,7 +247,7 @@ def build_genc(L, lang):
     <div class="hero-text">
       <span class="label">{E(ui["genc_eyebrow"](n))}</span>
       <h1>{E(d["basliq"])}</h1>
-      <p class="sub">{ui["book"]} {E(L["ref"])} · {ui["mins"](L.get("deq", {}).get("genc", 50))}</p>
+      <p class="sub">{ui["book"]} {E(L["ref"])}</p>
       <p class="hero-q">{inline(d["giris"])}</p>
     </div>
   </header>
