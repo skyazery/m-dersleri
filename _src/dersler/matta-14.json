@@ -1,0 +1,157 @@
+{
+"no": 14, "ref": "10:1–42", "deq": {"usaq": 40, "genc": 50},
+"img": ["matta/14-on-iki.jpg", "matta/14-iki-iki.jpg", "matta/14-serce.jpg", "matta/14-soyuq-su.jpg"],
+"hero": 0,
+"ko": {
+ "usaq": {
+  "basliq": "너희는 참새보다 귀해요",
+  "hedef": ["예수님이 열두 제자를 세우고 보내신 이야기를 알아요.", "하나님이 나를 참새보다 귀하게 돌보신다는 것을 배워요.", "작은 친절로도 예수님을 섬길 수 있음을 배워요."],
+  "sehneler": [
+   {"b": "열두 제자", "ayə": "10:1–4", "alt": "열두 제자를 부르시는 예수님", "p": ["예수님은 열두 명의 [[제자]]를 부르시고 아픈 사람을 고치는 힘을 주셨어요.", "베드로, 안드레, 야고보, 요한, 빌립, 바돌로매, 도마, 마태, 또 다른 야고보, 다대오, 시몬, 가룟 유다. 이들을 [[사도]]라고 불러요."]},
+   {"b": "둘씩 보내셨어요", "ayə": "10:5–15", "alt": "둘씩 짝지어 길을 떠나는 제자들", "p": ["예수님은 제자들을 마을로 보내셨어요. “하늘나라가 가까이 왔다고 전하고, 아픈 사람을 고쳐 주어라.”", "“너희가 [[거저]] 받았으니 거저 주어라.” 돈도 가방도 많이 가져가지 말고 하나님만 의지하라고 하셨어요."]},
+   {"b": "두려워하지 마세요", "ayə": "10:16–31", "alt": "참새를 보며 아이에게 이야기하시는 예수님", "p": ["“내가 너희를 보내는 것이 양을 이리 가운데로 보내는 것 같다.” 힘든 일도 있을 거라고 미리 알려 주셨어요.", "“[[참새]] 두 마리가 동전 한 개에 팔리지만 하나님 허락 없이는 한 마리도 땅에 떨어지지 않아요. 너희 [[머리털]]까지 다 세신 바 되었어요. 두려워하지 마세요. 너희는 참새보다 귀해요.”"]},
+   {"b": "냉수 한 그릇", "ayə": "10:32–42", "alt": "지친 제자에게 시원한 물을 건네는 아이", "p": ["“사람들 앞에서 나를 안다고 말하는 사람은 나도 하늘 아버지 앞에서 그를 안다고 말할 거예요.”", "“예수님의 제자에게 [[냉수]] 한 그릇이라도 주는 사람은 결코 상을 잃지 않아요.” 작은 친절도 예수님은 다 기억하세요."]}
+  ],
+  "aye": {"metn": "“그러므로 두려워하지 말라. 너희는 많은 참새보다 귀하니라.”", "ref": "10:31", "bos": "그러므로 ___하지 말라. 너희는 많은 ___보다 ___하니라.", "sozler": ["두려워", "참새", "귀"], "yalan": "약"},
+  "lugat": {
+   "제자": {"i": "👣", "x": "şagird", "m": "선생님을 따르며 배우는 사람이에요.", "e": "예수님은 열두 제자를 부르셨어요."},
+   "사도": {"i": "📮", "x": "həvari", "m": "‘보냄받은 사람’이라는 뜻이에요.", "e": "열두 제자를 열두 사도라고도 불러요."},
+   "거저": {"i": "🎁", "x": "müftə", "m": "돈을 받지 않고 그냥 주는 거예요.", "e": "거저 받았으니 거저 주어라."},
+   "참새": {"i": "🐦", "x": "sərçə", "m": "아주 작고 흔한 새예요. 옛날에는 아주 싼값에 팔렸어요.", "e": "참새 한 마리도 하나님이 돌보세요."},
+   "머리털": {"i": "💇", "x": "saç", "m": "머리에 난 털이에요. 사람 머리털은 십만 개쯤 돼요.", "e": "하나님은 내 머리털까지 다 세셨어요."},
+   "냉수": {"i": "🥤", "x": "soyuq su", "m": "시원하고 차가운 물이에요.", "e": "냉수 한 그릇도 예수님은 기억하세요."}
+  },
+  "test": [
+   {"q": "예수님은 몇 명의 제자를 세우셨나요?", "o": ["열두 명", "일곱 명", "백 명"], "a": 0, "f": "맞아요! 열두 사도예요."},
+   {"q": "“거저 받았으니 …” 다음 말은?", "o": ["거저 주어라", "꼭 돈을 받아라", "혼자 가져라"], "a": 0, "f": "맞아요! 받은 은혜를 나눠요."},
+   {"q": "하나님이 세신 것은?", "o": ["내 머리털", "하늘의 구름", "바다의 물방울"], "a": 0, "f": "맞아요! 그만큼 나를 자세히 아세요."},
+   {"q": "예수님의 제자에게 냉수 한 그릇을 주면?", "o": ["상을 잃지 않아요", "아무 의미 없어요", "혼나요"], "a": 0, "f": "맞아요! 작은 친절도 귀해요."}
+  ],
+  "dusun": ["열두 제자 중에 기억나는 이름이 있나요?", "하나님이 내 머리털까지 세신다는 것은 어떤 뜻일까요?", "이번 주에 ‘냉수 한 그릇’처럼 할 수 있는 작은 친절은 무엇일까요?"],
+  "fealiyyet": {"ciz": "지친 친구에게 시원한 물을 건네는 나를 그려 보세요.", "b": "나의 냉수 한 그릇", "p": "이번 주에 할 작은 친절을 써 보세요.", "ph": "예) 새로 온 친구에게 먼저 말을 걸 거예요."},
+  "dua": "하나님, 참새 한 마리도 돌보시고 제 머리털까지 세시는 사랑에 감사합니다. 두려울 때 하나님이 저를 귀하게 여기심을 기억하게 해 주세요. 거저 받은 사랑을 냉수 한 그릇처럼 나누게 해 주세요. 예수님 이름으로 기도합니다. 아멘."
+ },
+ "genc": {
+  "basliq": "보냄받은 사람들",
+  "giris": "9장 끝에서 예수님은 “일꾼을 보내 달라고 기도하라”고 하셨습니다. 10장에서는 기도한 그 제자들을 직접 보내십니다. 기도의 응답이 바로 나 자신일 수 있습니다.",
+  "meqsed": ["열두 사도의 구성과 파송의 의미를 이해해요.", "박해와 두려움 속에서 주시는 위로의 말씀을 설명할 수 있어요.", "내 삶의 자리에서 예수님을 시인하는 구체적인 방법을 정해요."],
+  "sehneler": [
+   {"b": "열둘, 그리고 이름들", "ayə": "10:1–4", "alt": "열두 제자를 부르시는 예수님", "p": ["열둘이라는 숫자는 이스라엘 열두 지파를 떠올리게 해요. 예수님은 새 하나님 백성을 세우고 계세요. ‘제자’(배우는 사람)가 이제 ‘[[사도]]’(보냄받은 사람)가 돼요.", "명단을 보면 놀라워요. 로마의 세리 마태와, 로마에 맞서던 열심당원 시몬이 함께 있어요. 그리고 마지막에는 배신할 유다도 있어요."], "deep": {"b": "깊이 보기 · 열심당과 세리", "p": "열심당은 무력으로 로마를 몰아내려던 사람들이에요. 세리는 그 로마에 협력하던 사람들이에요. 예수님 안에서 원수였던 두 사람이 한 공동체가 되었어요."}},
+   {"b": "거저 받았으니", "ayə": "10:5–15", "alt": "둘씩 짝지어 길을 떠나는 제자들", "p": ["예수님은 먼저 “이스라엘 집의 잃어버린 양”에게 가라고 하세요. 나중에 28장에서는 “모든 민족”으로 넓어져요. 하나님의 계획은 순서가 있어요.", "제자들은 예수님이 하신 일(전파, 치유)을 그대로 하도록 보내져요. 전대에 돈을 넣지 말고 맞아 주는 집에 머물라고 하세요. “너희가 [[거저]] 받았으니 거저 주라.”"], "deep": {"b": "깊이 보기 · 평안을 빌라", "p": "집에 들어가면 “샬롬”을 빌라고 하세요. 받아들이지 않으면 발의 먼지를 떨어 버리라고 하세요. 결과는 하나님께 맡기고, 제자는 신실하게 전하기만 하면 돼요."}},
+   {"b": "이리 가운데 양", "ayə": "10:16–31", "alt": "참새를 보며 아이에게 이야기하시는 예수님", "p": ["“뱀같이 지혜롭고 비둘기같이 순결하라.” 예수님은 제자들이 법정에 끌려가고 가족에게도 미움받을 것을 숨기지 않으세요. 그때 할 말은 성령께서 주실 거라고 하세요.", "“몸은 죽여도 영혼은 능히 죽이지 못하는 자들을 두려워하지 말라.” 그리고 [[앗사리온]] 하나에 팔리는 참새 두 마리를 예로 드세요. 하나님이 참새도 기억하시면 “너희는 많은 참새보다 귀하니라.”"], "deep": {"b": "깊이 보기 · 두려움의 방향", "p": "10:26–31에서 “두려워하지 말라”가 세 번 나와요. 사람을 두려워하지 않는 비결은 하나님을 바르게 경외하는 것이에요. 하나님을 아는 사람은 사람 앞에서 자유로워요.", "rose": true}},
+   {"b": "시인과 냉수 한 그릇", "ayə": "10:32–42", "alt": "지친 제자에게 시원한 물을 건네는 아이", "p": ["“누구든지 사람 앞에서 나를 [[시인]]하면 나도 하늘에 계신 내 아버지 앞에서 그를 시인할 것이요.” 예수님을 따르는 것은 십자가를 지는 일이에요.", "그런데 마지막은 따뜻해요. 제자를 영접하는 것이 예수님을 영접하는 것이고, 작은 자에게 냉수 한 그릇을 주는 사람도 상을 잃지 않아요. 큰 순교만이 아니라 작은 환대도 하나님 나라의 일이에요."], "deep": {"b": "깊이 보기 · 목숨을 잃으면 얻는다", "p": "“자기 목숨을 얻는 자는 잃을 것이요 나를 위하여 자기 목숨을 잃는 자는 얻으리라”(10:39). 마태복음에서 처음 ‘십자가’라는 말이 나오는 곳이에요. 예수님이 먼저 그 길을 가실 거예요."}}
+  ],
+  "cedvel": {"b": "열두 사도", "alt": "10:2–4", "bas": ["이름", "알려진 것"], "set": [["시몬 베드로", "어부, 제자들의 대표"], ["안드레", "베드로의 형제, 어부"], ["야고보", "세베대의 아들, 처음 순교한 사도(행 12:2)"], ["요한", "야고보의 형제, 요한복음의 전통적 저자"], ["빌립 · 바돌로매", "벳새다 출신 빌립과 그의 친구"], ["도마", "‘의심하는 도마’, 부활 후 “나의 주님”이라 고백"], ["마태", "세리 출신, 이 복음서의 이름"], ["알패오의 아들 야고보 · 다대오", "조용히 섬긴 제자들"], ["열심당원 시몬", "로마에 맞서던 열심당 출신"], ["가룟 유다", "예수님을 판 제자"]]},
+  "aye": {"metn": "“참새 두 마리가 한 앗사리온에 팔리지 않느냐. 그러나 너희 아버지께서 허락하지 아니하시면 그 하나도 땅에 떨어지지 아니하리라. 너희에게는 머리털까지 다 세신 바 되었나니 두려워하지 말라. 너희는 많은 참새보다 귀하니라.”", "ref": "10:29–31"},
+  "lugat": {
+   "사도": {"i": "📮", "o": "헬라어 아포스톨로스, ‘보냄받은 자’", "x": "həvari", "s": "권위를 위임받은 대사", "m": "보낸 사람의 권위를 대신 가지고 가는 사람이에요. 마태복음에서 ‘사도’라는 말은 여기 한 번만 나와요.", "e": "아제르바이잔어로는 ‘həvari’라고 해요."},
+   "거저": {"i": "🎁", "o": "헬라어 도레안, ‘선물로’", "x": "müftə", "s": "값없이", "m": "은혜는 돈 주고 산 것이 아니니 팔지도 말라는 뜻이에요.", "e": "사도행전 8장에서 시몬은 성령의 능력을 돈으로 사려다 꾸지람을 들어요."},
+   "앗사리온": {"i": "🪙", "o": "로마 동전 아스", "x": "assarion", "s": "하루 품삯의 16분의 1", "m": "아주 작은 동전이에요. 참새 두 마리가 그 값이었어요. 누가복음은 “다섯 마리가 두 앗사리온”이라고 해요(눅 12:6).", "e": "덤으로 끼워 주는 한 마리까지 하나님은 기억하세요."},
+   "시인": {"i": "🗣️", "o": "헬라어 호몰로게오, ‘같은 말을 하다’", "x": "etiraf etmək", "s": "공개적으로 인정함", "m": "예수님에 대해 하나님이 하시는 말과 ‘같은 말’을 사람들 앞에서 하는 거예요.", "e": "반대는 ‘부인하다’예요. 베드로가 26장에서 부인해요."}
+  },
+  "test": [
+   {"q": "열두 제자의 숫자가 떠올리게 하는 것은?", "o": ["이스라엘 열두 지파", "열두 달", "열두 별자리"], "a": 0, "f": "맞아요. 새 하나님 백성이에요."},
+   {"q": "열두 사도 명단에 함께 있는 원수 같은 두 사람은?", "o": ["세리 마태와 열심당원 시몬", "베드로와 안드레", "야고보와 요한"], "a": 0, "f": "맞아요. 예수님 안에서 하나가 되었어요."},
+   {"q": "“뱀같이 … 비둘기같이 …” 빈칸은?", "o": ["지혜롭고, 순결하라", "빠르고, 높이 날아라", "조용하고, 숨어라"], "a": 0, "f": "맞아요. 지혜와 순결을 함께 가져요."},
+   {"q": "참새 두 마리가 팔린 값은?", "o": ["한 앗사리온", "한 달란트", "은 삼십"], "a": 0, "f": "맞아요. 그 값싼 참새도 하나님이 기억하세요."},
+   {"q": "작은 자에게 냉수 한 그릇을 준 사람은?", "o": ["결코 상을 잃지 않는다", "아무 의미 없다", "더 큰 일을 해야 한다"], "a": 0, "f": "맞아요. 작은 환대도 하나님 나라의 일이에요."}
+  ],
+  "paylas": ["‘일꾼을 보내 주세요’라고 기도하면서 정작 나는 가지 않으려 한 적이 있나요?", "내가 ‘거저 받은’ 것 중에 나눌 수 있는 것은 무엇인가요?", "친구들 앞에서 예수님을 믿는다고 말하기 어려운 이유는 무엇인가요?", "이번 주 ‘냉수 한 그릇’을 줄 수 있는 사람은 누구인가요?"],
+  "etiraf": {"b": "나의 고백", "p": "“두려워하지 말라, 너희는 참새보다 귀하다”는 말씀을 들으며, 지금 내가 두려워하는 것과 그것을 이길 믿음의 고백을 써 보세요.", "ph": "예) 저는 친구들이 저를 이상하게 볼까 봐 두려워요. 하지만 하나님은 …"},
+  "dua": "예수님, 평범하고 서로 달랐던 열두 사람을 불러 하나로 세우시고 보내신 것처럼 저도 보내 주세요. 사람을 두려워하지 않고 하나님을 경외하게 해 주세요. 큰일이 아니어도 냉수 한 그릇의 친절로 예수님을 시인하며 살게 해 주세요. 예수님 이름으로 기도합니다. 아멘."
+ }
+},
+"az": {
+ "usaq": {
+  "basliq": "Siz sərçələrdən dəyərlisiniz",
+  "hedef": ["İsanın on iki şagirdi seçib göndərdiyini öyrənəcəyik.", "Allahın bizi sərçələrdən daha qiymətli sayıb qayğı göstərdiyini öyrənəcəyik.", "Kiçik yaxşılıqla da İsaya xidmət edə biləcəyimizi öyrənəcəyik."],
+  "sehneler": [
+   {"b": "On iki şagird", "ayə": "Matta 10:1–4", "alt": "On iki şagirdi çağıran İsa", "p": ["İsa on iki [[şagird]]ini çağırıb onlara xəstələrə şəfa vermək qüdrəti verdi.", "Peter, Andrey, Yaqub, Yəhya, Filip, Bartalmay, Tomas, Matta, digər Yaqub, Faddey, Simon və Yəhuda İskariot. Onlara [[həvari]] deyilir."]},
+   {"b": "İki-iki göndərdi", "ayə": "Matta 10:5–15", "alt": "İki-iki yola çıxan şagirdlər", "p": ["İsa şagirdlərini kəndlərə göndərdi: “Səmavi Padşahlığın yaxınlaşdığını elan edin, xəstələrə şəfa verin.”", "“[[Müftə]] almısınız, müftə də verin.” Özləri ilə çox pul və çanta götürməməyi, yalnız Allaha güvənməyi dedi."]},
+   {"b": "Qorxmayın", "ayə": "Matta 10:16–31", "alt": "Sərçələrə baxıb uşaqla danışan İsa", "p": ["“Mən sizi qurdların arasına quzular kimi göndərirəm.” İsa çətinliklər olacağını əvvəlcədən dedi.", "“İki [[sərçə]] bir qəpiyə satılmırmı? Amma Atanızın izni olmadan onlardan biri belə yerə düşməz. Hətta başınızdakı [[saç]]ların hamısı sayılıb. Qorxmayın, siz çoxlu sərçədən daha dəyərlisiniz.”"]},
+   {"b": "Bir kasa soyuq su", "ayə": "Matta 10:32–42", "alt": "Yorğun şagirdə sərin su verən uşaq", "p": ["“İnsanların qarşısında Məni tanıdığını deyən hər kəsi Mən də göylərdəki Atamın qarşısında tanıdığımı deyəcəyəm.”", "“Şagirdimə bir kasa [[soyuq su]] verən hər kəs mükafatını əsla itirməyəcək.” İsa kiçik yaxşılıqları da yadda saxlayır."]}
+  ],
+  "aye": {"metn": "“Buna görə də qorxmayın, siz çoxlu sərçədən daha dəyərlisiniz.”", "ref": "10:31", "bos": "Buna görə də ___, siz çoxlu ___ daha ___.", "sozler": ["qorxmayın", "sərçədən", "dəyərlisiniz"], "yalan": "zəifsiniz"},
+  "lugat": {
+   "şagird": {"i": "👣", "x": "제자", "m": "Müəllimin ardınca gedib ondan öyrənən adamdır.", "e": "İsa on iki şagird çağırdı."},
+   "həvari": {"i": "📮", "x": "사도", "m": "“Göndərilmiş adam” deməkdir.", "e": "On iki şagirdə on iki həvari də deyilir."},
+   "Müftə": {"i": "🎁", "x": "거저", "m": "Pul almadan, sadəcə verməkdir.", "e": "Müftə almısınız, müftə də verin."},
+   "sərçə": {"i": "🐦", "x": "참새", "m": "Çox kiçik və adi quşdur. Qədimdə çox ucuz satılırdı.", "e": "Allah bir sərçənin də qayğısını çəkir."},
+   "saç": {"i": "💇", "x": "머리털", "m": "Başımızda bitən tüklərdir. İnsanın başında təxminən yüz min saç olur.", "e": "Allah saçlarımızın hamısını sayıb."},
+   "soyuq su": {"i": "🥤", "x": "냉수", "m": "Sərin və təravətli sudur.", "e": "İsa bir kasa soyuq suyu da yadda saxlayır."}
+  },
+  "test": [
+   {"q": "İsa neçə şagird seçdi?", "o": ["On iki", "Yeddi", "Yüz"], "a": 0, "f": "Düzdür! On iki həvari."},
+   {"q": "“Müftə almısınız, …” sözünün davamı nədir?", "o": ["müftə də verin", "mütləq pul alın", "özünüzə saxlayın"], "a": 0, "f": "Düzdür! Aldığımız lütfü paylaşırıq."},
+   {"q": "Allah nəyi sayıb?", "o": ["Saçlarımızı", "Göydəki buludları", "Dənizdəki damcıları"], "a": 0, "f": "Düzdür! O, bizi bu qədər yaxşı tanıyır."},
+   {"q": "İsanın şagirdinə bir kasa soyuq su verən nə olar?", "o": ["Mükafatını itirməz", "Heç nə olmaz", "Danlanar"], "a": 0, "f": "Düzdür! Kiçik yaxşılıq da qiymətlidir."}
+  ],
+  "dusun": ["On iki şagirddən hansının adı yadında qaldı?", "Allahın saçlarımızı belə sayması nə deməkdir?", "Bu həftə “bir kasa soyuq su” kimi hansı kiçik yaxşılığı edə bilərsən?"],
+  "fealiyyet": {"ciz": "Yorğun dostuna sərin su verən özünü çək.", "b": "Kimə yaxşılıq edəcəksən?", "p": "Kiçik yaxşılıq edəcəyin adamı seç.", "ph": "",
+   "secim": {"basliq": "Kimə yaxşılıq edəcəksən?", "izah": "Toxun və seç. Bir neçəsini seçə bilərsən.", "cumle": "Mən İsa üçün {x} kömək edəcəyəm!", "bos": "anama", "bag": "və",
+    "secimler": [["🥤", "susamış dostuma"], ["👩‍🏫", "müəllimimə"], ["🧽", "anama"], ["🧸", "kiçik uşaqlara"], ["🏠", "qonşuma"], ["👋", "yeni gələn uşağa"]]}},
+  "dua": "Allahım, bir sərçənin də qayğısını çəkdiyin və saçlarımı belə saydığın üçün Sənə şükür edirəm. Qorxanda Sənin məni dəyərli saydığını xatırlamağıma kömək et. Müftə aldığım məhəbbəti bir kasa soyuq su kimi paylaşım. İsa Məsihin adı ilə dua edirəm. Amin."
+ },
+ "genc": {
+  "basliq": "Göndərilənlər",
+  "giris": "9-cu fəslin sonunda İsa “işçilər göndərilməsi üçün dua edin” dedi. 10-cu fəsildə isə dua edən həmin şagirdləri Özü göndərir. Duanın cavabı elə sənin özün ola bilərsən.",
+  "meqsed": ["On iki həvarinin tərkibini və göndərilməsinin mənasını anlayırıq.", "Təqib və qorxu içində verilən təsəlli sözlərini izah edə bilirik.", "Həyatımızda İsanı etiraf etməyin konkret yollarını müəyyən edirik."],
+  "sehneler": [
+   {"b": "On iki və adlar", "ayə": "Matta 10:1–4", "alt": "On iki şagirdi çağıran İsa", "p": ["On iki rəqəmi İsrailin on iki qəbiləsini xatırladır. İsa Allahın yeni xalqını qurur. “Şagird” (öyrənən) indi “[[həvari]]” (göndərilən) olur.", "Siyahı təəccüblüdür. Roma üçün vergi yığan Matta ilə Romaya qarşı vuruşan qeyrətkeş Simon birlikdədir. Sonda isə xəyanət edəcək Yəhuda da var."], "deep": {"b": "Dərindən baxaq · Qeyrətkeşlər və vergiyığanlar", "p": "Qeyrətkeşlər Romanı silah gücünə qovmaq istəyən insanlar idi. Vergiyığanlar isə həmin Roma ilə əməkdaşlıq edirdi. İsada düşmən olan iki nəfər bir cəmiyyət oldu."}},
+   {"b": "Müftə almısınız", "ayə": "Matta 10:5–15", "alt": "İki-iki yola çıxan şagirdlər", "p": ["İsa əvvəlcə “İsrail evinin itmiş qoyunlarının” yanına getməyi deyir. Sonra 28-ci fəsildə bu, “bütün millətlərə” genişlənir. Allahın planının ardıcıllığı var.", "Şagirdlər İsanın etdiyini (vəz, şəfa) etmək üçün göndərilir. Kisəyə pul qoymamağı, qəbul edən evdə qalmağı deyir. “[[Müftə]] almısınız, müftə də verin.”"], "deep": {"b": "Dərindən baxaq · Salam diləyin", "p": "Evə girəndə “şalom” diləmək lazımdır. Qəbul etməsələr, ayaqların tozunu silkələmək lazımdır. Nəticəni Allaha tapşırırıq, şagird isə sadiqcəsinə elan etməlidir."}},
+   {"b": "Qurdlar arasında quzular", "ayə": "Matta 10:16–31", "alt": "Sərçələrə baxıb uşaqla danışan İsa", "p": ["“İlan kimi ağıllı, göyərçin kimi saf olun.” İsa şagirdlərin məhkəməyə aparılacağını və ailələri tərəfindən belə nifrət görəcəklərini gizlətmir. O vaxt deyiləcək sözləri Müqəddəs Ruh verəcək.", "“Bədəni öldürən, amma canı öldürə bilməyənlərdən qorxmayın.” Sonra bir [[assarion]]a satılan iki sərçəni misal gətirir. Allah sərçəni də yadda saxlayırsa, “siz çoxlu sərçədən daha dəyərlisiniz.”"], "deep": {"b": "Dərindən baxaq · Qorxunun istiqaməti", "p": "10:26–31-də “qorxmayın” üç dəfə keçir. İnsanlardan qorxmamağın sirri Allahdan düzgün qorxmaqdır. Allahı tanıyan insan insanlar qarşısında azaddır.", "rose": true}},
+   {"b": "Etiraf və bir kasa soyuq su", "ayə": "Matta 10:32–42", "alt": "Yorğun şagirdə sərin su verən uşaq", "p": ["“İnsanların qarşısında Məni [[etiraf edən|etiraf etmək]] hər kəsi Mən də göylərdəki Atamın qarşısında etiraf edəcəyəm.” İsanın ardınca getmək çarmıx daşımaqdır.", "Amma son isti sözlərdir. Şagirdi qəbul edən İsanı qəbul edir, kiçiklərdən birinə bir kasa soyuq su verən də mükafatını itirməz. Yalnız böyük şəhidlik deyil, kiçik qonaqpərvərlik də Allahın Padşahlığının işidir."], "deep": {"b": "Dərindən baxaq · Canını itirən qazanar", "p": "“Canını qorumaq istəyən onu itirəcək, Mənim uğrumda canını itirən isə onu qazanacaq” (10:39). Matta Müjdəsində “çarmıx” sözü ilk dəfə burada keçir. O yolla əvvəlcə İsa Özü gedəcək."}}
+  ],
+  "cedvel": {"b": "On iki həvari", "alt": "10:2–4", "bas": ["Ad", "Haqqında bilinənlər"], "set": [["Simon Peter", "Balıqçı, şagirdlərin nümayəndəsi"], ["Andrey", "Peterin qardaşı, balıqçı"], ["Yaqub", "Zavdayın oğlu, ilk şəhid olan həvari (Həv. 12:2)"], ["Yəhya", "Yaqubun qardaşı, ənənəyə görə Yəhya Müjdəsinin müəllifi"], ["Filip · Bartalmay", "Bet-Saydalı Filip və onun dostu"], ["Tomas", "“Şübhəçi Tomas”, dirilmədən sonra “Rəbbim” deyə etiraf etdi"], ["Matta", "Keçmiş vergiyığan, bu Müjdənin adı"], ["Halfayın oğlu Yaqub · Faddey", "Səssizcə xidmət edən şagirdlər"], ["Qeyrətkeş Simon", "Romaya qarşı çıxan qeyrətkeşlərdən"], ["Yəhuda İskariot", "İsanı satan şagird"]]},
+  "aye": {"metn": "“İki sərçə bir assariona satılmırmı? Amma Atanızın izni olmadan onlardan biri belə yerə düşməz. Hətta başınızdakı saçların hamısı sayılıb. Buna görə də qorxmayın, siz çoxlu sərçədən daha dəyərlisiniz.”", "ref": "10:29–31"},
+  "lugat": {
+   "həvari": {"i": "📮", "o": "Yunanca apostolos, “göndərilən”", "x": "사도", "s": "Səlahiyyət verilmiş elçi", "m": "Göndərənin səlahiyyətini daşıyan adamdır. Matta Müjdəsində “həvari” sözü yalnız burada bir dəfə keçir.", "e": "Koreya dilində “sado” deyilir."},
+   "Müftə": {"i": "🎁", "o": "Yunanca dorean, “hədiyyə kimi”", "x": "거저", "s": "Pulsuz", "m": "Lütf pulla alınmayıb, buna görə də satılmamalıdır.", "e": "Həvarilərin İşləri 8-də Simon Müqəddəs Ruhun qüdrətini pulla almaq istəyib danlanır."},
+   "assarion": {"i": "🪙", "o": "Roma sikkəsi as", "x": "앗사리온", "s": "Bir günlük əmək haqqının 16-da biri", "m": "Çox kiçik sikkə idi. İki sərçə bu qiymətə satılırdı. Luka “beş sərçə iki assariona” deyir (Luka 12:6).", "e": "Allah hətta əlavə verilən sərçəni də yadda saxlayır."},
+   "etiraf etmək": {"i": "🗣️", "o": "Yunanca homoloqeo, “eyni sözü demək”", "x": "시인하다", "s": "Açıq şəkildə tanımaq", "m": "Allahın İsa haqqında dediyi sözü insanlar qarşısında “eyni” şəkildə deməkdir.", "e": "Əksi “inkar etmək”dir. Peter 26-cı fəsildə inkar edir."}
+  },
+  "test": [
+   {"q": "On iki şagird sayı nəyi xatırladır?", "o": ["İsrailin on iki qəbiləsini", "On iki ayı", "On iki bürcü"], "a": 0, "f": "Düzdür. Allahın yeni xalqı."},
+   {"q": "On iki həvarinin siyahısında birlikdə olan iki “düşmən” kimdir?", "o": ["Vergiyığan Matta və qeyrətkeş Simon", "Peter və Andrey", "Yaqub və Yəhya"], "a": 0, "f": "Düzdür. İsada bir oldular."},
+   {"q": "“İlan kimi …, göyərçin kimi …” boşluqlar nədir?", "o": ["ağıllı, saf", "sürətli, uca", "səssiz, gizli"], "a": 0, "f": "Düzdür. Müdriklik və saflıq birlikdə."},
+   {"q": "İki sərçə neçəyə satılırdı?", "o": ["Bir assariona", "Bir talanta", "Otuz gümüşə"], "a": 0, "f": "Düzdür. Allah o ucuz sərçəni də yadda saxlayır."},
+   {"q": "Kiçiklərdən birinə bir kasa soyuq su verən nə olar?", "o": ["Mükafatını əsla itirməz", "Mənasızdır", "Daha böyük iş görməlidir"], "a": 0, "f": "Düzdür. Kiçik qonaqpərvərlik də Padşahlığın işidir."}
+  ],
+  "paylas": ["“İşçilər göndər” deyə dua edib özüm getmək istəmədiyim vaxt olubmu?", "“Müftə aldığım” şeylərdən paylaşa biləcəyim nədir?", "Dostlarımın qarşısında İsaya inandığımı demək niyə çətindir?", "Bu həftə “bir kasa soyuq su” verə biləcəyim adam kimdir?"],
+  "etiraf": {"b": "Mənim etirafım", "p": "“Qorxmayın, siz sərçələrdən dəyərlisiniz” sözünü eşidərək indi qorxduğun şeyi və ona qalib gələn iman etirafını yaz.", "ph": "Məsələn: Mən dostlarımın mənə qəribə baxacağından qorxuram. Amma Allah …"},
+  "dua": "İsa, adi və bir-birindən fərqli on iki insanı çağırıb bir edərək göndərdiyin kimi məni də göndər. İnsanlardan qorxmayım, Allahdan qorxum. Böyük iş olmasa da, bir kasa soyuq su kimi yaxşılıqla Səni etiraf edərək yaşayım. İsa Məsihin adı ilə dua edirəm. Amin."
+ }
+},
+"muellim": {
+ "mesaj": "14과의 중심은 한 문장입니다. **예수님은 평범하고 서로 다른 사람들을 불러 보내시며, 두려움 속에서도 참새를 기억하시는 아버지를 신뢰하게 하신다.**",
+ "hazirliq": ["학생용 교재를 열 휴대폰이나 태블릿, 이어폰", "열두 제자 이름 카드", "물컵과 물 (냉수 한 그릇 나누기)"],
+ "fon": [
+  ["1. 두 번째 설교", "10장은 마태복음 다섯 설교 중 두 번째인 ‘선교 설교’입니다. 11:1 “명하기를 마치시고”로 끝납니다."],
+  ["2. 이스라엘 먼저", "10:5–6의 제한은 15:24에서도 반복되지만, 28:19에서 모든 민족으로 넓어집니다. 구원 역사의 순서를 보여 줍니다."],
+  ["3. 열심당원 시몬", "‘가나안인’(카나나이오스)은 아람어 ‘열심’(qan'ana)에서 온 말입니다. 누가는 ‘셀롯’이라고 번역합니다."],
+  ["4. 10:17–23", "제자들이 당할 박해 이야기는 초대 교회가 겪은 현실이었습니다. 현지에서 신앙 때문에 가족과 갈등하는 학생이 있을 수 있으니 조심스럽게 다루세요."],
+  ["5. 참새", "시장에서 가장 싼 고기였습니다. 가난한 사람들의 음식이었고, 덤으로 끼워 팔기도 했습니다."]
+ ],
+ "usaq_plan": [
+  ["5분", "이름 카드 뽑기", "열두 제자 카드를 한 장씩 뽑아 이름 읽기", "“예수님은 평범한 사람들을 부르셨어요.”"],
+  ["15분", "장면 1–4 듣고 읽기", "장면마다 듣기, 노란 낱말 누르기", "“하나님은 내 머리카락이 몇 개인지도 아세요!”"],
+  ["5분", "외울 말씀", "빈칸 놀이 → 서로 “너는 참새보다 귀해” 말해 주기", ""],
+  ["5분", "확인 퀴즈", "혼자 풀고 함께 확인", ""],
+  ["10분", "활동과 기도", "물 한 컵씩 서로 따라 주기 → 친절 고르기 → 기도", ""]
+ ],
+ "genc_plan": [
+  ["5분", "열기", "“기도했는데 ‘네가 가라’는 응답을 받은 적 있나요?”", ""],
+  ["15분", "장면 1–2와 사도 표", "열둘의 의미, 마태와 시몬, 거저 주라", ""],
+  ["10분", "장면 3–4", "이리 가운데 양, 두려워하지 말라 3번, 시인과 냉수", "“나는 무엇을 두려워하나?”"],
+  ["5분", "확인 문제", "", ""],
+  ["15분", "나눔과 고백", "나눔 질문 2개 → 두려움과 믿음 고백 쓰기 → 기도", ""]
+ ],
+ "ipucu_usaq": ["박해 이야기는 어린이반에서는 ‘힘든 일도 있지만 하나님이 지켜 주세요’ 정도로만 다루세요.", "가룟 유다는 질문이 나오면 ‘나중에 배울 거예요’라고 짧게 답하세요.", "냉수 나누기 활동은 짝을 바꿔 가며 해 보세요."],
+ "ipucu_genc": ["가족과 신앙 갈등(10:34–37)을 겪는 학생이 있으면 공개 나눔 대신 개인 상담으로 연결하세요.", "‘시인’을 공격적인 전도로 오해하지 않게 하세요. 정직하게 밝히고 사랑으로 사는 것도 시인입니다.", "다음 과(11장)는 “수고하고 무거운 짐 진 자들아 다 내게로 오라”입니다."],
+ "suallar": [
+  ["예수님은 왜 유다를 제자로 뽑으셨어요?", "예수님은 유다도 사랑하셨어요. 유다가 스스로 잘못된 길을 선택했어요.", "예수님은 처음부터 아셨지만(요 6:64) 유다에게도 기회를 주셨어요. 하나님은 그의 배신까지도 구원 계획 안에서 쓰셨어요."],
+  ["사람들이 우리를 미워하면 어떡해요?", "하나님이 함께하시고 우리를 지켜 주세요. 선생님과 부모님께도 꼭 말해요.", "예수님은 미움을 미리 알려 주시고 성령의 도우심을 약속하셨어요. 지혜롭게 행동하고 공동체의 도움을 받는 것도 중요해요."],
+  ["“칼을 주러 왔다”(10:34)는 무슨 뜻이에요?", "가족끼리 싸우라는 말이 아니에요. 예수님을 믿으면 가끔 가족과 생각이 달라질 수 있다는 뜻이에요.", "싸움을 일으키라는 뜻이 아니라, 예수님을 따르는 선택이 가족 안에서도 갈등을 낳을 수 있다는 현실을 말씀하신 거예요. 미가 7:6을 인용하신 말씀이에요."]
+ ]
+}
+}
