@@ -1,0 +1,155 @@
+{
+"no": 20, "ref": "15:1–39", "deq": {"usaq": 40, "genc": 50},
+"img": ["matta/20-el-yuma.jpg", "matta/20-urek.jpg", "matta/20-kenanli.jpg", "matta/20-dord-min.jpg"],
+"hero": 2,
+"ko": {
+ "usaq": {
+  "basliq": "여자여, 네 믿음이 크도다",
+  "hedef": ["하나님은 겉모습보다 마음을 보신다는 것을 알아요.", "가나안 여인의 큰 믿음 이야기를 배워요.", "포기하지 않고 예수님께 기도하는 법을 배워요."],
+  "sehneler": [
+   {"b": "손을 안 씻었다고?", "ayə": "15:1–9", "alt": "손 씻는 문제로 따지는 바리새인들", "p": ["바리새인들이 따졌어요. “왜 당신의 제자들은 밥 먹기 전에 [[전통]]대로 손을 씻지 않나요?”", "예수님이 말씀하셨어요. “너희는 입으로는 하나님을 높이지만 마음은 멀리 떠나 있구나.” 하나님은 겉모습보다 [[마음]]을 보세요."]},
+   {"b": "마음에서 나오는 것", "ayə": "15:10–20", "alt": "제자들에게 마음에 대해 가르치시는 예수님", "p": ["“입으로 들어가는 것이 사람을 더럽게 하는 것이 아니에요. 입에서 나오는 것이 사람을 더럽게 해요.”", "나쁜 생각, 거짓말, 미워하는 말은 마음에서 나와요. 그래서 마음이 깨끗해야 해요."]},
+   {"b": "포기하지 않은 엄마", "ayə": "15:21–28", "alt": "예수님 앞에 무릎 꿇고 딸을 위해 간청하는 가나안 여인", "p": ["이방 땅에 사는 [[가나안]] 여인이 소리쳤어요. “주님, 다윗의 자손이여, 저를 불쌍히 여겨 주세요! 제 딸이 몹시 아파요.”", "예수님이 처음에는 대답하지 않으셨지만 여인은 포기하지 않았어요. “개들도 주인 상에서 떨어지는 [[부스러기]]는 먹어요.” 예수님이 말씀하셨어요. “여자여, 네 [[믿음]]이 크도다! 네 소원대로 되리라.” 그 순간 딸이 나았어요."]},
+   {"b": "사천 명을 먹이셨어요", "ayə": "15:29–39", "alt": "산 위에서 많은 사람에게 떡을 나누어 주시는 예수님", "p": ["예수님이 산에 앉으시자 많은 사람이 다리 저는 사람, 눈먼 사람, 말 못 하는 사람을 데려왔어요. 예수님이 모두 고쳐 주셨어요.", "예수님은 사흘 동안 함께 있던 무리를 불쌍히 여기셔서 떡 일곱 개와 작은 생선 몇 마리로 사천 명을 먹이셨어요. 일곱 광주리가 남았어요."]}
+  ],
+  "aye": {"metn": "“여자여 네 믿음이 크도다. 네 소원대로 되리라.”", "ref": "15:28", "bos": "여자여 네 ___이 ___도다. 네 ___대로 되리라.", "sozler": ["믿음", "크", "소원"], "yalan": "작"},
+  "lugat": {
+   "전통": {"i": "📜", "x": "adət", "m": "옛날부터 사람들이 지켜 온 습관이나 규칙이에요.", "e": "바리새인들은 손 씻는 전통을 중요하게 여겼어요."},
+   "마음": {"i": "❤️", "x": "ürək", "m": "생각하고 느끼고 결정하는 우리 속사람이에요.", "e": "하나님은 마음을 보세요."},
+   "가나안": {"i": "🗺️", "x": "Kənan", "m": "이스라엘 북쪽, 이방 사람들이 살던 지역이에요.", "e": "가나안 여인이 예수님께 왔어요."},
+   "부스러기": {"i": "🍞", "x": "qırıntı", "m": "빵을 먹을 때 떨어지는 작은 조각이에요.", "e": "개들도 부스러기는 먹어요."},
+   "믿음": {"i": "💗", "x": "iman", "m": "예수님이 도와주실 거라고 믿고 의지하는 마음이에요.", "e": "여자여, 네 믿음이 크도다!"}
+  },
+  "test": [
+   {"q": "하나님은 무엇을 보세요?", "o": ["마음", "옷", "얼굴"], "a": 0, "f": "맞아요! 겉모습보다 마음이에요."},
+   {"q": "사람을 더럽게 하는 것은?", "o": ["입에서 나오는 나쁜 것", "손에 묻은 흙", "맛있는 음식"], "a": 0, "f": "맞아요! 마음에서 나오는 나쁜 말과 생각이에요."},
+   {"q": "가나안 여인은 왜 예수님께 왔나요?", "o": ["딸이 아파서", "배가 고파서", "길을 잃어서"], "a": 0, "f": "맞아요! 딸을 위해 포기하지 않았어요."},
+   {"q": "예수님은 가나안 여인의 믿음을 어떻게 말씀하셨나요?", "o": ["크다", "작다", "없다"], "a": 0, "f": "맞아요! 이방 여인의 믿음을 칭찬하셨어요."}
+  ],
+  "dusun": ["내 입에서 나오는 말은 내 마음에 대해 무엇을 알려 줄까요?", "가나안 여인은 왜 포기하지 않았을까요?", "내가 포기하지 않고 기도하고 싶은 것은 무엇인가요?"],
+  "fealiyyet": {"ciz": "예수님 앞에서 딸을 위해 기도하는 엄마를 그려 보세요.", "b": "포기하지 않고 기도할 것", "p": "끝까지 예수님께 구하고 싶은 것을 써 보세요.", "ph": "예) 아픈 친구가 낫도록 매일 기도할래요."},
+  "dua": "예수님, 겉모습보다 제 마음을 보시는 예수님께 감사합니다. 제 마음을 깨끗하게 해 주셔서 좋은 말이 나오게 해 주세요. 가나안 여인처럼 포기하지 않고 예수님께 구하는 큰 믿음을 주세요. 예수님 이름으로 기도합니다. 아멘."
+ },
+ "genc": {
+  "basliq": "부스러기라도 좋습니다",
+  "giris": "‘깨끗한 사람’과 ‘더러운 사람’을 나누던 시대였습니다. 손을 씻었는지, 어느 민족인지가 기준이었습니다. 예수님은 그 경계선을 지우시고, 가장 바깥에 있던 이방 여인에게서 이스라엘에서 보지 못한 믿음을 발견하십니다.",
+  "meqsed": ["사람의 전통과 하나님의 계명, 겉과 속의 차이를 이해해요.", "가나안 여인 이야기에서 믿음의 특징을 설명할 수 있어요.", "내가 그은 ‘안과 밖’의 경계선을 돌아보고 끈질긴 기도를 결단해요."],
+  "sehneler": [
+   {"b": "장로들의 전통", "ayə": "15:1–9", "alt": "손 씻는 문제로 따지는 바리새인들", "p": ["바리새인들의 손 씻기는 위생이 아니라 종교적 정결 의식이었어요. 율법에는 제사장에게만 있던 규정을 모든 사람에게 확대한 [[장로들의 전통]]이었어요.", "예수님은 반문하세요. 부모 공경을 피하려고 “고르반(하나님께 드림)”이라고 맹세하는 전통은 하나님의 계명을 폐하는 것 아니냐고요. 그리고 이사야 29:13을 인용하세요. “이 백성이 입술로는 나를 존경하되 마음은 내게서 멀도다.”"], "deep": {"b": "깊이 보기 · 전통이 나쁜가?", "p": "전통 자체는 좋을 수 있어요. 문제는 사람의 전통이 하나님의 계명보다 위에 설 때예요. 교회 문화도 같은 질문 앞에 서야 해요. 이 전통은 하나님께 가까이 가게 하나, 하나님을 가리고 있나?"}},
+   {"b": "속에서 나오는 것", "ayə": "15:10–20", "alt": "제자들에게 마음에 대해 가르치시는 예수님", "p": ["“입으로 들어가는 것이 사람을 더럽게 하는 것이 아니라 입에서 나오는 그것이 사람을 더럽게 하는 것이니라.” 예수님은 정결의 장소를 손에서 [[마음]]으로 옮기세요.", "“마음에서 나오는 것은 악한 생각과 살인과 간음과 음란과 도둑질과 거짓 증언과 비방이니.” 문제는 바깥 세상이 아니라 내 안에 있어요."], "deep": {"b": "깊이 보기 · 맹인을 인도하는 맹인", "p": "예수님은 바리새인들을 “맹인을 인도하는 맹인”이라고 하세요. 자기 마음을 보지 못하는 사람은 남을 바르게 이끌 수 없어요. 7:3–5의 ‘들보’ 이야기와 이어져요."}},
+   {"b": "가장 바깥의 믿음", "ayə": "15:21–28", "alt": "예수님 앞에 무릎 꿇고 딸을 위해 간청하는 가나안 여인", "p": ["예수님은 이방 지역 두로와 시돈으로 가셨어요. 여인은 이방인이자 여성이자 귀신 들린 딸의 엄마였어요. 거기다 ‘[[가나안]]’은 구약에서 이스라엘의 오랜 원수였어요. 그런 여인이 예수님을 “다윗의 자손”이라 불렀어요.", "예수님의 침묵과 거절 같은 말에도 여인은 물러서지 않았어요. “옳소이다마는 개들도 제 주인의 상에서 떨어지는 부스러기를 먹나이다.” 예수님은 감탄하세요. “여자여 네 믿음이 크도다.” 14:31의 베드로(“믿음이 작은 자여”)와 대조돼요."], "deep": {"b": "깊이 보기 · 왜 처음에 거절하셨나?", "p": "예수님의 사명 순서(이스라엘 먼저, 10:6)가 드러나지만, 대화 자체가 여인의 믿음을 드러내는 무대가 돼요. 여인은 자격을 주장하지 않고 은혜에만 기대요. ‘부스러기’도 충분하다는 믿음이에요. 예수님의 은혜는 부스러기조차 넘칠 만큼 크니까요.", "rose": true}},
+   {"b": "이방 땅의 잔치", "ayə": "15:29–39", "alt": "산 위에서 많은 사람에게 떡을 나누어 주시는 예수님", "p": ["갈릴리 동쪽(데가볼리, 이방 지역으로 추정)에서 예수님은 많은 병자를 고치셨고, 사람들은 “이스라엘의 하나님께 영광을 돌렸어요”. 이방인이 이스라엘의 하나님을 찬양하는 장면이에요.", "그리고 사천 명을 먹이세요. 14장의 오천 명이 유대 땅이었다면 이번엔 이방 땅이에요. 가나안 여인이 말한 ‘부스러기’가 이제 이방인을 위한 넘치는 잔치가 되었어요."], "deep": {"b": "깊이 보기 · 12와 7", "p": "오천 명 때는 열두 바구니(이스라엘 열두 지파), 사천 명 때는 일곱 광주리가 남았어요. 7은 완전수로, 또는 가나안 일곱 족속(신 7:1)을 떠올리게 해 모든 민족을 상징한다는 해석이 있어요."}}
+  ],
+  "cedvel": {"b": "15장의 ‘안’과 ‘밖’", "alt": "15:1–39", "bas": ["", "바리새인", "가나안 여인"], "set": [["위치", "종교의 중심, 예루살렘", "가장 바깥, 이방 땅"], ["관심", "손을 씻었나 (겉)", "딸이 낫는 것 (절박함)"], ["예수님을 향한 태도", "따지고 시험함", "엎드려 간청함"], ["예수님의 평가", "맹인을 인도하는 맹인", "네 믿음이 크도다"]]},
+  "aye": {"metn": "“여자가 말하되 주여 옳소이다마는 개들도 제 주인의 상에서 떨어지는 부스러기를 먹나이다 하니, 이에 예수께서 대답하여 이르시되 여자여 네 믿음이 크도다. 네 소원대로 되리라 하시니 그 때로부터 그의 딸이 나으니라.”", "ref": "15:27–28"},
+  "lugat": {
+   "장로들의 전통": {"i": "📜", "o": "헬라어 파라도시스, ‘전해 내려온 것’", "x": "ağsaqqalların adəti", "s": "구전 율법", "m": "모세 율법을 해석하고 보충하려고 랍비들이 전해 온 규칙들이에요. 나중에 미쉬나로 기록되었어요.", "e": "‘울타리’처럼 율법을 지키려는 좋은 의도에서 시작했어요."},
+   "마음": {"i": "❤️", "o": "헬라어 카르디아", "x": "ürək", "s": "생각과 의지의 중심", "m": "성경에서 마음은 감정뿐 아니라 생각하고 결정하는 중심이에요.", "e": "“마음이 청결한 자는 복이 있나니”(5:8)."},
+   "가나안": {"i": "🗺️", "o": "히브리어 크나안", "x": "Kənan", "s": "이스라엘의 옛 원수 민족", "m": "마가는 ‘수로보니게 여인’이라고 했지만 마태는 일부러 구약의 이름 ‘가나안’을 써요. 가장 먼 사람이 가장 가까이 왔다는 강조예요.", "e": "예수님의 족보에도 가나안 여인 라합이 있어요(1:5)."},
+   "부스러기": {"i": "🍞", "o": "헬라어 프시키온", "x": "qırıntı", "s": "작은 은혜에 대한 신뢰", "m": "식탁에서 떨어지는 작은 조각이에요. 여인은 그것만으로도 딸이 나을 수 있다고 믿었어요.", "e": "‘개’(퀴나리온)는 집 안에서 기르는 작은 강아지를 가리키는 말이에요."}
+  },
+  "test": [
+   {"q": "바리새인들의 손 씻기는 주로 무엇에 관한 것이었나요?", "o": ["종교적 정결 의식", "위생", "건강 검진"], "a": 0, "f": "맞아요. 장로들의 전통이었어요."},
+   {"q": "예수님이 인용하신 이사야 29:13의 내용은?", "o": ["입술로는 존경하되 마음은 멀다", "보라 처녀가 잉태하리라", "여호와는 나의 목자"], "a": 0, "f": "맞아요. 겉과 속이 다른 신앙이에요."},
+   {"q": "예수님에 따르면 사람을 더럽게 하는 것은?", "o": ["마음에서 나오는 것", "음식", "손에 묻은 먼지"], "a": 0, "f": "맞아요. 정결의 자리는 마음이에요."},
+   {"q": "마태가 이 여인을 ‘가나안’ 여인이라고 부른 의미는?", "o": ["가장 먼 원수 민족 출신임을 강조", "부자임을 강조", "제사장 집안임을 강조"], "a": 0, "f": "맞아요. 가장 먼 사람이 가장 가까이 왔어요."},
+   {"q": "14:31의 베드로와 15:28의 여인에 대한 예수님의 평가는?", "o": ["작은 믿음 / 큰 믿음", "큰 믿음 / 작은 믿음", "둘 다 큰 믿음"], "a": 0, "f": "맞아요. 의외의 대조예요."}
+  ],
+  "paylas": ["내가 지키는 신앙 습관 중 ‘하나님보다 습관 자체’가 중요해진 것은 없나요?", "최근 내 입에서 나온 말을 떠올려 보면, 내 마음 상태는 어떤가요?", "우리 교회나 나 자신이 ‘안’과 ‘밖’으로 사람을 나누고 있지는 않나요?", "거절당한 것처럼 느껴져도 계속 기도하고 있는 제목이 있나요?"],
+  "etiraf": {"b": "나의 고백", "p": "가나안 여인처럼 자격이 아니라 은혜에 기대어 예수님께 드리는 간청을 서너 문장으로 써 보세요.", "ph": "예) 주님, 저는 이것을 받을 자격이 없어요. 그래도 주님의 부스러기라도 …"},
+  "dua": "예수님, 겉이 아니라 마음을 보시는 예수님께 감사합니다. 입술만이 아니라 마음으로 하나님을 사랑하게 해 주세요. 제가 그은 경계선을 지우시고, 가나안 여인처럼 자격이 아니라 은혜에 기대어 끝까지 구하는 큰 믿음을 주세요. 예수님 이름으로 기도합니다. 아멘."
+ }
+},
+"az": {
+ "usaq": {
+  "basliq": "Ey qadın, imanın böyükdür",
+  "hedef": ["Allahın zahirdən çox ürəyə baxdığını öyrənəcəyik.", "Kənanlı qadının böyük imanı haqqında öyrənəcəyik.", "Təslim olmadan İsaya dua etməyi öyrənəcəyik."],
+  "sehneler": [
+   {"b": "Əllərini yumayıblar?", "ayə": "Matta 15:1–9", "alt": "Əl yuma barədə mübahisə edən fariseylər", "p": ["Fariseylər soruşdular: “Niyə şagirdlərin yeməkdən əvvəl [[adət]]ə görə əllərini yumurlar?”", "İsa dedi: “Siz dilinizlə Allahı izzətləndirirsiniz, amma ürəyiniz Ondan uzaqdır.” Allah zahirdən çox [[ürək]]ə baxır."]},
+   {"b": "Ürəkdən çıxan", "ayə": "Matta 15:10–20", "alt": "Şagirdlərinə ürək haqqında öyrədən İsa", "p": ["“Ağıza girən insanı murdar etmir. Ağızdan çıxan insanı murdar edir.”", "Pis fikirlər, yalan, nifrət dolu sözlər ürəkdən çıxır. Buna görə ürəyimiz təmiz olmalıdır."]},
+   {"b": "Təslim olmayan ana", "ayə": "Matta 15:21–28", "alt": "İsanın qarşısında diz çöküb qızı üçün yalvaran Kənanlı qadın", "p": ["Yadellilərin torpağında yaşayan [[Kənan]]lı bir qadın qışqırırdı: “Ya Rəbb, Davud Oğlu, mənə rəhm et! Qızım çox əziyyət çəkir.”", "İsa əvvəlcə cavab vermədi, amma qadın təslim olmadı. “İtlər də sahiblərinin süfrəsindən düşən [[qırıntı]]ları yeyir.” İsa dedi: “Ey qadın, [[iman]]ın böyükdür! Qoy istədiyin kimi olsun.” Həmin an qızı sağaldı."]},
+   {"b": "Dörd min nəfəri doyurdu", "ayə": "Matta 15:29–39", "alt": "Dağda çox adama çörək paylayan İsa", "p": ["İsa dağda oturanda insanlar axsaqları, korları, lalları Onun yanına gətirdilər. İsa hamısına şəfa verdi.", "Üç gün Onunla qalan izdihama İsanın rəhmi gəldi. Yeddi çörək və bir neçə kiçik balıqla dörd min nəfəri doyurdu. Yeddi zənbil artıq qaldı."]}
+  ],
+  "aye": {"metn": "“Ey qadın, imanın böyükdür! Qoy istədiyin kimi olsun.”", "ref": "15:28", "bos": "Ey qadın, ___ ___! Qoy ___ kimi olsun.", "sozler": ["imanın", "böyükdür", "istədiyin"], "yalan": "kiçikdir"},
+  "lugat": {
+   "adət": {"i": "📜", "x": "전통", "m": "Qədimdən insanların əməl etdiyi vərdiş və ya qaydadır.", "e": "Fariseylər əl yuma adətini çox vacib sayırdılar."},
+   "ürək": {"i": "❤️", "x": "마음", "m": "Düşünən, hiss edən və qərar verən daxili insanımızdır.", "e": "Allah ürəyə baxır."},
+   "Kənan": {"i": "🗺️", "x": "가나안", "m": "İsrailin şimalında yadellilərin yaşadığı bölgədir.", "e": "Kənanlı qadın İsanın yanına gəldi."},
+   "qırıntı": {"i": "🍞", "x": "부스러기", "m": "Çörək yeyəndə düşən kiçik tikələrdir.", "e": "İtlər də qırıntıları yeyir."},
+   "iman": {"i": "💗", "x": "믿음", "m": "İsanın kömək edəcəyinə inanıb Ona güvənən ürəkdir.", "e": "Ey qadın, imanın böyükdür!"}
+  },
+  "test": [
+   {"q": "Allah nəyə baxır?", "o": ["Ürəyə", "Paltara", "Üzə"], "a": 0, "f": "Düzdür! Zahirdən çox ürəyə."},
+   {"q": "İnsanı nə murdar edir?", "o": ["Ağızdan çıxan pis şeylər", "Əldəki torpaq", "Dadlı yemək"], "a": 0, "f": "Düzdür! Ürəkdən çıxan pis söz və fikirlər."},
+   {"q": "Kənanlı qadın niyə İsanın yanına gəldi?", "o": ["Qızı xəstə olduğu üçün", "Ac olduğu üçün", "Yolu azdığı üçün"], "a": 0, "f": "Düzdür! Qızı üçün təslim olmadı."},
+   {"q": "İsa Kənanlı qadının imanı haqqında nə dedi?", "o": ["Böyükdür", "Kiçikdir", "Yoxdur"], "a": 0, "f": "Düzdür! Yadelli qadının imanını təriflədi."}
+  ],
+  "dusun": ["Ağzımdan çıxan sözlər ürəyim haqqında nə deyir?", "Kənanlı qadın niyə təslim olmadı?", "Təslim olmadan dua etmək istədiyim nədir?"],
+  "fealiyyet": {"ciz": "İsanın qarşısında qızı üçün dua edən ananı çək.", "b": "Ürəyindən nə çıxsın?", "p": "Ürəyindən çıxmasını istədiyin yaxşı şeyləri seç.", "ph": "",
+   "secim": {"basliq": "Ürəyindən nə çıxsın?", "izah": "Toxun və seç. Bir neçəsini seçə bilərsən.", "cumle": "Ürəyimdən {x} çıxsın!", "bos": "xoş sözlər", "bag": "və",
+    "secimler": [["💬", "xoş sözlər"], ["🙏", "dua"], ["🎶", "tərif"], ["🤗", "bağışlama"], ["💖", "məhəbbət"], ["😊", "təşəkkür"]]}},
+  "dua": "İsa, zahirdən çox ürəyimə baxdığın üçün Sənə şükür edirəm. Ürəyimi təmizlə ki, ağzımdan yaxşı sözlər çıxsın. Kənanlı qadın kimi təslim olmadan Səndən diləyən böyük iman ver. İsa Məsihin adı ilə dua edirəm. Amin."
+ },
+ "genc": {
+  "basliq": "Qırıntı da bəsdir",
+  "giris": "İnsanları “pak” və “murdar” deyə ayıran dövr idi. Meyar əllərin yuyulub-yuyulmaması və hansı xalqdan olmaq idi. İsa o sərhədi silir və ən kənarda olan yadelli qadında İsraildə görmədiyi imanı tapır.",
+  "meqsed": ["İnsan adəti ilə Allahın əmri, zahir ilə batin arasındakı fərqi anlayırıq.", "Kənanlı qadının hekayəsində imanın xüsusiyyətlərini izah edə bilirik.", "Çəkdiyimiz “içəri” və “çöl” sərhədlərinə baxıb israrlı duaya qərar veririk."],
+  "sehneler": [
+   {"b": "Ağsaqqalların adəti", "ayə": "Matta 15:1–9", "alt": "Əl yuma barədə mübahisə edən fariseylər", "p": ["Fariseylərin əl yuması gigiyena deyil, dini paklıq mərasimi idi. Qanunda yalnız kahinlər üçün olan qaydanı hamıya genişləndirən [[ağsaqqalların adəti]] idi.", "İsa əks sual verir: valideynə hörmətdən qaçmaq üçün “qorban” (Allaha həsr edilib) deyə and içmək adəti Allahın əmrini ləğv etmək deyilmi? Sonra Yeşaya 29:13-dən sitat gətirir: “Bu xalq dodaqları ilə Mənə hörmət edir, amma ürəkləri Məndən uzaqdır.”"], "deep": {"b": "Dərindən baxaq · Adət pisdirmi?", "p": "Adətin özü yaxşı ola bilər. Problem insan adəti Allahın əmrindən üstün tutulanda yaranır. Cəmiyyət mədəniyyəti də eyni sual qarşısında durmalıdır: bu adət məni Allaha yaxınlaşdırır, yoxsa Allahı örtür?"}},
+   {"b": "İçdən çıxan", "ayə": "Matta 15:10–20", "alt": "Şagirdlərinə ürək haqqında öyrədən İsa", "p": ["“Ağıza girən insanı murdar etmir, ağızdan çıxan insanı murdar edir.” İsa paklığın yerini əllərdən [[ürək]]ə köçürür.", "“Pis fikirlər, qətl, zina, əxlaqsızlıq, oğurluq, yalançı şahidlik, böhtan ürəkdən çıxır.” Problem çöldəki dünyada deyil, mənim içimdədir."], "deep": {"b": "Dərindən baxaq · Koru aparan kor", "p": "İsa fariseyləri “koru aparan kor” adlandırır. Öz ürəyini görməyən insan başqasına düzgün yol göstərə bilməz. Bu, 7:3–5-dəki “tir” hekayəsi ilə bağlıdır."}},
+   {"b": "Ən kənardakı iman", "ayə": "Matta 15:21–28", "alt": "İsanın qarşısında diz çöküb qızı üçün yalvaran Kənanlı qadın", "p": ["İsa yadellilərin bölgəsi olan Sur və Sidona getdi. Qadın həm yadelli, həm qadın, həm də cinə tutulmuş qızın anası idi. Üstəlik, “[[Kənan]]” Əhdi-Ətiqdə İsrailin köhnə düşməni idi. Belə bir qadın İsanı “Davud Oğlu” deyə çağırdı.", "İsanın susmasına və rədd kimi səslənən sözünə baxmayaraq, qadın geri çəkilmədi. “Bəli, ya Rəbb, amma itlər də sahiblərinin süfrəsindən düşən qırıntıları yeyir.” İsa heyran qalır: “Ey qadın, imanın böyükdür.” Bu, 14:31-də Peterə deyilən “ey kiçik imanlı” sözü ilə ziddiyyət təşkil edir."], "deep": {"b": "Dərindən baxaq · Niyə əvvəlcə rədd etdi?", "p": "İsanın vəzifəsinin ardıcıllığı (əvvəlcə İsrail, 10:6) görünür, amma söhbətin özü qadının imanını göstərən səhnəyə çevrilir. Qadın haqq iddia etmir, yalnız lütfə söykənir. “Qırıntı” da bəsdir deyən imandır. Çünki İsanın lütfü qırıntısı belə daşacaq qədər böyükdür.", "rose": true}},
+   {"b": "Yadellilərin torpağında ziyafət", "ayə": "Matta 15:29–39", "alt": "Dağda çox adama çörək paylayan İsa", "p": ["Qalileyanın şərqində (ehtimal ki, yadellilərin bölgəsi olan Dekapolisdə) İsa çoxlu xəstəyə şəfa verdi və insanlar “İsrailin Allahını izzətləndirdilər”. Yadellilər İsrailin Allahına həmd edir.", "Sonra dörd min nəfəri doyurur. 14-cü fəsildəki beş min yəhudi torpağında idisə, bu dəfə yadellilərin torpağındadır. Kənanlı qadının dediyi “qırıntı” indi yadellilər üçün daşan ziyafətə çevrildi."], "deep": {"b": "Dərindən baxaq · 12 və 7", "p": "Beş min nəfərdən sonra on iki səbət (İsrailin on iki qəbiləsi), dörd min nəfərdən sonra isə yeddi zənbil artıq qaldı. 7 kamillik rəqəmidir, yaxud Kənanın yeddi xalqını (Qan. 7:1) xatırladaraq bütün millətləri simvollaşdırır."}}
+  ],
+  "cedvel": {"b": "15-ci fəsildə “içəri” və “çöl”", "alt": "15:1–39", "bas": ["", "Fariseylər", "Kənanlı qadın"], "set": [["Mövqe", "Dinin mərkəzi, Yerusəlim", "Ən kənar, yadellilərin torpağı"], ["Maraq", "Əllər yuyulubmu (zahir)", "Qızının sağalması (çarəsizlik)"], ["İsaya münasibət", "Mübahisə edir, sınayır", "Diz çöküb yalvarır"], ["İsanın qiyməti", "Koru aparan kor", "İmanın böyükdür"]]},
+  "aye": {"metn": "“Qadın dedi: “Bəli, ya Rəbb, amma itlər də sahiblərinin süfrəsindən düşən qırıntıları yeyir.” Onda İsa ona cavab verdi: “Ey qadın, imanın böyükdür! Qoy istədiyin kimi olsun.” Həmin saat qızı sağaldı.”", "ref": "15:27–28"},
+  "lugat": {
+   "ağsaqqalların adəti": {"i": "📜", "o": "Yunanca paradosis, “ötürülən”", "x": "장로들의 전통", "s": "Şifahi qanun", "m": "Musanın Qanununu izah edib tamamlamaq üçün ravvilərin ötürdüyü qaydalardır. Sonralar Mişna adı ilə yazıya alındı.", "e": "Qanunu “hasar” kimi qorumaq kimi yaxşı niyyətlə başlamışdı."},
+   "ürək": {"i": "❤️", "o": "Yunanca kardiya", "x": "마음", "s": "Fikir və iradənin mərkəzi", "m": "Müqəddəs Kitabda ürək yalnız hisslər deyil, düşünüb qərar verən mərkəzdir.", "e": "“Nə bəxtiyardır ürəyi pak olanlar” (5:8)."},
+   "Kənan": {"i": "🗺️", "o": "İvritcə Kənaan", "x": "가나안", "s": "İsrailin köhnə düşmən xalqı", "m": "Mark onu “Suriya-Finikiyalı qadın” adlandırır, Matta isə bilərəkdən Əhdi-Ətiqdəki “Kənan” adını işlədir. Ən uzaqdakının ən yaxına gəldiyini vurğulayır.", "e": "İsanın nəsil şəcərəsində də Kənanlı qadın Rahav var (1:5)."},
+   "qırıntı": {"i": "🍞", "o": "Yunanca psixion", "x": "부스러기", "s": "Kiçik lütfə etimad", "m": "Süfrədən düşən kiçik tikədir. Qadın yalnız bununla da qızının sağalacağına inandı.", "e": "“İt” (kinarion) evdə saxlanan kiçik küçüyü bildirən sözdür."}
+  },
+  "test": [
+   {"q": "Fariseylərin əl yuması əsasən nə ilə bağlı idi?", "o": ["Dini paklıq mərasimi", "Gigiyena", "Tibbi yoxlama"], "a": 0, "f": "Düzdür. Ağsaqqalların adəti idi."},
+   {"q": "İsanın sitat gətirdiyi Yeşaya 29:13 nə deyir?", "o": ["Dodaqları ilə hörmət edir, ürəkləri uzaqdır", "Bakirə hamilə olacaq", "Rəbb mənim Çobanımdır"], "a": 0, "f": "Düzdür. Zahiri ilə batini fərqli olan iman."},
+   {"q": "İsaya görə insanı nə murdar edir?", "o": ["Ürəkdən çıxan", "Yemək", "Əldəki toz"], "a": 0, "f": "Düzdür. Paklığın yeri ürəkdir."},
+   {"q": "Mattanın bu qadını “Kənanlı” adlandırmasının mənası nədir?", "o": ["Ən uzaq düşmən xalqdan olduğunu vurğulamaq", "Varlı olduğunu vurğulamaq", "Kahin ailəsindən olduğunu vurğulamaq"], "a": 0, "f": "Düzdür. Ən uzaqdakı ən yaxına gəldi."},
+   {"q": "İsanın 14:31-də Peterə və 15:28-də qadına verdiyi qiymət nədir?", "o": ["Kiçik iman / böyük iman", "Böyük iman / kiçik iman", "Hər ikisi böyük iman"], "a": 0, "f": "Düzdür. Gözlənilməz ziddiyyət."}
+  ],
+  "paylas": ["Əməl etdiyim iman vərdişlərindən hansında “Allahdan çox vərdişin özü” vacib olub?", "Son vaxtlar ağzımdan çıxan sözləri xatırlasam, ürəyimin vəziyyəti necədir?", "Cəmiyyətimiz və ya mən insanları “içəri” və “çöl” deyə ayırırıqmı?", "Rədd edilmiş kimi hiss etsəm də, dua etməyə davam etdiyim mövzu varmı?"],
+  "etiraf": {"b": "Mənim etirafım", "p": "Kənanlı qadın kimi haqqa deyil, lütfə söykənib İsaya etdiyin yalvarışı üç-dörd cümlə ilə yaz.", "ph": "Məsələn: Ya Rəbb, mən bunu almağa layiq deyiləm. Yenə də Sənin qırıntın belə …"},
+  "dua": "İsa, zahirə deyil, ürəyə baxdığın üçün Sənə şükür edirəm. Yalnız dodaqlarımla deyil, ürəyimlə Allahı sevim. Çəkdiyim sərhədləri sil və Kənanlı qadın kimi haqqa deyil, lütfə söykənib axıradək diləyən böyük iman ver. İsa Məsihin adı ilə dua edirəm. Amin."
+ }
+},
+"muellim": {
+ "mesaj": "20과의 중심은 한 문장입니다. **하나님은 손이 아니라 마음을 보시며, 가장 바깥에 있던 사람이라도 은혜에 기대어 끝까지 구하는 믿음을 ‘크다’고 하신다.**",
+ "hazirliq": ["학생용 교재를 열 휴대폰이나 태블릿, 이어폰", "깨끗한 컵과 겉은 깨끗하지만 안이 더러운 컵 (시각 자료)", "빵 부스러기"],
+ "fon": [
+  ["1. 손 씻기 전통", "출애굽기 30:19의 제사장 규정을 바리새인들이 일반인의 식사에까지 확대한 것입니다. 마가복음 7:3–4가 자세히 설명합니다."],
+  ["2. 고르반", "재산을 ‘하나님께 드린 것’(고르반)으로 선언하면 부모 부양 의무를 피할 수 있다는 해석이 있었습니다. 경건을 핑계로 계명을 어긴 예입니다."],
+  ["3. 두로와 시돈", "지중해 연안의 페니키아 도시들로 이방 지역입니다. 11:21–22에서 예수님은 이 도시들이 오히려 회개했을 것이라고 하셨습니다."],
+  ["4. ‘개’ 표현", "유대인이 이방인을 비하할 때 쓰던 말이지만, 예수님은 집 안의 작은 강아지(퀴나리온)를 쓰셨습니다. 여인은 그 말을 은혜의 논리로 바꿔 대답했습니다. 아이들에게는 이 부분을 조심스럽게 설명하세요."],
+  ["5. 현지 연결", "다민족 사회인 조지아에서 ‘이방인’과 ‘우리’의 경계는 실제적인 주제입니다. 하나님의 은혜는 민족의 경계를 넘는다는 점을 강조해 주세요."]
+ ],
+ "usaq_plan": [
+  ["5분", "두 컵", "겉만 깨끗한 컵과 속까지 깨끗한 컵 비교", "“어느 컵으로 물을 마시고 싶나요? 하나님은 우리 속마음을 보세요.”"],
+  ["15분", "장면 1–4 듣고 읽기", "장면마다 듣기, 노란 낱말 누르기", "“엄마는 왜 포기하지 않았을까요?”"],
+  ["5분", "외울 말씀", "빈칸 놀이 → ‘믿음이 크도다’에 두 팔을 크게", ""],
+  ["5분", "확인 퀴즈", "혼자 풀고 함께 확인", ""],
+  ["10분", "활동과 기도", "마음에서 나올 좋은 것 고르기 → 기도", ""]
+ ],
+ "genc_plan": [
+  ["5분", "열기", "“우리 학교에서 ‘끼리끼리’ 나뉘는 기준은?”", ""],
+  ["15분", "장면 1–2", "장로들의 전통, 고르반, 마음에서 나오는 것", ""],
+  ["10분", "장면 3–4와 안팎 표", "가나안 여인, 작은 믿음과 큰 믿음, 이방 땅의 사천 명", "“왜 처음에 거절하셨나?”"],
+  ["5분", "확인 문제", "", ""],
+  ["15분", "나눔과 고백", "나눔 질문 2개 → 은혜에 기댄 간청 쓰기 → 기도", ""]
+ ],
+ "ipucu_usaq": ["‘개’라는 말이 상처가 되지 않게, ‘집 안의 작은 강아지도 부스러기를 먹어요’라고 부드럽게 설명하세요.", "손 씻기 이야기를 ‘손 안 씻어도 돼요’로 오해하지 않도록, 위생은 좋지만 하나님은 마음을 더 보신다고 말해 주세요.", "가나안 여인을 ‘포기하지 않은 엄마’로 소개하면 아이들이 공감합니다."],
+ "ipucu_genc": ["예수님의 처음 반응이 차갑게 느껴진다는 질문을 환영하세요. 정직한 질문이 깊은 이해로 이어집니다.", "‘마음에서 나오는 악’ 목록을 정죄의 도구가 아니라 자기 성찰의 거울로 쓰게 하세요.", "다음 과(16장)는 베드로의 신앙 고백입니다."],
+ "suallar": [
+  ["예수님은 왜 처음에 여자를 모른 척하셨어요?", "여자의 믿음이 얼마나 큰지 모두에게 보여 주시려고 기다리신 거예요.", "예수님의 사명 순서(이스라엘 먼저)가 있었지만, 대화를 통해 여인의 놀라운 믿음이 드러났어요. 결국 예수님은 칭찬하시고 딸을 고쳐 주셨어요."],
+  ["밥 먹기 전에 손 안 씻어도 돼요?", "손은 씻는 게 좋아요! 다만 하나님은 손보다 마음이 깨끗한지를 더 보세요.", "예수님은 위생이 아니라 종교 의식을 문제 삼으셨어요. 깨끗한 손보다 깨끗한 마음이 하나님 앞에서 더 중요해요."],
+  ["왜 오천 명이랑 사천 명을 두 번 먹이셨어요?", "예수님은 배고픈 사람이면 누구든지 먹여 주세요. 두 번째는 이방 사람들이었어요.", "첫 번째는 유대 땅, 두 번째는 이방 땅에서였어요. 하나님 나라 잔치에 모든 민족이 초대받았다는 메시지예요."]
+ ]
+}
+}
