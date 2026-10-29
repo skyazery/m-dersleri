@@ -1,0 +1,163 @@
+{
+"no": 6, "ref": "4:12–25", "deq": {"usaq": 40, "genc": 50},
+"img": ["matta/06-qalileya.jpg", "08-sagirdler-cagirilir.jpg", "matta/06-yaqub-yehya.jpg", "matta/06-sefa.jpg"],
+"hero": 1,
+"ko": {
+ "usaq": {
+  "basliq": "나를 따라오너라",
+  "hedef": ["예수님이 어부들을 제자로 부르신 이야기를 알아요.", "예수님을 ‘따른다’는 것이 무엇인지 알아요.", "나도 친구에게 예수님을 소개할 수 있음을 배워요."],
+  "sehneler": [
+   {"b": "갈릴리에 비친 빛", "ayə": "4:12–17", "alt": "갈릴리 바닷가 마을에서 말씀을 전하시는 예수님", "p": ["예수님은 [[갈릴리 바다]] 옆 가버나움이라는 마을로 가서 사셨어요.", "그리고 사람들에게 [[복음]]을 전하기 시작하셨어요. “회개하세요. 하늘나라가 가까이 왔어요!” 어둠 속에 있던 사람들에게 큰 빛이 비친 거예요."]},
+   {"b": "베드로와 안드레", "ayə": "4:18–20", "alt": "그물을 던지던 어부들을 부르시는 예수님", "p": ["예수님이 바닷가를 걷다가 [[그물]]을 던지는 [[어부]] 형제를 보셨어요. 시몬 베드로와 안드레였어요.", "예수님이 말씀하셨어요. “나를 따라오너라. 너희를 사람을 낚는 어부가 되게 하겠다.” 두 사람은 곧바로 그물을 버려두고 예수님을 [[따랐어요|따르다]]."]},
+   {"b": "야고보와 요한", "ayə": "4:21–22", "alt": "배와 아버지를 두고 예수님을 따르는 야고보와 요한", "p": ["조금 더 가시다가 배에서 아버지 세베대와 함께 그물을 고치던 야고보와 요한 형제를 보셨어요.", "예수님이 부르시자 두 사람은 곧바로 배와 아버지를 두고 예수님을 따랐어요. 이렇게 예수님의 첫 [[제자]]들이 생겼어요."]},
+   {"b": "아픈 사람들을 고치셨어요", "ayə": "4:23–25", "alt": "많은 아픈 사람들을 고치시는 예수님", "p": ["예수님은 갈릴리 곳곳을 다니시며 하나님 나라를 가르치시고, 아픈 사람들을 [[고치셨어요|고치다]].", "소문이 퍼져서 아주 많은 사람이 예수님을 따라왔어요."]}
+  ],
+  "aye": {"metn": "“나를 따라오너라. 내가 너희를 사람을 낚는 어부가 되게 하겠다.”", "ref": "4:19", "bos": "___를 ___. 내가 너희를 ___을 낚는 어부가 되게 하겠다.", "sozler": ["나", "따라오너라", "사람"], "yalan": "물고기"},
+  "lugat": {
+   "갈릴리 바다": {"i": "🌊", "x": "Qalileya gölü", "m": "이스라엘 북쪽에 있는 큰 호수예요. 물고기가 많아서 어부들이 많이 살았어요.", "e": "예수님은 갈릴리 바닷가에서 제자들을 부르셨어요."},
+   "복음": {"i": "📣", "x": "Müjdə", "m": "‘기쁜 소식’이라는 뜻이에요. 예수님이 우리를 구원하러 오셨다는 소식이에요.", "e": "예수님은 마을마다 복음을 전하셨어요."},
+   "그물": {"i": "🕸️", "x": "tor", "m": "물고기를 잡으려고 실로 촘촘하게 엮은 도구예요.", "e": "베드로와 안드레는 그물을 버려두고 따랐어요."},
+   "어부": {"i": "🎣", "x": "balıqçı", "m": "물고기를 잡아서 사는 사람이에요.", "e": "예수님의 첫 제자들은 어부였어요."},
+   "따르다": {"i": "🚶", "x": "ardınca getmək", "m": "누군가의 뒤를 따라가며 그분에게 배우고 그분처럼 사는 거예요.", "e": "제자들은 예수님을 따랐어요."},
+   "제자": {"i": "👣", "x": "şagird", "m": "선생님을 따라다니며 배우는 사람이에요.", "e": "예수님은 열두 명의 제자를 부르셨어요."},
+   "고치다": {"i": "🩹", "x": "şəfa vermək", "m": "아픈 몸이나 마음을 낫게 하는 거예요.", "e": "예수님은 많은 사람을 고치셨어요."}
+  },
+  "test": [
+   {"q": "예수님이 처음 부르신 형제는 누구인가요?", "o": ["베드로와 안드레", "다윗과 솔로몬", "아브라함과 롯"], "a": 0, "f": "맞아요! 그물을 던지던 어부 형제예요."},
+   {"q": "예수님은 제자들을 무엇이 되게 하겠다고 하셨나요?", "o": ["사람을 낚는 어부", "부자 상인", "힘센 군인"], "a": 0, "f": "맞아요! 사람들을 예수님께 데려오는 사람이에요."},
+   {"q": "야고보와 요한은 무엇을 두고 예수님을 따랐나요?", "o": ["배와 아버지", "양과 염소", "집과 밭"], "a": 0, "f": "맞아요! 곧바로 따랐어요."},
+   {"q": "예수님이 갈릴리에서 하신 일이 아닌 것은?", "o": ["가르치기", "아픈 사람 고치기", "성을 쌓기"], "a": 2, "f": "맞아요! 예수님은 가르치고, 전하고, 고치셨어요."}
+  ],
+  "dusun": ["제자들은 왜 ‘곧바로’ 예수님을 따랐을까요?", "‘사람을 낚는 어부’는 무엇을 하는 사람일까요?", "예수님을 소개하고 싶은 친구나 가족이 있나요?"],
+  "fealiyyet": {"ciz": "그물을 내려놓고 예수님을 따라가는 어부들을 그려 보세요.", "b": "예수님을 소개하고 싶은 사람", "p": "예수님 이야기를 들려주고 싶은 사람을 써 보세요.", "ph": "예) 우리 반 친구에게 예수님 이야기를 해 주고 싶어요."},
+  "dua": "예수님, 평범한 어부들을 제자로 부르신 것처럼 저도 불러 주셔서 감사합니다. 예수님을 기쁘게 따라가게 해 주세요. 제 친구와 가족도 예수님을 알게 해 주세요. 예수님 이름으로 기도합니다. 아멘."
+ },
+ "genc": {
+  "basliq": "그물을 버려두고",
+  "giris": "당시에는 학생이 존경하는 선생님을 골라 찾아갔습니다. 그런데 예수님은 거꾸로, 아무도 고르지 않을 갈릴리 어부들을 먼저 찾아가 부르셨습니다.",
+  "meqsed": ["예수님이 갈릴리에서 사역을 시작하신 의미를 이해해요.", "제자로 부르심의 특징과 따름의 대가를 설명할 수 있어요.", "‘사람을 낚는 어부’로서 내 삶의 자리에서 할 수 있는 일을 찾아요."],
+  "sehneler": [
+   {"b": "어둠 속에 비친 빛", "ayə": "4:12–17", "alt": "갈릴리 바닷가 마을에서 말씀을 전하시는 예수님", "p": ["세례 요한이 잡힌 뒤 예수님은 [[가버나움]]으로 옮겨 사역을 시작하세요. 마태는 이사야 9:1–2를 인용해요. “흑암에 앉은 백성이 큰 빛을 보았다.”", "[[갈릴리]]는 ‘이방인의 갈릴리’라 불릴 만큼 여러 민족이 섞여 살던 변두리였어요. 예루살렘의 엘리트가 아닌 변두리에서 빛이 먼저 비쳤어요."], "deep": {"b": "깊이 보기 · 왜 갈릴리일까?", "p": "스불론과 납달리 땅은 주전 8세기 앗수르에게 가장 먼저 짓밟힌 곳이에요. 가장 먼저 어둠에 빠진 곳에 가장 먼저 빛이 왔어요. 하나님은 회복을 상처가 가장 깊은 곳에서 시작하세요."}},
+   {"b": "선생님이 먼저 부르시다", "ayə": "4:18–20", "alt": "그물을 던지던 어부들을 부르시는 예수님", "p": ["당시 [[랍비]]의 [[제자]]가 되려면 학생이 먼저 선생님을 찾아가 받아 달라고 부탁했어요. 그런데 예수님은 일하던 어부들에게 먼저 다가가 “나를 따라오너라” 하셨어요.", "베드로와 안드레는 ‘곧’ 그물을 버려두고 따랐어요. 마태는 이 ‘곧’을 두 번이나 강조해요."], "deep": {"b": "깊이 보기 · 사람을 낚는 어부", "p": "예수님은 그들이 잘하는 일, 곧 물고기 잡는 일을 새 사명으로 바꿔 주셨어요. 부르심은 내가 가진 것을 버리게도 하지만, 그것을 하나님 나라를 위해 새롭게 쓰게도 해요."}},
+   {"b": "배와 아버지를 두고", "ayə": "4:21–22", "alt": "배와 아버지를 두고 예수님을 따르는 야고보와 요한", "p": ["야고보와 요한은 아버지 세베대와 함께 그물을 손질하고 있었어요. 품꾼을 둘 정도의 가족 사업이었어요 {{막 1:20}}.", "그들은 배와 아버지를 두고 따랐어요. 따름에는 대가가 있었어요. 직업과 안정, 가족의 기대까지 걸린 결정이었어요."], "deep": {"b": "깊이 보기 · 대가 있는 따름", "p": "이 장면은 가족을 버리라는 명령이 아니에요. 예수님이 그 어떤 것보다 우선이라는 고백이에요. 나중에 세베대의 아내도 예수님을 따르는 사람이 돼요(27:56).", "rose": true}},
+   {"b": "가르치고, 전하고, 고치시다", "ayə": "4:23–25", "alt": "많은 아픈 사람들을 고치시는 예수님", "p": ["예수님은 갈릴리를 두루 다니시며 [[회당]]에서 가르치시고, 하늘나라 [[복음]]을 전하시고, 모든 병을 고치셨어요.", "소문은 시리아, 데가볼리, 요단강 건너편까지 퍼졌어요. 유대인과 이방인이 함께 몰려왔어요."], "deep": {"b": "깊이 보기 · 마태복음의 구조", "p": "4:23과 9:35는 거의 같은 문장이에요. 그 사이에 예수님의 ‘가르침’(5–7장 산상설교)과 ‘치유’(8–9장 기적)가 차례로 나와요. 마태는 말씀과 행동을 함께 보여 주며 예수님이 누구신지 증명해요."}}
+  ],
+  "cedvel": {"b": "예수님 사역의 세 가지", "alt": "4:23 · 9:35", "bas": ["사역", "어디서", "무엇을"], "set": [["가르치심", "회당", "성경의 참뜻"], ["전파하심", "마을과 들판", "하늘나라가 왔다는 복음"], ["고치심", "사람들이 있는 모든 곳", "몸과 마음의 병, 귀신 들림"]]},
+  "aye": {"metn": "“나를 따라오너라. 내가 너희를 사람을 낚는 어부가 되게 하겠다.” 그들은 곧 그물을 버려두고 예수님을 따랐다.", "ref": "4:19–20"},
+  "lugat": {
+   "가버나움": {"i": "🏘️", "o": "히브리어 크파르 나훔, ‘나훔의 마을’", "x": "Kəfərnahum", "s": "예수님 사역의 근거지", "m": "갈릴리 바다 북쪽 호숫가 마을로, 베드로의 집이 있었어요. 예수님의 ‘자기 동네’로 불려요(9:1).", "e": "지금도 그곳에서 1세기 회당 터와 베드로 집터가 발굴되었어요."},
+   "갈릴리": {"i": "🗺️", "o": "히브리어 갈릴 하고임, ‘이방인의 지역’", "x": "Qalileya", "s": "이스라엘 북부 변두리", "m": "여러 민족이 섞여 살아서 예루살렘 사람들에게 무시당하던 지역이에요. 갈릴리 사투리도 놀림을 받았어요(26:73).", "e": "예수님의 열두 제자 대부분이 갈릴리 출신이었어요."},
+   "랍비": {"i": "📚", "o": "히브리어 ‘나의 선생님’", "x": "ravvi", "s": "율법을 가르치는 선생", "m": "제자들을 모아 율법을 가르치던 선생님이에요. 제자는 선생님과 함께 살며 그의 말과 삶을 배웠어요.", "e": "제자들은 예수님을 ‘랍비’라고 불렀어요."},
+   "제자": {"i": "👣", "o": "헬라어 마테테스, ‘배우는 사람’", "x": "şagird", "s": "따르며 배우는 사람", "m": "지식만 배우는 학생이 아니라, 선생님과 함께 다니며 그 삶을 닮아 가는 사람이에요.", "e": "마태복음은 “모든 민족을 제자로 삼으라”로 끝나요(28:19)."},
+   "회당": {"i": "🕍", "o": "헬라어 쉬나고게, ‘모이는 곳’", "x": "sinaqoq", "s": "마을의 예배·교육 장소", "m": "성전은 예루살렘에 하나뿐이었지만, 회당은 마을마다 있어서 안식일에 모여 성경을 읽고 배웠어요.", "e": "예수님은 회당에서 자주 가르치셨어요."},
+   "복음": {"i": "📣", "o": "헬라어 유앙겔리온, ‘좋은 소식’", "x": "Müjdə", "s": "왕의 승리를 알리는 기쁜 소식", "m": "원래 전쟁 승리나 새 왕의 즉위를 알리는 말이었어요. 예수님은 하나님이 왕으로 오셨다는 소식을 전하셨어요.", "e": "아제르바이잔어로는 ‘Müjdə’라고 해요."}
+  },
+  "test": [
+   {"q": "예수님이 사역의 근거지로 삼으신 마을은?", "o": ["가버나움", "베들레헴", "예루살렘"], "a": 0, "f": "맞아요. 갈릴리 바닷가 마을이에요."},
+   {"q": "마태가 인용한 이사야 9장은 갈릴리를 어떻게 묘사하나요?", "o": ["흑암에 앉은 백성이 큰 빛을 봄", "젖과 꿀이 흐르는 땅", "거룩한 성"], "a": 0, "f": "맞아요. 가장 어두운 곳에 빛이 먼저 왔어요."},
+   {"q": "당시 랍비와 제자의 관계와 다른 점은?", "o": ["예수님이 먼저 제자를 부르셨다", "제자들이 시험을 봤다", "학비를 냈다"], "a": 0, "f": "맞아요. 부르심은 예수님에게서 시작돼요."},
+   {"q": "야고보와 요한이 두고 떠난 것은?", "o": ["배와 아버지 세베대", "집과 양 떼", "돈 가방"], "a": 0, "f": "맞아요. 따름에는 대가가 있었어요."},
+   {"q": "4:23에서 말하는 예수님 사역의 세 가지는?", "o": ["가르치심·전파하심·고치심", "기도·금식·구제", "건축·전쟁·통치"], "a": 0, "f": "맞아요. 5–9장이 이 순서로 펼쳐져요."}
+  ],
+  "paylas": ["예수님이 ‘먼저’ 나를 찾아오셨다는 사실은 내 신앙을 어떻게 다르게 보게 하나요?", "예수님을 따르기 위해 내려놓아야 할 ‘그물’이 있다면 무엇인가요?", "내가 잘하는 일을 하나님 나라를 위해 쓴다면 어떤 모습일까요?", "내 주변에서 ‘어둠 속에 앉은’ 친구는 누구인가요? 나는 어떻게 빛이 될 수 있을까요?"],
+  "etiraf": {"b": "나의 고백", "p": "예수님이 오늘 내 이름을 부르시며 “나를 따라오너라” 하신다면, 나는 무엇이라고 대답할까요? 서너 문장으로 써 보세요.", "ph": "예) 예수님, 저는 아직 내려놓기 어려운 것이 있어요. 그래도 …"},
+  "dua": "예수님, 아무도 고르지 않을 사람들을 먼저 찾아와 부르신 은혜에 감사합니다. 저를 붙잡고 있는 그물을 내려놓고 예수님을 따르게 해 주세요. 제가 잘하는 것을 사람을 살리는 일에 쓰게 해 주세요. 저를 부르신 예수님 이름으로 기도합니다. 아멘."
+ }
+},
+"az": {
+ "usaq": {
+  "basliq": "Ardımca gəlin",
+  "hedef": ["İsanın balıqçıları şagird olmağa çağırdığını öyrənəcəyik.", "İsanın ardınca getməyin nə demək olduğunu öyrənəcəyik.", "Dostlarımıza İsa haqqında danışa biləcəyimizi öyrənəcəyik."],
+  "sehneler": [
+   {"b": "Qalileyaya düşən işıq", "ayə": "Matta 4:12–17", "alt": "Qalileya gölünün sahilindəki kənddə vəz edən İsa", "p": ["İsa [[Qalileya gölü]]nün yanındakı Kəfərnahum kəndinə köçdü.", "O, insanlara [[Müjdə]]ni yaymağa başladı: “Tövbə edin! Səmavi Padşahlıq yaxınlaşıb!” Qaranlıqda olan insanlara böyük bir işıq doğdu."]},
+   {"b": "Peter və Andrey", "ayə": "Matta 4:18–20", "alt": "Tor atan balıqçıları çağıran İsa", "p": ["İsa göl sahilində gəzəndə [[tor]] atan iki qardaş [[balıqçı]] gördü. Bunlar Simon Peter və Andrey idi.", "İsa dedi: “Ardımca gəlin, sizi insan balıqçıları edəcəyəm.” Onlar dərhal torlarını buraxıb İsanın [[ardınca getdilər|ardınca getmək]]."]},
+   {"b": "Yaqub və Yəhya", "ayə": "Matta 4:21–22", "alt": "Qayığı və atasını qoyub İsanın ardınca gedən Yaqub və Yəhya", "p": ["Bir az irəlidə İsa qayıqda ataları Zavday ilə torlarını düzəldən Yaqub və Yəhya qardaşlarını gördü.", "İsa onları çağıranda onlar dərhal qayığı və atalarını qoyub Onun ardınca getdilər. Beləcə İsanın ilk [[şagird]]ləri oldu."]},
+   {"b": "Xəstələrə şəfa verdi", "ayə": "Matta 4:23–25", "alt": "Çoxlu xəstəyə şəfa verən İsa", "p": ["İsa bütün Qalileyanı gəzib Allahın Padşahlığı haqqında öyrədir və xəstələrə [[şəfa verirdi|şəfa vermək]].", "Bu xəbər hər yerə yayıldı və çox böyük izdiham Onun ardınca getdi."]}
+  ],
+  "aye": {"metn": "“Ardımca gəlin, sizi insan balıqçıları edəcəyəm.”", "ref": "4:19", "bos": "___ gəlin, sizi ___ ___ edəcəyəm.", "sozler": ["Ardımca", "insan", "balıqçıları"], "yalan": "balıq"},
+  "lugat": {
+   "Qalileya gölü": {"i": "🌊", "x": "갈릴리 바다", "m": "İsrailin şimalında böyük göldür. Balığı çox olduğu üçün orada çoxlu balıqçı yaşayırdı.", "e": "İsa şagirdlərini Qalileya gölünün sahilində çağırdı."},
+   "Müjdə": {"i": "📣", "x": "복음", "m": "“Sevincli xəbər” deməkdir. İsanın bizi xilas etməyə gəldiyi xəbəridir.", "e": "İsa hər kənddə Müjdəni yayırdı."},
+   "tor": {"i": "🕸️", "x": "그물", "m": "Balıq tutmaq üçün ipdən sıx toxunmuş alətdir.", "e": "Peter və Andrey torlarını buraxıb İsanın ardınca getdilər."},
+   "balıqçı": {"i": "🎣", "x": "어부", "m": "Balıq tutaraq dolanan adamdır.", "e": "İsanın ilk şagirdləri balıqçı idi."},
+   "ardınca getmək": {"i": "🚶", "x": "따르다", "m": "Birinin arxasınca gedib ondan öyrənmək və onun kimi yaşamaqdır.", "e": "Şagirdlər İsanın ardınca getdilər."},
+   "şagird": {"i": "👣", "x": "제자", "m": "Müəllimin ardınca gedib ondan öyrənən adamdır.", "e": "İsa on iki şagird çağırdı."},
+   "şəfa vermək": {"i": "🩹", "x": "고치다", "m": "Xəstə bədəni və ya ürəyi sağaltmaqdır.", "e": "İsa çox adama şəfa verdi."}
+  },
+  "test": [
+   {"q": "İsanın ilk çağırdığı qardaşlar kim idi?", "o": ["Peter və Andrey", "Davud və Süleyman", "İbrahim və Lut"], "a": 0, "f": "Düzdür! Tor atan balıqçı qardaşlar idi."},
+   {"q": "İsa şagirdlərini nə edəcəyini dedi?", "o": ["İnsan balıqçıları", "Varlı tacirlər", "Güclü əsgərlər"], "a": 0, "f": "Düzdür! İnsanları İsaya gətirən adamlar."},
+   {"q": "Yaqub və Yəhya nəyi qoyub İsanın ardınca getdilər?", "o": ["Qayığı və atalarını", "Qoyun və keçiləri", "Ev və tarlanı"], "a": 0, "f": "Düzdür! Dərhal ardınca getdilər."},
+   {"q": "İsanın Qalileyada etmədiyi iş hansıdır?", "o": ["Öyrətmək", "Xəstələrə şəfa vermək", "Qala tikmək"], "a": 2, "f": "Düzdür! İsa öyrədir, Müjdəni yayır və şəfa verirdi."}
+  ],
+  "dusun": ["Şagirdlər niyə “dərhal” İsanın ardınca getdilər?", "“İnsan balıqçısı” nə edən adamdır?", "İsa haqqında danışmaq istədiyin dostun və ya ailə üzvün varmı?"],
+  "fealiyyet": {"ciz": "Torlarını qoyub İsanın ardınca gedən balıqçıları çək.", "b": "İsa haqqında kimə danışacaqsan?", "p": "İsa haqqında danışmaq istədiyin adamı seç.", "ph": "",
+   "secim": {"basliq": "İsa haqqında kimə danışacaqsan?", "izah": "Toxun və seç. Bir neçəsini seçə bilərsən.", "cumle": "Mən {x} İsa haqqında danışacağam!", "bos": "dostlarıma", "bag": "və",
+    "secimler": [["👫", "dostuma"], ["👨‍👩‍👧", "ailəmə"], ["🧒", "qardaşıma"], ["👧", "bacıma"], ["🏫", "sinif yoldaşıma"], ["🏠", "qonşuma"], ["👵", "nənəmə"], ["👴", "babama"]]}},
+  "dua": "İsa, adi balıqçıları şagird olmağa çağırdığın kimi məni də çağırdığın üçün Sənə şükür edirəm. Sevinclə Sənin ardınca getməyimə kömək et. Dostlarım və ailəm də Səni tanısınlar. İsa Məsihin adı ilə dua edirəm. Amin."
+ },
+ "genc": {
+  "basliq": "Torları buraxıb",
+  "giris": "O dövrdə şagird özü hörmət etdiyi müəllimi seçib onun yanına gedirdi. İsa isə əksinə, heç kimin seçməyəcəyi Qalileya balıqçılarının yanına özü gedib onları çağırdı.",
+  "meqsed": ["İsanın xidmətə Qalileyada başlamasının mənasını anlayırıq.", "Şagirdliyə çağırışın xüsusiyyətini və ardınca getməyin bədəlini izah edə bilirik.", "“İnsan balıqçısı” kimi öz həyatımızda edə biləcəyimiz işi tapırıq."],
+  "sehneler": [
+   {"b": "Qaranlığa doğan işıq", "ayə": "Matta 4:12–17", "alt": "Qalileya gölünün sahilindəki kənddə vəz edən İsa", "p": ["Yəhya həbs olunandan sonra İsa [[Kəfərnahum]]a köçüb xidmətə başlayır. Matta Yeşaya 9:1–2-dən sitat gətirir: “Qaranlıqda oturan xalq böyük bir işıq gördü.”", "[[Qalileya]] “yadellilərin Qalileyası” adlanacaq qədər müxtəlif xalqların yaşadığı ucqar yer idi. İşıq əvvəlcə Yerusəlimin seçkinlərinə deyil, ucqarlara düşdü."], "deep": {"b": "Dərindən baxaq · Niyə Qalileya?", "p": "Zevulun və Naftali torpağı e.ə. 8-ci əsrdə Aşşurun ilk tapdaladığı yer idi. Ən əvvəl qaranlığa düşən yerə ən əvvəl işıq gəldi. Allah bərpaya yaranın ən dərin olduğu yerdən başlayır."}},
+   {"b": "Müəllim Özü çağırır", "ayə": "Matta 4:18–20", "alt": "Tor atan balıqçıları çağıran İsa", "p": ["O vaxt [[ravvi]]nin [[şagird]]i olmaq üçün tələbə özü müəllimin yanına gedib onu qəbul etməsini xahiş edirdi. İsa isə işləyən balıqçılara Özü yaxınlaşıb “Ardımca gəlin” dedi.", "Peter və Andrey “dərhal” torlarını buraxıb ardınca getdilər. Matta bu “dərhal” sözünü iki dəfə vurğulayır."], "deep": {"b": "Dərindən baxaq · İnsan balıqçıları", "p": "İsa onların yaxşı bacardığı işi, balıq tutmağı yeni vəzifəyə çevirdi. Çağırış bəzən sahib olduğumuzu buraxmağı tələb edir, bəzən də onu Allahın Padşahlığı üçün yeni şəkildə işlətməyə çağırır."}},
+   {"b": "Qayığı və atanı qoyub", "ayə": "Matta 4:21–22", "alt": "Qayığı və atasını qoyub İsanın ardınca gedən Yaqub və Yəhya", "p": ["Yaqub və Yəhya ataları Zavday ilə torlarını təmir edirdilər. Bu, muzdlu işçi saxlayacaq qədər ailə işi idi {{Mark 1:20}}.", "Onlar qayığı və atalarını qoyub ardınca getdilər. Ardınca getməyin bədəli var idi: iş, təhlükəsizlik və ailənin gözləntiləri."], "deep": {"b": "Dərindən baxaq · Bədəli olan ardıcıllıq", "p": "Bu səhnə ailəni atmaq əmri deyil. Bu, İsanın hər şeydən üstün olduğunu etiraf etməkdir. Sonralar Zavdayın arvadı da İsanın ardınca gedənlərdən oldu (27:56).", "rose": true}},
+   {"b": "Öyrədir, vəz edir, şəfa verir", "ayə": "Matta 4:23–25", "alt": "Çoxlu xəstəyə şəfa verən İsa", "p": ["İsa bütün Qalileyanı gəzib [[sinaqoq]]larda öyrədir, Səmavi Padşahlığın [[Müjdə]]sini vəz edir və hər cür xəstəliyə şəfa verirdi.", "Xəbər Suriyaya, Dekapolisə və İordanın o tayına qədər yayıldı. Yəhudilər və yadellilər birlikdə gəlirdilər."], "deep": {"b": "Dərindən baxaq · Matta Müjdəsinin quruluşu", "p": "4:23 və 9:35 demək olar ki, eyni cümlədir. Onların arasında İsanın “təlimi” (5–7-ci fəsillər, Dağüstü vəz) və “şəfaları” (8–9-cu fəsillər, möcüzələr) gəlir. Matta söz və əməli birlikdə göstərərək İsanın kim olduğunu sübut edir."}}
+  ],
+  "cedvel": {"b": "İsanın xidmətinin üç tərəfi", "alt": "4:23 · 9:35", "bas": ["Xidmət", "Harada", "Nə"], "set": [["Öyrətmək", "Sinaqoqlarda", "Kəlamın əsl mənası"], ["Vəz etmək", "Kəndlərdə və çöllərdə", "Səmavi Padşahlığın Müjdəsi"], ["Şəfa vermək", "İnsanların olduğu hər yerdə", "Bədən və ruh xəstəlikləri, cinlər"]]},
+  "aye": {"metn": "“Ardımca gəlin, sizi insan balıqçıları edəcəyəm.” Onlar dərhal torlarını buraxıb Onun ardınca getdilər.", "ref": "4:19–20"},
+  "lugat": {
+   "Kəfərnahum": {"i": "🏘️", "o": "İbranicə Kfar Naxum, “Naxumun kəndi”", "x": "가버나움", "s": "İsanın xidmət mərkəzi", "m": "Qalileya gölünün şimal sahilindəki kənd idi, Peterin evi də orada idi. Onu İsanın “öz şəhəri” adlandırırlar (9:1).", "e": "Bu gün orada I əsrə aid sinaqoq və Peterin evinin qalıqları tapılıb."},
+   "Qalileya": {"i": "🗺️", "o": "İbranicə Qelil haqoyim, “yadellilər bölgəsi”", "x": "갈릴리", "s": "İsrailin şimal ucqarı", "m": "Müxtəlif xalqlar yaşadığı üçün yerusəlimlilərin xor gördüyü bölgə idi. Qalileya ləhcəsi də ələ salınırdı (26:73).", "e": "İsanın on iki şagirdinin çoxu Qalileyalı idi."},
+   "ravvi": {"i": "📚", "o": "İbranicə “müəllimim”", "x": "랍비", "s": "Qanunu öyrədən müəllim", "m": "Şagird toplayıb Qanunu öyrədən müəllim idi. Şagird müəllimlə birlikdə yaşayıb onun sözünü və həyatını öyrənirdi.", "e": "Şagirdlər İsanı “Ravvi” deyə çağırırdılar."},
+   "şagird": {"i": "👣", "o": "Yunanca mathetes, “öyrənən”", "x": "제자", "s": "Ardınca gedib öyrənən", "m": "Yalnız bilik öyrənən tələbə deyil, müəllimlə birlikdə gəzib onun həyatına bənzəməyə çalışan adamdır.", "e": "Matta Müjdəsi “bütün millətləri şagird edin” sözü ilə bitir (28:19)."},
+   "sinaqoq": {"i": "🕍", "o": "Yunanca sinaqoqe, “toplanma yeri”", "x": "회당", "s": "Kənddəki ibadət və təlim yeri", "m": "Məbəd yalnız Yerusəlimdə idi, sinaqoq isə hər kənddə var idi. Şənbə günü orada toplaşıb Kəlamı oxuyurdular.", "e": "İsa tez-tez sinaqoqlarda öyrədirdi."},
+   "Müjdə": {"i": "📣", "o": "Yunanca evangelion, “yaxşı xəbər”", "x": "복음", "s": "Padşahın qələbəsini bildirən sevincli xəbər", "m": "Əslində müharibədə qələbəni və ya yeni padşahın taxta çıxmasını bildirən söz idi. İsa Allahın Padşah kimi gəldiyini elan etdi.", "e": "Koreya dilində “bogeum” deyilir."}
+  },
+  "test": [
+   {"q": "İsanın xidmət mərkəzi etdiyi kənd hansıdır?", "o": ["Kəfərnahum", "Bet-Lexem", "Yerusəlim"], "a": 0, "f": "Düzdür. Qalileya gölünün sahilindəki kənd."},
+   {"q": "Mattanın gətirdiyi Yeşaya 9 Qalileyanı necə təsvir edir?", "o": ["Qaranlıqda oturan xalq böyük işıq gördü", "Süd və bal axan torpaq", "Müqəddəs şəhər"], "a": 0, "f": "Düzdür. İşıq ən qaranlıq yerə əvvəlcə gəldi."},
+   {"q": "O dövrün ravvi-şagird münasibətindən fərq nə idi?", "o": ["İsa şagirdləri Özü çağırdı", "Şagirdlər imtahan verdi", "Təhsil haqqı ödədilər"], "a": 0, "f": "Düzdür. Çağırış İsadan başlayır."},
+   {"q": "Yaqub və Yəhya nəyi qoyub getdilər?", "o": ["Qayığı və ataları Zavdayı", "Evi və sürünü", "Pul kisəsini"], "a": 0, "f": "Düzdür. Ardınca getməyin bədəli var idi."},
+   {"q": "4:23-də İsanın xidmətinin üç tərəfi hansıdır?", "o": ["Öyrətmək, vəz etmək, şəfa vermək", "Dua, oruc, sədəqə", "Tikinti, müharibə, idarə"], "a": 0, "f": "Düzdür. 5–9-cu fəsillər bu ardıcıllıqla açılır."}
+  ],
+  "paylas": ["İsanın məni “əvvəlcə” axtarması imanıma necə fərqli baxmağa kömək edir?", "İsanın ardınca getmək üçün buraxmalı olduğum “tor” nədir?", "Yaxşı bacardığım işi Allahın Padşahlığı üçün işlətsəm, bu necə görünər?", "Ətrafımda “qaranlıqda oturan” dost kimdir? Mən necə işıq ola bilərəm?"],
+  "etiraf": {"b": "Mənim etirafım", "p": "İsa bu gün adını çəkib “Ardımca gəl” desə, nə cavab verərsən? Üç-dörd cümlə yaz.", "ph": "Məsələn: İsa, buraxmaqda çətinlik çəkdiyim şeylər var. Amma yenə də …"},
+  "dua": "İsa, heç kimin seçməyəcəyi insanları əvvəlcə axtarıb çağırdığın üçün Sənə şükür edirəm. Məni tutan torları buraxıb Sənin ardınca getməyimə kömək et. Bacardığım işləri insanları xilasa aparmaq üçün işlədim. Məni çağıran İsa Məsihin adı ilə dua edirəm. Amin."
+ }
+},
+"muellim": {
+ "mesaj": "6과의 중심은 한 문장입니다. **예수님이 먼저 찾아와 부르시고, 부름받은 사람은 모든 것보다 예수님을 앞세워 따른다.**",
+ "hazirliq": ["학생용 교재를 열 휴대폰이나 태블릿, 이어폰", "낚싯줄이나 실과 종이 물고기 (어린이반 놀이)", "갈릴리 지도"],
+ "fon": [
+  ["1. 가버나움", "갈릴리 바다 북쪽 호숫가 마을로 인구 1,500명 정도였습니다. 베드로의 집이 있었고(8:14), 마태도 이곳 세관에서 일했습니다(9:9)."],
+  ["2. 이사야 9:1–2", "앗수르에 가장 먼저 짓밟힌 스불론·납달리 땅에 큰 빛이 비친다는 예언입니다. 가장 어두운 곳에서 회복이 시작됩니다."],
+  ["3. 랍비와 제자", "보통은 제자가 랍비를 골라 찾아갔습니다. 예수님은 반대로 먼저 부르셨습니다. 어부들은 랍비 학교에 들어가지 못한, 이미 생업에 뛰어든 청년들이었을 가능성이 큽니다."],
+  ["4. 요한복음과의 관계", "요한복음 1:35–42에 따르면 안드레와 베드로는 이전에 예수님을 만난 적이 있습니다. 마태의 ‘곧’은 즉흥이 아니라 결단의 순간을 강조합니다."],
+  ["5. 4:23과 9:35", "같은 요약 문장이 5–9장을 감쌉니다. 그 안에 ‘말씀의 메시아’(5–7장)와 ‘행동의 메시아’(8–9장)가 나옵니다. 앞으로의 과 흐름을 미리 소개하기 좋습니다."]
+ ],
+ "usaq_plan": [
+  ["5분", "물고기 낚기 놀이", "종이 물고기를 실로 낚아 보기", "“예수님은 물고기 대신 사람을 데려오는 어부가 되라고 하셨어요.”"],
+  ["15분", "장면 1–4 듣고 읽기", "장면마다 듣기, 노란 낱말 누르기", "“그물을 두고 떠나는 건 쉬웠을까요?”"],
+  ["5분", "외울 말씀", "빈칸 놀이 → ‘나를 따라오너라’ 놀이(교사를 따라 걷기)", ""],
+  ["5분", "확인 퀴즈", "혼자 풀고 함께 확인", ""],
+  ["10분", "활동과 기도", "예수님을 소개할 사람 고르기 → 그 사람을 위해 기도", ""]
+ ],
+ "genc_plan": [
+  ["5분", "열기", "“내가 존경하는 사람이 먼저 나를 찾아와 함께하자고 한다면?”", ""],
+  ["15분", "장면 1–2", "갈릴리의 의미, 랍비 문화와 예수님의 부르심", ""],
+  ["10분", "장면 3–4와 사역 표", "따름의 대가, 가르치고·전하고·고치시는 예수님", "“내 그물은 무엇인가?”"],
+  ["5분", "확인 문제", "", ""],
+  ["15분", "나눔과 고백", "나눔 질문 2개 → 나의 고백 쓰기 → 기도", ""]
+ ],
+ "ipucu_usaq": ["‘사람을 낚는다’는 표현을 오해하지 않게, 친구에게 예수님을 소개하는 일이라고 설명하세요.", "가족을 버리라는 이야기가 아니라 예수님을 가장 소중히 여긴다는 뜻임을 알려 주세요.", "전도 대상 고르기는 강요하지 말고, 그 사람을 위해 기도하는 데서 시작하게 하세요."],
+ "ipucu_genc": ["‘대가’ 이야기는 무겁게만 하지 말고, 예수님이 그들의 재능을 새롭게 쓰셨다는 희망과 균형을 맞추세요.", "갈릴리가 무시당하던 변두리였다는 점은 소외감을 느끼는 청소년에게 의미가 큽니다.", "다음 과부터 산상설교(5–7장)가 시작된다는 점을 미리 알려 주세요."],
+ "suallar": [
+  ["제자들은 아빠를 두고 가서 나쁜 거 아니에요?", "아빠를 미워해서 간 게 아니에요. 예수님을 가장 먼저 사랑하기로 한 거예요.", "이 장면은 가족을 버리라는 명령이 아니라 우선순위의 고백이에요. 세베대의 아내도 나중에 예수님을 따랐어요(27:56)."],
+  ["저도 지금 학교를 그만두고 따라가야 해요?", "아니에요. 지금 있는 곳에서 예수님을 사랑하고 친구에게 소개하는 것도 따르는 거예요.", "부르심의 모양은 사람마다 달라요. 대부분은 지금 자리에서 예수님을 우선으로 사는 것이 부르심이에요."],
+  ["왜 똑똑한 사람이 아니라 어부를 부르셨어요?", "예수님은 잘난 사람이 아니라 마음을 열고 따라오는 사람을 쓰세요.", "고린도전서 1:27처럼 하나님은 세상이 약하다고 여기는 사람을 들어 쓰세요. 제자들의 평범함은 오히려 예수님의 능력을 드러내요."]
+ ]
+}
+}
