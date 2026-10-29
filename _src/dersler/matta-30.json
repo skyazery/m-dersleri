@@ -1,0 +1,157 @@
+{
+"no": 30, "ref": "26:1–35", "deq": {"usaq": 40, "genc": 50},
+"img": ["matta/30-etir.jpg", "matta/30-yehuda.jpg", "36-son-sam.jpg", "matta/30-zeytun.jpg"],
+"hero": 2,
+"ko": {
+ "usaq": {
+  "basliq": "마지막 만찬",
+  "hedef": ["향유를 부은 여인이 예수님께 가장 귀한 것을 드렸음을 알아요.", "예수님이 마지막 만찬에서 떡과 잔을 주신 의미를 배워요.", "예수님께 가장 좋은 것을 드리기로 해요."],
+  "sehneler": [
+   {"b": "귀한 향유를 부은 여인", "ayə": "26:6–13", "alt": "예수님의 머리에 향유를 붓는 여인", "p": ["베다니에서 한 여인이 아주 비싼 [[향유]]를 가져와 예수님의 머리에 부었어요. 온 방이 향기로 가득했어요.", "제자들은 “아깝게 왜 낭비하느냐” 했지만 예수님이 말씀하셨어요. “이 여자는 나에게 좋은 일을 했다. 내 장례를 준비한 것이다. 이 여자가 한 일도 온 세상에 전해질 것이다.”"]},
+   {"b": "은 삼십에 팔린 예수님", "ayə": "26:14–16", "alt": "대제사장에게서 은돈을 받는 유다", "p": ["그런데 제자 중 하나인 가룟 [[유다]]가 대제사장들에게 가서 말했어요. “얼마를 주면 예수를 넘겨주겠소?”", "그들은 은 삼십 개를 주었어요. 여인은 예수님께 가장 귀한 것을 드렸는데, 유다는 예수님을 돈과 바꿨어요."]},
+   {"b": "이것은 내 몸, 내 피", "ayə": "26:17–30", "alt": "제자들과 마지막 만찬을 나누시는 예수님", "p": ["[[유월절]] 저녁, 예수님이 제자들과 함께 식사하셨어요. 예수님이 떡을 떼어 주시며 말씀하셨어요. “받아서 먹어라. 이것은 내 몸이다.”", "또 잔을 주시며 말씀하셨어요. “이것은 죄를 용서받게 하려고 많은 사람을 위해 흘리는 나의 피, 곧 [[언약]]의 피다.” 예수님은 우리를 위해 몸과 피를 주실 거예요."]},
+   {"b": "닭이 울기 전에", "ayə": "26:31–35", "alt": "감람산에서 제자들에게 말씀하시는 예수님과 자신 있게 말하는 베드로", "p": ["감람산으로 가는 길에 예수님이 말씀하셨어요. “오늘 밤 너희가 다 나를 떠날 것이다.”", "베드로가 “저는 절대로 떠나지 않아요!” 하자 예수님이 말씀하셨어요. “오늘 밤 [[닭]]이 울기 전에 네가 세 번 나를 모른다고 할 것이다.” 그래도 예수님은 제자들을 끝까지 사랑하셨어요."]}
+  ],
+  "aye": {"metn": "“이것은 죄 사함을 얻게 하려고 많은 사람을 위하여 흘리는 바 나의 피 곧 언약의 피니라.”", "ref": "26:28", "bos": "이것은 ___ 사함을 얻게 하려고 많은 사람을 위하여 흘리는 바 나의 ___ 곧 ___의 피니라.", "sozler": ["죄", "피", "언약"], "yalan": "물"},
+  "lugat": {
+   "향유": {"i": "🏺", "x": "ətir", "m": "아주 향기롭고 비싼 기름이에요.", "e": "여인이 예수님께 향유를 부었어요."},
+   "유다": {"i": "💰", "x": "Yəhuda", "m": "예수님의 열두 제자 중 하나였지만 예수님을 돈을 받고 넘겨준 사람이에요.", "e": "유다는 은 삼십을 받았어요."},
+   "유월절": {"i": "🍞", "x": "Pasxa", "m": "하나님이 이스라엘을 이집트에서 구원하신 것을 기념하는 명절이에요.", "e": "유월절 저녁에 예수님이 제자들과 식사하셨어요."},
+   "언약": {"i": "🤝", "x": "əhd", "m": "하나님이 우리와 맺으신 굳은 약속이에요.", "e": "이것은 언약의 피다."},
+   "닭": {"i": "🐓", "x": "xoruz", "m": "새벽에 ‘꼬끼오’ 하고 우는 새예요.", "e": "닭이 울기 전에 세 번 모른다고 할 것이다."}
+  },
+  "test": [
+   {"q": "여인이 예수님께 부은 것은?", "o": ["비싼 향유", "물", "포도주"], "a": 0, "f": "맞아요! 가장 귀한 것을 드렸어요."},
+   {"q": "유다는 예수님을 무엇과 바꿨나요?", "o": ["은 삼십", "금 백 개", "떡 다섯 개"], "a": 0, "f": "맞아요. 너무 슬픈 선택이었어요."},
+   {"q": "예수님이 떡을 주시며 하신 말씀은?", "o": ["이것은 내 몸이다", "배불리 먹어라", "내일 또 먹자"], "a": 0, "f": "맞아요! 우리를 위해 몸을 주셨어요."},
+   {"q": "베드로가 세 번 예수님을 모른다고 할 때는?", "o": ["닭이 울기 전", "해가 뜬 후", "다음 주"], "a": 0, "f": "맞아요. 그래도 예수님은 베드로를 사랑하셨어요."}
+  ],
+  "dusun": ["여인처럼 내가 예수님께 드릴 수 있는 가장 귀한 것은 무엇일까요?", "예수님이 “이것은 내 몸, 내 피”라고 하신 것은 무슨 뜻일까요?", "예수님은 베드로가 넘어질 것을 아시면서도 왜 사랑하셨을까요?"],
+  "fealiyyet": {"ciz": "떡과 잔을 나누시는 예수님과 제자들을 그려 보세요.", "b": "예수님께 드리는 나의 향유", "p": "예수님께 드리고 싶은 가장 귀한 것을 써 보세요.", "ph": "예) 제 마음과 매일 아침 기도 시간을 드릴래요."},
+  "dua": "예수님, 저를 위해 몸을 주시고 피를 흘리신 사랑에 감사합니다. 향유를 부은 여인처럼 예수님께 가장 귀한 것을 드리게 해 주세요. 베드로처럼 약할 때도 저를 끝까지 사랑하시는 예수님을 믿습니다. 예수님 이름으로 기도합니다. 아멘."
+ },
+ "genc": {
+  "basliq": "향유와 은 삼십",
+  "giris": "고난 주간 수요일과 목요일, 예수님 곁에서 극적으로 대조되는 선택들이 일어납니다. 한 여인은 가장 귀한 것을 부어 드리고, 한 제자는 예수님을 노예 값에 팝니다. 그리고 그 밤, 예수님은 떡과 잔으로 새 언약을 세우십니다.",
+  "meqsed": ["향유 부은 여인과 유다의 대조를 통해 예수님을 향한 마음을 돌아봐요.", "유월절 만찬이 새 언약의 성찬으로 바뀌는 의미를 설명할 수 있어요.", "제자들의 연약함 속에서도 변치 않는 예수님의 사랑을 고백해요."],
+  "sehneler": [
+   {"b": "아름다운 낭비", "ayə": "26:1–13", "alt": "예수님의 머리에 향유를 붓는 여인", "p": ["대제사장들은 “민란이 날까 하노니 명절에는 말자”며 예수님을 죽일 계획을 세웠어요. 바로 그때 베다니 나병 환자 시몬의 집에서 한 여인이 매우 귀한 [[향유]] 한 옥합을 예수님 머리에 부었어요.", "제자들은 “가난한 자들에게 줄 수 있었을 것”이라며 분개했어요. 예수님은 “좋은 일을 하였느니라”, “내 장례를 위하여 함이니라” 하셨어요. 여인은 예수님의 죽음을 이해한 첫 사람이었어요."], "deep": {"b": "깊이 보기 · 기름 부음", "p": "‘그리스도’는 ‘기름 부음 받은 자’라는 뜻이에요. 왕은 머리에 기름 부음을 받았어요. 제사장이 아니라 이름 없는 여인이 왕이신 예수님께 기름을 부었어요. 그 왕은 십자가 위에서 즉위하세요."}},
+   {"b": "노예 한 사람의 값", "ayə": "26:14–16", "alt": "대제사장에게서 은돈을 받는 유다", "p": ["바로 그 직후 “열둘 중의 하나인” 가룟 [[유다]]가 대제사장들에게 가서 “얼마나 주려느냐” 물었어요. 그들은 은 삼십을 달아 주었어요.", "은 삼십은 출애굽기 21:32에서 소에 받혀 죽은 종의 배상 금액이었어요. 스가랴 11:12–13에도 나오는 ‘목자의 품삯’이에요. 여인이 300데나리온 이상을 부은 반면, 유다는 그 10분의 1 값에 예수님을 넘겼어요."], "deep": {"b": "깊이 보기 · 왜 유다는?", "p": "성경은 유다의 동기를 자세히 말하지 않아요. 돈(요 12:6), 실망한 메시아 기대, 사탄의 영향(눅 22:3) 등이 언급돼요. 중요한 것은 3년을 예수님과 함께해도 마음이 다른 곳에 있을 수 있다는 경고예요.", "rose": true}},
+   {"b": "새 언약의 만찬", "ayə": "26:17–30", "alt": "제자들과 마지막 만찬을 나누시는 예수님", "p": ["[[유월절]] 식사는 이집트 탈출을 기억하는 식사였어요. 예수님은 “너희 중 하나가 나를 팔리라” 하시고, 제자들은 “주여 나는 아니지요?” 하고 차례로 물었어요. 유다는 “랍비여 나는 아니지요?”라고 했어요.", "예수님은 떡을 떼시며 “받아서 먹으라 이것은 내 몸이니라”, 잔을 주시며 “이것은 죄 사함을 얻게 하려고 많은 사람을 위하여 흘리는 바 나의 피 곧 [[언약]]의 피니라” 하셨어요. 출애굽의 어린양 자리에 예수님 자신이 서셨어요."], "deep": {"b": "깊이 보기 · ‘주여’와 ‘랍비여’", "p": "다른 제자들은 “주여”(퀴리오스), 유다는 “랍비여”라고 불렀어요. 마태복음에서 예수님을 ‘랍비’라고 부른 제자는 유다뿐이에요. 같은 식탁에 앉아도 고백이 달랐어요."}},
+   {"b": "목자를 치리니", "ayə": "26:31–35", "alt": "감람산에서 제자들에게 말씀하시는 예수님과 자신 있게 말하는 베드로", "p": ["찬미하며 감람산으로 가는 길, 예수님은 스가랴 13:7을 인용하세요. “내가 목자를 치리니 양의 떼가 흩어지리라.” 그리고 “내가 살아난 후에 너희보다 먼저 갈릴리로 가리라”는 약속을 함께 주세요.", "베드로는 “모두 버릴지라도 나는 결코 버리지 않겠나이다” 했고, 예수님은 “오늘 밤 닭 울기 전에 네가 세 번 나를 [[부인]]하리라” 하셨어요. 모든 제자가 “함께 죽을지언정 부인하지 않겠다”고 했지만 그날 밤 모두 도망쳤어요."], "deep": {"b": "깊이 보기 · 실패 전에 주신 약속", "p": "예수님은 제자들이 넘어지기 ‘전에’ 다시 만날 약속(갈릴리)을 주셨어요. 실패를 아시고도 관계를 끊지 않으세요. 28:7, 10에서 이 약속이 그대로 이루어져요."}}
+  ],
+  "cedvel": {"b": "예수님 곁의 세 선택", "alt": "26:6–35", "bas": ["사람", "드린 것 / 한 일", "예수님의 말씀"], "set": [["향유 부은 여인", "300데나리온 넘는 향유를 다 부음", "좋은 일을 하였느니라"], ["가룟 유다", "은 30에 예수님을 넘김", "인자를 파는 그 사람에게는 화가 있으리로다"], ["베드로", "결코 버리지 않겠다고 장담함", "닭 울기 전에 세 번 부인하리라"], ["예수님", "몸과 피를 주심", "많은 사람을 위하여 흘리는 언약의 피"]]},
+  "aye": {"metn": "“이것은 죄 사함을 얻게 하려고 많은 사람을 위하여 흘리는 바 나의 피 곧 언약의 피니라.”", "ref": "26:28"},
+  "lugat": {
+   "향유": {"i": "🏺", "o": "헬라어 뮈론", "x": "ətir", "s": "값비싼 나드 향유", "m": "마가복음은 300데나리온 이상, 곧 노동자 1년 치 임금이라고 해요. 옥합을 깨뜨려 남김없이 부었어요.", "e": "요한복음은 이 여인이 나사로의 누이 마리아라고 해요(요 12:3)."},
+   "유다": {"i": "💰", "o": "히브리어 예후다, ‘찬양’", "x": "Yəhuda", "s": "배신의 상징이 된 이름", "m": "‘가룟’은 ‘그리욧 사람’이라는 뜻일 수 있어요. 열두 제자 중 유일하게 유대 지방 출신이었을 가능성이 있어요.", "e": "이름의 뜻은 ‘찬양’이지만 그는 배신의 길을 택했어요."},
+   "유월절": {"i": "🐑", "o": "히브리어 페사흐, ‘넘어가다’", "x": "Pasxa", "s": "출애굽 구원의 기념", "m": "어린양의 피를 문설주에 바른 집은 죽음이 ‘넘어갔어요’(출 12장). 예수님은 유월절 어린양으로 죽으세요(고전 5:7).", "e": "아제르바이잔어 ‘Pasxa’는 부활절도 가리켜요."},
+   "언약": {"i": "🤝", "o": "헬라어 디아데케", "x": "əhd", "s": "피로 맺은 약속", "m": "시내산 언약은 짐승의 피로 맺었어요(출 24:8). 예수님은 자기 피로 예레미야 31:31의 ‘새 언약’을 세우세요.", "e": "‘신약’(새 언약)이라는 이름이 여기서 나왔어요."},
+   "부인": {"i": "🙅", "o": "헬라어 아파르네오마이", "x": "inkar etmək", "s": "‘모른다’고 함", "m": "16:24 “자기를 부인하고”와 같은 동사예요. 베드로는 자기 대신 예수님을 부인하게 돼요.", "e": "10:33 “사람 앞에서 나를 부인하면”도 함께 보세요."}
+  },
+  "test": [
+   {"q": "예수님은 여인의 향유를 무엇을 위한 것이라고 하셨나요?", "o": ["예수님의 장례", "결혼식", "성전 제사"], "a": 0, "f": "맞아요. 여인은 예수님의 죽음을 이해했어요."},
+   {"q": "은 삼십이 출애굽기에서 뜻하는 것은?", "o": ["죽은 종의 배상금", "왕의 몸값", "성전세"], "a": 0, "f": "맞아요. 노예 한 사람의 값이에요."},
+   {"q": "유다가 예수님을 부른 호칭은?", "o": ["랍비", "주", "그리스도"], "a": 0, "f": "맞아요. 다른 제자들은 ‘주여’라고 했어요."},
+   {"q": "예수님이 잔을 주시며 세우신 것은?", "o": ["새 언약", "새 성전", "새 왕국 군대"], "a": 0, "f": "맞아요. 예레미야 31:31의 성취예요."},
+   {"q": "예수님이 제자들이 흩어지기 전에 주신 약속은?", "o": ["살아난 후 갈릴리에서 먼저 만남", "하늘에서 불이 내림", "로마가 망함"], "a": 0, "f": "맞아요. 실패 전에 회복을 약속하셨어요."}
+  ],
+  "paylas": ["여인의 ‘아름다운 낭비’처럼 예수님께 아낌없이 드려 본 경험이 있나요?", "유다처럼 예수님 가까이 있으면서도 마음은 다른 데 있을 수 있어요. 내 마음의 ‘은 삼십’은 무엇인가요?", "성찬(주의 만찬)에 참여할 때 나는 무엇을 기억하나요?", "베드로처럼 장담했다가 넘어진 경험이 있나요? 그때 예수님의 약속은 어떤 의미가 있나요?"],
+  "etiraf": {"b": "나의 고백", "p": "“이것은 너를 위하여 흘리는 내 피다.” 예수님의 이 말씀에 대한 나의 응답, 그리고 예수님께 부어 드리고 싶은 나의 ‘향유’를 써 보세요.", "ph": "예) 예수님, 제가 붙잡고 있는 저의 미래 계획을 예수님 발 앞에 부어 드립니다 …"},
+  "dua": "예수님, 은 삼십에 팔리셨지만 저를 위해 몸과 피를 아낌없이 주신 사랑에 감사합니다. 제 마음의 은 삼십을 내려놓고 여인처럼 가장 귀한 것을 부어 드리게 해 주세요. 베드로처럼 연약한 저를 넘어지기 전에 이미 붙드시는 예수님을 신뢰합니다. 예수님 이름으로 기도합니다. 아멘."
+ }
+},
+"az": {
+ "usaq": {
+  "basliq": "Son Şam yeməyi",
+  "hedef": ["Ətir tökən qadının İsaya ən qiymətli şeyini verdiyini öyrənəcəyik.", "İsanın Son Şam yeməyində çörək və kasa verməsinin mənasını öyrənəcəyik.", "İsaya ən yaxşısını verməyə qərar verəcəyik."],
+  "sehneler": [
+   {"b": "Qiymətli ətir tökən qadın", "ayə": "Matta 26:6–13", "alt": "İsanın başına ətir tökən qadın", "p": ["Bet-Anyada bir qadın çox bahalı [[ətir]] gətirib İsanın başına tökdü. Bütün otaq gözəl ətirlə doldu.", "Şagirdlər “Niyə israf edir?” dedilər, amma İsa dedi: “Bu qadın Mənə yaxşılıq etdi. O, Məni dəfnə hazırladı. Bu qadının etdiyi də bütün dünyada danışılacaq.”"]},
+   {"b": "Otuz gümüşə satılan İsa", "ayə": "Matta 26:14–16", "alt": "Baş kahinlərdən gümüş pul alan Yəhuda", "p": ["Amma şagirdlərdən biri olan [[Yəhuda]] İskariot baş kahinlərin yanına gedib dedi: “İsanı sizə versəm, mənə nə verərsiniz?”", "Onlar ona otuz gümüş verdilər. Qadın İsaya ən qiymətli şeyini verdi, Yəhuda isə İsanı pula dəyişdi."]},
+   {"b": "Bu, Mənim bədənim, Mənim qanım", "ayə": "Matta 26:17–30", "alt": "Şagirdləri ilə Son Şam yeməyi yeyən İsa", "p": ["[[Pasxa]] axşamı İsa şagirdləri ilə yemək yedi. İsa çörəyi bölüb verərək dedi: “Alın, yeyin, bu, Mənim bədənimdir.”", "Sonra kasanı verib dedi: “Bu, Mənim [[əhd]] qanımdır. O, günahların bağışlanması üçün çoxlarının uğrunda tökülür.” İsa bizim üçün bədənini və qanını verəcəkdi."]},
+   {"b": "Xoruz banlamazdan əvvəl", "ayə": "Matta 26:31–35", "alt": "Zeytun dağında şagirdləri ilə danışan İsa və əminliklə danışan Peter", "p": ["Zeytun dağına gedərkən İsa dedi: “Bu gecə hamınız Məni tərk edəcəksiniz.”", "Peter “Mən heç vaxt Səni tərk etmərəm!” deyəndə İsa dedi: “Bu gecə [[xoruz]] banlamazdan əvvəl sən Məni üç dəfə inkar edəcəksən.” Yenə də İsa şagirdlərini axıradək sevdi."]}
+  ],
+  "aye": {"metn": "“Bu, Mənim əhd qanımdır. O, günahların bağışlanması üçün çoxlarının uğrunda tökülür.”", "ref": "26:28", "bos": "Bu, Mənim ___ qanımdır. O, ___ bağışlanması üçün ___ uğrunda tökülür.", "sozler": ["əhd", "günahların", "çoxlarının"], "yalan": "pulların"},
+  "lugat": {
+   "ətir": {"i": "🏺", "x": "향유", "m": "Çox xoş qoxulu və bahalı yağdır.", "e": "Qadın İsaya ətir tökdü."},
+   "Yəhuda": {"i": "💰", "x": "유다", "m": "İsanın on iki şagirdindən biri idi, amma İsanı pula satdı.", "e": "Yəhuda otuz gümüş aldı."},
+   "Pasxa": {"i": "🍞", "x": "유월절", "m": "Allahın İsraili Misirdən xilas etməsini xatırladan bayramdır.", "e": "Pasxa axşamı İsa şagirdləri ilə yemək yedi."},
+   "əhd": {"i": "🤝", "x": "언약", "m": "Allahın bizimlə bağladığı möhkəm vəddir.", "e": "Bu, Mənim əhd qanımdır."},
+   "xoruz": {"i": "🐓", "x": "닭", "m": "Səhər tezdən “quqquluqu” deyə banlayan quşdur.", "e": "Xoruz banlamazdan əvvəl üç dəfə inkar edəcəksən."}
+  },
+  "test": [
+   {"q": "Qadın İsanın başına nə tökdü?", "o": ["Bahalı ətir", "Su", "Şərab"], "a": 0, "f": "Düzdür! Ən qiymətli şeyini verdi."},
+   {"q": "Yəhuda İsanı nəyə dəyişdi?", "o": ["Otuz gümüşə", "Yüz qızıla", "Beş çörəyə"], "a": 0, "f": "Düzdür. Çox kədərli seçim idi."},
+   {"q": "İsa çörəyi verərkən nə dedi?", "o": ["Bu, Mənim bədənimdir", "Doyunca yeyin", "Sabah yenə yeyək"], "a": 0, "f": "Düzdür! Bizim üçün bədənini verdi."},
+   {"q": "Peter İsanı nə vaxt üç dəfə inkar edəcəkdi?", "o": ["Xoruz banlamazdan əvvəl", "Gün çıxandan sonra", "Gələn həftə"], "a": 0, "f": "Düzdür. Yenə də İsa Peteri sevdi."}
+  ],
+  "dusun": ["Qadın kimi İsaya verə biləcəyim ən qiymətli şey nədir?", "İsanın “Bu, Mənim bədənim, Mənim qanım” deməsi nə deməkdir?", "İsa Peterin büdrəyəcəyini bildiyi halda niyə onu sevdi?"],
+  "fealiyyet": {"ciz": "Çörək və kasa paylayan İsanı və şagirdləri çək.", "b": "İsaya nə verəcəksən?", "p": "İsaya verəcəyin ən qiymətli şeyi seç.", "ph": "",
+   "secim": {"basliq": "İsaya nə verəcəksən?", "izah": "Toxun və seç. Bir neçəsini seçə bilərsən.", "cumle": "İsa, Sənə {x} verirəm!", "bos": "ürəyimi", "bag": "və",
+    "secimler": [["❤️", "ürəyimi"], ["⏰", "vaxtımı"], ["🎶", "ilahimi"], ["🙏", "duamı"], ["💖", "sevgimi"], ["🌟", "ən yaxşısını"]]}},
+  "dua": "İsa, mənim üçün bədənini verib qanını tökdüyün məhəbbətə görə Sənə şükür edirəm. Ətir tökən qadın kimi Sənə ən qiymətli şeyimi verim. Peter kimi zəif olanda belə məni axıradək sevən Sənə inanıram. İsa Məsihin adı ilə dua edirəm. Amin."
+ },
+ "genc": {
+  "basliq": "Ətir və otuz gümüş",
+  "giris": "Əzab həftəsinin çərşənbə və cümə axşamı günlərində İsanın yanında kəskin ziddiyyətli seçimlər baş verir. Bir qadın ən qiymətli şeyini tökür, bir şagird isə İsanı qul qiymətinə satır. Və o gecə İsa çörək və kasa ilə yeni əhd bağlayır.",
+  "meqsed": ["Ətir tökən qadın ilə Yəhudanın ziddiyyəti vasitəsilə İsaya olan ürəyimizə baxırıq.", "Pasxa yeməyinin yeni əhdin Rəbbin süfrəsinə çevrilməsinin mənasını izah edə bilirik.", "Şagirdlərin zəifliyinə baxmayaraq dəyişməyən İsanın məhəbbətini etiraf edirik."],
+  "sehneler": [
+   {"b": "Gözəl israf", "ayə": "Matta 26:1–13", "alt": "İsanın başına ətir tökən qadın", "p": ["Baş kahinlər “bayramda yox, xalq arasında qarışıqlıq olmasın” deyə İsanı öldürmək planı qurdular. Elə o vaxt Bet-Anyada cüzamlı Simonun evində bir qadın bir qab çox qiymətli [[ətir]]i İsanın başına tökdü.", "Şagirdlər “Bunu yoxsullara vermək olardı” deyə hiddətləndilər. İsa “Mənə yaxşılıq etdi”, “Məni dəfnə hazırladı” dedi. Qadın İsanın ölümünü anlayan ilk insan idi."], "deep": {"b": "Dərindən baxaq · Məsh", "p": "“Məsih” “məsh olunmuş” deməkdir. Padşahların başına yağ tökülürdü. Kahin deyil, adsız bir qadın Padşah İsanı məsh etdi. O Padşah çarmıxda taxta çıxacaqdı."}},
+   {"b": "Bir qulun qiyməti", "ayə": "Matta 26:14–16", "alt": "Baş kahinlərdən gümüş pul alan Yəhuda", "p": ["Dərhal bundan sonra “on ikidən biri” olan [[Yəhuda]] İskariot baş kahinlərin yanına gedib “Mənə nə verərsiniz?” deyə soruşdu. Onlar ona otuz gümüş çəkib verdilər.", "Otuz gümüş Çıxış 21:32-də öküzün buynuzlayıb öldürdüyü qulun təzminatı idi. Zəkəriyyə 11:12–13-də də “çobanın muzdu” kimi keçir. Qadın 300 dinardan çox dəyərində ətir tökdü, Yəhuda isə İsanı onun onda biri qiymətinə satdı."], "deep": {"b": "Dərindən baxaq · Yəhuda niyə?", "p": "Müqəddəs Kitab Yəhudanın niyyətini ətraflı demir. Pul (Yəh. 12:6), Məsihə dair məyusluq, Şeytanın təsiri (Luka 22:3) qeyd olunur. Vacib olan budur: üç il İsa ilə birlikdə olsan da, ürəyin başqa yerdə ola bilər.", "rose": true}},
+   {"b": "Yeni əhdin süfrəsi", "ayə": "Matta 26:17–30", "alt": "Şagirdləri ilə Son Şam yeməyi yeyən İsa", "p": ["[[Pasxa]] yeməyi Misirdən çıxışı xatırladan yemək idi. İsa “Sizdən biri Mənə xəyanət edəcək” deyəndə şagirdlər bir-bir “Ya Rəbb, mən deyiləm ki?” soruşdular. Yəhuda isə “Ravvi, mən deyiləm ki?” dedi.", "İsa çörəyi bölüb “Alın, yeyin, bu, Mənim bədənimdir”, kasanı verib “Bu, Mənim [[əhd]] qanımdır. O, günahların bağışlanması üçün çoxlarının uğrunda tökülür” dedi. Misirdən çıxışdakı quzunun yerinə İsa Özü dayandı."], "deep": {"b": "Dərindən baxaq · “Ya Rəbb” və “Ravvi”", "p": "Digər şagirdlər “Ya Rəbb” (kirios), Yəhuda isə “Ravvi” dedi. Matta Müjdəsində İsanı “Ravvi” adlandıran yeganə şagird Yəhudadır. Eyni süfrədə otursalar da, etirafları fərqli idi."}},
+   {"b": "Çobanı vuracağam", "ayə": "Matta 26:31–35", "alt": "Zeytun dağında şagirdləri ilə danışan İsa və əminliklə danışan Peter", "p": ["İlahi oxuyub Zeytun dağına gedərkən İsa Zəkəriyyə 13:7-dən sitat gətirir: “Çobanı vuracağam, sürünün qoyunları dağılacaq.” Eyni zamanda vəd verir: “Dirildikdən sonra sizdən əvvəl Qalileyaya gedəcəyəm.”", "Peter “Hamı Səni tərk etsə də, mən heç vaxt tərk etmərəm” dedi, İsa isə “Bu gecə xoruz banlamazdan əvvəl Məni üç dəfə [[inkar edəcəksən|inkar etmək]]” dedi. Bütün şagirdlər “Səninlə ölsək də, inkar etmərik” dedilər, amma o gecə hamısı qaçdı."], "deep": {"b": "Dərindən baxaq · Uğursuzluqdan əvvəl verilən vəd", "p": "İsa şagirdlər büdrəməzdən “əvvəl” yenidən görüşmək vədini (Qalileya) verdi. Uğursuzluğu bildiyi halda münasibəti kəsmir. 28:7 və 10-da bu vəd olduğu kimi yerinə yetir."}}
+  ],
+  "cedvel": {"b": "İsanın yanında üç seçim", "alt": "26:6–35", "bas": ["İnsan", "Verdiyi / etdiyi", "İsanın sözü"], "set": [["Ətir tökən qadın", "300 dinardan artıq ətiri tamamilə tökdü", "Mənə yaxşılıq etdi"], ["Yəhuda İskariot", "İsanı 30 gümüşə satdı", "Bəşər Oğluna xəyanət edənin vay halına"], ["Peter", "Heç vaxt tərk etməyəcəyinə əmin idi", "Xoruz banlamazdan əvvəl üç dəfə inkar edəcəksən"], ["İsa", "Bədənini və qanını verdi", "Çoxlarının uğrunda tökülən əhd qanı"]]},
+  "aye": {"metn": "“Bu, Mənim əhd qanımdır. O, günahların bağışlanması üçün çoxlarının uğrunda tökülür.”", "ref": "26:28"},
+  "lugat": {
+   "ətir": {"i": "🏺", "o": "Yunanca miron", "x": "향유", "s": "Bahalı nard ətri", "m": "Mark 300 dinardan artıq, yəni fəhlənin bir illik maaşı qədər olduğunu deyir. Qabı sındırıb hamısını tökdü.", "e": "Yəhya Müjdəsi bu qadının Lazarın bacısı Məryəm olduğunu deyir (Yəh. 12:3)."},
+   "Yəhuda": {"i": "💰", "o": "İvritcə Yehuda, “həmd”", "x": "유다", "s": "Xəyanətin rəmzinə çevrilən ad", "m": "“İskariot” “Qeriyotlu” demək ola bilər. On iki şagird arasında Yəhudeyadan olan yeganə şagird ola bilərdi.", "e": "Adının mənası “həmd” olsa da, xəyanət yolunu seçdi."},
+   "Pasxa": {"i": "🐑", "o": "İvritcə Pesax, “ötüb keçmək”", "x": "유월절", "s": "Misirdən çıxışla xilasın xatirəsi", "m": "Quzunun qanı qapı çərçivəsinə sürtülmüş evlərdən ölüm “ötüb keçdi” (Çıx. 12). İsa Pasxa quzusu kimi ölür (1 Kor. 5:7).", "e": "Azərbaycanca “Pasxa” həm də Dirilmə bayramını bildirir."},
+   "əhd": {"i": "🤝", "o": "Yunanca diateke", "x": "언약", "s": "Qanla bağlanan vəd", "m": "Sina əhdi heyvan qanı ilə bağlandı (Çıx. 24:8). İsa Öz qanı ilə Yeremya 31:31-dəki “yeni əhdi” bağlayır.", "e": "“Əhdi-Cədid” (Yeni Əhd) adı buradan gəlir."},
+   "inkar etmək": {"i": "🙅", "o": "Yunanca aparneomai", "x": "부인하다", "s": "“Tanımıram” demək", "m": "16:24-dəki “özünü inkar etsin” ifadəsindəki eyni feldir. Peter özünü deyil, İsanı inkar edəcək.", "e": "10:33-dəki “insanlar qarşısında Məni inkar edən” ayəsinə də baxın."}
+  },
+  "test": [
+   {"q": "İsa qadının ətirini nə üçün olduğunu dedi?", "o": ["Onun dəfni üçün", "Toy üçün", "Məbəd qurbanı üçün"], "a": 0, "f": "Düzdür. Qadın İsanın ölümünü anladı."},
+   {"q": "Çıxış kitabında otuz gümüş nəyi bildirir?", "o": ["Ölən qulun təzminatını", "Padşahın fidyəsini", "Məbəd vergisini"], "a": 0, "f": "Düzdür. Bir qulun qiyməti."},
+   {"q": "Yəhuda İsaya necə müraciət etdi?", "o": ["Ravvi", "Ya Rəbb", "Məsih"], "a": 0, "f": "Düzdür. Digər şagirdlər “Ya Rəbb” dedilər."},
+   {"q": "İsa kasanı verərək nəyi bağladı?", "o": ["Yeni əhdi", "Yeni məbədi", "Yeni padşahlıq ordusunu"], "a": 0, "f": "Düzdür. Yeremya 31:31-in yerinə yetməsi."},
+   {"q": "İsa şagirdlər dağılmazdan əvvəl hansı vədi verdi?", "o": ["Diriləndən sonra Qalileyada əvvəlcə görüşmək", "Göydən od enəcək", "Roma dağılacaq"], "a": 0, "f": "Düzdür. Uğursuzluqdan əvvəl bərpanı vəd etdi."}
+  ],
+  "paylas": ["Qadının “gözəl israfı” kimi İsaya əsirgəmədən nəsə verdiyim olubmu?", "Yəhuda kimi İsaya yaxın olsam da, ürəyim başqa yerdə ola bilər. Ürəyimin “otuz gümüşü” nədir?", "Rəbbin süfrəsində iştirak edəndə nəyi xatırlayıram?", "Peter kimi əmin olub sonra büdrədiyim olubmu? O vaxt İsanın vədi nə məna daşıyır?"],
+  "etiraf": {"b": "Mənim etirafım", "p": "“Bu, sənin üçün tökülən Mənim qanımdır.” İsanın bu sözünə cavabını və Ona tökmək istədiyin “ətrini” yaz.", "ph": "Məsələn: İsa, tutub saxladığım gələcək planlarımı Sənin ayaqlarına tökürəm …"},
+  "dua": "İsa, otuz gümüşə satılsan da, mənim üçün bədənini və qanını əsirgəmədən verdiyin məhəbbətə görə Sənə şükür edirəm. Ürəyimdəki otuz gümüşü buraxıb o qadın kimi ən qiymətlisini tökim. Peter kimi zəif olan məni büdrəməzdən əvvəl tutan Sənə güvənirəm. İsa Məsihin adı ilə dua edirəm. Amin."
+ }
+},
+"muellim": {
+ "mesaj": "30과의 중심은 한 문장입니다. **향유를 부은 여인과 은 삼십에 판 유다 사이에서, 예수님은 자기 몸과 피로 새 언약을 세우시고 넘어질 제자들을 미리 품으신다.**",
+ "hazirliq": ["학생용 교재를 열 휴대폰이나 태블릿, 이어폰", "향기 나는 오일이나 향수 한 병", "떡(빵)과 포도 주스 (성찬 설명용, 교회 전통에 맞게)"],
+ "fon": [
+  ["1. 고난 주간 시간표", "26:2 “이틀이 지나면 유월절”. 향유 사건은 수요일 무렵, 최후의 만찬은 목요일 밤으로 봅니다. 26장부터 사건이 시간 단위로 빠르게 전개됩니다."],
+  ["2. 은 삼십", "출애굽기 21:32 종의 값, 스가랴 11:12–13 목자의 품삯. 27:9–10에서 마태는 이 돈이 토기장이의 밭을 사는 데 쓰였다고 기록합니다."],
+  ["3. 유월절 식사", "누룩 없는 떡, 쓴 나물, 어린양, 네 잔의 포도주를 나누며 출애굽 이야기를 되새겼습니다. 예수님은 이 식사의 의미를 자신에게로 새롭게 하셨습니다."],
+  ["4. 성찬", "교단마다 성찬 이해와 실행이 다릅니다. 이 과에서는 ‘예수님의 몸과 피, 새 언약, 죄 사함’이라는 공통 핵심에 집중하세요."],
+  ["5. 그림 안내", "셋째(최후의 만찬)는 PPT 그림입니다. 나머지는 같은 화풍으로 새로 그렸습니다."]
+ ],
+ "usaq_plan": [
+  ["5분", "향기 맡기", "향수 한 방울을 손목에 뿌려 주기", "“여인이 부은 향유는 온 방을 가득 채웠어요.”"],
+  ["15분", "장면 1–4 듣고 읽기", "장면마다 듣기, 노란 낱말 누르기", "“예수님은 우리를 위해 몸과 피를 주셨어요.”"],
+  ["5분", "외울 말씀", "빈칸 놀이 → 떡과 잔을 보며 함께 읽기", ""],
+  ["5분", "확인 퀴즈", "혼자 풀고 함께 확인", ""],
+  ["10분", "활동과 기도", "예수님께 드릴 것 고르기 → 감사 기도", ""]
+ ],
+ "genc_plan": [
+  ["5분", "열기", "“가장 아끼는 물건을 누군가를 위해 쓴다면?”", ""],
+  ["15분", "장면 1–2와 세 선택 표", "아름다운 낭비, 은 삼십의 의미, 유다의 동기", ""],
+  ["10분", "장면 3–4", "유월절과 새 언약, ‘주여’와 ‘랍비여’, 실패 전의 약속", "“나의 은 삼십은?”"],
+  ["5분", "확인 문제", "", ""],
+  ["15분", "나눔과 고백", "나눔 질문 2개 → 나의 향유 쓰기 → 성찬의 의미를 묵상하며 기도", ""]
+ ],
+ "ipucu_usaq": ["유다를 ‘악당’으로만 그리기보다 ‘예수님 가까이 있어도 마음이 멀 수 있다’는 경고로 다루세요.", "성찬을 실제로 할 때는 교회 지도자와 상의하세요.", "베드로 이야기는 다음 과에서 이어진다고 알려 주세요."],
+ "ipucu_genc": ["‘가난한 자에게 줄 수 있었다’는 반론을 진지하게 다루세요. 예수님은 구제를 부정하지 않으셨고(26:11), 그 순간의 의미를 보셨습니다.", "성찬에 대한 교단별 차이는 짧게 언급하고 공통 핵심에 집중하세요.", "다음 과(26:36–75)는 겟세마네 기도, 체포, 베드로의 부인입니다."],
+ "suallar": [
+  ["예수님은 유다가 배신할 걸 알면서 왜 제자로 두셨어요?", "예수님은 유다에게도 끝까지 사랑과 기회를 주셨어요.", "예수님은 유다의 발도 씻기셨고(요 13장) 같은 떡을 나누셨어요. 하나님은 유다의 배신까지 구원 계획 안에서 쓰셨지만, 유다의 선택은 그의 책임이었어요."],
+  ["떡과 포도주가 진짜 예수님 몸과 피가 돼요?", "교회마다 설명이 조금 달라요. 모두가 믿는 것은 예수님이 우리를 위해 몸과 피를 주셨다는 거예요.", "가톨릭, 정교회, 루터교, 개혁교회가 성찬을 다르게 이해해요. 하지만 예수님의 희생을 기억하고, 예수님과 하나 되며, 다시 오실 날을 기다린다는 점은 같아요."],
+  ["향유를 다 부은 건 낭비 아니에요?", "예수님께 드리는 것은 낭비가 아니에요. 예수님은 그 사랑을 정말 기뻐하셨어요.", "사랑은 계산하지 않아요. 예수님도 우리를 위해 자신을 아낌없이 ‘낭비’하셨어요."]
+ ]
+}
+}
