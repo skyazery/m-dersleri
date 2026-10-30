@@ -19,6 +19,12 @@
     return d;
   }
   function getName() { return (lsGet(K_NAME) || '').trim(); }
+  /* Müəllim kodu: ...?m=kim  (hər müəllimin öz cədvəli) */
+  (function () {
+    var m = /[?&]m=([a-z0-9-]{1,20})(?:[&#]|$)/i.exec(location.search);
+    if (m) lsSet('mders-m', m[1].toLowerCase());
+  })();
+  function getTeacher() { var t = (lsGet('mders-m') || '').trim(); return /^[a-z0-9-]{1,20}$/.test(t) ? t : ''; }
   function readQ() { try { return JSON.parse(lsGet(K_Q) || '[]'); } catch (e) { return []; } }
   function writeQ(q) { lsSet(K_Q, JSON.stringify(q.slice(-300))); }
 
@@ -26,7 +32,7 @@
     var q = readQ();
     q.push({
       sinif: CFG.sinif, ders: CFG.ders, nov: nov,
-      sagird: getName(),
+      sagird: getName(), muellim: getTeacher(),
       netice: netice == null ? '' : String(netice).slice(0, 40),
       etrafli: etrafli == null ? '' : String(etrafli).slice(0, 1500),
       vaxt: new Date().toISOString(), cihaz: deviceId()

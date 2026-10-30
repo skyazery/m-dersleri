@@ -108,6 +108,8 @@ const qs=new URLSearchParams(location.search);
 let ad=(qs.get('ad')||'').replace(/\s+/g,' ').trim().slice(0,30);
 if(ad)ls('mders-ad',ad);else ad=(ls('mders-ad')||'').trim();
 if(ad){const hi=document.getElementById('hi');hi.textContent='👋 Salam, '+ad+'!';hi.classList.add('on');}
+let mc=(qs.get('m')||'').toLowerCase();
+if(/^[a-z0-9-]{1,20}$/.test(mc))ls('mders-m',mc);
 const tail=ad?'?ad='+encodeURIComponent(ad):'';
 function show(k,save,scroll){
  document.querySelectorAll('.btns button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.k===k));

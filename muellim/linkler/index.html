@@ -43,6 +43,12 @@ a.wa{display:inline-flex;align-items:center;gap:6px;background:var(--wa);color:#
 <p class="note">학생 이름을 미리 넣어 둔 개인 링크를 만들어 WhatsApp으로 보냅니다. 학생이 이 링크로 들어오면 이름 입력 없이 바로 공부하고, 결과가 그 이름으로 구글 시트에 저장됩니다.</p>
 
 <section class="card">
+<h2>내 교사 코드</h2>
+<div class="row"><input id="mc" maxlength="20" placeholder="예: kim (영문 소문자·숫자)" aria-label="교사 코드" style="width:220px"><button class="ghost" type="button" id="mcSave">저장</button><span class="msg" id="mcMsg"></span></div>
+<p class="note">교사마다 받은 코드를 한 번만 넣어 두세요. 이 코드가 학생 링크에 들어가서, 학생 결과가 그 선생님 시트로 갑니다. 관리자는 비워 두셔도 됩니다.</p>
+</section>
+
+<section class="card">
 <h2>학생 추가</h2>
 <form id="add">
 <input id="ad" maxlength="30" placeholder="이름 (예: Aysel)" required aria-label="이름">
@@ -75,11 +81,15 @@ const ENDPOINT='https://script.google.com/macros/s/AKfycbzpx5LBqs88_WiBL27NbdiaM
 const KEY='mders-linkler';
 const LBL={'az':'Azərbaycanca · Uşaqlar','az-genc':'Azərbaycanca · Yeniyetmələr','ko-usaq':'한국어 · 어린이','ko-genc':'한국어 · 청소년','ru':'Русский · Дети','ru-genc':'Русский · Подростки','en':'English · Children','en-genc':'English · Teens'};
 const BASE=new URL('../../',location.href).href;
+const okCode=c=>/^[a-z0-9-]{1,20}$/.test(c);
+function getMC(){try{return localStorage.getItem('mders-mc')||''}catch(e){return ''}}
+function setMC(c){try{localStorage.setItem('mders-mc',c)}catch(e){}}
+(function(){const u=(new URLSearchParams(location.search).get('m')||'').toLowerCase().trim();if(okCode(u))setMC(u);})();
 function load(){try{return JSON.parse(localStorage.getItem(KEY)||'[]')}catch(e){return []}}
 function save(a){try{localStorage.setItem(KEY,JSON.stringify(a))}catch(e){}}
 let S=load();
 const clean=v=>String(v||'').replace(/\s+/g,' ').trim().slice(0,30);
-function link(s){return BASE+'?ad='+encodeURIComponent(s.ad)+'&q='+s.q;}
+function link(s){const m=s.m!==undefined?s.m:getMC();return BASE+'?ad='+encodeURIComponent(s.ad)+'&q='+s.q+(m?'&m='+m:'');}
 function text(s){
  const u=link(s);
  if(s.q.startsWith('az'))return 'Salam, '+s.ad+'! 👋\nBu sənin Müqəddəs Kitab dərsləri linkindir:\n'+u+'\n\nHər dəfə bu linklə aç ki, nəticələrin müəlliminə çatsın. 📖';
@@ -110,17 +120,22 @@ function render(){
   L.appendChild(d);
  });
 }
-function addOne(ad,q,tel){ad=clean(ad);if(!ad)return false;if(S.some(s=>s.ad.toLowerCase()===ad.toLowerCase()&&s.q===q))return false;S.push({ad,q,tel:tel||''});return true;}
+function addOne(ad,q,tel){ad=clean(ad);if(!ad)return false;if(S.some(s=>s.ad.toLowerCase()===ad.toLowerCase()&&s.q===q))return false;S.push({ad,q,tel:tel||'',m:getMC()});return true;}
 document.getElementById('add').onsubmit=e=>{e.preventDefault();const ad=document.getElementById('ad');
  if(addOne(ad.value,document.getElementById('q').value,document.getElementById('tel').value.trim())){save(S);render();ad.value='';document.getElementById('tel').value='';ad.focus();}
  else document.getElementById('msg').textContent='이미 있거나 이름이 비어 있어요.';};
 document.getElementById('load').onclick=async()=>{
- const m=document.getElementById('msg');m.textContent='불러오는 중…';let n=0;
+ const m=document.getElementById('msg');m.textContent='불러오는 중…';let n=0;let EP=ENDPOINT;const mc=getMC();
+ if(mc){try{const r=await fetch(ENDPOINT+'?muellim='+mc);const d=await r.json();if(d.url)EP=d.url;else{m.textContent='관리자 시트 ‘교사’ 탭에 이 코드('+mc+')가 없어요.';return;}}catch(e){m.textContent='불러오지 못했어요. 인터넷을 확인해 주세요.';return;}}
  for(const [sinif,q] of [['usaq','az'],['genc','az-genc'],['ko-usaq','ko-usaq'],['ko-genc','ko-genc'],['ru','ru'],['ru-genc','ru-genc'],['en','en'],['en-genc','en-genc']]){
-  try{const r=await fetch(ENDPOINT+'?siyahi='+sinif);const d=await r.json();(d.names||[]).forEach(x=>{if(addOne(x,q,''))n++;});}catch(e){}
+  try{const r=await fetch(EP+'?siyahi='+sinif);const d=await r.json();(d.names||[]).forEach(x=>{if(addOne(x,q,''))n++;});}catch(e){}
  }
  save(S);render();m.textContent=n?n+'명을 추가했어요.':'새로 추가할 이름이 없어요. (시트 ‘명단’을 확인해 주세요)';
 };
+const mcI=document.getElementById('mc');mcI.value=getMC();
+document.getElementById('mcSave').onclick=()=>{const c=mcI.value.toLowerCase().trim();const M=document.getElementById('mcMsg');
+ if(c&&!okCode(c)){M.textContent='영문 소문자, 숫자, - 만 쓸 수 있어요.';return;}
+ setMC(c);S.forEach(x=>x.m=c);save(S);render();M.textContent=c?'저장됨 ✓ 링크에 &m='+c+' 가 붙어요':'코드를 지웠어요';};
 render();
 </script>
 </body>
