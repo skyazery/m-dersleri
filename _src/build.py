@@ -84,7 +84,52 @@ UI = {
         'pray_u': '함께 기도해요', 'pray_g': '마침 기도', 'prayBtn': '🔊 기도 듣기', 'close': '닫기',
         'aims': ('배경', '핵심', '적용'),
     },
+    'ru': {
+        'usaq_eyebrow': lambda n: f'Библейский урок для детей · Матфей, урок {n}',
+        'genc_eyebrow': lambda n: f'Библейский урок для подростков · Матфей, урок {n}',
+        'mins': lambda m: f'около {m} минут', 'book': 'Матфей',
+        'back': 'Все уроки', 'playAll_u': 'Слушать с начала', 'playAll_g': 'Слушать всё', 'stop': 'Стоп', 'slow': 'Медленно', 'say': '🔊 Слушать',
+        'note_u': 'Нажми на жёлтые слова, чтобы узнать их значение. Кнопка 🔊 читает вслух.',
+        'note_g': 'Нажми на подчёркнутые слова: значение, слово в оригинале и по-азербайджански.',
+        'goal': 'Что мы узнаем сегодня?', 'scene': 'Сцена', 'verse_u': 'Стих недели', 'verse_g': 'Стих недели',
+        'simple': 'простыми словами для детей', 'simple_g': 'простыми словами', 'blankHint': 'Выбери слова для пропусков по порядку.',
+        'dict_u': ('Словарик', 'Нажми и узнай значение'), 'dict_g': ('Словарь и язык оригинала', 'Нажми, чтобы узнать больше'),
+        'quiz': ('Проверь себя', lambda n: f'{n} вопроса' if 2 <= n <= 4 else f'{n} вопросов'), 'think': 'Давай подумаем', 'share': 'Вопросы для обсуждения',
+        'draw': 'Нарисуй', 'drawFrame': 'Нарисуй на бумаге и<br>отправь фото учителю',
+        'pray_u': 'Помолимся вместе', 'pray_g': 'Заключительная молитва', 'prayBtn': '🔊 Слушать молитву', 'close': 'Закрыть',
+        'aims': ('Контекст', 'Главная мысль', 'Применение'),
+    },
+    'en': {
+        'usaq_eyebrow': lambda n: f'Bible lesson for children · Matthew, lesson {n}',
+        'genc_eyebrow': lambda n: f'Bible lesson for teens · Matthew, lesson {n}',
+        'mins': lambda m: f'about {m} minutes', 'book': 'Matthew',
+        'back': 'All lessons', 'playAll_u': 'Listen from the start', 'playAll_g': 'Listen to all', 'stop': 'Stop', 'slow': 'Slow', 'say': '🔊 Listen',
+        'note_u': 'Tap the yellow words to see what they mean. The 🔊 button reads aloud.',
+        'note_g': 'Tap the underlined words: meaning, original-language form and Azerbaijani word.',
+        'goal': 'What will we learn today?', 'scene': 'Scene', 'verse_u': 'Memory verse of the week', 'verse_g': 'Memory verse of the week',
+        'simple': 'in simple words for children', 'simple_g': 'in simple words', 'blankHint': 'Choose the words for the blanks in order.',
+        'dict_u': ('Word list', 'Tap to see the meaning'), 'dict_g': ('Words and original language', 'Tap for more'),
+        'quiz': ('Check yourself', lambda n: f'{n} questions'), 'think': 'Let’s think', 'share': 'Discussion questions',
+        'draw': 'Draw it', 'drawFrame': 'Draw on paper and<br>send a photo to your teacher',
+        'pray_u': 'Let’s pray together', 'pray_g': 'Closing prayer', 'prayBtn': '🔊 Listen to the prayer', 'close': 'Close',
+        'aims': ('Background', 'Main idea', 'Application'),
+    },
 }
+
+
+AUDIO_LANGS = ('az', 'ru', 'en')
+TITLE = {
+    'az': (lambda n: f'Matta · {az_ord(n)} dərs · uşaqlar', lambda n: f'Matta · {az_ord(n)} dərs · yeniyetmələr'),
+    'ko': (lambda n: f'마태복음 {n}과 어린이', lambda n: f'마태복음 {n}과 청소년'),
+    'ru': (lambda n: f'Матфей · урок {n} · дети', lambda n: f'Матфей · урок {n} · подростки'),
+    'en': (lambda n: f'Matthew · lesson {n} · children', lambda n: f'Matthew · lesson {n} · teens'),
+}
+# dil → (uşaq qovluğu, yeniyetmə qovluğu)
+FOLD = {'az': ('az', 'az-genc'), 'ko': ('ko-usaq', 'ko-genc'), 'ru': ('ru', 'ru-genc'), 'en': ('en', 'en-genc')}
+
+
+def ders_id(n, lang):
+    return f'matta-{n:02d}' + ('' if lang == 'az' else '-' + lang)
 
 
 class Audio:
@@ -160,8 +205,8 @@ def foot_js(dd, lang, tracker, n):
 def build_usaq(L, lang):
     global LUG
     n = L['no']; ui = UI[lang]; d = L[lang]['usaq']; LUG = d['lugat']
-    au = Audio() if lang == 'az' else None
-    title = (f'Matta {n}-ci dərs uşaqlar' if False else (f'Matta · {az_ord(n)} dərs · uşaqlar' if lang == 'az' else f'마태복음 {n}과 어린이'))
+    au = Audio() if lang in AUDIO_LANGS else None
+    title = TITLE[lang][0](n)
     o = [head(title, 'usaq.css', lang)]
     o.append(f'  <a href="../" style="font-family:inherit;font-size:14px;color:inherit;opacity:.7;text-decoration:none">← {ui["back"]}</a>\n')
     o.append(f'''  <header class="hero">
@@ -224,11 +269,11 @@ def build_usaq(L, lang):
     if au is not None:
         for j, (w, x) in enumerate(lug.items()):
             au.key(f'{w}. {x["m"]} {x["e"]}', f'd{j}')
-    dd = {'dil': lang, 'sinif': 'usaq', 'ses': 'fayl' if lang == 'az' else 'cihaz', 'lugat': lug, 'test': d['test'],
+    dd = {'dil': lang, 'sinif': 'usaq', 'ses': 'fayl' if lang in AUDIO_LANGS else 'cihaz', 'lugat': lug, 'test': d['test'],
           'oyun': {'sozler': v['sozler'], 'yalan': v['yalan']}}
     tracker = None
-    if lang == 'az':
-        tracker = {'sinif': 'usaq', 'ders': f'matta-{n:02d}'}
+    if lang in AUDIO_LANGS:
+        tracker = {'sinif': 'usaq', 'ders': ders_id(n, lang), 'dil': lang}
         if f.get('secim'):
             tracker['secim'] = f['secim']
     o.append(foot_js(dd, lang, tracker, n))
@@ -238,8 +283,8 @@ def build_usaq(L, lang):
 def build_genc(L, lang):
     global LUG
     n = L['no']; ui = UI[lang]; d = L[lang]['genc']; LUG = d['lugat']
-    au = Audio() if lang == 'az' else None
-    title = f'Matta · {az_ord(n)} dərs · yeniyetmələr' if lang == 'az' else f'마태복음 {n}과 청소년'
+    au = Audio() if lang in AUDIO_LANGS else None
+    title = TITLE[lang][1](n)
     o = [head(title, 'genc.css', lang)]
     o.append(f'  <a href="../" style="font-family:inherit;font-size:14px;color:inherit;opacity:.7;text-decoration:none">← {ui["back"]}</a>\n')
     o.append(f'''  <header class="hero">
@@ -300,8 +345,8 @@ def build_genc(L, lang):
     if au is not None:
         for j, (w, x) in enumerate(lug.items()):
             au.key(f'{w}. {x["m"]} {x["e"]}', f'd{j}')
-    dd = {'dil': lang, 'sinif': 'genc', 'ses': 'fayl' if lang == 'az' else 'cihaz', 'lugat': lug, 'test': d['test']}
-    tracker = {'sinif': 'genc', 'ders': f'matta-{n:02d}'} if lang == 'az' else None
+    dd = {'dil': lang, 'sinif': 'genc', 'ses': 'fayl' if lang in AUDIO_LANGS else 'cihaz', 'lugat': lug, 'test': d['test']}
+    tracker = {'sinif': 'genc', 'ders': ders_id(n, lang), 'dil': lang} if lang in AUDIO_LANGS else None
     o.append(foot_js(dd, lang, tracker, n))
     return ''.join(o), au
 
@@ -317,6 +362,8 @@ def build_teacher(L):
         return ''.join(f'      <tr><td>{i + 1}</td><td>{E(a["o"][a["a"]])} / {E(b["o"][b["a"]])}</td><td>{E(a.get("f", ""))}</td></tr>\n' for i, (a, b) in enumerate(zip(qs_ko, qs_az)))
     links = [(f'matta-{n:02d}-az', 'Azərbaycanca · uşaqlar', '아제르바이잔어 어린이 · 음성'), (f'matta-{n:02d}-az-genc', 'Azərbaycanca · yeniyetmələr', '아제르바이잔어 청소년 · 음성'),
              (f'matta-{n:02d}-ko-usaq', '한국어 · 어린이', '그림 이야기와 퀴즈'), (f'matta-{n:02d}-ko-genc', '한국어 · 청소년', '배경·원어·나눔')]
+    if 'ru' in L: links += [(f'matta-{n:02d}-ru', 'Русский · дети', '러시아어 어린이 · 음성'), (f'matta-{n:02d}-ru-genc', 'Русский · подростки', '러시아어 청소년 · 음성')]
+    if 'en' in L: links += [(f'matta-{n:02d}-en', 'English · children', '영어 어린이 · 음성'), (f'matta-{n:02d}-en-genc', 'English · teens', '영어 청소년 · 음성')]
     o = [f'''<!doctype html>
 <html lang="ko">
 <head>
@@ -434,29 +481,39 @@ def write(path, text):
 
 def build_lesson(L):
     n = L['no']
-    for lang, lvl, folder in [('az', 'usaq', f'matta-{n:02d}-az'), ('az', 'genc', f'matta-{n:02d}-az-genc'),
-                              ('ko', 'usaq', f'matta-{n:02d}-ko-usaq'), ('ko', 'genc', f'matta-{n:02d}-ko-genc')]:
-        WARN.clear()
-        page, au = (build_usaq if lvl == 'usaq' else build_genc)(L, lang)
-        if WARN: print(f'  ! {folder}: lüğətdə olmayan sözlər → adi mətn: {sorted(set(WARN))}')
-        write(os.path.join(ROOT, folder, 'index.html'), page)
-        if au is not None:
-            write(os.path.join(SRC, 'ses', folder + '.json'), json.dumps(au.items, ensure_ascii=False, indent=0))
-    write(os.path.join(ROOT, 'muellim', f'matta-{n:02d}', 'index.html'), build_teacher(L))
+    for lang in ('az', 'ko', 'ru', 'en'):
+        if lang not in L:
+            continue
+        for lvl, folder in (('usaq', f'matta-{n:02d}-{FOLD[lang][0]}'), ('genc', f'matta-{n:02d}-{FOLD[lang][1]}')):
+            WARN.clear()
+            page, au = (build_usaq if lvl == 'usaq' else build_genc)(L, lang)
+            if WARN: print(f'  ! {folder}: lüğətdə olmayan sözlər → adi mətn: {sorted(set(WARN))}')
+            write(os.path.join(ROOT, folder, 'index.html'), page)
+            if au is not None:
+                write(os.path.join(SRC, 'ses', folder + '.json'), json.dumps(au.items, ensure_ascii=False, indent=0))
+    if 'muellim' in L:
+        write(os.path.join(ROOT, 'muellim', f'matta-{n:02d}', 'index.html'), build_teacher(L))
 
 
 def build_index(lessons):
     """Ana səhifə: başlıq + dil/yaş düymələri + seçilən siyahı (şəxsi link ?ad=…&q=…)."""
     import re
     from PIL import Image
-    keys = ['az', 'az-genc', 'ko-usaq', 'ko-genc']
+    keys = ['az', 'az-genc', 'ko-usaq', 'ko-genc', 'ru', 'ru-genc', 'en', 'en-genc']
     def h1(folder):
         t = open(os.path.join(ROOT, folder, 'index.html'), encoding='utf-8').read()
         return re.sub('<[^>]+>', '', re.search(r'<h1[^>]*>(.*?)</h1>', t, re.S).group(1)).strip()
-    meta = [{'no': 1, 'ref': '1:1–25', 'img': '02-isanin-dogulmasi.jpg', 't': {k: h1('matta-01-' + k) for k in keys}}]
+    meta = []
     for L in lessons:
-        meta.append({'no': L['no'], 'ref': L['ref'], 'img': L['img'][L.get('hero', 0)],
-                     't': {'az': L['az']['usaq']['basliq'], 'az-genc': L['az']['genc']['basliq'], 'ko-usaq': L['ko']['usaq']['basliq'], 'ko-genc': L['ko']['genc']['basliq']}})
+        t = {}
+        for lang, (ku, kg) in FOLD.items():
+            if lang in L:
+                t[ku] = L[lang]['usaq']['basliq']; t[kg] = L[lang]['genc']['basliq']
+            elif os.path.exists(os.path.join(ROOT, f"matta-{L['no']:02d}-{ku}", 'index.html')):
+                t[ku] = h1(f"matta-{L['no']:02d}-{ku}"); t[kg] = h1(f"matta-{L['no']:02d}-{kg}")
+        meta.append({'no': L['no'], 'ref': L['ref'], 'img': L['img'][L.get('hero', 0)], 't': t})
+    if not any(m['no'] == 1 for m in meta):
+        meta.append({'no': 1, 'ref': '1:1–25', 'img': '02-isanin-dogulmasi.jpg', 't': {k: h1('matta-01-' + k) for k in keys[:4]}})
     meta.sort(key=lambda m: m['no'])
     os.makedirs(os.path.join(ROOT, 'img', 'th'), exist_ok=True)
     for m in meta:
@@ -467,7 +524,7 @@ def build_index(lessons):
             w, h = im.size; tw = int(h * 4 / 3)
             if tw < w: im = im.crop(((w - tw) // 2, 0, (w - tw) // 2 + tw, h))
             im.resize((240, 180), Image.LANCZOS).save(dst, quality=78)
-    data = {k: [[m['no'], m['ref'], m['t'][k]] for m in meta] for k in keys}
+    data = {k: [[m['no'], m['ref'], m['t'][k]] for m in meta if k in m['t']] for k in keys}
     js = json.dumps(data, ensure_ascii=False, separators=(',', ':'))
     write(os.path.join(ROOT, 'index.html'), open(os.path.join(SRC, 'ana.html'), encoding='utf-8').read().replace('/*DATA*/', js))
 
@@ -477,6 +534,7 @@ def build_teacher_index(lessons):
     s = open(p, encoding='utf-8').read()
     items = ['<li><a href="#links">제1과 · 마태복음 1:1–25 · 임마누엘, 하나님이 우리와 함께 (이 페이지)</a></li>']
     for L in lessons:
+        if 'muellim' not in L: continue
         items.append(f'<li><a href="matta-{L["no"]:02d}/">제{L["no"]}과 · 마태복음 {E(L["ref"])} · {E(L["ko"]["genc"]["basliq"])}</a></li>')
     block = '<!-- dersler:basla -->\n<section id="lessons">\n  <p style="margin:0 0 14px"><a href="linkler/" style="display:inline-block;background:#25D366;color:#fff;font-weight:800;padding:10px 16px;border-radius:12px;text-decoration:none">👥 학생 개인 링크 만들기 · WhatsApp 보내기</a></p>\n  <h2>과별 교사용 지도서</h2>\n  <ol class="lessons">\n    ' + '\n    '.join(items) + '\n  </ol>\n</section>\n<!-- dersler:son -->\n'
     if '<!-- dersler:basla -->' in s:

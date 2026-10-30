@@ -1,153 +1,1559 @@
 {
-"no": 29, "ref": "25:1–46", "deq": {"usaq": 40, "genc": 50},
-"img": ["matta/29-on-qiz.jpg", "matta/29-talant.jpg", "matta/29-basdirilan.jpg", "matta/29-en-kicik.jpg"],
-"hero": 3,
-"ko": {
- "usaq": {
-  "basliq": "지극히 작은 자 하나에게",
-  "hedef": ["예수님을 기다리며 준비하는 슬기로운 사람이 되기로 해요.", "하나님이 주신 재능을 잘 사용해야 함을 배워요.", "어려운 사람을 돕는 것이 예수님을 돕는 것임을 배워요."],
-  "sehneler": [
-   {"b": "열 처녀와 등불", "ayə": "25:1–13", "alt": "등불을 들고 신랑을 기다리는 열 처녀", "p": ["열 명의 처녀가 [[등불]]을 들고 신랑을 기다렸어요. 다섯 명은 기름을 넉넉히 준비했고, 다섯 명은 준비하지 않았어요.", "밤늦게 신랑이 왔을 때, 준비한 다섯 명은 잔치에 들어갔지만 기름을 사러 간 다섯 명은 들어가지 못했어요. 예수님을 기다리는 우리도 늘 준비해야 해요."]},
-   {"b": "주인이 맡긴 달란트", "ayə": "25:14–18", "alt": "종들에게 돈 자루를 맡기는 주인", "p": ["어떤 주인이 여행을 떠나며 종들에게 [[달란트]]를 맡겼어요. 한 사람에게는 다섯, 한 사람에게는 둘, 한 사람에게는 하나를 주었어요.", "다섯 달란트와 두 달란트 받은 종은 열심히 장사해서 두 배로 늘렸어요. 그런데 한 달란트 받은 종은 땅을 파고 돈을 숨겨 두었어요."]},
-   {"b": "잘하였도다, 착하고 충성된 종아", "ayə": "25:19–30", "alt": "칭찬받는 종과 땅에 묻은 돈을 꺼내는 종", "p": ["주인이 돌아와서 열심히 일한 종들에게 말했어요. “잘하였도다, 착하고 [[충성]]된 종아! 네가 작은 일에 충성하였으니 큰 일을 맡기겠다.”", "하지만 한 달란트를 숨긴 종은 “주인님이 무서워서 숨겼어요” 했어요. 주인은 맡긴 것을 쓰지 않은 게으른 종을 꾸짖었어요. 하나님이 주신 재능은 숨기지 말고 사용해야 해요."]},
-   {"b": "나에게 한 것이다", "ayə": "25:31–46", "alt": "배고픈 사람과 아픈 사람을 돕는 아이들과 그 곁의 예수님", "p": ["예수님이 왕으로 오시는 날, 이렇게 말씀하실 거예요. “내가 배고플 때 먹을 것을 주었고, 목마를 때 마실 것을 주었고, 아플 때 돌봐 주었다.”", "사람들이 “언제 그랬어요?” 묻자 왕이 대답하세요. “내 [[형제]] 중에 지극히 작은 사람 하나에게 한 것이 곧 나에게 한 것이다.” 어려운 친구를 도우면 예수님을 돕는 거예요."]}
-  ],
-  "aye": {"metn": "“너희가 여기 내 형제 중에 지극히 작은 자 하나에게 한 것이 곧 내게 한 것이니라.”", "ref": "25:40", "bos": "너희가 여기 내 ___ 중에 지극히 ___ 자 하나에게 한 것이 곧 ___ 한 것이니라.", "sozler": ["형제", "작은", "내게"], "yalan": "왕에게"},
-  "lugat": {
-   "등불": {"i": "🪔", "x": "çıraq", "m": "기름을 넣어 불을 켜는 작은 그릇이에요.", "e": "처녀들이 등불을 들고 기다렸어요."},
-   "달란트": {"i": "💰", "x": "talant", "m": "아주 큰돈의 단위예요. 하나님이 주신 재능과 기회를 뜻해요.", "e": "주인이 종들에게 달란트를 맡겼어요."},
-   "충성": {"i": "🏅", "x": "sadiqlik", "m": "맡은 일을 끝까지 성실하게 하는 거예요.", "e": "착하고 충성된 종아!"},
-   "형제": {"i": "🤝", "x": "qardaş", "m": "같은 가족 같은 사람이에요. 예수님은 어려운 사람을 형제라고 부르세요.", "e": "지극히 작은 형제 하나에게 한 것."}
-  },
-  "test": [
-   {"q": "슬기로운 처녀들이 준비한 것은?", "o": ["넉넉한 기름", "예쁜 옷", "맛있는 음식"], "a": 0, "f": "맞아요! 늘 준비하고 있었어요."},
-   {"q": "한 달란트 받은 종은 어떻게 했나요?", "o": ["땅에 숨겼어요", "두 배로 늘렸어요", "친구에게 줬어요"], "a": 0, "f": "맞아요! 사용하지 않았어요."},
-   {"q": "주인이 열심히 일한 종에게 한 말은?", "o": ["잘하였도다, 착하고 충성된 종아", "왜 그랬느냐", "다시 가져가라"], "a": 0, "f": "맞아요! 하나님도 우리를 칭찬하세요."},
-   {"q": "작은 사람 하나를 도운 것은 누구를 도운 것인가요?", "o": ["예수님", "아무도 아니에요", "나 자신"], "a": 0, "f": "맞아요! 예수님께 한 거예요."}
-  ],
-  "dusun": ["예수님을 기다리며 내 ‘등불의 기름’을 채우는 방법은 무엇일까요?", "하나님이 나에게 주신 ‘달란트’(재능)는 무엇인가요?", "우리 주변에 도움이 필요한 ‘작은 사람’은 누구인가요?"],
-  "fealiyyet": {"ciz": "배고픈 친구에게 빵을 나눠 주는 나를 그려 보세요. 그 곁에 예수님도 그려 보세요.", "b": "나의 달란트", "p": "하나님이 주신 재능과 그것으로 할 일을 써 보세요.", "ph": "예) 저는 노래를 잘해요. 교회에서 찬양으로 섬길래요."},
-  "dua": "예수님, 저에게 재능과 시간을 맡겨 주셔서 감사합니다. 슬기로운 처녀처럼 늘 준비하고, 받은 달란트를 숨기지 않고 사용하게 해 주세요. 어려운 친구를 도울 때 예수님을 돕는 것임을 기억하게 해 주세요. 예수님 이름으로 기도합니다. 아멘."
+ "no": 29,
+ "ref": "25:1–46",
+ "deq": {
+  "usaq": 40,
+  "genc": 50
  },
- "genc": {
-  "basliq": "기다림은 무엇으로 채워지는가",
-  "giris": "“깨어 있으라”는 말씀 뒤에 예수님은 세 이야기로 그 뜻을 풀어 주십니다. 준비하는 기다림(열 처녀), 일하는 기다림(달란트), 섬기는 기다림(양과 염소). 기다림은 멈춤이 아니라 가장 바쁜 사랑의 시간입니다.",
-  "meqsed": ["25장의 세 비유가 ‘깨어 있음’을 어떻게 구체화하는지 이해해요.", "달란트 비유에서 신실함과 두려움의 차이를 설명할 수 있어요.", "‘지극히 작은 자’를 섬기는 구체적인 방법을 정해요."],
-  "sehneler": [
-   {"b": "준비된 기다림", "ayə": "25:1–13", "alt": "등불을 들고 신랑을 기다리는 열 처녀", "p": ["당시 결혼식은 밤에 신랑이 신부 집으로 와서 신부를 데려가는 행렬로 시작했어요. 신부 친구들은 [[등불]]을 들고 기다렸어요. 신랑이 언제 올지는 몰랐어요.", "열 명 모두 잠들었어요. 차이는 깨어 있었느냐가 아니라 ‘준비했느냐’였어요. 기름은 빌려줄 수 없었어요. 믿음과 준비는 남에게서 빌릴 수 없는, 각자의 것이에요."], "deep": {"b": "깊이 보기 · 기름은 무엇인가?", "p": "전통적으로 성령, 선행, 믿음 등 다양하게 해석돼요. 7:21–23과 연결하면 “주여 주여” 하는 고백만이 아니라 아버지의 뜻을 행하는 삶이에요. 신랑의 말 “내가 너희를 알지 못하노라”도 7:23과 같아요."}},
-   {"b": "맡겨진 것", "ayə": "25:14–18", "alt": "종들에게 돈 자루를 맡기는 주인", "p": ["한 [[달란트]]는 노동자 약 20년 치 임금이에요. 가장 적게 받은 종도 엄청난 금액을 맡았어요. 주인은 “각각 그 재능대로” 맡겼어요. 양은 달라도 기대는 같아요.", "다섯과 두 달란트 받은 종은 ‘바로 가서’ 장사했어요. 한 달란트 받은 종은 땅을 팠어요. 당시 랍비 법에서 돈을 땅에 묻는 것은 도난에 대비한 가장 안전한 방법이었어요. 그는 잃지 않는 것을 목표로 했어요."], "deep": {"b": "깊이 보기 · ‘달란트’라는 말", "p": "영어 talent(재능)가 바로 이 비유에서 나왔어요. 하지만 비유 속 달란트는 재능만이 아니라 하나님이 맡기신 모든 것, 곧 복음, 시간, 관계, 기회를 포함해요."}},
-   {"b": "두려움이 묻은 달란트", "ayə": "25:19–30", "alt": "칭찬받는 종과 땅에 묻은 돈을 꺼내는 종", "p": ["두 종은 같은 칭찬을 받아요. “잘하였도다 착하고 [[충성]]된 종아 네가 적은 일에 충성하였으매 내가 많은 것으로 네게 맡기리니 네 주인의 즐거움에 참여할지어다.” 결과의 크기가 아니라 신실함을 칭찬하셨어요.", "세 번째 종은 “당신은 굳은 사람이라 … 두려워하여 나가서 당신의 달란트를 땅에 숨겨 두었었나이다.” 주인에 대한 잘못된 생각이 두려움을 낳았고, 두려움이 아무것도 하지 않게 만들었어요."], "deep": {"b": "깊이 보기 · 실패보다 무서운 것", "p": "이 비유에 ‘장사하다 손해 본 종’은 없어요. 하나님은 시도하다 실패한 사람보다, 두려워서 아무것도 하지 않은 사람을 더 안타까워하세요. 은혜의 하나님을 아는 사람은 실패를 무릅쓰고 시도할 수 있어요.", "rose": true}},
-   {"b": "지극히 작은 자", "ayə": "25:31–46", "alt": "배고픈 사람과 아픈 사람을 돕는 아이들과 그 곁의 예수님", "p": ["인자가 영광 중에 오셔서 목자가 양과 염소를 나누듯 모든 민족을 나누세요. 기준은 놀랍게도 종교 지식이 아니라 주린 자, 목마른 자, 나그네, 헐벗은 자, 병든 자, 옥에 갇힌 자를 어떻게 대했느냐예요.", "양도 염소도 똑같이 놀라요. “주여 우리가 어느 때에…?” 섬긴 사람들은 예수님께 한 줄 몰랐어요. 계산 없이 사랑했기 때문이에요. 예수님은 가장 [[작은 자]]와 자신을 하나로 여기세요."], "deep": {"b": "깊이 보기 · 행위 구원?", "p": "이 장면은 ‘착한 일을 해서 구원받는다’는 뜻이 아니에요. 왕의 은혜를 받은 사람은 자연스럽게 작은 자를 사랑하게 된다는 거예요. 열매는 뿌리를 증명해요(7:17). 마태복음 전체가 말씀과 행동이 하나인 믿음을 말해요."}}
-  ],
-  "cedvel": {"b": "기다림의 세 모습", "alt": "25:1–46", "bas": ["비유", "깨어 있음의 모습", "실패한 사람의 문제"], "set": [["열 처녀", "준비하는 기다림", "기름을 준비하지 않음"], ["달란트", "일하는 기다림", "두려워서 숨김"], ["양과 염소", "섬기는 기다림", "작은 자를 지나쳐 버림"]]},
-  "aye": {"metn": "“임금이 대답하여 이르시되 내가 진실로 너희에게 이르노니 너희가 여기 내 형제 중에 지극히 작은 자 하나에게 한 것이 곧 내게 한 것이니라 하시고.”", "ref": "25:40"},
-  "lugat": {
-   "등불": {"i": "🪔", "o": "헬라어 람파스", "x": "çıraq", "s": "기름 적신 횃불", "m": "막대 끝에 기름 먹인 천을 감은 횃불이었을 가능성이 커요. 15분마다 기름을 보충해야 했어요.", "e": "‘램프’(lamp)의 어원이에요."},
-   "달란트": {"i": "💰", "o": "헬라어 탈란톤", "x": "talant", "s": "맡겨진 모든 것", "m": "약 6,000데나리온. 한 달란트도 평생 만지기 힘든 큰돈이었어요.", "e": "18:24 만 달란트 빚과 같은 단위예요."},
-   "충성": {"i": "🏅", "o": "헬라어 피스토스", "x": "sadiq", "s": "믿을 만함", "m": "‘믿음’(피스티스)과 같은 뿌리예요. 충성은 믿음이 행동으로 드러난 거예요.", "e": "“죽도록 충성하라”(계 2:10)."},
-   "작은 자": {"i": "🫂", "o": "헬라어 엘라키스토스", "x": "ən kiçik", "s": "가장 연약하고 잊힌 사람", "m": "10:42 “작은 자 중 하나에게 냉수 한 그릇”, 18:6 “작은 자 하나를 실족하게 하면”과 연결돼요.", "e": "예수님은 작은 자의 얼굴로 우리를 찾아오세요."}
+ "img": [
+  "matta/29-on-qiz.jpg",
+  "matta/29-talant.jpg",
+  "matta/29-basdirilan.jpg",
+  "matta/29-en-kicik.jpg"
+ ],
+ "hero": 3,
+ "ko": {
+  "usaq": {
+   "basliq": "지극히 작은 자 하나에게",
+   "hedef": [
+    "예수님을 기다리며 준비하는 슬기로운 사람이 되기로 해요.",
+    "하나님이 주신 재능을 잘 사용해야 함을 배워요.",
+    "어려운 사람을 돕는 것이 예수님을 돕는 것임을 배워요."
+   ],
+   "sehneler": [
+    {
+     "b": "열 처녀와 등불",
+     "ayə": "25:1–13",
+     "alt": "등불을 들고 신랑을 기다리는 열 처녀",
+     "p": [
+      "열 명의 처녀가 [[등불]]을 들고 신랑을 기다렸어요. 다섯 명은 기름을 넉넉히 준비했고, 다섯 명은 준비하지 않았어요.",
+      "밤늦게 신랑이 왔을 때, 준비한 다섯 명은 잔치에 들어갔지만 기름을 사러 간 다섯 명은 들어가지 못했어요. 예수님을 기다리는 우리도 늘 준비해야 해요."
+     ]
+    },
+    {
+     "b": "주인이 맡긴 달란트",
+     "ayə": "25:14–18",
+     "alt": "종들에게 돈 자루를 맡기는 주인",
+     "p": [
+      "어떤 주인이 여행을 떠나며 종들에게 [[달란트]]를 맡겼어요. 한 사람에게는 다섯, 한 사람에게는 둘, 한 사람에게는 하나를 주었어요.",
+      "다섯 달란트와 두 달란트 받은 종은 열심히 장사해서 두 배로 늘렸어요. 그런데 한 달란트 받은 종은 땅을 파고 돈을 숨겨 두었어요."
+     ]
+    },
+    {
+     "b": "잘하였도다, 착하고 충성된 종아",
+     "ayə": "25:19–30",
+     "alt": "칭찬받는 종과 땅에 묻은 돈을 꺼내는 종",
+     "p": [
+      "주인이 돌아와서 열심히 일한 종들에게 말했어요. “잘하였도다, 착하고 [[충성]]된 종아! 네가 작은 일에 충성하였으니 큰 일을 맡기겠다.”",
+      "하지만 한 달란트를 숨긴 종은 “주인님이 무서워서 숨겼어요” 했어요. 주인은 맡긴 것을 쓰지 않은 게으른 종을 꾸짖었어요. 하나님이 주신 재능은 숨기지 말고 사용해야 해요."
+     ]
+    },
+    {
+     "b": "나에게 한 것이다",
+     "ayə": "25:31–46",
+     "alt": "배고픈 사람과 아픈 사람을 돕는 아이들과 그 곁의 예수님",
+     "p": [
+      "예수님이 왕으로 오시는 날, 이렇게 말씀하실 거예요. “내가 배고플 때 먹을 것을 주었고, 목마를 때 마실 것을 주었고, 아플 때 돌봐 주었다.”",
+      "사람들이 “언제 그랬어요?” 묻자 왕이 대답하세요. “내 [[형제]] 중에 지극히 작은 사람 하나에게 한 것이 곧 나에게 한 것이다.” 어려운 친구를 도우면 예수님을 돕는 거예요."
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "“너희가 여기 내 형제 중에 지극히 작은 자 하나에게 한 것이 곧 내게 한 것이니라.”",
+    "ref": "25:40",
+    "bos": "너희가 여기 내 ___ 중에 지극히 ___ 자 하나에게 한 것이 곧 ___ 한 것이니라.",
+    "sozler": [
+     "형제",
+     "작은",
+     "내게"
+    ],
+    "yalan": "왕에게"
+   },
+   "lugat": {
+    "등불": {
+     "i": "🪔",
+     "x": "çıraq",
+     "m": "기름을 넣어 불을 켜는 작은 그릇이에요.",
+     "e": "처녀들이 등불을 들고 기다렸어요."
+    },
+    "달란트": {
+     "i": "💰",
+     "x": "talant",
+     "m": "아주 큰돈의 단위예요. 하나님이 주신 재능과 기회를 뜻해요.",
+     "e": "주인이 종들에게 달란트를 맡겼어요."
+    },
+    "충성": {
+     "i": "🏅",
+     "x": "sadiqlik",
+     "m": "맡은 일을 끝까지 성실하게 하는 거예요.",
+     "e": "착하고 충성된 종아!"
+    },
+    "형제": {
+     "i": "🤝",
+     "x": "qardaş",
+     "m": "같은 가족 같은 사람이에요. 예수님은 어려운 사람을 형제라고 부르세요.",
+     "e": "지극히 작은 형제 하나에게 한 것."
+    }
+   },
+   "test": [
+    {
+     "q": "슬기로운 처녀들이 준비한 것은?",
+     "o": [
+      "넉넉한 기름",
+      "예쁜 옷",
+      "맛있는 음식"
+     ],
+     "a": 0,
+     "f": "맞아요! 늘 준비하고 있었어요."
+    },
+    {
+     "q": "한 달란트 받은 종은 어떻게 했나요?",
+     "o": [
+      "땅에 숨겼어요",
+      "두 배로 늘렸어요",
+      "친구에게 줬어요"
+     ],
+     "a": 0,
+     "f": "맞아요! 사용하지 않았어요."
+    },
+    {
+     "q": "주인이 열심히 일한 종에게 한 말은?",
+     "o": [
+      "잘하였도다, 착하고 충성된 종아",
+      "왜 그랬느냐",
+      "다시 가져가라"
+     ],
+     "a": 0,
+     "f": "맞아요! 하나님도 우리를 칭찬하세요."
+    },
+    {
+     "q": "작은 사람 하나를 도운 것은 누구를 도운 것인가요?",
+     "o": [
+      "예수님",
+      "아무도 아니에요",
+      "나 자신"
+     ],
+     "a": 0,
+     "f": "맞아요! 예수님께 한 거예요."
+    }
+   ],
+   "dusun": [
+    "예수님을 기다리며 내 ‘등불의 기름’을 채우는 방법은 무엇일까요?",
+    "하나님이 나에게 주신 ‘달란트’(재능)는 무엇인가요?",
+    "우리 주변에 도움이 필요한 ‘작은 사람’은 누구인가요?"
+   ],
+   "fealiyyet": {
+    "ciz": "배고픈 친구에게 빵을 나눠 주는 나를 그려 보세요. 그 곁에 예수님도 그려 보세요.",
+    "b": "나의 달란트",
+    "p": "하나님이 주신 재능과 그것으로 할 일을 써 보세요.",
+    "ph": "예) 저는 노래를 잘해요. 교회에서 찬양으로 섬길래요."
+   },
+   "dua": "예수님, 저에게 재능과 시간을 맡겨 주셔서 감사합니다. 슬기로운 처녀처럼 늘 준비하고, 받은 달란트를 숨기지 않고 사용하게 해 주세요. 어려운 친구를 도울 때 예수님을 돕는 것임을 기억하게 해 주세요. 예수님 이름으로 기도합니다. 아멘."
   },
-  "test": [
-   {"q": "열 처녀 비유에서 슬기로운 처녀와 미련한 처녀의 차이는?", "o": ["기름을 준비했느냐", "잠들었느냐", "예뻤느냐"], "a": 0, "f": "맞아요. 모두 잠들었지만 준비가 달랐어요."},
-   {"q": "주인은 달란트를 어떤 기준으로 맡겼나요?", "o": ["각각 그 재능대로", "똑같이", "제비뽑기로"], "a": 0, "f": "맞아요. 양은 달라도 기대는 같아요."},
-   {"q": "다섯 달란트 종과 두 달란트 종이 받은 칭찬의 차이는?", "o": ["똑같았다", "다섯 달란트 종이 더 컸다", "두 달란트 종은 칭찬받지 못했다"], "a": 0, "f": "맞아요. 결과가 아니라 신실함을 보셨어요."},
-   {"q": "한 달란트 종이 숨긴 근본 이유는?", "o": ["주인을 굳은 사람으로 오해한 두려움", "게으른 성격", "돈이 너무 적어서"], "a": 0, "f": "맞아요. 잘못된 하나님 이해가 두려움을 낳았어요."},
-   {"q": "양과 염소를 나누는 기준은?", "o": ["지극히 작은 자를 어떻게 대했느냐", "성경 지식", "교회 출석 횟수"], "a": 0, "f": "맞아요. 은혜의 열매로 드러나요."}
-  ],
-  "paylas": ["내 믿음의 ‘기름’은 넉넉한가요? 남에게 빌릴 수 없는 나만의 준비는 무엇인가요?", "하나님이 나에게 맡기신 ‘달란트’ 세 가지를 꼽아 본다면?", "두려움 때문에 묻어 둔 달란트가 있나요? 실패가 두려워 시도하지 않은 일은?", "내 주변의 ‘지극히 작은 자’는 누구인가요? 그 얼굴에서 예수님을 본다면 어떻게 대할까요?"],
-  "etiraf": {"b": "나의 고백", "p": "하나님이 내게 맡기신 달란트 하나와, 그것으로 이번 주 ‘지극히 작은 자’ 한 사람을 섬길 계획을 서너 문장으로 써 보세요.", "ph": "예) 저는 수학을 잘해요. 반에서 수학을 어려워하는 친구에게 …"},
-  "dua": "예수님, 기다림이 멈춤이 아니라 사랑으로 채우는 시간임을 가르쳐 주셔서 감사합니다. 남에게 빌릴 수 없는 믿음의 기름을 준비하게 하시고, 두려움으로 묻어 둔 달란트를 꺼내 신실하게 사용하게 해 주세요. 지극히 작은 자의 얼굴에서 주님을 보고 섬기게 해 주세요. 예수님 이름으로 기도합니다. 아멘."
- }
-},
-"az": {
- "usaq": {
-  "basliq": "Ən kiçik qardaşlarımdan birinə",
-  "hedef": ["İsanı gözləyərək hazır olan ağıllı insan olmağa qərar verəcəyik.", "Allahın verdiyi bacarıqları yaxşı işlətməyi öyrənəcəyik.", "Çətinlikdə olana kömək etməyin İsaya kömək etmək olduğunu öyrənəcəyik."],
-  "sehneler": [
-   {"b": "On qız və çıraqlar", "ayə": "Matta 25:1–13", "alt": "Çıraqlarını tutub bəyi gözləyən on qız", "p": ["On qız [[çıraq]]larını götürüb bəyi gözləyirdi. Beşi kifayət qədər yağ hazırlamışdı, beşi isə hazırlamamışdı.", "Gecə gec bəy gələndə hazır olan beş qız toya girdi, yağ almağa gedən beşi isə girə bilmədi. İsanı gözləyən biz də həmişə hazır olmalıyıq."]},
-   {"b": "Ağanın tapşırdığı talant", "ayə": "Matta 25:14–18", "alt": "Qullarına pul kisələri tapşıran ağa", "p": ["Bir ağa səfərə çıxarkən qullarına [[talant]] tapşırdı. Birinə beş, birinə iki, birinə də bir talant verdi.", "Beş və iki talant alan qullar çalışıb onları iki qat artırdılar. Amma bir talant alan qul torpağı qazıb pulu gizlətdi."]},
-   {"b": "Afərin, yaxşı və sadiq qul", "ayə": "Matta 25:19–30", "alt": "Təriflənən qul və torpağa basdırdığı pulu çıxaran qul", "p": ["Ağa qayıdıb çalışan qullarına dedi: “Afərin, yaxşı və [[sadiq]] qul! Az işdə sadiq oldun, səni çox işə qoyacağam.”", "Amma bir talantı gizlədən qul “Səndən qorxduğum üçün gizlətdim” dedi. Ağa tapşırılanı işlətməyən tənbəl qulu danladı. Allahın verdiyi bacarığı gizlətmək yox, işlətmək lazımdır."]},
-   {"b": "Mənə etmiş oldunuz", "ayə": "Matta 25:31–46", "alt": "Ac və xəstə insanlara kömək edən uşaqlar və yanlarında İsa", "p": ["İsa Padşah kimi gələn gün belə deyəcək: “Ac idim, Mənə yemək verdiniz; susuz idim, Mənə su verdiniz; xəstə idim, Mənə qayğı göstərdiniz.”", "İnsanlar “Nə vaxt?” deyə soruşanda Padşah cavab verəcək: “Bu ən kiçik [[qardaş]]larımdan birinə nə etdinizsə, Mənə etmiş oldunuz.” Çətinlikdə olan dosta kömək etsək, İsaya kömək edirik."]}
-  ],
-  "aye": {"metn": "“Bu ən kiçik qardaşlarımdan birinə nə etdinizsə, Mənə etmiş oldunuz.”", "ref": "25:40", "bos": "Bu ən ___ qardaşlarımdan birinə nə etdinizsə, ___ etmiş ___.", "sozler": ["kiçik", "Mənə", "oldunuz"], "yalan": "padşaha"},
-  "lugat": {
-   "çıraq": {"i": "🪔", "x": "등불", "m": "İçinə yağ töküb yandırılan kiçik qabdır.", "e": "Qızlar çıraqlarını götürüb gözləyirdilər."},
-   "talant": {"i": "💰", "x": "달란트", "m": "Çox böyük pul vahididir. Allahın verdiyi bacarıq və fürsətləri bildirir.", "e": "Ağa qullarına talant tapşırdı."},
-   "sadiq": {"i": "🏅", "x": "충성된", "m": "Tapşırılan işi axıradək səylə görən adamdır.", "e": "Afərin, yaxşı və sadiq qul!"},
-   "qardaş": {"i": "🤝", "x": "형제", "m": "Ailə kimi yaxın insandır. İsa çətinlikdə olanları qardaşı adlandırır.", "e": "Ən kiçik qardaşlarımdan birinə."}
-  },
-  "test": [
-   {"q": "Ağıllı qızlar nə hazırlamışdılar?", "o": ["Kifayət qədər yağ", "Gözəl paltar", "Dadlı yemək"], "a": 0, "f": "Düzdür! Həmişə hazır idilər."},
-   {"q": "Bir talant alan qul nə etdi?", "o": ["Torpağa gizlətdi", "İki qat artırdı", "Dostuna verdi"], "a": 0, "f": "Düzdür! İşlətmədi."},
-   {"q": "Ağa çalışan qula nə dedi?", "o": ["Afərin, yaxşı və sadiq qul", "Niyə belə etdin", "Geri ver"], "a": 0, "f": "Düzdür! Allah da bizi tərifləyir."},
-   {"q": "Ən kiçiklərdən birinə kömək etmək kimə kömək etməkdir?", "o": ["İsaya", "Heç kimə", "Özümə"], "a": 0, "f": "Düzdür! İsaya etmiş oluruq."}
-  ],
-  "dusun": ["İsanı gözləyərkən “çırağımın yağını” necə doldura bilərəm?", "Allahın mənə verdiyi “talant” (bacarıq) nədir?", "Ətrafımızda köməyə ehtiyacı olan “kiçik” kimdir?"],
-  "fealiyyet": {"ciz": "Ac dostuna çörək verən özünü çək. Yanında İsanı da çək.", "b": "Hansı talantını işlədəcəksən?", "p": "Allahın sənə verdiyi bacarığı seç.", "ph": "",
-   "secim": {"basliq": "Hansı talantını işlədəcəksən?", "izah": "Toxun və seç. Bir neçəsini seçə bilərsən.", "cumle": "Allahın mənə verdiyi {x} Onun üçün işlədəcəyəm!", "bos": "səsimi", "bag": "və",
-    "secimler": [["🎤", "səsimi"], ["🤲", "əllərimi"], ["🎨", "rəsm bacarığımı"], ["⏰", "vaxtımı"], ["😊", "gülüşümü"], ["🧠", "ağlımı"]]}},
-  "dua": "İsa, mənə bacarıq və vaxt tapşırdığın üçün Sənə şükür edirəm. Ağıllı qızlar kimi həmişə hazır olum, aldığım talantı gizlətməyib işlədim. Çətinlikdə olan dosta kömək edəndə Sənə kömək etdiyimi xatırlayım. İsa Məsihin adı ilə dua edirəm. Amin."
+  "genc": {
+   "basliq": "기다림은 무엇으로 채워지는가",
+   "giris": "“깨어 있으라”는 말씀 뒤에 예수님은 세 이야기로 그 뜻을 풀어 주십니다. 준비하는 기다림(열 처녀), 일하는 기다림(달란트), 섬기는 기다림(양과 염소). 기다림은 멈춤이 아니라 가장 바쁜 사랑의 시간입니다.",
+   "meqsed": [
+    "25장의 세 비유가 ‘깨어 있음’을 어떻게 구체화하는지 이해해요.",
+    "달란트 비유에서 신실함과 두려움의 차이를 설명할 수 있어요.",
+    "‘지극히 작은 자’를 섬기는 구체적인 방법을 정해요."
+   ],
+   "sehneler": [
+    {
+     "b": "준비된 기다림",
+     "ayə": "25:1–13",
+     "alt": "등불을 들고 신랑을 기다리는 열 처녀",
+     "p": [
+      "당시 결혼식은 밤에 신랑이 신부 집으로 와서 신부를 데려가는 행렬로 시작했어요. 신부 친구들은 [[등불]]을 들고 기다렸어요. 신랑이 언제 올지는 몰랐어요.",
+      "열 명 모두 잠들었어요. 차이는 깨어 있었느냐가 아니라 ‘준비했느냐’였어요. 기름은 빌려줄 수 없었어요. 믿음과 준비는 남에게서 빌릴 수 없는, 각자의 것이에요."
+     ],
+     "deep": {
+      "b": "깊이 보기 · 기름은 무엇인가?",
+      "p": "전통적으로 성령, 선행, 믿음 등 다양하게 해석돼요. 7:21–23과 연결하면 “주여 주여” 하는 고백만이 아니라 아버지의 뜻을 행하는 삶이에요. 신랑의 말 “내가 너희를 알지 못하노라”도 7:23과 같아요."
+     }
+    },
+    {
+     "b": "맡겨진 것",
+     "ayə": "25:14–18",
+     "alt": "종들에게 돈 자루를 맡기는 주인",
+     "p": [
+      "한 [[달란트]]는 노동자 약 20년 치 임금이에요. 가장 적게 받은 종도 엄청난 금액을 맡았어요. 주인은 “각각 그 재능대로” 맡겼어요. 양은 달라도 기대는 같아요.",
+      "다섯과 두 달란트 받은 종은 ‘바로 가서’ 장사했어요. 한 달란트 받은 종은 땅을 팠어요. 당시 랍비 법에서 돈을 땅에 묻는 것은 도난에 대비한 가장 안전한 방법이었어요. 그는 잃지 않는 것을 목표로 했어요."
+     ],
+     "deep": {
+      "b": "깊이 보기 · ‘달란트’라는 말",
+      "p": "영어 talent(재능)가 바로 이 비유에서 나왔어요. 하지만 비유 속 달란트는 재능만이 아니라 하나님이 맡기신 모든 것, 곧 복음, 시간, 관계, 기회를 포함해요."
+     }
+    },
+    {
+     "b": "두려움이 묻은 달란트",
+     "ayə": "25:19–30",
+     "alt": "칭찬받는 종과 땅에 묻은 돈을 꺼내는 종",
+     "p": [
+      "두 종은 같은 칭찬을 받아요. “잘하였도다 착하고 [[충성]]된 종아 네가 적은 일에 충성하였으매 내가 많은 것으로 네게 맡기리니 네 주인의 즐거움에 참여할지어다.” 결과의 크기가 아니라 신실함을 칭찬하셨어요.",
+      "세 번째 종은 “당신은 굳은 사람이라 … 두려워하여 나가서 당신의 달란트를 땅에 숨겨 두었었나이다.” 주인에 대한 잘못된 생각이 두려움을 낳았고, 두려움이 아무것도 하지 않게 만들었어요."
+     ],
+     "deep": {
+      "b": "깊이 보기 · 실패보다 무서운 것",
+      "p": "이 비유에 ‘장사하다 손해 본 종’은 없어요. 하나님은 시도하다 실패한 사람보다, 두려워서 아무것도 하지 않은 사람을 더 안타까워하세요. 은혜의 하나님을 아는 사람은 실패를 무릅쓰고 시도할 수 있어요.",
+      "rose": true
+     }
+    },
+    {
+     "b": "지극히 작은 자",
+     "ayə": "25:31–46",
+     "alt": "배고픈 사람과 아픈 사람을 돕는 아이들과 그 곁의 예수님",
+     "p": [
+      "인자가 영광 중에 오셔서 목자가 양과 염소를 나누듯 모든 민족을 나누세요. 기준은 놀랍게도 종교 지식이 아니라 주린 자, 목마른 자, 나그네, 헐벗은 자, 병든 자, 옥에 갇힌 자를 어떻게 대했느냐예요.",
+      "양도 염소도 똑같이 놀라요. “주여 우리가 어느 때에…?” 섬긴 사람들은 예수님께 한 줄 몰랐어요. 계산 없이 사랑했기 때문이에요. 예수님은 가장 [[작은 자]]와 자신을 하나로 여기세요."
+     ],
+     "deep": {
+      "b": "깊이 보기 · 행위 구원?",
+      "p": "이 장면은 ‘착한 일을 해서 구원받는다’는 뜻이 아니에요. 왕의 은혜를 받은 사람은 자연스럽게 작은 자를 사랑하게 된다는 거예요. 열매는 뿌리를 증명해요(7:17). 마태복음 전체가 말씀과 행동이 하나인 믿음을 말해요."
+     }
+    }
+   ],
+   "cedvel": {
+    "b": "기다림의 세 모습",
+    "alt": "25:1–46",
+    "bas": [
+     "비유",
+     "깨어 있음의 모습",
+     "실패한 사람의 문제"
+    ],
+    "set": [
+     [
+      "열 처녀",
+      "준비하는 기다림",
+      "기름을 준비하지 않음"
+     ],
+     [
+      "달란트",
+      "일하는 기다림",
+      "두려워서 숨김"
+     ],
+     [
+      "양과 염소",
+      "섬기는 기다림",
+      "작은 자를 지나쳐 버림"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "“임금이 대답하여 이르시되 내가 진실로 너희에게 이르노니 너희가 여기 내 형제 중에 지극히 작은 자 하나에게 한 것이 곧 내게 한 것이니라 하시고.”",
+    "ref": "25:40"
+   },
+   "lugat": {
+    "등불": {
+     "i": "🪔",
+     "o": "헬라어 람파스",
+     "x": "çıraq",
+     "s": "기름 적신 횃불",
+     "m": "막대 끝에 기름 먹인 천을 감은 횃불이었을 가능성이 커요. 15분마다 기름을 보충해야 했어요.",
+     "e": "‘램프’(lamp)의 어원이에요."
+    },
+    "달란트": {
+     "i": "💰",
+     "o": "헬라어 탈란톤",
+     "x": "talant",
+     "s": "맡겨진 모든 것",
+     "m": "약 6,000데나리온. 한 달란트도 평생 만지기 힘든 큰돈이었어요.",
+     "e": "18:24 만 달란트 빚과 같은 단위예요."
+    },
+    "충성": {
+     "i": "🏅",
+     "o": "헬라어 피스토스",
+     "x": "sadiq",
+     "s": "믿을 만함",
+     "m": "‘믿음’(피스티스)과 같은 뿌리예요. 충성은 믿음이 행동으로 드러난 거예요.",
+     "e": "“죽도록 충성하라”(계 2:10)."
+    },
+    "작은 자": {
+     "i": "🫂",
+     "o": "헬라어 엘라키스토스",
+     "x": "ən kiçik",
+     "s": "가장 연약하고 잊힌 사람",
+     "m": "10:42 “작은 자 중 하나에게 냉수 한 그릇”, 18:6 “작은 자 하나를 실족하게 하면”과 연결돼요.",
+     "e": "예수님은 작은 자의 얼굴로 우리를 찾아오세요."
+    }
+   },
+   "test": [
+    {
+     "q": "열 처녀 비유에서 슬기로운 처녀와 미련한 처녀의 차이는?",
+     "o": [
+      "기름을 준비했느냐",
+      "잠들었느냐",
+      "예뻤느냐"
+     ],
+     "a": 0,
+     "f": "맞아요. 모두 잠들었지만 준비가 달랐어요."
+    },
+    {
+     "q": "주인은 달란트를 어떤 기준으로 맡겼나요?",
+     "o": [
+      "각각 그 재능대로",
+      "똑같이",
+      "제비뽑기로"
+     ],
+     "a": 0,
+     "f": "맞아요. 양은 달라도 기대는 같아요."
+    },
+    {
+     "q": "다섯 달란트 종과 두 달란트 종이 받은 칭찬의 차이는?",
+     "o": [
+      "똑같았다",
+      "다섯 달란트 종이 더 컸다",
+      "두 달란트 종은 칭찬받지 못했다"
+     ],
+     "a": 0,
+     "f": "맞아요. 결과가 아니라 신실함을 보셨어요."
+    },
+    {
+     "q": "한 달란트 종이 숨긴 근본 이유는?",
+     "o": [
+      "주인을 굳은 사람으로 오해한 두려움",
+      "게으른 성격",
+      "돈이 너무 적어서"
+     ],
+     "a": 0,
+     "f": "맞아요. 잘못된 하나님 이해가 두려움을 낳았어요."
+    },
+    {
+     "q": "양과 염소를 나누는 기준은?",
+     "o": [
+      "지극히 작은 자를 어떻게 대했느냐",
+      "성경 지식",
+      "교회 출석 횟수"
+     ],
+     "a": 0,
+     "f": "맞아요. 은혜의 열매로 드러나요."
+    }
+   ],
+   "paylas": [
+    "내 믿음의 ‘기름’은 넉넉한가요? 남에게 빌릴 수 없는 나만의 준비는 무엇인가요?",
+    "하나님이 나에게 맡기신 ‘달란트’ 세 가지를 꼽아 본다면?",
+    "두려움 때문에 묻어 둔 달란트가 있나요? 실패가 두려워 시도하지 않은 일은?",
+    "내 주변의 ‘지극히 작은 자’는 누구인가요? 그 얼굴에서 예수님을 본다면 어떻게 대할까요?"
+   ],
+   "etiraf": {
+    "b": "나의 고백",
+    "p": "하나님이 내게 맡기신 달란트 하나와, 그것으로 이번 주 ‘지극히 작은 자’ 한 사람을 섬길 계획을 서너 문장으로 써 보세요.",
+    "ph": "예) 저는 수학을 잘해요. 반에서 수학을 어려워하는 친구에게 …"
+   },
+   "dua": "예수님, 기다림이 멈춤이 아니라 사랑으로 채우는 시간임을 가르쳐 주셔서 감사합니다. 남에게 빌릴 수 없는 믿음의 기름을 준비하게 하시고, 두려움으로 묻어 둔 달란트를 꺼내 신실하게 사용하게 해 주세요. 지극히 작은 자의 얼굴에서 주님을 보고 섬기게 해 주세요. 예수님 이름으로 기도합니다. 아멘."
+  }
  },
- "genc": {
-  "basliq": "Gözləmə nə ilə doldurulur?",
-  "giris": "“Ayıq olun” sözündən sonra İsa üç hekayə ilə onun mənasını açır: hazırlıqlı gözləmə (on qız), işləyən gözləmə (talantlar), xidmət edən gözləmə (qoyunlar və keçilər). Gözləmə dayanmaq deyil, məhəbbətin ən məşğul vaxtıdır.",
-  "meqsed": ["25-ci fəsildəki üç məsəlin “ayıqlığı” necə konkretləşdirdiyini anlayırıq.", "Talant məsəlində sadiqlik ilə qorxu arasındakı fərqi izah edə bilirik.", "“Ən kiçiklərə” xidmət etməyin konkret yollarını müəyyən edirik."],
-  "sehneler": [
-   {"b": "Hazırlıqlı gözləmə", "ayə": "Matta 25:1–13", "alt": "Çıraqlarını tutub bəyi gözləyən on qız", "p": ["O dövrdə toy gecə bəyin gəlinin evinə gəlib onu aparması ilə başlayırdı. Gəlinin rəfiqələri [[çıraq]]larla gözləyirdilər. Bəyin nə vaxt gələcəyi bilinmirdi.", "On qızın hamısı yuxuya getdi. Fərq oyaq qalmaqda deyil, “hazırlıqda” idi. Yağı borc vermək olmurdu. İman və hazırlıq başqasından borc alına bilməz, hər kəsin özününküdür."], "deep": {"b": "Dərindən baxaq · Yağ nədir?", "p": "Ənənəvi olaraq Müqəddəs Ruh, yaxşı əməllər, iman kimi müxtəlif şərh olunur. 7:21–23 ilə əlaqələndirsək, yalnız “Ya Rəbb, ya Rəbb” demək deyil, Atanın iradəsinə əməl edən həyatdır. Bəyin “sizi tanımıram” sözü də 7:23 ilə eynidir."}},
-   {"b": "Tapşırılan", "ayə": "Matta 25:14–18", "alt": "Qullarına pul kisələri tapşıran ağa", "p": ["Bir [[talant]] fəhlənin təxminən 20 illik maaşı idi. Ən az alan qul belə böyük məbləğ almışdı. Ağa “hər birinə bacarığına görə” tapşırdı. Miqdar fərqlidir, gözlənti eynidir.", "Beş və iki talant alan qullar “dərhal gedib” ticarət etdilər. Bir talant alan qul torpağı qazdı. O dövrün ravvi qanununa görə pulu torpağa basdırmaq oğurluğa qarşı ən təhlükəsiz yol idi. Onun məqsədi itirməmək idi."], "deep": {"b": "Dərindən baxaq · “Talant” sözü", "p": "İngiliscə talent (istedad) sözü məhz bu məsəldən gəlir. Amma məsəldəki talant yalnız istedad deyil, Allahın tapşırdığı hər şeydir: Müjdə, vaxt, münasibətlər, fürsətlər."}},
-   {"b": "Qorxuya basdırılmış talant", "ayə": "Matta 25:19–30", "alt": "Təriflənən qul və torpağa basdırdığı pulu çıxaran qul", "p": ["İki qul eyni tərifi alır: “Afərin, yaxşı və [[sadiq]] qul! Az işdə sadiq oldun, səni çox işə qoyacağam. Ağanın sevincinə şərik ol!” Nəticənin böyüklüyü deyil, sadiqlik təriflənir.", "Üçüncü qul deyir: “Sən sərt adamsan … qorxdum, gedib talantını torpağa gizlətdim.” Ağa haqqında yanlış düşüncə qorxu doğurdu, qorxu isə heç nə etməməyə səbəb oldu."], "deep": {"b": "Dərindən baxaq · Uğursuzluqdan daha qorxulu", "p": "Bu məsəldə “ticarətdə ziyana düşən qul” yoxdur. Allah cəhd edib uğursuz olandan çox, qorxub heç nə etməyənə görə təəssüflənir. Lütfkar Allahı tanıyan insan uğursuzluğu göz önünə alıb cəhd edə bilər.", "rose": true}},
-   {"b": "Ən kiçiklər", "ayə": "Matta 25:31–46", "alt": "Ac və xəstə insanlara kömək edən uşaqlar və yanlarında İsa", "p": ["Bəşər Oğlu izzətlə gəlib çobanın qoyunları keçilərdən ayırdığı kimi bütün millətləri ayıracaq. Meyar təəccüblü şəkildə dini bilik deyil, aclara, susuzlara, qəriblərə, çılpaqlara, xəstələrə, zindandakılara necə davranmaq idi.", "Qoyunlar da, keçilər də təəccüblənir: “Ya Rəbb, nə vaxt…?” Xidmət edənlər bunu İsaya etdiklərini bilmirdilər. Çünki hesabsız sevirdilər. İsa Özünü ən [[kiçik]]lərlə eyniləşdirir."], "deep": {"b": "Dərindən baxaq · Əməllə xilas?", "p": "Bu səhnə “yaxşı iş görüb xilas olmaq” demək deyil. Padşahın lütfünü alan insan təbii olaraq kiçikləri sevir. Bəhrə kökü sübut edir (7:17). Bütün Matta Müjdəsi söz və əməlin bir olduğu imandan danışır."}}
-  ],
-  "cedvel": {"b": "Gözləmənin üç görünüşü", "alt": "25:1–46", "bas": ["Məsəl", "Ayıqlığın görünüşü", "Uğursuz olanın problemi"], "set": [["On qız", "Hazırlıqlı gözləmə", "Yağ hazırlamadı"], ["Talantlar", "İşləyən gözləmə", "Qorxub gizlətdi"], ["Qoyunlar və keçilər", "Xidmət edən gözləmə", "Kiçiklərin yanından keçib getdi"]]},
-  "aye": {"metn": "“Padşah onlara cavab verəcək: “Sizə doğrusunu deyirəm: bu ən kiçik qardaşlarımdan birinə nə etdinizsə, Mənə etmiş oldunuz.””", "ref": "25:40"},
-  "lugat": {
-   "çıraq": {"i": "🪔", "o": "Yunanca lampas", "x": "등불", "s": "Yağa batırılmış məşəl", "m": "Çubuğun ucuna yağa batırılmış parça bükülmüş məşəl ola bilərdi. Hər 15 dəqiqədən bir yağ əlavə etmək lazım idi.", "e": "“Lampa” (lamp) sözünün kökü budur."},
-   "talant": {"i": "💰", "o": "Yunanca talanton", "x": "달란트", "s": "Tapşırılan hər şey", "m": "Təxminən 6000 dinar. Bir talant belə ömür boyu əldə tutmaq çətin olan böyük pul idi.", "e": "18:24-dəki on min talant borcla eyni vahiddir."},
-   "sadiq": {"i": "🏅", "o": "Yunanca pistos", "x": "충성된", "s": "Etibarlı", "m": "“İman” (pistis) sözü ilə eyni kökdəndir. Sadiqlik imanın əməldə görünməsidir.", "e": "“Ölənə qədər sadiq ol” (Vəhy 2:10)."},
-   "kiçik": {"i": "🫂", "o": "Yunanca elaxistos", "x": "지극히 작은 자", "s": "Ən zəif və unudulmuş insan", "m": "10:42-dəki “kiçiklərdən birinə bir kasa soyuq su” və 18:6-dakı “kiçiklərdən birini büdrətsə” ilə bağlıdır.", "e": "İsa kiçiklərin siması ilə bizi axtarıb gəlir."}
+ "az": {
+  "usaq": {
+   "basliq": "Ən kiçik qardaşlarımdan birinə",
+   "hedef": [
+    "İsanı gözləyərək hazır olan ağıllı insan olmağa qərar verəcəyik.",
+    "Allahın verdiyi bacarıqları yaxşı işlətməyi öyrənəcəyik.",
+    "Çətinlikdə olana kömək etməyin İsaya kömək etmək olduğunu öyrənəcəyik."
+   ],
+   "sehneler": [
+    {
+     "b": "On qız və çıraqlar",
+     "ayə": "Matta 25:1–13",
+     "alt": "Çıraqlarını tutub bəyi gözləyən on qız",
+     "p": [
+      "On qız [[çıraq]]larını götürüb bəyi gözləyirdi. Beşi kifayət qədər yağ hazırlamışdı, beşi isə hazırlamamışdı.",
+      "Gecə gec bəy gələndə hazır olan beş qız toya girdi, yağ almağa gedən beşi isə girə bilmədi. İsanı gözləyən biz də həmişə hazır olmalıyıq."
+     ]
+    },
+    {
+     "b": "Ağanın tapşırdığı talant",
+     "ayə": "Matta 25:14–18",
+     "alt": "Qullarına pul kisələri tapşıran ağa",
+     "p": [
+      "Bir ağa səfərə çıxarkən qullarına [[talant]] tapşırdı. Birinə beş, birinə iki, birinə də bir talant verdi.",
+      "Beş və iki talant alan qullar çalışıb onları iki qat artırdılar. Amma bir talant alan qul torpağı qazıb pulu gizlətdi."
+     ]
+    },
+    {
+     "b": "Afərin, yaxşı və sadiq qul",
+     "ayə": "Matta 25:19–30",
+     "alt": "Təriflənən qul və torpağa basdırdığı pulu çıxaran qul",
+     "p": [
+      "Ağa qayıdıb çalışan qullarına dedi: “Afərin, yaxşı və [[sadiq]] qul! Az işdə sadiq oldun, səni çox işə qoyacağam.”",
+      "Amma bir talantı gizlədən qul “Səndən qorxduğum üçün gizlətdim” dedi. Ağa tapşırılanı işlətməyən tənbəl qulu danladı. Allahın verdiyi bacarığı gizlətmək yox, işlətmək lazımdır."
+     ]
+    },
+    {
+     "b": "Mənə etmiş oldunuz",
+     "ayə": "Matta 25:31–46",
+     "alt": "Ac və xəstə insanlara kömək edən uşaqlar və yanlarında İsa",
+     "p": [
+      "İsa Padşah kimi gələn gün belə deyəcək: “Ac idim, Mənə yemək verdiniz; susuz idim, Mənə su verdiniz; xəstə idim, Mənə qayğı göstərdiniz.”",
+      "İnsanlar “Nə vaxt?” deyə soruşanda Padşah cavab verəcək: “Bu ən kiçik [[qardaş]]larımdan birinə nə etdinizsə, Mənə etmiş oldunuz.” Çətinlikdə olan dosta kömək etsək, İsaya kömək edirik."
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "“Bu ən kiçik qardaşlarımdan birinə nə etdinizsə, Mənə etmiş oldunuz.”",
+    "ref": "25:40",
+    "bos": "Bu ən ___ qardaşlarımdan birinə nə etdinizsə, ___ etmiş ___.",
+    "sozler": [
+     "kiçik",
+     "Mənə",
+     "oldunuz"
+    ],
+    "yalan": "padşaha"
+   },
+   "lugat": {
+    "çıraq": {
+     "i": "🪔",
+     "x": "등불",
+     "m": "İçinə yağ töküb yandırılan kiçik qabdır.",
+     "e": "Qızlar çıraqlarını götürüb gözləyirdilər."
+    },
+    "talant": {
+     "i": "💰",
+     "x": "달란트",
+     "m": "Çox böyük pul vahididir. Allahın verdiyi bacarıq və fürsətləri bildirir.",
+     "e": "Ağa qullarına talant tapşırdı."
+    },
+    "sadiq": {
+     "i": "🏅",
+     "x": "충성된",
+     "m": "Tapşırılan işi axıradək səylə görən adamdır.",
+     "e": "Afərin, yaxşı və sadiq qul!"
+    },
+    "qardaş": {
+     "i": "🤝",
+     "x": "형제",
+     "m": "Ailə kimi yaxın insandır. İsa çətinlikdə olanları qardaşı adlandırır.",
+     "e": "Ən kiçik qardaşlarımdan birinə."
+    }
+   },
+   "test": [
+    {
+     "q": "Ağıllı qızlar nə hazırlamışdılar?",
+     "o": [
+      "Kifayət qədər yağ",
+      "Gözəl paltar",
+      "Dadlı yemək"
+     ],
+     "a": 0,
+     "f": "Düzdür! Həmişə hazır idilər."
+    },
+    {
+     "q": "Bir talant alan qul nə etdi?",
+     "o": [
+      "Torpağa gizlətdi",
+      "İki qat artırdı",
+      "Dostuna verdi"
+     ],
+     "a": 0,
+     "f": "Düzdür! İşlətmədi."
+    },
+    {
+     "q": "Ağa çalışan qula nə dedi?",
+     "o": [
+      "Afərin, yaxşı və sadiq qul",
+      "Niyə belə etdin",
+      "Geri ver"
+     ],
+     "a": 0,
+     "f": "Düzdür! Allah da bizi tərifləyir."
+    },
+    {
+     "q": "Ən kiçiklərdən birinə kömək etmək kimə kömək etməkdir?",
+     "o": [
+      "İsaya",
+      "Heç kimə",
+      "Özümə"
+     ],
+     "a": 0,
+     "f": "Düzdür! İsaya etmiş oluruq."
+    }
+   ],
+   "dusun": [
+    "İsanı gözləyərkən “çırağımın yağını” necə doldura bilərəm?",
+    "Allahın mənə verdiyi “talant” (bacarıq) nədir?",
+    "Ətrafımızda köməyə ehtiyacı olan “kiçik” kimdir?"
+   ],
+   "fealiyyet": {
+    "ciz": "Ac dostuna çörək verən özünü çək. Yanında İsanı da çək.",
+    "b": "Hansı talantını işlədəcəksən?",
+    "p": "Allahın sənə verdiyi bacarığı seç.",
+    "ph": "",
+    "secim": {
+     "basliq": "Hansı talantını işlədəcəksən?",
+     "izah": "Toxun və seç. Bir neçəsini seçə bilərsən.",
+     "cumle": "Allahın mənə verdiyi {x} Onun üçün işlədəcəyəm!",
+     "bos": "səsimi",
+     "bag": "və",
+     "secimler": [
+      [
+       "🎤",
+       "səsimi"
+      ],
+      [
+       "🤲",
+       "əllərimi"
+      ],
+      [
+       "🎨",
+       "rəsm bacarığımı"
+      ],
+      [
+       "⏰",
+       "vaxtımı"
+      ],
+      [
+       "😊",
+       "gülüşümü"
+      ],
+      [
+       "🧠",
+       "ağlımı"
+      ]
+     ]
+    }
+   },
+   "dua": "İsa, mənə bacarıq və vaxt tapşırdığın üçün Sənə şükür edirəm. Ağıllı qızlar kimi həmişə hazır olum, aldığım talantı gizlətməyib işlədim. Çətinlikdə olan dosta kömək edəndə Sənə kömək etdiyimi xatırlayım. İsa Məsihin adı ilə dua edirəm. Amin."
   },
-  "test": [
-   {"q": "On qız məsəlində ağıllı və axmaq qızların fərqi nə idi?", "o": ["Yağ hazırlamaları", "Yatmaları", "Gözəllikləri"], "a": 0, "f": "Düzdür. Hamısı yatdı, amma hazırlıq fərqli idi."},
-   {"q": "Ağa talantları hansı meyarla tapşırdı?", "o": ["Hər birinə bacarığına görə", "Bərabər", "Püşklə"], "a": 0, "f": "Düzdür. Miqdar fərqli, gözlənti eyni."},
-   {"q": "Beş və iki talant alan qulların tərifləri arasında fərq nə idi?", "o": ["Eyni idi", "Beş talantlınınkı böyük idi", "İki talantlı təriflənmədi"], "a": 0, "f": "Düzdür. Nəticəyə deyil, sadiqliyə baxdı."},
-   {"q": "Bir talantlı qulun gizlətməsinin əsas səbəbi nə idi?", "o": ["Ağanı sərt sanmasından doğan qorxu", "Tənbəl xasiyyəti", "Pulun az olması"], "a": 0, "f": "Düzdür. Allahı yanlış anlamaq qorxu doğurdu."},
-   {"q": "Qoyunları və keçiləri ayırmağın meyarı nədir?", "o": ["Ən kiçiklərə necə davranmaq", "Müqəddəs Kitab bilgisi", "Cəmiyyətə getmə sayı"], "a": 0, "f": "Düzdür. Lütfün bəhrəsi ilə görünür."}
+  "genc": {
+   "basliq": "Gözləmə nə ilə doldurulur?",
+   "giris": "“Ayıq olun” sözündən sonra İsa üç hekayə ilə onun mənasını açır: hazırlıqlı gözləmə (on qız), işləyən gözləmə (talantlar), xidmət edən gözləmə (qoyunlar və keçilər). Gözləmə dayanmaq deyil, məhəbbətin ən məşğul vaxtıdır.",
+   "meqsed": [
+    "25-ci fəsildəki üç məsəlin “ayıqlığı” necə konkretləşdirdiyini anlayırıq.",
+    "Talant məsəlində sadiqlik ilə qorxu arasındakı fərqi izah edə bilirik.",
+    "“Ən kiçiklərə” xidmət etməyin konkret yollarını müəyyən edirik."
+   ],
+   "sehneler": [
+    {
+     "b": "Hazırlıqlı gözləmə",
+     "ayə": "Matta 25:1–13",
+     "alt": "Çıraqlarını tutub bəyi gözləyən on qız",
+     "p": [
+      "O dövrdə toy gecə bəyin gəlinin evinə gəlib onu aparması ilə başlayırdı. Gəlinin rəfiqələri [[çıraq]]larla gözləyirdilər. Bəyin nə vaxt gələcəyi bilinmirdi.",
+      "On qızın hamısı yuxuya getdi. Fərq oyaq qalmaqda deyil, “hazırlıqda” idi. Yağı borc vermək olmurdu. İman və hazırlıq başqasından borc alına bilməz, hər kəsin özününküdür."
+     ],
+     "deep": {
+      "b": "Dərindən baxaq · Yağ nədir?",
+      "p": "Ənənəvi olaraq Müqəddəs Ruh, yaxşı əməllər, iman kimi müxtəlif şərh olunur. 7:21–23 ilə əlaqələndirsək, yalnız “Ya Rəbb, ya Rəbb” demək deyil, Atanın iradəsinə əməl edən həyatdır. Bəyin “sizi tanımıram” sözü də 7:23 ilə eynidir."
+     }
+    },
+    {
+     "b": "Tapşırılan",
+     "ayə": "Matta 25:14–18",
+     "alt": "Qullarına pul kisələri tapşıran ağa",
+     "p": [
+      "Bir [[talant]] fəhlənin təxminən 20 illik maaşı idi. Ən az alan qul belə böyük məbləğ almışdı. Ağa “hər birinə bacarığına görə” tapşırdı. Miqdar fərqlidir, gözlənti eynidir.",
+      "Beş və iki talant alan qullar “dərhal gedib” ticarət etdilər. Bir talant alan qul torpağı qazdı. O dövrün ravvi qanununa görə pulu torpağa basdırmaq oğurluğa qarşı ən təhlükəsiz yol idi. Onun məqsədi itirməmək idi."
+     ],
+     "deep": {
+      "b": "Dərindən baxaq · “Talant” sözü",
+      "p": "İngiliscə talent (istedad) sözü məhz bu məsəldən gəlir. Amma məsəldəki talant yalnız istedad deyil, Allahın tapşırdığı hər şeydir: Müjdə, vaxt, münasibətlər, fürsətlər."
+     }
+    },
+    {
+     "b": "Qorxuya basdırılmış talant",
+     "ayə": "Matta 25:19–30",
+     "alt": "Təriflənən qul və torpağa basdırdığı pulu çıxaran qul",
+     "p": [
+      "İki qul eyni tərifi alır: “Afərin, yaxşı və [[sadiq]] qul! Az işdə sadiq oldun, səni çox işə qoyacağam. Ağanın sevincinə şərik ol!” Nəticənin böyüklüyü deyil, sadiqlik təriflənir.",
+      "Üçüncü qul deyir: “Sən sərt adamsan … qorxdum, gedib talantını torpağa gizlətdim.” Ağa haqqında yanlış düşüncə qorxu doğurdu, qorxu isə heç nə etməməyə səbəb oldu."
+     ],
+     "deep": {
+      "b": "Dərindən baxaq · Uğursuzluqdan daha qorxulu",
+      "p": "Bu məsəldə “ticarətdə ziyana düşən qul” yoxdur. Allah cəhd edib uğursuz olandan çox, qorxub heç nə etməyənə görə təəssüflənir. Lütfkar Allahı tanıyan insan uğursuzluğu göz önünə alıb cəhd edə bilər.",
+      "rose": true
+     }
+    },
+    {
+     "b": "Ən kiçiklər",
+     "ayə": "Matta 25:31–46",
+     "alt": "Ac və xəstə insanlara kömək edən uşaqlar və yanlarında İsa",
+     "p": [
+      "Bəşər Oğlu izzətlə gəlib çobanın qoyunları keçilərdən ayırdığı kimi bütün millətləri ayıracaq. Meyar təəccüblü şəkildə dini bilik deyil, aclara, susuzlara, qəriblərə, çılpaqlara, xəstələrə, zindandakılara necə davranmaq idi.",
+      "Qoyunlar da, keçilər də təəccüblənir: “Ya Rəbb, nə vaxt…?” Xidmət edənlər bunu İsaya etdiklərini bilmirdilər. Çünki hesabsız sevirdilər. İsa Özünü ən [[kiçik]]lərlə eyniləşdirir."
+     ],
+     "deep": {
+      "b": "Dərindən baxaq · Əməllə xilas?",
+      "p": "Bu səhnə “yaxşı iş görüb xilas olmaq” demək deyil. Padşahın lütfünü alan insan təbii olaraq kiçikləri sevir. Bəhrə kökü sübut edir (7:17). Bütün Matta Müjdəsi söz və əməlin bir olduğu imandan danışır."
+     }
+    }
+   ],
+   "cedvel": {
+    "b": "Gözləmənin üç görünüşü",
+    "alt": "25:1–46",
+    "bas": [
+     "Məsəl",
+     "Ayıqlığın görünüşü",
+     "Uğursuz olanın problemi"
+    ],
+    "set": [
+     [
+      "On qız",
+      "Hazırlıqlı gözləmə",
+      "Yağ hazırlamadı"
+     ],
+     [
+      "Talantlar",
+      "İşləyən gözləmə",
+      "Qorxub gizlətdi"
+     ],
+     [
+      "Qoyunlar və keçilər",
+      "Xidmət edən gözləmə",
+      "Kiçiklərin yanından keçib getdi"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "“Padşah onlara cavab verəcək: “Sizə doğrusunu deyirəm: bu ən kiçik qardaşlarımdan birinə nə etdinizsə, Mənə etmiş oldunuz.””",
+    "ref": "25:40"
+   },
+   "lugat": {
+    "çıraq": {
+     "i": "🪔",
+     "o": "Yunanca lampas",
+     "x": "등불",
+     "s": "Yağa batırılmış məşəl",
+     "m": "Çubuğun ucuna yağa batırılmış parça bükülmüş məşəl ola bilərdi. Hər 15 dəqiqədən bir yağ əlavə etmək lazım idi.",
+     "e": "“Lampa” (lamp) sözünün kökü budur."
+    },
+    "talant": {
+     "i": "💰",
+     "o": "Yunanca talanton",
+     "x": "달란트",
+     "s": "Tapşırılan hər şey",
+     "m": "Təxminən 6000 dinar. Bir talant belə ömür boyu əldə tutmaq çətin olan böyük pul idi.",
+     "e": "18:24-dəki on min talant borcla eyni vahiddir."
+    },
+    "sadiq": {
+     "i": "🏅",
+     "o": "Yunanca pistos",
+     "x": "충성된",
+     "s": "Etibarlı",
+     "m": "“İman” (pistis) sözü ilə eyni kökdəndir. Sadiqlik imanın əməldə görünməsidir.",
+     "e": "“Ölənə qədər sadiq ol” (Vəhy 2:10)."
+    },
+    "kiçik": {
+     "i": "🫂",
+     "o": "Yunanca elaxistos",
+     "x": "지극히 작은 자",
+     "s": "Ən zəif və unudulmuş insan",
+     "m": "10:42-dəki “kiçiklərdən birinə bir kasa soyuq su” və 18:6-dakı “kiçiklərdən birini büdrətsə” ilə bağlıdır.",
+     "e": "İsa kiçiklərin siması ilə bizi axtarıb gəlir."
+    }
+   },
+   "test": [
+    {
+     "q": "On qız məsəlində ağıllı və axmaq qızların fərqi nə idi?",
+     "o": [
+      "Yağ hazırlamaları",
+      "Yatmaları",
+      "Gözəllikləri"
+     ],
+     "a": 0,
+     "f": "Düzdür. Hamısı yatdı, amma hazırlıq fərqli idi."
+    },
+    {
+     "q": "Ağa talantları hansı meyarla tapşırdı?",
+     "o": [
+      "Hər birinə bacarığına görə",
+      "Bərabər",
+      "Püşklə"
+     ],
+     "a": 0,
+     "f": "Düzdür. Miqdar fərqli, gözlənti eyni."
+    },
+    {
+     "q": "Beş və iki talant alan qulların tərifləri arasında fərq nə idi?",
+     "o": [
+      "Eyni idi",
+      "Beş talantlınınkı böyük idi",
+      "İki talantlı təriflənmədi"
+     ],
+     "a": 0,
+     "f": "Düzdür. Nəticəyə deyil, sadiqliyə baxdı."
+    },
+    {
+     "q": "Bir talantlı qulun gizlətməsinin əsas səbəbi nə idi?",
+     "o": [
+      "Ağanı sərt sanmasından doğan qorxu",
+      "Tənbəl xasiyyəti",
+      "Pulun az olması"
+     ],
+     "a": 0,
+     "f": "Düzdür. Allahı yanlış anlamaq qorxu doğurdu."
+    },
+    {
+     "q": "Qoyunları və keçiləri ayırmağın meyarı nədir?",
+     "o": [
+      "Ən kiçiklərə necə davranmaq",
+      "Müqəddəs Kitab bilgisi",
+      "Cəmiyyətə getmə sayı"
+     ],
+     "a": 0,
+     "f": "Düzdür. Lütfün bəhrəsi ilə görünür."
+    }
+   ],
+   "paylas": [
+    "İmanımın “yağı” kifayət qədərdirmi? Başqasından borc ala bilməyəcəyim hazırlığım nədir?",
+    "Allahın mənə tapşırdığı üç “talantı” sadalasam, hansılardır?",
+    "Qorxu üzündən basdırdığım talant varmı? Uğursuzluqdan qorxub cəhd etmədiyim iş?",
+    "Ətrafımdakı “ən kiçik” kimdir? Onun simasında İsanı görsəm, necə davranaram?"
+   ],
+   "etiraf": {
+    "b": "Mənim etirafım",
+    "p": "Allahın sənə tapşırdığı bir talantı və onunla bu həftə bir “ən kiçik” insana necə xidmət edəcəyini üç-dörd cümlə ilə yaz.",
+    "ph": "Məsələn: Mən riyaziyyatı yaxşı bilirəm. Sinifdə riyaziyyatda çətinlik çəkən dosta …"
+   },
+   "dua": "İsa, gözləmənin dayanmaq deyil, məhəbbətlə doldurulan vaxt olduğunu öyrətdiyin üçün Sənə şükür edirəm. Başqasından borc ala bilmədiyim iman yağını hazırlayım, qorxu ilə basdırdığım talantı çıxarıb sadiqcəsinə işlədim. Ən kiçiklərin simasında Səni görüb xidmət edim. İsa Məsihin adı ilə dua edirəm. Amin."
+  }
+ },
+ "muellim": {
+  "mesaj": "29과의 중심은 한 문장입니다. **주님을 기다리는 깨어 있음은 준비하는 믿음, 두려움 없이 맡은 것을 일하는 신실함, 그리고 지극히 작은 자를 섬기는 사랑으로 채워진다.**",
+  "hazirliq": [
+   "학생용 교재를 열 휴대폰이나 태블릿, 이어폰",
+   "작은 등불(또는 초)과 기름 병 그림",
+   "종이 동전 다섯·둘·하나 (달란트 역할극)"
   ],
-  "paylas": ["İmanımın “yağı” kifayət qədərdirmi? Başqasından borc ala bilməyəcəyim hazırlığım nədir?", "Allahın mənə tapşırdığı üç “talantı” sadalasam, hansılardır?", "Qorxu üzündən basdırdığım talant varmı? Uğursuzluqdan qorxub cəhd etmədiyim iş?", "Ətrafımdakı “ən kiçik” kimdir? Onun simasında İsanı görsəm, necə davranaram?"],
-  "etiraf": {"b": "Mənim etirafım", "p": "Allahın sənə tapşırdığı bir talantı və onunla bu həftə bir “ən kiçik” insana necə xidmət edəcəyini üç-dörd cümlə ilə yaz.", "ph": "Məsələn: Mən riyaziyyatı yaxşı bilirəm. Sinifdə riyaziyyatda çətinlik çəkən dosta …"},
-  "dua": "İsa, gözləmənin dayanmaq deyil, məhəbbətlə doldurulan vaxt olduğunu öyrətdiyin üçün Sənə şükür edirəm. Başqasından borc ala bilmədiyim iman yağını hazırlayım, qorxu ilə basdırdığım talantı çıxarıb sadiqcəsinə işlədim. Ən kiçiklərin simasında Səni görüb xidmət edim. İsa Məsihin adı ilə dua edirəm. Amin."
+  "fon": [
+   [
+    "1. 마지막 설교의 결론",
+    "24–25장 종말 설교의 결말부입니다. 24:42 “깨어 있으라”를 세 이야기가 구체화합니다. 26:1 “이 말씀을 다 마치시고”로 마태복음의 다섯 설교가 끝납니다."
+   ],
+   [
+    "2. 유대 결혼 풍습",
+    "약혼 후 1년쯤 지나 신랑이 신부 집으로 가서 신부를 자기 집으로 데려가며 잔치를 엽니다. 행렬은 주로 밤에 있었고 등불이 필수였습니다."
+   ],
+   [
+    "3. 달란트 금액",
+    "1달란트 ≈ 6,000데나리온 ≈ 노동자 20년 임금. 다섯 달란트는 100년 치 임금입니다. 하나님이 맡기신 것의 엄청난 가치를 보여 줍니다."
+   ],
+   [
+    "4. 양과 염소",
+    "팔레스타인 목자는 낮에는 양과 염소를 함께 먹이고, 밤에는 추위에 약한 염소를 따로 두었습니다. 겉보기엔 비슷해도 구분됩니다."
+   ],
+   [
+    "5. 현지 적용",
+    "조지아 마르네울리 지역에도 도움이 필요한 이웃이 많습니다. 교회나 가정에서 실천할 수 있는 ‘작은 자 섬기기’ 프로젝트를 학생들과 함께 계획해 보세요."
+   ]
+  ],
+  "usaq_plan": [
+   [
+    "5분",
+    "달란트 역할극",
+    "종이 동전을 나눠 주고 ‘어떻게 쓸까?’ 질문",
+    "“하나님은 우리에게 재능을 맡기셨어요.”"
+   ],
+   [
+    "15분",
+    "장면 1–4 듣고 읽기",
+    "장면마다 듣기, 노란 낱말 누르기",
+    "“친구를 도우면 예수님을 도운 거예요!”"
+   ],
+   [
+    "5분",
+    "외울 말씀",
+    "빈칸 놀이 → 짝꿍에게 작은 친절 하며 외우기",
+    ""
+   ],
+   [
+    "5분",
+    "확인 퀴즈",
+    "혼자 풀고 함께 확인",
+    ""
+   ],
+   [
+    "10분",
+    "활동과 기도",
+    "나의 달란트 고르기 → 서로의 재능을 칭찬하고 기도",
+    ""
+   ]
+  ],
+  "genc_plan": [
+   [
+    "5분",
+    "열기",
+    "“실패가 두려워서 시작하지 않은 일” 나누기",
+    ""
+   ],
+   [
+    "15분",
+    "장면 1–2",
+    "열 처녀와 빌릴 수 없는 기름, 달란트의 크기",
+    ""
+   ],
+   [
+    "10분",
+    "장면 3–4와 기다림 표",
+    "두려움이 묻은 달란트, 양과 염소, 지극히 작은 자",
+    "“실패보다 무서운 것”"
+   ],
+   [
+    "5분",
+    "확인 문제",
+    "",
+    ""
+   ],
+   [
+    "15분",
+    "나눔과 고백",
+    "나눔 질문 2개 → 달란트로 작은 자 섬기기 계획 → 기도",
+    ""
+   ]
+  ],
+  "ipucu_usaq": [
+   "‘들어가지 못한 처녀들’, ‘바깥 어두운 데’는 겁주지 말고 ‘늘 준비하자’로 마무리하세요.",
+   "재능이 없다고 느끼는 아이에게 웃음, 친절, 시간도 달란트라고 알려 주세요.",
+   "섬김 활동을 다음 주까지 실천하고 나누게 하세요."
+  ],
+  "ipucu_genc": [
+   "달란트를 ‘능력주의’로 오해하지 않게, 결과가 아니라 신실함이 기준임을 강조하세요.",
+   "양과 염소 비유를 행위 구원으로 읽지 않도록, 은혜와 열매의 관계를 설명하세요.",
+   "다음 과(26:1–35)는 향유 부은 여인과 최후의 만찬입니다."
+  ],
+  "suallar": [
+   [
+    "기름을 나눠 주지 않은 처녀들은 나쁜 거 아니에요?",
+    "이 이야기는 나눔이 아니라 ‘각자 준비해야 한다’는 걸 가르쳐요. 믿음은 빌려줄 수 없거든요.",
+    "비유의 초점은 개인의 준비예요. 다른 사람의 믿음으로 대신 구원받을 수 없다는 뜻이에요. 일상에서 나눔은 여전히 귀해요(25:35)."
+   ],
+   [
+    "저는 잘하는 게 없어요.",
+    "모두에게 달란트가 있어요! 친구를 웃게 하는 것, 잘 들어 주는 것도 하나님이 주신 달란트예요.",
+    "주인은 ‘각각 그 재능대로’ 맡겼어요. 한 달란트도 엄청 큰 돈이에요. 작아 보이는 내 달란트도 하나님 보시기에 귀해요."
+   ],
+   [
+    "착한 일을 많이 하면 천국에 가요?",
+    "천국은 예수님을 믿는 사람이 가요. 예수님을 믿으면 착한 일을 하고 싶은 마음이 생겨요.",
+    "양들은 자기가 한 일을 몰랐어요. 공로를 쌓으려고 한 게 아니라 은혜 받은 사람으로서 자연스럽게 사랑한 거예요. 구원의 뿌리는 은혜, 섬김은 그 열매예요."
+   ]
+  ]
+ },
+ "en": {
+  "usaq": {
+   "basliq": "To one of the least of these my brothers",
+   "hedef": [
+    "We will decide to be wise people who are ready while waiting for Jesus.",
+    "We will learn to use the abilities God gave us well.",
+    "We will learn that helping someone in need is helping Jesus."
+   ],
+   "sehneler": [
+    {
+     "b": "Ten girls and lamps",
+     "ayə": "Matthew 25:1–13",
+     "alt": "Ten girls holding lamps and waiting for the bridegroom",
+     "p": [
+      "Ten girls took their [[lamps|lamp]] and waited for the bridegroom. Five of them had prepared enough oil, but the other five had not.",
+      "When the bridegroom came late at night, the five girls who were ready went into the wedding, but the five who went to buy oil couldn't go in. We who are waiting for Jesus must always be ready too."
+     ]
+    },
+    {
+     "b": "The talents entrusted by the master",
+     "ayə": "Matthew 25:14–18",
+     "alt": "A master entrusting bags of money to his servants",
+     "p": [
+      "A master going on a journey entrusted his servants with [[talents|talent]]. He gave five to one, two to another, and one to another.",
+      "The servants who received five and two talents worked hard and doubled them. But the servant who received one talent dug a hole in the ground and hid the money."
+     ]
+    },
+    {
+     "b": "Well done, good and faithful servant",
+     "ayə": "Matthew 25:19–30",
+     "alt": "A praised servant and a servant digging up the money he buried",
+     "p": [
+      "The master returned and said to his hardworking servants, 'Well done, good and [[faithful]] servant! You were faithful over a few things, I will put you in charge of many things.'",
+      "But the servant who hid the one talent said, 'I hid it because I was afraid of you.' The master scolded the lazy servant who didn't use what was entrusted to him. We shouldn't hide the abilities God gives us; we must use them."
+     ]
+    },
+    {
+     "b": "You did it to me",
+     "ayə": "Matthew 25:31–46",
+     "alt": "Children helping hungry and sick people with Jesus beside them",
+     "p": [
+      "On the day Jesus comes as King, He will say, 'I was hungry, and you gave me food; I was thirsty, and you gave me a drink; I was sick, and you cared for me.'",
+      "When people ask, 'When?', the King will answer, 'Whatever you did for one of the least of these [[brothers|brother]] of mine, you did it for me.' If we help a friend in need, we are helping Jesus."
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "“Whatever you did for one of the least of these brothers of mine, you did it for me.”",
+    "ref": "25:40",
+    "bos": "Whatever you did for one of the ___ of these ___ of mine, you did it for ___.",
+    "sozler": [
+     "least",
+     "brothers",
+     "me"
+    ],
+    "yalan": "king"
+   },
+   "lugat": {
+    "lamp": {
+     "i": "🪔",
+     "x": "çıraq",
+     "m": "It is a small bowl that is filled with oil and lit.",
+     "e": "The girls took their lamps and waited."
+    },
+    "talent": {
+     "i": "💰",
+     "x": "talant",
+     "m": "It is a very large amount of money. It means the abilities and opportunities God gives us.",
+     "e": "The master entrusted talents to his servants."
+    },
+    "faithful": {
+     "i": "🏅",
+     "x": "sadiq",
+     "m": "Someone who does the work given to them diligently until the end.",
+     "e": "Well done, good and faithful servant!"
+    },
+    "brother": {
+     "i": "🤝",
+     "x": "qardaş",
+     "m": "Someone close like family. Jesus calls those in need His brothers.",
+     "e": "To one of the least of these brothers."
+    }
+   },
+   "test": [
+    {
+     "q": "What did the wise girls prepare?",
+     "o": [
+      "Enough oil",
+      "Beautiful clothes",
+      "Delicious food"
+     ],
+     "a": 0,
+     "f": "That's right! They were always ready."
+    },
+    {
+     "q": "What did the servant who received one talent do?",
+     "o": [
+      "Hid it in the ground",
+      "Doubled it",
+      "Gave it to a friend"
+     ],
+     "a": 0,
+     "f": "That's right! He didn't use it."
+    },
+    {
+     "q": "What did the master say to the hardworking servant?",
+     "o": [
+      "Well done, good and faithful servant",
+      "Why did you do this",
+      "Give it back"
+     ],
+     "a": 0,
+     "f": "That's right! God praises us too."
+    },
+    {
+     "q": "Who are we helping when we help one of the least of these?",
+     "o": [
+      "Jesus",
+      "No one",
+      "Myself"
+     ],
+     "a": 0,
+     "f": "That's right! We are doing it for Jesus."
+    }
+   ],
+   "dusun": [
+    "How can I fill up the 'oil of my lamp' while waiting for Jesus?",
+    "What is the 'talent' (ability) God has given me?",
+    "Who is the 'least' person around us who needs help?"
+   ],
+   "fealiyyet": {
+    "ciz": "Draw yourself giving bread to a hungry friend. Draw Jesus next to you too.",
+    "b": "Which talent will you use?",
+    "p": "Choose the ability God has given you.",
+    "ph": "",
+    "secim": {
+     "basliq": "Which talent will you use?",
+     "izah": "Tap to choose. You can choose more than one.",
+     "cumle": "I will use {x} God gave me for Him!",
+     "bos": "my voice",
+     "bag": "and",
+     "secimler": [
+      [
+       "🎤",
+       "my voice"
+      ],
+      [
+       "🤲",
+       "my hands"
+      ],
+      [
+       "🎨",
+       "my drawing skills"
+      ],
+      [
+       "⏰",
+       "my time"
+      ],
+      [
+       "😊",
+       "my smile"
+      ],
+      [
+       "🧠",
+       "my mind"
+      ]
+     ]
+    }
+   },
+   "dua": "Jesus, thank You for entrusting me with abilities and time. Let me always be ready like the wise girls, and use the talent I received without hiding it. When I help a friend in need, let me remember that I am helping You. I pray in the name of Jesus Christ. Amen."
+  },
+  "genc": {
+   "basliq": "What is waiting filled with?",
+   "giris": "After saying 'Stay awake,' Jesus explains its meaning with three stories: prepared waiting (the ten girls), working waiting (the talents), and serving waiting (the sheep and the goats). Waiting is not standing still; it is the busiest time of love.",
+   "meqsed": [
+    "We understand how the three parables in chapter 25 make 'staying awake' concrete.",
+    "We can explain the difference between faithfulness and fear in the parable of the talents.",
+    "We identify concrete ways to serve 'the least of these'."
+   ],
+   "sehneler": [
+    {
+     "b": "Prepared waiting",
+     "ayə": "Matthew 25:1–13",
+     "alt": "Ten girls holding lamps and waiting for the bridegroom",
+     "p": [
+      "In those days, a wedding began at night with the bridegroom coming to the bride's house to take her. The bride's friends waited with [[lamps|lamp]]. It was unknown when the bridegroom would arrive.",
+      "All ten girls fell asleep. The difference was not in staying awake, but in being 'prepared.' Oil could not be borrowed. Faith and preparation cannot be borrowed from someone else; they belong to each person."
+     ],
+     "deep": {
+      "b": "Looking deeper · What is the oil?",
+      "p": "Traditionally, it is interpreted in various ways, such as the Holy Spirit, good deeds, or faith. If we connect it with 7:21–23, it is not just saying 'Lord, Lord,' but a life that does the will of the Father. The bridegroom's words 'I don't know you' are also the same as in 7:23."
+     }
+    },
+    {
+     "b": "What is entrusted",
+     "ayə": "Matthew 25:14–18",
+     "alt": "A master entrusting bags of money to his servants",
+     "p": [
+      "One [[talent]] was about 20 years' wages for a laborer. Even the servant who received the least received a huge amount. The master entrusted it 'to each according to his own ability.' The amount is different, but the expectation is the same.",
+      "The servants who received five and two talents 'went at once' and traded. The servant who received one talent dug in the ground. According to rabbinic law at the time, burying money in the ground was the safest way against theft. His goal was not to lose it."
+     ],
+     "deep": {
+      "b": "Looking deeper · The word 'talent'",
+      "p": "The English word 'talent' (ability) comes exactly from this parable. But the talent in the parable is not just ability; it is everything God has entrusted to us: the Gospel, time, relationships, and opportunities."
+     }
+    },
+    {
+     "b": "A talent buried in fear",
+     "ayə": "Matthew 25:19–30",
+     "alt": "A praised servant and a servant digging up the money he buried",
+     "p": [
+      "Two servants receive the same praise: 'Well done, good and [[faithful]] servant! You were faithful over a few things, I will set you over many things. Enter into the joy of your lord!' It is not the size of the result that is praised, but the faithfulness.",
+      "The third servant says: 'You are a hard man ... I was afraid, and went away and hid your talent in the earth.' A wrong idea about the master bred fear, and fear caused him to do nothing."
+     ],
+     "deep": {
+      "b": "Looking deeper · Scarier than failure",
+      "p": "There is no 'servant who lost money in business' in this parable. God regrets the one who was afraid and did nothing more than the one who tried and failed. A person who knows the God of grace can take the risk of failure and try.",
+      "rose": true
+     }
+    },
+    {
+     "b": "The least of these",
+     "ayə": "Matthew 25:31–46",
+     "alt": "Children helping hungry and sick people with Jesus beside them",
+     "p": [
+      "The Son of Man will come in His glory and separate all nations as a shepherd separates the sheep from the goats. Surprisingly, the criterion is not religious knowledge, but how they treated the hungry, the thirsty, the strangers, the naked, the sick, and those in prison.",
+      "Both the sheep and the goats are surprised: 'Lord, when...?' Those who served did not know they were doing it to Jesus. Because they loved without calculating. Jesus identifies Himself with the [[least]]."
+     ],
+     "deep": {
+      "b": "Looking deeper · Salvation by works?",
+      "p": "This scene does not mean 'being saved by doing good works.' A person who receives the King's grace naturally loves the least of these. The fruit proves the root (7:17). The entire Gospel of Matthew speaks of a faith where word and deed are one."
+     }
+    }
+   ],
+   "cedvel": {
+    "b": "Three forms of waiting",
+    "alt": "25:1–46",
+    "bas": [
+     "Parable",
+     "The form of staying awake",
+     "The problem of the one who failed"
+    ],
+    "set": [
+     [
+      "The ten girls",
+      "Prepared waiting",
+      "Did not prepare oil"
+     ],
+     [
+      "The talents",
+      "Working waiting",
+      "Hid it out of fear"
+     ],
+     [
+      "The sheep and the goats",
+      "Serving waiting",
+      "Passed by the least of these"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "“The King will answer them, ‘Most certainly I tell you, because you did it to one of the least of these my brothers, you did it to me.’”",
+    "ref": "25:40"
+   },
+   "lugat": {
+    "lamp": {
+     "i": "🪔",
+     "o": "Greek lampas",
+     "x": "çıraq",
+     "s": "A torch dipped in oil",
+     "m": "It was likely a torch made by wrapping oil-soaked cloth around the end of a stick. Oil had to be added every 15 minutes.",
+     "e": "This is the root of the word 'lamp'."
+    },
+    "talent": {
+     "i": "💰",
+     "o": "Greek talanton",
+     "x": "talant",
+     "s": "Everything entrusted",
+     "m": "About 6,000 denarii. Even one talent was a huge sum of money that was hard to hold in a lifetime.",
+     "e": "It is the same unit as the ten thousand talents debt in 18:24."
+    },
+    "faithful": {
+     "i": "🏅",
+     "o": "Greek pistos",
+     "x": "sadiq",
+     "s": "Trustworthy",
+     "m": "It shares the same root as the word 'faith' (pistis). Faithfulness is faith seen in action.",
+     "e": "'Be faithful to death' (Revelation 2:10)."
+    },
+    "least": {
+     "i": "🫂",
+     "o": "Greek elachistos",
+     "x": "kiçik",
+     "s": "The weakest and forgotten person",
+     "m": "It is connected to 'a cup of cold water to one of these little ones' in 10:42 and 'causes one of these little ones to stumble' in 18:6.",
+     "e": "Jesus comes looking for us in the face of the least of these."
+    }
+   },
+   "test": [
+    {
+     "q": "What was the difference between the wise and foolish girls in the parable of the ten girls?",
+     "o": [
+      "Whether they prepared oil",
+      "Whether they slept",
+      "Their beauty"
+     ],
+     "a": 0,
+     "f": "That's right. They all slept, but their preparation was different."
+    },
+    {
+     "q": "By what criterion did the master entrust the talents?",
+     "o": [
+      "To each according to his ability",
+      "Equally",
+      "By casting lots"
+     ],
+     "a": 0,
+     "f": "That's right. The amount was different, but the expectation was the same."
+    },
+    {
+     "q": "What was the difference between the praises received by the servants with five and two talents?",
+     "o": [
+      "They were the same",
+      "The five-talent servant's was greater",
+      "The two-talent servant was not praised"
+     ],
+     "a": 0,
+     "f": "That's right. He looked at faithfulness, not the result."
+    },
+    {
+     "q": "What was the main reason the servant with one talent hid it?",
+     "o": [
+      "Fear born from thinking the master was hard",
+      "His lazy character",
+      "The amount of money was too small"
+     ],
+     "a": 0,
+     "f": "That's right. Misunderstanding God bred fear."
+    },
+    {
+     "q": "What is the criterion for separating the sheep and the goats?",
+     "o": [
+      "How they treated the least of these",
+      "Bible knowledge",
+      "Number of times going to church"
+     ],
+     "a": 0,
+     "f": "That's right. It is seen through the fruit of grace."
+    }
+   ],
+   "paylas": [
+    "Do I have enough 'oil' of faith? What is my preparation that I cannot borrow from someone else?",
+    "If I were to list three 'talents' God has entrusted to me, what would they be?",
+    "Is there a talent I have buried out of fear? Something I haven't tried because I was afraid of failing?",
+    "Who is the 'least of these' around me? If I saw Jesus in their face, how would I treat them?"
+   ],
+   "etiraf": {
+    "b": "My confession",
+    "p": "Write in three or four sentences one talent God has entrusted to you and how you plan to serve one of the 'least of these' with it this week.",
+    "ph": "For example: I am good at math. To a friend in class who struggles with math..."
+   },
+   "dua": "Jesus, thank You for teaching me that waiting is not standing still, but a time filled with love. Let me prepare the oil of faith that I cannot borrow from anyone else, and dig up the talent I buried in fear to use it faithfully. Let me see You in the face of the least of these and serve them. I pray in the name of Jesus Christ. Amen."
+  }
+ },
+ "ru": {
+  "usaq": {
+   "basliq": "Одному из сих братьев Моих меньших",
+   "hedef": [
+    "Мы решим быть мудрыми людьми, которые готовы и ждут Иисуса.",
+    "Мы научимся хорошо использовать способности, которые дал нам Бог.",
+    "Мы узнаем, что помогать тем, кто в беде, — это помогать Самому Иисусу."
+   ],
+   "sehneler": [
+    {
+     "b": "Десять дев и светильники",
+     "ayə": "Матфей 25:1–13",
+     "alt": "Десять дев со светильниками ждут жениха",
+     "p": [
+      "Десять дев взяли свои [[светильники|светильник]] и ждали жениха. Пять из них приготовили достаточно масла, а другие пять — нет.",
+      "Когда поздно ночью пришёл жених, пять готовых дев вошли на свадебный пир, а пять, которые ушли покупать масло, не смогли войти. Мы, ожидая Иисуса, тоже должны быть всегда готовы."
+     ]
+    },
+    {
+     "b": "Таланты от господина",
+     "ayə": "Матфей 25:14–18",
+     "alt": "Господин поручает слугам мешки с деньгами",
+     "p": [
+      "Один господин, отправляясь в путешествие, поручил своим слугам [[таланты|талант]]. Одному он дал пять, другому два, а третьему — один талант.",
+      "Слуги, получившие пять и два таланта, потрудились и приумножили их вдвое. Но слуга, получивший один талант, выкопал яму в земле и спрятал деньги."
+     ]
+    },
+    {
+     "b": "Молодец, добрый и верный раб",
+     "ayə": "Матфей 25:19–30",
+     "alt": "Раб, которого хвалят, и раб, достающий деньги из земли",
+     "p": [
+      "Господин вернулся и сказал потрудившимся слугам: «Молодец, добрый и [[верный]] раб! В малом ты был верен, над многим тебя поставлю».",
+      "А слуга, спрятавший один талант, сказал: «Я испугался тебя и поэтому спрятал его». Господин отругал ленивого слугу, который не пустил в дело то, что ему поручили. Способности, данные Богом, нужно не прятать, а использовать."
+     ]
+    },
+    {
+     "b": "Сделали Мне",
+     "ayə": "Матфей 25:31–46",
+     "alt": "Дети помогают голодным и больным, а рядом с ними Иисус",
+     "p": [
+      "В тот день, когда Иисус придёт как Царь, Он скажет: «Я был голоден, и вы дали Мне есть; хотел пить, и вы напоили Меня; был болен, и вы позаботились обо Мне».",
+      "Когда люди спросят: «Когда же?», Царь ответит: «То, что вы сделали одному из этих самых меньших Моих [[братьев|брат]], вы сделали Мне». Если мы помогаем другу в беде, мы помогаем Иисусу."
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "«То, что вы сделали одному из этих самых меньших Моих братьев, вы сделали Мне».",
+    "ref": "25:40",
+    "bos": "«То, что вы сделали одному из этих самых ___ Моих ___, вы сделали ___».",
+    "sozler": [
+     "меньших",
+     "братьев",
+     "Мне"
+    ],
+    "yalan": "царю"
+   },
+   "lugat": {
+    "светильник": {
+     "i": "🪔",
+     "x": "çıraq",
+     "m": "Небольшой сосуд, в который наливают масло и зажигают.",
+     "e": "Девы взяли свои светильники и ждали."
+    },
+    "талант": {
+     "i": "💰",
+     "x": "talant",
+     "m": "Очень большая сумма денег. Означает способности и возможности, которые даёт Бог.",
+     "e": "Господин поручил своим слугам таланты."
+    },
+    "верный": {
+     "i": "🏅",
+     "x": "sadiq",
+     "m": "Человек, который старательно доводит порученное дело до конца.",
+     "e": "Молодец, добрый и верный раб!"
+    },
+    "брат": {
+     "i": "🤝",
+     "x": "qardaş",
+     "m": "Близкий человек, как член семьи. Иисус называет братьями тех, кто оказался в беде.",
+     "e": "Одному из этих самых меньших Моих братьев."
+    }
+   },
+   "test": [
+    {
+     "q": "Что приготовили мудрые девы?",
+     "o": [
+      "Достаточно масла",
+      "Красивую одежду",
+      "Вкусную еду"
+     ],
+     "a": 0,
+     "f": "Правильно! Они всегда были готовы."
+    },
+    {
+     "q": "Что сделал слуга, получивший один талант?",
+     "o": [
+      "Спрятал в земле",
+      "Приумножил вдвое",
+      "Отдал другу"
+     ],
+     "a": 0,
+     "f": "Правильно! Он не пустил его в дело."
+    },
+    {
+     "q": "Что сказал господин потрудившемуся слуге?",
+     "o": [
+      "Молодец, добрый и верный раб",
+      "Зачем ты так поступил",
+      "Верни обратно"
+     ],
+     "a": 0,
+     "f": "Правильно! Бог тоже хвалит нас."
+    },
+    {
+     "q": "Кому мы помогаем, когда помогаем одному из самых меньших?",
+     "o": [
+      "Иисусу",
+      "Никому",
+      "Себе"
+     ],
+     "a": 0,
+     "f": "Правильно! Мы делаем это для Иисуса."
+    }
+   ],
+   "dusun": [
+    "Как я могу наполнить «маслом свой светильник», ожидая Иисуса?",
+    "Какой «талант» (способность) дал мне Бог?",
+    "Кто из окружающих является тем «меньшим», кому нужна помощь?"
+   ],
+   "fealiyyet": {
+    "ciz": "Нарисуй, как ты даёшь хлеб голодному другу. Рядом нарисуй Иисуса.",
+    "b": "Какой талант ты будешь использовать?",
+    "p": "Выбери способность, которую дал тебе Бог.",
+    "ph": "",
+    "secim": {
+     "basliq": "Какой талант ты будешь использовать?",
+     "izah": "Нажимай и выбирай. Можно выбрать несколько.",
+     "cumle": "Я буду использовать {x}, чтобы служить Богу!",
+     "bos": "свой голос",
+     "bag": "и",
+     "secimler": [
+      [
+       "🎤",
+       "свой голос"
+      ],
+      [
+       "🤲",
+       "свои руки"
+      ],
+      [
+       "🎨",
+       "своё умение рисовать"
+      ],
+      [
+       "⏰",
+       "своё время"
+      ],
+      [
+       "😊",
+       "свою улыбку"
+      ],
+      [
+       "🧠",
+       "свой ум"
+      ]
+     ]
+    }
+   },
+   "dua": "Иисус, благодарю Тебя за то, что Ты доверил мне способности и время. Помоги мне всегда быть готовым, как мудрые девы, и не прятать полученный талант, а использовать его. Пусть я всегда помню, что, помогая другу в беде, я помогаю Тебе. Молюсь во имя Иисуса Христа. Аминь."
+  },
+  "genc": {
+   "basliq": "Чем наполняется ожидание?",
+   "giris": "После слов «бодрствуйте» Иисус раскрывает их смысл через три истории: ожидание с подготовкой (десять дев), ожидание в труде (таланты), ожидание в служении (овцы и козлы). Ожидание — это не бездействие, а самое занятое время любви.",
+   "meqsed": [
+    "Мы поймём, как три притчи из 25-й главы конкретизируют понятие «бодрствование».",
+    "Мы сможем объяснить разницу между верностью и страхом в притче о талантах.",
+    "Мы определим конкретные способы служения «самым меньшим»."
+   ],
+   "sehneler": [
+    {
+     "b": "Ожидание с подготовкой",
+     "ayə": "Матфей 25:1–13",
+     "alt": "Десять дев со светильниками ждут жениха",
+     "p": [
+      "В то время свадьба начиналась ночью, когда жених приходил в дом невесты, чтобы забрать её. Подруги невесты ждали со [[светильниками|светильник]]. Никто не знал, когда именно придёт жених.",
+      "Все десять дев уснули. Разница была не в том, кто бодрствовал, а в «подготовке». Масло нельзя было одолжить. Веру и готовность нельзя одолжить у другого, они у каждого свои."
+     ],
+     "deep": {
+      "b": "Взгляд в глубину · Что такое масло?",
+      "p": "Традиционно оно толкуется по-разному: как Святой Дух, добрые дела или вера. Если связать это с 7:21–23, то это не просто слова «Господи! Господи!», а жизнь, исполняющая волю Отца. Слова жениха «я не знаю вас» тоже перекликаются с 7:23."
+     }
+    },
+    {
+     "b": "Порученное",
+     "ayə": "Матфей 25:14–18",
+     "alt": "Господин поручает слугам мешки с деньгами",
+     "p": [
+      "Один [[талант]] равнялся примерно 20-летнему заработку рабочего. Даже слуга, получивший меньше всех, получил огромную сумму. Господин поручил каждому «по его силе». Количество разное, но ожидание одинаковое.",
+      "Слуги, получившие пять и два таланта, «тотчас пошли» и пустили их в дело. Слуга, получивший один талант, выкопал яму в земле. По раввинским законам того времени, закопать деньги в землю было самым надёжным способом уберечь их от кражи. Его целью было не потерять."
+     ],
+     "deep": {
+      "b": "Взгляд в глубину · Слово «талант»",
+      "p": "Слово «талант» (в значении одарённости) произошло именно из этой притчи. Но талант в притче — это не только способности, а всё, что доверил Бог: Евангелие, время, отношения, возможности."
+     }
+    },
+    {
+     "b": "Талант, зарытый из-за страха",
+     "ayə": "Матфей 25:19–30",
+     "alt": "Раб, которого хвалят, и раб, достающий деньги из земли",
+     "p": [
+      "Два слуги получают одинаковую похвалу: «Хорошо, добрый и [[верный]] раб! в малом ты был верен, над многим тебя поставлю; войди в радость господина твоего». Хвалят не за размер результата, а за верность.",
+      "Третий слуга говорит: «Ты человек жестокий… я убоялся и пошёл и скрыл талант твой в земле». Неправильное представление о господине породило страх, а страх привёл к бездействию."
+     ],
+     "deep": {
+      "b": "Взгляд в глубину · Страшнее неудачи",
+      "p": "В этой притче нет «слуги, который потерпел убыток в торговле». Бог больше сожалеет о том, кто испугался и ничего не сделал, чем о том, кто попытался и потерпел неудачу. Человек, знающий милостивого Бога, может рисковать и пробовать, не боясь неудач.",
+      "rose": true
+     }
+    },
+    {
+     "b": "Самые меньшие",
+     "ayə": "Матфей 25:31–46",
+     "alt": "Дети помогают голодным и больным, а рядом с ними Иисус",
+     "p": [
+      "Сын Человеческий придёт во славе и отделит все народы, как пастух отделяет овец от козлов. Критерием, как ни удивительно, будут не религиозные знания, а то, как они относились к голодным, жаждущим, странникам, нагим, больным и заключённым в темницу.",
+      "И овцы, и козлы удивляются: «Господи! когда мы…?». Те, кто служил, не знали, что делают это для Иисуса. Потому что они любили бескорыстно. Иисус отождествляет Себя с самыми [[меньшими|меньший]]."
+     ],
+     "deep": {
+      "b": "Взгляд в глубину · Спасение по делам?",
+      "p": "Эта сцена не означает «сделай доброе дело и спасёшься». Человек, получивший благодать Царя, естественно любит меньших. Плод доказывает корень (7:17). Всё Евангелие от Матфея говорит о вере, в которой слова и дела едины."
+     }
+    }
+   ],
+   "cedvel": {
+    "b": "Три вида ожидания",
+    "alt": "25:1–46",
+    "bas": [
+     "Притча",
+     "Вид бодрствования",
+     "Проблема потерпевшего неудачу"
+    ],
+    "set": [
+     [
+      "Десять дев",
+      "Ожидание с подготовкой",
+      "Не приготовил масло"
+     ],
+     [
+      "Таланты",
+      "Ожидание в труде",
+      "Испугался и спрятал"
+     ],
+     [
+      "Овцы и козлы",
+      "Ожидание в служении",
+      "Прошёл мимо меньших"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "«И Царь скажет им в ответ: истинно говорю вам: так как вы сделали это одному из сих братьев Моих меньших, то сделали Мне».",
+    "ref": "25:40"
+   },
+   "lugat": {
+    "светильник": {
+     "i": "🪔",
+     "o": "Греч. lampas",
+     "x": "çıraq",
+     "s": "Факел, пропитанный маслом",
+     "m": "Вероятно, это был факел из ткани, пропитанной маслом и намотанной на конец палки. Каждые 15 минут нужно было добавлять масло.",
+     "e": "От этого слова произошло слово «лампа»."
+    },
+    "талант": {
+     "i": "💰",
+     "o": "Греч. talanton",
+     "x": "talant",
+     "s": "Всё порученное",
+     "m": "Около 6000 динариев. Даже один талант был огромной суммой, которую трудно было заработать за всю жизнь.",
+     "e": "Та же единица измерения, что и долг в десять тысяч талантов в 18:24."
+    },
+    "верный": {
+     "i": "🏅",
+     "o": "Греч. pistos",
+     "x": "sadiq",
+     "s": "Надёжный",
+     "m": "Имеет тот же корень, что и слово «вера» (pistis). Верность — это вера, проявленная в делах.",
+     "e": "«Будь верен до смерти» (Откр. 2:10)."
+    },
+    "меньший": {
+     "i": "🫂",
+     "o": "Греч. elachistos",
+     "x": "kiçik",
+     "s": "Самый слабый и забытый человек",
+     "m": "Связано с «чашей холодной воды одному из малых сих» в 10:42 и «кто соблазнит одного из малых сих» в 18:6.",
+     "e": "Иисус приходит к нам в лице самых меньших."
+    }
+   },
+   "test": [
+    {
+     "q": "В чём была разница между мудрыми и неразумными девами в притче?",
+     "o": [
+      "В подготовке масла",
+      "В том, что они уснули",
+      "В их красоте"
+     ],
+     "a": 0,
+     "f": "Правильно. Уснули все, но подготовка была разной."
+    },
+    {
+     "q": "По какому критерию господин поручил таланты?",
+     "o": [
+      "Каждому по его силе",
+      "Поровну",
+      "По жребию"
+     ],
+     "a": 0,
+     "f": "Правильно. Количество разное, но ожидание одинаковое."
+    },
+    {
+     "q": "В чём была разница между похвалой слугам, получившим пять и два таланта?",
+     "o": [
+      "Она была одинаковой",
+      "У получившего пять талантов она была больше",
+      "Получивший два таланта не был похвален"
+     ],
+     "a": 0,
+     "f": "Правильно. Он смотрел не на результат, а на верность."
+    },
+    {
+     "q": "В чём была главная причина того, что слуга с одним талантом спрятал его?",
+     "o": [
+      "Страх из-за того, что он считал господина жестоким",
+      "Ленивый характер",
+      "Слишком маленькая сумма"
+     ],
+     "a": 0,
+     "f": "Правильно. Неправильное понимание Бога породило страх."
+    },
+    {
+     "q": "Каков критерий разделения овец и козлов?",
+     "o": [
+      "Отношение к самым меньшим",
+      "Знание Библии",
+      "Количество посещений церкви"
+     ],
+     "a": 0,
+     "f": "Правильно. Это проявляется в плодах благодати."
+    }
+   ],
+   "paylas": [
+    "Достаточно ли у меня «масла» веры? Какова моя личная подготовка, которую я не смогу одолжить у других?",
+    "Если бы мне нужно было перечислить три «таланта», порученных мне Богом, что бы это было?",
+    "Есть ли у меня талант, который я зарыл из-за страха? Дело, которое я не попытался сделать из-за страха неудачи?",
+    "Кто является «самым меньшим» в моём окружении? Если бы я увидел в его лице Иисуса, как бы я к нему отнёсся?"
+   ],
+   "etiraf": {
+    "b": "Моё исповедание",
+    "p": "Напиши в трёх-четырёх предложениях об одном таланте, порученном тебе Богом, и о том, как ты послужишь им одному «самому меньшему» на этой неделе.",
+    "ph": "Например: Я хорошо знаю математику. Другу в классе, которому трудно даётся математика, я..."
+   },
+   "dua": "Иисус, благодарю Тебя за то, что Ты учишь: ожидание — это не бездействие, а время, наполняемое любовью. Помоги мне приготовить масло веры, которое нельзя одолжить у других, достать талант, зарытый из-за страха, и верно пустить его в дело. Помоги мне видеть Тебя в лице самых меньших и служить им. Молюсь во имя Иисуса Христа. Аминь."
+  }
  }
-},
-"muellim": {
- "mesaj": "29과의 중심은 한 문장입니다. **주님을 기다리는 깨어 있음은 준비하는 믿음, 두려움 없이 맡은 것을 일하는 신실함, 그리고 지극히 작은 자를 섬기는 사랑으로 채워진다.**",
- "hazirliq": ["학생용 교재를 열 휴대폰이나 태블릿, 이어폰", "작은 등불(또는 초)과 기름 병 그림", "종이 동전 다섯·둘·하나 (달란트 역할극)"],
- "fon": [
-  ["1. 마지막 설교의 결론", "24–25장 종말 설교의 결말부입니다. 24:42 “깨어 있으라”를 세 이야기가 구체화합니다. 26:1 “이 말씀을 다 마치시고”로 마태복음의 다섯 설교가 끝납니다."],
-  ["2. 유대 결혼 풍습", "약혼 후 1년쯤 지나 신랑이 신부 집으로 가서 신부를 자기 집으로 데려가며 잔치를 엽니다. 행렬은 주로 밤에 있었고 등불이 필수였습니다."],
-  ["3. 달란트 금액", "1달란트 ≈ 6,000데나리온 ≈ 노동자 20년 임금. 다섯 달란트는 100년 치 임금입니다. 하나님이 맡기신 것의 엄청난 가치를 보여 줍니다."],
-  ["4. 양과 염소", "팔레스타인 목자는 낮에는 양과 염소를 함께 먹이고, 밤에는 추위에 약한 염소를 따로 두었습니다. 겉보기엔 비슷해도 구분됩니다."],
-  ["5. 현지 적용", "조지아 마르네울리 지역에도 도움이 필요한 이웃이 많습니다. 교회나 가정에서 실천할 수 있는 ‘작은 자 섬기기’ 프로젝트를 학생들과 함께 계획해 보세요."]
- ],
- "usaq_plan": [
-  ["5분", "달란트 역할극", "종이 동전을 나눠 주고 ‘어떻게 쓸까?’ 질문", "“하나님은 우리에게 재능을 맡기셨어요.”"],
-  ["15분", "장면 1–4 듣고 읽기", "장면마다 듣기, 노란 낱말 누르기", "“친구를 도우면 예수님을 도운 거예요!”"],
-  ["5분", "외울 말씀", "빈칸 놀이 → 짝꿍에게 작은 친절 하며 외우기", ""],
-  ["5분", "확인 퀴즈", "혼자 풀고 함께 확인", ""],
-  ["10분", "활동과 기도", "나의 달란트 고르기 → 서로의 재능을 칭찬하고 기도", ""]
- ],
- "genc_plan": [
-  ["5분", "열기", "“실패가 두려워서 시작하지 않은 일” 나누기", ""],
-  ["15분", "장면 1–2", "열 처녀와 빌릴 수 없는 기름, 달란트의 크기", ""],
-  ["10분", "장면 3–4와 기다림 표", "두려움이 묻은 달란트, 양과 염소, 지극히 작은 자", "“실패보다 무서운 것”"],
-  ["5분", "확인 문제", "", ""],
-  ["15분", "나눔과 고백", "나눔 질문 2개 → 달란트로 작은 자 섬기기 계획 → 기도", ""]
- ],
- "ipucu_usaq": ["‘들어가지 못한 처녀들’, ‘바깥 어두운 데’는 겁주지 말고 ‘늘 준비하자’로 마무리하세요.", "재능이 없다고 느끼는 아이에게 웃음, 친절, 시간도 달란트라고 알려 주세요.", "섬김 활동을 다음 주까지 실천하고 나누게 하세요."],
- "ipucu_genc": ["달란트를 ‘능력주의’로 오해하지 않게, 결과가 아니라 신실함이 기준임을 강조하세요.", "양과 염소 비유를 행위 구원으로 읽지 않도록, 은혜와 열매의 관계를 설명하세요.", "다음 과(26:1–35)는 향유 부은 여인과 최후의 만찬입니다."],
- "suallar": [
-  ["기름을 나눠 주지 않은 처녀들은 나쁜 거 아니에요?", "이 이야기는 나눔이 아니라 ‘각자 준비해야 한다’는 걸 가르쳐요. 믿음은 빌려줄 수 없거든요.", "비유의 초점은 개인의 준비예요. 다른 사람의 믿음으로 대신 구원받을 수 없다는 뜻이에요. 일상에서 나눔은 여전히 귀해요(25:35)."],
-  ["저는 잘하는 게 없어요.", "모두에게 달란트가 있어요! 친구를 웃게 하는 것, 잘 들어 주는 것도 하나님이 주신 달란트예요.", "주인은 ‘각각 그 재능대로’ 맡겼어요. 한 달란트도 엄청 큰 돈이에요. 작아 보이는 내 달란트도 하나님 보시기에 귀해요."],
-  ["착한 일을 많이 하면 천국에 가요?", "천국은 예수님을 믿는 사람이 가요. 예수님을 믿으면 착한 일을 하고 싶은 마음이 생겨요.", "양들은 자기가 한 일을 몰랐어요. 공로를 쌓으려고 한 게 아니라 은혜 받은 사람으로서 자연스럽게 사랑한 거예요. 구원의 뿌리는 은혜, 섬김은 그 열매예요."]
- ]
-}
 }

@@ -3,16 +3,29 @@
 (function () {
   'use strict';
   var D = window.DD || {};
-  var AZ = D.dil === 'az';
-  var T = AZ ? {
-    ok: 'Düzdür!', no: 'Yenə fikirləş. Mətni bir daha oxu.', orig: 'Orijinal: ', other: 'Koreyaca: ',
-    gameOk: 'Düzdür! Növbəti boşluq.', gameDone: 'Afərin! İndi ayəni üç dəfə ucadan oxu.', gameNo: function (n) { return 'Yenə fikirləş. Bu, ' + n + '-ci boşluqdur.'; },
-    noAudio: 'Səs faylı açılmadı. İnterneti yoxla.', fsLabel: 'Yazı ölçüsü'
-  } : {
-    ok: '맞아요!', no: '다시 생각해 보세요. 본문을 한 번 더 읽어 봐요.', orig: '원어: ', other: '아제르바이잔어: ',
-    gameOk: '맞아요! 다음 빈칸이에요.', gameDone: '잘했어요! 소리 내어 세 번 읽어 보세요.', gameNo: function (n) { return '다시 생각해 봐요. ' + n + '번째 빈칸이에요.'; },
-    noAudio: '이 브라우저에서는 읽어 주기가 안 돼요. 휴대폰 크롬이나 사파리에서 열어 보세요.', fsLabel: '글자 크기'
+  var TT = {
+    az: {
+      ok: 'Düzdür!', no: 'Yenə fikirləş. Mətni bir daha oxu.', orig: 'Orijinal: ', other: 'Koreyaca: ',
+      gameOk: 'Düzdür! Növbəti boşluq.', gameDone: 'Afərin! İndi ayəni üç dəfə ucadan oxu.', gameNo: function (n) { return 'Yenə fikirləş. Bu, ' + n + '-ci boşluqdur.'; },
+      noAudio: 'Səs faylı açılmadı. İnterneti yoxla.', fsLabel: 'Yazı ölçüsü'
+    },
+    ko: {
+      ok: '맞아요!', no: '다시 생각해 보세요. 본문을 한 번 더 읽어 봐요.', orig: '원어: ', other: '아제르바이잔어: ',
+      gameOk: '맞아요! 다음 빈칸이에요.', gameDone: '잘했어요! 소리 내어 세 번 읽어 보세요.', gameNo: function (n) { return '다시 생각해 봐요. ' + n + '번째 빈칸이에요.'; },
+      noAudio: '이 브라우저에서는 읽어 주기가 안 돼요. 휴대폰 크롬이나 사파리에서 열어 보세요.', fsLabel: '글자 크기'
+    },
+    ru: {
+      ok: 'Правильно!', no: 'Подумай ещё. Прочитай текст ещё раз.', orig: 'Оригинал: ', other: 'По-азербайджански: ',
+      gameOk: 'Правильно! Следующий пропуск.', gameDone: 'Молодец! Теперь прочитай стих вслух три раза.', gameNo: function (n) { return 'Подумай ещё. Это ' + n + '-й пропуск.'; },
+      noAudio: 'Не удалось открыть аудио. Проверь интернет.', fsLabel: 'Размер текста'
+    },
+    en: {
+      ok: 'Correct!', no: 'Think again. Read the passage once more.', orig: 'Original: ', other: 'Azerbaijani: ',
+      gameOk: 'Correct! Next blank.', gameDone: 'Well done! Now read the verse aloud three times.', gameNo: function (n) { return 'Think again. This is blank number ' + n + '.'; },
+      noAudio: 'The audio could not be opened. Check your internet.', fsLabel: 'Text size'
+    }
   };
+  var T = TT[D.dil] || TT.az;
   function $(id) { return document.getElementById(id); }
   function lsGet(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }
   function lsSet(k, v) { try { localStorage.setItem(k, v); } catch (e) {} }

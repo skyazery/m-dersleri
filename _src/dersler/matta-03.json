@@ -899,5 +899,813 @@
     "헤롯이 주전 4년경 죽었으니 1–2년 정도로 보는 견해가 많아요."
    ]
   ]
+ },
+ "ru": {
+  "usaq": {
+   "basliq": "Младенец Иисус, хранимый Богом",
+   "hedef": [
+    "Мы узнаем, как семья Иосифа бежала в Египет.",
+    "Мы узнаем, что Бог защищает нас даже во время опасности.",
+    "Мы научимся, как Иосиф, сразу же слушаться Божьего слова."
+   ],
+   "sehneler": [
+    {
+     "b": "Сон посреди ночи",
+     "ayə": "Матфей 2:13–14",
+     "alt": "Иосиф и Мария берут младенца Иисуса и отправляются в путь посреди ночи",
+     "p": [
+      "Когда мудрецы ушли, ангел снова явился Иосифу во [[сне|сон]]: «Встань, возьми Младенца и Его маму и беги в [[Египет]]. Ирод ищет Младенца, чтобы погубить Его».",
+      "Иосиф сразу же встал и проявил [[послушание]]. В ту же ночь он взял Марию и Младенца Иисуса и отправился в путь."
+     ]
+    },
+    {
+     "b": "Долгий и трудный путь",
+     "ayə": "Матфей 2:14–15",
+     "alt": "Семья Иосифа едет в Египет на ослике",
+     "p": [
+      "Семья Иосифа на ослике пересекла пустыню, чтобы [[бежать]] в Египет. Это был очень долгий и трудный путь.",
+      "Они жили в Египте, пока не умер Ирод. Так исполнилось слово [[пророка|пророк]]: «Из Египта Я вызвал Сына Моего»."
+     ]
+    },
+    {
+     "b": "Гнев Ирода",
+     "ayə": "Матфей 2:16–18",
+     "alt": "Царь Ирод в гневе отдаёт приказ своим солдатам",
+     "p": [
+      "Когда мудрецы не вернулись, Ирод очень сильно разозлился. Он отдал очень злой приказ, чтобы причинить вред маленьким детям в Вифлееме.",
+      "Мамы в Вифлееме очень много плакали. Бог видит слёзы детей и грустит вместе с ними. А Младенца Иисуса Бог [[защитил|защищать]]."
+     ]
+    },
+    {
+     "b": "В Назарет",
+     "ayə": "Матфей 2:19–23",
+     "alt": "Семья Иосифа прибывает в городок Назарет",
+     "p": [
+      "После смерти Ирода ангел снова явился Иосифу во сне: «Теперь возвращайся в землю Израиля».",
+      "Семья Иосифа отправилась в Галилею, в маленький городок [[Назарет]], и стала там жить. Поэтому Иисуса стали называть «Назаретянином»."
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "«Из Египта Я вызвал Сына Моего».",
+    "ref": "2:15",
+    "bos": "«Из ___ Я ___ ___ Моего».",
+    "sozler": [
+     "Египта",
+     "вызвал",
+     "Сына"
+    ],
+    "yalan": "Назарета"
+   },
+   "lugat": {
+    "сон": {
+     "i": "💭",
+     "x": "yuxu",
+     "m": "То, что мы видим, когда спим. Иногда Бог говорил с людьми во сне.",
+     "e": "Ангел явился Иосифу во сне."
+    },
+    "Египет": {
+     "i": "🏜️",
+     "x": "Misir",
+     "m": "Большая страна к югу от Израиля. Там течёт река Нил и стоят пирамиды.",
+     "e": "Семья Иосифа находилась в Египте в безопасности."
+    },
+    "послушание": {
+     "i": "👣",
+     "x": "itaət",
+     "m": "Услышать слово и сразу же исполнить его.",
+     "e": "Иосиф проявил послушание, как только проснулся."
+    },
+    "бежать": {
+     "i": "🏃",
+     "x": "qaçmaq",
+     "m": "Уйти от опасности и отправиться в безопасное место.",
+     "e": "Семья Иосифа посреди ночи бежала в Египет."
+    },
+    "пророк": {
+     "i": "📜",
+     "x": "peyğəmbər",
+     "m": "Человек, который получает слово от Бога и передаёт его людям.",
+     "e": "Слово, сказанное заранее пророком Осией, исполнилось."
+    },
+    "защищать": {
+     "i": "🛡️",
+     "x": "qorumaq",
+     "m": "Оберегать от зла, сохранять в безопасности.",
+     "e": "Бог защитил Младенца Иисуса."
+    },
+    "Назарет": {
+     "i": "🏘️",
+     "x": "Nazaret",
+     "m": "Маленький городок в Галилее. Там вырос Иисус.",
+     "e": "Иисуса называли «Иисус из Назарета»."
+    }
+   },
+   "test": [
+    {
+     "q": "Куда ангел сказал бежать Иосифу?",
+     "o": [
+      "В Египет",
+      "В Рим",
+      "На остров за морем"
+     ],
+     "a": 0,
+     "f": "Верно! Ангел сказал бежать в Египет."
+    },
+    {
+     "q": "Когда Иосиф отправился в путь?",
+     "o": [
+      "В ту же ночь",
+      "Через неделю",
+      "После смерти Ирода"
+     ],
+     "a": 0,
+     "f": "Верно! Иосиф проявил послушание сразу же."
+    },
+    {
+     "q": "Где жила семья Иосифа после смерти Ирода?",
+     "o": [
+      "В Назарете",
+      "В Египте",
+      "В Иерусалиме"
+     ],
+     "a": 0,
+     "f": "Верно! Иисус вырос в Назарете."
+    },
+    {
+     "q": "Чему мы учимся из этой истории?",
+     "o": [
+      "Бог нас защищает",
+      "Сны бывают страшными",
+      "В пустыне жарко"
+     ],
+     "a": 0,
+     "f": "Верно! Бог защищает нас даже во время опасности."
+    }
+   ],
+   "dusun": [
+    "Что бы почувствовал Иосиф, если бы ему пришлось внезапно отправиться далеко посреди ночи?",
+    "Чувствовал ли ты, что Бог защищает тебя, когда тебе было страшно или трудно?",
+    "Что значит исполнять Божье слово «сразу же», как это делал Иосиф?"
+   ],
+   "fealiyyet": {
+    "ciz": "Нарисуй семью Иосифа, которая едет в Египет на ослике.",
+    "b": "Бог, Который меня защищает",
+    "p": "Выбери время, когда ты хочешь, чтобы Бог тебя защищал.",
+    "ph": "",
+    "secim": {
+     "basliq": "Когда Бог тебя защищает?",
+     "izah": "Нажимай и выбирай. Можно выбрать несколько.",
+     "cumle": "Бог защищает меня {x}!",
+     "bos": "всегда",
+     "bag": "и",
+     "secimler": [
+      [
+       "🌙",
+       "ночью"
+      ],
+      [
+       "🏠",
+       "дома"
+      ],
+      [
+       "🏫",
+       "в школе"
+      ],
+      [
+       "🚶",
+       "в пути"
+      ],
+      [
+       "😨",
+       "когда мне страшно"
+      ],
+      [
+       "🤒",
+       "когда я болею"
+      ],
+      [
+       "🚌",
+       "в поездке"
+      ],
+      [
+       "😢",
+       "когда мне грустно"
+      ]
+     ]
+    }
+   },
+   "dua": "Господь Бог, спасибо Тебе за то, что Ты защищаешь меня и мою семью, так же как Ты защитил Младенца Иисуса во время опасности. Помоги мне, как Иосифу, сразу же слушаться Твоего слова. Утешь моих друзей, когда им грустно. Молюсь во имя Иисуса Христа. Аминь."
+  },
+  "genc": {
+   "basliq": "Царь, ставший беженцем",
+   "giris": "Иисус, пришедший как Царь всего мира, стал беженцем сразу после рождения. Почему Бог послал Своего Сына таким слабым и опасным путём?",
+   "meqsed": [
+    "Мы поймём смысл трёх пророчеств, которые приводит Матфей.",
+    "Мы сможем объяснить, как Иисус заново проживает историю Израиля.",
+    "Мы поразмышляем о том, что значит верить в Бога, Который действует даже посреди несправедливости и страданий."
+   ],
+   "sehneler": [
+    {
+     "b": "Снова сон",
+     "ayə": "Матфей 2:13–15",
+     "alt": "Иосиф и Мария берут младенца Иисуса и отправляются в путь посреди ночи",
+     "p": [
+      "Иосиф снова получает слово во сне и в ту же ночь отправляется в путь. Как и в первой главе, Иосиф проявляет [[послушание]] не на словах, а на деле.",
+      "Египет издревле был местом, где израильтяне находили убежище в трудные времена. В то время в Александрии также была большая еврейская община."
+     ],
+     "deep": {
+      "b": "Взгляд в глубину · Сын, призванный из Египта",
+      "p": "Матфей цитирует Осию 11:1: «Из Египта воззвал Я Сына Моего». На самом деле эти слова говорят об [[исходе из Египта|исход из Египта]] Израиля. Матфей показывает, что Иисус заново проживает историю Израиля и проявляет полное послушание там, где Израиль потерпел неудачу."
+     }
+    },
+    {
+     "b": "Слёзы Вифлеема",
+     "ayə": "Матфей 2:16–18",
+     "alt": "Царь Ирод в гневе отдаёт приказ своим солдатам",
+     "p": [
+      "Ирод приказал убить всех мальчиков до двух лет в Вифлееме и его окрестностях. Поскольку городок был небольшим, считается, что погибло около десяти детей, но каждый ребёнок был целым миром для своей семьи.",
+      "Матфей приводит слова пророка [[Иеремии|Иеремия]]: «[[Рахиль]] плачет о детях своих и не хочет утешиться»."
+     ],
+     "deep": {
+      "b": "Взгляд в глубину · Библия не скрывает скорби",
+      "p": "Матфей не пытается приукрасить эту трагедию. Библия — это книга, которая плачет вместе с нами перед лицом страданий. Но в той же 31-й главе Иеремия обещает «новый завет» и восстановление. Даже посреди слёз Божья история не заканчивается.",
+      "rose": true
+     },
+     "r": 2
+    },
+    {
+     "b": "Бог, направляющий через сны",
+     "ayə": "Матфей 2:19–22",
+     "alt": "Семья Иосифа едет в Египет на ослике",
+     "p": [
+      "После смерти Ирода ангел снова является во сне и велит вернуться в Израиль. Но в Иудее правил жестокий сын Ирода — [[Архелай]].",
+      "Когда Иосиф испугался, Бог снова через сон направил его в Галилею. В 1-й и 2-й главах Евангелия от Матфея Бог пять раз указывает путь через сны."
+     ],
+     "r": 1
+    },
+    {
+     "b": "Назаретянин",
+     "ayə": "Матфей 2:23",
+     "alt": "Семья Иосифа прибывает в городок Назарет",
+     "p": [
+      "Семья Иосифа поселяется в маленьком галилейском городке [[Назарет]]. Это было обычное поселение, где жило всего несколько сотен человек.",
+      "Слова «Из Назарета может ли быть что доброе?» {{Ин. 1:46}} показывают, что Назарет презирали. Иисус вырос именно в таком месте."
+     ],
+     "deep": {
+      "b": "Взгляд в глубину · «Назаретянин»",
+      "p": "В Ветхом Завете нет такой точной фразы. Многие учёные объясняют это как игру слов со словом «отрасль» (на иврите «нецер») из Исаии 11:1 и как указание на презираемого Мессию (Ис. 53)."
+     }
+    }
+   ],
+   "cedvel": {
+    "b": "Пророчества, приведённые Матфеем",
+    "alt": "Три «исполнения» во 2-й главе",
+    "bas": [
+     "Стих",
+     "Первоначальный смысл",
+     "В Иисусе"
+    ],
+    "set": [
+     [
+      "Осия 11:1",
+      "Исход Израиля из Египта",
+      "Выход Иисуса из Египта"
+     ],
+     [
+      "Иеремия 31:15",
+      "Рахиль, плачущая о детях, уведённых в плен",
+      "Слёзы вифлеемских матерей"
+     ],
+     [
+      "«Назаретянин»",
+      "Отрасль (нецер), презираемый раб",
+      "Мессия, выросший в презираемом городке"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "«Он встал, взял Младенца и Матерь Его ночью и пошел в Египет».",
+    "ref": "2:14"
+   },
+   "lugat": {
+    "послушание": {
+     "i": "👣",
+     "o": "По-гречески «хюпакуо»",
+     "x": "itaət",
+     "s": "Услышать и исполнить",
+     "m": "Буквально означает «слушать снизу». Это значит действовать в соответствии с услышанным словом.",
+     "e": "В 1-й и 2-й главах Иосиф не произносит ни слова, но после каждого сна сразу же проявляет послушание."
+    },
+    "исход из Египта": {
+     "i": "🌊",
+     "o": "По-гречески «эксодос»",
+     "x": "Misirdən çıxış",
+     "s": "Выход Израиля из Египта",
+     "m": "Во времена Моисея Бог спас Израиль от рабства в Египте. Это главный образ спасения.",
+     "e": "То, что Иисус в 4-й главе 40 дней испытывается в пустыне, связано с 40 годами пребывания Израиля в пустыне."
+    },
+    "Иеремия": {
+     "i": "📜",
+     "o": "На иврите «Йирмеяху»",
+     "x": "Yeremya",
+     "s": "«Плачущий пророк»",
+     "m": "Пророк, живший во время Вавилонского плена. Его называют «плачущим пророком», потому что он много плакал, видя гибель народа.",
+     "e": "В 31-й главе книги Иеремии также есть Божье обещание о «новом завете»."
+    },
+    "Рахиль": {
+     "i": "😢",
+     "o": "На иврите «Рахель»",
+     "x": "Rəhilə",
+     "s": "Жена Иакова, мать Израиля",
+     "m": "Она была самой любимой женой Иакова и была похоронена на пути в Вифлеем. Она является символом израильских матерей.",
+     "e": "Могила Рахили и сегодня находится на въезде в Вифлеем."
+    },
+    "Архелай": {
+     "i": "⚔️",
+     "o": "Ирод Архелай, 4 г. до н.э. – 6 г. н.э.",
+     "x": "Arxelay",
+     "s": "Жестокий сын Ирода",
+     "m": "После смерти отца он правил Иудеей, но был настолько жесток, что в конце концов Рим сместил его.",
+     "e": "Пишут, что придя к власти, он убил в храме три тысячи человек."
+    },
+    "Назарет": {
+     "i": "🏘️",
+     "o": "По-гречески «Назарет»",
+     "x": "Nazaret",
+     "s": "Галилейский городок, где вырос Иисус",
+     "m": "Это был маленький, никому не известный городок, который ни разу не упоминается в Ветхом Завете.",
+     "e": "Последователей Иисуса одно время называли «Назорейской ересью» (Деян. 24:5)."
+    }
+   },
+   "test": [
+    {
+     "q": "Когда Иосиф отправился в Египет?",
+     "o": [
+      "В ту же ночь",
+      "На следующее утро",
+      "После смерти Ирода"
+     ],
+     "a": 0,
+     "f": "Верно. Иосиф всегда проявляет послушание сразу же."
+    },
+    {
+     "q": "О чём на самом деле говорили слова «Из Египта воззвал Я Сына Моего»?",
+     "o": [
+      "Об исходе Израиля из Египта",
+      "О переселении Авраама",
+      "О рабстве Иосифа"
+     ],
+     "a": 0,
+     "f": "Верно. Иисус заново проживает историю Израиля."
+    },
+    {
+     "q": "В связи с каким событием Матфей приводит плач Рахили?",
+     "o": [
+      "Смерть вифлеемских детей",
+      "Рождение Иисуса",
+      "Приход мудрецов"
+     ],
+     "a": 0,
+     "f": "Верно. Библия не скрывает скорби."
+    },
+    {
+     "q": "Почему Иосиф пошёл не в Иудею, а в Галилею?",
+     "o": [
+      "Потому что боялся Архелая",
+      "Потому что скучал по родным местам",
+      "Чтобы найти работу"
+     ],
+     "a": 0,
+     "f": "Верно. И Бог также направил его через сон."
+    },
+    {
+     "q": "Сколько раз Бог указывает путь через сны в 1-й и 2-й главах Евангелия от Матфея?",
+     "o": [
+      "Два раза",
+      "Пять раз",
+      "Семь раз"
+     ],
+     "a": 1,
+     "f": "Верно. Четыре раза Иосифу и один раз мудрецам."
+    }
+   ],
+   "paylas": [
+    "Что означает тот факт, что Иисус был беженцем, для людей, которые сегодня живут вдали от своей родины?",
+    "Как я реагирую, когда происходит что-то несправедливое и печальное, хотя я верю в Бога?",
+    "Есть ли что-то, в чём я должен проявить послушание «сразу же», как Иосиф, но я откладываю это?",
+    "В чём меня утешает Иисус, выросший в презираемом Назарете?"
+   ],
+   "etiraf": {
+    "b": "Моё исповедание",
+    "p": "Есть ли в твоей жизни в последнее время что-то, от чего ты хочешь убежать? Напиши три-четыре предложения Богу, Который направляет тебя.",
+    "ph": "Например: В последнее время мне тяжело ходить в школу. Господь, …"
+   },
+   "dua": "Господь Бог, я прославляю Иисуса, Который стал беженцем и пришёл в самое униженное место. Помоги мне верить, что даже посреди страданий и слёз Твоя история не заканчивается. Помоги мне быть человеком, который, как Иосиф, проявляет послушание, как только услышит Твоё слово. Молюсь во имя Иисуса Христа из Назарета. Аминь."
+  }
+ },
+ "en": {
+  "usaq": {
+   "basliq": "Baby Jesus Protected by God",
+   "hedef": [
+    "We will learn that Joseph's family fled to Egypt.",
+    "We will learn that God protects us even in times of danger.",
+    "We will learn to obey God's word immediately, just like Joseph."
+   ],
+   "sehneler": [
+    {
+     "b": "A Midnight Dream",
+     "ayə": "Matthew 2:13–14",
+     "alt": "Joseph and Mary taking baby Jesus and leaving at midnight",
+     "p": [
+      "After the wise men left, an angel came to Joseph in a [[dream]] again: “Get up, take the child and his mother, and flee to [[Egypt]]. Herod is looking for the child to kill him.”",
+      "Joseph got up right away and [[obeyed|obey]]. That very night, he took Mary and baby Jesus and left."
+     ]
+    },
+    {
+     "b": "A Long and Hard Journey",
+     "ayə": "Matthew 2:14–15",
+     "alt": "Joseph's family going to Egypt on a donkey",
+     "p": [
+      "Joseph's family rode a donkey across the desert to [[flee]] to Egypt. It was a very long and hard journey.",
+      "They lived in Egypt until Herod died. This made the words of the [[prophet]] come true: “I called my son out of Egypt.”"
+     ]
+    },
+    {
+     "b": "Herod's Anger",
+     "ayə": "Matthew 2:16–18",
+     "alt": "King Herod angrily giving orders to his soldiers",
+     "p": [
+      "When the wise men didn't come back, Herod got very angry. He gave a very bad order to hurt the little children in Bethlehem.",
+      "The mothers in Bethlehem cried a lot. God sees children's tears and is sad with them. God also [[protected|protect]] baby Jesus."
+     ]
+    },
+    {
+     "b": "To Nazareth",
+     "ayə": "Matthew 2:19–23",
+     "alt": "Joseph's family arriving in the village of Nazareth",
+     "p": [
+      "After Herod died, the angel came to Joseph's dream again: “Now go back to the land of Israel.”",
+      "Joseph's family went to a small village in Galilee called [[Nazareth]] and lived there. That is why Jesus was called a “Nazarene.”"
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "“I called my son out of Egypt.”",
+    "ref": "2:15",
+    "bos": "I ___ my ___ out of ___.",
+    "sozler": [
+     "called",
+     "son",
+     "Egypt"
+    ],
+    "yalan": "Nazareth"
+   },
+   "lugat": {
+    "dream": {
+     "i": "💭",
+     "x": "yuxu",
+     "m": "Something we see when we sleep. God sometimes spoke to people in dreams.",
+     "e": "An angel appeared to Joseph in a dream."
+    },
+    "Egypt": {
+     "i": "🏜️",
+     "x": "Misir",
+     "m": "A big country south of Israel. It has the Nile River and pyramids.",
+     "e": "Joseph's family stayed safe in Egypt."
+    },
+    "obey": {
+     "i": "👣",
+     "x": "itaət",
+     "m": "To listen to what someone says and do it.",
+     "e": "Joseph obeyed as soon as he woke up from his dream."
+    },
+    "flee": {
+     "i": "🏃",
+     "x": "qaçmaq",
+     "m": "To run away from danger and go to a safe place.",
+     "e": "Joseph's family fled to Egypt in the middle of the night."
+    },
+    "prophet": {
+     "i": "📜",
+     "x": "peyğəmbər",
+     "m": "A person who receives a message from God and shares it with people.",
+     "e": "The words spoken earlier by the prophet Hosea came true."
+    },
+    "protect": {
+     "i": "🛡️",
+     "x": "qorumaq",
+     "m": "To keep someone safe from harm or danger.",
+     "e": "God protected baby Jesus."
+    },
+    "Nazareth": {
+     "i": "🏘️",
+     "x": "Nazaret",
+     "m": "A small village in Galilee. Jesus grew up there.",
+     "e": "People called Jesus “Jesus of Nazareth.”"
+    }
+   },
+   "test": [
+    {
+     "q": "Where did the angel tell Joseph to flee?",
+     "o": [
+      "To Egypt",
+      "To Rome",
+      "To an island across the sea"
+     ],
+     "a": 0,
+     "f": "That's right! The angel told him to flee to Egypt."
+    },
+    {
+     "q": "When did Joseph leave?",
+     "o": [
+      "That very night",
+      "A week later",
+      "After Herod died"
+     ],
+     "a": 0,
+     "f": "That's right! Joseph obeyed immediately."
+    },
+    {
+     "q": "Where did Joseph's family live after Herod died?",
+     "o": [
+      "In Nazareth",
+      "In Egypt",
+      "In Jerusalem"
+     ],
+     "a": 0,
+     "f": "That's right! Jesus grew up in Nazareth."
+    },
+    {
+     "q": "What do we learn from this story?",
+     "o": [
+      "God protects us",
+      "Dreams are scary",
+      "The desert is hot"
+     ],
+     "a": 0,
+     "f": "That's right! God protects us even in times of danger."
+    }
+   ],
+   "dusun": [
+    "How would Joseph have felt if he suddenly had to travel far away in the middle of the night?",
+    "Have you ever felt God protecting you when you were scared or going through a hard time?",
+    "What does it mean to obey God's word “immediately” like Joseph did?"
+   ],
+   "fealiyyet": {
+    "ciz": "Draw Joseph's family going to Egypt on a donkey.",
+    "b": "God Protects Me",
+    "p": "Choose the times you want God to protect you.",
+    "ph": "",
+    "secim": {
+     "basliq": "When does God protect you?",
+     "izah": "Tap to choose. You can choose more than one.",
+     "cumle": "God protects me {x}!",
+     "bos": "all the time",
+     "bag": "and",
+     "secimler": [
+      [
+       "🌙",
+       "at night"
+      ],
+      [
+       "🏠",
+       "at home"
+      ],
+      [
+       "🏫",
+       "at school"
+      ],
+      [
+       "🚶",
+       "on the way"
+      ],
+      [
+       "😨",
+       "when I am scared"
+      ],
+      [
+       "🤒",
+       "when I am sick"
+      ],
+      [
+       "🚌",
+       "on a trip"
+      ],
+      [
+       "😢",
+       "when I am sad"
+      ]
+     ]
+    }
+   },
+   "dua": "Lord God, thank You for protecting me and my family, just as You protected baby Jesus in times of danger. Help me to obey Your word immediately, just like Joseph. Comfort my friends who are sad. I pray in the name of Jesus Christ. Amen."
+  },
+  "genc": {
+   "basliq": "The Refugee King",
+   "giris": "Jesus, who came as the King of the whole world, became a refugee as soon as He was born. Why did God send His Son on such a weak and dangerous path?",
+   "meqsed": [
+    "We understand what the three prophecies quoted by Matthew mean.",
+    "We can explain that Jesus relived the history of Israel.",
+    "We reflect on what it means to believe in a God who works even in the midst of injustice and suffering."
+   ],
+   "sehneler": [
+    {
+     "b": "A Dream Again",
+     "ayə": "Matthew 2:13–15",
+     "alt": "Joseph and Mary taking baby Jesus and leaving at midnight",
+     "p": [
+      "Joseph receives a message in a dream again and leaves that very night. Just like in the first chapter, Joseph [[obeys|obey]] not with words, but with actions.",
+      "Egypt was a place where Israelites had taken refuge during hard times since ancient days. At that time, there was also a large Jewish community in Alexandria."
+     ],
+     "deep": {
+      "b": "A Deeper Look · The Son Called Out of Egypt",
+      "p": "Matthew quotes Hosea 11:1: “I called my son out of Egypt.” Originally, this referred to Israel's [[Exodus]]. Matthew shows that Jesus is reliving the history of Israel and obeying perfectly where Israel failed."
+     }
+    },
+    {
+     "b": "Tears of Bethlehem",
+     "ayə": "Matthew 2:16–18",
+     "alt": "King Herod angrily giving orders to his soldiers",
+     "p": [
+      "Herod ordered the killing of all boys in and around Bethlehem who were two years old and under. Since it was a small village, it is thought that about ten children died, but every child was their family's whole world.",
+      "Matthew quotes the words of the prophet [[Jeremiah]]: “[[Rachel]] weeping for her children; she refused to be comforted.”"
+     ],
+     "deep": {
+      "b": "A Deeper Look · The Bible Doesn't Hide Sorrow",
+      "p": "Matthew does not try to sugarcoat this tragedy. The Bible is a book that weeps with us in the face of suffering. But Jeremiah 31 promises a “new covenant” and restoration in the very same chapter. Even in the midst of tears, God's story does not end.",
+      "rose": true
+     },
+     "r": 2
+    },
+    {
+     "b": "God Guiding Through Dreams",
+     "ayə": "Matthew 2:19–22",
+     "alt": "Joseph's family going to Egypt on a donkey",
+     "p": [
+      "After Herod dies, an angel appears in a dream again and tells him to return to Israel. But Herod's cruel son [[Archelaus]] was ruling in Judea.",
+      "When Joseph was afraid, God guided him to Galilee through another dream. In Matthew chapters 1–2 alone, God guides through dreams five times."
+     ],
+     "r": 1
+    },
+    {
+     "b": "A Nazarene",
+     "ayə": "Matthew 2:23",
+     "alt": "Joseph's family arriving in the village of Nazareth",
+     "p": [
+      "Joseph's family settles in a small village in Galilee called [[Nazareth]]. It was an ordinary village with only a few hundred people.",
+      "The saying, “Can any good thing come out of Nazareth?” {{John 1:46}} shows that Nazareth was despised. Jesus grew up in such a place."
+     ],
+     "deep": {
+      "b": "A Deeper Look · “A Nazarene”",
+      "p": "This exact sentence is not written in the Old Testament. Many scholars explain it as a wordplay on the word “branch” (Hebrew netser) in Isaiah 11:1 and a reference to the despised Messiah (Isaiah 53)."
+     }
+    }
+   ],
+   "cedvel": {
+    "b": "Prophecies Quoted by Matthew",
+    "alt": "Three “fulfillments” in chapter 2",
+    "bas": [
+     "Verse",
+     "Original Meaning",
+     "In Jesus"
+    ],
+    "set": [
+     [
+      "Hosea 11:1",
+      "Israel's Exodus from Egypt",
+      "Jesus coming out of Egypt"
+     ],
+     [
+      "Jeremiah 31:15",
+      "Rachel weeping for her children taken into exile",
+      "The tears of the mothers in Bethlehem"
+     ],
+     [
+      "“A Nazarene”",
+      "Branch (netser), the despised servant",
+      "The Messiah growing up in a despised village"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "“He arose and took the young child and his mother by night, and departed into Egypt.”",
+    "ref": "2:14"
+   },
+   "lugat": {
+    "obey": {
+     "i": "👣",
+     "o": "Greek hypakouo",
+     "x": "itaət",
+     "s": "To listen and follow",
+     "m": "It literally means “to listen under.” It means to act according to the words you hear.",
+     "e": "Joseph doesn't speak a single word in chapters 1–2, but he obeys immediately after every dream."
+    },
+    "Exodus": {
+     "i": "🌊",
+     "o": "Greek exodos",
+     "x": "Misirdən çıxış",
+     "s": "Israel's departure from Egypt",
+     "m": "In the time of Moses, God saved Israel from slavery in Egypt. This is the main picture of salvation.",
+     "e": "Jesus being tested in the wilderness for 40 days in chapter 4 is connected to Israel's 40 years in the wilderness."
+    },
+    "Jeremiah": {
+     "i": "📜",
+     "o": "Hebrew Yirmeyahu",
+     "x": "Yeremya",
+     "s": "The “weeping prophet”",
+     "m": "A prophet who lived during the Babylonian exile. He is called the “weeping prophet” because he cried a lot seeing the destruction of his nation.",
+     "e": "Jeremiah chapter 31 also contains God's promise of the “new covenant.”"
+    },
+    "Rachel": {
+     "i": "😢",
+     "o": "Hebrew Rahel",
+     "x": "Rəhilə",
+     "s": "Jacob's wife, the mother of Israel",
+     "m": "She was Jacob's most beloved wife and was buried on the way to Bethlehem. She is a symbol of the mothers of Israel.",
+     "e": "Rachel's tomb is still at the entrance to Bethlehem today."
+    },
+    "Archelaus": {
+     "i": "⚔️",
+     "o": "Herod Archelaus, 4 BC – 6 AD",
+     "x": "Arxelay",
+     "s": "Herod's cruel son",
+     "m": "He ruled Judea after his father died, but he was so cruel that Rome eventually banished him.",
+     "e": "It is recorded that he killed three thousand people in the temple when he came to power."
+    },
+    "Nazareth": {
+     "i": "🏘️",
+     "o": "Greek Nazaret",
+     "x": "Nazaret",
+     "s": "The Galilean village where Jesus grew up",
+     "m": "It was a small, unknown village that was never even mentioned in the Old Testament.",
+     "e": "Jesus' followers were once called the “sect of the Nazarenes” (Acts 24:5)."
+    }
+   },
+   "test": [
+    {
+     "q": "When did Joseph leave for Egypt?",
+     "o": [
+      "That very night",
+      "The next morning",
+      "After Herod died"
+     ],
+     "a": 0,
+     "f": "That's right. Joseph always obeys immediately."
+    },
+    {
+     "q": "What did the words “I called my son out of Egypt” originally refer to?",
+     "o": [
+      "Israel's Exodus from Egypt",
+      "Abraham's migration",
+      "Joseph's slavery"
+     ],
+     "a": 0,
+     "f": "That's right. Jesus relived the history of Israel."
+    },
+    {
+     "q": "For which event does Matthew quote Rachel's weeping?",
+     "o": [
+      "The death of the children in Bethlehem",
+      "The birth of Jesus",
+      "The arrival of the wise men"
+     ],
+     "a": 0,
+     "f": "That's right. The Bible doesn't hide sorrow."
+    },
+    {
+     "q": "Why did Joseph go to Galilee instead of Judea?",
+     "o": [
+      "Because he was afraid of Archelaus",
+      "Because he missed his hometown",
+      "To find a job"
+     ],
+     "a": 0,
+     "f": "That's right. And God guided him through a dream."
+    },
+    {
+     "q": "How many times does God guide through dreams in Matthew 1–2?",
+     "o": [
+      "Two times",
+      "Five times",
+      "Seven times"
+     ],
+     "a": 1,
+     "f": "That's right. Four times to Joseph, and one time to the wise men."
+    }
+   ],
+   "paylas": [
+    "What does the fact that Jesus was a refugee mean for people living far from their homeland today?",
+    "How do I react when something unfair and sad happens even though I believe in God?",
+    "Is there something I should obey “immediately” like Joseph, but I am putting it off?",
+    "How does Jesus, who grew up in despised Nazareth, comfort me?"
+   ],
+   "etiraf": {
+    "b": "My Confession",
+    "p": "Is there something you want to run away from in your life lately? Write three or four sentences to God who guides you.",
+    "ph": "For example: Lately, going to school is hard for me. Lord, …"
+   },
+   "dua": "Lord God, I praise Jesus, who became a refugee and came to the lowest place. Help me to believe that Your story does not end, even in the midst of suffering and tears. Help me to be a person who obeys as soon as I hear, just like Joseph. I pray in the name of Jesus Christ of Nazareth. Amen."
+  }
  }
 }

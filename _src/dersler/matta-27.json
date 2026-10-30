@@ -1,157 +1,1647 @@
 {
-"no": 27, "ref": "21:23–22:46", "deq": {"usaq": 40, "genc": 50},
-"img": ["matta/27-iki-ogul.jpg", "matta/27-toy.jpg", "matta/27-qeysar.jpg", "matta/27-boyuk-emr.jpg"],
-"hero": 1,
-"ko": {
- "usaq": {
-  "basliq": "가장 큰 계명",
-  "hedef": ["말보다 행동으로 순종해야 함을 알아요.", "하나님이 모든 사람을 잔치에 초대하신다는 것을 배워요.", "하나님을 사랑하고 이웃을 사랑하는 것이 가장 큰 계명임을 배워요."],
-  "sehneler": [
-   {"b": "두 아들", "ayə": "21:28–32", "alt": "포도원으로 가는 아들과 가지 않는 아들", "p": ["아버지가 두 아들에게 말했어요. “오늘 포도원에 가서 일하렴.” 첫째는 “싫어요” 했지만 나중에 마음을 바꿔 일하러 갔어요.", "둘째는 “네, 갈게요!” 했지만 가지 않았어요. 예수님이 물으셨어요. “누가 아버지 뜻대로 했느냐?” 말보다 [[순종]]하는 행동이 중요해요."]},
-   {"b": "왕의 혼인 잔치", "ayə": "22:1–10", "alt": "길에서 사람들을 잔치에 초대하는 종들", "p": ["왕이 아들의 [[혼인 잔치]]를 준비하고 손님들을 불렀어요. 그런데 초대받은 사람들은 밭에 가고, 장사하러 가며 오지 않았어요.", "왕은 종들에게 말했어요. “길에 나가서 만나는 사람을 모두 데려오너라.” 그래서 잔치 자리가 손님으로 가득 찼어요. 하나님은 모든 사람을 [[초대]]하세요."]},
-   {"b": "가이사의 것은 가이사에게", "ayə": "22:15–22", "alt": "동전을 들고 질문에 대답하시는 예수님", "p": ["사람들이 예수님을 곤란하게 하려고 물었어요. “로마 황제에게 [[세금]]을 내야 해요, 안 내야 해요?”", "예수님이 동전을 보시며 물으셨어요. “여기 누구 얼굴이 있느냐?” “황제요.” “그러면 황제의 것은 황제에게, 하나님의 것은 하나님께 드려라.” 사람들은 깜짝 놀랐어요."]},
-   {"b": "가장 큰 계명", "ayə": "22:34–40", "alt": "가장 큰 계명을 가르치시는 예수님", "p": ["한 율법 선생이 물었어요. “어느 [[계명]]이 가장 커요?”", "예수님이 대답하셨어요. “마음을 다하고 목숨을 다하고 뜻을 다하여 주 너의 하나님을 사랑하라. 이것이 첫째 계명이다. 둘째도 같으니 네 [[이웃]]을 네 자신같이 사랑하라.”"]}
-  ],
-  "aye": {"metn": "“네 마음을 다하고 목숨을 다하고 뜻을 다하여 주 너의 하나님을 사랑하라. … 네 이웃을 네 자신 같이 사랑하라.”", "ref": "22:37–39", "bos": "네 ___을 다하고 목숨을 다하고 뜻을 다하여 주 너의 ___을 사랑하라. … 네 ___을 네 자신 같이 사랑하라.", "sozler": ["마음", "하나님", "이웃"], "yalan": "돈"},
-  "lugat": {
-   "순종": {"i": "👂", "x": "itaət", "m": "하라는 말씀을 듣고 그대로 따르는 거예요.", "e": "첫째 아들은 나중에 순종했어요."},
-   "혼인 잔치": {"i": "💒", "x": "toy ziyafəti", "m": "결혼을 축하하는 큰 잔치예요.", "e": "왕이 아들의 혼인 잔치를 열었어요."},
-   "초대": {"i": "💌", "x": "dəvət", "m": "함께하자고 부르는 거예요.", "e": "하나님은 모든 사람을 초대하세요."},
-   "세금": {"i": "🪙", "x": "vergi", "m": "나라를 위해 내는 돈이에요.", "e": "황제에게 세금을 내야 하나요?"},
-   "계명": {"i": "📜", "x": "əmr", "m": "하나님이 지키라고 주신 말씀이에요.", "e": "가장 큰 계명은 사랑이에요."},
-   "이웃": {"i": "🏘️", "x": "qonşu", "m": "내 주변에 있는 모든 사람이에요.", "e": "네 이웃을 네 몸같이 사랑하라."}
-  },
-  "test": [
-   {"q": "아버지 뜻대로 한 아들은?", "o": ["싫다고 했다가 일하러 간 아들", "간다고 했다가 안 간 아들", "둘 다"], "a": 0, "f": "맞아요! 말보다 행동이 중요해요."},
-   {"q": "처음 초대받은 사람들이 오지 않자 왕은?", "o": ["길에서 만나는 사람을 모두 불렀어요", "잔치를 취소했어요", "혼자 먹었어요"], "a": 0, "f": "맞아요! 하나님은 모두를 초대하세요."},
-   {"q": "예수님이 동전을 보시며 하신 말씀은?", "o": ["황제의 것은 황제에게, 하나님의 것은 하나님께", "세금을 내지 마라", "동전을 버려라"], "a": 0, "f": "맞아요! 지혜로운 대답이에요."},
-   {"q": "가장 큰 계명 두 가지는?", "o": ["하나님 사랑과 이웃 사랑", "기도와 금식", "헌금과 봉사"], "a": 0, "f": "맞아요! 모든 계명이 사랑에 달려 있어요."}
-  ],
-  "dusun": ["“네!” 하고 안 한 적이 있나요? 아니면 “싫어요” 했다가 한 적이 있나요?", "하나님의 잔치에 초대받았다는 것은 어떤 기분이에요?", "이번 주에 하나님과 이웃을 어떻게 사랑할 수 있을까요?"],
-  "fealiyyet": {"ciz": "하트 두 개를 그리고, 하나는 하나님께, 하나는 이웃에게 드리는 나를 그려 보세요.", "b": "나의 사랑 실천", "p": "이번 주에 하나님과 이웃을 사랑할 방법을 하나씩 써 보세요.", "ph": "예) 하나님께는 아침 기도, 이웃에게는 동생과 장난감 나누기."},
-  "dua": "하나님, 저를 하나님 나라의 잔치에 초대해 주셔서 감사합니다. 말로만 “네” 하지 않고 행동으로 순종하게 해 주세요. 마음을 다해 하나님을 사랑하고, 제 이웃을 제 몸같이 사랑하게 해 주세요. 예수님 이름으로 기도합니다. 아멘."
+ "no": 27,
+ "ref": "21:23–22:46",
+ "deq": {
+  "usaq": 40,
+  "genc": 50
  },
- "genc": {
-  "basliq": "질문에 답하신 예수님",
-  "giris": "예루살렘 성전에서 질문 공세가 쏟아집니다. 대제사장, 바리새인, 헤롯당, 사두개인이 차례로 예수님을 넘어뜨리려 합니다. 예수님은 모든 함정을 지나 마지막에 가장 본질적인 대답을 주십니다. 사랑하라.",
-  "meqsed": ["세 가지 비유(두 아들, 악한 농부, 혼인 잔치)가 말하는 하나님 나라의 초대와 거절을 이해해요.", "가이사의 세금 질문과 가장 큰 계명에 담긴 예수님의 지혜를 설명할 수 있어요.", "하나님 사랑과 이웃 사랑을 내 삶의 우선순위로 구체화해요."],
-  "sehneler": [
-   {"b": "말과 행동", "ayə": "21:23–32", "alt": "포도원으로 가는 아들과 가지 않는 아들", "p": ["종교 지도자들이 “무슨 [[권위]]로 이런 일을 하느냐” 묻자 예수님은 요한의 세례에 대한 질문으로 되물으세요. 그들은 대답하지 못했어요.", "이어진 두 아들 비유. “간다” 하고 안 간 둘째는 겉으로 경건한 종교 지도자, “싫다” 했다가 간 첫째는 세리와 창녀였어요. “세리들과 창녀들이 너희보다 먼저 하나님의 나라에 들어가리라.”"], "deep": {"b": "깊이 보기 · 악한 농부들", "p": "21:33–46의 비유에서 포도원 주인은 종들을 보내고 마지막에 아들을 보내요. 농부들은 아들을 죽여요. 예수님은 자신의 죽음을 예고하시고 시편 118:22를 인용하세요. “건축자들이 버린 돌이 머릿돌이 되었나니.”"}},
-   {"b": "잔치 옷", "ayə": "22:1–14", "alt": "길에서 사람들을 잔치에 초대하는 종들", "p": ["왕의 아들 [[혼인 잔치]]에 초대받은 사람들은 핑계를 대고, 심지어 종들을 죽였어요. 왕은 “네거리 길에 가서 사람을 만나는 대로 청하라”고 해요. 악한 자나 선한 자나 잔치에 모였어요.", "그런데 한 사람이 예복을 입지 않았어요. 초대는 거저지만, 그 초대에 합당하게 응답해야 해요. “청함을 받은 자는 많되 택함을 입은 자는 적으니라.”"], "deep": {"b": "깊이 보기 · 예복은 무엇인가?", "p": "당시 잔치 주인이 손님에게 예복을 제공했다는 해석이 있어요. 그렇다면 예복을 안 입은 것은 주인의 선물을 거절한 거예요. 은혜로 초대받았지만 은혜를 입지 않고 내 옷을 고집하는 모습이에요(사 61:10 ‘구원의 옷’).", "rose": true}},
-   {"b": "누구의 형상인가", "ayə": "22:15–33", "alt": "동전을 들고 질문에 대답하시는 예수님", "p": ["바리새인과 헤롯당이 함께 왔어요. 평소엔 원수였지만 예수님을 잡으려 손을 잡았어요. “가이사에게 세금을 바치는 것이 옳습니까?” ‘예’ 하면 민족의 배신자, ‘아니오’ 하면 로마의 반역자가 돼요.", "예수님은 데나리온의 ‘[[형상]]’과 글을 보게 하세요. “가이사의 것은 가이사에게, 하나님의 것은 하나님께 바치라.” 동전에 황제의 형상이 있다면, 하나님의 형상이 새겨진 것은 무엇일까요? 바로 우리 자신이에요(창 1:27)."], "deep": {"b": "깊이 보기 · 부활 논쟁", "p": "22:23–33에서 부활을 믿지 않는 사두개인이 일곱 형제와 결혼한 여인 이야기로 시험해요. 예수님은 “하나님은 죽은 자의 하나님이 아니요 산 자의 하나님이시니라”며 출애굽기 3:6으로 부활을 증명하세요."}},
-   {"b": "온 율법의 강령", "ayə": "22:34–46", "alt": "가장 큰 계명을 가르치시는 예수님", "p": ["랍비들은 율법을 613개 계명으로 셌어요. “어느 계명이 크니이까?” 예수님은 신명기 6:5(쉐마)와 레위기 19:18을 묶어 대답하세요. 하나님을 [[사랑]]하는 것과 이웃을 사랑하는 것.", "“이 두 계명이 온 율법과 선지자의 강령이니라.” 문을 거는 경첩처럼 모든 율법이 이 둘에 매달려 있어요. 그리고 예수님은 마지막 질문을 던지세요. “그리스도는 누구의 자손이냐?” 다윗이 ‘주’라 부른 분, 바로 예수님이세요(시 110:1)."], "deep": {"b": "깊이 보기 · 둘은 하나", "p": "예수님은 둘째 계명이 첫째와 ‘같다’고 하세요. 하나님 사랑이 진짜인지는 이웃 사랑으로 드러나요(요일 4:20). 반대로 이웃 사랑의 힘은 하나님 사랑에서 나와요."}}
-  ],
-  "cedvel": {"b": "성전에서의 네 가지 질문", "alt": "21:23–22:46", "bas": ["질문한 사람", "질문", "예수님의 대답"], "set": [["대제사장과 장로", "무슨 권위로?", "요한의 세례는 어디서 왔느냐?"], ["바리새인과 헤롯당", "가이사에게 세금을?", "가이사의 것은 가이사에게, 하나님의 것은 하나님께"], ["사두개인", "부활 때 누구의 아내?", "하나님은 산 자의 하나님"], ["율법교사", "가장 큰 계명은?", "하나님 사랑, 이웃 사랑"], ["예수님", "그리스도는 누구의 자손?", "아무도 대답하지 못함"]]},
-  "aye": {"metn": "“예수께서 이르시되 네 마음을 다하고 목숨을 다하고 뜻을 다하여 주 너의 하나님을 사랑하라 하셨으니 이것이 크고 첫째 되는 계명이요 둘째도 그와 같으니 네 이웃을 네 자신 같이 사랑하라 하셨으니.”", "ref": "22:37–39"},
-  "lugat": {
-   "권위": {"i": "👑", "o": "헬라어 엑수시아", "x": "səlahiyyət", "s": "누가 보냈는가", "m": "7:29, 9:6, 28:18에 이어지는 마태복음의 핵심어예요. 예수님의 권위는 하늘에서 왔어요.", "e": "“하늘과 땅의 모든 권세를 내게 주셨으니”(28:18)."},
-   "혼인 잔치": {"i": "💒", "o": "헬라어 가모스", "x": "toy ziyafəti", "s": "하나님 나라의 완성", "m": "성경은 마지막 날을 ‘어린양의 혼인 잔치’로 그려요(계 19:9). 25장 열 처녀 비유에도 나와요.", "e": "9:15에서 예수님은 자신을 ‘신랑’이라고 하셨어요."},
-   "형상": {"i": "🖼️", "o": "헬라어 에이콘", "x": "surət", "s": "새겨진 얼굴", "m": "데나리온에는 티베리우스 황제의 얼굴과 “신의 아들”이라는 글이 있었어요. 하나님의 형상은 사람에게 새겨져 있어요.", "e": "아이콘(icon)의 어원이에요."},
-   "사랑": {"i": "❤️", "o": "헬라어 아가파오", "x": "sevmək", "s": "의지와 행동의 사랑", "m": "감정만이 아니라 상대에게 가장 좋은 것을 선택하는 사랑이에요. 5:44 원수 사랑에도 같은 동사가 쓰였어요.", "e": "“사랑은 율법의 완성이니라”(롬 13:10)."}
+ "img": [
+  "matta/27-iki-ogul.jpg",
+  "matta/27-toy.jpg",
+  "matta/27-qeysar.jpg",
+  "matta/27-boyuk-emr.jpg"
+ ],
+ "hero": 1,
+ "ko": {
+  "usaq": {
+   "basliq": "가장 큰 계명",
+   "hedef": [
+    "말보다 행동으로 순종해야 함을 알아요.",
+    "하나님이 모든 사람을 잔치에 초대하신다는 것을 배워요.",
+    "하나님을 사랑하고 이웃을 사랑하는 것이 가장 큰 계명임을 배워요."
+   ],
+   "sehneler": [
+    {
+     "b": "두 아들",
+     "ayə": "21:28–32",
+     "alt": "포도원으로 가는 아들과 가지 않는 아들",
+     "p": [
+      "아버지가 두 아들에게 말했어요. “오늘 포도원에 가서 일하렴.” 첫째는 “싫어요” 했지만 나중에 마음을 바꿔 일하러 갔어요.",
+      "둘째는 “네, 갈게요!” 했지만 가지 않았어요. 예수님이 물으셨어요. “누가 아버지 뜻대로 했느냐?” 말보다 [[순종]]하는 행동이 중요해요."
+     ]
+    },
+    {
+     "b": "왕의 혼인 잔치",
+     "ayə": "22:1–10",
+     "alt": "길에서 사람들을 잔치에 초대하는 종들",
+     "p": [
+      "왕이 아들의 [[혼인 잔치]]를 준비하고 손님들을 불렀어요. 그런데 초대받은 사람들은 밭에 가고, 장사하러 가며 오지 않았어요.",
+      "왕은 종들에게 말했어요. “길에 나가서 만나는 사람을 모두 데려오너라.” 그래서 잔치 자리가 손님으로 가득 찼어요. 하나님은 모든 사람을 [[초대]]하세요."
+     ]
+    },
+    {
+     "b": "가이사의 것은 가이사에게",
+     "ayə": "22:15–22",
+     "alt": "동전을 들고 질문에 대답하시는 예수님",
+     "p": [
+      "사람들이 예수님을 곤란하게 하려고 물었어요. “로마 황제에게 [[세금]]을 내야 해요, 안 내야 해요?”",
+      "예수님이 동전을 보시며 물으셨어요. “여기 누구 얼굴이 있느냐?” “황제요.” “그러면 황제의 것은 황제에게, 하나님의 것은 하나님께 드려라.” 사람들은 깜짝 놀랐어요."
+     ]
+    },
+    {
+     "b": "가장 큰 계명",
+     "ayə": "22:34–40",
+     "alt": "가장 큰 계명을 가르치시는 예수님",
+     "p": [
+      "한 율법 선생이 물었어요. “어느 [[계명]]이 가장 커요?”",
+      "예수님이 대답하셨어요. “마음을 다하고 목숨을 다하고 뜻을 다하여 주 너의 하나님을 사랑하라. 이것이 첫째 계명이다. 둘째도 같으니 네 [[이웃]]을 네 자신같이 사랑하라.”"
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "“네 마음을 다하고 목숨을 다하고 뜻을 다하여 주 너의 하나님을 사랑하라. … 네 이웃을 네 자신 같이 사랑하라.”",
+    "ref": "22:37–39",
+    "bos": "네 ___을 다하고 목숨을 다하고 뜻을 다하여 주 너의 ___을 사랑하라. … 네 ___을 네 자신 같이 사랑하라.",
+    "sozler": [
+     "마음",
+     "하나님",
+     "이웃"
+    ],
+    "yalan": "돈"
+   },
+   "lugat": {
+    "순종": {
+     "i": "👂",
+     "x": "itaət",
+     "m": "하라는 말씀을 듣고 그대로 따르는 거예요.",
+     "e": "첫째 아들은 나중에 순종했어요."
+    },
+    "혼인 잔치": {
+     "i": "💒",
+     "x": "toy ziyafəti",
+     "m": "결혼을 축하하는 큰 잔치예요.",
+     "e": "왕이 아들의 혼인 잔치를 열었어요."
+    },
+    "초대": {
+     "i": "💌",
+     "x": "dəvət",
+     "m": "함께하자고 부르는 거예요.",
+     "e": "하나님은 모든 사람을 초대하세요."
+    },
+    "세금": {
+     "i": "🪙",
+     "x": "vergi",
+     "m": "나라를 위해 내는 돈이에요.",
+     "e": "황제에게 세금을 내야 하나요?"
+    },
+    "계명": {
+     "i": "📜",
+     "x": "əmr",
+     "m": "하나님이 지키라고 주신 말씀이에요.",
+     "e": "가장 큰 계명은 사랑이에요."
+    },
+    "이웃": {
+     "i": "🏘️",
+     "x": "qonşu",
+     "m": "내 주변에 있는 모든 사람이에요.",
+     "e": "네 이웃을 네 몸같이 사랑하라."
+    }
+   },
+   "test": [
+    {
+     "q": "아버지 뜻대로 한 아들은?",
+     "o": [
+      "싫다고 했다가 일하러 간 아들",
+      "간다고 했다가 안 간 아들",
+      "둘 다"
+     ],
+     "a": 0,
+     "f": "맞아요! 말보다 행동이 중요해요."
+    },
+    {
+     "q": "처음 초대받은 사람들이 오지 않자 왕은?",
+     "o": [
+      "길에서 만나는 사람을 모두 불렀어요",
+      "잔치를 취소했어요",
+      "혼자 먹었어요"
+     ],
+     "a": 0,
+     "f": "맞아요! 하나님은 모두를 초대하세요."
+    },
+    {
+     "q": "예수님이 동전을 보시며 하신 말씀은?",
+     "o": [
+      "황제의 것은 황제에게, 하나님의 것은 하나님께",
+      "세금을 내지 마라",
+      "동전을 버려라"
+     ],
+     "a": 0,
+     "f": "맞아요! 지혜로운 대답이에요."
+    },
+    {
+     "q": "가장 큰 계명 두 가지는?",
+     "o": [
+      "하나님 사랑과 이웃 사랑",
+      "기도와 금식",
+      "헌금과 봉사"
+     ],
+     "a": 0,
+     "f": "맞아요! 모든 계명이 사랑에 달려 있어요."
+    }
+   ],
+   "dusun": [
+    "“네!” 하고 안 한 적이 있나요? 아니면 “싫어요” 했다가 한 적이 있나요?",
+    "하나님의 잔치에 초대받았다는 것은 어떤 기분이에요?",
+    "이번 주에 하나님과 이웃을 어떻게 사랑할 수 있을까요?"
+   ],
+   "fealiyyet": {
+    "ciz": "하트 두 개를 그리고, 하나는 하나님께, 하나는 이웃에게 드리는 나를 그려 보세요.",
+    "b": "나의 사랑 실천",
+    "p": "이번 주에 하나님과 이웃을 사랑할 방법을 하나씩 써 보세요.",
+    "ph": "예) 하나님께는 아침 기도, 이웃에게는 동생과 장난감 나누기."
+   },
+   "dua": "하나님, 저를 하나님 나라의 잔치에 초대해 주셔서 감사합니다. 말로만 “네” 하지 않고 행동으로 순종하게 해 주세요. 마음을 다해 하나님을 사랑하고, 제 이웃을 제 몸같이 사랑하게 해 주세요. 예수님 이름으로 기도합니다. 아멘."
   },
-  "test": [
-   {"q": "두 아들 비유에서 ‘간다 하고 안 간 아들’은 누구를 가리키나요?", "o": ["겉으로만 경건한 종교 지도자", "세리와 창녀", "이방인"], "a": 0, "f": "맞아요. 말과 행동이 달랐어요."},
-   {"q": "혼인 잔치 비유에서 예복을 입지 않은 사람이 뜻하는 것은?", "o": ["초대에 합당하게 응답하지 않은 사람", "가난한 사람", "늦게 온 사람"], "a": 0, "f": "맞아요. 은혜를 입지 않고 내 옷을 고집했어요."},
-   {"q": "세금 질문이 함정인 이유는?", "o": ["어느 쪽으로 대답해도 곤란해서", "예수님이 돈이 없어서", "세금이 비싸서"], "a": 0, "f": "맞아요. 배신자 아니면 반역자였어요."},
-   {"q": "동전에 황제의 형상이 있다면 하나님의 형상이 새겨진 것은?", "o": ["사람", "성전", "율법책"], "a": 0, "f": "맞아요. 우리 자신을 하나님께 드려야 해요."},
-   {"q": "가장 큰 계명은 어느 두 구약 본문을 묶은 것인가요?", "o": ["신명기 6:5와 레위기 19:18", "출애굽기 20장과 시편 23편", "창세기 1장과 이사야 53장"], "a": 0, "f": "맞아요. 쉐마와 이웃 사랑이에요."}
-  ],
-  "paylas": ["나는 두 아들 중 누구에 더 가까운가요? 말과 행동이 다른 영역은 어디인가요?", "하나님의 초대를 미루게 만드는 내 ‘밭’과 ‘장사’는 무엇인가요?", "내가 하나님의 형상으로서 ‘하나님께 드려야 할 것’은 무엇일까요?", "하나님 사랑과 이웃 사랑 중 지금 나에게 더 부족한 쪽은 어디인가요?"],
-  "etiraf": {"b": "나의 고백", "p": "“마음, 목숨, 뜻을 다하여” 하나님을 사랑한다는 것을 내 하루(아침, 학교, 저녁)에 적용해 서너 문장으로 써 보세요.", "ph": "예) 아침에는 마음을 다해 짧게 기도하고, 학교에서는 …"},
-  "dua": "하나님, 저를 잔치에 거저 초대해 주시고 예수님의 의로 입혀 주셔서 감사합니다. 말로만 “네” 하지 않고 순종하는 사람이 되게 해 주세요. 하나님의 형상인 제 자신을 하나님께 드리고, 마음과 목숨과 뜻을 다해 하나님을 사랑하며 이웃을 제 몸같이 사랑하게 해 주세요. 예수님 이름으로 기도합니다. 아멘."
- }
-},
-"az": {
- "usaq": {
-  "basliq": "Ən böyük əmr",
-  "hedef": ["Sözdən çox əməllə itaət etməyi öyrənəcəyik.", "Allahın hamını ziyafətə dəvət etdiyini öyrənəcəyik.", "Allahı və qonşunu sevməyin ən böyük əmr olduğunu öyrənəcəyik."],
-  "sehneler": [
-   {"b": "İki oğul", "ayə": "Matta 21:28–32", "alt": "Üzüm bağına gedən və getməyən oğullar", "p": ["Ata iki oğluna dedi: “Bu gün üzüm bağına gedib işlə.” Böyük oğul “İstəmirəm” dedi, amma sonra fikrini dəyişib işə getdi.", "Kiçik oğul “Bəli, gedirəm!” dedi, amma getmədi. İsa soruşdu: “Hansı atasının istədiyini etdi?” Sözdən çox [[itaət]] edən əməl vacibdir."]},
-   {"b": "Padşahın toy ziyafəti", "ayə": "Matta 22:1–10", "alt": "Yolda insanları ziyafətə dəvət edən qullar", "p": ["Padşah oğlu üçün [[toy ziyafəti]] hazırlayıb qonaqları çağırdı. Amma dəvət olunanlar tarlaya, ticarətə getdilər, gəlmədilər.", "Padşah qullarına dedi: “Yollara çıxın, kimi görsəniz, ziyafətə çağırın.” Beləcə toy zalı qonaqlarla doldu. Allah hamını [[dəvət]] edir."]},
-   {"b": "Qeysərin olanı Qeysərə", "ayə": "Matta 22:15–22", "alt": "Sikkəni tutub suala cavab verən İsa", "p": ["İnsanlar İsanı çətin vəziyyətə salmaq üçün soruşdular: “Roma imperatoruna [[vergi]] vermək lazımdır, ya yox?”", "İsa sikkəyə baxıb soruşdu: “Burada kimin üzü var?” “İmperatorun.” “Onda Qeysərin olanını Qeysərə, Allahın olanını Allaha verin.” İnsanlar heyrətləndilər."]},
-   {"b": "Ən böyük əmr", "ayə": "Matta 22:34–40", "alt": "Ən böyük əmri öyrədən İsa", "p": ["Bir Qanun müəllimi soruşdu: “Hansı [[əmr]] ən böyükdür?”", "İsa cavab verdi: “Allahın Rəbbi bütün ürəyinlə, bütün canınla və bütün düşüncənlə sev. Bu, birinci əmrdir. İkincisi də buna bənzəyir: [[qonşu]]nu özün kimi sev.”"]}
-  ],
-  "aye": {"metn": "“Allahın Rəbbi bütün ürəyinlə, bütün canınla və bütün düşüncənlə sev. … Qonşunu özün kimi sev.”", "ref": "22:37–39", "bos": "Allahın Rəbbi bütün ___, bütün canınla və bütün düşüncənlə sev. … ___ özün kimi ___.", "sozler": ["ürəyinlə", "Qonşunu", "sev"], "yalan": "unut"},
-  "lugat": {
-   "itaət": {"i": "👂", "x": "순종", "m": "Deyilən sözü eşidib ona əməl etməkdir.", "e": "Böyük oğul sonra itaət etdi."},
-   "toy ziyafəti": {"i": "💒", "x": "혼인 잔치", "m": "Toyu qeyd etmək üçün böyük ziyafətdir.", "e": "Padşah oğlu üçün toy ziyafəti qurdu."},
-   "dəvət": {"i": "💌", "x": "초대", "m": "Birlikdə olmağa çağırmaqdır.", "e": "Allah hamını dəvət edir."},
-   "vergi": {"i": "🪙", "x": "세금", "m": "Dövlət üçün verilən puldur.", "e": "İmperatora vergi vermək lazımdır?"},
-   "əmr": {"i": "📜", "x": "계명", "m": "Allahın əməl etməyimiz üçün verdiyi sözdür.", "e": "Ən böyük əmr məhəbbətdir."},
-   "qonşu": {"i": "🏘️", "x": "이웃", "m": "Ətrafımızdakı bütün insanlardır.", "e": "Qonşunu özün kimi sev."}
-  },
-  "test": [
-   {"q": "Atanın istədiyini edən oğul hansıdır?", "o": ["“İstəmirəm” deyib sonra gedən", "“Gedirəm” deyib getməyən", "Hər ikisi"], "a": 0, "f": "Düzdür! Sözdən çox əməl vacibdir."},
-   {"q": "Dəvət olunanlar gəlməyəndə padşah nə etdi?", "o": ["Yolda görülən hər kəsi çağırdı", "Ziyafəti ləğv etdi", "Tək yedi"], "a": 0, "f": "Düzdür! Allah hamını dəvət edir."},
-   {"q": "İsa sikkəyə baxıb nə dedi?", "o": ["Qeysərin olanını Qeysərə, Allahın olanını Allaha", "Vergi verməyin", "Sikkəni atın"], "a": 0, "f": "Düzdür! Müdrik cavab idi."},
-   {"q": "Ən böyük iki əmr hansıdır?", "o": ["Allahı sevmək və qonşunu sevmək", "Dua və oruc", "İanə və xidmət"], "a": 0, "f": "Düzdür! Bütün əmrlər məhəbbətdən asılıdır."}
-  ],
-  "dusun": ["“Bəli!” deyib etmədiyin olubmu? Yaxud “İstəmirəm” deyib sonra etdiyin?", "Allahın ziyafətinə dəvət olunmaq necə hissdir?", "Bu həftə Allahı və qonşunu necə sevə bilərsən?"],
-  "fealiyyet": {"ciz": "İki ürək çək: birini Allaha, birini qonşuna verən özünü çək.", "b": "Kimi sevəcəksən?", "p": "Bu həftə sevgini göstərəcəyin insanları seç.", "ph": "",
-   "secim": {"basliq": "Kimi sevəcəksən?", "izah": "Toxun və seç. Bir neçəsini seçə bilərsən.", "cumle": "Bu həftə mən {x} bütün ürəyimlə sevəcəyəm!", "bos": "Allahı", "bag": "və",
-    "secimler": [["🙏", "Allahı"], ["👨‍👩‍👧", "ailəmi"], ["👫", "dostlarımı"], ["🏘️", "qonşularımı"], ["👩‍🏫", "müəllimlərimi"], ["😠", "məni sevməyəni"]]}},
-  "dua": "Allahım, məni Səmavi Padşahlığın ziyafətinə dəvət etdiyin üçün Sənə şükür edirəm. Yalnız sözlə “bəli” deməyim, əməllə itaət edim. Bütün ürəyimlə Səni sevim və qonşumu özüm kimi sevim. İsa Məsihin adı ilə dua edirəm. Amin."
+  "genc": {
+   "basliq": "질문에 답하신 예수님",
+   "giris": "예루살렘 성전에서 질문 공세가 쏟아집니다. 대제사장, 바리새인, 헤롯당, 사두개인이 차례로 예수님을 넘어뜨리려 합니다. 예수님은 모든 함정을 지나 마지막에 가장 본질적인 대답을 주십니다. 사랑하라.",
+   "meqsed": [
+    "세 가지 비유(두 아들, 악한 농부, 혼인 잔치)가 말하는 하나님 나라의 초대와 거절을 이해해요.",
+    "가이사의 세금 질문과 가장 큰 계명에 담긴 예수님의 지혜를 설명할 수 있어요.",
+    "하나님 사랑과 이웃 사랑을 내 삶의 우선순위로 구체화해요."
+   ],
+   "sehneler": [
+    {
+     "b": "말과 행동",
+     "ayə": "21:23–32",
+     "alt": "포도원으로 가는 아들과 가지 않는 아들",
+     "p": [
+      "종교 지도자들이 “무슨 [[권위]]로 이런 일을 하느냐” 묻자 예수님은 요한의 세례에 대한 질문으로 되물으세요. 그들은 대답하지 못했어요.",
+      "이어진 두 아들 비유. “간다” 하고 안 간 둘째는 겉으로 경건한 종교 지도자, “싫다” 했다가 간 첫째는 세리와 창녀였어요. “세리들과 창녀들이 너희보다 먼저 하나님의 나라에 들어가리라.”"
+     ],
+     "deep": {
+      "b": "깊이 보기 · 악한 농부들",
+      "p": "21:33–46의 비유에서 포도원 주인은 종들을 보내고 마지막에 아들을 보내요. 농부들은 아들을 죽여요. 예수님은 자신의 죽음을 예고하시고 시편 118:22를 인용하세요. “건축자들이 버린 돌이 머릿돌이 되었나니.”"
+     }
+    },
+    {
+     "b": "잔치 옷",
+     "ayə": "22:1–14",
+     "alt": "길에서 사람들을 잔치에 초대하는 종들",
+     "p": [
+      "왕의 아들 [[혼인 잔치]]에 초대받은 사람들은 핑계를 대고, 심지어 종들을 죽였어요. 왕은 “네거리 길에 가서 사람을 만나는 대로 청하라”고 해요. 악한 자나 선한 자나 잔치에 모였어요.",
+      "그런데 한 사람이 예복을 입지 않았어요. 초대는 거저지만, 그 초대에 합당하게 응답해야 해요. “청함을 받은 자는 많되 택함을 입은 자는 적으니라.”"
+     ],
+     "deep": {
+      "b": "깊이 보기 · 예복은 무엇인가?",
+      "p": "당시 잔치 주인이 손님에게 예복을 제공했다는 해석이 있어요. 그렇다면 예복을 안 입은 것은 주인의 선물을 거절한 거예요. 은혜로 초대받았지만 은혜를 입지 않고 내 옷을 고집하는 모습이에요(사 61:10 ‘구원의 옷’).",
+      "rose": true
+     }
+    },
+    {
+     "b": "누구의 형상인가",
+     "ayə": "22:15–33",
+     "alt": "동전을 들고 질문에 대답하시는 예수님",
+     "p": [
+      "바리새인과 헤롯당이 함께 왔어요. 평소엔 원수였지만 예수님을 잡으려 손을 잡았어요. “가이사에게 세금을 바치는 것이 옳습니까?” ‘예’ 하면 민족의 배신자, ‘아니오’ 하면 로마의 반역자가 돼요.",
+      "예수님은 데나리온의 ‘[[형상]]’과 글을 보게 하세요. “가이사의 것은 가이사에게, 하나님의 것은 하나님께 바치라.” 동전에 황제의 형상이 있다면, 하나님의 형상이 새겨진 것은 무엇일까요? 바로 우리 자신이에요(창 1:27)."
+     ],
+     "deep": {
+      "b": "깊이 보기 · 부활 논쟁",
+      "p": "22:23–33에서 부활을 믿지 않는 사두개인이 일곱 형제와 결혼한 여인 이야기로 시험해요. 예수님은 “하나님은 죽은 자의 하나님이 아니요 산 자의 하나님이시니라”며 출애굽기 3:6으로 부활을 증명하세요."
+     }
+    },
+    {
+     "b": "온 율법의 강령",
+     "ayə": "22:34–46",
+     "alt": "가장 큰 계명을 가르치시는 예수님",
+     "p": [
+      "랍비들은 율법을 613개 계명으로 셌어요. “어느 계명이 크니이까?” 예수님은 신명기 6:5(쉐마)와 레위기 19:18을 묶어 대답하세요. 하나님을 [[사랑]]하는 것과 이웃을 사랑하는 것.",
+      "“이 두 계명이 온 율법과 선지자의 강령이니라.” 문을 거는 경첩처럼 모든 율법이 이 둘에 매달려 있어요. 그리고 예수님은 마지막 질문을 던지세요. “그리스도는 누구의 자손이냐?” 다윗이 ‘주’라 부른 분, 바로 예수님이세요(시 110:1)."
+     ],
+     "deep": {
+      "b": "깊이 보기 · 둘은 하나",
+      "p": "예수님은 둘째 계명이 첫째와 ‘같다’고 하세요. 하나님 사랑이 진짜인지는 이웃 사랑으로 드러나요(요일 4:20). 반대로 이웃 사랑의 힘은 하나님 사랑에서 나와요."
+     }
+    }
+   ],
+   "cedvel": {
+    "b": "성전에서의 네 가지 질문",
+    "alt": "21:23–22:46",
+    "bas": [
+     "질문한 사람",
+     "질문",
+     "예수님의 대답"
+    ],
+    "set": [
+     [
+      "대제사장과 장로",
+      "무슨 권위로?",
+      "요한의 세례는 어디서 왔느냐?"
+     ],
+     [
+      "바리새인과 헤롯당",
+      "가이사에게 세금을?",
+      "가이사의 것은 가이사에게, 하나님의 것은 하나님께"
+     ],
+     [
+      "사두개인",
+      "부활 때 누구의 아내?",
+      "하나님은 산 자의 하나님"
+     ],
+     [
+      "율법교사",
+      "가장 큰 계명은?",
+      "하나님 사랑, 이웃 사랑"
+     ],
+     [
+      "예수님",
+      "그리스도는 누구의 자손?",
+      "아무도 대답하지 못함"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "“예수께서 이르시되 네 마음을 다하고 목숨을 다하고 뜻을 다하여 주 너의 하나님을 사랑하라 하셨으니 이것이 크고 첫째 되는 계명이요 둘째도 그와 같으니 네 이웃을 네 자신 같이 사랑하라 하셨으니.”",
+    "ref": "22:37–39"
+   },
+   "lugat": {
+    "권위": {
+     "i": "👑",
+     "o": "헬라어 엑수시아",
+     "x": "səlahiyyət",
+     "s": "누가 보냈는가",
+     "m": "7:29, 9:6, 28:18에 이어지는 마태복음의 핵심어예요. 예수님의 권위는 하늘에서 왔어요.",
+     "e": "“하늘과 땅의 모든 권세를 내게 주셨으니”(28:18)."
+    },
+    "혼인 잔치": {
+     "i": "💒",
+     "o": "헬라어 가모스",
+     "x": "toy ziyafəti",
+     "s": "하나님 나라의 완성",
+     "m": "성경은 마지막 날을 ‘어린양의 혼인 잔치’로 그려요(계 19:9). 25장 열 처녀 비유에도 나와요.",
+     "e": "9:15에서 예수님은 자신을 ‘신랑’이라고 하셨어요."
+    },
+    "형상": {
+     "i": "🖼️",
+     "o": "헬라어 에이콘",
+     "x": "surət",
+     "s": "새겨진 얼굴",
+     "m": "데나리온에는 티베리우스 황제의 얼굴과 “신의 아들”이라는 글이 있었어요. 하나님의 형상은 사람에게 새겨져 있어요.",
+     "e": "아이콘(icon)의 어원이에요."
+    },
+    "사랑": {
+     "i": "❤️",
+     "o": "헬라어 아가파오",
+     "x": "sevmək",
+     "s": "의지와 행동의 사랑",
+     "m": "감정만이 아니라 상대에게 가장 좋은 것을 선택하는 사랑이에요. 5:44 원수 사랑에도 같은 동사가 쓰였어요.",
+     "e": "“사랑은 율법의 완성이니라”(롬 13:10)."
+    }
+   },
+   "test": [
+    {
+     "q": "두 아들 비유에서 ‘간다 하고 안 간 아들’은 누구를 가리키나요?",
+     "o": [
+      "겉으로만 경건한 종교 지도자",
+      "세리와 창녀",
+      "이방인"
+     ],
+     "a": 0,
+     "f": "맞아요. 말과 행동이 달랐어요."
+    },
+    {
+     "q": "혼인 잔치 비유에서 예복을 입지 않은 사람이 뜻하는 것은?",
+     "o": [
+      "초대에 합당하게 응답하지 않은 사람",
+      "가난한 사람",
+      "늦게 온 사람"
+     ],
+     "a": 0,
+     "f": "맞아요. 은혜를 입지 않고 내 옷을 고집했어요."
+    },
+    {
+     "q": "세금 질문이 함정인 이유는?",
+     "o": [
+      "어느 쪽으로 대답해도 곤란해서",
+      "예수님이 돈이 없어서",
+      "세금이 비싸서"
+     ],
+     "a": 0,
+     "f": "맞아요. 배신자 아니면 반역자였어요."
+    },
+    {
+     "q": "동전에 황제의 형상이 있다면 하나님의 형상이 새겨진 것은?",
+     "o": [
+      "사람",
+      "성전",
+      "율법책"
+     ],
+     "a": 0,
+     "f": "맞아요. 우리 자신을 하나님께 드려야 해요."
+    },
+    {
+     "q": "가장 큰 계명은 어느 두 구약 본문을 묶은 것인가요?",
+     "o": [
+      "신명기 6:5와 레위기 19:18",
+      "출애굽기 20장과 시편 23편",
+      "창세기 1장과 이사야 53장"
+     ],
+     "a": 0,
+     "f": "맞아요. 쉐마와 이웃 사랑이에요."
+    }
+   ],
+   "paylas": [
+    "나는 두 아들 중 누구에 더 가까운가요? 말과 행동이 다른 영역은 어디인가요?",
+    "하나님의 초대를 미루게 만드는 내 ‘밭’과 ‘장사’는 무엇인가요?",
+    "내가 하나님의 형상으로서 ‘하나님께 드려야 할 것’은 무엇일까요?",
+    "하나님 사랑과 이웃 사랑 중 지금 나에게 더 부족한 쪽은 어디인가요?"
+   ],
+   "etiraf": {
+    "b": "나의 고백",
+    "p": "“마음, 목숨, 뜻을 다하여” 하나님을 사랑한다는 것을 내 하루(아침, 학교, 저녁)에 적용해 서너 문장으로 써 보세요.",
+    "ph": "예) 아침에는 마음을 다해 짧게 기도하고, 학교에서는 …"
+   },
+   "dua": "하나님, 저를 잔치에 거저 초대해 주시고 예수님의 의로 입혀 주셔서 감사합니다. 말로만 “네” 하지 않고 순종하는 사람이 되게 해 주세요. 하나님의 형상인 제 자신을 하나님께 드리고, 마음과 목숨과 뜻을 다해 하나님을 사랑하며 이웃을 제 몸같이 사랑하게 해 주세요. 예수님 이름으로 기도합니다. 아멘."
+  }
  },
- "genc": {
-  "basliq": "Suallara cavab verən İsa",
-  "giris": "Yerusəlim məbədində suallar yağır. Baş kahinlər, fariseylər, Hirod tərəfdarları, sadukeylər bir-birinin ardınca İsanı büdrətməyə çalışır. İsa bütün tələlərdən keçib sonda ən əsas cavabı verir: sevin.",
-  "meqsed": ["Üç məsəlin (iki oğul, pis bağbanlar, toy ziyafəti) Allahın Padşahlığına dəvət və rədd haqqında dediyini anlayırıq.", "Qeysərə vergi sualında və ən böyük əmrdə İsanın müdrikliyini izah edə bilirik.", "Allahı və qonşunu sevməyi həyatımızın üstünlüyü kimi konkretləşdiririk."],
-  "sehneler": [
-   {"b": "Söz və əməl", "ayə": "Matta 21:23–32", "alt": "Üzüm bağına gedən və getməyən oğullar", "p": ["Dini rəhbərlər “Bunları hansı [[səlahiyyət]]lə edirsən?” deyə soruşanda İsa Yəhyanın vəftizi haqqında sualla cavab verir. Onlar cavab verə bilmədilər.", "Sonra iki oğul məsəli gəlir. “Gedirəm” deyib getməyən kiçik oğul zahirən dindar dini rəhbərlər, “istəmirəm” deyib gedən böyük oğul isə vergiyığanlar və fahişələr idi. “Vergiyığanlar və fahişələr Allahın Padşahlığına sizdən qabaq girir.”"], "deep": {"b": "Dərindən baxaq · Pis bağbanlar", "p": "21:33–46-dakı məsəldə bağ sahibi qulları, sonda isə oğlunu göndərir. Bağbanlar oğlu öldürür. İsa Öz ölümünü xəbər verir və Zəbur 118:22-dən sitat gətirir: “Bənnaların rədd etdiyi daş təməl daşı oldu.”"}},
-   {"b": "Toy paltarı", "ayə": "Matta 22:1–14", "alt": "Yolda insanları ziyafətə dəvət edən qullar", "p": ["Padşahın oğlunun [[toy ziyafəti]]nə dəvət olunanlar bəhanə gətirdilər, hətta qulları öldürdülər. Padşah deyir: “Yol ayrıclarına gedin, kimi tapsanız, toya çağırın.” Pis də, yaxşı da ziyafətə toplandı.", "Amma bir nəfər toy paltarı geyinməmişdi. Dəvət pulsuzdur, amma o dəvətə layiqli cavab vermək lazımdır. “Çünki çağırılanlar çox, seçilənlər isə azdır.”"], "deep": {"b": "Dərindən baxaq · Toy paltarı nədir?", "p": "O dövrdə ziyafət sahibinin qonaqlara paltar verdiyi barədə şərh var. Elədirsə, paltar geyinməmək sahibin hədiyyəsini rədd etmək idi. Lütflə dəvət olunub, amma lütfü geyinməyib öz paltarında israr etməkdir (Yeş. 61:10 “xilas libası”).", "rose": true}},
-   {"b": "Kimin surətidir?", "ayə": "Matta 22:15–33", "alt": "Sikkəni tutub suala cavab verən İsa", "p": ["Fariseylər və Hirod tərəfdarları birlikdə gəldilər. Adətən düşmən idilər, amma İsanı tutmaq üçün əl-ələ verdilər. “Qeysərə vergi vermək düzgündürmü?” “Bəli” desə, xalqın satqını, “xeyr” desə, Romanın üsyançısı olardı.", "İsa dinardakı “[[surət]]ə” və yazıya baxdırır. “Qeysərin olanını Qeysərə, Allahın olanını Allaha verin.” Sikkədə imperatorun surəti varsa, Allahın surəti nəyin üzərində həkk olunub? Elə bizim özümüzün (Yar. 1:27)."], "deep": {"b": "Dərindən baxaq · Dirilmə mübahisəsi", "p": "22:23–33-də dirilməyə inanmayan sadukeylər yeddi qardaşla evlənən qadın hekayəsi ilə sınayırlar. İsa “Allah ölülərin deyil, dirilərin Allahıdır” deyərək Çıxış 3:6 ilə dirilməni sübut edir."}},
-   {"b": "Bütün Qanunun əsası", "ayə": "Matta 22:34–46", "alt": "Ən böyük əmri öyrədən İsa", "p": ["Ravvilər Qanunu 613 əmr kimi sayırdılar. “Hansı əmr böyükdür?” İsa Qanunun Təkrarı 6:5 (Şema) və Levililər 19:18-i birləşdirib cavab verir: Allahı [[sevmək]] və qonşunu sevmək.", "“Bütün Qanun və peyğəmbərlərin sözləri bu iki əmrdən asılıdır.” Qapını tutan rəzə kimi bütün Qanun bu ikisindən asılıdır. Sonra İsa son sualı verir: “Məsih kimin oğludur?” Davudun “Rəbb” dediyi, yəni İsadır (Zəb. 110:1)."], "deep": {"b": "Dərindən baxaq · İkisi birdir", "p": "İsa ikinci əmrin birinciyə “bənzədiyini” deyir. Allaha məhəbbətin həqiqi olması qonşuya məhəbbətlə görünür (1 Yəh. 4:20). Əksinə, qonşu məhəbbətinin gücü Allah məhəbbətindən gəlir."}}
-  ],
-  "cedvel": {"b": "Məbəddə dörd sual", "alt": "21:23–22:46", "bas": ["Soruşan", "Sual", "İsanın cavabı"], "set": [["Baş kahinlər və ağsaqqallar", "Hansı səlahiyyətlə?", "Yəhyanın vəftizi haradan idi?"], ["Fariseylər və Hirod tərəfdarları", "Qeysərə vergi?", "Qeysərin olanını Qeysərə, Allahın olanını Allaha"], ["Sadukeylər", "Dirilmədə kimin arvadı?", "Allah dirilərin Allahıdır"], ["Qanun müəllimi", "Ən böyük əmr?", "Allahı sevmək, qonşunu sevmək"], ["İsa", "Məsih kimin oğludur?", "Heç kim cavab verə bilmədi"]]},
-  "aye": {"metn": "“İsa ona dedi: “Allahın Rəbbi bütün ürəyinlə, bütün canınla və bütün düşüncənlə sev. Bu, ən böyük və birinci əmrdir. İkincisi də buna bənzəyir: qonşunu özün kimi sev.””", "ref": "22:37–39"},
-  "lugat": {
-   "səlahiyyət": {"i": "👑", "o": "Yunanca eksusia", "x": "권위", "s": "Kim göndərib?", "m": "7:29, 9:6, 28:18 ilə bağlı Matta Müjdəsinin əsas sözüdür. İsanın səlahiyyəti göydəndir.", "e": "“Göydə və yerdə bütün səlahiyyət Mənə verilib” (28:18)."},
-   "toy ziyafəti": {"i": "💒", "o": "Yunanca qamos", "x": "혼인 잔치", "s": "Allahın Padşahlığının tamamlanması", "m": "Müqəddəs Kitab son günü “Quzunun toy ziyafəti” kimi təsvir edir (Vəhy 19:9). 25-ci fəsildəki on qız məsəlində də var.", "e": "9:15-də İsa Özünü “bəy” adlandırdı."},
-   "surət": {"i": "🖼️", "o": "Yunanca eykon", "x": "형상", "s": "Həkk olunmuş üz", "m": "Dinarda imperator Tiberinin üzü və “allahın oğlu” yazısı var idi. Allahın surəti insana həkk olunub.", "e": "İkona (icon) sözünün kökü budur."},
-   "sevmək": {"i": "❤️", "o": "Yunanca aqapao", "x": "사랑하다", "s": "İradə və əməl məhəbbəti", "m": "Yalnız hiss deyil, qarşıdakı üçün ən yaxşısını seçən məhəbbətdir. 5:44-dəki düşmən məhəbbətində də eyni fel var.", "e": "“Məhəbbət Qanunun yerinə yetirilməsidir” (Rom. 13:10)."}
+ "az": {
+  "usaq": {
+   "basliq": "Ən böyük əmr",
+   "hedef": [
+    "Sözdən çox əməllə itaət etməyi öyrənəcəyik.",
+    "Allahın hamını ziyafətə dəvət etdiyini öyrənəcəyik.",
+    "Allahı və qonşunu sevməyin ən böyük əmr olduğunu öyrənəcəyik."
+   ],
+   "sehneler": [
+    {
+     "b": "İki oğul",
+     "ayə": "Matta 21:28–32",
+     "alt": "Üzüm bağına gedən və getməyən oğullar",
+     "p": [
+      "Ata iki oğluna dedi: “Bu gün üzüm bağına gedib işlə.” Böyük oğul “İstəmirəm” dedi, amma sonra fikrini dəyişib işə getdi.",
+      "Kiçik oğul “Bəli, gedirəm!” dedi, amma getmədi. İsa soruşdu: “Hansı atasının istədiyini etdi?” Sözdən çox [[itaət]] edən əməl vacibdir."
+     ]
+    },
+    {
+     "b": "Padşahın toy ziyafəti",
+     "ayə": "Matta 22:1–10",
+     "alt": "Yolda insanları ziyafətə dəvət edən qullar",
+     "p": [
+      "Padşah oğlu üçün [[toy ziyafəti]] hazırlayıb qonaqları çağırdı. Amma dəvət olunanlar tarlaya, ticarətə getdilər, gəlmədilər.",
+      "Padşah qullarına dedi: “Yollara çıxın, kimi görsəniz, ziyafətə çağırın.” Beləcə toy zalı qonaqlarla doldu. Allah hamını [[dəvət]] edir."
+     ]
+    },
+    {
+     "b": "Qeysərin olanı Qeysərə",
+     "ayə": "Matta 22:15–22",
+     "alt": "Sikkəni tutub suala cavab verən İsa",
+     "p": [
+      "İnsanlar İsanı çətin vəziyyətə salmaq üçün soruşdular: “Roma imperatoruna [[vergi]] vermək lazımdır, ya yox?”",
+      "İsa sikkəyə baxıb soruşdu: “Burada kimin üzü var?” “İmperatorun.” “Onda Qeysərin olanını Qeysərə, Allahın olanını Allaha verin.” İnsanlar heyrətləndilər."
+     ]
+    },
+    {
+     "b": "Ən böyük əmr",
+     "ayə": "Matta 22:34–40",
+     "alt": "Ən böyük əmri öyrədən İsa",
+     "p": [
+      "Bir Qanun müəllimi soruşdu: “Hansı [[əmr]] ən böyükdür?”",
+      "İsa cavab verdi: “Allahın Rəbbi bütün ürəyinlə, bütün canınla və bütün düşüncənlə sev. Bu, birinci əmrdir. İkincisi də buna bənzəyir: [[qonşu]]nu özün kimi sev.”"
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "“Allahın Rəbbi bütün ürəyinlə, bütün canınla və bütün düşüncənlə sev. … Qonşunu özün kimi sev.”",
+    "ref": "22:37–39",
+    "bos": "Allahın Rəbbi bütün ___, bütün canınla və bütün düşüncənlə sev. … ___ özün kimi ___.",
+    "sozler": [
+     "ürəyinlə",
+     "Qonşunu",
+     "sev"
+    ],
+    "yalan": "unut"
+   },
+   "lugat": {
+    "itaət": {
+     "i": "👂",
+     "x": "순종",
+     "m": "Deyilən sözü eşidib ona əməl etməkdir.",
+     "e": "Böyük oğul sonra itaət etdi."
+    },
+    "toy ziyafəti": {
+     "i": "💒",
+     "x": "혼인 잔치",
+     "m": "Toyu qeyd etmək üçün böyük ziyafətdir.",
+     "e": "Padşah oğlu üçün toy ziyafəti qurdu."
+    },
+    "dəvət": {
+     "i": "💌",
+     "x": "초대",
+     "m": "Birlikdə olmağa çağırmaqdır.",
+     "e": "Allah hamını dəvət edir."
+    },
+    "vergi": {
+     "i": "🪙",
+     "x": "세금",
+     "m": "Dövlət üçün verilən puldur.",
+     "e": "İmperatora vergi vermək lazımdır?"
+    },
+    "əmr": {
+     "i": "📜",
+     "x": "계명",
+     "m": "Allahın əməl etməyimiz üçün verdiyi sözdür.",
+     "e": "Ən böyük əmr məhəbbətdir."
+    },
+    "qonşu": {
+     "i": "🏘️",
+     "x": "이웃",
+     "m": "Ətrafımızdakı bütün insanlardır.",
+     "e": "Qonşunu özün kimi sev."
+    }
+   },
+   "test": [
+    {
+     "q": "Atanın istədiyini edən oğul hansıdır?",
+     "o": [
+      "“İstəmirəm” deyib sonra gedən",
+      "“Gedirəm” deyib getməyən",
+      "Hər ikisi"
+     ],
+     "a": 0,
+     "f": "Düzdür! Sözdən çox əməl vacibdir."
+    },
+    {
+     "q": "Dəvət olunanlar gəlməyəndə padşah nə etdi?",
+     "o": [
+      "Yolda görülən hər kəsi çağırdı",
+      "Ziyafəti ləğv etdi",
+      "Tək yedi"
+     ],
+     "a": 0,
+     "f": "Düzdür! Allah hamını dəvət edir."
+    },
+    {
+     "q": "İsa sikkəyə baxıb nə dedi?",
+     "o": [
+      "Qeysərin olanını Qeysərə, Allahın olanını Allaha",
+      "Vergi verməyin",
+      "Sikkəni atın"
+     ],
+     "a": 0,
+     "f": "Düzdür! Müdrik cavab idi."
+    },
+    {
+     "q": "Ən böyük iki əmr hansıdır?",
+     "o": [
+      "Allahı sevmək və qonşunu sevmək",
+      "Dua və oruc",
+      "İanə və xidmət"
+     ],
+     "a": 0,
+     "f": "Düzdür! Bütün əmrlər məhəbbətdən asılıdır."
+    }
+   ],
+   "dusun": [
+    "“Bəli!” deyib etmədiyin olubmu? Yaxud “İstəmirəm” deyib sonra etdiyin?",
+    "Allahın ziyafətinə dəvət olunmaq necə hissdir?",
+    "Bu həftə Allahı və qonşunu necə sevə bilərsən?"
+   ],
+   "fealiyyet": {
+    "ciz": "İki ürək çək: birini Allaha, birini qonşuna verən özünü çək.",
+    "b": "Kimi sevəcəksən?",
+    "p": "Bu həftə sevgini göstərəcəyin insanları seç.",
+    "ph": "",
+    "secim": {
+     "basliq": "Kimi sevəcəksən?",
+     "izah": "Toxun və seç. Bir neçəsini seçə bilərsən.",
+     "cumle": "Bu həftə mən {x} bütün ürəyimlə sevəcəyəm!",
+     "bos": "Allahı",
+     "bag": "və",
+     "secimler": [
+      [
+       "🙏",
+       "Allahı"
+      ],
+      [
+       "👨‍👩‍👧",
+       "ailəmi"
+      ],
+      [
+       "👫",
+       "dostlarımı"
+      ],
+      [
+       "🏘️",
+       "qonşularımı"
+      ],
+      [
+       "👩‍🏫",
+       "müəllimlərimi"
+      ],
+      [
+       "😠",
+       "məni sevməyəni"
+      ]
+     ]
+    }
+   },
+   "dua": "Allahım, məni Səmavi Padşahlığın ziyafətinə dəvət etdiyin üçün Sənə şükür edirəm. Yalnız sözlə “bəli” deməyim, əməllə itaət edim. Bütün ürəyimlə Səni sevim və qonşumu özüm kimi sevim. İsa Məsihin adı ilə dua edirəm. Amin."
   },
-  "test": [
-   {"q": "İki oğul məsəlində “gedirəm” deyib getməyən oğul kimi göstərir?", "o": ["Zahirən dindar dini rəhbərləri", "Vergiyığanları və fahişələri", "Yadelliləri"], "a": 0, "f": "Düzdür. Sözü ilə əməli fərqli idi."},
-   {"q": "Toy ziyafəti məsəlində toy paltarı geyinməyən adam nəyi bildirir?", "o": ["Dəvətə layiqli cavab verməyəni", "Yoxsul adamı", "Gec gələni"], "a": 0, "f": "Düzdür. Lütfü geyinməyib öz paltarında israr etdi."},
-   {"q": "Vergi sualı niyə tələ idi?", "o": ["Hansı cavab verilsə də, çətin vəziyyət yaranırdı", "İsanın pulu olmadığı üçün", "Vergi baha olduğu üçün"], "a": 0, "f": "Düzdür. Ya satqın, ya da üsyançı olardı."},
-   {"q": "Sikkədə imperatorun surəti varsa, Allahın surəti nəyin üzərindədir?", "o": ["İnsanın", "Məbədin", "Qanun kitabının"], "a": 0, "f": "Düzdür. Özümüzü Allaha verməliyik."},
-   {"q": "Ən böyük əmr hansı iki Əhdi-Ətiq mətnini birləşdirir?", "o": ["Qanunun Təkrarı 6:5 və Levililər 19:18", "Çıxış 20 və Zəbur 23", "Yaradılış 1 və Yeşaya 53"], "a": 0, "f": "Düzdür. Şema və qonşu məhəbbəti."}
+  "genc": {
+   "basliq": "Suallara cavab verən İsa",
+   "giris": "Yerusəlim məbədində suallar yağır. Baş kahinlər, fariseylər, Hirod tərəfdarları, sadukeylər bir-birinin ardınca İsanı büdrətməyə çalışır. İsa bütün tələlərdən keçib sonda ən əsas cavabı verir: sevin.",
+   "meqsed": [
+    "Üç məsəlin (iki oğul, pis bağbanlar, toy ziyafəti) Allahın Padşahlığına dəvət və rədd haqqında dediyini anlayırıq.",
+    "Qeysərə vergi sualında və ən böyük əmrdə İsanın müdrikliyini izah edə bilirik.",
+    "Allahı və qonşunu sevməyi həyatımızın üstünlüyü kimi konkretləşdiririk."
+   ],
+   "sehneler": [
+    {
+     "b": "Söz və əməl",
+     "ayə": "Matta 21:23–32",
+     "alt": "Üzüm bağına gedən və getməyən oğullar",
+     "p": [
+      "Dini rəhbərlər “Bunları hansı [[səlahiyyət]]lə edirsən?” deyə soruşanda İsa Yəhyanın vəftizi haqqında sualla cavab verir. Onlar cavab verə bilmədilər.",
+      "Sonra iki oğul məsəli gəlir. “Gedirəm” deyib getməyən kiçik oğul zahirən dindar dini rəhbərlər, “istəmirəm” deyib gedən böyük oğul isə vergiyığanlar və fahişələr idi. “Vergiyığanlar və fahişələr Allahın Padşahlığına sizdən qabaq girir.”"
+     ],
+     "deep": {
+      "b": "Dərindən baxaq · Pis bağbanlar",
+      "p": "21:33–46-dakı məsəldə bağ sahibi qulları, sonda isə oğlunu göndərir. Bağbanlar oğlu öldürür. İsa Öz ölümünü xəbər verir və Zəbur 118:22-dən sitat gətirir: “Bənnaların rədd etdiyi daş təməl daşı oldu.”"
+     }
+    },
+    {
+     "b": "Toy paltarı",
+     "ayə": "Matta 22:1–14",
+     "alt": "Yolda insanları ziyafətə dəvət edən qullar",
+     "p": [
+      "Padşahın oğlunun [[toy ziyafəti]]nə dəvət olunanlar bəhanə gətirdilər, hətta qulları öldürdülər. Padşah deyir: “Yol ayrıclarına gedin, kimi tapsanız, toya çağırın.” Pis də, yaxşı da ziyafətə toplandı.",
+      "Amma bir nəfər toy paltarı geyinməmişdi. Dəvət pulsuzdur, amma o dəvətə layiqli cavab vermək lazımdır. “Çünki çağırılanlar çox, seçilənlər isə azdır.”"
+     ],
+     "deep": {
+      "b": "Dərindən baxaq · Toy paltarı nədir?",
+      "p": "O dövrdə ziyafət sahibinin qonaqlara paltar verdiyi barədə şərh var. Elədirsə, paltar geyinməmək sahibin hədiyyəsini rədd etmək idi. Lütflə dəvət olunub, amma lütfü geyinməyib öz paltarında israr etməkdir (Yeş. 61:10 “xilas libası”).",
+      "rose": true
+     }
+    },
+    {
+     "b": "Kimin surətidir?",
+     "ayə": "Matta 22:15–33",
+     "alt": "Sikkəni tutub suala cavab verən İsa",
+     "p": [
+      "Fariseylər və Hirod tərəfdarları birlikdə gəldilər. Adətən düşmən idilər, amma İsanı tutmaq üçün əl-ələ verdilər. “Qeysərə vergi vermək düzgündürmü?” “Bəli” desə, xalqın satqını, “xeyr” desə, Romanın üsyançısı olardı.",
+      "İsa dinardakı “[[surət]]ə” və yazıya baxdırır. “Qeysərin olanını Qeysərə, Allahın olanını Allaha verin.” Sikkədə imperatorun surəti varsa, Allahın surəti nəyin üzərində həkk olunub? Elə bizim özümüzün (Yar. 1:27)."
+     ],
+     "deep": {
+      "b": "Dərindən baxaq · Dirilmə mübahisəsi",
+      "p": "22:23–33-də dirilməyə inanmayan sadukeylər yeddi qardaşla evlənən qadın hekayəsi ilə sınayırlar. İsa “Allah ölülərin deyil, dirilərin Allahıdır” deyərək Çıxış 3:6 ilə dirilməni sübut edir."
+     }
+    },
+    {
+     "b": "Bütün Qanunun əsası",
+     "ayə": "Matta 22:34–46",
+     "alt": "Ən böyük əmri öyrədən İsa",
+     "p": [
+      "Ravvilər Qanunu 613 əmr kimi sayırdılar. “Hansı əmr böyükdür?” İsa Qanunun Təkrarı 6:5 (Şema) və Levililər 19:18-i birləşdirib cavab verir: Allahı [[sevmək]] və qonşunu sevmək.",
+      "“Bütün Qanun və peyğəmbərlərin sözləri bu iki əmrdən asılıdır.” Qapını tutan rəzə kimi bütün Qanun bu ikisindən asılıdır. Sonra İsa son sualı verir: “Məsih kimin oğludur?” Davudun “Rəbb” dediyi, yəni İsadır (Zəb. 110:1)."
+     ],
+     "deep": {
+      "b": "Dərindən baxaq · İkisi birdir",
+      "p": "İsa ikinci əmrin birinciyə “bənzədiyini” deyir. Allaha məhəbbətin həqiqi olması qonşuya məhəbbətlə görünür (1 Yəh. 4:20). Əksinə, qonşu məhəbbətinin gücü Allah məhəbbətindən gəlir."
+     }
+    }
+   ],
+   "cedvel": {
+    "b": "Məbəddə dörd sual",
+    "alt": "21:23–22:46",
+    "bas": [
+     "Soruşan",
+     "Sual",
+     "İsanın cavabı"
+    ],
+    "set": [
+     [
+      "Baş kahinlər və ağsaqqallar",
+      "Hansı səlahiyyətlə?",
+      "Yəhyanın vəftizi haradan idi?"
+     ],
+     [
+      "Fariseylər və Hirod tərəfdarları",
+      "Qeysərə vergi?",
+      "Qeysərin olanını Qeysərə, Allahın olanını Allaha"
+     ],
+     [
+      "Sadukeylər",
+      "Dirilmədə kimin arvadı?",
+      "Allah dirilərin Allahıdır"
+     ],
+     [
+      "Qanun müəllimi",
+      "Ən böyük əmr?",
+      "Allahı sevmək, qonşunu sevmək"
+     ],
+     [
+      "İsa",
+      "Məsih kimin oğludur?",
+      "Heç kim cavab verə bilmədi"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "“İsa ona dedi: “Allahın Rəbbi bütün ürəyinlə, bütün canınla və bütün düşüncənlə sev. Bu, ən böyük və birinci əmrdir. İkincisi də buna bənzəyir: qonşunu özün kimi sev.””",
+    "ref": "22:37–39"
+   },
+   "lugat": {
+    "səlahiyyət": {
+     "i": "👑",
+     "o": "Yunanca eksusia",
+     "x": "권위",
+     "s": "Kim göndərib?",
+     "m": "7:29, 9:6, 28:18 ilə bağlı Matta Müjdəsinin əsas sözüdür. İsanın səlahiyyəti göydəndir.",
+     "e": "“Göydə və yerdə bütün səlahiyyət Mənə verilib” (28:18)."
+    },
+    "toy ziyafəti": {
+     "i": "💒",
+     "o": "Yunanca qamos",
+     "x": "혼인 잔치",
+     "s": "Allahın Padşahlığının tamamlanması",
+     "m": "Müqəddəs Kitab son günü “Quzunun toy ziyafəti” kimi təsvir edir (Vəhy 19:9). 25-ci fəsildəki on qız məsəlində də var.",
+     "e": "9:15-də İsa Özünü “bəy” adlandırdı."
+    },
+    "surət": {
+     "i": "🖼️",
+     "o": "Yunanca eykon",
+     "x": "형상",
+     "s": "Həkk olunmuş üz",
+     "m": "Dinarda imperator Tiberinin üzü və “allahın oğlu” yazısı var idi. Allahın surəti insana həkk olunub.",
+     "e": "İkona (icon) sözünün kökü budur."
+    },
+    "sevmək": {
+     "i": "❤️",
+     "o": "Yunanca aqapao",
+     "x": "사랑하다",
+     "s": "İradə və əməl məhəbbəti",
+     "m": "Yalnız hiss deyil, qarşıdakı üçün ən yaxşısını seçən məhəbbətdir. 5:44-dəki düşmən məhəbbətində də eyni fel var.",
+     "e": "“Məhəbbət Qanunun yerinə yetirilməsidir” (Rom. 13:10)."
+    }
+   },
+   "test": [
+    {
+     "q": "İki oğul məsəlində “gedirəm” deyib getməyən oğul kimi göstərir?",
+     "o": [
+      "Zahirən dindar dini rəhbərləri",
+      "Vergiyığanları və fahişələri",
+      "Yadelliləri"
+     ],
+     "a": 0,
+     "f": "Düzdür. Sözü ilə əməli fərqli idi."
+    },
+    {
+     "q": "Toy ziyafəti məsəlində toy paltarı geyinməyən adam nəyi bildirir?",
+     "o": [
+      "Dəvətə layiqli cavab verməyəni",
+      "Yoxsul adamı",
+      "Gec gələni"
+     ],
+     "a": 0,
+     "f": "Düzdür. Lütfü geyinməyib öz paltarında israr etdi."
+    },
+    {
+     "q": "Vergi sualı niyə tələ idi?",
+     "o": [
+      "Hansı cavab verilsə də, çətin vəziyyət yaranırdı",
+      "İsanın pulu olmadığı üçün",
+      "Vergi baha olduğu üçün"
+     ],
+     "a": 0,
+     "f": "Düzdür. Ya satqın, ya da üsyançı olardı."
+    },
+    {
+     "q": "Sikkədə imperatorun surəti varsa, Allahın surəti nəyin üzərindədir?",
+     "o": [
+      "İnsanın",
+      "Məbədin",
+      "Qanun kitabının"
+     ],
+     "a": 0,
+     "f": "Düzdür. Özümüzü Allaha verməliyik."
+    },
+    {
+     "q": "Ən böyük əmr hansı iki Əhdi-Ətiq mətnini birləşdirir?",
+     "o": [
+      "Qanunun Təkrarı 6:5 və Levililər 19:18",
+      "Çıxış 20 və Zəbur 23",
+      "Yaradılış 1 və Yeşaya 53"
+     ],
+     "a": 0,
+     "f": "Düzdür. Şema və qonşu məhəbbəti."
+    }
+   ],
+   "paylas": [
+    "Mən iki oğuldan hansına daha yaxınam? Sözümlə əməlimin fərqli olduğu sahə hansıdır?",
+    "Allahın dəvətini təxirə saldıran mənim “tarlam” və “ticarətim” nədir?",
+    "Allahın surəti olaraq “Allaha verməli olduğum” nədir?",
+    "Allah məhəbbəti ilə qonşu məhəbbətindən hansı indi məndə daha çox çatışmır?"
+   ],
+   "etiraf": {
+    "b": "Mənim etirafım",
+    "p": "Allahı “bütün ürəyinlə, bütün canınla, bütün düşüncənlə” sevməyi gününə (səhər, məktəb, axşam) tətbiq edərək üç-dörd cümlə yaz.",
+    "ph": "Məsələn: Səhər bütün ürəyimlə qısa dua edəcəyəm, məktəbdə isə …"
+   },
+   "dua": "Allahım, məni ziyafətə pulsuz dəvət edib İsanın salehliyi ilə geyindirdiyin üçün Sənə şükür edirəm. Yalnız sözlə “bəli” deməyim, itaət edim. Sənin surətin olan özümü Sənə verim, bütün ürəyimlə, canımla və düşüncəmlə Səni sevim və qonşumu özüm kimi sevim. İsa Məsihin adı ilə dua edirəm. Amin."
+  }
+ },
+ "muellim": {
+  "mesaj": "27과의 중심은 한 문장입니다. **하나님은 모든 사람을 은혜의 잔치에 초대하시며, 그 초대에 대한 참된 응답은 말이 아닌 순종, 곧 마음을 다한 하나님 사랑과 이웃 사랑이다.**",
+  "hazirliq": [
+   "학생용 교재를 열 휴대폰이나 태블릿, 이어폰",
+   "동전 하나 (얼굴이 있는 동전)",
+   "초대장 카드 (아이들 이름을 써서 나눠 주기)"
   ],
-  "paylas": ["Mən iki oğuldan hansına daha yaxınam? Sözümlə əməlimin fərqli olduğu sahə hansıdır?", "Allahın dəvətini təxirə saldıran mənim “tarlam” və “ticarətim” nədir?", "Allahın surəti olaraq “Allaha verməli olduğum” nədir?", "Allah məhəbbəti ilə qonşu məhəbbətindən hansı indi məndə daha çox çatışmır?"],
-  "etiraf": {"b": "Mənim etirafım", "p": "Allahı “bütün ürəyinlə, bütün canınla, bütün düşüncənlə” sevməyi gününə (səhər, məktəb, axşam) tətbiq edərək üç-dörd cümlə yaz.", "ph": "Məsələn: Səhər bütün ürəyimlə qısa dua edəcəyəm, məktəbdə isə …"},
-  "dua": "Allahım, məni ziyafətə pulsuz dəvət edib İsanın salehliyi ilə geyindirdiyin üçün Sənə şükür edirəm. Yalnız sözlə “bəli” deməyim, itaət edim. Sənin surətin olan özümü Sənə verim, bütün ürəyimlə, canımla və düşüncəmlə Səni sevim və qonşumu özüm kimi sevim. İsa Məsihin adı ilə dua edirəm. Amin."
+  "fon": [
+   [
+    "1. 화요일의 논쟁",
+    "21:23–22:46은 고난 주간 화요일로 추정되는 하루의 논쟁입니다. 종교 권력의 모든 집단이 등장하고 모두 침묵하게 됩니다(22:46)."
+   ],
+   [
+    "2. 세 비유",
+    "두 아들(말과 행동), 악한 농부(아들을 죽임), 혼인 잔치(초대 거절)는 모두 이스라엘 지도자들의 거절과 이방인·죄인의 수용을 말합니다."
+   ],
+   [
+    "3. 세금 동전",
+    "티베리우스 데나리온에는 “신성한 아우구스투스의 아들 티베리우스 황제”라고 새겨져 있었습니다. 유대인에게는 우상 숭배적인 문구였습니다."
+   ],
+   [
+    "4. 쉐마",
+    "신명기 6:4–5는 유대인이 매일 아침저녁 암송한 신앙 고백입니다. 예수님은 여기에 레위기 19:18을 결합하셨습니다."
+   ],
+   [
+    "5. 정치적 적용",
+    "‘가이사의 것은 가이사에게’를 정교분리나 무조건적 복종으로 단순화하지 마세요. 핵심은 모든 것 위에 하나님께 속한 ‘나’를 드리는 것입니다."
+   ]
+  ],
+  "usaq_plan": [
+   [
+    "5분",
+    "초대장 받기",
+    "이름이 적힌 초대장을 한 명씩 나눠 주기",
+    "“하나님이 여러분을 하나님 나라 잔치에 초대하셨어요!”"
+   ],
+   [
+    "15분",
+    "장면 1–4 듣고 읽기",
+    "장면마다 듣기, 노란 낱말 누르기",
+    "“동전에는 황제 얼굴, 우리에게는 하나님의 모습이 있어요.”"
+   ],
+   [
+    "5분",
+    "외울 말씀",
+    "빈칸 놀이 → 손으로 하트 두 개(위로 하나님, 옆으로 친구)",
+    ""
+   ],
+   [
+    "5분",
+    "확인 퀴즈",
+    "혼자 풀고 함께 확인",
+    ""
+   ],
+   [
+    "10분",
+    "활동과 기도",
+    "사랑할 사람 고르기 → 기도",
+    ""
+   ]
+  ],
+  "genc_plan": [
+   [
+    "5분",
+    "열기",
+    "“어떤 대답을 해도 곤란한 질문”을 받아 본 경험",
+    ""
+   ],
+   [
+    "15분",
+    "장면 1–2",
+    "권위 질문, 두 아들과 악한 농부, 혼인 잔치와 예복",
+    ""
+   ],
+   [
+    "10분",
+    "장면 3–4와 질문 표",
+    "가이사의 동전과 하나님의 형상, 부활 논쟁, 가장 큰 계명",
+    "“나는 누구의 형상이 새겨진 동전인가?”"
+   ],
+   [
+    "5분",
+    "확인 문제",
+    "",
+    ""
+   ],
+   [
+    "15분",
+    "나눔과 고백",
+    "나눔 질문 2개 → 하루 일정에 사랑 적용하기 → 기도",
+    ""
+   ]
+  ],
+  "ipucu_usaq": [
+   "혼인 잔치 비유의 ‘불사르고’, ‘바깥 어두운 데’ 부분은 어린이반에서 생략했습니다.",
+   "‘세금’ 이야기는 ‘하나님께 나를 드린다’는 결론으로 가도록 하세요.",
+   "가장 큰 계명은 이 과에서 꼭 외우게 하세요."
+  ],
+  "ipucu_genc": [
+   "예복 해석은 다양합니다. 핵심은 ‘은혜에 대한 합당한 응답’임을 강조하세요.",
+   "정치 문제(세금, 국가)로 토론이 흐르면 ‘하나님의 형상’으로 돌아오세요.",
+   "다음 과(23–24장)는 바리새인에 대한 화 선언과 종말 설교입니다."
+  ],
+  "suallar": [
+   [
+    "“싫어요” 하고 나중에 하면 괜찮아요?",
+    "나중에라도 하면 좋아요! 그래도 처음부터 “네” 하고 하는 게 가장 좋아요.",
+    "예수님은 회개(마음을 바꿈)를 칭찬하신 거예요. 가장 좋은 것은 말과 행동이 일치하는 거예요."
+   ],
+   [
+    "이웃은 누구예요? 모르는 사람도 이웃이에요?",
+    "네! 나와 만나는 모든 사람이 이웃이에요. 모르는 사람도, 다른 나라 사람도요.",
+    "누가복음 10장의 선한 사마리아인 비유에서 예수님은 ‘누가 이웃이냐’를 ‘네가 누구의 이웃이 되어 주겠느냐’로 바꾸셨어요."
+   ],
+   [
+    "세금을 꼭 내야 해요?",
+    "나라의 규칙도 지키는 게 좋아요. 그리고 우리 자신은 하나님께 드려요.",
+    "로마서 13:7도 세금을 바치라고 해요. 하지만 국가가 하나님의 자리를 요구할 때는 하나님께 순종해요(행 5:29)."
+   ]
+  ]
+ },
+ "en": {
+  "usaq": {
+   "basliq": "The Greatest Commandment",
+   "hedef": [
+    "We will learn to obey with actions rather than just words.",
+    "We will learn that God invites everyone to His banquet.",
+    "We will learn that loving God and our neighbor is the greatest commandment."
+   ],
+   "sehneler": [
+    {
+     "b": "The Two Sons",
+     "ayə": "Matthew 21:28–32",
+     "alt": "Sons who go and don't go to the vineyard",
+     "p": [
+      "A father said to his two sons, 'Go and work in the vineyard today.' The older son said, 'I don't want to,' but later he changed his mind and went to work.",
+      "The younger son said, 'Yes, I will go!' but he didn't go. Jesus asked, 'Which one did what his father wanted?' Actions that show [[obedience]] are more important than just words."
+     ]
+    },
+    {
+     "b": "The King's Wedding Banquet",
+     "ayə": "Matthew 22:1–10",
+     "alt": "Servants inviting people on the road to the banquet",
+     "p": [
+      "A king prepared a [[wedding banquet]] for his son and called the guests. But the people who were invited went to their fields and businesses and didn't come.",
+      "The king told his servants, 'Go out to the roads and invite anyone you see to the banquet.' So the wedding hall was filled with guests. God [[invites|invite]] everyone."
+     ]
+    },
+    {
+     "b": "Caesar's to Caesar",
+     "ayə": "Matthew 22:15–22",
+     "alt": "Jesus holding a coin and answering a question",
+     "p": [
+      "People asked Jesus a question to trick Him: 'Is it right to pay [[taxes|tax]] to the Roman emperor or not?'",
+      "Jesus looked at a coin and asked, 'Whose face is on this?' 'The emperor's.' 'Then give to Caesar what belongs to Caesar, and give to God what belongs to God.' The people were amazed."
+     ]
+    },
+    {
+     "b": "The Greatest Commandment",
+     "ayə": "Matthew 22:34–40",
+     "alt": "Jesus teaching the greatest commandment",
+     "p": [
+      "A teacher of the law asked, 'Which [[commandment]] is the greatest?'",
+      "Jesus answered, 'Love the Lord your God with all your heart, with all your soul, and with all your mind. This is the first commandment. The second is like it: Love your [[neighbor]] as yourself.'"
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "“Love the Lord your God with all your heart, with all your soul, and with all your mind. … Love your neighbor as yourself.”",
+    "ref": "22:37–39",
+    "bos": "Love the Lord your God with all your ___, with all your soul, and with all your mind. … ___ your ___ as yourself.",
+    "sozler": [
+     "heart",
+     "Love",
+     "neighbor"
+    ],
+    "yalan": "forget"
+   },
+   "lugat": {
+    "obedience": {
+     "i": "👂",
+     "x": "itaət",
+     "m": "Listening to what is said and doing it.",
+     "e": "The older son showed obedience later."
+    },
+    "wedding banquet": {
+     "i": "💒",
+     "x": "toy ziyafəti",
+     "m": "A big feast to celebrate a wedding.",
+     "e": "The king prepared a wedding banquet for his son."
+    },
+    "invite": {
+     "i": "💌",
+     "x": "dəvət",
+     "m": "To call someone to join you.",
+     "e": "God invites everyone."
+    },
+    "tax": {
+     "i": "🪙",
+     "x": "vergi",
+     "m": "Money paid to the government.",
+     "e": "Is it right to pay tax to the emperor?"
+    },
+    "commandment": {
+     "i": "📜",
+     "x": "əmr",
+     "m": "A rule or word God gives us to follow.",
+     "e": "The greatest commandment is love."
+    },
+    "neighbor": {
+     "i": "🏘️",
+     "x": "qonşu",
+     "m": "All the people around us.",
+     "e": "Love your neighbor as yourself."
+    }
+   },
+   "test": [
+    {
+     "q": "Which son did what the father wanted?",
+     "o": [
+      "The one who said 'I don't want to' but went later",
+      "The one who said 'I will go' but didn't",
+      "Both of them"
+     ],
+     "a": 0,
+     "f": "That's right! Actions are more important than words."
+    },
+    {
+     "q": "What did the king do when the invited guests didn't come?",
+     "o": [
+      "He invited everyone seen on the road",
+      "He canceled the banquet",
+      "He ate alone"
+     ],
+     "a": 0,
+     "f": "That's right! God invites everyone."
+    },
+    {
+     "q": "What did Jesus say when He looked at the coin?",
+     "o": [
+      "Give to Caesar what is Caesar's, and to God what is God's",
+      "Do not pay taxes",
+      "Throw the coin away"
+     ],
+     "a": 0,
+     "f": "That's right! It was a very wise answer."
+    },
+    {
+     "q": "What are the two greatest commandments?",
+     "o": [
+      "Loving God and loving your neighbor",
+      "Praying and fasting",
+      "Giving offerings and serving"
+     ],
+     "a": 0,
+     "f": "That's right! All the commandments depend on love."
+    }
+   ],
+   "dusun": [
+    "Have you ever said 'Yes!' but didn't do it? Or said 'I don't want to' but did it later?",
+    "How does it feel to be invited to God's banquet?",
+    "How can you love God and your neighbor this week?"
+   ],
+   "fealiyyet": {
+    "ciz": "Draw two hearts: draw yourself giving one to God and one to your neighbor.",
+    "b": "Who will you love?",
+    "p": "Choose the people you will show love to this week.",
+    "ph": "",
+    "secim": {
+     "basliq": "Who will you love?",
+     "izah": "Tap to choose. You can choose more than one.",
+     "cumle": "This week I will love {x} with all my heart!",
+     "bos": "God",
+     "bag": "and",
+     "secimler": [
+      [
+       "🙏",
+       "God"
+      ],
+      [
+       "👨‍👩‍👧",
+       "my family"
+      ],
+      [
+       "👫",
+       "my friends"
+      ],
+      [
+       "🏘️",
+       "my neighbors"
+      ],
+      [
+       "👩‍🏫",
+       "my teachers"
+      ],
+      [
+       "😠",
+       "those who don't love me"
+      ]
+     ]
+    }
+   },
+   "dua": "Dear God, thank You for inviting me to the banquet of the kingdom of heaven. Help me not just to say 'yes' with my words, but to obey with my actions. Let me love You with all my heart and love my neighbor as myself. I pray in the name of Jesus Christ. Amen."
+  },
+  "genc": {
+   "basliq": "Jesus Answers Questions",
+   "giris": "Questions rain down in the temple in Jerusalem. The chief priests, Pharisees, Herodians, and Sadducees try to trip Jesus up one after another. Jesus navigates all the traps and finally gives the most essential answer: love.",
+   "meqsed": [
+    "We understand what the three parables (the two sons, the wicked tenants, the wedding banquet) say about invitation and rejection in the kingdom of heaven.",
+    "We can explain Jesus's wisdom in the question about paying taxes to Caesar and the greatest commandment.",
+    "We make loving God and loving our neighbor a concrete priority in our lives."
+   ],
+   "sehneler": [
+    {
+     "b": "Words and Actions",
+     "ayə": "Matthew 21:23–32",
+     "alt": "Sons who go and don't go to the vineyard",
+     "p": [
+      "When the religious leaders ask, 'By what [[authority]] are you doing these things?' Jesus replies with a question about John's baptism. They couldn't answer.",
+      "Then comes the parable of the two sons. The younger son who said 'I will go' but didn't represents the outwardly religious leaders, while the older son who said 'I don't want to' but went represents the tax collectors and prostitutes. 'The tax collectors and the prostitutes are entering the kingdom of God ahead of you.'"
+     ],
+     "deep": {
+      "b": "Looking Deeper · The Wicked Tenants",
+      "p": "In the parable in 21:33–46, the owner of the vineyard sends his servants, and finally his son. The tenants kill the son. Jesus foretells His own death and quotes Psalm 118:22: 'The stone which the builders rejected has become the cornerstone.'"
+     }
+    },
+    {
+     "b": "Wedding Clothes",
+     "ayə": "Matthew 22:1–14",
+     "alt": "Servants inviting people on the road to the banquet",
+     "p": [
+      "Those invited to the king's son's [[wedding banquet]] made excuses, and even killed the servants. The king says, 'Go to the street corners and invite to the banquet anyone you find.' Both bad and good were gathered at the banquet.",
+      "But one man was not wearing wedding clothes. The invitation is free, but one must respond worthily to that invitation. 'For many are called, but few are chosen.'"
+     ],
+     "deep": {
+      "b": "Looking Deeper · What are the wedding clothes?",
+      "p": "There is an interpretation that in those days, the host of a banquet provided clothes for the guests. If so, not wearing the clothes was rejecting the host's gift. It means being invited by grace, but refusing to put on grace and insisting on one's own clothes (Isa. 61:10 'garments of salvation').",
+      "rose": true
+     }
+    },
+    {
+     "b": "Whose Image Is It?",
+     "ayə": "Matthew 22:15–33",
+     "alt": "Jesus holding a coin and answering a question",
+     "p": [
+      "The Pharisees and Herodians came together. They were usually enemies, but they joined hands to trap Jesus. 'Is it right to pay taxes to Caesar?' If He said 'yes,' He would be a traitor to the people; if He said 'no,' He would be a rebel against Rome.",
+      "Jesus has them look at the '[[image]]' and inscription on a denarius. 'Give to Caesar what is Caesar's, and to God what is God's.' If the emperor's image is on the coin, what is God's image engraved on? On us ourselves (Gen. 1:27)."
+     ],
+     "deep": {
+      "b": "Looking Deeper · The Resurrection Debate",
+      "p": "In 22:23–33, the Sadducees, who don't believe in the resurrection, test Him with a story of a woman who married seven brothers. Jesus proves the resurrection using Exodus 3:6, saying, 'God is not the God of the dead, but of the living.'"
+     }
+    },
+    {
+     "b": "The Foundation of the Entire Law",
+     "ayə": "Matthew 22:34–46",
+     "alt": "Jesus teaching the greatest commandment",
+     "p": [
+      "Rabbis counted the Law as 613 commandments. 'Which is the greatest commandment?' Jesus answers by combining Deuteronomy 6:5 (the Shema) and Leviticus 19:18: [[loving|love]] God and loving your neighbor.",
+      "'All the Law and the Prophets depend on these two commandments.' Like hinges holding a door, the whole Law hangs on these two. Then Jesus asks the final question: 'Whose son is the Christ?' He is the one David called 'Lord,' which is Jesus (Ps. 110:1)."
+     ],
+     "deep": {
+      "b": "Looking Deeper · The Two Are One",
+      "p": "Jesus says the second commandment is 'like' the first. Whether love for God is genuine is shown by love for one's neighbor (1 John 4:20). Conversely, the power to love one's neighbor comes from loving God."
+     }
+    }
+   ],
+   "cedvel": {
+    "b": "Four Questions in the Temple",
+    "alt": "21:23–22:46",
+    "bas": [
+     "Questioner",
+     "Question",
+     "Jesus's Answer"
+    ],
+    "set": [
+     [
+      "Chief priests and elders",
+      "By what authority?",
+      "Where was John's baptism from?"
+     ],
+     [
+      "Pharisees and Herodians",
+      "Taxes to Caesar?",
+      "Caesar's to Caesar, God's to God"
+     ],
+     [
+      "Sadducees",
+      "Whose wife in the resurrection?",
+      "God is the God of the living"
+     ],
+     [
+      "Teacher of the law",
+      "The greatest commandment?",
+      "Love God, love your neighbor"
+     ],
+     [
+      "Jesus",
+      "Whose son is the Christ?",
+      "No one could answer"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "“Jesus said to him, ‘You shall love the Lord your God with all your heart, with all your soul, and with all your mind.’ This is the first and greatest commandment. A second likewise is this, ‘You shall love your neighbor as yourself.’”",
+    "ref": "22:37–39"
+   },
+   "lugat": {
+    "authority": {
+     "i": "👑",
+     "o": "Greek exousia",
+     "x": "səlahiyyət",
+     "s": "Who sent you?",
+     "m": "A key word in the Gospel of Matthew, connected to 7:29, 9:6, and 28:18. Jesus's authority is from heaven.",
+     "e": "“All authority has been given to me in heaven and on earth” (28:18)."
+    },
+    "wedding banquet": {
+     "i": "💒",
+     "o": "Greek gamos",
+     "x": "toy ziyafəti",
+     "s": "The completion of the kingdom of God",
+     "m": "The Bible describes the last day as the 'wedding banquet of the Lamb' (Rev. 19:9). It also appears in the parable of the ten virgins in chapter 25.",
+     "e": "In 9:15, Jesus called Himself the 'bridegroom'."
+    },
+    "image": {
+     "i": "🖼️",
+     "o": "Greek eikon",
+     "x": "surət",
+     "s": "Engraved face",
+     "m": "The denarius had the face of Emperor Tiberius and the inscription 'son of god.' God's image is engraved on humans.",
+     "e": "This is the root of the word 'icon'."
+    },
+    "love": {
+     "i": "❤️",
+     "o": "Greek agapao",
+     "x": "sevmək",
+     "s": "Love of will and action",
+     "m": "It is not just a feeling, but a love that chooses what is best for the other person. The same verb is used for loving enemies in 5:44.",
+     "e": "“Love is the fulfillment of the law” (Rom. 13:10)."
+    }
+   },
+   "test": [
+    {
+     "q": "In the parable of the two sons, who does the son who said 'I will go' but didn't represent?",
+     "o": [
+      "The outwardly religious leaders",
+      "The tax collectors and prostitutes",
+      "The Gentiles"
+     ],
+     "a": 0,
+     "f": "Correct. His words and actions were different."
+    },
+    {
+     "q": "In the parable of the wedding banquet, what does the man not wearing wedding clothes signify?",
+     "o": [
+      "Someone who didn't respond worthily to the invitation",
+      "A poor person",
+      "Someone who arrived late"
+     ],
+     "a": 0,
+     "f": "Correct. He refused to put on grace and insisted on his own clothes."
+    },
+    {
+     "q": "Why was the tax question a trap?",
+     "o": [
+      "Whatever answer was given, it created a difficult situation",
+      "Because Jesus didn't have money",
+      "Because taxes were expensive"
+     ],
+     "a": 0,
+     "f": "Correct. He would be seen as either a traitor or a rebel."
+    },
+    {
+     "q": "If the emperor's image is on the coin, what is God's image on?",
+     "o": [
+      "Humans",
+      "The temple",
+      "The book of the Law"
+     ],
+     "a": 0,
+     "f": "Correct. We must give ourselves to God."
+    },
+    {
+     "q": "Which two Old Testament texts does the greatest commandment combine?",
+     "o": [
+      "Deuteronomy 6:5 and Leviticus 19:18",
+      "Exodus 20 and Psalm 23",
+      "Genesis 1 and Isaiah 53"
+     ],
+     "a": 0,
+     "f": "Correct. The Shema and loving your neighbor."
+    }
+   ],
+   "paylas": [
+    "Which of the two sons am I closer to? In what area are my words and actions different?",
+    "What are my 'field' and 'business' that make me put off God's invitation?",
+    "As God's image, what is it that I 'must give to God'?",
+    "Between loving God and loving my neighbor, which one am I lacking more right now?"
+   ],
+   "etiraf": {
+    "b": "My Confession",
+    "p": "Write three or four sentences applying loving God 'with all your heart, with all your soul, with all your mind' to your day (morning, school, evening).",
+    "ph": "For example: In the morning, I will pray briefly with all my heart, and at school..."
+   },
+   "dua": "Dear God, thank You for inviting me to the banquet for free and clothing me with the righteousness of Jesus. Let me not just say 'yes' with my words, but obey. Let me give myself, who is Your image, to You, love You with all my heart, soul, and mind, and love my neighbor as myself. I pray in the name of Jesus Christ. Amen."
+  }
+ },
+ "ru": {
+  "usaq": {
+   "basliq": "Самая большая заповедь",
+   "hedef": [
+    "Мы узнаем, что важно слушаться не только на словах, но и на деле.",
+    "Мы узнаем, что Бог приглашает всех на пир.",
+    "Мы узнаем, что любить Бога и ближнего — это самая большая заповедь."
+   ],
+   "sehneler": [
+    {
+     "b": "Два сына",
+     "ayə": "Матфей 21:28–32",
+     "alt": "Сыновья, которые пошли и не пошли в виноградник",
+     "p": [
+      "Отец сказал двум сыновьям: «Пойди сегодня, поработай в винограднике». Старший сын ответил: «Не хочу», но потом передумал и пошёл работать.",
+      "Младший сын сказал: «Да, иду!», но не пошёл. Иисус спросил: «Кто из них исполнил волю отца?» Важны не слова, а дела и [[послушание]]."
+     ]
+    },
+    {
+     "b": "Царский брачный пир",
+     "ayə": "Матфей 22:1–10",
+     "alt": "Слуги приглашают людей на пир на дорогах",
+     "p": [
+      "Царь приготовил для своего сына [[брачный пир]] и позвал гостей. Но приглашённые ушли на поле и на торговлю, и не пришли.",
+      "Тогда царь сказал слугам: «Идите на дороги и зовите на пир всех, кого встретите». Так зал наполнился гостями. Бог [[приглашает|приглашать]] всех людей."
+     ]
+    },
+    {
+     "b": "Кесарево кесарю",
+     "ayə": "Матфей 22:15–22",
+     "alt": "Иисус держит монету и отвечает на вопрос",
+     "p": [
+      "Люди хотели запутать Иисуса и спросили: «Нужно ли платить [[налог]] римскому императору или нет?»",
+      "Иисус посмотрел на монету и спросил: «Чьё здесь лицо?» — «Императора». — «Тогда отдавайте кесарево кесарю, а Божье — Богу». Люди очень удивились."
+     ]
+    },
+    {
+     "b": "Самая большая заповедь",
+     "ayə": "Матфей 22:34–40",
+     "alt": "Иисус учит о самой большой заповеди",
+     "p": [
+      "Один учитель Закона спросил: «Какая [[заповедь]] самая большая?»",
+      "Иисус ответил: «Возлюби Господа Бога твоего всем сердцем твоим, и всею душою твоею, и всем разумением твоим. Это первая заповедь. Вторая же подобна ей: возлюби [[ближнего|ближний]] твоего, как самого себя»."
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "«Возлюби Господа Бога твоего всем сердцем твоим, и всею душою твоею, и всем разумением твоим. … Возлюби ближнего твоего, как самого себя».",
+    "ref": "22:37–39",
+    "bos": "«Возлюби Господа Бога твоего всем ___ твоим, и всею душою твоею, и всем разумением твоим. … Возлюби ___ твоего, как самого ___».",
+    "sozler": [
+     "сердцем",
+     "ближнего",
+     "себя"
+    ],
+    "yalan": "забывай"
+   },
+   "lugat": {
+    "послушание": {
+     "i": "👂",
+     "x": "itaət",
+     "m": "Это когда ты слышишь, что тебе говорят, и делаешь это.",
+     "e": "Старший сын проявил послушание."
+    },
+    "брачный пир": {
+     "i": "💒",
+     "x": "toy ziyafəti",
+     "m": "Большой праздник в честь свадьбы.",
+     "e": "Царь устроил брачный пир для своего сына."
+    },
+    "приглашать": {
+     "i": "💌",
+     "x": "dəvət",
+     "m": "Звать кого-то, чтобы побыть вместе.",
+     "e": "Бог приглашает всех."
+    },
+    "налог": {
+     "i": "🪙",
+     "x": "vergi",
+     "m": "Деньги, которые люди платят государству.",
+     "e": "Нужно ли платить налог императору?"
+    },
+    "заповедь": {
+     "i": "📜",
+     "x": "əmr",
+     "m": "Слово или правило, которое Бог дал нам для исполнения.",
+     "e": "Самая большая заповедь — это любовь."
+    },
+    "ближний": {
+     "i": "🏘️",
+     "x": "qonşu",
+     "m": "Все люди, которые находятся вокруг нас.",
+     "e": "Возлюби ближнего твоего, как самого себя."
+    }
+   },
+   "test": [
+    {
+     "q": "Какой сын исполнил волю отца?",
+     "o": [
+      "Тот, кто сказал «Не хочу», но потом пошёл",
+      "Тот, кто сказал «Иду», но не пошёл",
+      "Оба"
+     ],
+     "a": 0,
+     "f": "Правильно! Важны дела, а не только слова."
+    },
+    {
+     "q": "Что сделал царь, когда приглашённые не пришли?",
+     "o": [
+      "Позвал всех, кого встретили на дороге",
+      "Отменил пир",
+      "Поел один"
+     ],
+     "a": 0,
+     "f": "Правильно! Бог приглашает всех."
+    },
+    {
+     "q": "Что сказал Иисус, посмотрев на монету?",
+     "o": [
+      "Отдавайте кесарево кесарю, а Божье Богу",
+      "Не платите налог",
+      "Выбросьте монету"
+     ],
+     "a": 0,
+     "f": "Правильно! Это был очень мудрый ответ."
+    },
+    {
+     "q": "Какие две самые большие заповеди?",
+     "o": [
+      "Любить Бога и любить ближнего",
+      "Молиться и поститься",
+      "Давать пожертвования и служить"
+     ],
+     "a": 0,
+     "f": "Правильно! Все заповеди зависят от любви."
+    }
+   ],
+   "dusun": [
+    "Бывало ли так, что ты говорил «Да!», но не делал? Или говорил «Не хочу», а потом делал?",
+    "Что ты чувствуешь, зная, что приглашён на Божий пир?",
+    "Как ты можешь проявить любовь к Богу и ближнему на этой неделе?"
+   ],
+   "fealiyyet": {
+    "ciz": "Нарисуй два сердечка: одно отдай Богу, а другое — ближнему. Нарисуй себя, отдающим эти сердечки.",
+    "b": "Кого ты будешь любить?",
+    "p": "Выбери людей, которым ты покажешь свою любовь на этой неделе.",
+    "ph": "",
+    "secim": {
+     "basliq": "Кого ты будешь любить?",
+     "izah": "Нажимай и выбирай. Можно выбрать несколько.",
+     "cumle": "На этой неделе я буду любить {x} всем сердцем!",
+     "bos": "Бога",
+     "bag": "и",
+     "secimler": [
+      [
+       "🙏",
+       "Бога"
+      ],
+      [
+       "👨‍👩‍👧",
+       "свою семью"
+      ],
+      [
+       "👫",
+       "своих друзей"
+      ],
+      [
+       "🏘️",
+       "своих соседей"
+      ],
+      [
+       "👩‍🏫",
+       "своих учителей"
+      ],
+      [
+       "😠",
+       "тех, кто меня не любит"
+      ]
+     ]
+    }
+   },
+   "dua": "Дорогой Бог, спасибо Тебе за то, что Ты приглашаешь меня на пир в Царство Небесное. Помоги мне не просто говорить «да», но и слушаться на деле. Помоги мне любить Тебя всем сердцем и любить ближнего, как самого себя. Во имя Иисуса Христа я молюсь. Аминь."
+  },
+  "genc": {
+   "basliq": "Иисус отвечает на вопросы",
+   "giris": "В Иерусалимском храме сыплются вопросы. Первосвященники, фарисеи, иродиане и саддукеи один за другим пытаются подловить Иисуса. Иисус обходит все ловушки и в конце даёт самый главный ответ: любите.",
+   "meqsed": [
+    "Мы понимаем, что три притчи (о двух сыновьях, о злых виноградарях, о брачном пире) говорят о приглашении в Царство Небесное и об отвержении.",
+    "Мы можем объяснить мудрость Иисуса в вопросе о налоге кесарю и о самой большой заповеди.",
+    "Мы делаем любовь к Богу и ближнему конкретным приоритетом в нашей жизни."
+   ],
+   "sehneler": [
+    {
+     "b": "Слова и дела",
+     "ayə": "Матфей 21:23–32",
+     "alt": "Сыновья, которые пошли и не пошли в виноградник",
+     "p": [
+      "Религиозные вожди спрашивают: «Какой [[властью|власть]] Ты это делаешь?» Иисус отвечает вопросом о крещении Иоанна. Они не смогли ответить.",
+      "Затем следует притча о двух сыновьях. Младший сын, сказавший «иду» и не пошедший, — это внешне благочестивые религиозные вожди, а старший, сказавший «не хочу» и пошедший, — это мытари и блудницы. «Мытари и блудницы вперёд вас идут в Царство Божье»."
+     ],
+     "deep": {
+      "b": "Взгляд в глубину · Злые виноградари",
+      "p": "В притче из 21:33–46 хозяин виноградника посылает слуг, а напоследок — своего сына. Виноградари убивают сына. Иисус предсказывает Свою смерть и цитирует Псалом 117:22: «Камень, который отвергли строители, соделался главою угла»."
+     }
+    },
+    {
+     "b": "Брачная одежда",
+     "ayə": "Матфей 22:1–14",
+     "alt": "Слуги приглашают людей на пир на дорогах",
+     "p": [
+      "Приглашённые на [[брачный пир]] царского сына стали придумывать отговорки и даже убили слуг. Царь говорит: «Итак пойдите на распутия и всех, кого найдёте, зовите на брачный пир». И злые, и добрые собрались на пир.",
+      "Но один человек был не в брачной одежде. Приглашение бесплатно, но на него нужно ответить достойно. «Ибо много званых, а мало избранных»."
+     ],
+     "deep": {
+      "b": "Взгляд в глубину · Что такое брачная одежда?",
+      "p": "Есть толкование, что в то время хозяин пира сам предоставлял одежду гостям. Если так, то прийти без неё означало отвергнуть подарок хозяина. Это значит быть приглашённым по благодати, но не облечься в неё, настаивая на своей собственной одежде (Ис. 61:10 «ризы спасения»).",
+      "rose": true
+     }
+    },
+    {
+     "b": "Чьё это изображение?",
+     "ayə": "Матфей 22:15–33",
+     "alt": "Иисус держит монету и отвечает на вопрос",
+     "p": [
+      "Фарисеи и иродиане пришли вместе. Обычно они враждовали, но объединились, чтобы уловить Иисуса. «Позволительно ли давать подать кесарю?» Скажет «да» — станет предателем народа, скажет «нет» — мятежником против Рима.",
+      "Иисус просит посмотреть на «[[изображение]]» и надпись на динарии. «Итак отдавайте кесарево кесарю, а Божье Богу». Если на монете изображение императора, то на чём запечатлено Божье изображение? На нас самих (Быт. 1:27)."
+     ],
+     "deep": {
+      "b": "Взгляд в глубину · Спор о воскресении",
+      "p": "В 22:23–33 саддукеи, не верящие в воскресение, испытывают Его историей о женщине, вышедшей замуж за семь братьев. Иисус доказывает воскресение через Исход 3:6, говоря: «Бог не есть Бог мёртвых, но живых»."
+     }
+    },
+    {
+     "b": "Основа всего Закона",
+     "ayə": "Матфей 22:34–46",
+     "alt": "Иисус учит о самой большой заповеди",
+     "p": [
+      "Раввины насчитывали в Законе 613 заповедей. «Какая заповедь наибольшая?» Иисус отвечает, объединяя Второзаконие 6:5 (Шма) и Левит 19:18: [[любить]] Бога и любить ближнего.",
+      "«На сих двух заповедях утверждается весь Закон и пророки». Как дверь держится на петлях, так и весь Закон зависит от этих двух. Затем Иисус задаёт последний вопрос: «Что вы думаете о Христе? Чей Он сын?» Тот, кого Давид называет «Господом», и есть Иисус (Пс. 109:1)."
+     ],
+     "deep": {
+      "b": "Взгляд в глубину · Две как одна",
+      "p": "Иисус говорит, что вторая заповедь «подобна» первой. Истинность любви к Богу проявляется в любви к ближнему (1 Ин. 4:20). И наоборот, сила для любви к ближнему исходит из любви к Богу."
+     }
+    }
+   ],
+   "cedvel": {
+    "b": "Четыре вопроса в храме",
+    "alt": "21:23–22:46",
+    "bas": [
+     "Кто спрашивал",
+     "Вопрос",
+     "Ответ Иисуса"
+    ],
+    "set": [
+     [
+      "Первосвященники и старейшины",
+      "Какой властью?",
+      "Крещение Иоанново откуда было?"
+     ],
+     [
+      "Фарисеи и иродиане",
+      "Подать кесарю?",
+      "Кесарево кесарю, а Божье Богу"
+     ],
+     [
+      "Саддукеи",
+      "Чьей женой будет в воскресении?",
+      "Бог есть Бог живых"
+     ],
+     [
+      "Учитель Закона",
+      "Какая наибольшая заповедь?",
+      "Любить Бога, любить ближнего"
+     ],
+     [
+      "Иисус",
+      "Христос чей сын?",
+      "Никто не смог ответить"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "«Иисус сказал ему: возлюби Господа Бога твоего всем сердцем твоим и всею душою твоею и всем разумением твоим: сия есть первая и наибольшая заповедь; вторая же подобна ей: возлюби ближнего твоего, как самого себя».",
+    "ref": "22:37–39"
+   },
+   "lugat": {
+    "власть": {
+     "i": "👑",
+     "o": "Греческое эксусия",
+     "x": "səlahiyyət",
+     "s": "Кто послал?",
+     "m": "Ключевое слово Евангелия от Матфея, связанное с 7:29, 9:6, 28:18. Власть Иисуса исходит с небес.",
+     "e": "«Дана Мне всякая власть на небе и на земле» (28:18)."
+    },
+    "брачный пир": {
+     "i": "💒",
+     "o": "Греческое гамос",
+     "x": "toy ziyafəti",
+     "s": "Завершение Царства Божьего",
+     "m": "Библия описывает последний день как «брачный пир Агнца» (Откр. 19:9). Это также встречается в притче о десяти девах в 25-й главе.",
+     "e": "В 9:15 Иисус назвал Себя «женихом»."
+    },
+    "изображение": {
+     "i": "🖼️",
+     "o": "Греческое эйкон",
+     "x": "surət",
+     "s": "Запечатлённое лицо",
+     "m": "На динарии было лицо императора Тиберия и надпись «сын бога». Божье изображение запечатлено на человеке.",
+     "e": "От этого слова происходит слово «икона» (icon)."
+    },
+    "любить": {
+     "i": "❤️",
+     "o": "Греческое агапао",
+     "x": "sevmək",
+     "s": "Любовь воли и действия",
+     "m": "Это не просто чувство, а любовь, выбирающая лучшее для другого. Тот же глагол используется в любви к врагам в 5:44.",
+     "e": "«Любовь есть исполнение закона» (Рим. 13:10)."
+    }
+   },
+   "test": [
+    {
+     "q": "Кого символизирует сын, сказавший «иду» и не пошедший, в притче о двух сыновьях?",
+     "o": [
+      "Внешне благочестивых религиозных вождей",
+      "Мытарей и блудниц",
+      "Язычников"
+     ],
+     "a": 0,
+     "f": "Правильно. Их слова расходились с делами."
+    },
+    {
+     "q": "Что означает человек без брачной одежды в притче о брачном пире?",
+     "o": [
+      "Того, кто не ответил на приглашение достойно",
+      "Бедного человека",
+      "Опоздавшего гостя"
+     ],
+     "a": 0,
+     "f": "Правильно. Он не облёкся в благодать, настаивая на своей одежде."
+    },
+    {
+     "q": "Почему вопрос о налоге был ловушкой?",
+     "o": [
+      "Любой ответ создавал трудную ситуацию",
+      "Потому что у Иисуса не было денег",
+      "Потому что налог был высоким"
+     ],
+     "a": 0,
+     "f": "Правильно. Он стал бы либо предателем, либо мятежником."
+    },
+    {
+     "q": "Если на монете изображение императора, то на чём Божье изображение?",
+     "o": [
+      "На человеке",
+      "На храме",
+      "На книге Закона"
+     ],
+     "a": 0,
+     "f": "Правильно. Мы должны отдавать самих себя Богу."
+    },
+    {
+     "q": "Какие два текста Ветхого Завета объединяет самая большая заповедь?",
+     "o": [
+      "Второзаконие 6:5 и Левит 19:18",
+      "Исход 20 и Псалом 22",
+      "Бытие 1 и Исаия 53"
+     ],
+     "a": 0,
+     "f": "Правильно. Шма и любовь к ближнему."
+    }
+   ],
+   "paylas": [
+    "К кому из двух сыновей я ближе? В какой сфере мои слова расходятся с делами?",
+    "Что является моим «полем» и «торговлей», заставляющими меня откладывать Божье приглашение?",
+    "Что я должен «отдавать Богу», будучи Его изображением?",
+    "Чего мне сейчас больше не хватает: любви к Богу или любви к ближнему?"
+   ],
+   "etiraf": {
+    "b": "Моё признание",
+    "p": "Напиши три-четыре предложения, применяя любовь к Богу «всем сердцем, всею душою, всем разумением» к своему дню (утро, школа, вечер).",
+    "ph": "Например: Утром я от всего сердца помолюсь короткой молитвой, а в школе…"
+   },
+   "dua": "Боже, спасибо Тебе за то, что Ты бесплатно пригласил меня на пир и облёк в праведность Иисуса. Помоги мне не только говорить «да», но и слушаться. Помоги мне отдать Тебе самого себя, ведь я — Твоё изображение; любить Тебя всем сердцем, душою и разумением, и любить ближнего, как самого себя. Во имя Иисуса Христа я молюсь. Аминь."
+  }
  }
-},
-"muellim": {
- "mesaj": "27과의 중심은 한 문장입니다. **하나님은 모든 사람을 은혜의 잔치에 초대하시며, 그 초대에 대한 참된 응답은 말이 아닌 순종, 곧 마음을 다한 하나님 사랑과 이웃 사랑이다.**",
- "hazirliq": ["학생용 교재를 열 휴대폰이나 태블릿, 이어폰", "동전 하나 (얼굴이 있는 동전)", "초대장 카드 (아이들 이름을 써서 나눠 주기)"],
- "fon": [
-  ["1. 화요일의 논쟁", "21:23–22:46은 고난 주간 화요일로 추정되는 하루의 논쟁입니다. 종교 권력의 모든 집단이 등장하고 모두 침묵하게 됩니다(22:46)."],
-  ["2. 세 비유", "두 아들(말과 행동), 악한 농부(아들을 죽임), 혼인 잔치(초대 거절)는 모두 이스라엘 지도자들의 거절과 이방인·죄인의 수용을 말합니다."],
-  ["3. 세금 동전", "티베리우스 데나리온에는 “신성한 아우구스투스의 아들 티베리우스 황제”라고 새겨져 있었습니다. 유대인에게는 우상 숭배적인 문구였습니다."],
-  ["4. 쉐마", "신명기 6:4–5는 유대인이 매일 아침저녁 암송한 신앙 고백입니다. 예수님은 여기에 레위기 19:18을 결합하셨습니다."],
-  ["5. 정치적 적용", "‘가이사의 것은 가이사에게’를 정교분리나 무조건적 복종으로 단순화하지 마세요. 핵심은 모든 것 위에 하나님께 속한 ‘나’를 드리는 것입니다."]
- ],
- "usaq_plan": [
-  ["5분", "초대장 받기", "이름이 적힌 초대장을 한 명씩 나눠 주기", "“하나님이 여러분을 하나님 나라 잔치에 초대하셨어요!”"],
-  ["15분", "장면 1–4 듣고 읽기", "장면마다 듣기, 노란 낱말 누르기", "“동전에는 황제 얼굴, 우리에게는 하나님의 모습이 있어요.”"],
-  ["5분", "외울 말씀", "빈칸 놀이 → 손으로 하트 두 개(위로 하나님, 옆으로 친구)", ""],
-  ["5분", "확인 퀴즈", "혼자 풀고 함께 확인", ""],
-  ["10분", "활동과 기도", "사랑할 사람 고르기 → 기도", ""]
- ],
- "genc_plan": [
-  ["5분", "열기", "“어떤 대답을 해도 곤란한 질문”을 받아 본 경험", ""],
-  ["15분", "장면 1–2", "권위 질문, 두 아들과 악한 농부, 혼인 잔치와 예복", ""],
-  ["10분", "장면 3–4와 질문 표", "가이사의 동전과 하나님의 형상, 부활 논쟁, 가장 큰 계명", "“나는 누구의 형상이 새겨진 동전인가?”"],
-  ["5분", "확인 문제", "", ""],
-  ["15분", "나눔과 고백", "나눔 질문 2개 → 하루 일정에 사랑 적용하기 → 기도", ""]
- ],
- "ipucu_usaq": ["혼인 잔치 비유의 ‘불사르고’, ‘바깥 어두운 데’ 부분은 어린이반에서 생략했습니다.", "‘세금’ 이야기는 ‘하나님께 나를 드린다’는 결론으로 가도록 하세요.", "가장 큰 계명은 이 과에서 꼭 외우게 하세요."],
- "ipucu_genc": ["예복 해석은 다양합니다. 핵심은 ‘은혜에 대한 합당한 응답’임을 강조하세요.", "정치 문제(세금, 국가)로 토론이 흐르면 ‘하나님의 형상’으로 돌아오세요.", "다음 과(23–24장)는 바리새인에 대한 화 선언과 종말 설교입니다."],
- "suallar": [
-  ["“싫어요” 하고 나중에 하면 괜찮아요?", "나중에라도 하면 좋아요! 그래도 처음부터 “네” 하고 하는 게 가장 좋아요.", "예수님은 회개(마음을 바꿈)를 칭찬하신 거예요. 가장 좋은 것은 말과 행동이 일치하는 거예요."],
-  ["이웃은 누구예요? 모르는 사람도 이웃이에요?", "네! 나와 만나는 모든 사람이 이웃이에요. 모르는 사람도, 다른 나라 사람도요.", "누가복음 10장의 선한 사마리아인 비유에서 예수님은 ‘누가 이웃이냐’를 ‘네가 누구의 이웃이 되어 주겠느냐’로 바꾸셨어요."],
-  ["세금을 꼭 내야 해요?", "나라의 규칙도 지키는 게 좋아요. 그리고 우리 자신은 하나님께 드려요.", "로마서 13:7도 세금을 바치라고 해요. 하지만 국가가 하나님의 자리를 요구할 때는 하나님께 순종해요(행 5:29)."]
- ]
-}
 }

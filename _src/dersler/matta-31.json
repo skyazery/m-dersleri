@@ -1,155 +1,1243 @@
 {
-"no": 31, "ref": "26:36–75", "deq": {"usaq": 40, "genc": 50},
-"img": ["37-getsemani.jpg", "38-hebs.jpg", "matta/31-sinedrion.jpg", "39-peter-inkar.jpg"],
-"hero": 0,
-"ko": {
- "usaq": {
-  "basliq": "아버지의 원대로",
-  "hedef": ["예수님이 겟세마네 동산에서 기도하신 이야기를 알아요.", "예수님이 붙잡히시고 재판받으신 것이 우리를 위한 것임을 배워요.", "넘어진 베드로를 통해 회개의 눈물을 배워요."],
-  "sehneler": [
-   {"b": "겟세마네의 기도", "ayə": "26:36–46", "alt": "겟세마네 동산에서 무릎 꿇고 기도하시는 예수님", "p": ["예수님은 [[겟세마네]] 동산에 가셔서 너무 슬프고 괴로운 마음으로 기도하셨어요. “아버지, 할 수만 있다면 이 잔을 지나가게 해 주세요.”", "그리고 이어서 기도하셨어요. “그러나 나의 원대로 하지 마시고 아버지의 원대로 하세요.” 그런데 제자들은 깨어 있지 못하고 잠이 들었어요."]},
-   {"b": "붙잡히신 예수님", "ayə": "26:47–56", "alt": "칼과 몽둥이를 든 사람들에게 붙잡히시는 예수님", "p": ["유다가 칼과 몽둥이를 든 사람들을 데리고 왔어요. 유다는 예수님께 [[입맞춤]]으로 신호를 보냈어요.", "한 제자가 칼을 빼자 예수님이 말씀하셨어요. “칼을 도로 꽂아라. 내가 아버지께 구하면 천사들을 보내 주실 거야. 하지만 성경 말씀이 이루어져야 한다.” 그러자 제자들이 모두 도망갔어요."]},
-   {"b": "재판받으신 예수님", "ayə": "26:57–68", "alt": "대제사장 앞에서 재판받으시는 예수님", "p": ["사람들이 예수님을 대제사장 가야바에게 끌고 가서 [[재판]]했어요. 거짓 증인들이 나와도 예수님은 조용히 계셨어요.", "대제사장이 물었어요. “네가 하나님의 아들 그리스도냐?” 예수님이 대답하셨어요. “네가 말하였다.” 그러자 그들은 예수님께 침을 뱉고 때렸어요. 예수님은 우리를 위해 참으셨어요."]},
-   {"b": "울었던 베드로", "ayə": "26:69–75", "alt": "닭 울음소리를 듣고 우는 베드로", "p": ["베드로는 멀리서 따라와 마당에 있었어요. 사람들이 “너도 예수와 함께 있었지?” 묻자 베드로는 세 번이나 “나는 그 사람을 몰라요!” 했어요.", "그때 [[닭]]이 울었어요. 베드로는 예수님의 말씀이 생각나서 밖으로 나가 슬피 울었어요. 그 눈물은 [[회개]]의 눈물이었어요."]}
-  ],
-  "aye": {"metn": "“나의 원대로 마시옵고 아버지의 원대로 하옵소서.”", "ref": "26:39", "bos": "나의 ___대로 마시옵고 ___의 원대로 ___.", "sozler": ["원", "아버지", "하옵소서"], "yalan": "친구"},
-  "lugat": {
-   "겟세마네": {"i": "🫒", "x": "Getsemani", "m": "예루살렘 옆 감람산에 있는 올리브 동산이에요. ‘기름 짜는 곳’이라는 뜻이에요.", "e": "예수님은 겟세마네에서 기도하셨어요."},
-   "입맞춤": {"i": "💋", "x": "öpüş", "m": "볼에 입을 맞추는 인사예요. 유다는 이것을 배신의 신호로 썼어요.", "e": "유다는 입맞춤으로 예수님을 넘겼어요."},
-   "재판": {"i": "⚖️", "x": "məhkəmə", "m": "죄가 있는지 없는지 따지는 일이에요.", "e": "예수님은 죄가 없는데도 재판을 받으셨어요."},
-   "닭": {"i": "🐓", "x": "xoruz", "m": "새벽에 우는 새예요.", "e": "닭이 울자 베드로가 울었어요."},
-   "회개": {"i": "💧", "x": "tövbə", "m": "잘못을 슬퍼하고 하나님께 돌아오는 거예요.", "e": "베드로는 회개의 눈물을 흘렸어요."}
-  },
-  "test": [
-   {"q": "예수님이 기도하신 곳은?", "o": ["겟세마네 동산", "성전 지붕", "갈릴리 배"], "a": 0, "f": "맞아요! 감람산의 올리브 동산이에요."},
-   {"q": "예수님은 누구의 뜻대로 되기를 기도하셨나요?", "o": ["아버지의 뜻", "제자들의 뜻", "군인들의 뜻"], "a": 0, "f": "맞아요! 아버지께 순종하셨어요."},
-   {"q": "칼을 뺀 제자에게 예수님이 하신 말씀은?", "o": ["칼을 도로 꽂아라", "더 세게 싸워라", "도망가라"], "a": 0, "f": "맞아요! 예수님은 싸우지 않으셨어요."},
-   {"q": "닭이 울자 베드로는 어떻게 했나요?", "o": ["밖으로 나가 슬피 울었어요", "웃었어요", "잠을 잤어요"], "a": 0, "f": "맞아요. 회개의 눈물이었어요."}
-  ],
-  "dusun": ["예수님은 왜 “아버지의 원대로 하옵소서”라고 기도하셨을까요?", "제자들이 잠들었을 때 예수님의 마음은 어땠을까요?", "베드로처럼 잘못했을 때 나는 어떻게 하나요?"],
-  "fealiyyet": {"ciz": "겟세마네 동산에서 무릎 꿇고 기도하시는 예수님을 그려 보세요.", "b": "나의 기도", "p": "“아버지의 원대로 하옵소서”를 넣어 나의 기도를 써 보세요.", "ph": "예) 하나님, 저는 이번 시험을 잘 보고 싶어요. 하지만 아버지의 뜻대로 하세요."},
-  "dua": "예수님, 너무 괴로우셨는데도 “아버지의 원대로 하옵소서” 하고 우리를 위해 십자가의 길을 가셔서 감사합니다. 저도 제 뜻보다 하나님의 뜻을 따르게 해 주세요. 베드로처럼 넘어질 때 숨지 않고 회개하며 예수님께 돌아가게 해 주세요. 예수님 이름으로 기도합니다. 아멘."
+ "no": 31,
+ "ref": "26:36–75",
+ "deq": {
+  "usaq": 40,
+  "genc": 50
  },
- "genc": {
-  "basliq": "가장 어두운 밤",
-  "giris": "목요일 밤부터 금요일 새벽까지. 기름 짜는 동산에서 예수님은 땅에 엎드려 기도하시고, 입맞춤으로 팔리시고, 불법 재판을 받으시고, 가장 가까운 제자에게 세 번 부인당하십니다. 모두가 떠난 그 밤, 예수님은 홀로 아버지의 뜻을 붙드셨습니다.",
-  "meqsed": ["겟세마네 기도에서 예수님의 참 인간 되심과 순종을 이해해요.", "체포와 재판 장면에서 예수님의 자발적 고난과 정체를 설명할 수 있어요.", "베드로의 부인과 눈물을 통해 실패 후 회개의 길을 배워요."],
-  "sehneler": [
-   {"b": "이 잔을", "ayə": "26:36–46", "alt": "겟세마네 동산에서 무릎 꿇고 기도하시는 예수님", "p": ["“내 마음이 매우 고민하여 죽게 되었으니.” 예수님은 [[겟세마네]]에서 얼굴을 땅에 대고 세 번 기도하세요. “내 아버지여 만일 할 만하시거든 이 잔을 내게서 지나가게 하옵소서 그러나 나의 원대로 마시옵고 아버지의 원대로 하옵소서.”", "‘잔’은 하나님의 진노의 잔이에요(사 51:17). 죄 없으신 분이 죄인의 자리를 감당해야 했어요. 세 제자는 세 번 잠들었어요. “마음에는 원이로되 육신이 약하도다.”"], "deep": {"b": "깊이 보기 · 두 동산", "p": "에덴동산에서 아담은 “내 뜻대로” 하여 하나님을 떠났어요. 겟세마네 동산에서 둘째 아담 예수님은 “아버지의 뜻대로” 하여 우리를 하나님께 돌아오게 하세요. 주기도문의 “뜻이 … 이루어지이다”(6:10)가 가장 무거운 순간에 기도돼요."}},
-   {"b": "입맞춤과 칼", "ayə": "26:47–56", "alt": "칼과 몽둥이를 든 사람들에게 붙잡히시는 예수님", "p": ["유다는 “랍비여 안녕하시옵니까” 하며 입을 맞췄어요. 예수님은 “친구여 네가 무엇을 하려고 왔는지 행하라” 하세요. 끝까지 ‘친구’라고 부르셨어요.", "베드로(요한복음에 따르면)가 칼로 대제사장 종의 귀를 쳤어요. 예수님은 “칼을 가지는 자는 다 칼로 망하느니라” 하시고, 열두 군단 더 되는 [[천사]]를 부를 수 있지만 성경을 이루기 위해 스스로 잡히세요. “이에 제자들이 다 예수를 버리고 도망하니라.”"], "deep": {"b": "깊이 보기 · 자발적 고난", "p": "예수님은 무력하게 잡히신 게 아니에요. 열두 군단(약 72,000명)의 천사를 부를 수 있었지만 선택하지 않으셨어요. 5:39 “악한 자를 대적하지 말라”를 십자가 앞에서 몸으로 사셨어요."}},
-   {"b": "불법 재판", "ayə": "26:57–68", "alt": "대제사장 앞에서 재판받으시는 예수님", "p": ["밤중에 열린 [[산헤드린]] 재판은 당시 법으로도 불법이었어요. 거짓 증인들의 말도 서로 맞지 않았어요. 예수님은 이사야 53:7처럼 침묵하셨어요.", "대제사장이 “살아 계신 하나님께 맹세하게 하노니 … 그리스도인지 우리에게 말하라” 하자 예수님은 대답하세요. “네가 말하였느니라. … 이후에 인자가 권능의 우편에 앉아 있는 것과 하늘 구름을 타고 오는 것을 너희가 보리라.” 다니엘 7:13과 시편 110:1을 합친 대답이에요."], "deep": {"b": "깊이 보기 · 재판받는 재판장", "p": "예수님은 자신이 다니엘 7장의 ‘인자’, 곧 온 세상을 심판하실 분이라고 밝히세요. 재판받는 분이 사실은 마지막 날의 재판장이세요. 그들은 그 고백을 ‘신성 모독’이라며 사형을 결정해요.", "rose": true}},
-   {"b": "닭 울음과 눈물", "ayə": "26:69–75", "alt": "닭 울음소리를 듣고 우는 베드로", "p": ["베드로는 그래도 따라왔어요. 다른 제자들은 다 도망갔지만 그는 마당까지 왔어요. 그런데 여종의 질문 앞에서 무너졌어요. 첫째는 “무슨 말인지 알지 못하겠노라”, 둘째는 맹세하고, 셋째는 저주하며 “나는 그 사람을 알지 못하노라.”", "같은 시간 안에서 예수님은 고백하시고, 베드로는 부인했어요. 닭이 울자 베드로는 예수님의 말씀이 생각나 “밖에 나가서 심히 통곡하니라.” 유다와 베드로 모두 넘어졌지만, 베드로의 눈물은 [[회개]]로 이어져 회복의 길이 열렸어요."], "deep": {"b": "깊이 보기 · 유다와 베드로", "p": "둘 다 예수님을 배신했어요. 유다는 후회했지만(27:3) 예수님께 돌아가지 않았고, 베드로는 울었고 결국 다시 돌아왔어요(요 21장). 차이는 죄의 크기가 아니라, 넘어진 뒤 어디로 향했느냐예요."}}
-  ],
-  "cedvel": {"b": "같은 밤, 다른 반응", "alt": "26:36–75", "bas": ["인물", "그 밤의 모습", "결과"], "set": [["예수님", "땅에 엎드려 기도, 침묵, 고백", "아버지의 뜻에 순종"], ["세 제자", "세 번 잠듦", "시험에 대비하지 못함"], ["유다", "입맞춤으로 넘김", "후회했지만 돌아오지 않음"], ["베드로", "따라왔지만 세 번 부인", "통곡하며 회개, 나중에 회복"], ["대제사장", "거짓 증인과 불법 재판", "참 재판장을 정죄함"]]},
-  "aye": {"metn": "“조금 나아가사 얼굴을 땅에 대시고 엎드려 기도하여 이르시되 내 아버지여 만일 할 만하시거든 이 잔을 내게서 지나가게 하옵소서 그러나 나의 원대로 마시옵고 아버지의 원대로 하옵소서 하시고.”", "ref": "26:39"},
-  "lugat": {
-   "겟세마네": {"i": "🫒", "o": "아람어 갓 쉬마님, ‘기름 짜는 틀’", "x": "Getsemani", "s": "짓눌리는 곳", "m": "올리브를 무거운 돌로 눌러 기름을 짜던 곳이에요. 예수님의 마음이 그렇게 짓눌리셨어요.", "e": "지금도 그곳에는 수백 년 된 올리브나무들이 있어요."},
-   "천사": {"i": "👼", "o": "헬라어 앙겔로스", "x": "mələk", "s": "하나님의 군대", "m": "로마 군단 하나는 약 6,000명이에요. 열두 군단이면 7만 명이 넘어요.", "e": "광야에서도 천사들이 예수님을 섬겼어요(4:11)."},
-   "산헤드린": {"i": "🏛️", "o": "헬라어 쉬네드리온, ‘공의회’", "x": "Sinedrion", "s": "유대 최고 의회", "m": "대제사장을 의장으로 한 71명의 의회예요. 원래 사형 재판은 낮에, 이틀에 걸쳐 해야 했어요.", "e": "아리마대 요셉도 이 의회 의원이었어요(눅 23:50–51)."},
-   "회개": {"i": "💧", "o": "헬라어 메타노이아, ‘마음을 돌이킴’", "x": "tövbə", "s": "방향 전환", "m": "후회(감정)를 넘어 하나님께로 방향을 돌리는 거예요. 3:2, 4:17의 첫 메시지도 “회개하라”였어요.", "e": "“하나님의 뜻대로 하는 근심은 후회할 것이 없는 구원에 이르게 하는 회개를 이루는 것이요”(고후 7:10)."}
+ "img": [
+  "37-getsemani.jpg",
+  "38-hebs.jpg",
+  "matta/31-sinedrion.jpg",
+  "39-peter-inkar.jpg"
+ ],
+ "hero": 0,
+ "ko": {
+  "usaq": {
+   "basliq": "아버지의 원대로",
+   "hedef": [
+    "예수님이 겟세마네 동산에서 기도하신 이야기를 알아요.",
+    "예수님이 붙잡히시고 재판받으신 것이 우리를 위한 것임을 배워요.",
+    "넘어진 베드로를 통해 회개의 눈물을 배워요."
+   ],
+   "sehneler": [
+    {
+     "b": "겟세마네의 기도",
+     "ayə": "26:36–46",
+     "alt": "겟세마네 동산에서 무릎 꿇고 기도하시는 예수님",
+     "p": [
+      "예수님은 [[겟세마네]] 동산에 가셔서 너무 슬프고 괴로운 마음으로 기도하셨어요. “아버지, 할 수만 있다면 이 잔을 지나가게 해 주세요.”",
+      "그리고 이어서 기도하셨어요. “그러나 나의 원대로 하지 마시고 아버지의 원대로 하세요.” 그런데 제자들은 깨어 있지 못하고 잠이 들었어요."
+     ]
+    },
+    {
+     "b": "붙잡히신 예수님",
+     "ayə": "26:47–56",
+     "alt": "칼과 몽둥이를 든 사람들에게 붙잡히시는 예수님",
+     "p": [
+      "유다가 칼과 몽둥이를 든 사람들을 데리고 왔어요. 유다는 예수님께 [[입맞춤]]으로 신호를 보냈어요.",
+      "한 제자가 칼을 빼자 예수님이 말씀하셨어요. “칼을 도로 꽂아라. 내가 아버지께 구하면 천사들을 보내 주실 거야. 하지만 성경 말씀이 이루어져야 한다.” 그러자 제자들이 모두 도망갔어요."
+     ]
+    },
+    {
+     "b": "재판받으신 예수님",
+     "ayə": "26:57–68",
+     "alt": "대제사장 앞에서 재판받으시는 예수님",
+     "p": [
+      "사람들이 예수님을 대제사장 가야바에게 끌고 가서 [[재판]]했어요. 거짓 증인들이 나와도 예수님은 조용히 계셨어요.",
+      "대제사장이 물었어요. “네가 하나님의 아들 그리스도냐?” 예수님이 대답하셨어요. “네가 말하였다.” 그러자 그들은 예수님께 침을 뱉고 때렸어요. 예수님은 우리를 위해 참으셨어요."
+     ]
+    },
+    {
+     "b": "울었던 베드로",
+     "ayə": "26:69–75",
+     "alt": "닭 울음소리를 듣고 우는 베드로",
+     "p": [
+      "베드로는 멀리서 따라와 마당에 있었어요. 사람들이 “너도 예수와 함께 있었지?” 묻자 베드로는 세 번이나 “나는 그 사람을 몰라요!” 했어요.",
+      "그때 [[닭]]이 울었어요. 베드로는 예수님의 말씀이 생각나서 밖으로 나가 슬피 울었어요. 그 눈물은 [[회개]]의 눈물이었어요."
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "“나의 원대로 마시옵고 아버지의 원대로 하옵소서.”",
+    "ref": "26:39",
+    "bos": "나의 ___대로 마시옵고 ___의 원대로 ___.",
+    "sozler": [
+     "원",
+     "아버지",
+     "하옵소서"
+    ],
+    "yalan": "친구"
+   },
+   "lugat": {
+    "겟세마네": {
+     "i": "🫒",
+     "x": "Getsemani",
+     "m": "예루살렘 옆 감람산에 있는 올리브 동산이에요. ‘기름 짜는 곳’이라는 뜻이에요.",
+     "e": "예수님은 겟세마네에서 기도하셨어요."
+    },
+    "입맞춤": {
+     "i": "💋",
+     "x": "öpüş",
+     "m": "볼에 입을 맞추는 인사예요. 유다는 이것을 배신의 신호로 썼어요.",
+     "e": "유다는 입맞춤으로 예수님을 넘겼어요."
+    },
+    "재판": {
+     "i": "⚖️",
+     "x": "məhkəmə",
+     "m": "죄가 있는지 없는지 따지는 일이에요.",
+     "e": "예수님은 죄가 없는데도 재판을 받으셨어요."
+    },
+    "닭": {
+     "i": "🐓",
+     "x": "xoruz",
+     "m": "새벽에 우는 새예요.",
+     "e": "닭이 울자 베드로가 울었어요."
+    },
+    "회개": {
+     "i": "💧",
+     "x": "tövbə",
+     "m": "잘못을 슬퍼하고 하나님께 돌아오는 거예요.",
+     "e": "베드로는 회개의 눈물을 흘렸어요."
+    }
+   },
+   "test": [
+    {
+     "q": "예수님이 기도하신 곳은?",
+     "o": [
+      "겟세마네 동산",
+      "성전 지붕",
+      "갈릴리 배"
+     ],
+     "a": 0,
+     "f": "맞아요! 감람산의 올리브 동산이에요."
+    },
+    {
+     "q": "예수님은 누구의 뜻대로 되기를 기도하셨나요?",
+     "o": [
+      "아버지의 뜻",
+      "제자들의 뜻",
+      "군인들의 뜻"
+     ],
+     "a": 0,
+     "f": "맞아요! 아버지께 순종하셨어요."
+    },
+    {
+     "q": "칼을 뺀 제자에게 예수님이 하신 말씀은?",
+     "o": [
+      "칼을 도로 꽂아라",
+      "더 세게 싸워라",
+      "도망가라"
+     ],
+     "a": 0,
+     "f": "맞아요! 예수님은 싸우지 않으셨어요."
+    },
+    {
+     "q": "닭이 울자 베드로는 어떻게 했나요?",
+     "o": [
+      "밖으로 나가 슬피 울었어요",
+      "웃었어요",
+      "잠을 잤어요"
+     ],
+     "a": 0,
+     "f": "맞아요. 회개의 눈물이었어요."
+    }
+   ],
+   "dusun": [
+    "예수님은 왜 “아버지의 원대로 하옵소서”라고 기도하셨을까요?",
+    "제자들이 잠들었을 때 예수님의 마음은 어땠을까요?",
+    "베드로처럼 잘못했을 때 나는 어떻게 하나요?"
+   ],
+   "fealiyyet": {
+    "ciz": "겟세마네 동산에서 무릎 꿇고 기도하시는 예수님을 그려 보세요.",
+    "b": "나의 기도",
+    "p": "“아버지의 원대로 하옵소서”를 넣어 나의 기도를 써 보세요.",
+    "ph": "예) 하나님, 저는 이번 시험을 잘 보고 싶어요. 하지만 아버지의 뜻대로 하세요."
+   },
+   "dua": "예수님, 너무 괴로우셨는데도 “아버지의 원대로 하옵소서” 하고 우리를 위해 십자가의 길을 가셔서 감사합니다. 저도 제 뜻보다 하나님의 뜻을 따르게 해 주세요. 베드로처럼 넘어질 때 숨지 않고 회개하며 예수님께 돌아가게 해 주세요. 예수님 이름으로 기도합니다. 아멘."
   },
-  "test": [
-   {"q": "‘겟세마네’의 뜻은?", "o": ["기름 짜는 곳", "평화의 동산", "왕의 정원"], "a": 0, "f": "맞아요. 짓눌리는 곳이었어요."},
-   {"q": "예수님이 마시기를 피하고 싶으셨던 ‘잔’이 상징하는 것은?", "o": ["하나님의 진노", "포도주", "독약"], "a": 0, "f": "맞아요. 죄인의 자리를 감당하는 고난이에요."},
-   {"q": "유다가 입맞춤했을 때 예수님이 유다를 부른 호칭은?", "o": ["친구여", "배신자여", "랍비여"], "a": 0, "f": "맞아요. 끝까지 친구라고 부르셨어요."},
-   {"q": "대제사장 앞에서 예수님이 인용하신 구약 본문은?", "o": ["다니엘 7:13과 시편 110:1", "창세기 1:1", "출애굽기 20장"], "a": 0, "f": "맞아요. 인자가 권능의 우편에 앉으심이에요."},
-   {"q": "유다와 베드로의 가장 큰 차이는?", "o": ["넘어진 뒤 어디로 향했느냐", "죄의 크기", "예수님과 함께한 시간"], "a": 0, "f": "맞아요. 베드로는 돌아왔어요."}
-  ],
-  "paylas": ["예수님도 괴로움 속에서 솔직하게 기도하셨어요. 나는 하나님께 솔직한 감정을 말하나요?", "“마음에는 원이로되 육신이 약하도다.” 내 신앙에서 이 말이 가장 와닿는 부분은?", "친구들 앞에서 예수님을 ‘모른다’고 한 적이 있나요?", "넘어진 뒤 유다처럼 혼자 무너지는 것과 베드로처럼 돌아오는 것, 그 차이를 만드는 것은 무엇일까요?"],
-  "etiraf": {"b": "나의 고백", "p": "“나의 원대로 마시옵고 아버지의 원대로” 기도를 따라, 지금 내가 내려놓아야 할 ‘나의 원’을 하나님께 정직하게 써 보세요.", "ph": "예) 아버지, 저는 이 관계가 제 뜻대로 되기를 원해요. 그러나 …"},
-  "dua": "예수님, 가장 어두운 밤에 홀로 아버지의 뜻을 붙드시고, 친구라 부르던 이에게 팔리시고, 거짓 재판을 받으신 그 고난이 저를 위한 것이었음을 고백합니다. 제 뜻보다 아버지의 뜻을 구하게 해 주세요. 베드로처럼 넘어질 때 숨지 않고 울며 주님께 돌아가게 해 주세요. 예수님 이름으로 기도합니다. 아멘."
- }
-},
-"az": {
- "usaq": {
-  "basliq": "Sənin istədiyin kimi olsun",
-  "hedef": ["İsanın Getsemani bağında dua etdiyini öyrənəcəyik.", "İsanın tutulub mühakimə olunmasının bizim üçün olduğunu öyrənəcəyik.", "Büdrəyən Peter vasitəsilə tövbə göz yaşlarını öyrənəcəyik."],
-  "sehneler": [
-   {"b": "Getsemanidə dua", "ayə": "Matta 26:36–46", "alt": "Getsemani bağında diz çöküb dua edən İsa", "p": ["İsa [[Getsemani]] bağına gedib çox kədərli və iztirablı ürəklə dua etdi: “Ata, mümkünsə, bu kasa Məndən uzaq olsun.”", "Sonra davam etdi: “Amma Mənim istədiyim kimi yox, Sənin istədiyin kimi olsun.” Şagirdlər isə ayıq qala bilməyib yuxuya getdilər."]},
-   {"b": "Tutulan İsa", "ayə": "Matta 26:47–56", "alt": "Qılınc və dəyənək tutan adamlar tərəfindən tutulan İsa", "p": ["Yəhuda qılınc və dəyənək tutan adamları gətirdi. O, İsanı [[öpüş]]lə nişan verdi.", "Bir şagird qılınc çəkəndə İsa dedi: “Qılıncını yerinə qoy. Atamdan istəsəm, mələklər göndərər. Amma Müqəddəs Yazı yerinə yetməlidir.” Sonra bütün şagirdlər qaçdılar."]},
-   {"b": "Mühakimə olunan İsa", "ayə": "Matta 26:57–68", "alt": "Baş kahinin qarşısında mühakimə olunan İsa", "p": ["İsanı baş kahin Qayafanın yanına aparıb [[məhkəmə]] etdilər. Yalançı şahidlər danışsa da, İsa susurdu.", "Baş kahin soruşdu: “Sən Allahın Oğlu Məsihsənmi?” İsa cavab verdi: “Sən dedin.” Onda İsanın üzünə tüpürüb Onu vurdular. İsa bizim üçün dözdü."]},
-   {"b": "Ağlayan Peter", "ayə": "Matta 26:69–75", "alt": "Xoruz banını eşidib ağlayan Peter", "p": ["Peter uzaqdan ardınca gəlib həyətdə idi. İnsanlar “Sən də İsa ilə idin” deyəndə Peter üç dəfə “Mən o adamı tanımıram!” dedi.", "O an [[xoruz]] banladı. Peter İsanın sözünü xatırlayıb bayıra çıxdı və acı-acı ağladı. Bu, [[tövbə]] göz yaşları idi."]}
-  ],
-  "aye": {"metn": "“Amma Mənim istədiyim kimi yox, Sənin istədiyin kimi olsun.”", "ref": "26:39", "bos": "Amma ___ istədiyim kimi yox, ___ istədiyin kimi ___.", "sozler": ["Mənim", "Sənin", "olsun"], "yalan": "onların"},
-  "lugat": {
-   "Getsemani": {"i": "🫒", "x": "겟세마네", "m": "Yerusəlimin yanında Zeytun dağındakı zeytun bağıdır. “Yağ sıxılan yer” deməkdir.", "e": "İsa Getsemanidə dua etdi."},
-   "öpüş": {"i": "💋", "x": "입맞춤", "m": "Yanaqdan öpərək salamlaşmaqdır. Yəhuda bunu xəyanət nişanı etdi.", "e": "Yəhuda İsanı öpüşlə təslim etdi."},
-   "məhkəmə": {"i": "⚖️", "x": "재판", "m": "Günahın olub-olmadığını araşdırmaqdır.", "e": "İsa günahsız olduğu halda məhkəmə olundu."},
-   "xoruz": {"i": "🐓", "x": "닭", "m": "Səhər tezdən banlayan quşdur.", "e": "Xoruz banlayanda Peter ağladı."},
-   "tövbə": {"i": "💧", "x": "회개", "m": "Səhvə görə kədərlənib Allaha qayıtmaqdır.", "e": "Peter tövbə göz yaşları tökdü."}
-  },
-  "test": [
-   {"q": "İsa harada dua etdi?", "o": ["Getsemani bağında", "Məbədin damında", "Qalileyada qayıqda"], "a": 0, "f": "Düzdür! Zeytun dağındakı zeytun bağı."},
-   {"q": "İsa kimin istədiyi kimi olmasını dua etdi?", "o": ["Atanın", "Şagirdlərin", "Əsgərlərin"], "a": 0, "f": "Düzdür! Ataya itaət etdi."},
-   {"q": "Qılınc çəkən şagirdə İsa nə dedi?", "o": ["Qılıncını yerinə qoy", "Daha bərk vuruş", "Qaç"], "a": 0, "f": "Düzdür! İsa vuruşmadı."},
-   {"q": "Xoruz banlayanda Peter nə etdi?", "o": ["Bayıra çıxıb acı-acı ağladı", "Güldü", "Yatdı"], "a": 0, "f": "Düzdür. Tövbə göz yaşları idi."}
-  ],
-  "dusun": ["İsa niyə “Sənin istədiyin kimi olsun” deyə dua etdi?", "Şagirdlər yatanda İsanın ürəyi necə idi?", "Peter kimi səhv edəndə mən nə edirəm?"],
-  "fealiyyet": {"ciz": "Getsemani bağında diz çöküb dua edən İsanı çək.", "b": "Nə vaxt İsa kimi dua edəcəksən?", "p": "İsa kimi dua edəcəyin vaxtı seç.", "ph": "",
-   "secim": {"basliq": "Nə vaxt İsa kimi dua edəcəksən?", "izah": "Toxun və seç. Bir neçəsini seçə bilərsən.", "cumle": "Mən İsa kimi {x} dua edəcəyəm!", "bos": "qorxanda", "bag": "və",
-    "secimler": [["😨", "qorxanda"], ["😢", "kədərlənəndə"], ["😔", "tək qalanda"], ["🤔", "çətin qərar verəndə"], ["💧", "səhv edəndə"], ["🌙", "hər gecə"]]}},
-  "dua": "İsa, çox iztirab çəksən də “Sənin istədiyin kimi olsun” deyib bizim üçün çarmıx yoluna getdiyin üçün Sənə şükür edirəm. Mən də öz istəyimdən çox Allahın iradəsinə tabe olum. Peter kimi büdrəyəndə gizlənmədən tövbə edib Sənə qayıdım. İsa Məsihin adı ilə dua edirəm. Amin."
+  "genc": {
+   "basliq": "가장 어두운 밤",
+   "giris": "목요일 밤부터 금요일 새벽까지. 기름 짜는 동산에서 예수님은 땅에 엎드려 기도하시고, 입맞춤으로 팔리시고, 불법 재판을 받으시고, 가장 가까운 제자에게 세 번 부인당하십니다. 모두가 떠난 그 밤, 예수님은 홀로 아버지의 뜻을 붙드셨습니다.",
+   "meqsed": [
+    "겟세마네 기도에서 예수님의 참 인간 되심과 순종을 이해해요.",
+    "체포와 재판 장면에서 예수님의 자발적 고난과 정체를 설명할 수 있어요.",
+    "베드로의 부인과 눈물을 통해 실패 후 회개의 길을 배워요."
+   ],
+   "sehneler": [
+    {
+     "b": "이 잔을",
+     "ayə": "26:36–46",
+     "alt": "겟세마네 동산에서 무릎 꿇고 기도하시는 예수님",
+     "p": [
+      "“내 마음이 매우 고민하여 죽게 되었으니.” 예수님은 [[겟세마네]]에서 얼굴을 땅에 대고 세 번 기도하세요. “내 아버지여 만일 할 만하시거든 이 잔을 내게서 지나가게 하옵소서 그러나 나의 원대로 마시옵고 아버지의 원대로 하옵소서.”",
+      "‘잔’은 하나님의 진노의 잔이에요(사 51:17). 죄 없으신 분이 죄인의 자리를 감당해야 했어요. 세 제자는 세 번 잠들었어요. “마음에는 원이로되 육신이 약하도다.”"
+     ],
+     "deep": {
+      "b": "깊이 보기 · 두 동산",
+      "p": "에덴동산에서 아담은 “내 뜻대로” 하여 하나님을 떠났어요. 겟세마네 동산에서 둘째 아담 예수님은 “아버지의 뜻대로” 하여 우리를 하나님께 돌아오게 하세요. 주기도문의 “뜻이 … 이루어지이다”(6:10)가 가장 무거운 순간에 기도돼요."
+     }
+    },
+    {
+     "b": "입맞춤과 칼",
+     "ayə": "26:47–56",
+     "alt": "칼과 몽둥이를 든 사람들에게 붙잡히시는 예수님",
+     "p": [
+      "유다는 “랍비여 안녕하시옵니까” 하며 입을 맞췄어요. 예수님은 “친구여 네가 무엇을 하려고 왔는지 행하라” 하세요. 끝까지 ‘친구’라고 부르셨어요.",
+      "베드로(요한복음에 따르면)가 칼로 대제사장 종의 귀를 쳤어요. 예수님은 “칼을 가지는 자는 다 칼로 망하느니라” 하시고, 열두 군단 더 되는 [[천사]]를 부를 수 있지만 성경을 이루기 위해 스스로 잡히세요. “이에 제자들이 다 예수를 버리고 도망하니라.”"
+     ],
+     "deep": {
+      "b": "깊이 보기 · 자발적 고난",
+      "p": "예수님은 무력하게 잡히신 게 아니에요. 열두 군단(약 72,000명)의 천사를 부를 수 있었지만 선택하지 않으셨어요. 5:39 “악한 자를 대적하지 말라”를 십자가 앞에서 몸으로 사셨어요."
+     }
+    },
+    {
+     "b": "불법 재판",
+     "ayə": "26:57–68",
+     "alt": "대제사장 앞에서 재판받으시는 예수님",
+     "p": [
+      "밤중에 열린 [[산헤드린]] 재판은 당시 법으로도 불법이었어요. 거짓 증인들의 말도 서로 맞지 않았어요. 예수님은 이사야 53:7처럼 침묵하셨어요.",
+      "대제사장이 “살아 계신 하나님께 맹세하게 하노니 … 그리스도인지 우리에게 말하라” 하자 예수님은 대답하세요. “네가 말하였느니라. … 이후에 인자가 권능의 우편에 앉아 있는 것과 하늘 구름을 타고 오는 것을 너희가 보리라.” 다니엘 7:13과 시편 110:1을 합친 대답이에요."
+     ],
+     "deep": {
+      "b": "깊이 보기 · 재판받는 재판장",
+      "p": "예수님은 자신이 다니엘 7장의 ‘인자’, 곧 온 세상을 심판하실 분이라고 밝히세요. 재판받는 분이 사실은 마지막 날의 재판장이세요. 그들은 그 고백을 ‘신성 모독’이라며 사형을 결정해요.",
+      "rose": true
+     }
+    },
+    {
+     "b": "닭 울음과 눈물",
+     "ayə": "26:69–75",
+     "alt": "닭 울음소리를 듣고 우는 베드로",
+     "p": [
+      "베드로는 그래도 따라왔어요. 다른 제자들은 다 도망갔지만 그는 마당까지 왔어요. 그런데 여종의 질문 앞에서 무너졌어요. 첫째는 “무슨 말인지 알지 못하겠노라”, 둘째는 맹세하고, 셋째는 저주하며 “나는 그 사람을 알지 못하노라.”",
+      "같은 시간 안에서 예수님은 고백하시고, 베드로는 부인했어요. 닭이 울자 베드로는 예수님의 말씀이 생각나 “밖에 나가서 심히 통곡하니라.” 유다와 베드로 모두 넘어졌지만, 베드로의 눈물은 [[회개]]로 이어져 회복의 길이 열렸어요."
+     ],
+     "deep": {
+      "b": "깊이 보기 · 유다와 베드로",
+      "p": "둘 다 예수님을 배신했어요. 유다는 후회했지만(27:3) 예수님께 돌아가지 않았고, 베드로는 울었고 결국 다시 돌아왔어요(요 21장). 차이는 죄의 크기가 아니라, 넘어진 뒤 어디로 향했느냐예요."
+     }
+    }
+   ],
+   "cedvel": {
+    "b": "같은 밤, 다른 반응",
+    "alt": "26:36–75",
+    "bas": [
+     "인물",
+     "그 밤의 모습",
+     "결과"
+    ],
+    "set": [
+     [
+      "예수님",
+      "땅에 엎드려 기도, 침묵, 고백",
+      "아버지의 뜻에 순종"
+     ],
+     [
+      "세 제자",
+      "세 번 잠듦",
+      "시험에 대비하지 못함"
+     ],
+     [
+      "유다",
+      "입맞춤으로 넘김",
+      "후회했지만 돌아오지 않음"
+     ],
+     [
+      "베드로",
+      "따라왔지만 세 번 부인",
+      "통곡하며 회개, 나중에 회복"
+     ],
+     [
+      "대제사장",
+      "거짓 증인과 불법 재판",
+      "참 재판장을 정죄함"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "“조금 나아가사 얼굴을 땅에 대시고 엎드려 기도하여 이르시되 내 아버지여 만일 할 만하시거든 이 잔을 내게서 지나가게 하옵소서 그러나 나의 원대로 마시옵고 아버지의 원대로 하옵소서 하시고.”",
+    "ref": "26:39"
+   },
+   "lugat": {
+    "겟세마네": {
+     "i": "🫒",
+     "o": "아람어 갓 쉬마님, ‘기름 짜는 틀’",
+     "x": "Getsemani",
+     "s": "짓눌리는 곳",
+     "m": "올리브를 무거운 돌로 눌러 기름을 짜던 곳이에요. 예수님의 마음이 그렇게 짓눌리셨어요.",
+     "e": "지금도 그곳에는 수백 년 된 올리브나무들이 있어요."
+    },
+    "천사": {
+     "i": "👼",
+     "o": "헬라어 앙겔로스",
+     "x": "mələk",
+     "s": "하나님의 군대",
+     "m": "로마 군단 하나는 약 6,000명이에요. 열두 군단이면 7만 명이 넘어요.",
+     "e": "광야에서도 천사들이 예수님을 섬겼어요(4:11)."
+    },
+    "산헤드린": {
+     "i": "🏛️",
+     "o": "헬라어 쉬네드리온, ‘공의회’",
+     "x": "Sinedrion",
+     "s": "유대 최고 의회",
+     "m": "대제사장을 의장으로 한 71명의 의회예요. 원래 사형 재판은 낮에, 이틀에 걸쳐 해야 했어요.",
+     "e": "아리마대 요셉도 이 의회 의원이었어요(눅 23:50–51)."
+    },
+    "회개": {
+     "i": "💧",
+     "o": "헬라어 메타노이아, ‘마음을 돌이킴’",
+     "x": "tövbə",
+     "s": "방향 전환",
+     "m": "후회(감정)를 넘어 하나님께로 방향을 돌리는 거예요. 3:2, 4:17의 첫 메시지도 “회개하라”였어요.",
+     "e": "“하나님의 뜻대로 하는 근심은 후회할 것이 없는 구원에 이르게 하는 회개를 이루는 것이요”(고후 7:10)."
+    }
+   },
+   "test": [
+    {
+     "q": "‘겟세마네’의 뜻은?",
+     "o": [
+      "기름 짜는 곳",
+      "평화의 동산",
+      "왕의 정원"
+     ],
+     "a": 0,
+     "f": "맞아요. 짓눌리는 곳이었어요."
+    },
+    {
+     "q": "예수님이 마시기를 피하고 싶으셨던 ‘잔’이 상징하는 것은?",
+     "o": [
+      "하나님의 진노",
+      "포도주",
+      "독약"
+     ],
+     "a": 0,
+     "f": "맞아요. 죄인의 자리를 감당하는 고난이에요."
+    },
+    {
+     "q": "유다가 입맞춤했을 때 예수님이 유다를 부른 호칭은?",
+     "o": [
+      "친구여",
+      "배신자여",
+      "랍비여"
+     ],
+     "a": 0,
+     "f": "맞아요. 끝까지 친구라고 부르셨어요."
+    },
+    {
+     "q": "대제사장 앞에서 예수님이 인용하신 구약 본문은?",
+     "o": [
+      "다니엘 7:13과 시편 110:1",
+      "창세기 1:1",
+      "출애굽기 20장"
+     ],
+     "a": 0,
+     "f": "맞아요. 인자가 권능의 우편에 앉으심이에요."
+    },
+    {
+     "q": "유다와 베드로의 가장 큰 차이는?",
+     "o": [
+      "넘어진 뒤 어디로 향했느냐",
+      "죄의 크기",
+      "예수님과 함께한 시간"
+     ],
+     "a": 0,
+     "f": "맞아요. 베드로는 돌아왔어요."
+    }
+   ],
+   "paylas": [
+    "예수님도 괴로움 속에서 솔직하게 기도하셨어요. 나는 하나님께 솔직한 감정을 말하나요?",
+    "“마음에는 원이로되 육신이 약하도다.” 내 신앙에서 이 말이 가장 와닿는 부분은?",
+    "친구들 앞에서 예수님을 ‘모른다’고 한 적이 있나요?",
+    "넘어진 뒤 유다처럼 혼자 무너지는 것과 베드로처럼 돌아오는 것, 그 차이를 만드는 것은 무엇일까요?"
+   ],
+   "etiraf": {
+    "b": "나의 고백",
+    "p": "“나의 원대로 마시옵고 아버지의 원대로” 기도를 따라, 지금 내가 내려놓아야 할 ‘나의 원’을 하나님께 정직하게 써 보세요.",
+    "ph": "예) 아버지, 저는 이 관계가 제 뜻대로 되기를 원해요. 그러나 …"
+   },
+   "dua": "예수님, 가장 어두운 밤에 홀로 아버지의 뜻을 붙드시고, 친구라 부르던 이에게 팔리시고, 거짓 재판을 받으신 그 고난이 저를 위한 것이었음을 고백합니다. 제 뜻보다 아버지의 뜻을 구하게 해 주세요. 베드로처럼 넘어질 때 숨지 않고 울며 주님께 돌아가게 해 주세요. 예수님 이름으로 기도합니다. 아멘."
+  }
  },
- "genc": {
-  "basliq": "Ən qaranlıq gecə",
-  "giris": "Cümə axşamı gecəsindən cümə səhərinə qədər. Yağ sıxılan bağda İsa yerə qapanıb dua edir, öpüşlə satılır, qanunsuz məhkəmə olunur və ən yaxın şagirdi tərəfindən üç dəfə inkar edilir. Hamının tərk etdiyi o gecə İsa tək başına Atanın iradəsindən yapışdı.",
-  "meqsed": ["Getsemani duasında İsanın həqiqi insanlığını və itaətini anlayırıq.", "Tutulma və məhkəmə səhnələrində İsanın könüllü əzabını və kimliyini izah edə bilirik.", "Peterin inkarı və göz yaşları vasitəsilə uğursuzluqdan sonra tövbə yolunu öyrənirik."],
-  "sehneler": [
-   {"b": "Bu kasa", "ayə": "Matta 26:36–46", "alt": "Getsemani bağında diz çöküb dua edən İsa", "p": ["“Canım ölüm dərəcəsində kədərlənir.” İsa [[Getsemani]]də üzüstə yerə qapanıb üç dəfə dua edir: “Atam, mümkünsə, bu kasa Məndən uzaq olsun. Amma Mənim istədiyim kimi yox, Sənin istədiyin kimi olsun.”", "“Kasa” Allahın qəzəb kasasıdır (Yeş. 51:17). Günahsız Olan günahkarların yerini daşımalı idi. Üç şagird üç dəfə yuxuya getdi. “Ruh həvəslidir, amma bədən zəifdir.”"], "deep": {"b": "Dərindən baxaq · İki bağ", "p": "Eden bağında Adəm “öz istəyi ilə” edib Allahdan uzaqlaşdı. Getsemani bağında ikinci Adəm İsa “Atanın istəyi ilə” edib bizi Allaha qaytarır. Rəbbin duasındakı “iradən yerinə yetsin” (6:10) ən ağır anda dua edilir."}},
-   {"b": "Öpüş və qılınc", "ayə": "Matta 26:47–56", "alt": "Qılınc və dəyənək tutan adamlar tərəfindən tutulan İsa", "p": ["Yəhuda “Salam, Ravvi!” deyib Onu öpdü. İsa “Dostum, nə üçün gəlmisənsə, onu et” dedi. Axıradək “dost” dedi.", "Bir şagird (Yəhya Müjdəsinə görə Peter) qılıncla baş kahinin qulunun qulağını kəsdi. İsa “Qılınc tutan hər kəs qılıncla həlak olacaq” dedi və on iki legiondan çox [[mələk]] çağıra bilsə də, Müqəddəs Yazı yerinə yetsin deyə Özü tutuldu. “Onda bütün şagirdlər Onu qoyub qaçdılar.”"], "deep": {"b": "Dərindən baxaq · Könüllü əzab", "p": "İsa çarəsiz şəkildə tutulmadı. On iki legion (təxminən 72 000) mələk çağıra bilərdi, amma seçmədi. 5:39-dakı “pis insana qarşı durmayın” sözünü çarmıx qarşısında bədəni ilə yaşadı."}},
-   {"b": "Qanunsuz məhkəmə", "ayə": "Matta 26:57–68", "alt": "Baş kahinin qarşısında mühakimə olunan İsa", "p": ["Gecə yarısı keçirilən [[Sinedrion]] məhkəməsi o dövrün qanununa görə də qanunsuz idi. Yalançı şahidlərin sözləri də bir-birinə uyğun gəlmirdi. İsa Yeşaya 53:7-dəki kimi susdu.", "Baş kahin “Var olan Allah adına and verirəm … Sən Məsihsənmi?” deyəndə İsa cavab verir: “Sən dedin. … Bundan sonra Bəşər Oğlunun Qüdrətlinin sağında oturduğunu və göyün buludları üzərində gəldiyini görəcəksiniz.” Bu, Daniel 7:13 ilə Zəbur 110:1-i birləşdirən cavabdır."], "deep": {"b": "Dərindən baxaq · Mühakimə olunan Hakim", "p": "İsa Özünün Daniel 7-dəki “Bəşər Oğlu”, yəni bütün dünyanı mühakimə edəcək Olduğunu bildirir. Mühakimə olunan əslində son günün Hakimidir. Onlar bu etirafı “küfr” adlandırıb ölüm hökmü çıxarırlar.", "rose": true}},
-   {"b": "Xoruz banı və göz yaşı", "ayə": "Matta 26:69–75", "alt": "Xoruz banını eşidib ağlayan Peter", "p": ["Peter yenə də ardınca gəldi. Digər şagirdlər qaçsa da, o həyətə qədər gəldi. Amma qarabaşın sualı qarşısında yıxıldı. Əvvəlcə “Nə dediyini bilmirəm”, sonra and içərək, sonra lənət oxuyaraq “O adamı tanımıram.”", "Eyni vaxtda İsa etiraf edir, Peter isə inkar edirdi. Xoruz banlayanda Peter İsanın sözünü xatırladı və “bayıra çıxıb acı-acı ağladı.” Yəhuda da, Peter də büdrədi, amma Peterin göz yaşları [[tövbə]]yə apardı və bərpa yolu açıldı."], "deep": {"b": "Dərindən baxaq · Yəhuda və Peter", "p": "Hər ikisi İsaya xəyanət etdi. Yəhuda peşman oldu (27:3), amma İsaya qayıtmadı. Peter ağladı və sonda geri qayıtdı (Yəh. 21). Fərq günahın böyüklüyündə deyil, yıxıldıqdan sonra hara üz tutmaqdadır."}}
-  ],
-  "cedvel": {"b": "Eyni gecə, fərqli reaksiyalar", "alt": "26:36–75", "bas": ["Şəxs", "O gecəki halı", "Nəticə"], "set": [["İsa", "Yerə qapanıb dua, susmaq, etiraf", "Atanın iradəsinə itaət"], ["Üç şagird", "Üç dəfə yuxuya getdi", "Sınağa hazır olmadılar"], ["Yəhuda", "Öpüşlə təslim etdi", "Peşman oldu, amma qayıtmadı"], ["Peter", "Ardınca gəldi, amma üç dəfə inkar etdi", "Acı-acı ağlayıb tövbə etdi, sonra bərpa olundu"], ["Baş kahin", "Yalançı şahidlər və qanunsuz məhkəmə", "Əsl Hakimi məhkum etdi"]]},
-  "aye": {"metn": "“Bir az irəli gedib üzüstə yerə qapanaraq dua edib dedi: “Atam, mümkünsə, bu kasa Məndən uzaq olsun. Amma Mənim istədiyim kimi yox, Sənin istədiyin kimi olsun.””", "ref": "26:39"},
-  "lugat": {
-   "Getsemani": {"i": "🫒", "o": "Arami dilində Qat-şemanim, “yağ sıxan”", "x": "겟세마네", "s": "Sıxılan yer", "m": "Zeytunu ağır daşla sıxıb yağ çıxardıqları yer idi. İsanın ürəyi də elə sıxıldı.", "e": "Bu gün də orada yüzillik zeytun ağacları var."},
-   "mələk": {"i": "👼", "o": "Yunanca anqelos", "x": "천사", "s": "Allahın ordusu", "m": "Bir Roma legionu təxminən 6000 nəfər idi. On iki legion 70 mindən çoxdur.", "e": "Səhrada da mələklər İsaya xidmət etdilər (4:11)."},
-   "Sinedrion": {"i": "🏛️", "o": "Yunanca sinedrion, “şura”", "x": "산헤드린", "s": "Yəhudilərin ali şurası", "m": "Baş kahinin rəhbərlik etdiyi 71 nəfərlik şura idi. Əslində ölüm hökmü gündüz və iki gün ərzində verilməli idi.", "e": "Arimateyalı Yusif də bu şuranın üzvü idi (Luka 23:50–51)."},
-   "tövbə": {"i": "💧", "o": "Yunanca metanoya, “ürəyi döndərmək”", "x": "회개", "s": "İstiqamət dəyişmək", "m": "Peşmançılıqdan (hiss) o yana keçib Allaha tərəf dönməkdir. 3:2 və 4:17-dəki ilk xəbər də “tövbə edin” idi.", "e": "“Allahın istədiyi kədər xilasa aparan tövbəyə səbəb olur” (2 Kor. 7:10)."}
+ "az": {
+  "usaq": {
+   "basliq": "Sənin istədiyin kimi olsun",
+   "hedef": [
+    "İsanın Getsemani bağında dua etdiyini öyrənəcəyik.",
+    "İsanın tutulub mühakimə olunmasının bizim üçün olduğunu öyrənəcəyik.",
+    "Büdrəyən Peter vasitəsilə tövbə göz yaşlarını öyrənəcəyik."
+   ],
+   "sehneler": [
+    {
+     "b": "Getsemanidə dua",
+     "ayə": "Matta 26:36–46",
+     "alt": "Getsemani bağında diz çöküb dua edən İsa",
+     "p": [
+      "İsa [[Getsemani]] bağına gedib çox kədərli və iztirablı ürəklə dua etdi: “Ata, mümkünsə, bu kasa Məndən uzaq olsun.”",
+      "Sonra davam etdi: “Amma Mənim istədiyim kimi yox, Sənin istədiyin kimi olsun.” Şagirdlər isə ayıq qala bilməyib yuxuya getdilər."
+     ]
+    },
+    {
+     "b": "Tutulan İsa",
+     "ayə": "Matta 26:47–56",
+     "alt": "Qılınc və dəyənək tutan adamlar tərəfindən tutulan İsa",
+     "p": [
+      "Yəhuda qılınc və dəyənək tutan adamları gətirdi. O, İsanı [[öpüş]]lə nişan verdi.",
+      "Bir şagird qılınc çəkəndə İsa dedi: “Qılıncını yerinə qoy. Atamdan istəsəm, mələklər göndərər. Amma Müqəddəs Yazı yerinə yetməlidir.” Sonra bütün şagirdlər qaçdılar."
+     ]
+    },
+    {
+     "b": "Mühakimə olunan İsa",
+     "ayə": "Matta 26:57–68",
+     "alt": "Baş kahinin qarşısında mühakimə olunan İsa",
+     "p": [
+      "İsanı baş kahin Qayafanın yanına aparıb [[məhkəmə]] etdilər. Yalançı şahidlər danışsa da, İsa susurdu.",
+      "Baş kahin soruşdu: “Sən Allahın Oğlu Məsihsənmi?” İsa cavab verdi: “Sən dedin.” Onda İsanın üzünə tüpürüb Onu vurdular. İsa bizim üçün dözdü."
+     ]
+    },
+    {
+     "b": "Ağlayan Peter",
+     "ayə": "Matta 26:69–75",
+     "alt": "Xoruz banını eşidib ağlayan Peter",
+     "p": [
+      "Peter uzaqdan ardınca gəlib həyətdə idi. İnsanlar “Sən də İsa ilə idin” deyəndə Peter üç dəfə “Mən o adamı tanımıram!” dedi.",
+      "O an [[xoruz]] banladı. Peter İsanın sözünü xatırlayıb bayıra çıxdı və acı-acı ağladı. Bu, [[tövbə]] göz yaşları idi."
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "“Amma Mənim istədiyim kimi yox, Sənin istədiyin kimi olsun.”",
+    "ref": "26:39",
+    "bos": "Amma ___ istədiyim kimi yox, ___ istədiyin kimi ___.",
+    "sozler": [
+     "Mənim",
+     "Sənin",
+     "olsun"
+    ],
+    "yalan": "onların"
+   },
+   "lugat": {
+    "Getsemani": {
+     "i": "🫒",
+     "x": "겟세마네",
+     "m": "Yerusəlimin yanında Zeytun dağındakı zeytun bağıdır. “Yağ sıxılan yer” deməkdir.",
+     "e": "İsa Getsemanidə dua etdi."
+    },
+    "öpüş": {
+     "i": "💋",
+     "x": "입맞춤",
+     "m": "Yanaqdan öpərək salamlaşmaqdır. Yəhuda bunu xəyanət nişanı etdi.",
+     "e": "Yəhuda İsanı öpüşlə təslim etdi."
+    },
+    "məhkəmə": {
+     "i": "⚖️",
+     "x": "재판",
+     "m": "Günahın olub-olmadığını araşdırmaqdır.",
+     "e": "İsa günahsız olduğu halda məhkəmə olundu."
+    },
+    "xoruz": {
+     "i": "🐓",
+     "x": "닭",
+     "m": "Səhər tezdən banlayan quşdur.",
+     "e": "Xoruz banlayanda Peter ağladı."
+    },
+    "tövbə": {
+     "i": "💧",
+     "x": "회개",
+     "m": "Səhvə görə kədərlənib Allaha qayıtmaqdır.",
+     "e": "Peter tövbə göz yaşları tökdü."
+    }
+   },
+   "test": [
+    {
+     "q": "İsa harada dua etdi?",
+     "o": [
+      "Getsemani bağında",
+      "Məbədin damında",
+      "Qalileyada qayıqda"
+     ],
+     "a": 0,
+     "f": "Düzdür! Zeytun dağındakı zeytun bağı."
+    },
+    {
+     "q": "İsa kimin istədiyi kimi olmasını dua etdi?",
+     "o": [
+      "Atanın",
+      "Şagirdlərin",
+      "Əsgərlərin"
+     ],
+     "a": 0,
+     "f": "Düzdür! Ataya itaət etdi."
+    },
+    {
+     "q": "Qılınc çəkən şagirdə İsa nə dedi?",
+     "o": [
+      "Qılıncını yerinə qoy",
+      "Daha bərk vuruş",
+      "Qaç"
+     ],
+     "a": 0,
+     "f": "Düzdür! İsa vuruşmadı."
+    },
+    {
+     "q": "Xoruz banlayanda Peter nə etdi?",
+     "o": [
+      "Bayıra çıxıb acı-acı ağladı",
+      "Güldü",
+      "Yatdı"
+     ],
+     "a": 0,
+     "f": "Düzdür. Tövbə göz yaşları idi."
+    }
+   ],
+   "dusun": [
+    "İsa niyə “Sənin istədiyin kimi olsun” deyə dua etdi?",
+    "Şagirdlər yatanda İsanın ürəyi necə idi?",
+    "Peter kimi səhv edəndə mən nə edirəm?"
+   ],
+   "fealiyyet": {
+    "ciz": "Getsemani bağında diz çöküb dua edən İsanı çək.",
+    "b": "Nə vaxt İsa kimi dua edəcəksən?",
+    "p": "İsa kimi dua edəcəyin vaxtı seç.",
+    "ph": "",
+    "secim": {
+     "basliq": "Nə vaxt İsa kimi dua edəcəksən?",
+     "izah": "Toxun və seç. Bir neçəsini seçə bilərsən.",
+     "cumle": "Mən İsa kimi {x} dua edəcəyəm!",
+     "bos": "qorxanda",
+     "bag": "və",
+     "secimler": [
+      [
+       "😨",
+       "qorxanda"
+      ],
+      [
+       "😢",
+       "kədərlənəndə"
+      ],
+      [
+       "😔",
+       "tək qalanda"
+      ],
+      [
+       "🤔",
+       "çətin qərar verəndə"
+      ],
+      [
+       "💧",
+       "səhv edəndə"
+      ],
+      [
+       "🌙",
+       "hər gecə"
+      ]
+     ]
+    }
+   },
+   "dua": "İsa, çox iztirab çəksən də “Sənin istədiyin kimi olsun” deyib bizim üçün çarmıx yoluna getdiyin üçün Sənə şükür edirəm. Mən də öz istəyimdən çox Allahın iradəsinə tabe olum. Peter kimi büdrəyəndə gizlənmədən tövbə edib Sənə qayıdım. İsa Məsihin adı ilə dua edirəm. Amin."
   },
-  "test": [
-   {"q": "“Getsemani” nə deməkdir?", "o": ["Yağ sıxılan yer", "Sülh bağı", "Padşah bağı"], "a": 0, "f": "Düzdür. Sıxılan yer idi."},
-   {"q": "İsanın içməkdən qaçmaq istədiyi “kasa” nəyi simvollaşdırır?", "o": ["Allahın qəzəbini", "Şərabı", "Zəhəri"], "a": 0, "f": "Düzdür. Günahkarların yerini daşıyan əzab."},
-   {"q": "Yəhuda öpəndə İsa ona necə müraciət etdi?", "o": ["Dostum", "Xain", "Ravvi"], "a": 0, "f": "Düzdür. Axıradək dost dedi."},
-   {"q": "İsa baş kahinin qarşısında hansı Əhdi-Ətiq mətnlərindən sitat gətirdi?", "o": ["Daniel 7:13 və Zəbur 110:1", "Yaradılış 1:1", "Çıxış 20"], "a": 0, "f": "Düzdür. Bəşər Oğlunun Qüdrətlinin sağında oturması."},
-   {"q": "Yəhuda ilə Peter arasındakı ən böyük fərq nədir?", "o": ["Yıxıldıqdan sonra hara üz tutmaları", "Günahın böyüklüyü", "İsa ilə keçirdikləri vaxt"], "a": 0, "f": "Düzdür. Peter geri qayıtdı."}
+  "genc": {
+   "basliq": "Ən qaranlıq gecə",
+   "giris": "Cümə axşamı gecəsindən cümə səhərinə qədər. Yağ sıxılan bağda İsa yerə qapanıb dua edir, öpüşlə satılır, qanunsuz məhkəmə olunur və ən yaxın şagirdi tərəfindən üç dəfə inkar edilir. Hamının tərk etdiyi o gecə İsa tək başına Atanın iradəsindən yapışdı.",
+   "meqsed": [
+    "Getsemani duasında İsanın həqiqi insanlığını və itaətini anlayırıq.",
+    "Tutulma və məhkəmə səhnələrində İsanın könüllü əzabını və kimliyini izah edə bilirik.",
+    "Peterin inkarı və göz yaşları vasitəsilə uğursuzluqdan sonra tövbə yolunu öyrənirik."
+   ],
+   "sehneler": [
+    {
+     "b": "Bu kasa",
+     "ayə": "Matta 26:36–46",
+     "alt": "Getsemani bağında diz çöküb dua edən İsa",
+     "p": [
+      "“Canım ölüm dərəcəsində kədərlənir.” İsa [[Getsemani]]də üzüstə yerə qapanıb üç dəfə dua edir: “Atam, mümkünsə, bu kasa Məndən uzaq olsun. Amma Mənim istədiyim kimi yox, Sənin istədiyin kimi olsun.”",
+      "“Kasa” Allahın qəzəb kasasıdır (Yeş. 51:17). Günahsız Olan günahkarların yerini daşımalı idi. Üç şagird üç dəfə yuxuya getdi. “Ruh həvəslidir, amma bədən zəifdir.”"
+     ],
+     "deep": {
+      "b": "Dərindən baxaq · İki bağ",
+      "p": "Eden bağında Adəm “öz istəyi ilə” edib Allahdan uzaqlaşdı. Getsemani bağında ikinci Adəm İsa “Atanın istəyi ilə” edib bizi Allaha qaytarır. Rəbbin duasındakı “iradən yerinə yetsin” (6:10) ən ağır anda dua edilir."
+     }
+    },
+    {
+     "b": "Öpüş və qılınc",
+     "ayə": "Matta 26:47–56",
+     "alt": "Qılınc və dəyənək tutan adamlar tərəfindən tutulan İsa",
+     "p": [
+      "Yəhuda “Salam, Ravvi!” deyib Onu öpdü. İsa “Dostum, nə üçün gəlmisənsə, onu et” dedi. Axıradək “dost” dedi.",
+      "Bir şagird (Yəhya Müjdəsinə görə Peter) qılıncla baş kahinin qulunun qulağını kəsdi. İsa “Qılınc tutan hər kəs qılıncla həlak olacaq” dedi və on iki legiondan çox [[mələk]] çağıra bilsə də, Müqəddəs Yazı yerinə yetsin deyə Özü tutuldu. “Onda bütün şagirdlər Onu qoyub qaçdılar.”"
+     ],
+     "deep": {
+      "b": "Dərindən baxaq · Könüllü əzab",
+      "p": "İsa çarəsiz şəkildə tutulmadı. On iki legion (təxminən 72 000) mələk çağıra bilərdi, amma seçmədi. 5:39-dakı “pis insana qarşı durmayın” sözünü çarmıx qarşısında bədəni ilə yaşadı."
+     }
+    },
+    {
+     "b": "Qanunsuz məhkəmə",
+     "ayə": "Matta 26:57–68",
+     "alt": "Baş kahinin qarşısında mühakimə olunan İsa",
+     "p": [
+      "Gecə yarısı keçirilən [[Sinedrion]] məhkəməsi o dövrün qanununa görə də qanunsuz idi. Yalançı şahidlərin sözləri də bir-birinə uyğun gəlmirdi. İsa Yeşaya 53:7-dəki kimi susdu.",
+      "Baş kahin “Var olan Allah adına and verirəm … Sən Məsihsənmi?” deyəndə İsa cavab verir: “Sən dedin. … Bundan sonra Bəşər Oğlunun Qüdrətlinin sağında oturduğunu və göyün buludları üzərində gəldiyini görəcəksiniz.” Bu, Daniel 7:13 ilə Zəbur 110:1-i birləşdirən cavabdır."
+     ],
+     "deep": {
+      "b": "Dərindən baxaq · Mühakimə olunan Hakim",
+      "p": "İsa Özünün Daniel 7-dəki “Bəşər Oğlu”, yəni bütün dünyanı mühakimə edəcək Olduğunu bildirir. Mühakimə olunan əslində son günün Hakimidir. Onlar bu etirafı “küfr” adlandırıb ölüm hökmü çıxarırlar.",
+      "rose": true
+     }
+    },
+    {
+     "b": "Xoruz banı və göz yaşı",
+     "ayə": "Matta 26:69–75",
+     "alt": "Xoruz banını eşidib ağlayan Peter",
+     "p": [
+      "Peter yenə də ardınca gəldi. Digər şagirdlər qaçsa da, o həyətə qədər gəldi. Amma qarabaşın sualı qarşısında yıxıldı. Əvvəlcə “Nə dediyini bilmirəm”, sonra and içərək, sonra lənət oxuyaraq “O adamı tanımıram.”",
+      "Eyni vaxtda İsa etiraf edir, Peter isə inkar edirdi. Xoruz banlayanda Peter İsanın sözünü xatırladı və “bayıra çıxıb acı-acı ağladı.” Yəhuda da, Peter də büdrədi, amma Peterin göz yaşları [[tövbə]]yə apardı və bərpa yolu açıldı."
+     ],
+     "deep": {
+      "b": "Dərindən baxaq · Yəhuda və Peter",
+      "p": "Hər ikisi İsaya xəyanət etdi. Yəhuda peşman oldu (27:3), amma İsaya qayıtmadı. Peter ağladı və sonda geri qayıtdı (Yəh. 21). Fərq günahın böyüklüyündə deyil, yıxıldıqdan sonra hara üz tutmaqdadır."
+     }
+    }
+   ],
+   "cedvel": {
+    "b": "Eyni gecə, fərqli reaksiyalar",
+    "alt": "26:36–75",
+    "bas": [
+     "Şəxs",
+     "O gecəki halı",
+     "Nəticə"
+    ],
+    "set": [
+     [
+      "İsa",
+      "Yerə qapanıb dua, susmaq, etiraf",
+      "Atanın iradəsinə itaət"
+     ],
+     [
+      "Üç şagird",
+      "Üç dəfə yuxuya getdi",
+      "Sınağa hazır olmadılar"
+     ],
+     [
+      "Yəhuda",
+      "Öpüşlə təslim etdi",
+      "Peşman oldu, amma qayıtmadı"
+     ],
+     [
+      "Peter",
+      "Ardınca gəldi, amma üç dəfə inkar etdi",
+      "Acı-acı ağlayıb tövbə etdi, sonra bərpa olundu"
+     ],
+     [
+      "Baş kahin",
+      "Yalançı şahidlər və qanunsuz məhkəmə",
+      "Əsl Hakimi məhkum etdi"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "“Bir az irəli gedib üzüstə yerə qapanaraq dua edib dedi: “Atam, mümkünsə, bu kasa Məndən uzaq olsun. Amma Mənim istədiyim kimi yox, Sənin istədiyin kimi olsun.””",
+    "ref": "26:39"
+   },
+   "lugat": {
+    "Getsemani": {
+     "i": "🫒",
+     "o": "Arami dilində Qat-şemanim, “yağ sıxan”",
+     "x": "겟세마네",
+     "s": "Sıxılan yer",
+     "m": "Zeytunu ağır daşla sıxıb yağ çıxardıqları yer idi. İsanın ürəyi də elə sıxıldı.",
+     "e": "Bu gün də orada yüzillik zeytun ağacları var."
+    },
+    "mələk": {
+     "i": "👼",
+     "o": "Yunanca anqelos",
+     "x": "천사",
+     "s": "Allahın ordusu",
+     "m": "Bir Roma legionu təxminən 6000 nəfər idi. On iki legion 70 mindən çoxdur.",
+     "e": "Səhrada da mələklər İsaya xidmət etdilər (4:11)."
+    },
+    "Sinedrion": {
+     "i": "🏛️",
+     "o": "Yunanca sinedrion, “şura”",
+     "x": "산헤드린",
+     "s": "Yəhudilərin ali şurası",
+     "m": "Baş kahinin rəhbərlik etdiyi 71 nəfərlik şura idi. Əslində ölüm hökmü gündüz və iki gün ərzində verilməli idi.",
+     "e": "Arimateyalı Yusif də bu şuranın üzvü idi (Luka 23:50–51)."
+    },
+    "tövbə": {
+     "i": "💧",
+     "o": "Yunanca metanoya, “ürəyi döndərmək”",
+     "x": "회개",
+     "s": "İstiqamət dəyişmək",
+     "m": "Peşmançılıqdan (hiss) o yana keçib Allaha tərəf dönməkdir. 3:2 və 4:17-dəki ilk xəbər də “tövbə edin” idi.",
+     "e": "“Allahın istədiyi kədər xilasa aparan tövbəyə səbəb olur” (2 Kor. 7:10)."
+    }
+   },
+   "test": [
+    {
+     "q": "“Getsemani” nə deməkdir?",
+     "o": [
+      "Yağ sıxılan yer",
+      "Sülh bağı",
+      "Padşah bağı"
+     ],
+     "a": 0,
+     "f": "Düzdür. Sıxılan yer idi."
+    },
+    {
+     "q": "İsanın içməkdən qaçmaq istədiyi “kasa” nəyi simvollaşdırır?",
+     "o": [
+      "Allahın qəzəbini",
+      "Şərabı",
+      "Zəhəri"
+     ],
+     "a": 0,
+     "f": "Düzdür. Günahkarların yerini daşıyan əzab."
+    },
+    {
+     "q": "Yəhuda öpəndə İsa ona necə müraciət etdi?",
+     "o": [
+      "Dostum",
+      "Xain",
+      "Ravvi"
+     ],
+     "a": 0,
+     "f": "Düzdür. Axıradək dost dedi."
+    },
+    {
+     "q": "İsa baş kahinin qarşısında hansı Əhdi-Ətiq mətnlərindən sitat gətirdi?",
+     "o": [
+      "Daniel 7:13 və Zəbur 110:1",
+      "Yaradılış 1:1",
+      "Çıxış 20"
+     ],
+     "a": 0,
+     "f": "Düzdür. Bəşər Oğlunun Qüdrətlinin sağında oturması."
+    },
+    {
+     "q": "Yəhuda ilə Peter arasındakı ən böyük fərq nədir?",
+     "o": [
+      "Yıxıldıqdan sonra hara üz tutmaları",
+      "Günahın böyüklüyü",
+      "İsa ilə keçirdikləri vaxt"
+     ],
+     "a": 0,
+     "f": "Düzdür. Peter geri qayıtdı."
+    }
+   ],
+   "paylas": [
+    "İsa da iztirab içində səmimi dua etdi. Mən Allaha səmimi hisslərimi deyirəmmi?",
+    "“Ruh həvəslidir, amma bədən zəifdir.” İmanımda bu söz ən çox hansı sahəyə uyğun gəlir?",
+    "Dostlarımın qarşısında İsanı “tanımıram” dediyim olubmu?",
+    "Yıxıldıqdan sonra Yəhuda kimi tək çökmək ilə Peter kimi qayıtmaq arasındakı fərqi nə yaradır?"
+   ],
+   "etiraf": {
+    "b": "Mənim etirafım",
+    "p": "“Mənim istədiyim kimi yox, Sənin istədiyin kimi” duasına uyğun olaraq, indi buraxmalı olduğum “öz istəyimi” Allaha səmimi şəkildə yaz.",
+    "ph": "Məsələn: Ata, bu münasibətin mənim istədiyim kimi olmasını istəyirəm. Amma …"
+   },
+   "dua": "İsa, ən qaranlıq gecədə tək başına Atanın iradəsindən yapışdığın, dost dediyin adam tərəfindən satıldığın və yalançı məhkəmədə mühakimə olunduğun o əzabın mənim üçün olduğunu etiraf edirəm. Öz istəyimdən çox Atanın iradəsini axtarım. Peter kimi büdrəyəndə gizlənmədən ağlayıb Sənə qayıdım. İsa Məsihin adı ilə dua edirəm. Amin."
+  }
+ },
+ "muellim": {
+  "mesaj": "31과의 중심은 한 문장입니다. **모두가 잠들고 떠난 가장 어두운 밤, 예수님은 홀로 “아버지의 원대로”를 붙드시고 자발적으로 고난의 길을 가셨으며, 넘어진 베드로에게도 회개의 길을 열어 두셨다.**",
+  "hazirliq": [
+   "학생용 교재를 열 휴대폰이나 태블릿, 이어폰",
+   "올리브(또는 올리브유)",
+   "조용한 배경 음악 (묵상 기도 시간용)"
   ],
-  "paylas": ["İsa da iztirab içində səmimi dua etdi. Mən Allaha səmimi hisslərimi deyirəmmi?", "“Ruh həvəslidir, amma bədən zəifdir.” İmanımda bu söz ən çox hansı sahəyə uyğun gəlir?", "Dostlarımın qarşısında İsanı “tanımıram” dediyim olubmu?", "Yıxıldıqdan sonra Yəhuda kimi tək çökmək ilə Peter kimi qayıtmaq arasındakı fərqi nə yaradır?"],
-  "etiraf": {"b": "Mənim etirafım", "p": "“Mənim istədiyim kimi yox, Sənin istədiyin kimi” duasına uyğun olaraq, indi buraxmalı olduğum “öz istəyimi” Allaha səmimi şəkildə yaz.", "ph": "Məsələn: Ata, bu münasibətin mənim istədiyim kimi olmasını istəyirəm. Amma …"},
-  "dua": "İsa, ən qaranlıq gecədə tək başına Atanın iradəsindən yapışdığın, dost dediyin adam tərəfindən satıldığın və yalançı məhkəmədə mühakimə olunduğun o əzabın mənim üçün olduğunu etiraf edirəm. Öz istəyimdən çox Atanın iradəsini axtarım. Peter kimi büdrəyəndə gizlənmədən ağlayıb Sənə qayıdım. İsa Məsihin adı ilə dua edirəm. Amin."
+  "fon": [
+   [
+    "1. 겟세마네",
+    "감람산 서쪽 기슭, 기드론 골짜기 건너편입니다. 예수님이 자주 기도하시던 곳이었습니다(눅 22:39). 유다도 그 장소를 알고 있었습니다."
+   ],
+   [
+    "2. 체포",
+    "요한복음 18:10은 칼을 쓴 사람이 베드로, 귀를 잘린 종이 말고였다고 기록하고, 누가복음 22:51은 예수님이 그 귀를 고치셨다고 합니다."
+   ],
+   [
+    "3. 산헤드린 재판",
+    "미쉬나에 따르면 사형 재판은 밤에 열 수 없고, 유죄 판결은 다음 날 확정해야 했습니다. 예수님의 재판은 여러 면에서 절차를 어겼습니다."
+   ],
+   [
+    "4. 베드로의 부인",
+    "세 번의 부인은 점점 강해집니다(모른다 → 맹세 → 저주). 요한복음 21장에서 예수님은 세 번 “나를 사랑하느냐” 물으시며 회복시키십니다."
+   ],
+   [
+    "5. 그림 안내",
+    "겟세마네, 체포, 베드로의 부인은 PPT 그림입니다. 산헤드린 재판 장면만 같은 화풍으로 새로 그렸습니다."
+   ]
+  ],
+  "usaq_plan": [
+   [
+    "5분",
+    "올리브 짜기",
+    "올리브나 올리브유를 보여 주며 ‘기름 짜는 곳’ 설명",
+    "“예수님의 마음도 그렇게 아프셨어요.”"
+   ],
+   [
+    "15분",
+    "장면 1–4 듣고 읽기",
+    "장면마다 듣기, 노란 낱말 누르기",
+    "“예수님은 싸우지 않고 우리를 위해 참으셨어요.”"
+   ],
+   [
+    "5분",
+    "외울 말씀",
+    "빈칸 놀이 → 무릎 꿇고 함께 기도문처럼 외우기",
+    ""
+   ],
+   [
+    "5분",
+    "확인 퀴즈",
+    "혼자 풀고 함께 확인",
+    ""
+   ],
+   [
+    "10분",
+    "활동과 기도",
+    "기도할 때 고르기 → 조용한 음악과 함께 기도",
+    ""
+   ]
+  ],
+  "genc_plan": [
+   [
+    "5분",
+    "열기",
+    "“가장 외로웠던 밤” 떠올리기 (나누지 않아도 됨)",
+    ""
+   ],
+   [
+    "15분",
+    "장면 1–2",
+    "이 잔, 두 동산, 입맞춤과 칼, 자발적 고난",
+    ""
+   ],
+   [
+    "10분",
+    "장면 3–4와 반응 표",
+    "불법 재판, 재판받는 재판장, 베드로와 유다",
+    "“넘어진 뒤 어디로 향하는가”"
+   ],
+   [
+    "5분",
+    "확인 문제",
+    "",
+    ""
+   ],
+   [
+    "15분",
+    "나눔과 고백",
+    "나눔 질문 2개 → ‘나의 원’ 내려놓기 기도 쓰기 → 조용한 묵상",
+    ""
+   ]
+  ],
+  "ipucu_usaq": [
+   "폭력 장면(침 뱉고 때림)은 짧게, 감정을 자극하지 않게 전하세요.",
+   "베드로를 비난하지 말고 ‘우리도 그럴 수 있어요. 그래도 예수님은 사랑하세요’로 마무리하세요.",
+   "이 과와 다음 과(십자가)는 진지한 분위기로, 기도 시간을 충분히 가지세요."
+  ],
+  "ipucu_genc": [
+   "유다의 결말(27:3–5, 자살)은 민감합니다. 이 과에서는 다루지 않고, 질문이 나오면 ‘절망이 아니라 예수님께 돌아갈 길이 있다’는 점을 강조하세요. 위기 신호가 보이는 학생은 따로 돌보세요.",
+   "예수님의 ‘괴로움’을 연약함이 아니라 참 인간이심으로 설명하세요.",
+   "다음 과(27장)는 십자가 사건입니다."
+  ],
+  "suallar": [
+   [
+    "예수님도 무서우셨어요?",
+    "네. 예수님도 우리처럼 무섭고 슬프셨어요. 그래서 우리 마음을 잘 아세요.",
+    "예수님은 참 하나님이시자 참 사람이세요. 히브리서 4:15처럼 우리의 연약함을 아시는 분이에요. 두려움 속에서도 아버지를 신뢰하는 것이 믿음이에요."
+   ],
+   [
+    "예수님은 왜 천사를 안 부르셨어요?",
+    "우리를 구하시려면 십자가를 지셔야 했기 때문이에요.",
+    "예수님은 능력이 없어서가 아니라 사랑 때문에 스스로 잡히셨어요. 성경의 약속(사 53장)을 이루시기 위해서였어요."
+   ],
+   [
+    "베드로는 왜 거짓말을 했어요?",
+    "너무 무서웠기 때문이에요. 하지만 베드로는 울면서 회개했고 예수님은 다시 받아 주셨어요.",
+    "두려움은 가장 용감한 제자도 넘어뜨려요. 중요한 것은 넘어진 뒤예요. 베드로는 나중에 오순절에 담대히 예수님을 전했어요(행 2장)."
+   ]
+  ]
+ },
+ "en": {
+  "usaq": {
+   "basliq": "Not as I will, but as you will",
+   "hedef": [
+    "We will learn that Jesus prayed in the Garden of Gethsemane.",
+    "We will learn that Jesus being arrested and judged was for us.",
+    "We will learn about tears of repentance through Peter who stumbled."
+   ],
+   "sehneler": [
+    {
+     "b": "Prayer in Gethsemane",
+     "ayə": "Matthew 26:36–46",
+     "alt": "Jesus kneeling and praying in the Garden of Gethsemane",
+     "p": [
+      "Jesus went to the Garden of [[Gethsemane]] and prayed with a very sad and troubled heart: “Father, if it is possible, let this cup pass away from me.”",
+      "Then he continued: “Nevertheless, not as I will, but as you will.” But the disciples could not stay awake and fell asleep."
+     ]
+    },
+    {
+     "b": "Jesus Is Arrested",
+     "ayə": "Matthew 26:47–56",
+     "alt": "Jesus arrested by men holding swords and clubs",
+     "p": [
+      "Judas brought men holding swords and clubs. He signaled who Jesus was with a [[kiss]].",
+      "When one disciple drew his sword, Jesus said: “Put your sword back in its place. If I asked my Father, he would send angels. But the Scriptures must be fulfilled.” Then all the disciples ran away."
+     ]
+    },
+    {
+     "b": "Jesus Is Judged",
+     "ayə": "Matthew 26:57–68",
+     "alt": "Jesus judged before the high priest",
+     "p": [
+      "They took Jesus to Caiaphas the high priest and put him on [[trial]]. Even though false witnesses spoke, Jesus stayed silent.",
+      "The high priest asked: “Are you the Christ, the Son of God?” Jesus answered: “You have said it.” Then they spit in Jesus's face and hit him. Jesus endured it for us."
+     ]
+    },
+    {
+     "b": "Peter Weeps",
+     "ayə": "Matthew 26:69–75",
+     "alt": "Peter crying after hearing the rooster crow",
+     "p": [
+      "Peter followed from a distance and was in the courtyard. When people said, “You were also with Jesus,” Peter said three times, “I don't know the man!”",
+      "At that moment, a [[rooster]] crowed. Peter remembered Jesus's words, went outside, and cried bitterly. These were tears of [[repentance]]."
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "“Nevertheless, not as I will, but as you will.”",
+    "ref": "26:39",
+    "bos": "“Nevertheless, not as ___ will, but as ___ ___.”",
+    "sozler": [
+     "I",
+     "you",
+     "will"
+    ],
+    "yalan": "they"
+   },
+   "lugat": {
+    "Gethsemane": {
+     "i": "🫒",
+     "x": "Getsemani",
+     "m": "It is an olive garden on the Mount of Olives near Jerusalem. It means 'oil press'.",
+     "e": "Jesus prayed in Gethsemane."
+    },
+    "kiss": {
+     "i": "💋",
+     "x": "öpüş",
+     "m": "A greeting by kissing on the cheek. Judas used it as a sign of betrayal.",
+     "e": "Judas handed Jesus over with a kiss."
+    },
+    "trial": {
+     "i": "⚖️",
+     "x": "məhkəmə",
+     "m": "A process to find out if someone is guilty or not.",
+     "e": "Jesus was put on trial even though he was innocent."
+    },
+    "rooster": {
+     "i": "🐓",
+     "x": "xoruz",
+     "m": "A bird that crows early in the morning.",
+     "e": "When the rooster crowed, Peter cried."
+    },
+    "repentance": {
+     "i": "💧",
+     "x": "tövbə",
+     "m": "Feeling sorry for a mistake and turning back to God.",
+     "e": "Peter shed tears of repentance."
+    }
+   },
+   "test": [
+    {
+     "q": "Where did Jesus pray?",
+     "o": [
+      "In the Garden of Gethsemane",
+      "On the temple roof",
+      "In a boat in Galilee"
+     ],
+     "a": 0,
+     "f": "That's right! An olive garden on the Mount of Olives."
+    },
+    {
+     "q": "Whose will did Jesus pray to be done?",
+     "o": [
+      "The Father's",
+      "The disciples'",
+      "The soldiers'"
+     ],
+     "a": 0,
+     "f": "That's right! He obeyed the Father."
+    },
+    {
+     "q": "What did Jesus say to the disciple who drew his sword?",
+     "o": [
+      "Put your sword back in its place",
+      "Fight harder",
+      "Run away"
+     ],
+     "a": 0,
+     "f": "That's right! Jesus did not fight."
+    },
+    {
+     "q": "What did Peter do when the rooster crowed?",
+     "o": [
+      "He went outside and cried bitterly",
+      "He laughed",
+      "He went to sleep"
+     ],
+     "a": 0,
+     "f": "That's right. They were tears of repentance."
+    }
+   ],
+   "dusun": [
+    "Why did Jesus pray, “Let it be as you will”?",
+    "How did Jesus feel when the disciples fell asleep?",
+    "What do I do when I make a mistake like Peter?"
+   ],
+   "fealiyyet": {
+    "ciz": "Draw Jesus kneeling and praying in the Garden of Gethsemane.",
+    "b": "When will you pray like Jesus?",
+    "p": "Choose when you will pray like Jesus.",
+    "ph": "",
+    "secim": {
+     "basliq": "When will you pray like Jesus?",
+     "izah": "Tap to choose. You can choose more than one.",
+     "cumle": "I will pray like Jesus {x}!",
+     "bos": "when I am scared",
+     "bag": "and",
+     "secimler": [
+      [
+       "😨",
+       "when I am scared"
+      ],
+      [
+       "😢",
+       "when I am sad"
+      ],
+      [
+       "😔",
+       "when I am lonely"
+      ],
+      [
+       "🤔",
+       "when making a hard choice"
+      ],
+      [
+       "💧",
+       "when making a mistake"
+      ],
+      [
+       "🌙",
+       "every night"
+      ]
+     ]
+    }
+   },
+   "dua": "Jesus, thank you for going to the cross for us, saying “Your will be done” even though you suffered so much. Help me to submit to God's will more than my own desires. When I stumble like Peter, let me not hide, but repent and return to you. I pray in the name of Jesus Christ. Amen."
+  },
+  "genc": {
+   "basliq": "The Darkest Night",
+   "giris": "From Thursday night to Friday morning. In the garden of the oil press, Jesus falls to the ground and prays, is betrayed with a kiss, undergoes an illegal trial, and is denied three times by his closest disciple. On that night when everyone abandoned him, Jesus held on to the Father's will all alone.",
+   "meqsed": [
+    "We understand Jesus's true humanity and obedience in his Gethsemane prayer.",
+    "We can explain Jesus's voluntary suffering and identity in the arrest and trial scenes.",
+    "We learn the path of repentance after failure through Peter's denial and tears."
+   ],
+   "sehneler": [
+    {
+     "b": "This Cup",
+     "ayə": "Matthew 26:36–46",
+     "alt": "Jesus kneeling and praying in the Garden of Gethsemane",
+     "p": [
+      "“My soul is exceedingly sorrowful, even to death.” In [[Gethsemane]], Jesus falls on his face and prays three times: “My Father, if it is possible, let this cup pass away from me; nevertheless, not as I will, but as you will.”",
+      "The “cup” is God's cup of wrath {Isa. 51:17}. The Sinless One had to bear the place of sinners. The three disciples fell asleep three times. “The spirit indeed is willing, but the flesh is weak.”"
+     ],
+     "deep": {
+      "b": "Looking Deeper · Two Gardens",
+      "p": "In the Garden of Eden, Adam did “his own will” and turned away from God. In the Garden of Gethsemane, Jesus, the second Adam, does “the Father's will” and brings us back to God. “Your will be done” from the Lord's Prayer {Matt. 6:10} is prayed in the heaviest moment."
+     }
+    },
+    {
+     "b": "A Kiss and a Sword",
+     "ayə": "Matthew 26:47–56",
+     "alt": "Jesus arrested by men holding swords and clubs",
+     "p": [
+      "Judas said, “Greetings, Rabbi!” and kissed him. Jesus said, “Friend, why are you here?” He called him “friend” to the very end.",
+      "One disciple (Peter, according to the Gospel of John) cut off the ear of the high priest's servant with a sword. Jesus said, “All those who take the sword will die by the sword.” Even though he could have called more than twelve legions of [[angels|angel]], he let himself be arrested so the Scriptures would be fulfilled. “Then all the disciples left him, and fled.”"
+     ],
+     "deep": {
+      "b": "Looking Deeper · Voluntary Suffering",
+      "p": "Jesus was not arrested helplessly. He could have called twelve legions (about 72,000) of angels, but chose not to. He lived out his own words from {Matt. 5:39}, “don't resist him who is evil,” with his body facing the cross."
+     }
+    },
+    {
+     "b": "An Illegal Trial",
+     "ayə": "Matthew 26:57–68",
+     "alt": "Jesus judged before the high priest",
+     "p": [
+      "The trial before the [[Sanhedrin]] held in the middle of the night was illegal even according to the law of that time. The words of the false witnesses did not agree with each other. Jesus remained silent, just as in {Isa. 53:7}.",
+      "When the high priest said, “I adjure you by the living God ... are you the Christ?” Jesus answered: “You have said it. ... Nevertheless, you will see the Son of Man sitting at the right hand of Power, and coming on the clouds of the sky.” This answer combines {Dan. 7:13} and {Ps. 110:1}."
+     ],
+     "deep": {
+      "b": "Looking Deeper · The Judge on Trial",
+      "p": "Jesus reveals that he is the “Son of Man” from {Dan. 7}, the One who will judge the whole world. The one being judged is actually the Judge of the last day. They call this confession “blasphemy” and sentence him to death.",
+      "rose": true
+     }
+    },
+    {
+     "b": "A Rooster's Crow and Tears",
+     "ayə": "Matthew 26:69–75",
+     "alt": "Peter crying after hearing the rooster crow",
+     "p": [
+      "Peter still followed. While the other disciples fled, he came as far as the courtyard. But he fell before a servant girl's question. First, “I don't know what you are talking about,” then with an oath, and finally cursing, “I don't know the man.”",
+      "At the same time, Jesus was confessing, while Peter was denying. When the rooster crowed, Peter remembered Jesus's words and “went out and wept bitterly.” Both Judas and Peter stumbled, but Peter's tears led to [[repentance]], opening the way to restoration."
+     ],
+     "deep": {
+      "b": "Looking Deeper · Judas and Peter",
+      "p": "Both betrayed Jesus. Judas felt remorse {Matt. 27:3}, but did not return to Jesus. Peter cried and eventually returned {John 21}. The difference is not in the size of the sin, but in where they turned after falling."
+     }
+    }
+   ],
+   "cedvel": {
+    "b": "Same Night, Different Reactions",
+    "alt": "26:36–75",
+    "bas": [
+     "Person",
+     "State That Night",
+     "Result"
+    ],
+    "set": [
+     [
+      "Jesus",
+      "Fell to the ground in prayer, silence, confession",
+      "Obedience to the Father's will"
+     ],
+     [
+      "Three disciples",
+      "Fell asleep three times",
+      "Failed to prepare for the trial"
+     ],
+     [
+      "Judas",
+      "Handed him over with a kiss",
+      "Felt remorse, but did not return"
+     ],
+     [
+      "Peter",
+      "Followed, but denied three times",
+      "Cried bitterly and repented, later restored"
+     ],
+     [
+      "High priest",
+      "False witnesses and illegal trial",
+      "Condemned the true Judge"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "“He went forward a little, fell on his face, and prayed, saying, ‘My Father, if it is possible, let this cup pass away from me; nevertheless, not as I will, but as you will.’”",
+    "ref": "26:39"
+   },
+   "lugat": {
+    "Gethsemane": {
+     "i": "🫒",
+     "o": "Aramaic Gat-shemanim, 'oil press'",
+     "x": "Getsemani",
+     "s": "A place of pressing",
+     "m": "It was a place where olives were pressed with a heavy stone to extract oil. Jesus's heart was pressed just like that.",
+     "e": "Even today, there are centuries-old olive trees there."
+    },
+    "angel": {
+     "i": "👼",
+     "o": "Greek angelos",
+     "x": "mələk",
+     "s": "God's army",
+     "m": "A Roman legion was about 6,000 men. Twelve legions is more than 70,000.",
+     "e": "Angels also ministered to Jesus in the wilderness {Matt. 4:11}."
+    },
+    "Sanhedrin": {
+     "i": "🏛️",
+     "o": "Greek synedrion, 'council'",
+     "x": "Sinedrion",
+     "s": "The supreme council of the Jews",
+     "m": "It was a 71-member council led by the high priest. Actually, a death penalty trial had to be held during the day and take two days.",
+     "e": "Joseph of Arimathea was also a member of this council {Luke 23:50–51}."
+    },
+    "repentance": {
+     "i": "💧",
+     "o": "Greek metanoia, 'change of mind'",
+     "x": "tövbə",
+     "s": "Changing direction",
+     "m": "It is moving beyond regret (a feeling) and turning toward God. The first message in {Matt. 3:2} and {Matt. 4:17} was also 'repent'.",
+     "e": "“For godly sorrow produces repentance to salvation” {2 Cor. 7:10}."
+    }
+   },
+   "test": [
+    {
+     "q": "What does 'Gethsemane' mean?",
+     "o": [
+      "Oil press",
+      "Garden of peace",
+      "King's garden"
+     ],
+     "a": 0,
+     "f": "That's right. It was a place of pressing."
+    },
+    {
+     "q": "What does the 'cup' that Jesus wanted to avoid drinking symbolize?",
+     "o": [
+      "God's wrath",
+      "Wine",
+      "Poison"
+     ],
+     "a": 0,
+     "f": "That's right. The suffering of bearing the place of sinners."
+    },
+    {
+     "q": "How did Jesus address Judas when he kissed him?",
+     "o": [
+      "Friend",
+      "Traitor",
+      "Rabbi"
+     ],
+     "a": 0,
+     "f": "That's right. He called him friend to the very end."
+    },
+    {
+     "q": "Which Old Testament texts did Jesus quote before the high priest?",
+     "o": [
+      "Daniel 7:13 and Psalm 110:1",
+      "Genesis 1:1",
+      "Exodus 20"
+     ],
+     "a": 0,
+     "f": "That's right. The Son of Man sitting at the right hand of Power."
+    },
+    {
+     "q": "What is the biggest difference between Judas and Peter?",
+     "o": [
+      "Where they turned after falling",
+      "The size of the sin",
+      "The time they spent with Jesus"
+     ],
+     "a": 0,
+     "f": "That's right. Peter returned."
+    }
+   ],
+   "paylas": [
+    "Jesus also prayed honestly in his suffering. Do I tell God my honest feelings?",
+    "“The spirit indeed is willing, but the flesh is weak.” In what area of my faith does this saying apply the most?",
+    "Have I ever said “I don't know him” about Jesus in front of my friends?",
+    "What makes the difference between collapsing alone like Judas and returning like Peter after falling?"
+   ],
+   "etiraf": {
+    "b": "My Confession",
+    "p": "Following the prayer “not as I will, but as you will,” honestly write down “my own will” that I need to let go of before God right now.",
+    "ph": "Example: Father, I want this relationship to go the way I want. But..."
+   },
+   "dua": "Jesus, I confess that the suffering you endured—holding on to the Father's will all alone in the darkest night, being betrayed by someone you called a friend, and being judged in a false trial—was for me. Let me seek the Father's will more than my own desires. When I stumble like Peter, let me not hide, but weep and return to you. I pray in the name of Jesus Christ. Amen."
+  }
  }
-},
-"muellim": {
- "mesaj": "31과의 중심은 한 문장입니다. **모두가 잠들고 떠난 가장 어두운 밤, 예수님은 홀로 “아버지의 원대로”를 붙드시고 자발적으로 고난의 길을 가셨으며, 넘어진 베드로에게도 회개의 길을 열어 두셨다.**",
- "hazirliq": ["학생용 교재를 열 휴대폰이나 태블릿, 이어폰", "올리브(또는 올리브유)", "조용한 배경 음악 (묵상 기도 시간용)"],
- "fon": [
-  ["1. 겟세마네", "감람산 서쪽 기슭, 기드론 골짜기 건너편입니다. 예수님이 자주 기도하시던 곳이었습니다(눅 22:39). 유다도 그 장소를 알고 있었습니다."],
-  ["2. 체포", "요한복음 18:10은 칼을 쓴 사람이 베드로, 귀를 잘린 종이 말고였다고 기록하고, 누가복음 22:51은 예수님이 그 귀를 고치셨다고 합니다."],
-  ["3. 산헤드린 재판", "미쉬나에 따르면 사형 재판은 밤에 열 수 없고, 유죄 판결은 다음 날 확정해야 했습니다. 예수님의 재판은 여러 면에서 절차를 어겼습니다."],
-  ["4. 베드로의 부인", "세 번의 부인은 점점 강해집니다(모른다 → 맹세 → 저주). 요한복음 21장에서 예수님은 세 번 “나를 사랑하느냐” 물으시며 회복시키십니다."],
-  ["5. 그림 안내", "겟세마네, 체포, 베드로의 부인은 PPT 그림입니다. 산헤드린 재판 장면만 같은 화풍으로 새로 그렸습니다."]
- ],
- "usaq_plan": [
-  ["5분", "올리브 짜기", "올리브나 올리브유를 보여 주며 ‘기름 짜는 곳’ 설명", "“예수님의 마음도 그렇게 아프셨어요.”"],
-  ["15분", "장면 1–4 듣고 읽기", "장면마다 듣기, 노란 낱말 누르기", "“예수님은 싸우지 않고 우리를 위해 참으셨어요.”"],
-  ["5분", "외울 말씀", "빈칸 놀이 → 무릎 꿇고 함께 기도문처럼 외우기", ""],
-  ["5분", "확인 퀴즈", "혼자 풀고 함께 확인", ""],
-  ["10분", "활동과 기도", "기도할 때 고르기 → 조용한 음악과 함께 기도", ""]
- ],
- "genc_plan": [
-  ["5분", "열기", "“가장 외로웠던 밤” 떠올리기 (나누지 않아도 됨)", ""],
-  ["15분", "장면 1–2", "이 잔, 두 동산, 입맞춤과 칼, 자발적 고난", ""],
-  ["10분", "장면 3–4와 반응 표", "불법 재판, 재판받는 재판장, 베드로와 유다", "“넘어진 뒤 어디로 향하는가”"],
-  ["5분", "확인 문제", "", ""],
-  ["15분", "나눔과 고백", "나눔 질문 2개 → ‘나의 원’ 내려놓기 기도 쓰기 → 조용한 묵상", ""]
- ],
- "ipucu_usaq": ["폭력 장면(침 뱉고 때림)은 짧게, 감정을 자극하지 않게 전하세요.", "베드로를 비난하지 말고 ‘우리도 그럴 수 있어요. 그래도 예수님은 사랑하세요’로 마무리하세요.", "이 과와 다음 과(십자가)는 진지한 분위기로, 기도 시간을 충분히 가지세요."],
- "ipucu_genc": ["유다의 결말(27:3–5, 자살)은 민감합니다. 이 과에서는 다루지 않고, 질문이 나오면 ‘절망이 아니라 예수님께 돌아갈 길이 있다’는 점을 강조하세요. 위기 신호가 보이는 학생은 따로 돌보세요.", "예수님의 ‘괴로움’을 연약함이 아니라 참 인간이심으로 설명하세요.", "다음 과(27장)는 십자가 사건입니다."],
- "suallar": [
-  ["예수님도 무서우셨어요?", "네. 예수님도 우리처럼 무섭고 슬프셨어요. 그래서 우리 마음을 잘 아세요.", "예수님은 참 하나님이시자 참 사람이세요. 히브리서 4:15처럼 우리의 연약함을 아시는 분이에요. 두려움 속에서도 아버지를 신뢰하는 것이 믿음이에요."],
-  ["예수님은 왜 천사를 안 부르셨어요?", "우리를 구하시려면 십자가를 지셔야 했기 때문이에요.", "예수님은 능력이 없어서가 아니라 사랑 때문에 스스로 잡히셨어요. 성경의 약속(사 53장)을 이루시기 위해서였어요."],
-  ["베드로는 왜 거짓말을 했어요?", "너무 무서웠기 때문이에요. 하지만 베드로는 울면서 회개했고 예수님은 다시 받아 주셨어요.", "두려움은 가장 용감한 제자도 넘어뜨려요. 중요한 것은 넘어진 뒤예요. 베드로는 나중에 오순절에 담대히 예수님을 전했어요(행 2장)."]
- ]
-}
 }

@@ -1,169 +1,1799 @@
 {
-"no": 2, "ref": "2:1–12", "deq": {"usaq": 40, "genc": 50},
-"img": ["matta/02-ulduz.jpg", "matta/02-hirod.jpg", "03-majuslar.jpg", "matta/02-basqa-yol.jpg"],
-"hero": 2,
-"ko": {
- "usaq": {
-  "basliq": "별을 따라온 동방박사",
-  "hedef": ["동방박사들이 별을 따라 아기 예수님을 찾아온 이야기를 알아요.", "예수님이 온 세상의 왕이심을 알아요.", "나도 예수님께 드릴 수 있는 선물을 생각해요."],
-  "sehneler": [
-   {"b": "멀리서 본 특별한 별", "ayə": "2:1–2", "alt": "별을 따라 낙타를 타고 가는 동방박사들", "p": ["예수님이 [[베들레헴]]에서 태어나셨을 때, 멀리 동쪽 나라에 [[동방박사]]들이 살았어요. 하늘의 별을 연구하는 지혜로운 사람들이었어요.", "어느 날 밤, 아주 특별한 별이 나타났어요. 동방박사들은 말했어요. “새로운 왕이 태어나셨구나! 가서 [[경배]]하자.”"]},
-   {"b": "헤롯 왕의 나쁜 마음", "ayə": "2:3–8", "alt": "왕좌에 앉은 헤롯 왕과 동방박사들", "p": ["동방박사들은 먼저 큰 도시 예루살렘에 가서 물었어요. “새로 태어난 왕이 어디 계세요?”", "그 소식을 들은 [[헤롯]] 왕은 깜짝 놀랐어요. 자기보다 높은 왕이 생기는 것이 싫었거든요.", "헤롯은 거짓말을 했어요. “아기를 찾으면 알려 주세요. 나도 가서 경배하겠소.” 하지만 속으로는 아기를 해치려고 했어요."]},
-   {"b": "아기 예수님께 드린 선물", "ayə": "2:9–11", "alt": "아기 예수님께 선물을 드리는 동방박사들", "p": ["동방박사들이 다시 길을 떠나자, 별이 앞서가다가 아기가 있는 집 위에 멈췄어요. 동방박사들은 아주아주 기뻤어요.", "그들은 아기 예수님과 엄마 마리아를 보고 엎드려 경배했어요. 그리고 보물 상자를 열어 [[황금]], [[유향]], [[몰약]]을 선물로 드렸어요."]},
-   {"b": "다른 길로 돌아가요", "ayə": "2:12", "alt": "다른 길로 집에 돌아가는 동방박사들", "p": ["그날 밤 하나님은 꿈에서 동방박사들에게 말씀하셨어요. “헤롯에게 돌아가지 마라.”", "동방박사들은 하나님 말씀에 [[순종]]해서 다른 길로 자기 나라에 돌아갔어요. 하나님이 아기 예수님을 지켜 주셨어요."]}
-  ],
-  "aye": {"metn": "“동방박사들은 아기 예수님을 보고 엎드려 경배하였다.”", "ref": "2:11", "bos": "동방박사들은 ___ 예수님을 보고 ___ ___하였다.", "sozler": ["아기", "엎드려", "경배"], "yalan": "헤롯"},
-  "lugat": {
-   "베들레헴": {"i": "📍", "x": "Bet-Lexem", "m": "예수님이 태어나신 작은 마을이에요. 다윗 왕의 고향이기도 해요.", "e": "베들레헴은 ‘빵의 집’이라는 뜻이에요."},
-   "동방박사": {"i": "🐫", "x": "müdriklər", "m": "동쪽 먼 나라에서 온, 별을 연구하던 지혜로운 사람들이에요.", "e": "동방박사들은 낙타를 타고 먼 길을 왔어요."},
-   "경배": {"i": "🙇", "x": "səcdə", "m": "하나님께 엎드려 높이고 찬양하는 거예요.", "e": "동방박사들은 아기 예수님께 경배했어요."},
-   "헤롯": {"i": "👑", "x": "Hirod", "m": "그때 유대 땅을 다스리던 왕이에요. 욕심과 의심이 아주 많았어요.", "e": "헤롯은 새 왕이 태어난 것을 싫어했어요."},
-   "황금": {"i": "🪙", "x": "qızıl", "m": "가장 귀한 금속이에요. 왕에게 드리는 선물이에요.", "e": "황금은 예수님이 왕이심을 보여 줘요."},
-   "유향": {"i": "💨", "x": "kündür", "m": "태우면 좋은 향기가 나는 나무 진액이에요. 하나님께 예배할 때 썼어요.", "e": "유향은 예수님이 하나님이심을 떠올리게 해요."},
-   "몰약": {"i": "🫙", "x": "mirra", "m": "쓴맛이 나지만 향기로운 기름이에요. 장례 때 썼어요.", "e": "몰약은 예수님이 우리를 위해 돌아가실 것을 떠올리게 해요."},
-   "순종": {"i": "👣", "x": "itaət", "m": "말씀을 듣고 그대로 따르는 거예요.", "e": "동방박사들은 하나님 말씀에 순종했어요."}
-  },
-  "test": [
-   {"q": "동방박사들은 무엇을 보고 길을 떠났나요?", "o": ["특별한 별", "무지개", "큰 배"], "a": 0, "f": "맞아요! 특별한 별이 새 왕의 탄생을 알려 주었어요."},
-   {"q": "헤롯 왕은 왜 깜짝 놀랐나요?", "o": ["다른 왕이 생기는 게 싫어서", "비가 와서", "배가 고파서"], "a": 0, "f": "맞아요! 헤롯은 자기만 왕이고 싶었어요."},
-   {"q": "동방박사의 선물이 아닌 것은?", "o": ["황금", "유향", "사과", "몰약"], "a": 2, "f": "맞아요! 사과는 선물이 아니었어요."},
-   {"q": "동방박사들은 왜 다른 길로 갔나요?", "o": ["하나님이 꿈에서 알려 주셔서", "길을 잃어서", "헤롯이 시켜서"], "a": 0, "f": "맞아요! 하나님 말씀에 순종했어요."}
-  ],
-  "dusun": ["동방박사들은 아주 먼 길을 왔어요. 예수님을 만나는 것이 왜 그렇게 중요했을까요?", "헤롯과 동방박사는 똑같이 ‘왕’ 소식을 들었어요. 두 사람의 마음은 어떻게 달랐나요?", "내가 예수님께 드릴 수 있는 선물은 무엇일까요?"],
-  "fealiyyet": {"ciz": "별을 따라가는 동방박사를 그려 보세요. 나라면 어떤 선물을 들고 갈까요?", "b": "나의 선물", "p": "예수님께 드리고 싶은 선물을 써 보세요. 노래, 기도, 친구 돕기도 좋아요.", "ph": "예) 저는 예수님께 노래를 드리고 싶어요."},
-  "dua": "하나님, 예수님을 온 세상의 왕으로 보내 주셔서 감사합니다. 동방박사처럼 기쁜 마음으로 예수님께 경배하게 해 주세요. 제 마음과 시간과 노래를 예수님께 선물로 드립니다. 예수님 이름으로 기도합니다. 아멘."
+ "no": 2,
+ "ref": "2:1–12",
+ "deq": {
+  "usaq": 40,
+  "genc": 50
  },
- "genc": {
-  "basliq": "누가 진짜 왕인가",
-  "giris": "같은 소식을 듣고 어떤 사람은 먼 길을 달려와 무릎을 꿇고, 어떤 사람은 칼을 꺼냅니다. 예수님 앞에서 나의 반응은 어느 쪽일까요?",
-  "meqsed": ["동방박사, 헤롯, 종교 지도자의 서로 다른 반응을 비교해요.", "예수님이 유대인만이 아니라 온 세상의 왕이심을 설명할 수 있어요.", "내 삶의 ‘왕좌’에 누가 앉아 있는지 돌아봐요."],
-  "sehneler": [
-   {"b": "별을 따라온 이방인들", "ayə": "2:1–2", "alt": "별을 따라 낙타를 타고 가는 동방박사들", "p": ["[[동방박사]]는 오늘날 이란·이라크 지역의 학자들로, 별과 꿈을 연구했어요. 유대인이 아닌 [[이방인]]이었지요.", "놀랍게도 메시아를 가장 먼저 찾아온 사람들은 성경을 잘 아는 유대인이 아니라 먼 나라 이방인이었어요. 마태는 1장 족보에 이방 여인들을 넣었던 것처럼, 여기서도 예수님이 온 민족의 왕이심을 보여 줘요."], "deep": {"b": "깊이 보기 · 별과 예언", "p": "민수기 24:17은 “한 별이 야곱에게서 나오며”라고 예언해요. 하나님은 별을 연구하던 사람들에게 그들이 알아들을 수 있는 방식으로 길을 보여 주셨고, 마지막에는 성경 말씀으로 예수님께 이끄셨어요."}},
-   {"b": "두려워한 왕, 움직이지 않은 학자들", "ayə": "2:3–8", "alt": "왕좌에 앉은 헤롯 왕과 동방박사들", "p": ["[[헤롯]] 왕은 로마가 세운 왕이었어요. 자기 자리를 지키려고 가족까지 죽일 만큼 의심이 많았어요. ‘유대인의 왕’이 태어났다는 말은 그에게 위협이었어요.", "헤롯이 불러 모은 [[대제사장]]과 학자들은 [[미가]] 선지자의 예언 {{미 5:2}}을 정확히 알았어요. 메시아는 베들레헴에서 태어난다고요. 그런데 그들 중 누구도 겨우 9km 떨어진 베들레헴에 가 보지 않았어요."], "deep": {"b": "깊이 보기 · 아는 것과 가는 것", "p": "성경 지식은 있었지만 움직이지 않은 학자들, 지식은 적었지만 먼 길을 온 동방박사들. 믿음은 아는 데서 끝나지 않고 예수님께 나아가는 걸음으로 이어져요.", "rose": true}},
-   {"b": "세 가지 선물", "ayə": "2:9–11", "alt": "아기 예수님께 선물을 드리는 동방박사들", "p": ["별이 아기가 있는 집 위에 멈추자 동방박사들은 매우 크게 기뻐했어요. 그들은 엎드려 [[경배]]하고 [[황금]], [[유향]], [[몰약]]을 드렸어요.", "이 선물들은 오래전부터 예수님이 누구신지 보여 주는 것으로 해석되어 왔어요."], "deep": {"b": "깊이 보기 · 선물에 담긴 의미", "p": "황금은 왕께, 유향은 하나님께 드리는 예배에, 몰약은 장례에 쓰였어요. 그래서 많은 교회 전통은 이 선물을 ‘왕이신 예수, 하나님이신 예수, 우리를 위해 죽으실 예수’로 풀어 왔어요."}},
-   {"b": "다른 길", "ayə": "2:12", "alt": "다른 길로 집에 돌아가는 동방박사들", "p": ["하나님은 꿈으로 동방박사들에게 헤롯에게 돌아가지 말라고 경고하셨고, 그들은 다른 길로 고향에 돌아갔어요.", "예수님을 만난 사람은 같은 길로 돌아가지 않아요. 만남 이후의 삶은 방향이 달라져요."]}
-  ],
-  "cedvel": {"b": "세 가지 반응", "alt": "같은 소식, 다른 마음", "bas": ["누구", "무엇을 알았나", "어떻게 반응했나"], "set": [["동방박사", "별과 예언의 일부", "먼 길을 와서 기뻐하며 경배"], ["헤롯", "새 왕의 탄생", "두려워하며 죽이려 함"], ["대제사장·학자", "성경 예언을 정확히", "알면서도 움직이지 않음"]]},
-  "aye": {"metn": "“그들은 집에 들어가 아기와 어머니 마리아를 보고, 엎드려 아기께 경배하고 보물 상자를 열어 예물을 드렸다.”", "ref": "2:11"},
-  "lugat": {
-   "동방박사": {"i": "🌟", "o": "헬라어 마고이", "x": "müdriklər", "s": "별을 연구하던 동방의 학자들", "m": "페르시아·바벨론 지역에서 별과 꿈을 연구하던 학자 계층이에요. 왕이 아니라 지식인이었어요.", "e": "영어 magic(마술)이 이 말에서 나왔지만, 마태는 그들을 진리를 찾는 사람들로 그려요."},
-   "이방인": {"i": "🌍", "o": "헬라어 에트네", "x": "yadelli", "s": "유대인이 아닌 다른 민족", "m": "하나님의 언약 백성인 이스라엘 바깥의 모든 민족을 가리켜요.", "e": "마태복음은 이방인 동방박사로 시작해 ‘모든 민족을 제자로 삼으라’(28:19)로 끝나요."},
-   "헤롯": {"i": "👑", "o": "헤롯 대왕, 주전 37–4년 통치", "x": "Hirod", "s": "로마가 세운 유대의 왕", "m": "큰 성전을 재건한 능력 있는 왕이었지만, 의심이 많아 아내와 아들들까지 죽였어요.", "e": "“헤롯의 아들이 되느니 돼지가 되는 게 낫다”는 말이 돌 정도였어요."},
-   "대제사장": {"i": "🕍", "o": "헬라어 아르키에레우스", "x": "baş kahin", "s": "성전 제사를 맡은 최고 지도자들", "m": "성전 예배를 책임지고 유대 사회를 이끌던 제사장 지도자들이에요.", "e": "예수님의 재판에도 대제사장들이 다시 등장해요(26장)."},
-   "미가": {"i": "📜", "o": "히브리어 미카", "x": "Mikeya peyğəmbər", "s": "베들레헴 탄생을 예언한 선지자", "m": "주전 8세기 선지자로, 베들레헴에서 이스라엘을 다스릴 자가 나온다고 예언했어요.", "e": "“베들레헴아, 너는 결코 가장 작지 않다”(미 5:2)."},
-   "경배": {"i": "🙇", "o": "헬라어 프로스퀴네오", "x": "səcdə", "s": "엎드려 절하며 높이는 것", "m": "원래 ‘엎드려 입 맞추다’라는 뜻으로, 왕이나 신 앞에서 완전한 존경을 표하는 행동이에요.", "e": "마태복음에서 이 단어는 예수님께 여러 번 쓰여요. 예수님이 경배받으실 분이라는 뜻이에요."},
-   "유향": {"i": "💨", "o": "헬라어 리바노스", "x": "kündür", "s": "예배에 쓰던 향", "m": "유향나무 수지로, 태우면 향기로운 연기가 나서 성전 예배에 쓰였어요.", "e": "출애굽기 30장의 거룩한 향에도 유향이 들어가요."},
-   "몰약": {"i": "🫙", "o": "헬라어 스뮈르나", "x": "mirra", "s": "장례와 약에 쓰던 향유", "m": "몰약나무 수지로 만든 향유예요. 시신을 장사할 때 썼어요.", "e": "예수님이 십자가에서 내려지셨을 때도 몰약이 쓰였어요(요 19:39)."}
+ "img": [
+  "matta/02-ulduz.jpg",
+  "matta/02-hirod.jpg",
+  "03-majuslar.jpg",
+  "matta/02-basqa-yol.jpg"
+ ],
+ "hero": 2,
+ "ko": {
+  "usaq": {
+   "basliq": "별을 따라온 동방박사",
+   "hedef": [
+    "동방박사들이 별을 따라 아기 예수님을 찾아온 이야기를 알아요.",
+    "예수님이 온 세상의 왕이심을 알아요.",
+    "나도 예수님께 드릴 수 있는 선물을 생각해요."
+   ],
+   "sehneler": [
+    {
+     "b": "멀리서 본 특별한 별",
+     "ayə": "2:1–2",
+     "alt": "별을 따라 낙타를 타고 가는 동방박사들",
+     "p": [
+      "예수님이 [[베들레헴]]에서 태어나셨을 때, 멀리 동쪽 나라에 [[동방박사]]들이 살았어요. 하늘의 별을 연구하는 지혜로운 사람들이었어요.",
+      "어느 날 밤, 아주 특별한 별이 나타났어요. 동방박사들은 말했어요. “새로운 왕이 태어나셨구나! 가서 [[경배]]하자.”"
+     ]
+    },
+    {
+     "b": "헤롯 왕의 나쁜 마음",
+     "ayə": "2:3–8",
+     "alt": "왕좌에 앉은 헤롯 왕과 동방박사들",
+     "p": [
+      "동방박사들은 먼저 큰 도시 예루살렘에 가서 물었어요. “새로 태어난 왕이 어디 계세요?”",
+      "그 소식을 들은 [[헤롯]] 왕은 깜짝 놀랐어요. 자기보다 높은 왕이 생기는 것이 싫었거든요.",
+      "헤롯은 거짓말을 했어요. “아기를 찾으면 알려 주세요. 나도 가서 경배하겠소.” 하지만 속으로는 아기를 해치려고 했어요."
+     ]
+    },
+    {
+     "b": "아기 예수님께 드린 선물",
+     "ayə": "2:9–11",
+     "alt": "아기 예수님께 선물을 드리는 동방박사들",
+     "p": [
+      "동방박사들이 다시 길을 떠나자, 별이 앞서가다가 아기가 있는 집 위에 멈췄어요. 동방박사들은 아주아주 기뻤어요.",
+      "그들은 아기 예수님과 엄마 마리아를 보고 엎드려 경배했어요. 그리고 보물 상자를 열어 [[황금]], [[유향]], [[몰약]]을 선물로 드렸어요."
+     ]
+    },
+    {
+     "b": "다른 길로 돌아가요",
+     "ayə": "2:12",
+     "alt": "다른 길로 집에 돌아가는 동방박사들",
+     "p": [
+      "그날 밤 하나님은 꿈에서 동방박사들에게 말씀하셨어요. “헤롯에게 돌아가지 마라.”",
+      "동방박사들은 하나님 말씀에 [[순종]]해서 다른 길로 자기 나라에 돌아갔어요. 하나님이 아기 예수님을 지켜 주셨어요."
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "“동방박사들은 아기 예수님을 보고 엎드려 경배하였다.”",
+    "ref": "2:11",
+    "bos": "동방박사들은 ___ 예수님을 보고 ___ ___하였다.",
+    "sozler": [
+     "아기",
+     "엎드려",
+     "경배"
+    ],
+    "yalan": "헤롯"
+   },
+   "lugat": {
+    "베들레헴": {
+     "i": "📍",
+     "x": "Bet-Lexem",
+     "m": "예수님이 태어나신 작은 마을이에요. 다윗 왕의 고향이기도 해요.",
+     "e": "베들레헴은 ‘빵의 집’이라는 뜻이에요."
+    },
+    "동방박사": {
+     "i": "🐫",
+     "x": "müdriklər",
+     "m": "동쪽 먼 나라에서 온, 별을 연구하던 지혜로운 사람들이에요.",
+     "e": "동방박사들은 낙타를 타고 먼 길을 왔어요."
+    },
+    "경배": {
+     "i": "🙇",
+     "x": "səcdə",
+     "m": "하나님께 엎드려 높이고 찬양하는 거예요.",
+     "e": "동방박사들은 아기 예수님께 경배했어요."
+    },
+    "헤롯": {
+     "i": "👑",
+     "x": "Hirod",
+     "m": "그때 유대 땅을 다스리던 왕이에요. 욕심과 의심이 아주 많았어요.",
+     "e": "헤롯은 새 왕이 태어난 것을 싫어했어요."
+    },
+    "황금": {
+     "i": "🪙",
+     "x": "qızıl",
+     "m": "가장 귀한 금속이에요. 왕에게 드리는 선물이에요.",
+     "e": "황금은 예수님이 왕이심을 보여 줘요."
+    },
+    "유향": {
+     "i": "💨",
+     "x": "kündür",
+     "m": "태우면 좋은 향기가 나는 나무 진액이에요. 하나님께 예배할 때 썼어요.",
+     "e": "유향은 예수님이 하나님이심을 떠올리게 해요."
+    },
+    "몰약": {
+     "i": "🫙",
+     "x": "mirra",
+     "m": "쓴맛이 나지만 향기로운 기름이에요. 장례 때 썼어요.",
+     "e": "몰약은 예수님이 우리를 위해 돌아가실 것을 떠올리게 해요."
+    },
+    "순종": {
+     "i": "👣",
+     "x": "itaət",
+     "m": "말씀을 듣고 그대로 따르는 거예요.",
+     "e": "동방박사들은 하나님 말씀에 순종했어요."
+    }
+   },
+   "test": [
+    {
+     "q": "동방박사들은 무엇을 보고 길을 떠났나요?",
+     "o": [
+      "특별한 별",
+      "무지개",
+      "큰 배"
+     ],
+     "a": 0,
+     "f": "맞아요! 특별한 별이 새 왕의 탄생을 알려 주었어요."
+    },
+    {
+     "q": "헤롯 왕은 왜 깜짝 놀랐나요?",
+     "o": [
+      "다른 왕이 생기는 게 싫어서",
+      "비가 와서",
+      "배가 고파서"
+     ],
+     "a": 0,
+     "f": "맞아요! 헤롯은 자기만 왕이고 싶었어요."
+    },
+    {
+     "q": "동방박사의 선물이 아닌 것은?",
+     "o": [
+      "황금",
+      "유향",
+      "사과",
+      "몰약"
+     ],
+     "a": 2,
+     "f": "맞아요! 사과는 선물이 아니었어요."
+    },
+    {
+     "q": "동방박사들은 왜 다른 길로 갔나요?",
+     "o": [
+      "하나님이 꿈에서 알려 주셔서",
+      "길을 잃어서",
+      "헤롯이 시켜서"
+     ],
+     "a": 0,
+     "f": "맞아요! 하나님 말씀에 순종했어요."
+    }
+   ],
+   "dusun": [
+    "동방박사들은 아주 먼 길을 왔어요. 예수님을 만나는 것이 왜 그렇게 중요했을까요?",
+    "헤롯과 동방박사는 똑같이 ‘왕’ 소식을 들었어요. 두 사람의 마음은 어떻게 달랐나요?",
+    "내가 예수님께 드릴 수 있는 선물은 무엇일까요?"
+   ],
+   "fealiyyet": {
+    "ciz": "별을 따라가는 동방박사를 그려 보세요. 나라면 어떤 선물을 들고 갈까요?",
+    "b": "나의 선물",
+    "p": "예수님께 드리고 싶은 선물을 써 보세요. 노래, 기도, 친구 돕기도 좋아요.",
+    "ph": "예) 저는 예수님께 노래를 드리고 싶어요."
+   },
+   "dua": "하나님, 예수님을 온 세상의 왕으로 보내 주셔서 감사합니다. 동방박사처럼 기쁜 마음으로 예수님께 경배하게 해 주세요. 제 마음과 시간과 노래를 예수님께 선물로 드립니다. 예수님 이름으로 기도합니다. 아멘."
   },
-  "test": [
-   {"q": "동방박사들은 어떤 사람들이었나요?", "o": ["유대인 제사장", "별을 연구하던 동방의 이방인 학자", "헤롯의 신하"], "a": 1, "f": "맞아요. 메시아를 가장 먼저 찾아온 사람들은 이방인이었어요."},
-   {"q": "메시아가 베들레헴에서 태어난다고 예언한 선지자는?", "o": ["이사야", "미가", "예레미야"], "a": 1, "f": "맞아요. 미가 5:2예요."},
-   {"q": "대제사장과 학자들의 문제는 무엇이었나요?", "o": ["예언을 몰랐다", "예언을 알면서도 가 보지 않았다", "동방박사를 속였다"], "a": 1, "f": "맞아요. 아는 것과 가는 것은 달라요."},
-   {"q": "몰약은 주로 어디에 쓰였나요?", "o": ["왕의 대관식", "장례", "결혼식"], "a": 1, "f": "맞아요. 몰약은 예수님의 고난과 죽음을 떠올리게 해요."},
-   {"q": "마태복음 2장이 보여 주는 예수님은?", "o": ["유대인만의 왕", "온 민족이 경배할 왕", "로마의 왕"], "a": 1, "f": "맞아요. 동방의 이방인들이 가장 먼저 경배했어요."}
-  ],
-  "paylas": ["헤롯처럼 내 자리를 빼앗길까 봐 예수님을 밀어낸 적은 없나요?", "성경을 ‘아는 것’과 예수님께 ‘가는 것’은 어떻게 다를까요?", "나는 예수님께 무엇을 드리고 있나요? 시간, 재능, 마음 중 하나를 골라 이야기해 보세요.", "예수님을 만난 뒤 ‘다른 길’로 바뀐 내 습관이 있다면 무엇인가요?"],
-  "etiraf": {"b": "나의 고백", "p": "지금 내 삶의 왕좌에는 누가 앉아 있나요? 예수님께 드리고 싶은 ‘나의 선물’을 서너 문장으로 써 보세요.", "ph": "예) 요즘 제 마음의 왕은 휴대폰인 것 같아요. 이번 주에는 …"},
-  "dua": "하나님, 먼 나라 사람들까지 부르셔서 예수님께 경배하게 하신 은혜에 감사합니다. 아는 것에서 멈추지 않고 예수님께 나아가게 해 주세요. 제 삶의 왕좌를 예수님께 내어 드립니다. 왕이신 예수님 이름으로 기도합니다. 아멘."
- }
-},
-"az": {
- "usaq": {
-  "basliq": "Ulduzun ardınca gələn müdriklər",
-  "hedef": ["Müdriklərin ulduzun ardınca gəlib körpə İsanı tapdığını öyrənəcəyik.", "İsa Məsihin bütün dünyanın Padşahı olduğunu öyrənəcəyik.", "İsaya hansı hədiyyəni verə biləcəyimizi düşünəcəyik."],
-  "sehneler": [
-   {"b": "Uzaqdan görünən xüsusi ulduz", "ayə": "Matta 2:1–2", "alt": "Ulduzun ardınca dəvələrlə gedən müdriklər", "p": ["İsa [[Bet-Lexem]] şəhərində doğulanda, uzaq şərq ölkəsində [[müdriklər]] yaşayırdı. Onlar göydəki ulduzları öyrənən ağıllı adamlar idi.", "Bir gecə çox xüsusi bir ulduz göründü. Müdriklər dedilər: “Yeni bir padşah doğulub! Gedək, Ona [[səcdə]] edək.”"]},
-   {"b": "Padşah Hirodun pis niyyəti", "ayə": "Matta 2:3–8", "alt": "Taxtda oturan padşah Hirod və müdriklər", "p": ["Müdriklər əvvəlcə böyük şəhər Yerusəlimə gəlib soruşdular: “Yeni doğulan padşah haradadır?”", "Bunu eşidən padşah [[Hirod]] çox narahat oldu. O, özündən böyük bir padşahın olmasını istəmirdi.", "Hirod yalan danışdı: “Körpəni tapanda mənə xəbər verin, mən də gedib Ona səcdə edim.” Amma ürəyində körpəyə pislik etmək istəyirdi."]},
-   {"b": "Körpə İsaya verilən hədiyyələr", "ayə": "Matta 2:9–11", "alt": "Körpə İsaya hədiyyə verən müdriklər", "p": ["Müdriklər yenidən yola düşəndə ulduz onların qabağında getdi və körpənin olduğu evin üstündə dayandı. Müdriklər çox sevindilər.", "Onlar körpə İsanı və anası Məryəmi görüb yerə əyildilər və Ona səcdə etdilər. Sonra xəzinə sandıqlarını açıb [[qızıl]], [[kündür]] və [[mirra]] hədiyyə etdilər."]},
-   {"b": "Başqa yolla evə", "ayə": "Matta 2:12", "alt": "Başqa yolla evə qayıdan müdriklər", "p": ["O gecə Allah yuxuda müdriklərə dedi: “Hirodun yanına qayıtmayın.”", "Müdriklər Allahın sözünə [[itaət]] etdilər və başqa yolla öz ölkələrinə qayıtdılar. Allah körpə İsanı qorudu."]}
-  ],
-  "aye": {"metn": "“Müdriklər körpə İsanı görüb yerə əyildilər və Ona səcdə etdilər.”", "ref": "2:11", "bos": "Müdriklər ___ İsanı görüb yerə ___ və Ona ___ etdilər.", "sozler": ["körpə", "əyildilər", "səcdə"], "yalan": "Hirod"},
-  "lugat": {
-   "Bet-Lexem": {"i": "📍", "x": "베들레헴", "m": "İsanın doğulduğu kiçik şəhərdir. Padşah Davud da bu şəhərdən idi.", "e": "Bet-Lexem “çörək evi” deməkdir."},
-   "müdriklər": {"i": "🐫", "x": "동방박사", "m": "Şərqdən gələn, ulduzları öyrənən ağıllı adamlardır.", "e": "Müdriklər uzaq yolu dəvələrlə gəldilər."},
-   "səcdə": {"i": "🙇", "x": "경배", "m": "Böyük hörmətlə yerə əyilib Allahı izzətləndirməkdir.", "e": "Müdriklər körpə İsaya səcdə etdilər."},
-   "Hirod": {"i": "👑", "x": "헤롯", "m": "O vaxt Yəhudeyanın padşahı idi. Çox paxıl və şübhəli adam idi.", "e": "Hirod yeni padşahın doğulmasını istəmirdi."},
-   "qızıl": {"i": "🪙", "x": "황금", "m": "Ən qiymətli metaldır. Padşahlara verilən hədiyyədir.", "e": "Qızıl İsanın Padşah olduğunu göstərir."},
-   "kündür": {"i": "💨", "x": "유향", "m": "Yandıranda xoş ətir verən ağac qatranıdır. Allaha ibadətdə işlənirdi.", "e": "Kündür İsanın Allah olduğunu xatırladır."},
-   "mirra": {"i": "🫙", "x": "몰약", "m": "Acı, amma xoş ətirli yağdır. Ölüləri dəfn edəndə işlənirdi.", "e": "Mirra İsanın bizim üçün öləcəyini xatırladır."},
-   "itaət": {"i": "👣", "x": "순종", "m": "Sözü eşidib ona əməl etməkdir.", "e": "Müdriklər Allahın sözünə itaət etdilər."}
-  },
-  "test": [
-   {"q": "Müdriklər nəyi görüb yola düşdülər?", "o": ["Xüsusi ulduzu", "Göy qurşağını", "Böyük gəmini"], "a": 0, "f": "Düzdür! Ulduz yeni padşahın doğulduğunu göstərirdi."},
-   {"q": "Padşah Hirod niyə narahat oldu?", "o": ["Başqa padşah istəmirdi", "Yağış yağırdı", "Ac idi"], "a": 0, "f": "Düzdür! Hirod yalnız özü padşah olmaq istəyirdi."},
-   {"q": "Hansı müdriklərin hədiyyəsi deyil?", "o": ["Qızıl", "Kündür", "Alma", "Mirra"], "a": 2, "f": "Düzdür! Alma hədiyyə deyildi."},
-   {"q": "Müdriklər niyə başqa yolla getdilər?", "o": ["Allah yuxuda xəbər verdi", "Yolu azdılar", "Hirod belə dedi"], "a": 0, "f": "Düzdür! Onlar Allahın sözünə itaət etdilər."}
-  ],
-  "dusun": ["Müdriklər çox uzaq yol gəldilər. İsanı tapmaq onlar üçün niyə bu qədər vacib idi?", "Hirod da, müdriklər də “padşah” xəbərini eşitdilər. Onların ürəkləri necə fərqli idi?", "Sən İsaya hansı hədiyyəni verə bilərsən?"],
-  "fealiyyet": {"ciz": "Ulduzun ardınca gedən müdrikləri çək. Sən olsaydın, hansı hədiyyəni aparardın?", "b": "Mənim hədiyyəm", "p": "İsaya vermək istədiyin hədiyyəni seç.", "ph": "",
-   "secim": {"basliq": "İsaya nə hədiyyə edə bilərsən?", "izah": "Toxun və seç. Bir neçəsini seçə bilərsən.", "cumle": "Mən İsaya {x} hədiyyə edirəm!", "bos": "…", "bag": "və",
-    "secimler": [["🎵", "mahnımı"], ["🙏", "duamı"], ["❤️", "sevgimi"], ["⏰", "vaxtımı"], ["🤝", "köməyimi"], ["😊", "təbəssümümü"], ["📖", "Kəlamı oxumağımı"], ["🎨", "rəsmimi"]]}},
-  "dua": "Ya Rəbb Allah, İsanı bütün dünyanın Padşahı kimi göndərdiyin üçün Sənə şükür edirik. Müdriklər kimi sevinclə İsaya səcdə etməyə kömək et. Ürəyimizi, vaxtımızı və mahnılarımızı İsaya hədiyyə edirik. İsa Məsihin adı ilə dua edirik. Amin."
+  "genc": {
+   "basliq": "누가 진짜 왕인가",
+   "giris": "같은 소식을 듣고 어떤 사람은 먼 길을 달려와 무릎을 꿇고, 어떤 사람은 칼을 꺼냅니다. 예수님 앞에서 나의 반응은 어느 쪽일까요?",
+   "meqsed": [
+    "동방박사, 헤롯, 종교 지도자의 서로 다른 반응을 비교해요.",
+    "예수님이 유대인만이 아니라 온 세상의 왕이심을 설명할 수 있어요.",
+    "내 삶의 ‘왕좌’에 누가 앉아 있는지 돌아봐요."
+   ],
+   "sehneler": [
+    {
+     "b": "별을 따라온 이방인들",
+     "ayə": "2:1–2",
+     "alt": "별을 따라 낙타를 타고 가는 동방박사들",
+     "p": [
+      "[[동방박사]]는 오늘날 이란·이라크 지역의 학자들로, 별과 꿈을 연구했어요. 유대인이 아닌 [[이방인]]이었지요.",
+      "놀랍게도 메시아를 가장 먼저 찾아온 사람들은 성경을 잘 아는 유대인이 아니라 먼 나라 이방인이었어요. 마태는 1장 족보에 이방 여인들을 넣었던 것처럼, 여기서도 예수님이 온 민족의 왕이심을 보여 줘요."
+     ],
+     "deep": {
+      "b": "깊이 보기 · 별과 예언",
+      "p": "민수기 24:17은 “한 별이 야곱에게서 나오며”라고 예언해요. 하나님은 별을 연구하던 사람들에게 그들이 알아들을 수 있는 방식으로 길을 보여 주셨고, 마지막에는 성경 말씀으로 예수님께 이끄셨어요."
+     }
+    },
+    {
+     "b": "두려워한 왕, 움직이지 않은 학자들",
+     "ayə": "2:3–8",
+     "alt": "왕좌에 앉은 헤롯 왕과 동방박사들",
+     "p": [
+      "[[헤롯]] 왕은 로마가 세운 왕이었어요. 자기 자리를 지키려고 가족까지 죽일 만큼 의심이 많았어요. ‘유대인의 왕’이 태어났다는 말은 그에게 위협이었어요.",
+      "헤롯이 불러 모은 [[대제사장]]과 학자들은 [[미가]] 선지자의 예언 {{미 5:2}}을 정확히 알았어요. 메시아는 베들레헴에서 태어난다고요. 그런데 그들 중 누구도 겨우 9km 떨어진 베들레헴에 가 보지 않았어요."
+     ],
+     "deep": {
+      "b": "깊이 보기 · 아는 것과 가는 것",
+      "p": "성경 지식은 있었지만 움직이지 않은 학자들, 지식은 적었지만 먼 길을 온 동방박사들. 믿음은 아는 데서 끝나지 않고 예수님께 나아가는 걸음으로 이어져요.",
+      "rose": true
+     }
+    },
+    {
+     "b": "세 가지 선물",
+     "ayə": "2:9–11",
+     "alt": "아기 예수님께 선물을 드리는 동방박사들",
+     "p": [
+      "별이 아기가 있는 집 위에 멈추자 동방박사들은 매우 크게 기뻐했어요. 그들은 엎드려 [[경배]]하고 [[황금]], [[유향]], [[몰약]]을 드렸어요.",
+      "이 선물들은 오래전부터 예수님이 누구신지 보여 주는 것으로 해석되어 왔어요."
+     ],
+     "deep": {
+      "b": "깊이 보기 · 선물에 담긴 의미",
+      "p": "황금은 왕께, 유향은 하나님께 드리는 예배에, 몰약은 장례에 쓰였어요. 그래서 많은 교회 전통은 이 선물을 ‘왕이신 예수, 하나님이신 예수, 우리를 위해 죽으실 예수’로 풀어 왔어요."
+     }
+    },
+    {
+     "b": "다른 길",
+     "ayə": "2:12",
+     "alt": "다른 길로 집에 돌아가는 동방박사들",
+     "p": [
+      "하나님은 꿈으로 동방박사들에게 헤롯에게 돌아가지 말라고 경고하셨고, 그들은 다른 길로 고향에 돌아갔어요.",
+      "예수님을 만난 사람은 같은 길로 돌아가지 않아요. 만남 이후의 삶은 방향이 달라져요."
+     ]
+    }
+   ],
+   "cedvel": {
+    "b": "세 가지 반응",
+    "alt": "같은 소식, 다른 마음",
+    "bas": [
+     "누구",
+     "무엇을 알았나",
+     "어떻게 반응했나"
+    ],
+    "set": [
+     [
+      "동방박사",
+      "별과 예언의 일부",
+      "먼 길을 와서 기뻐하며 경배"
+     ],
+     [
+      "헤롯",
+      "새 왕의 탄생",
+      "두려워하며 죽이려 함"
+     ],
+     [
+      "대제사장·학자",
+      "성경 예언을 정확히",
+      "알면서도 움직이지 않음"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "“그들은 집에 들어가 아기와 어머니 마리아를 보고, 엎드려 아기께 경배하고 보물 상자를 열어 예물을 드렸다.”",
+    "ref": "2:11"
+   },
+   "lugat": {
+    "동방박사": {
+     "i": "🌟",
+     "o": "헬라어 마고이",
+     "x": "müdriklər",
+     "s": "별을 연구하던 동방의 학자들",
+     "m": "페르시아·바벨론 지역에서 별과 꿈을 연구하던 학자 계층이에요. 왕이 아니라 지식인이었어요.",
+     "e": "영어 magic(마술)이 이 말에서 나왔지만, 마태는 그들을 진리를 찾는 사람들로 그려요."
+    },
+    "이방인": {
+     "i": "🌍",
+     "o": "헬라어 에트네",
+     "x": "yadelli",
+     "s": "유대인이 아닌 다른 민족",
+     "m": "하나님의 언약 백성인 이스라엘 바깥의 모든 민족을 가리켜요.",
+     "e": "마태복음은 이방인 동방박사로 시작해 ‘모든 민족을 제자로 삼으라’(28:19)로 끝나요."
+    },
+    "헤롯": {
+     "i": "👑",
+     "o": "헤롯 대왕, 주전 37–4년 통치",
+     "x": "Hirod",
+     "s": "로마가 세운 유대의 왕",
+     "m": "큰 성전을 재건한 능력 있는 왕이었지만, 의심이 많아 아내와 아들들까지 죽였어요.",
+     "e": "“헤롯의 아들이 되느니 돼지가 되는 게 낫다”는 말이 돌 정도였어요."
+    },
+    "대제사장": {
+     "i": "🕍",
+     "o": "헬라어 아르키에레우스",
+     "x": "baş kahin",
+     "s": "성전 제사를 맡은 최고 지도자들",
+     "m": "성전 예배를 책임지고 유대 사회를 이끌던 제사장 지도자들이에요.",
+     "e": "예수님의 재판에도 대제사장들이 다시 등장해요(26장)."
+    },
+    "미가": {
+     "i": "📜",
+     "o": "히브리어 미카",
+     "x": "Mikeya peyğəmbər",
+     "s": "베들레헴 탄생을 예언한 선지자",
+     "m": "주전 8세기 선지자로, 베들레헴에서 이스라엘을 다스릴 자가 나온다고 예언했어요.",
+     "e": "“베들레헴아, 너는 결코 가장 작지 않다”(미 5:2)."
+    },
+    "경배": {
+     "i": "🙇",
+     "o": "헬라어 프로스퀴네오",
+     "x": "səcdə",
+     "s": "엎드려 절하며 높이는 것",
+     "m": "원래 ‘엎드려 입 맞추다’라는 뜻으로, 왕이나 신 앞에서 완전한 존경을 표하는 행동이에요.",
+     "e": "마태복음에서 이 단어는 예수님께 여러 번 쓰여요. 예수님이 경배받으실 분이라는 뜻이에요."
+    },
+    "유향": {
+     "i": "💨",
+     "o": "헬라어 리바노스",
+     "x": "kündür",
+     "s": "예배에 쓰던 향",
+     "m": "유향나무 수지로, 태우면 향기로운 연기가 나서 성전 예배에 쓰였어요.",
+     "e": "출애굽기 30장의 거룩한 향에도 유향이 들어가요."
+    },
+    "몰약": {
+     "i": "🫙",
+     "o": "헬라어 스뮈르나",
+     "x": "mirra",
+     "s": "장례와 약에 쓰던 향유",
+     "m": "몰약나무 수지로 만든 향유예요. 시신을 장사할 때 썼어요.",
+     "e": "예수님이 십자가에서 내려지셨을 때도 몰약이 쓰였어요(요 19:39)."
+    }
+   },
+   "test": [
+    {
+     "q": "동방박사들은 어떤 사람들이었나요?",
+     "o": [
+      "유대인 제사장",
+      "별을 연구하던 동방의 이방인 학자",
+      "헤롯의 신하"
+     ],
+     "a": 1,
+     "f": "맞아요. 메시아를 가장 먼저 찾아온 사람들은 이방인이었어요."
+    },
+    {
+     "q": "메시아가 베들레헴에서 태어난다고 예언한 선지자는?",
+     "o": [
+      "이사야",
+      "미가",
+      "예레미야"
+     ],
+     "a": 1,
+     "f": "맞아요. 미가 5:2예요."
+    },
+    {
+     "q": "대제사장과 학자들의 문제는 무엇이었나요?",
+     "o": [
+      "예언을 몰랐다",
+      "예언을 알면서도 가 보지 않았다",
+      "동방박사를 속였다"
+     ],
+     "a": 1,
+     "f": "맞아요. 아는 것과 가는 것은 달라요."
+    },
+    {
+     "q": "몰약은 주로 어디에 쓰였나요?",
+     "o": [
+      "왕의 대관식",
+      "장례",
+      "결혼식"
+     ],
+     "a": 1,
+     "f": "맞아요. 몰약은 예수님의 고난과 죽음을 떠올리게 해요."
+    },
+    {
+     "q": "마태복음 2장이 보여 주는 예수님은?",
+     "o": [
+      "유대인만의 왕",
+      "온 민족이 경배할 왕",
+      "로마의 왕"
+     ],
+     "a": 1,
+     "f": "맞아요. 동방의 이방인들이 가장 먼저 경배했어요."
+    }
+   ],
+   "paylas": [
+    "헤롯처럼 내 자리를 빼앗길까 봐 예수님을 밀어낸 적은 없나요?",
+    "성경을 ‘아는 것’과 예수님께 ‘가는 것’은 어떻게 다를까요?",
+    "나는 예수님께 무엇을 드리고 있나요? 시간, 재능, 마음 중 하나를 골라 이야기해 보세요.",
+    "예수님을 만난 뒤 ‘다른 길’로 바뀐 내 습관이 있다면 무엇인가요?"
+   ],
+   "etiraf": {
+    "b": "나의 고백",
+    "p": "지금 내 삶의 왕좌에는 누가 앉아 있나요? 예수님께 드리고 싶은 ‘나의 선물’을 서너 문장으로 써 보세요.",
+    "ph": "예) 요즘 제 마음의 왕은 휴대폰인 것 같아요. 이번 주에는 …"
+   },
+   "dua": "하나님, 먼 나라 사람들까지 부르셔서 예수님께 경배하게 하신 은혜에 감사합니다. 아는 것에서 멈추지 않고 예수님께 나아가게 해 주세요. 제 삶의 왕좌를 예수님께 내어 드립니다. 왕이신 예수님 이름으로 기도합니다. 아멘."
+  }
  },
- "genc": {
-  "basliq": "Əsl Padşah kimdir?",
-  "giris": "Eyni xəbəri eşidən kimisi uzaq yol gəlib diz çökür, kimisi isə qılınc çəkir. İsanın qarşısında sənin cavabın hansıdır?",
-  "meqsed": ["Müdriklərin, Hirodun və dini rəhbərlərin fərqli cavablarını müqayisə edirik.", "İsanın yalnız yəhudilərin deyil, bütün dünyanın Padşahı olduğunu izah edə bilirik.", "Həyatımızın “taxtında” kimin oturduğuna baxırıq."],
-  "sehneler": [
-   {"b": "Ulduzun ardınca gələn yadellilər", "ayə": "Matta 2:1–2", "alt": "Ulduzun ardınca dəvələrlə gedən müdriklər", "p": ["[[Müdriklər]] bugünkü İran və İraq tərəfdən gələn alimlər idi. Onlar ulduzları və yuxuları öyrənirdilər. Yəhudi deyildilər, [[yadelli]] idilər.", "Təəccüblüdür ki, Məsihi ilk axtarıb tapanlar Müqəddəs Kitabı yaxşı bilən yəhudilər deyil, uzaq ölkədən gələn yadellilər oldu. Matta birinci fəsildə şəcərəyə yadelli qadınları yazdığı kimi, burada da İsanın bütün millətlərin Padşahı olduğunu göstərir."], "deep": {"b": "Dərindən baxaq · Ulduz və peyğəmbərlik", "p": "Saylar 24:17-də “Yaqubdan bir ulduz çıxacaq” deyilir. Allah ulduzları öyrənən adamlara onların anlaya biləcəyi yolla yol göstərdi, sonda isə onları Öz Kəlamı ilə İsaya apardı."}},
-   {"b": "Qorxan padşah, yerindən tərpənməyən alimlər", "ayə": "Matta 2:3–8", "alt": "Taxtda oturan padşah Hirod və müdriklər", "p": ["Padşah [[Hirod]] Romanın təyin etdiyi padşah idi. Taxtını qorumaq üçün öz ailəsini belə öldürəcək qədər şübhəli idi. “Yəhudilərin Padşahı”nın doğulması onun üçün təhlükə idi.", "Hirodun topladığı [[baş kahinlər]] və ilahiyyatçılar [[Mikeya]] peyğəmbərin sözünü {{Mik. 5:2}} yaxşı bilirdilər: Məsih Bet-Lexemdə doğulacaq. Amma onlardan heç biri cəmi 9 kilometr uzaqlıqdakı Bet-Lexemə getmədi."], "deep": {"b": "Dərindən baxaq · Bilmək və getmək", "p": "Kəlamı bilən, amma yerindən tərpənməyən alimlər; az bilən, amma uzaq yol gələn müdriklər. İman bilməklə bitmir, İsaya doğru atılan addımla davam edir.", "rose": true}},
-   {"b": "Üç hədiyyə", "ayə": "Matta 2:9–11", "alt": "Körpə İsaya hədiyyə verən müdriklər", "p": ["Ulduz körpənin olduğu evin üstündə dayananda müdriklər çox böyük sevinclə sevindilər. Onlar yerə əyilib [[səcdə]] etdilər və [[qızıl]], [[kündür]], [[mirra]] hədiyyə etdilər.", "Bu hədiyyələr çoxdan bəri İsanın kim olduğunu göstərən işarələr kimi izah olunur."], "deep": {"b": "Dərindən baxaq · Hədiyyələrin mənası", "p": "Qızıl padşahlara verilirdi, kündür Allaha ibadətdə yandırılırdı, mirra isə dəfndə işlənirdi. Buna görə bir çox Məsihçi ənənəsi bu hədiyyələri belə izah edir: Padşah olan İsa, Allah olan İsa, bizim üçün öləcək İsa."}},
-   {"b": "Başqa yol", "ayə": "Matta 2:12", "alt": "Başqa yolla evə qayıdan müdriklər", "p": ["Allah yuxuda müdrikləri xəbərdar etdi ki, Hirodun yanına qayıtmasınlar. Onlar başqa yolla öz ölkələrinə qayıtdılar.", "İsa ilə görüşən insan əvvəlki yolla geri qayıtmır. Bu görüşdən sonra həyatın istiqaməti dəyişir."]}
-  ],
-  "cedvel": {"b": "Üç cür cavab", "alt": "Eyni xəbər, fərqli ürəklər", "bas": ["Kim", "Nəyi bilirdi", "Necə cavab verdi"], "set": [["Müdriklər", "Ulduzu və peyğəmbərliyin bir hissəsini", "Uzaq yol gəlib sevinclə səcdə etdi"], ["Hirod", "Yeni padşahın doğulduğunu", "Qorxdu və öldürmək istədi"], ["Baş kahinlər və ilahiyyatçılar", "Peyğəmbərliyi dəqiq", "Bildilər, amma getmədilər"]]},
-  "aye": {"metn": "“Onlar evə girib körpəni anası Məryəmlə birlikdə gördülər, yerə əyilib Ona səcdə etdilər, xəzinələrini açıb Ona hədiyyələr verdilər.”", "ref": "2:11"},
-  "lugat": {
-   "Müdriklər": {"i": "🌟", "o": "Yunanca maqoi", "x": "동방박사", "s": "Ulduzları öyrənən şərqli alimlər", "m": "Fars və Babil tərəfdə ulduzları və yuxuları öyrənən alimlər idi. Padşah deyil, savadlı adamlar idilər.", "e": "Matta onları həqiqəti axtaran insanlar kimi təsvir edir."},
-   "yadelli": {"i": "🌍", "o": "Yunanca etne", "x": "이방인", "s": "Yəhudi olmayan xalqlar", "m": "Allahın əhd xalqı İsraildən kənarda olan bütün millətlərdir.", "e": "Matta Müjdəsi yadelli müdriklərlə başlayır və “bütün millətləri şagird edin” (28:19) sözü ilə bitir."},
-   "Hirod": {"i": "👑", "o": "Böyük Hirod, e.ə. 37–4-cü illər", "x": "헤롯", "s": "Romanın təyin etdiyi padşah", "m": "Böyük məbədi yenidən tikdirən bacarıqlı padşah idi, amma şübhəsi ucbatından arvadını və oğullarını belə öldürdü.", "e": "O dövrdə “Hirodun oğlu olmaqdansa, donuzu olmaq yaxşıdır” deyirdilər."},
-   "baş kahinlər": {"i": "🕍", "o": "Yunanca arxiereus", "x": "대제사장", "s": "Məbəddəki ən yüksək rəhbərlər", "m": "Məbəddəki ibadətə cavabdeh olan və xalqa rəhbərlik edən kahinlər idi.", "e": "İsanın məhkəməsində baş kahinlər yenidən görünür (26-cı fəsil)."},
-   "Mikeya": {"i": "📜", "o": "İbranicə Mixa", "x": "미가 선지자", "s": "Bet-Lexemi əvvəlcədən deyən peyğəmbər", "m": "E.ə. 8-ci əsrdə yaşayan peyğəmbərdir. İsrailə rəhbərlik edəcək Şəxsin Bet-Lexemdən çıxacağını demişdi.", "e": "“Ey Bet-Lexem, sən heç də ən kiçik deyilsən” (Mik. 5:2)."},
-   "səcdə": {"i": "🙇", "o": "Yunanca proskuneo", "x": "경배", "s": "Yerə əyilib izzətləndirmək", "m": "Əslində “yerə əyilib öpmək” deməkdir. Padşah qarşısında tam hörmət göstərmək idi.", "e": "Matta Müjdəsində bu söz İsaya dəfələrlə işlənir. Bu, İsanın səcdəyə layiq olduğunu göstərir."},
-   "kündür": {"i": "💨", "o": "Yunanca libanos", "x": "유향", "s": "İbadətdə yandırılan ətir", "m": "Kündür ağacının qatranıdır. Yandıranda xoş ətirli tüstü verir, məbəddə ibadətdə işlənirdi.", "e": "Çıxış 30-cu fəsildəki müqəddəs buxurun içində də kündür var idi."},
-   "mirra": {"i": "🫙", "o": "Yunanca smirna", "x": "몰약", "s": "Dəfndə işlənən ətirli yağ", "m": "Mirra ağacının qatranından hazırlanan ətirli yağdır. Ölüləri dəfn edəndə işlənirdi.", "e": "İsanı çarmıxdan endirəndə də mirra işləndi (Yəh. 19:39)."}
+ "az": {
+  "usaq": {
+   "basliq": "Ulduzun ardınca gələn müdriklər",
+   "hedef": [
+    "Müdriklərin ulduzun ardınca gəlib körpə İsanı tapdığını öyrənəcəyik.",
+    "İsa Məsihin bütün dünyanın Padşahı olduğunu öyrənəcəyik.",
+    "İsaya hansı hədiyyəni verə biləcəyimizi düşünəcəyik."
+   ],
+   "sehneler": [
+    {
+     "b": "Uzaqdan görünən xüsusi ulduz",
+     "ayə": "Matta 2:1–2",
+     "alt": "Ulduzun ardınca dəvələrlə gedən müdriklər",
+     "p": [
+      "İsa [[Bet-Lexem]] şəhərində doğulanda, uzaq şərq ölkəsində [[müdriklər]] yaşayırdı. Onlar göydəki ulduzları öyrənən ağıllı adamlar idi.",
+      "Bir gecə çox xüsusi bir ulduz göründü. Müdriklər dedilər: “Yeni bir padşah doğulub! Gedək, Ona [[səcdə]] edək.”"
+     ]
+    },
+    {
+     "b": "Padşah Hirodun pis niyyəti",
+     "ayə": "Matta 2:3–8",
+     "alt": "Taxtda oturan padşah Hirod və müdriklər",
+     "p": [
+      "Müdriklər əvvəlcə böyük şəhər Yerusəlimə gəlib soruşdular: “Yeni doğulan padşah haradadır?”",
+      "Bunu eşidən padşah [[Hirod]] çox narahat oldu. O, özündən böyük bir padşahın olmasını istəmirdi.",
+      "Hirod yalan danışdı: “Körpəni tapanda mənə xəbər verin, mən də gedib Ona səcdə edim.” Amma ürəyində körpəyə pislik etmək istəyirdi."
+     ]
+    },
+    {
+     "b": "Körpə İsaya verilən hədiyyələr",
+     "ayə": "Matta 2:9–11",
+     "alt": "Körpə İsaya hədiyyə verən müdriklər",
+     "p": [
+      "Müdriklər yenidən yola düşəndə ulduz onların qabağında getdi və körpənin olduğu evin üstündə dayandı. Müdriklər çox sevindilər.",
+      "Onlar körpə İsanı və anası Məryəmi görüb yerə əyildilər və Ona səcdə etdilər. Sonra xəzinə sandıqlarını açıb [[qızıl]], [[kündür]] və [[mirra]] hədiyyə etdilər."
+     ]
+    },
+    {
+     "b": "Başqa yolla evə",
+     "ayə": "Matta 2:12",
+     "alt": "Başqa yolla evə qayıdan müdriklər",
+     "p": [
+      "O gecə Allah yuxuda müdriklərə dedi: “Hirodun yanına qayıtmayın.”",
+      "Müdriklər Allahın sözünə [[itaət]] etdilər və başqa yolla öz ölkələrinə qayıtdılar. Allah körpə İsanı qorudu."
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "“Müdriklər körpə İsanı görüb yerə əyildilər və Ona səcdə etdilər.”",
+    "ref": "2:11",
+    "bos": "Müdriklər ___ İsanı görüb yerə ___ və Ona ___ etdilər.",
+    "sozler": [
+     "körpə",
+     "əyildilər",
+     "səcdə"
+    ],
+    "yalan": "Hirod"
+   },
+   "lugat": {
+    "Bet-Lexem": {
+     "i": "📍",
+     "x": "베들레헴",
+     "m": "İsanın doğulduğu kiçik şəhərdir. Padşah Davud da bu şəhərdən idi.",
+     "e": "Bet-Lexem “çörək evi” deməkdir."
+    },
+    "müdriklər": {
+     "i": "🐫",
+     "x": "동방박사",
+     "m": "Şərqdən gələn, ulduzları öyrənən ağıllı adamlardır.",
+     "e": "Müdriklər uzaq yolu dəvələrlə gəldilər."
+    },
+    "səcdə": {
+     "i": "🙇",
+     "x": "경배",
+     "m": "Böyük hörmətlə yerə əyilib Allahı izzətləndirməkdir.",
+     "e": "Müdriklər körpə İsaya səcdə etdilər."
+    },
+    "Hirod": {
+     "i": "👑",
+     "x": "헤롯",
+     "m": "O vaxt Yəhudeyanın padşahı idi. Çox paxıl və şübhəli adam idi.",
+     "e": "Hirod yeni padşahın doğulmasını istəmirdi."
+    },
+    "qızıl": {
+     "i": "🪙",
+     "x": "황금",
+     "m": "Ən qiymətli metaldır. Padşahlara verilən hədiyyədir.",
+     "e": "Qızıl İsanın Padşah olduğunu göstərir."
+    },
+    "kündür": {
+     "i": "💨",
+     "x": "유향",
+     "m": "Yandıranda xoş ətir verən ağac qatranıdır. Allaha ibadətdə işlənirdi.",
+     "e": "Kündür İsanın Allah olduğunu xatırladır."
+    },
+    "mirra": {
+     "i": "🫙",
+     "x": "몰약",
+     "m": "Acı, amma xoş ətirli yağdır. Ölüləri dəfn edəndə işlənirdi.",
+     "e": "Mirra İsanın bizim üçün öləcəyini xatırladır."
+    },
+    "itaət": {
+     "i": "👣",
+     "x": "순종",
+     "m": "Sözü eşidib ona əməl etməkdir.",
+     "e": "Müdriklər Allahın sözünə itaət etdilər."
+    }
+   },
+   "test": [
+    {
+     "q": "Müdriklər nəyi görüb yola düşdülər?",
+     "o": [
+      "Xüsusi ulduzu",
+      "Göy qurşağını",
+      "Böyük gəmini"
+     ],
+     "a": 0,
+     "f": "Düzdür! Ulduz yeni padşahın doğulduğunu göstərirdi."
+    },
+    {
+     "q": "Padşah Hirod niyə narahat oldu?",
+     "o": [
+      "Başqa padşah istəmirdi",
+      "Yağış yağırdı",
+      "Ac idi"
+     ],
+     "a": 0,
+     "f": "Düzdür! Hirod yalnız özü padşah olmaq istəyirdi."
+    },
+    {
+     "q": "Hansı müdriklərin hədiyyəsi deyil?",
+     "o": [
+      "Qızıl",
+      "Kündür",
+      "Alma",
+      "Mirra"
+     ],
+     "a": 2,
+     "f": "Düzdür! Alma hədiyyə deyildi."
+    },
+    {
+     "q": "Müdriklər niyə başqa yolla getdilər?",
+     "o": [
+      "Allah yuxuda xəbər verdi",
+      "Yolu azdılar",
+      "Hirod belə dedi"
+     ],
+     "a": 0,
+     "f": "Düzdür! Onlar Allahın sözünə itaət etdilər."
+    }
+   ],
+   "dusun": [
+    "Müdriklər çox uzaq yol gəldilər. İsanı tapmaq onlar üçün niyə bu qədər vacib idi?",
+    "Hirod da, müdriklər də “padşah” xəbərini eşitdilər. Onların ürəkləri necə fərqli idi?",
+    "Sən İsaya hansı hədiyyəni verə bilərsən?"
+   ],
+   "fealiyyet": {
+    "ciz": "Ulduzun ardınca gedən müdrikləri çək. Sən olsaydın, hansı hədiyyəni aparardın?",
+    "b": "Mənim hədiyyəm",
+    "p": "İsaya vermək istədiyin hədiyyəni seç.",
+    "ph": "",
+    "secim": {
+     "basliq": "İsaya nə hədiyyə edə bilərsən?",
+     "izah": "Toxun və seç. Bir neçəsini seçə bilərsən.",
+     "cumle": "Mən İsaya {x} hədiyyə edirəm!",
+     "bos": "…",
+     "bag": "və",
+     "secimler": [
+      [
+       "🎵",
+       "mahnımı"
+      ],
+      [
+       "🙏",
+       "duamı"
+      ],
+      [
+       "❤️",
+       "sevgimi"
+      ],
+      [
+       "⏰",
+       "vaxtımı"
+      ],
+      [
+       "🤝",
+       "köməyimi"
+      ],
+      [
+       "😊",
+       "təbəssümümü"
+      ],
+      [
+       "📖",
+       "Kəlamı oxumağımı"
+      ],
+      [
+       "🎨",
+       "rəsmimi"
+      ]
+     ]
+    }
+   },
+   "dua": "Ya Rəbb Allah, İsanı bütün dünyanın Padşahı kimi göndərdiyin üçün Sənə şükür edirik. Müdriklər kimi sevinclə İsaya səcdə etməyə kömək et. Ürəyimizi, vaxtımızı və mahnılarımızı İsaya hədiyyə edirik. İsa Məsihin adı ilə dua edirik. Amin."
   },
-  "test": [
-   {"q": "Müdriklər kim idi?", "o": ["Yəhudi kahinlər", "Ulduzları öyrənən şərqli yadelli alimlər", "Hirodun məmurları"], "a": 1, "f": "Düzdür. Məsihi ilk axtaranlar yadellilər oldu."},
-   {"q": "Məsihin Bet-Lexemdə doğulacağını hansı peyğəmbər demişdi?", "o": ["Yeşaya", "Mikeya", "Yeremya"], "a": 1, "f": "Düzdür. Mikeya 5:2."},
-   {"q": "Baş kahinlərin və ilahiyyatçıların problemi nə idi?", "o": ["Peyğəmbərliyi bilmirdilər", "Bilirdilər, amma getmədilər", "Müdrikləri aldatdılar"], "a": 1, "f": "Düzdür. Bilmək və getmək fərqlidir."},
-   {"q": "Mirra əsasən harada işlənirdi?", "o": ["Taxta çıxma mərasimində", "Dəfndə", "Toyda"], "a": 1, "f": "Düzdür. Mirra İsanın əzablarını və ölümünü xatırladır."},
-   {"q": "Matta 2-ci fəsil İsanı necə göstərir?", "o": ["Yalnız yəhudilərin padşahı", "Bütün millətlərin səcdə edəcəyi Padşah", "Romanın padşahı"], "a": 1, "f": "Düzdür. Ona ilk səcdə edənlər şərqdən gələn yadellilər oldu."}
+  "genc": {
+   "basliq": "Əsl Padşah kimdir?",
+   "giris": "Eyni xəbəri eşidən kimisi uzaq yol gəlib diz çökür, kimisi isə qılınc çəkir. İsanın qarşısında sənin cavabın hansıdır?",
+   "meqsed": [
+    "Müdriklərin, Hirodun və dini rəhbərlərin fərqli cavablarını müqayisə edirik.",
+    "İsanın yalnız yəhudilərin deyil, bütün dünyanın Padşahı olduğunu izah edə bilirik.",
+    "Həyatımızın “taxtında” kimin oturduğuna baxırıq."
+   ],
+   "sehneler": [
+    {
+     "b": "Ulduzun ardınca gələn yadellilər",
+     "ayə": "Matta 2:1–2",
+     "alt": "Ulduzun ardınca dəvələrlə gedən müdriklər",
+     "p": [
+      "[[Müdriklər]] bugünkü İran və İraq tərəfdən gələn alimlər idi. Onlar ulduzları və yuxuları öyrənirdilər. Yəhudi deyildilər, [[yadelli]] idilər.",
+      "Təəccüblüdür ki, Məsihi ilk axtarıb tapanlar Müqəddəs Kitabı yaxşı bilən yəhudilər deyil, uzaq ölkədən gələn yadellilər oldu. Matta birinci fəsildə şəcərəyə yadelli qadınları yazdığı kimi, burada da İsanın bütün millətlərin Padşahı olduğunu göstərir."
+     ],
+     "deep": {
+      "b": "Dərindən baxaq · Ulduz və peyğəmbərlik",
+      "p": "Saylar 24:17-də “Yaqubdan bir ulduz çıxacaq” deyilir. Allah ulduzları öyrənən adamlara onların anlaya biləcəyi yolla yol göstərdi, sonda isə onları Öz Kəlamı ilə İsaya apardı."
+     }
+    },
+    {
+     "b": "Qorxan padşah, yerindən tərpənməyən alimlər",
+     "ayə": "Matta 2:3–8",
+     "alt": "Taxtda oturan padşah Hirod və müdriklər",
+     "p": [
+      "Padşah [[Hirod]] Romanın təyin etdiyi padşah idi. Taxtını qorumaq üçün öz ailəsini belə öldürəcək qədər şübhəli idi. “Yəhudilərin Padşahı”nın doğulması onun üçün təhlükə idi.",
+      "Hirodun topladığı [[baş kahinlər]] və ilahiyyatçılar [[Mikeya]] peyğəmbərin sözünü {{Mik. 5:2}} yaxşı bilirdilər: Məsih Bet-Lexemdə doğulacaq. Amma onlardan heç biri cəmi 9 kilometr uzaqlıqdakı Bet-Lexemə getmədi."
+     ],
+     "deep": {
+      "b": "Dərindən baxaq · Bilmək və getmək",
+      "p": "Kəlamı bilən, amma yerindən tərpənməyən alimlər; az bilən, amma uzaq yol gələn müdriklər. İman bilməklə bitmir, İsaya doğru atılan addımla davam edir.",
+      "rose": true
+     }
+    },
+    {
+     "b": "Üç hədiyyə",
+     "ayə": "Matta 2:9–11",
+     "alt": "Körpə İsaya hədiyyə verən müdriklər",
+     "p": [
+      "Ulduz körpənin olduğu evin üstündə dayananda müdriklər çox böyük sevinclə sevindilər. Onlar yerə əyilib [[səcdə]] etdilər və [[qızıl]], [[kündür]], [[mirra]] hədiyyə etdilər.",
+      "Bu hədiyyələr çoxdan bəri İsanın kim olduğunu göstərən işarələr kimi izah olunur."
+     ],
+     "deep": {
+      "b": "Dərindən baxaq · Hədiyyələrin mənası",
+      "p": "Qızıl padşahlara verilirdi, kündür Allaha ibadətdə yandırılırdı, mirra isə dəfndə işlənirdi. Buna görə bir çox Məsihçi ənənəsi bu hədiyyələri belə izah edir: Padşah olan İsa, Allah olan İsa, bizim üçün öləcək İsa."
+     }
+    },
+    {
+     "b": "Başqa yol",
+     "ayə": "Matta 2:12",
+     "alt": "Başqa yolla evə qayıdan müdriklər",
+     "p": [
+      "Allah yuxuda müdrikləri xəbərdar etdi ki, Hirodun yanına qayıtmasınlar. Onlar başqa yolla öz ölkələrinə qayıtdılar.",
+      "İsa ilə görüşən insan əvvəlki yolla geri qayıtmır. Bu görüşdən sonra həyatın istiqaməti dəyişir."
+     ]
+    }
+   ],
+   "cedvel": {
+    "b": "Üç cür cavab",
+    "alt": "Eyni xəbər, fərqli ürəklər",
+    "bas": [
+     "Kim",
+     "Nəyi bilirdi",
+     "Necə cavab verdi"
+    ],
+    "set": [
+     [
+      "Müdriklər",
+      "Ulduzu və peyğəmbərliyin bir hissəsini",
+      "Uzaq yol gəlib sevinclə səcdə etdi"
+     ],
+     [
+      "Hirod",
+      "Yeni padşahın doğulduğunu",
+      "Qorxdu və öldürmək istədi"
+     ],
+     [
+      "Baş kahinlər və ilahiyyatçılar",
+      "Peyğəmbərliyi dəqiq",
+      "Bildilər, amma getmədilər"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "“Onlar evə girib körpəni anası Məryəmlə birlikdə gördülər, yerə əyilib Ona səcdə etdilər, xəzinələrini açıb Ona hədiyyələr verdilər.”",
+    "ref": "2:11"
+   },
+   "lugat": {
+    "Müdriklər": {
+     "i": "🌟",
+     "o": "Yunanca maqoi",
+     "x": "동방박사",
+     "s": "Ulduzları öyrənən şərqli alimlər",
+     "m": "Fars və Babil tərəfdə ulduzları və yuxuları öyrənən alimlər idi. Padşah deyil, savadlı adamlar idilər.",
+     "e": "Matta onları həqiqəti axtaran insanlar kimi təsvir edir."
+    },
+    "yadelli": {
+     "i": "🌍",
+     "o": "Yunanca etne",
+     "x": "이방인",
+     "s": "Yəhudi olmayan xalqlar",
+     "m": "Allahın əhd xalqı İsraildən kənarda olan bütün millətlərdir.",
+     "e": "Matta Müjdəsi yadelli müdriklərlə başlayır və “bütün millətləri şagird edin” (28:19) sözü ilə bitir."
+    },
+    "Hirod": {
+     "i": "👑",
+     "o": "Böyük Hirod, e.ə. 37–4-cü illər",
+     "x": "헤롯",
+     "s": "Romanın təyin etdiyi padşah",
+     "m": "Böyük məbədi yenidən tikdirən bacarıqlı padşah idi, amma şübhəsi ucbatından arvadını və oğullarını belə öldürdü.",
+     "e": "O dövrdə “Hirodun oğlu olmaqdansa, donuzu olmaq yaxşıdır” deyirdilər."
+    },
+    "baş kahinlər": {
+     "i": "🕍",
+     "o": "Yunanca arxiereus",
+     "x": "대제사장",
+     "s": "Məbəddəki ən yüksək rəhbərlər",
+     "m": "Məbəddəki ibadətə cavabdeh olan və xalqa rəhbərlik edən kahinlər idi.",
+     "e": "İsanın məhkəməsində baş kahinlər yenidən görünür (26-cı fəsil)."
+    },
+    "Mikeya": {
+     "i": "📜",
+     "o": "İbranicə Mixa",
+     "x": "미가 선지자",
+     "s": "Bet-Lexemi əvvəlcədən deyən peyğəmbər",
+     "m": "E.ə. 8-ci əsrdə yaşayan peyğəmbərdir. İsrailə rəhbərlik edəcək Şəxsin Bet-Lexemdən çıxacağını demişdi.",
+     "e": "“Ey Bet-Lexem, sən heç də ən kiçik deyilsən” (Mik. 5:2)."
+    },
+    "səcdə": {
+     "i": "🙇",
+     "o": "Yunanca proskuneo",
+     "x": "경배",
+     "s": "Yerə əyilib izzətləndirmək",
+     "m": "Əslində “yerə əyilib öpmək” deməkdir. Padşah qarşısında tam hörmət göstərmək idi.",
+     "e": "Matta Müjdəsində bu söz İsaya dəfələrlə işlənir. Bu, İsanın səcdəyə layiq olduğunu göstərir."
+    },
+    "kündür": {
+     "i": "💨",
+     "o": "Yunanca libanos",
+     "x": "유향",
+     "s": "İbadətdə yandırılan ətir",
+     "m": "Kündür ağacının qatranıdır. Yandıranda xoş ətirli tüstü verir, məbəddə ibadətdə işlənirdi.",
+     "e": "Çıxış 30-cu fəsildəki müqəddəs buxurun içində də kündür var idi."
+    },
+    "mirra": {
+     "i": "🫙",
+     "o": "Yunanca smirna",
+     "x": "몰약",
+     "s": "Dəfndə işlənən ətirli yağ",
+     "m": "Mirra ağacının qatranından hazırlanan ətirli yağdır. Ölüləri dəfn edəndə işlənirdi.",
+     "e": "İsanı çarmıxdan endirəndə də mirra işləndi (Yəh. 19:39)."
+    }
+   },
+   "test": [
+    {
+     "q": "Müdriklər kim idi?",
+     "o": [
+      "Yəhudi kahinlər",
+      "Ulduzları öyrənən şərqli yadelli alimlər",
+      "Hirodun məmurları"
+     ],
+     "a": 1,
+     "f": "Düzdür. Məsihi ilk axtaranlar yadellilər oldu."
+    },
+    {
+     "q": "Məsihin Bet-Lexemdə doğulacağını hansı peyğəmbər demişdi?",
+     "o": [
+      "Yeşaya",
+      "Mikeya",
+      "Yeremya"
+     ],
+     "a": 1,
+     "f": "Düzdür. Mikeya 5:2."
+    },
+    {
+     "q": "Baş kahinlərin və ilahiyyatçıların problemi nə idi?",
+     "o": [
+      "Peyğəmbərliyi bilmirdilər",
+      "Bilirdilər, amma getmədilər",
+      "Müdrikləri aldatdılar"
+     ],
+     "a": 1,
+     "f": "Düzdür. Bilmək və getmək fərqlidir."
+    },
+    {
+     "q": "Mirra əsasən harada işlənirdi?",
+     "o": [
+      "Taxta çıxma mərasimində",
+      "Dəfndə",
+      "Toyda"
+     ],
+     "a": 1,
+     "f": "Düzdür. Mirra İsanın əzablarını və ölümünü xatırladır."
+    },
+    {
+     "q": "Matta 2-ci fəsil İsanı necə göstərir?",
+     "o": [
+      "Yalnız yəhudilərin padşahı",
+      "Bütün millətlərin səcdə edəcəyi Padşah",
+      "Romanın padşahı"
+     ],
+     "a": 1,
+     "f": "Düzdür. Ona ilk səcdə edənlər şərqdən gələn yadellilər oldu."
+    }
+   ],
+   "paylas": [
+    "Hirod kimi, yerimi itirməkdən qorxub İsanı kənara itələdiyim vaxt olubmu?",
+    "Kəlamı “bilmək” və İsaya “getmək” arasında nə fərq var?",
+    "Mən İsaya nə verirəm? Vaxt, bacarıq və ürək arasından birini seçib danış.",
+    "İsa ilə tanış olandan sonra “başqa yola” dönən hansı vərdişim var?"
+   ],
+   "etiraf": {
+    "b": "Mənim etirafım",
+    "p": "Hazırda həyatımın taxtında kim oturur? İsaya vermək istədiyin “hədiyyəni” üç-dörd cümlə ilə yaz.",
+    "ph": "Məsələn: Son vaxtlar ürəyimin padşahı telefonum olub. Bu həftə …"
+   },
+   "dua": "Ya Rəbb Allah, uzaq ölkələrdən olan insanları belə çağırıb İsaya səcdə etdirdiyin lütfə görə Sənə şükür edirik. Bilməklə kifayətlənməyib İsaya doğru getməyə kömək et. Həyatımın taxtını İsaya verirəm. Padşah İsa Məsihin adı ilə dua edirəm. Amin."
+  }
+ },
+ "muellim": {
+  "mesaj": "2과의 중심은 한 문장입니다. **예수님은 온 세상의 왕이시고, 그분을 만난 사람은 기쁨으로 경배하며 다른 길로 산다.**",
+  "hazirliq": [
+   "학생용 교재를 열 휴대폰이나 태블릿, 이어폰",
+   "종이 별 1개, 작은 상자 3개(황금·유향·몰약 역할)",
+   "종이와 색연필 (어린이반 그리기)"
   ],
-  "paylas": ["Hirod kimi, yerimi itirməkdən qorxub İsanı kənara itələdiyim vaxt olubmu?", "Kəlamı “bilmək” və İsaya “getmək” arasında nə fərq var?", "Mən İsaya nə verirəm? Vaxt, bacarıq və ürək arasından birini seçib danış.", "İsa ilə tanış olandan sonra “başqa yola” dönən hansı vərdişim var?"],
-  "etiraf": {"b": "Mənim etirafım", "p": "Hazırda həyatımın taxtında kim oturur? İsaya vermək istədiyin “hədiyyəni” üç-dörd cümlə ilə yaz.", "ph": "Məsələn: Son vaxtlar ürəyimin padşahı telefonum olub. Bu həftə …"},
-  "dua": "Ya Rəbb Allah, uzaq ölkələrdən olan insanları belə çağırıb İsaya səcdə etdirdiyin lütfə görə Sənə şükür edirik. Bilməklə kifayətlənməyib İsaya doğru getməyə kömək et. Həyatımın taxtını İsaya verirəm. Padşah İsa Məsihin adı ilə dua edirəm. Amin."
+  "fon": [
+   [
+    "1. 동방박사는 몇 명이었을까?",
+    "성경은 숫자를 말하지 않습니다. 선물이 세 가지라서 세 명으로 전해졌을 뿐이고, ‘세 왕’이라는 표현도 후대 전통입니다."
+   ],
+   [
+    "2. 언제 찾아왔을까?",
+    "11절에는 ‘집’이 나오고, 헤롯이 두 살 아래 아이들을 죽인 것(16절)을 보면 탄생 후 1–2년 사이로 보는 해석이 많습니다. 성탄 그림처럼 마구간에 목자들과 함께 있었던 것은 아닐 수 있습니다."
+   ],
+   [
+    "3. 헤롯 대왕",
+    "의심이 많아 가족까지 죽인 왕입니다(주전 4년경 사망). 3과의 베들레헴 아기 학살로 이어집니다."
+   ],
+   [
+    "4. 미가 5:2",
+    "베들레헴에서 다스릴 자가 나온다는 예언입니다. 학자들은 정답을 알았지만 움직이지 않았습니다. 청소년반 적용의 핵심입니다."
+   ],
+   [
+    "5. 선물의 의미",
+    "황금(왕), 유향(예배·하나님), 몰약(장례·고난)은 교회의 전통적 해석입니다. ‘이렇게 볼 수도 있다’로 소개하세요."
+   ]
+  ],
+  "usaq_plan": [
+   [
+    "5분",
+    "별 찾기 놀이",
+    "교실에 종이 별을 숨겨 두고 찾게 하기",
+    "“동방박사들도 별을 따라 아기 예수님을 찾았어요.”"
+   ],
+   [
+    "15분",
+    "장면 1–4 듣고 읽기",
+    "장면마다 듣기를 누르고 노란 낱말을 함께 누르기",
+    "“헤롯 왕은 왜 화가 났을까요?”"
+   ],
+   [
+    "5분",
+    "외울 말씀",
+    "빈칸 놀이 → 다 같이 세 번 읽기",
+    "“엎드려 경배한다는 건 어떤 모습일까요?”"
+   ],
+   [
+    "5분",
+    "확인 퀴즈",
+    "혼자 풀고 함께 확인",
+    "“틀려도 괜찮아요. 그림을 다시 봐요.”"
+   ],
+   [
+    "10분",
+    "선물 활동과 기도",
+    "예수님께 드릴 선물 고르기 → 발표 → 기도",
+    "“노래도, 기도도, 친구를 돕는 것도 선물이에요.”"
+   ]
+  ],
+  "genc_plan": [
+   [
+    "5분",
+    "열기",
+    "“새 왕이 태어났다는 뉴스를 들으면 지금의 대통령은 어떤 기분일까?”",
+    "“같은 소식, 다른 반응”"
+   ],
+   [
+    "15분",
+    "장면 1–2와 세 가지 반응 표",
+    "세 모둠이 동방박사·헤롯·학자 입장에서 1분씩 발표",
+    "“나는 누구와 가장 닮았을까?”"
+   ],
+   [
+    "10분",
+    "장면 3–4",
+    "선물의 의미와 ‘다른 길’ 나누기",
+    "“예수님을 만난 뒤 달라진 길이 있나요?”"
+   ],
+   [
+    "5분",
+    "확인 문제",
+    "혼자 풀고 틀린 문제만 함께 확인",
+    ""
+   ],
+   [
+    "15분",
+    "나눔과 고백",
+    "나눔 질문 2개 → 나의 고백 쓰기 → 기도",
+    ""
+   ]
+  ],
+  "ipucu_usaq": [
+   "동방박사를 ‘세 명의 왕’으로 단정하지 말고 ‘지혜로운 사람들’이라고 소개하세요.",
+   "헤롯이 아기를 해치려 한 이야기는 무섭지 않게, 하나님이 지켜 주셨다는 데 초점을 맞추세요.",
+   "선물 활동에는 정답이 없어요. 아이가 고른 선물을 칭찬해 주세요."
+  ],
+  "ipucu_genc": [
+   "‘아는 것과 가는 것’의 차이가 이 과의 적용 핵심이에요. 학자들을 비난하기보다 우리 모습을 비춰 보게 하세요.",
+   "왕좌 질문은 무겁게 느껴질 수 있어요. 교사가 먼저 자기 이야기를 짧게 나누면 좋아요.",
+   "선물 해석은 교회의 전통적인 풀이라는 점을 함께 말해 주세요."
+  ],
+  "suallar": [
+   [
+    "동방박사는 진짜 왕이었어요?",
+    "성경에는 ‘지혜로운 사람들’이라고만 나와요. 별을 연구하던 학자들이에요.",
+    "‘마고이’는 학자 계층이에요. ‘세 왕’은 후대 전통이고, 시편 72:10 같은 구절이 영향을 줬어요."
+   ],
+   [
+    "별을 보고 점치는 건 괜찮아요?",
+    "하나님은 그들이 알아들을 수 있게 별로 길을 보여 주셨지만, 결국 하나님 말씀으로 예수님께 이끄셨어요.",
+    "하나님이 그들의 출발점에서 만나 주셨지만 최종 길잡이는 성경(미 5:2)이었어요. 별점을 인정하는 이야기가 아니에요."
+   ],
+   [
+    "헤롯은 왜 그렇게 나빴어요?",
+    "자기만 왕이고 싶어서 예수님을 싫어했어요. 욕심이 마음을 차지하면 나쁜 일을 하게 돼요.",
+    "권력에 대한 불안과 집착이 폭력으로 이어졌어요. ‘내 왕좌’를 지키려는 마음은 누구에게나 있어요."
+   ]
+  ]
+ },
+ "ru": {
+  "usaq": {
+   "basliq": "Мудрецы, идущие за звездой",
+   "hedef": [
+    "Мы узнаем, как мудрецы пошли за звездой и нашли Младенца Иисуса.",
+    "Мы узнаем, что Иисус Христос — Царь всего мира.",
+    "Мы подумаем о том, какой подарок мы можем сделать Иисусу."
+   ],
+   "sehneler": [
+    {
+     "b": "Особенная звезда издалека",
+     "ayə": "Матфей 2:1–2",
+     "alt": "Мудрецы едут на верблюдах за звездой",
+     "p": [
+      "Когда Иисус родился в городе [[Вифлеем]], в далёкой восточной стране жили [[мудрецы]]. Это были очень умные люди, которые изучали звёзды на небе.",
+      "Однажды ночью на небе появилась особенная звезда. Мудрецы сказали: «Родился новый царь! Пойдём и [[поклонимся|поклонение]] Ему»."
+     ]
+    },
+    {
+     "b": "Злой замысел царя Ирода",
+     "ayə": "Матфей 2:3–8",
+     "alt": "Царь Ирод сидит на троне, а перед ним мудрецы",
+     "p": [
+      "Сначала мудрецы пришли в большой город Иерусалим и спросили: «Где новорождённый царь?»",
+      "Услышав это, царь [[Ирод]] очень встревожился. Он не хотел, чтобы появился другой царь, более великий, чем он.",
+      "Ирод солгал им: «Когда найдёте Младенца, сообщите мне, чтобы и я пошёл [[поклониться|поклонение]] Ему». Но в сердце он хотел причинить Младенцу зло."
+     ]
+    },
+    {
+     "b": "Подарки для Младенца Иисуса",
+     "ayə": "Матфей 2:9–11",
+     "alt": "Мудрецы дарят подарки Младенцу Иисусу",
+     "p": [
+      "Когда мудрецы снова отправились в путь, звезда пошла перед ними и остановилась над домом, где был Младенец. Мудрецы очень обрадовались.",
+      "Они увидели Младенца Иисуса и Его маму Марию, упали на колени и совершили Ему [[поклонение]]. Затем они открыли свои сундуки с сокровищами и подарили Ему [[золото]], [[ладан]] и [[смирну|смирна]]."
+     ]
+    },
+    {
+     "b": "Домой другим путём",
+     "ayə": "Матфей 2:12",
+     "alt": "Мудрецы возвращаются домой другим путём",
+     "p": [
+      "В ту ночь Бог сказал мудрецам во сне: «Не возвращайтесь к Ироду».",
+      "Мудрецы проявили [[послушание]] слову Божьему и вернулись в свою страну другим путём. Так Бог защитил Младенца Иисуса."
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "«Мудрецы, увидев Младенца Иисуса, пали ниц и поклонились Ему».",
+    "ref": "2:11",
+    "bos": "«Мудрецы, увидев ___ Иисуса, пали ___ и ___ Ему».",
+    "sozler": [
+     "Младенца",
+     "ниц",
+     "поклонились"
+    ],
+    "yalan": "Ироду"
+   },
+   "lugat": {
+    "Вифлеем": {
+     "i": "📍",
+     "x": "Bet-Lexem",
+     "m": "Это маленький город, где родился Иисус. Царь Давид тоже был из этого города.",
+     "e": "Название «Вифлеем» означает «дом хлеба»."
+    },
+    "мудрецы": {
+     "i": "🐫",
+     "x": "müdriklər",
+     "m": "Это умные люди, пришедшие с востока, которые изучали звёзды.",
+     "e": "Мудрецы проделали долгий путь на верблюдах."
+    },
+    "поклонение": {
+     "i": "🙇",
+     "x": "səcdə",
+     "m": "Это когда мы с глубоким уважением склоняемся и прославляем Бога.",
+     "e": "Мудрецы совершили поклонение Младенцу Иисусу."
+    },
+    "Ирод": {
+     "i": "👑",
+     "x": "Hirod",
+     "m": "В то время он был царём Иудеи. Он был очень завистливым и подозрительным человеком.",
+     "e": "Ирод не хотел, чтобы родился новый царь."
+    },
+    "золото": {
+     "i": "🪙",
+     "x": "qızıl",
+     "m": "Это самый ценный металл. Такой подарок дарят царям.",
+     "e": "Золото показывает, что Иисус — Царь."
+    },
+    "ладан": {
+     "i": "💨",
+     "x": "kündür",
+     "m": "Это смола дерева, которая при сжигании приятно пахнет. Её использовали при поклонении Богу.",
+     "e": "Ладан напоминает нам о том, что Иисус — Бог."
+    },
+    "смирна": {
+     "i": "🫙",
+     "x": "mirra",
+     "m": "Это горькое, но ароматное масло. Его использовали при погребении умерших.",
+     "e": "Смирна напоминает о том, что Иисус умрёт за нас."
+    },
+    "послушание": {
+     "i": "👣",
+     "x": "itaət",
+     "m": "Это значит выслушать слово и исполнить его.",
+     "e": "Мудрецы проявили послушание слову Божьему."
+    }
+   },
+   "test": [
+    {
+     "q": "Что увидели мудрецы перед тем, как отправиться в путь?",
+     "o": [
+      "Особенную звезду",
+      "Радугу",
+      "Большой корабль"
+     ],
+     "a": 0,
+     "f": "Верно! Звезда показывала, что родился новый царь."
+    },
+    {
+     "q": "Почему царь Ирод встревожился?",
+     "o": [
+      "Он не хотел другого царя",
+      "Шёл дождь",
+      "Он был голоден"
+     ],
+     "a": 0,
+     "f": "Верно! Ирод хотел быть единственным царём."
+    },
+    {
+     "q": "Что из этого не было подарком мудрецов?",
+     "o": [
+      "Золото",
+      "Ладан",
+      "Яблоко",
+      "Смирна"
+     ],
+     "a": 2,
+     "f": "Верно! Яблоко они не дарили."
+    },
+    {
+     "q": "Почему мудрецы пошли другим путём?",
+     "o": [
+      "Бог предупредил их во сне",
+      "Они заблудились",
+      "Так сказал Ирод"
+     ],
+     "a": 0,
+     "f": "Верно! Они проявили послушание Богу."
+    }
+   ],
+   "dusun": [
+    "Мудрецы проделали очень долгий путь. Почему для них было так важно найти Иисуса?",
+    "И Ирод, и мудрецы услышали весть о «царе». Чем отличались их сердца?",
+    "А какой подарок ты можешь сделать Иисусу?"
+   ],
+   "fealiyyet": {
+    "ciz": "Нарисуй мудрецов, идущих за звездой. Если бы это был ты, какой подарок ты бы принёс?",
+    "b": "Мой подарок",
+    "p": "Выбери подарок, который ты хочешь подарить Иисусу.",
+    "ph": "",
+    "secim": {
+     "basliq": "Что ты можешь подарить Иисусу?",
+     "izah": "Нажимай и выбирай. Можно выбрать несколько.",
+     "cumle": "Я дарю Иисусу {x}!",
+     "bos": "…",
+     "bag": "и",
+     "secimler": [
+      [
+       "🎵",
+       "свою песню"
+      ],
+      [
+       "🙏",
+       "свою молитву"
+      ],
+      [
+       "❤️",
+       "свою любовь"
+      ],
+      [
+       "⏰",
+       "своё время"
+      ],
+      [
+       "🤝",
+       "свою помощь"
+      ],
+      [
+       "😊",
+       "свою улыбку"
+      ],
+      [
+       "📖",
+       "своё чтение Библии"
+      ],
+      [
+       "🎨",
+       "свой рисунок"
+      ]
+     ]
+    }
+   },
+   "dua": "Господь Бог, мы благодарим Тебя за то, что Ты послал Иисуса как Царя всего мира. Помоги мне, как мудрецам, с радостью поклоняться Ему. Я дарю Иисусу своё сердце, своё время и свои песни. Молюсь во имя Иисуса Христа. Аминь."
+  },
+  "genc": {
+   "basliq": "Кто истинный Царь?",
+   "giris": "Услышав одну и ту же весть, кто-то проделывает долгий путь и преклоняет колени, а кто-то хватается за меч. Каков твой ответ перед Иисусом?",
+   "meqsed": [
+    "Мы сравним различные реакции мудрецов, Ирода и религиозных лидеров.",
+    "Мы сможем объяснить, что Иисус является Царём не только иудеев, но и всего мира.",
+    "Мы посмотрим, кто сидит на «троне» нашей жизни."
+   ],
+   "sehneler": [
+    {
+     "b": "Язычники, идущие за звездой",
+     "ayə": "Матфей 2:1–2",
+     "alt": "Мудрецы едут на верблюдах за звездой",
+     "p": [
+      "[[Мудрецы]] были учёными со стороны нынешних Ирана и Ирака. Они изучали звёзды и сны. Они не были иудеями, они были [[язычники|язычник]].",
+      "Удивительно, но первыми, кто стал искать и нашёл Мессию, оказались не иудеи, хорошо знавшие Священное Писание, а язычники из далёкой страны. Подобно тому, как Матфей в первой главе включил в родословие женщин-язычниц, здесь он тоже показывает, что Иисус — Царь всех народов."
+     ],
+     "deep": {
+      "b": "Взгляд в глубину · Звезда и пророчество",
+      "p": "В Числах 24:17 сказано: «Восходит звезда от Иакова». Бог указал путь людям, изучающим звёзды, понятным им образом, а в конце привёл их к Иисусу через Своё Слово."
+     }
+    },
+    {
+     "b": "Испуганный царь и бездействующие учёные",
+     "ayə": "Матфей 2:3–8",
+     "alt": "Царь Ирод сидит на троне, а перед ним мудрецы",
+     "p": [
+      "Царь [[Ирод]] был назначен Римом. Чтобы сохранить свой трон, он был настолько подозрителен, что убивал даже членов своей семьи. Рождение «Царя Иудейского» было для него угрозой.",
+      "Собранные Иродом [[первосвященники|первосвященник]] и книжники хорошо знали слова пророка [[Михей|Михей]] {{Мих. 5:2}}: Мессия родится в Вифлееме. Но никто из них не отправился в Вифлеем, который находился всего в 9 километрах от них."
+     ],
+     "deep": {
+      "b": "Взгляд в глубину · Знать и идти",
+      "p": "Учёные, которые знали Писание, но не сдвинулись с места; и мудрецы, которые знали мало, но проделали долгий путь. Вера не заканчивается на знании, она продолжается шагами навстречу Иисусу.",
+      "rose": true
+     }
+    },
+    {
+     "b": "Три подарка",
+     "ayə": "Матфей 2:9–11",
+     "alt": "Мудрецы дарят подарки Младенцу Иисусу",
+     "p": [
+      "Когда звезда остановилась над домом, где был Младенец, мудрецы возрадовались радостью весьма великою. Они пали ниц, совершили [[поклонение]] и подарили золото, [[ладан]] и [[смирну|смирна]].",
+      "Издавна эти дары толкуются как знаки, указывающие на то, кем является Иисус."
+     ],
+     "deep": {
+      "b": "Взгляд в глубину · Значение даров",
+      "p": "Золото дарили царям, ладан сжигали при поклонении Богу, а смирна использовалась при погребении. Поэтому многие христианские традиции объясняют эти дары так: Иисус — Царь, Иисус — Бог, Иисус умрёт за нас."
+     }
+    },
+    {
+     "b": "Другой путь",
+     "ayə": "Матфей 2:12",
+     "alt": "Мудрецы возвращаются домой другим путём",
+     "p": [
+      "Бог во сне предупредил мудрецов, чтобы они не возвращались к Ироду. И они отошли в свою страну другим путём.",
+      "Человек, встретившийся с Иисусом, не возвращается прежним путём. После этой встречи направление жизни меняется."
+     ]
+    }
+   ],
+   "cedvel": {
+    "b": "Три вида реакции",
+    "alt": "Одна весть, разные сердца",
+    "bas": [
+     "Кто",
+     "Что знал",
+     "Как отреагировал"
+    ],
+    "set": [
+     [
+      "Мудрецы",
+      "Звезду и часть пророчества",
+      "Проделали долгий путь и с радостью поклонились"
+     ],
+     [
+      "Ирод",
+      "Что родился новый царь",
+      "Испугался и захотел убить"
+     ],
+     [
+      "Первосвященники и книжники",
+      "Точное пророчество",
+      "Знали, но не пошли"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "«И, войдя в дом, увидели Младенца с Мариею, Матерью Его, и, пав, поклонились Ему; и, открыв сокровища свои, принесли Ему дары: золото, ладан и смирну».",
+    "ref": "2:11"
+   },
+   "lugat": {
+    "Мудрецы": {
+     "i": "🌟",
+     "o": "По-гречески: magoi",
+     "x": "Müdriklər",
+     "s": "Восточные учёные, изучавшие звёзды",
+     "m": "Это были учёные со стороны Персии и Вавилона, изучавшие звёзды и сны. Они были не царями, а образованными людьми.",
+     "e": "Матфей описывает их как людей, ищущих истину."
+    },
+    "язычник": {
+     "i": "🌍",
+     "o": "По-гречески: ethne",
+     "x": "yadelli",
+     "s": "Народы, не являющиеся иудеями",
+     "m": "Это все народы, находящиеся вне Израиля — Божьего народа завета.",
+     "e": "Евангелие от Матфея начинается с мудрецов-язычников и заканчивается словами: «научите все народы» (28:19)."
+    },
+    "Ирод": {
+     "i": "👑",
+     "o": "Ирод Великий, 37–4 гг. до н.э.",
+     "x": "Hirod",
+     "s": "Царь, назначенный Римом",
+     "m": "Он был способным царём, перестроившим великий храм, но из-за своей подозрительности убил даже свою жену и сыновей.",
+     "e": "В то время говорили: «Лучше быть свиньёй Ирода, чем его сыном»."
+    },
+    "первосвященник": {
+     "i": "🕍",
+     "o": "По-гречески: archiereus",
+     "x": "baş kahinlər",
+     "s": "Высшие руководители в храме",
+     "m": "Это были священники, отвечавшие за богослужение в храме и руководившие народом.",
+     "e": "На суде над Иисусом первосвященники появляются снова (глава 26)."
+    },
+    "Михей": {
+     "i": "📜",
+     "o": "По-еврейски: Mikha",
+     "x": "Mikeya",
+     "s": "Пророк, предсказавший рождение в Вифлееме",
+     "m": "Пророк, живший в VIII веке до н.э. Он сказал, что Тот, Кто будет владыкой в Израиле, произойдёт из Вифлеема.",
+     "e": "«И ты, Вифлеем... из тебя произойдет Мне Тот, Который должен быть Владыкою в Израиле» (Мих. 5:2)."
+    },
+    "поклонение": {
+     "i": "🙇",
+     "o": "По-гречески: proskuneo",
+     "x": "səcdə",
+     "s": "Склониться до земли и прославить",
+     "m": "Буквально означает «пасть ниц и поцеловать». Это было проявлением полного почтения перед царём.",
+     "e": "В Евангелии от Матфея это слово неоднократно применяется к Иисусу. Это показывает, что Иисус достоин поклонения."
+    },
+    "ладан": {
+     "i": "💨",
+     "o": "По-гречески: libanos",
+     "x": "kündür",
+     "s": "Благовоние, сжигаемое при богослужении",
+     "m": "Это смола ладанного дерева. При сжигании даёт ароматный дым, использовалась при богослужении в храме.",
+     "e": "В 30-й главе книги Исход ладан также входит в состав священного курения."
+    },
+    "смирна": {
+     "i": "🫙",
+     "o": "По-гречески: smyrna",
+     "x": "mirra",
+     "s": "Ароматное масло, используемое при погребении",
+     "m": "Это ароматное масло, приготовляемое из смолы миррового дерева. Его использовали при погребении умерших.",
+     "e": "Смирна также использовалась, когда Иисуса сняли с креста (Иоан. 19:39)."
+    }
+   },
+   "test": [
+    {
+     "q": "Кем были мудрецы?",
+     "o": [
+      "Иудейскими священниками",
+      "Восточными учёными-язычниками, изучавшими звёзды",
+      "Чиновниками Ирода"
+     ],
+     "a": 1,
+     "f": "Верно. Первыми, кто стал искать Мессию, оказались язычники."
+    },
+    {
+     "q": "Какой пророк предсказал, что Мессия родится в Вифлееме?",
+     "o": [
+      "Исаия",
+      "Михей",
+      "Иеремия"
+     ],
+     "a": 1,
+     "f": "Верно. Михей 5:2."
+    },
+    {
+     "q": "В чём заключалась проблема первосвященников и книжников?",
+     "o": [
+      "Они не знали пророчества",
+      "Они знали, но не пошли",
+      "Они обманули мудрецов"
+     ],
+     "a": 1,
+     "f": "Верно. Знать и идти — это разные вещи."
+    },
+    {
+     "q": "Где в основном использовалась смирна?",
+     "o": [
+      "На церемонии коронации",
+      "При погребении",
+      "На свадьбе"
+     ],
+     "a": 1,
+     "f": "Верно. Смирна напоминает о страданиях и смерти Иисуса."
+    },
+    {
+     "q": "Каким показывает Иисуса вторая глава Евангелия от Матфея?",
+     "o": [
+      "Царём только для иудеев",
+      "Царём, Которому поклонятся все народы",
+      "Римским царём"
+     ],
+     "a": 1,
+     "f": "Верно. Первыми Ему поклонились язычники, пришедшие с востока."
+    }
+   ],
+   "paylas": [
+    "Бывало ли так, что, подобно Ироду, из страха потерять своё место я отталкивал Иисуса?",
+    "В чём разница между тем, чтобы «знать» Слово Божье и «идти» к Иисусу?",
+    "Что я отдаю Иисусу? Выбери одно из трёх (время, способности или сердце) и расскажи.",
+    "Какая моя привычка изменилась и пошла «другим путём» после знакомства с Иисусом?"
+   ],
+   "etiraf": {
+    "b": "Моё признание",
+    "p": "Кто сейчас сидит на троне моей жизни? Напиши в трёх-четырёх предложениях о «подарке», который ты хочешь сделать Иисусу.",
+    "ph": "Например: В последнее время царём моего сердца был мой телефон. На этой неделе..."
+   },
+   "dua": "Господь Бог, мы благодарим Тебя за благодать, по которой Ты призвал даже людей из далёких стран поклониться Иисусу. Помоги мне не довольствоваться лишь знанием, но идти навстречу Иисусу. Я отдаю трон моей жизни Иисусу. Молюсь во имя Царя Иисуса Христа. Аминь."
+  }
+ },
+ "en": {
+  "usaq": {
+   "basliq": "The Wise Men Follow the Star",
+   "hedef": [
+    "We will learn that the wise men followed the star and found baby Jesus.",
+    "We will learn that Jesus Christ is the King of the whole world.",
+    "We will think about what gift we can give to Jesus."
+   ],
+   "sehneler": [
+    {
+     "b": "A Special Star from Afar",
+     "ayə": "Matthew 2:1–2",
+     "alt": "Wise men riding camels following the star",
+     "p": [
+      "When Jesus was born in the town of [[Bethlehem]], [[wise men]] lived in a faraway eastern country. They were smart men who studied the stars in the sky.",
+      "One night, a very special star appeared. The wise men said, “A new king has been born! Let's go and [[worship]] Him.”"
+     ]
+    },
+    {
+     "b": "King Herod's Bad Plan",
+     "ayə": "Matthew 2:3–8",
+     "alt": "King Herod sitting on his throne and the wise men",
+     "p": [
+      "First, the wise men came to the big city of Jerusalem and asked, “Where is the newborn king?”",
+      "When King [[Herod]] heard this, he was very worried. He didn't want anyone to be a greater king than him.",
+      "Herod lied: “When you find the baby, let me know, so I can go and worship Him too.” But in his heart, he wanted to hurt the baby."
+     ]
+    },
+    {
+     "b": "Gifts for Baby Jesus",
+     "ayə": "Matthew 2:9–11",
+     "alt": "Wise men giving gifts to baby Jesus",
+     "p": [
+      "When the wise men set out again, the star went ahead of them and stopped over the house where the baby was. The wise men were very happy.",
+      "They saw baby Jesus and His mother Mary, bowed down, and worshiped Him. Then they opened their treasure chests and gave Him gifts of [[gold]], [[frankincense]], and [[myrrh]]."
+     ]
+    },
+    {
+     "b": "Going Home Another Way",
+     "ayə": "Matthew 2:12",
+     "alt": "Wise men going home by another way",
+     "p": [
+      "That night, God told the wise men in a dream: “Do not go back to Herod.”",
+      "The wise men [[obeyed|obey]] God's word and went back to their own country by another way. God protected baby Jesus."
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "“The wise men saw baby Jesus, bowed down, and worshiped Him.”",
+    "ref": "2:11",
+    "bos": "The wise men saw ___ Jesus, ___ down, and ___ Him.",
+    "sozler": [
+     "baby",
+     "bowed",
+     "worshiped"
+    ],
+    "yalan": "Herod"
+   },
+   "lugat": {
+    "Bethlehem": {
+     "i": "📍",
+     "x": "Bet-Lexem",
+     "m": "It is the little town where Jesus was born. King David was also from this town.",
+     "e": "Bethlehem means 'house of bread'."
+    },
+    "wise men": {
+     "i": "🐫",
+     "x": "müdriklər",
+     "m": "They are smart men from the East who studied the stars.",
+     "e": "The wise men traveled a long way on camels."
+    },
+    "worship": {
+     "i": "🙇",
+     "x": "səcdə",
+     "m": "It means to bow down with great respect and honor God.",
+     "e": "The wise men worshiped baby Jesus."
+    },
+    "Herod": {
+     "i": "👑",
+     "x": "Hirod",
+     "m": "He was the king of Judea at that time. He was a very jealous and suspicious man.",
+     "e": "Herod did not want a new king to be born."
+    },
+    "gold": {
+     "i": "🪙",
+     "x": "qızıl",
+     "m": "It is the most precious metal. It is a gift given to kings.",
+     "e": "Gold shows that Jesus is King."
+    },
+    "frankincense": {
+     "i": "💨",
+     "x": "kündür",
+     "m": "It is tree resin that smells good when burned. It was used in worshiping God.",
+     "e": "Frankincense reminds us that Jesus is God."
+    },
+    "myrrh": {
+     "i": "🫙",
+     "x": "mirra",
+     "m": "It is a bitter but sweet-smelling oil. It was used when burying the dead.",
+     "e": "Myrrh reminds us that Jesus would die for us."
+    },
+    "obey": {
+     "i": "👣",
+     "x": "itaət",
+     "m": "It means to listen to what is said and do it.",
+     "e": "The wise men obeyed God's word."
+    }
+   },
+   "test": [
+    {
+     "q": "What did the wise men see that made them start their journey?",
+     "o": [
+      "A special star",
+      "A rainbow",
+      "A big ship"
+     ],
+     "a": 0,
+     "f": "That's right! The star showed that a new king was born."
+    },
+    {
+     "q": "Why was King Herod worried?",
+     "o": [
+      "He didn't want another king",
+      "It was raining",
+      "He was hungry"
+     ],
+     "a": 0,
+     "f": "That's right! Herod wanted to be the only king."
+    },
+    {
+     "q": "Which of these is not a gift from the wise men?",
+     "o": [
+      "Gold",
+      "Frankincense",
+      "An apple",
+      "Myrrh"
+     ],
+     "a": 2,
+     "f": "That's right! An apple was not a gift."
+    },
+    {
+     "q": "Why did the wise men go a different way?",
+     "o": [
+      "God told them in a dream",
+      "They got lost",
+      "Herod told them to"
+     ],
+     "a": 0,
+     "f": "That's right! They obeyed God's word."
+    }
+   ],
+   "dusun": [
+    "The wise men traveled a very long way. Why was it so important for them to find Jesus?",
+    "Both Herod and the wise men heard the news about the 'king'. How were their hearts different?",
+    "What gift can you give to Jesus?"
+   ],
+   "fealiyyet": {
+    "ciz": "Draw the wise men following the star. If it were you, what gift would you bring?",
+    "b": "My Gift",
+    "p": "Choose the gift you want to give to Jesus.",
+    "ph": "",
+    "secim": {
+     "basliq": "What gift can you give to Jesus?",
+     "izah": "Tap to choose. You can choose more than one.",
+     "cumle": "I give my {x} to Jesus!",
+     "bos": "…",
+     "bag": "and",
+     "secimler": [
+      [
+       "🎵",
+       "song"
+      ],
+      [
+       "🙏",
+       "prayer"
+      ],
+      [
+       "❤️",
+       "love"
+      ],
+      [
+       "⏰",
+       "time"
+      ],
+      [
+       "🤝",
+       "help"
+      ],
+      [
+       "😊",
+       "smile"
+      ],
+      [
+       "📖",
+       "Bible reading"
+      ],
+      [
+       "🎨",
+       "drawing"
+      ]
+     ]
+    }
+   },
+   "dua": "Lord God, we thank You for sending Jesus as the King of the whole world. Help us to joyfully worship Jesus like the wise men did. We give our hearts, our time, and our songs as gifts to Jesus. We pray in the name of Jesus Christ. Amen."
+  },
+  "genc": {
+   "basliq": "Who is the True King?",
+   "giris": "Hearing the same news, some travel a long way to kneel, while others draw their swords. What is your response before Jesus?",
+   "meqsed": [
+    "We compare the different responses of the wise men, Herod, and the religious leaders.",
+    "We can explain that Jesus is the King of the whole world, not just the Jews.",
+    "We look at who sits on the 'throne' of our lives."
+   ],
+   "sehneler": [
+    {
+     "b": "Gentiles Following the Star",
+     "ayə": "Matthew 2:1–2",
+     "alt": "Wise men riding camels following the star",
+     "p": [
+      "The [[wise men]] were scholars from the area of modern-day Iran and Iraq. They studied stars and dreams. They were not Jews, but [[Gentiles|Gentile]].",
+      "Surprisingly, the first to seek and find the Messiah were not the Jews who knew the Bible well, but Gentiles from a faraway country. Just as Matthew included Gentile women in the genealogy in the first chapter, here too he shows that Jesus is the King of all nations."
+     ],
+     "deep": {
+      "b": "A Deeper Look · The Star and Prophecy",
+      "p": "Numbers 24:17 says, “A star will come out of Jacob.” God guided the men who studied stars in a way they could understand, and finally led them to Jesus through His Word."
+     }
+    },
+    {
+     "b": "A Fearful King, Unmoving Scholars",
+     "ayə": "Matthew 2:3–8",
+     "alt": "King Herod sitting on his throne and the wise men",
+     "p": [
+      "King [[Herod]] was a king appointed by Rome. He was so suspicious that he would even kill his own family to protect his throne. The birth of the “King of the Jews” was a threat to him.",
+      "The [[chief priests|chief priest]] and teachers of the law whom Herod gathered knew the word of the prophet [[Micah]] well {{Mic. 5:2}}: the Messiah would be born in Bethlehem. But not one of them went to Bethlehem, which was only 9 kilometers away."
+     ],
+     "deep": {
+      "b": "A Deeper Look · Knowing and Going",
+      "p": "Scholars who knew the Word but didn't move; wise men who knew little but traveled a long way. Faith doesn't end with knowing; it continues with steps taken toward Jesus.",
+      "rose": true
+     }
+    },
+    {
+     "b": "Three Gifts",
+     "ayə": "Matthew 2:9–11",
+     "alt": "Wise men giving gifts to baby Jesus",
+     "p": [
+      "When the star stopped over the house where the baby was, the wise men rejoiced with exceedingly great joy. They bowed down, [[worshiped|worship]], and gave gifts of gold, [[frankincense]], and [[myrrh]].",
+      "For a long time, these gifts have been explained as signs showing who Jesus is."
+     ],
+     "deep": {
+      "b": "A Deeper Look · The Meaning of the Gifts",
+      "p": "Gold was given to kings, frankincense was burned in worship to God, and myrrh was used in burials. Therefore, much of Christian tradition explains these gifts like this: Jesus the King, Jesus who is God, and Jesus who would die for us."
+     }
+    },
+    {
+     "b": "Another Way",
+     "ayə": "Matthew 2:12",
+     "alt": "Wise men going home by another way",
+     "p": [
+      "God warned the wise men in a dream not to return to Herod. They went back to their own country by another way.",
+      "A person who meets Jesus does not go back the same way. After this meeting, the direction of life changes."
+     ]
+    }
+   ],
+   "cedvel": {
+    "b": "Three Kinds of Responses",
+    "alt": "Same news, different hearts",
+    "bas": [
+     "Who",
+     "What they knew",
+     "How they responded"
+    ],
+    "set": [
+     [
+      "Wise men",
+      "The star and a part of the prophecy",
+      "Traveled a long way and joyfully worshiped"
+     ],
+     [
+      "Herod",
+      "That a new king was born",
+      "Was afraid and wanted to kill Him"
+     ],
+     [
+      "Chief priests and teachers of the law",
+      "The prophecy exactly",
+      "Knew, but didn't go"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "“They came into the house and saw the young child with Mary his mother, and they fell down and worshiped Him. Opening their treasures, they offered Him gifts.”",
+    "ref": "2:11"
+   },
+   "lugat": {
+    "wise men": {
+     "i": "🌟",
+     "o": "Greek magoi",
+     "x": "Müdriklər",
+     "s": "Eastern scholars who studied the stars",
+     "m": "They were scholars in the region of Persia and Babylon who studied stars and dreams. They were educated men, not kings.",
+     "e": "Matthew describes them as people searching for the truth."
+    },
+    "Gentile": {
+     "i": "🌍",
+     "o": "Greek ethne",
+     "x": "yadelli",
+     "s": "Non-Jewish nations",
+     "m": "It refers to all nations outside of Israel, God's covenant people.",
+     "e": "The Gospel of Matthew begins with Gentile wise men and ends with the command to “make disciples of all nations” (28:19)."
+    },
+    "Herod": {
+     "i": "👑",
+     "o": "Herod the Great, ruled 37–4 BC",
+     "x": "Hirod",
+     "s": "The king appointed by Rome",
+     "m": "He was a capable king who rebuilt the great temple, but because of his suspicion, he even killed his wife and sons.",
+     "e": "At that time, people used to say, “It is better to be Herod's pig than his son.”"
+    },
+    "chief priest": {
+     "i": "🕍",
+     "o": "Greek archiereus",
+     "x": "baş kahinlər",
+     "s": "The highest leaders in the temple",
+     "m": "They were the priests responsible for worship in the temple and leading the people.",
+     "e": "The chief priests appear again at Jesus' trial (Chapter 26)."
+    },
+    "Micah": {
+     "i": "📜",
+     "o": "Hebrew Mikhah",
+     "x": "Mikeya",
+     "s": "The prophet who foretold Bethlehem",
+     "m": "He is a prophet who lived in the 8th century BC. He said that the One who would lead Israel would come from Bethlehem.",
+     "e": "“But you, Bethlehem... are not the least” (Mic. 5:2)."
+    },
+    "worship": {
+     "i": "🙇",
+     "o": "Greek proskuneo",
+     "x": "səcdə",
+     "s": "To bow down and honor",
+     "m": "It actually means “to bow down and kiss”. It was a show of total respect before a king.",
+     "e": "In the Gospel of Matthew, this word is used for Jesus many times. It shows that Jesus is worthy of worship."
+    },
+    "frankincense": {
+     "i": "💨",
+     "o": "Greek libanos",
+     "x": "kündür",
+     "s": "Incense burned in worship",
+     "m": "It is the resin of the frankincense tree. When burned, it gives off sweet-smelling smoke, and was used in temple worship.",
+     "e": "Frankincense was also in the holy incense in Exodus chapter 30."
+    },
+    "myrrh": {
+     "i": "🫙",
+     "o": "Greek smyrna",
+     "x": "mirra",
+     "s": "Fragrant oil used in burials",
+     "m": "It is a fragrant oil made from the resin of the myrrh tree. It was used when burying the dead.",
+     "e": "Myrrh was also used when Jesus was taken down from the cross (John 19:39)."
+    }
+   },
+   "test": [
+    {
+     "q": "Who were the wise men?",
+     "o": [
+      "Jewish priests",
+      "Eastern Gentile scholars who studied the stars",
+      "Herod's officials"
+     ],
+     "a": 1,
+     "f": "That's right. The first to seek the Messiah were Gentiles."
+    },
+    {
+     "q": "Which prophet said that the Messiah would be born in Bethlehem?",
+     "o": [
+      "Isaiah",
+      "Micah",
+      "Jeremiah"
+     ],
+     "a": 1,
+     "f": "That's right. Micah 5:2."
+    },
+    {
+     "q": "What was the problem with the chief priests and teachers of the law?",
+     "o": [
+      "They didn't know the prophecy",
+      "They knew, but didn't go",
+      "They tricked the wise men"
+     ],
+     "a": 1,
+     "f": "That's right. Knowing and going are different."
+    },
+    {
+     "q": "Where was myrrh mainly used?",
+     "o": [
+      "At a coronation ceremony",
+      "At a burial",
+      "At a wedding"
+     ],
+     "a": 1,
+     "f": "That's right. Myrrh reminds us of Jesus' suffering and death."
+    },
+    {
+     "q": "How does Matthew chapter 2 show Jesus?",
+     "o": [
+      "Only the king of the Jews",
+      "The King whom all nations will worship",
+      "The king of Rome"
+     ],
+     "a": 1,
+     "f": "That's right. The first to worship Him were Gentiles from the East."
+    }
+   ],
+   "paylas": [
+    "Like Herod, have I ever pushed Jesus away out of fear of losing my position?",
+    "What is the difference between 'knowing' the Word and 'going' to Jesus?",
+    "What do I give to Jesus? Choose one from time, skills, and heart, and talk about it.",
+    "What habit of mine turned to 'another way' after I met Jesus?"
+   ],
+   "etiraf": {
+    "b": "My Confession",
+    "p": "Who is sitting on the throne of my life right now? Write the 'gift' you want to give to Jesus in three or four sentences.",
+    "ph": "For example: Lately, the king of my heart has been my phone. This week…"
+   },
+   "dua": "Lord God, we thank You for the grace of calling even people from faraway countries to worship Jesus. Help us not to be satisfied with just knowing, but to go toward Jesus. I give the throne of my life to Jesus. I pray in the name of King Jesus Christ. Amen."
+  }
  }
-},
-"muellim": {
- "mesaj": "2과의 중심은 한 문장입니다. **예수님은 온 세상의 왕이시고, 그분을 만난 사람은 기쁨으로 경배하며 다른 길로 산다.**",
- "hazirliq": ["학생용 교재를 열 휴대폰이나 태블릿, 이어폰", "종이 별 1개, 작은 상자 3개(황금·유향·몰약 역할)", "종이와 색연필 (어린이반 그리기)"],
- "fon": [
-  ["1. 동방박사는 몇 명이었을까?", "성경은 숫자를 말하지 않습니다. 선물이 세 가지라서 세 명으로 전해졌을 뿐이고, ‘세 왕’이라는 표현도 후대 전통입니다."],
-  ["2. 언제 찾아왔을까?", "11절에는 ‘집’이 나오고, 헤롯이 두 살 아래 아이들을 죽인 것(16절)을 보면 탄생 후 1–2년 사이로 보는 해석이 많습니다. 성탄 그림처럼 마구간에 목자들과 함께 있었던 것은 아닐 수 있습니다."],
-  ["3. 헤롯 대왕", "의심이 많아 가족까지 죽인 왕입니다(주전 4년경 사망). 3과의 베들레헴 아기 학살로 이어집니다."],
-  ["4. 미가 5:2", "베들레헴에서 다스릴 자가 나온다는 예언입니다. 학자들은 정답을 알았지만 움직이지 않았습니다. 청소년반 적용의 핵심입니다."],
-  ["5. 선물의 의미", "황금(왕), 유향(예배·하나님), 몰약(장례·고난)은 교회의 전통적 해석입니다. ‘이렇게 볼 수도 있다’로 소개하세요."]
- ],
- "usaq_plan": [
-  ["5분", "별 찾기 놀이", "교실에 종이 별을 숨겨 두고 찾게 하기", "“동방박사들도 별을 따라 아기 예수님을 찾았어요.”"],
-  ["15분", "장면 1–4 듣고 읽기", "장면마다 듣기를 누르고 노란 낱말을 함께 누르기", "“헤롯 왕은 왜 화가 났을까요?”"],
-  ["5분", "외울 말씀", "빈칸 놀이 → 다 같이 세 번 읽기", "“엎드려 경배한다는 건 어떤 모습일까요?”"],
-  ["5분", "확인 퀴즈", "혼자 풀고 함께 확인", "“틀려도 괜찮아요. 그림을 다시 봐요.”"],
-  ["10분", "선물 활동과 기도", "예수님께 드릴 선물 고르기 → 발표 → 기도", "“노래도, 기도도, 친구를 돕는 것도 선물이에요.”"]
- ],
- "genc_plan": [
-  ["5분", "열기", "“새 왕이 태어났다는 뉴스를 들으면 지금의 대통령은 어떤 기분일까?”", "“같은 소식, 다른 반응”"],
-  ["15분", "장면 1–2와 세 가지 반응 표", "세 모둠이 동방박사·헤롯·학자 입장에서 1분씩 발표", "“나는 누구와 가장 닮았을까?”"],
-  ["10분", "장면 3–4", "선물의 의미와 ‘다른 길’ 나누기", "“예수님을 만난 뒤 달라진 길이 있나요?”"],
-  ["5분", "확인 문제", "혼자 풀고 틀린 문제만 함께 확인", ""],
-  ["15분", "나눔과 고백", "나눔 질문 2개 → 나의 고백 쓰기 → 기도", ""]
- ],
- "ipucu_usaq": ["동방박사를 ‘세 명의 왕’으로 단정하지 말고 ‘지혜로운 사람들’이라고 소개하세요.", "헤롯이 아기를 해치려 한 이야기는 무섭지 않게, 하나님이 지켜 주셨다는 데 초점을 맞추세요.", "선물 활동에는 정답이 없어요. 아이가 고른 선물을 칭찬해 주세요."],
- "ipucu_genc": ["‘아는 것과 가는 것’의 차이가 이 과의 적용 핵심이에요. 학자들을 비난하기보다 우리 모습을 비춰 보게 하세요.", "왕좌 질문은 무겁게 느껴질 수 있어요. 교사가 먼저 자기 이야기를 짧게 나누면 좋아요.", "선물 해석은 교회의 전통적인 풀이라는 점을 함께 말해 주세요."],
- "suallar": [
-  ["동방박사는 진짜 왕이었어요?", "성경에는 ‘지혜로운 사람들’이라고만 나와요. 별을 연구하던 학자들이에요.", "‘마고이’는 학자 계층이에요. ‘세 왕’은 후대 전통이고, 시편 72:10 같은 구절이 영향을 줬어요."],
-  ["별을 보고 점치는 건 괜찮아요?", "하나님은 그들이 알아들을 수 있게 별로 길을 보여 주셨지만, 결국 하나님 말씀으로 예수님께 이끄셨어요.", "하나님이 그들의 출발점에서 만나 주셨지만 최종 길잡이는 성경(미 5:2)이었어요. 별점을 인정하는 이야기가 아니에요."],
-  ["헤롯은 왜 그렇게 나빴어요?", "자기만 왕이고 싶어서 예수님을 싫어했어요. 욕심이 마음을 차지하면 나쁜 일을 하게 돼요.", "권력에 대한 불안과 집착이 폭력으로 이어졌어요. ‘내 왕좌’를 지키려는 마음은 누구에게나 있어요."]
- ]
-}
 }

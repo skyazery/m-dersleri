@@ -1,163 +1,1719 @@
 {
-"no": 4, "ref": "3:1–17", "deq": {"usaq": 40, "genc": 50},
-"img": ["matta/04-yehya-seyra.jpg", "matta/04-vaftiz-xalq.jpg", "matta/04-isa-gelir.jpg", "06-vaftiz.jpg"],
-"hero": 3,
-"ko": {
- "usaq": {
-  "basliq": "하늘에서 들린 목소리",
-  "hedef": ["세례 요한이 사람들에게 회개를 외친 이야기를 알아요.", "예수님이 세례를 받으실 때 하나님이 하신 말씀을 알아요.", "하나님이 나도 사랑하는 자녀로 부르신다는 걸 알아요."],
-  "sehneler": [
-   {"b": "광야에서 외치는 사람", "ayə": "3:1–4", "alt": "광야에서 사람들에게 외치는 세례 요한", "p": ["[[광야]]에 [[세례 요한]]이라는 사람이 나타났어요. 낙타 털로 만든 옷을 입고, 메뚜기와 들꿀을 먹었어요.", "요한은 큰 소리로 외쳤어요. “[[회개]]하세요! [[하늘나라]]가 가까이 왔어요!” 회개는 잘못된 길에서 돌아서서 하나님께 돌아가는 거예요."]},
-   {"b": "요단강의 세례", "ayə": "3:5–12", "alt": "요단강에서 사람들에게 세례를 주는 요한", "p": ["많은 사람이 요한에게 와서 자기 잘못을 고백했어요. 요한은 [[요단강]]에서 그들에게 [[세례]]를 주었어요.", "요한은 말했어요. “내 뒤에 나보다 훨씬 크신 분이 오세요. 나는 그분의 신발을 들 자격도 없어요.”"]},
-   {"b": "예수님이 오셨어요", "ayə": "3:13–15", "alt": "요단강에서 요한에게 다가오시는 예수님", "p": ["어느 날 예수님이 세례를 받으러 요단강에 오셨어요. 요한은 깜짝 놀라 말했어요. “제가 예수님께 세례를 받아야 하는데, 어떻게 예수님이 제게 오세요?”", "예수님은 말씀하셨어요. “지금은 이렇게 하는 것이 옳아요.” 그래서 요한은 예수님께 세례를 드렸어요."]},
-   {"b": "하늘이 열리고", "ayə": "3:16–17", "alt": "세례받으신 예수님 위로 비둘기 같은 성령이 내려오는 모습", "p": ["예수님이 물에서 올라오시자 하늘이 열렸어요. 하나님의 [[성령]]이 비둘기처럼 예수님 위에 내려오셨어요.", "그리고 하늘에서 목소리가 들렸어요. “이는 내 사랑하는 아들이요, 내가 기뻐하는 자다.”"]}
-  ],
-  "aye": {"metn": "“이는 내 사랑하는 아들이요, 내가 기뻐하는 자다.”", "ref": "3:17", "bos": "이는 내 ___ ___이요, 내가 ___하는 자다.", "sozler": ["사랑하는", "아들", "기뻐"], "yalan": "요한"},
-  "lugat": {
-   "광야": {"i": "🏜️", "x": "səhra", "m": "사람이 거의 살지 않는 메마른 땅이에요.", "e": "요한은 광야에서 하나님 말씀을 전했어요."},
-   "세례 요한": {"i": "🧔", "x": "Vəftizçi Yəhya", "m": "예수님이 오실 길을 준비한 사람이에요. 사람들에게 세례를 주어서 ‘세례 요한’이라고 불려요.", "e": "세례 요한은 예수님의 친척이었어요."},
-   "회개": {"i": "🔄", "x": "tövbə", "m": "잘못을 인정하고, 나쁜 길에서 돌아서 하나님께 돌아가는 거예요.", "e": "“회개하세요!” 하고 요한이 외쳤어요."},
-   "하늘나라": {"i": "👑", "x": "Səmavi Padşahlıq", "m": "하나님이 왕이 되어 다스리시는 나라예요.", "e": "예수님이 오셔서 하늘나라가 가까이 왔어요."},
-   "요단강": {"i": "🌊", "x": "İordan çayı", "m": "이스라엘을 북쪽에서 남쪽으로 흐르는 강이에요.", "e": "요한은 요단강에서 세례를 주었어요."},
-   "세례": {"i": "💧", "x": "vəftiz", "m": "물에 몸을 담그거나 물을 부어, 하나님께 돌아왔다는 것을 보여 주는 예식이에요.", "e": "예수님도 요한에게 세례를 받으셨어요."},
-   "성령": {"i": "🕊️", "x": "Müqəddəs Ruh", "m": "하나님의 영이에요. 예수님이 세례를 받으실 때 비둘기처럼 내려오셨어요.", "e": "성령님은 우리가 예수님을 따르도록 도와주세요."}
-  },
-  "test": [
-   {"q": "세례 요한은 어디에서 외쳤나요?", "o": ["광야", "시장", "궁전"], "a": 0, "f": "맞아요! 광야에서 외쳤어요."},
-   {"q": "세례 요한이 먹은 음식은?", "o": ["메뚜기와 들꿀", "빵과 생선", "사과와 포도"], "a": 0, "f": "맞아요! 아주 소박한 음식이었어요."},
-   {"q": "예수님이 세례를 받으실 때 무엇이 내려왔나요?", "o": ["비둘기 같은 성령", "눈", "불"], "a": 0, "f": "맞아요! 하나님의 성령이 내려오셨어요."},
-   {"q": "하늘에서 들린 목소리는 무엇이었나요?", "o": ["이는 내 사랑하는 아들이다", "모두 집에 가라", "곧 비가 온다"], "a": 0, "f": "맞아요! 하나님이 예수님을 사랑하는 아들이라고 하셨어요."}
-  ],
-  "dusun": ["요한은 왜 사람들에게 ‘회개하라’고 외쳤을까요?", "죄가 없으신 예수님이 왜 세례를 받으셨을까요?", "하나님이 나에게 ‘너는 내 사랑하는 아이야’라고 말씀하신다면 어떤 기분일까요?"],
-  "fealiyyet": {"ciz": "예수님이 세례를 받으실 때 하늘이 열리고 비둘기가 내려오는 모습을 그려 보세요.", "b": "새로 시작하고 싶은 일", "p": "하나님께 돌아가 새롭게 하고 싶은 일을 하나 써 보세요.", "ph": "예) 거짓말하지 않고 정직하게 말하고 싶어요."},
-  "dua": "하나님, 예수님을 사랑하는 아들이라고 하신 것처럼 저도 사랑하는 자녀로 불러 주셔서 감사합니다. 잘못한 것이 있을 때 숨지 않고 하나님께 돌아가게 해 주세요. 성령님, 저를 도와주세요. 예수님 이름으로 기도합니다. 아멘."
+ "no": 4,
+ "ref": "3:1–17",
+ "deq": {
+  "usaq": 40,
+  "genc": 50
  },
- "genc": {
-  "basliq": "회개와 열린 하늘",
-  "giris": "모두가 죄를 고백하러 온 강가에, 죄 없는 분이 그들과 같은 줄에 서셨습니다. 예수님은 왜 세례를 받으셨을까요?",
-  "meqsed": ["세례 요한이 전한 ‘회개’와 ‘하늘나라’의 뜻을 이해해요.", "예수님의 세례에서 성부·성자·성령 하나님이 함께 나타나심을 설명할 수 있어요.", "‘사랑하는 아들’이라는 하나님의 음성이 내 정체성에 어떤 의미인지 생각해요."],
-  "sehneler": [
-   {"b": "광야의 목소리", "ayə": "3:1–6", "alt": "광야에서 사람들에게 외치는 세례 요한", "p": ["[[세례 요한]]은 낙타 털옷에 가죽 띠를 띠었어요. 이것은 구약의 엘리야 선지자 모습이에요 {{왕하 1:8}}. 400년 동안 선지자가 없던 이스라엘에 다시 선지자가 나타난 거예요.", "그는 [[이사야]]가 말한 “광야에서 외치는 사람의 소리”였어요 {{사 40:3}}. 그의 메시지는 짧았어요. “[[회개]]하라, [[하늘나라]]가 가까이 왔다.”"], "deep": {"b": "깊이 보기 · 왜 광야일까?", "p": "광야는 이스라엘이 출애굽 후 40년을 보내며 하나님을 배운 곳이에요. 요한은 백성을 다시 광야로 불러내 요단강을 건너듯 새 출발을 하게 했어요. 하나님은 화려한 성전이 아니라 빈 들에서 새 일을 시작하셨어요."}},
-   {"b": "열매로 보여 주라", "ayə": "3:7–12", "alt": "요단강에서 사람들에게 세례를 주는 요한", "p": ["요한은 세례받으러 온 [[바리새인]]과 사두개인에게 “독사의 자식들아!” 하고 꾸짖었어요. 그리고 “회개에 맞는 열매를 맺으라”고 했어요.", "“‘우리 조상은 아브라함이다’라고 생각하지 말라.” 좋은 집안이나 종교적 배경이 구원을 보장하지 않는다는 뜻이에요."], "deep": {"b": "깊이 보기 · 열매 없는 종교", "p": "요한의 경고는 교회 밖이 아니라 가장 종교적인 사람들에게 향했어요. 교회에 오래 다닌 것, 믿음의 가정에서 자란 것은 감사한 일이지만, 그 자체가 회개를 대신하지는 못해요.", "rose": true}},
-   {"b": "죄 없는 분의 세례", "ayə": "3:13–15", "alt": "요단강에서 요한에게 다가오시는 예수님", "p": ["예수님이 세례를 받으러 오시자 요한은 말렸어요. “제가 주님께 받아야 하는데 어떻게 주님이 제게 오십니까?”", "예수님은 “우리가 이렇게 하여 모든 의를 이루는 것이 마땅하다”고 하셨어요. 예수님은 죄인들의 줄에 함께 서셨어요."], "deep": {"b": "깊이 보기 · ‘모든 의를 이루다’", "p": "예수님은 고백할 죄가 없으셨지만, 죄인들과 자신을 하나로 묶으셨어요. 이 장면은 십자가를 미리 보여 줘요. 죄 없는 분이 죄인의 자리에 서시는 것이 바로 복음이에요."}},
-   {"b": "열린 하늘, 들린 음성", "ayə": "3:16–17", "alt": "세례받으신 예수님 위로 비둘기 같은 성령이 내려오는 모습", "p": ["예수님이 물에서 올라오시자 하늘이 열리고 [[성령]]이 비둘기처럼 내려왔어요. 그리고 음성이 들렸어요. “이는 내 사랑하는 아들이요, 내가 기뻐하는 자다.”", "이 음성은 시편 2:7(왕이신 아들)과 이사야 42:1(고난받는 종)을 하나로 합친 말씀이에요. 예수님은 왕이시면서 고난받는 종이세요."], "deep": {"b": "깊이 보기 · 사역 이전의 사랑", "p": "이 말씀은 예수님이 기적을 한 번도 행하시기 전에 들렸어요. 하나님의 사랑은 성과에 대한 보상이 아니에요. 정체성이 먼저이고, 사명은 그다음이에요."}}
-  ],
-  "cedvel": {"b": "세례 장면의 삼위 하나님", "alt": "성부·성자·성령이 한 장면에", "bas": ["누구", "어떻게 나타나셨나", "무엇을 알려 주나"], "set": [["성부 하나님", "하늘에서 들린 음성", "예수님은 사랑하는 아들"], ["성자 예수님", "물에서 올라오심", "죄인과 함께 서신 메시아"], ["성령 하나님", "비둘기처럼 내려오심", "사역을 위한 능력과 기름 부음"]]},
-  "aye": {"metn": "“그리고 하늘에서 소리가 들렸다. ‘이는 내 사랑하는 아들이요, 내가 기뻐하는 자다.’”", "ref": "3:17"},
-  "lugat": {
-   "세례 요한": {"i": "🧔", "o": "헬라어 요안네스 호 밥티스테스", "x": "Vəftizçi Yəhya", "s": "예수님의 길을 준비한 선지자", "m": "제사장 사가랴의 아들로, 예수님보다 여섯 달 먼저 태어났어요. 메시아의 길을 준비하는 사명을 받았어요.", "e": "예수님은 그를 ‘여자가 낳은 자 중에 가장 큰 사람’이라고 하셨어요(11:11)."},
-   "이사야": {"i": "📜", "o": "히브리어 예샤야후", "x": "Yeşaya peyğəmbər", "s": "메시아를 가장 많이 예언한 선지자", "m": "주전 8세기 선지자로, 임마누엘과 고난받는 종 등 메시아에 대한 예언을 많이 남겼어요.", "e": "1과의 임마누엘 예언도 이사야서(7:14)에 있어요."},
-   "회개": {"i": "🔄", "o": "헬라어 메타노이아", "x": "tövbə", "s": "생각과 삶의 방향을 바꾸는 것", "m": "‘생각(노이아)을 바꾸다(메타)’라는 뜻이에요. 미안한 감정에서 멈추지 않고 삶의 방향을 돌리는 거예요.", "e": "예수님의 첫 설교도 “회개하라”로 시작해요(4:17)."},
-   "하늘나라": {"i": "👑", "o": "헬라어 바실레이아 톤 우라논", "x": "Səmavi Padşahlıq", "s": "하나님이 왕으로 다스리시는 나라", "m": "죽은 뒤에 가는 장소만이 아니라, 하나님이 왕으로 다스리시는 현실을 말해요. 마태는 하나님의 이름을 조심스럽게 쓰는 유대인 독자를 위해 ‘하늘’이라고 표현했어요.", "e": "마태복음에는 ‘하늘나라’가 30번 넘게 나와요."},
-   "바리새인": {"i": "📏", "o": "히브리어 페루심, ‘구별된 사람들’", "x": "fariseylər", "s": "율법을 엄격히 지키던 무리", "m": "율법을 꼼꼼히 지키고 백성에게 존경받던 평신도 경건 운동이었어요. 하지만 겉모습에 치우친 위험이 있었어요.", "e": "예수님과 가장 많이 논쟁한 사람들이에요(23장)."},
-   "성령": {"i": "🕊️", "o": "헬라어 프뉴마 하기온", "x": "Müqəddəs Ruh", "s": "삼위 하나님 중 한 분", "m": "하나님의 영이시며, 예수님께 사역의 능력을 주시고 믿는 사람 안에 계시는 분이에요.", "e": "요한은 예수님이 ‘성령과 불로’ 세례를 주실 거라고 했어요(3:11)."}
+ "img": [
+  "matta/04-yehya-seyra.jpg",
+  "matta/04-vaftiz-xalq.jpg",
+  "matta/04-isa-gelir.jpg",
+  "06-vaftiz.jpg"
+ ],
+ "hero": 3,
+ "ko": {
+  "usaq": {
+   "basliq": "하늘에서 들린 목소리",
+   "hedef": [
+    "세례 요한이 사람들에게 회개를 외친 이야기를 알아요.",
+    "예수님이 세례를 받으실 때 하나님이 하신 말씀을 알아요.",
+    "하나님이 나도 사랑하는 자녀로 부르신다는 걸 알아요."
+   ],
+   "sehneler": [
+    {
+     "b": "광야에서 외치는 사람",
+     "ayə": "3:1–4",
+     "alt": "광야에서 사람들에게 외치는 세례 요한",
+     "p": [
+      "[[광야]]에 [[세례 요한]]이라는 사람이 나타났어요. 낙타 털로 만든 옷을 입고, 메뚜기와 들꿀을 먹었어요.",
+      "요한은 큰 소리로 외쳤어요. “[[회개]]하세요! [[하늘나라]]가 가까이 왔어요!” 회개는 잘못된 길에서 돌아서서 하나님께 돌아가는 거예요."
+     ]
+    },
+    {
+     "b": "요단강의 세례",
+     "ayə": "3:5–12",
+     "alt": "요단강에서 사람들에게 세례를 주는 요한",
+     "p": [
+      "많은 사람이 요한에게 와서 자기 잘못을 고백했어요. 요한은 [[요단강]]에서 그들에게 [[세례]]를 주었어요.",
+      "요한은 말했어요. “내 뒤에 나보다 훨씬 크신 분이 오세요. 나는 그분의 신발을 들 자격도 없어요.”"
+     ]
+    },
+    {
+     "b": "예수님이 오셨어요",
+     "ayə": "3:13–15",
+     "alt": "요단강에서 요한에게 다가오시는 예수님",
+     "p": [
+      "어느 날 예수님이 세례를 받으러 요단강에 오셨어요. 요한은 깜짝 놀라 말했어요. “제가 예수님께 세례를 받아야 하는데, 어떻게 예수님이 제게 오세요?”",
+      "예수님은 말씀하셨어요. “지금은 이렇게 하는 것이 옳아요.” 그래서 요한은 예수님께 세례를 드렸어요."
+     ]
+    },
+    {
+     "b": "하늘이 열리고",
+     "ayə": "3:16–17",
+     "alt": "세례받으신 예수님 위로 비둘기 같은 성령이 내려오는 모습",
+     "p": [
+      "예수님이 물에서 올라오시자 하늘이 열렸어요. 하나님의 [[성령]]이 비둘기처럼 예수님 위에 내려오셨어요.",
+      "그리고 하늘에서 목소리가 들렸어요. “이는 내 사랑하는 아들이요, 내가 기뻐하는 자다.”"
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "“이는 내 사랑하는 아들이요, 내가 기뻐하는 자다.”",
+    "ref": "3:17",
+    "bos": "이는 내 ___ ___이요, 내가 ___하는 자다.",
+    "sozler": [
+     "사랑하는",
+     "아들",
+     "기뻐"
+    ],
+    "yalan": "요한"
+   },
+   "lugat": {
+    "광야": {
+     "i": "🏜️",
+     "x": "səhra",
+     "m": "사람이 거의 살지 않는 메마른 땅이에요.",
+     "e": "요한은 광야에서 하나님 말씀을 전했어요."
+    },
+    "세례 요한": {
+     "i": "🧔",
+     "x": "Vəftizçi Yəhya",
+     "m": "예수님이 오실 길을 준비한 사람이에요. 사람들에게 세례를 주어서 ‘세례 요한’이라고 불려요.",
+     "e": "세례 요한은 예수님의 친척이었어요."
+    },
+    "회개": {
+     "i": "🔄",
+     "x": "tövbə",
+     "m": "잘못을 인정하고, 나쁜 길에서 돌아서 하나님께 돌아가는 거예요.",
+     "e": "“회개하세요!” 하고 요한이 외쳤어요."
+    },
+    "하늘나라": {
+     "i": "👑",
+     "x": "Səmavi Padşahlıq",
+     "m": "하나님이 왕이 되어 다스리시는 나라예요.",
+     "e": "예수님이 오셔서 하늘나라가 가까이 왔어요."
+    },
+    "요단강": {
+     "i": "🌊",
+     "x": "İordan çayı",
+     "m": "이스라엘을 북쪽에서 남쪽으로 흐르는 강이에요.",
+     "e": "요한은 요단강에서 세례를 주었어요."
+    },
+    "세례": {
+     "i": "💧",
+     "x": "vəftiz",
+     "m": "물에 몸을 담그거나 물을 부어, 하나님께 돌아왔다는 것을 보여 주는 예식이에요.",
+     "e": "예수님도 요한에게 세례를 받으셨어요."
+    },
+    "성령": {
+     "i": "🕊️",
+     "x": "Müqəddəs Ruh",
+     "m": "하나님의 영이에요. 예수님이 세례를 받으실 때 비둘기처럼 내려오셨어요.",
+     "e": "성령님은 우리가 예수님을 따르도록 도와주세요."
+    }
+   },
+   "test": [
+    {
+     "q": "세례 요한은 어디에서 외쳤나요?",
+     "o": [
+      "광야",
+      "시장",
+      "궁전"
+     ],
+     "a": 0,
+     "f": "맞아요! 광야에서 외쳤어요."
+    },
+    {
+     "q": "세례 요한이 먹은 음식은?",
+     "o": [
+      "메뚜기와 들꿀",
+      "빵과 생선",
+      "사과와 포도"
+     ],
+     "a": 0,
+     "f": "맞아요! 아주 소박한 음식이었어요."
+    },
+    {
+     "q": "예수님이 세례를 받으실 때 무엇이 내려왔나요?",
+     "o": [
+      "비둘기 같은 성령",
+      "눈",
+      "불"
+     ],
+     "a": 0,
+     "f": "맞아요! 하나님의 성령이 내려오셨어요."
+    },
+    {
+     "q": "하늘에서 들린 목소리는 무엇이었나요?",
+     "o": [
+      "이는 내 사랑하는 아들이다",
+      "모두 집에 가라",
+      "곧 비가 온다"
+     ],
+     "a": 0,
+     "f": "맞아요! 하나님이 예수님을 사랑하는 아들이라고 하셨어요."
+    }
+   ],
+   "dusun": [
+    "요한은 왜 사람들에게 ‘회개하라’고 외쳤을까요?",
+    "죄가 없으신 예수님이 왜 세례를 받으셨을까요?",
+    "하나님이 나에게 ‘너는 내 사랑하는 아이야’라고 말씀하신다면 어떤 기분일까요?"
+   ],
+   "fealiyyet": {
+    "ciz": "예수님이 세례를 받으실 때 하늘이 열리고 비둘기가 내려오는 모습을 그려 보세요.",
+    "b": "새로 시작하고 싶은 일",
+    "p": "하나님께 돌아가 새롭게 하고 싶은 일을 하나 써 보세요.",
+    "ph": "예) 거짓말하지 않고 정직하게 말하고 싶어요."
+   },
+   "dua": "하나님, 예수님을 사랑하는 아들이라고 하신 것처럼 저도 사랑하는 자녀로 불러 주셔서 감사합니다. 잘못한 것이 있을 때 숨지 않고 하나님께 돌아가게 해 주세요. 성령님, 저를 도와주세요. 예수님 이름으로 기도합니다. 아멘."
   },
-  "test": [
-   {"q": "요한의 옷차림이 떠올리게 한 선지자는?", "o": ["엘리야", "모세", "다윗"], "a": 0, "f": "맞아요. 열왕기하 1:8의 엘리야예요."},
-   {"q": "‘회개(메타노이아)’의 원래 뜻은?", "o": ["생각과 삶의 방향을 바꿈", "크게 우는 것", "제물을 드리는 것"], "a": 0, "f": "맞아요. 감정에서 멈추지 않고 방향을 바꾸는 거예요."},
-   {"q": "요한이 바리새인들에게 경고한 것은?", "o": ["아브라함 자손이라는 것만으로는 충분하지 않다", "세례를 받지 마라", "성전에 가지 마라"], "a": 0, "f": "맞아요. 열매로 회개를 보여야 해요."},
-   {"q": "예수님이 세례를 받으신 이유로 가장 알맞은 것은?", "o": ["모든 의를 이루려고 죄인과 함께 서심", "자기 죄를 고백하려고", "요한을 시험하려고"], "a": 0, "f": "맞아요. 십자가를 미리 보여 주는 장면이에요."},
-   {"q": "하나님이 ‘내가 기뻐하는 자’라고 하신 때는?", "o": ["기적을 행하시기 전", "십자가 후", "부활 후"], "a": 0, "f": "맞아요. 사랑과 정체성이 사명보다 먼저예요."}
-  ],
-  "paylas": ["회개를 ‘방향 전환’이라고 하면, 지금 내가 돌아서야 할 방향은 무엇인가요?", "‘우리 집은 믿는 집이니까’ 하는 마음으로 안심한 적은 없나요?", "예수님이 죄인들의 줄에 서셨다는 사실이 나에게 어떤 위로가 되나요?", "아무것도 잘하지 못했을 때도 ‘사랑하는 자녀’라고 불러 주시는 하나님을 믿기 어려운 순간은 언제인가요?"],
-  "etiraf": {"b": "나의 고백", "p": "하나님이 나에게도 “너는 내 사랑하는 자녀다”라고 말씀하신다면, 그 말이 나의 어떤 부분을 바꿀까요? 서너 문장으로 써 보세요.", "ph": "예) 저는 성적이 나쁘면 제가 쓸모없다고 느꼈어요. 그런데 …"},
-  "dua": "하나님, 죄 없으신 예수님이 죄인의 자리에 서 주셔서 감사합니다. 말로만이 아니라 삶의 방향을 돌이키는 회개를 하게 해 주세요. 성과가 아니라 사랑받는 자녀라는 사실 위에 서게 해 주세요. 사랑하는 아들 예수님 이름으로 기도합니다. 아멘."
- }
-},
-"az": {
- "usaq": {
-  "basliq": "Göydən gələn səs",
-  "hedef": ["Vəftizçi Yəhyanın insanları tövbəyə çağırdığını öyrənəcəyik.", "İsa vəftiz olunanda Allahın nə dediyini öyrənəcəyik.", "Allahın bizi də sevimli övladları adlandırdığını öyrənəcəyik."],
-  "sehneler": [
-   {"b": "Səhrada çağıran adam", "ayə": "Matta 3:1–4", "alt": "Səhrada insanlara səslənən Vəftizçi Yəhya", "p": ["[[Səhra]]da [[Vəftizçi Yəhya]] adlı bir adam peyda oldu. O, dəvə yunundan paltar geyinir, çəyirtkə və çöl balı yeyirdi.", "Yəhya ucadan deyirdi: “[[Tövbə]] edin! [[Səmavi Padşahlıq]] yaxınlaşıb!” Tövbə pis yoldan dönüb Allaha qayıtmaq deməkdir."]},
-   {"b": "İordan çayında vəftiz", "ayə": "Matta 3:5–12", "alt": "İordan çayında insanları vəftiz edən Yəhya", "p": ["Çox adam Yəhyanın yanına gəlib günahlarını etiraf edirdi. Yəhya onları [[İordan çayı]]nda [[vəftiz]] edirdi.", "Yəhya deyirdi: “Məndən sonra məndən çox böyük Biri gəlir. Mən Onun çarıqlarını daşımağa belə layiq deyiləm.”"]},
-   {"b": "İsa gəldi", "ayə": "Matta 3:13–15", "alt": "İordan çayında Yəhyaya yaxınlaşan İsa", "p": ["Bir gün İsa vəftiz olunmaq üçün İordan çayına gəldi. Yəhya təəccüblənib dedi: “Mən Səndən vəftiz olunmalıyam, Sən isə mənim yanıma gəlirsən?”", "İsa dedi: “İndi belə olsun, bu düzdür.” Beləliklə, Yəhya İsanı vəftiz etdi."]},
-   {"b": "Göylər açıldı", "ayə": "Matta 3:16–17", "alt": "Vəftiz olunan İsanın üzərinə göyərçin kimi enən Müqəddəs Ruh", "p": ["İsa sudan çıxanda göylər açıldı. Allahın [[Müqəddəs Ruh]]u göyərçin kimi İsanın üzərinə endi.", "Göydən bir səs gəldi: “Bu Mənim sevimli Oğlumdur, Ondan razıyam.”"]}
-  ],
-  "aye": {"metn": "“Bu Mənim sevimli Oğlumdur, Ondan razıyam.”", "ref": "3:17", "bos": "Bu Mənim ___ ___dur, Ondan ___.", "sozler": ["sevimli", "Oğlum", "razıyam"], "yalan": "Yəhya"},
-  "lugat": {
-   "Səhra": {"i": "🏜️", "x": "광야", "m": "Demək olar ki, heç kimin yaşamadığı quru yerdir.", "e": "Yəhya səhrada Allahın sözünü yayırdı."},
-   "Vəftizçi Yəhya": {"i": "🧔", "x": "세례 요한", "m": "İsanın gəlişi üçün yol hazırlayan adamdır. İnsanları vəftiz etdiyi üçün “Vəftizçi” adlanır.", "e": "Vəftizçi Yəhya İsanın qohumu idi."},
-   "Tövbə": {"i": "🔄", "x": "회개", "m": "Səhvini etiraf edib pis yoldan dönmək və Allaha qayıtmaqdır.", "e": "Yəhya “Tövbə edin!” deyə çağırırdı."},
-   "Səmavi Padşahlıq": {"i": "👑", "x": "하늘나라", "m": "Allahın Padşah kimi idarə etdiyi padşahlıqdır.", "e": "İsa gələndə Səmavi Padşahlıq yaxınlaşdı."},
-   "İordan çayı": {"i": "🌊", "x": "요단강", "m": "İsraildə şimaldan cənuba axan çaydır.", "e": "Yəhya insanları İordan çayında vəftiz edirdi."},
-   "vəftiz": {"i": "💧", "x": "세례", "m": "Suya batırmaq və ya su tökməklə Allaha qayıtdığını göstərən mərasimdir.", "e": "İsa da Yəhyadan vəftiz olundu."},
-   "Müqəddəs Ruh": {"i": "🕊️", "x": "성령", "m": "Allahın Ruhudur. İsa vəftiz olunanda göyərçin kimi endi.", "e": "Müqəddəs Ruh bizə İsanın ardınca getməyə kömək edir."}
-  },
-  "test": [
-   {"q": "Vəftizçi Yəhya harada çağırırdı?", "o": ["Səhrada", "Bazarda", "Sarayda"], "a": 0, "f": "Düzdür! O, səhrada çağırırdı."},
-   {"q": "Yəhya nə yeyirdi?", "o": ["Çəyirtkə və çöl balı", "Çörək və balıq", "Alma və üzüm"], "a": 0, "f": "Düzdür! Çox sadə yemək idi."},
-   {"q": "İsa vəftiz olunanda nə endi?", "o": ["Göyərçin kimi Müqəddəs Ruh", "Qar", "Od"], "a": 0, "f": "Düzdür! Allahın Ruhu endi."},
-   {"q": "Göydən gələn səs nə dedi?", "o": ["Bu Mənim sevimli Oğlumdur", "Hamı evə getsin", "Tezliklə yağış yağacaq"], "a": 0, "f": "Düzdür! Allah İsanı sevimli Oğlu adlandırdı."}
-  ],
-  "dusun": ["Yəhya niyə insanları “tövbə edin” deyə çağırırdı?", "Günahı olmayan İsa niyə vəftiz oldu?", "Allah sənə “Sən Mənim sevimli övladımsan” desə, nə hiss edərdin?"],
-  "fealiyyet": {"ciz": "İsa vəftiz olunanda göylərin açıldığını və göyərçinin endiyini çək.", "b": "Yeni başlanğıc", "p": "Allaha qayıdıb yeniləmək istədiyin işi seç.", "ph": "",
-   "secim": {"basliq": "Nəyi yeniləmək istəyirsən?", "izah": "Toxun və seç. Bir neçəsini seçə bilərsən.", "cumle": "İsa, mən {x} istəyirəm. Mənə kömək et!", "bos": "yeni başlamaq", "bag": "və",
-    "secimler": [["🗣️", "doğru danışmaq"], ["👂", "valideynlərimə qulaq asmaq"], ["🤝", "dostumla barışmaq"], ["🍎", "paylaşmaq"], ["💪", "kömək etmək"], ["🙏", "hər gün dua etmək"], ["😊", "mehriban olmaq"], ["📖", "Kəlamı oxumaq"]]}},
-  "dua": "Ya Rəbb Allah, İsanı sevimli Oğlun adlandırdığın kimi məni də sevimli övladın adlandırdığın üçün Sənə şükür edirəm. Səhv edəndə gizlənmədən Sənə qayıtmağa kömək et. Müqəddəs Ruh, mənə kömək et. İsa Məsihin adı ilə dua edirəm. Amin."
+  "genc": {
+   "basliq": "회개와 열린 하늘",
+   "giris": "모두가 죄를 고백하러 온 강가에, 죄 없는 분이 그들과 같은 줄에 서셨습니다. 예수님은 왜 세례를 받으셨을까요?",
+   "meqsed": [
+    "세례 요한이 전한 ‘회개’와 ‘하늘나라’의 뜻을 이해해요.",
+    "예수님의 세례에서 성부·성자·성령 하나님이 함께 나타나심을 설명할 수 있어요.",
+    "‘사랑하는 아들’이라는 하나님의 음성이 내 정체성에 어떤 의미인지 생각해요."
+   ],
+   "sehneler": [
+    {
+     "b": "광야의 목소리",
+     "ayə": "3:1–6",
+     "alt": "광야에서 사람들에게 외치는 세례 요한",
+     "p": [
+      "[[세례 요한]]은 낙타 털옷에 가죽 띠를 띠었어요. 이것은 구약의 엘리야 선지자 모습이에요 {{왕하 1:8}}. 400년 동안 선지자가 없던 이스라엘에 다시 선지자가 나타난 거예요.",
+      "그는 [[이사야]]가 말한 “광야에서 외치는 사람의 소리”였어요 {{사 40:3}}. 그의 메시지는 짧았어요. “[[회개]]하라, [[하늘나라]]가 가까이 왔다.”"
+     ],
+     "deep": {
+      "b": "깊이 보기 · 왜 광야일까?",
+      "p": "광야는 이스라엘이 출애굽 후 40년을 보내며 하나님을 배운 곳이에요. 요한은 백성을 다시 광야로 불러내 요단강을 건너듯 새 출발을 하게 했어요. 하나님은 화려한 성전이 아니라 빈 들에서 새 일을 시작하셨어요."
+     }
+    },
+    {
+     "b": "열매로 보여 주라",
+     "ayə": "3:7–12",
+     "alt": "요단강에서 사람들에게 세례를 주는 요한",
+     "p": [
+      "요한은 세례받으러 온 [[바리새인]]과 사두개인에게 “독사의 자식들아!” 하고 꾸짖었어요. 그리고 “회개에 맞는 열매를 맺으라”고 했어요.",
+      "“‘우리 조상은 아브라함이다’라고 생각하지 말라.” 좋은 집안이나 종교적 배경이 구원을 보장하지 않는다는 뜻이에요."
+     ],
+     "deep": {
+      "b": "깊이 보기 · 열매 없는 종교",
+      "p": "요한의 경고는 교회 밖이 아니라 가장 종교적인 사람들에게 향했어요. 교회에 오래 다닌 것, 믿음의 가정에서 자란 것은 감사한 일이지만, 그 자체가 회개를 대신하지는 못해요.",
+      "rose": true
+     }
+    },
+    {
+     "b": "죄 없는 분의 세례",
+     "ayə": "3:13–15",
+     "alt": "요단강에서 요한에게 다가오시는 예수님",
+     "p": [
+      "예수님이 세례를 받으러 오시자 요한은 말렸어요. “제가 주님께 받아야 하는데 어떻게 주님이 제게 오십니까?”",
+      "예수님은 “우리가 이렇게 하여 모든 의를 이루는 것이 마땅하다”고 하셨어요. 예수님은 죄인들의 줄에 함께 서셨어요."
+     ],
+     "deep": {
+      "b": "깊이 보기 · ‘모든 의를 이루다’",
+      "p": "예수님은 고백할 죄가 없으셨지만, 죄인들과 자신을 하나로 묶으셨어요. 이 장면은 십자가를 미리 보여 줘요. 죄 없는 분이 죄인의 자리에 서시는 것이 바로 복음이에요."
+     }
+    },
+    {
+     "b": "열린 하늘, 들린 음성",
+     "ayə": "3:16–17",
+     "alt": "세례받으신 예수님 위로 비둘기 같은 성령이 내려오는 모습",
+     "p": [
+      "예수님이 물에서 올라오시자 하늘이 열리고 [[성령]]이 비둘기처럼 내려왔어요. 그리고 음성이 들렸어요. “이는 내 사랑하는 아들이요, 내가 기뻐하는 자다.”",
+      "이 음성은 시편 2:7(왕이신 아들)과 이사야 42:1(고난받는 종)을 하나로 합친 말씀이에요. 예수님은 왕이시면서 고난받는 종이세요."
+     ],
+     "deep": {
+      "b": "깊이 보기 · 사역 이전의 사랑",
+      "p": "이 말씀은 예수님이 기적을 한 번도 행하시기 전에 들렸어요. 하나님의 사랑은 성과에 대한 보상이 아니에요. 정체성이 먼저이고, 사명은 그다음이에요."
+     }
+    }
+   ],
+   "cedvel": {
+    "b": "세례 장면의 삼위 하나님",
+    "alt": "성부·성자·성령이 한 장면에",
+    "bas": [
+     "누구",
+     "어떻게 나타나셨나",
+     "무엇을 알려 주나"
+    ],
+    "set": [
+     [
+      "성부 하나님",
+      "하늘에서 들린 음성",
+      "예수님은 사랑하는 아들"
+     ],
+     [
+      "성자 예수님",
+      "물에서 올라오심",
+      "죄인과 함께 서신 메시아"
+     ],
+     [
+      "성령 하나님",
+      "비둘기처럼 내려오심",
+      "사역을 위한 능력과 기름 부음"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "“그리고 하늘에서 소리가 들렸다. ‘이는 내 사랑하는 아들이요, 내가 기뻐하는 자다.’”",
+    "ref": "3:17"
+   },
+   "lugat": {
+    "세례 요한": {
+     "i": "🧔",
+     "o": "헬라어 요안네스 호 밥티스테스",
+     "x": "Vəftizçi Yəhya",
+     "s": "예수님의 길을 준비한 선지자",
+     "m": "제사장 사가랴의 아들로, 예수님보다 여섯 달 먼저 태어났어요. 메시아의 길을 준비하는 사명을 받았어요.",
+     "e": "예수님은 그를 ‘여자가 낳은 자 중에 가장 큰 사람’이라고 하셨어요(11:11)."
+    },
+    "이사야": {
+     "i": "📜",
+     "o": "히브리어 예샤야후",
+     "x": "Yeşaya peyğəmbər",
+     "s": "메시아를 가장 많이 예언한 선지자",
+     "m": "주전 8세기 선지자로, 임마누엘과 고난받는 종 등 메시아에 대한 예언을 많이 남겼어요.",
+     "e": "1과의 임마누엘 예언도 이사야서(7:14)에 있어요."
+    },
+    "회개": {
+     "i": "🔄",
+     "o": "헬라어 메타노이아",
+     "x": "tövbə",
+     "s": "생각과 삶의 방향을 바꾸는 것",
+     "m": "‘생각(노이아)을 바꾸다(메타)’라는 뜻이에요. 미안한 감정에서 멈추지 않고 삶의 방향을 돌리는 거예요.",
+     "e": "예수님의 첫 설교도 “회개하라”로 시작해요(4:17)."
+    },
+    "하늘나라": {
+     "i": "👑",
+     "o": "헬라어 바실레이아 톤 우라논",
+     "x": "Səmavi Padşahlıq",
+     "s": "하나님이 왕으로 다스리시는 나라",
+     "m": "죽은 뒤에 가는 장소만이 아니라, 하나님이 왕으로 다스리시는 현실을 말해요. 마태는 하나님의 이름을 조심스럽게 쓰는 유대인 독자를 위해 ‘하늘’이라고 표현했어요.",
+     "e": "마태복음에는 ‘하늘나라’가 30번 넘게 나와요."
+    },
+    "바리새인": {
+     "i": "📏",
+     "o": "히브리어 페루심, ‘구별된 사람들’",
+     "x": "fariseylər",
+     "s": "율법을 엄격히 지키던 무리",
+     "m": "율법을 꼼꼼히 지키고 백성에게 존경받던 평신도 경건 운동이었어요. 하지만 겉모습에 치우친 위험이 있었어요.",
+     "e": "예수님과 가장 많이 논쟁한 사람들이에요(23장)."
+    },
+    "성령": {
+     "i": "🕊️",
+     "o": "헬라어 프뉴마 하기온",
+     "x": "Müqəddəs Ruh",
+     "s": "삼위 하나님 중 한 분",
+     "m": "하나님의 영이시며, 예수님께 사역의 능력을 주시고 믿는 사람 안에 계시는 분이에요.",
+     "e": "요한은 예수님이 ‘성령과 불로’ 세례를 주실 거라고 했어요(3:11)."
+    }
+   },
+   "test": [
+    {
+     "q": "요한의 옷차림이 떠올리게 한 선지자는?",
+     "o": [
+      "엘리야",
+      "모세",
+      "다윗"
+     ],
+     "a": 0,
+     "f": "맞아요. 열왕기하 1:8의 엘리야예요."
+    },
+    {
+     "q": "‘회개(메타노이아)’의 원래 뜻은?",
+     "o": [
+      "생각과 삶의 방향을 바꿈",
+      "크게 우는 것",
+      "제물을 드리는 것"
+     ],
+     "a": 0,
+     "f": "맞아요. 감정에서 멈추지 않고 방향을 바꾸는 거예요."
+    },
+    {
+     "q": "요한이 바리새인들에게 경고한 것은?",
+     "o": [
+      "아브라함 자손이라는 것만으로는 충분하지 않다",
+      "세례를 받지 마라",
+      "성전에 가지 마라"
+     ],
+     "a": 0,
+     "f": "맞아요. 열매로 회개를 보여야 해요."
+    },
+    {
+     "q": "예수님이 세례를 받으신 이유로 가장 알맞은 것은?",
+     "o": [
+      "모든 의를 이루려고 죄인과 함께 서심",
+      "자기 죄를 고백하려고",
+      "요한을 시험하려고"
+     ],
+     "a": 0,
+     "f": "맞아요. 십자가를 미리 보여 주는 장면이에요."
+    },
+    {
+     "q": "하나님이 ‘내가 기뻐하는 자’라고 하신 때는?",
+     "o": [
+      "기적을 행하시기 전",
+      "십자가 후",
+      "부활 후"
+     ],
+     "a": 0,
+     "f": "맞아요. 사랑과 정체성이 사명보다 먼저예요."
+    }
+   ],
+   "paylas": [
+    "회개를 ‘방향 전환’이라고 하면, 지금 내가 돌아서야 할 방향은 무엇인가요?",
+    "‘우리 집은 믿는 집이니까’ 하는 마음으로 안심한 적은 없나요?",
+    "예수님이 죄인들의 줄에 서셨다는 사실이 나에게 어떤 위로가 되나요?",
+    "아무것도 잘하지 못했을 때도 ‘사랑하는 자녀’라고 불러 주시는 하나님을 믿기 어려운 순간은 언제인가요?"
+   ],
+   "etiraf": {
+    "b": "나의 고백",
+    "p": "하나님이 나에게도 “너는 내 사랑하는 자녀다”라고 말씀하신다면, 그 말이 나의 어떤 부분을 바꿀까요? 서너 문장으로 써 보세요.",
+    "ph": "예) 저는 성적이 나쁘면 제가 쓸모없다고 느꼈어요. 그런데 …"
+   },
+   "dua": "하나님, 죄 없으신 예수님이 죄인의 자리에 서 주셔서 감사합니다. 말로만이 아니라 삶의 방향을 돌이키는 회개를 하게 해 주세요. 성과가 아니라 사랑받는 자녀라는 사실 위에 서게 해 주세요. 사랑하는 아들 예수님 이름으로 기도합니다. 아멘."
+  }
  },
- "genc": {
-  "basliq": "Tövbə və açılan göylər",
-  "giris": "Hamının günahlarını etiraf etməyə gəldiyi çayın kənarında günahsız Biri onlarla eyni sırada dayandı. İsa niyə vəftiz oldu?",
-  "meqsed": ["Vəftizçi Yəhyanın “tövbə” və “Səmavi Padşahlıq” sözlərinin mənasını anlayırıq.", "İsanın vəftizində Ata, Oğul və Müqəddəs Ruhun birlikdə göründüyünü izah edə bilirik.", "“Sevimli Oğul” sözünün bizim kimliyimiz üçün nə demək olduğunu düşünürük."],
-  "sehneler": [
-   {"b": "Səhrada səs", "ayə": "Matta 3:1–6", "alt": "Səhrada insanlara səslənən Vəftizçi Yəhya", "p": ["[[Vəftizçi Yəhya]] dəvə yunundan paltar geyinib belinə dəri kəmər bağlamışdı. Bu, Əhdi-Ətiqdəki İlyas peyğəmbərin görünüşü idi {{2Pad. 1:8}}. Dörd yüz il peyğəmbərsiz qalan İsraildə yenidən peyğəmbər peyda oldu.", "O, [[Yeşaya]]nın dediyi “səhrada çağıran səs” idi {{Yeş. 40:3}}. Onun xəbəri qısa idi: “[[Tövbə]] edin, çünki [[Səmavi Padşahlıq]] yaxınlaşıb.”"], "deep": {"b": "Dərindən baxaq · Niyə səhra?", "p": "Səhra İsrailin Misirdən çıxandan sonra 40 il qalıb Allahı tanıdığı yerdir. Yəhya xalqı yenidən səhraya çağırdı ki, İordan çayını keçən kimi yeni başlanğıc etsinlər. Allah yeni işini dəbdəbəli məbəddə deyil, boş çöldə başlatdı."}},
-   {"b": "Bəhrə ilə göstərin", "ayə": "Matta 3:7–12", "alt": "İordan çayında insanları vəftiz edən Yəhya", "p": ["Yəhya vəftiz olunmağa gələn [[fariseylər]] və sadukeylərə “Ey gürzə balaları!” deyə səsləndi və “tövbəyə layiq bəhrə verin” dedi.", "“Ürəyinizdə “atamız İbrahimdir” deməyin.” Bu o deməkdir ki, yaxşı ailə və ya dini keçmiş xilasa zəmanət vermir."], "deep": {"b": "Dərindən baxaq · Bəhrəsiz din", "p": "Yəhyanın xəbərdarlığı imandan kənarda olanlara deyil, ən dindar insanlara yönəlmişdi. Uzun müddət Cəmiyyətə getmək və imanlı ailədə böyümək gözəldir, amma bunlar tövbəni əvəz edə bilməz.", "rose": true}},
-   {"b": "Günahsızın vəftizi", "ayə": "Matta 3:13–15", "alt": "İordan çayında Yəhyaya yaxınlaşan İsa", "p": ["İsa vəftiz olunmağa gələndə Yəhya Onu saxlamaq istədi: “Mən Səndən vəftiz olunmalıyam, Sən isə mənim yanıma gəlirsən?”", "İsa dedi: “Bütün salehliyi bu yolla yerinə yetirməyimiz doğrudur.” İsa günahkarlarla eyni sırada dayandı."], "deep": {"b": "Dərindən baxaq · “Bütün salehliyi yerinə yetirmək”", "p": "İsanın etiraf edəcəyi günahı yox idi, amma O, Özünü günahkarlarla bir etdi. Bu səhnə çarmıxı əvvəlcədən göstərir: günahsız Biri günahkarın yerində dayanır. Müjdə məhz budur."}},
-   {"b": "Açılan göylər, eşidilən səs", "ayə": "Matta 3:16–17", "alt": "Vəftiz olunan İsanın üzərinə göyərçin kimi enən Müqəddəs Ruh", "p": ["İsa sudan çıxanda göylər açıldı, [[Müqəddəs Ruh]] göyərçin kimi endi və bir səs eşidildi: “Bu Mənim sevimli Oğlumdur, Ondan razıyam.”", "Bu söz Məzmur 2:7-ni (Padşah Oğul) və Yeşaya 42:1-i (əzab çəkən qul) birləşdirir. İsa həm Padşah, həm də əzab çəkən Quldur."], "deep": {"b": "Dərindən baxaq · Xidmətdən əvvəl sevgi", "p": "Bu söz İsa hələ bir möcüzə belə etməmiş deyildi. Allahın sevgisi uğura görə verilən mükafat deyil. Əvvəl kimlik, sonra vəzifə gəlir."}}
-  ],
-  "cedvel": {"b": "Vəftiz səhnəsində Üçlü Allah", "alt": "Ata, Oğul və Müqəddəs Ruh bir səhnədə", "bas": ["Kim", "Necə göründü", "Nə göstərir"], "set": [["Ata Allah", "Göydən gələn səs", "İsa sevimli Oğuldur"], ["Oğul İsa", "Sudan çıxdı", "Günahkarlarla dayanan Məsih"], ["Müqəddəs Ruh", "Göyərçin kimi endi", "Xidmət üçün qüvvət və məsh"]]},
-  "aye": {"metn": "“Göydən bir səs gəldi: ‘Bu Mənim sevimli Oğlumdur, Ondan razıyam.’”", "ref": "3:17"},
-  "lugat": {
-   "Vəftizçi Yəhya": {"i": "🧔", "o": "Yunanca İoannes ho baptistes", "x": "세례 요한", "s": "İsanın yolunu hazırlayan peyğəmbər", "m": "Kahin Zəkəriyyənin oğlu idi və İsadan altı ay əvvəl doğulmuşdu. Məsihin yolunu hazırlamaq vəzifəsi almışdı.", "e": "İsa onu “qadından doğulanlar arasında ən böyüyü” adlandırdı (11:11)."},
-   "Yeşaya": {"i": "📜", "o": "İbranicə Yeşayahu", "x": "이사야 선지자", "s": "Məsih haqqında ən çox danışan peyğəmbər", "m": "E.ə. 8-ci əsrdə yaşayan peyğəmbərdir. İmmanuel və əzab çəkən qul haqqında çoxlu peyğəmbərlik söyləyib.", "e": "Birinci dərsdəki İmmanuel peyğəmbərliyi də Yeşaya kitabındadır (7:14)."},
-   "Tövbə": {"i": "🔄", "o": "Yunanca metanoia", "x": "회개", "s": "Düşüncəni və həyat yolunu dəyişmək", "m": "“Düşüncəni (noia) dəyişmək (meta)” deməkdir. Təəssüf hissində qalmayıb həyatın istiqamətini dəyişməkdir.", "e": "İsanın ilk vəzi də “Tövbə edin” sözü ilə başlayır (4:17)."},
-   "Səmavi Padşahlıq": {"i": "👑", "o": "Yunanca basileia ton uranon", "x": "하늘나라", "s": "Allahın Padşah kimi hökm sürməsi", "m": "Bu, yalnız öləndən sonra gedilən yer deyil, Allahın Padşah kimi hökm sürdüyü həqiqətdir. Matta Allahın adını ehtiyatla işlədən yəhudi oxucular üçün “Səmavi” deyir.", "e": "Matta Müjdəsində “Səmavi Padşahlıq” otuz dəfədən çox keçir."},
-   "fariseylər": {"i": "📏", "o": "İbranicə peruşim, “ayrılmışlar”", "x": "바리새인", "s": "Qanunu ciddi saxlayan dəstə", "m": "Qanuna ciddi əməl edən və xalqın hörmət etdiyi dindar hərəkat idi. Amma zahirə fikir vermək təhlükəsi var idi.", "e": "İsa ilə ən çox mübahisə edənlər onlar idi (23-cü fəsil)."},
-   "Müqəddəs Ruh": {"i": "🕊️", "o": "Yunanca pnevma hagion", "x": "성령", "s": "Üçlü Allahın bir Şəxsi", "m": "Allahın Ruhudur. İsaya xidmət üçün qüvvət verir və iman edənlərin içində yaşayır.", "e": "Yəhya dedi ki, İsa “Müqəddəs Ruhla və odla” vəftiz edəcək (3:11)."}
+ "az": {
+  "usaq": {
+   "basliq": "Göydən gələn səs",
+   "hedef": [
+    "Vəftizçi Yəhyanın insanları tövbəyə çağırdığını öyrənəcəyik.",
+    "İsa vəftiz olunanda Allahın nə dediyini öyrənəcəyik.",
+    "Allahın bizi də sevimli övladları adlandırdığını öyrənəcəyik."
+   ],
+   "sehneler": [
+    {
+     "b": "Səhrada çağıran adam",
+     "ayə": "Matta 3:1–4",
+     "alt": "Səhrada insanlara səslənən Vəftizçi Yəhya",
+     "p": [
+      "[[Səhra]]da [[Vəftizçi Yəhya]] adlı bir adam peyda oldu. O, dəvə yunundan paltar geyinir, çəyirtkə və çöl balı yeyirdi.",
+      "Yəhya ucadan deyirdi: “[[Tövbə]] edin! [[Səmavi Padşahlıq]] yaxınlaşıb!” Tövbə pis yoldan dönüb Allaha qayıtmaq deməkdir."
+     ]
+    },
+    {
+     "b": "İordan çayında vəftiz",
+     "ayə": "Matta 3:5–12",
+     "alt": "İordan çayında insanları vəftiz edən Yəhya",
+     "p": [
+      "Çox adam Yəhyanın yanına gəlib günahlarını etiraf edirdi. Yəhya onları [[İordan çayı]]nda [[vəftiz]] edirdi.",
+      "Yəhya deyirdi: “Məndən sonra məndən çox böyük Biri gəlir. Mən Onun çarıqlarını daşımağa belə layiq deyiləm.”"
+     ]
+    },
+    {
+     "b": "İsa gəldi",
+     "ayə": "Matta 3:13–15",
+     "alt": "İordan çayında Yəhyaya yaxınlaşan İsa",
+     "p": [
+      "Bir gün İsa vəftiz olunmaq üçün İordan çayına gəldi. Yəhya təəccüblənib dedi: “Mən Səndən vəftiz olunmalıyam, Sən isə mənim yanıma gəlirsən?”",
+      "İsa dedi: “İndi belə olsun, bu düzdür.” Beləliklə, Yəhya İsanı vəftiz etdi."
+     ]
+    },
+    {
+     "b": "Göylər açıldı",
+     "ayə": "Matta 3:16–17",
+     "alt": "Vəftiz olunan İsanın üzərinə göyərçin kimi enən Müqəddəs Ruh",
+     "p": [
+      "İsa sudan çıxanda göylər açıldı. Allahın [[Müqəddəs Ruh]]u göyərçin kimi İsanın üzərinə endi.",
+      "Göydən bir səs gəldi: “Bu Mənim sevimli Oğlumdur, Ondan razıyam.”"
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "“Bu Mənim sevimli Oğlumdur, Ondan razıyam.”",
+    "ref": "3:17",
+    "bos": "Bu Mənim ___ ___dur, Ondan ___.",
+    "sozler": [
+     "sevimli",
+     "Oğlum",
+     "razıyam"
+    ],
+    "yalan": "Yəhya"
+   },
+   "lugat": {
+    "Səhra": {
+     "i": "🏜️",
+     "x": "광야",
+     "m": "Demək olar ki, heç kimin yaşamadığı quru yerdir.",
+     "e": "Yəhya səhrada Allahın sözünü yayırdı."
+    },
+    "Vəftizçi Yəhya": {
+     "i": "🧔",
+     "x": "세례 요한",
+     "m": "İsanın gəlişi üçün yol hazırlayan adamdır. İnsanları vəftiz etdiyi üçün “Vəftizçi” adlanır.",
+     "e": "Vəftizçi Yəhya İsanın qohumu idi."
+    },
+    "Tövbə": {
+     "i": "🔄",
+     "x": "회개",
+     "m": "Səhvini etiraf edib pis yoldan dönmək və Allaha qayıtmaqdır.",
+     "e": "Yəhya “Tövbə edin!” deyə çağırırdı."
+    },
+    "Səmavi Padşahlıq": {
+     "i": "👑",
+     "x": "하늘나라",
+     "m": "Allahın Padşah kimi idarə etdiyi padşahlıqdır.",
+     "e": "İsa gələndə Səmavi Padşahlıq yaxınlaşdı."
+    },
+    "İordan çayı": {
+     "i": "🌊",
+     "x": "요단강",
+     "m": "İsraildə şimaldan cənuba axan çaydır.",
+     "e": "Yəhya insanları İordan çayında vəftiz edirdi."
+    },
+    "vəftiz": {
+     "i": "💧",
+     "x": "세례",
+     "m": "Suya batırmaq və ya su tökməklə Allaha qayıtdığını göstərən mərasimdir.",
+     "e": "İsa da Yəhyadan vəftiz olundu."
+    },
+    "Müqəddəs Ruh": {
+     "i": "🕊️",
+     "x": "성령",
+     "m": "Allahın Ruhudur. İsa vəftiz olunanda göyərçin kimi endi.",
+     "e": "Müqəddəs Ruh bizə İsanın ardınca getməyə kömək edir."
+    }
+   },
+   "test": [
+    {
+     "q": "Vəftizçi Yəhya harada çağırırdı?",
+     "o": [
+      "Səhrada",
+      "Bazarda",
+      "Sarayda"
+     ],
+     "a": 0,
+     "f": "Düzdür! O, səhrada çağırırdı."
+    },
+    {
+     "q": "Yəhya nə yeyirdi?",
+     "o": [
+      "Çəyirtkə və çöl balı",
+      "Çörək və balıq",
+      "Alma və üzüm"
+     ],
+     "a": 0,
+     "f": "Düzdür! Çox sadə yemək idi."
+    },
+    {
+     "q": "İsa vəftiz olunanda nə endi?",
+     "o": [
+      "Göyərçin kimi Müqəddəs Ruh",
+      "Qar",
+      "Od"
+     ],
+     "a": 0,
+     "f": "Düzdür! Allahın Ruhu endi."
+    },
+    {
+     "q": "Göydən gələn səs nə dedi?",
+     "o": [
+      "Bu Mənim sevimli Oğlumdur",
+      "Hamı evə getsin",
+      "Tezliklə yağış yağacaq"
+     ],
+     "a": 0,
+     "f": "Düzdür! Allah İsanı sevimli Oğlu adlandırdı."
+    }
+   ],
+   "dusun": [
+    "Yəhya niyə insanları “tövbə edin” deyə çağırırdı?",
+    "Günahı olmayan İsa niyə vəftiz oldu?",
+    "Allah sənə “Sən Mənim sevimli övladımsan” desə, nə hiss edərdin?"
+   ],
+   "fealiyyet": {
+    "ciz": "İsa vəftiz olunanda göylərin açıldığını və göyərçinin endiyini çək.",
+    "b": "Yeni başlanğıc",
+    "p": "Allaha qayıdıb yeniləmək istədiyin işi seç.",
+    "ph": "",
+    "secim": {
+     "basliq": "Nəyi yeniləmək istəyirsən?",
+     "izah": "Toxun və seç. Bir neçəsini seçə bilərsən.",
+     "cumle": "İsa, mən {x} istəyirəm. Mənə kömək et!",
+     "bos": "yeni başlamaq",
+     "bag": "və",
+     "secimler": [
+      [
+       "🗣️",
+       "doğru danışmaq"
+      ],
+      [
+       "👂",
+       "valideynlərimə qulaq asmaq"
+      ],
+      [
+       "🤝",
+       "dostumla barışmaq"
+      ],
+      [
+       "🍎",
+       "paylaşmaq"
+      ],
+      [
+       "💪",
+       "kömək etmək"
+      ],
+      [
+       "🙏",
+       "hər gün dua etmək"
+      ],
+      [
+       "😊",
+       "mehriban olmaq"
+      ],
+      [
+       "📖",
+       "Kəlamı oxumaq"
+      ]
+     ]
+    }
+   },
+   "dua": "Ya Rəbb Allah, İsanı sevimli Oğlun adlandırdığın kimi məni də sevimli övladın adlandırdığın üçün Sənə şükür edirəm. Səhv edəndə gizlənmədən Sənə qayıtmağa kömək et. Müqəddəs Ruh, mənə kömək et. İsa Məsihin adı ilə dua edirəm. Amin."
   },
-  "test": [
-   {"q": "Yəhyanın geyimi hansı peyğəmbəri xatırladırdı?", "o": ["İlyası", "Musanı", "Davudu"], "a": 0, "f": "Düzdür. 2 Padşahlar 1:8-dəki İlyası."},
-   {"q": "“Tövbə” (metanoia) sözünün əsl mənası nədir?", "o": ["Düşüncəni və həyat yolunu dəyişmək", "Ucadan ağlamaq", "Qurban vermək"], "a": 0, "f": "Düzdür. Hisslə qalmayıb istiqaməti dəyişməkdir."},
-   {"q": "Yəhya fariseyləri nə barədə xəbərdar etdi?", "o": ["İbrahimin nəsli olmaq kifayət deyil", "Vəftiz olunmayın", "Məbədə getməyin"], "a": 0, "f": "Düzdür. Tövbə bəhrə ilə görünməlidir."},
-   {"q": "İsanın vəftiz olunmasının ən doğru səbəbi hansıdır?", "o": ["Bütün salehliyi yerinə yetirmək üçün günahkarlarla dayandı", "Öz günahlarını etiraf etmək üçün", "Yəhyanı sınamaq üçün"], "a": 0, "f": "Düzdür. Bu səhnə çarmıxı əvvəlcədən göstərir."},
-   {"q": "Allah “Ondan razıyam” sözünü nə vaxt dedi?", "o": ["İsa möcüzə etməzdən əvvəl", "Çarmıxdan sonra", "Dirildikdən sonra"], "a": 0, "f": "Düzdür. Sevgi və kimlik vəzifədən əvvəl gəlir."}
+  "genc": {
+   "basliq": "Tövbə və açılan göylər",
+   "giris": "Hamının günahlarını etiraf etməyə gəldiyi çayın kənarında günahsız Biri onlarla eyni sırada dayandı. İsa niyə vəftiz oldu?",
+   "meqsed": [
+    "Vəftizçi Yəhyanın “tövbə” və “Səmavi Padşahlıq” sözlərinin mənasını anlayırıq.",
+    "İsanın vəftizində Ata, Oğul və Müqəddəs Ruhun birlikdə göründüyünü izah edə bilirik.",
+    "“Sevimli Oğul” sözünün bizim kimliyimiz üçün nə demək olduğunu düşünürük."
+   ],
+   "sehneler": [
+    {
+     "b": "Səhrada səs",
+     "ayə": "Matta 3:1–6",
+     "alt": "Səhrada insanlara səslənən Vəftizçi Yəhya",
+     "p": [
+      "[[Vəftizçi Yəhya]] dəvə yunundan paltar geyinib belinə dəri kəmər bağlamışdı. Bu, Əhdi-Ətiqdəki İlyas peyğəmbərin görünüşü idi {{2Pad. 1:8}}. Dörd yüz il peyğəmbərsiz qalan İsraildə yenidən peyğəmbər peyda oldu.",
+      "O, [[Yeşaya]]nın dediyi “səhrada çağıran səs” idi {{Yeş. 40:3}}. Onun xəbəri qısa idi: “[[Tövbə]] edin, çünki [[Səmavi Padşahlıq]] yaxınlaşıb.”"
+     ],
+     "deep": {
+      "b": "Dərindən baxaq · Niyə səhra?",
+      "p": "Səhra İsrailin Misirdən çıxandan sonra 40 il qalıb Allahı tanıdığı yerdir. Yəhya xalqı yenidən səhraya çağırdı ki, İordan çayını keçən kimi yeni başlanğıc etsinlər. Allah yeni işini dəbdəbəli məbəddə deyil, boş çöldə başlatdı."
+     }
+    },
+    {
+     "b": "Bəhrə ilə göstərin",
+     "ayə": "Matta 3:7–12",
+     "alt": "İordan çayında insanları vəftiz edən Yəhya",
+     "p": [
+      "Yəhya vəftiz olunmağa gələn [[fariseylər]] və sadukeylərə “Ey gürzə balaları!” deyə səsləndi və “tövbəyə layiq bəhrə verin” dedi.",
+      "“Ürəyinizdə “atamız İbrahimdir” deməyin.” Bu o deməkdir ki, yaxşı ailə və ya dini keçmiş xilasa zəmanət vermir."
+     ],
+     "deep": {
+      "b": "Dərindən baxaq · Bəhrəsiz din",
+      "p": "Yəhyanın xəbərdarlığı imandan kənarda olanlara deyil, ən dindar insanlara yönəlmişdi. Uzun müddət Cəmiyyətə getmək və imanlı ailədə böyümək gözəldir, amma bunlar tövbəni əvəz edə bilməz.",
+      "rose": true
+     }
+    },
+    {
+     "b": "Günahsızın vəftizi",
+     "ayə": "Matta 3:13–15",
+     "alt": "İordan çayında Yəhyaya yaxınlaşan İsa",
+     "p": [
+      "İsa vəftiz olunmağa gələndə Yəhya Onu saxlamaq istədi: “Mən Səndən vəftiz olunmalıyam, Sən isə mənim yanıma gəlirsən?”",
+      "İsa dedi: “Bütün salehliyi bu yolla yerinə yetirməyimiz doğrudur.” İsa günahkarlarla eyni sırada dayandı."
+     ],
+     "deep": {
+      "b": "Dərindən baxaq · “Bütün salehliyi yerinə yetirmək”",
+      "p": "İsanın etiraf edəcəyi günahı yox idi, amma O, Özünü günahkarlarla bir etdi. Bu səhnə çarmıxı əvvəlcədən göstərir: günahsız Biri günahkarın yerində dayanır. Müjdə məhz budur."
+     }
+    },
+    {
+     "b": "Açılan göylər, eşidilən səs",
+     "ayə": "Matta 3:16–17",
+     "alt": "Vəftiz olunan İsanın üzərinə göyərçin kimi enən Müqəddəs Ruh",
+     "p": [
+      "İsa sudan çıxanda göylər açıldı, [[Müqəddəs Ruh]] göyərçin kimi endi və bir səs eşidildi: “Bu Mənim sevimli Oğlumdur, Ondan razıyam.”",
+      "Bu söz Məzmur 2:7-ni (Padşah Oğul) və Yeşaya 42:1-i (əzab çəkən qul) birləşdirir. İsa həm Padşah, həm də əzab çəkən Quldur."
+     ],
+     "deep": {
+      "b": "Dərindən baxaq · Xidmətdən əvvəl sevgi",
+      "p": "Bu söz İsa hələ bir möcüzə belə etməmiş deyildi. Allahın sevgisi uğura görə verilən mükafat deyil. Əvvəl kimlik, sonra vəzifə gəlir."
+     }
+    }
+   ],
+   "cedvel": {
+    "b": "Vəftiz səhnəsində Üçlü Allah",
+    "alt": "Ata, Oğul və Müqəddəs Ruh bir səhnədə",
+    "bas": [
+     "Kim",
+     "Necə göründü",
+     "Nə göstərir"
+    ],
+    "set": [
+     [
+      "Ata Allah",
+      "Göydən gələn səs",
+      "İsa sevimli Oğuldur"
+     ],
+     [
+      "Oğul İsa",
+      "Sudan çıxdı",
+      "Günahkarlarla dayanan Məsih"
+     ],
+     [
+      "Müqəddəs Ruh",
+      "Göyərçin kimi endi",
+      "Xidmət üçün qüvvət və məsh"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "“Göydən bir səs gəldi: ‘Bu Mənim sevimli Oğlumdur, Ondan razıyam.’”",
+    "ref": "3:17"
+   },
+   "lugat": {
+    "Vəftizçi Yəhya": {
+     "i": "🧔",
+     "o": "Yunanca İoannes ho baptistes",
+     "x": "세례 요한",
+     "s": "İsanın yolunu hazırlayan peyğəmbər",
+     "m": "Kahin Zəkəriyyənin oğlu idi və İsadan altı ay əvvəl doğulmuşdu. Məsihin yolunu hazırlamaq vəzifəsi almışdı.",
+     "e": "İsa onu “qadından doğulanlar arasında ən böyüyü” adlandırdı (11:11)."
+    },
+    "Yeşaya": {
+     "i": "📜",
+     "o": "İbranicə Yeşayahu",
+     "x": "이사야 선지자",
+     "s": "Məsih haqqında ən çox danışan peyğəmbər",
+     "m": "E.ə. 8-ci əsrdə yaşayan peyğəmbərdir. İmmanuel və əzab çəkən qul haqqında çoxlu peyğəmbərlik söyləyib.",
+     "e": "Birinci dərsdəki İmmanuel peyğəmbərliyi də Yeşaya kitabındadır (7:14)."
+    },
+    "Tövbə": {
+     "i": "🔄",
+     "o": "Yunanca metanoia",
+     "x": "회개",
+     "s": "Düşüncəni və həyat yolunu dəyişmək",
+     "m": "“Düşüncəni (noia) dəyişmək (meta)” deməkdir. Təəssüf hissində qalmayıb həyatın istiqamətini dəyişməkdir.",
+     "e": "İsanın ilk vəzi də “Tövbə edin” sözü ilə başlayır (4:17)."
+    },
+    "Səmavi Padşahlıq": {
+     "i": "👑",
+     "o": "Yunanca basileia ton uranon",
+     "x": "하늘나라",
+     "s": "Allahın Padşah kimi hökm sürməsi",
+     "m": "Bu, yalnız öləndən sonra gedilən yer deyil, Allahın Padşah kimi hökm sürdüyü həqiqətdir. Matta Allahın adını ehtiyatla işlədən yəhudi oxucular üçün “Səmavi” deyir.",
+     "e": "Matta Müjdəsində “Səmavi Padşahlıq” otuz dəfədən çox keçir."
+    },
+    "fariseylər": {
+     "i": "📏",
+     "o": "İbranicə peruşim, “ayrılmışlar”",
+     "x": "바리새인",
+     "s": "Qanunu ciddi saxlayan dəstə",
+     "m": "Qanuna ciddi əməl edən və xalqın hörmət etdiyi dindar hərəkat idi. Amma zahirə fikir vermək təhlükəsi var idi.",
+     "e": "İsa ilə ən çox mübahisə edənlər onlar idi (23-cü fəsil)."
+    },
+    "Müqəddəs Ruh": {
+     "i": "🕊️",
+     "o": "Yunanca pnevma hagion",
+     "x": "성령",
+     "s": "Üçlü Allahın bir Şəxsi",
+     "m": "Allahın Ruhudur. İsaya xidmət üçün qüvvət verir və iman edənlərin içində yaşayır.",
+     "e": "Yəhya dedi ki, İsa “Müqəddəs Ruhla və odla” vəftiz edəcək (3:11)."
+    }
+   },
+   "test": [
+    {
+     "q": "Yəhyanın geyimi hansı peyğəmbəri xatırladırdı?",
+     "o": [
+      "İlyası",
+      "Musanı",
+      "Davudu"
+     ],
+     "a": 0,
+     "f": "Düzdür. 2 Padşahlar 1:8-dəki İlyası."
+    },
+    {
+     "q": "“Tövbə” (metanoia) sözünün əsl mənası nədir?",
+     "o": [
+      "Düşüncəni və həyat yolunu dəyişmək",
+      "Ucadan ağlamaq",
+      "Qurban vermək"
+     ],
+     "a": 0,
+     "f": "Düzdür. Hisslə qalmayıb istiqaməti dəyişməkdir."
+    },
+    {
+     "q": "Yəhya fariseyləri nə barədə xəbərdar etdi?",
+     "o": [
+      "İbrahimin nəsli olmaq kifayət deyil",
+      "Vəftiz olunmayın",
+      "Məbədə getməyin"
+     ],
+     "a": 0,
+     "f": "Düzdür. Tövbə bəhrə ilə görünməlidir."
+    },
+    {
+     "q": "İsanın vəftiz olunmasının ən doğru səbəbi hansıdır?",
+     "o": [
+      "Bütün salehliyi yerinə yetirmək üçün günahkarlarla dayandı",
+      "Öz günahlarını etiraf etmək üçün",
+      "Yəhyanı sınamaq üçün"
+     ],
+     "a": 0,
+     "f": "Düzdür. Bu səhnə çarmıxı əvvəlcədən göstərir."
+    },
+    {
+     "q": "Allah “Ondan razıyam” sözünü nə vaxt dedi?",
+     "o": [
+      "İsa möcüzə etməzdən əvvəl",
+      "Çarmıxdan sonra",
+      "Dirildikdən sonra"
+     ],
+     "a": 0,
+     "f": "Düzdür. Sevgi və kimlik vəzifədən əvvəl gəlir."
+    }
+   ],
+   "paylas": [
+    "Tövbə “istiqamət dəyişmək”dirsə, indi hansı istiqamətdən dönməliyəm?",
+    "“Ailəmiz imanlıdır” deyə özümü arxayın hiss etdiyim vaxt olubmu?",
+    "İsanın günahkarlarla eyni sırada dayanması mənə necə təsəlli verir?",
+    "Heç nəyi yaxşı etmədiyim vaxt da məni “sevimli övlad” adlandıran Allaha inanmaq nə vaxt çətin olur?"
+   ],
+   "etiraf": {
+    "b": "Mənim etirafım",
+    "p": "Allah sənə də “Sən Mənim sevimli övladımsan” desə, bu söz sənin hansı tərəfini dəyişər? Üç-dörd cümlə yaz.",
+    "ph": "Məsələn: Qiymətlərim pis olanda özümü dəyərsiz hiss edirdim. Amma …"
+   },
+   "dua": "Ya Rəbb Allah, günahsız İsanın günahkarın yerində dayandığı üçün Sənə şükür edirəm. Yalnız sözlə deyil, həyatımın istiqamətini dəyişən tövbə etməyə kömək et. Uğurlarıma görə deyil, sevimli övladın olduğum həqiqəti üzərində durmağıma kömək et. Sevimli Oğlun İsa Məsihin adı ilə dua edirəm. Amin."
+  }
+ },
+ "muellim": {
+  "mesaj": "4과의 중심은 한 문장입니다. **죄 없으신 예수님이 죄인의 자리에 서셨고, 하나님은 그분을 ‘사랑하는 아들’이라 부르셨다.**",
+  "hazirliq": [
+   "학생용 교재를 열 휴대폰이나 태블릿, 이어폰",
+   "물이 담긴 그릇 (세례를 설명할 때)",
+   "종이 비둘기 또는 비둘기 그림"
   ],
-  "paylas": ["Tövbə “istiqamət dəyişmək”dirsə, indi hansı istiqamətdən dönməliyəm?", "“Ailəmiz imanlıdır” deyə özümü arxayın hiss etdiyim vaxt olubmu?", "İsanın günahkarlarla eyni sırada dayanması mənə necə təsəlli verir?", "Heç nəyi yaxşı etmədiyim vaxt da məni “sevimli övlad” adlandıran Allaha inanmaq nə vaxt çətin olur?"],
-  "etiraf": {"b": "Mənim etirafım", "p": "Allah sənə də “Sən Mənim sevimli övladımsan” desə, bu söz sənin hansı tərəfini dəyişər? Üç-dörd cümlə yaz.", "ph": "Məsələn: Qiymətlərim pis olanda özümü dəyərsiz hiss edirdim. Amma …"},
-  "dua": "Ya Rəbb Allah, günahsız İsanın günahkarın yerində dayandığı üçün Sənə şükür edirəm. Yalnız sözlə deyil, həyatımın istiqamətini dəyişən tövbə etməyə kömək et. Uğurlarıma görə deyil, sevimli övladın olduğum həqiqəti üzərində durmağıma kömək et. Sevimli Oğlun İsa Məsihin adı ilə dua edirəm. Amin."
+  "fon": [
+   [
+    "1. 세례 요한의 옷과 음식",
+    "낙타 털옷과 가죽 띠는 엘리야의 모습(왕하 1:8)입니다. 말라기 4:5는 메시아 전에 엘리야가 온다고 예언했고, 예수님은 요한이 그 엘리야라고 하셨습니다(11:14)."
+   ],
+   [
+    "2. 요한의 세례",
+    "유대교에는 이방인이 개종할 때 받는 세례가 있었습니다. 요한은 유대인에게도 ‘처음부터 다시 시작하라’며 세례를 주었습니다. 그래서 종교 지도자들에게 충격이었습니다."
+   ],
+   [
+    "3. 독사의 자식들",
+    "들불을 피해 도망치는 뱀처럼, 진짜 회개 없이 심판만 피하려고 온 사람들을 가리킵니다. 거친 표현이니 청소년반에서도 맥락을 함께 설명하세요."
+   ],
+   [
+    "4. 예수님의 세례 이유",
+    "‘모든 의를 이루다’는 하나님의 뜻에 온전히 순종하고, 죄인과 자신을 하나로 묶으신다는 뜻으로 이해합니다. 예수님께 죄가 있어서가 아닙니다."
+   ],
+   [
+    "5. 삼위일체",
+    "성부의 음성, 성자의 세례, 성령의 내려오심이 한 장면에 나옵니다. ‘삼위일체’라는 단어는 성경에 없지만, 이런 장면들에서 교회가 정리한 고백입니다."
+   ]
+  ],
+  "usaq_plan": [
+   [
+    "5분",
+    "물 그릇 보여 주기",
+    "물을 손에 떠서 떨어뜨리며 ‘깨끗하게 씻는다’는 느낌 나누기",
+    "“세례는 하나님께 돌아왔다는 표시예요.”"
+   ],
+   [
+    "15분",
+    "장면 1–4 듣고 읽기",
+    "장면마다 듣기, 노란 낱말 누르기",
+    "“요한은 왜 놀랐을까요?”"
+   ],
+   [
+    "5분",
+    "외울 말씀",
+    "빈칸 놀이 → 서로 이름을 넣어 ‘○○는 하나님이 사랑하는 아이’ 말해 주기",
+    ""
+   ],
+   [
+    "5분",
+    "확인 퀴즈",
+    "혼자 풀고 함께 확인",
+    ""
+   ],
+   [
+    "10분",
+    "활동과 기도",
+    "새로 시작하고 싶은 일 고르기 → 발표 → 기도",
+    "“하나님은 다시 시작하도록 도와주세요.”"
+   ]
+  ],
+  "genc_plan": [
+   [
+    "5분",
+    "열기",
+    "“줄 서 있는 사람 중 한 명만 죄가 없다면?” 상상해 보기",
+    ""
+   ],
+   [
+    "15분",
+    "장면 1–2",
+    "회개(메타노이아)와 ‘열매’ 이야기, 종교적 배경의 함정",
+    "“나는 무엇을 믿고 안심하나?”"
+   ],
+   [
+    "10분",
+    "장면 3–4와 삼위 하나님 표",
+    "‘모든 의’와 ‘사역 이전의 사랑’",
+    ""
+   ],
+   [
+    "5분",
+    "확인 문제",
+    "",
+    ""
+   ],
+   [
+    "15분",
+    "나눔과 고백",
+    "나눔 질문 2개 → 나의 고백 쓰기 → 기도",
+    ""
+   ]
+  ],
+  "ipucu_usaq": [
+   "‘회개’를 ‘혼나는 것’이 아니라 ‘하나님께 돌아가는 것’으로 설명하세요.",
+   "외울 말씀을 아이 이름으로 바꿔 서로 말해 주면 정체성 메시지가 잘 전달됩니다.",
+   "세례를 받은 적 없는 아이에게 부담을 주지 마세요. 세례는 교회와 부모님과 함께 정하는 일입니다."
+  ],
+  "ipucu_genc": [
+   "‘독사의 자식들’은 자극적인 말이니 그 대상이 가장 종교적인 사람들이었다는 점에 초점을 두세요.",
+   "‘사역 이전의 사랑’은 성적·외모·인정에 민감한 청소년에게 중요한 메시지입니다. 충분히 시간을 주세요.",
+   "삼위일체는 완벽히 설명하려 하지 말고, 세 분이 한 장면에 함께 계신다는 사실만 짚어 주세요."
+  ],
+  "suallar": [
+   [
+    "예수님도 죄가 있어서 세례를 받으셨어요?",
+    "아니에요. 예수님은 죄가 없으세요. 우리와 함께하시려고 우리 줄에 서신 거예요.",
+    "요한도 같은 질문을 했어요(3:14). 예수님은 ‘모든 의를 이루기 위해’라고 답하셨어요. 죄인과 자신을 하나로 묶으신 것이고, 십자가를 미리 보여 주는 장면이에요."
+   ],
+   [
+    "진짜 비둘기가 내려왔어요?",
+    "성경은 ‘비둘기 같이’라고 말해요. 성령님이 눈에 보이게 오신 모습이었어요.",
+    "‘같이’라는 표현은 모양을 비유한 말이에요. 노아 홍수 뒤의 비둘기(창 8장)처럼 새 창조의 시작을 떠올리게 한다는 해석도 있어요."
+   ],
+   [
+    "우리 집은 교회 다니는데 그걸로 충분하지 않아요?",
+    "가족이 믿는 건 정말 큰 선물이에요. 그리고 나도 직접 예수님을 믿고 따라야 해요.",
+    "요한은 ‘아브라함의 자손’이라는 배경을 믿는 사람들을 경고했어요. 믿음은 물려받는 시작점이 될 수 있지만, 각자의 응답이 필요해요."
+   ]
+  ]
+ },
+ "ru": {
+  "usaq": {
+   "basliq": "Голос с неба",
+   "hedef": [
+    "Мы узнаем, что Иоанн Креститель призывал людей к покаянию.",
+    "Мы узнаем, что сказал Бог, когда Иисус крестился.",
+    "Мы узнаем, что Бог и нас называет Своими любимыми детьми."
+   ],
+   "sehneler": [
+    {
+     "b": "Человек, взывающий в пустыне",
+     "ayə": "Матфей 3:1–4",
+     "alt": "Иоанн Креститель обращается к людям в пустыне",
+     "p": [
+      "В [[пустыне|пустыня]] появился человек по имени [[Иоанн Креститель]]. Он носил одежду из верблюжьей шерсти, а ел саранчу и дикий мёд.",
+      "Иоанн громко говорил: «[[Покайтесь|покаяние]]! Приблизилось [[Царство Небесное]]!» Покаяться — значит сойти с плохого пути и вернуться к Богу."
+     ]
+    },
+    {
+     "b": "Крещение в реке Иордан",
+     "ayə": "Матфей 3:5–12",
+     "alt": "Иоанн крестит людей в реке Иордан",
+     "p": [
+      "Многие люди приходили к Иоанну и исповедовали свои грехи. Иоанн [[крестил|крещение]] их в [[реке Иордан|река Иордан]].",
+      "Иоанн говорил: «За мной идёт Тот, Кто намного больше меня. Я даже не достоин нести Его обувь»."
+     ]
+    },
+    {
+     "b": "Пришёл Иисус",
+     "ayə": "Матфей 3:13–15",
+     "alt": "Иисус подходит к Иоанну у реки Иордан",
+     "p": [
+      "Однажды Иисус пришёл к реке Иордан, чтобы креститься. Иоанн удивился и сказал: «Мне надобно креститься от Тебя, и Ты ли приходишь ко мне?»",
+      "Иисус ответил: «Оставь теперь, так нам надлежит исполнить всё правильно». И тогда Иоанн крестил Иисуса."
+     ]
+    },
+    {
+     "b": "Небеса открылись",
+     "ayə": "Матфей 3:16–17",
+     "alt": "Святой Дух сходит на крестившегося Иисуса в виде голубя",
+     "p": [
+      "Когда Иисус выходил из воды, небеса открылись. [[Святой Дух]] Божий сошёл на Иисуса, как голубь.",
+      "И с неба раздался голос: «Это Мой любимый Сын, Я Им очень доволен»."
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "«Это Мой любимый Сын, Я Им очень доволен».",
+    "ref": "3:17",
+    "bos": "«Это Мой ___ ___, Я Им очень ___».",
+    "sozler": [
+     "любимый",
+     "Сын",
+     "доволен"
+    ],
+    "yalan": "Иоанн"
+   },
+   "lugat": {
+    "пустыня": {
+     "i": "🏜️",
+     "x": "Səhra",
+     "m": "Сухое место, где почти никто не живёт.",
+     "e": "Иоанн проповедовал Божье слово в пустыне."
+    },
+    "Иоанн Креститель": {
+     "i": "🧔",
+     "x": "Vəftizçi Yəhya",
+     "m": "Человек, который подготовил путь для прихода Иисуса. Его называют «Крестителем», потому что он крестил людей.",
+     "e": "Иоанн Креститель был родственником Иисуса."
+    },
+    "покаяние": {
+     "i": "🔄",
+     "x": "Tövbə",
+     "m": "Признать свою ошибку, сойти с плохого пути и вернуться к Богу.",
+     "e": "Иоанн призывал: «Покайтесь!»"
+    },
+    "Царство Небесное": {
+     "i": "👑",
+     "x": "Səmavi Padşahlıq",
+     "m": "Царство, которым правит Бог как Царь.",
+     "e": "С приходом Иисуса приблизилось Царство Небесное."
+    },
+    "река Иордан": {
+     "i": "🌊",
+     "x": "İordan çayı",
+     "m": "Река в Израиле, текущая с севера на юг.",
+     "e": "Иоанн крестил людей в реке Иордан."
+    },
+    "крещение": {
+     "i": "💧",
+     "x": "vəftiz",
+     "m": "Обряд погружения в воду или обливания водой, который показывает, что человек вернулся к Богу.",
+     "e": "Иисус тоже принял крещение от Иоанна."
+    },
+    "Святой Дух": {
+     "i": "🕊️",
+     "x": "Müqəddəs Ruh",
+     "m": "Дух Божий. Когда Иисус крестился, Он сошёл в виде голубя.",
+     "e": "Святой Дух помогает нам следовать за Иисусом."
+    }
+   },
+   "test": [
+    {
+     "q": "Где проповедовал Иоанн Креститель?",
+     "o": [
+      "В пустыне",
+      "На рынке",
+      "Во дворце"
+     ],
+     "a": 0,
+     "f": "Верно! Он проповедовал в пустыне."
+    },
+    {
+     "q": "Что ел Иоанн?",
+     "o": [
+      "Саранчу и дикий мёд",
+      "Хлеб и рыбу",
+      "Яблоки и виноград"
+     ],
+     "a": 0,
+     "f": "Верно! Это была очень простая еда."
+    },
+    {
+     "q": "Кто сошёл на Иисуса, когда Он крестился?",
+     "o": [
+      "Святой Дух в виде голубя",
+      "Снег",
+      "Огонь"
+     ],
+     "a": 0,
+     "f": "Верно! Сошёл Дух Божий."
+    },
+    {
+     "q": "Что сказал голос с неба?",
+     "o": [
+      "Это Мой любимый Сын",
+      "Пусть все идут домой",
+      "Скоро пойдёт дождь"
+     ],
+     "a": 0,
+     "f": "Верно! Бог назвал Иисуса Своим любимым Сыном."
+    }
+   ],
+   "dusun": [
+    "Почему Иоанн призывал людей: «Покайтесь»?",
+    "Почему Иисус, у Которого не было греха, крестился?",
+    "Что бы ты почувствовал, если бы Бог сказал тебе: «Ты Мой любимый ребёнок»?"
+   ],
+   "fealiyyet": {
+    "ciz": "Нарисуй, как открылись небеса и сошёл голубь, когда Иисус крестился.",
+    "b": "Новое начало",
+    "p": "Выбери то, в чём ты хочешь начать всё заново, вернувшись к Богу.",
+    "ph": "",
+    "secim": {
+     "basliq": "Что ты хочешь начать делать по-новому?",
+     "izah": "Нажимай и выбирай. Можно выбрать несколько.",
+     "cumle": "Иисус, я хочу {x}. Помоги мне!",
+     "bos": "начать всё заново",
+     "bag": "и",
+     "secimler": [
+      [
+       "🗣️",
+       "говорить правду"
+      ],
+      [
+       "👂",
+       "слушаться родителей"
+      ],
+      [
+       "🤝",
+       "помириться с другом"
+      ],
+      [
+       "🍎",
+       "делиться"
+      ],
+      [
+       "💪",
+       "помогать другим"
+      ],
+      [
+       "🙏",
+       "молиться каждый день"
+      ],
+      [
+       "😊",
+       "быть добрым"
+      ],
+      [
+       "📖",
+       "читать Слово Божье"
+      ]
+     ]
+    }
+   },
+   "dua": "Господь Бог, спасибо Тебе за то, что как Ты назвал Иисуса Своим любимым Сыном, так и меня Ты называешь Своим любимым ребёнком. Помоги мне не прятаться, когда я ошибаюсь, а возвращаться к Тебе. Святой Дух, помоги мне. Молюсь во имя Иисуса Христа. Аминь."
+  },
+  "genc": {
+   "basliq": "Покаяние и открытые небеса",
+   "giris": "На берегу реки, куда все приходили исповедовать свои грехи, в один ряд с ними встал Тот, у Кого не было греха. Почему Иисус крестился?",
+   "meqsed": [
+    "Мы поймём значение слов Иоанна Крестителя «покаяние» и «Царство Небесное».",
+    "Мы сможем объяснить, как при крещении Иисуса вместе явились Отец, Сын и Святой Дух.",
+    "Мы поразмышляем о том, что означают слова «возлюбленный Сын» для нашей личности."
+   ],
+   "sehneler": [
+    {
+     "b": "Голос в пустыне",
+     "ayə": "Матфей 3:1–6",
+     "alt": "Иоанн Креститель обращается к людям в пустыне",
+     "p": [
+      "[[Иоанн Креститель]] носил одежду из верблюжьей шерсти и кожаный пояс на чреслах. Так выглядел ветхозаветный пророк Илия {{4Цар. 1:8}}. В Израиле, который четыреста лет был без пророков, снова появился пророк.",
+      "Он был «гласом вопиющего в пустыне», о котором говорил [[Исаия]] {{Ис. 40:3}}. Его весть была краткой: «[[Покайтесь|покаяние]], ибо приблизилось [[Царство Небесное]]»."
+     ],
+     "deep": {
+      "b": "Копнём глубже · Почему пустыня?",
+      "p": "Пустыня — это место, где Израиль провёл 40 лет после выхода из Египта, познавая Бога. Иоанн снова призвал народ в пустыню, чтобы они, перейдя реку Иордан, начали всё заново. Бог начал Своё новое дело не в роскошном храме, а в пустом поле."
+     }
+    },
+    {
+     "b": "Покажите плодами",
+     "ayə": "Матфей 3:7–12",
+     "alt": "Иоанн крестит людей в реке Иордан",
+     "p": [
+      "Иоанн обратился к пришедшим креститься [[фарисеям|фарисеи]] и саддукеям со словами: «Порождения ехиднины!» — и призвал их сотворить «достойный плод покаяния».",
+      "«Не думайте говорить в себе: “отец у нас Авраам”». Это означает, что хорошая семья или религиозное прошлое не гарантируют спасения."
+     ],
+     "deep": {
+      "b": "Копнём глубже · Религия без плодов",
+      "p": "Предупреждение Иоанна было направлено не на тех, кто далёк от веры, а на самых религиозных людей. Долго ходить в церковь и расти в верующей семье — это прекрасно, но это не может заменить покаяния.",
+      "rose": true
+     }
+    },
+    {
+     "b": "Крещение Безгрешного",
+     "ayə": "Матфей 3:13–15",
+     "alt": "Иисус подходит к Иоанну у реки Иордан",
+     "p": [
+      "Когда Иисус пришёл креститься, Иоанн пытался удержать Его: «Мне надобно креститься от Тебя, и Ты ли приходишь ко мне?»",
+      "Иисус ответил: «Оставь теперь, ибо так надлежит нам исполнить всякую правду». Иисус встал в один ряд с грешниками."
+     ],
+     "deep": {
+      "b": "Копнём глубже · «Исполнить всякую правду»",
+      "p": "У Иисуса не было грехов, которые нужно было бы исповедовать, но Он отождествил Себя с грешниками. Эта сцена предвосхищает крест: Безгрешный встаёт на место грешника. Именно в этом и заключается Евангелие."
+     }
+    },
+    {
+     "b": "Открытые небеса, услышанный голос",
+     "ayə": "Матфей 3:16–17",
+     "alt": "Святой Дух сходит на крестившегося Иисуса в виде голубя",
+     "p": [
+      "Когда Иисус выходил из воды, небеса открылись, [[Святой Дух]] сошёл, как голубь, и раздался голос: «Сей есть Сын Мой возлюбленный, в Котором Моё благоволение».",
+      "Эти слова объединяют Псалом 2:7 (Сын-Царь) и Исаия 42:1 (страдающий Слуга). Иисус — это одновременно и Царь, и страдающий Слуга."
+     ],
+     "deep": {
+      "b": "Копнём глубже · Любовь до служения",
+      "p": "Эти слова прозвучали, когда Иисус ещё не совершил ни одного чуда. Божья любовь — это не награда за успех. Сначала идёт то, кем мы являемся, а потом уже наше призвание."
+     }
+    }
+   ],
+   "cedvel": {
+    "b": "Триединый Бог в сцене крещения",
+    "alt": "Отец, Сын и Святой Дух в одной сцене",
+    "bas": [
+     "Кто",
+     "Как явился",
+     "Что это показывает"
+    ],
+    "set": [
+     [
+      "Бог Отец",
+      "Голос с неба",
+      "Иисус — возлюбленный Сын"
+     ],
+     [
+      "Бог Сын (Иисус)",
+      "Вышел из воды",
+      "Мессия, стоящий вместе с грешниками"
+     ],
+     [
+      "Бог Дух Святой",
+      "Сошёл, как голубь",
+      "Сила и помазание на служение"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "«И голос с неба сказал: Сей есть Сын Мой возлюбленный, в Котором Моё благоволение».",
+    "ref": "3:17"
+   },
+   "lugat": {
+    "Иоанн Креститель": {
+     "i": "🧔",
+     "o": "По-гречески: Иоаннэс хо баптистэс",
+     "x": "Vəftizçi Yəhya",
+     "s": "Пророк, приготовивший путь Иисусу",
+     "m": "Он был сыном священника Захарии и родился на шесть месяцев раньше Иисуса. Получил призвание приготовить путь Мессии.",
+     "e": "Иисус назвал его величайшим из рождённых жёнами (11:11)."
+    },
+    "Исаия": {
+     "i": "📜",
+     "o": "По-еврейски: Йешаягу",
+     "x": "Yeşaya",
+     "s": "Пророк, который больше всего говорил о Мессии",
+     "m": "Пророк, живший в VIII веке до н. э. Он произнёс множество пророчеств об Еммануиле и страдающем Слуге.",
+     "e": "Пророчество об Еммануиле из первого урока также находится в книге Исаии (7:14)."
+    },
+    "покаяние": {
+     "i": "🔄",
+     "o": "По-гречески: метанойя",
+     "x": "Tövbə",
+     "s": "Изменение мышления и жизненного пути",
+     "m": "Означает «изменение (мета) мышления (нойя)». Это не просто чувство сожаления, а изменение направления жизни.",
+     "e": "Первая проповедь Иисуса также начинается со слов: «Покайтесь» (4:17)."
+    },
+    "Царство Небесное": {
+     "i": "👑",
+     "o": "По-гречески: басилейя тон уранон",
+     "x": "Səmavi Padşahlıq",
+     "s": "Правление Бога как Царя",
+     "m": "Это не только место, куда мы попадаем после смерти, но и реальность, в которой Бог правит как Царь. Матфей использует слово «Небесное» для читателей-иудеев, которые осторожно произносили имя Бога.",
+     "e": "В Евангелии от Матфея выражение «Царство Небесное» встречается более тридцати раз."
+    },
+    "фарисеи": {
+     "i": "📏",
+     "o": "По-еврейски: перушим, «отделённые»",
+     "x": "fariseylər",
+     "s": "Группа, строго соблюдавшая Закон",
+     "m": "Благочестивое движение мирян, которые строго соблюдали Закон и пользовались уважением в народе. Но у них была опасность уделять слишком много внимания внешнему.",
+     "e": "Именно с ними Иисус спорил чаще всего (23-я глава)."
+    },
+    "Святой Дух": {
+     "i": "🕊️",
+     "o": "По-гречески: пнеума хагион",
+     "x": "Müqəddəs Ruh",
+     "s": "Одна из Личностей Триединого Бога",
+     "m": "Дух Божий. Он даёт Иисусу силу для служения и живёт внутри верующих.",
+     "e": "Иоанн говорил, что Иисус будет крестить «Духом Святым и огнём» (3:11)."
+    }
+   },
+   "test": [
+    {
+     "q": "Кого из пророков напоминала одежда Иоанна?",
+     "o": [
+      "Илию",
+      "Моисея",
+      "Давида"
+     ],
+     "a": 0,
+     "f": "Верно. Илию из 4 Царств 1:8."
+    },
+    {
+     "q": "Каково истинное значение слова «покаяние» (метанойя)?",
+     "o": [
+      "Изменение мышления и жизненного пути",
+      "Громкий плач",
+      "Принесение жертвы"
+     ],
+     "a": 0,
+     "f": "Верно. Это не просто чувства, а изменение направления."
+    },
+    {
+     "q": "О чём Иоанн предупреждал фарисеев?",
+     "o": [
+      "Быть потомками Авраама недостаточно",
+      "Не принимайте крещения",
+      "Не ходите в храм"
+     ],
+     "a": 0,
+     "f": "Верно. Покаяние должно быть видно по плодам."
+    },
+    {
+     "q": "Какова самая верная причина того, что Иисус крестился?",
+     "o": [
+      "Встал вместе с грешниками, чтобы исполнить всякую правду",
+      "Чтобы исповедовать Свои грехи",
+      "Чтобы испытать Иоанна"
+     ],
+     "a": 0,
+     "f": "Верно. Эта сцена предвосхищает крест."
+    },
+    {
+     "q": "Когда Бог сказал: «В Котором Моё благоволение»?",
+     "o": [
+      "До того, как Иисус совершил чудо",
+      "После креста",
+      "После воскресения"
+     ],
+     "a": 0,
+     "f": "Верно. Любовь и то, кем мы являемся, предшествуют нашему призванию."
+    }
+   ],
+   "paylas": [
+    "Если покаяние — это «изменение направления», то с какого пути мне нужно свернуть сейчас?",
+    "Бывало ли так, что я успокаивал себя мыслью: «Наша семья верующая»?",
+    "Как меня утешает то, что Иисус встал в один ряд с грешниками?",
+    "Когда бывает трудно поверить в Бога, Который называет меня «любимым ребёнком», даже если я ничего не делаю хорошо?"
+   ],
+   "etiraf": {
+    "b": "Моё исповедание",
+    "p": "Если бы Бог сказал и тебе: «Ты Мой любимый ребенок», что бы эти слова изменили в тебе? Напиши три-четыре предложения.",
+    "ph": "Например: Когда у меня были плохие оценки, я чувствовал себя никчёмным. Но …"
+   },
+   "dua": "Господь Бог, спасибо Тебе за то, что безгрешный Иисус встал на место грешника. Помоги мне приносить покаяние, которое меняет направление моей жизни, а не остаётся только на словах. Помоги мне опираться не на свои успехи, а на ту истину, что я Твой любимый ребёнок. Молюсь во имя Твоего возлюбленного Сына Иисуса Христа. Аминь."
+  }
+ },
+ "en": {
+  "usaq": {
+   "basliq": "A Voice from Heaven",
+   "hedef": [
+    "We will learn that John the Baptist called people to repent.",
+    "We will learn what God said when Jesus was baptized.",
+    "We will learn that God calls us His beloved children too."
+   ],
+   "sehneler": [
+    {
+     "b": "A Man Calling in the Wilderness",
+     "ayə": "Matthew 3:1–4",
+     "alt": "John the Baptist calling out to people in the wilderness",
+     "p": [
+      "A man named [[John the Baptist]] appeared in the [[wilderness]]. He wore clothes made of camel's hair and ate locusts and wild honey.",
+      "John said in a loud voice, “[[Repent]]! [[The kingdom of heaven]] has come near!” To repent means to turn away from a bad way and return to God."
+     ]
+    },
+    {
+     "b": "Baptism in the Jordan River",
+     "ayə": "Matthew 3:5–12",
+     "alt": "John baptizing people in the Jordan River",
+     "p": [
+      "Many people came to John and confessed their sins. John [[baptized|baptize]] them in the [[Jordan River]].",
+      "John said, “After me comes Someone much greater than me. I am not even worthy to carry His sandals.”"
+     ]
+    },
+    {
+     "b": "Jesus Came",
+     "ayə": "Matthew 3:13–15",
+     "alt": "Jesus approaching John at the Jordan River",
+     "p": [
+      "One day, Jesus came to the Jordan River to be baptized. John was surprised and said, “I need to be baptized by You, and do You come to me?”",
+      "Jesus said, “Let it be so now, this is right.” So, John baptized Jesus."
+     ]
+    },
+    {
+     "b": "The Heavens Opened",
+     "ayə": "Matthew 3:16–17",
+     "alt": "The Holy Spirit descending like a dove on Jesus as He is baptized",
+     "p": [
+      "When Jesus came up out of the water, the heavens opened. God's [[Holy Spirit]] came down on Jesus like a dove.",
+      "A voice came from heaven: “This is my beloved Son, with whom I am well pleased.”"
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "“This is my beloved Son, with whom I am well pleased.”",
+    "ref": "3:17",
+    "bos": "“This is my ___ ___, with whom I am well ___.”",
+    "sozler": [
+     "beloved",
+     "Son",
+     "pleased"
+    ],
+    "yalan": "John"
+   },
+   "lugat": {
+    "wilderness": {
+     "i": "🏜️",
+     "x": "Səhra",
+     "m": "A dry place where almost no one lives.",
+     "e": "John shared God's word in the wilderness."
+    },
+    "John the Baptist": {
+     "i": "🧔",
+     "x": "Vəftizçi Yəhya",
+     "m": "A man who prepared the way for Jesus' coming. He is called \"the Baptist\" because he baptized people.",
+     "e": "John the Baptist was a relative of Jesus."
+    },
+    "Repent": {
+     "i": "🔄",
+     "x": "Tövbə",
+     "m": "To admit your mistakes, turn away from a bad way, and return to God.",
+     "e": "John called out, “Repent!”"
+    },
+    "The kingdom of heaven": {
+     "i": "👑",
+     "x": "Səmavi Padşahlıq",
+     "m": "The kingdom where God rules as King.",
+     "e": "When Jesus came, the kingdom of heaven came near."
+    },
+    "Jordan River": {
+     "i": "🌊",
+     "x": "İordan çayı",
+     "m": "A river in Israel that flows from north to south.",
+     "e": "John baptized people in the Jordan River."
+    },
+    "baptize": {
+     "i": "💧",
+     "x": "vəftiz",
+     "m": "A ceremony of dipping in water or pouring water to show that someone has returned to God.",
+     "e": "Jesus was also baptized by John."
+    },
+    "Holy Spirit": {
+     "i": "🕊️",
+     "x": "Müqəddəs Ruh",
+     "m": "The Spirit of God. He came down like a dove when Jesus was baptized.",
+     "e": "The Holy Spirit helps us follow Jesus."
+    }
+   },
+   "test": [
+    {
+     "q": "Where did John the Baptist call out?",
+     "o": [
+      "In the wilderness",
+      "In the market",
+      "In the palace"
+     ],
+     "a": 0,
+     "f": "That's right! He called out in the wilderness."
+    },
+    {
+     "q": "What did John eat?",
+     "o": [
+      "Locusts and wild honey",
+      "Bread and fish",
+      "Apples and grapes"
+     ],
+     "a": 0,
+     "f": "That's right! It was very simple food."
+    },
+    {
+     "q": "What came down when Jesus was baptized?",
+     "o": [
+      "The Holy Spirit like a dove",
+      "Snow",
+      "Fire"
+     ],
+     "a": 0,
+     "f": "That's right! God's Spirit came down."
+    },
+    {
+     "q": "What did the voice from heaven say?",
+     "o": [
+      "This is my beloved Son",
+      "Everyone go home",
+      "It will rain soon"
+     ],
+     "a": 0,
+     "f": "That's right! God called Jesus His beloved Son."
+    }
+   ],
+   "dusun": [
+    "Why did John call people to \"repent\"?",
+    "Why was Jesus baptized if He had no sin?",
+    "How would you feel if God said to you, \"You are my beloved child\"?"
+   ],
+   "fealiyyet": {
+    "ciz": "Draw the heavens opening and the dove coming down when Jesus was baptized.",
+    "b": "A New Beginning",
+    "p": "Choose something you want to renew by returning to God.",
+    "ph": "",
+    "secim": {
+     "basliq": "What do you want to renew?",
+     "izah": "Tap to choose. You can choose more than one.",
+     "cumle": "Jesus, I want to {x}. Help me!",
+     "bos": "start anew",
+     "bag": "and",
+     "secimler": [
+      [
+       "🗣️",
+       "tell the truth"
+      ],
+      [
+       "👂",
+       "listen to my parents"
+      ],
+      [
+       "🤝",
+       "make peace with my friend"
+      ],
+      [
+       "🍎",
+       "share"
+      ],
+      [
+       "💪",
+       "help others"
+      ],
+      [
+       "🙏",
+       "pray every day"
+      ],
+      [
+       "😊",
+       "be kind"
+      ],
+      [
+       "📖",
+       "read the Word"
+      ]
+     ]
+    }
+   },
+   "dua": "Lord God, thank You for calling me Your beloved child, just as You called Jesus Your beloved Son. When I make a mistake, help me to return to You without hiding. Holy Spirit, help me. I pray in the name of Jesus Christ. Amen."
+  },
+  "genc": {
+   "basliq": "Repentance and the Opened Heavens",
+   "giris": "By the river where everyone came to confess their sins, a sinless One stood in the same line with them. Why was Jesus baptized?",
+   "meqsed": [
+    "We understand the meaning of \"repentance\" and \"the kingdom of heaven\" preached by John the Baptist.",
+    "We can explain that God the Father, the Son, and the Holy Spirit appeared together at Jesus' baptism.",
+    "We think about what the words \"beloved Son\" mean for our identity."
+   ],
+   "sehneler": [
+    {
+     "b": "A Voice in the Wilderness",
+     "ayə": "Matthew 3:1–6",
+     "alt": "John the Baptist calling out to people in the wilderness",
+     "p": [
+      "[[John the Baptist]] wore clothes made of camel's hair and had a leather belt around his waist. This was the appearance of the prophet Elijah in the Old Testament {{2 Kings 1:8}}. After four hundred years without a prophet, a prophet appeared again in Israel.",
+      "He was the \"voice of one crying in the wilderness\" spoken of by [[Isaiah]] {{Isa. 40:3}}. His message was short: \"[[Repent]], for [[the kingdom of heaven]] has come near.\""
+     ],
+     "deep": {
+      "b": "Looking Deeper · Why the wilderness?",
+      "p": "The wilderness is the place where Israel stayed for 40 years after leaving Egypt and came to know God. John called the people back to the wilderness so they could make a fresh start as they crossed the Jordan River. God started His new work not in a magnificent temple, but in the empty desert."
+     }
+    },
+    {
+     "b": "Show It with Fruit",
+     "ayə": "Matthew 3:7–12",
+     "alt": "John baptizing people in the Jordan River",
+     "p": [
+      "John called the [[Pharisees]] and Sadducees who came to be baptized a \"brood of vipers!\" and told them to \"produce fruit worthy of repentance.\"",
+      "\"Don't think to yourselves, 'We have Abraham as our father.'\" This means that a good family or religious background does not guarantee salvation."
+     ],
+     "deep": {
+      "b": "Looking Deeper · Fruitless Religion",
+      "p": "John's warning was not directed at those outside the faith, but at the most religious people. Going to church for a long time and growing up in a believing family are good things, but they cannot replace repentance.",
+      "rose": true
+     }
+    },
+    {
+     "b": "The Baptism of the Sinless One",
+     "ayə": "Matthew 3:13–15",
+     "alt": "Jesus approaching John at the Jordan River",
+     "p": [
+      "When Jesus came to be baptized, John tried to stop Him: \"I need to be baptized by You, and do You come to me?\"",
+      "Jesus said, \"Let it be so now, for it is fitting for us to fulfill all righteousness in this way.\" Jesus stood in the same line as sinners."
+     ],
+     "deep": {
+      "b": "Looking Deeper · \"Fulfilling all righteousness\"",
+      "p": "Jesus had no sin to confess, but He identified Himself with sinners. This scene foreshadows the cross: a sinless One standing in the place of sinners. This is exactly what the Gospel is."
+     }
+    },
+    {
+     "b": "The Opened Heavens, the Heard Voice",
+     "ayə": "Matthew 3:16–17",
+     "alt": "The Holy Spirit descending like a dove on Jesus as He is baptized",
+     "p": [
+      "When Jesus came up out of the water, the heavens opened, the [[Holy Spirit]] descended like a dove, and a voice was heard: \"This is my beloved Son, with whom I am well pleased.\"",
+      "These words combine Psalm 2:7 (the Kingly Son) and Isaiah 42:1 (the suffering servant). Jesus is both the King and the suffering Servant."
+     ],
+     "deep": {
+      "b": "Looking Deeper · Love Before Ministry",
+      "p": "These words were spoken before Jesus had performed even a single miracle. God's love is not a reward given for success. Identity comes first, and then comes the mission."
+     }
+    }
+   ],
+   "cedvel": {
+    "b": "The Triune God at the Baptism Scene",
+    "alt": "The Father, the Son, and the Holy Spirit in one scene",
+    "bas": [
+     "Who",
+     "How they appeared",
+     "What it shows"
+    ],
+    "set": [
+     [
+      "God the Father",
+      "A voice from heaven",
+      "Jesus is the beloved Son"
+     ],
+     [
+      "Jesus the Son",
+      "Came up out of the water",
+      "The Messiah standing with sinners"
+     ],
+     [
+      "The Holy Spirit",
+      "Descended like a dove",
+      "Power and anointing for ministry"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "“And a voice came out of the heavens, saying, ‘This is my beloved Son, with whom I am well pleased.’”",
+    "ref": "3:17"
+   },
+   "lugat": {
+    "John the Baptist": {
+     "i": "🧔",
+     "o": "Greek: Ioannes ho baptistes",
+     "x": "Vəftizçi Yəhya",
+     "s": "The prophet who prepared the way for Jesus",
+     "m": "He was the son of the priest Zechariah and was born six months before Jesus. He received the mission to prepare the way for the Messiah.",
+     "e": "Jesus called him \"the greatest among those born of women\" (11:11)."
+    },
+    "Isaiah": {
+     "i": "📜",
+     "o": "Hebrew: Yeshayahu",
+     "x": "Yeşaya",
+     "s": "The prophet who spoke the most about the Messiah",
+     "m": "A prophet who lived in the 8th century BC. He spoke many prophecies about Immanuel and the suffering servant.",
+     "e": "The prophecy of Immanuel in the first lesson is also in the book of Isaiah (7:14)."
+    },
+    "Repent": {
+     "i": "🔄",
+     "o": "Greek: metanoia",
+     "x": "Tövbə",
+     "s": "To change one's mind and way of life",
+     "m": "It means \"to change (meta) the mind (noia).\" It is not just staying in a feeling of regret, but changing the direction of one's life.",
+     "e": "Jesus' first sermon also begins with the word \"Repent\" (4:17)."
+    },
+    "the kingdom of heaven": {
+     "i": "👑",
+     "o": "Greek: basileia ton ouranon",
+     "x": "Səmavi Padşahlıq",
+     "s": "God ruling as King",
+     "m": "This is not just a place to go after death, but the reality of God ruling as King. Matthew says \"of heaven\" for Jewish readers who were careful about using God's name.",
+     "e": "In the Gospel of Matthew, \"the kingdom of heaven\" appears more than thirty times."
+    },
+    "Pharisees": {
+     "i": "📏",
+     "o": "Hebrew: perushim, \"separated ones\"",
+     "x": "fariseylər",
+     "s": "A group that strictly kept the law",
+     "m": "It was a devout movement that strictly followed the law and was respected by the people. But there was a danger of focusing only on outward appearances.",
+     "e": "They were the ones who argued with Jesus the most (chapter 23)."
+    },
+    "Holy Spirit": {
+     "i": "🕊️",
+     "o": "Greek: pneuma hagion",
+     "x": "Müqəddəs Ruh",
+     "s": "A Person of the Triune God",
+     "m": "He is the Spirit of God. He gives Jesus power for ministry and lives inside believers.",
+     "e": "John said that Jesus would baptize \"with the Holy Spirit and fire\" (3:11)."
+    }
+   },
+   "test": [
+    {
+     "q": "Which prophet did John's clothing remind people of?",
+     "o": [
+      "Elijah",
+      "Moses",
+      "David"
+     ],
+     "a": 0,
+     "f": "That's right. Elijah in 2 Kings 1:8."
+    },
+    {
+     "q": "What is the true meaning of the word \"repent\" (metanoia)?",
+     "o": [
+      "To change one's mind and way of life",
+      "To cry loudly",
+      "To offer a sacrifice"
+     ],
+     "a": 0,
+     "f": "That's right. It is not just a feeling, but changing direction."
+    },
+    {
+     "q": "What did John warn the Pharisees about?",
+     "o": [
+      "Being Abraham's descendants is not enough",
+      "Do not be baptized",
+      "Do not go to the temple"
+     ],
+     "a": 0,
+     "f": "That's right. Repentance must be seen through fruit."
+    },
+    {
+     "q": "What is the most accurate reason for Jesus being baptized?",
+     "o": [
+      "He stood with sinners to fulfill all righteousness",
+      "To confess His own sins",
+      "To test John"
+     ],
+     "a": 0,
+     "f": "That's right. This scene foreshadows the cross."
+    },
+    {
+     "q": "When did God say, \"with whom I am well pleased\"?",
+     "o": [
+      "Before Jesus performed any miracles",
+      "After the cross",
+      "After the resurrection"
+     ],
+     "a": 0,
+     "f": "That's right. Love and identity come before the mission."
+    }
+   ],
+   "paylas": [
+    "If repentance is \"changing direction\", what direction do I need to turn away from now?",
+    "Have I ever felt complacent just because \"my family are believers\"?",
+    "How does the fact that Jesus stood in the same line as sinners comfort me?",
+    "When is it hard to believe in God who calls me His \"beloved child\" even when I haven't done anything well?"
+   ],
+   "etiraf": {
+    "b": "My Confession",
+    "p": "If God said to you, \"You are my beloved child,\" what part of you would those words change? Write three or four sentences.",
+    "ph": "For example: When my grades were bad, I felt worthless. But..."
+   },
+   "dua": "Lord God, thank You that the sinless Jesus stood in the place of sinners. Help me to repent in a way that changes the direction of my life, not just with words. Help me to stand on the truth that I am Your beloved child, not on my successes. I pray in the name of Your beloved Son, Jesus Christ. Amen."
+  }
  }
-},
-"muellim": {
- "mesaj": "4과의 중심은 한 문장입니다. **죄 없으신 예수님이 죄인의 자리에 서셨고, 하나님은 그분을 ‘사랑하는 아들’이라 부르셨다.**",
- "hazirliq": ["학생용 교재를 열 휴대폰이나 태블릿, 이어폰", "물이 담긴 그릇 (세례를 설명할 때)", "종이 비둘기 또는 비둘기 그림"],
- "fon": [
-  ["1. 세례 요한의 옷과 음식", "낙타 털옷과 가죽 띠는 엘리야의 모습(왕하 1:8)입니다. 말라기 4:5는 메시아 전에 엘리야가 온다고 예언했고, 예수님은 요한이 그 엘리야라고 하셨습니다(11:14)."],
-  ["2. 요한의 세례", "유대교에는 이방인이 개종할 때 받는 세례가 있었습니다. 요한은 유대인에게도 ‘처음부터 다시 시작하라’며 세례를 주었습니다. 그래서 종교 지도자들에게 충격이었습니다."],
-  ["3. 독사의 자식들", "들불을 피해 도망치는 뱀처럼, 진짜 회개 없이 심판만 피하려고 온 사람들을 가리킵니다. 거친 표현이니 청소년반에서도 맥락을 함께 설명하세요."],
-  ["4. 예수님의 세례 이유", "‘모든 의를 이루다’는 하나님의 뜻에 온전히 순종하고, 죄인과 자신을 하나로 묶으신다는 뜻으로 이해합니다. 예수님께 죄가 있어서가 아닙니다."],
-  ["5. 삼위일체", "성부의 음성, 성자의 세례, 성령의 내려오심이 한 장면에 나옵니다. ‘삼위일체’라는 단어는 성경에 없지만, 이런 장면들에서 교회가 정리한 고백입니다."]
- ],
- "usaq_plan": [
-  ["5분", "물 그릇 보여 주기", "물을 손에 떠서 떨어뜨리며 ‘깨끗하게 씻는다’는 느낌 나누기", "“세례는 하나님께 돌아왔다는 표시예요.”"],
-  ["15분", "장면 1–4 듣고 읽기", "장면마다 듣기, 노란 낱말 누르기", "“요한은 왜 놀랐을까요?”"],
-  ["5분", "외울 말씀", "빈칸 놀이 → 서로 이름을 넣어 ‘○○는 하나님이 사랑하는 아이’ 말해 주기", ""],
-  ["5분", "확인 퀴즈", "혼자 풀고 함께 확인", ""],
-  ["10분", "활동과 기도", "새로 시작하고 싶은 일 고르기 → 발표 → 기도", "“하나님은 다시 시작하도록 도와주세요.”"]
- ],
- "genc_plan": [
-  ["5분", "열기", "“줄 서 있는 사람 중 한 명만 죄가 없다면?” 상상해 보기", ""],
-  ["15분", "장면 1–2", "회개(메타노이아)와 ‘열매’ 이야기, 종교적 배경의 함정", "“나는 무엇을 믿고 안심하나?”"],
-  ["10분", "장면 3–4와 삼위 하나님 표", "‘모든 의’와 ‘사역 이전의 사랑’", ""],
-  ["5분", "확인 문제", "", ""],
-  ["15분", "나눔과 고백", "나눔 질문 2개 → 나의 고백 쓰기 → 기도", ""]
- ],
- "ipucu_usaq": ["‘회개’를 ‘혼나는 것’이 아니라 ‘하나님께 돌아가는 것’으로 설명하세요.", "외울 말씀을 아이 이름으로 바꿔 서로 말해 주면 정체성 메시지가 잘 전달됩니다.", "세례를 받은 적 없는 아이에게 부담을 주지 마세요. 세례는 교회와 부모님과 함께 정하는 일입니다."],
- "ipucu_genc": ["‘독사의 자식들’은 자극적인 말이니 그 대상이 가장 종교적인 사람들이었다는 점에 초점을 두세요.", "‘사역 이전의 사랑’은 성적·외모·인정에 민감한 청소년에게 중요한 메시지입니다. 충분히 시간을 주세요.", "삼위일체는 완벽히 설명하려 하지 말고, 세 분이 한 장면에 함께 계신다는 사실만 짚어 주세요."],
- "suallar": [
-  ["예수님도 죄가 있어서 세례를 받으셨어요?", "아니에요. 예수님은 죄가 없으세요. 우리와 함께하시려고 우리 줄에 서신 거예요.", "요한도 같은 질문을 했어요(3:14). 예수님은 ‘모든 의를 이루기 위해’라고 답하셨어요. 죄인과 자신을 하나로 묶으신 것이고, 십자가를 미리 보여 주는 장면이에요."],
-  ["진짜 비둘기가 내려왔어요?", "성경은 ‘비둘기 같이’라고 말해요. 성령님이 눈에 보이게 오신 모습이었어요.", "‘같이’라는 표현은 모양을 비유한 말이에요. 노아 홍수 뒤의 비둘기(창 8장)처럼 새 창조의 시작을 떠올리게 한다는 해석도 있어요."],
-  ["우리 집은 교회 다니는데 그걸로 충분하지 않아요?", "가족이 믿는 건 정말 큰 선물이에요. 그리고 나도 직접 예수님을 믿고 따라야 해요.", "요한은 ‘아브라함의 자손’이라는 배경을 믿는 사람들을 경고했어요. 믿음은 물려받는 시작점이 될 수 있지만, 각자의 응답이 필요해요."]
- ]
-}
 }

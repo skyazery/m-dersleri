@@ -1,165 +1,1379 @@
 {
-"no": 7, "ref": "5:1–16", "deq": {"usaq": 40, "genc": 50},
-"img": ["13-dagustu-vaaz.jpg", "matta/07-xosbext.jpg", "matta/07-duz.jpg", "matta/07-isiq.jpg"],
-"hero": 0,
-"ko": {
- "usaq": {
-  "basliq": "세상의 소금과 빛",
-  "hedef": ["예수님이 산 위에서 가르치신 ‘복’의 말씀을 알아요.", "하나님이 어떤 사람에게 복을 주시는지 배워요.", "내가 세상의 소금과 빛으로 살 방법을 찾아요."],
-  "sehneler": [
-   {"b": "산 위의 선생님", "ayə": "5:1–2", "alt": "산 위에 앉아 사람들을 가르치시는 예수님", "p": ["많은 사람이 예수님을 따라왔어요. 예수님은 [[산]]에 올라가 앉으셨고, 제자들과 사람들이 둘러앉았어요.", "예수님이 입을 열어 가르치기 시작하셨어요. 이 말씀을 ‘산 위에서 하신 설교’라고 불러요."]},
-   {"b": "이런 사람은 복이 있어요", "ayə": "5:3–12", "alt": "슬퍼하는 사람을 위로하시는 예수님", "p": ["예수님은 놀라운 말씀을 하셨어요. “마음이 가난한 사람은 [[복]]이 있어요. 슬퍼하는 사람은 복이 있어요. 하나님이 위로해 주실 거예요.”", "“[[온유]]한 사람, 남을 불쌍히 여기는 사람, 마음이 깨끗한 사람, [[화평]]하게 하는 사람은 복이 있어요.” 하나님은 약하고 겸손한 사람을 귀하게 보세요."]},
-   {"b": "너희는 세상의 소금", "ayə": "5:13", "alt": "음식에 소금을 넣는 가족", "p": ["예수님이 말씀하셨어요. “너희는 세상의 [[소금]]이다.”", "소금은 음식을 맛있게 하고 썩지 않게 지켜 줘요. 예수님을 따르는 사람은 친구들 사이에서 좋은 맛을 내는 사람이에요."]},
-   {"b": "너희는 세상의 빛", "ayə": "5:14–16", "alt": "등잔대 위의 등불이 온 집을 밝히는 모습", "p": ["“너희는 세상의 [[빛]]이다. 등불을 켜서 그릇 아래 두지 않고 [[등잔대]] 위에 두어 온 집을 밝힌다.”", "우리가 착한 일을 하면 사람들이 그것을 보고 하나님께 [[영광]]을 돌려요. 우리는 예수님의 빛을 비추는 작은 등불이에요."]}
-  ],
-  "aye": {"metn": "“너희는 세상의 소금이다. … 너희는 세상의 빛이다.”", "ref": "5:13–14", "bos": "___는 세상의 ___이다. 너희는 세상의 ___이다.", "sozler": ["너희", "소금", "빛"], "yalan": "물"},
-  "lugat": {
-   "산": {"i": "⛰️", "x": "dağ", "m": "땅이 높이 솟은 곳이에요. 예수님은 갈릴리 바다가 보이는 언덕에서 가르치셨어요.", "e": "예수님은 산에 올라가 앉으셨어요."},
-   "복": {"i": "🎁", "x": "bəxtiyar", "m": "하나님이 주시는 참된 기쁨과 좋은 것이에요.", "e": "슬퍼하는 사람은 복이 있어요."},
-   "온유": {"i": "🕊️", "x": "həlim", "m": "화내지 않고 부드럽고 겸손한 마음이에요.", "e": "온유한 사람은 복이 있어요."},
-   "화평": {"i": "🤝", "x": "sülh", "m": "싸움을 멈추고 서로 사이좋게 지내는 거예요.", "e": "화평하게 하는 사람은 하나님의 자녀라 불려요."},
-   "소금": {"i": "🧂", "x": "duz", "m": "음식에 맛을 내고 썩지 않게 지켜 주는 하얀 알갱이예요.", "e": "너희는 세상의 소금이다."},
-   "빛": {"i": "💡", "x": "nur", "m": "어둠을 밝혀서 길을 보이게 해 주는 거예요.", "e": "너희는 세상의 빛이다."},
-   "등잔대": {"i": "🪔", "x": "çıraqdan", "m": "등불을 높이 올려놓는 받침대예요.", "e": "등불은 등잔대 위에 두어요."},
-   "영광": {"i": "✨", "x": "izzət", "m": "하나님이 얼마나 크고 좋으신지 높여 드리는 거예요.", "e": "사람들이 하나님께 영광을 돌려요."}
-  },
-  "test": [
-   {"q": "예수님은 어디에 올라가 가르치셨나요?", "o": ["산", "배", "지붕"], "a": 0, "f": "맞아요! 그래서 ‘산상설교’라고 불러요."},
-   {"q": "예수님이 ‘복이 있다’고 하신 사람은?", "o": ["화평하게 하는 사람", "싸움을 잘하는 사람", "자랑을 많이 하는 사람"], "a": 0, "f": "맞아요! 화평하게 하는 사람은 하나님의 자녀라 불려요."},
-   {"q": "소금은 어떤 일을 하나요?", "o": ["맛을 내고 썩지 않게 해요", "어둠을 밝혀요", "물을 시원하게 해요"], "a": 0, "f": "맞아요! 우리도 좋은 맛을 내는 사람이에요."},
-   {"q": "등불은 어디에 두어야 하나요?", "o": ["등잔대 위", "그릇 아래", "침대 밑"], "a": 0, "f": "맞아요! 높이 두어야 온 집이 밝아요."}
-  ],
-  "dusun": ["예수님이 말씀하신 ‘복 있는 사람’ 중에 나는 어떤 사람이 되고 싶나요?", "우리 반에서 ‘소금’처럼 좋은 맛을 내는 친구는 어떤 친구일까요?", "이번 주에 내 빛을 어떻게 비출 수 있을까요?"],
-  "fealiyyet": {"ciz": "등잔대 위에서 환하게 빛나는 등불과 나를 그려 보세요.", "b": "이번 주 나의 빛", "p": "이번 주에 할 수 있는 착한 일을 써 보세요.", "ph": "예) 엄마가 설거지할 때 도와드릴 거예요."},
-  "dua": "예수님, 약하고 슬픈 사람에게 복을 주시는 사랑에 감사합니다. 저를 세상의 소금과 빛이라고 불러 주셔서 고맙습니다. 이번 주에 착한 일을 해서 예수님의 빛을 비추게 해 주세요. 예수님 이름으로 기도합니다. 아멘."
+ "no": 7,
+ "ref": "5:1–16",
+ "deq": {
+  "usaq": 40,
+  "genc": 50
  },
- "genc": {
-  "basliq": "거꾸로 된 행복",
-  "giris": "세상은 부자, 강한 사람, 웃는 사람이 행복하다고 말합니다. 그런데 예수님은 산 위에서 정반대의 목록을 내놓으셨습니다. 가난한 사람, 우는 사람, 박해받는 사람이 복이 있다고요.",
-  "meqsed": ["산상설교의 시작인 팔복의 구조와 뜻을 이해해요.", "‘복’이 하나님 나라의 선물이라는 점을 설명할 수 있어요.", "소금과 빛으로서 내 자리에서 드러낼 삶을 정해요."],
-  "sehneler": [
-   {"b": "새 모세, 새 산", "ayə": "5:1–2", "alt": "산 위에 앉아 사람들을 가르치시는 예수님", "p": ["예수님은 무리를 보시고 [[산]]에 올라가 앉으셨어요. 당시 선생님은 앉아서 가르쳤어요. 권위 있는 가르침이 시작된다는 신호예요.", "마태복음 독자들은 이 장면에서 시내산의 모세를 떠올렸을 거예요. 모세가 산에서 율법을 받았듯, 예수님은 산에서 하나님 나라의 삶을 가르치세요."], "deep": {"b": "깊이 보기 · 다섯 개의 설교", "p": "마태복음에는 큰 설교가 다섯 번 나와요(5–7, 10, 13, 18, 24–25장). 모세오경 다섯 권을 떠올리게 하는 구조예요. 산상설교는 그 첫 번째이자 가장 유명한 설교예요."}},
-   {"b": "팔복: 거꾸로 된 행복", "ayə": "5:3–12", "alt": "슬퍼하는 사람을 위로하시는 예수님", "p": ["“[[심령이 가난한]] 자는 복이 있나니 천국이 그들의 것임이요.” 예수님은 여덟 번 “복이 있다”고 선언하세요.", "이것은 ‘이렇게 하면 복을 받는다’는 조건 목록이 아니에요. 하나님 나라가 이미 이런 사람들에게 열려 있다는 [[복]]된 선언이에요."], "deep": {"b": "깊이 보기 · 처음과 끝", "p": "첫째 복(5:3)과 여덟째 복(5:10)은 똑같이 “천국이 그들의 것”으로 끝나요. 이 틀 안에 있는 모든 복이 하나님 나라에 대한 것이라는 뜻이에요. 앞의 넷은 하나님 앞에서의 가난함, 뒤의 넷은 이웃을 향한 삶이에요."}},
-   {"b": "맛을 잃은 소금", "ayə": "5:13", "alt": "음식에 소금을 넣는 가족", "p": ["“너희는 세상의 [[소금]]이다.” 소금은 맛을 내고, 고기가 썩지 않게 지키는 귀한 물건이었어요.", "사해 근처에서 나는 소금은 불순물이 섞여서 짠맛이 빠지면 쓸모없어졌어요. 예수님의 제자가 세상과 똑같아지면 맛을 잃은 소금이 돼요."], "deep": {"b": "깊이 보기 · ‘너희는 ~이다’", "p": "예수님은 “소금이 되어라”가 아니라 “소금이다”라고 하세요. 이미 주어진 정체성이에요. 문제는 소금이 되느냐가 아니라 맛을 잃지 않느냐예요.", "rose": true}},
-   {"b": "숨길 수 없는 빛", "ayə": "5:14–16", "alt": "등잔대 위의 등불이 온 집을 밝히는 모습", "p": ["“너희는 세상의 [[빛]]이다. 산 위에 있는 동네는 숨겨질 수 없다.” 갈릴리 언덕 위의 마을은 밤에도 멀리서 보였어요.", "작은 흙 등잔 하나가 방 하나짜리 집 전체를 밝혔어요. 우리의 착한 행실을 보고 사람들이 하늘 아버지께 [[영광]]을 돌려요. 나를 자랑하는 빛이 아니라 하나님을 가리키는 빛이에요."], "deep": {"b": "깊이 보기 · 6:1과의 긴장", "p": "5:16은 “보이게 하라”고, 6:1은 “보이려고 하지 말라”고 해요. 모순이 아니에요. 차이는 목적이에요. 하나님이 영광을 받으시면 빛이고, 내가 칭찬받으려 하면 연극이에요."}}
-  ],
-  "cedvel": {"b": "팔복 한눈에 보기", "alt": "5:3–10", "bas": ["복 있는 사람", "받을 약속"], "set": [["심령이 가난한 사람", "천국이 그들의 것"], ["애통하는 사람", "위로를 받음"], ["온유한 사람", "땅을 기업으로 받음"], ["의에 주리고 목마른 사람", "배부름"], ["긍휼히 여기는 사람", "긍휼히 여김을 받음"], ["마음이 청결한 사람", "하나님을 봄"], ["화평하게 하는 사람", "하나님의 아들이라 불림"], ["의를 위해 박해받는 사람", "천국이 그들의 것"]]},
-  "aye": {"metn": "“이같이 너희 빛이 사람 앞에 비치게 하여, 그들이 너희 착한 행실을 보고 하늘에 계신 너희 아버지께 영광을 돌리게 하라.”", "ref": "5:16"},
-  "lugat": {
-   "산": {"i": "⛰️", "o": "헬라어 오로스", "x": "dağ", "s": "계시의 장소", "m": "성경에서 산은 하나님이 말씀하시는 곳이에요. 시내산의 모세, 갈멜산의 엘리야를 떠올리게 해요.", "e": "전통적으로 가버나움 근처 언덕을 ‘팔복산’이라고 불러요."},
-   "심령이 가난한": {"i": "🙏", "o": "헬라어 프토코이 토 프뉴마티", "x": "ruhən yoxsul", "s": "하나님 없이는 아무것도 없음을 아는 사람", "m": "‘프토코스’는 구걸해야 살 수 있는 가난을 뜻해요. 하나님 앞에서 빈손인 것을 아는 사람이에요.", "e": "자기 힘을 자랑하는 사람은 하나님 나라를 받을 빈손이 없어요."},
-   "복": {"i": "🎁", "o": "헬라어 마카리오스", "x": "bəxtiyar", "s": "하나님이 인정하신 참된 행복", "m": "기분 좋은 상태가 아니라 하나님이 “잘됐다”고 선언하시는 상태예요.", "e": "아제르바이잔어 성경은 “Nə bəxtiyardır …!”라고 옮겨요."},
-   "소금": {"i": "🧂", "o": "헬라어 할라스", "x": "duz", "s": "맛과 보존", "m": "냉장고가 없던 시대에 고기와 생선이 썩지 않게 지키는 귀한 물건이었어요. 언약의 상징이기도 했어요(레 2:13).", "e": "갈릴리 막달라 마을은 생선 소금 절이기로 유명했어요."},
-   "빛": {"i": "💡", "o": "헬라어 포스", "x": "nur", "s": "어둠을 이기는 하나님의 임재", "m": "이사야는 이스라엘이 ‘이방의 빛’이 되리라고 했어요(사 49:6). 예수님은 그 사명을 제자들에게 주세요.", "e": "4:16의 ‘큰 빛’이 이제 제자들을 통해 비쳐요."},
-   "영광": {"i": "✨", "o": "헬라어 독사", "x": "izzət", "s": "하나님의 무게와 아름다움", "m": "히브리어 ‘카보드’는 ‘무게’라는 뜻도 있어요. 하나님이 얼마나 크신지 드러나는 거예요.", "e": "우리의 착한 행실은 하나님께 영광이 돌아가게 해요."}
+ "img": [
+  "13-dagustu-vaaz.jpg",
+  "matta/07-xosbext.jpg",
+  "matta/07-duz.jpg",
+  "matta/07-isiq.jpg"
+ ],
+ "hero": 0,
+ "ko": {
+  "usaq": {
+   "basliq": "세상의 소금과 빛",
+   "hedef": [
+    "예수님이 산 위에서 가르치신 ‘복’의 말씀을 알아요.",
+    "하나님이 어떤 사람에게 복을 주시는지 배워요.",
+    "내가 세상의 소금과 빛으로 살 방법을 찾아요."
+   ],
+   "sehneler": [
+    {
+     "b": "산 위의 선생님",
+     "ayə": "5:1–2",
+     "alt": "산 위에 앉아 사람들을 가르치시는 예수님",
+     "p": [
+      "많은 사람이 예수님을 따라왔어요. 예수님은 [[산]]에 올라가 앉으셨고, 제자들과 사람들이 둘러앉았어요.",
+      "예수님이 입을 열어 가르치기 시작하셨어요. 이 말씀을 ‘산 위에서 하신 설교’라고 불러요."
+     ]
+    },
+    {
+     "b": "이런 사람은 복이 있어요",
+     "ayə": "5:3–12",
+     "alt": "슬퍼하는 사람을 위로하시는 예수님",
+     "p": [
+      "예수님은 놀라운 말씀을 하셨어요. “마음이 가난한 사람은 [[복]]이 있어요. 슬퍼하는 사람은 복이 있어요. 하나님이 위로해 주실 거예요.”",
+      "“[[온유]]한 사람, 남을 불쌍히 여기는 사람, 마음이 깨끗한 사람, [[화평]]하게 하는 사람은 복이 있어요.” 하나님은 약하고 겸손한 사람을 귀하게 보세요."
+     ]
+    },
+    {
+     "b": "너희는 세상의 소금",
+     "ayə": "5:13",
+     "alt": "음식에 소금을 넣는 가족",
+     "p": [
+      "예수님이 말씀하셨어요. “너희는 세상의 [[소금]]이다.”",
+      "소금은 음식을 맛있게 하고 썩지 않게 지켜 줘요. 예수님을 따르는 사람은 친구들 사이에서 좋은 맛을 내는 사람이에요."
+     ]
+    },
+    {
+     "b": "너희는 세상의 빛",
+     "ayə": "5:14–16",
+     "alt": "등잔대 위의 등불이 온 집을 밝히는 모습",
+     "p": [
+      "“너희는 세상의 [[빛]]이다. 등불을 켜서 그릇 아래 두지 않고 [[등잔대]] 위에 두어 온 집을 밝힌다.”",
+      "우리가 착한 일을 하면 사람들이 그것을 보고 하나님께 [[영광]]을 돌려요. 우리는 예수님의 빛을 비추는 작은 등불이에요."
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "“너희는 세상의 소금이다. … 너희는 세상의 빛이다.”",
+    "ref": "5:13–14",
+    "bos": "___는 세상의 ___이다. 너희는 세상의 ___이다.",
+    "sozler": [
+     "너희",
+     "소금",
+     "빛"
+    ],
+    "yalan": "물"
+   },
+   "lugat": {
+    "산": {
+     "i": "⛰️",
+     "x": "dağ",
+     "m": "땅이 높이 솟은 곳이에요. 예수님은 갈릴리 바다가 보이는 언덕에서 가르치셨어요.",
+     "e": "예수님은 산에 올라가 앉으셨어요."
+    },
+    "복": {
+     "i": "🎁",
+     "x": "bəxtiyar",
+     "m": "하나님이 주시는 참된 기쁨과 좋은 것이에요.",
+     "e": "슬퍼하는 사람은 복이 있어요."
+    },
+    "온유": {
+     "i": "🕊️",
+     "x": "həlim",
+     "m": "화내지 않고 부드럽고 겸손한 마음이에요.",
+     "e": "온유한 사람은 복이 있어요."
+    },
+    "화평": {
+     "i": "🤝",
+     "x": "sülh",
+     "m": "싸움을 멈추고 서로 사이좋게 지내는 거예요.",
+     "e": "화평하게 하는 사람은 하나님의 자녀라 불려요."
+    },
+    "소금": {
+     "i": "🧂",
+     "x": "duz",
+     "m": "음식에 맛을 내고 썩지 않게 지켜 주는 하얀 알갱이예요.",
+     "e": "너희는 세상의 소금이다."
+    },
+    "빛": {
+     "i": "💡",
+     "x": "nur",
+     "m": "어둠을 밝혀서 길을 보이게 해 주는 거예요.",
+     "e": "너희는 세상의 빛이다."
+    },
+    "등잔대": {
+     "i": "🪔",
+     "x": "çıraqdan",
+     "m": "등불을 높이 올려놓는 받침대예요.",
+     "e": "등불은 등잔대 위에 두어요."
+    },
+    "영광": {
+     "i": "✨",
+     "x": "izzət",
+     "m": "하나님이 얼마나 크고 좋으신지 높여 드리는 거예요.",
+     "e": "사람들이 하나님께 영광을 돌려요."
+    }
+   },
+   "test": [
+    {
+     "q": "예수님은 어디에 올라가 가르치셨나요?",
+     "o": [
+      "산",
+      "배",
+      "지붕"
+     ],
+     "a": 0,
+     "f": "맞아요! 그래서 ‘산상설교’라고 불러요."
+    },
+    {
+     "q": "예수님이 ‘복이 있다’고 하신 사람은?",
+     "o": [
+      "화평하게 하는 사람",
+      "싸움을 잘하는 사람",
+      "자랑을 많이 하는 사람"
+     ],
+     "a": 0,
+     "f": "맞아요! 화평하게 하는 사람은 하나님의 자녀라 불려요."
+    },
+    {
+     "q": "소금은 어떤 일을 하나요?",
+     "o": [
+      "맛을 내고 썩지 않게 해요",
+      "어둠을 밝혀요",
+      "물을 시원하게 해요"
+     ],
+     "a": 0,
+     "f": "맞아요! 우리도 좋은 맛을 내는 사람이에요."
+    },
+    {
+     "q": "등불은 어디에 두어야 하나요?",
+     "o": [
+      "등잔대 위",
+      "그릇 아래",
+      "침대 밑"
+     ],
+     "a": 0,
+     "f": "맞아요! 높이 두어야 온 집이 밝아요."
+    }
+   ],
+   "dusun": [
+    "예수님이 말씀하신 ‘복 있는 사람’ 중에 나는 어떤 사람이 되고 싶나요?",
+    "우리 반에서 ‘소금’처럼 좋은 맛을 내는 친구는 어떤 친구일까요?",
+    "이번 주에 내 빛을 어떻게 비출 수 있을까요?"
+   ],
+   "fealiyyet": {
+    "ciz": "등잔대 위에서 환하게 빛나는 등불과 나를 그려 보세요.",
+    "b": "이번 주 나의 빛",
+    "p": "이번 주에 할 수 있는 착한 일을 써 보세요.",
+    "ph": "예) 엄마가 설거지할 때 도와드릴 거예요."
+   },
+   "dua": "예수님, 약하고 슬픈 사람에게 복을 주시는 사랑에 감사합니다. 저를 세상의 소금과 빛이라고 불러 주셔서 고맙습니다. 이번 주에 착한 일을 해서 예수님의 빛을 비추게 해 주세요. 예수님 이름으로 기도합니다. 아멘."
   },
-  "test": [
-   {"q": "예수님이 산에서 앉아 가르치신 모습이 떠올리게 하는 구약 인물은?", "o": ["모세", "삼손", "요나"], "a": 0, "f": "맞아요. 시내산에서 율법을 받은 모세예요."},
-   {"q": "첫째 복과 여덟째 복에 공통으로 나오는 약속은?", "o": ["천국이 그들의 것", "땅을 받음", "배부름"], "a": 0, "f": "맞아요. 팔복 전체를 감싸는 틀이에요."},
-   {"q": "‘심령이 가난한 사람’의 뜻으로 가장 알맞은 것은?", "o": ["하나님 앞에서 빈손임을 아는 사람", "돈이 없는 사람", "마음이 우울한 사람"], "a": 0, "f": "맞아요. 그래서 하나님 나라를 받을 수 있어요."},
-   {"q": "예수님은 제자들에게 무엇이라고 말씀하셨나요?", "o": ["너희는 세상의 소금이다", "너희는 소금이 되어라", "너희는 소금을 팔아라"], "a": 0, "f": "맞아요. 이미 주어진 정체성이에요."},
-   {"q": "우리의 착한 행실을 보고 사람들이 영광을 돌릴 대상은?", "o": ["하늘에 계신 아버지", "나 자신", "우리 교회 건물"], "a": 0, "f": "맞아요. 빛은 하나님을 가리켜요."}
-  ],
-  "paylas": ["팔복 가운데 지금 내 마음에 가장 크게 다가오는 복은 무엇인가요? 왜 그런가요?", "세상이 말하는 행복과 예수님이 말씀하신 복은 어떻게 다른가요?", "내가 ‘맛을 잃은 소금’처럼 주변과 똑같아지는 순간은 언제인가요?", "학교나 SNS에서 하나님을 가리키는 빛으로 사는 구체적인 방법은 무엇일까요?"],
-  "etiraf": {"b": "나의 고백", "p": "팔복 중 하나를 골라, 그 복을 받은 사람으로 이번 주를 어떻게 살지 서너 문장으로 써 보세요.", "ph": "예) 저는 화평하게 하는 사람이 되고 싶어요. 이번 주에 다투고 있는 친구에게 …"},
-  "dua": "예수님, 세상과 다른 행복을 가르쳐 주셔서 감사합니다. 하나님 앞에서 빈손인 저를 받아 주세요. 제가 맛을 잃지 않는 소금, 숨기지 않는 빛이 되어 사람들이 하늘 아버지를 보게 해 주세요. 예수님 이름으로 기도합니다. 아멘."
- }
-},
-"az": {
- "usaq": {
-  "basliq": "Dünyanın duzu və nuru",
-  "hedef": ["İsanın dağda öyrətdiyi “bəxtiyar” sözlərini öyrənəcəyik.", "Allahın kimə xeyir-dua verdiyini öyrənəcəyik.", "Dünyanın duzu və nuru kimi necə yaşaya biləcəyimizi tapacağıq."],
-  "sehneler": [
-   {"b": "Dağdakı Müəllim", "ayə": "Matta 5:1–2", "alt": "Dağda oturub insanlara öyrədən İsa", "p": ["Çox adam İsanın ardınca gəldi. İsa [[dağ]]a çıxıb oturdu, şagirdləri və insanlar Onun ətrafında oturdular.", "İsa danışıb öyrətməyə başladı. Bu sözlərə “Dağüstü vəz” deyilir."]},
-   {"b": "Belələri bəxtiyardır", "ayə": "Matta 5:3–12", "alt": "Kədərli adama təsəlli verən İsa", "p": ["İsa heyrətamiz sözlər dedi: “Ruhən yoxsul olanlar [[bəxtiyar]]dır. Yas tutanlar bəxtiyardır, çünki Allah onlara təsəlli verəcək.”", "“[[Həlim]] olanlar, mərhəmətlilər, ürəyi pak olanlar, [[sülh]] yaradanlar bəxtiyardır.” Allah zəif və təvazökar insanları çox qiymətli sayır."]},
-   {"b": "Siz dünyanın duzusunuz", "ayə": "Matta 5:13", "alt": "Yeməyə duz əlavə edən ailə", "p": ["İsa dedi: “Siz dünyanın [[duz]]usunuz.”", "Duz yeməyi dadlı edir və xarab olmağa qoymur. İsanın ardınca gedən insan dostları arasında yaxşı dad verən insandır."]},
-   {"b": "Siz dünyanın nurusunuz", "ayə": "Matta 5:14–16", "alt": "Çıraqdan üstündəki çıraq bütün evi işıqlandırır", "p": ["“Siz dünyanın [[nur]]usunuz. Çırağı yandırıb qabın altına qoymurlar, onu [[çıraqdan]] üstünə qoyurlar ki, evdəkilərin hamısına işıq versin.”", "Biz yaxşı işlər görəndə insanlar bunu görüb Allahı [[izzətləndirirlər|izzət]]. Biz İsanın nurunu saçan kiçik çıraqlarıq."]}
-  ],
-  "aye": {"metn": "“Siz dünyanın duzusunuz. … Siz dünyanın nurusunuz.”", "ref": "5:13–14", "bos": "Siz dünyanın ___. Siz ___ ___.", "sozler": ["duzusunuz", "dünyanın", "nurusunuz"], "yalan": "suyusunuz"},
-  "lugat": {
-   "dağ": {"i": "⛰️", "x": "산", "m": "Yerin hündür qalxan yeridir. İsa Qalileya gölü görünən təpədə öyrədirdi.", "e": "İsa dağa çıxıb oturdu."},
-   "bəxtiyar": {"i": "🎁", "x": "복 있는", "m": "Allahın verdiyi əsl sevinci və xeyir-duanı alan insandır.", "e": "Yas tutanlar bəxtiyardır."},
-   "həlim": {"i": "🕊️", "x": "온유한", "m": "Hirslənməyən, yumşaq və təvazökar ürəkli insandır.", "e": "Həlim olanlar bəxtiyardır."},
-   "sülh": {"i": "🤝", "x": "화평", "m": "Dava-qalmağalı dayandırıb mehriban yaşamaqdır.", "e": "Sülh yaradanlar Allahın övladları adlanacaq."},
-   "duz": {"i": "🧂", "x": "소금", "m": "Yeməyə dad verən və onu xarab olmağa qoymayan ağ dənəciklərdir.", "e": "Siz dünyanın duzusunuz."},
-   "nur": {"i": "💡", "x": "빛", "m": "Qaranlığı işıqlandırıb yolu göstərən işıqdır.", "e": "Siz dünyanın nurusunuz."},
-   "çıraqdan": {"i": "🪔", "x": "등잔대", "m": "Çırağı hündürə qoymaq üçün dayaqdır.", "e": "Çırağı çıraqdan üstünə qoyurlar."},
-   "izzət": {"i": "✨", "x": "영광", "m": "Allahın nə qədər böyük və yaxşı olduğunu tərifləməkdir.", "e": "İnsanlar Allahı izzətləndirirlər."}
-  },
-  "test": [
-   {"q": "İsa harada oturub öyrədirdi?", "o": ["Dağda", "Qayıqda", "Damda"], "a": 0, "f": "Düzdür! Buna görə “Dağüstü vəz” deyilir."},
-   {"q": "İsa kimin “bəxtiyar” olduğunu dedi?", "o": ["Sülh yaradanların", "Dava edənlərin", "Çox öyünənlərin"], "a": 0, "f": "Düzdür! Sülh yaradanlar Allahın övladları adlanacaq."},
-   {"q": "Duz nə edir?", "o": ["Dad verir və xarab olmağa qoymur", "Qaranlığı işıqlandırır", "Suyu sərinləşdirir"], "a": 0, "f": "Düzdür! Biz də yaxşı dad verən insanlarıq."},
-   {"q": "Çırağı hara qoymaq lazımdır?", "o": ["Çıraqdan üstünə", "Qabın altına", "Çarpayının altına"], "a": 0, "f": "Düzdür! Hündürdə olanda bütün ev işıqlanır."}
-  ],
-  "dusun": ["İsanın dediyi “bəxtiyar” insanlardan hansı olmaq istəyirsən?", "Sinifimizdə “duz” kimi yaxşı dad verən dost necə dostdur?", "Bu həftə öz nurunu necə saça bilərsən?"],
-  "fealiyyet": {"ciz": "Çıraqdan üstündə parlayan çırağı və özünü çək.", "b": "Bu həftə necə nur olacaqsan?", "p": "Bu həftə edə biləcəyin yaxşı işi seç.", "ph": "",
-   "secim": {"basliq": "Bu həftə necə nur olacaqsan?", "izah": "Toxun və seç. Bir neçəsini seçə bilərsən.", "cumle": "Bu həftə mən {x} İsanın nurunu saçacağam!", "bos": "anama kömək edərək", "bag": "və",
-    "secimler": [["🧽", "anama kömək edərək"], ["💬", "dostuma xoş söz deyərək"], ["🍎", "paylaşaraq"], ["🤝", "barışaraq"], ["🙏", "dua edərək"], ["✅", "doğru danışaraq"], ["🧸", "kiçiklərə qayğı göstərərək"], ["😊", "gülümsəyərək"]]}},
-  "dua": "İsa, zəif və kədərli insanlara xeyir-dua verən məhəbbətinə görə Sənə şükür edirəm. Məni dünyanın duzu və nuru adlandırdığın üçün sağ ol. Bu həftə yaxşı işlər görüb Sənin nurunu saçmağıma kömək et. İsa Məsihin adı ilə dua edirəm. Amin."
+  "genc": {
+   "basliq": "거꾸로 된 행복",
+   "giris": "세상은 부자, 강한 사람, 웃는 사람이 행복하다고 말합니다. 그런데 예수님은 산 위에서 정반대의 목록을 내놓으셨습니다. 가난한 사람, 우는 사람, 박해받는 사람이 복이 있다고요.",
+   "meqsed": [
+    "산상설교의 시작인 팔복의 구조와 뜻을 이해해요.",
+    "‘복’이 하나님 나라의 선물이라는 점을 설명할 수 있어요.",
+    "소금과 빛으로서 내 자리에서 드러낼 삶을 정해요."
+   ],
+   "sehneler": [
+    {
+     "b": "새 모세, 새 산",
+     "ayə": "5:1–2",
+     "alt": "산 위에 앉아 사람들을 가르치시는 예수님",
+     "p": [
+      "예수님은 무리를 보시고 [[산]]에 올라가 앉으셨어요. 당시 선생님은 앉아서 가르쳤어요. 권위 있는 가르침이 시작된다는 신호예요.",
+      "마태복음 독자들은 이 장면에서 시내산의 모세를 떠올렸을 거예요. 모세가 산에서 율법을 받았듯, 예수님은 산에서 하나님 나라의 삶을 가르치세요."
+     ],
+     "deep": {
+      "b": "깊이 보기 · 다섯 개의 설교",
+      "p": "마태복음에는 큰 설교가 다섯 번 나와요(5–7, 10, 13, 18, 24–25장). 모세오경 다섯 권을 떠올리게 하는 구조예요. 산상설교는 그 첫 번째이자 가장 유명한 설교예요."
+     }
+    },
+    {
+     "b": "팔복: 거꾸로 된 행복",
+     "ayə": "5:3–12",
+     "alt": "슬퍼하는 사람을 위로하시는 예수님",
+     "p": [
+      "“[[심령이 가난한]] 자는 복이 있나니 천국이 그들의 것임이요.” 예수님은 여덟 번 “복이 있다”고 선언하세요.",
+      "이것은 ‘이렇게 하면 복을 받는다’는 조건 목록이 아니에요. 하나님 나라가 이미 이런 사람들에게 열려 있다는 [[복]]된 선언이에요."
+     ],
+     "deep": {
+      "b": "깊이 보기 · 처음과 끝",
+      "p": "첫째 복(5:3)과 여덟째 복(5:10)은 똑같이 “천국이 그들의 것”으로 끝나요. 이 틀 안에 있는 모든 복이 하나님 나라에 대한 것이라는 뜻이에요. 앞의 넷은 하나님 앞에서의 가난함, 뒤의 넷은 이웃을 향한 삶이에요."
+     }
+    },
+    {
+     "b": "맛을 잃은 소금",
+     "ayə": "5:13",
+     "alt": "음식에 소금을 넣는 가족",
+     "p": [
+      "“너희는 세상의 [[소금]]이다.” 소금은 맛을 내고, 고기가 썩지 않게 지키는 귀한 물건이었어요.",
+      "사해 근처에서 나는 소금은 불순물이 섞여서 짠맛이 빠지면 쓸모없어졌어요. 예수님의 제자가 세상과 똑같아지면 맛을 잃은 소금이 돼요."
+     ],
+     "deep": {
+      "b": "깊이 보기 · ‘너희는 ~이다’",
+      "p": "예수님은 “소금이 되어라”가 아니라 “소금이다”라고 하세요. 이미 주어진 정체성이에요. 문제는 소금이 되느냐가 아니라 맛을 잃지 않느냐예요.",
+      "rose": true
+     }
+    },
+    {
+     "b": "숨길 수 없는 빛",
+     "ayə": "5:14–16",
+     "alt": "등잔대 위의 등불이 온 집을 밝히는 모습",
+     "p": [
+      "“너희는 세상의 [[빛]]이다. 산 위에 있는 동네는 숨겨질 수 없다.” 갈릴리 언덕 위의 마을은 밤에도 멀리서 보였어요.",
+      "작은 흙 등잔 하나가 방 하나짜리 집 전체를 밝혔어요. 우리의 착한 행실을 보고 사람들이 하늘 아버지께 [[영광]]을 돌려요. 나를 자랑하는 빛이 아니라 하나님을 가리키는 빛이에요."
+     ],
+     "deep": {
+      "b": "깊이 보기 · 6:1과의 긴장",
+      "p": "5:16은 “보이게 하라”고, 6:1은 “보이려고 하지 말라”고 해요. 모순이 아니에요. 차이는 목적이에요. 하나님이 영광을 받으시면 빛이고, 내가 칭찬받으려 하면 연극이에요."
+     }
+    }
+   ],
+   "cedvel": {
+    "b": "팔복 한눈에 보기",
+    "alt": "5:3–10",
+    "bas": [
+     "복 있는 사람",
+     "받을 약속"
+    ],
+    "set": [
+     [
+      "심령이 가난한 사람",
+      "천국이 그들의 것"
+     ],
+     [
+      "애통하는 사람",
+      "위로를 받음"
+     ],
+     [
+      "온유한 사람",
+      "땅을 기업으로 받음"
+     ],
+     [
+      "의에 주리고 목마른 사람",
+      "배부름"
+     ],
+     [
+      "긍휼히 여기는 사람",
+      "긍휼히 여김을 받음"
+     ],
+     [
+      "마음이 청결한 사람",
+      "하나님을 봄"
+     ],
+     [
+      "화평하게 하는 사람",
+      "하나님의 아들이라 불림"
+     ],
+     [
+      "의를 위해 박해받는 사람",
+      "천국이 그들의 것"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "“이같이 너희 빛이 사람 앞에 비치게 하여, 그들이 너희 착한 행실을 보고 하늘에 계신 너희 아버지께 영광을 돌리게 하라.”",
+    "ref": "5:16"
+   },
+   "lugat": {
+    "산": {
+     "i": "⛰️",
+     "o": "헬라어 오로스",
+     "x": "dağ",
+     "s": "계시의 장소",
+     "m": "성경에서 산은 하나님이 말씀하시는 곳이에요. 시내산의 모세, 갈멜산의 엘리야를 떠올리게 해요.",
+     "e": "전통적으로 가버나움 근처 언덕을 ‘팔복산’이라고 불러요."
+    },
+    "심령이 가난한": {
+     "i": "🙏",
+     "o": "헬라어 프토코이 토 프뉴마티",
+     "x": "ruhən yoxsul",
+     "s": "하나님 없이는 아무것도 없음을 아는 사람",
+     "m": "‘프토코스’는 구걸해야 살 수 있는 가난을 뜻해요. 하나님 앞에서 빈손인 것을 아는 사람이에요.",
+     "e": "자기 힘을 자랑하는 사람은 하나님 나라를 받을 빈손이 없어요."
+    },
+    "복": {
+     "i": "🎁",
+     "o": "헬라어 마카리오스",
+     "x": "bəxtiyar",
+     "s": "하나님이 인정하신 참된 행복",
+     "m": "기분 좋은 상태가 아니라 하나님이 “잘됐다”고 선언하시는 상태예요.",
+     "e": "아제르바이잔어 성경은 “Nə bəxtiyardır …!”라고 옮겨요."
+    },
+    "소금": {
+     "i": "🧂",
+     "o": "헬라어 할라스",
+     "x": "duz",
+     "s": "맛과 보존",
+     "m": "냉장고가 없던 시대에 고기와 생선이 썩지 않게 지키는 귀한 물건이었어요. 언약의 상징이기도 했어요(레 2:13).",
+     "e": "갈릴리 막달라 마을은 생선 소금 절이기로 유명했어요."
+    },
+    "빛": {
+     "i": "💡",
+     "o": "헬라어 포스",
+     "x": "nur",
+     "s": "어둠을 이기는 하나님의 임재",
+     "m": "이사야는 이스라엘이 ‘이방의 빛’이 되리라고 했어요(사 49:6). 예수님은 그 사명을 제자들에게 주세요.",
+     "e": "4:16의 ‘큰 빛’이 이제 제자들을 통해 비쳐요."
+    },
+    "영광": {
+     "i": "✨",
+     "o": "헬라어 독사",
+     "x": "izzət",
+     "s": "하나님의 무게와 아름다움",
+     "m": "히브리어 ‘카보드’는 ‘무게’라는 뜻도 있어요. 하나님이 얼마나 크신지 드러나는 거예요.",
+     "e": "우리의 착한 행실은 하나님께 영광이 돌아가게 해요."
+    }
+   },
+   "test": [
+    {
+     "q": "예수님이 산에서 앉아 가르치신 모습이 떠올리게 하는 구약 인물은?",
+     "o": [
+      "모세",
+      "삼손",
+      "요나"
+     ],
+     "a": 0,
+     "f": "맞아요. 시내산에서 율법을 받은 모세예요."
+    },
+    {
+     "q": "첫째 복과 여덟째 복에 공통으로 나오는 약속은?",
+     "o": [
+      "천국이 그들의 것",
+      "땅을 받음",
+      "배부름"
+     ],
+     "a": 0,
+     "f": "맞아요. 팔복 전체를 감싸는 틀이에요."
+    },
+    {
+     "q": "‘심령이 가난한 사람’의 뜻으로 가장 알맞은 것은?",
+     "o": [
+      "하나님 앞에서 빈손임을 아는 사람",
+      "돈이 없는 사람",
+      "마음이 우울한 사람"
+     ],
+     "a": 0,
+     "f": "맞아요. 그래서 하나님 나라를 받을 수 있어요."
+    },
+    {
+     "q": "예수님은 제자들에게 무엇이라고 말씀하셨나요?",
+     "o": [
+      "너희는 세상의 소금이다",
+      "너희는 소금이 되어라",
+      "너희는 소금을 팔아라"
+     ],
+     "a": 0,
+     "f": "맞아요. 이미 주어진 정체성이에요."
+    },
+    {
+     "q": "우리의 착한 행실을 보고 사람들이 영광을 돌릴 대상은?",
+     "o": [
+      "하늘에 계신 아버지",
+      "나 자신",
+      "우리 교회 건물"
+     ],
+     "a": 0,
+     "f": "맞아요. 빛은 하나님을 가리켜요."
+    }
+   ],
+   "paylas": [
+    "팔복 가운데 지금 내 마음에 가장 크게 다가오는 복은 무엇인가요? 왜 그런가요?",
+    "세상이 말하는 행복과 예수님이 말씀하신 복은 어떻게 다른가요?",
+    "내가 ‘맛을 잃은 소금’처럼 주변과 똑같아지는 순간은 언제인가요?",
+    "학교나 SNS에서 하나님을 가리키는 빛으로 사는 구체적인 방법은 무엇일까요?"
+   ],
+   "etiraf": {
+    "b": "나의 고백",
+    "p": "팔복 중 하나를 골라, 그 복을 받은 사람으로 이번 주를 어떻게 살지 서너 문장으로 써 보세요.",
+    "ph": "예) 저는 화평하게 하는 사람이 되고 싶어요. 이번 주에 다투고 있는 친구에게 …"
+   },
+   "dua": "예수님, 세상과 다른 행복을 가르쳐 주셔서 감사합니다. 하나님 앞에서 빈손인 저를 받아 주세요. 제가 맛을 잃지 않는 소금, 숨기지 않는 빛이 되어 사람들이 하늘 아버지를 보게 해 주세요. 예수님 이름으로 기도합니다. 아멘."
+  }
  },
- "genc": {
-  "basliq": "Tərsinə çevrilmiş xoşbəxtlik",
-  "giris": "Dünya deyir ki, varlılar, güclülər və gülənlər xoşbəxtdir. İsa isə dağda tam əks siyahı təqdim etdi: yoxsullar, ağlayanlar və təqib olunanlar bəxtiyardır.",
-  "meqsed": ["Dağüstü vəzin başlanğıcı olan bəxtiyarlıq sözlərinin quruluşunu və mənasını anlayırıq.", "“Bəxtiyarlığın” Allahın Padşahlığının hədiyyəsi olduğunu izah edə bilirik.", "Duz və nur kimi öz yerimizdə göstərəcəyimiz həyatı müəyyən edirik."],
-  "sehneler": [
-   {"b": "Yeni Musa, yeni dağ", "ayə": "Matta 5:1–2", "alt": "Dağda oturub insanlara öyrədən İsa", "p": ["İsa izdihamı görüb [[dağ]]a çıxdı və oturdu. O dövrdə müəllimlər oturub öyrədirdi. Bu, nüfuzlu təlimin başladığını göstərirdi.", "Mattanın oxucuları bu səhnədə Sina dağındakı Musanı xatırlayırdılar. Musa dağda Qanunu aldığı kimi, İsa da dağda Allahın Padşahlığının həyatını öyrədir."], "deep": {"b": "Dərindən baxaq · Beş böyük vəz", "p": "Matta Müjdəsində beş böyük vəz var (5–7, 10, 13, 18, 24–25-ci fəsillər). Bu quruluş Tövratın beş kitabını xatırladır. Dağüstü vəz onların birincisi və ən məşhurudur."}},
-   {"b": "Tərsinə çevrilmiş xoşbəxtlik", "ayə": "Matta 5:3–12", "alt": "Kədərli adama təsəlli verən İsa", "p": ["“Nə bəxtiyardır [[ruhən yoxsul]] olanlar! Çünki Səmavi Padşahlıq onlarındır.” İsa səkkiz dəfə “bəxtiyardır” deyə elan edir.", "Bu, “belə etsən, xeyir-dua alarsan” şərtləri siyahısı deyil. Bu, Allahın Padşahlığının artıq belə insanlara açıq olduğunu bildirən [[bəxtiyar]]lıq elanıdır."], "deep": {"b": "Dərindən baxaq · Başlanğıc və son", "p": "Birinci (5:3) və səkkizinci (5:10) bəxtiyarlıq eyni sözlə bitir: “Səmavi Padşahlıq onlarındır.” Bu çərçivə içindəki bütün xeyir-dualar Allahın Padşahlığı haqqındadır. İlk dördü Allah qarşısında yoxsulluq, son dördü isə qonşuya yönəlmiş həyatdır."}},
-   {"b": "Dadını itirmiş duz", "ayə": "Matta 5:13", "alt": "Yeməyə duz əlavə edən ailə", "p": ["“Siz dünyanın [[duz]]usunuz.” Duz dad verən və əti xarab olmaqdan qoruyan qiymətli şey idi.", "Ölü dəniz yaxınlığından çıxan duzda qatışıq olurdu, duzluluğu gedəndə yararsız qalırdı. İsanın şagirdi dünyaya tamamilə bənzəyəndə dadını itirmiş duza çevrilir."], "deep": {"b": "Dərindən baxaq · “Sizsiniz”", "p": "İsa “duz olun” demir, “duzsunuz” deyir. Bu, artıq verilmiş kimlikdir. Məsələ duz olub-olmamaq deyil, dadı itirməməkdir.", "rose": true}},
-   {"b": "Gizlənə bilməyən nur", "ayə": "Matta 5:14–16", "alt": "Çıraqdan üstündəki çıraq bütün evi işıqlandırır", "p": ["“Siz dünyanın [[nur]]usunuz. Dağın üstündə qurulan şəhər gizli qala bilməz.” Qalileya təpələrindəki kəndlər gecə də uzaqdan görünürdü.", "Kiçik bir gil çıraq birotaqlı evin hamısını işıqlandırırdı. Yaxşı əməllərimizi görən insanlar Səmavi Atanı [[izzət]]ləndirir. Bu, özümüzü öyən nur deyil, Allahı göstərən nurdur."], "deep": {"b": "Dərindən baxaq · 6:1 ilə gərginlik", "p": "5:16 “qoy görsünlər” deyir, 6:1 isə “görünmək üçün etməyin” deyir. Bu, ziddiyyət deyil. Fərq məqsəddədir. Allah izzətlənirsə, bu nurdur; mən tərif almaq istəyirəmsə, bu tamaşadır."}}
-  ],
-  "cedvel": {"b": "Bəxtiyarlıq sözlərinə bir baxış", "alt": "5:3–10", "bas": ["Bəxtiyar olan", "Vəd"], "set": [["Ruhən yoxsul olanlar", "Səmavi Padşahlıq onlarındır"], ["Yas tutanlar", "Təsəlli tapacaqlar"], ["Həlim olanlar", "Yer üzünü irs alacaqlar"], ["Salehliyə ac və susuz olanlar", "Doyacaqlar"], ["Mərhəmətli olanlar", "Mərhəmət görəcəklər"], ["Ürəyi pak olanlar", "Allahı görəcəklər"], ["Sülh yaradanlar", "Allahın övladları adlanacaqlar"], ["Salehlik naminə təqib olunanlar", "Səmavi Padşahlıq onlarındır"]]},
-  "aye": {"metn": "“Qoy sizin nurunuz insanların qarşısında elə parlasın ki, yaxşı əməllərinizi görüb göylərdə olan Atanızı izzətləndirsinlər.”", "ref": "5:16"},
-  "lugat": {
-   "dağ": {"i": "⛰️", "o": "Yunanca oros", "x": "산", "s": "Vəhy yeri", "m": "Müqəddəs Kitabda dağ Allahın danışdığı yerdir. Sina dağındakı Musanı, Karmel dağındakı İlyası xatırladır.", "e": "Ənənəyə görə Kəfərnahum yaxınlığındakı təpəni “Bəxtiyarlıq dağı” adlandırırlar."},
-   "ruhən yoxsul": {"i": "🙏", "o": "Yunanca ptoxoi to pnevmati", "x": "심령이 가난한", "s": "Allahsız heç nəyi olmadığını bilən insan", "m": "“Ptoxos” dilənməklə yaşayan yoxsulluğu bildirir. Allah qarşısında əliboş olduğunu bilən insandır.", "e": "Öz gücü ilə öyünən insanın Allahın Padşahlığını almağa boş əli yoxdur."},
-   "bəxtiyar": {"i": "🎁", "o": "Yunanca makarios", "x": "복 있는", "s": "Allahın təsdiq etdiyi əsl xoşbəxtlik", "m": "Yaxşı əhval deyil, Allahın “yaxşıdır” deyə elan etdiyi vəziyyətdir.", "e": "Koreya dilində “bok itneun” deyilir."},
-   "duz": {"i": "🧂", "o": "Yunanca halas", "x": "소금", "s": "Dad və qoruma", "m": "Soyuducu olmayan dövrdə əti və balığı xarab olmaqdan qoruyan qiymətli şey idi. Həm də əhdin rəmzi idi (Lev. 2:13).", "e": "Qalileyadakı Maqdala kəndi balıq duzlamaqla məşhur idi."},
-   "nur": {"i": "💡", "o": "Yunanca fos", "x": "빛", "s": "Qaranlığa qalib gələn Allahın hüzuru", "m": "Yeşaya İsrailin “millətlərə nur” olacağını demişdi (Yeş. 49:6). İsa bu vəzifəni şagirdlərinə verir.", "e": "4:16-dakı “böyük işıq” indi şagirdlər vasitəsilə parlayır."},
-   "izzət": {"i": "✨", "o": "Yunanca doksa", "x": "영광", "s": "Allahın əzəməti və gözəlliyi", "m": "İbranicə “kavod” sözü həm də “ağırlıq” deməkdir. Allahın nə qədər böyük olduğunun görünməsidir.", "e": "Yaxşı əməllərimiz izzəti Allaha aparır."}
+ "az": {
+  "usaq": {
+   "basliq": "Dünyanın duzu və nuru",
+   "hedef": [
+    "İsanın dağda öyrətdiyi “bəxtiyar” sözlərini öyrənəcəyik.",
+    "Allahın kimə xeyir-dua verdiyini öyrənəcəyik.",
+    "Dünyanın duzu və nuru kimi necə yaşaya biləcəyimizi tapacağıq."
+   ],
+   "sehneler": [
+    {
+     "b": "Dağdakı Müəllim",
+     "ayə": "Matta 5:1–2",
+     "alt": "Dağda oturub insanlara öyrədən İsa",
+     "p": [
+      "Çox adam İsanın ardınca gəldi. İsa [[dağ]]a çıxıb oturdu, şagirdləri və insanlar Onun ətrafında oturdular.",
+      "İsa danışıb öyrətməyə başladı. Bu sözlərə “Dağüstü vəz” deyilir."
+     ]
+    },
+    {
+     "b": "Belələri bəxtiyardır",
+     "ayə": "Matta 5:3–12",
+     "alt": "Kədərli adama təsəlli verən İsa",
+     "p": [
+      "İsa heyrətamiz sözlər dedi: “Ruhən yoxsul olanlar [[bəxtiyar]]dır. Yas tutanlar bəxtiyardır, çünki Allah onlara təsəlli verəcək.”",
+      "“[[Həlim]] olanlar, mərhəmətlilər, ürəyi pak olanlar, [[sülh]] yaradanlar bəxtiyardır.” Allah zəif və təvazökar insanları çox qiymətli sayır."
+     ]
+    },
+    {
+     "b": "Siz dünyanın duzusunuz",
+     "ayə": "Matta 5:13",
+     "alt": "Yeməyə duz əlavə edən ailə",
+     "p": [
+      "İsa dedi: “Siz dünyanın [[duz]]usunuz.”",
+      "Duz yeməyi dadlı edir və xarab olmağa qoymur. İsanın ardınca gedən insan dostları arasında yaxşı dad verən insandır."
+     ]
+    },
+    {
+     "b": "Siz dünyanın nurusunuz",
+     "ayə": "Matta 5:14–16",
+     "alt": "Çıraqdan üstündəki çıraq bütün evi işıqlandırır",
+     "p": [
+      "“Siz dünyanın [[nur]]usunuz. Çırağı yandırıb qabın altına qoymurlar, onu [[çıraqdan]] üstünə qoyurlar ki, evdəkilərin hamısına işıq versin.”",
+      "Biz yaxşı işlər görəndə insanlar bunu görüb Allahı [[izzətləndirirlər|izzət]]. Biz İsanın nurunu saçan kiçik çıraqlarıq."
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "“Siz dünyanın duzusunuz. … Siz dünyanın nurusunuz.”",
+    "ref": "5:13–14",
+    "bos": "Siz dünyanın ___. Siz ___ ___.",
+    "sozler": [
+     "duzusunuz",
+     "dünyanın",
+     "nurusunuz"
+    ],
+    "yalan": "suyusunuz"
+   },
+   "lugat": {
+    "dağ": {
+     "i": "⛰️",
+     "x": "산",
+     "m": "Yerin hündür qalxan yeridir. İsa Qalileya gölü görünən təpədə öyrədirdi.",
+     "e": "İsa dağa çıxıb oturdu."
+    },
+    "bəxtiyar": {
+     "i": "🎁",
+     "x": "복 있는",
+     "m": "Allahın verdiyi əsl sevinci və xeyir-duanı alan insandır.",
+     "e": "Yas tutanlar bəxtiyardır."
+    },
+    "həlim": {
+     "i": "🕊️",
+     "x": "온유한",
+     "m": "Hirslənməyən, yumşaq və təvazökar ürəkli insandır.",
+     "e": "Həlim olanlar bəxtiyardır."
+    },
+    "sülh": {
+     "i": "🤝",
+     "x": "화평",
+     "m": "Dava-qalmağalı dayandırıb mehriban yaşamaqdır.",
+     "e": "Sülh yaradanlar Allahın övladları adlanacaq."
+    },
+    "duz": {
+     "i": "🧂",
+     "x": "소금",
+     "m": "Yeməyə dad verən və onu xarab olmağa qoymayan ağ dənəciklərdir.",
+     "e": "Siz dünyanın duzusunuz."
+    },
+    "nur": {
+     "i": "💡",
+     "x": "빛",
+     "m": "Qaranlığı işıqlandırıb yolu göstərən işıqdır.",
+     "e": "Siz dünyanın nurusunuz."
+    },
+    "çıraqdan": {
+     "i": "🪔",
+     "x": "등잔대",
+     "m": "Çırağı hündürə qoymaq üçün dayaqdır.",
+     "e": "Çırağı çıraqdan üstünə qoyurlar."
+    },
+    "izzət": {
+     "i": "✨",
+     "x": "영광",
+     "m": "Allahın nə qədər böyük və yaxşı olduğunu tərifləməkdir.",
+     "e": "İnsanlar Allahı izzətləndirirlər."
+    }
+   },
+   "test": [
+    {
+     "q": "İsa harada oturub öyrədirdi?",
+     "o": [
+      "Dağda",
+      "Qayıqda",
+      "Damda"
+     ],
+     "a": 0,
+     "f": "Düzdür! Buna görə “Dağüstü vəz” deyilir."
+    },
+    {
+     "q": "İsa kimin “bəxtiyar” olduğunu dedi?",
+     "o": [
+      "Sülh yaradanların",
+      "Dava edənlərin",
+      "Çox öyünənlərin"
+     ],
+     "a": 0,
+     "f": "Düzdür! Sülh yaradanlar Allahın övladları adlanacaq."
+    },
+    {
+     "q": "Duz nə edir?",
+     "o": [
+      "Dad verir və xarab olmağa qoymur",
+      "Qaranlığı işıqlandırır",
+      "Suyu sərinləşdirir"
+     ],
+     "a": 0,
+     "f": "Düzdür! Biz də yaxşı dad verən insanlarıq."
+    },
+    {
+     "q": "Çırağı hara qoymaq lazımdır?",
+     "o": [
+      "Çıraqdan üstünə",
+      "Qabın altına",
+      "Çarpayının altına"
+     ],
+     "a": 0,
+     "f": "Düzdür! Hündürdə olanda bütün ev işıqlanır."
+    }
+   ],
+   "dusun": [
+    "İsanın dediyi “bəxtiyar” insanlardan hansı olmaq istəyirsən?",
+    "Sinifimizdə “duz” kimi yaxşı dad verən dost necə dostdur?",
+    "Bu həftə öz nurunu necə saça bilərsən?"
+   ],
+   "fealiyyet": {
+    "ciz": "Çıraqdan üstündə parlayan çırağı və özünü çək.",
+    "b": "Bu həftə necə nur olacaqsan?",
+    "p": "Bu həftə edə biləcəyin yaxşı işi seç.",
+    "ph": "",
+    "secim": {
+     "basliq": "Bu həftə necə nur olacaqsan?",
+     "izah": "Toxun və seç. Bir neçəsini seçə bilərsən.",
+     "cumle": "Bu həftə mən {x} İsanın nurunu saçacağam!",
+     "bos": "anama kömək edərək",
+     "bag": "və",
+     "secimler": [
+      [
+       "🧽",
+       "anama kömək edərək"
+      ],
+      [
+       "💬",
+       "dostuma xoş söz deyərək"
+      ],
+      [
+       "🍎",
+       "paylaşaraq"
+      ],
+      [
+       "🤝",
+       "barışaraq"
+      ],
+      [
+       "🙏",
+       "dua edərək"
+      ],
+      [
+       "✅",
+       "doğru danışaraq"
+      ],
+      [
+       "🧸",
+       "kiçiklərə qayğı göstərərək"
+      ],
+      [
+       "😊",
+       "gülümsəyərək"
+      ]
+     ]
+    }
+   },
+   "dua": "İsa, zəif və kədərli insanlara xeyir-dua verən məhəbbətinə görə Sənə şükür edirəm. Məni dünyanın duzu və nuru adlandırdığın üçün sağ ol. Bu həftə yaxşı işlər görüb Sənin nurunu saçmağıma kömək et. İsa Məsihin adı ilə dua edirəm. Amin."
   },
-  "test": [
-   {"q": "İsanın dağda oturub öyrətməsi hansı Əhdi-Ətiq şəxsiyyətini xatırladır?", "o": ["Musa", "Şimşon", "Yunus"], "a": 0, "f": "Düzdür. Sina dağında Qanunu alan Musa."},
-   {"q": "Birinci və səkkizinci bəxtiyarlıqda ortaq olan vəd hansıdır?", "o": ["Səmavi Padşahlıq onlarındır", "Yer üzünü irs alacaqlar", "Doyacaqlar"], "a": 0, "f": "Düzdür. Bu, bütün siyahını əhatə edən çərçivədir."},
-   {"q": "“Ruhən yoxsul” ifadəsinin ən uyğun mənası hansıdır?", "o": ["Allah qarşısında əliboş olduğunu bilən", "Pulu olmayan", "Əhvalı pis olan"], "a": 0, "f": "Düzdür. Buna görə Allahın Padşahlığını ala bilir."},
-   {"q": "İsa şagirdlərinə nə dedi?", "o": ["Siz dünyanın duzusunuz", "Duz olun", "Duz satın"], "a": 0, "f": "Düzdür. Bu, artıq verilmiş kimlikdir."},
-   {"q": "Yaxşı əməllərimizi görən insanlar kimi izzətləndirməlidir?", "o": ["Göylərdə olan Atanı", "Məni", "Bizim binanı"], "a": 0, "f": "Düzdür. Nur Allahı göstərir."}
+  "genc": {
+   "basliq": "Tərsinə çevrilmiş xoşbəxtlik",
+   "giris": "Dünya deyir ki, varlılar, güclülər və gülənlər xoşbəxtdir. İsa isə dağda tam əks siyahı təqdim etdi: yoxsullar, ağlayanlar və təqib olunanlar bəxtiyardır.",
+   "meqsed": [
+    "Dağüstü vəzin başlanğıcı olan bəxtiyarlıq sözlərinin quruluşunu və mənasını anlayırıq.",
+    "“Bəxtiyarlığın” Allahın Padşahlığının hədiyyəsi olduğunu izah edə bilirik.",
+    "Duz və nur kimi öz yerimizdə göstərəcəyimiz həyatı müəyyən edirik."
+   ],
+   "sehneler": [
+    {
+     "b": "Yeni Musa, yeni dağ",
+     "ayə": "Matta 5:1–2",
+     "alt": "Dağda oturub insanlara öyrədən İsa",
+     "p": [
+      "İsa izdihamı görüb [[dağ]]a çıxdı və oturdu. O dövrdə müəllimlər oturub öyrədirdi. Bu, nüfuzlu təlimin başladığını göstərirdi.",
+      "Mattanın oxucuları bu səhnədə Sina dağındakı Musanı xatırlayırdılar. Musa dağda Qanunu aldığı kimi, İsa da dağda Allahın Padşahlığının həyatını öyrədir."
+     ],
+     "deep": {
+      "b": "Dərindən baxaq · Beş böyük vəz",
+      "p": "Matta Müjdəsində beş böyük vəz var (5–7, 10, 13, 18, 24–25-ci fəsillər). Bu quruluş Tövratın beş kitabını xatırladır. Dağüstü vəz onların birincisi və ən məşhurudur."
+     }
+    },
+    {
+     "b": "Tərsinə çevrilmiş xoşbəxtlik",
+     "ayə": "Matta 5:3–12",
+     "alt": "Kədərli adama təsəlli verən İsa",
+     "p": [
+      "“Nə bəxtiyardır [[ruhən yoxsul]] olanlar! Çünki Səmavi Padşahlıq onlarındır.” İsa səkkiz dəfə “bəxtiyardır” deyə elan edir.",
+      "Bu, “belə etsən, xeyir-dua alarsan” şərtləri siyahısı deyil. Bu, Allahın Padşahlığının artıq belə insanlara açıq olduğunu bildirən [[bəxtiyar]]lıq elanıdır."
+     ],
+     "deep": {
+      "b": "Dərindən baxaq · Başlanğıc və son",
+      "p": "Birinci (5:3) və səkkizinci (5:10) bəxtiyarlıq eyni sözlə bitir: “Səmavi Padşahlıq onlarındır.” Bu çərçivə içindəki bütün xeyir-dualar Allahın Padşahlığı haqqındadır. İlk dördü Allah qarşısında yoxsulluq, son dördü isə qonşuya yönəlmiş həyatdır."
+     }
+    },
+    {
+     "b": "Dadını itirmiş duz",
+     "ayə": "Matta 5:13",
+     "alt": "Yeməyə duz əlavə edən ailə",
+     "p": [
+      "“Siz dünyanın [[duz]]usunuz.” Duz dad verən və əti xarab olmaqdan qoruyan qiymətli şey idi.",
+      "Ölü dəniz yaxınlığından çıxan duzda qatışıq olurdu, duzluluğu gedəndə yararsız qalırdı. İsanın şagirdi dünyaya tamamilə bənzəyəndə dadını itirmiş duza çevrilir."
+     ],
+     "deep": {
+      "b": "Dərindən baxaq · “Sizsiniz”",
+      "p": "İsa “duz olun” demir, “duzsunuz” deyir. Bu, artıq verilmiş kimlikdir. Məsələ duz olub-olmamaq deyil, dadı itirməməkdir.",
+      "rose": true
+     }
+    },
+    {
+     "b": "Gizlənə bilməyən nur",
+     "ayə": "Matta 5:14–16",
+     "alt": "Çıraqdan üstündəki çıraq bütün evi işıqlandırır",
+     "p": [
+      "“Siz dünyanın [[nur]]usunuz. Dağın üstündə qurulan şəhər gizli qala bilməz.” Qalileya təpələrindəki kəndlər gecə də uzaqdan görünürdü.",
+      "Kiçik bir gil çıraq birotaqlı evin hamısını işıqlandırırdı. Yaxşı əməllərimizi görən insanlar Səmavi Atanı [[izzət]]ləndirir. Bu, özümüzü öyən nur deyil, Allahı göstərən nurdur."
+     ],
+     "deep": {
+      "b": "Dərindən baxaq · 6:1 ilə gərginlik",
+      "p": "5:16 “qoy görsünlər” deyir, 6:1 isə “görünmək üçün etməyin” deyir. Bu, ziddiyyət deyil. Fərq məqsəddədir. Allah izzətlənirsə, bu nurdur; mən tərif almaq istəyirəmsə, bu tamaşadır."
+     }
+    }
+   ],
+   "cedvel": {
+    "b": "Bəxtiyarlıq sözlərinə bir baxış",
+    "alt": "5:3–10",
+    "bas": [
+     "Bəxtiyar olan",
+     "Vəd"
+    ],
+    "set": [
+     [
+      "Ruhən yoxsul olanlar",
+      "Səmavi Padşahlıq onlarındır"
+     ],
+     [
+      "Yas tutanlar",
+      "Təsəlli tapacaqlar"
+     ],
+     [
+      "Həlim olanlar",
+      "Yer üzünü irs alacaqlar"
+     ],
+     [
+      "Salehliyə ac və susuz olanlar",
+      "Doyacaqlar"
+     ],
+     [
+      "Mərhəmətli olanlar",
+      "Mərhəmət görəcəklər"
+     ],
+     [
+      "Ürəyi pak olanlar",
+      "Allahı görəcəklər"
+     ],
+     [
+      "Sülh yaradanlar",
+      "Allahın övladları adlanacaqlar"
+     ],
+     [
+      "Salehlik naminə təqib olunanlar",
+      "Səmavi Padşahlıq onlarındır"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "“Qoy sizin nurunuz insanların qarşısında elə parlasın ki, yaxşı əməllərinizi görüb göylərdə olan Atanızı izzətləndirsinlər.”",
+    "ref": "5:16"
+   },
+   "lugat": {
+    "dağ": {
+     "i": "⛰️",
+     "o": "Yunanca oros",
+     "x": "산",
+     "s": "Vəhy yeri",
+     "m": "Müqəddəs Kitabda dağ Allahın danışdığı yerdir. Sina dağındakı Musanı, Karmel dağındakı İlyası xatırladır.",
+     "e": "Ənənəyə görə Kəfərnahum yaxınlığındakı təpəni “Bəxtiyarlıq dağı” adlandırırlar."
+    },
+    "ruhən yoxsul": {
+     "i": "🙏",
+     "o": "Yunanca ptoxoi to pnevmati",
+     "x": "심령이 가난한",
+     "s": "Allahsız heç nəyi olmadığını bilən insan",
+     "m": "“Ptoxos” dilənməklə yaşayan yoxsulluğu bildirir. Allah qarşısında əliboş olduğunu bilən insandır.",
+     "e": "Öz gücü ilə öyünən insanın Allahın Padşahlığını almağa boş əli yoxdur."
+    },
+    "bəxtiyar": {
+     "i": "🎁",
+     "o": "Yunanca makarios",
+     "x": "복 있는",
+     "s": "Allahın təsdiq etdiyi əsl xoşbəxtlik",
+     "m": "Yaxşı əhval deyil, Allahın “yaxşıdır” deyə elan etdiyi vəziyyətdir.",
+     "e": "Koreya dilində “bok itneun” deyilir."
+    },
+    "duz": {
+     "i": "🧂",
+     "o": "Yunanca halas",
+     "x": "소금",
+     "s": "Dad və qoruma",
+     "m": "Soyuducu olmayan dövrdə əti və balığı xarab olmaqdan qoruyan qiymətli şey idi. Həm də əhdin rəmzi idi (Lev. 2:13).",
+     "e": "Qalileyadakı Maqdala kəndi balıq duzlamaqla məşhur idi."
+    },
+    "nur": {
+     "i": "💡",
+     "o": "Yunanca fos",
+     "x": "빛",
+     "s": "Qaranlığa qalib gələn Allahın hüzuru",
+     "m": "Yeşaya İsrailin “millətlərə nur” olacağını demişdi (Yeş. 49:6). İsa bu vəzifəni şagirdlərinə verir.",
+     "e": "4:16-dakı “böyük işıq” indi şagirdlər vasitəsilə parlayır."
+    },
+    "izzət": {
+     "i": "✨",
+     "o": "Yunanca doksa",
+     "x": "영광",
+     "s": "Allahın əzəməti və gözəlliyi",
+     "m": "İbranicə “kavod” sözü həm də “ağırlıq” deməkdir. Allahın nə qədər böyük olduğunun görünməsidir.",
+     "e": "Yaxşı əməllərimiz izzəti Allaha aparır."
+    }
+   },
+   "test": [
+    {
+     "q": "İsanın dağda oturub öyrətməsi hansı Əhdi-Ətiq şəxsiyyətini xatırladır?",
+     "o": [
+      "Musa",
+      "Şimşon",
+      "Yunus"
+     ],
+     "a": 0,
+     "f": "Düzdür. Sina dağında Qanunu alan Musa."
+    },
+    {
+     "q": "Birinci və səkkizinci bəxtiyarlıqda ortaq olan vəd hansıdır?",
+     "o": [
+      "Səmavi Padşahlıq onlarındır",
+      "Yer üzünü irs alacaqlar",
+      "Doyacaqlar"
+     ],
+     "a": 0,
+     "f": "Düzdür. Bu, bütün siyahını əhatə edən çərçivədir."
+    },
+    {
+     "q": "“Ruhən yoxsul” ifadəsinin ən uyğun mənası hansıdır?",
+     "o": [
+      "Allah qarşısında əliboş olduğunu bilən",
+      "Pulu olmayan",
+      "Əhvalı pis olan"
+     ],
+     "a": 0,
+     "f": "Düzdür. Buna görə Allahın Padşahlığını ala bilir."
+    },
+    {
+     "q": "İsa şagirdlərinə nə dedi?",
+     "o": [
+      "Siz dünyanın duzusunuz",
+      "Duz olun",
+      "Duz satın"
+     ],
+     "a": 0,
+     "f": "Düzdür. Bu, artıq verilmiş kimlikdir."
+    },
+    {
+     "q": "Yaxşı əməllərimizi görən insanlar kimi izzətləndirməlidir?",
+     "o": [
+      "Göylərdə olan Atanı",
+      "Məni",
+      "Bizim binanı"
+     ],
+     "a": 0,
+     "f": "Düzdür. Nur Allahı göstərir."
+    }
+   ],
+   "paylas": [
+    "Bəxtiyarlıq sözlərindən hansı indi ürəyinə ən çox toxunur? Niyə?",
+    "Dünyanın dediyi xoşbəxtlik ilə İsanın dediyi bəxtiyarlıq necə fərqlənir?",
+    "Nə vaxt “dadını itirmiş duz” kimi ətrafımdakılara tamamilə bənzəyirəm?",
+    "Məktəbdə və ya sosial şəbəkələrdə Allahı göstərən nur kimi yaşamağın konkret yolları hansılardır?"
+   ],
+   "etiraf": {
+    "b": "Mənim etirafım",
+    "p": "Bəxtiyarlıq sözlərindən birini seç və bu həftəni o xeyir-duanı alan insan kimi necə yaşayacağını üç-dörd cümlə ilə yaz.",
+    "ph": "Məsələn: Mən sülh yaradan olmaq istəyirəm. Bu həftə küsülü olduğum dosta …"
+   },
+   "dua": "İsa, dünyadan fərqli xoşbəxtliyi öyrətdiyin üçün Sənə şükür edirəm. Sənin qarşında əliboş olan məni qəbul et. Dadını itirməyən duz və gizlənməyən nur olmağıma kömək et ki, insanlar Səmavi Atanı görsünlər. İsa Məsihin adı ilə dua edirəm. Amin."
+  }
+ },
+ "muellim": {
+  "mesaj": "7과의 중심은 한 문장입니다. **하나님 나라의 복은 빈손인 사람에게 주어지고, 그 복을 받은 사람은 세상의 소금과 빛으로 하나님을 드러낸다.**",
+  "hazirliq": [
+   "학생용 교재를 열 휴대폰이나 태블릿, 이어폰",
+   "소금 조금과 맛없는 삶은 감자나 빵 (어린이반 맛보기)",
+   "작은 손전등이나 초 (빛 놀이, 안전에 유의)"
   ],
-  "paylas": ["Bəxtiyarlıq sözlərindən hansı indi ürəyinə ən çox toxunur? Niyə?", "Dünyanın dediyi xoşbəxtlik ilə İsanın dediyi bəxtiyarlıq necə fərqlənir?", "Nə vaxt “dadını itirmiş duz” kimi ətrafımdakılara tamamilə bənzəyirəm?", "Məktəbdə və ya sosial şəbəkələrdə Allahı göstərən nur kimi yaşamağın konkret yolları hansılardır?"],
-  "etiraf": {"b": "Mənim etirafım", "p": "Bəxtiyarlıq sözlərindən birini seç və bu həftəni o xeyir-duanı alan insan kimi necə yaşayacağını üç-dörd cümlə ilə yaz.", "ph": "Məsələn: Mən sülh yaradan olmaq istəyirəm. Bu həftə küsülü olduğum dosta …"},
-  "dua": "İsa, dünyadan fərqli xoşbəxtliyi öyrətdiyin üçün Sənə şükür edirəm. Sənin qarşında əliboş olan məni qəbul et. Dadını itirməyən duz və gizlənməyən nur olmağıma kömək et ki, insanlar Səmavi Atanı görsünlər. İsa Məsihin adı ilə dua edirəm. Amin."
+  "fon": [
+   [
+    "1. 산상설교의 위치",
+    "마태복음의 다섯 설교 가운데 첫째입니다. 4:23에서 예고한 ‘가르치심’의 내용이며, 7:28–29에서 “권위 있는 자와 같았다”는 반응으로 마무리됩니다."
+   ],
+   [
+    "2. 팔복의 구조",
+    "5:3과 5:10이 같은 약속으로 틀을 이룹니다(수미상관). 5:11–12는 ‘너희’로 바뀌어 제자들에게 직접 적용됩니다. 조건이 아니라 선언임을 강조하세요."
+   ],
+   [
+    "3. 소금",
+    "당시 소금은 정제되지 않아 짠맛이 빠질 수 있었습니다. 맛 내기, 보존, 언약(민 18:19)의 의미가 함께 있습니다."
+   ],
+   [
+    "4. 등불",
+    "흙으로 빚은 작은 기름 등잔을 썼습니다. ‘말’(곡식 되는 그릇) 아래 두면 불이 꺼지거나 보이지 않습니다. 방 하나짜리 집에서는 등잔 하나로 모두가 빛을 누렸습니다."
+   ],
+   [
+    "5. 아제르바이잔어 표현",
+    "‘Nə bəxtiyardır …!’(얼마나 복된가!)라는 감탄형 번역을 씁니다. 빛은 ‘nur’, 소금은 ‘duz’입니다."
+   ]
+  ],
+  "usaq_plan": [
+   [
+    "5분",
+    "맛보기",
+    "소금 없는 감자와 소금 친 감자 맛 비교",
+    "“소금이 조금 들어가니 어떻게 달라졌나요?”"
+   ],
+   [
+    "15분",
+    "장면 1–4 듣고 읽기",
+    "장면마다 듣기, 노란 낱말 누르기",
+    "“예수님은 어떤 사람에게 복이 있다고 하셨나요?”"
+   ],
+   [
+    "5분",
+    "외울 말씀",
+    "빈칸 놀이 → 불 끄고 손전등 켜며 함께 외치기",
+    ""
+   ],
+   [
+    "5분",
+    "확인 퀴즈",
+    "혼자 풀고 함께 확인",
+    ""
+   ],
+   [
+    "10분",
+    "활동과 기도",
+    "이번 주 ‘나의 빛’ 고르기 → 서로 축복 기도",
+    ""
+   ]
+  ],
+  "genc_plan": [
+   [
+    "5분",
+    "열기",
+    "“요즘 너희가 생각하는 ‘행복한 사람’ 세 가지는?” 칠판에 적기",
+    ""
+   ],
+   [
+    "15분",
+    "장면 1–2와 팔복 표",
+    "산상설교의 위치, 팔복 구조, 세상의 행복과 비교",
+    ""
+   ],
+   [
+    "10분",
+    "장면 3–4",
+    "맛을 잃은 소금, 숨길 수 없는 빛, 5:16과 6:1",
+    "“나는 어디에서 맛을 잃는가?”"
+   ],
+   [
+    "5분",
+    "확인 문제",
+    "",
+    ""
+   ],
+   [
+    "15분",
+    "나눔과 고백",
+    "나눔 질문 2개 → 나의 고백 쓰기 → 기도",
+    ""
+   ]
+  ],
+  "ipucu_usaq": [
+   "팔복 여덟 가지를 다 외우게 하기보다 두세 가지를 쉬운 말로 기억하게 하세요.",
+   "‘복’을 선물이나 상으로만 이해하지 않도록, 하나님이 함께하시는 기쁨이라고 설명하세요.",
+   "불을 사용할 때는 교사가 직접 들고 안전에 유의하세요."
+  ],
+  "ipucu_genc": [
+   "팔복을 도덕 점수표처럼 가르치지 마세요. 먼저 은혜의 선언입니다.",
+   "‘애통하는 자’는 슬픔을 겪는 학생에게 큰 위로가 될 수 있습니다. 나눔을 강요하지 마세요.",
+   "다음 과(5:17–48)에서 ‘율법을 완성하심’이 이어진다고 예고하세요."
+  ],
+  "suallar": [
+   [
+    "슬픈데 왜 복이 있어요?",
+    "슬플 때 하나님이 가장 가까이 오셔서 안아 주시기 때문이에요.",
+    "‘애통’은 자기 죄와 세상의 아픔 때문에 우는 것까지 포함해요. 하나님은 그 눈물을 외면하지 않고 위로하세요(계 21:4)."
+   ],
+   [
+    "착한 일을 하면 자랑하는 거 아니에요?",
+    "내가 아니라 하나님이 칭찬받으시도록 하면 자랑이 아니에요.",
+    "5:16과 6:1을 함께 보세요. 차이는 행동이 아니라 목적이에요. 누가 영광을 받는가가 기준이에요."
+   ],
+   [
+    "소금이 어떻게 맛을 잃어요?",
+    "옛날 소금에는 흙이 섞여 있어서 짠맛이 빠질 수 있었어요.",
+    "화학적으로 순수한 염화나트륨은 맛을 잃지 않지만, 당시 사해 소금은 불순물이 많아 녹아 나가면 쓸모없어졌어요."
+   ]
+  ]
+ },
+ "ru": {
+  "usaq": {
+   "basliq": "Соль и свет мира",
+   "hedef": [
+    "Мы узнаем слова Иисуса о «блаженных», которым Он учил на горе.",
+    "Мы узнаем, кого благословляет Бог.",
+    "Мы выясним, как мы можем жить как соль и свет мира."
+   ],
+   "sehneler": [
+    {
+     "b": "Учитель на горе",
+     "ayə": "Матфей 5:1–2",
+     "alt": "Иисус сидит на горе и учит людей",
+     "p": [
+      "За Иисусом шло много людей. Иисус взошёл на [[гору|гора]] и сел, а Его ученики и люди сели вокруг Него.",
+      "Иисус начал говорить и учить. Эти слова называются «Нагорная проповедь»."
+     ]
+    },
+    {
+     "b": "Такие люди блаженны",
+     "ayə": "Матфей 5:3–12",
+     "alt": "Иисус утешает грустного человека",
+     "p": [
+      "Иисус сказал удивительные слова: «[[Блаженны|блаженный]] нищие духом. Блаженны плачущие, потому что Бог утешит их».",
+      "«Блаженны [[кроткие|кроткий]], милостивые, чистые сердцем, [[миротворцы|миротворец]]». Бог очень ценит слабых и скромных людей."
+     ]
+    },
+    {
+     "b": "Вы — соль земли",
+     "ayə": "Матфей 5:13",
+     "alt": "Семья добавляет соль в еду",
+     "p": [
+      "Иисус сказал: «Вы — [[соль]] земли».",
+      "Соль делает еду вкусной и не даёт ей испортиться. Человек, который следует за Иисусом, — это человек, который придаёт «хороший вкус» среди своих друзей."
+     ]
+    },
+    {
+     "b": "Вы — свет мира",
+     "ayə": "Матфей 5:14–16",
+     "alt": "Светильник на подсвечнике освещает весь дом",
+     "p": [
+      "«Вы — [[свет]] мира. Зажегши свечу, не ставят её под сосуд, но на [[подсвечник]], чтобы она светила всем в доме».",
+      "Когда мы делаем добрые дела, люди видят это и [[прославляют|слава]] Бога. Мы — маленькие светильники, излучающие свет Иисуса."
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "«Вы — соль земли. … Вы — свет мира».",
+    "ref": "5:13–14",
+    "bos": "Вы — ___ земли. Вы — ___ ___.",
+    "sozler": [
+     "соль",
+     "свет",
+     "мира"
+    ],
+    "yalan": "вода"
+   },
+   "lugat": {
+    "гора": {
+     "i": "⛰️",
+     "x": "dağ",
+     "m": "Высокое место на земле. Иисус учил на холме, с которого было видно Галилейское море.",
+     "e": "Иисус взошёл на гору и сел."
+    },
+    "блаженный": {
+     "i": "🎁",
+     "x": "bəxtiyar",
+     "m": "Человек, который получает истинную радость и благословение от Бога.",
+     "e": "Блаженны плачущие."
+    },
+    "кроткий": {
+     "i": "🕊️",
+     "x": "həlim",
+     "m": "Человек, который не злится, с мягким и скромным сердцем.",
+     "e": "Блаженны кроткие."
+    },
+    "миротворец": {
+     "i": "🤝",
+     "x": "sülh",
+     "m": "Тот, кто прекращает ссоры и помогает жить дружно.",
+     "e": "Миротворцы будут названы сынами Божьими."
+    },
+    "соль": {
+     "i": "🧂",
+     "x": "duz",
+     "m": "Белые кристаллики, которые придают еде вкус и не дают ей испортиться.",
+     "e": "Вы — соль земли."
+    },
+    "свет": {
+     "i": "💡",
+     "x": "nur",
+     "m": "То, что освещает тьму и показывает путь.",
+     "e": "Вы — свет мира."
+    },
+    "подсвечник": {
+     "i": "🪔",
+     "x": "çıraqdan",
+     "m": "Подставка, чтобы ставить светильник высоко.",
+     "e": "Свечу ставят на подсвечник."
+    },
+    "слава": {
+     "i": "✨",
+     "x": "izzət",
+     "m": "Восхваление того, как велик и благ Бог.",
+     "e": "Люди прославляют Бога."
+    }
+   },
+   "test": [
+    {
+     "q": "Где сидел Иисус, когда учил?",
+     "o": [
+      "На горе",
+      "В лодке",
+      "На крыше"
+     ],
+     "a": 0,
+     "f": "Верно! Поэтому это называется «Нагорная проповедь»."
+    },
+    {
+     "q": "Кого Иисус назвал «блаженными»?",
+     "o": [
+      "Миротворцев",
+      "Тех, кто дерётся",
+      "Тех, кто много хвастается"
+     ],
+     "a": 0,
+     "f": "Верно! Миротворцы будут названы сынами Божьими."
+    },
+    {
+     "q": "Что делает соль?",
+     "o": [
+      "Придаёт вкус и не даёт испортиться",
+      "Освещает тьму",
+      "Делает воду прохладной"
+     ],
+     "a": 0,
+     "f": "Верно! Мы тоже люди, которые придают «хороший вкус»."
+    },
+    {
+     "q": "Куда нужно ставить светильник?",
+     "o": [
+      "На подсвечник",
+      "Под сосуд",
+      "Под кровать"
+     ],
+     "a": 0,
+     "f": "Верно! Когда он высоко, освещается весь дом."
+    }
+   ],
+   "dusun": [
+    "Кем из «блаженных» людей, о которых говорил Иисус, ты хочешь быть?",
+    "Какой друг в нашем классе придаёт «хороший вкус», как «соль»?",
+    "Как ты можешь излучать свой свет на этой неделе?"
+   ],
+   "fealiyyet": {
+    "ciz": "Нарисуй светильник, ярко светящий на подсвечнике, и себя.",
+    "b": "Как ты будешь светом на этой неделе?",
+    "p": "Выбери доброе дело, которое ты можешь сделать на этой неделе.",
+    "ph": "",
+    "secim": {
+     "basliq": "Как ты будешь светом на этой неделе?",
+     "izah": "Нажимай и выбирай. Можно выбрать несколько.",
+     "cumle": "На этой неделе я буду излучать свет Иисуса, {x}!",
+     "bos": "помогая маме",
+     "bag": "и",
+     "secimler": [
+      [
+       "🧽",
+       "помогая маме"
+      ],
+      [
+       "💬",
+       "говоря добрые слова другу"
+      ],
+      [
+       "🍎",
+       "делясь с другими"
+      ],
+      [
+       "🤝",
+       "мирясь с теми, с кем в ссоре"
+      ],
+      [
+       "🙏",
+       "молясь"
+      ],
+      [
+       "✅",
+       "говоря правду"
+      ],
+      [
+       "🧸",
+       "заботясь о младших"
+      ],
+      [
+       "😊",
+       "улыбаясь"
+      ]
+     ]
+    }
+   },
+   "dua": "Иисус, благодарю Тебя за Твою любовь, которая благословляет слабых и грустных людей. Спасибо, что назвал меня солью земли и светом мира. Помоги мне на этой неделе делать добрые дела и излучать Твой свет. Молюсь во имя Иисуса Христа. Аминь."
+  },
+  "genc": {
+   "basliq": "Перевёрнутое счастье",
+   "giris": "Мир говорит, что счастливы богатые, сильные и смеющиеся. Иисус же на горе представил совершенно противоположный список: блаженны нищие, плачущие и гонимые.",
+   "meqsed": [
+    "Мы понимаем структуру и значение слов о блаженстве, с которых начинается Нагорная проповедь.",
+    "Мы можем объяснить, что «блаженство» — это дар Царства Небесного.",
+    "Мы определяем, как мы будем жить на своём месте, будучи солью и светом."
+   ],
+   "sehneler": [
+    {
+     "b": "Новый Моисей, новая гора",
+     "ayə": "Матфей 5:1–2",
+     "alt": "Иисус сидит на горе и учит людей",
+     "p": [
+      "Увидев народ, Иисус взошёл на [[гору|гора]] и сел. В то время учителя учили сидя. Это показывало, что начинается авторитетное учение.",
+      "Читатели Евангелия от Матфея в этой сцене вспоминали Моисея на горе Синай. Как Моисей получил Закон на горе, так и Иисус на горе учит жизни в Царстве Небесном."
+     ],
+     "deep": {
+      "b": "Копнём глубже · Пять великих проповедей",
+      "p": "В Евангелии от Матфея есть пять больших проповедей (главы 5–7, 10, 13, 18, 24–25). Эта структура напоминает пять книг Торы (Пятикнижие). Нагорная проповедь — первая и самая известная из них."
+     }
+    },
+    {
+     "b": "Перевёрнутое счастье",
+     "ayə": "Матфей 5:3–12",
+     "alt": "Иисус утешает грустного человека",
+     "p": [
+      "«[[Блаженны|блаженный]] [[нищие духом|нищий духом]], ибо их есть Царство Небесное». Иисус восемь раз провозглашает: «Блаженны».",
+      "Это не список условий: «сделай так, и получишь благословение». Это провозглашение блаженства, означающее, что Царство Небесное уже открыто для таких людей."
+     ],
+     "deep": {
+      "b": "Копнём глубже · Начало и конец",
+      "p": "Первое (5:3) и восьмое (5:10) блаженство заканчиваются одинаково: «их есть Царство Небесное». Все благословения внутри этой рамки — о Царстве Небесном. Первые четыре — это нищета перед Богом, а последние четыре — жизнь, направленная к ближнему."
+     }
+    },
+    {
+     "b": "Соль, потерявшая силу",
+     "ayə": "Матфей 5:13",
+     "alt": "Семья добавляет соль в еду",
+     "p": [
+      "«Вы — [[соль]] земли». Соль была ценной вещью, которая придавала вкус и защищала мясо от порчи.",
+      "Соль, добываемая возле Мёртвого моря, содержала примеси, и когда её солёность исчезала, она становилась бесполезной. Когда ученик Иисуса становится полностью похожим на мир, он превращается в соль, потерявшую силу."
+     ],
+     "deep": {
+      "b": "Копнём глубже · «Вы есть»",
+      "p": "Иисус не говорит «будьте солью», Он говорит «вы — соль». Это уже данная идентичность. Вопрос не в том, чтобы стать солью, а в том, чтобы не потерять силу (вкус).",
+      "rose": true
+     }
+    },
+    {
+     "b": "Свет, который невозможно скрыть",
+     "ayə": "Матфей 5:14–16",
+     "alt": "Светильник на подсвечнике освещает весь дом",
+     "p": [
+      "«Вы — [[свет]] мира. Не может укрыться город, стоящий на верху горы». Деревни на галилейских холмах были видны издалека даже ночью.",
+      "Маленький глиняный светильник освещал весь однокомнатный дом. Люди, видя наши добрые дела, [[прославляют|слава]] Отца Небесного. Это не свет, который хвалится собой, а свет, указывающий на Бога."
+     ],
+     "deep": {
+      "b": "Копнём глубже · Напряжение с 6:1",
+      "p": "В 5:16 сказано «да светит свет ваш пред людьми», а в 6:1 — «не творите милостыни вашей пред людьми с тем, чтобы они видели вас». Это не противоречие. Разница в цели. Если прославляется Бог, то это свет; если я хочу получить похвалу, то это театр."
+     }
+    }
+   ],
+   "cedvel": {
+    "b": "Обзор слов о блаженстве",
+    "alt": "5:3–10",
+    "bas": [
+     "Блаженные",
+     "Обетование"
+    ],
+    "set": [
+     [
+      "Нищие духом",
+      "Их есть Царство Небесное"
+     ],
+     [
+      "Плачущие",
+      "Утешатся"
+     ],
+     [
+      "Кроткие",
+      "Наследуют землю"
+     ],
+     [
+      "Алчущие и жаждущие правды",
+      "Насытятся"
+     ],
+     [
+      "Милостивые",
+      "Помилованы будут"
+     ],
+     [
+      "Чистые сердцем",
+      "Бога узрят"
+     ],
+     [
+      "Миротворцы",
+      "Нарекутся сынами Божиими"
+     ],
+     [
+      "Изгнанные за правду",
+      "Их есть Царство Небесное"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "«Так да светит свет ваш пред людьми, чтобы они видели ваши добрые дела и прославляли Отца вашего Небесного».",
+    "ref": "5:16"
+   },
+   "lugat": {
+    "гора": {
+     "i": "⛰️",
+     "o": "По-гречески «орос»",
+     "x": "dağ",
+     "s": "Место откровения",
+     "m": "В Библии гора — это место, где говорит Бог. Это напоминает о Моисее на горе Синай и Илии на горе Кармил.",
+     "e": "По традиции холм около Капернаума называют «Горой Блаженств»."
+    },
+    "нищий духом": {
+     "i": "🙏",
+     "o": "По-гречески «птохой то пнеумати»",
+     "x": "ruhən yoxsul",
+     "s": "Человек, знающий, что без Бога у него ничего нет",
+     "m": "Слово «птохос» означает нищету, при которой живут подаянием. Это человек, который понимает, что перед Богом у него пустые руки.",
+     "e": "У человека, который хвалится своей силой, нет пустых рук, чтобы принять Царство Небесное."
+    },
+    "блаженный": {
+     "i": "🎁",
+     "o": "По-гречески «макариос»",
+     "x": "bəxtiyar",
+     "s": "Истинное счастье, подтверждённое Богом",
+     "m": "Это не просто хорошее настроение, а состояние, о котором Бог объявляет, что оно «благое».",
+     "e": "В азербайджанской Библии это переводится как «Nə bəxtiyardır …!»."
+    },
+    "соль": {
+     "i": "🧂",
+     "o": "По-гречески «халас»",
+     "x": "duz",
+     "s": "Вкус и сохранение",
+     "m": "В эпоху без холодильников это была ценная вещь, защищающая мясо и рыбу от порчи. Также она была символом завета (Лев. 2:13).",
+     "e": "Галилейская деревня Магдала была известна засолкой рыбы."
+    },
+    "свет": {
+     "i": "💡",
+     "o": "По-гречески «фос»",
+     "x": "nur",
+     "s": "Присутствие Бога, побеждающее тьму",
+     "m": "Исаия говорил, что Израиль будет «светом народов» (Ис. 49:6). Иисус даёт эту миссию Своим ученикам.",
+     "e": "«Свет великий» из 4:16 теперь сияет через учеников."
+    },
+    "слава": {
+     "i": "✨",
+     "o": "По-гречески «докса»",
+     "x": "izzət",
+     "s": "Величие и красота Бога",
+     "m": "Еврейское слово «кавод» также означает «тяжесть» или «вес». Это проявление того, насколько велик Бог.",
+     "e": "Наши добрые дела приносят славу Богу."
+    }
+   },
+   "test": [
+    {
+     "q": "Какого ветхозаветного персонажа напоминает то, что Иисус сел на горе и учил?",
+     "o": [
+      "Моисея",
+      "Самсона",
+      "Иону"
+     ],
+     "a": 0,
+     "f": "Верно. Моисея, получившего Закон на горе Синай."
+    },
+    {
+     "q": "Какое обетование является общим для первого и восьмого блаженства?",
+     "o": [
+      "Их есть Царство Небесное",
+      "Наследуют землю",
+      "Насытятся"
+     ],
+     "a": 0,
+     "f": "Верно. Это рамка, охватывающая весь список."
+    },
+    {
+     "q": "Какое значение выражения «нищие духом» наиболее подходящее?",
+     "o": [
+      "Тот, кто знает, что перед Богом у него пустые руки",
+      "Тот, у кого нет денег",
+      "Тот, у кого плохое настроение"
+     ],
+     "a": 0,
+     "f": "Верно. Поэтому они могут принять Царство Небесное."
+    },
+    {
+     "q": "Что Иисус сказал Своим ученикам?",
+     "o": [
+      "Вы — соль земли",
+      "Будьте солью",
+      "Продавайте соль"
+     ],
+     "a": 0,
+     "f": "Верно. Это уже данная идентичность."
+    },
+    {
+     "q": "Кого должны прославлять люди, видя наши добрые дела?",
+     "o": [
+      "Отца Небесного",
+      "Меня",
+      "Здание нашей церкви"
+     ],
+     "a": 0,
+     "f": "Верно. Свет указывает на Бога."
+    }
+   ],
+   "paylas": [
+    "Какое из слов о блаженстве сейчас больше всего касается твоего сердца? Почему?",
+    "Чем отличается счастье, о котором говорит мир, от блаженства, о котором говорил Иисус?",
+    "Когда я становлюсь полностью похожим на окружающих, как «соль, потерявшая силу»?",
+    "Каковы конкретные способы жить как свет, указывающий на Бога, в школе или в социальных сетях?"
+   ],
+   "etiraf": {
+    "b": "Моё исповедание",
+    "p": "Выбери одно из слов о блаженстве и напиши в трёх-четырёх предложениях, как ты проживёшь эту неделю как человек, получивший это благословение.",
+    "ph": "Например: Я хочу быть миротворцем. На этой неделе другу, с которым я в ссоре…"
+   },
+   "dua": "Иисус, благодарю Тебя за то, что Ты научил нас счастью, которое отличается от мирского. Прими меня, стоящего перед Тобой с пустыми руками. Помоги мне быть солью, не теряющей силу, и светом, который не прячут, чтобы люди видели Отца Небесного. Молюсь во имя Иисуса Христа. Аминь."
+  }
  }
-},
-"muellim": {
- "mesaj": "7과의 중심은 한 문장입니다. **하나님 나라의 복은 빈손인 사람에게 주어지고, 그 복을 받은 사람은 세상의 소금과 빛으로 하나님을 드러낸다.**",
- "hazirliq": ["학생용 교재를 열 휴대폰이나 태블릿, 이어폰", "소금 조금과 맛없는 삶은 감자나 빵 (어린이반 맛보기)", "작은 손전등이나 초 (빛 놀이, 안전에 유의)"],
- "fon": [
-  ["1. 산상설교의 위치", "마태복음의 다섯 설교 가운데 첫째입니다. 4:23에서 예고한 ‘가르치심’의 내용이며, 7:28–29에서 “권위 있는 자와 같았다”는 반응으로 마무리됩니다."],
-  ["2. 팔복의 구조", "5:3과 5:10이 같은 약속으로 틀을 이룹니다(수미상관). 5:11–12는 ‘너희’로 바뀌어 제자들에게 직접 적용됩니다. 조건이 아니라 선언임을 강조하세요."],
-  ["3. 소금", "당시 소금은 정제되지 않아 짠맛이 빠질 수 있었습니다. 맛 내기, 보존, 언약(민 18:19)의 의미가 함께 있습니다."],
-  ["4. 등불", "흙으로 빚은 작은 기름 등잔을 썼습니다. ‘말’(곡식 되는 그릇) 아래 두면 불이 꺼지거나 보이지 않습니다. 방 하나짜리 집에서는 등잔 하나로 모두가 빛을 누렸습니다."],
-  ["5. 아제르바이잔어 표현", "‘Nə bəxtiyardır …!’(얼마나 복된가!)라는 감탄형 번역을 씁니다. 빛은 ‘nur’, 소금은 ‘duz’입니다."]
- ],
- "usaq_plan": [
-  ["5분", "맛보기", "소금 없는 감자와 소금 친 감자 맛 비교", "“소금이 조금 들어가니 어떻게 달라졌나요?”"],
-  ["15분", "장면 1–4 듣고 읽기", "장면마다 듣기, 노란 낱말 누르기", "“예수님은 어떤 사람에게 복이 있다고 하셨나요?”"],
-  ["5분", "외울 말씀", "빈칸 놀이 → 불 끄고 손전등 켜며 함께 외치기", ""],
-  ["5분", "확인 퀴즈", "혼자 풀고 함께 확인", ""],
-  ["10분", "활동과 기도", "이번 주 ‘나의 빛’ 고르기 → 서로 축복 기도", ""]
- ],
- "genc_plan": [
-  ["5분", "열기", "“요즘 너희가 생각하는 ‘행복한 사람’ 세 가지는?” 칠판에 적기", ""],
-  ["15분", "장면 1–2와 팔복 표", "산상설교의 위치, 팔복 구조, 세상의 행복과 비교", ""],
-  ["10분", "장면 3–4", "맛을 잃은 소금, 숨길 수 없는 빛, 5:16과 6:1", "“나는 어디에서 맛을 잃는가?”"],
-  ["5분", "확인 문제", "", ""],
-  ["15분", "나눔과 고백", "나눔 질문 2개 → 나의 고백 쓰기 → 기도", ""]
- ],
- "ipucu_usaq": ["팔복 여덟 가지를 다 외우게 하기보다 두세 가지를 쉬운 말로 기억하게 하세요.", "‘복’을 선물이나 상으로만 이해하지 않도록, 하나님이 함께하시는 기쁨이라고 설명하세요.", "불을 사용할 때는 교사가 직접 들고 안전에 유의하세요."],
- "ipucu_genc": ["팔복을 도덕 점수표처럼 가르치지 마세요. 먼저 은혜의 선언입니다.", "‘애통하는 자’는 슬픔을 겪는 학생에게 큰 위로가 될 수 있습니다. 나눔을 강요하지 마세요.", "다음 과(5:17–48)에서 ‘율법을 완성하심’이 이어진다고 예고하세요."],
- "suallar": [
-  ["슬픈데 왜 복이 있어요?", "슬플 때 하나님이 가장 가까이 오셔서 안아 주시기 때문이에요.", "‘애통’은 자기 죄와 세상의 아픔 때문에 우는 것까지 포함해요. 하나님은 그 눈물을 외면하지 않고 위로하세요(계 21:4)."],
-  ["착한 일을 하면 자랑하는 거 아니에요?", "내가 아니라 하나님이 칭찬받으시도록 하면 자랑이 아니에요.", "5:16과 6:1을 함께 보세요. 차이는 행동이 아니라 목적이에요. 누가 영광을 받는가가 기준이에요."],
-  ["소금이 어떻게 맛을 잃어요?", "옛날 소금에는 흙이 섞여 있어서 짠맛이 빠질 수 있었어요.", "화학적으로 순수한 염화나트륨은 맛을 잃지 않지만, 당시 사해 소금은 불순물이 많아 녹아 나가면 쓸모없어졌어요."]
- ]
-}
 }

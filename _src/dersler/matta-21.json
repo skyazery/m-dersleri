@@ -1,157 +1,1627 @@
 {
-"no": 21, "ref": "16:1–28", "deq": {"usaq": 40, "genc": 50},
-"img": ["matta/21-maya-qayiq.jpg", "matta/21-etiraf.jpg", "matta/21-peter-qadagan.jpg", "matta/21-xac-yolu.jpg"],
-"hero": 1,
-"ko": {
- "usaq": {
-  "basliq": "너는 나를 누구라 하느냐",
-  "hedef": ["베드로가 예수님을 ‘그리스도’라고 고백한 이야기를 알아요.", "예수님이 우리를 위해 고난받으실 것을 미리 말씀하셨음을 배워요.", "“예수님은 나에게 누구신가?”에 대답해요."],
-  "sehneler": [
-   {"b": "떡을 잊어버린 제자들", "ayə": "16:1–12", "alt": "배 위에서 떡을 잊었다고 걱정하는 제자들", "p": ["제자들이 배를 타고 건너가면서 떡 가져오는 것을 잊어버렸어요. 예수님이 “바리새인의 [[누룩]]을 조심하라” 하시자 제자들은 떡 이야기인 줄 알았어요.", "예수님은 오천 명과 사천 명을 먹이신 일을 기억하게 하셨어요. 누룩은 바리새인들의 잘못된 가르침이었어요. 예수님이 계시면 떡 걱정은 필요 없어요."]},
-   {"b": "주는 그리스도시요", "ayə": "16:13–20", "alt": "큰 바위 앞에서 예수님께 고백하는 베드로", "p": ["예수님이 물으셨어요. “사람들은 나를 누구라고 하느냐?” 제자들은 “세례 요한, 엘리야, 예레미야라고 해요” 대답했어요. “그러면 너희는 나를 누구라 하느냐?”", "베드로가 대답했어요. “주는 [[그리스도]]시요, 살아 계신 하나님의 아들이십니다.” 예수님은 기뻐하셨어요. “이것은 하늘 아버지가 알려 주신 거야. 내가 이 [[반석]] 위에 내 [[교회]]를 세우겠다.”"]},
-   {"b": "베드로가 말렸어요", "ayə": "16:21–23", "alt": "예수님을 붙들고 말리는 베드로", "p": ["그때부터 예수님은 예루살렘에서 고난받고 죽임을 당하고 사흘 만에 살아나실 것을 말씀하셨어요.", "베드로가 예수님을 붙들고 말렸어요. “절대 그러면 안 돼요!” 예수님이 말씀하셨어요. “너는 하나님의 일을 생각하지 않고 사람의 일만 생각하는구나.”"]},
-   {"b": "나를 따라오너라", "ayə": "16:24–28", "alt": "길 앞에 서서 제자들을 부르시는 예수님", "p": ["예수님이 말씀하셨어요. “누구든지 나를 따라오려면 자기를 부인하고 자기 [[십자가]]를 지고 나를 따르라.”", "“사람이 온 세상을 얻고도 자기 [[목숨]]을 잃으면 무슨 소용이 있느냐?” 예수님을 따르는 것이 가장 귀한 길이에요."]}
-  ],
-  "aye": {"metn": "“주는 그리스도시요 살아 계신 하나님의 아들이시니이다.”", "ref": "16:16", "bos": "주는 ___시요 ___ 계신 하나님의 ___이시니이다.", "sozler": ["그리스도", "살아", "아들"], "yalan": "선생"},
-  "lugat": {
-   "누룩": {"i": "🍞", "x": "maya", "m": "빵을 부풀게 하는 효모예요. 여기서는 조금씩 퍼지는 나쁜 가르침을 뜻해요.", "e": "바리새인의 누룩을 조심하라."},
-   "그리스도": {"i": "👑", "x": "Məsih", "m": "‘기름 부음 받은 왕’이라는 뜻이에요. 하나님이 보내신 구원자예요.", "e": "주는 그리스도시요."},
-   "반석": {"i": "🪨", "x": "qaya", "m": "아주 크고 단단한 바위예요.", "e": "이 반석 위에 교회를 세우겠다."},
-   "교회": {"i": "⛪", "x": "cəmiyyət", "m": "예수님을 믿는 사람들의 모임이에요. 건물이 아니라 사람들이에요.", "e": "예수님이 교회를 세우세요."},
-   "십자가": {"i": "✝️", "x": "çarmıx", "m": "예수님이 우리를 위해 돌아가신 나무 형틀이에요.", "e": "자기 십자가를 지고 나를 따르라."},
-   "목숨": {"i": "💓", "x": "can", "m": "살아 있게 하는 생명이에요.", "e": "온 세상보다 목숨이 귀해요."}
-  },
-  "test": [
-   {"q": "예수님이 조심하라고 하신 ‘바리새인의 누룩’은?", "o": ["잘못된 가르침", "상한 빵", "무거운 짐"], "a": 0, "f": "맞아요! 조금씩 퍼지는 나쁜 가르침이에요."},
-   {"q": "베드로는 예수님을 누구라고 고백했나요?", "o": ["그리스도, 살아 계신 하나님의 아들", "세례 요한", "엘리야"], "a": 0, "f": "맞아요! 가장 중요한 고백이에요."},
-   {"q": "예수님은 반석 위에 무엇을 세우겠다고 하셨나요?", "o": ["교회", "성", "왕궁"], "a": 0, "f": "맞아요! 예수님을 믿는 사람들의 모임이에요."},
-   {"q": "예수님을 따르려면 무엇을 져야 하나요?", "o": ["자기 십자가", "무거운 돌", "큰 가방"], "a": 0, "f": "맞아요! 예수님을 위해 나를 내려놓는 거예요."}
-  ],
-  "dusun": ["예수님은 나에게 누구신가요?", "베드로는 왜 예수님이 고난받으시는 것을 말렸을까요?", "예수님을 따르기 위해 내가 내려놓아야 할 것은 무엇일까요?"],
-  "fealiyyet": {"ciz": "예수님께 “주는 그리스도시요!” 하고 고백하는 나를 그려 보세요.", "b": "예수님은 나에게", "p": "“예수님은 나에게 ○○이에요”라고 써 보세요.", "ph": "예) 예수님은 나에게 가장 좋은 친구이자 구원자예요."},
-  "dua": "예수님, 예수님은 그리스도시요 살아 계신 하나님의 아들이십니다. 저를 위해 고난받으시고 다시 살아나신 예수님을 사랑합니다. 사람의 일보다 하나님의 일을 생각하며, 제 십자가를 지고 예수님을 따르게 해 주세요. 예수님 이름으로 기도합니다. 아멘."
+ "no": 21,
+ "ref": "16:1–28",
+ "deq": {
+  "usaq": 40,
+  "genc": 50
  },
- "genc": {
-  "basliq": "반석 위의 고백",
-  "giris": "마태복음의 분수령입니다. 지금까지는 “이분은 누구신가?”를 물었다면, 여기서 제자들의 대답이 나옵니다. 그리고 바로 그 순간 이야기의 방향이 십자가를 향해 꺾입니다. 고백 뒤에는 따름이 옵니다.",
-  "meqsed": ["베드로의 고백이 마태복음 전체에서 갖는 의미를 이해해요.", "그리스도의 고난 예고와 제자도의 연결을 설명할 수 있어요.", "“너는 나를 누구라 하느냐”에 나만의 대답과 따름의 결단을 해요."],
-  "sehneler": [
-   {"b": "하늘은 읽으면서", "ayə": "16:1–12", "alt": "배 위에서 떡을 잊었다고 걱정하는 제자들", "p": ["바리새인과 사두개인은 원래 서로 적이었지만 예수님을 시험하려고 함께 왔어요. 예수님은 “너희가 하늘의 기상은 분별할 줄 알면서 시대의 표적은 분별할 수 없느냐” 하시며 요나의 표적만 주겠다고 하세요.", "제자들은 떡을 잊은 걱정에 빠져 있었어요. 예수님은 “믿음이 작은 자들아” 하시며 두 번의 기적을 기억하게 하세요. 진짜 위험은 배고픔이 아니라 그들의 [[누룩]], 곧 가르침이었어요."], "deep": {"b": "깊이 보기 · 기억의 신앙", "p": "제자들은 기적을 두 번이나 봤는데도 또 걱정했어요. 신앙은 새로운 기적보다 이미 받은 은혜를 ‘기억하는 것’에서 자라요. 예수님은 “기억하지 못하느냐?”고 물으세요."}},
-   {"b": "가이사랴 빌립보의 질문", "ayə": "16:13–20", "alt": "큰 바위 앞에서 예수님께 고백하는 베드로", "p": ["가이사랴 빌립보는 거대한 바위 절벽에 판(Pan) 신전과 황제 신전이 있던 이방 도시였어요. 신들과 황제가 경쟁하던 그곳에서 예수님이 물으세요. “너희는 나를 누구라 하느냐?”", "베드로의 대답: “주는 [[그리스도]]시요 살아 계신 하나님의 아들이시니이다.” 예수님은 “너는 [[베드로]]라. 내가 이 반석 위에 내 교회를 세우리니 음부의 권세가 이기지 못하리라” 하시며 천국 열쇠를 주세요."], "deep": {"b": "깊이 보기 · 반석은 무엇인가?", "p": "‘베드로’(페트로스)와 ‘반석’(페트라)은 말놀이예요. 반석이 베드로 자신인지, 그의 고백인지에 대해 교회 전통마다 해석이 달라요. 분명한 것은 교회가 ‘예수는 그리스도’라는 고백 위에, 그 고백을 한 사람들을 통해 세워진다는 점이에요."}},
-   {"b": "사탄아 물러가라", "ayə": "16:21–23", "alt": "예수님을 붙들고 말리는 베드로", "p": ["“이때로부터” 예수님은 예루살렘에서의 고난, 죽음, 부활을 처음으로 분명히 말씀하세요. 4:17의 “이때로부터”와 짝을 이루는 마태복음의 두 번째 전환점이에요.", "방금 칭찬받은 베드로가 예수님을 붙들고 항변했어요. 예수님은 “사탄아 내 뒤로 물러가라. 너는 나를 넘어지게 하는 자로다”라고 꾸짖으세요. 반석이 순식간에 걸림돌이 되었어요. 십자가 없는 메시아는 광야의 사탄이 제안한 길이었어요(4:8–10)."], "deep": {"b": "깊이 보기 · 하나님의 일 vs 사람의 일", "p": "베드로의 말은 사랑에서 나왔어요. 하지만 좋은 의도도 하나님의 뜻을 막을 수 있어요. 예수님을 ‘그리스도’라 고백하는 것과 ‘어떤 그리스도’인지 받아들이는 것은 다른 문제예요.", "rose": true}},
-   {"b": "자기 십자가를 지고", "ayə": "16:24–28", "alt": "길 앞에 서서 제자들을 부르시는 예수님", "p": ["“누구든지 나를 따라오려거든 자기를 [[부인]]하고 자기 십자가를 지고 나를 따를 것이니라.” 십자가는 로마의 처형 도구였어요. 죄수는 처형장까지 자기 십자가를 지고 갔어요.", "“사람이 만일 온 천하를 얻고도 제 목숨을 잃으면 무엇이 유익하리요.” 역설이에요. 목숨을 지키려는 사람은 잃고, 예수님을 위해 잃는 사람은 찾아요."], "deep": {"b": "깊이 보기 · 자기 부인", "p": "자기 부인은 자기를 미워하는 것이 아니라, 삶의 운전대를 예수님께 넘기는 거예요. ‘나’를 버리는 게 아니라 ‘내가 주인인 삶’을 버리는 거예요."}}
-  ],
-  "cedvel": {"b": "사람들의 대답과 제자의 대답", "alt": "16:13–16", "bas": ["누가", "예수님은 …이다", "부족한 점"], "set": [["어떤 사람들", "세례 요한", "선구자이지 메시아가 아님"], ["어떤 사람들", "엘리야", "오실 이를 준비하는 선지자"], ["어떤 사람들", "예레미야나 선지자 중 하나", "위대하지만 여전히 ‘사람’"], ["베드로", "그리스도, 살아 계신 하나님의 아들", "하늘 아버지가 알려 주신 정답"]]},
-  "aye": {"metn": "“이르시되 너희는 나를 누구라 하느냐. 시몬 베드로가 대답하여 이르되 주는 그리스도시요 살아 계신 하나님의 아들이시니이다.”", "ref": "16:15–16"},
-  "lugat": {
-   "누룩": {"i": "🍞", "o": "헬라어 쥐메", "x": "maya", "s": "보이지 않게 퍼지는 영향", "m": "13:33에서는 하나님 나라의 성장을, 여기서는 잘못된 가르침의 확산을 뜻해요. 작지만 전체에 퍼져요.", "e": "“적은 누룩이 온 덩이에 퍼지느니라”(갈 5:9)."},
-   "그리스도": {"i": "👑", "o": "헬라어 크리스토스, 히브리어 메시아", "x": "Məsih", "s": "기름 부음 받은 왕", "m": "구약에서 왕, 제사장, 선지자는 기름 부음을 받았어요. ‘그 기름 부음 받은 자’는 하나님이 약속하신 다윗의 자손 왕이에요.", "e": "마태복음 1:1이 “예수 그리스도의 계보라”로 시작해요."},
-   "베드로": {"i": "🪨", "o": "헬라어 페트로스, 아람어 게바", "x": "Peter", "s": "‘돌’이라는 별명", "m": "본명은 시몬이에요. 예수님이 ‘돌’이라는 이름을 주셨어요. 성격은 흔들렸지만 예수님이 그를 반석으로 만드셨어요.", "e": "아제르바이잔어 성경에서는 ‘Peter’라고 써요."},
-   "부인": {"i": "🙅", "o": "헬라어 아파르네오마이", "x": "özünü inkar etmək", "s": "‘나는 모른다’고 하다", "m": "26장에서 베드로가 예수님을 ‘부인’할 때 같은 동사가 쓰여요. 예수님을 부인하거나, 나를 부인하거나 둘 중 하나예요.", "e": "“자기를 부인하고”(16:24) vs “세 번 나를 부인하리라”(26:34)."}
+ "img": [
+  "matta/21-maya-qayiq.jpg",
+  "matta/21-etiraf.jpg",
+  "matta/21-peter-qadagan.jpg",
+  "matta/21-xac-yolu.jpg"
+ ],
+ "hero": 1,
+ "ko": {
+  "usaq": {
+   "basliq": "너는 나를 누구라 하느냐",
+   "hedef": [
+    "베드로가 예수님을 ‘그리스도’라고 고백한 이야기를 알아요.",
+    "예수님이 우리를 위해 고난받으실 것을 미리 말씀하셨음을 배워요.",
+    "“예수님은 나에게 누구신가?”에 대답해요."
+   ],
+   "sehneler": [
+    {
+     "b": "떡을 잊어버린 제자들",
+     "ayə": "16:1–12",
+     "alt": "배 위에서 떡을 잊었다고 걱정하는 제자들",
+     "p": [
+      "제자들이 배를 타고 건너가면서 떡 가져오는 것을 잊어버렸어요. 예수님이 “바리새인의 [[누룩]]을 조심하라” 하시자 제자들은 떡 이야기인 줄 알았어요.",
+      "예수님은 오천 명과 사천 명을 먹이신 일을 기억하게 하셨어요. 누룩은 바리새인들의 잘못된 가르침이었어요. 예수님이 계시면 떡 걱정은 필요 없어요."
+     ]
+    },
+    {
+     "b": "주는 그리스도시요",
+     "ayə": "16:13–20",
+     "alt": "큰 바위 앞에서 예수님께 고백하는 베드로",
+     "p": [
+      "예수님이 물으셨어요. “사람들은 나를 누구라고 하느냐?” 제자들은 “세례 요한, 엘리야, 예레미야라고 해요” 대답했어요. “그러면 너희는 나를 누구라 하느냐?”",
+      "베드로가 대답했어요. “주는 [[그리스도]]시요, 살아 계신 하나님의 아들이십니다.” 예수님은 기뻐하셨어요. “이것은 하늘 아버지가 알려 주신 거야. 내가 이 [[반석]] 위에 내 [[교회]]를 세우겠다.”"
+     ]
+    },
+    {
+     "b": "베드로가 말렸어요",
+     "ayə": "16:21–23",
+     "alt": "예수님을 붙들고 말리는 베드로",
+     "p": [
+      "그때부터 예수님은 예루살렘에서 고난받고 죽임을 당하고 사흘 만에 살아나실 것을 말씀하셨어요.",
+      "베드로가 예수님을 붙들고 말렸어요. “절대 그러면 안 돼요!” 예수님이 말씀하셨어요. “너는 하나님의 일을 생각하지 않고 사람의 일만 생각하는구나.”"
+     ]
+    },
+    {
+     "b": "나를 따라오너라",
+     "ayə": "16:24–28",
+     "alt": "길 앞에 서서 제자들을 부르시는 예수님",
+     "p": [
+      "예수님이 말씀하셨어요. “누구든지 나를 따라오려면 자기를 부인하고 자기 [[십자가]]를 지고 나를 따르라.”",
+      "“사람이 온 세상을 얻고도 자기 [[목숨]]을 잃으면 무슨 소용이 있느냐?” 예수님을 따르는 것이 가장 귀한 길이에요."
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "“주는 그리스도시요 살아 계신 하나님의 아들이시니이다.”",
+    "ref": "16:16",
+    "bos": "주는 ___시요 ___ 계신 하나님의 ___이시니이다.",
+    "sozler": [
+     "그리스도",
+     "살아",
+     "아들"
+    ],
+    "yalan": "선생"
+   },
+   "lugat": {
+    "누룩": {
+     "i": "🍞",
+     "x": "maya",
+     "m": "빵을 부풀게 하는 효모예요. 여기서는 조금씩 퍼지는 나쁜 가르침을 뜻해요.",
+     "e": "바리새인의 누룩을 조심하라."
+    },
+    "그리스도": {
+     "i": "👑",
+     "x": "Məsih",
+     "m": "‘기름 부음 받은 왕’이라는 뜻이에요. 하나님이 보내신 구원자예요.",
+     "e": "주는 그리스도시요."
+    },
+    "반석": {
+     "i": "🪨",
+     "x": "qaya",
+     "m": "아주 크고 단단한 바위예요.",
+     "e": "이 반석 위에 교회를 세우겠다."
+    },
+    "교회": {
+     "i": "⛪",
+     "x": "cəmiyyət",
+     "m": "예수님을 믿는 사람들의 모임이에요. 건물이 아니라 사람들이에요.",
+     "e": "예수님이 교회를 세우세요."
+    },
+    "십자가": {
+     "i": "✝️",
+     "x": "çarmıx",
+     "m": "예수님이 우리를 위해 돌아가신 나무 형틀이에요.",
+     "e": "자기 십자가를 지고 나를 따르라."
+    },
+    "목숨": {
+     "i": "💓",
+     "x": "can",
+     "m": "살아 있게 하는 생명이에요.",
+     "e": "온 세상보다 목숨이 귀해요."
+    }
+   },
+   "test": [
+    {
+     "q": "예수님이 조심하라고 하신 ‘바리새인의 누룩’은?",
+     "o": [
+      "잘못된 가르침",
+      "상한 빵",
+      "무거운 짐"
+     ],
+     "a": 0,
+     "f": "맞아요! 조금씩 퍼지는 나쁜 가르침이에요."
+    },
+    {
+     "q": "베드로는 예수님을 누구라고 고백했나요?",
+     "o": [
+      "그리스도, 살아 계신 하나님의 아들",
+      "세례 요한",
+      "엘리야"
+     ],
+     "a": 0,
+     "f": "맞아요! 가장 중요한 고백이에요."
+    },
+    {
+     "q": "예수님은 반석 위에 무엇을 세우겠다고 하셨나요?",
+     "o": [
+      "교회",
+      "성",
+      "왕궁"
+     ],
+     "a": 0,
+     "f": "맞아요! 예수님을 믿는 사람들의 모임이에요."
+    },
+    {
+     "q": "예수님을 따르려면 무엇을 져야 하나요?",
+     "o": [
+      "자기 십자가",
+      "무거운 돌",
+      "큰 가방"
+     ],
+     "a": 0,
+     "f": "맞아요! 예수님을 위해 나를 내려놓는 거예요."
+    }
+   ],
+   "dusun": [
+    "예수님은 나에게 누구신가요?",
+    "베드로는 왜 예수님이 고난받으시는 것을 말렸을까요?",
+    "예수님을 따르기 위해 내가 내려놓아야 할 것은 무엇일까요?"
+   ],
+   "fealiyyet": {
+    "ciz": "예수님께 “주는 그리스도시요!” 하고 고백하는 나를 그려 보세요.",
+    "b": "예수님은 나에게",
+    "p": "“예수님은 나에게 ○○이에요”라고 써 보세요.",
+    "ph": "예) 예수님은 나에게 가장 좋은 친구이자 구원자예요."
+   },
+   "dua": "예수님, 예수님은 그리스도시요 살아 계신 하나님의 아들이십니다. 저를 위해 고난받으시고 다시 살아나신 예수님을 사랑합니다. 사람의 일보다 하나님의 일을 생각하며, 제 십자가를 지고 예수님을 따르게 해 주세요. 예수님 이름으로 기도합니다. 아멘."
   },
-  "test": [
-   {"q": "제자들이 떡 걱정을 할 때 예수님이 기억하라고 하신 것은?", "o": ["오천 명과 사천 명을 먹이신 일", "출애굽 사건", "다윗의 승리"], "a": 0, "f": "맞아요. 이미 받은 은혜를 기억하는 신앙이에요."},
-   {"q": "베드로의 고백이 있었던 곳은?", "o": ["가이사랴 빌립보", "예루살렘 성전", "나사렛 회당"], "a": 0, "f": "맞아요. 이방 신들의 도시였어요."},
-   {"q": "‘베드로’와 ‘반석’의 관계는?", "o": ["페트로스와 페트라의 말놀이", "아무 관계 없음", "같은 사람의 두 이름"], "a": 0, "f": "맞아요. 해석은 다양하지만 고백이 기초예요."},
-   {"q": "16:21의 “이때로부터”가 짝을 이루는 구절은?", "o": ["4:17", "1:1", "28:20"], "a": 0, "f": "맞아요. 사역의 시작과 십자가로의 전환이에요."},
-   {"q": "예수님이 베드로를 꾸짖으신 이유는?", "o": ["하나님의 일이 아니라 사람의 일을 생각해서", "고백을 잘못해서", "떡을 잊어서"], "a": 0, "f": "맞아요. 십자가 없는 메시아를 원했어요."}
-  ],
-  "paylas": ["요즘 사람들(친구, SNS)은 예수님을 누구라고 말하나요?", "예수님이 지금 나에게 “너는 나를 누구라 하느냐” 물으신다면, 나는 어떻게 대답하고 싶나요?", "베드로처럼 좋은 의도로 하나님의 뜻을 막으려 한 적이 있나요?", "‘내가 주인인 삶’에서 예수님께 넘겨야 할 운전대는 무엇인가요?"],
-  "etiraf": {"b": "나의 고백", "p": "“너는 나를 누구라 하느냐?”에 대한 나의 대답과, 그 고백 때문에 지고 갈 ‘나의 십자가’를 서너 문장으로 써 보세요.", "ph": "예) 예수님은 저의 그리스도이십니다. 그래서 저는 …"},
-  "dua": "주님은 그리스도시요 살아 계신 하나님의 아들이십니다. 이 고백 위에 제 삶을 세우게 해 주세요. 사람의 일보다 하나님의 일을 생각하며, 제 운전대를 예수님께 드리고 제 십자가를 지고 따르게 해 주세요. 예수님 이름으로 기도합니다. 아멘."
- }
-},
-"az": {
- "usaq": {
-  "basliq": "Siz Məni kim hesab edirsiniz?",
-  "hedef": ["Peterin İsanı “Məsih” deyə etiraf etdiyini öyrənəcəyik.", "İsanın bizim üçün əzab çəkəcəyini əvvəlcədən dediyini öyrənəcəyik.", "“İsa mənim üçün kimdir?” sualına cavab verəcəyik."],
-  "sehneler": [
-   {"b": "Çörəyi unudan şagirdlər", "ayə": "Matta 16:1–12", "alt": "Qayıqda çörəyi unutduqları üçün narahat olan şagirdlər", "p": ["Şagirdlər qayıqla o taya keçəndə çörək götürməyi unutdular. İsa “Fariseylərin [[maya]]sından çəkinin” deyəndə şagirdlər bunun çörək haqqında olduğunu sandılar.", "İsa beş min və dörd min nəfəri doyurduğunu yadlarına saldı. Maya fariseylərin yanlış təlimi idi. İsa varsa, çörək üçün narahat olmağa ehtiyac yoxdur."]},
-   {"b": "Sən Məsihsən", "ayə": "Matta 16:13–20", "alt": "Böyük qaya qarşısında İsaya etiraf edən Peter", "p": ["İsa soruşdu: “İnsanlar Məni kim hesab edir?” Şagirdlər “Vəftizçi Yəhya, İlyas, Yeremya deyirlər” deyə cavab verdilər. “Bəs siz Məni kim hesab edirsiniz?”", "Peter cavab verdi: “Sən [[Məsih]]sən, var olan Allahın Oğlusan.” İsa sevindi: “Bunu sənə Səmavi Atam açıb. Mən bu [[qaya]] üzərində Öz [[cəmiyyət]]imi quracağam.”"]},
-   {"b": "Peter mane olmaq istədi", "ayə": "Matta 16:21–23", "alt": "İsanı tutub saxlamağa çalışan Peter", "p": ["O vaxtdan İsa Yerusəlimdə əzab çəkəcəyini, öldürüləcəyini və üçüncü gün diriləcəyini deməyə başladı.", "Peter İsanı kənara çəkib dedi: “Bu heç vaxt Sənin başına gəlməsin!” İsa dedi: “Sən Allahın işlərini deyil, insan işlərini düşünürsən.”"]},
-   {"b": "Ardımca gəl", "ayə": "Matta 16:24–28", "alt": "Yolun önündə durub şagirdləri çağıran İsa", "p": ["İsa dedi: “Kim Mənim ardımca gəlmək istəyirsə, özünü inkar etsin, öz [[çarmıx]]ını götürüb ardımca gəlsin.”", "“İnsan bütün dünyanı qazanıb öz [[can]]ını itirsə, bunun ona nə faydası var?” İsanın ardınca getmək ən qiymətli yoldur."]}
-  ],
-  "aye": {"metn": "“Sən Məsihsən, var olan Allahın Oğlusan.”", "ref": "16:16", "bos": "Sən ___, var olan ___ ___.", "sozler": ["Məsihsən", "Allahın", "Oğlusan"], "yalan": "Müəllimsən"},
-  "lugat": {
-   "maya": {"i": "🍞", "x": "누룩", "m": "Çörəyi qabardan şeydir. Burada yavaş-yavaş yayılan pis təlimi bildirir.", "e": "Fariseylərin mayasından çəkinin."},
-   "Məsih": {"i": "👑", "x": "그리스도", "m": "“Məsh olunmuş Padşah” deməkdir. Allahın göndərdiyi Xilaskardır.", "e": "Sən Məsihsən."},
-   "qaya": {"i": "🪨", "x": "반석", "m": "Çox böyük və möhkəm daşdır.", "e": "Bu qaya üzərində cəmiyyətimi quracağam."},
-   "cəmiyyət": {"i": "⛪", "x": "교회", "m": "İsaya inananların toplantısıdır. Bina deyil, insanlardır.", "e": "İsa Öz cəmiyyətini qurur."},
-   "çarmıx": {"i": "✝️", "x": "십자가", "m": "İsanın bizim üçün öldüyü taxta edam alətidir.", "e": "Öz çarmıxını götürüb ardımca gəl."},
-   "can": {"i": "💓", "x": "목숨", "m": "İnsanı yaşadan həyatdır.", "e": "Can bütün dünyadan qiymətlidir."}
-  },
-  "test": [
-   {"q": "İsanın çəkinməyi dediyi “fariseylərin mayası” nədir?", "o": ["Yanlış təlim", "Xarab çörək", "Ağır yük"], "a": 0, "f": "Düzdür! Yavaş-yavaş yayılan pis təlim."},
-   {"q": "Peter İsanı kim kimi etiraf etdi?", "o": ["Məsih, var olan Allahın Oğlu", "Vəftizçi Yəhya", "İlyas"], "a": 0, "f": "Düzdür! Ən vacib etiraf."},
-   {"q": "İsa qaya üzərində nə quracağını dedi?", "o": ["Cəmiyyətini", "Qala", "Saray"], "a": 0, "f": "Düzdür! İsaya inananların toplantısı."},
-   {"q": "İsanın ardınca getmək üçün nəyi götürmək lazımdır?", "o": ["Öz çarmıxını", "Ağır daşı", "Böyük çantanı"], "a": 0, "f": "Düzdür! İsa üçün özümüzü təslim etməkdir."}
-  ],
-  "dusun": ["İsa mənim üçün kimdir?", "Peter niyə İsanın əzab çəkməsinə mane olmaq istədi?", "İsanın ardınca getmək üçün nəyi buraxmalıyam?"],
-  "fealiyyet": {"ciz": "İsaya “Sən Məsihsən!” deyə etiraf edən özünü çək.", "b": "İsa sənin üçün kimdir?", "p": "İsanın sənin üçün kim olduğunu seç.", "ph": "",
-   "secim": {"basliq": "İsa sənin üçün kimdir?", "izah": "Toxun və seç. Bir neçəsini seçə bilərsən.", "cumle": "İsa mənim {x}!", "bos": "Rəbbimdir", "bag": "və",
-    "secimler": [["✝️", "Xilaskarımdır"], ["👑", "Rəbbimdir"], ["🤝", "Dostumdur"], ["🐑", "Çobanımdır"], ["🏰", "Padşahımdır"], ["📖", "Müəllimimdir"]]}},
-  "dua": "İsa, Sən Məsihsən, var olan Allahın Oğlusan. Mənim üçün əzab çəkib dirilən Səni sevirəm. İnsan işlərini deyil, Allahın işlərini düşünüb öz çarmıxımı götürərək Sənin ardınca gedim. İsa Məsihin adı ilə dua edirəm. Amin."
+  "genc": {
+   "basliq": "반석 위의 고백",
+   "giris": "마태복음의 분수령입니다. 지금까지는 “이분은 누구신가?”를 물었다면, 여기서 제자들의 대답이 나옵니다. 그리고 바로 그 순간 이야기의 방향이 십자가를 향해 꺾입니다. 고백 뒤에는 따름이 옵니다.",
+   "meqsed": [
+    "베드로의 고백이 마태복음 전체에서 갖는 의미를 이해해요.",
+    "그리스도의 고난 예고와 제자도의 연결을 설명할 수 있어요.",
+    "“너는 나를 누구라 하느냐”에 나만의 대답과 따름의 결단을 해요."
+   ],
+   "sehneler": [
+    {
+     "b": "하늘은 읽으면서",
+     "ayə": "16:1–12",
+     "alt": "배 위에서 떡을 잊었다고 걱정하는 제자들",
+     "p": [
+      "바리새인과 사두개인은 원래 서로 적이었지만 예수님을 시험하려고 함께 왔어요. 예수님은 “너희가 하늘의 기상은 분별할 줄 알면서 시대의 표적은 분별할 수 없느냐” 하시며 요나의 표적만 주겠다고 하세요.",
+      "제자들은 떡을 잊은 걱정에 빠져 있었어요. 예수님은 “믿음이 작은 자들아” 하시며 두 번의 기적을 기억하게 하세요. 진짜 위험은 배고픔이 아니라 그들의 [[누룩]], 곧 가르침이었어요."
+     ],
+     "deep": {
+      "b": "깊이 보기 · 기억의 신앙",
+      "p": "제자들은 기적을 두 번이나 봤는데도 또 걱정했어요. 신앙은 새로운 기적보다 이미 받은 은혜를 ‘기억하는 것’에서 자라요. 예수님은 “기억하지 못하느냐?”고 물으세요."
+     }
+    },
+    {
+     "b": "가이사랴 빌립보의 질문",
+     "ayə": "16:13–20",
+     "alt": "큰 바위 앞에서 예수님께 고백하는 베드로",
+     "p": [
+      "가이사랴 빌립보는 거대한 바위 절벽에 판(Pan) 신전과 황제 신전이 있던 이방 도시였어요. 신들과 황제가 경쟁하던 그곳에서 예수님이 물으세요. “너희는 나를 누구라 하느냐?”",
+      "베드로의 대답: “주는 [[그리스도]]시요 살아 계신 하나님의 아들이시니이다.” 예수님은 “너는 [[베드로]]라. 내가 이 반석 위에 내 교회를 세우리니 음부의 권세가 이기지 못하리라” 하시며 천국 열쇠를 주세요."
+     ],
+     "deep": {
+      "b": "깊이 보기 · 반석은 무엇인가?",
+      "p": "‘베드로’(페트로스)와 ‘반석’(페트라)은 말놀이예요. 반석이 베드로 자신인지, 그의 고백인지에 대해 교회 전통마다 해석이 달라요. 분명한 것은 교회가 ‘예수는 그리스도’라는 고백 위에, 그 고백을 한 사람들을 통해 세워진다는 점이에요."
+     }
+    },
+    {
+     "b": "사탄아 물러가라",
+     "ayə": "16:21–23",
+     "alt": "예수님을 붙들고 말리는 베드로",
+     "p": [
+      "“이때로부터” 예수님은 예루살렘에서의 고난, 죽음, 부활을 처음으로 분명히 말씀하세요. 4:17의 “이때로부터”와 짝을 이루는 마태복음의 두 번째 전환점이에요.",
+      "방금 칭찬받은 베드로가 예수님을 붙들고 항변했어요. 예수님은 “사탄아 내 뒤로 물러가라. 너는 나를 넘어지게 하는 자로다”라고 꾸짖으세요. 반석이 순식간에 걸림돌이 되었어요. 십자가 없는 메시아는 광야의 사탄이 제안한 길이었어요(4:8–10)."
+     ],
+     "deep": {
+      "b": "깊이 보기 · 하나님의 일 vs 사람의 일",
+      "p": "베드로의 말은 사랑에서 나왔어요. 하지만 좋은 의도도 하나님의 뜻을 막을 수 있어요. 예수님을 ‘그리스도’라 고백하는 것과 ‘어떤 그리스도’인지 받아들이는 것은 다른 문제예요.",
+      "rose": true
+     }
+    },
+    {
+     "b": "자기 십자가를 지고",
+     "ayə": "16:24–28",
+     "alt": "길 앞에 서서 제자들을 부르시는 예수님",
+     "p": [
+      "“누구든지 나를 따라오려거든 자기를 [[부인]]하고 자기 십자가를 지고 나를 따를 것이니라.” 십자가는 로마의 처형 도구였어요. 죄수는 처형장까지 자기 십자가를 지고 갔어요.",
+      "“사람이 만일 온 천하를 얻고도 제 목숨을 잃으면 무엇이 유익하리요.” 역설이에요. 목숨을 지키려는 사람은 잃고, 예수님을 위해 잃는 사람은 찾아요."
+     ],
+     "deep": {
+      "b": "깊이 보기 · 자기 부인",
+      "p": "자기 부인은 자기를 미워하는 것이 아니라, 삶의 운전대를 예수님께 넘기는 거예요. ‘나’를 버리는 게 아니라 ‘내가 주인인 삶’을 버리는 거예요."
+     }
+    }
+   ],
+   "cedvel": {
+    "b": "사람들의 대답과 제자의 대답",
+    "alt": "16:13–16",
+    "bas": [
+     "누가",
+     "예수님은 …이다",
+     "부족한 점"
+    ],
+    "set": [
+     [
+      "어떤 사람들",
+      "세례 요한",
+      "선구자이지 메시아가 아님"
+     ],
+     [
+      "어떤 사람들",
+      "엘리야",
+      "오실 이를 준비하는 선지자"
+     ],
+     [
+      "어떤 사람들",
+      "예레미야나 선지자 중 하나",
+      "위대하지만 여전히 ‘사람’"
+     ],
+     [
+      "베드로",
+      "그리스도, 살아 계신 하나님의 아들",
+      "하늘 아버지가 알려 주신 정답"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "“이르시되 너희는 나를 누구라 하느냐. 시몬 베드로가 대답하여 이르되 주는 그리스도시요 살아 계신 하나님의 아들이시니이다.”",
+    "ref": "16:15–16"
+   },
+   "lugat": {
+    "누룩": {
+     "i": "🍞",
+     "o": "헬라어 쥐메",
+     "x": "maya",
+     "s": "보이지 않게 퍼지는 영향",
+     "m": "13:33에서는 하나님 나라의 성장을, 여기서는 잘못된 가르침의 확산을 뜻해요. 작지만 전체에 퍼져요.",
+     "e": "“적은 누룩이 온 덩이에 퍼지느니라”(갈 5:9)."
+    },
+    "그리스도": {
+     "i": "👑",
+     "o": "헬라어 크리스토스, 히브리어 메시아",
+     "x": "Məsih",
+     "s": "기름 부음 받은 왕",
+     "m": "구약에서 왕, 제사장, 선지자는 기름 부음을 받았어요. ‘그 기름 부음 받은 자’는 하나님이 약속하신 다윗의 자손 왕이에요.",
+     "e": "마태복음 1:1이 “예수 그리스도의 계보라”로 시작해요."
+    },
+    "베드로": {
+     "i": "🪨",
+     "o": "헬라어 페트로스, 아람어 게바",
+     "x": "Peter",
+     "s": "‘돌’이라는 별명",
+     "m": "본명은 시몬이에요. 예수님이 ‘돌’이라는 이름을 주셨어요. 성격은 흔들렸지만 예수님이 그를 반석으로 만드셨어요.",
+     "e": "아제르바이잔어 성경에서는 ‘Peter’라고 써요."
+    },
+    "부인": {
+     "i": "🙅",
+     "o": "헬라어 아파르네오마이",
+     "x": "özünü inkar etmək",
+     "s": "‘나는 모른다’고 하다",
+     "m": "26장에서 베드로가 예수님을 ‘부인’할 때 같은 동사가 쓰여요. 예수님을 부인하거나, 나를 부인하거나 둘 중 하나예요.",
+     "e": "“자기를 부인하고”(16:24) vs “세 번 나를 부인하리라”(26:34)."
+    }
+   },
+   "test": [
+    {
+     "q": "제자들이 떡 걱정을 할 때 예수님이 기억하라고 하신 것은?",
+     "o": [
+      "오천 명과 사천 명을 먹이신 일",
+      "출애굽 사건",
+      "다윗의 승리"
+     ],
+     "a": 0,
+     "f": "맞아요. 이미 받은 은혜를 기억하는 신앙이에요."
+    },
+    {
+     "q": "베드로의 고백이 있었던 곳은?",
+     "o": [
+      "가이사랴 빌립보",
+      "예루살렘 성전",
+      "나사렛 회당"
+     ],
+     "a": 0,
+     "f": "맞아요. 이방 신들의 도시였어요."
+    },
+    {
+     "q": "‘베드로’와 ‘반석’의 관계는?",
+     "o": [
+      "페트로스와 페트라의 말놀이",
+      "아무 관계 없음",
+      "같은 사람의 두 이름"
+     ],
+     "a": 0,
+     "f": "맞아요. 해석은 다양하지만 고백이 기초예요."
+    },
+    {
+     "q": "16:21의 “이때로부터”가 짝을 이루는 구절은?",
+     "o": [
+      "4:17",
+      "1:1",
+      "28:20"
+     ],
+     "a": 0,
+     "f": "맞아요. 사역의 시작과 십자가로의 전환이에요."
+    },
+    {
+     "q": "예수님이 베드로를 꾸짖으신 이유는?",
+     "o": [
+      "하나님의 일이 아니라 사람의 일을 생각해서",
+      "고백을 잘못해서",
+      "떡을 잊어서"
+     ],
+     "a": 0,
+     "f": "맞아요. 십자가 없는 메시아를 원했어요."
+    }
+   ],
+   "paylas": [
+    "요즘 사람들(친구, SNS)은 예수님을 누구라고 말하나요?",
+    "예수님이 지금 나에게 “너는 나를 누구라 하느냐” 물으신다면, 나는 어떻게 대답하고 싶나요?",
+    "베드로처럼 좋은 의도로 하나님의 뜻을 막으려 한 적이 있나요?",
+    "‘내가 주인인 삶’에서 예수님께 넘겨야 할 운전대는 무엇인가요?"
+   ],
+   "etiraf": {
+    "b": "나의 고백",
+    "p": "“너는 나를 누구라 하느냐?”에 대한 나의 대답과, 그 고백 때문에 지고 갈 ‘나의 십자가’를 서너 문장으로 써 보세요.",
+    "ph": "예) 예수님은 저의 그리스도이십니다. 그래서 저는 …"
+   },
+   "dua": "주님은 그리스도시요 살아 계신 하나님의 아들이십니다. 이 고백 위에 제 삶을 세우게 해 주세요. 사람의 일보다 하나님의 일을 생각하며, 제 운전대를 예수님께 드리고 제 십자가를 지고 따르게 해 주세요. 예수님 이름으로 기도합니다. 아멘."
+  }
  },
- "genc": {
-  "basliq": "Qaya üzərində etiraf",
-  "giris": "Matta Müjdəsinin dönüş nöqtəsidir. İndiyə qədər “Bu kimdir?” soruşulurdusa, burada şagirdlərin cavabı gəlir. Və elə o anda hekayənin istiqaməti çarmıxa doğru dönür. Etirafdan sonra ardınca getmək gəlir.",
-  "meqsed": ["Peterin etirafının bütün Matta Müjdəsindəki mənasını anlayırıq.", "Məsihin əzab haqqındakı xəbəri ilə şagirdliyin əlaqəsini izah edə bilirik.", "“Siz Məni kim hesab edirsiniz?” sualına öz cavabımızı verib ardınca getməyə qərar veririk."],
-  "sehneler": [
-   {"b": "Səmanı oxuyursunuz, amma", "ayə": "Matta 16:1–12", "alt": "Qayıqda çörəyi unutduqları üçün narahat olan şagirdlər", "p": ["Fariseylər və sadukeylər əslində bir-birinə düşmən idilər, amma İsanı sınamaq üçün birlikdə gəldilər. İsa “Səmanın görünüşünü ayırd edə bilirsiniz, amma zamanların əlamətlərini ayırd edə bilmirsiniz” deyib yalnız Yunusun əlamətini verəcəyini deyir.", "Şagirdlər çörəyi unutduqlarına görə narahat idilər. İsa “Ey kiçik imanlılar” deyib iki möcüzəni xatırladır. Əsl təhlükə aclıq deyil, onların [[maya]]sı, yəni təlimi idi."], "deep": {"b": "Dərindən baxaq · Xatırlayan iman", "p": "Şagirdlər möcüzəni iki dəfə görsələr də, yenə narahat oldular. İman yeni möcüzələrdən çox, artıq aldığımız lütfü “xatırlamaqla” böyüyür. İsa soruşur: “Yadınıza gəlmirmi?”"}},
-   {"b": "Qeysəriyyə-Filippidə sual", "ayə": "Matta 16:13–20", "alt": "Böyük qaya qarşısında İsaya etiraf edən Peter", "p": ["Qeysəriyyə-Filippi nəhəng qaya uçurumunda Pan bütünün və imperatorun məbədi olan yadelli şəhər idi. Allahlarla imperatorun yarışdığı o yerdə İsa soruşur: “Bəs siz Məni kim hesab edirsiniz?”", "Peterin cavabı: “Sən [[Məsih]]sən, var olan Allahın Oğlusan.” İsa deyir: “Sən [[Peter]]sən. Mən bu qaya üzərində Öz cəmiyyətimi quracağam və ölüler diyarının qapıları ona qalib gəlməyəcək” və Səmavi Padşahlığın açarlarını verir."], "deep": {"b": "Dərindən baxaq · Qaya nədir?", "p": "“Peter” (Petros) və “qaya” (petra) söz oyunudur. Qayanın Peterin özü, yoxsa onun etirafı olduğuna dair kilsə ənənələri müxtəlif şərh verir. Aydın olan budur ki, cəmiyyət “İsa Məsihdir” etirafı üzərində, bu etirafı edən insanlar vasitəsilə qurulur."}},
-   {"b": "Çəkil önümdən, Şeytan", "ayə": "Matta 16:21–23", "alt": "İsanı tutub saxlamağa çalışan Peter", "p": ["“O vaxtdan” İsa Yerusəlimdə əzab çəkəcəyini, öləcəyini və diriləcəyini ilk dəfə açıq deyir. Bu, 4:17-dəki “O vaxtdan” ilə cüt təşkil edən Matta Müjdəsinin ikinci dönüş nöqtəsidir.", "Elə indicə təriflənən Peter İsanı tutub etiraz etdi. İsa “Çəkil önümdən, Şeytan! Sən Mənim üçün büdrəmə daşısan” deyə danlayır. Qaya bir anda büdrəmə daşına çevrildi. Çarmıxsız Məsih səhrada Şeytanın təklif etdiyi yol idi (4:8–10)."], "deep": {"b": "Dərindən baxaq · Allahın işi və insan işi", "p": "Peterin sözü məhəbbətdən çıxmışdı. Amma yaxşı niyyət də Allahın iradəsinə mane ola bilər. İsanı “Məsih” kimi etiraf etmək ilə “necə Məsih” olduğunu qəbul etmək fərqli şeylərdir.", "rose": true}},
-   {"b": "Öz çarmıxını götürüb", "ayə": "Matta 16:24–28", "alt": "Yolun önündə durub şagirdləri çağıran İsa", "p": ["“Kim Mənim ardımca gəlmək istəyirsə, [[özünü inkar etsin|özünü inkar etmək]], öz çarmıxını götürüb ardımca gəlsin.” Çarmıx Romanın edam aləti idi. Məhkum öz çarmıxını edam yerinə qədər daşıyırdı.", "“İnsan bütün dünyanı qazanıb öz canını itirsə, bunun ona nə faydası var?” Paradoksdur. Canını qorumaq istəyən onu itirir, İsa üçün itirən isə tapır."], "deep": {"b": "Dərindən baxaq · Özünü inkar", "p": "Özünü inkar özünə nifrət etmək deyil, həyatın sükanını İsaya vermək deməkdir. “Məni” atmaq deyil, “sahibi mən olan həyatı” atmaqdır."}}
-  ],
-  "cedvel": {"b": "İnsanların cavabı və şagirdin cavabı", "alt": "16:13–16", "bas": ["Kim", "İsa …dır", "Çatışmayan"], "set": [["Bəziləri", "Vəftizçi Yəhya", "Qabaqcıldır, Məsih deyil"], ["Bəziləri", "İlyas", "Gələcəyə hazırlayan peyğəmbər"], ["Bəziləri", "Yeremya və ya peyğəmbərlərdən biri", "Böyükdür, amma yenə “insan”"], ["Peter", "Məsih, var olan Allahın Oğlu", "Səmavi Atanın açdığı düzgün cavab"]]},
-  "aye": {"metn": "“İsa onlardan soruşdu: “Bəs siz Məni kim hesab edirsiniz?” Simon Peter cavab verdi: “Sən Məsihsən, var olan Allahın Oğlusan.””", "ref": "16:15–16"},
-  "lugat": {
-   "maya": {"i": "🍞", "o": "Yunanca zime", "x": "누룩", "s": "Görünmədən yayılan təsir", "m": "13:33-də Allahın Padşahlığının böyüməsini, burada isə yanlış təlimin yayılmasını bildirir. Kiçikdir, amma hamısına yayılır.", "e": "“Bir az maya bütün xəmiri qabardır” (Qal. 5:9)."},
-   "Məsih": {"i": "👑", "o": "Yunanca Xristos, ivritcə Maşiax", "x": "그리스도", "s": "Məsh olunmuş Padşah", "m": "Əhdi-Ətiqdə padşahlar, kahinlər və peyğəmbərlər məsh olunurdu. “O Məsh olunmuş” Allahın vəd etdiyi Davud nəslindən Padşahdır.", "e": "Matta Müjdəsi “İsa Məsihin nəsil şəcərəsi” sözü ilə başlayır."},
-   "Peter": {"i": "🪨", "o": "Yunanca Petros, arami dilində Kefa", "x": "베드로", "s": "“Daş” ləqəbi", "m": "Əsl adı Simon idi. İsa ona “daş” adını verdi. Xasiyyəti dəyişkən olsa da, İsa onu qayaya çevirdi.", "e": "Koreya dilində “Beodro” deyilir."},
-   "özünü inkar etmək": {"i": "🙅", "o": "Yunanca aparneomai", "x": "자기를 부인하다", "s": "“Tanımıram” demək", "m": "26-cı fəsildə Peter İsanı “inkar edəndə” eyni fel işlənir. Ya İsanı inkar edirik, ya da özümüzü.", "e": "“Özünü inkar etsin” (16:24) və “Məni üç dəfə inkar edəcəksən” (26:34)."}
+ "az": {
+  "usaq": {
+   "basliq": "Siz Məni kim hesab edirsiniz?",
+   "hedef": [
+    "Peterin İsanı “Məsih” deyə etiraf etdiyini öyrənəcəyik.",
+    "İsanın bizim üçün əzab çəkəcəyini əvvəlcədən dediyini öyrənəcəyik.",
+    "“İsa mənim üçün kimdir?” sualına cavab verəcəyik."
+   ],
+   "sehneler": [
+    {
+     "b": "Çörəyi unudan şagirdlər",
+     "ayə": "Matta 16:1–12",
+     "alt": "Qayıqda çörəyi unutduqları üçün narahat olan şagirdlər",
+     "p": [
+      "Şagirdlər qayıqla o taya keçəndə çörək götürməyi unutdular. İsa “Fariseylərin [[maya]]sından çəkinin” deyəndə şagirdlər bunun çörək haqqında olduğunu sandılar.",
+      "İsa beş min və dörd min nəfəri doyurduğunu yadlarına saldı. Maya fariseylərin yanlış təlimi idi. İsa varsa, çörək üçün narahat olmağa ehtiyac yoxdur."
+     ]
+    },
+    {
+     "b": "Sən Məsihsən",
+     "ayə": "Matta 16:13–20",
+     "alt": "Böyük qaya qarşısında İsaya etiraf edən Peter",
+     "p": [
+      "İsa soruşdu: “İnsanlar Məni kim hesab edir?” Şagirdlər “Vəftizçi Yəhya, İlyas, Yeremya deyirlər” deyə cavab verdilər. “Bəs siz Məni kim hesab edirsiniz?”",
+      "Peter cavab verdi: “Sən [[Məsih]]sən, var olan Allahın Oğlusan.” İsa sevindi: “Bunu sənə Səmavi Atam açıb. Mən bu [[qaya]] üzərində Öz [[cəmiyyət]]imi quracağam.”"
+     ]
+    },
+    {
+     "b": "Peter mane olmaq istədi",
+     "ayə": "Matta 16:21–23",
+     "alt": "İsanı tutub saxlamağa çalışan Peter",
+     "p": [
+      "O vaxtdan İsa Yerusəlimdə əzab çəkəcəyini, öldürüləcəyini və üçüncü gün diriləcəyini deməyə başladı.",
+      "Peter İsanı kənara çəkib dedi: “Bu heç vaxt Sənin başına gəlməsin!” İsa dedi: “Sən Allahın işlərini deyil, insan işlərini düşünürsən.”"
+     ]
+    },
+    {
+     "b": "Ardımca gəl",
+     "ayə": "Matta 16:24–28",
+     "alt": "Yolun önündə durub şagirdləri çağıran İsa",
+     "p": [
+      "İsa dedi: “Kim Mənim ardımca gəlmək istəyirsə, özünü inkar etsin, öz [[çarmıx]]ını götürüb ardımca gəlsin.”",
+      "“İnsan bütün dünyanı qazanıb öz [[can]]ını itirsə, bunun ona nə faydası var?” İsanın ardınca getmək ən qiymətli yoldur."
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "“Sən Məsihsən, var olan Allahın Oğlusan.”",
+    "ref": "16:16",
+    "bos": "Sən ___, var olan ___ ___.",
+    "sozler": [
+     "Məsihsən",
+     "Allahın",
+     "Oğlusan"
+    ],
+    "yalan": "Müəllimsən"
+   },
+   "lugat": {
+    "maya": {
+     "i": "🍞",
+     "x": "누룩",
+     "m": "Çörəyi qabardan şeydir. Burada yavaş-yavaş yayılan pis təlimi bildirir.",
+     "e": "Fariseylərin mayasından çəkinin."
+    },
+    "Məsih": {
+     "i": "👑",
+     "x": "그리스도",
+     "m": "“Məsh olunmuş Padşah” deməkdir. Allahın göndərdiyi Xilaskardır.",
+     "e": "Sən Məsihsən."
+    },
+    "qaya": {
+     "i": "🪨",
+     "x": "반석",
+     "m": "Çox böyük və möhkəm daşdır.",
+     "e": "Bu qaya üzərində cəmiyyətimi quracağam."
+    },
+    "cəmiyyət": {
+     "i": "⛪",
+     "x": "교회",
+     "m": "İsaya inananların toplantısıdır. Bina deyil, insanlardır.",
+     "e": "İsa Öz cəmiyyətini qurur."
+    },
+    "çarmıx": {
+     "i": "✝️",
+     "x": "십자가",
+     "m": "İsanın bizim üçün öldüyü taxta edam alətidir.",
+     "e": "Öz çarmıxını götürüb ardımca gəl."
+    },
+    "can": {
+     "i": "💓",
+     "x": "목숨",
+     "m": "İnsanı yaşadan həyatdır.",
+     "e": "Can bütün dünyadan qiymətlidir."
+    }
+   },
+   "test": [
+    {
+     "q": "İsanın çəkinməyi dediyi “fariseylərin mayası” nədir?",
+     "o": [
+      "Yanlış təlim",
+      "Xarab çörək",
+      "Ağır yük"
+     ],
+     "a": 0,
+     "f": "Düzdür! Yavaş-yavaş yayılan pis təlim."
+    },
+    {
+     "q": "Peter İsanı kim kimi etiraf etdi?",
+     "o": [
+      "Məsih, var olan Allahın Oğlu",
+      "Vəftizçi Yəhya",
+      "İlyas"
+     ],
+     "a": 0,
+     "f": "Düzdür! Ən vacib etiraf."
+    },
+    {
+     "q": "İsa qaya üzərində nə quracağını dedi?",
+     "o": [
+      "Cəmiyyətini",
+      "Qala",
+      "Saray"
+     ],
+     "a": 0,
+     "f": "Düzdür! İsaya inananların toplantısı."
+    },
+    {
+     "q": "İsanın ardınca getmək üçün nəyi götürmək lazımdır?",
+     "o": [
+      "Öz çarmıxını",
+      "Ağır daşı",
+      "Böyük çantanı"
+     ],
+     "a": 0,
+     "f": "Düzdür! İsa üçün özümüzü təslim etməkdir."
+    }
+   ],
+   "dusun": [
+    "İsa mənim üçün kimdir?",
+    "Peter niyə İsanın əzab çəkməsinə mane olmaq istədi?",
+    "İsanın ardınca getmək üçün nəyi buraxmalıyam?"
+   ],
+   "fealiyyet": {
+    "ciz": "İsaya “Sən Məsihsən!” deyə etiraf edən özünü çək.",
+    "b": "İsa sənin üçün kimdir?",
+    "p": "İsanın sənin üçün kim olduğunu seç.",
+    "ph": "",
+    "secim": {
+     "basliq": "İsa sənin üçün kimdir?",
+     "izah": "Toxun və seç. Bir neçəsini seçə bilərsən.",
+     "cumle": "İsa mənim {x}!",
+     "bos": "Rəbbimdir",
+     "bag": "və",
+     "secimler": [
+      [
+       "✝️",
+       "Xilaskarımdır"
+      ],
+      [
+       "👑",
+       "Rəbbimdir"
+      ],
+      [
+       "🤝",
+       "Dostumdur"
+      ],
+      [
+       "🐑",
+       "Çobanımdır"
+      ],
+      [
+       "🏰",
+       "Padşahımdır"
+      ],
+      [
+       "📖",
+       "Müəllimimdir"
+      ]
+     ]
+    }
+   },
+   "dua": "İsa, Sən Məsihsən, var olan Allahın Oğlusan. Mənim üçün əzab çəkib dirilən Səni sevirəm. İnsan işlərini deyil, Allahın işlərini düşünüb öz çarmıxımı götürərək Sənin ardınca gedim. İsa Məsihin adı ilə dua edirəm. Amin."
   },
-  "test": [
-   {"q": "Şagirdlər çörək üçün narahat olanda İsa nəyi xatırlatdı?", "o": ["Beş min və dörd min nəfəri doyurmasını", "Misirdən çıxışı", "Davudun qələbəsini"], "a": 0, "f": "Düzdür. Artıq alınan lütfü xatırlayan iman."},
-   {"q": "Peterin etirafı harada oldu?", "o": ["Qeysəriyyə-Filippidə", "Yerusəlim məbədində", "Nazaret sinaqoqunda"], "a": 0, "f": "Düzdür. Yadelli allahların şəhəri idi."},
-   {"q": "“Peter” və “qaya” arasındakı əlaqə nədir?", "o": ["Petros və petra söz oyunu", "Heç bir əlaqə yoxdur", "Eyni adamın iki adı"], "a": 0, "f": "Düzdür. Şərhlər müxtəlifdir, amma etiraf təməldir."},
-   {"q": "16:21-dəki “O vaxtdan” hansı ayə ilə cüt təşkil edir?", "o": ["4:17", "1:1", "28:20"], "a": 0, "f": "Düzdür. Xidmətin başlanğıcı və çarmıxa dönüş."},
-   {"q": "İsa Peteri niyə danladı?", "o": ["Allahın işlərini deyil, insan işlərini düşündüyü üçün", "Etirafı səhv olduğu üçün", "Çörəyi unutduğu üçün"], "a": 0, "f": "Düzdür. Çarmıxsız Məsih istəyirdi."}
+  "genc": {
+   "basliq": "Qaya üzərində etiraf",
+   "giris": "Matta Müjdəsinin dönüş nöqtəsidir. İndiyə qədər “Bu kimdir?” soruşulurdusa, burada şagirdlərin cavabı gəlir. Və elə o anda hekayənin istiqaməti çarmıxa doğru dönür. Etirafdan sonra ardınca getmək gəlir.",
+   "meqsed": [
+    "Peterin etirafının bütün Matta Müjdəsindəki mənasını anlayırıq.",
+    "Məsihin əzab haqqındakı xəbəri ilə şagirdliyin əlaqəsini izah edə bilirik.",
+    "“Siz Məni kim hesab edirsiniz?” sualına öz cavabımızı verib ardınca getməyə qərar veririk."
+   ],
+   "sehneler": [
+    {
+     "b": "Səmanı oxuyursunuz, amma",
+     "ayə": "Matta 16:1–12",
+     "alt": "Qayıqda çörəyi unutduqları üçün narahat olan şagirdlər",
+     "p": [
+      "Fariseylər və sadukeylər əslində bir-birinə düşmən idilər, amma İsanı sınamaq üçün birlikdə gəldilər. İsa “Səmanın görünüşünü ayırd edə bilirsiniz, amma zamanların əlamətlərini ayırd edə bilmirsiniz” deyib yalnız Yunusun əlamətini verəcəyini deyir.",
+      "Şagirdlər çörəyi unutduqlarına görə narahat idilər. İsa “Ey kiçik imanlılar” deyib iki möcüzəni xatırladır. Əsl təhlükə aclıq deyil, onların [[maya]]sı, yəni təlimi idi."
+     ],
+     "deep": {
+      "b": "Dərindən baxaq · Xatırlayan iman",
+      "p": "Şagirdlər möcüzəni iki dəfə görsələr də, yenə narahat oldular. İman yeni möcüzələrdən çox, artıq aldığımız lütfü “xatırlamaqla” böyüyür. İsa soruşur: “Yadınıza gəlmirmi?”"
+     }
+    },
+    {
+     "b": "Qeysəriyyə-Filippidə sual",
+     "ayə": "Matta 16:13–20",
+     "alt": "Böyük qaya qarşısında İsaya etiraf edən Peter",
+     "p": [
+      "Qeysəriyyə-Filippi nəhəng qaya uçurumunda Pan bütünün və imperatorun məbədi olan yadelli şəhər idi. Allahlarla imperatorun yarışdığı o yerdə İsa soruşur: “Bəs siz Məni kim hesab edirsiniz?”",
+      "Peterin cavabı: “Sən [[Məsih]]sən, var olan Allahın Oğlusan.” İsa deyir: “Sən [[Peter]]sən. Mən bu qaya üzərində Öz cəmiyyətimi quracağam və ölüler diyarının qapıları ona qalib gəlməyəcək” və Səmavi Padşahlığın açarlarını verir."
+     ],
+     "deep": {
+      "b": "Dərindən baxaq · Qaya nədir?",
+      "p": "“Peter” (Petros) və “qaya” (petra) söz oyunudur. Qayanın Peterin özü, yoxsa onun etirafı olduğuna dair kilsə ənənələri müxtəlif şərh verir. Aydın olan budur ki, cəmiyyət “İsa Məsihdir” etirafı üzərində, bu etirafı edən insanlar vasitəsilə qurulur."
+     }
+    },
+    {
+     "b": "Çəkil önümdən, Şeytan",
+     "ayə": "Matta 16:21–23",
+     "alt": "İsanı tutub saxlamağa çalışan Peter",
+     "p": [
+      "“O vaxtdan” İsa Yerusəlimdə əzab çəkəcəyini, öləcəyini və diriləcəyini ilk dəfə açıq deyir. Bu, 4:17-dəki “O vaxtdan” ilə cüt təşkil edən Matta Müjdəsinin ikinci dönüş nöqtəsidir.",
+      "Elə indicə təriflənən Peter İsanı tutub etiraz etdi. İsa “Çəkil önümdən, Şeytan! Sən Mənim üçün büdrəmə daşısan” deyə danlayır. Qaya bir anda büdrəmə daşına çevrildi. Çarmıxsız Məsih səhrada Şeytanın təklif etdiyi yol idi (4:8–10)."
+     ],
+     "deep": {
+      "b": "Dərindən baxaq · Allahın işi və insan işi",
+      "p": "Peterin sözü məhəbbətdən çıxmışdı. Amma yaxşı niyyət də Allahın iradəsinə mane ola bilər. İsanı “Məsih” kimi etiraf etmək ilə “necə Məsih” olduğunu qəbul etmək fərqli şeylərdir.",
+      "rose": true
+     }
+    },
+    {
+     "b": "Öz çarmıxını götürüb",
+     "ayə": "Matta 16:24–28",
+     "alt": "Yolun önündə durub şagirdləri çağıran İsa",
+     "p": [
+      "“Kim Mənim ardımca gəlmək istəyirsə, [[özünü inkar etsin|özünü inkar etmək]], öz çarmıxını götürüb ardımca gəlsin.” Çarmıx Romanın edam aləti idi. Məhkum öz çarmıxını edam yerinə qədər daşıyırdı.",
+      "“İnsan bütün dünyanı qazanıb öz canını itirsə, bunun ona nə faydası var?” Paradoksdur. Canını qorumaq istəyən onu itirir, İsa üçün itirən isə tapır."
+     ],
+     "deep": {
+      "b": "Dərindən baxaq · Özünü inkar",
+      "p": "Özünü inkar özünə nifrət etmək deyil, həyatın sükanını İsaya vermək deməkdir. “Məni” atmaq deyil, “sahibi mən olan həyatı” atmaqdır."
+     }
+    }
+   ],
+   "cedvel": {
+    "b": "İnsanların cavabı və şagirdin cavabı",
+    "alt": "16:13–16",
+    "bas": [
+     "Kim",
+     "İsa …dır",
+     "Çatışmayan"
+    ],
+    "set": [
+     [
+      "Bəziləri",
+      "Vəftizçi Yəhya",
+      "Qabaqcıldır, Məsih deyil"
+     ],
+     [
+      "Bəziləri",
+      "İlyas",
+      "Gələcəyə hazırlayan peyğəmbər"
+     ],
+     [
+      "Bəziləri",
+      "Yeremya və ya peyğəmbərlərdən biri",
+      "Böyükdür, amma yenə “insan”"
+     ],
+     [
+      "Peter",
+      "Məsih, var olan Allahın Oğlu",
+      "Səmavi Atanın açdığı düzgün cavab"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "“İsa onlardan soruşdu: “Bəs siz Məni kim hesab edirsiniz?” Simon Peter cavab verdi: “Sən Məsihsən, var olan Allahın Oğlusan.””",
+    "ref": "16:15–16"
+   },
+   "lugat": {
+    "maya": {
+     "i": "🍞",
+     "o": "Yunanca zime",
+     "x": "누룩",
+     "s": "Görünmədən yayılan təsir",
+     "m": "13:33-də Allahın Padşahlığının böyüməsini, burada isə yanlış təlimin yayılmasını bildirir. Kiçikdir, amma hamısına yayılır.",
+     "e": "“Bir az maya bütün xəmiri qabardır” (Qal. 5:9)."
+    },
+    "Məsih": {
+     "i": "👑",
+     "o": "Yunanca Xristos, ivritcə Maşiax",
+     "x": "그리스도",
+     "s": "Məsh olunmuş Padşah",
+     "m": "Əhdi-Ətiqdə padşahlar, kahinlər və peyğəmbərlər məsh olunurdu. “O Məsh olunmuş” Allahın vəd etdiyi Davud nəslindən Padşahdır.",
+     "e": "Matta Müjdəsi “İsa Məsihin nəsil şəcərəsi” sözü ilə başlayır."
+    },
+    "Peter": {
+     "i": "🪨",
+     "o": "Yunanca Petros, arami dilində Kefa",
+     "x": "베드로",
+     "s": "“Daş” ləqəbi",
+     "m": "Əsl adı Simon idi. İsa ona “daş” adını verdi. Xasiyyəti dəyişkən olsa da, İsa onu qayaya çevirdi.",
+     "e": "Koreya dilində “Beodro” deyilir."
+    },
+    "özünü inkar etmək": {
+     "i": "🙅",
+     "o": "Yunanca aparneomai",
+     "x": "자기를 부인하다",
+     "s": "“Tanımıram” demək",
+     "m": "26-cı fəsildə Peter İsanı “inkar edəndə” eyni fel işlənir. Ya İsanı inkar edirik, ya da özümüzü.",
+     "e": "“Özünü inkar etsin” (16:24) və “Məni üç dəfə inkar edəcəksən” (26:34)."
+    }
+   },
+   "test": [
+    {
+     "q": "Şagirdlər çörək üçün narahat olanda İsa nəyi xatırlatdı?",
+     "o": [
+      "Beş min və dörd min nəfəri doyurmasını",
+      "Misirdən çıxışı",
+      "Davudun qələbəsini"
+     ],
+     "a": 0,
+     "f": "Düzdür. Artıq alınan lütfü xatırlayan iman."
+    },
+    {
+     "q": "Peterin etirafı harada oldu?",
+     "o": [
+      "Qeysəriyyə-Filippidə",
+      "Yerusəlim məbədində",
+      "Nazaret sinaqoqunda"
+     ],
+     "a": 0,
+     "f": "Düzdür. Yadelli allahların şəhəri idi."
+    },
+    {
+     "q": "“Peter” və “qaya” arasındakı əlaqə nədir?",
+     "o": [
+      "Petros və petra söz oyunu",
+      "Heç bir əlaqə yoxdur",
+      "Eyni adamın iki adı"
+     ],
+     "a": 0,
+     "f": "Düzdür. Şərhlər müxtəlifdir, amma etiraf təməldir."
+    },
+    {
+     "q": "16:21-dəki “O vaxtdan” hansı ayə ilə cüt təşkil edir?",
+     "o": [
+      "4:17",
+      "1:1",
+      "28:20"
+     ],
+     "a": 0,
+     "f": "Düzdür. Xidmətin başlanğıcı və çarmıxa dönüş."
+    },
+    {
+     "q": "İsa Peteri niyə danladı?",
+     "o": [
+      "Allahın işlərini deyil, insan işlərini düşündüyü üçün",
+      "Etirafı səhv olduğu üçün",
+      "Çörəyi unutduğu üçün"
+     ],
+     "a": 0,
+     "f": "Düzdür. Çarmıxsız Məsih istəyirdi."
+    }
+   ],
+   "paylas": [
+    "Bu gün insanlar (dostlar, sosial şəbəkələr) İsanı kim hesab edir?",
+    "İsa indi məndən “Sən Məni kim hesab edirsən?” soruşsa, nə cavab vermək istəyirəm?",
+    "Peter kimi yaxşı niyyətlə Allahın iradəsinə mane olmaq istədiyim olubmu?",
+    "“Sahibi mən olan həyatda” İsaya verməli olduğum sükan nədir?"
+   ],
+   "etiraf": {
+    "b": "Mənim etirafım",
+    "p": "“Siz Məni kim hesab edirsiniz?” sualına cavabını və bu etirafa görə daşıyacağın “öz çarmıxını” üç-dörd cümlə ilə yaz.",
+    "ph": "Məsələn: İsa mənim Məsihimdir. Buna görə də mən …"
+   },
+   "dua": "Rəbb, Sən Məsihsən, var olan Allahın Oğlusan. Həyatımı bu etiraf üzərində qurum. İnsan işlərini deyil, Allahın işlərini düşünüm, sükanımı Sənə verib öz çarmıxımı götürərək ardınca gedim. İsa Məsihin adı ilə dua edirəm. Amin."
+  }
+ },
+ "muellim": {
+  "mesaj": "21과의 중심은 한 문장입니다. **“예수는 그리스도, 살아 계신 하나님의 아들”이라는 고백 위에 교회가 서며, 그 고백은 십자가를 지고 따르는 삶으로 이어진다.**",
+  "hazirliq": [
+   "학생용 교재를 열 휴대폰이나 태블릿, 이어폰",
+   "작은 돌 (반석) 여러 개",
+   "‘예수님은 나에게 ○○’ 카드"
   ],
-  "paylas": ["Bu gün insanlar (dostlar, sosial şəbəkələr) İsanı kim hesab edir?", "İsa indi məndən “Sən Məni kim hesab edirsən?” soruşsa, nə cavab vermək istəyirəm?", "Peter kimi yaxşı niyyətlə Allahın iradəsinə mane olmaq istədiyim olubmu?", "“Sahibi mən olan həyatda” İsaya verməli olduğum sükan nədir?"],
-  "etiraf": {"b": "Mənim etirafım", "p": "“Siz Məni kim hesab edirsiniz?” sualına cavabını və bu etirafa görə daşıyacağın “öz çarmıxını” üç-dörd cümlə ilə yaz.", "ph": "Məsələn: İsa mənim Məsihimdir. Buna görə də mən …"},
-  "dua": "Rəbb, Sən Məsihsən, var olan Allahın Oğlusan. Həyatımı bu etiraf üzərində qurum. İnsan işlərini deyil, Allahın işlərini düşünüm, sükanımı Sənə verib öz çarmıxımı götürərək ardınca gedim. İsa Məsihin adı ilə dua edirəm. Amin."
+  "fon": [
+   [
+    "1. 가이사랴 빌립보",
+    "헤르몬산 기슭, 요단강 수원지입니다. 바위 절벽에 판 신의 동굴 신전이 있었고, 헤롯 빌립이 황제를 기려 도시 이름을 바꿨습니다. 신과 황제의 땅에서 참 하나님의 아들이 고백됩니다."
+   ],
+   [
+    "2. 두 전환점",
+    "4:17과 16:21은 모두 “이때로부터 예수께서”로 시작합니다. 마태복음을 ‘갈릴리 사역’과 ‘예루살렘으로의 여정’으로 나누는 구조 표지입니다."
+   ],
+   [
+    "3. 천국 열쇠와 매고 푸는 것",
+    "랍비 용어로 ‘매고 푸는 것’은 허용과 금지를 결정하는 권위입니다. 18:18에서는 공동체 전체에 같은 권한이 주어집니다."
+   ],
+   [
+    "4. 반석 해석",
+    "가톨릭 전통은 베드로 개인(교황직)으로, 개신교 전통은 대체로 베드로의 고백 또는 사도적 증언으로 봅니다. 학생들에게는 어느 쪽이든 ‘예수님이 그리스도’라는 고백이 중심임을 강조하세요."
+   ],
+   [
+    "5. 아제르바이잔어",
+    "‘Məsih’(그리스도)는 이슬람권에서도 예수님을 부르는 이름입니다(Isa Məsih). 같은 이름 안에 담긴 고백의 차이(하나님의 아들)를 조심스럽게 나눠 보세요."
+   ]
+  ],
+  "usaq_plan": [
+   [
+    "5분",
+    "사람들은 뭐라고 할까?",
+    "“예수님 하면 생각나는 말은?” 돌아가며 말하기",
+    "“그럼 너희는 예수님을 누구라고 생각하니?”"
+   ],
+   [
+    "15분",
+    "장면 1–4 듣고 읽기",
+    "장면마다 듣기, 노란 낱말 누르기",
+    "“베드로는 칭찬받고 바로 혼났어요. 왜일까요?”"
+   ],
+   [
+    "5분",
+    "외울 말씀",
+    "빈칸 놀이 → 작은 돌을 들고 함께 고백하기",
+    ""
+   ],
+   [
+    "5분",
+    "확인 퀴즈",
+    "혼자 풀고 함께 확인",
+    ""
+   ],
+   [
+    "10분",
+    "활동과 기도",
+    "‘예수님은 나에게’ 고르기 → 고백 기도",
+    ""
+   ]
+  ],
+  "genc_plan": [
+   [
+    "5분",
+    "열기",
+    "“친구들이 예수님에 대해 하는 말 세 가지”",
+    ""
+   ],
+   [
+    "15분",
+    "장면 1–2와 대답 표",
+    "누룩과 기억의 신앙, 가이사랴 빌립보, 반석",
+    ""
+   ],
+   [
+    "10분",
+    "장면 3–4",
+    "두 번째 전환점, 사탄아 물러가라, 자기 부인과 십자가",
+    "“어떤 그리스도를 원하는가?”"
+   ],
+   [
+    "5분",
+    "확인 문제",
+    "",
+    ""
+   ],
+   [
+    "15분",
+    "나눔과 고백",
+    "나눔 질문 2개 → 나의 고백과 십자가 쓰기 → 기도",
+    ""
+   ]
+  ],
+  "ipucu_usaq": [
+   "‘사탄아 물러가라’를 베드로가 사탄이라는 뜻으로 오해하지 않게, ‘하나님의 길을 막는 생각’을 꾸짖으셨다고 설명하세요.",
+   "십자가를 ‘힘든 일을 참는 것’ 정도로만 설명하지 말고, 예수님을 가장 먼저 사랑하는 것이라고 말해 주세요.",
+   "돌을 하나씩 나눠 주며 “예수님은 그리스도”라는 고백을 기억하게 하세요."
+  ],
+  "ipucu_genc": [
+   "무슬림 배경 학생에게 ‘하나님의 아들’ 표현은 민감할 수 있습니다. 육체적 의미가 아니라 하나님과의 고유한 관계를 뜻한다는 점을 정중히 설명하세요.",
+   "반석 해석 논쟁에 깊이 들어가기보다 고백의 중요성에 집중하세요.",
+   "다음 과(17장)는 변화산 사건입니다."
+  ],
+  "suallar": [
+   [
+    "예수님은 왜 베드로한테 사탄이라고 했어요?",
+    "베드로가 나쁜 사람이라서가 아니라, 십자가를 막으려는 생각이 사탄의 생각과 같았기 때문이에요.",
+    "광야에서 사탄도 십자가 없는 왕의 길을 제안했어요(4:8–9). 예수님은 그 유혹을 다시 단호하게 거절하신 거예요."
+   ],
+   [
+    "십자가를 진다는 건 진짜 나무를 지는 거예요?",
+    "아니에요. 예수님을 위해 내 고집을 내려놓고 사랑하는 것이 내 십자가예요.",
+    "십자가는 처형 도구였기에, ‘자기 십자가를 진다’는 것은 예수님을 위해 내 삶의 주도권을 내려놓는 결단을 말해요."
+   ],
+   [
+    "‘하나님의 아들’이면 하나님이 결혼하셨다는 뜻이에요?",
+    "아니에요. 예수님과 하나님 아버지가 아주 특별하게 하나라는 뜻이에요.",
+    "‘아들’은 생물학적 의미가 아니라 본질과 관계를 나타내는 말이에요. 예수님은 아버지와 같은 본성을 가지시고 아버지를 완전히 드러내세요(11:27)."
+   ]
+  ]
+ },
+ "en": {
+  "usaq": {
+   "basliq": "Who do you say I am?",
+   "hedef": [
+    "We will learn that Peter confessed Jesus as the 'Christ'.",
+    "We will learn that Jesus told beforehand that He would suffer for us.",
+    "We will answer the question, 'Who is Jesus to me?'"
+   ],
+   "sehneler": [
+    {
+     "b": "The disciples who forgot the bread",
+     "ayə": "Matthew 16:1–12",
+     "alt": "Disciples worrying in the boat because they forgot the bread",
+     "p": [
+      "When the disciples crossed over to the other side in a boat, they forgot to take bread. When Jesus said, 'Beware of the [[yeast]] of the Pharisees,' the disciples thought it was about bread.",
+      "Jesus reminded them of how He fed the five thousand and the four thousand. The yeast was the false teaching of the Pharisees. If we have Jesus, we don't need to worry about bread."
+     ]
+    },
+    {
+     "b": "You are the Christ",
+     "ayə": "Matthew 16:13–20",
+     "alt": "Peter confessing to Jesus in front of a big rock",
+     "p": [
+      "Jesus asked, 'Who do people say I am?' The disciples answered, 'They say John the Baptist, Elijah, or Jeremiah.' 'But who do you say I am?'",
+      "Peter answered, 'You are the [[Christ]], the Son of the living God.' Jesus was happy: 'My Father in heaven revealed this to you. I will build My [[church]] on this [[rock]].'"
+     ]
+    },
+    {
+     "b": "Peter tried to stop Him",
+     "ayə": "Matthew 16:21–23",
+     "alt": "Peter trying to hold Jesus back",
+     "p": [
+      "From that time, Jesus began to tell them that He would suffer in Jerusalem, be killed, and rise on the third day.",
+      "Peter took Jesus aside and said, 'May this never happen to You!' Jesus said, 'You are not thinking about the things of God, but the things of men.'"
+     ]
+    },
+    {
+     "b": "Follow Me",
+     "ayə": "Matthew 16:24–28",
+     "alt": "Jesus standing on the road calling His disciples",
+     "p": [
+      "Jesus said, 'If anyone wants to come after Me, let him deny himself, take up his [[cross]], and follow Me.'",
+      "'What good will it be for a person if he gains the whole world, yet loses his [[life]]?' Following Jesus is the most precious way."
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "“You are the Christ, the Son of the living God.”",
+    "ref": "16:16",
+    "bos": "“You are the ___, the ___ of the ___ God.”",
+    "sozler": [
+     "Christ",
+     "Son",
+     "living"
+    ],
+    "yalan": "Teacher"
+   },
+   "lugat": {
+    "yeast": {
+     "i": "🍞",
+     "x": "maya",
+     "m": "It is what makes bread rise. Here it means a bad teaching that spreads little by little.",
+     "e": "Beware of the yeast of the Pharisees."
+    },
+    "Christ": {
+     "i": "👑",
+     "x": "Məsih",
+     "m": "It means 'Anointed King'. It is the Savior sent by God.",
+     "e": "You are the Christ."
+    },
+    "rock": {
+     "i": "🪨",
+     "x": "qaya",
+     "m": "It is a very big and hard stone.",
+     "e": "I will build My church on this rock."
+    },
+    "church": {
+     "i": "⛪",
+     "x": "cəmiyyət",
+     "m": "It is a gathering of people who believe in Jesus. It is not a building, but people.",
+     "e": "Jesus builds His church."
+    },
+    "cross": {
+     "i": "✝️",
+     "x": "çarmıx",
+     "m": "It is the wooden tool of execution where Jesus died for us.",
+     "e": "Take up your cross and follow Me."
+    },
+    "life": {
+     "i": "💓",
+     "x": "can",
+     "m": "It is the life that keeps a person alive.",
+     "e": "Life is more precious than the whole world."
+    }
+   },
+   "test": [
+    {
+     "q": "What is the 'yeast of the Pharisees' that Jesus told them to beware of?",
+     "o": [
+      "False teaching",
+      "Spoiled bread",
+      "A heavy burden"
+     ],
+     "a": 0,
+     "f": "That's right! It is a bad teaching that spreads little by little."
+    },
+    {
+     "q": "Who did Peter confess Jesus to be?",
+     "o": [
+      "The Christ, the Son of the living God",
+      "John the Baptist",
+      "Elijah"
+     ],
+     "a": 0,
+     "f": "That's right! The most important confession."
+    },
+    {
+     "q": "What did Jesus say He would build on the rock?",
+     "o": [
+      "His church",
+      "A castle",
+      "A palace"
+     ],
+     "a": 0,
+     "f": "That's right! The gathering of people who believe in Jesus."
+    },
+    {
+     "q": "What must we take up to follow Jesus?",
+     "o": [
+      "Our cross",
+      "A heavy stone",
+      "A big bag"
+     ],
+     "a": 0,
+     "f": "That's right! It means giving ourselves up for Jesus."
+    }
+   ],
+   "dusun": [
+    "Who is Jesus to me?",
+    "Why did Peter try to stop Jesus from suffering?",
+    "What do I need to leave behind to follow Jesus?"
+   ],
+   "fealiyyet": {
+    "ciz": "Draw yourself confessing to Jesus, 'You are the Christ!'",
+    "b": "Who is Jesus to you?",
+    "p": "Choose who Jesus is to you.",
+    "ph": "",
+    "secim": {
+     "basliq": "Who is Jesus to you?",
+     "izah": "Tap to choose. You can choose more than one.",
+     "cumle": "Jesus is my {x}!",
+     "bos": "Lord",
+     "bag": "and",
+     "secimler": [
+      [
+       "✝️",
+       "Savior"
+      ],
+      [
+       "👑",
+       "Lord"
+      ],
+      [
+       "🤝",
+       "Friend"
+      ],
+      [
+       "🐑",
+       "Shepherd"
+      ],
+      [
+       "🏰",
+       "King"
+      ],
+      [
+       "📖",
+       "Teacher"
+      ]
+     ]
+    }
+   },
+   "dua": "Jesus, You are the Christ, the Son of the living God. I love You, who suffered and rose again for me. Let me think not about the things of men, but the things of God, and follow You by taking up my cross. I pray in the name of Jesus Christ. Amen."
+  },
+  "genc": {
+   "basliq": "Confession on the Rock",
+   "giris": "This is the turning point of the Gospel of Matthew. If until now the question was 'Who is this?', here comes the disciples' answer. And at that very moment, the direction of the story turns toward the cross. Following comes after confession.",
+   "meqsed": [
+    "We understand the meaning of Peter's confession in the whole Gospel of Matthew.",
+    "We can explain the connection between Christ's announcement of suffering and discipleship.",
+    "We give our own answer to the question 'Who do you say I am?' and decide to follow Him."
+   ],
+   "sehneler": [
+    {
+     "b": "You read the sky, but...",
+     "ayə": "Matthew 16:1–12",
+     "alt": "Disciples worrying in the boat because they forgot the bread",
+     "p": [
+      "The Pharisees and Sadducees were actually enemies, but they came together to test Jesus. Jesus says, 'You know how to discern the appearance of the sky, but you can't discern the signs of the times,' and tells them He will only give them the sign of Jonah.",
+      "The disciples were worried because they forgot the bread. Jesus says, 'You of little faith,' and reminds them of two miracles. The real danger was not hunger, but their [[yeast]], that is, their teaching."
+     ],
+     "deep": {
+      "b": "Look Deeper · Remembering faith",
+      "p": "Even though the disciples saw the miracle twice, they still worried. Faith grows more by 'remembering' the grace we have already received than by new miracles. Jesus asks, 'Don't you remember?'"
+     }
+    },
+    {
+     "b": "The question at Caesarea Philippi",
+     "ayə": "Matthew 16:13–20",
+     "alt": "Peter confessing to Jesus in front of a big rock",
+     "p": [
+      "Caesarea Philippi was a pagan city with a temple to the god Pan and a temple to the emperor on a huge rock cliff. In that place where gods and the emperor competed, Jesus asks, 'But who do you say I am?'",
+      "Peter's answer: 'You are the [[Christ]], the Son of the living God.' Jesus says, 'You are [[Peter]]. On this rock I will build My church, and the gates of Hades will not overcome it,' and He gives him the keys to the kingdom of heaven."
+     ],
+     "deep": {
+      "b": "Look Deeper · What is the rock?",
+      "p": "There is a play on words between 'Peter' (Petros) and 'rock' (petra). Church traditions interpret differently whether the rock is Peter himself or his confession. What is clear is that the church is built on the confession 'Jesus is the Christ,' through the people who make this confession."
+     }
+    },
+    {
+     "b": "Get behind Me, Satan",
+     "ayə": "Matthew 16:21–23",
+     "alt": "Peter trying to hold Jesus back",
+     "p": [
+      "'From that time on,' Jesus openly says for the first time that He will suffer, die, and rise again in Jerusalem. This is the second turning point in the Gospel of Matthew, pairing with the 'From that time on' in {{Matt. 4:17}}.",
+      "Peter, who had just been praised, took hold of Jesus and objected. Jesus rebukes him, 'Get behind Me, Satan! You are a stumbling block to Me.' The rock suddenly turned into a stumbling block. A Messiah without a cross was the path Satan offered in the wilderness ({{Matt. 4:8–10}})."
+     ],
+     "deep": {
+      "b": "Look Deeper · The things of God and the things of men",
+      "p": "Peter's words came out of love. But even good intentions can hinder God's will. Confessing Jesus as the 'Christ' and accepting 'what kind of Christ' He is are different things.",
+      "rose": true
+     }
+    },
+    {
+     "b": "Taking up your cross",
+     "ayə": "Matthew 16:24–28",
+     "alt": "Jesus standing on the road calling His disciples",
+     "p": [
+      "'If anyone desires to come after Me, let him [[deny himself|deny oneself]], take up his cross, and follow Me.' The cross was a Roman tool of execution. The condemned carried their own cross to the place of execution.",
+      "'For what will it profit a person if he gains the whole world, and forfeits his life?' It is a paradox. Whoever wants to save his life will lose it, but whoever loses it for Jesus will find it."
+     ],
+     "deep": {
+      "b": "Look Deeper · Self-denial",
+      "p": "Self-denial is not hating oneself, but handing over the steering wheel of life to Jesus. It is not throwing away 'me', but throwing away 'the life where I am the master'."
+     }
+    }
+   ],
+   "cedvel": {
+    "b": "People's answers and the disciple's answer",
+    "alt": "16:13–16",
+    "bas": [
+     "Who",
+     "Jesus is...",
+     "What is missing"
+    ],
+    "set": [
+     [
+      "Some",
+      "John the Baptist",
+      "A forerunner, not the Messiah"
+     ],
+     [
+      "Some",
+      "Elijah",
+      "A prophet preparing for the future"
+     ],
+     [
+      "Some",
+      "Jeremiah or one of the prophets",
+      "Great, but still a 'man'"
+     ],
+     [
+      "Peter",
+      "The Christ, the Son of the living God",
+      "The correct answer revealed by the Heavenly Father"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "“He said to them, 'But who do you say that I am?' Simon Peter answered, 'You are the Christ, the Son of the living God.'”",
+    "ref": "16:15–16"
+   },
+   "lugat": {
+    "yeast": {
+     "i": "🍞",
+     "o": "Greek zyme",
+     "x": "maya",
+     "s": "An unseen spreading influence",
+     "m": "In {{Matt. 13:33}} it represents the growth of God's Kingdom, but here it means the spread of false teaching. It is small, but it spreads through everything.",
+     "e": "'A little yeast leavens the whole lump' ({{Gal. 5:9}})."
+    },
+    "Christ": {
+     "i": "👑",
+     "o": "Greek Christos, Hebrew Mashiach",
+     "x": "Məsih",
+     "s": "Anointed King",
+     "m": "In the Old Testament, kings, priests, and prophets were anointed. 'The Anointed One' is the King from the line of David promised by God.",
+     "e": "The Gospel of Matthew begins with the words, 'The genealogy of Jesus Christ'."
+    },
+    "Peter": {
+     "i": "🪨",
+     "o": "Greek Petros, Aramaic Cephas",
+     "x": "Peter",
+     "s": "The nickname 'Stone'",
+     "m": "His real name was Simon. Jesus gave him the name 'stone'. Even though his character was unstable, Jesus turned him into a rock.",
+     "e": "In Azerbaijani, it is called 'Peter'."
+    },
+    "deny oneself": {
+     "i": "🙅",
+     "o": "Greek aparneomai",
+     "x": "özünü inkar etmək",
+     "s": "To say 'I don't know'",
+     "m": "The same verb is used when Peter 'denies' Jesus in chapter 26. We either deny Jesus, or we deny ourselves.",
+     "e": "'Let him deny himself' (16:24) and 'You will deny Me three times' (26:34)."
+    }
+   },
+   "test": [
+    {
+     "q": "What did Jesus remind the disciples of when they were worried about bread?",
+     "o": [
+      "Feeding the five thousand and the four thousand",
+      "The exodus from Egypt",
+      "David's victory"
+     ],
+     "a": 0,
+     "f": "That's right. Faith that remembers the grace already received."
+    },
+    {
+     "q": "Where did Peter's confession take place?",
+     "o": [
+      "In Caesarea Philippi",
+      "In the Jerusalem temple",
+      "In the Nazareth synagogue"
+     ],
+     "a": 0,
+     "f": "That's right. It was a city of pagan gods."
+    },
+    {
+     "q": "What is the connection between 'Peter' and 'rock'?",
+     "o": [
+      "A play on words between Petros and petra",
+      "There is no connection",
+      "Two names of the same person"
+     ],
+     "a": 0,
+     "f": "That's right. Interpretations vary, but the confession is the foundation."
+    },
+    {
+     "q": "Which verse does 'From that time on' in 16:21 pair with?",
+     "o": [
+      "4:17",
+      "1:1",
+      "28:20"
+     ],
+     "a": 0,
+     "f": "That's right. The beginning of the ministry and the turn to the cross."
+    },
+    {
+     "q": "Why did Jesus rebuke Peter?",
+     "o": [
+      "Because he was thinking about the things of men, not the things of God",
+      "Because his confession was wrong",
+      "Because he forgot the bread"
+     ],
+     "a": 0,
+     "f": "That's right. He wanted a Messiah without a cross."
+    }
+   ],
+   "paylas": [
+    "Who do people (friends, social media) say Jesus is today?",
+    "If Jesus asked me right now, 'Who do you say I am?', what would I want to answer?",
+    "Have I ever tried to hinder God's will with good intentions like Peter?",
+    "In 'the life where I am the master', what is the steering wheel I need to give to Jesus?"
+   ],
+   "etiraf": {
+    "b": "My confession",
+    "p": "Write your answer to the question 'Who do you say I am?' and 'your cross' that you will carry because of this confession in three or four sentences.",
+    "ph": "For example: Jesus is my Christ. Therefore, I will..."
+   },
+   "dua": "Lord, You are the Christ, the Son of the living God. Let me build my life on this confession. Let me think not about the things of men, but the things of God, hand over my steering wheel to You, take up my cross, and follow You. I pray in the name of Jesus Christ. Amen."
+  }
+ },
+ "ru": {
+  "usaq": {
+   "basliq": "За кого вы почитаете Меня?",
+   "hedef": [
+    "Узнаем, что Пётр исповедал Иисуса «Христом».",
+    "Узнаем, что Иисус заранее сказал, что пострадает за нас.",
+    "Ответим на вопрос: «Кто для меня Иисус?»"
+   ],
+   "sehneler": [
+    {
+     "b": "Ученики забыли хлеб",
+     "ayə": "Матфей 16:1–12",
+     "alt": "Ученики в лодке переживают, что забыли хлеб",
+     "p": [
+      "Когда ученики переправлялись на другой берег, они забыли взять хлеб. Иисус сказал: «Берегитесь [[закваски|закваска]] фарисейской», и ученики подумали, что это о хлебе.",
+      "Иисус напомнил им, как накормил пять и четыре тысячи человек. Закваска означала неправильное учение фарисеев. Если рядом Иисус, не нужно переживать о хлебе."
+     ]
+    },
+    {
+     "b": "Ты Христос",
+     "ayə": "Матфей 16:13–20",
+     "alt": "Пётр исповедует Иисуса перед большой скалой",
+     "p": [
+      "Иисус спросил: «За кого люди почитают Меня?» Ученики ответили: «Одни за Иоанна Крестителя, другие за Илию или Иеремию». «А вы за кого почитаете Меня?»",
+      "Пётр ответил: «Ты — [[Христос]], Сын Бога живого». Иисус обрадовался: «Это открыл тебе Мой Небесный Отец. Я на этой [[скале|скала]] создам Мою [[церковь]].»"
+     ]
+    },
+    {
+     "b": "Пётр хотел помешать",
+     "ayə": "Матфей 16:21–23",
+     "alt": "Пётр пытается удержать Иисуса",
+     "p": [
+      "С того времени Иисус начал говорить, что Ему предстоит много пострадать в Иерусалиме, быть убитым и на третий день воскреснуть.",
+      "Пётр отозвал Иисуса в сторону и сказал: «Да не будет этого с Тобой!» Иисус ответил: «Ты думаешь не о Божьем, а о человеческом.»"
+     ]
+    },
+    {
+     "b": "Следуй за Мной",
+     "ayə": "Матфей 16:24–28",
+     "alt": "Иисус стоит на дороге и зовёт учеников",
+     "p": [
+      "Иисус сказал: «Если кто хочет идти за Мной, отвергнись себя, возьми свой [[крест]] и следуй за Мной.»",
+      "«Какая польза человеку, если он приобретёт весь мир, а [[душе|душа]] своей повредит?» Следовать за Иисусом — самый ценный путь."
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "«Ты — Христос, Сын Бога живого.»",
+    "ref": "16:16",
+    "bos": "Ты — ___, Сын ___ ___.",
+    "sozler": [
+     "Христос",
+     "Бога",
+     "живого"
+    ],
+    "yalan": "Учитель"
+   },
+   "lugat": {
+    "закваска": {
+     "i": "🍞",
+     "x": "maya",
+     "m": "То, от чего поднимается тесто. Здесь означает плохое учение, которое медленно распространяется.",
+     "e": "Берегитесь закваски фарисейской."
+    },
+    "Христос": {
+     "i": "👑",
+     "x": "Məsih",
+     "m": "Означает «Помазанный Царь». Это Спаситель, посланный Богом.",
+     "e": "Ты — Христос."
+    },
+    "скала": {
+     "i": "🪨",
+     "x": "qaya",
+     "m": "Очень большой и крепкий камень.",
+     "e": "На этой скале Я создам церковь."
+    },
+    "церковь": {
+     "i": "⛪",
+     "x": "cəmiyyət",
+     "m": "Собрание людей, верящих в Иисуса. Это не здание, а люди.",
+     "e": "Иисус создаёт Свою церковь."
+    },
+    "крест": {
+     "i": "✝️",
+     "x": "çarmıx",
+     "m": "Деревянное орудие казни, на котором Иисус умер за нас.",
+     "e": "Возьми свой крест и следуй за Мной."
+    },
+    "душа": {
+     "i": "💓",
+     "x": "can",
+     "m": "Жизнь, которая даёт человеку жить.",
+     "e": "Душа ценнее всего мира."
+    }
+   },
+   "test": [
+    {
+     "q": "Что такое «закваска фарисейская», которой Иисус велел остерегаться?",
+     "o": [
+      "Неправильное учение",
+      "Испорченный хлеб",
+      "Тяжёлый груз"
+     ],
+     "a": 0,
+     "f": "Верно! Это плохое учение, которое медленно распространяется."
+    },
+    {
+     "q": "Кем Пётр исповедал Иисуса?",
+     "o": [
+      "Христом, Сыном Бога живого",
+      "Иоанном Крестителем",
+      "Илией"
+     ],
+     "a": 0,
+     "f": "Верно! Это самое важное исповедание."
+    },
+    {
+     "q": "Что Иисус сказал, что создаст на скале?",
+     "o": [
+      "Свою церковь",
+      "Крепость",
+      "Дворец"
+     ],
+     "a": 0,
+     "f": "Верно! Собрание верующих в Иисуса."
+    },
+    {
+     "q": "Что нужно взять, чтобы следовать за Иисусом?",
+     "o": [
+      "Свой крест",
+      "Тяжёлый камень",
+      "Большую сумку"
+     ],
+     "a": 0,
+     "f": "Верно! Это значит посвятить себя Иисусу."
+    }
+   ],
+   "dusun": [
+    "Кто для меня Иисус?",
+    "Почему Пётр хотел помешать Иисусу пострадать?",
+    "Что мне нужно оставить, чтобы следовать за Иисусом?"
+   ],
+   "fealiyyet": {
+    "ciz": "Нарисуй себя, говорящим Иисусу: «Ты — Христос!»",
+    "b": "Кто для тебя Иисус?",
+    "p": "Выбери, кем для тебя является Иисус.",
+    "ph": "",
+    "secim": {
+     "basliq": "Кто для тебя Иисус?",
+     "izah": "Нажимай и выбирай. Можно выбрать несколько.",
+     "cumle": "Иисус — мой {x}!",
+     "bos": "Господь",
+     "bag": "и",
+     "secimler": [
+      [
+       "✝️",
+       "Спаситель"
+      ],
+      [
+       "👑",
+       "Господь"
+      ],
+      [
+       "🤝",
+       "Друг"
+      ],
+      [
+       "🐑",
+       "Пастырь"
+      ],
+      [
+       "🏰",
+       "Царь"
+      ],
+      [
+       "📖",
+       "Учитель"
+      ]
+     ]
+    }
+   },
+   "dua": "Иисус, Ты — Христос, Сын Бога живого. Я люблю Тебя, пострадавшего и воскресшего ради меня. Помоги мне думать не о человеческом, а о Божьем, взять свой крест и следовать за Тобой. Во имя Иисуса Христа молюсь. Аминь."
+  },
+  "genc": {
+   "basliq": "Исповедание на скале",
+   "giris": "Это поворотный момент Евангелия от Матфея. Если до сих пор задавался вопрос «Кто это?», то здесь звучит ответ учеников. И в этот же момент направление истории поворачивает к кресту. За исповеданием следует ученичество.",
+   "meqsed": [
+    "Понять значение исповедания Петра во всём Евангелии от Матфея.",
+    "Объяснить связь между вестью Христа о страданиях и ученичеством.",
+    "Дать свой ответ на вопрос «За кого вы почитаете Меня?» и принять решение следовать за Ним."
+   ],
+   "sehneler": [
+    {
+     "b": "Лицо неба различаете, но...",
+     "ayə": "Матфей 16:1–12",
+     "alt": "Ученики в лодке переживают, что забыли хлеб",
+     "p": [
+      "Фарисеи и саддукеи на самом деле были врагами, но пришли вместе, чтобы испытать Иисуса. Иисус говорит: «Лицо неба вы умеете распознавать, а знамений времён не можете», и добавляет, что даст им только знамение Ионы.",
+      "Ученики переживали из-за того, что забыли хлеб. Иисус говорит: «Маловеры» и напоминает о двух чудесах. Настоящей опасностью был не голод, а их [[закваска]], то есть учение."
+     ],
+     "deep": {
+      "b": "Взгляд вглубь · Помнящая вера",
+      "p": "Ученики дважды видели чудо, но снова забеспокоились. Вера растёт не столько от новых чудес, сколько от «воспоминания» об уже полученной благодати. Иисус спрашивает: «Неужели не помните?»"
+     }
+    },
+    {
+     "b": "Вопрос в Кесарии Филипповой",
+     "ayə": "Матфей 16:13–20",
+     "alt": "Пётр исповедует Иисуса перед большой скалой",
+     "p": [
+      "Кесария Филиппова была языческим городом у огромной скалы, где находились храмы бога Пана и императора. Там, где боги соревновались с императором, Иисус спрашивает: «А вы за кого почитаете Меня?»",
+      "Ответ Петра: «Ты — [[Христос]], Сын Бога живого». Иисус говорит: «Ты — [[Пётр]], и на этой скале Я создам Церковь Мою, и врата ада не одолеют её», и даёт ему ключи Царства Небесного."
+     ],
+     "deep": {
+      "b": "Взгляд вглубь · Что такое скала?",
+      "p": "«Пётр» (Petros) и «скала» (petra) — это игра слов. Церковные традиции по-разному толкуют, является ли скалой сам Пётр или его исповедание. Ясно одно: церковь строится на исповедании «Иисус есть Христос» через людей, которые это исповедуют."
+     }
+    },
+    {
+     "b": "Отойди от Меня, сатана",
+     "ayə": "Матфей 16:21–23",
+     "alt": "Пётр пытается удержать Иисуса",
+     "p": [
+      "«С того времени» Иисус впервые открыто говорит, что Ему предстоит пострадать в Иерусалиме, быть убитым и воскреснуть. Это второй поворотный момент Евангелия от Матфея, идущий в паре с «С того времени» в 4:17.",
+      "Пётр, которого только что похвалили, отвёл Иисуса и начал прекословить. Иисус строго отвечает: «Отойди от Меня, сатана! Ты Мне соблазн». Скала в одно мгновение превратилась в камень преткновения. Мессия без креста — это путь, предложенный сатаной в пустыне (4:8–10)."
+     ],
+     "deep": {
+      "b": "Взгляд вглубь · Божье и человеческое",
+      "p": "Слова Петра исходили из любви. Но даже благие намерения могут препятствовать воле Божьей. Исповедать Иисуса «Христом» и принять то, «какой Он Христос» — разные вещи.",
+      "rose": true
+     }
+    },
+    {
+     "b": "Взяв свой крест",
+     "ayə": "Матфей 16:24–28",
+     "alt": "Иисус стоит на дороге и зовёт учеников",
+     "p": [
+      "«Если кто хочет идти за Мною, [[отвергнись себя|отвергнуть себя]], возьми крест свой, и следуй за Мною». Крест был римским орудием казни. Осуждённый сам нёс свой крест до места казни.",
+      "«Какая польза человеку, если он приобретёт весь мир, а душе своей повредит?» Это парадокс. Тот, кто хочет сберечь свою жизнь, потеряет её, а кто потеряет ради Иисуса — обретёт."
+     ],
+     "deep": {
+      "b": "Взгляд вглубь · Отвержение себя",
+      "p": "Отвергнуть себя — это не ненавидеть себя, а передать руль своей жизни Иисусу. Это значит отказаться не от «себя», а от «жизни, в которой я хозяин»."
+     }
+    }
+   ],
+   "cedvel": {
+    "b": "Ответ людей и ответ ученика",
+    "alt": "16:13–16",
+    "bas": [
+     "Кто",
+     "Иисус — это...",
+     "Чего не хватает"
+    ],
+    "set": [
+     [
+      "Некоторые",
+      "Иоанн Креститель",
+      "Предтеча, но не Мессия"
+     ],
+     [
+      "Некоторые",
+      "Илия",
+      "Пророк, готовящий путь"
+     ],
+     [
+      "Некоторые",
+      "Иеремия или один из пророков",
+      "Великий, но всё же «человек»"
+     ],
+     [
+      "Пётр",
+      "Христос, Сын Бога живого",
+      "Правильный ответ, открытый Небесным Отцом"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "«Он говорит им: а вы за кого почитаете Меня? Симон же Пётр, отвечая, сказал: Ты — Христос, Сын Бога живого.»",
+    "ref": "16:15–16"
+   },
+   "lugat": {
+    "закваска": {
+     "i": "🍞",
+     "o": "Греч. zymē",
+     "x": "maya",
+     "s": "Невидимо распространяющееся влияние",
+     "m": "В 13:33 означает рост Царства Божьего, а здесь — распространение ложного учения. Она мала, но проникает во всё.",
+     "e": "«Малая закваска квасит всё тесто» (Гал. 5:9)."
+    },
+    "Христос": {
+     "i": "👑",
+     "o": "Греч. Christos, евр. Mashiach",
+     "x": "Məsih",
+     "s": "Помазанный Царь",
+     "m": "В Ветхом Завете помазывали царей, священников и пророков. «Помазанник» — это обещанный Богом Царь из рода Давида.",
+     "e": "Евангелие от Матфея начинается словами: «Родословие Иисуса Христа»."
+    },
+    "Пётр": {
+     "i": "🪨",
+     "o": "Греч. Petros, арам. Kefa",
+     "x": "Peter",
+     "s": "Прозвище «камень»",
+     "m": "Его настоящее имя было Симон. Иисус дал ему имя «камень». Хотя его характер был переменчивым, Иисус сделал его скалой.",
+     "e": "По-азербайджански это имя звучит как «Peter»."
+    },
+    "отвергнуть себя": {
+     "i": "🙅",
+     "o": "Греч. aparneomai",
+     "x": "özünü inkar etmək",
+     "s": "Сказать «я не знаю»",
+     "m": "В 26-й главе, когда Пётр «отрекается» от Иисуса, используется тот же глагол. Мы либо отрекаемся от Иисуса, либо от самих себя.",
+     "e": "«Отвергнись себя» (16:24) и «Трижды отречёшься от Меня» (26:34)."
+    }
+   },
+   "test": [
+    {
+     "q": "О чём Иисус напомнил ученикам, когда они переживали из-за хлеба?",
+     "o": [
+      "Как Он накормил пять и четыре тысячи человек",
+      "Об исходе из Египта",
+      "О победе Давида"
+     ],
+     "a": 0,
+     "f": "Верно. Это вера, которая помнит уже полученную благодать."
+    },
+    {
+     "q": "Где произошло исповедание Петра?",
+     "o": [
+      "В Кесарии Филипповой",
+      "В Иерусалимском храме",
+      "В синагоге Назарета"
+     ],
+     "a": 0,
+     "f": "Верно. Это был город языческих богов."
+    },
+    {
+     "q": "Какая связь между словами «Пётр» и «скала»?",
+     "o": [
+      "Игра слов Petros и petra",
+      "Никакой связи нет",
+      "Два имени одного человека"
+     ],
+     "a": 0,
+     "f": "Верно. Толкования разнятся, но исповедание является основанием."
+    },
+    {
+     "q": "С каким стихом идёт в паре фраза «С того времени» из 16:21?",
+     "o": [
+      "4:17",
+      "1:1",
+      "28:20"
+     ],
+     "a": 0,
+     "f": "Верно. Начало служения и поворот к кресту."
+    },
+    {
+     "q": "Почему Иисус строго обличил Петра?",
+     "o": [
+      "Потому что он думал не о Божьем, а о человеческом",
+      "Потому что его исповедание было неверным",
+      "Потому что он забыл хлеб"
+     ],
+     "a": 0,
+     "f": "Верно. Он хотел Мессию без креста."
+    }
+   ],
+   "paylas": [
+    "За кого сегодня люди (друзья, соцсети) почитают Иисуса?",
+    "Если бы Иисус сейчас спросил меня: «А ты за кого почитаешь Меня?», что бы я хотел ответить?",
+    "Бывало ли так, что я, как Пётр, с хорошими намерениями пытался препятствовать воле Божьей?",
+    "В «жизни, в которой я хозяин», какой руль мне нужно передать Иисусу?"
+   ],
+   "etiraf": {
+    "b": "Моё исповедание",
+    "p": "Напиши в трёх-четырёх предложениях свой ответ на вопрос «За кого вы почитаете Меня?» и «свой крест», который ты понесёшь ради этого исповедания.",
+    "ph": "Например: Иисус — мой Христос. Поэтому я..."
+   },
+   "dua": "Господь, Ты — Христос, Сын Бога живого. Помоги мне строить свою жизнь на этом исповедании. Пусть я думаю не о человеческом, а о Божьем, передам руль Тебе, возьму свой крест и последую за Тобой. Во имя Иисуса Христа молюсь. Аминь."
+  }
  }
-},
-"muellim": {
- "mesaj": "21과의 중심은 한 문장입니다. **“예수는 그리스도, 살아 계신 하나님의 아들”이라는 고백 위에 교회가 서며, 그 고백은 십자가를 지고 따르는 삶으로 이어진다.**",
- "hazirliq": ["학생용 교재를 열 휴대폰이나 태블릿, 이어폰", "작은 돌 (반석) 여러 개", "‘예수님은 나에게 ○○’ 카드"],
- "fon": [
-  ["1. 가이사랴 빌립보", "헤르몬산 기슭, 요단강 수원지입니다. 바위 절벽에 판 신의 동굴 신전이 있었고, 헤롯 빌립이 황제를 기려 도시 이름을 바꿨습니다. 신과 황제의 땅에서 참 하나님의 아들이 고백됩니다."],
-  ["2. 두 전환점", "4:17과 16:21은 모두 “이때로부터 예수께서”로 시작합니다. 마태복음을 ‘갈릴리 사역’과 ‘예루살렘으로의 여정’으로 나누는 구조 표지입니다."],
-  ["3. 천국 열쇠와 매고 푸는 것", "랍비 용어로 ‘매고 푸는 것’은 허용과 금지를 결정하는 권위입니다. 18:18에서는 공동체 전체에 같은 권한이 주어집니다."],
-  ["4. 반석 해석", "가톨릭 전통은 베드로 개인(교황직)으로, 개신교 전통은 대체로 베드로의 고백 또는 사도적 증언으로 봅니다. 학생들에게는 어느 쪽이든 ‘예수님이 그리스도’라는 고백이 중심임을 강조하세요."],
-  ["5. 아제르바이잔어", "‘Məsih’(그리스도)는 이슬람권에서도 예수님을 부르는 이름입니다(Isa Məsih). 같은 이름 안에 담긴 고백의 차이(하나님의 아들)를 조심스럽게 나눠 보세요."]
- ],
- "usaq_plan": [
-  ["5분", "사람들은 뭐라고 할까?", "“예수님 하면 생각나는 말은?” 돌아가며 말하기", "“그럼 너희는 예수님을 누구라고 생각하니?”"],
-  ["15분", "장면 1–4 듣고 읽기", "장면마다 듣기, 노란 낱말 누르기", "“베드로는 칭찬받고 바로 혼났어요. 왜일까요?”"],
-  ["5분", "외울 말씀", "빈칸 놀이 → 작은 돌을 들고 함께 고백하기", ""],
-  ["5분", "확인 퀴즈", "혼자 풀고 함께 확인", ""],
-  ["10분", "활동과 기도", "‘예수님은 나에게’ 고르기 → 고백 기도", ""]
- ],
- "genc_plan": [
-  ["5분", "열기", "“친구들이 예수님에 대해 하는 말 세 가지”", ""],
-  ["15분", "장면 1–2와 대답 표", "누룩과 기억의 신앙, 가이사랴 빌립보, 반석", ""],
-  ["10분", "장면 3–4", "두 번째 전환점, 사탄아 물러가라, 자기 부인과 십자가", "“어떤 그리스도를 원하는가?”"],
-  ["5분", "확인 문제", "", ""],
-  ["15분", "나눔과 고백", "나눔 질문 2개 → 나의 고백과 십자가 쓰기 → 기도", ""]
- ],
- "ipucu_usaq": ["‘사탄아 물러가라’를 베드로가 사탄이라는 뜻으로 오해하지 않게, ‘하나님의 길을 막는 생각’을 꾸짖으셨다고 설명하세요.", "십자가를 ‘힘든 일을 참는 것’ 정도로만 설명하지 말고, 예수님을 가장 먼저 사랑하는 것이라고 말해 주세요.", "돌을 하나씩 나눠 주며 “예수님은 그리스도”라는 고백을 기억하게 하세요."],
- "ipucu_genc": ["무슬림 배경 학생에게 ‘하나님의 아들’ 표현은 민감할 수 있습니다. 육체적 의미가 아니라 하나님과의 고유한 관계를 뜻한다는 점을 정중히 설명하세요.", "반석 해석 논쟁에 깊이 들어가기보다 고백의 중요성에 집중하세요.", "다음 과(17장)는 변화산 사건입니다."],
- "suallar": [
-  ["예수님은 왜 베드로한테 사탄이라고 했어요?", "베드로가 나쁜 사람이라서가 아니라, 십자가를 막으려는 생각이 사탄의 생각과 같았기 때문이에요.", "광야에서 사탄도 십자가 없는 왕의 길을 제안했어요(4:8–9). 예수님은 그 유혹을 다시 단호하게 거절하신 거예요."],
-  ["십자가를 진다는 건 진짜 나무를 지는 거예요?", "아니에요. 예수님을 위해 내 고집을 내려놓고 사랑하는 것이 내 십자가예요.", "십자가는 처형 도구였기에, ‘자기 십자가를 진다’는 것은 예수님을 위해 내 삶의 주도권을 내려놓는 결단을 말해요."],
-  ["‘하나님의 아들’이면 하나님이 결혼하셨다는 뜻이에요?", "아니에요. 예수님과 하나님 아버지가 아주 특별하게 하나라는 뜻이에요.", "‘아들’은 생물학적 의미가 아니라 본질과 관계를 나타내는 말이에요. 예수님은 아버지와 같은 본성을 가지시고 아버지를 완전히 드러내세요(11:27)."]
- ]
-}
 }

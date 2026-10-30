@@ -6,10 +6,15 @@ import edge_tts
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PX = os.environ.get('HTTPS_PROXY')
 
-async def one(path, text, rate):
+def voice_for(name):
+    if '-ru' in name: return 'ru-RU-SvetlanaNeural'
+    if '-en' in name: return 'en-US-JennyNeural'
+    return 'az-AZ-BanuNeural'
+
+async def one(path, text, rate, voice='az-AZ-BanuNeural'):
     for _ in range(4):
         try:
-            await edge_tts.Communicate(text, 'az-AZ-BanuNeural', rate=rate, proxy=PX).save(path); return True
+            await edge_tts.Communicate(text, voice, rate=rate, proxy=PX).save(path); return True
         except Exception as e:
             err = e; await asyncio.sleep(2)
     print('FAIL', path, err); return False
@@ -22,13 +27,13 @@ async def folder(name):
     rate = '-4%' if name.endswith('genc') else '-6%'
     sem = asyncio.Semaphore(5); todo = []
     for k, t in items.items():
-        h = hashlib.md5((rate + t).encode()).hexdigest()
+        h = hashlib.md5((rate + t + ('' if voice_for(name).startswith('az') else voice_for(name))).encode()).hexdigest()
         p = os.path.join(out, k + '.mp3')
         if stamp.get(k) == h and os.path.exists(p): continue
         todo.append((k, t, p, h))
     async def run(k, t, p, h):
         async with sem:
-            if await one(p, t, rate): stamp[k] = h
+            if await one(p, t, rate, voice_for(name)): stamp[k] = h
     await asyncio.gather(*[run(*x) for x in todo])
     for f in os.listdir(out):
         if f.endswith('.mp3') and f[:-4] not in items: os.remove(os.path.join(out, f))

@@ -1,0 +1,503 @@
+{
+ "no": 1,
+ "ref": "1:1–25",
+ "az": {
+  "usaq": {
+   "basliq": "İmmanuel — Allah bizimlədir!",
+   "hedef": [
+    "İsa Məsih Allahın vədinə görə gəldi.",
+    "“İsa” və “İmmanuel” adlarının mənasını öyrənəcəyik.",
+    "Yusif kimi Allahın sözünə itaət etməyi öyrənəcəyik."
+   ],
+   "sehneler": [
+    {
+     "b": "İsanın ailə ağacı",
+     "ayə": "Matta 1:1–17",
+     "alt": "İbrahimdən Davuda və İsaya qədər nəsil ağacı",
+     "p": [
+      "Mattanın yazdığı Müjdə İsanın [[nəsil şəcərəsi]] ilə başlayır. Bu, babaların və ulu babaların adlarının siyahısıdır.",
+      "Ən əvvəldə [[İbrahim]], ortada padşah [[Davud]], ən sonda isə İsa var. Allah İbrahimə və Davuda söz vermişdi: “Sənin nəslindən xeyir-dua gələcək.”",
+      "Bu vəd İsa ilə yerinə yetdi."
+     ]
+    },
+    {
+     "b": "Məryəm və Yusif",
+     "ayə": "Matta 1:18",
+     "alt": "Mələk Məryəmə xoş xəbər verir",
+     "p": [
+      "Məryəm və Yusif [[nişanlı]] idilər. Onlar hələ birlikdə yaşamırdılar.",
+      "Bir gün məlum oldu ki, Məryəmin körpəsi olacaq. Bu körpə [[Müqəddəs Ruh]] vasitəsilə gəldi. Bunu yalnız Allah edə bilər."
+     ]
+    },
+    {
+     "b": "Yusifin yuxusu",
+     "ayə": "Matta 1:19–21",
+     "alt": "Yusif yatır, mələk ona yuxuda danışır",
+     "p": [
+      "Yusif [[saleh]] adam idi. O, Məryəmin utanmasını istəmirdi. Ona görə sakitcə ayrılmaq istədi.",
+      "O gecə yuxuda bir [[mələk]] gəldi və dedi: “Qorxma! Məryəmi evinə al. Körpənin adını İsa qoy.”",
+      "İsa insanları [[günah]]larından [[xilas]] edəcək."
+     ]
+    },
+    {
+     "b": "Çox köhnə vəd",
+     "ayə": "Matta 1:22–23",
+     "alt": "Yeşaya peyğəmbər Allahın vədini tumara yazır",
+     "p": [
+      "Çox-çox əvvəl Allah [[peyğəmbər]] Yeşaya vasitəsilə bir vəd verdi. Bu, İsadan təxminən 700 il əvvəl idi.",
+      "“Bakirə qız oğul doğacaq. Onun adını [[İmmanuel]] qoyacaqlar.”",
+      "İmmanuel “Allah bizimlədir” deməkdir."
+     ]
+    },
+    {
+     "b": "Yusif sözə əməl etdi",
+     "ayə": "Matta 1:24–25",
+     "alt": "Tövlədə körpə İsa, Məryəm, Yusif və çobanlar",
+     "p": [
+      "Yusif yuxudan oyandı və mələyin dediyini etdi. Məryəmi evinə apardı.",
+      "Körpə doğulanda Yusif onun adını “İsa” qoydu. Yusif Allaha inandı və [[itaət]] etdi."
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "“Onun adını İmmanuel qoyacaqlar. Bu, ‘Allah bizimlədir’ deməkdir.”",
+    "ref": "Matta 1:23",
+    "bos": "Onun adını ___ qoyacaqlar. Bu, ‘___ ___’ deməkdir.",
+    "sozler": [
+     "İmmanuel",
+     "Allah",
+     "bizimlədir"
+    ],
+    "yalan": "Yerusəlim"
+   },
+   "lugat": {
+    "nəsil şəcərəsi": {
+     "i": "🌳",
+     "x": "족보",
+     "m": "Bir ailənin babalarının adlarının siyahısıdır. Ailə ağacı kimidir.",
+     "e": "Baba → ata → mən. Bu, nəsil şəcərəsidir."
+    },
+    "İbrahim": {
+     "i": "⭐",
+     "x": "아브라함",
+     "m": "Allaha inanan və Onun sözünə qulaq asan adam idi. Allah dedi ki, onun nəsli göydəki ulduzlar qədər çox olacaq.",
+     "e": "İbrahim Allahın sözü ilə öz yurdunu tərk etdi."
+    },
+    "Davud": {
+     "i": "👑",
+     "x": "다윗",
+     "m": "İsrailin məşhur padşahı idi. Uşaq vaxtı qoyun otarırdı.",
+     "e": "Davud nəhəng Qolyatı məğlub etdi."
+    },
+    "nişanlı": {
+     "i": "💍",
+     "x": "약혼",
+     "m": "Evlənməyə söz vermiş iki nəfər. O vaxt nişan da toy qədər vacib idi.",
+     "e": "Nişanlılar təxminən bir ildən sonra evlənirdilər."
+    },
+    "Müqəddəs Ruh": {
+     "i": "🕊️",
+     "x": "성령",
+     "m": "Allahın Ruhudur. Gözə görünmür, amma Allahın işlərini görür.",
+     "e": "Müqəddəs Ruh bizə Allahı tanımağa kömək edir."
+    },
+    "saleh": {
+     "i": "⚖️",
+     "x": "의로운",
+     "m": "Allahın gözündə düz və yaxşı adam. Doğru danışır, başqalarını sevir.",
+     "e": "Yusif saleh idi, ona görə Məryəmi qorudu."
+    },
+    "mələk": {
+     "i": "👼",
+     "x": "천사",
+     "m": "Allahın göndərdiyi səmavi elçidir. Allahın sözünü insanlara çatdırır.",
+     "e": "Mələk Yusifin yuxusuna gəldi."
+    },
+    "günah": {
+     "i": "🖤",
+     "x": "죄",
+     "m": "Allahın istəyini yox, öz istədiyimizi etməkdir. Yalan danışmaq və nifrət etmək də günahdır.",
+     "e": "Günah təmiz paltardakı ləkə kimidir."
+    },
+    "xilas": {
+     "i": "🛟",
+     "x": "구원",
+     "m": "Təhlükədən çıxarıb qurtarmaq. “İsa” adı da “Rəbb xilas edir” deməkdir.",
+     "e": "Suya düşən dostu xilas etdiyimiz kimi, İsa da bizi xilas edir."
+    },
+    "peyğəmbər": {
+     "i": "📜",
+     "x": "선지자",
+     "m": "Allahdan söz alıb insanlara çatdıran adam.",
+     "e": "Yeşaya peyğəmbər İsanın gələcəyini əvvəlcədən dedi."
+    },
+    "İmmanuel": {
+     "i": "❤️",
+     "x": "임마누엘",
+     "m": "“Allah bizimlədir” deməkdir. Bu, İsanın adlarından biridir.",
+     "e": "Özümüzü tək hiss edəndə də Allah bizimlədir."
+    },
+    "itaət": {
+     "i": "👣",
+     "x": "순종",
+     "m": "Sözü eşidib ona əməl etmək.",
+     "e": "Yusif yuxudan oyanan kimi itaət etdi."
+    }
+   },
+   "test": [
+    {
+     "q": "Nəsil şəcərəsinin ən əvvəlində kim var?",
+     "o": [
+      "Davud",
+      "İbrahim",
+      "Yusif"
+     ],
+     "a": 1,
+     "f": "Düzdür! Şəcərə imanın atası İbrahimdən başlayır."
+    },
+    {
+     "q": "Mələk Yusiflə nə vaxt danışdı?",
+     "o": [
+      "Yuxuda",
+      "Bazarda",
+      "Məbəddə"
+     ],
+     "a": 0,
+     "f": "Düzdür! Gecə yuxuda danışdı."
+    },
+    {
+     "q": "“İsa” adı nə deməkdir?",
+     "o": [
+      "Böyük padşah",
+      "Rəbb xilas edir",
+      "Parlaq ulduz"
+     ],
+     "a": 1,
+     "f": "Düzdür! İsa bizi xilas edir."
+    },
+    {
+     "q": "“İmmanuel” nə deməkdir?",
+     "o": [
+      "Allah bizimlədir",
+      "Sevinin",
+      "Təşəkkür edirəm"
+     ],
+     "a": 0,
+     "f": "Düzdür! Əzbər ayədə də var."
+    }
+   ],
+   "dusun": [
+    "Yusif niyə əvvəlcə sakitcə ayrılmaq istədi?",
+    "Allahın səninlə olduğunu hiss etdiyin vaxt olubmu?",
+    "Yusif kimi Allahın sözünə necə itaət edə bilərsən?"
+   ],
+   "fealiyyet": {
+    "ciz": "Allahın səninlə olduğu yeri çək: ev, məktəb, yol, yatağın…",
+    "b": "Adını yaz",
+    "p": "“Allah … ilə birlikdədir” cümləsini öz adınla yaz.",
+    "ph": "Məsələn: Allah Aysel ilə birlikdədir. Məktəbə gedəndə də.",
+    "secim": {
+     "basliq": "İsa səni nədən xilas edir?",
+     "izah": "Toxun və seç. Bir neçəsini seçə bilərsən.",
+     "cumle": "İsa məni {x} xilas edir!",
+     "bos": "…",
+     "bag": "və",
+     "secimler": [
+      [
+       "🖤",
+       "günahlarımdan"
+      ],
+      [
+       "😨",
+       "qorxularımdan"
+      ],
+      [
+       "😢",
+       "kədərimdən"
+      ],
+      [
+       "😡",
+       "qəzəbimdən"
+      ],
+      [
+       "🤥",
+       "yalanlarımdan"
+      ]
+     ]
+    }
+   },
+   "dua": "Ya Rəbb Allah, vədini yerinə yetirib İsanı göndərdiyin üçün Sənə şükür edirik. İsa həmişə bizimlədir. Yusif kimi Sənin sözünə inanıb itaət etməyə bizə kömək et. İsa Məsihin adı ilə dua edirik. Amin."
+  },
+  "genc": {
+   "basliq": "Bizimlə olan Allah",
+   "giris": "Əhdi-Cədidin ilk səhifəsini açanda qırxdan çox yad ad görürük. Matta niyə Müjdəni bu darıxdırıcı görünən siyahı ilə başlayır?",
+   "meqsed": [
+    "Matta Müjdəsinin ilk oxucularını və nəsil şəcərəsinin mənasını anlayırıq.",
+    "“İsa” və “İmmanuel” adlarının İsa Məsih haqqında nə dediyini izah edə bilirik.",
+    "Yusifin imanının sözlə yox, əməllə necə göründüyünü öz həyatımızla müqayisə edirik."
+   ],
+   "sehneler": [
+    {
+     "b": "Niyə nəsil şəcərəsi ilə başlayır?",
+     "ayə": "Matta 1:1–17",
+     "alt": "İbrahimdən Davuda və İsaya qədər nəsil ağacı",
+     "p": [
+      "Matta ilk cümlədə İsanı “[[Davud oğlu]]” və “İbrahim oğlu” olan [[Məsih]] kimi təqdim edir. İlk oxucular olan yəhudilər üçün [[nəsil şəcərəsi]] şəxsiyyət vəsiqəsi kimi idi. Çünki vəd olunmuş Məsih mütləq Davudun nəslindən gəlməli idi.",
+      "Allah İbrahimə “Sənin vasitənlə bütün millətlər xeyir-dua alacaq” {{Yar. 12:3}}, Davuda isə “Sənin taxtın əbədi olacaq” {{2Şam. 7:16}} demişdi. Matta göstərir ki, İsa bu iki vədin sahibidir."
+     ],
+     "deep": {
+      "b": "Dərindən baxaq · 14-ün sirri",
+      "p": "İbrani hərfləri rəqəm kimi də işlənirdi. Davud (דוד) adı ד(4)+ו(6)+ד(4)=14 edir. Bir çox alim düşünür ki, Matta şəcərəni 14 nəsildən ibarət üç hissəyə bölərək “[[Davud oğlu]]” fikrini vurğulayır."
+     }
+    },
+    {
+     "b": "Nişanlı, amma hələ evlənməmiş",
+     "ayə": "Matta 1:18",
+     "alt": "Mələk Məryəmə xoş xəbər verir",
+     "p": [
+      "O dövrdə yəhudilərin [[nişan]]ı bugünkündən daha ciddi söz idi. Qanuna görə onlar artıq ər-arvad sayılırdılar və nişanı pozmaq üçün boşanma lazım idi. Adətən təxminən bir il sonra bəy gəlini evinə aparır və onlar birlikdə yaşamağa başlayırdılar.",
+      "Elə bu müddətdə Məryəm [[Müqəddəs Ruh]] vasitəsilə hamilə olur. Matta açıq göstərir ki, bu, insan planı deyil, Allahın Özünün etdiyi işdir."
+     ]
+    },
+    {
+     "b": "Saleh adam Yusifin seçimi",
+     "ayə": "Matta 1:19–21",
+     "alt": "Yusif yatır, mələk ona yuxuda danışır",
+     "p": [
+      "Qanuna görə Yusif bu işi hamının qarşısında qaldıra bilərdi. Amma o, Məryəmi rüsvay etmək istəmir və gizlicə ayrılmağı qərara alır. Mattanın dediyi [[saleh]]lik qanuna əməl etməklə insanı sevməyin bir yerdə olmasıdır.",
+      "O zaman yuxuda bir mələk ona “Davud oğlu Yusif, qorxma” deyir və körpənin adını [[İsa]] qoymağı tapşırır. Çünki O, Öz xalqını [[günah]]larından [[xilas]] edəcək."
+     ],
+     "deep": {
+      "b": "Dərindən baxaq · Adın içindəki vəzifə",
+      "p": "“İsa” adı İbranicə “Yeşua” adından gəlir və “Rəbb xilas edir” deməkdir. Bir çox yəhudi onları Roma hakimiyyətindən azad edəcək Məsihi gözləyirdi. Amma mələk İsanın xilas edəcəyi şeyin “günah” olduğunu deyir. Bu o deməkdir ki, O, daha dərin problemi həll etməyə gəldi."
+     }
+    },
+    {
+     "b": "“Vəd yerinə yetsin deyə”",
+     "ayə": "Matta 1:22–23",
+     "alt": "Yeşaya peyğəmbər Allahın vədini tumara yazır",
+     "p": [
+      "Matta deyir ki, bu hadisə [[peyğəmbər]] Yeşayanın sözünün {{Yeş. 7:14}} [[yerinə yetməsi|yerinə yetmək]] üçün baş verdi. Matta Müjdəsində bu cür “yerinə yetmə” ifadəsi ondan çox dəfə keçir. Matta göstərmək istəyir ki, İsanın bütün həyatı Əhdi-Ətiqdəki vədlərin tamamlanmasıdır.",
+      "O uşağın adı [[İmmanuel]]dir, yəni “Allah bizimlədir”."
+     ],
+     "deep": {
+      "b": "Dərindən baxaq · Başlanğıc və son",
+      "p": "Matta Müjdəsi 1:23-də “Allah bizimlədir” sözləri ilə başlayır və sonda, 28:20-də İsanın “Mən dünyanın sonunadək hər zaman sizinləyəm” vədi ilə bitir. Bütün kitab “bizimlə olan Allah” mövzusu ilə əhatələnib."
+     }
+    },
+    {
+     "b": "Söz yox, əməl",
+     "ayə": "Matta 1:24–25",
+     "alt": "Tövlədə körpə İsa, Məryəm, Yusif və çobanlar",
+     "p": [
+      "Yusif yuxudan oyanır və mələyin əmr etdiyi kimi Məryəmi evinə aparır. Körpə doğulanda onun adını İsa qoyur.",
+      "Müqəddəs Kitabda Yusifin dediyi bir kəlmə də yazılmayıb. Onun imanı sözlə deyil, əməllə görünür. Atanın uşağa ad qoyması o uşağı qanuni olaraq öz oğlu kimi qəbul etmək demək idi. Buna görə İsa Yusif vasitəsilə “Davud oğlu” olur."
+     ]
+    }
+   ],
+   "cedvel": {
+    "b": "Adlarla xülasə",
+    "alt": "1-ci fəsil İsanı beş adla çağırır",
+    "bas": [
+     "Ad",
+     "Mənası",
+     "Mattanın demək istədiyi"
+    ],
+    "set": [
+     [
+      "İbrahim oğlu",
+      "İmanın atasının nəsli",
+      "Bütün millətlərə xeyir-dua vədinin yerinə yetməsi"
+     ],
+     [
+      "Davud oğlu",
+      "Padşah Davudun nəsli",
+      "Əbədi Padşah, vəd olunmuş Məsih"
+     ],
+     [
+      "Məsih",
+      "Məsh olunmuş",
+      "Allahın təyin etdiyi Xilaskar Padşah"
+     ],
+     [
+      "İsa",
+      "Rəbb xilas edir",
+      "Öz xalqını günahlarından xilas edir"
+     ],
+     [
+      "İmmanuel",
+      "Allah bizimlədir",
+      "Allah insanlar arasına gəlib bizimlə olur"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "“Məryəm bir oğul doğacaq. Onun adını İsa qoy. Çünki O, Öz xalqını günahlarından xilas edəcək.”",
+    "ref": "Matta 1:21"
+   },
+   "lugat": {
+    "nəsil şəcərəsi": {
+     "i": "🌳",
+     "o": "Yunanca biblos geneseos (nəsil kitabı)",
+     "x": "족보",
+     "s": "Əcdadların adlarının ardıcıl siyahısı",
+     "m": "Bir ailənin nəslini nəsildən-nəslə yazan qeyddir. Yəhudi cəmiyyətində kimin hansı qəbilədən, hansı ailədən olduğunu sübut edən vacib sənəd idi.",
+     "e": "Matta 1:1-dəki “genesis” sözü Yaradılış kitabının adı ilə eynidir. Bu, yeni yaradılışın başlanğıcı hissini verir."
+    },
+    "Məsih": {
+     "i": "🫒",
+     "o": "Yunanca Xristos · İbranicə Maşiah",
+     "x": "그리스도",
+     "s": "Məsh olunmuş, vəd edilmiş Xilaskar",
+     "m": "“Məsh olunmuş” deməkdir. Əhdi-Ətiqdə padşah və kahin təyin olunanda başına yağ tökülürdü. Bu söz Allahın vəd etdiyi Xilaskar Padşahı göstərir.",
+     "e": "“İsa Məsih” ad və soyad deyil, “İsa Məsihdir” imanının ifadəsidir."
+    },
+    "Davud oğlu": {
+     "i": "👑",
+     "o": "Yunanca hüios David",
+     "x": "다윗의 자손",
+     "s": "Yəhudilərin Məsihə verdiyi ad",
+     "m": "Allah Davuda əbədi taxt vəd etdiyi üçün yəhudilər Məsihi “Davud oğlu” adlandırırdılar.",
+     "e": "Matta Müjdəsində xəstələr bir neçə dəfə “Ya Davud Oğlu, bizə rəhm et!” deyə fəryad edirlər."
+    },
+    "nişan": {
+     "i": "💍",
+     "o": "Yunanca mnesteuo",
+     "x": "약혼",
+     "s": "Qanuni gücü olan evlilik sözü",
+     "m": "O dövrdə nişan qanuni olaraq ər-arvadlıqla eyni idi. Nişanlılar birlikdə yaşamasalar da, nişanı pozmaq üçün boşanma kağızı lazım idi.",
+     "e": "19–20-ci ayələrdə Yusif Məryəmin “əri”, Məryəm isə Yusifin “arvadı” adlanır."
+    },
+    "Müqəddəs Ruh": {
+     "i": "🕊️",
+     "o": "Yunanca Pnevma Hagion",
+     "x": "성령",
+     "s": "Allahın Ruhu",
+     "m": "Allahın Ruhudur. Yaradılış 1-də dünya yaradılanda hərəkət edən Allahın Ruhu indi yeni bir başlanğıc edir.",
+     "e": "İsanın ana bətninə düşməsi insan gücü ilə deyil, Allahın qüdrəti ilə oldu."
+    },
+    "saleh": {
+     "i": "⚖️",
+     "o": "Yunanca dikaios",
+     "x": "의로운",
+     "s": "Allah qarşısında düz insan",
+     "m": "Allahın iradəsinə uyğun yaşamaqdır. Matta Müjdəsində salehlik təkcə qaydalara əməl etmək deyil, mərhəmətlə bir yerdədir.",
+     "e": "İsanın “Mən qurban deyil, mərhəmət istəyirəm” (Mat. 9:13) sözü ilə bağlıdır."
+    },
+    "İsa": {
+     "i": "📛",
+     "o": "İbranicə Yeşua · Yunanca İesus",
+     "x": "예수",
+     "s": "Rəbb xilas edir",
+     "m": "Əhdi-Ətiqdəki Yeşua adı ilə eynidir. “Rəbb xilas edir” deməkdir; adın özü İsanın vəzifəsini bildirir.",
+     "e": "Yeşua xalqı vəd olunmuş torpağa apardığı kimi, İsa da xalqı günahdan xilasa aparır."
+    },
+    "günah": {
+     "i": "🎯",
+     "o": "Yunanca hamartia",
+     "x": "죄",
+     "s": "Hədəfdən yayınmaq",
+     "m": "Əslində “hədəfi vura bilməmək” deməkdir. Allahın yaratdığı məqsəddən uzaqlaşmış vəziyyəti və əməlləri bildirir.",
+     "e": "Günah yalnız bir neçə pis əməl deyil, ürəyin Allahdan uzaqlaşmasıdır."
+    },
+    "xilas": {
+     "i": "🛟",
+     "o": "Yunanca sozo",
+     "x": "구원",
+     "s": "Təhlükədən qurtarıb həyat vermək",
+     "m": "Təhlükədən qurtarmaq, xəstəliyi sağaltmaq və insanı tam etmək mənalarını da daşıyır.",
+     "e": "Matta Müjdəsində eyni söz xəstələrin “sağalması” üçün də işlənir."
+    },
+    "peyğəmbər": {
+     "i": "📜",
+     "o": "Yunanca profetes · İbranicə navi",
+     "x": "선지자",
+     "s": "Allahın sözünü çatdıran insan",
+     "m": "Allahın sözünü alıb xalqa çatdıran insandır. Gələcəkdən də danışırdılar, amma ən çox xalqı Allaha qayıtmağa çağırırdılar.",
+     "e": "Yeşaya İsadan təxminən 700 il əvvəl yaşamışdı."
+    },
+    "yerinə yetmək": {
+     "i": "💧",
+     "o": "Yunanca pleroo",
+     "x": "이루다 (성취)",
+     "s": "Doldurmaq, tamamlamaq",
+     "m": "Boş qabı doldurmaq kimi vədi tamamlamaq deməkdir. Matta Müjdəsinin əsas sözlərindən biridir.",
+     "e": "“Mən Qanunu və ya peyğəmbərlərin sözlərini ləğv etməyə deyil, yerinə yetirməyə gəldim” (Mat. 5:17) ayəsində də bu söz var."
+    },
+    "İmmanuel": {
+     "i": "❤️",
+     "o": "İbranicə İmmanu El",
+     "x": "임마누엘",
+     "s": "Allah bizimlədir",
+     "m": "“İmmanu” – “bizimlə”, “El” – “Allah” deməkdir. Allahın uzaqda deyil, aramıza gələn Allah olduğunu bildirir.",
+     "e": "Matta 28:20-dəki son vədlə cüt təşkil edir."
+    }
+   },
+   "test": [
+    {
+     "q": "Mattanın şəcərəni 14 nəsildən ibarət üç hissəyə bölməsinin səbəbi kimi ən çox nə deyilir?",
+     "o": [
+      "14 xoşbəxt rəqəm olduğu üçün",
+      "İbranicə Davud adının rəqəm cəmi 14 olduğu üçün",
+      "Həqiqi nəsil sayı düz 42 olduğu üçün"
+     ],
+     "a": 1,
+     "f": "Düzdür. Bütün şəcərə “Davud oğlu” İsanı göstərir."
+    },
+    {
+     "q": "Matta şəcərəsindəki dörd qadından biri olmayan kimdir?",
+     "o": [
+      "Tamar",
+      "Rahav",
+      "Sara",
+      "Rut"
+     ],
+     "a": 2,
+     "f": "Düzdür. Sara İbrahimin arvadıdır, amma Mattanın şəcərəsində yoxdur."
+    },
+    {
+     "q": "Matta 1-də Yusifin salehliyini ən yaxşı izah edən hansıdır?",
+     "o": [
+      "Qanunu sərt tətbiq etmək",
+      "Qanuna əməl edib Məryəmi də qorumaq",
+      "Heç nə etmədən gözləmək"
+     ],
+     "a": 1,
+     "f": "Düzdür. Qayda ilə mərhəmət bir yerdədir."
+    },
+    {
+     "q": "“İsa” adı nə deməkdir?",
+     "o": [
+      "Məsh olunmuş",
+      "Allah bizimlədir",
+      "Rəbb xilas edir"
+     ],
+     "a": 2,
+     "f": "Düzdür. “Məsh olunmuş” Məsih, “Allah bizimlədir” isə İmmanueldir."
+    },
+    {
+     "q": "1:23-dəki “İmmanuel” ilə cüt təşkil edən son vəd harada yazılıb?",
+     "o": [
+      "Matta 5:17",
+      "Matta 16:16",
+      "Matta 28:20"
+     ],
+     "a": 2,
+     "f": "Düzdür. “Mən dünyanın sonunadək hər zaman sizinləyəm.”"
+    }
+   ],
+   "paylas": [
+    "Mattanın şəcərəyə dörd qadının adını yazması sənə necə təsəlli verir?",
+    "Sən Yusif olsaydın, yuxudan sonrakı səhər nə hiss edərdin? Ən çətin nə olardı?",
+    "“Allah bizimlədir” sözü məktəbdə, evdə və dostluqda hansı fərqi yarada bilər?",
+    "Bu həftə imanını sözlə yox, əməllə göstərə biləcəyin bir iş nədir?"
+   ],
+   "etiraf": {
+    "b": "Mənim etirafım",
+    "p": "Bu gün öyrəndiyimiz beş addan hansı indi sənə ən çox lazımdır? Səbəbini də yazaraq üç-dörd cümlə yaz.",
+    "ph": "Məsələn: Mənə ən çox “İmmanuel” lazımdır. Son vaxtlar məktəbdə özümü tək hiss edirəm…"
+   },
+   "dua": "Ya Rəbb Allah, çoxdan verdiyin vədi unutmayıb İsanı göndərdiyin üçün Sənə şükür edirik. Səhvləri və yaraları olan insanları da qucaqlayan lütfünü öyrəndik. Yusif kimi, anlamadığımız vaxtlarda belə Sənin sözünə inanıb əməl etməyə kömək et. İmmanuel İsa Məsihin adı ilə dua edirik. Amin."
+  }
+ }
+}

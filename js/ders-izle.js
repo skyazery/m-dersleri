@@ -89,6 +89,12 @@
 
   /* Ad müəllimin göndərdiyi şəxsi linkdən gəlir: ...?ad=Aysel  (ad yazmaq xanası yoxdur) */
   var KIDS = CFG.sinif === 'usaq';
+  var LT = {
+    az: { hi: 'Salam', wrong: 'Səhv: ', allok: 'Hamısı düz', vDone: '✓ Əzbərlədim', vBtn: 'Ayəni əzbərlədim', vMsg: 'Afərin! Müəllimin görəcək.', pick: 'Toxun və seç. Bir neçəsini seçə bilərsən.', send: 'Müəllimə göndər', needPick: 'Əvvəlcə bir yer seç.', needText: 'Əvvəlcə bir neçə söz yaz.', saved: 'Yadda saxlanıldı. İnternet olanda göndəriləcək.', sent: 'Göndərildi ✓', and: 'və', me: 'mən', done: /Afərin/ },
+    ru: { hi: 'Привет', wrong: 'Ошибки: ', allok: 'Всё верно', vDone: '✓ Выучил(а)', vBtn: 'Я выучил(а) стих', vMsg: 'Молодец! Учитель увидит.', pick: 'Нажимай и выбирай. Можно выбрать несколько.', send: 'Отправить учителю', needPick: 'Сначала выбери что-нибудь.', needText: 'Сначала напиши несколько слов.', saved: 'Сохранено. Отправится, когда будет интернет.', sent: 'Отправлено ✓', and: 'и', me: 'я', done: /Молодец/ },
+    en: { hi: 'Hi', wrong: 'Wrong: ', allok: 'All correct', vDone: '✓ Memorized', vBtn: 'I memorized the verse', vMsg: 'Well done! Your teacher will see it.', pick: 'Tap to choose. You can choose more than one.', send: 'Send to teacher', needPick: 'Choose something first.', needText: 'Write a few words first.', saved: 'Saved. It will be sent when you are online.', sent: 'Sent ✓', and: 'and', me: 'I', done: /Well done/ }
+  };
+  var L = LT[CFG.dil] || LT.az;
   var onNameChange = [];
   (function () {
     var m = /[?&]ad=([^&#]*)/.exec(location.search);
@@ -104,7 +110,7 @@
     if (!name) { box.className = ''; return; }
     box.className = 'dz-hi';
     var s = document.createElement('span');
-    s.innerHTML = '👋 Salam, <b></b>!';
+    s.innerHTML = '👋 ' + L.hi + ', <b></b>!';
     s.querySelector('b').textContent = name;
     box.appendChild(s);
   }
@@ -159,7 +165,7 @@
         sent = true;
         var right = 0, wrong = [];
         for (var k = 0; k < qs.length; k++) { if (first[k]) right++; else wrong.push(k + 1); }
-        send('quiz', right + '/' + qs.length, wrong.length ? 'Səhv: ' + wrong.join(', ') : 'Hamısı düz');
+        send('quiz', right + '/' + qs.length, wrong.length ? L.wrong + wrong.join(', ') : L.allok);
       }
     });
   }
@@ -176,12 +182,12 @@
     var vmsg = document.createElement('span'); vmsg.className = 'dz-ok';
     function vstate() {
       var done = !!lsGet(vkey());
-      vb.textContent = done ? '✓ Əzbərlədim' : 'Ayəni əzbərlədim';
+      vb.textContent = done ? L.vDone : L.vBtn;
       vb.disabled = done;
     }
     vb.onclick = function () {
       
-      lsSet(vkey(), '1'); send('verse', '✓'); vstate(); vmsg.textContent = 'Afərin! Müəllimin görəcək.';
+      lsSet(vkey(), '1'); send('verse', '✓'); vstate(); vmsg.textContent = L.vMsg;
     };
     vstate();
     onNameChange.push(vstate);
@@ -192,7 +198,7 @@
   if (chipFb && 'MutationObserver' in window) {
     var gameSent = false;
     new MutationObserver(function () {
-      if (!gameSent && /Afərin/.test(chipFb.textContent)) { gameSent = true; send('verse-oyun', '✓'); }
+      if (!gameSent && L.done.test(chipFb.textContent)) { gameSent = true; send('verse-oyun', '✓'); }
     }).observe(chipFb, { childList: true, characterData: true, subtree: true });
   }
 
@@ -207,7 +213,7 @@
       ['😨', 'qorxanda'], ['😢', 'kədərlənəndə'], ['😊', 'sevinəndə']];
     var picked = [];
     var lbl = document.querySelector('label[for="mine"]');
-    if (lbl) lbl.textContent = (SC && SC.izah) || 'Toxun və seç. Bir neçəsini seçə bilərsən.';
+    if (lbl) lbl.textContent = (SC && SC.izah) || L.pick;
     var card = ta.closest('.card'); var h = card && card.querySelector('h3');
     if (h) h.textContent = (SC && SC.basliq) || 'Allah səninlə haradadır?';
     ta.hidden = true;
@@ -217,19 +223,19 @@
     function particle(w) { var m = w.match(/[aıouəeiöüAIOUƏEİÖÜ](?=[^aıouəeiöüAIOUƏEİÖÜ]*$)/); return m && /[aıouAIOU]/.test(m[0]) ? 'da' : 'də'; }
     function joinAz(list) {
       if (list.length < 2) return list.join('');
-      return list.slice(0, -1).join(', ') + ' ' + (SC.bag || 'və') + ' ' + list[list.length - 1];
+      return list.slice(0, -1).join(', ') + ' ' + (SC.bag || L.and) + ' ' + list[list.length - 1];
     }
     function sentence() {
       var n = getName();
       if (SC) {
-        var s2 = SC.cumle.replace('{ad}', n || SC.adsiz || 'mən').replace('{x}', picked.length ? joinAz(picked) : (SC.bos || '…'));
-        return s2.charAt(0).toLocaleUpperCase('az') + s2.slice(1);
+        var s2 = SC.cumle.replace('{ad}', n || SC.adsiz || L.me).replace('{x}', picked.length ? joinAz(picked) : (SC.bos || '…'));
+        return s2.charAt(0).toLocaleUpperCase(CFG.dil || 'az') + s2.slice(1);
       }
       var s = n ? 'Allah ' + n + ' ilə birlikdədir.' : 'Allah mənimlə birlikdədir.';
       if (picked.length) {
         var parts2 = picked.map(function (w) { return w + ' ' + particle(w); });
         var t = parts2.join(', ');
-        s += ' ' + t.charAt(0).toLocaleUpperCase('az') + t.slice(1) + '.';
+        s += ' ' + t.charAt(0).toLocaleUpperCase(CFG.dil || 'az') + t.slice(1) + '.';
       }
       return s;
     }
@@ -237,7 +243,7 @@
     PLACES.forEach(function (p) {
       var b = document.createElement('button');
       b.type = 'button'; b.className = 'dz-chip'; b.setAttribute('aria-pressed', 'false');
-      b.textContent = p[0] + ' ' + p[1].charAt(0).toLocaleUpperCase('az') + p[1].slice(1);
+      b.textContent = p[0] + ' ' + p[1].charAt(0).toLocaleUpperCase(CFG.dil || 'az') + p[1].slice(1);
       b.onclick = function () {
         var i = picked.indexOf(p[1]);
         if (i < 0) picked.push(p[1]); else picked.splice(i, 1);
@@ -255,14 +261,14 @@
     var arow = document.createElement('div');
     arow.className = 'dz-row'; arow.style.alignItems = 'center';
     var ab = document.createElement('button');
-    ab.className = 'dz-btn'; ab.type = 'button'; ab.textContent = 'Müəllimə göndər';
+    ab.className = 'dz-btn'; ab.type = 'button'; ab.textContent = L.send;
     var amsg = document.createElement('span'); amsg.className = 'dz-ok'; amsg.setAttribute('aria-live', 'polite');
     ab.onclick = function () {
       var t = ta.value.trim();
-      if (!t) { amsg.textContent = KIDS ? 'Əvvəlcə bir yer seç.' : 'Əvvəlcə bir neçə söz yaz.'; if (!KIDS) ta.focus(); return; }
+      if (!t) { amsg.textContent = KIDS ? L.needPick : L.needText; if (!KIDS) ta.focus(); return; }
       send('activity', 'yazı', t);
-      if (!navigator.onLine || !ENDPOINT) amsg.textContent = 'Yadda saxlanıldı. İnternet olanda göndəriləcək.';
-      else amsg.textContent = 'Göndərildi ✓';
+      if (!navigator.onLine || !ENDPOINT) amsg.textContent = L.saved;
+      else amsg.textContent = L.sent;
     };
     arow.appendChild(ab); arow.appendChild(amsg);
     (ta.hidden && ta.nextElementSibling && ta.nextElementSibling.classList.contains('dz-build') ? ta.nextElementSibling : ta).insertAdjacentElement('afterend', arow);

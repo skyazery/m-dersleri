@@ -1,157 +1,1647 @@
 {
-"no": 12, "ref": "8:1–34", "deq": {"usaq": 40, "genc": 50},
-"img": ["25-on-cuzamli.jpg", "matta/12-yuzbasi.jpg", "matta/12-qayinana.jpg", "17-firtina.jpg"],
-"hero": 3,
-"ko": {
- "usaq": {
-  "basliq": "바람과 바다도 순종해요",
-  "hedef": ["예수님이 아픈 사람을 고치신 이야기를 알아요.", "예수님의 말씀에는 큰 힘이 있음을 배워요.", "무서울 때 예수님을 믿고 의지하는 법을 배워요."],
-  "sehneler": [
-   {"b": "나병 환자를 만지셨어요", "ayə": "8:1–4", "alt": "나병 환자를 고쳐 주시는 예수님", "p": ["[[나병]]에 걸린 사람이 예수님께 와서 엎드렸어요. “주님, 원하시면 저를 깨끗하게 하실 수 있어요.”", "아무도 나병 환자를 만지지 않았어요. 그런데 예수님은 손을 내밀어 그를 만지셨어요. “내가 원한다. 깨끗해져라!” 그러자 곧 병이 나았어요."]},
-   {"b": "말씀만 하세요", "ayə": "8:5–13", "alt": "예수님께 부탁하는 로마 백부장", "p": ["로마 군대의 [[백부장]]이 와서 말했어요. “제 하인이 많이 아파요.” 예수님이 “내가 가서 고쳐 주겠다” 하셨어요.", "백부장이 말했어요. “저는 예수님을 집에 모실 자격이 없어요. 말씀만 하세요. 그러면 제 하인이 나을 거예요.” 예수님은 그의 [[믿음]]에 놀라셨고, 그 시간에 하인이 나았어요."]},
-   {"b": "베드로의 장모", "ayə": "8:14–17", "alt": "열병으로 누운 여인의 손을 잡으시는 예수님", "p": ["예수님이 베드로의 집에 가셨어요. 베드로의 장모가 [[열병]]으로 누워 있었어요.", "예수님이 그 손을 만지시자 열이 떨어졌어요. 그녀는 일어나 예수님을 대접했어요. 저녁에는 많은 아픈 사람이 와서 고침을 받았어요."]},
-   {"b": "폭풍을 잠잠하게", "ayə": "8:23–27", "alt": "폭풍 속 배 위에서 바람과 바다를 꾸짖으시는 예수님", "p": ["예수님과 제자들이 배를 타고 가는데 큰 [[폭풍]]이 일어났어요. 파도가 배를 덮었지만 예수님은 주무시고 계셨어요.", "제자들이 깨우며 “주님, 살려 주세요!” 외쳤어요. 예수님이 바람과 바다를 [[꾸짖으시자|꾸짖다]] 아주 잠잠해졌어요. 제자들은 놀랐어요. “이분은 누구시기에 바람과 바다도 순종할까?”"]}
-  ],
-  "aye": {"metn": "“이이가 어떠한 사람이기에 바람과 바다도 순종하는가?”", "ref": "8:27", "bos": "이이가 어떠한 사람이기에 ___과 ___도 ___하는가?", "sozler": ["바람", "바다", "순종"], "yalan": "산"},
-  "lugat": {
-   "나병": {"i": "🩹", "x": "cüzam", "m": "피부가 상하는 무서운 병이에요. 그때는 나병에 걸리면 마을 밖에서 혼자 살아야 했어요.", "e": "예수님은 나병 환자를 만지셨어요."},
-   "백부장": {"i": "🛡️", "x": "yüzbaşı", "m": "로마 군인 백 명을 이끄는 대장이에요.", "e": "백부장은 예수님의 말씀을 믿었어요."},
-   "믿음": {"i": "💗", "x": "iman", "m": "하나님을 믿고 의지하는 마음이에요.", "e": "예수님은 백부장의 믿음에 놀라셨어요."},
-   "열병": {"i": "🤒", "x": "qızdırma", "m": "몸에 열이 많이 나는 병이에요.", "e": "베드로의 장모가 열병으로 누워 있었어요."},
-   "폭풍": {"i": "🌊", "x": "fırtına", "m": "아주 센 바람과 큰 파도예요.", "e": "바다에 큰 폭풍이 일어났어요."},
-   "꾸짖다": {"i": "✋", "x": "qadağan etmək", "m": "잘못된 것을 멈추라고 크게 명령하는 거예요.", "e": "예수님이 바람과 바다를 꾸짖으셨어요."}
-  },
-  "test": [
-   {"q": "예수님은 나병 환자에게 어떻게 하셨나요?", "o": ["손을 내밀어 만지셨어요", "멀리 피하셨어요", "모른 척하셨어요"], "a": 0, "f": "맞아요! 예수님은 아무도 만지지 않는 사람을 만지셨어요."},
-   {"q": "백부장은 예수님께 무엇을 부탁했나요?", "o": ["말씀만 해 주세요", "우리 집에 꼭 오세요", "돈을 주세요"], "a": 0, "f": "맞아요! 말씀의 힘을 믿었어요."},
-   {"q": "베드로의 장모는 나은 뒤에 무엇을 했나요?", "o": ["일어나 예수님을 대접했어요", "다시 잠을 잤어요", "멀리 여행을 갔어요"], "a": 0, "f": "맞아요! 은혜를 받고 섬겼어요."},
-   {"q": "폭풍이 왔을 때 예수님은 무엇을 하고 계셨나요?", "o": ["주무시고 계셨어요", "노를 젓고 계셨어요", "울고 계셨어요"], "a": 0, "f": "맞아요! 그리고 한 말씀으로 폭풍을 잠잠하게 하셨어요."}
-  ],
-  "dusun": ["예수님이 나병 환자를 만지셨을 때 그 사람의 마음은 어땠을까요?", "백부장처럼 예수님의 말씀을 믿는다는 것은 무엇일까요?", "내가 무서울 때 예수님께 어떻게 기도할 수 있을까요?"],
-  "fealiyyet": {"ciz": "폭풍이 멈추고 잠잠해진 바다와 배 위의 예수님을 그려 보세요.", "b": "예수님을 의지할 때", "p": "무섭거나 힘들 때 예수님께 드릴 짧은 기도를 써 보세요.", "ph": "예) 예수님, 무서워요. 저와 함께해 주세요."},
-  "dua": "예수님, 아픈 사람을 만지시고 한 말씀으로 폭풍을 잠잠하게 하신 예수님을 찬양합니다. 제가 무섭고 힘들 때도 예수님이 함께 계심을 믿게 해 주세요. 백부장처럼 예수님의 말씀을 믿는 사람이 되게 해 주세요. 예수님 이름으로 기도합니다. 아멘."
+ "no": 12,
+ "ref": "8:1–34",
+ "deq": {
+  "usaq": 40,
+  "genc": 50
  },
- "genc": {
-  "basliq": "말씀의 권위",
-  "giris": "산상설교를 마친 사람들은 “권위 있는 자와 같다”며 놀랐습니다. 8장은 그 권위가 말로만이 아님을 보여 줍니다. 병, 거리, 자연, 악한 영까지 예수님의 한마디 앞에 무릎을 꿇습니다.",
-  "meqsed": ["8장의 기적들이 말씀의 권위를 드러낸다는 것을 이해해요.", "예수님이 소외된 사람들(나병 환자, 이방인, 여성)에게 다가가신 의미를 설명할 수 있어요.", "내 삶의 ‘폭풍’ 속에서 예수님을 신뢰하는 고백을 해요."],
-  "sehneler": [
-   {"b": "만질 수 없는 사람을 만지시다", "ayə": "8:1–4", "alt": "나병 환자를 고쳐 주시는 예수님", "p": ["율법에 따르면 [[나병]] 환자는 “부정하다, 부정하다” 외치며 진영 밖에서 살아야 했어요(레 13:45–46). 만지는 사람도 부정해졌어요.", "예수님은 말씀만으로도 고치실 수 있었지만 굳이 손을 대셨어요. 부정이 예수님께 옮은 것이 아니라 예수님의 [[정결]]이 그에게 옮았어요."], "deep": {"b": "깊이 보기 · 제사장에게 보이라", "p": "예수님은 고침받은 사람을 제사장에게 보내 모세의 규례대로 예물을 드리게 하셨어요(레 14장). 공동체로 돌아가는 공식 절차예요. 예수님은 몸뿐 아니라 관계까지 회복하셨어요."}},
-   {"b": "이방인의 믿음", "ayə": "8:5–13", "alt": "예수님께 부탁하는 로마 백부장", "p": ["[[백부장]]은 점령군 로마의 장교, 곧 이방인이었어요. 그는 “나도 권위 아래 있는 사람이라 ‘가라’ 하면 가고 ‘오라’ 하면 옵니다”라고 말했어요. 예수님의 말씀이 명령처럼 현실을 움직인다는 것을 알아본 거예요.", "예수님은 “이스라엘 중 아무에게서도 이만한 믿음을 보지 못하였노라”고 하셨어요. 동서로부터 많은 사람이 와서 아브라함과 함께 천국 잔치에 앉을 거라고요."], "deep": {"b": "깊이 보기 · 열린 잔치", "p": "마태복음은 유대인을 위해 쓰였지만, 처음(동방 박사)과 중간(백부장, 가나안 여인)과 끝(모든 민족)에 이방인이 계속 등장해요. 하나님 나라 잔치의 문은 모든 민족에게 열려 있어요."}},
-   {"b": "우리 연약함을 담당하시다", "ayə": "8:14–22", "alt": "열병으로 누운 여인의 손을 잡으시는 예수님", "p": ["베드로의 장모가 열병에서 낫자 일어나 예수님을 ‘[[섬겼어요|섬기다]]’. 같은 낱말이 천사들이 예수님을 섬긴 장면(4:11)에 쓰였어요. 고침받은 사람은 섬기는 사람이 돼요.", "마태는 이사야 53:4를 인용해요. “우리의 연약한 것을 친히 담당하시고 병을 짊어지셨도다.” 고난받는 종의 예언이 치유 사역에서 먼저 이루어져요."], "deep": {"b": "깊이 보기 · 따름의 대가", "p": "8:18–22에서 예수님은 “여우도 굴이 있고 새도 집이 있으되 인자는 머리 둘 곳이 없다”고 하세요. 기적을 본 사람들에게 따름이 쉬운 길이 아님을 미리 알려 주세요.", "rose": true}},
-   {"b": "바람과 바다를 꾸짖으시다", "ayə": "8:23–34", "alt": "폭풍 속 배 위에서 바람과 바다를 꾸짖으시는 예수님", "p": ["갈릴리 바다는 해수면보다 200m 낮고 산에 둘러싸여 있어서 갑자기 거센 바람이 불어닥쳐요. 어부 출신 제자들도 죽음을 느낄 만큼의 폭풍이었어요.", "예수님은 “믿음이 작은 자들아, 어찌하여 무서워하느냐” 하시고 바람과 바다를 꾸짖으셨어요. 구약에서 바다를 잠잠하게 하시는 분은 하나님뿐이에요(시 107:29). 제자들의 질문 “이이가 어떠한 사람이기에”가 마태복음 전체의 질문이에요."], "deep": {"b": "깊이 보기 · 가다라 지방", "p": "바다를 건넌 예수님은 이방 땅 가다라에서 귀신 들린 두 사람을 고치세요(8:28–34). 자연도, 악한 영도 예수님의 권위 앞에 굴복해요. 그런데 마을 사람들은 돼지를 잃은 것에 더 신경 쓰며 예수님께 떠나 달라고 해요."}}
-  ],
-  "cedvel": {"b": "8장의 기적과 권위", "alt": "8:1–34", "bas": ["누구에게", "무엇을 이기셨나", "어떻게"], "set": [["나병 환자 (부정한 사람)", "병과 소외", "손을 대시고 말씀으로"], ["백부장의 하인 (이방인)", "거리", "멀리서 말씀만으로"], ["베드로의 장모 (여성)", "병", "손을 만지셔서"], ["제자들", "자연의 폭풍", "꾸짖으심으로"], ["가다라의 두 사람", "악한 영", "“가라” 한마디로"]]},
-  "aye": {"metn": "“백부장이 대답하여 이르되 주여 내 집에 들어오심을 나는 감당하지 못하겠사오니 다만 말씀으로만 하옵소서. 그러면 내 하인이 낫겠사옵나이다.”", "ref": "8:8"},
-  "lugat": {
-   "나병": {"i": "🩹", "o": "헬라어 레프라", "x": "cüzam", "s": "몸과 관계를 무너뜨리는 병", "m": "성경의 ‘나병’은 오늘의 한센병뿐 아니라 여러 피부병을 포함해요. 종교적으로 ‘부정’하게 여겨져 공동체에서 격리되었어요.", "e": "예수님은 나병 환자를 만지신 첫 랍비였을 거예요."},
-   "정결": {"i": "💧", "o": "헬라어 카타리조, ‘깨끗하게 하다’", "x": "pak", "s": "하나님 앞에 나아갈 수 있는 상태", "m": "위생 개념이 아니라 예배와 공동체에 참여할 수 있는 상태예요.", "e": "“내가 원하노니 깨끗함을 받으라.”"},
-   "백부장": {"i": "🛡️", "o": "라틴어 켄투리오", "x": "yüzbaşı", "s": "로마 군대의 중간 장교", "m": "약 80–100명의 병사를 지휘했어요. 가버나움에 주둔한 헤롯 안티파스 군대 소속이었을 수도 있어요.", "e": "신약의 백부장들은 대체로 좋게 그려져요(27:54; 행 10장)."},
-   "섬기다": {"i": "🍽️", "o": "헬라어 디아코네오", "x": "xidmət etmək", "s": "식탁에서 시중들다", "m": "‘집사’(디아코노스)라는 말이 여기서 나왔어요. 예수님도 “섬기러 왔다”고 하셨어요(20:28).", "e": "고침받은 장모가 가장 먼저 한 일이 섬김이었어요."}
+ "img": [
+  "25-on-cuzamli.jpg",
+  "matta/12-yuzbasi.jpg",
+  "matta/12-qayinana.jpg",
+  "17-firtina.jpg"
+ ],
+ "hero": 3,
+ "ko": {
+  "usaq": {
+   "basliq": "바람과 바다도 순종해요",
+   "hedef": [
+    "예수님이 아픈 사람을 고치신 이야기를 알아요.",
+    "예수님의 말씀에는 큰 힘이 있음을 배워요.",
+    "무서울 때 예수님을 믿고 의지하는 법을 배워요."
+   ],
+   "sehneler": [
+    {
+     "b": "나병 환자를 만지셨어요",
+     "ayə": "8:1–4",
+     "alt": "나병 환자를 고쳐 주시는 예수님",
+     "p": [
+      "[[나병]]에 걸린 사람이 예수님께 와서 엎드렸어요. “주님, 원하시면 저를 깨끗하게 하실 수 있어요.”",
+      "아무도 나병 환자를 만지지 않았어요. 그런데 예수님은 손을 내밀어 그를 만지셨어요. “내가 원한다. 깨끗해져라!” 그러자 곧 병이 나았어요."
+     ]
+    },
+    {
+     "b": "말씀만 하세요",
+     "ayə": "8:5–13",
+     "alt": "예수님께 부탁하는 로마 백부장",
+     "p": [
+      "로마 군대의 [[백부장]]이 와서 말했어요. “제 하인이 많이 아파요.” 예수님이 “내가 가서 고쳐 주겠다” 하셨어요.",
+      "백부장이 말했어요. “저는 예수님을 집에 모실 자격이 없어요. 말씀만 하세요. 그러면 제 하인이 나을 거예요.” 예수님은 그의 [[믿음]]에 놀라셨고, 그 시간에 하인이 나았어요."
+     ]
+    },
+    {
+     "b": "베드로의 장모",
+     "ayə": "8:14–17",
+     "alt": "열병으로 누운 여인의 손을 잡으시는 예수님",
+     "p": [
+      "예수님이 베드로의 집에 가셨어요. 베드로의 장모가 [[열병]]으로 누워 있었어요.",
+      "예수님이 그 손을 만지시자 열이 떨어졌어요. 그녀는 일어나 예수님을 대접했어요. 저녁에는 많은 아픈 사람이 와서 고침을 받았어요."
+     ]
+    },
+    {
+     "b": "폭풍을 잠잠하게",
+     "ayə": "8:23–27",
+     "alt": "폭풍 속 배 위에서 바람과 바다를 꾸짖으시는 예수님",
+     "p": [
+      "예수님과 제자들이 배를 타고 가는데 큰 [[폭풍]]이 일어났어요. 파도가 배를 덮었지만 예수님은 주무시고 계셨어요.",
+      "제자들이 깨우며 “주님, 살려 주세요!” 외쳤어요. 예수님이 바람과 바다를 [[꾸짖으시자|꾸짖다]] 아주 잠잠해졌어요. 제자들은 놀랐어요. “이분은 누구시기에 바람과 바다도 순종할까?”"
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "“이이가 어떠한 사람이기에 바람과 바다도 순종하는가?”",
+    "ref": "8:27",
+    "bos": "이이가 어떠한 사람이기에 ___과 ___도 ___하는가?",
+    "sozler": [
+     "바람",
+     "바다",
+     "순종"
+    ],
+    "yalan": "산"
+   },
+   "lugat": {
+    "나병": {
+     "i": "🩹",
+     "x": "cüzam",
+     "m": "피부가 상하는 무서운 병이에요. 그때는 나병에 걸리면 마을 밖에서 혼자 살아야 했어요.",
+     "e": "예수님은 나병 환자를 만지셨어요."
+    },
+    "백부장": {
+     "i": "🛡️",
+     "x": "yüzbaşı",
+     "m": "로마 군인 백 명을 이끄는 대장이에요.",
+     "e": "백부장은 예수님의 말씀을 믿었어요."
+    },
+    "믿음": {
+     "i": "💗",
+     "x": "iman",
+     "m": "하나님을 믿고 의지하는 마음이에요.",
+     "e": "예수님은 백부장의 믿음에 놀라셨어요."
+    },
+    "열병": {
+     "i": "🤒",
+     "x": "qızdırma",
+     "m": "몸에 열이 많이 나는 병이에요.",
+     "e": "베드로의 장모가 열병으로 누워 있었어요."
+    },
+    "폭풍": {
+     "i": "🌊",
+     "x": "fırtına",
+     "m": "아주 센 바람과 큰 파도예요.",
+     "e": "바다에 큰 폭풍이 일어났어요."
+    },
+    "꾸짖다": {
+     "i": "✋",
+     "x": "qadağan etmək",
+     "m": "잘못된 것을 멈추라고 크게 명령하는 거예요.",
+     "e": "예수님이 바람과 바다를 꾸짖으셨어요."
+    }
+   },
+   "test": [
+    {
+     "q": "예수님은 나병 환자에게 어떻게 하셨나요?",
+     "o": [
+      "손을 내밀어 만지셨어요",
+      "멀리 피하셨어요",
+      "모른 척하셨어요"
+     ],
+     "a": 0,
+     "f": "맞아요! 예수님은 아무도 만지지 않는 사람을 만지셨어요."
+    },
+    {
+     "q": "백부장은 예수님께 무엇을 부탁했나요?",
+     "o": [
+      "말씀만 해 주세요",
+      "우리 집에 꼭 오세요",
+      "돈을 주세요"
+     ],
+     "a": 0,
+     "f": "맞아요! 말씀의 힘을 믿었어요."
+    },
+    {
+     "q": "베드로의 장모는 나은 뒤에 무엇을 했나요?",
+     "o": [
+      "일어나 예수님을 대접했어요",
+      "다시 잠을 잤어요",
+      "멀리 여행을 갔어요"
+     ],
+     "a": 0,
+     "f": "맞아요! 은혜를 받고 섬겼어요."
+    },
+    {
+     "q": "폭풍이 왔을 때 예수님은 무엇을 하고 계셨나요?",
+     "o": [
+      "주무시고 계셨어요",
+      "노를 젓고 계셨어요",
+      "울고 계셨어요"
+     ],
+     "a": 0,
+     "f": "맞아요! 그리고 한 말씀으로 폭풍을 잠잠하게 하셨어요."
+    }
+   ],
+   "dusun": [
+    "예수님이 나병 환자를 만지셨을 때 그 사람의 마음은 어땠을까요?",
+    "백부장처럼 예수님의 말씀을 믿는다는 것은 무엇일까요?",
+    "내가 무서울 때 예수님께 어떻게 기도할 수 있을까요?"
+   ],
+   "fealiyyet": {
+    "ciz": "폭풍이 멈추고 잠잠해진 바다와 배 위의 예수님을 그려 보세요.",
+    "b": "예수님을 의지할 때",
+    "p": "무섭거나 힘들 때 예수님께 드릴 짧은 기도를 써 보세요.",
+    "ph": "예) 예수님, 무서워요. 저와 함께해 주세요."
+   },
+   "dua": "예수님, 아픈 사람을 만지시고 한 말씀으로 폭풍을 잠잠하게 하신 예수님을 찬양합니다. 제가 무섭고 힘들 때도 예수님이 함께 계심을 믿게 해 주세요. 백부장처럼 예수님의 말씀을 믿는 사람이 되게 해 주세요. 예수님 이름으로 기도합니다. 아멘."
   },
-  "test": [
-   {"q": "율법에서 나병 환자를 만지면 어떻게 되었나요?", "o": ["만진 사람도 부정해졌다", "병이 나았다", "아무 일 없었다"], "a": 0, "f": "맞아요. 그런데 예수님은 정결을 옮기셨어요."},
-   {"q": "예수님이 이스라엘에서 보지 못했다고 하신 믿음의 주인공은?", "o": ["로마 백부장", "대제사장", "바리새인"], "a": 0, "f": "맞아요. 이방인의 믿음이었어요."},
-   {"q": "마태가 8:17에서 인용한 예언은?", "o": ["이사야 53장 고난받는 종", "시편 23편 목자", "창세기 1장 창조"], "a": 0, "f": "맞아요. 우리 연약함을 담당하신 분이에요."},
-   {"q": "구약에서 바다를 잠잠하게 하시는 분은?", "o": ["하나님", "모세", "바알"], "a": 0, "f": "맞아요. 그래서 제자들이 “이분은 누구신가” 묻게 돼요."},
-   {"q": "가다라 지방 사람들은 기적을 본 뒤 어떻게 했나요?", "o": ["예수님께 떠나 달라고 했다", "모두 제자가 되었다", "잔치를 열었다"], "a": 0, "f": "맞아요. 돼지를 잃은 것이 더 중요했어요."}
-  ],
-  "paylas": ["오늘 우리 주변에서 ‘아무도 만지지 않는’ 사람은 누구일까요?", "백부장의 믿음에서 나에게 가장 도전이 되는 부분은 무엇인가요?", "요즘 내 삶의 ‘폭풍’은 무엇인가요? 예수님이 ‘주무시는’ 것처럼 느껴질 때가 있나요?", "가다라 사람들처럼 예수님보다 내 ‘돼지’(손해)를 더 신경 쓴 적이 있나요?"],
-  "etiraf": {"b": "나의 고백", "p": "제자들의 질문 “이이가 어떠한 사람이기에?”에 나만의 대답을 서너 문장으로 써 보세요.", "ph": "예) 예수님은 제 폭풍도 잠잠하게 하실 수 있는 분이에요. 지금 저는 …"},
-  "dua": "예수님, 병과 거리와 자연과 악한 영까지 다스리시는 권위에 경배합니다. 소외된 사람을 만지신 그 손으로 저도 만져 주세요. 백부장처럼 말씀을 믿고, 폭풍 속에서도 예수님이 함께 계심을 신뢰하게 해 주세요. 예수님 이름으로 기도합니다. 아멘."
- }
-},
-"az": {
- "usaq": {
-  "basliq": "Küləklər və dəniz də itaət edir",
-  "hedef": ["İsanın xəstələrə şəfa verdiyi hekayələri öyrənəcəyik.", "İsanın sözündə böyük qüdrət olduğunu öyrənəcəyik.", "Qorxanda İsaya etibar etməyi öyrənəcəyik."],
-  "sehneler": [
-   {"b": "Cüzamlıya toxundu", "ayə": "Matta 8:1–4", "alt": "Cüzamlıya şəfa verən İsa", "p": ["[[Cüzam]]lı bir adam İsanın yanına gəlib yerə qapandı: “Ya Rəbb, istəsən, məni pak edə bilərsən.”", "Heç kim cüzamlılara toxunmurdu. Amma İsa əlini uzadıb ona toxundu: “İstəyirəm, pak ol!” O anda adam sağaldı."]},
-   {"b": "Yalnız bir söz de", "ayə": "Matta 8:5–13", "alt": "İsadan xahiş edən Roma yüzbaşısı", "p": ["Roma ordusunun bir [[yüzbaşı]]sı gəlib dedi: “Xidmətçim çox xəstədir.” İsa dedi: “Gəlib ona şəfa verəcəyəm.”", "Yüzbaşı dedi: “Mən layiq deyiləm ki, evimə gələsən. Yalnız bir söz de, xidmətçim sağalacaq.” İsa onun [[iman]]ına heyran qaldı və həmin saat xidmətçi sağaldı."]},
-   {"b": "Peterin qayınanası", "ayə": "Matta 8:14–17", "alt": "Qızdırma ilə yatan qadının əlindən tutan İsa", "p": ["İsa Peterin evinə gəldi. Peterin qayınanası [[qızdırma]] içində yatırdı.", "İsa onun əlinə toxunanda qızdırması düşdü. O, qalxıb İsaya xidmət etdi. Axşam çoxlu xəstə gəlib şəfa tapdı."]},
-   {"b": "Fırtınanı sakitləşdirdi", "ayə": "Matta 8:23–27", "alt": "Fırtınada qayıqda küləyi və dənizi qadağan edən İsa", "p": ["İsa və şagirdləri qayıqla gedəndə böyük [[fırtına]] qopdu. Dalğalar qayığı basırdı, amma İsa yatmışdı.", "Şagirdlər Onu oyadıb qışqırdılar: “Ya Rəbb, bizi xilas et!” İsa küləyi və dənizi [[qadağan edəndə|qadağan etmək]] hər şey tamamilə sakitləşdi. Şagirdlər heyrətləndilər: “Bu necə adamdır ki, hətta küləklər və dəniz də Ona itaət edir?”"]}
-  ],
-  "aye": {"metn": "“Bu necə adamdır ki, hətta küləklər və dəniz də Ona itaət edir?”", "ref": "8:27", "bos": "Bu necə adamdır ki, hətta ___ və ___ də Ona ___ edir?", "sozler": ["küləklər", "dəniz", "itaət"], "yalan": "dağlar"},
-  "lugat": {
-   "Cüzam": {"i": "🩹", "x": "나병", "m": "Dərini zədələyən qorxulu xəstəlikdir. O vaxt cüzamlı adam kənddən kənarda tək yaşamalı idi.", "e": "İsa cüzamlıya toxundu."},
-   "yüzbaşı": {"i": "🛡️", "x": "백부장", "m": "Yüz Roma əsgərinə başçılıq edən komandirdir.", "e": "Yüzbaşı İsanın sözünə inandı."},
-   "iman": {"i": "💗", "x": "믿음", "m": "Allaha inanıb Ona güvənən ürəkdir.", "e": "İsa yüzbaşının imanına heyran qaldı."},
-   "qızdırma": {"i": "🤒", "x": "열병", "m": "Bədənin çox qızdığı xəstəlikdir.", "e": "Peterin qayınanası qızdırma içində yatırdı."},
-   "fırtına": {"i": "🌊", "x": "폭풍", "m": "Çox güclü külək və böyük dalğalardır.", "e": "Dənizdə böyük fırtına qopdu."},
-   "qadağan etmək": {"i": "✋", "x": "꾸짖다", "m": "Yanlış olan şeyə “dayan!” deyə güclü əmr verməkdir.", "e": "İsa küləyi və dənizi qadağan etdi."}
-  },
-  "test": [
-   {"q": "İsa cüzamlıya nə etdi?", "o": ["Əlini uzadıb ona toxundu", "Ondan uzaqlaşdı", "Onu görməzliyə vurdu"], "a": 0, "f": "Düzdür! İsa heç kimin toxunmadığı adama toxundu."},
-   {"q": "Yüzbaşı İsadan nə xahiş etdi?", "o": ["Yalnız bir söz de", "Mütləq evimə gəl", "Mənə pul ver"], "a": 0, "f": "Düzdür! O, sözün qüdrətinə inandı."},
-   {"q": "Peterin qayınanası sağalandan sonra nə etdi?", "o": ["Qalxıb İsaya xidmət etdi", "Yenə yatdı", "Uzaq səfərə getdi"], "a": 0, "f": "Düzdür! Lütf alıb xidmət etdi."},
-   {"q": "Fırtına qopanda İsa nə edirdi?", "o": ["Yatırdı", "Avar çəkirdi", "Ağlayırdı"], "a": 0, "f": "Düzdür! Sonra bir sözlə fırtınanı sakitləşdirdi."}
-  ],
-  "dusun": ["İsa cüzamlıya toxunanda o adam nə hiss etdi?", "Yüzbaşı kimi İsanın sözünə inanmaq nə deməkdir?", "Qorxanda İsaya necə dua edə bilərəm?"],
-  "fealiyyet": {"ciz": "Fırtına dayandıqdan sonra sakit dənizi və qayıqdakı İsanı çək.", "b": "Nə vaxt İsaya etibar edəcəksən?", "p": "İsaya etibar edəcəyin vaxtı seç.", "ph": "",
-   "secim": {"basliq": "Nə vaxt İsaya etibar edəcəksən?", "izah": "Toxun və seç. Bir neçəsini seçə bilərsən.", "cumle": "Mən {x} İsaya etibar edəcəyəm!", "bos": "qorxanda", "bag": "və",
-    "secimler": [["😨", "qorxanda"], ["🤒", "xəstə olanda"], ["😔", "tək qalanda"], ["📝", "imtahan olanda"], ["🌙", "gecə qaranlıqda"], ["🏠", "ailəm narahat olanda"]]}},
-  "dua": "İsa, xəstələrə toxunduğun və bir sözlə fırtınanı sakitləşdirdiyin üçün Səni izzətləndirirəm. Qorxanda və çətinlikdə olanda Sənin mənimlə olduğuna inanmağıma kömək et. Yüzbaşı kimi Sənin sözünə inanan insan olum. İsa Məsihin adı ilə dua edirəm. Amin."
+  "genc": {
+   "basliq": "말씀의 권위",
+   "giris": "산상설교를 마친 사람들은 “권위 있는 자와 같다”며 놀랐습니다. 8장은 그 권위가 말로만이 아님을 보여 줍니다. 병, 거리, 자연, 악한 영까지 예수님의 한마디 앞에 무릎을 꿇습니다.",
+   "meqsed": [
+    "8장의 기적들이 말씀의 권위를 드러낸다는 것을 이해해요.",
+    "예수님이 소외된 사람들(나병 환자, 이방인, 여성)에게 다가가신 의미를 설명할 수 있어요.",
+    "내 삶의 ‘폭풍’ 속에서 예수님을 신뢰하는 고백을 해요."
+   ],
+   "sehneler": [
+    {
+     "b": "만질 수 없는 사람을 만지시다",
+     "ayə": "8:1–4",
+     "alt": "나병 환자를 고쳐 주시는 예수님",
+     "p": [
+      "율법에 따르면 [[나병]] 환자는 “부정하다, 부정하다” 외치며 진영 밖에서 살아야 했어요(레 13:45–46). 만지는 사람도 부정해졌어요.",
+      "예수님은 말씀만으로도 고치실 수 있었지만 굳이 손을 대셨어요. 부정이 예수님께 옮은 것이 아니라 예수님의 [[정결]]이 그에게 옮았어요."
+     ],
+     "deep": {
+      "b": "깊이 보기 · 제사장에게 보이라",
+      "p": "예수님은 고침받은 사람을 제사장에게 보내 모세의 규례대로 예물을 드리게 하셨어요(레 14장). 공동체로 돌아가는 공식 절차예요. 예수님은 몸뿐 아니라 관계까지 회복하셨어요."
+     }
+    },
+    {
+     "b": "이방인의 믿음",
+     "ayə": "8:5–13",
+     "alt": "예수님께 부탁하는 로마 백부장",
+     "p": [
+      "[[백부장]]은 점령군 로마의 장교, 곧 이방인이었어요. 그는 “나도 권위 아래 있는 사람이라 ‘가라’ 하면 가고 ‘오라’ 하면 옵니다”라고 말했어요. 예수님의 말씀이 명령처럼 현실을 움직인다는 것을 알아본 거예요.",
+      "예수님은 “이스라엘 중 아무에게서도 이만한 믿음을 보지 못하였노라”고 하셨어요. 동서로부터 많은 사람이 와서 아브라함과 함께 천국 잔치에 앉을 거라고요."
+     ],
+     "deep": {
+      "b": "깊이 보기 · 열린 잔치",
+      "p": "마태복음은 유대인을 위해 쓰였지만, 처음(동방 박사)과 중간(백부장, 가나안 여인)과 끝(모든 민족)에 이방인이 계속 등장해요. 하나님 나라 잔치의 문은 모든 민족에게 열려 있어요."
+     }
+    },
+    {
+     "b": "우리 연약함을 담당하시다",
+     "ayə": "8:14–22",
+     "alt": "열병으로 누운 여인의 손을 잡으시는 예수님",
+     "p": [
+      "베드로의 장모가 열병에서 낫자 일어나 예수님을 ‘[[섬겼어요|섬기다]]’. 같은 낱말이 천사들이 예수님을 섬긴 장면(4:11)에 쓰였어요. 고침받은 사람은 섬기는 사람이 돼요.",
+      "마태는 이사야 53:4를 인용해요. “우리의 연약한 것을 친히 담당하시고 병을 짊어지셨도다.” 고난받는 종의 예언이 치유 사역에서 먼저 이루어져요."
+     ],
+     "deep": {
+      "b": "깊이 보기 · 따름의 대가",
+      "p": "8:18–22에서 예수님은 “여우도 굴이 있고 새도 집이 있으되 인자는 머리 둘 곳이 없다”고 하세요. 기적을 본 사람들에게 따름이 쉬운 길이 아님을 미리 알려 주세요.",
+      "rose": true
+     }
+    },
+    {
+     "b": "바람과 바다를 꾸짖으시다",
+     "ayə": "8:23–34",
+     "alt": "폭풍 속 배 위에서 바람과 바다를 꾸짖으시는 예수님",
+     "p": [
+      "갈릴리 바다는 해수면보다 200m 낮고 산에 둘러싸여 있어서 갑자기 거센 바람이 불어닥쳐요. 어부 출신 제자들도 죽음을 느낄 만큼의 폭풍이었어요.",
+      "예수님은 “믿음이 작은 자들아, 어찌하여 무서워하느냐” 하시고 바람과 바다를 꾸짖으셨어요. 구약에서 바다를 잠잠하게 하시는 분은 하나님뿐이에요(시 107:29). 제자들의 질문 “이이가 어떠한 사람이기에”가 마태복음 전체의 질문이에요."
+     ],
+     "deep": {
+      "b": "깊이 보기 · 가다라 지방",
+      "p": "바다를 건넌 예수님은 이방 땅 가다라에서 귀신 들린 두 사람을 고치세요(8:28–34). 자연도, 악한 영도 예수님의 권위 앞에 굴복해요. 그런데 마을 사람들은 돼지를 잃은 것에 더 신경 쓰며 예수님께 떠나 달라고 해요."
+     }
+    }
+   ],
+   "cedvel": {
+    "b": "8장의 기적과 권위",
+    "alt": "8:1–34",
+    "bas": [
+     "누구에게",
+     "무엇을 이기셨나",
+     "어떻게"
+    ],
+    "set": [
+     [
+      "나병 환자 (부정한 사람)",
+      "병과 소외",
+      "손을 대시고 말씀으로"
+     ],
+     [
+      "백부장의 하인 (이방인)",
+      "거리",
+      "멀리서 말씀만으로"
+     ],
+     [
+      "베드로의 장모 (여성)",
+      "병",
+      "손을 만지셔서"
+     ],
+     [
+      "제자들",
+      "자연의 폭풍",
+      "꾸짖으심으로"
+     ],
+     [
+      "가다라의 두 사람",
+      "악한 영",
+      "“가라” 한마디로"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "“백부장이 대답하여 이르되 주여 내 집에 들어오심을 나는 감당하지 못하겠사오니 다만 말씀으로만 하옵소서. 그러면 내 하인이 낫겠사옵나이다.”",
+    "ref": "8:8"
+   },
+   "lugat": {
+    "나병": {
+     "i": "🩹",
+     "o": "헬라어 레프라",
+     "x": "cüzam",
+     "s": "몸과 관계를 무너뜨리는 병",
+     "m": "성경의 ‘나병’은 오늘의 한센병뿐 아니라 여러 피부병을 포함해요. 종교적으로 ‘부정’하게 여겨져 공동체에서 격리되었어요.",
+     "e": "예수님은 나병 환자를 만지신 첫 랍비였을 거예요."
+    },
+    "정결": {
+     "i": "💧",
+     "o": "헬라어 카타리조, ‘깨끗하게 하다’",
+     "x": "pak",
+     "s": "하나님 앞에 나아갈 수 있는 상태",
+     "m": "위생 개념이 아니라 예배와 공동체에 참여할 수 있는 상태예요.",
+     "e": "“내가 원하노니 깨끗함을 받으라.”"
+    },
+    "백부장": {
+     "i": "🛡️",
+     "o": "라틴어 켄투리오",
+     "x": "yüzbaşı",
+     "s": "로마 군대의 중간 장교",
+     "m": "약 80–100명의 병사를 지휘했어요. 가버나움에 주둔한 헤롯 안티파스 군대 소속이었을 수도 있어요.",
+     "e": "신약의 백부장들은 대체로 좋게 그려져요(27:54; 행 10장)."
+    },
+    "섬기다": {
+     "i": "🍽️",
+     "o": "헬라어 디아코네오",
+     "x": "xidmət etmək",
+     "s": "식탁에서 시중들다",
+     "m": "‘집사’(디아코노스)라는 말이 여기서 나왔어요. 예수님도 “섬기러 왔다”고 하셨어요(20:28).",
+     "e": "고침받은 장모가 가장 먼저 한 일이 섬김이었어요."
+    }
+   },
+   "test": [
+    {
+     "q": "율법에서 나병 환자를 만지면 어떻게 되었나요?",
+     "o": [
+      "만진 사람도 부정해졌다",
+      "병이 나았다",
+      "아무 일 없었다"
+     ],
+     "a": 0,
+     "f": "맞아요. 그런데 예수님은 정결을 옮기셨어요."
+    },
+    {
+     "q": "예수님이 이스라엘에서 보지 못했다고 하신 믿음의 주인공은?",
+     "o": [
+      "로마 백부장",
+      "대제사장",
+      "바리새인"
+     ],
+     "a": 0,
+     "f": "맞아요. 이방인의 믿음이었어요."
+    },
+    {
+     "q": "마태가 8:17에서 인용한 예언은?",
+     "o": [
+      "이사야 53장 고난받는 종",
+      "시편 23편 목자",
+      "창세기 1장 창조"
+     ],
+     "a": 0,
+     "f": "맞아요. 우리 연약함을 담당하신 분이에요."
+    },
+    {
+     "q": "구약에서 바다를 잠잠하게 하시는 분은?",
+     "o": [
+      "하나님",
+      "모세",
+      "바알"
+     ],
+     "a": 0,
+     "f": "맞아요. 그래서 제자들이 “이분은 누구신가” 묻게 돼요."
+    },
+    {
+     "q": "가다라 지방 사람들은 기적을 본 뒤 어떻게 했나요?",
+     "o": [
+      "예수님께 떠나 달라고 했다",
+      "모두 제자가 되었다",
+      "잔치를 열었다"
+     ],
+     "a": 0,
+     "f": "맞아요. 돼지를 잃은 것이 더 중요했어요."
+    }
+   ],
+   "paylas": [
+    "오늘 우리 주변에서 ‘아무도 만지지 않는’ 사람은 누구일까요?",
+    "백부장의 믿음에서 나에게 가장 도전이 되는 부분은 무엇인가요?",
+    "요즘 내 삶의 ‘폭풍’은 무엇인가요? 예수님이 ‘주무시는’ 것처럼 느껴질 때가 있나요?",
+    "가다라 사람들처럼 예수님보다 내 ‘돼지’(손해)를 더 신경 쓴 적이 있나요?"
+   ],
+   "etiraf": {
+    "b": "나의 고백",
+    "p": "제자들의 질문 “이이가 어떠한 사람이기에?”에 나만의 대답을 서너 문장으로 써 보세요.",
+    "ph": "예) 예수님은 제 폭풍도 잠잠하게 하실 수 있는 분이에요. 지금 저는 …"
+   },
+   "dua": "예수님, 병과 거리와 자연과 악한 영까지 다스리시는 권위에 경배합니다. 소외된 사람을 만지신 그 손으로 저도 만져 주세요. 백부장처럼 말씀을 믿고, 폭풍 속에서도 예수님이 함께 계심을 신뢰하게 해 주세요. 예수님 이름으로 기도합니다. 아멘."
+  }
  },
- "genc": {
-  "basliq": "Sözün səlahiyyəti",
-  "giris": "Dağüstü vəzi dinləyənlər “səlahiyyət sahibi kimi öyrədir” deyə heyrətləndilər. 8-ci fəsil bu səlahiyyətin yalnız sözdə olmadığını göstərir. Xəstəlik, məsafə, təbiət və şər ruhlar da İsanın bir sözü qarşısında diz çökür.",
-  "meqsed": ["8-ci fəsildəki möcüzələrin sözün səlahiyyətini göstərdiyini anlayırıq.", "İsanın kənarda qalanlara (cüzamlılar, yadellilər, qadınlar) yaxınlaşmasının mənasını izah edə bilirik.", "Həyatımızdakı “fırtına”da İsaya etibar etdiyimizi etiraf edirik."],
-  "sehneler": [
-   {"b": "Toxunulmayana toxunmaq", "ayə": "Matta 8:1–4", "alt": "Cüzamlıya şəfa verən İsa", "p": ["Qanuna görə [[cüzam]]lı “murdaram, murdaram” deyə qışqırıb düşərgədən kənarda yaşamalı idi (Lev. 13:45–46). Ona toxunan da murdar olurdu.", "İsa yalnız sözlə də şəfa verə bilərdi, amma bilərəkdən əlini uzatdı. Murdarlıq İsaya keçmədi, əksinə, İsanın [[pak]]lığı ona keçdi."], "deep": {"b": "Dərindən baxaq · Kahinə göstər", "p": "İsa şəfa tapan adamı kahinə göndərib Musanın qaydasına görə təqdim gətirməsini dedi (Lev. 14). Bu, cəmiyyətə qayıtmağın rəsmi yolu idi. İsa təkcə bədəni deyil, münasibətləri də bərpa etdi."}},
-   {"b": "Yadellinin imanı", "ayə": "Matta 8:5–13", "alt": "İsadan xahiş edən Roma yüzbaşısı", "p": ["[[Yüzbaşı]] işğalçı Roma ordusunun zabiti, yəni yadelli idi. O dedi: “Mən də hakimiyyət altında olan adamam, birinə “get” deyirəm, gedir, “gəl” deyirəm, gəlir.” O, İsanın sözünün əmr kimi gerçəkliyi dəyişdiyini anladı.", "İsa dedi: “İsraildə heç kimdə belə iman görməmişəm.” Şərqdən və qərbdən çoxları gəlib İbrahimlə birlikdə Səmavi Padşahlığın ziyafətində oturacaq."], "deep": {"b": "Dərindən baxaq · Açıq ziyafət", "p": "Matta Müjdəsi yəhudilər üçün yazılsa da, əvvəlində (müdriklər), ortasında (yüzbaşı, Kənanlı qadın) və sonunda (bütün millətlər) yadellilər görünür. Allahın Padşahlığının ziyafət qapısı bütün millətlərə açıqdır."}},
-   {"b": "Zəifliklərimizi üzərinə aldı", "ayə": "Matta 8:14–22", "alt": "Qızdırma ilə yatan qadının əlindən tutan İsa", "p": ["Peterin qayınanası qızdırmadan sağalanda qalxıb İsaya [[xidmət etdi|xidmət etmək]]. Bu söz mələklərin İsaya xidmət etdiyi səhnədə də işlənir (4:11). Şəfa tapan insan xidmət edən insana çevrilir.", "Matta Yeşaya 53:4-dən sitat gətirir: “Zəifliklərimizi Özü götürdü, xəstəliklərimizi daşıdı.” Əzab çəkən Qul haqqındakı peyğəmbərlik əvvəlcə şəfa xidmətində yerinə yetir."], "deep": {"b": "Dərindən baxaq · Ardınca getməyin bədəli", "p": "8:18–22-də İsa deyir: “Tülkülərin yuvası, quşların da sığınacağı var, amma Bəşər Oğlunun başını qoymağa yeri yoxdur.” Möcüzələri görənlərə ardınca getməyin asan yol olmadığını əvvəlcədən bildirir.", "rose": true}},
-   {"b": "Küləyi və dənizi qadağan etdi", "ayə": "Matta 8:23–34", "alt": "Fırtınada qayıqda küləyi və dənizi qadağan edən İsa", "p": ["Qalileya gölü dəniz səviyyəsindən 200 m aşağıdadır və dağlarla əhatə olunub, buna görə birdən şiddətli küləklər qopur. Balıqçı olan şagirdlər belə ölümü hiss edəcək qədər güclü fırtına idi.", "İsa “Ey kiçik imanlılar, niyə qorxursunuz?” deyib küləyi və dənizi qadağan etdi. Əhdi-Ətiqdə dənizi sakitləşdirən yalnız Allahdır (Zəb. 107:29). Şagirdlərin “Bu necə adamdır?” sualı bütün Matta Müjdəsinin sualıdır."], "deep": {"b": "Dərindən baxaq · Qadara bölgəsi", "p": "Gölü keçən İsa yadellilərin torpağı olan Qadarada cinə tutulmuş iki adama şəfa verir (8:28–34). Təbiət də, şər ruhlar da İsanın səlahiyyətinə tabe olur. Amma kənd adamları donuzları itirməyi daha çox düşünüb İsadan getməsini xahiş edirlər."}}
-  ],
-  "cedvel": {"b": "8-ci fəsildə möcüzələr və səlahiyyət", "alt": "8:1–34", "bas": ["Kimə", "Nəyə qalib gəldi", "Necə"], "set": [["Cüzamlıya (murdar sayılan)", "Xəstəlik və təcrid", "Toxunaraq və sözlə"], ["Yüzbaşının xidmətçisinə (yadelli)", "Məsafə", "Uzaqdan yalnız sözlə"], ["Peterin qayınanasına (qadın)", "Xəstəlik", "Əlinə toxunaraq"], ["Şagirdlərə", "Təbiətin fırtınası", "Qadağan edərək"], ["Qadaradakı iki adama", "Şər ruhlar", "“Gedin!” sözü ilə"]]},
-  "aye": {"metn": "“Yüzbaşı cavab verdi: “Ya Rəbb, mən layiq deyiləm ki, evimə gələsən. Ancaq yalnız bir söz de, xidmətçim sağalacaq.””", "ref": "8:8"},
-  "lugat": {
-   "cüzam": {"i": "🩹", "o": "Yunanca lepra", "x": "나병", "s": "Bədəni və münasibətləri dağıdan xəstəlik", "m": "Müqəddəs Kitabdakı “cüzam” bugünkü Hansen xəstəliyi ilə yanaşı müxtəlif dəri xəstəliklərini də əhatə edir. Dini baxımdan “murdar” sayılıb cəmiyyətdən təcrid olunurdu.", "e": "Yəqin ki, İsa cüzamlıya toxunan ilk ravvi idi."},
-   "pak": {"i": "💧", "o": "Yunanca katarizo, “təmizləmək”", "x": "정결", "s": "Allaha yaxınlaşa bilmək halı", "m": "Gigiyena anlayışı deyil, ibadətə və cəmiyyətə qatıla bilmək halıdır.", "e": "“İstəyirəm, pak ol.”"},
-   "Yüzbaşı": {"i": "🛡️", "o": "Latınca centurio", "x": "백부장", "s": "Roma ordusunun orta rütbəli zabiti", "m": "Təxminən 80–100 əsgərə başçılıq edirdi. Kəfərnahumda yerləşən Hirod Antipanın ordusundan ola bilərdi.", "e": "Əhdi-Cədiddə yüzbaşılar adətən yaxşı təsvir olunur (27:54; Həv. 10)."},
-   "xidmət etmək": {"i": "🍽️", "o": "Yunanca diakoneo", "x": "섬기다", "s": "Süfrədə qulluq etmək", "m": "“Diakon” sözü buradan gəlir. İsa da “xidmət etməyə gəldim” dedi (20:28).", "e": "Şəfa tapan qayınananın ilk işi xidmət oldu."}
+ "az": {
+  "usaq": {
+   "basliq": "Küləklər və dəniz də itaət edir",
+   "hedef": [
+    "İsanın xəstələrə şəfa verdiyi hekayələri öyrənəcəyik.",
+    "İsanın sözündə böyük qüdrət olduğunu öyrənəcəyik.",
+    "Qorxanda İsaya etibar etməyi öyrənəcəyik."
+   ],
+   "sehneler": [
+    {
+     "b": "Cüzamlıya toxundu",
+     "ayə": "Matta 8:1–4",
+     "alt": "Cüzamlıya şəfa verən İsa",
+     "p": [
+      "[[Cüzam]]lı bir adam İsanın yanına gəlib yerə qapandı: “Ya Rəbb, istəsən, məni pak edə bilərsən.”",
+      "Heç kim cüzamlılara toxunmurdu. Amma İsa əlini uzadıb ona toxundu: “İstəyirəm, pak ol!” O anda adam sağaldı."
+     ]
+    },
+    {
+     "b": "Yalnız bir söz de",
+     "ayə": "Matta 8:5–13",
+     "alt": "İsadan xahiş edən Roma yüzbaşısı",
+     "p": [
+      "Roma ordusunun bir [[yüzbaşı]]sı gəlib dedi: “Xidmətçim çox xəstədir.” İsa dedi: “Gəlib ona şəfa verəcəyəm.”",
+      "Yüzbaşı dedi: “Mən layiq deyiləm ki, evimə gələsən. Yalnız bir söz de, xidmətçim sağalacaq.” İsa onun [[iman]]ına heyran qaldı və həmin saat xidmətçi sağaldı."
+     ]
+    },
+    {
+     "b": "Peterin qayınanası",
+     "ayə": "Matta 8:14–17",
+     "alt": "Qızdırma ilə yatan qadının əlindən tutan İsa",
+     "p": [
+      "İsa Peterin evinə gəldi. Peterin qayınanası [[qızdırma]] içində yatırdı.",
+      "İsa onun əlinə toxunanda qızdırması düşdü. O, qalxıb İsaya xidmət etdi. Axşam çoxlu xəstə gəlib şəfa tapdı."
+     ]
+    },
+    {
+     "b": "Fırtınanı sakitləşdirdi",
+     "ayə": "Matta 8:23–27",
+     "alt": "Fırtınada qayıqda küləyi və dənizi qadağan edən İsa",
+     "p": [
+      "İsa və şagirdləri qayıqla gedəndə böyük [[fırtına]] qopdu. Dalğalar qayığı basırdı, amma İsa yatmışdı.",
+      "Şagirdlər Onu oyadıb qışqırdılar: “Ya Rəbb, bizi xilas et!” İsa küləyi və dənizi [[qadağan edəndə|qadağan etmək]] hər şey tamamilə sakitləşdi. Şagirdlər heyrətləndilər: “Bu necə adamdır ki, hətta küləklər və dəniz də Ona itaət edir?”"
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "“Bu necə adamdır ki, hətta küləklər və dəniz də Ona itaət edir?”",
+    "ref": "8:27",
+    "bos": "Bu necə adamdır ki, hətta ___ və ___ də Ona ___ edir?",
+    "sozler": [
+     "küləklər",
+     "dəniz",
+     "itaət"
+    ],
+    "yalan": "dağlar"
+   },
+   "lugat": {
+    "Cüzam": {
+     "i": "🩹",
+     "x": "나병",
+     "m": "Dərini zədələyən qorxulu xəstəlikdir. O vaxt cüzamlı adam kənddən kənarda tək yaşamalı idi.",
+     "e": "İsa cüzamlıya toxundu."
+    },
+    "yüzbaşı": {
+     "i": "🛡️",
+     "x": "백부장",
+     "m": "Yüz Roma əsgərinə başçılıq edən komandirdir.",
+     "e": "Yüzbaşı İsanın sözünə inandı."
+    },
+    "iman": {
+     "i": "💗",
+     "x": "믿음",
+     "m": "Allaha inanıb Ona güvənən ürəkdir.",
+     "e": "İsa yüzbaşının imanına heyran qaldı."
+    },
+    "qızdırma": {
+     "i": "🤒",
+     "x": "열병",
+     "m": "Bədənin çox qızdığı xəstəlikdir.",
+     "e": "Peterin qayınanası qızdırma içində yatırdı."
+    },
+    "fırtına": {
+     "i": "🌊",
+     "x": "폭풍",
+     "m": "Çox güclü külək və böyük dalğalardır.",
+     "e": "Dənizdə böyük fırtına qopdu."
+    },
+    "qadağan etmək": {
+     "i": "✋",
+     "x": "꾸짖다",
+     "m": "Yanlış olan şeyə “dayan!” deyə güclü əmr verməkdir.",
+     "e": "İsa küləyi və dənizi qadağan etdi."
+    }
+   },
+   "test": [
+    {
+     "q": "İsa cüzamlıya nə etdi?",
+     "o": [
+      "Əlini uzadıb ona toxundu",
+      "Ondan uzaqlaşdı",
+      "Onu görməzliyə vurdu"
+     ],
+     "a": 0,
+     "f": "Düzdür! İsa heç kimin toxunmadığı adama toxundu."
+    },
+    {
+     "q": "Yüzbaşı İsadan nə xahiş etdi?",
+     "o": [
+      "Yalnız bir söz de",
+      "Mütləq evimə gəl",
+      "Mənə pul ver"
+     ],
+     "a": 0,
+     "f": "Düzdür! O, sözün qüdrətinə inandı."
+    },
+    {
+     "q": "Peterin qayınanası sağalandan sonra nə etdi?",
+     "o": [
+      "Qalxıb İsaya xidmət etdi",
+      "Yenə yatdı",
+      "Uzaq səfərə getdi"
+     ],
+     "a": 0,
+     "f": "Düzdür! Lütf alıb xidmət etdi."
+    },
+    {
+     "q": "Fırtına qopanda İsa nə edirdi?",
+     "o": [
+      "Yatırdı",
+      "Avar çəkirdi",
+      "Ağlayırdı"
+     ],
+     "a": 0,
+     "f": "Düzdür! Sonra bir sözlə fırtınanı sakitləşdirdi."
+    }
+   ],
+   "dusun": [
+    "İsa cüzamlıya toxunanda o adam nə hiss etdi?",
+    "Yüzbaşı kimi İsanın sözünə inanmaq nə deməkdir?",
+    "Qorxanda İsaya necə dua edə bilərəm?"
+   ],
+   "fealiyyet": {
+    "ciz": "Fırtına dayandıqdan sonra sakit dənizi və qayıqdakı İsanı çək.",
+    "b": "Nə vaxt İsaya etibar edəcəksən?",
+    "p": "İsaya etibar edəcəyin vaxtı seç.",
+    "ph": "",
+    "secim": {
+     "basliq": "Nə vaxt İsaya etibar edəcəksən?",
+     "izah": "Toxun və seç. Bir neçəsini seçə bilərsən.",
+     "cumle": "Mən {x} İsaya etibar edəcəyəm!",
+     "bos": "qorxanda",
+     "bag": "və",
+     "secimler": [
+      [
+       "😨",
+       "qorxanda"
+      ],
+      [
+       "🤒",
+       "xəstə olanda"
+      ],
+      [
+       "😔",
+       "tək qalanda"
+      ],
+      [
+       "📝",
+       "imtahan olanda"
+      ],
+      [
+       "🌙",
+       "gecə qaranlıqda"
+      ],
+      [
+       "🏠",
+       "ailəm narahat olanda"
+      ]
+     ]
+    }
+   },
+   "dua": "İsa, xəstələrə toxunduğun və bir sözlə fırtınanı sakitləşdirdiyin üçün Səni izzətləndirirəm. Qorxanda və çətinlikdə olanda Sənin mənimlə olduğuna inanmağıma kömək et. Yüzbaşı kimi Sənin sözünə inanan insan olum. İsa Məsihin adı ilə dua edirəm. Amin."
   },
-  "test": [
-   {"q": "Qanuna görə cüzamlıya toxunan nə olurdu?", "o": ["Özü də murdar olurdu", "Xəstəlik sağalırdı", "Heç nə olmurdu"], "a": 0, "f": "Düzdür. İsa isə paklığı ötürdü."},
-   {"q": "İsanın İsraildə görmədiyini dediyi imanın sahibi kim idi?", "o": ["Roma yüzbaşısı", "Baş kahin", "Farisey"], "a": 0, "f": "Düzdür. Yadellinin imanı idi."},
-   {"q": "Matta 8:17-də hansı peyğəmbərlikdən sitat gətirir?", "o": ["Yeşaya 53, əzab çəkən Qul", "Zəbur 23, Çoban", "Yaradılış 1, yaradılış"], "a": 0, "f": "Düzdür. Zəifliklərimizi üzərinə alan."},
-   {"q": "Əhdi-Ətiqdə dənizi sakitləşdirən kimdir?", "o": ["Allah", "Musa", "Baal"], "a": 0, "f": "Düzdür. Buna görə şagirdlər “Bu kimdir?” soruşur."},
-   {"q": "Qadara əhalisi möcüzəni görəndən sonra nə etdi?", "o": ["İsadan getməsini xahiş etdi", "Hamısı şagird oldu", "Ziyafət qurdu"], "a": 0, "f": "Düzdür. Donuzları itirmək daha vacib idi."}
+  "genc": {
+   "basliq": "Sözün səlahiyyəti",
+   "giris": "Dağüstü vəzi dinləyənlər “səlahiyyət sahibi kimi öyrədir” deyə heyrətləndilər. 8-ci fəsil bu səlahiyyətin yalnız sözdə olmadığını göstərir. Xəstəlik, məsafə, təbiət və şər ruhlar da İsanın bir sözü qarşısında diz çökür.",
+   "meqsed": [
+    "8-ci fəsildəki möcüzələrin sözün səlahiyyətini göstərdiyini anlayırıq.",
+    "İsanın kənarda qalanlara (cüzamlılar, yadellilər, qadınlar) yaxınlaşmasının mənasını izah edə bilirik.",
+    "Həyatımızdakı “fırtına”da İsaya etibar etdiyimizi etiraf edirik."
+   ],
+   "sehneler": [
+    {
+     "b": "Toxunulmayana toxunmaq",
+     "ayə": "Matta 8:1–4",
+     "alt": "Cüzamlıya şəfa verən İsa",
+     "p": [
+      "Qanuna görə [[cüzam]]lı “murdaram, murdaram” deyə qışqırıb düşərgədən kənarda yaşamalı idi (Lev. 13:45–46). Ona toxunan da murdar olurdu.",
+      "İsa yalnız sözlə də şəfa verə bilərdi, amma bilərəkdən əlini uzatdı. Murdarlıq İsaya keçmədi, əksinə, İsanın [[pak]]lığı ona keçdi."
+     ],
+     "deep": {
+      "b": "Dərindən baxaq · Kahinə göstər",
+      "p": "İsa şəfa tapan adamı kahinə göndərib Musanın qaydasına görə təqdim gətirməsini dedi (Lev. 14). Bu, cəmiyyətə qayıtmağın rəsmi yolu idi. İsa təkcə bədəni deyil, münasibətləri də bərpa etdi."
+     }
+    },
+    {
+     "b": "Yadellinin imanı",
+     "ayə": "Matta 8:5–13",
+     "alt": "İsadan xahiş edən Roma yüzbaşısı",
+     "p": [
+      "[[Yüzbaşı]] işğalçı Roma ordusunun zabiti, yəni yadelli idi. O dedi: “Mən də hakimiyyət altında olan adamam, birinə “get” deyirəm, gedir, “gəl” deyirəm, gəlir.” O, İsanın sözünün əmr kimi gerçəkliyi dəyişdiyini anladı.",
+      "İsa dedi: “İsraildə heç kimdə belə iman görməmişəm.” Şərqdən və qərbdən çoxları gəlib İbrahimlə birlikdə Səmavi Padşahlığın ziyafətində oturacaq."
+     ],
+     "deep": {
+      "b": "Dərindən baxaq · Açıq ziyafət",
+      "p": "Matta Müjdəsi yəhudilər üçün yazılsa da, əvvəlində (müdriklər), ortasında (yüzbaşı, Kənanlı qadın) və sonunda (bütün millətlər) yadellilər görünür. Allahın Padşahlığının ziyafət qapısı bütün millətlərə açıqdır."
+     }
+    },
+    {
+     "b": "Zəifliklərimizi üzərinə aldı",
+     "ayə": "Matta 8:14–22",
+     "alt": "Qızdırma ilə yatan qadının əlindən tutan İsa",
+     "p": [
+      "Peterin qayınanası qızdırmadan sağalanda qalxıb İsaya [[xidmət etdi|xidmət etmək]]. Bu söz mələklərin İsaya xidmət etdiyi səhnədə də işlənir (4:11). Şəfa tapan insan xidmət edən insana çevrilir.",
+      "Matta Yeşaya 53:4-dən sitat gətirir: “Zəifliklərimizi Özü götürdü, xəstəliklərimizi daşıdı.” Əzab çəkən Qul haqqındakı peyğəmbərlik əvvəlcə şəfa xidmətində yerinə yetir."
+     ],
+     "deep": {
+      "b": "Dərindən baxaq · Ardınca getməyin bədəli",
+      "p": "8:18–22-də İsa deyir: “Tülkülərin yuvası, quşların da sığınacağı var, amma Bəşər Oğlunun başını qoymağa yeri yoxdur.” Möcüzələri görənlərə ardınca getməyin asan yol olmadığını əvvəlcədən bildirir.",
+      "rose": true
+     }
+    },
+    {
+     "b": "Küləyi və dənizi qadağan etdi",
+     "ayə": "Matta 8:23–34",
+     "alt": "Fırtınada qayıqda küləyi və dənizi qadağan edən İsa",
+     "p": [
+      "Qalileya gölü dəniz səviyyəsindən 200 m aşağıdadır və dağlarla əhatə olunub, buna görə birdən şiddətli küləklər qopur. Balıqçı olan şagirdlər belə ölümü hiss edəcək qədər güclü fırtına idi.",
+      "İsa “Ey kiçik imanlılar, niyə qorxursunuz?” deyib küləyi və dənizi qadağan etdi. Əhdi-Ətiqdə dənizi sakitləşdirən yalnız Allahdır (Zəb. 107:29). Şagirdlərin “Bu necə adamdır?” sualı bütün Matta Müjdəsinin sualıdır."
+     ],
+     "deep": {
+      "b": "Dərindən baxaq · Qadara bölgəsi",
+      "p": "Gölü keçən İsa yadellilərin torpağı olan Qadarada cinə tutulmuş iki adama şəfa verir (8:28–34). Təbiət də, şər ruhlar da İsanın səlahiyyətinə tabe olur. Amma kənd adamları donuzları itirməyi daha çox düşünüb İsadan getməsini xahiş edirlər."
+     }
+    }
+   ],
+   "cedvel": {
+    "b": "8-ci fəsildə möcüzələr və səlahiyyət",
+    "alt": "8:1–34",
+    "bas": [
+     "Kimə",
+     "Nəyə qalib gəldi",
+     "Necə"
+    ],
+    "set": [
+     [
+      "Cüzamlıya (murdar sayılan)",
+      "Xəstəlik və təcrid",
+      "Toxunaraq və sözlə"
+     ],
+     [
+      "Yüzbaşının xidmətçisinə (yadelli)",
+      "Məsafə",
+      "Uzaqdan yalnız sözlə"
+     ],
+     [
+      "Peterin qayınanasına (qadın)",
+      "Xəstəlik",
+      "Əlinə toxunaraq"
+     ],
+     [
+      "Şagirdlərə",
+      "Təbiətin fırtınası",
+      "Qadağan edərək"
+     ],
+     [
+      "Qadaradakı iki adama",
+      "Şər ruhlar",
+      "“Gedin!” sözü ilə"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "“Yüzbaşı cavab verdi: “Ya Rəbb, mən layiq deyiləm ki, evimə gələsən. Ancaq yalnız bir söz de, xidmətçim sağalacaq.””",
+    "ref": "8:8"
+   },
+   "lugat": {
+    "cüzam": {
+     "i": "🩹",
+     "o": "Yunanca lepra",
+     "x": "나병",
+     "s": "Bədəni və münasibətləri dağıdan xəstəlik",
+     "m": "Müqəddəs Kitabdakı “cüzam” bugünkü Hansen xəstəliyi ilə yanaşı müxtəlif dəri xəstəliklərini də əhatə edir. Dini baxımdan “murdar” sayılıb cəmiyyətdən təcrid olunurdu.",
+     "e": "Yəqin ki, İsa cüzamlıya toxunan ilk ravvi idi."
+    },
+    "pak": {
+     "i": "💧",
+     "o": "Yunanca katarizo, “təmizləmək”",
+     "x": "정결",
+     "s": "Allaha yaxınlaşa bilmək halı",
+     "m": "Gigiyena anlayışı deyil, ibadətə və cəmiyyətə qatıla bilmək halıdır.",
+     "e": "“İstəyirəm, pak ol.”"
+    },
+    "Yüzbaşı": {
+     "i": "🛡️",
+     "o": "Latınca centurio",
+     "x": "백부장",
+     "s": "Roma ordusunun orta rütbəli zabiti",
+     "m": "Təxminən 80–100 əsgərə başçılıq edirdi. Kəfərnahumda yerləşən Hirod Antipanın ordusundan ola bilərdi.",
+     "e": "Əhdi-Cədiddə yüzbaşılar adətən yaxşı təsvir olunur (27:54; Həv. 10)."
+    },
+    "xidmət etmək": {
+     "i": "🍽️",
+     "o": "Yunanca diakoneo",
+     "x": "섬기다",
+     "s": "Süfrədə qulluq etmək",
+     "m": "“Diakon” sözü buradan gəlir. İsa da “xidmət etməyə gəldim” dedi (20:28).",
+     "e": "Şəfa tapan qayınananın ilk işi xidmət oldu."
+    }
+   },
+   "test": [
+    {
+     "q": "Qanuna görə cüzamlıya toxunan nə olurdu?",
+     "o": [
+      "Özü də murdar olurdu",
+      "Xəstəlik sağalırdı",
+      "Heç nə olmurdu"
+     ],
+     "a": 0,
+     "f": "Düzdür. İsa isə paklığı ötürdü."
+    },
+    {
+     "q": "İsanın İsraildə görmədiyini dediyi imanın sahibi kim idi?",
+     "o": [
+      "Roma yüzbaşısı",
+      "Baş kahin",
+      "Farisey"
+     ],
+     "a": 0,
+     "f": "Düzdür. Yadellinin imanı idi."
+    },
+    {
+     "q": "Matta 8:17-də hansı peyğəmbərlikdən sitat gətirir?",
+     "o": [
+      "Yeşaya 53, əzab çəkən Qul",
+      "Zəbur 23, Çoban",
+      "Yaradılış 1, yaradılış"
+     ],
+     "a": 0,
+     "f": "Düzdür. Zəifliklərimizi üzərinə alan."
+    },
+    {
+     "q": "Əhdi-Ətiqdə dənizi sakitləşdirən kimdir?",
+     "o": [
+      "Allah",
+      "Musa",
+      "Baal"
+     ],
+     "a": 0,
+     "f": "Düzdür. Buna görə şagirdlər “Bu kimdir?” soruşur."
+    },
+    {
+     "q": "Qadara əhalisi möcüzəni görəndən sonra nə etdi?",
+     "o": [
+      "İsadan getməsini xahiş etdi",
+      "Hamısı şagird oldu",
+      "Ziyafət qurdu"
+     ],
+     "a": 0,
+     "f": "Düzdür. Donuzları itirmək daha vacib idi."
+    }
+   ],
+   "paylas": [
+    "Bu gün ətrafımızda “heç kimin toxunmadığı” insan kimdir?",
+    "Yüzbaşının imanında mənə ən çox çağırış edən nədir?",
+    "Bu günlərdə həyatımdakı “fırtına” nədir? İsanın “yatdığını” hiss etdiyim vaxtlar olurmu?",
+    "Qadaralılar kimi İsadan çox öz “donuzlarımı” (itkimi) düşündüyüm olubmu?"
+   ],
+   "etiraf": {
+    "b": "Mənim etirafım",
+    "p": "Şagirdlərin “Bu necə adamdır?” sualına öz cavabını üç-dörd cümlə ilə yaz.",
+    "ph": "Məsələn: İsa mənim fırtınamı da sakitləşdirə bilən Rəbdir. İndi mən …"
+   },
+   "dua": "İsa, xəstəliyə, məsafəyə, təbiətə və şər ruhlara hökm edən səlahiyyətinə səcdə edirəm. Kənarda qalanlara toxunan əllərinlə mənə də toxun. Yüzbaşı kimi Sənin sözünə inanım və fırtınada belə Sənin mənimlə olduğuna etibar edim. İsa Məsihin adı ilə dua edirəm. Amin."
+  }
+ },
+ "muellim": {
+  "mesaj": "12과의 중심은 한 문장입니다. **산상설교에서 들은 말씀의 권위가 8장에서 행동으로 증명된다. 예수님은 병, 거리, 자연, 악한 영을 다스리시는 주님이시다.**",
+  "hazirliq": [
+   "학생용 교재를 열 휴대폰이나 태블릿, 이어폰",
+   "파란 천이나 큰 비닐 (폭풍 놀이)",
+   "반창고 몇 개 (나병 환자 이야기 도입)"
   ],
-  "paylas": ["Bu gün ətrafımızda “heç kimin toxunmadığı” insan kimdir?", "Yüzbaşının imanında mənə ən çox çağırış edən nədir?", "Bu günlərdə həyatımdakı “fırtına” nədir? İsanın “yatdığını” hiss etdiyim vaxtlar olurmu?", "Qadaralılar kimi İsadan çox öz “donuzlarımı” (itkimi) düşündüyüm olubmu?"],
-  "etiraf": {"b": "Mənim etirafım", "p": "Şagirdlərin “Bu necə adamdır?” sualına öz cavabını üç-dörd cümlə ilə yaz.", "ph": "Məsələn: İsa mənim fırtınamı da sakitləşdirə bilən Rəbdir. İndi mən …"},
-  "dua": "İsa, xəstəliyə, məsafəyə, təbiətə və şər ruhlara hökm edən səlahiyyətinə səcdə edirəm. Kənarda qalanlara toxunan əllərinlə mənə də toxun. Yüzbaşı kimi Sənin sözünə inanım və fırtınada belə Sənin mənimlə olduğuna etibar edim. İsa Məsihin adı ilə dua edirəm. Amin."
+  "fon": [
+   [
+    "1. 8–9장의 구조",
+    "기적 이야기 아홉 편(열 가지 기적)이 세 묶음으로 나오고, 사이사이에 제자도 이야기(8:18–22; 9:9–17)가 끼어 있습니다. ‘말씀의 메시아’(5–7장) 다음의 ‘행동의 메시아’입니다."
+   ],
+   [
+    "2. 나병과 정결법",
+    "레위기 13–14장. 격리는 위생보다 종교적 정결 문제였습니다. 예수님의 접촉은 사회적·종교적 장벽을 무너뜨리는 행동이었습니다."
+   ],
+   [
+    "3. 백부장",
+    "가버나움은 국경 세관 도시라 군대가 주둔했습니다. 누가복음 7:5는 그가 회당을 지어 주었다고 전합니다. 이방인이 유대인 랍비에게 고개 숙인 장면입니다."
+   ],
+   [
+    "4. 갈릴리 폭풍",
+    "호수 동쪽 골란 고원에서 차가운 바람이 계곡을 타고 내려와 갑작스러운 폭풍을 일으킵니다. 2–3m 파도가 일기도 합니다."
+   ],
+   [
+    "5. 이방 땅 가다라",
+    "갈릴리 바다 동남쪽 데가볼리 지역입니다. 돼지를 기른다는 것이 이방 지역임을 보여 줍니다. 어린이반은 시간 관계상 생략하고 청소년반에서 다룹니다."
+   ]
+  ],
+  "usaq_plan": [
+   [
+    "5분",
+    "아픈 곳 이야기",
+    "반창고를 붙여 주며 “아플 때 누가 돌봐 주나요?”",
+    "“예수님은 아무도 만지지 않는 사람을 만지셨어요.”"
+   ],
+   [
+    "15분",
+    "장면 1–4 듣고 읽기",
+    "장면마다 듣기, 노란 낱말 누르기",
+    "“백부장은 왜 ‘말씀만 하세요’라고 했을까요?”"
+   ],
+   [
+    "5분",
+    "폭풍 놀이와 외울 말씀",
+    "천을 흔들어 파도 → 교사가 “잠잠하라!” 하면 멈추기 → 빈칸 놀이",
+    ""
+   ],
+   [
+    "5분",
+    "확인 퀴즈",
+    "혼자 풀고 함께 확인",
+    ""
+   ],
+   [
+    "10분",
+    "활동과 기도",
+    "예수님을 의지할 때 고르기 → 기도",
+    ""
+   ]
+  ],
+  "genc_plan": [
+   [
+    "5분",
+    "열기",
+    "“말만 잘하는 사람과 말한 대로 하는 사람의 차이는?”",
+    ""
+   ],
+   [
+    "15분",
+    "장면 1–2",
+    "나병 환자와 정결, 백부장과 열린 잔치",
+    ""
+   ],
+   [
+    "10분",
+    "장면 3–4와 기적 표",
+    "이사야 53장, 따름의 대가, 폭풍과 가다라",
+    "“이이가 어떠한 사람이기에?”"
+   ],
+   [
+    "5분",
+    "확인 문제",
+    "",
+    ""
+   ],
+   [
+    "15분",
+    "나눔과 고백",
+    "나눔 질문 2개 → 나의 대답 쓰기 → 기도",
+    ""
+   ]
+  ],
+  "ipucu_usaq": [
+   "나병 이야기를 할 때 피부병이 있는 아이가 놀림받지 않도록 주의하세요.",
+   "‘믿음이 크면 병이 낫는다’로 단순화하지 마세요. 예수님은 우리와 함께하시는 분임을 강조하세요.",
+   "폭풍 놀이는 짧게, 마무리는 차분하게 하세요."
+  ],
+  "ipucu_genc": [
+   "고침받지 못한 경험(가족의 병 등)을 가진 학생을 배려하세요. 기적은 하나님 나라의 맛보기이지 모든 병이 지금 낫는다는 약속은 아닙니다.",
+   "백부장 이야기는 현지 상황(다민족, 소수자)과 연결해 ‘누구나 초대받는 잔치’로 나눠 보세요.",
+   "다음 과(9장)에서 중풍병자, 마태의 부르심, 야이로의 딸이 이어진다고 예고하세요."
+  ],
+  "suallar": [
+   [
+    "예수님은 왜 폭풍 때 주무셨어요?",
+    "예수님은 하나님 아버지를 완전히 믿으셨기 때문에 편히 주무셨어요.",
+    "예수님의 잠은 참 인간이심과 아버지께 대한 완전한 신뢰를 보여 줘요. 시편 4:8 “내가 평안히 눕고 자기도 하리니”를 함께 보세요."
+   ],
+   [
+    "지금도 예수님이 병을 고쳐 주세요?",
+    "네, 지금도 고쳐 주실 수 있어요. 의사 선생님을 통해서도 고쳐 주세요. 낫지 않을 때도 예수님은 함께 계세요.",
+    "하나님은 기적으로도, 의학으로도 일하세요. 모든 병이 이 땅에서 낫지 않지만 마지막 날에는 모든 눈물이 사라질 거예요(계 21:4)."
+   ],
+   [
+    "돼지들이 불쌍해요.",
+    "맞아요. 예수님은 사람을 구하시는 것을 가장 중요하게 여기셨어요.",
+    "이 장면은 사람의 생명이 재산보다 귀하다는 것을 보여 줘요. 마을 사람들은 반대로 생각했어요. 동물을 함부로 해도 된다는 뜻은 아니에요."
+   ]
+  ]
+ },
+ "en": {
+  "usaq": {
+   "basliq": "Even the winds and the sea obey",
+   "hedef": [
+    "We will learn stories of Jesus healing sick people.",
+    "We will learn that there is great power in Jesus' words.",
+    "We will learn to trust Jesus when we are afraid."
+   ],
+   "sehneler": [
+    {
+     "b": "He touched the man with leprosy",
+     "ayə": "Matthew 8:1–4",
+     "alt": "Jesus healing the man with leprosy",
+     "p": [
+      "A man with [[leprosy]] came to Jesus and bowed down: “Lord, if you want to, you can make me clean.”",
+      "No one touched people with leprosy. But Jesus reached out His hand and touched him: “I want to. Be clean!” Instantly the man was healed."
+     ]
+    },
+    {
+     "b": "Just say the word",
+     "ayə": "Matthew 8:5–13",
+     "alt": "The Roman centurion asking Jesus for help",
+     "p": [
+      "A [[centurion]] of the Roman army came and said, “My servant is very sick.” Jesus said, “I will come and heal him.”",
+      "The centurion said, “I am not worthy for you to come to my house. Just say the word, and my servant will be healed.” Jesus was amazed at his [[faith]], and the servant was healed that very hour."
+     ]
+    },
+    {
+     "b": "Peter's mother-in-law",
+     "ayə": "Matthew 8:14–17",
+     "alt": "Jesus holding the hand of the woman sick with a fever",
+     "p": [
+      "Jesus came to Peter's house. Peter's mother-in-law was lying in bed with a [[fever]].",
+      "When Jesus touched her hand, the fever left her. She got up and served Jesus. In the evening, many sick people came and were healed."
+     ]
+    },
+    {
+     "b": "He calmed the storm",
+     "ayə": "Matthew 8:23–27",
+     "alt": "Jesus rebuking the wind and the sea in a boat during a storm",
+     "p": [
+      "When Jesus and His disciples were going in a boat, a great [[storm]] came up. The waves were covering the boat, but Jesus was sleeping.",
+      "The disciples woke Him up and cried out, “Lord, save us!” When Jesus [[rebuked|rebuke]] the wind and the sea, everything became completely calm. The disciples were amazed: “What kind of man is this, that even the winds and the sea obey Him?”"
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "“What kind of man is this, that even the winds and the sea obey Him?”",
+    "ref": "8:27",
+    "bos": "“What kind of man is this, that even the ___ and the ___ ___ Him?”",
+    "sozler": [
+     "winds",
+     "sea",
+     "obey"
+    ],
+    "yalan": "mountains"
+   },
+   "lugat": {
+    "leprosy": {
+     "i": "🩹",
+     "x": "Cüzam",
+     "m": "A scary disease that hurts the skin. Back then, a person with leprosy had to live alone outside the village.",
+     "e": "Jesus touched the man with leprosy."
+    },
+    "centurion": {
+     "i": "🛡️",
+     "x": "yüzbaşı",
+     "m": "A commander in charge of one hundred Roman soldiers.",
+     "e": "The centurion believed in Jesus' words."
+    },
+    "faith": {
+     "i": "💗",
+     "x": "iman",
+     "m": "A heart that believes and trusts in God.",
+     "e": "Jesus was amazed at the centurion's faith."
+    },
+    "fever": {
+     "i": "🤒",
+     "x": "qızdırma",
+     "m": "An illness where the body gets very hot.",
+     "e": "Peter's mother-in-law was lying in bed with a fever."
+    },
+    "storm": {
+     "i": "🌊",
+     "x": "fırtına",
+     "m": "Very strong winds and big waves.",
+     "e": "A great storm came up on the sea."
+    },
+    "rebuke": {
+     "i": "✋",
+     "x": "qadağan etmək",
+     "m": "To give a strong command saying “stop!” to something wrong.",
+     "e": "Jesus rebuked the wind and the sea."
+    }
+   },
+   "test": [
+    {
+     "q": "What did Jesus do to the man with leprosy?",
+     "o": [
+      "He reached out His hand and touched him",
+      "He stayed away from him",
+      "He ignored him"
+     ],
+     "a": 0,
+     "f": "That's right! Jesus touched the man no one else would touch."
+    },
+    {
+     "q": "What did the centurion ask of Jesus?",
+     "o": [
+      "Just say the word",
+      "You must come to my house",
+      "Give me money"
+     ],
+     "a": 0,
+     "f": "That's right! He believed in the power of His word."
+    },
+    {
+     "q": "What did Peter's mother-in-law do after she was healed?",
+     "o": [
+      "She got up and served Jesus",
+      "She went back to sleep",
+      "She went on a long trip"
+     ],
+     "a": 0,
+     "f": "That's right! She received grace and served."
+    },
+    {
+     "q": "What was Jesus doing when the storm came up?",
+     "o": [
+      "He was sleeping",
+      "He was rowing the boat",
+      "He was crying"
+     ],
+     "a": 0,
+     "f": "That's right! Then He calmed the storm with just one word."
+    }
+   ],
+   "dusun": [
+    "How do you think the man with leprosy felt when Jesus touched him?",
+    "What does it mean to believe in Jesus' words like the centurion did?",
+    "How can I pray to Jesus when I am afraid?"
+   ],
+   "fealiyyet": {
+    "ciz": "Draw the calm sea and Jesus in the boat after the storm stopped.",
+    "b": "When will you trust Jesus?",
+    "p": "Choose when you will trust Jesus.",
+    "ph": "",
+    "secim": {
+     "basliq": "When will you trust Jesus?",
+     "izah": "Tap to choose. You can choose more than one.",
+     "cumle": "I will trust Jesus {x}!",
+     "bos": "when I am afraid",
+     "bag": "and",
+     "secimler": [
+      [
+       "😨",
+       "when I am afraid"
+      ],
+      [
+       "🤒",
+       "when I am sick"
+      ],
+      [
+       "😔",
+       "when I am alone"
+      ],
+      [
+       "📝",
+       "when I have a test"
+      ],
+      [
+       "🌙",
+       "in the dark at night"
+      ],
+      [
+       "🏠",
+       "when my family is worried"
+      ]
+     ]
+    }
+   },
+   "dua": "Jesus, I praise You for touching the sick and calming the storm with just one word. Help me to believe that You are with me when I am afraid and in trouble. Let me be someone who believes in Your word like the centurion did. I pray in the name of Jesus Christ. Amen."
+  },
+  "genc": {
+   "basliq": "The Authority of the Word",
+   "giris": "Those who heard the Sermon on the Mount were amazed, saying, “He teaches as one having authority.” Chapter 8 shows that this authority is not only in words. Sickness, distance, nature, and evil spirits all bow down before a single word from Jesus.",
+   "meqsed": [
+    "We understand that the miracles in chapter 8 show the authority of the Word.",
+    "We can explain the meaning of Jesus approaching the marginalized (people with leprosy, Gentiles, women).",
+    "We confess our trust in Jesus during the “storms” of our lives."
+   ],
+   "sehneler": [
+    {
+     "b": "Touching the Untouchable",
+     "ayə": "Matthew 8:1–4",
+     "alt": "Jesus healing the man with leprosy",
+     "p": [
+      "According to the law, a person with [[leprosy]] had to live outside the camp, crying out, “Unclean, unclean” {Lev. 13:45–46}. Anyone who touched him also became unclean.",
+      "Jesus could have healed him with just a word, but He intentionally reached out His hand. The uncleanness did not transfer to Jesus; instead, Jesus' [[cleanness]] transferred to him."
+     ],
+     "deep": {
+      "b": "Look Deeper · Show yourself to the priest",
+      "p": "Jesus sent the healed man to the priest to offer the gift according to Moses' rule {Lev. 14}. This was the official way to return to society. Jesus restored not only his body but also his relationships."
+     }
+    },
+    {
+     "b": "The Faith of a Gentile",
+     "ayə": "Matthew 8:5–13",
+     "alt": "The Roman centurion asking Jesus for help",
+     "p": [
+      "The [[centurion]] was an officer of the occupying Roman army, meaning he was a Gentile. He said, “I am also a man under authority. I tell this one, ‘Go,’ and he goes; and tell another, ‘Come,’ and he comes.” He understood that Jesus' word changes reality like a command.",
+      "Jesus said, “I haven't found such great faith with anyone in Israel.” Many will come from the east and the west, and will sit down with Abraham at the banquet in the kingdom of heaven."
+     ],
+     "deep": {
+      "b": "Look Deeper · An Open Banquet",
+      "p": "Although the Gospel of Matthew was written for Jews, Gentiles appear at the beginning (the wise men), the middle (the centurion, the Canaanite woman), and the end (all nations). The door to the banquet of God's Kingdom is open to all nations."
+     }
+    },
+    {
+     "b": "He Took Our Weaknesses",
+     "ayə": "Matthew 8:14–22",
+     "alt": "Jesus holding the hand of the woman sick with a fever",
+     "p": [
+      "When Peter's mother-in-law was healed from the fever, she got up and [[served|serve]] Jesus. This same word is used in the scene where angels served Jesus {Matt. 4:11}. A healed person becomes a serving person.",
+      "Matthew quotes Isaiah 53:4: “He took our weaknesses, and bore our diseases.” The prophecy about the Suffering Servant is first fulfilled in His healing ministry."
+     ],
+     "deep": {
+      "b": "Look Deeper · The Cost of Following",
+      "p": "In {Matt. 8:18–22}, Jesus says, “The foxes have holes, and the birds of the sky have nests, but the Son of Man has nowhere to lay his head.” He lets those who saw the miracles know in advance that following Him is not an easy path.",
+      "rose": true
+     }
+    },
+    {
+     "b": "He Rebuked the Wind and the Sea",
+     "ayə": "Matthew 8:23–34",
+     "alt": "Jesus rebuking the wind and the sea in a boat during a storm",
+     "p": [
+      "The Sea of Galilee is 200 meters below sea level and surrounded by mountains, so violent winds suddenly arise. It was a storm so strong that even the disciples, who were fishermen, felt they were going to die.",
+      "Jesus said, “Why are you fearful, O you of little faith?” and rebuked the wind and the sea. In the Old Testament, only God calms the sea {Ps. 107:29}. The disciples' question, “What kind of man is this?” is the question of the entire Gospel of Matthew."
+     ],
+     "deep": {
+      "b": "Look Deeper · The Region of Gadara",
+      "p": "Crossing the lake, Jesus heals two demon-possessed men in Gadara, a Gentile land {Matt. 8:28–34}. Both nature and evil spirits submit to Jesus' authority. But the townspeople cared more about losing their pigs and begged Jesus to leave."
+     }
+    }
+   ],
+   "cedvel": {
+    "b": "Miracles and Authority in Chapter 8",
+    "alt": "8:1–34",
+    "bas": [
+     "To Whom",
+     "What He Overcame",
+     "How"
+    ],
+    "set": [
+     [
+      "The man with leprosy (considered unclean)",
+      "Sickness and isolation",
+      "By touching and with a word"
+     ],
+     [
+      "The centurion's servant (a Gentile)",
+      "Distance",
+      "From afar with only a word"
+     ],
+     [
+      "Peter's mother-in-law (a woman)",
+      "Sickness",
+      "By touching her hand"
+     ],
+     [
+      "The disciples",
+      "The storm of nature",
+      "By rebuking"
+     ],
+     [
+      "The two men in Gadara",
+      "Evil spirits",
+      "With the word “Go!”"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "“The centurion answered, ‘Lord, I'm not worthy for you to come under my roof. Just say the word, and my servant will be healed.’”",
+    "ref": "8:8"
+   },
+   "lugat": {
+    "leprosy": {
+     "i": "🩹",
+     "o": "Greek lepra",
+     "x": "cüzam",
+     "s": "A disease that destroys the body and relationships",
+     "m": "“Leprosy” in the Bible includes various skin diseases along with today's Hansen's disease. Religiously, it was considered “unclean” and isolated from society.",
+     "e": "Jesus was probably the first rabbi to touch a person with leprosy."
+    },
+    "cleanness": {
+     "i": "💧",
+     "o": "Greek katharizo, “to cleanse”",
+     "x": "pak",
+     "s": "The state of being able to approach God",
+     "m": "It is not a concept of hygiene, but the state of being able to participate in worship and community.",
+     "e": "“I want to. Be clean.”"
+    },
+    "centurion": {
+     "i": "🛡️",
+     "o": "Latin centurio",
+     "x": "Yüzbaşı",
+     "s": "A mid-ranking officer in the Roman army",
+     "m": "He commanded about 80–100 soldiers. He might have been from the army of Herod Antipas stationed in Capernaum.",
+     "e": "In the New Testament, centurions are usually portrayed positively {Matt. 27:54; Acts 10}."
+    },
+    "serve": {
+     "i": "🍽️",
+     "o": "Greek diakoneo",
+     "x": "xidmət etmək",
+     "s": "To wait on tables",
+     "m": "The word “deacon” comes from this. Jesus also said, “I came to serve” {Matt. 20:28}.",
+     "e": "The first thing the healed mother-in-law did was serve."
+    }
+   },
+   "test": [
+    {
+     "q": "According to the law, what happened to someone who touched a person with leprosy?",
+     "o": [
+      "They also became unclean",
+      "The disease was healed",
+      "Nothing happened"
+     ],
+     "a": 0,
+     "f": "That's right. But Jesus transferred His cleanness."
+    },
+    {
+     "q": "Who had the faith that Jesus said He had not seen in Israel?",
+     "o": [
+      "The Roman centurion",
+      "The high priest",
+      "A Pharisee"
+     ],
+     "a": 0,
+     "f": "That's right. It was the faith of a Gentile."
+    },
+    {
+     "q": "Which prophecy does Matthew quote in Matthew 8:17?",
+     "o": [
+      "Isaiah 53, the Suffering Servant",
+      "Psalm 23, the Shepherd",
+      "Genesis 1, creation"
+     ],
+     "a": 0,
+     "f": "That's right. The one who took our weaknesses."
+    },
+    {
+     "q": "In the Old Testament, who is the one that calms the sea?",
+     "o": [
+      "God",
+      "Moses",
+      "Baal"
+     ],
+     "a": 0,
+     "f": "That's right. That's why the disciples asked, “Who is this?”"
+    },
+    {
+     "q": "What did the people of Gadara do after seeing the miracle?",
+     "o": [
+      "They begged Jesus to leave",
+      "They all became disciples",
+      "They threw a banquet"
+     ],
+     "a": 0,
+     "f": "That's right. Losing their pigs was more important to them."
+    }
+   ],
+   "paylas": [
+    "Who is the “untouchable” person around us today?",
+    "What challenges me the most about the centurion's faith?",
+    "What is the “storm” in my life these days? Are there times when I feel like Jesus is “sleeping”?",
+    "Have I ever cared more about my own “pigs” (losses) than about Jesus, like the people of Gadara?"
+   ],
+   "etiraf": {
+    "b": "My Confession",
+    "p": "Write your own answer to the disciples' question, “What kind of man is this?” in three or four sentences.",
+    "ph": "Example: Jesus is the Lord who can calm even my storm. Now I …"
+   },
+   "dua": "Jesus, I bow down to Your authority that commands sickness, distance, nature, and evil spirits. Touch me too with the hands that touched the marginalized. Let me believe in Your word like the centurion, and trust that You are with me even in the storm. I pray in the name of Jesus Christ. Amen."
+  }
+ },
+ "ru": {
+  "usaq": {
+   "basliq": "Даже ветры и море повинуются",
+   "hedef": [
+    "Мы узнаем истории о том, как Иисус исцелял больных.",
+    "Мы узнаем, что в слове Иисуса есть великая сила.",
+    "Мы научимся доверять Иисусу, когда нам страшно."
+   ],
+   "sehneler": [
+    {
+     "b": "Прикоснулся к прокажённому",
+     "ayə": "Матфей 8:1–4",
+     "alt": "Иисус исцеляет прокажённого",
+     "p": [
+      "Один человек, больной [[проказой|проказа]], подошёл к Иисусу, поклонился Ему и сказал: «Господи! Если хочешь, можешь меня очистить».",
+      "Никто не прикасался к прокажённым. Но Иисус протянул руку и коснулся его: «Хочу, очистись!» В тот же миг человек исцелился."
+     ]
+    },
+    {
+     "b": "Скажи только слово",
+     "ayə": "Матфей 8:5–13",
+     "alt": "Римский сотник просит Иисуса",
+     "p": [
+      "Один [[сотник]] римской армии пришёл и сказал: «Мой слуга очень болен». Иисус ответил: «Я приду и исцелю его».",
+      "Сотник сказал: «Я не достоин, чтобы Ты вошёл в мой дом. Скажи только слово, и мой слуга выздоровеет». Иисус удивился его [[вере|вера]], и в тот же час слуга исцелился."
+     ]
+    },
+    {
+     "b": "Тёща Петра",
+     "ayə": "Матфей 8:14–17",
+     "alt": "Иисус держит за руку женщину, лежащую в горячке",
+     "p": [
+      "Иисус пришёл в дом Петра. Тёща Петра лежала в [[горячке|горячка]].",
+      "Когда Иисус коснулся её руки, горячка оставила её. Она встала и стала служить Ему. Вечером пришло много больных, и они получили исцеление."
+     ]
+    },
+    {
+     "b": "Успокоил шторм",
+     "ayə": "Матфей 8:23–27",
+     "alt": "Иисус запрещает ветру и морю в лодке во время шторма",
+     "p": [
+      "Когда Иисус и Его ученики плыли в лодке, поднялся сильный [[шторм]]. Волны заливали лодку, но Иисус спал.",
+      "Ученики разбудили Его и закричали: «Господи, спаси нас!» Когда Иисус [[запретил|запретить]] ветру и морю, всё совершенно успокоилось. Ученики удивлялись: «Кто это, что даже ветры и море повинуются Ему?»"
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "«Кто это, что даже ветры и море повинуются Ему?»",
+    "ref": "8:27",
+    "bos": "«Кто это, что даже ___ и ___ ___ Ему?»",
+    "sozler": [
+     "ветры",
+     "море",
+     "повинуются"
+    ],
+    "yalan": "горы"
+   },
+   "lugat": {
+    "проказа": {
+     "i": "🩹",
+     "x": "Cüzam",
+     "m": "Страшная болезнь, поражающая кожу. В то время человек с проказой должен был жить один за пределами селения.",
+     "e": "Иисус прикоснулся к прокажённому."
+    },
+    "сотник": {
+     "i": "🛡️",
+     "x": "yüzbaşı",
+     "m": "Командир, который руководил сотней римских солдат.",
+     "e": "Сотник поверил слову Иисуса."
+    },
+    "вера": {
+     "i": "💗",
+     "x": "iman",
+     "m": "Сердце, которое верит Богу и доверяет Ему.",
+     "e": "Иисус удивился вере сотника."
+    },
+    "горячка": {
+     "i": "🤒",
+     "x": "qızdırma",
+     "m": "Болезнь, при которой у человека очень высокая температура.",
+     "e": "Тёща Петра лежала в горячке."
+    },
+    "шторм": {
+     "i": "🌊",
+     "x": "fırtına",
+     "m": "Очень сильный ветер и большие волны.",
+     "e": "На море поднялся сильный шторм."
+    },
+    "запретить": {
+     "i": "✋",
+     "x": "qadağan etmək",
+     "m": "Строго приказать чему-то неправильному остановиться.",
+     "e": "Иисус запретил ветру и морю."
+    }
+   },
+   "test": [
+    {
+     "q": "Что сделал Иисус для прокажённого?",
+     "o": [
+      "Протянул руку и коснулся его",
+      "Отошёл от него подальше",
+      "Сделал вид, что не замечает его"
+     ],
+     "a": 0,
+     "f": "Верно! Иисус прикоснулся к человеку, к которому никто не прикасался."
+    },
+    {
+     "q": "О чём сотник попросил Иисуса?",
+     "o": [
+      "Скажи только слово",
+      "Обязательно приди в мой дом",
+      "Дай мне денег"
+     ],
+     "a": 0,
+     "f": "Верно! Он поверил в силу слова."
+    },
+    {
+     "q": "Что сделала тёща Петра после исцеления?",
+     "o": [
+      "Встала и стала служить Иисусу",
+      "Снова легла спать",
+      "Уехала в далёкое путешествие"
+     ],
+     "a": 0,
+     "f": "Верно! Получив благодать, она стала служить."
+    },
+    {
+     "q": "Что делал Иисус, когда начался шторм?",
+     "o": [
+      "Спал",
+      "Грёб вёслами",
+      "Плакал"
+     ],
+     "a": 0,
+     "f": "Верно! А потом одним словом Он успокоил шторм."
+    }
+   ],
+   "dusun": [
+    "Что почувствовал прокажённый, когда Иисус прикоснулся к нему?",
+    "Что значит верить слову Иисуса, как это сделал сотник?",
+    "Как я могу молиться Иисусу, когда мне страшно?"
+   ],
+   "fealiyyet": {
+    "ciz": "Нарисуй спокойное море после шторма и Иисуса в лодке.",
+    "b": "Когда ты будешь доверять Иисусу?",
+    "p": "Выбери время, когда ты будешь доверять Иисусу.",
+    "ph": "",
+    "secim": {
+     "basliq": "Когда ты будешь доверять Иисусу?",
+     "izah": "Нажимай и выбирай. Можно выбрать несколько.",
+     "cumle": "Я буду доверять Иисусу, {x}!",
+     "bos": "когда мне страшно",
+     "bag": "и",
+     "secimler": [
+      [
+       "😨",
+       "когда мне страшно"
+      ],
+      [
+       "🤒",
+       "когда я болею"
+      ],
+      [
+       "😔",
+       "когда я остаюсь один"
+      ],
+      [
+       "📝",
+       "когда у меня экзамен"
+      ],
+      [
+       "🌙",
+       "ночью в темноте"
+      ],
+      [
+       "🏠",
+       "когда моя семья переживает"
+      ]
+     ]
+    }
+   },
+   "dua": "Иисус, я славлю Тебя за то, что Ты прикасаешься к больным и одним словом успокаиваешь шторм. Помоги мне верить, что Ты со мной, когда мне страшно и трудно. Пусть я буду человеком, который верит Твоему слову, как сотник. Во имя Иисуса Христа молюсь. Аминь."
+  },
+  "genc": {
+   "basliq": "Власть слова",
+   "giris": "Слушавшие Нагорную проповедь удивлялись, говоря, что Он «учит как власть имеющий». 8-я глава показывает, что эта власть проявляется не только в словах. Болезни, расстояние, природа и злые духи преклоняют колени перед одним словом Иисуса.",
+   "meqsed": [
+    "Мы понимаем, что чудеса в 8-й главе показывают власть слова.",
+    "Мы можем объяснить значение того, что Иисус приближался к отверженным (прокажённым, язычникам, женщинам).",
+    "Мы исповедуем, что доверяем Иисусу в «штормах» нашей жизни."
+   ],
+   "sehneler": [
+    {
+     "b": "Прикосновение к неприкасаемому",
+     "ayə": "Матфей 8:1–4",
+     "alt": "Иисус исцеляет прокажённого",
+     "p": [
+      "По Закону человек, больной [[проказой|проказа]], должен был кричать «нечист, нечист» и жить вне стана (Лев. 13:45–46). Тот, кто прикасался к нему, тоже становился нечистым.",
+      "Иисус мог исцелить только словом, но Он намеренно протянул руку. Нечистота не перешла на Иисуса, наоборот, [[чистота]] Иисуса передалась ему."
+     ],
+     "deep": {
+      "b": "Взгляд в глубину · Покажись священнику",
+      "p": "Иисус послал исцелённого к священнику, чтобы тот принёс дар по повелению Моисея (Лев. 14). Это был официальный путь возвращения в общество. Иисус восстановил не только тело, но и отношения."
+     }
+    },
+    {
+     "b": "Вера язычника",
+     "ayə": "Матфей 8:5–13",
+     "alt": "Римский сотник просит Иисуса",
+     "p": [
+      "[[Сотник|сотник]] был офицером оккупационной римской армии, то есть язычником. Он сказал: «Я и подвластный человек, но, говоря одному: “пойди”, и идёт, и другому: “приди”, и приходит». Он понял, что слово Иисуса меняет реальность, как приказ.",
+      "Иисус сказал: «И в Израиле не нашёл Я такой веры». Многие придут с востока и запада и возлягут с Авраамом на пиру в Царстве Небесном."
+     ],
+     "deep": {
+      "b": "Взгляд в глубину · Открытый пир",
+      "p": "Хотя Евангелие от Матфея было написано для иудеев, в его начале (волхвы), середине (сотник, хананеянка) и конце (все народы) появляются язычники. Двери на пир Царства Божьего открыты для всех народов."
+     }
+    },
+    {
+     "b": "Взял на Себя наши немощи",
+     "ayə": "Матфей 8:14–22",
+     "alt": "Иисус держит за руку женщину, лежащую в горячке",
+     "p": [
+      "Когда тёща Петра исцелилась от горячки, она встала и стала Ему [[служить]]. Это же слово используется в сцене, где ангелы служили Иисусу (4:11). Исцелённый человек становится служащим человеком.",
+      "Матфей цитирует Исаию 53:4: «Он взял на Себя наши немощи и понёс болезни». Пророчество о Страдающем Рабе сначала исполняется в служении исцеления."
+     ],
+     "deep": {
+      "b": "Взгляд в глубину · Цена следования",
+      "p": "В 8:18–22 Иисус говорит: «Лисицы имеют норы и птицы небесные — гнёзда, а Сын Человеческий не имеет, где приклонить голову». Тем, кто видел чудеса, Он заранее сообщает, что следовать за Ним — нелёгкий путь.",
+      "rose": true
+     }
+    },
+    {
+     "b": "Запретил ветру и морю",
+     "ayə": "Матфей 8:23–34",
+     "alt": "Иисус запрещает ветру и морю в лодке во время шторма",
+     "p": [
+      "Галилейское море находится на 200 метров ниже уровня моря и окружено горами, поэтому там внезапно поднимаются сильные ветры. Шторм был настолько сильным, что даже ученики, будучи рыбаками, почувствовали угрозу смерти.",
+      "Иисус сказал: «Что вы так боязливы, маловерные?» — и запретил ветру и морю. В Ветхом Завете только Бог успокаивает море (Пс. 107:29). Вопрос учеников «Кто это?» является вопросом всего Евангелия от Матфея."
+     ],
+     "deep": {
+      "b": "Взгляд в глубину · Гадаринская страна",
+      "p": "Переправившись через море, Иисус исцеляет двух бесноватых в языческой земле Гадаринской (8:28–34). И природа, и злые духи подчиняются власти Иисуса. Но жители селения, больше переживая о потере свиней, просят Иисуса уйти."
+     }
+    }
+   ],
+   "cedvel": {
+    "b": "Чудеса и власть в 8-й главе",
+    "alt": "8:1–34",
+    "bas": [
+     "Кому",
+     "Что победил",
+     "Как"
+    ],
+    "set": [
+     [
+      "Прокажённому (считавшемуся нечистым)",
+      "Болезнь и изоляцию",
+      "Прикосновением и словом"
+     ],
+     [
+      "Слуге сотника (язычника)",
+      "Расстояние",
+      "Издалека, только словом"
+     ],
+     [
+      "Тёще Петра (женщине)",
+      "Болезнь",
+      "Прикосновением к руке"
+     ],
+     [
+      "Ученикам",
+      "Природный шторм",
+      "Запретом"
+     ],
+     [
+      "Двум людям в Гадаре",
+      "Злых духов",
+      "Словом «Идите!»"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "«Сотник же, отвечая, сказал: Господи! я недостоин, чтобы Ты вошёл под кров мой, но скажи только слово, и выздоровеет слуга мой».",
+    "ref": "8:8"
+   },
+   "lugat": {
+    "проказа": {
+     "i": "🩹",
+     "o": "По-гречески «лепра»",
+     "x": "cüzam",
+     "s": "Болезнь, разрушающая тело и отношения",
+     "m": "«Проказа» в Библии включает в себя не только современную болезнь Гансена, но и различные кожные заболевания. В религиозном смысле человек считался «нечистым» и изолировался от общества.",
+     "e": "Вероятно, Иисус был первым раввином, прикоснувшимся к прокажённому."
+    },
+    "чистота": {
+     "i": "💧",
+     "o": "По-гречески «кафаризо», «очищать»",
+     "x": "pak",
+     "s": "Состояние, позволяющее приблизиться к Богу",
+     "m": "Это не понятие гигиены, а состояние, в котором человек может участвовать в богослужении и жизни общества.",
+     "e": "«Хочу, очистись»."
+    },
+    "сотник": {
+     "i": "🛡️",
+     "o": "По-латыни «центурио»",
+     "x": "Yüzbaşı",
+     "s": "Офицер среднего ранга в римской армии",
+     "m": "Он командовал примерно 80–100 солдатами. Мог принадлежать к армии Ирода Антипы, расквартированной в Капернауме.",
+     "e": "В Новом Завете сотники обычно описываются с хорошей стороны (27:54; Деян. 10)."
+    },
+    "служить": {
+     "i": "🍽️",
+     "o": "По-гречески «диаконео»",
+     "x": "xidmət etmək",
+     "s": "Прислуживать за столом",
+     "m": "Отсюда происходит слово «диакон». Иисус также сказал, что пришёл «послужить» (20:28).",
+     "e": "Первым делом исцелённой тёщи стало служение."
+    }
+   },
+   "test": [
+    {
+     "q": "Что происходило по Закону с тем, кто прикасался к прокажённому?",
+     "o": [
+      "Он сам становился нечистым",
+      "Болезнь исцелялась",
+      "Ничего не происходило"
+     ],
+     "a": 0,
+     "f": "Верно. А Иисус, наоборот, передал чистоту."
+    },
+    {
+     "q": "Кому принадлежала вера, подобной которой Иисус не нашёл в Израиле?",
+     "o": [
+      "Римскому сотнику",
+      "Первосвященнику",
+      "Фарисею"
+     ],
+     "a": 0,
+     "f": "Верно. Это была вера язычника."
+    },
+    {
+     "q": "Какое пророчество цитирует Матфей в 8:17?",
+     "o": [
+      "Исаия 53, Страдающий Раб",
+      "Псалом 22, Пастырь",
+      "Бытие 1, творение"
+     ],
+     "a": 0,
+     "f": "Верно. Тот, кто взял на Себя наши немощи."
+    },
+    {
+     "q": "Кто в Ветхом Завете успокаивает море?",
+     "o": [
+      "Бог",
+      "Моисей",
+      "Ваал"
+     ],
+     "a": 0,
+     "f": "Верно. Поэтому ученики спрашивают: «Кто это?»"
+    },
+    {
+     "q": "Что сделали жители Гадары, увидев чудо?",
+     "o": [
+      "Попросили Иисуса уйти",
+      "Все стали учениками",
+      "Устроили пир"
+     ],
+     "a": 0,
+     "f": "Верно. Потеря свиней оказалась для них важнее."
+    }
+   ],
+   "paylas": [
+    "Кто сегодня в нашем окружении является человеком, к которому «никто не прикасается»?",
+    "Что в вере сотника бросает мне самый большой вызов?",
+    "Что является «штормом» в моей жизни в эти дни? Бывают ли моменты, когда мне кажется, что Иисус «спит»?",
+    "Случалось ли мне, как жителям Гадары, думать больше о своих «свиньях» (потерях), чем об Иисусе?"
+   ],
+   "etiraf": {
+    "b": "Моё исповедание",
+    "p": "Напиши в трёх-четырёх предложениях свой ответ на вопрос учеников: «Кто это?»",
+    "ph": "Например: Иисус — Господь, Который может успокоить и мой шторм. Сейчас я…"
+   },
+   "dua": "Иисус, я преклоняюсь перед Твоей властью, повелевающей болезнями, расстоянием, природой и злыми духами. Прикоснись и ко мне теми руками, которыми Ты прикасался к отверженным. Помоги мне верить Твоему слову, как сотник, и доверять тому, что Ты со мной даже в шторм. Во имя Иисуса Христа молюсь. Аминь."
+  }
  }
-},
-"muellim": {
- "mesaj": "12과의 중심은 한 문장입니다. **산상설교에서 들은 말씀의 권위가 8장에서 행동으로 증명된다. 예수님은 병, 거리, 자연, 악한 영을 다스리시는 주님이시다.**",
- "hazirliq": ["학생용 교재를 열 휴대폰이나 태블릿, 이어폰", "파란 천이나 큰 비닐 (폭풍 놀이)", "반창고 몇 개 (나병 환자 이야기 도입)"],
- "fon": [
-  ["1. 8–9장의 구조", "기적 이야기 아홉 편(열 가지 기적)이 세 묶음으로 나오고, 사이사이에 제자도 이야기(8:18–22; 9:9–17)가 끼어 있습니다. ‘말씀의 메시아’(5–7장) 다음의 ‘행동의 메시아’입니다."],
-  ["2. 나병과 정결법", "레위기 13–14장. 격리는 위생보다 종교적 정결 문제였습니다. 예수님의 접촉은 사회적·종교적 장벽을 무너뜨리는 행동이었습니다."],
-  ["3. 백부장", "가버나움은 국경 세관 도시라 군대가 주둔했습니다. 누가복음 7:5는 그가 회당을 지어 주었다고 전합니다. 이방인이 유대인 랍비에게 고개 숙인 장면입니다."],
-  ["4. 갈릴리 폭풍", "호수 동쪽 골란 고원에서 차가운 바람이 계곡을 타고 내려와 갑작스러운 폭풍을 일으킵니다. 2–3m 파도가 일기도 합니다."],
-  ["5. 이방 땅 가다라", "갈릴리 바다 동남쪽 데가볼리 지역입니다. 돼지를 기른다는 것이 이방 지역임을 보여 줍니다. 어린이반은 시간 관계상 생략하고 청소년반에서 다룹니다."]
- ],
- "usaq_plan": [
-  ["5분", "아픈 곳 이야기", "반창고를 붙여 주며 “아플 때 누가 돌봐 주나요?”", "“예수님은 아무도 만지지 않는 사람을 만지셨어요.”"],
-  ["15분", "장면 1–4 듣고 읽기", "장면마다 듣기, 노란 낱말 누르기", "“백부장은 왜 ‘말씀만 하세요’라고 했을까요?”"],
-  ["5분", "폭풍 놀이와 외울 말씀", "천을 흔들어 파도 → 교사가 “잠잠하라!” 하면 멈추기 → 빈칸 놀이", ""],
-  ["5분", "확인 퀴즈", "혼자 풀고 함께 확인", ""],
-  ["10분", "활동과 기도", "예수님을 의지할 때 고르기 → 기도", ""]
- ],
- "genc_plan": [
-  ["5분", "열기", "“말만 잘하는 사람과 말한 대로 하는 사람의 차이는?”", ""],
-  ["15분", "장면 1–2", "나병 환자와 정결, 백부장과 열린 잔치", ""],
-  ["10분", "장면 3–4와 기적 표", "이사야 53장, 따름의 대가, 폭풍과 가다라", "“이이가 어떠한 사람이기에?”"],
-  ["5분", "확인 문제", "", ""],
-  ["15분", "나눔과 고백", "나눔 질문 2개 → 나의 대답 쓰기 → 기도", ""]
- ],
- "ipucu_usaq": ["나병 이야기를 할 때 피부병이 있는 아이가 놀림받지 않도록 주의하세요.", "‘믿음이 크면 병이 낫는다’로 단순화하지 마세요. 예수님은 우리와 함께하시는 분임을 강조하세요.", "폭풍 놀이는 짧게, 마무리는 차분하게 하세요."],
- "ipucu_genc": ["고침받지 못한 경험(가족의 병 등)을 가진 학생을 배려하세요. 기적은 하나님 나라의 맛보기이지 모든 병이 지금 낫는다는 약속은 아닙니다.", "백부장 이야기는 현지 상황(다민족, 소수자)과 연결해 ‘누구나 초대받는 잔치’로 나눠 보세요.", "다음 과(9장)에서 중풍병자, 마태의 부르심, 야이로의 딸이 이어진다고 예고하세요."],
- "suallar": [
-  ["예수님은 왜 폭풍 때 주무셨어요?", "예수님은 하나님 아버지를 완전히 믿으셨기 때문에 편히 주무셨어요.", "예수님의 잠은 참 인간이심과 아버지께 대한 완전한 신뢰를 보여 줘요. 시편 4:8 “내가 평안히 눕고 자기도 하리니”를 함께 보세요."],
-  ["지금도 예수님이 병을 고쳐 주세요?", "네, 지금도 고쳐 주실 수 있어요. 의사 선생님을 통해서도 고쳐 주세요. 낫지 않을 때도 예수님은 함께 계세요.", "하나님은 기적으로도, 의학으로도 일하세요. 모든 병이 이 땅에서 낫지 않지만 마지막 날에는 모든 눈물이 사라질 거예요(계 21:4)."],
-  ["돼지들이 불쌍해요.", "맞아요. 예수님은 사람을 구하시는 것을 가장 중요하게 여기셨어요.", "이 장면은 사람의 생명이 재산보다 귀하다는 것을 보여 줘요. 마을 사람들은 반대로 생각했어요. 동물을 함부로 해도 된다는 뜻은 아니에요."]
- ]
-}
 }

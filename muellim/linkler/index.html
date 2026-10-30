@@ -51,6 +51,10 @@ a.wa{display:inline-flex;align-items:center;gap:6px;background:var(--wa);color:#
 <option value="az-genc">Azərbaycanca · Yeniyetmələr</option>
 <option value="ko-usaq">한국어 · 어린이</option>
 <option value="ko-genc">한국어 · 청소년</option>
+<option value="ru">Русский · Дети</option>
+<option value="ru-genc">Русский · Подростки</option>
+<option value="en">English · Children</option>
+<option value="en-genc">English · Teens</option>
 </select>
 <input id="tel" inputmode="tel" placeholder="WhatsApp 번호 (선택, +995…)" aria-label="WhatsApp 번호">
 <button type="submit">추가</button>
@@ -69,7 +73,7 @@ a.wa{display:inline-flex;align-items:center;gap:6px;background:var(--wa);color:#
 <script>
 const ENDPOINT='https://script.google.com/macros/s/AKfycbzpx5LBqs88_WiBL27NbdiaM0xDYjVHWJBDA12EW1wVlyllqQCzJqW4nwD1JpMe25Q/exec';
 const KEY='mders-linkler';
-const LBL={'az':'Azərbaycanca · Uşaqlar','az-genc':'Azərbaycanca · Yeniyetmələr','ko-usaq':'한국어 · 어린이','ko-genc':'한국어 · 청소년'};
+const LBL={'az':'Azərbaycanca · Uşaqlar','az-genc':'Azərbaycanca · Yeniyetmələr','ko-usaq':'한국어 · 어린이','ko-genc':'한국어 · 청소년','ru':'Русский · Дети','ru-genc':'Русский · Подростки','en':'English · Children','en-genc':'English · Teens'};
 const BASE=new URL('../../',location.href).href;
 function load(){try{return JSON.parse(localStorage.getItem(KEY)||'[]')}catch(e){return []}}
 function save(a){try{localStorage.setItem(KEY,JSON.stringify(a))}catch(e){}}
@@ -79,6 +83,8 @@ function link(s){return BASE+'?ad='+encodeURIComponent(s.ad)+'&q='+s.q;}
 function text(s){
  const u=link(s);
  if(s.q.startsWith('az'))return 'Salam, '+s.ad+'! 👋\nBu sənin Müqəddəs Kitab dərsləri linkindir:\n'+u+'\n\nHər dəfə bu linklə aç ki, nəticələrin müəlliminə çatsın. 📖';
+ if(s.q.startsWith('ru'))return 'Привет, '+s.ad+'! 👋\nЭто твоя ссылка на уроки по Библии:\n'+u+'\n\nОткрывай уроки всегда по этой ссылке, чтобы учитель видел твои результаты. 📖';
+ if(s.q.startsWith('en'))return 'Hi, '+s.ad+'! 👋\nHere is your Bible lessons link:\n'+u+'\n\nAlways open your lessons with this link so your teacher can see your results. 📖';
  return s.ad+', 안녕! 👋\n너만의 성경교재 링크야:\n'+u+'\n\n공부할 때마다 이 링크로 들어와 줘. 📖';
 }
 function wa(s){const t=encodeURIComponent(text(s));const n=(s.tel||'').replace(/[^0-9]/g,'');return 'https://wa.me/'+(n?n:'')+'?text='+t;}
@@ -104,7 +110,7 @@ document.getElementById('add').onsubmit=e=>{e.preventDefault();const ad=document
  else document.getElementById('msg').textContent='이미 있거나 이름이 비어 있어요.';};
 document.getElementById('load').onclick=async()=>{
  const m=document.getElementById('msg');m.textContent='불러오는 중…';let n=0;
- for(const [sinif,q] of [['usaq','az'],['genc','az-genc'],['ko-usaq','ko-usaq'],['ko-genc','ko-genc']]){
+ for(const [sinif,q] of [['usaq','az'],['genc','az-genc'],['ko-usaq','ko-usaq'],['ko-genc','ko-genc'],['ru','ru'],['ru-genc','ru-genc'],['en','en'],['en-genc','en-genc']]){
   try{const r=await fetch(ENDPOINT+'?siyahi='+sinif);const d=await r.json();(d.names||[]).forEach(x=>{if(addOne(x,q,''))n++;});}catch(e){}
  }
  save(S);render();m.textContent=n?n+'명을 추가했어요.':'새로 추가할 이름이 없어요. (시트 ‘명단’을 확인해 주세요)';

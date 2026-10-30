@@ -1,163 +1,1715 @@
 {
-"no": 11, "ref": "7:1–29", "deq": {"usaq": 40, "genc": 50},
-"img": ["matta/11-tir.jpg", "matta/11-qapi.jpg", "matta/11-dar-qapi.jpg", "matta/11-qaya-ev.jpg"],
-"hero": 3,
-"ko": {
- "usaq": {
-  "basliq": "반석 위에 지은 집",
-  "hedef": ["남을 판단하기 전에 나를 먼저 돌아봐야 함을 알아요.", "하나님께 구하고 찾고 두드리는 기도를 배워요.", "예수님 말씀을 듣고 행하는 사람이 지혜로운 사람임을 배워요."],
-  "sehneler": [
-   {"b": "내 눈 속의 들보", "ayə": "7:1–5", "alt": "자기 눈에 큰 나무가 있는데 친구 눈의 티를 가리키는 아이", "p": ["예수님이 재미있는 이야기를 하셨어요. “왜 친구 눈 속의 작은 [[티]]는 보면서, 네 눈 속의 큰 [[들보]]는 못 보니?”", "다른 사람을 [[비판]]하기 전에 먼저 내 잘못을 돌아봐야 해요."]},
-   {"b": "구하고 찾고 두드리세요", "ayə": "7:7–12", "alt": "문을 두드리는 아이와 빵을 들고 문을 여는 아버지", "p": ["“구하세요, 주실 거예요. 찾으세요, 찾을 거예요. 문을 두드리세요, 열릴 거예요.”", "“아이가 빵을 달라는데 돌을 줄 아빠가 있나요? 하늘 아버지는 더 좋은 것을 주세요.” 그리고 “남에게 대접받고 싶은 대로 남을 대접하세요.”"]},
-   {"b": "좁은 문과 좋은 나무", "ayə": "7:13–20", "alt": "좁은 문으로 난 길과 열매가 가득한 나무", "p": ["“[[좁은 문]]으로 들어가세요. 생명으로 가는 길은 좁고, 찾는 사람이 적어요.”", "“좋은 나무는 좋은 [[열매]]를 맺어요.” 우리가 하는 말과 행동을 보면 우리 마음이 어떤지 알 수 있어요."]},
-   {"b": "반석 위의 집", "ayə": "7:24–29", "alt": "폭풍 속에서도 반석 위에 서 있는 집과 무너지는 모래 위의 집", "p": ["“내 말을 듣고 행하는 사람은 [[반석]] 위에 집을 지은 지혜로운 사람과 같아요. 비가 오고 바람이 불어도 무너지지 않아요.”", "“내 말을 듣고도 행하지 않는 사람은 모래 위에 집을 지은 어리석은 사람과 같아요. 무너지고 말아요.” 사람들은 예수님의 [[권위]] 있는 가르침에 깜짝 놀랐어요."]}
-  ],
-  "aye": {"metn": "“구하라 그리하면 너희에게 주실 것이요, 찾으라 그리하면 찾아낼 것이요, 문을 두드리라 그리하면 너희에게 열릴 것이니”", "ref": "7:7", "bos": "___ 그리하면 너희에게 주실 것이요, ___ 그리하면 찾아낼 것이요, 문을 ___ 그리하면 너희에게 열릴 것이니", "sozler": ["구하라", "찾으라", "두드리라"], "yalan": "기다리라"},
-  "lugat": {
-   "티": {"i": "🌾", "x": "çöp", "m": "아주 작은 먼지나 나무 부스러기예요.", "e": "친구 눈 속의 티."},
-   "들보": {"i": "🪵", "x": "tir", "m": "집 지붕을 받치는 아주 큰 나무예요.", "e": "내 눈 속의 들보를 먼저 빼요."},
-   "비판": {"i": "👉", "x": "mühakimə etmək", "m": "다른 사람의 잘못을 따지고 나쁘게 말하는 거예요.", "e": "비판하지 마세요."},
-   "좁은 문": {"i": "🚪", "x": "dar qapı", "m": "들어가기 어려운 작은 문이에요. 예수님을 따르는 길을 뜻해요.", "e": "좁은 문으로 들어가세요."},
-   "열매": {"i": "🍎", "x": "bəhrə", "m": "나무에 열리는 과일이에요. 사람의 말과 행동을 뜻하기도 해요.", "e": "좋은 나무는 좋은 열매를 맺어요."},
-   "반석": {"i": "🪨", "x": "qaya", "m": "아주 크고 단단한 바위예요.", "e": "반석 위에 지은 집은 무너지지 않아요."},
-   "권위": {"i": "👑", "x": "səlahiyyət", "m": "다른 사람이 따를 만한 힘과 자격이에요.", "e": "예수님은 권위 있게 가르치셨어요."}
-  },
-  "test": [
-   {"q": "내 눈 속에 있는 큰 나무를 무엇이라고 했나요?", "o": ["들보", "티", "열매"], "a": 0, "f": "맞아요! 내 잘못을 먼저 봐요."},
-   {"q": "아이가 빵을 달라고 하면 아빠는?", "o": ["빵을 줘요", "돌을 줘요", "아무것도 안 줘요"], "a": 0, "f": "맞아요! 하늘 아버지는 더 좋은 것을 주세요."},
-   {"q": "좋은 나무는 무엇을 맺나요?", "o": ["좋은 열매", "나쁜 열매", "돌멩이"], "a": 0, "f": "맞아요! 행동을 보면 마음을 알 수 있어요."},
-   {"q": "지혜로운 사람은 집을 어디에 지었나요?", "o": ["반석 위", "모래 위", "물 위"], "a": 0, "f": "맞아요! 말씀을 듣고 행하는 사람이에요."}
-  ],
-  "dusun": ["친구의 잘못은 잘 보이는데 내 잘못은 왜 잘 안 보일까요?", "하나님께 무엇을 구하고 싶나요?", "예수님 말씀을 ‘행한다’는 것은 어떤 모습일까요?"],
-  "fealiyyet": {"ciz": "반석 위에 튼튼하게 서 있는 내 집을 그려 보세요.", "b": "말씀대로 해 볼 일", "p": "이번 주에 예수님 말씀대로 해 볼 일을 써 보세요.", "ph": "예) 친구 흉을 보지 않을 거예요."},
-  "dua": "예수님, 다른 사람을 판단하기 전에 저를 먼저 돌아보게 해 주세요. 하늘 아버지께 구하고 찾고 두드리게 해 주세요. 예수님 말씀을 듣기만 하지 않고 행해서, 반석 위에 집을 짓는 지혜로운 사람이 되게 해 주세요. 예수님 이름으로 기도합니다. 아멘."
+ "no": 11,
+ "ref": "7:1–29",
+ "deq": {
+  "usaq": 40,
+  "genc": 50
  },
- "genc": {
-  "basliq": "듣고 행하는 사람",
-  "giris": "산상설교의 마지막 장입니다. 예수님은 좋은 말씀을 듣고 감동만 받는 것으로는 충분하지 않다고 하십니다. 결국 질문은 하나입니다. 너는 그 말씀 위에 삶을 짓고 있느냐?",
-  "meqsed": ["비판, 기도, 황금률의 가르침을 이해해요.", "산상설교의 결론인 ‘두 길, 두 나무, 두 집’의 구조를 설명할 수 있어요.", "들은 말씀 하나를 이번 주 행동으로 옮길 계획을 세워요."],
-  "sehneler": [
-   {"b": "티와 들보", "ayə": "7:1–6", "alt": "자기 눈에 큰 나무가 있는데 친구 눈의 티를 가리키는 아이", "p": ["“[[비판]]을 받지 아니하려거든 비판하지 말라.” 예수님은 목수 아들답게 과장된 그림을 쓰세요. 눈에 지붕 들보가 박힌 채 친구 눈의 티를 빼 주겠다는 사람이요.", "분별하지 말라는 뜻이 아니에요. 바로 다음 절은 “거룩한 것을 개에게 주지 말라”고 해요. 문제는 나를 빼놓고 남만 재는 [[외식]]이에요."], "deep": {"b": "깊이 보기 · 같은 잣대", "p": "“너희가 헤아리는 그 헤아림으로 너희도 헤아림을 받을 것이니라.” 남에게 엄격한 사람은 자기도 같은 기준 앞에 서게 돼요. 은혜를 받은 사람은 은혜의 잣대로 남을 봐요."}},
-   {"b": "구하라, 찾으라, 두드리라", "ayə": "7:7–12", "alt": "문을 두드리는 아이와 빵을 들고 문을 여는 아버지", "p": ["세 동사는 모두 ‘계속해서’라는 현재형이에요. 계속 구하고, 계속 찾고, 계속 두드리라는 뜻이에요.", "“너희가 악한 자라도 좋은 것으로 자식에게 줄 줄 알거든 하물며 하늘에 계신 너희 아버지께서 구하는 자에게 좋은 것으로 주시지 않겠느냐.” 그리고 산상설교의 요약이 나와요. [[황금률]]이에요."], "deep": {"b": "깊이 보기 · 황금률", "p": "당시 랍비 힐렐은 “네가 싫은 것을 남에게 하지 말라”고 가르쳤어요. 예수님은 이것을 긍정형으로 바꾸셨어요. “대접을 받고자 하는 대로 너희도 남을 대접하라.” 피하는 사랑에서 먼저 다가가는 사랑으로요."}},
-   {"b": "두 길과 두 나무", "ayə": "7:13–23", "alt": "좁은 문으로 난 길과 열매가 가득한 나무", "p": ["“좁은 문으로 들어가라. 멸망으로 인도하는 문은 크고 그 길이 넓어 그리로 들어가는 자가 많고.” 생명의 길은 인기 투표로 정해지지 않아요.", "거짓 선지자는 [[열매]]로 알아봐요. “주여 주여” 하며 기적을 행해도, 하늘 아버지의 뜻대로 살지 않으면 예수님은 “내가 너희를 도무지 알지 못하노라”고 하세요."], "deep": {"b": "깊이 보기 · 알지 못한다", "p": "가장 무서운 말은 “너희가 나를 알지 못했다”가 아니라 “내가 너희를 알지 못한다”예요. 신앙은 종교 활동의 목록이 아니라 예수님과의 관계예요.", "rose": true}},
-   {"b": "반석 위의 집", "ayə": "7:24–29", "alt": "폭풍 속에서도 반석 위에 서 있는 집과 무너지는 모래 위의 집", "p": ["갈릴리 지방은 건기에 마른 개울 바닥(와디)이 평평하고 단단해 보였어요. 그런데 우기에 갑자기 물이 불어나면 그 위의 집은 휩쓸려 갔어요.", "두 집은 겉으로 똑같아 보였어요. 차이는 폭풍이 와야 드러나요. 듣고 ‘행하는’ 사람이 [[반석]] 위에 지은 사람이에요. 무리는 예수님이 서기관들과 달리 [[권위]] 있는 자처럼 가르치신다며 놀랐어요."], "deep": {"b": "깊이 보기 · 산상설교 정리", "p": "5장 팔복(복의 선언) → 5장 율법의 완성 → 6장 은밀한 경건과 신뢰 → 7장 관계와 결단. 산상설교는 ‘이렇게 하면 구원받는다’가 아니라 ‘하나님 나라 백성은 이렇게 산다’는 지도예요."}}
-  ],
-  "cedvel": {"b": "산상설교의 결론: 두 가지 길", "alt": "7:13–27", "bas": ["", "생명의 길", "멸망의 길"], "set": [["문", "좁은 문, 협착한 길", "넓은 문, 넓은 길"], ["나무", "좋은 나무, 좋은 열매", "나쁜 나무, 나쁜 열매"], ["고백", "아버지의 뜻대로 행함", "“주여 주여”만 말함"], ["집", "반석 위의 집", "모래 위의 집"]]},
-  "aye": {"metn": "“그러므로 누구든지 나의 이 말을 듣고 행하는 자는 그 집을 반석 위에 지은 지혜로운 사람 같으리니.”", "ref": "7:24"},
-  "lugat": {
-   "비판": {"i": "👉", "o": "헬라어 크리노, ‘재판하다’", "x": "mühakimə etmək", "s": "남을 정죄하는 판단", "m": "옳고 그름을 가리는 분별이 아니라, 재판관처럼 남에게 유죄를 선고하는 태도예요.", "e": "같은 동사로 “분별하라”(요 7:24)도 쓰여요. 태도와 목적이 중요해요."},
-   "외식": {"i": "🎭", "o": "헬라어 휘포크리테스", "x": "ikiüzlülük", "s": "가면 쓴 신앙", "m": "6장에 이어 다시 나와요. 내 들보는 숨기고 남의 티만 문제 삼는 태도예요.", "e": "“외식하는 자여, 먼저 네 눈 속에서 들보를 빼라.”"},
-   "황금률": {"i": "🥇", "o": "라틴어 Regula Aurea", "x": "qızıl qayda", "s": "산상설교의 요약", "m": "“무엇이든지 남에게 대접을 받고자 하는 대로 너희도 남을 대접하라. 이것이 율법이요 선지자니라.” 5:17의 ‘율법과 선지자’와 짝을 이뤄요.", "e": "이름은 후대 사람들이 붙였어요."},
-   "열매": {"i": "🍎", "o": "헬라어 카르포스", "x": "bəhrə", "s": "삶으로 드러나는 증거", "m": "말이 아니라 성품과 행동의 결과예요. 갈라디아서 5:22의 ‘성령의 열매’와도 이어져요.", "e": "“그들의 열매로 그들을 알리라”(7:16, 20)."},
-   "반석": {"i": "🪨", "o": "헬라어 페트라", "x": "qaya", "s": "흔들리지 않는 기초", "m": "땅을 깊이 파서 만나는 단단한 암반이에요. 예수님의 말씀이 그 기초예요.", "e": "베드로(페트로스)라는 이름도 같은 뿌리예요(16:18)."},
-   "권위": {"i": "👑", "o": "헬라어 엑수시아", "x": "səlahiyyət", "s": "스스로 가진 권한", "m": "서기관들은 다른 랍비들의 말을 인용했지만, 예수님은 “나는 말한다”고 하셨어요.", "e": "마태복음 마지막에 “하늘과 땅의 모든 권세”가 예수님께 있다고 해요(28:18)."}
+ "img": [
+  "matta/11-tir.jpg",
+  "matta/11-qapi.jpg",
+  "matta/11-dar-qapi.jpg",
+  "matta/11-qaya-ev.jpg"
+ ],
+ "hero": 3,
+ "ko": {
+  "usaq": {
+   "basliq": "반석 위에 지은 집",
+   "hedef": [
+    "남을 판단하기 전에 나를 먼저 돌아봐야 함을 알아요.",
+    "하나님께 구하고 찾고 두드리는 기도를 배워요.",
+    "예수님 말씀을 듣고 행하는 사람이 지혜로운 사람임을 배워요."
+   ],
+   "sehneler": [
+    {
+     "b": "내 눈 속의 들보",
+     "ayə": "7:1–5",
+     "alt": "자기 눈에 큰 나무가 있는데 친구 눈의 티를 가리키는 아이",
+     "p": [
+      "예수님이 재미있는 이야기를 하셨어요. “왜 친구 눈 속의 작은 [[티]]는 보면서, 네 눈 속의 큰 [[들보]]는 못 보니?”",
+      "다른 사람을 [[비판]]하기 전에 먼저 내 잘못을 돌아봐야 해요."
+     ]
+    },
+    {
+     "b": "구하고 찾고 두드리세요",
+     "ayə": "7:7–12",
+     "alt": "문을 두드리는 아이와 빵을 들고 문을 여는 아버지",
+     "p": [
+      "“구하세요, 주실 거예요. 찾으세요, 찾을 거예요. 문을 두드리세요, 열릴 거예요.”",
+      "“아이가 빵을 달라는데 돌을 줄 아빠가 있나요? 하늘 아버지는 더 좋은 것을 주세요.” 그리고 “남에게 대접받고 싶은 대로 남을 대접하세요.”"
+     ]
+    },
+    {
+     "b": "좁은 문과 좋은 나무",
+     "ayə": "7:13–20",
+     "alt": "좁은 문으로 난 길과 열매가 가득한 나무",
+     "p": [
+      "“[[좁은 문]]으로 들어가세요. 생명으로 가는 길은 좁고, 찾는 사람이 적어요.”",
+      "“좋은 나무는 좋은 [[열매]]를 맺어요.” 우리가 하는 말과 행동을 보면 우리 마음이 어떤지 알 수 있어요."
+     ]
+    },
+    {
+     "b": "반석 위의 집",
+     "ayə": "7:24–29",
+     "alt": "폭풍 속에서도 반석 위에 서 있는 집과 무너지는 모래 위의 집",
+     "p": [
+      "“내 말을 듣고 행하는 사람은 [[반석]] 위에 집을 지은 지혜로운 사람과 같아요. 비가 오고 바람이 불어도 무너지지 않아요.”",
+      "“내 말을 듣고도 행하지 않는 사람은 모래 위에 집을 지은 어리석은 사람과 같아요. 무너지고 말아요.” 사람들은 예수님의 [[권위]] 있는 가르침에 깜짝 놀랐어요."
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "“구하라 그리하면 너희에게 주실 것이요, 찾으라 그리하면 찾아낼 것이요, 문을 두드리라 그리하면 너희에게 열릴 것이니”",
+    "ref": "7:7",
+    "bos": "___ 그리하면 너희에게 주실 것이요, ___ 그리하면 찾아낼 것이요, 문을 ___ 그리하면 너희에게 열릴 것이니",
+    "sozler": [
+     "구하라",
+     "찾으라",
+     "두드리라"
+    ],
+    "yalan": "기다리라"
+   },
+   "lugat": {
+    "티": {
+     "i": "🌾",
+     "x": "çöp",
+     "m": "아주 작은 먼지나 나무 부스러기예요.",
+     "e": "친구 눈 속의 티."
+    },
+    "들보": {
+     "i": "🪵",
+     "x": "tir",
+     "m": "집 지붕을 받치는 아주 큰 나무예요.",
+     "e": "내 눈 속의 들보를 먼저 빼요."
+    },
+    "비판": {
+     "i": "👉",
+     "x": "mühakimə etmək",
+     "m": "다른 사람의 잘못을 따지고 나쁘게 말하는 거예요.",
+     "e": "비판하지 마세요."
+    },
+    "좁은 문": {
+     "i": "🚪",
+     "x": "dar qapı",
+     "m": "들어가기 어려운 작은 문이에요. 예수님을 따르는 길을 뜻해요.",
+     "e": "좁은 문으로 들어가세요."
+    },
+    "열매": {
+     "i": "🍎",
+     "x": "bəhrə",
+     "m": "나무에 열리는 과일이에요. 사람의 말과 행동을 뜻하기도 해요.",
+     "e": "좋은 나무는 좋은 열매를 맺어요."
+    },
+    "반석": {
+     "i": "🪨",
+     "x": "qaya",
+     "m": "아주 크고 단단한 바위예요.",
+     "e": "반석 위에 지은 집은 무너지지 않아요."
+    },
+    "권위": {
+     "i": "👑",
+     "x": "səlahiyyət",
+     "m": "다른 사람이 따를 만한 힘과 자격이에요.",
+     "e": "예수님은 권위 있게 가르치셨어요."
+    }
+   },
+   "test": [
+    {
+     "q": "내 눈 속에 있는 큰 나무를 무엇이라고 했나요?",
+     "o": [
+      "들보",
+      "티",
+      "열매"
+     ],
+     "a": 0,
+     "f": "맞아요! 내 잘못을 먼저 봐요."
+    },
+    {
+     "q": "아이가 빵을 달라고 하면 아빠는?",
+     "o": [
+      "빵을 줘요",
+      "돌을 줘요",
+      "아무것도 안 줘요"
+     ],
+     "a": 0,
+     "f": "맞아요! 하늘 아버지는 더 좋은 것을 주세요."
+    },
+    {
+     "q": "좋은 나무는 무엇을 맺나요?",
+     "o": [
+      "좋은 열매",
+      "나쁜 열매",
+      "돌멩이"
+     ],
+     "a": 0,
+     "f": "맞아요! 행동을 보면 마음을 알 수 있어요."
+    },
+    {
+     "q": "지혜로운 사람은 집을 어디에 지었나요?",
+     "o": [
+      "반석 위",
+      "모래 위",
+      "물 위"
+     ],
+     "a": 0,
+     "f": "맞아요! 말씀을 듣고 행하는 사람이에요."
+    }
+   ],
+   "dusun": [
+    "친구의 잘못은 잘 보이는데 내 잘못은 왜 잘 안 보일까요?",
+    "하나님께 무엇을 구하고 싶나요?",
+    "예수님 말씀을 ‘행한다’는 것은 어떤 모습일까요?"
+   ],
+   "fealiyyet": {
+    "ciz": "반석 위에 튼튼하게 서 있는 내 집을 그려 보세요.",
+    "b": "말씀대로 해 볼 일",
+    "p": "이번 주에 예수님 말씀대로 해 볼 일을 써 보세요.",
+    "ph": "예) 친구 흉을 보지 않을 거예요."
+   },
+   "dua": "예수님, 다른 사람을 판단하기 전에 저를 먼저 돌아보게 해 주세요. 하늘 아버지께 구하고 찾고 두드리게 해 주세요. 예수님 말씀을 듣기만 하지 않고 행해서, 반석 위에 집을 짓는 지혜로운 사람이 되게 해 주세요. 예수님 이름으로 기도합니다. 아멘."
   },
-  "test": [
-   {"q": "7:1 “비판하지 말라”가 말하는 것은?", "o": ["나를 빼놓고 남을 정죄하지 말라", "옳고 그름을 전혀 가리지 말라", "말을 하지 말라"], "a": 0, "f": "맞아요. 7:6은 분별을 요구해요."},
-   {"q": "‘구하라, 찾으라, 두드리라’의 문법적 특징은?", "o": ["계속하라는 현재형", "한 번만 하라는 명령", "과거형"], "a": 0, "f": "맞아요. 끈질긴 기도예요."},
-   {"q": "황금률 바로 뒤에 붙은 말은?", "o": ["이것이 율법이요 선지자니라", "이것이 큰 비밀이니라", "이것이 마지막이니라"], "a": 0, "f": "맞아요. 5:17과 짝을 이뤄요."},
-   {"q": "예수님이 거짓 선지자를 알아보는 방법으로 말씀하신 것은?", "o": ["그들의 열매", "그들의 옷", "그들이 행한 기적의 수"], "a": 0, "f": "맞아요. 기적보다 삶이에요."},
-   {"q": "반석 위에 집을 지은 사람은?", "o": ["말씀을 듣고 행하는 사람", "말씀을 많이 아는 사람", "큰 집을 가진 사람"], "a": 0, "f": "맞아요. 차이는 폭풍 때 드러나요."}
-  ],
-  "paylas": ["내가 자주 ‘남의 티’를 보는 상황은 언제인가요? 그때 내 ‘들보’는 무엇일까요?", "황금률을 오늘 학교나 집에서 적용한다면 어떤 행동이 될까요?", "‘좁은 문’이 지금 내게 구체적으로 어떤 선택일까요?", "산상설교에서 들은 말씀 중 내가 ‘듣기만’ 하고 있는 것은 무엇인가요?"],
-  "etiraf": {"b": "나의 고백", "p": "5–7장에서 가장 마음에 남은 말씀 하나를 고르고, 그것을 이번 주에 어떻게 ‘행할지’ 서너 문장으로 써 보세요.", "ph": "예) 저는 ‘원수를 사랑하라’는 말씀을 골랐어요. 이번 주에 …"},
-  "dua": "예수님, 산상설교를 통해 하나님 나라 백성의 삶을 보여 주셔서 감사합니다. 남을 정죄하기 전에 제 들보를 보게 해 주시고, 아버지께 끈질기게 구하게 해 주세요. 듣기만 하는 사람이 아니라 행하는 사람이 되어 제 삶을 반석 되신 예수님 위에 짓게 해 주세요. 예수님 이름으로 기도합니다. 아멘."
- }
-},
-"az": {
- "usaq": {
-  "basliq": "Qaya üzərində tikilən ev",
-  "hedef": ["Başqalarını mühakimə etmədən əvvəl özümüzə baxmağı öyrənəcəyik.", "Allahdan diləməyi, axtarmağı və qapını döyməyi öyrənəcəyik.", "İsanın sözünü eşidib ona əməl edən insanın ağıllı olduğunu öyrənəcəyik."],
-  "sehneler": [
-   {"b": "Öz gözündəki tir", "ayə": "Matta 7:1–5", "alt": "Öz gözündə böyük taxta olduğu halda dostunun gözündəki çöpü göstərən uşaq", "p": ["İsa maraqlı bir söz dedi: “Niyə qardaşının gözündəki [[çöp]]ü görürsən, amma öz gözündəki [[tir]]i hiss etmirsən?”", "Başqalarını [[mühakimə etmədən|mühakimə etmək]] əvvəl öz səhvimizə baxmalıyıq."]},
-   {"b": "Diləyin, axtarın, döyün", "ayə": "Matta 7:7–12", "alt": "Qapını döyən uşaq və çörəklə qapını açan ata", "p": ["“Diləyin, sizə veriləcək. Axtarın, tapacaqsınız. Qapını döyün, sizin üçün açılacaq.”", "“Övladı çörək istəyəndə ona daş verən ata varmı? Səmavi Atanız daha yaxşı şeylər verər.” Və: “İnsanların sizə necə rəftar etməsini istəyirsinizsə, siz də onlara elə rəftar edin.”"]},
-   {"b": "Dar qapı və yaxşı ağac", "ayə": "Matta 7:13–20", "alt": "Dar qapıdan keçən yol və meyvə ilə dolu ağac", "p": ["“[[Dar qapı]]dan girin. Həyata aparan yol dardır, onu tapanlar azdır.”", "“Yaxşı ağac yaxşı [[bəhrə]] verir.” Sözlərimizə və əməllərimizə baxanda ürəyimizin necə olduğu görünür."]},
-   {"b": "Qaya üzərindəki ev", "ayə": "Matta 7:24–29", "alt": "Fırtınada qaya üzərində dayanan ev və uçan qum üzərindəki ev", "p": ["“Sözlərimi eşidib onlara əməl edən adam evini [[qaya]] üzərində tikən ağıllı adama bənzəyir. Yağış yağsa, külək əssə də, ev uçmaz.”", "“Sözlərimi eşidib əməl etməyən adam isə evini qum üzərində tikən axmaq adama bənzəyir. O ev uçar.” İnsanlar İsanın [[səlahiyyət]]li təliminə heyran qaldılar."]}
-  ],
-  "aye": {"metn": "“Diləyin, sizə veriləcək; axtarın, tapacaqsınız; qapını döyün, sizin üçün açılacaq.”", "ref": "7:7", "bos": "___, sizə veriləcək; ___, tapacaqsınız; qapını ___, sizin üçün açılacaq.", "sozler": ["Diləyin", "axtarın", "döyün"], "yalan": "gözləyin"},
-  "lugat": {
-   "çöp": {"i": "🌾", "x": "티", "m": "Çox kiçik toz və ya taxta qırıntısıdır.", "e": "Dostunun gözündəki çöp."},
-   "tir": {"i": "🪵", "x": "들보", "m": "Evin damını saxlayan çox böyük taxtadır.", "e": "Əvvəlcə öz gözündəki tiri çıxar."},
-   "mühakimə etmək": {"i": "👉", "x": "비판하다", "m": "Başqasının səhvini axtarıb onu pisləməkdir.", "e": "Mühakimə etməyin."},
-   "Dar qapı": {"i": "🚪", "x": "좁은 문", "m": "Girməsi çətin olan kiçik qapıdır. İsanın ardınca getmək yolunu bildirir.", "e": "Dar qapıdan girin."},
-   "bəhrə": {"i": "🍎", "x": "열매", "m": "Ağacın verdiyi meyvədir. İnsanın sözləri və əməlləri də bəhrədir.", "e": "Yaxşı ağac yaxşı bəhrə verir."},
-   "qaya": {"i": "🪨", "x": "반석", "m": "Çox böyük və möhkəm daşdır.", "e": "Qaya üzərində tikilən ev uçmaz."},
-   "səlahiyyət": {"i": "👑", "x": "권위", "m": "Başqalarının tabe olacağı güc və haqdır.", "e": "İsa səlahiyyətlə öyrədirdi."}
-  },
-  "test": [
-   {"q": "Öz gözümüzdəki böyük taxtaya nə deyildi?", "o": ["Tir", "Çöp", "Bəhrə"], "a": 0, "f": "Düzdür! Əvvəlcə öz səhvimizə baxırıq."},
-   {"q": "Övladı çörək istəyəndə ata nə verər?", "o": ["Çörək", "Daş", "Heç nə"], "a": 0, "f": "Düzdür! Səmavi Atamız daha yaxşısını verir."},
-   {"q": "Yaxşı ağac nə verir?", "o": ["Yaxşı bəhrə", "Pis bəhrə", "Daş"], "a": 0, "f": "Düzdür! Əməllərimiz ürəyimizi göstərir."},
-   {"q": "Ağıllı adam evini harada tikdi?", "o": ["Qaya üzərində", "Qum üzərində", "Su üzərində"], "a": 0, "f": "Düzdür! Kəlamı eşidib əməl edən adamdır."}
-  ],
-  "dusun": ["Dostumuzun səhvi asanlıqla görünür, bəs öz səhvimiz niyə görünmür?", "Allahdan nə diləmək istəyirsən?", "İsanın sözünə “əməl etmək” necə olur?"],
-  "fealiyyet": {"ciz": "Qaya üzərində möhkəm dayanan evini çək.", "b": "İsanın sözünə necə əməl edəcəksən?", "p": "Bu həftə edəcəyin işi seç.", "ph": "",
-   "secim": {"basliq": "İsanın sözünə necə əməl edəcəksən?", "izah": "Toxun və seç. Bir neçəsini seçə bilərsən.", "cumle": "Mən evimi qaya üzərində tikirəm: {x}!", "bos": "dua edəcəyəm", "bag": "və",
-    "secimler": [["🙏", "dua edəcəyəm"], ["📖", "Kəlamı oxuyacağam"], ["👂", "valideynlərimə qulaq asacağam"], ["🤐", "dostlarımı pisləməyəcəyəm"], ["💛", "başqalarına yaxşılıq edəcəyəm"], ["✅", "doğru danışacağam"]]}},
-  "dua": "İsa, başqalarını mühakimə etmədən əvvəl özümə baxmağıma kömək et. Səmavi Atadan diləməyi, axtarmağı və qapını döyməyi öyrət. Sözlərini yalnız eşitməyim, onlara əməl edim və evimi qaya üzərində tikən ağıllı insan olum. İsa Məsihin adı ilə dua edirəm. Amin."
+  "genc": {
+   "basliq": "듣고 행하는 사람",
+   "giris": "산상설교의 마지막 장입니다. 예수님은 좋은 말씀을 듣고 감동만 받는 것으로는 충분하지 않다고 하십니다. 결국 질문은 하나입니다. 너는 그 말씀 위에 삶을 짓고 있느냐?",
+   "meqsed": [
+    "비판, 기도, 황금률의 가르침을 이해해요.",
+    "산상설교의 결론인 ‘두 길, 두 나무, 두 집’의 구조를 설명할 수 있어요.",
+    "들은 말씀 하나를 이번 주 행동으로 옮길 계획을 세워요."
+   ],
+   "sehneler": [
+    {
+     "b": "티와 들보",
+     "ayə": "7:1–6",
+     "alt": "자기 눈에 큰 나무가 있는데 친구 눈의 티를 가리키는 아이",
+     "p": [
+      "“[[비판]]을 받지 아니하려거든 비판하지 말라.” 예수님은 목수 아들답게 과장된 그림을 쓰세요. 눈에 지붕 들보가 박힌 채 친구 눈의 티를 빼 주겠다는 사람이요.",
+      "분별하지 말라는 뜻이 아니에요. 바로 다음 절은 “거룩한 것을 개에게 주지 말라”고 해요. 문제는 나를 빼놓고 남만 재는 [[외식]]이에요."
+     ],
+     "deep": {
+      "b": "깊이 보기 · 같은 잣대",
+      "p": "“너희가 헤아리는 그 헤아림으로 너희도 헤아림을 받을 것이니라.” 남에게 엄격한 사람은 자기도 같은 기준 앞에 서게 돼요. 은혜를 받은 사람은 은혜의 잣대로 남을 봐요."
+     }
+    },
+    {
+     "b": "구하라, 찾으라, 두드리라",
+     "ayə": "7:7–12",
+     "alt": "문을 두드리는 아이와 빵을 들고 문을 여는 아버지",
+     "p": [
+      "세 동사는 모두 ‘계속해서’라는 현재형이에요. 계속 구하고, 계속 찾고, 계속 두드리라는 뜻이에요.",
+      "“너희가 악한 자라도 좋은 것으로 자식에게 줄 줄 알거든 하물며 하늘에 계신 너희 아버지께서 구하는 자에게 좋은 것으로 주시지 않겠느냐.” 그리고 산상설교의 요약이 나와요. [[황금률]]이에요."
+     ],
+     "deep": {
+      "b": "깊이 보기 · 황금률",
+      "p": "당시 랍비 힐렐은 “네가 싫은 것을 남에게 하지 말라”고 가르쳤어요. 예수님은 이것을 긍정형으로 바꾸셨어요. “대접을 받고자 하는 대로 너희도 남을 대접하라.” 피하는 사랑에서 먼저 다가가는 사랑으로요."
+     }
+    },
+    {
+     "b": "두 길과 두 나무",
+     "ayə": "7:13–23",
+     "alt": "좁은 문으로 난 길과 열매가 가득한 나무",
+     "p": [
+      "“좁은 문으로 들어가라. 멸망으로 인도하는 문은 크고 그 길이 넓어 그리로 들어가는 자가 많고.” 생명의 길은 인기 투표로 정해지지 않아요.",
+      "거짓 선지자는 [[열매]]로 알아봐요. “주여 주여” 하며 기적을 행해도, 하늘 아버지의 뜻대로 살지 않으면 예수님은 “내가 너희를 도무지 알지 못하노라”고 하세요."
+     ],
+     "deep": {
+      "b": "깊이 보기 · 알지 못한다",
+      "p": "가장 무서운 말은 “너희가 나를 알지 못했다”가 아니라 “내가 너희를 알지 못한다”예요. 신앙은 종교 활동의 목록이 아니라 예수님과의 관계예요.",
+      "rose": true
+     }
+    },
+    {
+     "b": "반석 위의 집",
+     "ayə": "7:24–29",
+     "alt": "폭풍 속에서도 반석 위에 서 있는 집과 무너지는 모래 위의 집",
+     "p": [
+      "갈릴리 지방은 건기에 마른 개울 바닥(와디)이 평평하고 단단해 보였어요. 그런데 우기에 갑자기 물이 불어나면 그 위의 집은 휩쓸려 갔어요.",
+      "두 집은 겉으로 똑같아 보였어요. 차이는 폭풍이 와야 드러나요. 듣고 ‘행하는’ 사람이 [[반석]] 위에 지은 사람이에요. 무리는 예수님이 서기관들과 달리 [[권위]] 있는 자처럼 가르치신다며 놀랐어요."
+     ],
+     "deep": {
+      "b": "깊이 보기 · 산상설교 정리",
+      "p": "5장 팔복(복의 선언) → 5장 율법의 완성 → 6장 은밀한 경건과 신뢰 → 7장 관계와 결단. 산상설교는 ‘이렇게 하면 구원받는다’가 아니라 ‘하나님 나라 백성은 이렇게 산다’는 지도예요."
+     }
+    }
+   ],
+   "cedvel": {
+    "b": "산상설교의 결론: 두 가지 길",
+    "alt": "7:13–27",
+    "bas": [
+     "",
+     "생명의 길",
+     "멸망의 길"
+    ],
+    "set": [
+     [
+      "문",
+      "좁은 문, 협착한 길",
+      "넓은 문, 넓은 길"
+     ],
+     [
+      "나무",
+      "좋은 나무, 좋은 열매",
+      "나쁜 나무, 나쁜 열매"
+     ],
+     [
+      "고백",
+      "아버지의 뜻대로 행함",
+      "“주여 주여”만 말함"
+     ],
+     [
+      "집",
+      "반석 위의 집",
+      "모래 위의 집"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "“그러므로 누구든지 나의 이 말을 듣고 행하는 자는 그 집을 반석 위에 지은 지혜로운 사람 같으리니.”",
+    "ref": "7:24"
+   },
+   "lugat": {
+    "비판": {
+     "i": "👉",
+     "o": "헬라어 크리노, ‘재판하다’",
+     "x": "mühakimə etmək",
+     "s": "남을 정죄하는 판단",
+     "m": "옳고 그름을 가리는 분별이 아니라, 재판관처럼 남에게 유죄를 선고하는 태도예요.",
+     "e": "같은 동사로 “분별하라”(요 7:24)도 쓰여요. 태도와 목적이 중요해요."
+    },
+    "외식": {
+     "i": "🎭",
+     "o": "헬라어 휘포크리테스",
+     "x": "ikiüzlülük",
+     "s": "가면 쓴 신앙",
+     "m": "6장에 이어 다시 나와요. 내 들보는 숨기고 남의 티만 문제 삼는 태도예요.",
+     "e": "“외식하는 자여, 먼저 네 눈 속에서 들보를 빼라.”"
+    },
+    "황금률": {
+     "i": "🥇",
+     "o": "라틴어 Regula Aurea",
+     "x": "qızıl qayda",
+     "s": "산상설교의 요약",
+     "m": "“무엇이든지 남에게 대접을 받고자 하는 대로 너희도 남을 대접하라. 이것이 율법이요 선지자니라.” 5:17의 ‘율법과 선지자’와 짝을 이뤄요.",
+     "e": "이름은 후대 사람들이 붙였어요."
+    },
+    "열매": {
+     "i": "🍎",
+     "o": "헬라어 카르포스",
+     "x": "bəhrə",
+     "s": "삶으로 드러나는 증거",
+     "m": "말이 아니라 성품과 행동의 결과예요. 갈라디아서 5:22의 ‘성령의 열매’와도 이어져요.",
+     "e": "“그들의 열매로 그들을 알리라”(7:16, 20)."
+    },
+    "반석": {
+     "i": "🪨",
+     "o": "헬라어 페트라",
+     "x": "qaya",
+     "s": "흔들리지 않는 기초",
+     "m": "땅을 깊이 파서 만나는 단단한 암반이에요. 예수님의 말씀이 그 기초예요.",
+     "e": "베드로(페트로스)라는 이름도 같은 뿌리예요(16:18)."
+    },
+    "권위": {
+     "i": "👑",
+     "o": "헬라어 엑수시아",
+     "x": "səlahiyyət",
+     "s": "스스로 가진 권한",
+     "m": "서기관들은 다른 랍비들의 말을 인용했지만, 예수님은 “나는 말한다”고 하셨어요.",
+     "e": "마태복음 마지막에 “하늘과 땅의 모든 권세”가 예수님께 있다고 해요(28:18)."
+    }
+   },
+   "test": [
+    {
+     "q": "7:1 “비판하지 말라”가 말하는 것은?",
+     "o": [
+      "나를 빼놓고 남을 정죄하지 말라",
+      "옳고 그름을 전혀 가리지 말라",
+      "말을 하지 말라"
+     ],
+     "a": 0,
+     "f": "맞아요. 7:6은 분별을 요구해요."
+    },
+    {
+     "q": "‘구하라, 찾으라, 두드리라’의 문법적 특징은?",
+     "o": [
+      "계속하라는 현재형",
+      "한 번만 하라는 명령",
+      "과거형"
+     ],
+     "a": 0,
+     "f": "맞아요. 끈질긴 기도예요."
+    },
+    {
+     "q": "황금률 바로 뒤에 붙은 말은?",
+     "o": [
+      "이것이 율법이요 선지자니라",
+      "이것이 큰 비밀이니라",
+      "이것이 마지막이니라"
+     ],
+     "a": 0,
+     "f": "맞아요. 5:17과 짝을 이뤄요."
+    },
+    {
+     "q": "예수님이 거짓 선지자를 알아보는 방법으로 말씀하신 것은?",
+     "o": [
+      "그들의 열매",
+      "그들의 옷",
+      "그들이 행한 기적의 수"
+     ],
+     "a": 0,
+     "f": "맞아요. 기적보다 삶이에요."
+    },
+    {
+     "q": "반석 위에 집을 지은 사람은?",
+     "o": [
+      "말씀을 듣고 행하는 사람",
+      "말씀을 많이 아는 사람",
+      "큰 집을 가진 사람"
+     ],
+     "a": 0,
+     "f": "맞아요. 차이는 폭풍 때 드러나요."
+    }
+   ],
+   "paylas": [
+    "내가 자주 ‘남의 티’를 보는 상황은 언제인가요? 그때 내 ‘들보’는 무엇일까요?",
+    "황금률을 오늘 학교나 집에서 적용한다면 어떤 행동이 될까요?",
+    "‘좁은 문’이 지금 내게 구체적으로 어떤 선택일까요?",
+    "산상설교에서 들은 말씀 중 내가 ‘듣기만’ 하고 있는 것은 무엇인가요?"
+   ],
+   "etiraf": {
+    "b": "나의 고백",
+    "p": "5–7장에서 가장 마음에 남은 말씀 하나를 고르고, 그것을 이번 주에 어떻게 ‘행할지’ 서너 문장으로 써 보세요.",
+    "ph": "예) 저는 ‘원수를 사랑하라’는 말씀을 골랐어요. 이번 주에 …"
+   },
+   "dua": "예수님, 산상설교를 통해 하나님 나라 백성의 삶을 보여 주셔서 감사합니다. 남을 정죄하기 전에 제 들보를 보게 해 주시고, 아버지께 끈질기게 구하게 해 주세요. 듣기만 하는 사람이 아니라 행하는 사람이 되어 제 삶을 반석 되신 예수님 위에 짓게 해 주세요. 예수님 이름으로 기도합니다. 아멘."
+  }
  },
- "genc": {
-  "basliq": "Eşidib əməl edən",
-  "giris": "Dağüstü vəzin son fəslidir. İsa deyir ki, gözəl sözləri eşidib təsirlənmək kifayət deyil. Sonda sual birdir: sən həyatını bu sözlərin üzərində tikirsənmi?",
-  "meqsed": ["Mühakimə, dua və qızıl qayda təlimini anlayırıq.", "Dağüstü vəzin nəticəsi olan “iki yol, iki ağac, iki ev” quruluşunu izah edə bilirik.", "Eşitdiyimiz bir sözü bu həftə əmələ çevirmək üçün plan qururuq."],
-  "sehneler": [
-   {"b": "Çöp və tir", "ayə": "Matta 7:1–6", "alt": "Öz gözündə böyük taxta olduğu halda dostunun gözündəki çöpü göstərən uşaq", "p": ["“[[Mühakimə etməyin|mühakimə etmək]] ki, mühakimə olunmayasınız.” Dülgər oğlu olan İsa şişirdilmiş bir şəkil çəkir: gözündə dam tiri olan adam dostunun gözündəki çöpü çıxarmaq istəyir.", "Bu, fərq qoymayın demək deyil. Növbəti ayə “müqəddəs olanı itlərə verməyin” deyir. Problem özünü kənarda qoyub yalnız başqasını ölçən [[ikiüzlülük]]dür."], "deep": {"b": "Dərindən baxaq · Eyni ölçü", "p": "“Hansı ölçü ilə ölçsəniz, sizə də o ölçü ilə ölçüləcək.” Başqalarına sərt olan insan özü də eyni meyar qarşısında durur. Lütf alan insan başqalarına lütf ölçüsü ilə baxır."}},
-   {"b": "Diləyin, axtarın, döyün", "ayə": "Matta 7:7–12", "alt": "Qapını döyən uşaq və çörəklə qapını açan ata", "p": ["Üç fel də “davamlı olaraq” mənasını verən indiki zamandadır. Diləməyə, axtarmağa və döyməyə davam edin.", "“Siz pis olduğunuz halda övladlarınıza yaxşı şeylər verməyi bilirsinizsə, göylərdə olan Atanız Ondan diləyənlərə nə qədər çox yaxşı şeylər verər!” Sonra Dağüstü vəzin xülasəsi gəlir: [[qızıl qayda]]."], "deep": {"b": "Dərindən baxaq · Qızıl qayda", "p": "O dövrün ravvisi Hillel “özünə xoş gəlməyəni başqasına etmə” deyə öyrədirdi. İsa bunu müsbət formaya çevirdi: “İnsanların sizə necə rəftar etməsini istəyirsinizsə, siz də onlara elə rəftar edin.” Qaçan məhəbbətdən əvvəlcə yaxınlaşan məhəbbətə."}},
-   {"b": "İki yol və iki ağac", "ayə": "Matta 7:13–23", "alt": "Dar qapıdan keçən yol və meyvə ilə dolu ağac", "p": ["“Dar qapıdan girin. Həlakətə aparan qapı genişdir, yol enlidir və ondan girənlər çoxdur.” Həyat yolu səsvermə ilə müəyyən edilmir.", "Yalançı peyğəmbərlər [[bəhrə]]lərindən tanınır. “Ya Rəbb, ya Rəbb” deyib möcüzələr etsələr də, Səmavi Atanın iradəsinə əməl etməsələr, İsa deyəcək: “Mən sizi heç vaxt tanımamışam.”"], "deep": {"b": "Dərindən baxaq · Tanımamışam", "p": "Ən qorxulu söz “siz Məni tanımadınız” deyil, “Mən sizi tanımadım” sözüdür. İman dini fəaliyyətlərin siyahısı deyil, İsa ilə münasibətdir.", "rose": true}},
-   {"b": "Qaya üzərindəki ev", "ayə": "Matta 7:24–29", "alt": "Fırtınada qaya üzərində dayanan ev və uçan qum üzərindəki ev", "p": ["Qalileyada quraq mövsümdə quru çay yatağı düz və möhkəm görünürdü. Amma yağış mövsümündə sel birdən gələndə onun üstündəki ev axıb gedirdi.", "İki ev zahirən eyni görünürdü. Fərq yalnız fırtına gələndə üzə çıxır. Eşidib “əməl edən” evini [[qaya]] üzərində tikən adamdır. İzdiham İsanın ilahiyyatçılardan fərqli olaraq [[səlahiyyət]] sahibi kimi öyrətməsinə heyran qaldı."], "deep": {"b": "Dərindən baxaq · Dağüstü vəzin xülasəsi", "p": "5-ci fəsil bəxtiyarlıq elanı → 5-ci fəsil Qanunun yerinə yetirilməsi → 6-cı fəsil gizli dindarlıq və etimad → 7-ci fəsil münasibətlər və qərar. Dağüstü vəz “belə etsən, xilas olarsan” deyil, “Allahın Padşahlığının xalqı belə yaşayır” xəritəsidir."}}
-  ],
-  "cedvel": {"b": "Dağüstü vəzin nəticəsi: iki yol", "alt": "7:13–27", "bas": ["", "Həyat yolu", "Həlakət yolu"], "set": [["Qapı", "Dar qapı, ensiz yol", "Geniş qapı, enli yol"], ["Ağac", "Yaxşı ağac, yaxşı bəhrə", "Pis ağac, pis bəhrə"], ["Etiraf", "Atanın iradəsinə əməl edir", "Yalnız “Ya Rəbb, ya Rəbb” deyir"], ["Ev", "Qaya üzərindəki ev", "Qum üzərindəki ev"]]},
-  "aye": {"metn": "“Bu sözlərimi eşidib onlara əməl edən hər kəs evini qaya üzərində tikən ağıllı adama bənzəyir.”", "ref": "7:24"},
-  "lugat": {
-   "mühakimə etmək": {"i": "👉", "o": "Yunanca krino, “hökm vermək”", "x": "비판하다", "s": "Başqasını məhkum edən hökm", "m": "Doğru ilə yanlışı ayırmaq deyil, hakim kimi başqasına “günahkar” hökmü çıxarmaqdır.", "e": "Eyni fel “ədalətlə hökm edin” (Yəhya 7:24) üçün də işlənir. Münasibət və məqsəd vacibdir."},
-   "ikiüzlülük": {"i": "🎭", "o": "Yunanca hipokrites", "x": "외식", "s": "Maskalı iman", "m": "6-cı fəsildən sonra yenə gəlir. Öz tirini gizlədib yalnız başqasının çöpünü problem etməkdir.", "e": "“Ey ikiüzlü, əvvəlcə öz gözündəki tiri çıxar.”"},
-   "qızıl qayda": {"i": "🥇", "o": "Latınca Regula Aurea", "x": "황금률", "s": "Dağüstü vəzin xülasəsi", "m": "“İnsanların sizə necə rəftar etməsini istəyirsinizsə, siz də onlara elə rəftar edin. Qanun və peyğəmbərlərin sözləri budur.” 5:17-dəki “Qanun və peyğəmbərlər” ilə cüt təşkil edir.", "e": "Bu adı sonrakı nəsillər verib."},
-   "bəhrə": {"i": "🍎", "o": "Yunanca karpos", "x": "열매", "s": "Həyatda görünən sübut", "m": "Söz deyil, xarakterin və əməlin nəticəsidir. Qalatiyalılara 5:22-dəki “Ruhun bəhrəsi” ilə də bağlıdır.", "e": "“Onları bəhrələrindən tanıyacaqsınız” (7:16, 20)."},
-   "qaya": {"i": "🪨", "o": "Yunanca petra", "x": "반석", "s": "Sarsılmaz təməl", "m": "Torpağı dərin qazanda rast gəlinən möhkəm qayadır. İsanın sözləri bu təməldir.", "e": "Peter (Petros) adı da eyni kökdəndir (16:18)."},
-   "səlahiyyət": {"i": "👑", "o": "Yunanca eksusia", "x": "권위", "s": "Öz ixtiyarı", "m": "İlahiyyatçılar başqa ravvilərin sözlərindən sitat gətirirdi, İsa isə “Mən deyirəm” deyirdi.", "e": "Matta Müjdəsinin sonunda “göydə və yerdə bütün səlahiyyət” İsaya verilir (28:18)."}
+ "az": {
+  "usaq": {
+   "basliq": "Qaya üzərində tikilən ev",
+   "hedef": [
+    "Başqalarını mühakimə etmədən əvvəl özümüzə baxmağı öyrənəcəyik.",
+    "Allahdan diləməyi, axtarmağı və qapını döyməyi öyrənəcəyik.",
+    "İsanın sözünü eşidib ona əməl edən insanın ağıllı olduğunu öyrənəcəyik."
+   ],
+   "sehneler": [
+    {
+     "b": "Öz gözündəki tir",
+     "ayə": "Matta 7:1–5",
+     "alt": "Öz gözündə böyük taxta olduğu halda dostunun gözündəki çöpü göstərən uşaq",
+     "p": [
+      "İsa maraqlı bir söz dedi: “Niyə qardaşının gözündəki [[çöp]]ü görürsən, amma öz gözündəki [[tir]]i hiss etmirsən?”",
+      "Başqalarını [[mühakimə etmədən|mühakimə etmək]] əvvəl öz səhvimizə baxmalıyıq."
+     ]
+    },
+    {
+     "b": "Diləyin, axtarın, döyün",
+     "ayə": "Matta 7:7–12",
+     "alt": "Qapını döyən uşaq və çörəklə qapını açan ata",
+     "p": [
+      "“Diləyin, sizə veriləcək. Axtarın, tapacaqsınız. Qapını döyün, sizin üçün açılacaq.”",
+      "“Övladı çörək istəyəndə ona daş verən ata varmı? Səmavi Atanız daha yaxşı şeylər verər.” Və: “İnsanların sizə necə rəftar etməsini istəyirsinizsə, siz də onlara elə rəftar edin.”"
+     ]
+    },
+    {
+     "b": "Dar qapı və yaxşı ağac",
+     "ayə": "Matta 7:13–20",
+     "alt": "Dar qapıdan keçən yol və meyvə ilə dolu ağac",
+     "p": [
+      "“[[Dar qapı]]dan girin. Həyata aparan yol dardır, onu tapanlar azdır.”",
+      "“Yaxşı ağac yaxşı [[bəhrə]] verir.” Sözlərimizə və əməllərimizə baxanda ürəyimizin necə olduğu görünür."
+     ]
+    },
+    {
+     "b": "Qaya üzərindəki ev",
+     "ayə": "Matta 7:24–29",
+     "alt": "Fırtınada qaya üzərində dayanan ev və uçan qum üzərindəki ev",
+     "p": [
+      "“Sözlərimi eşidib onlara əməl edən adam evini [[qaya]] üzərində tikən ağıllı adama bənzəyir. Yağış yağsa, külək əssə də, ev uçmaz.”",
+      "“Sözlərimi eşidib əməl etməyən adam isə evini qum üzərində tikən axmaq adama bənzəyir. O ev uçar.” İnsanlar İsanın [[səlahiyyət]]li təliminə heyran qaldılar."
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "“Diləyin, sizə veriləcək; axtarın, tapacaqsınız; qapını döyün, sizin üçün açılacaq.”",
+    "ref": "7:7",
+    "bos": "___, sizə veriləcək; ___, tapacaqsınız; qapını ___, sizin üçün açılacaq.",
+    "sozler": [
+     "Diləyin",
+     "axtarın",
+     "döyün"
+    ],
+    "yalan": "gözləyin"
+   },
+   "lugat": {
+    "çöp": {
+     "i": "🌾",
+     "x": "티",
+     "m": "Çox kiçik toz və ya taxta qırıntısıdır.",
+     "e": "Dostunun gözündəki çöp."
+    },
+    "tir": {
+     "i": "🪵",
+     "x": "들보",
+     "m": "Evin damını saxlayan çox böyük taxtadır.",
+     "e": "Əvvəlcə öz gözündəki tiri çıxar."
+    },
+    "mühakimə etmək": {
+     "i": "👉",
+     "x": "비판하다",
+     "m": "Başqasının səhvini axtarıb onu pisləməkdir.",
+     "e": "Mühakimə etməyin."
+    },
+    "Dar qapı": {
+     "i": "🚪",
+     "x": "좁은 문",
+     "m": "Girməsi çətin olan kiçik qapıdır. İsanın ardınca getmək yolunu bildirir.",
+     "e": "Dar qapıdan girin."
+    },
+    "bəhrə": {
+     "i": "🍎",
+     "x": "열매",
+     "m": "Ağacın verdiyi meyvədir. İnsanın sözləri və əməlləri də bəhrədir.",
+     "e": "Yaxşı ağac yaxşı bəhrə verir."
+    },
+    "qaya": {
+     "i": "🪨",
+     "x": "반석",
+     "m": "Çox böyük və möhkəm daşdır.",
+     "e": "Qaya üzərində tikilən ev uçmaz."
+    },
+    "səlahiyyət": {
+     "i": "👑",
+     "x": "권위",
+     "m": "Başqalarının tabe olacağı güc və haqdır.",
+     "e": "İsa səlahiyyətlə öyrədirdi."
+    }
+   },
+   "test": [
+    {
+     "q": "Öz gözümüzdəki böyük taxtaya nə deyildi?",
+     "o": [
+      "Tir",
+      "Çöp",
+      "Bəhrə"
+     ],
+     "a": 0,
+     "f": "Düzdür! Əvvəlcə öz səhvimizə baxırıq."
+    },
+    {
+     "q": "Övladı çörək istəyəndə ata nə verər?",
+     "o": [
+      "Çörək",
+      "Daş",
+      "Heç nə"
+     ],
+     "a": 0,
+     "f": "Düzdür! Səmavi Atamız daha yaxşısını verir."
+    },
+    {
+     "q": "Yaxşı ağac nə verir?",
+     "o": [
+      "Yaxşı bəhrə",
+      "Pis bəhrə",
+      "Daş"
+     ],
+     "a": 0,
+     "f": "Düzdür! Əməllərimiz ürəyimizi göstərir."
+    },
+    {
+     "q": "Ağıllı adam evini harada tikdi?",
+     "o": [
+      "Qaya üzərində",
+      "Qum üzərində",
+      "Su üzərində"
+     ],
+     "a": 0,
+     "f": "Düzdür! Kəlamı eşidib əməl edən adamdır."
+    }
+   ],
+   "dusun": [
+    "Dostumuzun səhvi asanlıqla görünür, bəs öz səhvimiz niyə görünmür?",
+    "Allahdan nə diləmək istəyirsən?",
+    "İsanın sözünə “əməl etmək” necə olur?"
+   ],
+   "fealiyyet": {
+    "ciz": "Qaya üzərində möhkəm dayanan evini çək.",
+    "b": "İsanın sözünə necə əməl edəcəksən?",
+    "p": "Bu həftə edəcəyin işi seç.",
+    "ph": "",
+    "secim": {
+     "basliq": "İsanın sözünə necə əməl edəcəksən?",
+     "izah": "Toxun və seç. Bir neçəsini seçə bilərsən.",
+     "cumle": "Mən evimi qaya üzərində tikirəm: {x}!",
+     "bos": "dua edəcəyəm",
+     "bag": "və",
+     "secimler": [
+      [
+       "🙏",
+       "dua edəcəyəm"
+      ],
+      [
+       "📖",
+       "Kəlamı oxuyacağam"
+      ],
+      [
+       "👂",
+       "valideynlərimə qulaq asacağam"
+      ],
+      [
+       "🤐",
+       "dostlarımı pisləməyəcəyəm"
+      ],
+      [
+       "💛",
+       "başqalarına yaxşılıq edəcəyəm"
+      ],
+      [
+       "✅",
+       "doğru danışacağam"
+      ]
+     ]
+    }
+   },
+   "dua": "İsa, başqalarını mühakimə etmədən əvvəl özümə baxmağıma kömək et. Səmavi Atadan diləməyi, axtarmağı və qapını döyməyi öyrət. Sözlərini yalnız eşitməyim, onlara əməl edim və evimi qaya üzərində tikən ağıllı insan olum. İsa Məsihin adı ilə dua edirəm. Amin."
   },
-  "test": [
-   {"q": "7:1-dəki “mühakimə etməyin” nə deməkdir?", "o": ["Özünü kənarda qoyub başqasını məhkum etmə", "Heç vaxt doğru-yanlışı ayırma", "Danışma"], "a": 0, "f": "Düzdür. 7:6 ayırd etməyi tələb edir."},
-   {"q": "“Diləyin, axtarın, döyün” fellərinin qrammatik xüsusiyyəti nədir?", "o": ["Davam etməyi bildirən indiki zaman", "Bir dəfəlik əmr", "Keçmiş zaman"], "a": 0, "f": "Düzdür. Israrlı duadır."},
-   {"q": "Qızıl qaydadan dərhal sonra gələn söz hansıdır?", "o": ["Qanun və peyğəmbərlərin sözləri budur", "Bu böyük sirrdir", "Bu sonuncudur"], "a": 0, "f": "Düzdür. 5:17 ilə cütdür."},
-   {"q": "İsa yalançı peyğəmbərləri necə tanımağı dedi?", "o": ["Bəhrələrindən", "Paltarlarından", "Möcüzələrinin sayından"], "a": 0, "f": "Düzdür. Möcüzədən çox həyat."},
-   {"q": "Evini qaya üzərində tikən kimdir?", "o": ["Kəlamı eşidib əməl edən", "Kəlamı çox bilən", "Böyük evi olan"], "a": 0, "f": "Düzdür. Fərq fırtınada görünür."}
+  "genc": {
+   "basliq": "Eşidib əməl edən",
+   "giris": "Dağüstü vəzin son fəslidir. İsa deyir ki, gözəl sözləri eşidib təsirlənmək kifayət deyil. Sonda sual birdir: sən həyatını bu sözlərin üzərində tikirsənmi?",
+   "meqsed": [
+    "Mühakimə, dua və qızıl qayda təlimini anlayırıq.",
+    "Dağüstü vəzin nəticəsi olan “iki yol, iki ağac, iki ev” quruluşunu izah edə bilirik.",
+    "Eşitdiyimiz bir sözü bu həftə əmələ çevirmək üçün plan qururuq."
+   ],
+   "sehneler": [
+    {
+     "b": "Çöp və tir",
+     "ayə": "Matta 7:1–6",
+     "alt": "Öz gözündə böyük taxta olduğu halda dostunun gözündəki çöpü göstərən uşaq",
+     "p": [
+      "“[[Mühakimə etməyin|mühakimə etmək]] ki, mühakimə olunmayasınız.” Dülgər oğlu olan İsa şişirdilmiş bir şəkil çəkir: gözündə dam tiri olan adam dostunun gözündəki çöpü çıxarmaq istəyir.",
+      "Bu, fərq qoymayın demək deyil. Növbəti ayə “müqəddəs olanı itlərə verməyin” deyir. Problem özünü kənarda qoyub yalnız başqasını ölçən [[ikiüzlülük]]dür."
+     ],
+     "deep": {
+      "b": "Dərindən baxaq · Eyni ölçü",
+      "p": "“Hansı ölçü ilə ölçsəniz, sizə də o ölçü ilə ölçüləcək.” Başqalarına sərt olan insan özü də eyni meyar qarşısında durur. Lütf alan insan başqalarına lütf ölçüsü ilə baxır."
+     }
+    },
+    {
+     "b": "Diləyin, axtarın, döyün",
+     "ayə": "Matta 7:7–12",
+     "alt": "Qapını döyən uşaq və çörəklə qapını açan ata",
+     "p": [
+      "Üç fel də “davamlı olaraq” mənasını verən indiki zamandadır. Diləməyə, axtarmağa və döyməyə davam edin.",
+      "“Siz pis olduğunuz halda övladlarınıza yaxşı şeylər verməyi bilirsinizsə, göylərdə olan Atanız Ondan diləyənlərə nə qədər çox yaxşı şeylər verər!” Sonra Dağüstü vəzin xülasəsi gəlir: [[qızıl qayda]]."
+     ],
+     "deep": {
+      "b": "Dərindən baxaq · Qızıl qayda",
+      "p": "O dövrün ravvisi Hillel “özünə xoş gəlməyəni başqasına etmə” deyə öyrədirdi. İsa bunu müsbət formaya çevirdi: “İnsanların sizə necə rəftar etməsini istəyirsinizsə, siz də onlara elə rəftar edin.” Qaçan məhəbbətdən əvvəlcə yaxınlaşan məhəbbətə."
+     }
+    },
+    {
+     "b": "İki yol və iki ağac",
+     "ayə": "Matta 7:13–23",
+     "alt": "Dar qapıdan keçən yol və meyvə ilə dolu ağac",
+     "p": [
+      "“Dar qapıdan girin. Həlakətə aparan qapı genişdir, yol enlidir və ondan girənlər çoxdur.” Həyat yolu səsvermə ilə müəyyən edilmir.",
+      "Yalançı peyğəmbərlər [[bəhrə]]lərindən tanınır. “Ya Rəbb, ya Rəbb” deyib möcüzələr etsələr də, Səmavi Atanın iradəsinə əməl etməsələr, İsa deyəcək: “Mən sizi heç vaxt tanımamışam.”"
+     ],
+     "deep": {
+      "b": "Dərindən baxaq · Tanımamışam",
+      "p": "Ən qorxulu söz “siz Məni tanımadınız” deyil, “Mən sizi tanımadım” sözüdür. İman dini fəaliyyətlərin siyahısı deyil, İsa ilə münasibətdir.",
+      "rose": true
+     }
+    },
+    {
+     "b": "Qaya üzərindəki ev",
+     "ayə": "Matta 7:24–29",
+     "alt": "Fırtınada qaya üzərində dayanan ev və uçan qum üzərindəki ev",
+     "p": [
+      "Qalileyada quraq mövsümdə quru çay yatağı düz və möhkəm görünürdü. Amma yağış mövsümündə sel birdən gələndə onun üstündəki ev axıb gedirdi.",
+      "İki ev zahirən eyni görünürdü. Fərq yalnız fırtına gələndə üzə çıxır. Eşidib “əməl edən” evini [[qaya]] üzərində tikən adamdır. İzdiham İsanın ilahiyyatçılardan fərqli olaraq [[səlahiyyət]] sahibi kimi öyrətməsinə heyran qaldı."
+     ],
+     "deep": {
+      "b": "Dərindən baxaq · Dağüstü vəzin xülasəsi",
+      "p": "5-ci fəsil bəxtiyarlıq elanı → 5-ci fəsil Qanunun yerinə yetirilməsi → 6-cı fəsil gizli dindarlıq və etimad → 7-ci fəsil münasibətlər və qərar. Dağüstü vəz “belə etsən, xilas olarsan” deyil, “Allahın Padşahlığının xalqı belə yaşayır” xəritəsidir."
+     }
+    }
+   ],
+   "cedvel": {
+    "b": "Dağüstü vəzin nəticəsi: iki yol",
+    "alt": "7:13–27",
+    "bas": [
+     "",
+     "Həyat yolu",
+     "Həlakət yolu"
+    ],
+    "set": [
+     [
+      "Qapı",
+      "Dar qapı, ensiz yol",
+      "Geniş qapı, enli yol"
+     ],
+     [
+      "Ağac",
+      "Yaxşı ağac, yaxşı bəhrə",
+      "Pis ağac, pis bəhrə"
+     ],
+     [
+      "Etiraf",
+      "Atanın iradəsinə əməl edir",
+      "Yalnız “Ya Rəbb, ya Rəbb” deyir"
+     ],
+     [
+      "Ev",
+      "Qaya üzərindəki ev",
+      "Qum üzərindəki ev"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "“Bu sözlərimi eşidib onlara əməl edən hər kəs evini qaya üzərində tikən ağıllı adama bənzəyir.”",
+    "ref": "7:24"
+   },
+   "lugat": {
+    "mühakimə etmək": {
+     "i": "👉",
+     "o": "Yunanca krino, “hökm vermək”",
+     "x": "비판하다",
+     "s": "Başqasını məhkum edən hökm",
+     "m": "Doğru ilə yanlışı ayırmaq deyil, hakim kimi başqasına “günahkar” hökmü çıxarmaqdır.",
+     "e": "Eyni fel “ədalətlə hökm edin” (Yəhya 7:24) üçün də işlənir. Münasibət və məqsəd vacibdir."
+    },
+    "ikiüzlülük": {
+     "i": "🎭",
+     "o": "Yunanca hipokrites",
+     "x": "외식",
+     "s": "Maskalı iman",
+     "m": "6-cı fəsildən sonra yenə gəlir. Öz tirini gizlədib yalnız başqasının çöpünü problem etməkdir.",
+     "e": "“Ey ikiüzlü, əvvəlcə öz gözündəki tiri çıxar.”"
+    },
+    "qızıl qayda": {
+     "i": "🥇",
+     "o": "Latınca Regula Aurea",
+     "x": "황금률",
+     "s": "Dağüstü vəzin xülasəsi",
+     "m": "“İnsanların sizə necə rəftar etməsini istəyirsinizsə, siz də onlara elə rəftar edin. Qanun və peyğəmbərlərin sözləri budur.” 5:17-dəki “Qanun və peyğəmbərlər” ilə cüt təşkil edir.",
+     "e": "Bu adı sonrakı nəsillər verib."
+    },
+    "bəhrə": {
+     "i": "🍎",
+     "o": "Yunanca karpos",
+     "x": "열매",
+     "s": "Həyatda görünən sübut",
+     "m": "Söz deyil, xarakterin və əməlin nəticəsidir. Qalatiyalılara 5:22-dəki “Ruhun bəhrəsi” ilə də bağlıdır.",
+     "e": "“Onları bəhrələrindən tanıyacaqsınız” (7:16, 20)."
+    },
+    "qaya": {
+     "i": "🪨",
+     "o": "Yunanca petra",
+     "x": "반석",
+     "s": "Sarsılmaz təməl",
+     "m": "Torpağı dərin qazanda rast gəlinən möhkəm qayadır. İsanın sözləri bu təməldir.",
+     "e": "Peter (Petros) adı da eyni kökdəndir (16:18)."
+    },
+    "səlahiyyət": {
+     "i": "👑",
+     "o": "Yunanca eksusia",
+     "x": "권위",
+     "s": "Öz ixtiyarı",
+     "m": "İlahiyyatçılar başqa ravvilərin sözlərindən sitat gətirirdi, İsa isə “Mən deyirəm” deyirdi.",
+     "e": "Matta Müjdəsinin sonunda “göydə və yerdə bütün səlahiyyət” İsaya verilir (28:18)."
+    }
+   },
+   "test": [
+    {
+     "q": "7:1-dəki “mühakimə etməyin” nə deməkdir?",
+     "o": [
+      "Özünü kənarda qoyub başqasını məhkum etmə",
+      "Heç vaxt doğru-yanlışı ayırma",
+      "Danışma"
+     ],
+     "a": 0,
+     "f": "Düzdür. 7:6 ayırd etməyi tələb edir."
+    },
+    {
+     "q": "“Diləyin, axtarın, döyün” fellərinin qrammatik xüsusiyyəti nədir?",
+     "o": [
+      "Davam etməyi bildirən indiki zaman",
+      "Bir dəfəlik əmr",
+      "Keçmiş zaman"
+     ],
+     "a": 0,
+     "f": "Düzdür. Israrlı duadır."
+    },
+    {
+     "q": "Qızıl qaydadan dərhal sonra gələn söz hansıdır?",
+     "o": [
+      "Qanun və peyğəmbərlərin sözləri budur",
+      "Bu böyük sirrdir",
+      "Bu sonuncudur"
+     ],
+     "a": 0,
+     "f": "Düzdür. 5:17 ilə cütdür."
+    },
+    {
+     "q": "İsa yalançı peyğəmbərləri necə tanımağı dedi?",
+     "o": [
+      "Bəhrələrindən",
+      "Paltarlarından",
+      "Möcüzələrinin sayından"
+     ],
+     "a": 0,
+     "f": "Düzdür. Möcüzədən çox həyat."
+    },
+    {
+     "q": "Evini qaya üzərində tikən kimdir?",
+     "o": [
+      "Kəlamı eşidib əməl edən",
+      "Kəlamı çox bilən",
+      "Böyük evi olan"
+     ],
+     "a": 0,
+     "f": "Düzdür. Fərq fırtınada görünür."
+    }
+   ],
+   "paylas": [
+    "Mən nə vaxt tez-tez “başqasının çöpünü” görürəm? O an mənim “tirim” nədir?",
+    "Qızıl qaydanı bu gün məktəbdə və ya evdə tətbiq etsəm, bu hansı əməl olar?",
+    "“Dar qapı” indi mənim üçün konkret olaraq hansı seçimdir?",
+    "Dağüstü vəzdə eşitdiyim sözlərdən hansına yalnız “qulaq asıram”?"
+   ],
+   "etiraf": {
+    "b": "Mənim etirafım",
+    "p": "5–7-ci fəsillərdən ən çox yadında qalan bir sözü seç və bu həftə ona necə “əməl edəcəyini” üç-dörd cümlə ilə yaz.",
+    "ph": "Məsələn: Mən “düşmənlərinizi sevin” sözünü seçdim. Bu həftə …"
+   },
+   "dua": "İsa, Dağüstü vəz vasitəsilə Allahın Padşahlığı xalqının həyatını göstərdiyin üçün Sənə şükür edirəm. Başqalarını məhkum etmədən əvvəl öz tirimi görməyimə və Atadan israrla diləməyimə kömək et. Yalnız eşidən deyil, əməl edən olum və həyatımı qaya olan İsanın üzərində tikim. İsa Məsihin adı ilə dua edirəm. Amin."
+  }
+ },
+ "muellim": {
+  "mesaj": "11과의 중심은 한 문장입니다. **산상설교의 결론은 감동이 아니라 결단이다. 예수님 말씀을 듣고 행하는 사람이 반석 위에 삶을 짓는다.**",
+  "hazirliq": [
+   "학생용 교재를 열 휴대폰이나 태블릿, 이어폰",
+   "블록이나 종이컵 (집 쌓기), 쟁반과 모래 조금",
+   "물이 든 컵 (어린이반 폭풍 체험)"
   ],
-  "paylas": ["Mən nə vaxt tez-tez “başqasının çöpünü” görürəm? O an mənim “tirim” nədir?", "Qızıl qaydanı bu gün məktəbdə və ya evdə tətbiq etsəm, bu hansı əməl olar?", "“Dar qapı” indi mənim üçün konkret olaraq hansı seçimdir?", "Dağüstü vəzdə eşitdiyim sözlərdən hansına yalnız “qulaq asıram”?"],
-  "etiraf": {"b": "Mənim etirafım", "p": "5–7-ci fəsillərdən ən çox yadında qalan bir sözü seç və bu həftə ona necə “əməl edəcəyini” üç-dörd cümlə ilə yaz.", "ph": "Məsələn: Mən “düşmənlərinizi sevin” sözünü seçdim. Bu həftə …"},
-  "dua": "İsa, Dağüstü vəz vasitəsilə Allahın Padşahlığı xalqının həyatını göstərdiyin üçün Sənə şükür edirəm. Başqalarını məhkum etmədən əvvəl öz tirimi görməyimə və Atadan israrla diləməyimə kömək et. Yalnız eşidən deyil, əməl edən olum və həyatımı qaya olan İsanın üzərində tikim. İsa Məsihin adı ilə dua edirəm. Amin."
+  "fon": [
+   [
+    "1. 7장의 흐름",
+    "비판(1–6) → 기도(7–11) → 황금률(12) → 두 길·두 나무·두 고백·두 집(13–27) → 무리의 반응(28–29). 12절은 5:17부터 이어진 본론을 마무리하는 요약입니다."
+   ],
+   [
+    "2. 티와 들보",
+    "‘들보’(도코스)는 지붕을 받치는 큰 나무입니다. 목수였던 예수님의 생활 언어이자, 듣는 사람이 웃었을 법한 과장법입니다."
+   ],
+   [
+    "3. 와디",
+    "건기에는 평평한 마른 개울 바닥이 집 짓기 좋은 땅처럼 보입니다. 우기의 갑작스러운 홍수가 모든 것을 쓸어 갑니다. 누가복음 6:48은 ‘깊이 파고’ 반석에 기초를 놓았다고 덧붙입니다."
+   ],
+   [
+    "4. 산상설교 복습",
+    "이번 과로 5–7장이 끝납니다. 팔복, 소금과 빛, 원수 사랑, 주기도문, 걱정하지 말라, 반석 위의 집을 한 번에 정리할 좋은 기회입니다."
+   ],
+   [
+    "5. 7:28 공식",
+    "“예수께서 이 말씀을 마치시매”는 다섯 설교의 끝마다 반복됩니다(11:1; 13:53; 19:1; 26:1). 이어지는 8–9장은 말씀의 권위가 행동(기적)으로 증명되는 부분입니다."
+   ]
+  ],
+  "usaq_plan": [
+   [
+    "5분",
+    "두 집 짓기",
+    "모래 위와 쟁반(반석) 위에 종이컵 집을 짓고 물 붓기",
+    "“어느 집이 무너졌나요? 왜 그럴까요?”"
+   ],
+   [
+    "15분",
+    "장면 1–4 듣고 읽기",
+    "장면마다 듣기, 노란 낱말 누르기",
+    "“들보가 눈에 있으면 어떻게 될까요?” (함께 웃기)"
+   ],
+   [
+    "5분",
+    "외울 말씀",
+    "빈칸 놀이 → 손으로 ‘구하고(두 손 모으기) 찾고(두리번) 두드리기(똑똑)’",
+    ""
+   ],
+   [
+    "5분",
+    "확인 퀴즈",
+    "혼자 풀고 함께 확인",
+    ""
+   ],
+   [
+    "10분",
+    "활동과 기도",
+    "이번 주 행할 일 고르기 → 기도",
+    ""
+   ]
+  ],
+  "genc_plan": [
+   [
+    "5분",
+    "열기",
+    "“좋은 강의를 듣고도 아무것도 안 바뀐 경험이 있나요?”",
+    ""
+   ],
+   [
+    "15분",
+    "장면 1–2",
+    "티와 들보, 계속 구하라, 황금률",
+    ""
+   ],
+   [
+    "10분",
+    "장면 3–4와 두 길 표",
+    "좁은 문, 열매, “내가 너희를 알지 못한다”, 반석 위의 집",
+    "산상설교 5–7장 한눈에 복습"
+   ],
+   [
+    "5분",
+    "확인 문제",
+    "",
+    ""
+   ],
+   [
+    "15분",
+    "나눔과 고백",
+    "나눔 질문 2개 → 행할 말씀 하나 정하기 → 짝 기도",
+    ""
+   ]
+  ],
+  "ipucu_usaq": [
+   "‘좁은 문’을 무섭게 설명하지 마세요. 예수님을 따라가는 특별한 길이라고 말해 주세요.",
+   "모래 놀이 뒤 정리 시간을 꼭 따로 잡으세요.",
+   "‘구하면 다 준다’를 원하는 장난감을 다 받는 것으로 오해하지 않게, ‘좋은 것’을 주신다는 점을 강조하세요."
+  ],
+  "ipucu_genc": [
+   "7:21–23은 구원의 불안을 줄 수 있습니다. 행위로 구원받는다는 것이 아니라 참된 관계는 열매로 드러난다는 뜻임을 설명하세요.",
+   "산상설교를 마치며 학생들이 가장 기억하는 말씀을 돌아가며 말하게 하면 좋은 복습이 됩니다.",
+   "다음 과(8장)부터 예수님의 기적이 시작된다고 예고하세요."
+  ],
+  "suallar": [
+   [
+    "구하면 다 주세요? 저는 기도했는데 안 됐어요.",
+    "하나님은 우리에게 정말 좋은 것을 주세요. 때로는 ‘기다려’나 ‘더 좋은 것’으로 대답하세요.",
+    "7:11은 ‘좋은 것’을 주신다고 해요. 누가복음 11:13은 그것을 ‘성령’이라고 해요. 기도는 자판기가 아니라 아버지와의 관계예요."
+   ],
+   [
+    "친구가 잘못하면 아무 말도 하면 안 돼요?",
+    "말해도 돼요. 먼저 내 잘못을 돌아보고, 사랑하는 마음으로 말하면 돼요.",
+    "예수님은 들보를 뺀 뒤 형제의 티를 빼 주라고 하셨어요(7:5). 침묵이 아니라 겸손한 도움이에요. 18:15도 참고하세요."
+   ],
+   [
+    "교회 다니면 반석 위에 지은 거 아니에요?",
+    "교회에 와서 듣는 것도 좋아요. 그 말씀대로 사는 것이 반석 위에 짓는 거예요.",
+    "두 사람 모두 말씀을 ‘들었어요’. 차이는 행함이에요. 야고보서 1:22도 함께 보세요."
+   ]
+  ]
+ },
+ "ru": {
+  "usaq": {
+   "basliq": "Дом, построенный на камне",
+   "hedef": [
+    "Мы узнаем, что прежде чем судить других, нужно посмотреть на себя.",
+    "Мы научимся просить, искать и стучать в молитве к Богу.",
+    "Мы узнаем, что человек, который слушает слова Иисуса и исполняет их, — благоразумен."
+   ],
+   "sehneler": [
+    {
+     "b": "Бревно в своём глазу",
+     "ayə": "Матфей 7:1–5",
+     "alt": "Ребёнок, у которого в глазу большое бревно, указывает на сучок в глазу друга",
+     "p": [
+      "Иисус сказал интересные слова: «Почему ты видишь [[сучок]] в глазу своего брата, а [[бревно]] в своём глазу не замечаешь?»",
+      "Прежде чем [[судить]] других, мы должны посмотреть на свои собственные ошибки."
+     ]
+    },
+    {
+     "b": "Просите, ищите, стучите",
+     "ayə": "Матфей 7:7–12",
+     "alt": "Ребёнок стучит в дверь, а папа открывает дверь с хлебом в руках",
+     "p": [
+      "«Просите, и дано будет вам; ищите, и найдете; стучите, и отворят вам».",
+      "«Есть ли такой отец, который даст сыну камень, когда тот просит хлеба? Тем более ваш Небесный Отец даст вам самое лучшее». И ещё: «Как хотите, чтобы с вами поступали люди, так и вы поступайте с ними»."
+     ]
+    },
+    {
+     "b": "Тесные врата и хорошее дерево",
+     "ayə": "Матфей 7:13–20",
+     "alt": "Узкая дорога, проходящая через тесные врата, и дерево, полное плодов",
+     "p": [
+      "«Входите через [[тесные врата]]. Потому что тесны врата и узок путь, ведущие в жизнь, и немногие находят их».",
+      "«Всякое хорошее дерево приносит хорошие [[плоды|плод]]». По нашим словам и поступкам видно, какое у нас сердце."
+     ]
+    },
+    {
+     "b": "Дом на камне",
+     "ayə": "Матфей 7:24–29",
+     "alt": "Дом, стоящий на камне во время бури, и разрушающийся дом на песке",
+     "p": [
+      "«Всякого, кто слушает Мои слова и исполняет их, Я сравню с благоразумным человеком, который построил свой дом на [[камне|камень]]. И пошёл дождь, и подул ветер, но дом не упал».",
+      "«А всякий, кто слушает Мои слова и не исполняет их, похож на безрассудного человека, который построил свой дом на песке. И тот дом упал». Люди удивлялись тому, что Иисус учил их со [[властью|власть]]."
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "«Просите, и дано будет вам; ищите, и найдете; стучите, и отворят вам».",
+    "ref": "7:7",
+    "bos": "___, и дано будет вам; ___, и найдете; ___, и отворят вам.",
+    "sozler": [
+     "Просите",
+     "ищите",
+     "стучите"
+    ],
+    "yalan": "ждите"
+   },
+   "lugat": {
+    "сучок": {
+     "i": "🌾",
+     "x": "çöp",
+     "m": "Очень маленькая пылинка или кусочек дерева.",
+     "e": "Сучок в глазу друга."
+    },
+    "бревно": {
+     "i": "🪵",
+     "x": "tir",
+     "m": "Очень большое дерево, которое поддерживает крышу дома.",
+     "e": "Сначала вынь бревно из своего глаза."
+    },
+    "судить": {
+     "i": "👉",
+     "x": "mühakimə etmək",
+     "m": "Искать чужие ошибки и осуждать за них.",
+     "e": "Не судите."
+    },
+    "тесные врата": {
+     "i": "🚪",
+     "x": "Dar qapı",
+     "m": "Маленькая дверь, в которую трудно войти. Это означает путь следования за Иисусом.",
+     "e": "Входите через тесные врата."
+    },
+    "плод": {
+     "i": "🍎",
+     "x": "bəhrə",
+     "m": "То, что вырастает на дереве. Наши слова и поступки — это тоже плоды.",
+     "e": "Хорошее дерево приносит хорошие плоды."
+    },
+    "камень": {
+     "i": "🪨",
+     "x": "qaya",
+     "m": "Очень большой и твёрдый кусок скалы.",
+     "e": "Дом, построенный на камне, не упадёт."
+    },
+    "власть": {
+     "i": "👑",
+     "x": "səlahiyyət",
+     "m": "Сила и право, которым подчиняются другие.",
+     "e": "Иисус учил со властью."
+    }
+   },
+   "test": [
+    {
+     "q": "Как называется большая деревяшка в нашем собственном глазу?",
+     "o": [
+      "Бревно",
+      "Сучок",
+      "Плод"
+     ],
+     "a": 0,
+     "f": "Верно! Сначала мы смотрим на свои ошибки."
+    },
+    {
+     "q": "Что даст отец сыну, когда тот попросит хлеба?",
+     "o": [
+      "Хлеб",
+      "Камень",
+      "Ничего"
+     ],
+     "a": 0,
+     "f": "Верно! Наш Небесный Отец даёт самое лучшее."
+    },
+    {
+     "q": "Что приносит хорошее дерево?",
+     "o": [
+      "Хорошие плоды",
+      "Плохие плоды",
+      "Камни"
+     ],
+     "a": 0,
+     "f": "Верно! Наши поступки показывают наше сердце."
+    },
+    {
+     "q": "Где благоразумный человек построил свой дом?",
+     "o": [
+      "На камне",
+      "На песке",
+      "На воде"
+     ],
+     "a": 0,
+     "f": "Верно! Это тот, кто слушает Слово Божье и исполняет его."
+    }
+   ],
+   "dusun": [
+    "Ошибки друга легко заметить, а почему свои не видно?",
+    "Что ты хочешь попросить у Бога?",
+    "Что значит «исполнять» слова Иисуса?"
+   ],
+   "fealiyyet": {
+    "ciz": "Нарисуй свой дом, который крепко стоит на камне.",
+    "b": "Как ты будешь исполнять слова Иисуса?",
+    "p": "Выбери, что ты сделаешь на этой неделе.",
+    "ph": "",
+    "secim": {
+     "basliq": "Как ты будешь исполнять слова Иисуса?",
+     "izah": "Нажимай и выбирай. Можно выбрать несколько.",
+     "cumle": "Я строю свой дом на камне, поэтому {x}!",
+     "bos": "буду молиться",
+     "bag": "и",
+     "secimler": [
+      [
+       "🙏",
+       "буду молиться"
+      ],
+      [
+       "📖",
+       "буду читать Слово Божье"
+      ],
+      [
+       "👂",
+       "буду слушаться родителей"
+      ],
+      [
+       "🤐",
+       "не буду плохо говорить о друзьях"
+      ],
+      [
+       "💛",
+       "буду делать добро другим"
+      ],
+      [
+       "✅",
+       "буду говорить правду"
+      ]
+     ]
+    }
+   },
+   "dua": "Иисус, помоги мне смотреть на себя, прежде чем судить других. Научи меня просить, искать и стучать к Небесному Отцу. Пусть я не только слушаю Твои слова, но и исполняю их, чтобы быть благоразумным человеком, строящим свой дом на камне. Молюсь во имя Иисуса Христа. Аминь."
+  },
+  "genc": {
+   "basliq": "Слушающий и исполняющий",
+   "giris": "Это последняя глава Нагорной проповеди. Иисус говорит, что недостаточно просто услышать прекрасные слова и впечатлиться. В конце концов, вопрос один: строишь ли ты свою жизнь на этих словах?",
+   "meqsed": [
+    "Мы понимаем учение об осуждении, молитве и золотом правиле.",
+    "Мы можем объяснить структуру «два пути, два дерева, два дома», которая является итогом Нагорной проповеди.",
+    "Мы планируем, как на этой неделе воплотить в жизнь одно из услышанных слов."
+   ],
+   "sehneler": [
+    {
+     "b": "Сучок и бревно",
+     "ayə": "Матфей 7:1–6",
+     "alt": "Ребёнок, у которого в глазу большое бревно, указывает на сучок в глазу друга",
+     "p": [
+      "«Не [[судите|судить]], да не судимы будете». Иисус, будучи сыном плотника, рисует преувеличенную картину: человек с кровельным бревном в глазу хочет вынуть сучок из глаза своего друга.",
+      "Это не значит, что не нужно рассуждать. В следующем стихе сказано: «Не давайте святыни псам». Проблема заключается в [[лицемерии|лицемерие]], когда человек исключает себя и оценивает только других."
+     ],
+     "deep": {
+      "b": "Взгляд вглубь · Та же мера",
+      "p": "«Какою мерою мерите, такою и вам будут мерить». Человек, строгий к другим, сам предстаёт перед тем же стандартом. А тот, кто получил благодать, смотрит на других через призму благодати."
+     }
+    },
+    {
+     "b": "Просите, ищите, стучите",
+     "ayə": "Матфей 7:7–12",
+     "alt": "Ребёнок стучит в дверь, а папа открывает дверь с хлебом в руках",
+     "p": [
+      "Все три глагола стоят в настоящем времени, что означает «постоянно». Продолжайте просить, искать и стучать.",
+      "«Если вы, будучи злы, умеете даяния благие давать детям вашим, тем более Отец ваш Небесный даст блага просящим у Него!» Затем следует суть Нагорной проповеди: [[золотое правило]]."
+     ],
+     "deep": {
+      "b": "Взгляд вглубь · Золотое правило",
+      "p": "Раввин Гиллель, живший в то время, учил: «Не делай другому того, что неприятно тебе». Иисус превратил это в позитивную форму: «Как хотите, чтобы с вами поступали люди, так поступайте и вы с ними». От избегающей любви к любви, которая делает первый шаг."
+     }
+    },
+    {
+     "b": "Два пути и два дерева",
+     "ayə": "Матфей 7:13–23",
+     "alt": "Узкая дорога, проходящая через тесные врата, и дерево, полное плодов",
+     "p": [
+      "«Входите тесными вратами, потому что широки врата и пространен путь, ведущие в погибель, и многие идут ими». Путь жизни не определяется голосованием большинства.",
+      "Лжепророков узнают по их [[плодам|плод]]. Даже если они творят чудеса, говоря «Господи! Господи!», но не исполняют волю Небесного Отца, Иисус скажет им: «Я никогда не знал вас»."
+     ],
+     "deep": {
+      "b": "Взгляд вглубь · Я не знал вас",
+      "p": "Самые страшные слова — это не «вы не знали Меня», а «Я никогда не знал вас». Вера — это не список религиозных дел, а отношения с Иисусом.",
+      "rose": true
+     }
+    },
+    {
+     "b": "Дом на камне",
+     "ayə": "Матфей 7:24–29",
+     "alt": "Дом, стоящий на камне во время бури, и разрушающийся дом на песке",
+     "p": [
+      "В Галилее в сухой сезон русло пересохшей реки казалось ровным и твёрдым. Но когда в сезон дождей внезапно приходил поток воды, дом, стоящий на нём, смывало.",
+      "Внешне два дома выглядели одинаково. Разница становится видна только во время бури. Тот, кто слушает и «исполняет», — это человек, построивший свой дом на [[камне|камень]]. Народ удивлялся тому, что Иисус учил их как имеющий [[власть]], а не как книжники."
+     ],
+     "deep": {
+      "b": "Взгляд вглубь · Итог Нагорной проповеди",
+      "p": "5-я глава: заповеди блаженства → 5-я глава: исполнение Закона → 6-я глава: тайное благочестие и доверие → 7-я глава: отношения и решение. Нагорная проповедь — это не инструкция «делай так, и спасёшься», а карта: «так живёт народ Царства Небесного»."
+     }
+    }
+   ],
+   "cedvel": {
+    "b": "Итог Нагорной проповеди: два пути",
+    "alt": "7:13–27",
+    "bas": [
+     "",
+     "Путь жизни",
+     "Путь погибели"
+    ],
+    "set": [
+     [
+      "Врата",
+      "Тесные врата, узкий путь",
+      "Широкие врата, пространный путь"
+     ],
+     [
+      "Дерево",
+      "Хорошее дерево, хорошие плоды",
+      "Плохое дерево, плохие плоды"
+     ],
+     [
+      "Исповедание",
+      "Исполняет волю Отца",
+      "Говорит только «Господи! Господи!»"
+     ],
+     [
+      "Дом",
+      "Дом на камне",
+      "Дом на песке"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "«Итак всякого, кто слушает слова Мои сии и исполняет их, уподоблю мужу благоразумному, который построил дом свой на камне».",
+    "ref": "7:24"
+   },
+   "lugat": {
+    "судить": {
+     "i": "👉",
+     "o": "Греч. krino, «судить»",
+     "x": "mühakimə etmək",
+     "s": "Осуждающий приговор",
+     "m": "Это не умение отличать правильное от неправильного, а позиция судьи, выносящего другому приговор «виновен».",
+     "e": "Тот же глагол используется во фразе «судите судом праведным» (Иоанн 7:24). Важны отношение и цель."
+    },
+    "лицемерие": {
+     "i": "🎭",
+     "o": "Греч. hypokrites",
+     "x": "ikiüzlülük",
+     "s": "Вера в маске",
+     "m": "Снова упоминается после 6-й главы. Это когда человек прячет своё бревно и делает проблему только из чужого сучка.",
+     "e": "«Лицемер! вынь прежде бревно из твоего глаза»."
+    },
+    "золотое правило": {
+     "i": "🥇",
+     "o": "Лат. Regula Aurea",
+     "x": "qızıl qayda",
+     "s": "Суть Нагорной проповеди",
+     "m": "«Итак во всем, как хотите, чтобы с вами поступали люди, так поступайте и вы с ними, ибо в этом закон и пророки». Это перекликается с фразой «закон и пророки» в 5:17.",
+     "e": "Это название было дано последующими поколениями."
+    },
+    "плод": {
+     "i": "🍎",
+     "o": "Греч. karpos",
+     "x": "bəhrə",
+     "s": "Доказательство, видимое в жизни",
+     "m": "Это не слова, а результат характера и поступков. Также связано с «плодом духа» в Галатам 5:22.",
+     "e": "«По плодам их узнаете их» (7:16, 20)."
+    },
+    "камень": {
+     "i": "🪨",
+     "o": "Греч. petra",
+     "x": "qaya",
+     "s": "Непоколебимое основание",
+     "m": "Твёрдая скала, которую находят, глубоко копая землю. Слова Иисуса — это и есть такое основание.",
+     "e": "Имя Пётр (Petros) происходит от того же корня (16:18)."
+    },
+    "власть": {
+     "i": "👑",
+     "o": "Греч. exousia",
+     "x": "səlahiyyət",
+     "s": "Собственные полномочия",
+     "m": "Книжники цитировали слова других раввинов, а Иисус говорил: «А Я говорю вам».",
+     "e": "В конце Евангелия от Матфея Иисусу дана «всякая власть на небе и на земле» (28:18)."
+    }
+   },
+   "test": [
+    {
+     "q": "Что означает «не судите» в 7:1?",
+     "o": [
+      "Не осуждай других, исключая себя",
+      "Никогда не отличай правильное от неправильного",
+      "Не разговаривай"
+     ],
+     "a": 0,
+     "f": "Верно. Стих 7:6 требует рассудительности."
+    },
+    {
+     "q": "Какова грамматическая особенность глаголов «просите, ищите, стучите»?",
+     "o": [
+      "Настоящее время, обозначающее продолжение",
+      "Единоразовый приказ",
+      "Прошедшее время"
+     ],
+     "a": 0,
+     "f": "Верно. Это настойчивая молитва."
+    },
+    {
+     "q": "Какие слова идут сразу после золотого правила?",
+     "o": [
+      "Ибо в этом закон и пророки",
+      "Это великая тайна",
+      "Это последнее"
+     ],
+     "a": 0,
+     "f": "Верно. Это перекликается с 5:17."
+    },
+    {
+     "q": "Как Иисус сказал узнавать лжепророков?",
+     "o": [
+      "По их плодам",
+      "По их одежде",
+      "По количеству их чудес"
+     ],
+     "a": 0,
+     "f": "Верно. Жизнь важнее чудес."
+    },
+    {
+     "q": "Кто строит свой дом на камне?",
+     "o": [
+      "Тот, кто слушает Слово и исполняет его",
+      "Тот, кто много знает из Слова",
+      "Тот, у кого большой дом"
+     ],
+     "a": 0,
+     "f": "Верно. Разница становится видна во время бури."
+    }
+   ],
+   "paylas": [
+    "В каких ситуациях я часто замечаю «чужой сучок»? Что в этот момент является моим «бревном»?",
+    "Если я применю золотое правило сегодня в школе или дома, какой это будет поступок?",
+    "Что сейчас для меня конкретно означает выбор «тесных врат»?",
+    "Какие из слов, услышанных в Нагорной проповеди, я только «слушаю»?"
+   ],
+   "etiraf": {
+    "b": "Моё исповедание",
+    "p": "Выбери одно слово из 5–7 глав, которое запомнилось тебе больше всего, и напиши в трёх-четырёх предложениях, как ты будешь его «исполнять» на этой неделе.",
+    "ph": "Например: Я выбрал слова «любите врагов ваших». На этой неделе..."
+   },
+   "dua": "Иисус, благодарю Тебя за то, что через Нагорную проповедь Ты показал жизнь народа Царства Небесного. Помоги мне увидеть своё бревно, прежде чем осуждать других, и настойчиво просить у Отца. Пусть я буду не только слушателем, но и исполнителем, чтобы строить свою жизнь на камне, которым являешься Ты. Молюсь во имя Иисуса Христа. Аминь."
+  }
+ },
+ "en": {
+  "usaq": {
+   "basliq": "The House Built on the Rock",
+   "hedef": [
+    "We will learn to look at ourselves before judging others.",
+    "We will learn to ask, seek, and knock when we pray to God.",
+    "We will learn that a person who hears Jesus's words and does them is wise."
+   ],
+   "sehneler": [
+    {
+     "b": "The plank in your own eye",
+     "ayə": "Matthew 7:1–5",
+     "alt": "A child pointing at a speck in a friend's eye while having a large piece of wood in their own eye",
+     "p": [
+      "Jesus said something interesting: 'Why do you see the [[speck]] in your brother's eye, but don't notice the [[plank]] in your own eye?'",
+      "Before we [[judge]] others, we should look at our own mistakes."
+     ]
+    },
+    {
+     "b": "Ask, seek, knock",
+     "ayə": "Matthew 7:7–12",
+     "alt": "A child knocking on a door and a father opening it with bread",
+     "p": [
+      "‘Ask, and it will be given to you. Seek, and you will find. Knock, and it will be opened for you.’",
+      "‘Is there a father who gives his child a stone when he asks for bread? Your heavenly Father gives even better things.’ And: ‘Whatever you desire for people to do to you, you shall also do to them.’"
+     ]
+    },
+    {
+     "b": "The narrow gate and the good tree",
+     "ayə": "Matthew 7:13–20",
+     "alt": "A road passing through a narrow gate and a tree full of fruit",
+     "p": [
+      "‘Enter in by the [[narrow gate]]. The way that leads to life is narrow, and few are those who find it.’",
+      "‘A good tree produces good [[fruit]].’ When we look at our words and actions, we can see what our heart is like."
+     ]
+    },
+    {
+     "b": "The house on the rock",
+     "ayə": "Matthew 7:24–29",
+     "alt": "A house standing on a rock in a storm and a house on sand falling apart",
+     "p": [
+      "‘Everyone who hears my words and does them is like a wise man who built his house on a [[rock]]. Even if it rains and the wind blows, the house won't fall.’",
+      "‘But everyone who hears my words and doesn't do them is like a foolish man who built his house on sand. That house will fall.’ The people were amazed at Jesus's teaching, because he taught with [[authority]]."
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "“Ask, and it will be given to you; seek, and you will find; knock, and it will be opened for you.”",
+    "ref": "7:7",
+    "bos": "___, and it will be given to you; ___, and you will find; ___, and it will be opened for you.",
+    "sozler": [
+     "Ask",
+     "seek",
+     "knock"
+    ],
+    "yalan": "wait"
+   },
+   "lugat": {
+    "speck": {
+     "i": "🌾",
+     "x": "çöp",
+     "m": "A very small piece of dust or wood.",
+     "e": "The speck in your friend's eye."
+    },
+    "plank": {
+     "i": "🪵",
+     "x": "tir",
+     "m": "A very large piece of wood that holds up the roof of a house.",
+     "e": "First remove the plank from your own eye."
+    },
+    "judge": {
+     "i": "👉",
+     "x": "mühakimə etmək",
+     "m": "To look for someone else's mistakes and speak badly about them.",
+     "e": "Do not judge."
+    },
+    "narrow gate": {
+     "i": "🚪",
+     "x": "Dar qapı",
+     "m": "A small door that is hard to enter. It represents the path of following Jesus.",
+     "e": "Enter in by the narrow gate."
+    },
+    "fruit": {
+     "i": "🍎",
+     "x": "bəhrə",
+     "m": "What grows on a tree. A person's words and actions are also their fruit.",
+     "e": "A good tree produces good fruit."
+    },
+    "rock": {
+     "i": "🪨",
+     "x": "qaya",
+     "m": "A very large and solid stone.",
+     "e": "The house built on the rock won't fall."
+    },
+    "authority": {
+     "i": "👑",
+     "x": "səlahiyyət",
+     "m": "The power and right that makes others obey.",
+     "e": "Jesus taught with authority."
+    }
+   },
+   "test": [
+    {
+     "q": "What was the large piece of wood in our own eye called?",
+     "o": [
+      "Plank",
+      "Speck",
+      "Fruit"
+     ],
+     "a": 0,
+     "f": "Correct! We look at our own mistakes first."
+    },
+    {
+     "q": "What does a father give when his child asks for bread?",
+     "o": [
+      "Bread",
+      "A stone",
+      "Nothing"
+     ],
+     "a": 0,
+     "f": "Correct! Our heavenly Father gives even better things."
+    },
+    {
+     "q": "What does a good tree produce?",
+     "o": [
+      "Good fruit",
+      "Bad fruit",
+      "Stones"
+     ],
+     "a": 0,
+     "f": "Correct! Our actions show our heart."
+    },
+    {
+     "q": "Where did the wise man build his house?",
+     "o": [
+      "On a rock",
+      "On sand",
+      "On water"
+     ],
+     "a": 0,
+     "f": "Correct! This is the person who hears the Word and does it."
+    }
+   ],
+   "dusun": [
+    "Why is it easy to see our friend's mistake, but hard to see our own?",
+    "What do you want to ask God for?",
+    "What does it look like to 'do' Jesus's words?"
+   ],
+   "fealiyyet": {
+    "ciz": "Draw your house standing firm on a rock.",
+    "b": "How will you do Jesus's words?",
+    "p": "Choose what you will do this week.",
+    "ph": "",
+    "secim": {
+     "basliq": "How will you do Jesus's words?",
+     "izah": "Tap to choose. You can choose more than one.",
+     "cumle": "I am building my house on the rock: {x}!",
+     "bos": "I will pray",
+     "bag": "and",
+     "secimler": [
+      [
+       "🙏",
+       "I will pray"
+      ],
+      [
+       "📖",
+       "I will read the Word"
+      ],
+      [
+       "👂",
+       "I will listen to my parents"
+      ],
+      [
+       "🤐",
+       "I won't speak badly about my friends"
+      ],
+      [
+       "💛",
+       "I will do good to others"
+      ],
+      [
+       "✅",
+       "I will tell the truth"
+      ]
+     ]
+    }
+   },
+   "dua": "Jesus, help me to look at myself before judging others. Teach me to ask, seek, and knock when I pray to the heavenly Father. Let me not only hear your words, but do them, so I can be a wise person who builds their house on the rock. I pray in the name of Jesus Christ. Amen."
+  },
+  "genc": {
+   "basliq": "Hearing and Doing",
+   "giris": "This is the final chapter of the Sermon on the Mount. Jesus says that just hearing beautiful words and being moved by them is not enough. In the end, there is only one question: are you building your life on these words?",
+   "meqsed": [
+    "We understand the teachings on judging, prayer, and the Golden Rule.",
+    "We can explain the 'two paths, two trees, two houses' structure, which is the conclusion of the Sermon on the Mount.",
+    "We will make a plan to turn a word we have heard into action this week."
+   ],
+   "sehneler": [
+    {
+     "b": "The speck and the plank",
+     "ayə": "Matthew 7:1–6",
+     "alt": "A child pointing at a speck in a friend's eye while having a large piece of wood in their own eye",
+     "p": [
+      "‘Don't [[judge]], so that you won't be judged.’ Jesus, the son of a carpenter, paints an exaggerated picture: a man with a roof plank in his eye wants to take the speck out of his friend's eye.",
+      "This doesn't mean we shouldn't use discernment. The very next verse says, ‘Don't give that which is holy to the dogs.’ The problem is [[hypocrisy]], where a person ignores their own faults and only measures others."
+     ],
+     "deep": {
+      "b": "Looking Deeper · The same measure",
+      "p": "‘With whatever measure you measure, it will be measured to you.’ A person who is harsh to others will stand before the same standard. A person who has received grace looks at others through the measure of grace."
+     }
+    },
+    {
+     "b": "Ask, seek, knock",
+     "ayə": "Matthew 7:7–12",
+     "alt": "A child knocking on a door and a father opening it with bread",
+     "p": [
+      "All three verbs are in a present tense that implies ‘continuously.’ Keep asking, keep seeking, and keep knocking.",
+      "‘If you then, being evil, know how to give good gifts to your children, how much more will your Father who is in heaven give good things to those who ask him!’ Then comes the summary of the Sermon on the Mount: the [[Golden Rule]]."
+     ],
+     "deep": {
+      "b": "Looking Deeper · The Golden Rule",
+      "p": "Rabbi Hillel of that time taught, ‘Do not do to others what is hateful to you.’ Jesus turned this into a positive command: ‘Whatever you desire for people to do to you, you shall also do to them.’ It shifts from an avoiding love to a proactive, approaching love."
+     }
+    },
+    {
+     "b": "Two paths and two trees",
+     "ayə": "Matthew 7:13–23",
+     "alt": "A road passing through a narrow gate and a tree full of fruit",
+     "p": [
+      "‘Enter in by the narrow gate; for wide is the gate and broad is the way that leads to destruction, and many are those who enter in by it.’ The path of life is not determined by a popularity vote.",
+      "False prophets are known by their [[fruit]]. Even if they say ‘Lord, Lord’ and perform miracles, if they don't do the will of the Heavenly Father, Jesus will say: ‘I never knew you.’"
+     ],
+     "deep": {
+      "b": "Looking Deeper · I never knew you",
+      "p": "The most terrifying phrase is not ‘you didn't know Me,’ but ‘I didn't know you.’ Faith is not a checklist of religious activities; it is a relationship with Jesus.",
+      "rose": true
+     }
+    },
+    {
+     "b": "The house on the rock",
+     "ayə": "Matthew 7:24–29",
+     "alt": "A house standing on a rock in a storm and a house on sand falling apart",
+     "p": [
+      "In Galilee, during the dry season, a dry riverbed looked flat and solid. But when the sudden floods came in the rainy season, a house built on it would be washed away.",
+      "The two houses looked identical on the outside. The difference only became apparent when the storm hit. The one who hears and ‘does’ is the person who builds their house on the [[rock]]. The crowds were astonished that Jesus taught with [[authority]], unlike the teachers of the law."
+     ],
+     "deep": {
+      "b": "Looking Deeper · Summary of the Sermon on the Mount",
+      "p": "Chapter 5 Beatitudes → Chapter 5 Fulfillment of the Law → Chapter 6 Secret piety and trust → Chapter 7 Relationships and decision. The Sermon on the Mount is not a ‘do this and you will be saved’ manual, but a map showing ‘this is how the people of the kingdom of heaven live.’"
+     }
+    }
+   ],
+   "cedvel": {
+    "b": "Conclusion of the Sermon on the Mount: Two Paths",
+    "alt": "7:13–27",
+    "bas": [
+     "",
+     "The path of life",
+     "The path of destruction"
+    ],
+    "set": [
+     [
+      "Gate",
+      "Narrow gate, narrow way",
+      "Wide gate, broad way"
+     ],
+     [
+      "Tree",
+      "Good tree, good fruit",
+      "Bad tree, bad fruit"
+     ],
+     [
+      "Confession",
+      "Does the Father's will",
+      "Only says 'Lord, Lord'"
+     ],
+     [
+      "House",
+      "House on the rock",
+      "House on the sand"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "“Everyone therefore who hears these words of mine, and does them, I will liken him to a wise man, who built his house on a rock.”",
+    "ref": "7:24"
+   },
+   "lugat": {
+    "judge": {
+     "i": "👉",
+     "o": "Greek krino, 'to judge'",
+     "x": "mühakimə etmək",
+     "s": "A condemning judgment of others",
+     "m": "It is not about discerning right from wrong, but acting like a judge and pronouncing someone 'guilty.'",
+     "e": "The same verb is used for 'judge with righteous judgment' (John 7:24). Attitude and purpose are important."
+    },
+    "hypocrisy": {
+     "i": "🎭",
+     "o": "Greek hypokrites",
+     "x": "ikiüzlülük",
+     "s": "Masked faith",
+     "m": "It appears again after chapter 6. It is hiding your own plank and only making an issue of someone else's speck.",
+     "e": "‘You hypocrite! First remove the plank out of your own eye.’"
+    },
+    "Golden Rule": {
+     "i": "🥇",
+     "o": "Latin Regula Aurea",
+     "x": "qızıl qayda",
+     "s": "Summary of the Sermon on the Mount",
+     "m": "‘Whatever you desire for people to do to you, you shall also do to them; for this is the law and the prophets.’ It pairs with ‘the law or the prophets’ in 5:17.",
+     "e": "This name was given by later generations."
+    },
+    "fruit": {
+     "i": "🍎",
+     "o": "Greek karpos",
+     "x": "bəhrə",
+     "s": "Visible evidence in life",
+     "m": "It is not words, but the result of character and actions. It is also connected to the 'fruit of the Spirit' in Galatians 5:22.",
+     "e": "‘By their fruits you will know them’ (7:16, 20)."
+    },
+    "rock": {
+     "i": "🪨",
+     "o": "Greek petra",
+     "x": "qaya",
+     "s": "Unshakable foundation",
+     "m": "It is the solid bedrock found when digging deep into the ground. Jesus's words are this foundation.",
+     "e": "The name Peter (Petros) comes from the same root (16:18)."
+    },
+    "authority": {
+     "i": "👑",
+     "o": "Greek exousia",
+     "x": "səlahiyyət",
+     "s": "Inherent power",
+     "m": "The teachers of the law quoted other rabbis, but Jesus said, ‘I tell you.’",
+     "e": "At the end of the Gospel of Matthew, ‘all authority in heaven and on earth’ is given to Jesus (28:18)."
+    }
+   },
+   "test": [
+    {
+     "q": "What does 'don't judge' in 7:1 mean?",
+     "o": [
+      "Don't ignore yourself and condemn others",
+      "Never discern right from wrong",
+      "Don't speak"
+     ],
+     "a": 0,
+     "f": "Correct. 7:6 requires discernment."
+    },
+    {
+     "q": "What is the grammatical feature of the verbs 'ask, seek, knock'?",
+     "o": [
+      "Present tense indicating continuous action",
+      "A one-time command",
+      "Past tense"
+     ],
+     "a": 0,
+     "f": "Correct. It is persistent prayer."
+    },
+    {
+     "q": "What phrase comes right after the Golden Rule?",
+     "o": [
+      "For this is the law and the prophets",
+      "This is a great mystery",
+      "This is the last one"
+     ],
+     "a": 0,
+     "f": "Correct. It pairs with 5:17."
+    },
+    {
+     "q": "How did Jesus say to recognize false prophets?",
+     "o": [
+      "By their fruits",
+      "By their clothes",
+      "By the number of their miracles"
+     ],
+     "a": 0,
+     "f": "Correct. It's about life more than miracles."
+    },
+    {
+     "q": "Who is the one who builds their house on the rock?",
+     "o": [
+      "The one who hears the Word and does it",
+      "The one who knows the Word well",
+      "The one with a big house"
+     ],
+     "a": 0,
+     "f": "Correct. The difference is seen in the storm."
+    }
+   ],
+   "paylas": [
+    "When do I often see 'someone else's speck'? What is my 'plank' in that moment?",
+    "If I apply the Golden Rule at school or home today, what action would that be?",
+    "What specific choice is the 'narrow gate' for me right now?",
+    "Which of the words I heard in the Sermon on the Mount am I only 'listening to'?"
+   ],
+   "etiraf": {
+    "b": "My Confession",
+    "p": "Choose one word that you remember most from chapters 5–7, and write in three or four sentences how you will 'do' it this week.",
+    "ph": "For example: I chose the phrase 'love your enemies.' This week..."
+   },
+   "dua": "Jesus, thank You for showing the life of the people of the kingdom of heaven through the Sermon on the Mount. Help me to see my own plank before condemning others, and to persistently ask the Father. Let me not be just a hearer, but a doer, and build my life on Jesus, the rock. I pray in the name of Jesus Christ. Amen."
+  }
  }
-},
-"muellim": {
- "mesaj": "11과의 중심은 한 문장입니다. **산상설교의 결론은 감동이 아니라 결단이다. 예수님 말씀을 듣고 행하는 사람이 반석 위에 삶을 짓는다.**",
- "hazirliq": ["학생용 교재를 열 휴대폰이나 태블릿, 이어폰", "블록이나 종이컵 (집 쌓기), 쟁반과 모래 조금", "물이 든 컵 (어린이반 폭풍 체험)"],
- "fon": [
-  ["1. 7장의 흐름", "비판(1–6) → 기도(7–11) → 황금률(12) → 두 길·두 나무·두 고백·두 집(13–27) → 무리의 반응(28–29). 12절은 5:17부터 이어진 본론을 마무리하는 요약입니다."],
-  ["2. 티와 들보", "‘들보’(도코스)는 지붕을 받치는 큰 나무입니다. 목수였던 예수님의 생활 언어이자, 듣는 사람이 웃었을 법한 과장법입니다."],
-  ["3. 와디", "건기에는 평평한 마른 개울 바닥이 집 짓기 좋은 땅처럼 보입니다. 우기의 갑작스러운 홍수가 모든 것을 쓸어 갑니다. 누가복음 6:48은 ‘깊이 파고’ 반석에 기초를 놓았다고 덧붙입니다."],
-  ["4. 산상설교 복습", "이번 과로 5–7장이 끝납니다. 팔복, 소금과 빛, 원수 사랑, 주기도문, 걱정하지 말라, 반석 위의 집을 한 번에 정리할 좋은 기회입니다."],
-  ["5. 7:28 공식", "“예수께서 이 말씀을 마치시매”는 다섯 설교의 끝마다 반복됩니다(11:1; 13:53; 19:1; 26:1). 이어지는 8–9장은 말씀의 권위가 행동(기적)으로 증명되는 부분입니다."]
- ],
- "usaq_plan": [
-  ["5분", "두 집 짓기", "모래 위와 쟁반(반석) 위에 종이컵 집을 짓고 물 붓기", "“어느 집이 무너졌나요? 왜 그럴까요?”"],
-  ["15분", "장면 1–4 듣고 읽기", "장면마다 듣기, 노란 낱말 누르기", "“들보가 눈에 있으면 어떻게 될까요?” (함께 웃기)"],
-  ["5분", "외울 말씀", "빈칸 놀이 → 손으로 ‘구하고(두 손 모으기) 찾고(두리번) 두드리기(똑똑)’", ""],
-  ["5분", "확인 퀴즈", "혼자 풀고 함께 확인", ""],
-  ["10분", "활동과 기도", "이번 주 행할 일 고르기 → 기도", ""]
- ],
- "genc_plan": [
-  ["5분", "열기", "“좋은 강의를 듣고도 아무것도 안 바뀐 경험이 있나요?”", ""],
-  ["15분", "장면 1–2", "티와 들보, 계속 구하라, 황금률", ""],
-  ["10분", "장면 3–4와 두 길 표", "좁은 문, 열매, “내가 너희를 알지 못한다”, 반석 위의 집", "산상설교 5–7장 한눈에 복습"],
-  ["5분", "확인 문제", "", ""],
-  ["15분", "나눔과 고백", "나눔 질문 2개 → 행할 말씀 하나 정하기 → 짝 기도", ""]
- ],
- "ipucu_usaq": ["‘좁은 문’을 무섭게 설명하지 마세요. 예수님을 따라가는 특별한 길이라고 말해 주세요.", "모래 놀이 뒤 정리 시간을 꼭 따로 잡으세요.", "‘구하면 다 준다’를 원하는 장난감을 다 받는 것으로 오해하지 않게, ‘좋은 것’을 주신다는 점을 강조하세요."],
- "ipucu_genc": ["7:21–23은 구원의 불안을 줄 수 있습니다. 행위로 구원받는다는 것이 아니라 참된 관계는 열매로 드러난다는 뜻임을 설명하세요.", "산상설교를 마치며 학생들이 가장 기억하는 말씀을 돌아가며 말하게 하면 좋은 복습이 됩니다.", "다음 과(8장)부터 예수님의 기적이 시작된다고 예고하세요."],
- "suallar": [
-  ["구하면 다 주세요? 저는 기도했는데 안 됐어요.", "하나님은 우리에게 정말 좋은 것을 주세요. 때로는 ‘기다려’나 ‘더 좋은 것’으로 대답하세요.", "7:11은 ‘좋은 것’을 주신다고 해요. 누가복음 11:13은 그것을 ‘성령’이라고 해요. 기도는 자판기가 아니라 아버지와의 관계예요."],
-  ["친구가 잘못하면 아무 말도 하면 안 돼요?", "말해도 돼요. 먼저 내 잘못을 돌아보고, 사랑하는 마음으로 말하면 돼요.", "예수님은 들보를 뺀 뒤 형제의 티를 빼 주라고 하셨어요(7:5). 침묵이 아니라 겸손한 도움이에요. 18:15도 참고하세요."],
-  ["교회 다니면 반석 위에 지은 거 아니에요?", "교회에 와서 듣는 것도 좋아요. 그 말씀대로 사는 것이 반석 위에 짓는 거예요.", "두 사람 모두 말씀을 ‘들었어요’. 차이는 행함이에요. 야고보서 1:22도 함께 보세요."]
- ]
-}
 }

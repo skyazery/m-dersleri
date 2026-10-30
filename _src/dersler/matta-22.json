@@ -1,155 +1,1243 @@
 {
-"no": 22, "ref": "17:1–27", "deq": {"usaq": 40, "genc": 50},
-"img": ["24-suret-deyisme.jpg", "matta/22-qalxin.jpg", "matta/22-oglan.jpg", "matta/22-sikke.jpg"],
-"hero": 0,
-"ko": {
- "usaq": {
-  "basliq": "그의 말을 들으라",
-  "hedef": ["높은 산에서 예수님의 모습이 빛나게 변한 이야기를 알아요.", "하나님이 “예수님의 말을 들으라”고 하셨음을 배워요.", "겨자씨만 한 믿음도 귀하다는 것을 배워요."],
-  "sehneler": [
-   {"b": "해처럼 빛나신 예수님", "ayə": "17:1–5", "alt": "높은 산에서 빛나는 모습으로 변하신 예수님", "p": ["예수님이 베드로, 야고보, 요한을 데리고 높은 산에 올라가셨어요. 그때 예수님의 얼굴이 해처럼 빛나고 옷이 빛처럼 하얗게 [[변화]]되었어요.", "모세와 [[엘리야]]가 나타나 예수님과 이야기했어요. 그때 빛나는 구름 속에서 하나님의 목소리가 들렸어요. “이는 내 사랑하는 아들이요 내가 기뻐하는 자니 너희는 그의 말을 들으라!”"]},
-   {"b": "일어나라, 두려워하지 말라", "ayə": "17:6–13", "alt": "엎드린 제자들을 어루만지며 일으키시는 예수님", "p": ["제자들은 너무 무서워서 땅에 엎드렸어요. 예수님이 오셔서 그들을 [[어루만지시며|어루만지다]] 말씀하셨어요. “일어나라. 두려워하지 말라.”", "제자들이 눈을 들어 보니 예수님만 계셨어요. 하나님은 무서운 분이 아니라 예수님을 통해 우리에게 다가오세요."]},
-   {"b": "아픈 아이를 고치셨어요", "ayə": "17:14–21", "alt": "아픈 아들을 고쳐 주시는 예수님과 기뻐하는 아버지", "p": ["산 아래에서 한 아버지가 예수님께 무릎 꿇었어요. “주님, 제 아들을 불쌍히 여겨 주세요. 자꾸 불과 물에 넘어져요.” 제자들은 고치지 못했어요.", "예수님이 아이를 고쳐 주셨어요. 그리고 말씀하셨어요. “너희에게 [[겨자씨]]만 한 믿음이 있으면 이 산더러 옮겨지라 해도 옮겨질 것이다.”"]},
-   {"b": "물고기 입 속의 동전", "ayə": "17:24–27", "alt": "물고기 입에서 동전을 꺼내는 베드로", "p": ["성전 [[세금]]을 걷는 사람들이 베드로에게 물었어요. “너희 선생님은 세금을 안 내느냐?”", "예수님이 말씀하셨어요. “바다에 가서 낚시를 던져라. 처음 잡힌 물고기 입을 열면 동전이 있을 거야. 그것으로 내 것과 네 것을 내라.” 베드로가 정말로 동전을 찾았어요!"]}
-  ],
-  "aye": {"metn": "“이는 내 사랑하는 아들이요 내가 기뻐하는 자니 너희는 그의 말을 들으라.”", "ref": "17:5", "bos": "이는 내 사랑하는 ___이요 내가 ___하는 자니 너희는 그의 말을 ___.", "sozler": ["아들", "기뻐", "들으라"], "yalan": "잊으라"},
-  "lugat": {
-   "변화": {"i": "✨", "x": "görünüşü dəyişmək", "m": "모습이 완전히 바뀌는 거예요. 예수님의 하나님다운 영광이 보였어요.", "e": "예수님의 모습이 빛나게 변화되었어요."},
-   "엘리야": {"i": "🔥", "x": "İlyas", "m": "구약의 위대한 선지자예요. 불 수레를 타고 하늘로 올라갔어요.", "e": "모세와 엘리야가 나타났어요."},
-   "어루만지다": {"i": "🤲", "x": "toxunmaq", "m": "손으로 부드럽게 만지는 거예요.", "e": "예수님이 제자들을 어루만지셨어요."},
-   "겨자씨": {"i": "🌱", "x": "xardal toxumu", "m": "아주 작은 씨예요.", "e": "겨자씨만 한 믿음."},
-   "세금": {"i": "🪙", "x": "vergi", "m": "나라나 성전을 위해 내는 돈이에요.", "e": "성전 세금을 냈어요."}
-  },
-  "test": [
-   {"q": "산에서 예수님의 얼굴은 어떻게 되었나요?", "o": ["해처럼 빛났어요", "슬퍼 보였어요", "까맣게 변했어요"], "a": 0, "f": "맞아요! 하나님의 영광이 보였어요."},
-   {"q": "구름 속에서 하나님이 하신 말씀은?", "o": ["그의 말을 들으라", "산에서 내려가라", "집을 지어라"], "a": 0, "f": "맞아요! 예수님의 말씀을 들어요."},
-   {"q": "예수님이 엎드린 제자들에게 하신 말씀은?", "o": ["일어나라, 두려워하지 말라", "더 엎드려 있어라", "집에 가라"], "a": 0, "f": "맞아요! 다정하게 일으켜 주셨어요."},
-   {"q": "베드로는 동전을 어디에서 찾았나요?", "o": ["물고기 입 속", "모래 속", "가방 속"], "a": 0, "f": "맞아요! 놀라운 방법으로 채워 주셨어요."}
-  ],
-  "dusun": ["하나님이 “그의 말을 들으라” 하셨는데, 나는 예수님 말씀을 언제 듣나요?", "무서울 때 예수님이 “일어나라, 두려워하지 말라” 하시면 어떤 기분일까요?", "겨자씨만 한 작은 믿음도 귀한 이유는 무엇일까요?"],
-  "fealiyyet": {"ciz": "산 위에서 해처럼 빛나시는 예수님을 그려 보세요.", "b": "예수님 말씀을 듣는 시간", "p": "예수님 말씀을 듣기 위해 할 일을 써 보세요.", "ph": "예) 자기 전에 성경 한 구절을 읽을래요."},
-  "dua": "하나님, 예수님이 하나님의 사랑하는 아들이심을 보여 주셔서 감사합니다. 예수님의 말씀을 잘 듣는 사람이 되게 해 주세요. 무서울 때 “일어나라, 두려워하지 말라” 하시는 예수님을 기억하고, 작은 믿음이라도 예수님께 드리게 해 주세요. 예수님 이름으로 기도합니다. 아멘."
+ "no": 22,
+ "ref": "17:1–27",
+ "deq": {
+  "usaq": 40,
+  "genc": 50
  },
- "genc": {
-  "basliq": "산 위의 영광, 산 아래의 현실",
-  "giris": "십자가를 예고하신 지 엿새 후, 예수님은 세 제자에게 잠시 커튼을 걷어 보여 주십니다. 이분이 누구신지를. 그런데 영광의 산에서 내려오자 귀신 들린 아이와 실패한 제자들이 기다리고 있었습니다. 신앙은 그 두 곳을 오가는 일입니다.",
-  "meqsed": ["변화산 사건에서 예수님의 정체와 율법·선지자와의 관계를 이해해요.", "산 아래의 실패와 ‘겨자씨 믿음’의 의미를 설명할 수 있어요.", "‘그의 말을 들으라’를 일상에서 실천할 방법을 정해요."],
-  "sehneler": [
-   {"b": "커튼이 걷히다", "ayə": "17:1–5", "alt": "높은 산에서 빛나는 모습으로 변하신 예수님", "p": ["예수님의 모습이 [[변형]]되어 얼굴이 해같이 빛나고 옷이 빛과 같이 희어졌어요. 모세(율법)와 엘리야(선지자)가 함께 나타나 예수님과 대화했어요. 구약 전체가 예수님을 가리킨다는 그림이에요.", "베드로는 초막 셋을 짓겠다고 했어요. 그 순간 빛난 구름이 덮고 음성이 들렸어요. “이는 내 사랑하는 아들이요 내가 기뻐하는 자니 너희는 그의 말을 들으라.” 3:17 세례 때의 음성에 한마디가 더해졌어요. “들으라.”"], "deep": {"b": "깊이 보기 · 시내산과 변화산", "p": "‘엿새 후’, ‘높은 산’, ‘빛나는 얼굴’, ‘구름’, ‘음성’은 모두 출애굽기 24장과 34장의 모세 이야기를 떠올리게 해요. 모세는 하나님의 영광을 반사했지만, 예수님은 그 영광 자체이세요."}},
-   {"b": "예수 외에는 아무도", "ayə": "17:6–13", "alt": "엎드린 제자들을 어루만지며 일으키시는 예수님", "p": ["제자들은 두려워 엎드렸어요. 예수님이 나아와 [[손을 대시며|손을 대다]] “일어나라, 두려워하지 말라” 하셨어요. 눈을 들어 보니 “예수 외에는 아무도 보이지 아니하더라.” 모세도 엘리야도 사라지고 예수님만 남으셨어요.", "내려오는 길에 제자들은 엘리야가 먼저 온다는 예언을 물었어요. 예수님은 세례 요한이 바로 그 엘리야였고, 사람들이 그를 알아보지 못했듯 인자도 고난받을 것이라고 하세요."], "deep": {"b": "깊이 보기 · 왜 아무에게도 말하지 말라고?", "p": "부활 전까지는 영광만 말하면 오해를 낳아요. 사람들은 십자가 없는 영광의 메시아를 원했으니까요. 변화산의 영광은 십자가를 통과해서만 온전히 이해돼요."}},
-   {"b": "산 아래의 실패", "ayə": "17:14–21", "alt": "아픈 아들을 고쳐 주시는 예수님과 기뻐하는 아버지", "p": ["산 아래에는 간질로 고통받는 아들과, 고치지 못한 제자들이 있었어요. 10:1에서 권능을 받았는데도 실패했어요. 예수님은 “믿음이 없고 패역한 세대여” 하시며 아이를 고치셨어요.", "제자들이 이유를 묻자 “너희 믿음이 작은 까닭이니라” 하시며 “[[겨자씨]] 한 알만 한 믿음이 있으면 이 산더러 여기서 저기로 옮겨지라 하여도 옮겨질 것이요” 하셨어요. 문제는 믿음의 크기가 아니라 믿음의 대상이에요."], "deep": {"b": "깊이 보기 · 작은 믿음 vs 겨자씨 믿음", "p": "‘작은 믿음’(올리고피스티아)은 의심과 섞인 흔들리는 믿음이에요. ‘겨자씨 믿음’은 작아도 살아 있어서 하나님께 온전히 기대는 믿음이에요. 작은 씨에 생명이 있듯, 작아도 진짜면 돼요.", "rose": true}},
-   {"b": "아들들은 자유롭다", "ayə": "17:22–27", "alt": "물고기 입에서 동전을 꺼내는 베드로", "p": ["예수님은 두 번째로 죽음과 부활을 예고하세요. 제자들은 “매우 근심”했어요. 이어서 성전세 이야기가 나와요. 20세 이상 유대 남자는 매년 반 세겔(두 드라크마)의 [[성전세]]를 냈어요.", "예수님은 “왕의 아들들은 세를 내지 않는다”고 하세요. 성전의 주인이신 하나님의 아들은 낼 필요가 없어요. 그래도 “그들이 실족하지 않게” 내라고 하시며 물고기 입에서 한 세겔을 찾게 하셨어요. 권리보다 사랑을 택하셨어요."], "deep": {"b": "깊이 보기 · 실족하지 않게", "p": "자유가 있어도 다른 사람을 넘어지게 하지 않으려고 그 자유를 내려놓는 것, 그것이 예수님의 방식이에요. 바울도 같은 원칙을 말해요(고전 8:13; 롬 14:21)."}}
-  ],
-  "cedvel": {"b": "변화산의 등장인물", "alt": "17:1–8", "bas": ["누구", "상징", "의미"], "set": [["모세", "율법", "율법이 예수님을 가리킴"], ["엘리야", "선지자", "선지자들이 예수님을 기다림"], ["베드로·야고보·요한", "증인", "영광을 보고 나중에 증언함(벧후 1:16–18)"], ["구름과 음성", "하나님의 임재", "“그의 말을 들으라”"], ["예수님만", "완성", "율법과 선지자가 사라지고 예수님만 남음"]]},
-  "aye": {"metn": "“말할 때에 홀연히 빛난 구름이 그들을 덮으며 구름 속에서 소리가 나서 이르시되 이는 내 사랑하는 아들이요 내가 기뻐하는 자니 너희는 그의 말을 들으라 하시는지라.”", "ref": "17:5"},
-  "lugat": {
-   "변형": {"i": "✨", "o": "헬라어 메타모르포오", "x": "görünüşü dəyişmək", "s": "속의 본질이 겉으로 드러남", "m": "‘메타모포시스’(변태)의 어원이에요. 겉모습이 바뀐 것이 아니라 감춰져 있던 하나님의 영광이 드러난 거예요.", "e": "로마서 12:2 “마음을 새롭게 함으로 변화를 받아”에도 같은 동사가 쓰였어요."},
-   "손을 대다": {"i": "🤲", "o": "헬라어 하프토마이", "x": "toxunmaq", "s": "회복의 손길", "m": "나병 환자(8:3), 열병(8:15), 눈먼 자(9:29)를 고치실 때 쓰인 같은 동사예요.", "e": "영광의 순간에도 예수님은 두려워하는 사람을 먼저 만지세요."},
-   "겨자씨": {"i": "🌱", "o": "헬라어 코코스 시나페오스", "x": "xardal toxumu", "s": "작지만 살아 있는 믿음", "m": "13:31의 겨자씨 비유와 연결돼요. 하나님 나라도 믿음도 작게 시작해요.", "e": "누가복음 17:6에도 비슷한 말씀이 있어요."},
-   "성전세": {"i": "🪙", "o": "헬라어 디드라크몬", "x": "məbəd vergisi", "s": "반 세겔", "m": "출애굽기 30:13에 근거한 세금으로, 이틀 품삯 정도였어요. 물고기에서 나온 한 세겔(스타테르)은 두 사람 몫이에요.", "e": "갈릴리 바다의 ‘베드로 고기’(틸라피아)는 지금도 유명해요."}
+ "img": [
+  "24-suret-deyisme.jpg",
+  "matta/22-qalxin.jpg",
+  "matta/22-oglan.jpg",
+  "matta/22-sikke.jpg"
+ ],
+ "hero": 0,
+ "ko": {
+  "usaq": {
+   "basliq": "그의 말을 들으라",
+   "hedef": [
+    "높은 산에서 예수님의 모습이 빛나게 변한 이야기를 알아요.",
+    "하나님이 “예수님의 말을 들으라”고 하셨음을 배워요.",
+    "겨자씨만 한 믿음도 귀하다는 것을 배워요."
+   ],
+   "sehneler": [
+    {
+     "b": "해처럼 빛나신 예수님",
+     "ayə": "17:1–5",
+     "alt": "높은 산에서 빛나는 모습으로 변하신 예수님",
+     "p": [
+      "예수님이 베드로, 야고보, 요한을 데리고 높은 산에 올라가셨어요. 그때 예수님의 얼굴이 해처럼 빛나고 옷이 빛처럼 하얗게 [[변화]]되었어요.",
+      "모세와 [[엘리야]]가 나타나 예수님과 이야기했어요. 그때 빛나는 구름 속에서 하나님의 목소리가 들렸어요. “이는 내 사랑하는 아들이요 내가 기뻐하는 자니 너희는 그의 말을 들으라!”"
+     ]
+    },
+    {
+     "b": "일어나라, 두려워하지 말라",
+     "ayə": "17:6–13",
+     "alt": "엎드린 제자들을 어루만지며 일으키시는 예수님",
+     "p": [
+      "제자들은 너무 무서워서 땅에 엎드렸어요. 예수님이 오셔서 그들을 [[어루만지시며|어루만지다]] 말씀하셨어요. “일어나라. 두려워하지 말라.”",
+      "제자들이 눈을 들어 보니 예수님만 계셨어요. 하나님은 무서운 분이 아니라 예수님을 통해 우리에게 다가오세요."
+     ]
+    },
+    {
+     "b": "아픈 아이를 고치셨어요",
+     "ayə": "17:14–21",
+     "alt": "아픈 아들을 고쳐 주시는 예수님과 기뻐하는 아버지",
+     "p": [
+      "산 아래에서 한 아버지가 예수님께 무릎 꿇었어요. “주님, 제 아들을 불쌍히 여겨 주세요. 자꾸 불과 물에 넘어져요.” 제자들은 고치지 못했어요.",
+      "예수님이 아이를 고쳐 주셨어요. 그리고 말씀하셨어요. “너희에게 [[겨자씨]]만 한 믿음이 있으면 이 산더러 옮겨지라 해도 옮겨질 것이다.”"
+     ]
+    },
+    {
+     "b": "물고기 입 속의 동전",
+     "ayə": "17:24–27",
+     "alt": "물고기 입에서 동전을 꺼내는 베드로",
+     "p": [
+      "성전 [[세금]]을 걷는 사람들이 베드로에게 물었어요. “너희 선생님은 세금을 안 내느냐?”",
+      "예수님이 말씀하셨어요. “바다에 가서 낚시를 던져라. 처음 잡힌 물고기 입을 열면 동전이 있을 거야. 그것으로 내 것과 네 것을 내라.” 베드로가 정말로 동전을 찾았어요!"
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "“이는 내 사랑하는 아들이요 내가 기뻐하는 자니 너희는 그의 말을 들으라.”",
+    "ref": "17:5",
+    "bos": "이는 내 사랑하는 ___이요 내가 ___하는 자니 너희는 그의 말을 ___.",
+    "sozler": [
+     "아들",
+     "기뻐",
+     "들으라"
+    ],
+    "yalan": "잊으라"
+   },
+   "lugat": {
+    "변화": {
+     "i": "✨",
+     "x": "görünüşü dəyişmək",
+     "m": "모습이 완전히 바뀌는 거예요. 예수님의 하나님다운 영광이 보였어요.",
+     "e": "예수님의 모습이 빛나게 변화되었어요."
+    },
+    "엘리야": {
+     "i": "🔥",
+     "x": "İlyas",
+     "m": "구약의 위대한 선지자예요. 불 수레를 타고 하늘로 올라갔어요.",
+     "e": "모세와 엘리야가 나타났어요."
+    },
+    "어루만지다": {
+     "i": "🤲",
+     "x": "toxunmaq",
+     "m": "손으로 부드럽게 만지는 거예요.",
+     "e": "예수님이 제자들을 어루만지셨어요."
+    },
+    "겨자씨": {
+     "i": "🌱",
+     "x": "xardal toxumu",
+     "m": "아주 작은 씨예요.",
+     "e": "겨자씨만 한 믿음."
+    },
+    "세금": {
+     "i": "🪙",
+     "x": "vergi",
+     "m": "나라나 성전을 위해 내는 돈이에요.",
+     "e": "성전 세금을 냈어요."
+    }
+   },
+   "test": [
+    {
+     "q": "산에서 예수님의 얼굴은 어떻게 되었나요?",
+     "o": [
+      "해처럼 빛났어요",
+      "슬퍼 보였어요",
+      "까맣게 변했어요"
+     ],
+     "a": 0,
+     "f": "맞아요! 하나님의 영광이 보였어요."
+    },
+    {
+     "q": "구름 속에서 하나님이 하신 말씀은?",
+     "o": [
+      "그의 말을 들으라",
+      "산에서 내려가라",
+      "집을 지어라"
+     ],
+     "a": 0,
+     "f": "맞아요! 예수님의 말씀을 들어요."
+    },
+    {
+     "q": "예수님이 엎드린 제자들에게 하신 말씀은?",
+     "o": [
+      "일어나라, 두려워하지 말라",
+      "더 엎드려 있어라",
+      "집에 가라"
+     ],
+     "a": 0,
+     "f": "맞아요! 다정하게 일으켜 주셨어요."
+    },
+    {
+     "q": "베드로는 동전을 어디에서 찾았나요?",
+     "o": [
+      "물고기 입 속",
+      "모래 속",
+      "가방 속"
+     ],
+     "a": 0,
+     "f": "맞아요! 놀라운 방법으로 채워 주셨어요."
+    }
+   ],
+   "dusun": [
+    "하나님이 “그의 말을 들으라” 하셨는데, 나는 예수님 말씀을 언제 듣나요?",
+    "무서울 때 예수님이 “일어나라, 두려워하지 말라” 하시면 어떤 기분일까요?",
+    "겨자씨만 한 작은 믿음도 귀한 이유는 무엇일까요?"
+   ],
+   "fealiyyet": {
+    "ciz": "산 위에서 해처럼 빛나시는 예수님을 그려 보세요.",
+    "b": "예수님 말씀을 듣는 시간",
+    "p": "예수님 말씀을 듣기 위해 할 일을 써 보세요.",
+    "ph": "예) 자기 전에 성경 한 구절을 읽을래요."
+   },
+   "dua": "하나님, 예수님이 하나님의 사랑하는 아들이심을 보여 주셔서 감사합니다. 예수님의 말씀을 잘 듣는 사람이 되게 해 주세요. 무서울 때 “일어나라, 두려워하지 말라” 하시는 예수님을 기억하고, 작은 믿음이라도 예수님께 드리게 해 주세요. 예수님 이름으로 기도합니다. 아멘."
   },
-  "test": [
-   {"q": "변화산에 나타난 두 인물이 상징하는 것은?", "o": ["율법과 선지자", "왕과 제사장", "하늘과 땅"], "a": 0, "f": "맞아요. 구약 전체가 예수님을 가리켜요."},
-   {"q": "변화산의 음성이 3:17 세례 때보다 더한 말은?", "o": ["그의 말을 들으라", "그를 경배하라", "그를 따르라"], "a": 0, "f": "맞아요. 하나님이 직접 명령하셨어요."},
-   {"q": "제자들이 눈을 들었을 때 본 것은?", "o": ["예수님만", "모세만", "구름만"], "a": 0, "f": "맞아요. 모든 것이 예수님께 모아져요."},
-   {"q": "예수님은 오리라 한 ‘엘리야’가 누구라고 하셨나요?", "o": ["세례 요한", "베드로", "모세"], "a": 0, "f": "맞아요. 11:14에서도 말씀하셨어요."},
-   {"q": "예수님이 성전세를 내신 이유는?", "o": ["그들을 실족하지 않게 하려고", "내야 할 의무가 있어서", "돈이 남아서"], "a": 0, "f": "맞아요. 권리보다 사랑을 택하셨어요."}
-  ],
-  "paylas": ["‘산 위의 순간’(수련회, 은혜 받은 예배)과 ‘산 아래의 현실’(학교, 집) 사이의 차이를 느껴 본 적이 있나요?", "하나님은 “그의 말을 들으라”고 하셨어요. 요즘 내가 가장 많이 ‘듣는’ 목소리는 누구의 것인가요?", "내 믿음이 ‘작은 믿음’처럼 흔들릴 때는 언제인가요?", "내 자유나 권리를 다른 사람을 위해 내려놓을 수 있는 영역은 어디인가요?"],
-  "etiraf": {"b": "나의 고백", "p": "“예수 외에는 아무도 보이지 아니하더라.” 내 삶에서 예수님만 바라보게 되기를 바라는 영역과 그 이유를 서너 문장으로 써 보세요.", "ph": "예) 저는 사람들의 평가에 너무 신경 써요. 그런데 예수님만 보면 …"},
-  "dua": "하나님, 예수님이 하나님의 사랑하는 아들이시며 율법과 선지자의 완성이심을 보여 주셔서 감사합니다. 수많은 목소리 가운데 예수님의 말씀을 듣게 해 주세요. 산 위에서도 산 아래에서도 예수님만 바라보며, 겨자씨 같은 살아 있는 믿음으로 살게 해 주세요. 예수님 이름으로 기도합니다. 아멘."
- }
-},
-"az": {
- "usaq": {
-  "basliq": "Onu dinləyin",
-  "hedef": ["Uca dağda İsanın görünüşünün nurla dəyişdiyini öyrənəcəyik.", "Allahın “İsanı dinləyin” dediyini öyrənəcəyik.", "Xardal toxumu qədər imanın da qiymətli olduğunu öyrənəcəyik."],
-  "sehneler": [
-   {"b": "Günəş kimi parlayan İsa", "ayə": "Matta 17:1–5", "alt": "Uca dağda nurlu görünüşə dəyişən İsa", "p": ["İsa Peteri, Yaqubu və Yəhyanı götürüb uca dağa çıxdı. O an İsanın üzü günəş kimi parladı, paltarı nur kimi ağappaq oldu. Onun [[görünüşü dəyişdi|görünüşü dəyişmək]].", "Musa və [[İlyas]] görünüb İsa ilə danışırdılar. Onda parlaq buluddan Allahın səsi gəldi: “Bu Mənim sevimli Oğlumdur, Ondan razıyam. Onu dinləyin!”"]},
-   {"b": "Qalxın, qorxmayın", "ayə": "Matta 17:6–13", "alt": "Yerə qapanmış şagirdlərə toxunub onları qaldıran İsa", "p": ["Şagirdlər çox qorxub yerə qapandılar. İsa yanlarına gəlib onlara [[toxundu|toxunmaq]] və dedi: “Qalxın, qorxmayın.”", "Şagirdlər başlarını qaldıranda yalnız İsanı gördülər. Allah qorxulu deyil, İsa vasitəsilə bizə yaxınlaşır."]},
-   {"b": "Xəstə oğlana şəfa verdi", "ayə": "Matta 17:14–21", "alt": "Xəstə oğlana şəfa verən İsa və sevinən ata", "p": ["Dağın ətəyində bir ata İsanın qarşısında diz çökdü: “Ya Rəbb, oğluma rəhm et. Tez-tez oda və suya yıxılır.” Şagirdlər ona şəfa verə bilməmişdilər.", "İsa oğlana şəfa verdi. Sonra dedi: “Əgər sizin [[xardal toxumu]] qədər imanınız olsa, bu dağa “buradan oraya keç” desəniz, keçəcək.”"]},
-   {"b": "Balığın ağzındakı sikkə", "ayə": "Matta 17:24–27", "alt": "Balığın ağzından sikkə çıxaran Peter", "p": ["Məbəd [[vergi]]si toplayanlar Peterdən soruşdular: “Sizin müəlliminiz vergi vermir?”", "İsa dedi: “Gölə get, qarmaq at. Tutduğun ilk balığın ağzını açanda bir sikkə tapacaqsan. Onu götürüb Mənim və sənin əvəzinə ver.” Peter həqiqətən sikkəni tapdı!"]}
-  ],
-  "aye": {"metn": "“Bu Mənim sevimli Oğlumdur, Ondan razıyam. Onu dinləyin!”", "ref": "17:5", "bos": "Bu Mənim sevimli ___, Ondan ___. Onu ___!", "sozler": ["Oğlumdur", "razıyam", "dinləyin"], "yalan": "unudun"},
-  "lugat": {
-   "görünüşü dəyişmək": {"i": "✨", "x": "변화되다", "m": "Görkəmin tamamilə dəyişməsidir. İsanın Allaha məxsus izzəti göründü.", "e": "İsanın görünüşü nurla dəyişdi."},
-   "İlyas": {"i": "🔥", "x": "엘리야", "m": "Əhdi-Ətiqin böyük peyğəmbəridir. Od arabası ilə göyə qalxdı.", "e": "Musa və İlyas göründü."},
-   "toxunmaq": {"i": "🤲", "x": "어루만지다", "m": "Əllə yumşaqca toxunmaqdır.", "e": "İsa şagirdlərə toxundu."},
-   "xardal toxumu": {"i": "🌱", "x": "겨자씨", "m": "Çox kiçik toxumdur.", "e": "Xardal toxumu qədər iman."},
-   "vergi": {"i": "🪙", "x": "세금", "m": "Dövlət və ya məbəd üçün verilən puldur.", "e": "Məbəd vergisini verdilər."}
-  },
-  "test": [
-   {"q": "Dağda İsanın üzü necə oldu?", "o": ["Günəş kimi parladı", "Kədərli göründü", "Qaraldı"], "a": 0, "f": "Düzdür! Allahın izzəti göründü."},
-   {"q": "Buluddan Allah nə dedi?", "o": ["Onu dinləyin", "Dağdan enin", "Ev tikin"], "a": 0, "f": "Düzdür! İsanın sözünü dinləyirik."},
-   {"q": "İsa yerə qapanan şagirdlərə nə dedi?", "o": ["Qalxın, qorxmayın", "Daha çox qapanın", "Evə gedin"], "a": 0, "f": "Düzdür! Mehribanlıqla onları qaldırdı."},
-   {"q": "Peter sikkəni harada tapdı?", "o": ["Balığın ağzında", "Qumun içində", "Çantada"], "a": 0, "f": "Düzdür! Heyrətamiz yolla ehtiyacı ödədi."}
-  ],
-  "dusun": ["Allah “Onu dinləyin” dedi. Mən İsanın sözünü nə vaxt dinləyirəm?", "Qorxanda İsa “Qalx, qorxma” desə, necə hiss edərəm?", "Xardal toxumu qədər kiçik iman niyə qiymətlidir?"],
-  "fealiyyet": {"ciz": "Dağda günəş kimi parlayan İsanı çək.", "b": "İsanı nə vaxt dinləyəcəksən?", "p": "İsanın sözünü dinləyəcəyin vaxtı seç.", "ph": "",
-   "secim": {"basliq": "İsanı nə vaxt dinləyəcəksən?", "izah": "Toxun və seç. Bir neçəsini seçə bilərsən.", "cumle": "Mən İsanı dinləyəcəyəm: {x}!", "bos": "Kəlamı oxuyanda", "bag": "və",
-    "secimler": [["📖", "Kəlamı oxuyanda"], ["🙏", "dua edəndə"], ["⛪", "ibadətdə"], ["👨‍👩‍👧", "valideynlərim öyrədəndə"], ["🌅", "səhər qalxanda"], ["🌙", "yatmazdan əvvəl"]]}},
-  "dua": "Allahım, İsanın Sənin sevimli Oğlun olduğunu göstərdiyin üçün Sənə şükür edirəm. İsanın sözünü yaxşı dinləyən olum. Qorxanda “Qalx, qorxma” deyən İsanı xatırlayım və kiçik imanımı da Ona verim. İsa Məsihin adı ilə dua edirəm. Amin."
+  "genc": {
+   "basliq": "산 위의 영광, 산 아래의 현실",
+   "giris": "십자가를 예고하신 지 엿새 후, 예수님은 세 제자에게 잠시 커튼을 걷어 보여 주십니다. 이분이 누구신지를. 그런데 영광의 산에서 내려오자 귀신 들린 아이와 실패한 제자들이 기다리고 있었습니다. 신앙은 그 두 곳을 오가는 일입니다.",
+   "meqsed": [
+    "변화산 사건에서 예수님의 정체와 율법·선지자와의 관계를 이해해요.",
+    "산 아래의 실패와 ‘겨자씨 믿음’의 의미를 설명할 수 있어요.",
+    "‘그의 말을 들으라’를 일상에서 실천할 방법을 정해요."
+   ],
+   "sehneler": [
+    {
+     "b": "커튼이 걷히다",
+     "ayə": "17:1–5",
+     "alt": "높은 산에서 빛나는 모습으로 변하신 예수님",
+     "p": [
+      "예수님의 모습이 [[변형]]되어 얼굴이 해같이 빛나고 옷이 빛과 같이 희어졌어요. 모세(율법)와 엘리야(선지자)가 함께 나타나 예수님과 대화했어요. 구약 전체가 예수님을 가리킨다는 그림이에요.",
+      "베드로는 초막 셋을 짓겠다고 했어요. 그 순간 빛난 구름이 덮고 음성이 들렸어요. “이는 내 사랑하는 아들이요 내가 기뻐하는 자니 너희는 그의 말을 들으라.” 3:17 세례 때의 음성에 한마디가 더해졌어요. “들으라.”"
+     ],
+     "deep": {
+      "b": "깊이 보기 · 시내산과 변화산",
+      "p": "‘엿새 후’, ‘높은 산’, ‘빛나는 얼굴’, ‘구름’, ‘음성’은 모두 출애굽기 24장과 34장의 모세 이야기를 떠올리게 해요. 모세는 하나님의 영광을 반사했지만, 예수님은 그 영광 자체이세요."
+     }
+    },
+    {
+     "b": "예수 외에는 아무도",
+     "ayə": "17:6–13",
+     "alt": "엎드린 제자들을 어루만지며 일으키시는 예수님",
+     "p": [
+      "제자들은 두려워 엎드렸어요. 예수님이 나아와 [[손을 대시며|손을 대다]] “일어나라, 두려워하지 말라” 하셨어요. 눈을 들어 보니 “예수 외에는 아무도 보이지 아니하더라.” 모세도 엘리야도 사라지고 예수님만 남으셨어요.",
+      "내려오는 길에 제자들은 엘리야가 먼저 온다는 예언을 물었어요. 예수님은 세례 요한이 바로 그 엘리야였고, 사람들이 그를 알아보지 못했듯 인자도 고난받을 것이라고 하세요."
+     ],
+     "deep": {
+      "b": "깊이 보기 · 왜 아무에게도 말하지 말라고?",
+      "p": "부활 전까지는 영광만 말하면 오해를 낳아요. 사람들은 십자가 없는 영광의 메시아를 원했으니까요. 변화산의 영광은 십자가를 통과해서만 온전히 이해돼요."
+     }
+    },
+    {
+     "b": "산 아래의 실패",
+     "ayə": "17:14–21",
+     "alt": "아픈 아들을 고쳐 주시는 예수님과 기뻐하는 아버지",
+     "p": [
+      "산 아래에는 간질로 고통받는 아들과, 고치지 못한 제자들이 있었어요. 10:1에서 권능을 받았는데도 실패했어요. 예수님은 “믿음이 없고 패역한 세대여” 하시며 아이를 고치셨어요.",
+      "제자들이 이유를 묻자 “너희 믿음이 작은 까닭이니라” 하시며 “[[겨자씨]] 한 알만 한 믿음이 있으면 이 산더러 여기서 저기로 옮겨지라 하여도 옮겨질 것이요” 하셨어요. 문제는 믿음의 크기가 아니라 믿음의 대상이에요."
+     ],
+     "deep": {
+      "b": "깊이 보기 · 작은 믿음 vs 겨자씨 믿음",
+      "p": "‘작은 믿음’(올리고피스티아)은 의심과 섞인 흔들리는 믿음이에요. ‘겨자씨 믿음’은 작아도 살아 있어서 하나님께 온전히 기대는 믿음이에요. 작은 씨에 생명이 있듯, 작아도 진짜면 돼요.",
+      "rose": true
+     }
+    },
+    {
+     "b": "아들들은 자유롭다",
+     "ayə": "17:22–27",
+     "alt": "물고기 입에서 동전을 꺼내는 베드로",
+     "p": [
+      "예수님은 두 번째로 죽음과 부활을 예고하세요. 제자들은 “매우 근심”했어요. 이어서 성전세 이야기가 나와요. 20세 이상 유대 남자는 매년 반 세겔(두 드라크마)의 [[성전세]]를 냈어요.",
+      "예수님은 “왕의 아들들은 세를 내지 않는다”고 하세요. 성전의 주인이신 하나님의 아들은 낼 필요가 없어요. 그래도 “그들이 실족하지 않게” 내라고 하시며 물고기 입에서 한 세겔을 찾게 하셨어요. 권리보다 사랑을 택하셨어요."
+     ],
+     "deep": {
+      "b": "깊이 보기 · 실족하지 않게",
+      "p": "자유가 있어도 다른 사람을 넘어지게 하지 않으려고 그 자유를 내려놓는 것, 그것이 예수님의 방식이에요. 바울도 같은 원칙을 말해요(고전 8:13; 롬 14:21)."
+     }
+    }
+   ],
+   "cedvel": {
+    "b": "변화산의 등장인물",
+    "alt": "17:1–8",
+    "bas": [
+     "누구",
+     "상징",
+     "의미"
+    ],
+    "set": [
+     [
+      "모세",
+      "율법",
+      "율법이 예수님을 가리킴"
+     ],
+     [
+      "엘리야",
+      "선지자",
+      "선지자들이 예수님을 기다림"
+     ],
+     [
+      "베드로·야고보·요한",
+      "증인",
+      "영광을 보고 나중에 증언함(벧후 1:16–18)"
+     ],
+     [
+      "구름과 음성",
+      "하나님의 임재",
+      "“그의 말을 들으라”"
+     ],
+     [
+      "예수님만",
+      "완성",
+      "율법과 선지자가 사라지고 예수님만 남음"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "“말할 때에 홀연히 빛난 구름이 그들을 덮으며 구름 속에서 소리가 나서 이르시되 이는 내 사랑하는 아들이요 내가 기뻐하는 자니 너희는 그의 말을 들으라 하시는지라.”",
+    "ref": "17:5"
+   },
+   "lugat": {
+    "변형": {
+     "i": "✨",
+     "o": "헬라어 메타모르포오",
+     "x": "görünüşü dəyişmək",
+     "s": "속의 본질이 겉으로 드러남",
+     "m": "‘메타모포시스’(변태)의 어원이에요. 겉모습이 바뀐 것이 아니라 감춰져 있던 하나님의 영광이 드러난 거예요.",
+     "e": "로마서 12:2 “마음을 새롭게 함으로 변화를 받아”에도 같은 동사가 쓰였어요."
+    },
+    "손을 대다": {
+     "i": "🤲",
+     "o": "헬라어 하프토마이",
+     "x": "toxunmaq",
+     "s": "회복의 손길",
+     "m": "나병 환자(8:3), 열병(8:15), 눈먼 자(9:29)를 고치실 때 쓰인 같은 동사예요.",
+     "e": "영광의 순간에도 예수님은 두려워하는 사람을 먼저 만지세요."
+    },
+    "겨자씨": {
+     "i": "🌱",
+     "o": "헬라어 코코스 시나페오스",
+     "x": "xardal toxumu",
+     "s": "작지만 살아 있는 믿음",
+     "m": "13:31의 겨자씨 비유와 연결돼요. 하나님 나라도 믿음도 작게 시작해요.",
+     "e": "누가복음 17:6에도 비슷한 말씀이 있어요."
+    },
+    "성전세": {
+     "i": "🪙",
+     "o": "헬라어 디드라크몬",
+     "x": "məbəd vergisi",
+     "s": "반 세겔",
+     "m": "출애굽기 30:13에 근거한 세금으로, 이틀 품삯 정도였어요. 물고기에서 나온 한 세겔(스타테르)은 두 사람 몫이에요.",
+     "e": "갈릴리 바다의 ‘베드로 고기’(틸라피아)는 지금도 유명해요."
+    }
+   },
+   "test": [
+    {
+     "q": "변화산에 나타난 두 인물이 상징하는 것은?",
+     "o": [
+      "율법과 선지자",
+      "왕과 제사장",
+      "하늘과 땅"
+     ],
+     "a": 0,
+     "f": "맞아요. 구약 전체가 예수님을 가리켜요."
+    },
+    {
+     "q": "변화산의 음성이 3:17 세례 때보다 더한 말은?",
+     "o": [
+      "그의 말을 들으라",
+      "그를 경배하라",
+      "그를 따르라"
+     ],
+     "a": 0,
+     "f": "맞아요. 하나님이 직접 명령하셨어요."
+    },
+    {
+     "q": "제자들이 눈을 들었을 때 본 것은?",
+     "o": [
+      "예수님만",
+      "모세만",
+      "구름만"
+     ],
+     "a": 0,
+     "f": "맞아요. 모든 것이 예수님께 모아져요."
+    },
+    {
+     "q": "예수님은 오리라 한 ‘엘리야’가 누구라고 하셨나요?",
+     "o": [
+      "세례 요한",
+      "베드로",
+      "모세"
+     ],
+     "a": 0,
+     "f": "맞아요. 11:14에서도 말씀하셨어요."
+    },
+    {
+     "q": "예수님이 성전세를 내신 이유는?",
+     "o": [
+      "그들을 실족하지 않게 하려고",
+      "내야 할 의무가 있어서",
+      "돈이 남아서"
+     ],
+     "a": 0,
+     "f": "맞아요. 권리보다 사랑을 택하셨어요."
+    }
+   ],
+   "paylas": [
+    "‘산 위의 순간’(수련회, 은혜 받은 예배)과 ‘산 아래의 현실’(학교, 집) 사이의 차이를 느껴 본 적이 있나요?",
+    "하나님은 “그의 말을 들으라”고 하셨어요. 요즘 내가 가장 많이 ‘듣는’ 목소리는 누구의 것인가요?",
+    "내 믿음이 ‘작은 믿음’처럼 흔들릴 때는 언제인가요?",
+    "내 자유나 권리를 다른 사람을 위해 내려놓을 수 있는 영역은 어디인가요?"
+   ],
+   "etiraf": {
+    "b": "나의 고백",
+    "p": "“예수 외에는 아무도 보이지 아니하더라.” 내 삶에서 예수님만 바라보게 되기를 바라는 영역과 그 이유를 서너 문장으로 써 보세요.",
+    "ph": "예) 저는 사람들의 평가에 너무 신경 써요. 그런데 예수님만 보면 …"
+   },
+   "dua": "하나님, 예수님이 하나님의 사랑하는 아들이시며 율법과 선지자의 완성이심을 보여 주셔서 감사합니다. 수많은 목소리 가운데 예수님의 말씀을 듣게 해 주세요. 산 위에서도 산 아래에서도 예수님만 바라보며, 겨자씨 같은 살아 있는 믿음으로 살게 해 주세요. 예수님 이름으로 기도합니다. 아멘."
+  }
  },
- "genc": {
-  "basliq": "Dağda izzət, dağın ətəyində gerçəklik",
-  "giris": "Çarmıxı xəbər verdikdən altı gün sonra İsa üç şagirdə bir anlıq pərdəni qaldırıb göstərir: O, kimdir. Amma izzət dağından enəndə cinə tutulmuş oğlan və uğursuz şagirdlər gözləyirdi. İman bu iki yer arasında gedib-gəlməkdir.",
-  "meqsed": ["Dağda görünüşün dəyişməsi hadisəsində İsanın kimliyini və Qanun və peyğəmbərlərlə əlaqəsini anlayırıq.", "Dağın ətəyindəki uğursuzluğu və “xardal toxumu imanının” mənasını izah edə bilirik.", "“Onu dinləyin” sözünü gündəlik həyatda yaşamağın yolunu müəyyən edirik."],
-  "sehneler": [
-   {"b": "Pərdə qalxır", "ayə": "Matta 17:1–5", "alt": "Uca dağda nurlu görünüşə dəyişən İsa", "p": ["İsanın [[görünüşü dəyişdi|görünüşü dəyişmək]]: üzü günəş kimi parladı, paltarı nur kimi ağardı. Musa (Qanun) və İlyas (peyğəmbərlər) görünüb İsa ilə danışdılar. Bu, bütün Əhdi-Ətiqin İsanı göstərdiyini təsvir edir.", "Peter üç çadır qurmaq istədi. O an parlaq bulud onları örtdü və səs gəldi: “Bu Mənim sevimli Oğlumdur, Ondan razıyam. Onu dinləyin!” 3:17-dəki vəftiz səsinə bir söz əlavə olundu: “dinləyin.”"], "deep": {"b": "Dərindən baxaq · Sina və bu dağ", "p": "“Altı gün sonra”, “uca dağ”, “parlayan üz”, “bulud” və “səs” Çıxış 24 və 34-cü fəsillərdəki Musa hekayəsini xatırladır. Musa Allahın izzətini əks etdirirdi, İsa isə o izzətin Özüdür."}},
-   {"b": "İsadan başqa heç kim", "ayə": "Matta 17:6–13", "alt": "Yerə qapanmış şagirdlərə toxunub onları qaldıran İsa", "p": ["Şagirdlər qorxub yerə qapandılar. İsa gəlib onlara [[toxundu|toxunmaq]] və “Qalxın, qorxmayın” dedi. Başlarını qaldıranda “İsadan başqa heç kimi görmədilər.” Musa da, İlyas da yox oldu, yalnız İsa qaldı.", "Enərkən şagirdlər İlyasın əvvəlcə gələcəyi barədəki peyğəmbərliyi soruşdular. İsa deyir ki, o İlyas Vəftizçi Yəhya idi, insanlar onu tanımadıqları kimi Bəşər Oğlu da əzab çəkəcək."], "deep": {"b": "Dərindən baxaq · Niyə heç kimə deməyin?", "p": "Dirilmədən əvvəl yalnız izzətdən danışmaq yanlış anlaşılmaya səbəb olardı. İnsanlar çarmıxsız, izzətli Məsih istəyirdi. Dağdakı izzət yalnız çarmıxdan keçərək tam anlaşılır."}},
-   {"b": "Dağın ətəyində uğursuzluq", "ayə": "Matta 17:14–21", "alt": "Xəstə oğlana şəfa verən İsa və sevinən ata", "p": ["Dağın ətəyində qıcolmalardan əziyyət çəkən oğlan və ona şəfa verə bilməyən şagirdlər var idi. 10:1-də səlahiyyət alsalar da, uğursuz oldular. İsa “Ey imansız və azğın nəsil” deyib oğlana şəfa verdi.", "Şagirdlər səbəbini soruşanda “imanınız az olduğu üçün” dedi və “əgər [[xardal toxumu]] qədər imanınız olsa, bu dağa “buradan oraya keç” desəniz, keçəcək” dedi. Məsələ imanın böyüklüyündə deyil, imanın Kimə yönəldiyindədir."], "deep": {"b": "Dərindən baxaq · Az iman və xardal toxumu imanı", "p": "“Az iman” (oliqopistiya) şübhə ilə qarışmış tərəddüdlü imandır. “Xardal toxumu imanı” isə kiçik olsa da canlıdır və tamamilə Allaha söykənir. Kiçik toxumda həyat olduğu kimi, kiçik olsa da həqiqi olması bəsdir.", "rose": true}},
-   {"b": "Oğullar azaddır", "ayə": "Matta 17:22–27", "alt": "Balığın ağzından sikkə çıxaran Peter", "p": ["İsa ikinci dəfə ölümünü və dirilməsini xəbər verir. Şagirdlər “çox kədərləndilər”. Sonra məbəd vergisi hekayəsi gəlir. İyirmi yaşdan yuxarı yəhudi kişilər hər il yarım şekel (iki drahma) [[məbəd vergisi]] verirdilər.", "İsa deyir: “Padşahın oğulları vergi vermir.” Məbədin Sahibi olan Allahın Oğlunun verməyə ehtiyacı yoxdur. Yenə də “onları büdrətməmək üçün” verməyi deyir və balığın ağzından bir şekel tapdırır. Haqdan çox məhəbbəti seçdi."], "deep": {"b": "Dərindən baxaq · Büdrətməmək üçün", "p": "Azadlığın olsa da, başqasını büdrətməmək üçün o azadlıqdan imtina etmək İsanın yoludur. Paul da eyni prinsipdən danışır (1 Kor. 8:13; Rom. 14:21)."}}
-  ],
-  "cedvel": {"b": "Dağdakı şəxslər", "alt": "17:1–8", "bas": ["Kim", "Rəmz", "Mənası"], "set": [["Musa", "Qanun", "Qanun İsanı göstərir"], ["İlyas", "Peyğəmbərlər", "Peyğəmbərlər İsanı gözləyirdi"], ["Peter, Yaqub, Yəhya", "Şahidlər", "İzzəti görüb sonra şəhadət etdilər (2 Peter 1:16–18)"], ["Bulud və səs", "Allahın hüzuru", "“Onu dinləyin”"], ["Yalnız İsa", "Tamamlanma", "Qanun və peyğəmbərlər yox olur, yalnız İsa qalır"]]},
-  "aye": {"metn": "“Peter hələ danışarkən parlaq bir bulud onları örtdü və buluddan bir səs gəldi: “Bu Mənim sevimli Oğlumdur, Ondan razıyam. Onu dinləyin!””", "ref": "17:5"},
-  "lugat": {
-   "görünüşü dəyişmək": {"i": "✨", "o": "Yunanca metamorfoo", "x": "변형되다", "s": "Daxili mahiyyətin üzə çıxması", "m": "“Metamorfoz” sözünün kökü budur. Zahiri görkəm dəyişmədi, gizli qalan Allah izzəti göründü.", "e": "Romalılara 12:2-dəki “düşüncənizin yenilənməsi ilə dəyişin” ayəsində də eyni fel var."},
-   "toxunmaq": {"i": "🤲", "o": "Yunanca haptomai", "x": "손을 대다", "s": "Bərpa toxunuşu", "m": "Cüzamlıya (8:3), qızdırmalıya (8:15), korlara (9:29) şəfa verəndə işlənən eyni feldir.", "e": "İzzət anında belə İsa əvvəlcə qorxana toxunur."},
-   "xardal toxumu": {"i": "🌱", "o": "Yunanca kokkos sinapeos", "x": "겨자씨", "s": "Kiçik, amma canlı iman", "m": "13:31-dəki xardal toxumu məsəli ilə bağlıdır. Həm Allahın Padşahlığı, həm də iman kiçik başlayır.", "e": "Luka 17:6-da da oxşar söz var."},
-   "məbəd vergisi": {"i": "🪙", "o": "Yunanca didrahmon", "x": "성전세", "s": "Yarım şekel", "m": "Çıxış 30:13-ə əsaslanan vergi idi, təxminən iki günlük əmək haqqı. Balıqdan çıxan bir şekel (stater) iki nəfərin payıdır.", "e": "Qalileya gölünün “Peter balığı” (tilapiya) bu gün də məşhurdur."}
+ "az": {
+  "usaq": {
+   "basliq": "Onu dinləyin",
+   "hedef": [
+    "Uca dağda İsanın görünüşünün nurla dəyişdiyini öyrənəcəyik.",
+    "Allahın “İsanı dinləyin” dediyini öyrənəcəyik.",
+    "Xardal toxumu qədər imanın da qiymətli olduğunu öyrənəcəyik."
+   ],
+   "sehneler": [
+    {
+     "b": "Günəş kimi parlayan İsa",
+     "ayə": "Matta 17:1–5",
+     "alt": "Uca dağda nurlu görünüşə dəyişən İsa",
+     "p": [
+      "İsa Peteri, Yaqubu və Yəhyanı götürüb uca dağa çıxdı. O an İsanın üzü günəş kimi parladı, paltarı nur kimi ağappaq oldu. Onun [[görünüşü dəyişdi|görünüşü dəyişmək]].",
+      "Musa və [[İlyas]] görünüb İsa ilə danışırdılar. Onda parlaq buluddan Allahın səsi gəldi: “Bu Mənim sevimli Oğlumdur, Ondan razıyam. Onu dinləyin!”"
+     ]
+    },
+    {
+     "b": "Qalxın, qorxmayın",
+     "ayə": "Matta 17:6–13",
+     "alt": "Yerə qapanmış şagirdlərə toxunub onları qaldıran İsa",
+     "p": [
+      "Şagirdlər çox qorxub yerə qapandılar. İsa yanlarına gəlib onlara [[toxundu|toxunmaq]] və dedi: “Qalxın, qorxmayın.”",
+      "Şagirdlər başlarını qaldıranda yalnız İsanı gördülər. Allah qorxulu deyil, İsa vasitəsilə bizə yaxınlaşır."
+     ]
+    },
+    {
+     "b": "Xəstə oğlana şəfa verdi",
+     "ayə": "Matta 17:14–21",
+     "alt": "Xəstə oğlana şəfa verən İsa və sevinən ata",
+     "p": [
+      "Dağın ətəyində bir ata İsanın qarşısında diz çökdü: “Ya Rəbb, oğluma rəhm et. Tez-tez oda və suya yıxılır.” Şagirdlər ona şəfa verə bilməmişdilər.",
+      "İsa oğlana şəfa verdi. Sonra dedi: “Əgər sizin [[xardal toxumu]] qədər imanınız olsa, bu dağa “buradan oraya keç” desəniz, keçəcək.”"
+     ]
+    },
+    {
+     "b": "Balığın ağzındakı sikkə",
+     "ayə": "Matta 17:24–27",
+     "alt": "Balığın ağzından sikkə çıxaran Peter",
+     "p": [
+      "Məbəd [[vergi]]si toplayanlar Peterdən soruşdular: “Sizin müəlliminiz vergi vermir?”",
+      "İsa dedi: “Gölə get, qarmaq at. Tutduğun ilk balığın ağzını açanda bir sikkə tapacaqsan. Onu götürüb Mənim və sənin əvəzinə ver.” Peter həqiqətən sikkəni tapdı!"
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "“Bu Mənim sevimli Oğlumdur, Ondan razıyam. Onu dinləyin!”",
+    "ref": "17:5",
+    "bos": "Bu Mənim sevimli ___, Ondan ___. Onu ___!",
+    "sozler": [
+     "Oğlumdur",
+     "razıyam",
+     "dinləyin"
+    ],
+    "yalan": "unudun"
+   },
+   "lugat": {
+    "görünüşü dəyişmək": {
+     "i": "✨",
+     "x": "변화되다",
+     "m": "Görkəmin tamamilə dəyişməsidir. İsanın Allaha məxsus izzəti göründü.",
+     "e": "İsanın görünüşü nurla dəyişdi."
+    },
+    "İlyas": {
+     "i": "🔥",
+     "x": "엘리야",
+     "m": "Əhdi-Ətiqin böyük peyğəmbəridir. Od arabası ilə göyə qalxdı.",
+     "e": "Musa və İlyas göründü."
+    },
+    "toxunmaq": {
+     "i": "🤲",
+     "x": "어루만지다",
+     "m": "Əllə yumşaqca toxunmaqdır.",
+     "e": "İsa şagirdlərə toxundu."
+    },
+    "xardal toxumu": {
+     "i": "🌱",
+     "x": "겨자씨",
+     "m": "Çox kiçik toxumdur.",
+     "e": "Xardal toxumu qədər iman."
+    },
+    "vergi": {
+     "i": "🪙",
+     "x": "세금",
+     "m": "Dövlət və ya məbəd üçün verilən puldur.",
+     "e": "Məbəd vergisini verdilər."
+    }
+   },
+   "test": [
+    {
+     "q": "Dağda İsanın üzü necə oldu?",
+     "o": [
+      "Günəş kimi parladı",
+      "Kədərli göründü",
+      "Qaraldı"
+     ],
+     "a": 0,
+     "f": "Düzdür! Allahın izzəti göründü."
+    },
+    {
+     "q": "Buluddan Allah nə dedi?",
+     "o": [
+      "Onu dinləyin",
+      "Dağdan enin",
+      "Ev tikin"
+     ],
+     "a": 0,
+     "f": "Düzdür! İsanın sözünü dinləyirik."
+    },
+    {
+     "q": "İsa yerə qapanan şagirdlərə nə dedi?",
+     "o": [
+      "Qalxın, qorxmayın",
+      "Daha çox qapanın",
+      "Evə gedin"
+     ],
+     "a": 0,
+     "f": "Düzdür! Mehribanlıqla onları qaldırdı."
+    },
+    {
+     "q": "Peter sikkəni harada tapdı?",
+     "o": [
+      "Balığın ağzında",
+      "Qumun içində",
+      "Çantada"
+     ],
+     "a": 0,
+     "f": "Düzdür! Heyrətamiz yolla ehtiyacı ödədi."
+    }
+   ],
+   "dusun": [
+    "Allah “Onu dinləyin” dedi. Mən İsanın sözünü nə vaxt dinləyirəm?",
+    "Qorxanda İsa “Qalx, qorxma” desə, necə hiss edərəm?",
+    "Xardal toxumu qədər kiçik iman niyə qiymətlidir?"
+   ],
+   "fealiyyet": {
+    "ciz": "Dağda günəş kimi parlayan İsanı çək.",
+    "b": "İsanı nə vaxt dinləyəcəksən?",
+    "p": "İsanın sözünü dinləyəcəyin vaxtı seç.",
+    "ph": "",
+    "secim": {
+     "basliq": "İsanı nə vaxt dinləyəcəksən?",
+     "izah": "Toxun və seç. Bir neçəsini seçə bilərsən.",
+     "cumle": "Mən İsanı dinləyəcəyəm: {x}!",
+     "bos": "Kəlamı oxuyanda",
+     "bag": "və",
+     "secimler": [
+      [
+       "📖",
+       "Kəlamı oxuyanda"
+      ],
+      [
+       "🙏",
+       "dua edəndə"
+      ],
+      [
+       "⛪",
+       "ibadətdə"
+      ],
+      [
+       "👨‍👩‍👧",
+       "valideynlərim öyrədəndə"
+      ],
+      [
+       "🌅",
+       "səhər qalxanda"
+      ],
+      [
+       "🌙",
+       "yatmazdan əvvəl"
+      ]
+     ]
+    }
+   },
+   "dua": "Allahım, İsanın Sənin sevimli Oğlun olduğunu göstərdiyin üçün Sənə şükür edirəm. İsanın sözünü yaxşı dinləyən olum. Qorxanda “Qalx, qorxma” deyən İsanı xatırlayım və kiçik imanımı da Ona verim. İsa Məsihin adı ilə dua edirəm. Amin."
   },
-  "test": [
-   {"q": "Dağda görünən iki şəxs nəyi simvollaşdırır?", "o": ["Qanun və peyğəmbərləri", "Padşah və kahini", "Göy və yeri"], "a": 0, "f": "Düzdür. Bütün Əhdi-Ətiq İsanı göstərir."},
-   {"q": "Dağdakı səs 3:17-dəki vəftiz səsinə nə əlavə etdi?", "o": ["Onu dinləyin", "Ona səcdə edin", "Ardınca gedin"], "a": 0, "f": "Düzdür. Allah Özü əmr etdi."},
-   {"q": "Şagirdlər başlarını qaldıranda nə gördülər?", "o": ["Yalnız İsanı", "Yalnız Musanı", "Yalnız buludu"], "a": 0, "f": "Düzdür. Hər şey İsada toplanır."},
-   {"q": "İsa gələcək “İlyasın” kim olduğunu dedi?", "o": ["Vəftizçi Yəhya", "Peter", "Musa"], "a": 0, "f": "Düzdür. 11:14-də də demişdi."},
-   {"q": "İsa məbəd vergisini niyə verdi?", "o": ["Onları büdrətməmək üçün", "Məcburiyyət olduğu üçün", "Pul artıq olduğu üçün"], "a": 0, "f": "Düzdür. Haqdan çox məhəbbəti seçdi."}
+  "genc": {
+   "basliq": "Dağda izzət, dağın ətəyində gerçəklik",
+   "giris": "Çarmıxı xəbər verdikdən altı gün sonra İsa üç şagirdə bir anlıq pərdəni qaldırıb göstərir: O, kimdir. Amma izzət dağından enəndə cinə tutulmuş oğlan və uğursuz şagirdlər gözləyirdi. İman bu iki yer arasında gedib-gəlməkdir.",
+   "meqsed": [
+    "Dağda görünüşün dəyişməsi hadisəsində İsanın kimliyini və Qanun və peyğəmbərlərlə əlaqəsini anlayırıq.",
+    "Dağın ətəyindəki uğursuzluğu və “xardal toxumu imanının” mənasını izah edə bilirik.",
+    "“Onu dinləyin” sözünü gündəlik həyatda yaşamağın yolunu müəyyən edirik."
+   ],
+   "sehneler": [
+    {
+     "b": "Pərdə qalxır",
+     "ayə": "Matta 17:1–5",
+     "alt": "Uca dağda nurlu görünüşə dəyişən İsa",
+     "p": [
+      "İsanın [[görünüşü dəyişdi|görünüşü dəyişmək]]: üzü günəş kimi parladı, paltarı nur kimi ağardı. Musa (Qanun) və İlyas (peyğəmbərlər) görünüb İsa ilə danışdılar. Bu, bütün Əhdi-Ətiqin İsanı göstərdiyini təsvir edir.",
+      "Peter üç çadır qurmaq istədi. O an parlaq bulud onları örtdü və səs gəldi: “Bu Mənim sevimli Oğlumdur, Ondan razıyam. Onu dinləyin!” 3:17-dəki vəftiz səsinə bir söz əlavə olundu: “dinləyin.”"
+     ],
+     "deep": {
+      "b": "Dərindən baxaq · Sina və bu dağ",
+      "p": "“Altı gün sonra”, “uca dağ”, “parlayan üz”, “bulud” və “səs” Çıxış 24 və 34-cü fəsillərdəki Musa hekayəsini xatırladır. Musa Allahın izzətini əks etdirirdi, İsa isə o izzətin Özüdür."
+     }
+    },
+    {
+     "b": "İsadan başqa heç kim",
+     "ayə": "Matta 17:6–13",
+     "alt": "Yerə qapanmış şagirdlərə toxunub onları qaldıran İsa",
+     "p": [
+      "Şagirdlər qorxub yerə qapandılar. İsa gəlib onlara [[toxundu|toxunmaq]] və “Qalxın, qorxmayın” dedi. Başlarını qaldıranda “İsadan başqa heç kimi görmədilər.” Musa da, İlyas da yox oldu, yalnız İsa qaldı.",
+      "Enərkən şagirdlər İlyasın əvvəlcə gələcəyi barədəki peyğəmbərliyi soruşdular. İsa deyir ki, o İlyas Vəftizçi Yəhya idi, insanlar onu tanımadıqları kimi Bəşər Oğlu da əzab çəkəcək."
+     ],
+     "deep": {
+      "b": "Dərindən baxaq · Niyə heç kimə deməyin?",
+      "p": "Dirilmədən əvvəl yalnız izzətdən danışmaq yanlış anlaşılmaya səbəb olardı. İnsanlar çarmıxsız, izzətli Məsih istəyirdi. Dağdakı izzət yalnız çarmıxdan keçərək tam anlaşılır."
+     }
+    },
+    {
+     "b": "Dağın ətəyində uğursuzluq",
+     "ayə": "Matta 17:14–21",
+     "alt": "Xəstə oğlana şəfa verən İsa və sevinən ata",
+     "p": [
+      "Dağın ətəyində qıcolmalardan əziyyət çəkən oğlan və ona şəfa verə bilməyən şagirdlər var idi. 10:1-də səlahiyyət alsalar da, uğursuz oldular. İsa “Ey imansız və azğın nəsil” deyib oğlana şəfa verdi.",
+      "Şagirdlər səbəbini soruşanda “imanınız az olduğu üçün” dedi və “əgər [[xardal toxumu]] qədər imanınız olsa, bu dağa “buradan oraya keç” desəniz, keçəcək” dedi. Məsələ imanın böyüklüyündə deyil, imanın Kimə yönəldiyindədir."
+     ],
+     "deep": {
+      "b": "Dərindən baxaq · Az iman və xardal toxumu imanı",
+      "p": "“Az iman” (oliqopistiya) şübhə ilə qarışmış tərəddüdlü imandır. “Xardal toxumu imanı” isə kiçik olsa da canlıdır və tamamilə Allaha söykənir. Kiçik toxumda həyat olduğu kimi, kiçik olsa da həqiqi olması bəsdir.",
+      "rose": true
+     }
+    },
+    {
+     "b": "Oğullar azaddır",
+     "ayə": "Matta 17:22–27",
+     "alt": "Balığın ağzından sikkə çıxaran Peter",
+     "p": [
+      "İsa ikinci dəfə ölümünü və dirilməsini xəbər verir. Şagirdlər “çox kədərləndilər”. Sonra məbəd vergisi hekayəsi gəlir. İyirmi yaşdan yuxarı yəhudi kişilər hər il yarım şekel (iki drahma) [[məbəd vergisi]] verirdilər.",
+      "İsa deyir: “Padşahın oğulları vergi vermir.” Məbədin Sahibi olan Allahın Oğlunun verməyə ehtiyacı yoxdur. Yenə də “onları büdrətməmək üçün” verməyi deyir və balığın ağzından bir şekel tapdırır. Haqdan çox məhəbbəti seçdi."
+     ],
+     "deep": {
+      "b": "Dərindən baxaq · Büdrətməmək üçün",
+      "p": "Azadlığın olsa da, başqasını büdrətməmək üçün o azadlıqdan imtina etmək İsanın yoludur. Paul da eyni prinsipdən danışır (1 Kor. 8:13; Rom. 14:21)."
+     }
+    }
+   ],
+   "cedvel": {
+    "b": "Dağdakı şəxslər",
+    "alt": "17:1–8",
+    "bas": [
+     "Kim",
+     "Rəmz",
+     "Mənası"
+    ],
+    "set": [
+     [
+      "Musa",
+      "Qanun",
+      "Qanun İsanı göstərir"
+     ],
+     [
+      "İlyas",
+      "Peyğəmbərlər",
+      "Peyğəmbərlər İsanı gözləyirdi"
+     ],
+     [
+      "Peter, Yaqub, Yəhya",
+      "Şahidlər",
+      "İzzəti görüb sonra şəhadət etdilər (2 Peter 1:16–18)"
+     ],
+     [
+      "Bulud və səs",
+      "Allahın hüzuru",
+      "“Onu dinləyin”"
+     ],
+     [
+      "Yalnız İsa",
+      "Tamamlanma",
+      "Qanun və peyğəmbərlər yox olur, yalnız İsa qalır"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "“Peter hələ danışarkən parlaq bir bulud onları örtdü və buluddan bir səs gəldi: “Bu Mənim sevimli Oğlumdur, Ondan razıyam. Onu dinləyin!””",
+    "ref": "17:5"
+   },
+   "lugat": {
+    "görünüşü dəyişmək": {
+     "i": "✨",
+     "o": "Yunanca metamorfoo",
+     "x": "변형되다",
+     "s": "Daxili mahiyyətin üzə çıxması",
+     "m": "“Metamorfoz” sözünün kökü budur. Zahiri görkəm dəyişmədi, gizli qalan Allah izzəti göründü.",
+     "e": "Romalılara 12:2-dəki “düşüncənizin yenilənməsi ilə dəyişin” ayəsində də eyni fel var."
+    },
+    "toxunmaq": {
+     "i": "🤲",
+     "o": "Yunanca haptomai",
+     "x": "손을 대다",
+     "s": "Bərpa toxunuşu",
+     "m": "Cüzamlıya (8:3), qızdırmalıya (8:15), korlara (9:29) şəfa verəndə işlənən eyni feldir.",
+     "e": "İzzət anında belə İsa əvvəlcə qorxana toxunur."
+    },
+    "xardal toxumu": {
+     "i": "🌱",
+     "o": "Yunanca kokkos sinapeos",
+     "x": "겨자씨",
+     "s": "Kiçik, amma canlı iman",
+     "m": "13:31-dəki xardal toxumu məsəli ilə bağlıdır. Həm Allahın Padşahlığı, həm də iman kiçik başlayır.",
+     "e": "Luka 17:6-da da oxşar söz var."
+    },
+    "məbəd vergisi": {
+     "i": "🪙",
+     "o": "Yunanca didrahmon",
+     "x": "성전세",
+     "s": "Yarım şekel",
+     "m": "Çıxış 30:13-ə əsaslanan vergi idi, təxminən iki günlük əmək haqqı. Balıqdan çıxan bir şekel (stater) iki nəfərin payıdır.",
+     "e": "Qalileya gölünün “Peter balığı” (tilapiya) bu gün də məşhurdur."
+    }
+   },
+   "test": [
+    {
+     "q": "Dağda görünən iki şəxs nəyi simvollaşdırır?",
+     "o": [
+      "Qanun və peyğəmbərləri",
+      "Padşah və kahini",
+      "Göy və yeri"
+     ],
+     "a": 0,
+     "f": "Düzdür. Bütün Əhdi-Ətiq İsanı göstərir."
+    },
+    {
+     "q": "Dağdakı səs 3:17-dəki vəftiz səsinə nə əlavə etdi?",
+     "o": [
+      "Onu dinləyin",
+      "Ona səcdə edin",
+      "Ardınca gedin"
+     ],
+     "a": 0,
+     "f": "Düzdür. Allah Özü əmr etdi."
+    },
+    {
+     "q": "Şagirdlər başlarını qaldıranda nə gördülər?",
+     "o": [
+      "Yalnız İsanı",
+      "Yalnız Musanı",
+      "Yalnız buludu"
+     ],
+     "a": 0,
+     "f": "Düzdür. Hər şey İsada toplanır."
+    },
+    {
+     "q": "İsa gələcək “İlyasın” kim olduğunu dedi?",
+     "o": [
+      "Vəftizçi Yəhya",
+      "Peter",
+      "Musa"
+     ],
+     "a": 0,
+     "f": "Düzdür. 11:14-də də demişdi."
+    },
+    {
+     "q": "İsa məbəd vergisini niyə verdi?",
+     "o": [
+      "Onları büdrətməmək üçün",
+      "Məcburiyyət olduğu üçün",
+      "Pul artıq olduğu üçün"
+     ],
+     "a": 0,
+     "f": "Düzdür. Haqdan çox məhəbbəti seçdi."
+    }
+   ],
+   "paylas": [
+    "“Dağdakı an” (düşərgə, lütf dolu ibadət) ilə “dağın ətəyindəki gerçəklik” (məktəb, ev) arasındakı fərqi hiss etmisənmi?",
+    "Allah “Onu dinləyin” dedi. Bu günlərdə ən çox kimin səsini “dinləyirəm”?",
+    "İmanım nə vaxt “az iman” kimi tərəddüd edir?",
+    "Azadlığımı və ya haqqımı başqası üçün buraxa biləcəyim sahə hansıdır?"
+   ],
+   "etiraf": {
+    "b": "Mənim etirafım",
+    "p": "“İsadan başqa heç kimi görmədilər.” Həyatımda yalnız İsaya baxmaq istədiyim sahəni və səbəbini üç-dörd cümlə ilə yaz.",
+    "ph": "Məsələn: Mən insanların fikrinə çox fikir verirəm. Amma yalnız İsaya baxanda …"
+   },
+   "dua": "Allahım, İsanın Sənin sevimli Oğlun, Qanun və peyğəmbərlərin tamamlanması olduğunu göstərdiyin üçün Sənə şükür edirəm. Çoxlu səslər arasında İsanın sözünü dinləyim. Dağda da, dağın ətəyində də yalnız İsaya baxaraq xardal toxumu kimi canlı imanla yaşayım. İsa Məsihin adı ilə dua edirəm. Amin."
+  }
+ },
+ "muellim": {
+  "mesaj": "22과의 중심은 한 문장입니다. **변화산에서 하나님은 예수님이 율법과 선지자의 완성이신 사랑하는 아들이심을 보이시며 “그의 말을 들으라”고 명령하신다. 그 영광은 산 아래의 고난과 섬김으로 이어진다.**",
+  "hazirliq": [
+   "학생용 교재를 열 휴대폰이나 태블릿, 이어폰",
+   "손전등 (빛나는 모습 표현)",
+   "동전 하나와 물고기 그림"
   ],
-  "paylas": ["“Dağdakı an” (düşərgə, lütf dolu ibadət) ilə “dağın ətəyindəki gerçəklik” (məktəb, ev) arasındakı fərqi hiss etmisənmi?", "Allah “Onu dinləyin” dedi. Bu günlərdə ən çox kimin səsini “dinləyirəm”?", "İmanım nə vaxt “az iman” kimi tərəddüd edir?", "Azadlığımı və ya haqqımı başqası üçün buraxa biləcəyim sahə hansıdır?"],
-  "etiraf": {"b": "Mənim etirafım", "p": "“İsadan başqa heç kimi görmədilər.” Həyatımda yalnız İsaya baxmaq istədiyim sahəni və səbəbini üç-dörd cümlə ilə yaz.", "ph": "Məsələn: Mən insanların fikrinə çox fikir verirəm. Amma yalnız İsaya baxanda …"},
-  "dua": "Allahım, İsanın Sənin sevimli Oğlun, Qanun və peyğəmbərlərin tamamlanması olduğunu göstərdiyin üçün Sənə şükür edirəm. Çoxlu səslər arasında İsanın sözünü dinləyim. Dağda da, dağın ətəyində də yalnız İsaya baxaraq xardal toxumu kimi canlı imanla yaşayım. İsa Məsihin adı ilə dua edirəm. Amin."
+  "fon": [
+   [
+    "1. 변화산의 위치",
+    "전통적으로 다볼산(588m)이지만, 가이사랴 빌립보 근처의 헤르몬산(2,814m)일 가능성도 큽니다. 16장 직후라는 점에서 헤르몬산 설이 지지를 받습니다."
+   ],
+   [
+    "2. 출애굽기 배경",
+    "엿새(출 24:16), 높은 산, 세 명의 동행자(출 24:1), 빛나는 얼굴(출 34:29), 구름(출 24:15)이 모두 겹칩니다. 신명기 18:15 “너희는 그의 말을 들을지니라”도 성취됩니다."
+   ],
+   [
+    "3. 초막 셋",
+    "베드로는 초막절 전통이나 광야의 성막을 떠올렸을 수 있습니다. 영광의 순간을 붙잡아 두려는 인간적인 반응입니다."
+   ],
+   [
+    "4. 간질",
+    "17:15의 ‘간질’은 원어로 ‘달에 영향을 받는’이라는 뜻입니다. 마태는 귀신 들림으로 서술합니다. 오늘날 간질 환자에게 상처가 되지 않도록 설명에 주의하세요."
+   ],
+   [
+    "5. 그림 안내",
+    "첫 장면은 PPT의 ‘변화산’ 그림입니다. 나머지는 같은 화풍으로 새로 그렸습니다."
+   ]
+  ],
+  "usaq_plan": [
+   [
+    "5분",
+    "빛 놀이",
+    "불을 끄고 손전등으로 얼굴 비추기",
+    "“예수님의 얼굴은 해처럼 빛났어요!”"
+   ],
+   [
+    "15분",
+    "장면 1–4 듣고 읽기",
+    "장면마다 듣기, 노란 낱말 누르기",
+    "“무서워하는 제자들을 예수님은 어떻게 하셨나요?”"
+   ],
+   [
+    "5분",
+    "외울 말씀",
+    "빈칸 놀이 → ‘들으라’에 귀에 손 대기",
+    ""
+   ],
+   [
+    "5분",
+    "확인 퀴즈",
+    "혼자 풀고 함께 확인",
+    ""
+   ],
+   [
+    "10분",
+    "활동과 기도",
+    "예수님 말씀 들을 시간 고르기 → 기도",
+    ""
+   ]
+  ],
+  "genc_plan": [
+   [
+    "5분",
+    "열기",
+    "“최고의 신앙 순간과 그 다음 날의 현실”을 짧게 나누기",
+    ""
+   ],
+   [
+    "15분",
+    "장면 1–2와 등장인물 표",
+    "변화산과 시내산, 예수 외에는 아무도",
+    ""
+   ],
+   [
+    "10분",
+    "장면 3–4",
+    "산 아래의 실패, 작은 믿음과 겨자씨 믿음, 성전세와 실족",
+    "“누구의 목소리를 듣는가?”"
+   ],
+   [
+    "5분",
+    "확인 문제",
+    "",
+    ""
+   ],
+   [
+    "15분",
+    "나눔과 고백",
+    "나눔 질문 2개 → ‘예수님만’ 고백 쓰기 → 기도",
+    ""
+   ]
+  ],
+  "ipucu_usaq": [
+   "‘믿음이 크면 산을 옮긴다’를 마술처럼 이해하지 않도록, ‘하나님이 큰일을 하신다’로 설명하세요.",
+   "물고기 동전 이야기는 아이들이 좋아합니다. 하나님이 필요를 채우신다는 점을 강조하세요.",
+   "간질 아이 이야기는 ‘아픈 아이’로만 표현하세요."
+  ],
+  "ipucu_genc": [
+   "‘산 위 경험’을 무시하지도 우상화하지도 않게, 산 위의 영광이 산 아래의 섬김으로 이어져야 함을 강조하세요.",
+   "‘믿음이 작아서 못 고쳤다’를 병이 낫지 않은 사람의 탓으로 돌리지 않도록 주의하세요.",
+   "다음 과(18장)는 잃은 양과 용서의 비유입니다."
+  ],
+  "suallar": [
+   [
+    "모세랑 엘리야는 어떻게 거기 나타났어요?",
+    "하나님이 특별히 보내 주셨어요. 하늘에 있는 사람들이 예수님과 이야기했어요.",
+    "성경은 방법을 설명하지 않아요. 중요한 것은 율법(모세)과 선지자(엘리야)가 예수님과 이야기하며 예수님을 증언한다는 점이에요."
+   ],
+   [
+    "믿음이 있으면 진짜 산이 옮겨져요?",
+    "하나님은 산도 옮기실 수 있어요. 하지만 예수님은 아무리 어려운 일도 하나님께 맡기라는 뜻으로 말씀하셨어요.",
+    "‘산을 옮긴다’는 유대 표현으로 불가능해 보이는 일을 뜻해요. 믿음은 마술이 아니라 하나님의 뜻 안에서 하나님을 신뢰하는 거예요."
+   ],
+   [
+    "예수님은 왜 세금을 안 내도 된다면서 내셨어요?",
+    "다른 사람이 오해하지 않도록, 사랑하는 마음으로 내셨어요.",
+    "하나님의 아들로서 권리가 있었지만 다른 사람을 실족하게 하지 않으려고 권리를 내려놓으셨어요. 사랑이 권리보다 앞서요."
+   ]
+  ]
+ },
+ "en": {
+  "usaq": {
+   "basliq": "Listen to Him",
+   "hedef": [
+    "We will learn that Jesus' appearance changed with light on a high mountain.",
+    "We will learn that God said, 'Listen to Jesus.'",
+    "We will learn that even faith as small as a mustard seed is precious."
+   ],
+   "sehneler": [
+    {
+     "b": "Jesus Shining Like the Sun",
+     "ayə": "Matthew 17:1–5",
+     "alt": "Jesus changing into a shining appearance on a high mountain",
+     "p": [
+      "Jesus took Peter, James, and John up a high mountain. At that moment, Jesus' face shone like the sun, and His clothes became as white as light. He was [[transformed|transform]].",
+      "Moses and [[Elijah]] appeared and were talking with Jesus. Then God's voice came from a bright cloud: 'This is my beloved Son, with whom I am well pleased. Listen to Him!'"
+     ]
+    },
+    {
+     "b": "Get Up, Don't Be Afraid",
+     "ayə": "Matthew 17:6–13",
+     "alt": "Jesus touching the disciples who fell to the ground and raising them up",
+     "p": [
+      "The disciples were very afraid and fell to the ground. Jesus came to them, [[touched|touch]] them, and said, 'Get up, and don't be afraid.'",
+      "When the disciples looked up, they saw only Jesus. God is not scary; He comes close to us through Jesus."
+     ]
+    },
+    {
+     "b": "He Healed the Sick Boy",
+     "ayə": "Matthew 17:14–21",
+     "alt": "Jesus healing the sick boy and the happy father",
+     "p": [
+      "At the bottom of the mountain, a father knelt before Jesus: 'Lord, have mercy on my son. He often falls into the fire and into the water.' The disciples could not heal him.",
+      "Jesus healed the boy. Then He said, 'If you have faith as small as a [[mustard seed]], you will say to this mountain, \"Move from here to there,\" and it will move.'"
+     ]
+    },
+    {
+     "b": "The Coin in the Fish's Mouth",
+     "ayə": "Matthew 17:24–27",
+     "alt": "Peter taking a coin out of a fish's mouth",
+     "p": [
+      "The people who collected the temple [[tax]] asked Peter, 'Doesn't your teacher pay the tax?'",
+      "Jesus said, 'Go to the lake and throw in your line. Open the mouth of the first fish you catch, and you will find a coin. Take it and give it to them for Me and you.' Peter really found the coin!"
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "“This is my beloved Son, with whom I am well pleased. Listen to Him!”",
+    "ref": "17:5",
+    "bos": "This is my beloved ___, with whom I am well ___. ___ to Him!",
+    "sozler": [
+     "Son",
+     "pleased",
+     "Listen"
+    ],
+    "yalan": "Forget"
+   },
+   "lugat": {
+    "transform": {
+     "i": "✨",
+     "x": "görünüşü dəyişmək",
+     "m": "It means the appearance changes completely. Jesus' divine glory was shown.",
+     "e": "Jesus' appearance was transformed with light."
+    },
+    "Elijah": {
+     "i": "🔥",
+     "x": "İlyas",
+     "m": "He is a great prophet of the Old Testament. He went up to heaven in a chariot of fire.",
+     "e": "Moses and Elijah appeared."
+    },
+    "touch": {
+     "i": "🤲",
+     "x": "toxunmaq",
+     "m": "To feel or pat softly with the hand.",
+     "e": "Jesus touched the disciples."
+    },
+    "mustard seed": {
+     "i": "🌱",
+     "x": "xardal toxumu",
+     "m": "It is a very small seed.",
+     "e": "Faith as small as a mustard seed."
+    },
+    "tax": {
+     "i": "🪙",
+     "x": "vergi",
+     "m": "Money given to the government or the temple.",
+     "e": "They paid the temple tax."
+    }
+   },
+   "test": [
+    {
+     "q": "What happened to Jesus' face on the mountain?",
+     "o": [
+      "It shone like the sun",
+      "It looked sad",
+      "It turned black"
+     ],
+     "a": 0,
+     "f": "Correct! God's glory was shown."
+    },
+    {
+     "q": "What did God say from the cloud?",
+     "o": [
+      "Listen to Him",
+      "Go down the mountain",
+      "Build a house"
+     ],
+     "a": 0,
+     "f": "Correct! We listen to Jesus' words."
+    },
+    {
+     "q": "What did Jesus say to the disciples who fell to the ground?",
+     "o": [
+      "Get up, and don't be afraid",
+      "Stay on the ground",
+      "Go home"
+     ],
+     "a": 0,
+     "f": "Correct! He kindly raised them up."
+    },
+    {
+     "q": "Where did Peter find the coin?",
+     "o": [
+      "In a fish's mouth",
+      "In the sand",
+      "In a bag"
+     ],
+     "a": 0,
+     "f": "Correct! Jesus provided for their need in an amazing way."
+    }
+   ],
+   "dusun": [
+    "God said, 'Listen to Him.' When do I listen to Jesus' words?",
+    "How would I feel if Jesus said 'Get up, don't be afraid' when I am scared?",
+    "Why is faith as small as a mustard seed precious?"
+   ],
+   "fealiyyet": {
+    "ciz": "Draw Jesus shining like the sun on the mountain.",
+    "b": "When will you listen to Jesus?",
+    "p": "Choose the time when you will listen to Jesus' words.",
+    "ph": "",
+    "secim": {
+     "basliq": "When will you listen to Jesus?",
+     "izah": "Tap to choose. You can choose more than one.",
+     "cumle": "I will listen to Jesus {x}!",
+     "bos": "when reading the Word",
+     "bag": "and",
+     "secimler": [
+      [
+       "📖",
+       "when reading the Word"
+      ],
+      [
+       "🙏",
+       "when praying"
+      ],
+      [
+       "⛪",
+       "at church"
+      ],
+      [
+       "👨‍👩‍👧",
+       "when my parents teach me"
+      ],
+      [
+       "🌅",
+       "when I wake up in the morning"
+      ],
+      [
+       "🌙",
+       "before going to bed"
+      ]
+     ]
+    }
+   },
+   "dua": "Dear God, thank You for showing that Jesus is Your beloved Son. Help me to be someone who listens well to Jesus' words. When I am afraid, let me remember Jesus saying, 'Get up, don't be afraid,' and let me give even my small faith to Him. I pray in the name of Jesus Christ. Amen."
+  },
+  "genc": {
+   "basliq": "Glory on the Mountain, Reality at the Bottom",
+   "giris": "Six days after announcing the cross, Jesus briefly lifts the curtain for three disciples to show them who He is. But when they come down from the mountain of glory, a demon-possessed boy and failing disciples are waiting. Faith is moving back and forth between these two places.",
+   "meqsed": [
+    "To understand Jesus' identity and His relationship with the Law and the Prophets in the transfiguration event.",
+    "To explain the failure at the bottom of the mountain and the meaning of 'mustard seed faith'.",
+    "To determine how to live out the command 'Listen to Him' in daily life."
+   ],
+   "sehneler": [
+    {
+     "b": "The Curtain is Lifted",
+     "ayə": "Matthew 17:1–5",
+     "alt": "Jesus changing into a shining appearance on a high mountain",
+     "p": [
+      "Jesus was [[transformed|transform]]: His face shone like the sun, and His clothes became as white as light. Moses (the Law) and Elijah (the Prophets) appeared and talked with Jesus. This illustrates that the entire Old Testament points to Jesus.",
+      "Peter wanted to build three tents. At that moment, a bright cloud covered them, and a voice said: 'This is my beloved Son, with whom I am well pleased. Listen to Him!' One phrase was added to the voice from His baptism in 3:17: 'Listen.'"
+     ],
+     "deep": {
+      "b": "Look Deeper · Sinai and This Mountain",
+      "p": "'After six days,' 'a high mountain,' 'a shining face,' 'a cloud,' and 'a voice' all recall the story of Moses in Exodus 24 and 34. Moses reflected God's glory, but Jesus is that glory Himself."
+     }
+    },
+    {
+     "b": "No One Except Jesus",
+     "ayə": "Matthew 17:6–13",
+     "alt": "Jesus touching the disciples who fell to the ground and raising them up",
+     "p": [
+      "The disciples were afraid and fell to the ground. Jesus came, [[touched|touch]] them, and said, 'Get up, and don't be afraid.' When they looked up, they 'saw no one except Jesus.' Both Moses and Elijah disappeared, and only Jesus remained.",
+      "On the way down, the disciples asked about the prophecy that Elijah must come first. Jesus says that John the Baptist was that Elijah, and just as people did not recognize him, the Son of Man will also suffer."
+     ],
+     "deep": {
+      "b": "Look Deeper · Why Tell No One?",
+      "p": "Speaking only of glory before the resurrection would cause misunderstanding. People wanted a glorious Messiah without the cross. The glory on the mountain can only be fully understood by passing through the cross."
+     }
+    },
+    {
+     "b": "Failure at the Bottom of the Mountain",
+     "ayə": "Matthew 17:14–21",
+     "alt": "Jesus healing the sick boy and the happy father",
+     "p": [
+      "At the bottom of the mountain, there was a boy suffering from seizures and disciples who could not heal him. Even though they had received authority in 10:1, they failed. Jesus said, 'Faithless and perverse generation,' and healed the boy.",
+      "When the disciples asked why, He said, 'Because of your little faith,' and added, 'If you have faith as small as a [[mustard seed]], you will say to this mountain, \"Move from here to there,\" and it will move.' The issue is not the size of the faith, but who the faith is directed toward."
+     ],
+     "deep": {
+      "b": "Look Deeper · Little Faith and Mustard Seed Faith",
+      "p": "'Little faith' (oligopistia) is a wavering faith mixed with doubt. But 'mustard seed faith,' even if small, is alive and relies completely on God. Just as there is life in a small seed, it is enough for faith to be genuine, even if it is small.",
+      "rose": true
+     }
+    },
+    {
+     "b": "Sons Are Free",
+     "ayə": "Matthew 17:22–27",
+     "alt": "Peter taking a coin out of a fish's mouth",
+     "p": [
+      "Jesus predicts His death and resurrection for the second time. The disciples were 'deeply grieved.' Then comes the story of the temple tax. Jewish men over twenty paid a half-shekel (two drachmas) [[temple tax]] every year.",
+      "Jesus says, 'The sons of the king do not pay taxes.' The Son of God, who is the Lord of the temple, does not need to pay. Yet, 'so as not to cause them to stumble,' He tells Peter to pay it and has him find a shekel in a fish's mouth. He chose love over His rights."
+     ],
+     "deep": {
+      "b": "Look Deeper · So As Not to Cause Stumbling",
+      "p": "Even if you have freedom, giving up that freedom so as not to cause others to stumble is the way of Jesus. Paul also speaks of the same principle (1 Cor. 8:13; Rom. 14:21)."
+     }
+    }
+   ],
+   "cedvel": {
+    "b": "Figures on the Mountain",
+    "alt": "17:1–8",
+    "bas": [
+     "Who",
+     "Symbol",
+     "Meaning"
+    ],
+    "set": [
+     [
+      "Moses",
+      "The Law",
+      "The Law points to Jesus"
+     ],
+     [
+      "Elijah",
+      "The Prophets",
+      "The Prophets waited for Jesus"
+     ],
+     [
+      "Peter, James, John",
+      "Witnesses",
+      "They saw the glory and later testified (2 Peter 1:16–18)"
+     ],
+     [
+      "Cloud and voice",
+      "God's presence",
+      "'Listen to Him'"
+     ],
+     [
+      "Only Jesus",
+      "Fulfillment",
+      "The Law and the Prophets disappear, and only Jesus remains"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "“While he was still speaking, behold, a bright cloud overshadowed them. Behold, a voice came out of the cloud, saying, 'This is my beloved Son, in whom I am well pleased. Listen to him.'”",
+    "ref": "17:5"
+   },
+   "lugat": {
+    "transform": {
+     "i": "✨",
+     "o": "Greek metamorphoo",
+     "x": "görünüşü dəyişmək",
+     "s": "Inner essence revealed",
+     "m": "This is the root of the word 'metamorphosis'. The outward appearance did not just change; the hidden glory of God was revealed.",
+     "e": "The same verb is used in Romans 12:2, 'be transformed by the renewing of your mind.'"
+    },
+    "touch": {
+     "i": "🤲",
+     "o": "Greek haptomai",
+     "x": "toxunmaq",
+     "s": "A touch of restoration",
+     "m": "It is the same verb used when healing the leper (8:3), the feverish woman (8:15), and the blind men (9:29).",
+     "e": "Even in a moment of glory, Jesus first touches those who are afraid."
+    },
+    "mustard seed": {
+     "i": "🌱",
+     "o": "Greek kokkos sinapeos",
+     "x": "xardal toxumu",
+     "s": "Small, but living faith",
+     "m": "It is connected to the parable of the mustard seed in 13:31. Both the Kingdom of God and faith start small.",
+     "e": "There is a similar saying in Luke 17:6."
+    },
+    "temple tax": {
+     "i": "🪙",
+     "o": "Greek didrachmon",
+     "x": "məbəd vergisi",
+     "s": "Half a shekel",
+     "m": "It was a tax based on Exodus 30:13, about two days' wages. The one shekel (stater) that came out of the fish was enough for two people.",
+     "e": "The 'St. Peter's fish' (tilapia) of the Sea of Galilee is still famous today."
+    }
+   },
+   "test": [
+    {
+     "q": "What do the two figures who appeared on the mountain symbolize?",
+     "o": [
+      "The Law and the Prophets",
+      "The King and the Priest",
+      "Heaven and Earth"
+     ],
+     "a": 0,
+     "f": "Correct. The entire Old Testament points to Jesus."
+    },
+    {
+     "q": "What did the voice on the mountain add to the voice from His baptism in 3:17?",
+     "o": [
+      "Listen to Him",
+      "Worship Him",
+      "Follow Him"
+     ],
+     "a": 0,
+     "f": "Correct. God Himself commanded it."
+    },
+    {
+     "q": "What did the disciples see when they looked up?",
+     "o": [
+      "Only Jesus",
+      "Only Moses",
+      "Only the cloud"
+     ],
+     "a": 0,
+     "f": "Correct. Everything comes together in Jesus."
+    },
+    {
+     "q": "Who did Jesus say was the 'Elijah' who was to come?",
+     "o": [
+      "John the Baptist",
+      "Peter",
+      "Moses"
+     ],
+     "a": 0,
+     "f": "Correct. He had also said this in 11:14."
+    },
+    {
+     "q": "Why did Jesus pay the temple tax?",
+     "o": [
+      "So as not to cause them to stumble",
+      "Because it was mandatory",
+      "Because He had extra money"
+     ],
+     "a": 0,
+     "f": "Correct. He chose love over His rights."
+    }
+   ],
+   "paylas": [
+    "Have you ever felt the difference between a 'moment on the mountain' (a retreat, a grace-filled worship service) and the 'reality at the bottom of the mountain' (school, home)?",
+    "God said, 'Listen to Him.' Whose voice do I 'listen to' the most these days?",
+    "When does my faith waver like 'little faith'?",
+    "In what area can I give up my freedom or rights for the sake of someone else?"
+   ],
+   "etiraf": {
+    "b": "My Confession",
+    "p": "'They saw no one except Jesus.' Write three or four sentences about an area of your life where you want to look only to Jesus, and why.",
+    "ph": "For example: I care too much about what people think. But when I look only to Jesus..."
+   },
+   "dua": "Dear God, thank You for showing that Jesus is Your beloved Son and the fulfillment of the Law and the Prophets. Amidst many voices, let me listen to the words of Jesus. Whether on the mountain or at the bottom of the mountain, let me look only to Jesus and live with a living faith like a mustard seed. I pray in the name of Jesus Christ. Amen."
+  }
  }
-},
-"muellim": {
- "mesaj": "22과의 중심은 한 문장입니다. **변화산에서 하나님은 예수님이 율법과 선지자의 완성이신 사랑하는 아들이심을 보이시며 “그의 말을 들으라”고 명령하신다. 그 영광은 산 아래의 고난과 섬김으로 이어진다.**",
- "hazirliq": ["학생용 교재를 열 휴대폰이나 태블릿, 이어폰", "손전등 (빛나는 모습 표현)", "동전 하나와 물고기 그림"],
- "fon": [
-  ["1. 변화산의 위치", "전통적으로 다볼산(588m)이지만, 가이사랴 빌립보 근처의 헤르몬산(2,814m)일 가능성도 큽니다. 16장 직후라는 점에서 헤르몬산 설이 지지를 받습니다."],
-  ["2. 출애굽기 배경", "엿새(출 24:16), 높은 산, 세 명의 동행자(출 24:1), 빛나는 얼굴(출 34:29), 구름(출 24:15)이 모두 겹칩니다. 신명기 18:15 “너희는 그의 말을 들을지니라”도 성취됩니다."],
-  ["3. 초막 셋", "베드로는 초막절 전통이나 광야의 성막을 떠올렸을 수 있습니다. 영광의 순간을 붙잡아 두려는 인간적인 반응입니다."],
-  ["4. 간질", "17:15의 ‘간질’은 원어로 ‘달에 영향을 받는’이라는 뜻입니다. 마태는 귀신 들림으로 서술합니다. 오늘날 간질 환자에게 상처가 되지 않도록 설명에 주의하세요."],
-  ["5. 그림 안내", "첫 장면은 PPT의 ‘변화산’ 그림입니다. 나머지는 같은 화풍으로 새로 그렸습니다."]
- ],
- "usaq_plan": [
-  ["5분", "빛 놀이", "불을 끄고 손전등으로 얼굴 비추기", "“예수님의 얼굴은 해처럼 빛났어요!”"],
-  ["15분", "장면 1–4 듣고 읽기", "장면마다 듣기, 노란 낱말 누르기", "“무서워하는 제자들을 예수님은 어떻게 하셨나요?”"],
-  ["5분", "외울 말씀", "빈칸 놀이 → ‘들으라’에 귀에 손 대기", ""],
-  ["5분", "확인 퀴즈", "혼자 풀고 함께 확인", ""],
-  ["10분", "활동과 기도", "예수님 말씀 들을 시간 고르기 → 기도", ""]
- ],
- "genc_plan": [
-  ["5분", "열기", "“최고의 신앙 순간과 그 다음 날의 현실”을 짧게 나누기", ""],
-  ["15분", "장면 1–2와 등장인물 표", "변화산과 시내산, 예수 외에는 아무도", ""],
-  ["10분", "장면 3–4", "산 아래의 실패, 작은 믿음과 겨자씨 믿음, 성전세와 실족", "“누구의 목소리를 듣는가?”"],
-  ["5분", "확인 문제", "", ""],
-  ["15분", "나눔과 고백", "나눔 질문 2개 → ‘예수님만’ 고백 쓰기 → 기도", ""]
- ],
- "ipucu_usaq": ["‘믿음이 크면 산을 옮긴다’를 마술처럼 이해하지 않도록, ‘하나님이 큰일을 하신다’로 설명하세요.", "물고기 동전 이야기는 아이들이 좋아합니다. 하나님이 필요를 채우신다는 점을 강조하세요.", "간질 아이 이야기는 ‘아픈 아이’로만 표현하세요."],
- "ipucu_genc": ["‘산 위 경험’을 무시하지도 우상화하지도 않게, 산 위의 영광이 산 아래의 섬김으로 이어져야 함을 강조하세요.", "‘믿음이 작아서 못 고쳤다’를 병이 낫지 않은 사람의 탓으로 돌리지 않도록 주의하세요.", "다음 과(18장)는 잃은 양과 용서의 비유입니다."],
- "suallar": [
-  ["모세랑 엘리야는 어떻게 거기 나타났어요?", "하나님이 특별히 보내 주셨어요. 하늘에 있는 사람들이 예수님과 이야기했어요.", "성경은 방법을 설명하지 않아요. 중요한 것은 율법(모세)과 선지자(엘리야)가 예수님과 이야기하며 예수님을 증언한다는 점이에요."],
-  ["믿음이 있으면 진짜 산이 옮겨져요?", "하나님은 산도 옮기실 수 있어요. 하지만 예수님은 아무리 어려운 일도 하나님께 맡기라는 뜻으로 말씀하셨어요.", "‘산을 옮긴다’는 유대 표현으로 불가능해 보이는 일을 뜻해요. 믿음은 마술이 아니라 하나님의 뜻 안에서 하나님을 신뢰하는 거예요."],
-  ["예수님은 왜 세금을 안 내도 된다면서 내셨어요?", "다른 사람이 오해하지 않도록, 사랑하는 마음으로 내셨어요.", "하나님의 아들로서 권리가 있었지만 다른 사람을 실족하게 하지 않으려고 권리를 내려놓으셨어요. 사랑이 권리보다 앞서요."]
- ]
-}
 }
