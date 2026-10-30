@@ -87,19 +87,25 @@ function text(s){
  if(s.q.startsWith('en'))return 'Hi, '+s.ad+'! 👋\nHere is your Bible lessons link:\n'+u+'\n\nAlways open your lessons with this link so your teacher can see your results. 📖';
  return s.ad+', 안녕! 👋\n너만의 성경교재 링크야:\n'+u+'\n\n공부할 때마다 이 링크로 들어와 줘. 📖';
 }
-function wa(s){const t=encodeURIComponent(text(s));const n=(s.tel||'').replace(/[^0-9]/g,'');return 'https://wa.me/'+(n?n:'')+'?text='+t;}
+function wa(s){const t=encodeURIComponent(text(s));let n=(s.tel||'').replace(/[^0-9]/g,'');if(/^0?5\d{8}$/.test(n))n='995'+n.replace(/^0/,'');return 'https://wa.me/'+(n?n:'')+'?text='+t;}
+function copyOld(t){const a=document.createElement('textarea');a.value=t;a.setAttribute('readonly','');a.style.cssText='position:fixed;top:0;left:0;opacity:0';document.body.appendChild(a);a.focus();a.select();a.setSelectionRange(0,t.length);let ok=false;try{ok=document.execCommand('copy')}catch(e){}a.remove();return ok;}
+async function copy(t,btn,lbl){let ok=false;
+ try{if(navigator.clipboard&&window.isSecureContext){await navigator.clipboard.writeText(t);ok=true;}}catch(e){}
+ if(!ok)ok=copyOld(t);
+ if(ok){btn.textContent='복사됨 ✓';setTimeout(()=>btn.textContent=lbl,1800);}else prompt('아래 내용을 길게 눌러 복사하세요',t);}
 function render(){
  const L=document.getElementById('list');L.innerHTML='';
  if(!S.length){L.innerHTML='<p class="empty">아직 학생이 없어요. 위에서 추가해 주세요.</p>';return;}
  S.forEach((s,i)=>{
   const d=document.createElement('div');d.className='st';
-  d.innerHTML='<div class="top"><b></b><span class="tag"></span></div><div class="url"></div><div class="row"><a class="wa" target="_blank" rel="noopener">WhatsApp으로 보내기</a><button class="ghost cp" type="button">링크 복사</button><input class="tel" inputmode="tel" placeholder="번호 (선택)"><button class="del" type="button" aria-label="삭제">삭제</button></div>';
+  d.innerHTML='<div class="top"><b></b><span class="tag"></span></div><div class="url"></div><div class="row"><a class="wa" target="_blank" rel="noopener">WhatsApp으로 보내기</a><button class="ghost cp" type="button">링크 복사</button><button class="ghost cm" type="button">메시지 복사</button><input class="tel" inputmode="tel" placeholder="번호 (선택)"><button class="del" type="button" aria-label="삭제">삭제</button></div>';
   d.querySelector('b').textContent=s.ad;d.querySelector('.tag').textContent=LBL[s.q];
   d.querySelector('.url').textContent=link(s);
   const a=d.querySelector('.wa');a.href=wa(s);
   const t=d.querySelector('.tel');t.value=s.tel||'';
   t.onchange=()=>{s.tel=t.value.trim();save(S);a.href=wa(s);};
-  d.querySelector('.cp').onclick=async e=>{try{await navigator.clipboard.writeText(text(s));e.target.textContent='복사됨 ✓'}catch(x){prompt('복사하세요',link(s))}};
+  d.querySelector('.cp').onclick=e=>copy(link(s),e.target,'링크 복사');
+  d.querySelector('.cm').onclick=e=>copy(text(s),e.target,'메시지 복사');
   d.querySelector('.del').onclick=()=>{if(confirm(s.ad+' 학생을 목록에서 지울까요?')){S.splice(i,1);save(S);render();}};
   L.appendChild(d);
  });
