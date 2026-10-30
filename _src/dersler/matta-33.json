@@ -1,153 +1,1555 @@
 {
-"no": 33, "ref": "28:1–20", "deq": {"usaq": 40, "genc": 50},
-"img": ["41-dirilme.jpg", "matta/33-qadinlar.jpg", "matta/33-kesikci.jpg", "matta/33-tapsiriq.jpg"],
-"hero": 0,
-"ko": {
- "usaq": {
-  "basliq": "살아나셨어요!",
-  "hedef": ["예수님이 사흘 만에 다시 살아나셨음을 알아요.", "부활하신 예수님이 제자들에게 맡기신 사명을 배워요.", "예수님이 언제나 나와 함께 계심을 믿어요."],
-  "sehneler": [
-   {"b": "빈 무덤", "ayə": "28:1–7", "alt": "빈 무덤 앞에서 여인들에게 말하는 천사", "p": ["일요일 새벽, 막달라 마리아와 다른 마리아가 무덤에 갔어요. 그때 큰 지진이 나고 [[천사]]가 내려와 돌을 굴리고 그 위에 앉았어요.", "천사가 말했어요. “무서워하지 마라. 예수님은 여기 계시지 않는다. 말씀하신 대로 [[살아나셨다|부활]]! 와서 그분이 누우셨던 곳을 보라.”"]},
-   {"b": "평안하냐!", "ayə": "28:8–10", "alt": "부활하신 예수님을 만나 엎드리는 여인들", "p": ["여인들은 무서우면서도 너무 기뻐서 제자들에게 알리려고 달려갔어요. 그때 예수님이 나타나셨어요. “평안하냐!”", "여인들은 예수님의 발을 붙잡고 경배했어요. 예수님이 말씀하셨어요. “무서워하지 마라. 가서 내 형제들에게 갈릴리로 가라고 전하여라. 거기서 나를 볼 것이다.”"]},
-   {"b": "거짓말을 퍼뜨린 사람들", "ayə": "28:11–15", "alt": "대제사장에게 돈을 받는 경비병들", "p": ["무덤을 지키던 군인들이 대제사장들에게 가서 있었던 일을 말했어요. 대제사장들은 군인들에게 많은 돈을 주며 말했어요.", "“‘밤에 제자들이 와서 시체를 훔쳐 갔다’고 말해라.” 그들은 [[거짓말]]을 퍼뜨렸지만 진실을 막을 수는 없었어요. 예수님은 정말 살아나셨어요!"]},
-   {"b": "가서 제자로 삼으라", "ayə": "28:16–20", "alt": "갈릴리 산 위에서 제자들에게 말씀하시는 부활하신 예수님", "p": ["열한 제자가 갈릴리 산으로 가서 예수님을 뵙고 경배했어요. 예수님이 말씀하셨어요. “하늘과 땅의 모든 권세를 내가 받았다. 그러므로 너희는 가서 모든 민족을 [[제자]]로 삼아라.”", "“아버지와 아들과 성령의 이름으로 [[세례]]를 주고, 내가 가르친 것을 지키게 하여라. 보라, 내가 세상 끝날까지 너희와 항상 함께 있을 것이다!”"]}
-  ],
-  "aye": {"metn": "“볼지어다 내가 세상 끝날까지 너희와 항상 함께 있으리라.”", "ref": "28:20", "bos": "볼지어다 내가 세상 ___까지 너희와 ___ ___ 있으리라.", "sozler": ["끝날", "항상", "함께"], "yalan": "가끔"},
-  "lugat": {
-   "천사": {"i": "👼", "x": "mələk", "m": "하나님의 말씀을 전하는 하늘의 심부름꾼이에요.", "e": "천사가 무덤의 돌을 굴렸어요."},
-   "부활": {"i": "🌅", "x": "dirilmə", "m": "죽었다가 다시 살아나는 거예요.", "e": "예수님은 사흘 만에 부활하셨어요."},
-   "거짓말": {"i": "🤥", "x": "yalan", "m": "사실이 아닌 것을 사실처럼 말하는 거예요.", "e": "대제사장들은 거짓말을 퍼뜨렸어요."},
-   "제자": {"i": "👣", "x": "şagird", "m": "예수님을 따르며 배우는 사람이에요.", "e": "모든 민족을 제자로 삼아라."},
-   "세례": {"i": "💧", "x": "vəftiz", "m": "예수님을 믿는 사람이 물로 받는 표시예요.", "e": "아버지와 아들과 성령의 이름으로 세례를 주어라."}
-  },
-  "test": [
-   {"q": "여인들이 무덤에 갔을 때 무덤은 어땠나요?", "o": ["비어 있었어요", "닫혀 있었어요", "군인이 있었어요"], "a": 0, "f": "맞아요! 예수님이 살아나셨어요."},
-   {"q": "부활하신 예수님이 여인들에게 하신 첫 말씀은?", "o": ["평안하냐", "왜 왔느냐", "집에 가라"], "a": 0, "f": "맞아요! 평안을 주셨어요."},
-   {"q": "예수님이 제자들에게 맡기신 일은?", "o": ["모든 민족을 제자로 삼아라", "성전을 지어라", "집에 숨어 있어라"], "a": 0, "f": "맞아요! 우리에게도 맡기셨어요."},
-   {"q": "예수님은 언제까지 우리와 함께 계시나요?", "o": ["세상 끝날까지 항상", "일요일에만", "착할 때만"], "a": 0, "f": "맞아요! 항상 함께 계세요."}
-  ],
-  "dusun": ["예수님이 살아나셨다는 소식을 들은 여인들은 어떤 기분이었을까요?", "예수님이 살아 계시다는 것은 나에게 어떤 의미인가요?", "예수님이 항상 나와 함께 계신다면 무엇이 두렵지 않을까요?"],
-  "fealiyyet": {"ciz": "빈 무덤과 해가 떠오르는 아침, 그리고 기뻐하는 나를 그려 보세요.", "b": "부활의 기쁜 소식", "p": "예수님이 살아나셨다는 소식을 전하고 싶은 사람과 할 말을 써 보세요.", "ph": "예) 친구야, 예수님은 살아 계셔! 항상 우리와 함께하셔."},
-  "dua": "살아나신 예수님, 죽음을 이기시고 다시 살아나셔서 감사합니다! 할렐루야! 제가 무서울 때도 세상 끝날까지 항상 함께 계시는 예수님을 믿습니다. 저도 예수님의 기쁜 소식을 전하는 제자가 되게 해 주세요. 예수님 이름으로 기도합니다. 아멘."
+ "no": 33,
+ "ref": "28:1–20",
+ "deq": {
+  "usaq": 40,
+  "genc": 50
  },
- "genc": {
-  "basliq": "끝에서 시작으로",
-  "giris": "마태복음은 ‘임마누엘, 하나님이 우리와 함께하신다’(1:23)로 시작했습니다. 그리고 “내가 세상 끝날까지 너희와 항상 함께 있으리라”(28:20)로 끝납니다. 무덤은 끝이 아니라 출발점이었습니다. 이제 이야기는 우리에게 넘어옵니다.",
-  "meqsed": ["부활의 증거와 그 의미를 마태복음의 흐름 속에서 이해해요.", "대위임령(28:18–20)의 구조와 핵심 명령을 설명할 수 있어요.", "마태복음 전체를 돌아보며 ‘가서 제자 삼는’ 나의 자리를 정해요."],
-  "sehneler": [
-   {"b": "그가 여기 계시지 않고", "ayə": "28:1–7", "alt": "빈 무덤 앞에서 여인들에게 말하는 천사", "p": ["안식 후 첫날 새벽, 막달라 마리아와 다른 마리아가 무덤을 보러 갔어요. 큰 지진과 함께 [[천사]]가 돌을 굴려 내고 그 위에 앉았어요. 로마 경비병들은 무서워 죽은 사람처럼 되었어요.", "천사의 선언: “그가 여기 계시지 않고 그가 말씀하시던 대로 살아나셨느니라.” 돌은 예수님이 나가시라고가 아니라 우리가 ‘들어와 보라’고 굴려졌어요. 빈 무덤은 증거로 열린 거예요."], "deep": {"b": "깊이 보기 · 첫 증인은 여인들", "p": "당시 법정에서 여성의 증언은 인정받지 못했어요. 부활 이야기를 지어낸다면 여성을 첫 증인으로 세우지 않았을 거예요. 이것은 기록이 사실임을 보여 주는 단서예요. 끝까지 십자가 곁에 있던 여인들이 부활의 첫 소식을 들었어요."}},
-   {"b": "내 형제들에게", "ayə": "28:8–10", "alt": "부활하신 예수님을 만나 엎드리는 여인들", "p": ["여인들은 “무서움과 큰 기쁨으로” 달려갔어요. 그때 예수님이 “평안하냐”(카이레테, ‘기뻐하라’) 하시며 만나 주셨어요. 여인들은 예수님의 발을 붙잡고 [[경배]]했어요. 유령이 아니라 몸으로 살아나셨어요.", "예수님은 제자들을 “내 형제들”이라고 부르세요. 모두 도망친 그 제자들을요. 26:32의 약속대로 갈릴리에서 만나자고 하세요. 부활은 실패한 제자들에 대한 용서와 회복의 선언이에요."], "deep": {"b": "깊이 보기 · ‘형제’라는 이름", "p": "12:49–50에서 예수님은 아버지의 뜻대로 하는 자가 ‘내 형제’라 하셨어요. 부활 후 처음으로 제자들을 형제라 부르세요. 십자가와 부활로 우리는 하나님의 가족이 되었어요."}},
-   {"b": "돈으로 막으려 한 진실", "ayə": "28:11–15", "alt": "대제사장에게 돈을 받는 경비병들", "p": ["경비병들의 보고를 들은 대제사장과 장로들은 의논한 뒤 군인들에게 “돈을 많이” 주며 시켰어요. “제자들이 밤에 와서 우리가 잘 때에 그를 도둑질하여 갔다 하라.”", "잠든 사람이 어떻게 누가 훔쳐 갔는지 알까요? 거짓은 처음부터 모순이었어요. 그러나 그들도 한 가지는 인정했어요. 무덤이 비었다는 사실이에요. 은 삼십으로 시작된 음모가 다시 돈으로 진실을 덮으려 했지만 실패했어요."], "deep": {"b": "깊이 보기 · 부활의 증거들", "p": "빈 무덤(적들도 인정), 여인들의 증언, 500여 명의 목격자(고전 15:6), 도망쳤던 제자들의 극적인 변화와 순교, 그리고 교회의 탄생. 부활 없이 이 모든 것을 설명하기는 어려워요."}},
-   {"b": "가서 제자로 삼아", "ayə": "28:16–20", "alt": "갈릴리 산 위에서 제자들에게 말씀하시는 부활하신 예수님", "p": ["열한 제자가 갈릴리 산에서 예수님을 뵙고 경배했어요. “그러나 아직도 의심하는 자들도 있더라.” 예수님은 의심하는 자를 빼놓지 않고 모두에게 사명을 주세요.", "“하늘과 땅의 모든 [[권세]]를 내게 주셨으니, 그러므로 너희는 가서 모든 민족을 제자로 삼아 아버지와 아들과 성령의 이름으로 세례를 베풀고 내가 너희에게 분부한 모든 것을 가르쳐 지키게 하라. 볼지어다 내가 세상 끝날까지 너희와 항상 함께 있으리라.”"], "deep": {"b": "깊이 보기 · 대위임령의 구조", "p": "중심 명령은 하나, “제자로 삼으라”예요. ‘가서’, ‘세례를 베풀고’, ‘가르쳐 지키게 하라’는 그 방법이에요. 산상설교에서 시작된 ‘가르침’이 이제 모든 민족에게로 가요. 4:8에서 사탄이 주겠다던 ‘천하 만국의 권세’를 예수님은 십자가와 부활로 받으셨어요.", "rose": true}}
-  ],
-  "cedvel": {"b": "마태복음의 처음과 끝", "alt": "1장 ↔ 28장", "bas": ["처음 (1–2장)", "끝 (28장)"], "set": [["임마누엘, 하나님이 우리와 함께(1:23)", "내가 너희와 항상 함께 있으리라(28:20)"], ["동방 박사, 이방인의 경배(2:11)", "모든 민족을 제자로(28:19)"], ["천사가 요셉에게 “무서워하지 말라”(1:20)", "천사가 여인들에게 “무서워하지 말라”(28:5)"], ["헤롯이 아기를 죽이려 함(2:16)", "권력자들이 돈으로 부활을 덮으려 함(28:12)"], ["유대인의 왕으로 나신 이(2:2)", "하늘과 땅의 모든 권세를 받으신 이(28:18)"]]},
-  "aye": {"metn": "“그러므로 너희는 가서 모든 민족을 제자로 삼아 아버지와 아들과 성령의 이름으로 세례를 베풀고 내가 너희에게 분부한 모든 것을 가르쳐 지키게 하라. 볼지어다 내가 세상 끝날까지 너희와 항상 함께 있으리라 하시니라.”", "ref": "28:19–20"},
-  "lugat": {
-   "천사": {"i": "👼", "o": "헬라어 앙겔로스, ‘전령’", "x": "mələk", "s": "부활의 첫 전령", "m": "1–2장에서 요셉에게 나타났던 ‘주의 사자’가 마지막에 다시 등장해요.", "e": "“그의 형상이 번개 같고 그의 옷은 눈 같이 희거늘”(28:3)."},
-   "경배": {"i": "🙇", "o": "헬라어 프로스퀴네오", "x": "səcdə", "s": "하나님께만 드리는 엎드림", "m": "2장 박사들, 14장 배 안의 제자들, 28장 여인들과 제자들. 마태복음은 처음부터 끝까지 예수님을 경배받으실 하나님으로 그려요.", "e": "4:10 “주 너의 하나님께 경배하고 다만 그를 섬기라.”"},
-   "권세": {"i": "👑", "o": "헬라어 엑수시아", "x": "səlahiyyət", "s": "온 우주의 통치권", "m": "7:29 가르침의 권세, 9:6 죄 사함의 권세에 이어, 이제 ‘하늘과 땅의 모든’ 권세예요. 다니엘 7:14의 인자가 받는 권세의 성취예요.", "e": "그래서 ‘가는’ 우리는 두렵지 않아요."}
+ "img": [
+  "41-dirilme.jpg",
+  "matta/33-qadinlar.jpg",
+  "matta/33-kesikci.jpg",
+  "matta/33-tapsiriq.jpg"
+ ],
+ "hero": 0,
+ "ko": {
+  "usaq": {
+   "basliq": "살아나셨어요!",
+   "hedef": [
+    "예수님이 사흘 만에 다시 살아나셨음을 알아요.",
+    "부활하신 예수님이 제자들에게 맡기신 사명을 배워요.",
+    "예수님이 언제나 나와 함께 계심을 믿어요."
+   ],
+   "sehneler": [
+    {
+     "b": "빈 무덤",
+     "ayə": "28:1–7",
+     "alt": "빈 무덤 앞에서 여인들에게 말하는 천사",
+     "p": [
+      "일요일 새벽, 막달라 마리아와 다른 마리아가 무덤에 갔어요. 그때 큰 지진이 나고 [[천사]]가 내려와 돌을 굴리고 그 위에 앉았어요.",
+      "천사가 말했어요. “무서워하지 마라. 예수님은 여기 계시지 않는다. 말씀하신 대로 [[살아나셨다|부활]]! 와서 그분이 누우셨던 곳을 보라.”"
+     ]
+    },
+    {
+     "b": "평안하냐!",
+     "ayə": "28:8–10",
+     "alt": "부활하신 예수님을 만나 엎드리는 여인들",
+     "p": [
+      "여인들은 무서우면서도 너무 기뻐서 제자들에게 알리려고 달려갔어요. 그때 예수님이 나타나셨어요. “평안하냐!”",
+      "여인들은 예수님의 발을 붙잡고 경배했어요. 예수님이 말씀하셨어요. “무서워하지 마라. 가서 내 형제들에게 갈릴리로 가라고 전하여라. 거기서 나를 볼 것이다.”"
+     ]
+    },
+    {
+     "b": "거짓말을 퍼뜨린 사람들",
+     "ayə": "28:11–15",
+     "alt": "대제사장에게 돈을 받는 경비병들",
+     "p": [
+      "무덤을 지키던 군인들이 대제사장들에게 가서 있었던 일을 말했어요. 대제사장들은 군인들에게 많은 돈을 주며 말했어요.",
+      "“‘밤에 제자들이 와서 시체를 훔쳐 갔다’고 말해라.” 그들은 [[거짓말]]을 퍼뜨렸지만 진실을 막을 수는 없었어요. 예수님은 정말 살아나셨어요!"
+     ]
+    },
+    {
+     "b": "가서 제자로 삼으라",
+     "ayə": "28:16–20",
+     "alt": "갈릴리 산 위에서 제자들에게 말씀하시는 부활하신 예수님",
+     "p": [
+      "열한 제자가 갈릴리 산으로 가서 예수님을 뵙고 경배했어요. 예수님이 말씀하셨어요. “하늘과 땅의 모든 권세를 내가 받았다. 그러므로 너희는 가서 모든 민족을 [[제자]]로 삼아라.”",
+      "“아버지와 아들과 성령의 이름으로 [[세례]]를 주고, 내가 가르친 것을 지키게 하여라. 보라, 내가 세상 끝날까지 너희와 항상 함께 있을 것이다!”"
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "“볼지어다 내가 세상 끝날까지 너희와 항상 함께 있으리라.”",
+    "ref": "28:20",
+    "bos": "볼지어다 내가 세상 ___까지 너희와 ___ ___ 있으리라.",
+    "sozler": [
+     "끝날",
+     "항상",
+     "함께"
+    ],
+    "yalan": "가끔"
+   },
+   "lugat": {
+    "천사": {
+     "i": "👼",
+     "x": "mələk",
+     "m": "하나님의 말씀을 전하는 하늘의 심부름꾼이에요.",
+     "e": "천사가 무덤의 돌을 굴렸어요."
+    },
+    "부활": {
+     "i": "🌅",
+     "x": "dirilmə",
+     "m": "죽었다가 다시 살아나는 거예요.",
+     "e": "예수님은 사흘 만에 부활하셨어요."
+    },
+    "거짓말": {
+     "i": "🤥",
+     "x": "yalan",
+     "m": "사실이 아닌 것을 사실처럼 말하는 거예요.",
+     "e": "대제사장들은 거짓말을 퍼뜨렸어요."
+    },
+    "제자": {
+     "i": "👣",
+     "x": "şagird",
+     "m": "예수님을 따르며 배우는 사람이에요.",
+     "e": "모든 민족을 제자로 삼아라."
+    },
+    "세례": {
+     "i": "💧",
+     "x": "vəftiz",
+     "m": "예수님을 믿는 사람이 물로 받는 표시예요.",
+     "e": "아버지와 아들과 성령의 이름으로 세례를 주어라."
+    }
+   },
+   "test": [
+    {
+     "q": "여인들이 무덤에 갔을 때 무덤은 어땠나요?",
+     "o": [
+      "비어 있었어요",
+      "닫혀 있었어요",
+      "군인이 있었어요"
+     ],
+     "a": 0,
+     "f": "맞아요! 예수님이 살아나셨어요."
+    },
+    {
+     "q": "부활하신 예수님이 여인들에게 하신 첫 말씀은?",
+     "o": [
+      "평안하냐",
+      "왜 왔느냐",
+      "집에 가라"
+     ],
+     "a": 0,
+     "f": "맞아요! 평안을 주셨어요."
+    },
+    {
+     "q": "예수님이 제자들에게 맡기신 일은?",
+     "o": [
+      "모든 민족을 제자로 삼아라",
+      "성전을 지어라",
+      "집에 숨어 있어라"
+     ],
+     "a": 0,
+     "f": "맞아요! 우리에게도 맡기셨어요."
+    },
+    {
+     "q": "예수님은 언제까지 우리와 함께 계시나요?",
+     "o": [
+      "세상 끝날까지 항상",
+      "일요일에만",
+      "착할 때만"
+     ],
+     "a": 0,
+     "f": "맞아요! 항상 함께 계세요."
+    }
+   ],
+   "dusun": [
+    "예수님이 살아나셨다는 소식을 들은 여인들은 어떤 기분이었을까요?",
+    "예수님이 살아 계시다는 것은 나에게 어떤 의미인가요?",
+    "예수님이 항상 나와 함께 계신다면 무엇이 두렵지 않을까요?"
+   ],
+   "fealiyyet": {
+    "ciz": "빈 무덤과 해가 떠오르는 아침, 그리고 기뻐하는 나를 그려 보세요.",
+    "b": "부활의 기쁜 소식",
+    "p": "예수님이 살아나셨다는 소식을 전하고 싶은 사람과 할 말을 써 보세요.",
+    "ph": "예) 친구야, 예수님은 살아 계셔! 항상 우리와 함께하셔."
+   },
+   "dua": "살아나신 예수님, 죽음을 이기시고 다시 살아나셔서 감사합니다! 할렐루야! 제가 무서울 때도 세상 끝날까지 항상 함께 계시는 예수님을 믿습니다. 저도 예수님의 기쁜 소식을 전하는 제자가 되게 해 주세요. 예수님 이름으로 기도합니다. 아멘."
   },
-  "test": [
-   {"q": "부활 소식을 처음 들은 사람들은?", "o": ["여인들", "대제사장들", "빌라도"], "a": 0, "f": "맞아요. 당시 증언이 인정되지 않던 여인들이었어요."},
-   {"q": "부활하신 예수님이 제자들을 부르신 이름은?", "o": ["내 형제들", "배신자들", "종들"], "a": 0, "f": "맞아요. 용서와 회복의 이름이에요."},
-   {"q": "대제사장들의 거짓말에서도 인정된 사실은?", "o": ["무덤이 비었다", "예수님이 죽지 않았다", "제자들이 용감했다"], "a": 0, "f": "맞아요. 적들도 빈 무덤을 부정하지 못했어요."},
-   {"q": "대위임령의 중심 명령은?", "o": ["제자로 삼으라", "성전을 지으라", "로마를 무너뜨려라"], "a": 0, "f": "맞아요. 가고, 세례 주고, 가르치는 것은 그 방법이에요."},
-   {"q": "마태복음 1:23과 28:20이 함께 말하는 것은?", "o": ["하나님이 우리와 함께하심", "율법의 엄격함", "성전의 영광"], "a": 0, "f": "맞아요. 임마누엘로 시작해 임마누엘로 끝나요."}
-  ],
-  "paylas": ["부활이 사실이라면, 내 삶에서 무엇이 달라져야 할까요?", "의심하는 제자들에게도 사명을 주신 예수님. 내 안의 의심은 사명을 막을 수 있을까요?", "내가 ‘제자 삼을’ 수 있는 한 사람은 누구인가요? 어떻게 시작할 수 있을까요?", "33과에 걸친 마태복음 공부에서 가장 마음에 남은 말씀은 무엇인가요?"],
-  "etiraf": {"b": "나의 고백", "p": "마태복음을 마치며, 부활하신 예수님께 드리는 고백과 앞으로 ‘가서’ 살아갈 나의 다짐을 써 보세요.", "ph": "예) 살아나신 예수님, 마태복음을 읽으며 저는 … 이제 저는 …"},
-  "dua": "살아나신 예수님, 죽음을 이기시고 실패한 제자들을 형제라 부르시며 다시 세우신 은혜에 감사합니다. 하늘과 땅의 모든 권세를 가지신 주님을 의지하며, 제가 있는 곳에서 가서 제자 삼는 사람으로 살게 해 주세요. 임마누엘, 세상 끝날까지 항상 함께하시는 주님을 찬양합니다. 예수님 이름으로 기도합니다. 아멘."
- }
-},
-"az": {
- "usaq": {
-  "basliq": "O dirildi!",
-  "hedef": ["İsanın üçüncü gün dirildiyini öyrənəcəyik.", "Dirilmiş İsanın şagirdlərinə tapşırdığı vəzifəni öyrənəcəyik.", "İsanın həmişə bizimlə olduğuna inanacağıq."],
-  "sehneler": [
-   {"b": "Boş qəbir", "ayə": "Matta 28:1–7", "alt": "Boş qəbrin qarşısında qadınlarla danışan mələk", "p": ["Bazar günü səhər tezdən Məcdəlli Məryəm və digər Məryəm qəbrə getdilər. O an böyük zəlzələ oldu, [[mələk]] enib daşı yuvarladı və onun üstündə oturdu.", "Mələk dedi: “Qorxmayın. İsa burada deyil. Dediyi kimi [[dirildi|dirilmə]]! Gəlin, Onun yatdığı yeri görün.”"]},
-   {"b": "Salam!", "ayə": "Matta 28:8–10", "alt": "Dirilmiş İsa ilə görüşüb səcdə edən qadınlar", "p": ["Qadınlar həm qorxu, həm də böyük sevinclə şagirdlərə xəbər verməyə qaçdılar. O an İsa onlara göründü: “Salam!”", "Qadınlar İsanın ayaqlarını qucaqlayıb səcdə etdilər. İsa dedi: “Qorxmayın. Gedin, qardaşlarıma deyin ki, Qalileyaya getsinlər. Orada Məni görəcəklər.”"]},
-   {"b": "Yalan yayanlar", "ayə": "Matta 28:11–15", "alt": "Baş kahinlərdən pul alan keşikçilər", "p": ["Qəbri qoruyan əsgərlər baş kahinlərin yanına gedib olanları danışdılar. Baş kahinlər əsgərlərə çoxlu pul verib dedilər:", "“Deyin ki, gecə şagirdlər gəlib cəsədi oğurladılar.” Onlar [[yalan]] yaydılar, amma həqiqəti dayandıra bilmədilər. İsa həqiqətən dirildi!"]},
-   {"b": "Gedin, şagird hazırlayın", "ayə": "Matta 28:16–20", "alt": "Qalileya dağında şagirdləri ilə danışan dirilmiş İsa", "p": ["On bir şagird Qalileyadakı dağa gedib İsanı gördü və Ona səcdə etdi. İsa dedi: “Göydə və yerdə bütün səlahiyyət Mənə verilib. Buna görə gedin, bütün millətləri [[şagird]] hazırlayın.”", "“Onları Ata, Oğul və Müqəddəs Ruhun adı ilə [[vəftiz]] edin, sizə əmr etdiyim hər şeyə əməl etməyi öyrədin. Budur, Mən dünyanın sonunadək hər zaman sizinləyəm!”"]}
-  ],
-  "aye": {"metn": "“Budur, Mən dünyanın sonunadək hər zaman sizinləyəm.”", "ref": "28:20", "bos": "Budur, Mən dünyanın ___ hər ___ ___.", "sozler": ["sonunadək", "zaman", "sizinləyəm"], "yalan": "bəzən"},
-  "lugat": {
-   "mələk": {"i": "👼", "x": "천사", "m": "Allahın sözünü çatdıran səmavi elçidir.", "e": "Mələk qəbrin daşını yuvarladı."},
-   "dirilmə": {"i": "🌅", "x": "부활", "m": "Ölüb yenidən dirilməkdir.", "e": "İsa üçüncü gün dirildi."},
-   "yalan": {"i": "🤥", "x": "거짓말", "m": "Doğru olmayanı doğru kimi demək.", "e": "Baş kahinlər yalan yaydılar."},
-   "şagird": {"i": "👣", "x": "제자", "m": "İsanın ardınca gedib Ondan öyrənən adamdır.", "e": "Bütün millətləri şagird hazırlayın."},
-   "vəftiz": {"i": "💧", "x": "세례", "m": "İsaya inanan insanın su ilə aldığı əlamətdir.", "e": "Ata, Oğul və Müqəddəs Ruhun adı ilə vəftiz edin."}
-  },
-  "test": [
-   {"q": "Qadınlar qəbrə gedəndə qəbir necə idi?", "o": ["Boş idi", "Bağlı idi", "İçində əsgər var idi"], "a": 0, "f": "Düzdür! İsa dirildi."},
-   {"q": "Dirilmiş İsanın qadınlara ilk sözü nə idi?", "o": ["Salam", "Niyə gəldiniz", "Evə gedin"], "a": 0, "f": "Düzdür! Sülh verdi."},
-   {"q": "İsa şagirdlərinə hansı vəzifəni tapşırdı?", "o": ["Bütün millətləri şagird hazırlayın", "Məbəd tikin", "Evdə gizlənin"], "a": 0, "f": "Düzdür! Bizə də tapşırdı."},
-   {"q": "İsa nə vaxta qədər bizimlədir?", "o": ["Dünyanın sonunadək hər zaman", "Yalnız bazar günü", "Yalnız yaxşı olanda"], "a": 0, "f": "Düzdür! Həmişə bizimlədir."}
-  ],
-  "dusun": ["İsanın dirildiyini eşidən qadınlar necə hiss etdilər?", "İsanın diri olması mənim üçün nə deməkdir?", "İsa həmişə mənimlədirsə, nədən qorxmaram?"],
-  "fealiyyet": {"ciz": "Boş qəbri, doğan günəşi və sevinən özünü çək.", "b": "Dirilmiş İsa ilə necə yaşayacaqsan?", "p": "Dirilmiş İsa ilə yaşayacağın yolu seç.", "ph": "",
-   "secim": {"basliq": "Dirilmiş İsa ilə necə yaşayacaqsan?", "izah": "Toxun və seç. Bir neçəsini seçə bilərsən.", "cumle": "Dirilmiş İsa ilə mən {x}!", "bos": "sevinclə yaşayacağam", "bag": "və",
-    "secimler": [["😊", "sevinclə yaşayacağam"], ["💪", "qorxmayacağam"], ["📣", "Müjdəni danışacağam"], ["🙏", "hər gün dua edəcəyəm"], ["⛪", "dostlarımı cəmiyyətə dəvət edəcəyəm"]]}},
-  "dua": "Dirilmiş İsa, ölümə qalib gəlib yenidən dirildiyin üçün Sənə şükür edirəm! Halleluya! Qorxanda belə dünyanın sonunadək hər zaman mənimlə olduğuna inanıram. Mən də Sənin sevincli xəbərini yayan şagird olum. İsa Məsihin adı ilə dua edirəm. Amin."
+  "genc": {
+   "basliq": "끝에서 시작으로",
+   "giris": "마태복음은 ‘임마누엘, 하나님이 우리와 함께하신다’(1:23)로 시작했습니다. 그리고 “내가 세상 끝날까지 너희와 항상 함께 있으리라”(28:20)로 끝납니다. 무덤은 끝이 아니라 출발점이었습니다. 이제 이야기는 우리에게 넘어옵니다.",
+   "meqsed": [
+    "부활의 증거와 그 의미를 마태복음의 흐름 속에서 이해해요.",
+    "대위임령(28:18–20)의 구조와 핵심 명령을 설명할 수 있어요.",
+    "마태복음 전체를 돌아보며 ‘가서 제자 삼는’ 나의 자리를 정해요."
+   ],
+   "sehneler": [
+    {
+     "b": "그가 여기 계시지 않고",
+     "ayə": "28:1–7",
+     "alt": "빈 무덤 앞에서 여인들에게 말하는 천사",
+     "p": [
+      "안식 후 첫날 새벽, 막달라 마리아와 다른 마리아가 무덤을 보러 갔어요. 큰 지진과 함께 [[천사]]가 돌을 굴려 내고 그 위에 앉았어요. 로마 경비병들은 무서워 죽은 사람처럼 되었어요.",
+      "천사의 선언: “그가 여기 계시지 않고 그가 말씀하시던 대로 살아나셨느니라.” 돌은 예수님이 나가시라고가 아니라 우리가 ‘들어와 보라’고 굴려졌어요. 빈 무덤은 증거로 열린 거예요."
+     ],
+     "deep": {
+      "b": "깊이 보기 · 첫 증인은 여인들",
+      "p": "당시 법정에서 여성의 증언은 인정받지 못했어요. 부활 이야기를 지어낸다면 여성을 첫 증인으로 세우지 않았을 거예요. 이것은 기록이 사실임을 보여 주는 단서예요. 끝까지 십자가 곁에 있던 여인들이 부활의 첫 소식을 들었어요."
+     }
+    },
+    {
+     "b": "내 형제들에게",
+     "ayə": "28:8–10",
+     "alt": "부활하신 예수님을 만나 엎드리는 여인들",
+     "p": [
+      "여인들은 “무서움과 큰 기쁨으로” 달려갔어요. 그때 예수님이 “평안하냐”(카이레테, ‘기뻐하라’) 하시며 만나 주셨어요. 여인들은 예수님의 발을 붙잡고 [[경배]]했어요. 유령이 아니라 몸으로 살아나셨어요.",
+      "예수님은 제자들을 “내 형제들”이라고 부르세요. 모두 도망친 그 제자들을요. 26:32의 약속대로 갈릴리에서 만나자고 하세요. 부활은 실패한 제자들에 대한 용서와 회복의 선언이에요."
+     ],
+     "deep": {
+      "b": "깊이 보기 · ‘형제’라는 이름",
+      "p": "12:49–50에서 예수님은 아버지의 뜻대로 하는 자가 ‘내 형제’라 하셨어요. 부활 후 처음으로 제자들을 형제라 부르세요. 십자가와 부활로 우리는 하나님의 가족이 되었어요."
+     }
+    },
+    {
+     "b": "돈으로 막으려 한 진실",
+     "ayə": "28:11–15",
+     "alt": "대제사장에게 돈을 받는 경비병들",
+     "p": [
+      "경비병들의 보고를 들은 대제사장과 장로들은 의논한 뒤 군인들에게 “돈을 많이” 주며 시켰어요. “제자들이 밤에 와서 우리가 잘 때에 그를 도둑질하여 갔다 하라.”",
+      "잠든 사람이 어떻게 누가 훔쳐 갔는지 알까요? 거짓은 처음부터 모순이었어요. 그러나 그들도 한 가지는 인정했어요. 무덤이 비었다는 사실이에요. 은 삼십으로 시작된 음모가 다시 돈으로 진실을 덮으려 했지만 실패했어요."
+     ],
+     "deep": {
+      "b": "깊이 보기 · 부활의 증거들",
+      "p": "빈 무덤(적들도 인정), 여인들의 증언, 500여 명의 목격자(고전 15:6), 도망쳤던 제자들의 극적인 변화와 순교, 그리고 교회의 탄생. 부활 없이 이 모든 것을 설명하기는 어려워요."
+     }
+    },
+    {
+     "b": "가서 제자로 삼아",
+     "ayə": "28:16–20",
+     "alt": "갈릴리 산 위에서 제자들에게 말씀하시는 부활하신 예수님",
+     "p": [
+      "열한 제자가 갈릴리 산에서 예수님을 뵙고 경배했어요. “그러나 아직도 의심하는 자들도 있더라.” 예수님은 의심하는 자를 빼놓지 않고 모두에게 사명을 주세요.",
+      "“하늘과 땅의 모든 [[권세]]를 내게 주셨으니, 그러므로 너희는 가서 모든 민족을 제자로 삼아 아버지와 아들과 성령의 이름으로 세례를 베풀고 내가 너희에게 분부한 모든 것을 가르쳐 지키게 하라. 볼지어다 내가 세상 끝날까지 너희와 항상 함께 있으리라.”"
+     ],
+     "deep": {
+      "b": "깊이 보기 · 대위임령의 구조",
+      "p": "중심 명령은 하나, “제자로 삼으라”예요. ‘가서’, ‘세례를 베풀고’, ‘가르쳐 지키게 하라’는 그 방법이에요. 산상설교에서 시작된 ‘가르침’이 이제 모든 민족에게로 가요. 4:8에서 사탄이 주겠다던 ‘천하 만국의 권세’를 예수님은 십자가와 부활로 받으셨어요.",
+      "rose": true
+     }
+    }
+   ],
+   "cedvel": {
+    "b": "마태복음의 처음과 끝",
+    "alt": "1장 ↔ 28장",
+    "bas": [
+     "처음 (1–2장)",
+     "끝 (28장)"
+    ],
+    "set": [
+     [
+      "임마누엘, 하나님이 우리와 함께(1:23)",
+      "내가 너희와 항상 함께 있으리라(28:20)"
+     ],
+     [
+      "동방 박사, 이방인의 경배(2:11)",
+      "모든 민족을 제자로(28:19)"
+     ],
+     [
+      "천사가 요셉에게 “무서워하지 말라”(1:20)",
+      "천사가 여인들에게 “무서워하지 말라”(28:5)"
+     ],
+     [
+      "헤롯이 아기를 죽이려 함(2:16)",
+      "권력자들이 돈으로 부활을 덮으려 함(28:12)"
+     ],
+     [
+      "유대인의 왕으로 나신 이(2:2)",
+      "하늘과 땅의 모든 권세를 받으신 이(28:18)"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "“그러므로 너희는 가서 모든 민족을 제자로 삼아 아버지와 아들과 성령의 이름으로 세례를 베풀고 내가 너희에게 분부한 모든 것을 가르쳐 지키게 하라. 볼지어다 내가 세상 끝날까지 너희와 항상 함께 있으리라 하시니라.”",
+    "ref": "28:19–20"
+   },
+   "lugat": {
+    "천사": {
+     "i": "👼",
+     "o": "헬라어 앙겔로스, ‘전령’",
+     "x": "mələk",
+     "s": "부활의 첫 전령",
+     "m": "1–2장에서 요셉에게 나타났던 ‘주의 사자’가 마지막에 다시 등장해요.",
+     "e": "“그의 형상이 번개 같고 그의 옷은 눈 같이 희거늘”(28:3)."
+    },
+    "경배": {
+     "i": "🙇",
+     "o": "헬라어 프로스퀴네오",
+     "x": "səcdə",
+     "s": "하나님께만 드리는 엎드림",
+     "m": "2장 박사들, 14장 배 안의 제자들, 28장 여인들과 제자들. 마태복음은 처음부터 끝까지 예수님을 경배받으실 하나님으로 그려요.",
+     "e": "4:10 “주 너의 하나님께 경배하고 다만 그를 섬기라.”"
+    },
+    "권세": {
+     "i": "👑",
+     "o": "헬라어 엑수시아",
+     "x": "səlahiyyət",
+     "s": "온 우주의 통치권",
+     "m": "7:29 가르침의 권세, 9:6 죄 사함의 권세에 이어, 이제 ‘하늘과 땅의 모든’ 권세예요. 다니엘 7:14의 인자가 받는 권세의 성취예요.",
+     "e": "그래서 ‘가는’ 우리는 두렵지 않아요."
+    }
+   },
+   "test": [
+    {
+     "q": "부활 소식을 처음 들은 사람들은?",
+     "o": [
+      "여인들",
+      "대제사장들",
+      "빌라도"
+     ],
+     "a": 0,
+     "f": "맞아요. 당시 증언이 인정되지 않던 여인들이었어요."
+    },
+    {
+     "q": "부활하신 예수님이 제자들을 부르신 이름은?",
+     "o": [
+      "내 형제들",
+      "배신자들",
+      "종들"
+     ],
+     "a": 0,
+     "f": "맞아요. 용서와 회복의 이름이에요."
+    },
+    {
+     "q": "대제사장들의 거짓말에서도 인정된 사실은?",
+     "o": [
+      "무덤이 비었다",
+      "예수님이 죽지 않았다",
+      "제자들이 용감했다"
+     ],
+     "a": 0,
+     "f": "맞아요. 적들도 빈 무덤을 부정하지 못했어요."
+    },
+    {
+     "q": "대위임령의 중심 명령은?",
+     "o": [
+      "제자로 삼으라",
+      "성전을 지으라",
+      "로마를 무너뜨려라"
+     ],
+     "a": 0,
+     "f": "맞아요. 가고, 세례 주고, 가르치는 것은 그 방법이에요."
+    },
+    {
+     "q": "마태복음 1:23과 28:20이 함께 말하는 것은?",
+     "o": [
+      "하나님이 우리와 함께하심",
+      "율법의 엄격함",
+      "성전의 영광"
+     ],
+     "a": 0,
+     "f": "맞아요. 임마누엘로 시작해 임마누엘로 끝나요."
+    }
+   ],
+   "paylas": [
+    "부활이 사실이라면, 내 삶에서 무엇이 달라져야 할까요?",
+    "의심하는 제자들에게도 사명을 주신 예수님. 내 안의 의심은 사명을 막을 수 있을까요?",
+    "내가 ‘제자 삼을’ 수 있는 한 사람은 누구인가요? 어떻게 시작할 수 있을까요?",
+    "33과에 걸친 마태복음 공부에서 가장 마음에 남은 말씀은 무엇인가요?"
+   ],
+   "etiraf": {
+    "b": "나의 고백",
+    "p": "마태복음을 마치며, 부활하신 예수님께 드리는 고백과 앞으로 ‘가서’ 살아갈 나의 다짐을 써 보세요.",
+    "ph": "예) 살아나신 예수님, 마태복음을 읽으며 저는 … 이제 저는 …"
+   },
+   "dua": "살아나신 예수님, 죽음을 이기시고 실패한 제자들을 형제라 부르시며 다시 세우신 은혜에 감사합니다. 하늘과 땅의 모든 권세를 가지신 주님을 의지하며, 제가 있는 곳에서 가서 제자 삼는 사람으로 살게 해 주세요. 임마누엘, 세상 끝날까지 항상 함께하시는 주님을 찬양합니다. 예수님 이름으로 기도합니다. 아멘."
+  }
  },
- "genc": {
-  "basliq": "Sondan başlanğıca",
-  "giris": "Matta Müjdəsi “İmmanuel, Allah bizimlədir” (1:23) sözü ilə başladı. Və “Mən dünyanın sonunadək hər zaman sizinləyəm” (28:20) sözü ilə bitir. Qəbir son deyil, başlanğıc idi. İndi hekayə bizə keçir.",
-  "meqsed": ["Dirilmənin sübutlarını və mənasını Matta Müjdəsinin axarında anlayırıq.", "Böyük Tapşırığın (28:18–20) quruluşunu və əsas əmrini izah edə bilirik.", "Bütün Matta Müjdəsinə nəzər salaraq “gedib şagird hazırlamaq” yerimizi müəyyən edirik."],
-  "sehneler": [
-   {"b": "O burada deyil", "ayə": "Matta 28:1–7", "alt": "Boş qəbrin qarşısında qadınlarla danışan mələk", "p": ["Şənbədən sonrakı ilk gün səhər tezdən Məcdəlli Məryəm və digər Məryəm qəbrə baxmağa getdilər. Böyük zəlzələ ilə [[mələk]] daşı yuvarlayıb üstündə oturdu. Roma keşikçiləri qorxudan ölü kimi oldular.", "Mələyin elanı: “O burada deyil, dediyi kimi dirildi.” Daş İsanın çıxması üçün deyil, bizim “gəlib görməyimiz” üçün yuvarlandı. Boş qəbir sübut kimi açıldı."], "deep": {"b": "Dərindən baxaq · İlk şahidlər qadınlar idi", "p": "O dövrdə məhkəmədə qadınların şəhadəti qəbul edilmirdi. Dirilmə hekayəsini uydursaydılar, qadınları ilk şahid etməzdilər. Bu, yazının həqiqət olduğunu göstərən ipucudur. Axıradək çarmıxın yanında olan qadınlar dirilmənin ilk xəbərini eşitdilər."}},
-   {"b": "Qardaşlarıma", "ayə": "Matta 28:8–10", "alt": "Dirilmiş İsa ilə görüşüb səcdə edən qadınlar", "p": ["Qadınlar “qorxu və böyük sevinclə” qaçdılar. O an İsa “Salam” (xayrete, “sevinin”) deyib onları qarşıladı. Qadınlar İsanın ayaqlarını qucaqlayıb [[səcdə]] etdilər. O, xəyal deyil, bədənlə dirilmişdi.", "İsa şagirdləri “qardaşlarım” adlandırır. Hamısı qaçmış o şagirdləri. 26:32-dəki vədə uyğun olaraq Qalileyada görüşməyi deyir. Dirilmə uğursuz şagirdlərə bağışlanma və bərpa elanıdır."], "deep": {"b": "Dərindən baxaq · “Qardaş” adı", "p": "12:49–50-də İsa Atanın iradəsini yerinə yetirənlərin “qardaşım” olduğunu demişdi. Dirildikdən sonra ilk dəfə şagirdləri qardaş adlandırır. Çarmıx və dirilmə ilə biz Allahın ailəsi olduq."}},
-   {"b": "Pulla örtülmək istənən həqiqət", "ayə": "Matta 28:11–15", "alt": "Baş kahinlərdən pul alan keşikçilər", "p": ["Keşikçilərin xəbərini eşidən baş kahinlər və ağsaqqallar məsləhətləşib əsgərlərə “çoxlu pul” verdilər: “Deyin ki, biz yatarkən şagirdləri gecə gəlib Onu oğurladılar.”", "Yatan insan kimin oğurladığını necə bilə bilər? Yalan əvvəldən ziddiyyətli idi. Amma onlar da bir şeyi etiraf etdilər: qəbir boş idi. Otuz gümüşlə başlayan sui-qəsd yenə pulla həqiqəti örtmək istədi, amma bacarmadı."], "deep": {"b": "Dərindən baxaq · Dirilmənin sübutları", "p": "Boş qəbir (düşmənlər də etiraf etdi), qadınların şəhadəti, 500-dən çox şahid (1 Kor. 15:6), qaçmış şagirdlərin heyrətamiz dəyişməsi və şəhidliyi, cəmiyyətin yaranması. Dirilmə olmadan bunların hamısını izah etmək çətindir."}},
-   {"b": "Gedin, şagird hazırlayın", "ayə": "Matta 28:16–20", "alt": "Qalileya dağında şagirdləri ilə danışan dirilmiş İsa", "p": ["On bir şagird Qalileyadakı dağda İsanı görüb Ona səcdə etdi. “Amma bəziləri şübhə etdi.” İsa şübhə edənləri kənarda qoymadan hamıya vəzifə verir.", "“Göydə və yerdə bütün [[səlahiyyət]] Mənə verilib. Buna görə gedin, bütün millətləri şagird hazırlayın. Onları Ata, Oğul və Müqəddəs Ruhun adı ilə vəftiz edin, sizə əmr etdiyim hər şeyə əməl etməyi onlara öyrədin. Budur, Mən dünyanın sonunadək hər zaman sizinləyəm.”"], "deep": {"b": "Dərindən baxaq · Böyük Tapşırığın quruluşu", "p": "Əsas əmr birdir: “şagird hazırlayın”. “Gedin”, “vəftiz edin”, “öyrədin” bunun yollarıdır. Dağüstü vəzdə başlayan “təlim” indi bütün millətlərə gedir. 4:8-də Şeytanın verəcəyini dediyi “dünyanın bütün padşahlıqlarının səlahiyyətini” İsa çarmıx və dirilmə ilə aldı.", "rose": true}}
-  ],
-  "cedvel": {"b": "Matta Müjdəsinin başlanğıcı və sonu", "alt": "1-ci fəsil ↔ 28-ci fəsil", "bas": ["Başlanğıc (1–2)", "Son (28)"], "set": [["İmmanuel, Allah bizimlədir (1:23)", "Mən hər zaman sizinləyəm (28:20)"], ["Müdriklərin, yadellilərin səcdəsi (2:11)", "Bütün millətləri şagird hazırlayın (28:19)"], ["Mələk Yusifə “qorxma” dedi (1:20)", "Mələk qadınlara “qorxmayın” dedi (28:5)"], ["Hirod körpəni öldürmək istədi (2:16)", "Hakimlər dirilməni pulla örtmək istədilər (28:12)"], ["Yəhudilərin Padşahı kimi doğulan (2:2)", "Göydə və yerdə bütün səlahiyyəti alan (28:18)"]]},
-  "aye": {"metn": "“Buna görə gedin, bütün millətləri şagird hazırlayın. Onları Ata, Oğul və Müqəddəs Ruhun adı ilə vəftiz edin, sizə əmr etdiyim hər şeyə əməl etməyi onlara öyrədin. Budur, Mən dünyanın sonunadək hər zaman sizinləyəm.”", "ref": "28:19–20"},
-  "lugat": {
-   "mələk": {"i": "👼", "o": "Yunanca anqelos, “elçi”", "x": "천사", "s": "Dirilmənin ilk elçisi", "m": "1–2-ci fəsillərdə Yusifə görünən “Rəbbin mələyi” sonda yenidən görünür.", "e": "“Görünüşü şimşək kimi, paltarı qar kimi ağ idi” (28:3)."},
-   "səcdə": {"i": "🙇", "o": "Yunanca proskineo", "x": "경배", "s": "Yalnız Allaha edilən səcdə", "m": "2-ci fəsildə müdriklər, 14-cü fəsildə qayıqdakı şagirdlər, 28-ci fəsildə qadınlar və şagirdlər. Matta əvvəldən axıra İsanı səcdəyə layiq Allah kimi təsvir edir.", "e": "4:10 “Allahın Rəbbə səcdə et, yalnız Ona qulluq et.”"},
-   "səlahiyyət": {"i": "👑", "o": "Yunanca eksusia", "x": "권세", "s": "Bütün kainat üzərində hakimiyyət", "m": "7:29-da təlim, 9:6-da günahları bağışlamaq səlahiyyətindən sonra indi “göydə və yerdə bütün” səlahiyyət. Daniel 7:14-də Bəşər Oğluna verilən səlahiyyətin yerinə yetməsidir.", "e": "Buna görə “gedən” biz qorxmuruq."}
+ "az": {
+  "usaq": {
+   "basliq": "O dirildi!",
+   "hedef": [
+    "İsanın üçüncü gün dirildiyini öyrənəcəyik.",
+    "Dirilmiş İsanın şagirdlərinə tapşırdığı vəzifəni öyrənəcəyik.",
+    "İsanın həmişə bizimlə olduğuna inanacağıq."
+   ],
+   "sehneler": [
+    {
+     "b": "Boş qəbir",
+     "ayə": "Matta 28:1–7",
+     "alt": "Boş qəbrin qarşısında qadınlarla danışan mələk",
+     "p": [
+      "Bazar günü səhər tezdən Məcdəlli Məryəm və digər Məryəm qəbrə getdilər. O an böyük zəlzələ oldu, [[mələk]] enib daşı yuvarladı və onun üstündə oturdu.",
+      "Mələk dedi: “Qorxmayın. İsa burada deyil. Dediyi kimi [[dirildi|dirilmə]]! Gəlin, Onun yatdığı yeri görün.”"
+     ]
+    },
+    {
+     "b": "Salam!",
+     "ayə": "Matta 28:8–10",
+     "alt": "Dirilmiş İsa ilə görüşüb səcdə edən qadınlar",
+     "p": [
+      "Qadınlar həm qorxu, həm də böyük sevinclə şagirdlərə xəbər verməyə qaçdılar. O an İsa onlara göründü: “Salam!”",
+      "Qadınlar İsanın ayaqlarını qucaqlayıb səcdə etdilər. İsa dedi: “Qorxmayın. Gedin, qardaşlarıma deyin ki, Qalileyaya getsinlər. Orada Məni görəcəklər.”"
+     ]
+    },
+    {
+     "b": "Yalan yayanlar",
+     "ayə": "Matta 28:11–15",
+     "alt": "Baş kahinlərdən pul alan keşikçilər",
+     "p": [
+      "Qəbri qoruyan əsgərlər baş kahinlərin yanına gedib olanları danışdılar. Baş kahinlər əsgərlərə çoxlu pul verib dedilər:",
+      "“Deyin ki, gecə şagirdlər gəlib cəsədi oğurladılar.” Onlar [[yalan]] yaydılar, amma həqiqəti dayandıra bilmədilər. İsa həqiqətən dirildi!"
+     ]
+    },
+    {
+     "b": "Gedin, şagird hazırlayın",
+     "ayə": "Matta 28:16–20",
+     "alt": "Qalileya dağında şagirdləri ilə danışan dirilmiş İsa",
+     "p": [
+      "On bir şagird Qalileyadakı dağa gedib İsanı gördü və Ona səcdə etdi. İsa dedi: “Göydə və yerdə bütün səlahiyyət Mənə verilib. Buna görə gedin, bütün millətləri [[şagird]] hazırlayın.”",
+      "“Onları Ata, Oğul və Müqəddəs Ruhun adı ilə [[vəftiz]] edin, sizə əmr etdiyim hər şeyə əməl etməyi öyrədin. Budur, Mən dünyanın sonunadək hər zaman sizinləyəm!”"
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "“Budur, Mən dünyanın sonunadək hər zaman sizinləyəm.”",
+    "ref": "28:20",
+    "bos": "Budur, Mən dünyanın ___ hər ___ ___.",
+    "sozler": [
+     "sonunadək",
+     "zaman",
+     "sizinləyəm"
+    ],
+    "yalan": "bəzən"
+   },
+   "lugat": {
+    "mələk": {
+     "i": "👼",
+     "x": "천사",
+     "m": "Allahın sözünü çatdıran səmavi elçidir.",
+     "e": "Mələk qəbrin daşını yuvarladı."
+    },
+    "dirilmə": {
+     "i": "🌅",
+     "x": "부활",
+     "m": "Ölüb yenidən dirilməkdir.",
+     "e": "İsa üçüncü gün dirildi."
+    },
+    "yalan": {
+     "i": "🤥",
+     "x": "거짓말",
+     "m": "Doğru olmayanı doğru kimi demək.",
+     "e": "Baş kahinlər yalan yaydılar."
+    },
+    "şagird": {
+     "i": "👣",
+     "x": "제자",
+     "m": "İsanın ardınca gedib Ondan öyrənən adamdır.",
+     "e": "Bütün millətləri şagird hazırlayın."
+    },
+    "vəftiz": {
+     "i": "💧",
+     "x": "세례",
+     "m": "İsaya inanan insanın su ilə aldığı əlamətdir.",
+     "e": "Ata, Oğul və Müqəddəs Ruhun adı ilə vəftiz edin."
+    }
+   },
+   "test": [
+    {
+     "q": "Qadınlar qəbrə gedəndə qəbir necə idi?",
+     "o": [
+      "Boş idi",
+      "Bağlı idi",
+      "İçində əsgər var idi"
+     ],
+     "a": 0,
+     "f": "Düzdür! İsa dirildi."
+    },
+    {
+     "q": "Dirilmiş İsanın qadınlara ilk sözü nə idi?",
+     "o": [
+      "Salam",
+      "Niyə gəldiniz",
+      "Evə gedin"
+     ],
+     "a": 0,
+     "f": "Düzdür! Sülh verdi."
+    },
+    {
+     "q": "İsa şagirdlərinə hansı vəzifəni tapşırdı?",
+     "o": [
+      "Bütün millətləri şagird hazırlayın",
+      "Məbəd tikin",
+      "Evdə gizlənin"
+     ],
+     "a": 0,
+     "f": "Düzdür! Bizə də tapşırdı."
+    },
+    {
+     "q": "İsa nə vaxta qədər bizimlədir?",
+     "o": [
+      "Dünyanın sonunadək hər zaman",
+      "Yalnız bazar günü",
+      "Yalnız yaxşı olanda"
+     ],
+     "a": 0,
+     "f": "Düzdür! Həmişə bizimlədir."
+    }
+   ],
+   "dusun": [
+    "İsanın dirildiyini eşidən qadınlar necə hiss etdilər?",
+    "İsanın diri olması mənim üçün nə deməkdir?",
+    "İsa həmişə mənimlədirsə, nədən qorxmaram?"
+   ],
+   "fealiyyet": {
+    "ciz": "Boş qəbri, doğan günəşi və sevinən özünü çək.",
+    "b": "Dirilmiş İsa ilə necə yaşayacaqsan?",
+    "p": "Dirilmiş İsa ilə yaşayacağın yolu seç.",
+    "ph": "",
+    "secim": {
+     "basliq": "Dirilmiş İsa ilə necə yaşayacaqsan?",
+     "izah": "Toxun və seç. Bir neçəsini seçə bilərsən.",
+     "cumle": "Dirilmiş İsa ilə mən {x}!",
+     "bos": "sevinclə yaşayacağam",
+     "bag": "və",
+     "secimler": [
+      [
+       "😊",
+       "sevinclə yaşayacağam"
+      ],
+      [
+       "💪",
+       "qorxmayacağam"
+      ],
+      [
+       "📣",
+       "Müjdəni danışacağam"
+      ],
+      [
+       "🙏",
+       "hər gün dua edəcəyəm"
+      ],
+      [
+       "⛪",
+       "dostlarımı cəmiyyətə dəvət edəcəyəm"
+      ]
+     ]
+    }
+   },
+   "dua": "Dirilmiş İsa, ölümə qalib gəlib yenidən dirildiyin üçün Sənə şükür edirəm! Halleluya! Qorxanda belə dünyanın sonunadək hər zaman mənimlə olduğuna inanıram. Mən də Sənin sevincli xəbərini yayan şagird olum. İsa Məsihin adı ilə dua edirəm. Amin."
   },
-  "test": [
-   {"q": "Dirilmə xəbərini ilk kim eşitdi?", "o": ["Qadınlar", "Baş kahinlər", "Pilat"], "a": 0, "f": "Düzdür. O dövrdə şəhadəti qəbul edilməyən qadınlar."},
-   {"q": "Dirilmiş İsa şagirdləri necə adlandırdı?", "o": ["Qardaşlarım", "Xainlər", "Qullar"], "a": 0, "f": "Düzdür. Bağışlanma və bərpa adıdır."},
-   {"q": "Baş kahinlərin yalanında belə etiraf olunan fakt nədir?", "o": ["Qəbir boş idi", "İsa ölməmişdi", "Şagirdlər cəsur idi"], "a": 0, "f": "Düzdür. Düşmənlər də boş qəbri inkar edə bilmədi."},
-   {"q": "Böyük Tapşırığın əsas əmri nədir?", "o": ["Şagird hazırlayın", "Məbəd tikin", "Romanı yıxın"], "a": 0, "f": "Düzdür. Getmək, vəftiz etmək, öyrətmək onun yollarıdır."},
-   {"q": "Matta 1:23 və 28:20 birlikdə nə deyir?", "o": ["Allah bizimlədir", "Qanun sərtdir", "Məbəd izzətlidir"], "a": 0, "f": "Düzdür. İmmanuel ilə başlayıb İmmanuel ilə bitir."}
+  "genc": {
+   "basliq": "Sondan başlanğıca",
+   "giris": "Matta Müjdəsi “İmmanuel, Allah bizimlədir” (1:23) sözü ilə başladı. Və “Mən dünyanın sonunadək hər zaman sizinləyəm” (28:20) sözü ilə bitir. Qəbir son deyil, başlanğıc idi. İndi hekayə bizə keçir.",
+   "meqsed": [
+    "Dirilmənin sübutlarını və mənasını Matta Müjdəsinin axarında anlayırıq.",
+    "Böyük Tapşırığın (28:18–20) quruluşunu və əsas əmrini izah edə bilirik.",
+    "Bütün Matta Müjdəsinə nəzər salaraq “gedib şagird hazırlamaq” yerimizi müəyyən edirik."
+   ],
+   "sehneler": [
+    {
+     "b": "O burada deyil",
+     "ayə": "Matta 28:1–7",
+     "alt": "Boş qəbrin qarşısında qadınlarla danışan mələk",
+     "p": [
+      "Şənbədən sonrakı ilk gün səhər tezdən Məcdəlli Məryəm və digər Məryəm qəbrə baxmağa getdilər. Böyük zəlzələ ilə [[mələk]] daşı yuvarlayıb üstündə oturdu. Roma keşikçiləri qorxudan ölü kimi oldular.",
+      "Mələyin elanı: “O burada deyil, dediyi kimi dirildi.” Daş İsanın çıxması üçün deyil, bizim “gəlib görməyimiz” üçün yuvarlandı. Boş qəbir sübut kimi açıldı."
+     ],
+     "deep": {
+      "b": "Dərindən baxaq · İlk şahidlər qadınlar idi",
+      "p": "O dövrdə məhkəmədə qadınların şəhadəti qəbul edilmirdi. Dirilmə hekayəsini uydursaydılar, qadınları ilk şahid etməzdilər. Bu, yazının həqiqət olduğunu göstərən ipucudur. Axıradək çarmıxın yanında olan qadınlar dirilmənin ilk xəbərini eşitdilər."
+     }
+    },
+    {
+     "b": "Qardaşlarıma",
+     "ayə": "Matta 28:8–10",
+     "alt": "Dirilmiş İsa ilə görüşüb səcdə edən qadınlar",
+     "p": [
+      "Qadınlar “qorxu və böyük sevinclə” qaçdılar. O an İsa “Salam” (xayrete, “sevinin”) deyib onları qarşıladı. Qadınlar İsanın ayaqlarını qucaqlayıb [[səcdə]] etdilər. O, xəyal deyil, bədənlə dirilmişdi.",
+      "İsa şagirdləri “qardaşlarım” adlandırır. Hamısı qaçmış o şagirdləri. 26:32-dəki vədə uyğun olaraq Qalileyada görüşməyi deyir. Dirilmə uğursuz şagirdlərə bağışlanma və bərpa elanıdır."
+     ],
+     "deep": {
+      "b": "Dərindən baxaq · “Qardaş” adı",
+      "p": "12:49–50-də İsa Atanın iradəsini yerinə yetirənlərin “qardaşım” olduğunu demişdi. Dirildikdən sonra ilk dəfə şagirdləri qardaş adlandırır. Çarmıx və dirilmə ilə biz Allahın ailəsi olduq."
+     }
+    },
+    {
+     "b": "Pulla örtülmək istənən həqiqət",
+     "ayə": "Matta 28:11–15",
+     "alt": "Baş kahinlərdən pul alan keşikçilər",
+     "p": [
+      "Keşikçilərin xəbərini eşidən baş kahinlər və ağsaqqallar məsləhətləşib əsgərlərə “çoxlu pul” verdilər: “Deyin ki, biz yatarkən şagirdləri gecə gəlib Onu oğurladılar.”",
+      "Yatan insan kimin oğurladığını necə bilə bilər? Yalan əvvəldən ziddiyyətli idi. Amma onlar da bir şeyi etiraf etdilər: qəbir boş idi. Otuz gümüşlə başlayan sui-qəsd yenə pulla həqiqəti örtmək istədi, amma bacarmadı."
+     ],
+     "deep": {
+      "b": "Dərindən baxaq · Dirilmənin sübutları",
+      "p": "Boş qəbir (düşmənlər də etiraf etdi), qadınların şəhadəti, 500-dən çox şahid (1 Kor. 15:6), qaçmış şagirdlərin heyrətamiz dəyişməsi və şəhidliyi, cəmiyyətin yaranması. Dirilmə olmadan bunların hamısını izah etmək çətindir."
+     }
+    },
+    {
+     "b": "Gedin, şagird hazırlayın",
+     "ayə": "Matta 28:16–20",
+     "alt": "Qalileya dağında şagirdləri ilə danışan dirilmiş İsa",
+     "p": [
+      "On bir şagird Qalileyadakı dağda İsanı görüb Ona səcdə etdi. “Amma bəziləri şübhə etdi.” İsa şübhə edənləri kənarda qoymadan hamıya vəzifə verir.",
+      "“Göydə və yerdə bütün [[səlahiyyət]] Mənə verilib. Buna görə gedin, bütün millətləri şagird hazırlayın. Onları Ata, Oğul və Müqəddəs Ruhun adı ilə vəftiz edin, sizə əmr etdiyim hər şeyə əməl etməyi onlara öyrədin. Budur, Mən dünyanın sonunadək hər zaman sizinləyəm.”"
+     ],
+     "deep": {
+      "b": "Dərindən baxaq · Böyük Tapşırığın quruluşu",
+      "p": "Əsas əmr birdir: “şagird hazırlayın”. “Gedin”, “vəftiz edin”, “öyrədin” bunun yollarıdır. Dağüstü vəzdə başlayan “təlim” indi bütün millətlərə gedir. 4:8-də Şeytanın verəcəyini dediyi “dünyanın bütün padşahlıqlarının səlahiyyətini” İsa çarmıx və dirilmə ilə aldı.",
+      "rose": true
+     }
+    }
+   ],
+   "cedvel": {
+    "b": "Matta Müjdəsinin başlanğıcı və sonu",
+    "alt": "1-ci fəsil ↔ 28-ci fəsil",
+    "bas": [
+     "Başlanğıc (1–2)",
+     "Son (28)"
+    ],
+    "set": [
+     [
+      "İmmanuel, Allah bizimlədir (1:23)",
+      "Mən hər zaman sizinləyəm (28:20)"
+     ],
+     [
+      "Müdriklərin, yadellilərin səcdəsi (2:11)",
+      "Bütün millətləri şagird hazırlayın (28:19)"
+     ],
+     [
+      "Mələk Yusifə “qorxma” dedi (1:20)",
+      "Mələk qadınlara “qorxmayın” dedi (28:5)"
+     ],
+     [
+      "Hirod körpəni öldürmək istədi (2:16)",
+      "Hakimlər dirilməni pulla örtmək istədilər (28:12)"
+     ],
+     [
+      "Yəhudilərin Padşahı kimi doğulan (2:2)",
+      "Göydə və yerdə bütün səlahiyyəti alan (28:18)"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "“Buna görə gedin, bütün millətləri şagird hazırlayın. Onları Ata, Oğul və Müqəddəs Ruhun adı ilə vəftiz edin, sizə əmr etdiyim hər şeyə əməl etməyi onlara öyrədin. Budur, Mən dünyanın sonunadək hər zaman sizinləyəm.”",
+    "ref": "28:19–20"
+   },
+   "lugat": {
+    "mələk": {
+     "i": "👼",
+     "o": "Yunanca anqelos, “elçi”",
+     "x": "천사",
+     "s": "Dirilmənin ilk elçisi",
+     "m": "1–2-ci fəsillərdə Yusifə görünən “Rəbbin mələyi” sonda yenidən görünür.",
+     "e": "“Görünüşü şimşək kimi, paltarı qar kimi ağ idi” (28:3)."
+    },
+    "səcdə": {
+     "i": "🙇",
+     "o": "Yunanca proskineo",
+     "x": "경배",
+     "s": "Yalnız Allaha edilən səcdə",
+     "m": "2-ci fəsildə müdriklər, 14-cü fəsildə qayıqdakı şagirdlər, 28-ci fəsildə qadınlar və şagirdlər. Matta əvvəldən axıra İsanı səcdəyə layiq Allah kimi təsvir edir.",
+     "e": "4:10 “Allahın Rəbbə səcdə et, yalnız Ona qulluq et.”"
+    },
+    "səlahiyyət": {
+     "i": "👑",
+     "o": "Yunanca eksusia",
+     "x": "권세",
+     "s": "Bütün kainat üzərində hakimiyyət",
+     "m": "7:29-da təlim, 9:6-da günahları bağışlamaq səlahiyyətindən sonra indi “göydə və yerdə bütün” səlahiyyət. Daniel 7:14-də Bəşər Oğluna verilən səlahiyyətin yerinə yetməsidir.",
+     "e": "Buna görə “gedən” biz qorxmuruq."
+    }
+   },
+   "test": [
+    {
+     "q": "Dirilmə xəbərini ilk kim eşitdi?",
+     "o": [
+      "Qadınlar",
+      "Baş kahinlər",
+      "Pilat"
+     ],
+     "a": 0,
+     "f": "Düzdür. O dövrdə şəhadəti qəbul edilməyən qadınlar."
+    },
+    {
+     "q": "Dirilmiş İsa şagirdləri necə adlandırdı?",
+     "o": [
+      "Qardaşlarım",
+      "Xainlər",
+      "Qullar"
+     ],
+     "a": 0,
+     "f": "Düzdür. Bağışlanma və bərpa adıdır."
+    },
+    {
+     "q": "Baş kahinlərin yalanında belə etiraf olunan fakt nədir?",
+     "o": [
+      "Qəbir boş idi",
+      "İsa ölməmişdi",
+      "Şagirdlər cəsur idi"
+     ],
+     "a": 0,
+     "f": "Düzdür. Düşmənlər də boş qəbri inkar edə bilmədi."
+    },
+    {
+     "q": "Böyük Tapşırığın əsas əmri nədir?",
+     "o": [
+      "Şagird hazırlayın",
+      "Məbəd tikin",
+      "Romanı yıxın"
+     ],
+     "a": 0,
+     "f": "Düzdür. Getmək, vəftiz etmək, öyrətmək onun yollarıdır."
+    },
+    {
+     "q": "Matta 1:23 və 28:20 birlikdə nə deyir?",
+     "o": [
+      "Allah bizimlədir",
+      "Qanun sərtdir",
+      "Məbəd izzətlidir"
+     ],
+     "a": 0,
+     "f": "Düzdür. İmmanuel ilə başlayıb İmmanuel ilə bitir."
+    }
+   ],
+   "paylas": [
+    "Dirilmə həqiqətdirsə, həyatımda nə dəyişməlidir?",
+    "Şübhə edən şagirdlərə də vəzifə verən İsa. İçimdəki şübhə vəzifəmə mane ola bilərmi?",
+    "“Şagird hazırlaya” biləcəyim bir nəfər kimdir? Necə başlaya bilərəm?",
+    "33 dərs boyu Matta Müjdəsini öyrənərkən ən çox yadımda qalan söz hansıdır?"
+   ],
+   "etiraf": {
+    "b": "Mənim etirafım",
+    "p": "Matta Müjdəsini bitirərkən dirilmiş İsaya etirafını və bundan sonra “gedib” yaşayacağın qərarını yaz.",
+    "ph": "Məsələn: Dirilmiş İsa, Matta Müjdəsini oxuyarkən mən … İndi isə mən …"
+   },
+   "dua": "Dirilmiş İsa, ölümə qalib gəlib uğursuz şagirdləri qardaş adlandıraraq yenidən ayağa qaldırdığın lütfə görə Sənə şükür edirəm. Göydə və yerdə bütün səlahiyyəti olan Rəbbə güvənərək olduğum yerdə gedib şagird hazırlayan insan kimi yaşayım. Dünyanın sonunadək hər zaman bizimlə olan İmmanuel, Səni izzətləndirirəm. İsa Məsihin adı ilə dua edirəm. Amin."
+  }
+ },
+ "muellim": {
+  "mesaj": "33과, 마태복음의 마지막 과입니다. 중심은 한 문장입니다. **예수님은 말씀하신 대로 살아나셨고, 모든 권세를 가지신 주님으로서 우리를 모든 민족에게 보내시며, 세상 끝날까지 임마누엘로 함께하신다.**",
+  "hazirliq": [
+   "학생용 교재를 열 휴대폰이나 태블릿, 이어폰",
+   "축하 간식이나 작은 수료 카드 (33과 완주 축하)",
+   "세계 지도 (모든 민족)"
   ],
-  "paylas": ["Dirilmə həqiqətdirsə, həyatımda nə dəyişməlidir?", "Şübhə edən şagirdlərə də vəzifə verən İsa. İçimdəki şübhə vəzifəmə mane ola bilərmi?", "“Şagird hazırlaya” biləcəyim bir nəfər kimdir? Necə başlaya bilərəm?", "33 dərs boyu Matta Müjdəsini öyrənərkən ən çox yadımda qalan söz hansıdır?"],
-  "etiraf": {"b": "Mənim etirafım", "p": "Matta Müjdəsini bitirərkən dirilmiş İsaya etirafını və bundan sonra “gedib” yaşayacağın qərarını yaz.", "ph": "Məsələn: Dirilmiş İsa, Matta Müjdəsini oxuyarkən mən … İndi isə mən …"},
-  "dua": "Dirilmiş İsa, ölümə qalib gəlib uğursuz şagirdləri qardaş adlandıraraq yenidən ayağa qaldırdığın lütfə görə Sənə şükür edirəm. Göydə və yerdə bütün səlahiyyəti olan Rəbbə güvənərək olduğum yerdə gedib şagird hazırlayan insan kimi yaşayım. Dünyanın sonunadək hər zaman bizimlə olan İmmanuel, Səni izzətləndirirəm. İsa Məsihin adı ilə dua edirəm. Amin."
+  "fon": [
+   [
+    "1. 부활 아침",
+    "‘안식 후 첫날’은 일요일입니다. 그래서 초대 교회는 일요일을 ‘주의 날’로 지켰습니다. 마태만 지진과 돌 위에 앉은 천사, 경비병의 반응을 기록합니다."
+   ],
+   [
+    "2. 경비병 매수",
+    "마태복음만 기록합니다. 28:15 “이 말이 오늘날까지 유대인 가운데 두루 퍼지니라”는 마태 당시에도 ‘시체 도난설’이 돌았음을 보여 줍니다."
+   ],
+   [
+    "3. 대위임령",
+    "28:18–20은 마태복음 전체의 결론입니다. 권세(18절) → 사명(19–20a절) → 약속(20b절). 중심 동사는 ‘제자로 삼으라’(마테튜사테) 하나입니다."
+   ],
+   [
+    "4. 삼위일체 세례 공식",
+    "“아버지와 아들과 성령의 이름(단수)으로”는 신약에서 가장 분명한 삼위일체 표현 중 하나입니다. 3장 세례 장면(아들, 성령, 아버지의 음성)과 연결해 보세요."
+   ],
+   [
+    "5. 마태복음 마무리",
+    "33과를 마친 학생들을 축하해 주세요. 1과 족보에서 시작해 대위임령까지 온 여정을 함께 돌아보고, 다음 공부(다른 복음서나 사도행전)를 예고하면 좋습니다."
+   ]
+  ],
+  "usaq_plan": [
+   [
+    "5분",
+    "기쁜 소식",
+    "불을 껐다가 켜며 “예수님이 살아나셨어요!” 함께 외치기",
+    "“무덤은 비었어요!”"
+   ],
+   [
+    "15분",
+    "장면 1–4 듣고 읽기",
+    "장면마다 듣기, 노란 낱말 누르기",
+    "“예수님은 지금도 살아 계시고 우리와 함께 계세요.”"
+   ],
+   [
+    "5분",
+    "외울 말씀",
+    "빈칸 놀이 → 서로 “예수님이 항상 너와 함께 계셔!” 말해 주기",
+    ""
+   ],
+   [
+    "5분",
+    "확인 퀴즈",
+    "혼자 풀고 함께 확인",
+    ""
+   ],
+   [
+    "10분",
+    "활동과 축하",
+    "부활의 삶 고르기 → 33과 완주 축하와 수료 카드 → 기도",
+    ""
+   ]
+  ],
+  "genc_plan": [
+   [
+    "5분",
+    "열기",
+    "“마태복음에서 가장 기억에 남는 장면 하나” 돌아가며 말하기",
+    ""
+   ],
+   [
+    "15분",
+    "장면 1–2",
+    "빈 무덤, 여인 증인, 내 형제들",
+    ""
+   ],
+   [
+    "10분",
+    "장면 3–4와 처음·끝 표",
+    "경비병 매수와 부활의 증거, 대위임령의 구조, 임마누엘의 틀",
+    "“이제 이야기는 나에게”"
+   ],
+   [
+    "5분",
+    "확인 문제",
+    "",
+    ""
+   ],
+   [
+    "15분",
+    "나눔과 고백",
+    "나눔 질문 2개 → 마태복음 마무리 고백 → 파송 기도와 축복",
+    ""
+   ]
+  ],
+  "ipucu_usaq": [
+   "이 과는 축제 분위기로 진행하세요. 32과(십자가)와 대비되는 기쁨을 충분히 누리게 하세요.",
+   "‘모든 민족을 제자로’를 아이들 수준에서 ‘친구에게 예수님을 소개하는 것’으로 설명하세요.",
+   "33과를 다 들은 아이들에게 이름을 불러 축복해 주세요."
+  ],
+  "ipucu_genc": [
+   "부활의 역사성에 대한 질문을 환영하고 증거를 차분히 나누세요.",
+   "대위임령을 ‘목사님, 선교사님의 일’로만 여기지 않도록, 각자의 학교와 가정이 선교지임을 강조하세요.",
+   "마태복음 전체 흐름(다섯 설교, 두 전환점 4:17과 16:21, 임마누엘의 틀)을 한 장으로 정리해 보여 주면 좋습니다."
+  ],
+  "suallar": [
+   [
+    "예수님은 지금 어디 계세요?",
+    "하늘에 계시면서 성령님으로 우리와 항상 함께 계세요.",
+    "부활 후 예수님은 하늘에 오르셨고(행 1장), 성령님을 보내셔서 우리와 함께하세요. 그래서 “항상 함께 있으리라”는 약속이 지금도 이루어지고 있어요."
+   ],
+   [
+    "저도 제자를 삼을 수 있어요?",
+    "그럼요! 친구에게 예수님 이야기를 들려주고 함께 기도하는 것부터 시작할 수 있어요.",
+    "제자 삼기는 대단한 설교보다 함께 살며 예수님을 보여 주는 거예요. 내가 배운 것을 한 사람에게 나누는 것부터 시작해요."
+   ],
+   [
+    "의심이 있어도 예수님을 따를 수 있어요?",
+    "네! 예수님은 의심하는 제자들에게도 일을 맡기셨어요.",
+    "28:17 “그러나 아직도 의심하는 자들도 있더라.” 예수님은 그들을 제외하지 않으셨어요. 의심을 가지고 예수님께 나아가면, 함께하시는 주님이 믿음을 자라게 하세요."
+   ]
+  ]
+ },
+ "en": {
+  "usaq": {
+   "basliq": "He is risen!",
+   "hedef": [
+    "We will learn that Jesus rose on the third day.",
+    "We will learn the task the risen Jesus gave to His disciples.",
+    "We will believe that Jesus is always with us."
+   ],
+   "sehneler": [
+    {
+     "b": "The empty tomb",
+     "ayə": "Matthew 28:1–7",
+     "alt": "An angel talking to the women in front of the empty tomb",
+     "p": [
+      "Very early on Sunday morning, Mary Magdalene and the other Mary went to the tomb. Suddenly, there was a great earthquake. An [[angel]] came down, rolled away the stone, and sat on it.",
+      "The angel said, “Don't be afraid. Jesus is not here. He has [[risen|resurrection]], just as He said! Come and see the place where He lay.”"
+     ]
+    },
+    {
+     "b": "Greetings!",
+     "ayə": "Matthew 28:8–10",
+     "alt": "The women meeting the risen Jesus and worshiping Him",
+     "p": [
+      "The women ran to tell the disciples, filled with both fear and great joy. Suddenly, Jesus met them and said, “Greetings!”",
+      "The women held Jesus' feet and worshiped Him. Jesus said, “Don't be afraid. Go and tell My brothers to go to Galilee. They will see Me there.”"
+     ]
+    },
+    {
+     "b": "Those who spread lies",
+     "ayə": "Matthew 28:11–15",
+     "alt": "The guards receiving money from the chief priests",
+     "p": [
+      "The soldiers guarding the tomb went to the chief priests and told them what had happened. The chief priests gave the soldiers a lot of money and said:",
+      "“Say that His disciples came at night and stole His body.” They spread the [[lie]], but they couldn't stop the truth. Jesus truly rose from the dead!"
+     ]
+    },
+    {
+     "b": "Go and make disciples",
+     "ayə": "Matthew 28:16–20",
+     "alt": "The risen Jesus talking to His disciples on a mountain in Galilee",
+     "p": [
+      "The eleven disciples went to the mountain in Galilee, saw Jesus, and worshiped Him. Jesus said, “All authority in heaven and on earth has been given to Me. Therefore go and make [[disciples|disciple]] of all nations.”",
+      "“[[Baptize|baptize]] them in the name of the Father, the Son, and the Holy Spirit, and teach them to obey everything I have commanded you. And remember, I am with you always, to the end of the age!”"
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "“Behold, I am with you always, even to the end of the age.”",
+    "ref": "28:20",
+    "bos": "“Behold, I am ___ you ___, even to the ___ of the age.”",
+    "sozler": [
+     "with",
+     "always",
+     "end"
+    ],
+    "yalan": "sometimes"
+   },
+   "lugat": {
+    "angel": {
+     "i": "👼",
+     "x": "mələk",
+     "m": "A heavenly messenger who delivers God's word.",
+     "e": "An angel rolled away the stone of the tomb."
+    },
+    "resurrection": {
+     "i": "🌅",
+     "x": "dirilmə",
+     "m": "To die and come back to life again.",
+     "e": "Jesus rose on the third day."
+    },
+    "lie": {
+     "i": "🤥",
+     "x": "yalan",
+     "m": "Saying something that is not true as if it were true.",
+     "e": "The chief priests spread a lie."
+    },
+    "disciple": {
+     "i": "👣",
+     "x": "şagird",
+     "m": "A person who follows Jesus and learns from Him.",
+     "e": "Make disciples of all nations."
+    },
+    "baptize": {
+     "i": "💧",
+     "x": "vəftiz",
+     "m": "A sign with water received by a person who believes in Jesus.",
+     "e": "Baptize them in the name of the Father, the Son, and the Holy Spirit."
+    }
+   },
+   "test": [
+    {
+     "q": "What was the tomb like when the women went there?",
+     "o": [
+      "It was empty",
+      "It was closed",
+      "There was a soldier inside"
+     ],
+     "a": 0,
+     "f": "Correct! Jesus rose from the dead."
+    },
+    {
+     "q": "What was the first word the risen Jesus said to the women?",
+     "o": [
+      "Greetings",
+      "Why did you come",
+      "Go home"
+     ],
+     "a": 0,
+     "f": "Correct! He gave them peace."
+    },
+    {
+     "q": "What task did Jesus give to His disciples?",
+     "o": [
+      "Make disciples of all nations",
+      "Build a temple",
+      "Hide at home"
+     ],
+     "a": 0,
+     "f": "Correct! He gave this task to us too."
+    },
+    {
+     "q": "How long is Jesus with us?",
+     "o": [
+      "Always, to the end of the age",
+      "Only on Sundays",
+      "Only when we are good"
+     ],
+     "a": 0,
+     "f": "Correct! He is always with us."
+    }
+   ],
+   "dusun": [
+    "How did the women feel when they heard that Jesus had risen?",
+    "What does it mean to me that Jesus is alive?",
+    "If Jesus is always with me, what should I not be afraid of?"
+   ],
+   "fealiyyet": {
+    "ciz": "Draw the empty tomb, the rising sun, and yourself rejoicing.",
+    "b": "How will you live with the risen Jesus?",
+    "p": "Choose how you will live with the risen Jesus.",
+    "ph": "",
+    "secim": {
+     "basliq": "How will you live with the risen Jesus?",
+     "izah": "Tap to choose. You can choose more than one.",
+     "cumle": "With the risen Jesus, I will {x}!",
+     "bos": "live with joy",
+     "bag": "and",
+     "secimler": [
+      [
+       "😊",
+       "live with joy"
+      ],
+      [
+       "💪",
+       "not be afraid"
+      ],
+      [
+       "📣",
+       "share the Gospel"
+      ],
+      [
+       "🙏",
+       "pray every day"
+      ],
+      [
+       "⛪",
+       "invite my friends to church"
+      ]
+     ]
+    }
+   },
+   "dua": "Risen Jesus, thank You for conquering death and rising again! Hallelujah! I believe that You are always with me to the end of the age, even when I am afraid. Let me also be a disciple who spreads Your joyful news. I pray in the name of Jesus Christ. Amen."
+  },
+  "genc": {
+   "basliq": "From the End to the Beginning",
+   "giris": "The Gospel of Matthew began with the words “Immanuel, God with us” (1:23). And it ends with the words “I am with you always, even to the end of the age” (28:20). The tomb was not the end, but the beginning. Now the story passes on to us.",
+   "meqsed": [
+    "We understand the evidence and meaning of the resurrection in the flow of the Gospel of Matthew.",
+    "We can explain the structure and core command of the Great Commission (28:18–20).",
+    "Looking at the whole Gospel of Matthew, we determine our place to 'go and make disciples'."
+   ],
+   "sehneler": [
+    {
+     "b": "He is not here",
+     "ayə": "Matthew 28:1–7",
+     "alt": "An angel talking to the women in front of the empty tomb",
+     "p": [
+      "Very early on the first day of the week, Mary Magdalene and the other Mary went to look at the tomb. With a great earthquake, an [[angel]] rolled back the stone and sat on it. The Roman guards became like dead men from fear.",
+      "The angel's declaration: “He is not here, for He has risen, just as He said.” The stone was rolled away not for Jesus to come out, but for us to “come and see.” The empty tomb was opened as evidence."
+     ],
+     "deep": {
+      "b": "Looking Deeper · The first witnesses were women",
+      "p": "At that time, the testimony of women was not accepted in court. If they had made up the resurrection story, they would not have made women the first witnesses. This is a clue showing that the record is true. The women who stayed by the cross to the end heard the first news of the resurrection."
+     }
+    },
+    {
+     "b": "To My brothers",
+     "ayə": "Matthew 28:8–10",
+     "alt": "The women meeting the risen Jesus and worshiping Him",
+     "p": [
+      "The women ran “with fear and great joy.” At that moment, Jesus met them, saying “Greetings” (chairete, “rejoice”). The women held Jesus' feet and [[worshiped|worship]] Him. He had risen bodily, not as a ghost.",
+      "Jesus calls the disciples “My brothers.” Even those disciples who had all fled. According to the promise in 26:32, He tells them to meet in Galilee. The resurrection is a declaration of forgiveness and restoration for the failed disciples."
+     ],
+     "deep": {
+      "b": "Looking Deeper · The name “brother”",
+      "p": "In 12:49–50, Jesus said that whoever does the will of the Father is “My brother.” For the first time after His resurrection, He calls the disciples brothers. Through the cross and resurrection, we became God's family."
+     }
+    },
+    {
+     "b": "The truth they tried to cover with money",
+     "ayə": "Matthew 28:11–15",
+     "alt": "The guards receiving money from the chief priests",
+     "p": [
+      "Hearing the guards' report, the chief priests and elders consulted together and gave the soldiers “a large sum of money”: “Say that His disciples came by night and stole Him away while we were sleeping.”",
+      "How can a sleeping person know who stole something? The lie was contradictory from the start. But they also admitted one thing: the tomb was empty. The conspiracy that started with thirty pieces of silver tried to cover the truth with money again, but failed."
+     ],
+     "deep": {
+      "b": "Looking Deeper · Evidences of the resurrection",
+      "p": "The empty tomb (admitted even by enemies), the testimony of the women, more than 500 witnesses (1 Cor. 15:6), the dramatic change and martyrdom of the disciples who had fled, and the birth of the church. It is hard to explain all of this without the resurrection."
+     }
+    },
+    {
+     "b": "Go and make disciples",
+     "ayə": "Matthew 28:16–20",
+     "alt": "The risen Jesus talking to His disciples on a mountain in Galilee",
+     "p": [
+      "The eleven disciples saw Jesus on the mountain in Galilee and worshiped Him. “But some doubted.” Jesus gives the mission to everyone, without leaving out those who doubted.",
+      "“All [[authority]] in heaven and on earth has been given to Me. Therefore go and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit, teaching them to observe all things that I commanded you. Behold, I am with you always, even to the end of the age.”"
+     ],
+     "deep": {
+      "b": "Looking Deeper · The structure of the Great Commission",
+      "p": "There is one main command: “make disciples.” “Go,” “baptize,” and “teach” are the ways to do it. The “teaching” that began in the Sermon on the Mount now goes to all nations. Through the cross and resurrection, Jesus received the “authority of all the kingdoms of the world” that Satan offered to give Him in 4:8.",
+      "rose": true
+     }
+    }
+   ],
+   "cedvel": {
+    "b": "The Beginning and End of the Gospel of Matthew",
+    "alt": "Chapter 1 ↔ Chapter 28",
+    "bas": [
+     "Beginning (1–2)",
+     "End (28)"
+    ],
+    "set": [
+     [
+      "Immanuel, God with us (1:23)",
+      "I am with you always (28:20)"
+     ],
+     [
+      "Worship of the wise men, Gentiles (2:11)",
+      "Make disciples of all nations (28:19)"
+     ],
+     [
+      "The angel told Joseph, “Don't be afraid” (1:20)",
+      "The angel told the women, “Don't be afraid” (28:5)"
+     ],
+     [
+      "Herod tried to kill the baby (2:16)",
+      "The rulers tried to cover up the resurrection with money (28:12)"
+     ],
+     [
+      "The one born as King of the Jews (2:2)",
+      "The one who received all authority in heaven and on earth (28:18)"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "“Therefore go and make disciples of all nations, baptizing them in the name of the Father and of the Son and of the Holy Spirit, teaching them to observe all things that I commanded you. Behold, I am with you always, even to the end of the age.”",
+    "ref": "28:19–20"
+   },
+   "lugat": {
+    "angel": {
+     "i": "👼",
+     "o": "Greek angelos, “messenger”",
+     "x": "mələk",
+     "s": "The first messenger of the resurrection",
+     "m": "The “angel of the Lord” who appeared to Joseph in chapters 1–2 appears again at the end.",
+     "e": "“His appearance was like lightning, and his clothing white as snow” (28:3)."
+    },
+    "worship": {
+     "i": "🙇",
+     "o": "Greek proskyneō",
+     "x": "səcdə",
+     "s": "Bowing down only to God",
+     "m": "The wise men in chapter 2, the disciples in the boat in chapter 14, the women and disciples in chapter 28. From beginning to end, Matthew portrays Jesus as God who is worthy of worship.",
+     "e": "4:10 “You shall worship the Lord your God, and Him only shall you serve.”"
+    },
+    "authority": {
+     "i": "👑",
+     "o": "Greek exousia",
+     "x": "səlahiyyət",
+     "s": "Rule over the entire universe",
+     "m": "After the authority of teaching in 7:29 and the authority to forgive sins in 9:6, now it is “all” authority in heaven and on earth. This is the fulfillment of the authority given to the Son of Man in Daniel 7:14.",
+     "e": "Therefore, we who “go” are not afraid."
+    }
+   },
+   "test": [
+    {
+     "q": "Who were the first to hear the news of the resurrection?",
+     "o": [
+      "The women",
+      "The chief priests",
+      "Pilate"
+     ],
+     "a": 0,
+     "f": "Correct. The women, whose testimony was not accepted at the time."
+    },
+    {
+     "q": "What did the risen Jesus call the disciples?",
+     "o": [
+      "My brothers",
+      "Traitors",
+      "Slaves"
+     ],
+     "a": 0,
+     "f": "Correct. It is a name of forgiveness and restoration."
+    },
+    {
+     "q": "What fact was admitted even in the chief priests' lie?",
+     "o": [
+      "The tomb was empty",
+      "Jesus had not died",
+      "The disciples were brave"
+     ],
+     "a": 0,
+     "f": "Correct. Even the enemies could not deny the empty tomb."
+    },
+    {
+     "q": "What is the core command of the Great Commission?",
+     "o": [
+      "Make disciples",
+      "Build a temple",
+      "Overthrow Rome"
+     ],
+     "a": 0,
+     "f": "Correct. Going, baptizing, and teaching are the ways to do it."
+    },
+    {
+     "q": "What do Matthew 1:23 and 28:20 say together?",
+     "o": [
+      "God is with us",
+      "The law is strict",
+      "The temple is glorious"
+     ],
+     "a": 0,
+     "f": "Correct. It begins with Immanuel and ends with Immanuel."
+    }
+   ],
+   "paylas": [
+    "If the resurrection is true, what should change in my life?",
+    "Jesus gives a mission even to the disciples who doubted. Can the doubt inside me stop my mission?",
+    "Who is one person I can “make a disciple” of? How can I start?",
+    "What is the most memorable word for you while studying the Gospel of Matthew for 33 lessons?"
+   ],
+   "etiraf": {
+    "b": "My Confession",
+    "p": "As you finish the Gospel of Matthew, write down your confession to the risen Jesus and your decision to “go” and live from now on.",
+    "ph": "Example: Risen Jesus, while reading the Gospel of Matthew, I … And now I …"
+   },
+   "dua": "Risen Jesus, thank You for the grace of conquering death and raising up the failed disciples again by calling them brothers. Trusting in the Lord who has all authority in heaven and on earth, let me live as a person who goes and makes disciples wherever I am. Immanuel, who is always with us to the end of the age, I glorify You. I pray in the name of Jesus Christ. Amen."
+  }
+ },
+ "ru": {
+  "usaq": {
+   "basliq": "Он воскрес!",
+   "hedef": [
+    "Мы узнаем, что Иисус воскрес на третий день.",
+    "Мы узнаем, какое поручение воскресший Иисус дал Своим ученикам.",
+    "Мы поверим, что Иисус всегда с нами."
+   ],
+   "sehneler": [
+    {
+     "b": "Пустая гробница",
+     "ayə": "Матфей 28:1–7",
+     "alt": "Ангел разговаривает с женщинами у пустой гробницы",
+     "p": [
+      "Рано утром в воскресенье Мария Магдалина и другая Мария пошли к гробнице. Вдруг произошло сильное землетрясение, спустился [[ангел]], отвалил камень и сел на него.",
+      "Ангел сказал: «Не бойтесь. Иисуса здесь нет. Он [[воскрес|воскресение]], как и говорил! Подойдите, посмотрите место, где Он лежал»."
+     ]
+    },
+    {
+     "b": "Радуйтесь!",
+     "ayə": "Матфей 28:8–10",
+     "alt": "Женщины встречают воскресшего Иисуса и поклоняются Ему",
+     "p": [
+      "Женщины со страхом и великой радостью побежали сообщить эту новость ученикам. В этот момент им явился Иисус и сказал: «Радуйтесь!»",
+      "Женщины обняли ноги Иисуса и поклонились Ему. Иисус сказал: «Не бойтесь. Пойдите, скажите Моим братьям, чтобы они шли в Галилею. Там они увидят Меня»."
+     ]
+    },
+    {
+     "b": "Те, кто распространял ложь",
+     "ayə": "Матфей 28:11–15",
+     "alt": "Стражники получают деньги от первосвященников",
+     "p": [
+      "Солдаты, охранявшие гробницу, пошли к первосвященникам и рассказали обо всём. Первосвященники дали солдатам много денег и сказали:",
+      "«Скажите, что ночью пришли ученики и украли тело». Они распространили эту [[ложь]], но не смогли остановить правду. Иисус действительно воскрес!"
+     ]
+    },
+    {
+     "b": "Идите и подготавливайте учеников",
+     "ayə": "Матфей 28:16–20",
+     "alt": "Воскресший Иисус говорит с учениками на горе в Галилее",
+     "p": [
+      "Одиннадцать учеников пошли на гору в Галилее, увидели Иисуса и поклонились Ему. Иисус сказал: «Мне дана вся власть на небе и на земле. Поэтому идите и подготавливайте [[учеников|ученик]] во всех народах».",
+      "«[[Крестите|крещение]] их во имя Отца, Сына и Святого Духа, учите их соблюдать всё, что Я вам повелел. И вот, Я всегда с вами, до скончания века!»"
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "«И вот, Я с вами во все дни до скончания века».",
+    "ref": "28:20",
+    "bos": "«И вот, Я с ___ во все ___ до скончания ___».",
+    "sozler": [
+     "вами",
+     "дни",
+     "века"
+    ],
+    "yalan": "иногда"
+   },
+   "lugat": {
+    "ангел": {
+     "i": "👼",
+     "x": "mələk",
+     "m": "Небесный посланник, который передаёт Божье слово.",
+     "e": "Ангел отвалил камень от гробницы."
+    },
+    "воскресение": {
+     "i": "🌅",
+     "x": "dirilmə",
+     "m": "Ожить после смерти.",
+     "e": "Иисус воскрес на третий день."
+    },
+    "ложь": {
+     "i": "🤥",
+     "x": "yalan",
+     "m": "Говорить неправду, выдавая её за правду.",
+     "e": "Первосвященники распространили ложь."
+    },
+    "ученик": {
+     "i": "👣",
+     "x": "şagird",
+     "m": "Человек, который следует за Иисусом и учится у Него.",
+     "e": "Идите и подготавливайте учеников во всех народах."
+    },
+    "крещение": {
+     "i": "💧",
+     "x": "vəftiz",
+     "m": "Знак, который человек, верящий в Иисуса, принимает через воду.",
+     "e": "Крестите их во имя Отца, Сына и Святого Духа."
+    }
+   },
+   "test": [
+    {
+     "q": "Какой была гробница, когда женщины пришли к ней?",
+     "o": [
+      "Она была пуста",
+      "Она была закрыта",
+      "В ней был солдат"
+     ],
+     "a": 0,
+     "f": "Верно! Иисус воскрес."
+    },
+    {
+     "q": "Какими были первые слова воскресшего Иисуса женщинам?",
+     "o": [
+      "Радуйтесь",
+      "Зачем вы пришли",
+      "Идите домой"
+     ],
+     "a": 0,
+     "f": "Верно! Он дал им мир и радость."
+    },
+    {
+     "q": "Какое поручение Иисус дал Своим ученикам?",
+     "o": [
+      "Подготавливать учеников во всех народах",
+      "Построить храм",
+      "Спрятаться дома"
+     ],
+     "a": 0,
+     "f": "Верно! И нам Он поручил то же самое."
+    },
+    {
+     "q": "До какого времени Иисус будет с нами?",
+     "o": [
+      "Всегда, до скончания века",
+      "Только по воскресеньям",
+      "Только когда мы хорошо себя ведём"
+     ],
+     "a": 0,
+     "f": "Верно! Он всегда с нами."
+    }
+   ],
+   "dusun": [
+    "Что почувствовали женщины, когда услышали, что Иисус воскрес?",
+    "Что для меня значит то, что Иисус жив?",
+    "Если Иисус всегда со мной, чего мне не стоит бояться?"
+   ],
+   "fealiyyet": {
+    "ciz": "Нарисуй пустую гробницу, восходящее солнце и себя, радующегося этому.",
+    "b": "Как ты будешь жить с воскресшим Иисусом?",
+    "p": "Выбери, как ты будешь жить вместе с воскресшим Иисусом.",
+    "ph": "",
+    "secim": {
+     "basliq": "Как ты будешь жить с воскресшим Иисусом?",
+     "izah": "Нажимай и выбирай. Можно выбрать несколько.",
+     "cumle": "Вместе с воскресшим Иисусом я {x}!",
+     "bos": "буду жить с радостью",
+     "bag": "и",
+     "secimler": [
+      [
+       "😊",
+       "буду жить с радостью"
+      ],
+      [
+       "💪",
+       "не буду бояться"
+      ],
+      [
+       "📣",
+       "буду рассказывать Евангелие"
+      ],
+      [
+       "🙏",
+       "буду молиться каждый день"
+      ],
+      [
+       "⛪",
+       "буду приглашать друзей в церковь"
+      ]
+     ]
+    }
+   },
+   "dua": "Воскресший Иисус, благодарю Тебя за то, что Ты победил смерть и воскрес! Аллилуйя! Я верю, что даже когда мне страшно, Ты всегда со мной, до скончания века. Помоги и мне быть Твоим учеником, который распространяет радостную весть. Молюсь во имя Иисуса Христа. Аминь."
+  },
+  "genc": {
+   "basliq": "От конца к началу",
+   "giris": "Евангелие от Матфея началось со слов: «Еммануил, что значит: с нами Бог» (1:23). И заканчивается словами: «Я с вами во все дни до скончания века» (28:20). Гробница была не концом, а началом. Теперь эта история передаётся нам.",
+   "meqsed": [
+    "Понять доказательства и значение воскресения в контексте Евангелия от Матфея.",
+    "Объяснить структуру и главную заповедь Великого поручения (28:18–20).",
+    "Оглядываясь на всё Евангелие от Матфея, определить своё место в призыве «идти и подготавливать учеников»."
+   ],
+   "sehneler": [
+    {
+     "b": "Его здесь нет",
+     "ayə": "Матфей 28:1–7",
+     "alt": "Ангел разговаривает с женщинами у пустой гробницы",
+     "p": [
+      "Рано утром в первый день после субботы Мария Магдалина и другая Мария пошли посмотреть гробницу. Произошло великое землетрясение, [[ангел]] отвалил камень и сел на него. Римские стражники от страха стали как мёртвые.",
+      "Заявление ангела: «Его нет здесь — Он воскрес, как сказал». Камень был отвален не для того, чтобы Иисус мог выйти, а чтобы мы могли «подойти и посмотреть». Пустая гробница была открыта как доказательство."
+     ],
+     "deep": {
+      "b": "Давайте углубимся · Первыми свидетелями были женщины",
+      "p": "В то время в суде свидетельство женщин не принималось. Если бы историю о воскресении выдумали, женщин не сделали бы первыми свидетелями. Это ключ к пониманию того, что Писание истинно. Женщины, которые до конца оставались у креста, первыми услышали весть о воскресении."
+     }
+    },
+    {
+     "b": "Моим братьям",
+     "ayə": "Матфей 28:8–10",
+     "alt": "Женщины встречают воскресшего Иисуса и поклоняются Ему",
+     "p": [
+      "Женщины побежали «со страхом и великою радостью». В этот момент Иисус встретил их со словами: «Радуйтесь» (по-гречески *chairete*). Женщины обняли ноги Иисуса и [[поклонились|поклонение]] Ему. Он воскрес телесно, Он не был призраком.",
+      "Иисус называет учеников «Моими братьями». Тех самых учеников, которые все разбежались. В соответствии с обещанием в 26:32, Он говорит им встретиться в Галилее. Воскресение — это провозглашение прощения и восстановления для потерпевших неудачу учеников."
+     ],
+     "deep": {
+      "b": "Давайте углубимся · Имя «братья»",
+      "p": "В 12:49–50 Иисус сказал, что исполняющие волю Отца — это Его «братья». После воскресения Он впервые называет учеников братьями. Через крест и воскресение мы стали Божьей семьёй."
+     }
+    },
+    {
+     "b": "Правда, которую пытались скрыть за деньги",
+     "ayə": "Матфей 28:11–15",
+     "alt": "Стражники получают деньги от первосвященников",
+     "p": [
+      "Услышав весть от стражников, первосвященники и старейшины посовещались и дали солдатам «довольно денег»: «Скажите, что ученики Его, придя ночью, украли Его, когда мы спали».",
+      "Как спящий человек может знать, кто совершил кражу? Ложь с самого начала была противоречивой. Но они признали один факт: гробница была пуста. Заговор, начавшийся с тридцати сребреников, снова попытался скрыть правду за деньги, но безуспешно."
+     ],
+     "deep": {
+      "b": "Давайте углубимся · Доказательства воскресения",
+      "p": "Пустая гробница (признанная даже врагами), свидетельство женщин, более 500 очевидцев (1 Кор. 15:6), поразительная перемена и мученичество сбежавших учеников, а также зарождение церкви. Без воскресения всё это трудно объяснить."
+     }
+    },
+    {
+     "b": "Идите и подготавливайте учеников",
+     "ayə": "Матфей 28:16–20",
+     "alt": "Воскресший Иисус говорит с учениками на горе в Галилее",
+     "p": [
+      "Одиннадцать учеников увидели Иисуса на горе в Галилее и поклонились Ему. «А иные усомнились». Иисус не отвергает сомневающихся, а даёт поручение всем.",
+      "«Дана Мне всякая [[власть]] на небе и на земле. Итак, идите, научите все народы (сделайте их учениками), крестя их во имя Отца и Сына и Святого Духа, уча их соблюдать всё, что Я повелел вам. И се, Я с вами во все дни до скончания века»."
+     ],
+     "deep": {
+      "b": "Давайте углубимся · Структура Великого поручения",
+      "p": "Главная заповедь одна: «подготавливайте учеников». «Идите», «крестите», «учите» — это способы её исполнения. «Учение», начавшееся в Нагорной проповеди, теперь идёт ко всем народам. Власть над «всеми царствами мира», которую сатана предлагал в 4:8, Иисус обрёл через крест и воскресение.",
+      "rose": true
+     }
+    }
+   ],
+   "cedvel": {
+    "b": "Начало и конец Евангелия от Матфея",
+    "alt": "1-я глава ↔ 28-я глава",
+    "bas": [
+     "Начало (1–2)",
+     "Конец (28)"
+    ],
+    "set": [
+     [
+      "Еммануил, с нами Бог (1:23)",
+      "Я с вами во все дни (28:20)"
+     ],
+     [
+      "Поклонение мудрецов, язычников (2:11)",
+      "Подготавливайте учеников во всех народах (28:19)"
+     ],
+     [
+      "Ангел сказал Иосифу «не бойся» (1:20)",
+      "Ангел сказал женщинам «не бойтесь» (28:5)"
+     ],
+     [
+      "Ирод хотел убить Младенца (2:16)",
+      "Властители хотели скрыть воскресение за деньги (28:12)"
+     ],
+     [
+      "Родившийся Царь Иудейский (2:2)",
+      "Получивший всякую власть на небе и на земле (28:18)"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "«Итак, идите, научите все народы, крестя их во имя Отца и Сына и Святого Духа, уча их соблюдать всё, что Я повелел вам; и се, Я с вами во все дни до скончания века».",
+    "ref": "28:19–20"
+   },
+   "lugat": {
+    "ангел": {
+     "i": "👼",
+     "o": "Греч. angelos, «вестник»",
+     "x": "mələk",
+     "s": "Первый вестник воскресения",
+     "m": "«Ангел Господень», явившийся Иосифу в 1–2 главах, снова появляется в конце.",
+     "e": "«Вид его был, как молния, и одежда его бела, как снег» (28:3)."
+    },
+    "поклонение": {
+     "i": "🙇",
+     "o": "Греч. proskyneo",
+     "x": "səcdə",
+     "s": "Поклонение, воздаваемое только Богу",
+     "m": "Во 2-й главе мудрецы, в 14-й ученики в лодке, в 28-й женщины и ученики. Матфей от начала до конца описывает Иисуса как Бога, достойного поклонения.",
+     "e": "4:10 «Господу Богу твоему поклоняйся и Ему одному служи»."
+    },
+    "власть": {
+     "i": "👑",
+     "o": "Греч. exousia",
+     "x": "səlahiyyət",
+     "s": "Владычество над всей вселенной",
+     "m": "После власти учить в 7:29 и прощать грехи в 9:6, теперь Ему дана «всякая» власть на небе и на земле. Это исполнение пророчества о власти Сына Человеческого в Даниила 7:14.",
+     "e": "Поэтому мы, «идущие», не боимся."
+    }
+   },
+   "test": [
+    {
+     "q": "Кто первым услышал весть о воскресении?",
+     "o": [
+      "Женщины",
+      "Первосвященники",
+      "Пилат"
+     ],
+     "a": 0,
+     "f": "Верно. Женщины, чьё свидетельство в то время не принималось."
+    },
+    {
+     "q": "Как воскресший Иисус назвал Своих учеников?",
+     "o": [
+      "Мои братья",
+      "Предатели",
+      "Рабы"
+     ],
+     "a": 0,
+     "f": "Верно. Это имя прощения и восстановления."
+    },
+    {
+     "q": "Какой факт признаётся даже в лжи первосвященников?",
+     "o": [
+      "Гробница была пуста",
+      "Иисус не умер",
+      "Ученики были смелыми"
+     ],
+     "a": 0,
+     "f": "Верно. Даже враги не смогли отрицать пустую гробницу."
+    },
+    {
+     "q": "Какова главная заповедь Великого поручения?",
+     "o": [
+      "Подготавливать учеников",
+      "Построить храм",
+      "Свергнуть Рим"
+     ],
+     "a": 0,
+     "f": "Верно. Идти, крестить и учить — это способы её исполнения."
+    },
+    {
+     "q": "О чём вместе говорят Матфей 1:23 и 28:20?",
+     "o": [
+      "Бог с нами",
+      "Закон строг",
+      "Храм славен"
+     ],
+     "a": 0,
+     "f": "Верно. Евангелие начинается с Еммануила и заканчивается Еммануилом."
+    }
+   ],
+   "paylas": [
+    "Если воскресение — это правда, что должно измениться в моей жизни?",
+    "Иисус даёт поручение даже сомневающимся ученикам. Могут ли мои сомнения помешать моему призванию?",
+    "Кто тот человек, которого я могу «сделать учеником»? С чего я могу начать?",
+    "Какое слово или стих запомнились мне больше всего за 33 урока изучения Евангелия от Матфея?"
+   ],
+   "etiraf": {
+    "b": "Моё исповедание",
+    "p": "Завершая изучение Евангелия от Матфея, напиши своё исповедание воскресшему Иисусу и решение о том, как ты будешь жить, «идя» вперёд.",
+    "ph": "Например: Воскресший Иисус, читая Евангелие от Матфея, я... А теперь я..."
+   },
+   "dua": "Воскресший Иисус, благодарю Тебя за благодать, с которой Ты победил смерть и вновь поднял потерпевших неудачу учеников, назвав их братьями. Доверяя Господу, имеющему всякую власть на небе и на земле, пусть я буду жить как человек, который идёт и подготавливает учеников там, где находится. Еммануил, всегда пребывающий с нами до скончания века, я прославляю Тебя. Молюсь во имя Иисуса Христа. Аминь."
+  }
  }
-},
-"muellim": {
- "mesaj": "33과, 마태복음의 마지막 과입니다. 중심은 한 문장입니다. **예수님은 말씀하신 대로 살아나셨고, 모든 권세를 가지신 주님으로서 우리를 모든 민족에게 보내시며, 세상 끝날까지 임마누엘로 함께하신다.**",
- "hazirliq": ["학생용 교재를 열 휴대폰이나 태블릿, 이어폰", "축하 간식이나 작은 수료 카드 (33과 완주 축하)", "세계 지도 (모든 민족)"],
- "fon": [
-  ["1. 부활 아침", "‘안식 후 첫날’은 일요일입니다. 그래서 초대 교회는 일요일을 ‘주의 날’로 지켰습니다. 마태만 지진과 돌 위에 앉은 천사, 경비병의 반응을 기록합니다."],
-  ["2. 경비병 매수", "마태복음만 기록합니다. 28:15 “이 말이 오늘날까지 유대인 가운데 두루 퍼지니라”는 마태 당시에도 ‘시체 도난설’이 돌았음을 보여 줍니다."],
-  ["3. 대위임령", "28:18–20은 마태복음 전체의 결론입니다. 권세(18절) → 사명(19–20a절) → 약속(20b절). 중심 동사는 ‘제자로 삼으라’(마테튜사테) 하나입니다."],
-  ["4. 삼위일체 세례 공식", "“아버지와 아들과 성령의 이름(단수)으로”는 신약에서 가장 분명한 삼위일체 표현 중 하나입니다. 3장 세례 장면(아들, 성령, 아버지의 음성)과 연결해 보세요."],
-  ["5. 마태복음 마무리", "33과를 마친 학생들을 축하해 주세요. 1과 족보에서 시작해 대위임령까지 온 여정을 함께 돌아보고, 다음 공부(다른 복음서나 사도행전)를 예고하면 좋습니다."]
- ],
- "usaq_plan": [
-  ["5분", "기쁜 소식", "불을 껐다가 켜며 “예수님이 살아나셨어요!” 함께 외치기", "“무덤은 비었어요!”"],
-  ["15분", "장면 1–4 듣고 읽기", "장면마다 듣기, 노란 낱말 누르기", "“예수님은 지금도 살아 계시고 우리와 함께 계세요.”"],
-  ["5분", "외울 말씀", "빈칸 놀이 → 서로 “예수님이 항상 너와 함께 계셔!” 말해 주기", ""],
-  ["5분", "확인 퀴즈", "혼자 풀고 함께 확인", ""],
-  ["10분", "활동과 축하", "부활의 삶 고르기 → 33과 완주 축하와 수료 카드 → 기도", ""]
- ],
- "genc_plan": [
-  ["5분", "열기", "“마태복음에서 가장 기억에 남는 장면 하나” 돌아가며 말하기", ""],
-  ["15분", "장면 1–2", "빈 무덤, 여인 증인, 내 형제들", ""],
-  ["10분", "장면 3–4와 처음·끝 표", "경비병 매수와 부활의 증거, 대위임령의 구조, 임마누엘의 틀", "“이제 이야기는 나에게”"],
-  ["5분", "확인 문제", "", ""],
-  ["15분", "나눔과 고백", "나눔 질문 2개 → 마태복음 마무리 고백 → 파송 기도와 축복", ""]
- ],
- "ipucu_usaq": ["이 과는 축제 분위기로 진행하세요. 32과(십자가)와 대비되는 기쁨을 충분히 누리게 하세요.", "‘모든 민족을 제자로’를 아이들 수준에서 ‘친구에게 예수님을 소개하는 것’으로 설명하세요.", "33과를 다 들은 아이들에게 이름을 불러 축복해 주세요."],
- "ipucu_genc": ["부활의 역사성에 대한 질문을 환영하고 증거를 차분히 나누세요.", "대위임령을 ‘목사님, 선교사님의 일’로만 여기지 않도록, 각자의 학교와 가정이 선교지임을 강조하세요.", "마태복음 전체 흐름(다섯 설교, 두 전환점 4:17과 16:21, 임마누엘의 틀)을 한 장으로 정리해 보여 주면 좋습니다."],
- "suallar": [
-  ["예수님은 지금 어디 계세요?", "하늘에 계시면서 성령님으로 우리와 항상 함께 계세요.", "부활 후 예수님은 하늘에 오르셨고(행 1장), 성령님을 보내셔서 우리와 함께하세요. 그래서 “항상 함께 있으리라”는 약속이 지금도 이루어지고 있어요."],
-  ["저도 제자를 삼을 수 있어요?", "그럼요! 친구에게 예수님 이야기를 들려주고 함께 기도하는 것부터 시작할 수 있어요.", "제자 삼기는 대단한 설교보다 함께 살며 예수님을 보여 주는 거예요. 내가 배운 것을 한 사람에게 나누는 것부터 시작해요."],
-  ["의심이 있어도 예수님을 따를 수 있어요?", "네! 예수님은 의심하는 제자들에게도 일을 맡기셨어요.", "28:17 “그러나 아직도 의심하는 자들도 있더라.” 예수님은 그들을 제외하지 않으셨어요. 의심을 가지고 예수님께 나아가면, 함께하시는 주님이 믿음을 자라게 하세요."]
- ]
-}
 }

@@ -12,5 +12,1003 @@
   "matta/yesaya.jpg",
   "02-isanin-dogulmasi.jpg"
  ],
- "hero": 4
+ "hero": 4,
+ "en": {
+  "usaq": {
+   "basliq": "Immanuel — God is with us!",
+   "hedef": [
+    "Jesus Christ came according to God's promise.",
+    "We will learn the meaning of the names 'Jesus' and 'Immanuel'.",
+    "We will learn to obey God's word like Joseph did."
+   ],
+   "sehneler": [
+    {
+     "b": "Jesus' family tree",
+     "ayə": "Matthew 1:1–17",
+     "alt": "Family tree from Abraham to David and Jesus",
+     "p": [
+      "The Gospel written by Matthew starts with Jesus' [[family tree]]. This is a list of the names of grandfathers and great-grandfathers.",
+      "At the very beginning is [[Abraham]], in the middle is King [[David]], and at the very end is Jesus. God promised Abraham and David: 'A blessing will come from your family.'",
+      "This promise came true with Jesus."
+     ]
+    },
+    {
+     "b": "Mary and Joseph",
+     "ayə": "Matthew 1:18",
+     "alt": "An angel gives good news to Mary",
+     "p": [
+      "Mary and Joseph were [[engaged]]. They were not living together yet.",
+      "One day, it became known that Mary was going to have a baby. This baby came through [[the Holy Spirit]]. Only God can do this."
+     ]
+    },
+    {
+     "b": "Joseph's dream",
+     "ayə": "Matthew 1:19–21",
+     "alt": "Joseph is sleeping, an angel speaks to him in a dream",
+     "p": [
+      "Joseph was a [[righteous]] man. He did not want to shame Mary. So he wanted to leave quietly.",
+      "That night, an [[angel]] came in a dream and said: 'Don't be afraid! Take Mary home. Name the baby Jesus.'",
+      "Jesus will [[save]] people from their [[sins|sin]]."
+     ]
+    },
+    {
+     "b": "A very old promise",
+     "ayə": "Matthew 1:22–23",
+     "alt": "The prophet Isaiah writes God's promise on a scroll",
+     "p": [
+      "A long, long time ago, God gave a promise through the [[prophet]] Isaiah. This was about 700 years before Jesus.",
+      "'A virgin girl will have a son. They will name him [[Immanuel]].'",
+      "Immanuel means 'God is with us.'"
+     ]
+    },
+    {
+     "b": "Joseph obeyed the word",
+     "ayə": "Matthew 1:24–25",
+     "alt": "Baby Jesus, Mary, Joseph, and shepherds in the stable",
+     "p": [
+      "Joseph woke up and did what the angel said. He took Mary to his home.",
+      "When the baby was born, Joseph named him 'Jesus.' Joseph believed God and [[obeyed|obey]]."
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "“They will call his name Immanuel, which means, ‘God is with us.’”",
+    "ref": "Matthew 1:23",
+    "bos": "“They will call his name ___, which means, ‘___ is ___.’”",
+    "sozler": [
+     "Immanuel",
+     "God",
+     "with us"
+    ],
+    "yalan": "Jerusalem"
+   },
+   "lugat": {
+    "family tree": {
+     "i": "🌳",
+     "x": "nəsil şəcərəsi",
+     "m": "A list of the names of a family's grandfathers. It's like a tree of the family.",
+     "e": "Grandfather → father → me. This is a family tree."
+    },
+    "Abraham": {
+     "i": "⭐",
+     "x": "İbrahim",
+     "m": "A man who believed God and listened to His word. God said his family would be as many as the stars in the sky.",
+     "e": "Abraham left his homeland by God's word."
+    },
+    "David": {
+     "i": "👑",
+     "x": "Davud",
+     "m": "A famous king of Israel. When he was a child, he took care of sheep.",
+     "e": "David defeated the giant Goliath."
+    },
+    "engaged": {
+     "i": "💍",
+     "x": "nişanlı",
+     "m": "Two people who promised to marry. Back then, being engaged was as important as the wedding.",
+     "e": "Engaged people usually got married after about a year."
+    },
+    "the Holy Spirit": {
+     "i": "🕊️",
+     "x": "Müqəddəs Ruh",
+     "m": "God's Spirit. We can't see Him, but He does God's work.",
+     "e": "The Holy Spirit helps us know God."
+    },
+    "righteous": {
+     "i": "⚖️",
+     "x": "saleh",
+     "m": "A person who is right and good in God's eyes. They tell the truth and love others.",
+     "e": "Joseph was righteous, so he protected Mary."
+    },
+    "angel": {
+     "i": "👼",
+     "x": "mələk",
+     "m": "A heavenly messenger sent by God. They bring God's word to people.",
+     "e": "An angel came to Joseph's dream."
+    },
+    "sin": {
+     "i": "🖤",
+     "x": "günah",
+     "m": "Doing what we want instead of what God wants. Lying and hating are also sins.",
+     "e": "Sin is like a stain on clean clothes."
+    },
+    "save": {
+     "i": "🛟",
+     "x": "xilas",
+     "m": "To rescue from danger. The name 'Jesus' also means 'The Lord saves.'",
+     "e": "Just like we save a friend who falls in the water, Jesus saves us."
+    },
+    "prophet": {
+     "i": "📜",
+     "x": "peyğəmbər",
+     "m": "A person who receives a message from God and tells it to people.",
+     "e": "The prophet Isaiah said beforehand that Jesus would come."
+    },
+    "Immanuel": {
+     "i": "❤️",
+     "x": "İmmanuel",
+     "m": "It means 'God is with us.' This is one of Jesus' names.",
+     "e": "Even when we feel alone, God is with us."
+    },
+    "obey": {
+     "i": "👣",
+     "x": "itaət",
+     "m": "To hear the word and do it.",
+     "e": "As soon as Joseph woke up, he obeyed."
+    }
+   },
+   "test": [
+    {
+     "q": "Who is at the very beginning of the family tree?",
+     "o": [
+      "David",
+      "Abraham",
+      "Joseph"
+     ],
+     "a": 1,
+     "f": "That's right! The tree starts with Abraham, the father of faith."
+    },
+    {
+     "q": "When did the angel speak to Joseph?",
+     "o": [
+      "In a dream",
+      "At the market",
+      "In the temple"
+     ],
+     "a": 0,
+     "f": "That's right! He spoke in a dream at night."
+    },
+    {
+     "q": "What does the name 'Jesus' mean?",
+     "o": [
+      "Great king",
+      "The Lord saves",
+      "Bright star"
+     ],
+     "a": 1,
+     "f": "That's right! Jesus saves us."
+    },
+    {
+     "q": "What does 'Immanuel' mean?",
+     "o": [
+      "God is with us",
+      "Rejoice",
+      "Thank you"
+     ],
+     "a": 0,
+     "f": "That's right! It's also in our memory verse."
+    }
+   ],
+   "dusun": [
+    "Why did Joseph want to leave quietly at first?",
+    "Has there been a time when you felt God was with you?",
+    "How can you obey God's word like Joseph did?"
+   ],
+   "fealiyyet": {
+    "ciz": "Draw a place where God is with you: home, school, on the road, your bed...",
+    "b": "Write your name",
+    "p": "Write the sentence 'God is with ...' using your own name.",
+    "ph": "For example: God is with Aysel. Even when going to school.",
+    "secim": {
+     "basliq": "What does Jesus save you from?",
+     "izah": "Tap to choose. You can choose more than one.",
+     "cumle": "Jesus saves me from my {x}!",
+     "bos": "...",
+     "bag": "and",
+     "secimler": [
+      [
+       "🖤",
+       "sins"
+      ],
+      [
+       "😨",
+       "fears"
+      ],
+      [
+       "😢",
+       "sadness"
+      ],
+      [
+       "😡",
+       "anger"
+      ],
+      [
+       "🤥",
+       "lies"
+      ]
+     ]
+    }
+   },
+   "dua": "Lord God, we thank You for keeping Your promise and sending Jesus. Jesus is always with us. Help us to believe and obey Your word like Joseph did. We pray in the name of Jesus Christ. Amen."
+  },
+  "genc": {
+   "basliq": "God with us",
+   "giris": "When we open the first page of the New Testament, we see more than forty unfamiliar names. Why does Matthew start the Gospel with this seemingly boring list?",
+   "meqsed": [
+    "We understand the first readers of the Gospel of Matthew and the meaning of the family tree.",
+    "We can explain what the names 'Jesus' and 'Immanuel' say about Jesus Christ.",
+    "We compare how Joseph's faith was shown not by words but by actions with our own lives."
+   ],
+   "sehneler": [
+    {
+     "b": "Why start with a family tree?",
+     "ayə": "Matthew 1:1–17",
+     "alt": "Family tree from Abraham to David and Jesus",
+     "p": [
+      "In the first sentence, Matthew introduces Jesus as the [[Messiah]], the '[[Son of David]]' and the son of Abraham. For the first readers, the Jews, a [[family tree]] was like an ID card. Because the promised Messiah absolutely had to come from David's line.",
+      "God had told Abraham, 'In you all the families of the earth will be blessed' {{Gen. 12:3}}, and to David, 'Your throne will be established forever' {{2 Sam. 7:16}}. Matthew shows that Jesus is the owner of these two promises."
+     ],
+     "deep": {
+      "b": "Looking deeper · The secret of 14",
+      "p": "Hebrew letters were also used as numbers. The name David (דוד) adds up to ד(4)+ו(6)+ד(4)=14. Many scholars think that Matthew emphasizes the idea of the '[[Son of David]]' by dividing the family tree into three parts of 14 generations."
+     }
+    },
+    {
+     "b": "Engaged, but not yet married",
+     "ayə": "Matthew 1:18",
+     "alt": "An angel gives good news to Mary",
+     "p": [
+      "At that time, a Jewish [[engagement]] was a more serious promise than it is today. According to the law, they were already considered husband and wife, and breaking the engagement required a divorce. Usually, about a year later, the groom would take the bride to his home, and they would start living together.",
+      "During this time, Mary becomes pregnant through [[the Holy Spirit]]. Matthew clearly shows that this is not a human plan, but a work done by God Himself."
+     ]
+    },
+    {
+     "b": "The choice of Joseph, a righteous man",
+     "ayə": "Matthew 1:19–21",
+     "alt": "Joseph is sleeping, an angel speaks to him in a dream",
+     "p": [
+      "According to the law, Joseph could have brought this matter up in front of everyone. But he does not want to disgrace Mary and decides to leave secretly. The [[righteousness|righteous]] Matthew talks about is combining obedience to the law with loving a person.",
+      "Then an angel says to him in a dream, 'Joseph, son of David, don't be afraid,' and instructs him to name the baby [[Jesus]]. Because He will [[save]] His people from their [[sins|sin]]."
+     ],
+     "deep": {
+      "b": "Looking deeper · The mission inside the name",
+      "p": "The name 'Jesus' comes from the Hebrew name 'Yeshua' and means 'The Lord saves.' Many Jews were waiting for a Messiah who would free them from Roman rule. But the angel says that what Jesus will save them from is 'sin.' This means He came to solve a much deeper problem."
+     }
+    },
+    {
+     "b": "“So that the promise would be fulfilled”",
+     "ayə": "Matthew 1:22–23",
+     "alt": "The prophet Isaiah writes God's promise on a scroll",
+     "p": [
+      "Matthew says that this event happened to [[fulfill]] the word of the [[prophet]] Isaiah {{Isa. 7:14}}. In the Gospel of Matthew, this kind of 'fulfillment' expression appears more than ten times. Matthew wants to show that Jesus' whole life is the completion of the promises in the Old Testament.",
+      "That child's name is [[Immanuel]], which means 'God is with us.'"
+     ],
+     "deep": {
+      "b": "Looking deeper · Beginning and end",
+      "p": "The Gospel of Matthew begins in 1:23 with the words 'God is with us' and ends in 28:20 with Jesus' promise, 'I am with you always, even to the end of the age.' The whole book is surrounded by the theme of 'God with us.'"
+     }
+    },
+    {
+     "b": "Actions, not words",
+     "ayə": "Matthew 1:24–25",
+     "alt": "Baby Jesus, Mary, Joseph, and shepherds in the stable",
+     "p": [
+      "Joseph wakes up from his sleep and takes Mary to his home as the angel commanded. When the baby is born, he names him Jesus.",
+      "Not a single word spoken by Joseph is recorded in the Bible. His faith is shown by actions, not words. A father naming a child meant legally accepting that child as his own son. Because of this, Jesus becomes the 'Son of David' through Joseph."
+     ]
+    }
+   ],
+   "cedvel": {
+    "b": "Summary with names",
+    "alt": "Chapter 1 calls Jesus by five names",
+    "bas": [
+     "Name",
+     "Meaning",
+     "What Matthew means"
+    ],
+    "set": [
+     [
+      "Son of Abraham",
+      "Descendant of the father of faith",
+      "Fulfillment of the promise of blessing to all nations"
+     ],
+     [
+      "Son of David",
+      "Descendant of King David",
+      "Eternal King, the promised Messiah"
+     ],
+     [
+      "Messiah",
+      "Anointed one",
+      "The Savior King appointed by God"
+     ],
+     [
+      "Jesus",
+      "The Lord saves",
+      "Saves His people from their sins"
+     ],
+     [
+      "Immanuel",
+      "God is with us",
+      "God comes among people and is with us"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "“She will bring forth a son, and you shall call his name Jesus, for it is he who will save his people from their sins.”",
+    "ref": "Matthew 1:21"
+   },
+   "lugat": {
+    "family tree": {
+     "i": "🌳",
+     "o": "Greek biblos geneseos (book of the generation)",
+     "x": "nəsil şəcərəsi",
+     "s": "A sequential list of ancestors' names",
+     "m": "A record writing a family's lineage from generation to generation. In Jewish society, it was an important document proving which tribe and which family someone belonged to.",
+     "e": "The word 'genesis' in Matthew 1:1 is the same as the name of the book of Genesis. This gives the feeling of the beginning of a new creation."
+    },
+    "Messiah": {
+     "i": "🫒",
+     "o": "Greek Christos · Hebrew Mashiach",
+     "x": "Məsih",
+     "s": "Anointed one, promised Savior",
+     "m": "It means 'Anointed one.' In the Old Testament, oil was poured on the head when a king or priest was appointed. This word refers to the Savior King promised by God.",
+     "e": "'Jesus Christ' is not a first and last name, but an expression of faith that 'Jesus is the Christ.'"
+    },
+    "Son of David": {
+     "i": "👑",
+     "o": "Greek huios David",
+     "x": "Davud oğlu",
+     "s": "The name Jews gave to the Messiah",
+     "m": "Because God promised David an eternal throne, the Jews called the Messiah the 'Son of David.'",
+     "e": "In the Gospel of Matthew, sick people cry out several times, 'Lord, have mercy on us, Son of David!'"
+    },
+    "engagement": {
+     "i": "💍",
+     "o": "Greek mnesteuo",
+     "x": "nişan",
+     "s": "A promise of marriage with legal force",
+     "m": "At that time, engagement was legally the same as being husband and wife. Even though engaged couples did not live together, a divorce paper was needed to break the engagement.",
+     "e": "In verses 19–20, Joseph is called Mary's 'husband' and Mary is called Joseph's 'wife.'"
+    },
+    "the Holy Spirit": {
+     "i": "🕊️",
+     "o": "Greek Pneuma Hagion",
+     "x": "Müqəddəs Ruh",
+     "s": "The Spirit of God",
+     "m": "God's Spirit. The Spirit of God, who moved when the world was created in Genesis 1, is now making a new beginning.",
+     "e": "Jesus being conceived in the womb was not by human power, but by God's power."
+    },
+    "righteous": {
+     "i": "⚖️",
+     "o": "Greek dikaios",
+     "x": "saleh",
+     "s": "A person who is right before God",
+     "m": "Living according to God's will. In the Gospel of Matthew, righteousness is not just following rules, but it goes together with mercy.",
+     "e": "It is connected to Jesus' words, 'I desire mercy, and not sacrifice' (Matt. 9:13)."
+    },
+    "Jesus": {
+     "i": "📛",
+     "o": "Hebrew Yeshua · Greek Iesous",
+     "x": "İsa",
+     "s": "The Lord saves",
+     "m": "It is the same as the name Joshua in the Old Testament. It means 'The Lord saves'; the name itself indicates Jesus' mission.",
+     "e": "Just as Joshua led the people to the promised land, Jesus leads the people to salvation from sin."
+    },
+    "sin": {
+     "i": "🎯",
+     "o": "Greek hamartia",
+     "x": "günah",
+     "s": "Missing the mark",
+     "m": "It actually means 'failing to hit the target.' It refers to the state and actions that have strayed from the purpose for which God created us.",
+     "e": "Sin is not just a few bad deeds, but the heart turning away from God."
+    },
+    "save": {
+     "i": "🛟",
+     "o": "Greek sozo",
+     "x": "xilas",
+     "s": "To rescue from danger and give life",
+     "m": "It also carries the meanings of rescuing from danger, healing sickness, and making a person whole.",
+     "e": "In the Gospel of Matthew, the same word is also used for the 'healing' of the sick."
+    },
+    "prophet": {
+     "i": "📜",
+     "o": "Greek prophetes · Hebrew navi",
+     "x": "peyğəmbər",
+     "s": "A person who delivers God's word",
+     "m": "A person who receives God's word and delivers it to the people. They also spoke about the future, but mostly they called the people to return to God.",
+     "e": "Isaiah lived about 700 years before Jesus."
+    },
+    "fulfill": {
+     "i": "💧",
+     "o": "Greek pleroo",
+     "x": "yerinə yetmək",
+     "s": "To fill, to complete",
+     "m": "It means to complete a promise, like filling an empty vessel. It is one of the main words in the Gospel of Matthew.",
+     "e": "This word is also in the verse, 'I didn't come to destroy the law or the prophets, but to fulfill' (Matt. 5:17)."
+    },
+    "Immanuel": {
+     "i": "❤️",
+     "o": "Hebrew Immanu El",
+     "x": "İmmanuel",
+     "s": "God is with us",
+     "m": "'Immanu' means 'with us', and 'El' means 'God'. It means that God is not far away, but a God who comes among us.",
+     "e": "It forms a pair with the final promise in Matthew 28:20."
+    }
+   },
+   "test": [
+    {
+     "q": "What is most often said as the reason Matthew divided the family tree into three parts of 14 generations?",
+     "o": [
+      "Because 14 is a lucky number",
+      "Because the numerical value of the name David in Hebrew is 14",
+      "Because the actual number of generations was exactly 42"
+     ],
+     "a": 1,
+     "f": "That's right. The whole family tree points to Jesus, the 'Son of David'."
+    },
+    {
+     "q": "Who is NOT one of the four women in Matthew's family tree?",
+     "o": [
+      "Tamar",
+      "Rahab",
+      "Sarah",
+      "Ruth"
+     ],
+     "a": 2,
+     "f": "That's right. Sarah is Abraham's wife, but she is not in Matthew's family tree."
+    },
+    {
+     "q": "Which best explains Joseph's righteousness in Matthew 1?",
+     "o": [
+      "Applying the law strictly",
+      "Following the law while also protecting Mary",
+      "Waiting without doing anything"
+     ],
+     "a": 1,
+     "f": "That's right. Rules and mercy go together."
+    },
+    {
+     "q": "What does the name 'Jesus' mean?",
+     "o": [
+      "Anointed one",
+      "God is with us",
+      "The Lord saves"
+     ],
+     "a": 2,
+     "f": "That's right. 'Anointed one' is Messiah, and 'God is with us' is Immanuel."
+    },
+    {
+     "q": "Where is the final promise written that forms a pair with 'Immanuel' in 1:23?",
+     "o": [
+      "Matthew 5:17",
+      "Matthew 16:16",
+      "Matthew 28:20"
+     ],
+     "a": 2,
+     "f": "That's right. 'I am with you always, even to the end of the age.'"
+    }
+   ],
+   "paylas": [
+    "How does it comfort you that Matthew included the names of four women in the family tree?",
+    "If you were Joseph, how would you feel the morning after the dream? What would be the hardest part?",
+    "What difference can the words 'God is with us' make at school, at home, and in friendships?",
+    "What is one thing you can do this week to show your faith by actions, not words?"
+   ],
+   "etiraf": {
+    "b": "My confession",
+    "p": "Which of the five names we learned today do you need the most right now? Write three or four sentences explaining why.",
+    "ph": "For example: I need 'Immanuel' the most. Lately, I've been feeling lonely at school..."
+   },
+   "dua": "Lord God, we thank You for not forgetting Your promise from long ago and sending Jesus. We learned about Your grace that embraces even people with mistakes and wounds. Help us to believe and obey Your word even when we don't understand, just like Joseph did. We pray in the name of Immanuel, Jesus Christ. Amen."
+  }
+ },
+ "ru": {
+  "usaq": {
+   "basliq": "Иммануил — Бог с нами!",
+   "hedef": [
+    "Иисус Христос пришёл по Божьему обещанию.",
+    "Мы узнаем значение имён «Иисус» и «Иммануил».",
+    "Мы научимся слушаться Божьего слова, как Иосиф."
+   ],
+   "sehneler": [
+    {
+     "b": "Родословие Иисуса",
+     "ayə": "Матфей 1:1–17",
+     "alt": "Родословное дерево от Авраама до Давида и Иисуса",
+     "p": [
+      "Евангелие от Матфея начинается с [[родословия|родословие]] Иисуса. Это список имён дедушек и прадедушек.",
+      "В самом начале — [[Авраам]], в середине — царь [[Давид]], а в самом конце — Иисус. Бог обещал Аврааму и Давиду: «От вашего потомка придёт благословение».",
+      "Это обещание исполнилось в Иисусе."
+     ]
+    },
+    {
+     "b": "Мария и Иосиф",
+     "ayə": "Матфей 1:18",
+     "alt": "Ангел приносит Марии благую весть",
+     "p": [
+      "Мария и Иосиф были [[обручены|обручённый]]. Они ещё не жили вместе.",
+      "Однажды стало известно, что у Марии будет ребёнок. Этот малыш появился от [[Святого Духа|Святой Дух]]. Такое может сделать только Бог."
+     ]
+    },
+    {
+     "b": "Сон Иосифа",
+     "ayə": "Матфей 1:19–21",
+     "alt": "Иосиф спит, ангел говорит с ним во сне",
+     "p": [
+      "Иосиф был [[праведный]] человек. Он не хотел, чтобы Марии было стыдно. Поэтому он решил тайно отпустить её.",
+      "В ту ночь во сне к нему пришёл [[ангел]] и сказал: «Не бойся! Прими Марию в свой дом. Назови Младенца Иисусом».",
+      "Иисус [[спасёт|спасение]] людей от их [[грехов|грех]]."
+     ]
+    },
+    {
+     "b": "Очень древнее обещание",
+     "ayə": "Матфей 1:22–23",
+     "alt": "Пророк Исаия записывает Божье обещание на свитке",
+     "p": [
+      "Давным-давно Бог дал обещание через [[пророка|пророк]] Исаию. Это было примерно за 700 лет до Иисуса.",
+      "«Дева родит Сына. Его назовут [[Иммануил]]».",
+      "Иммануил означает «Бог с нами»."
+     ]
+    },
+    {
+     "b": "Иосиф исполнил слово",
+     "ayə": "Матфей 1:24–25",
+     "alt": "Младенец Иисус, Мария, Иосиф и пастухи в хлеву",
+     "p": [
+      "Иосиф проснулся и сделал так, как сказал ангел. Он привёл Марию в свой дом.",
+      "Когда родился Малыш, Иосиф назвал Его «Иисус». Иосиф поверил Богу и проявил [[послушание]]."
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "«Его назовут Иммануил. Это значит: Бог с нами».",
+    "ref": "Матфей 1:23",
+    "bos": "«Его назовут ___. Это значит: ___ с ___».",
+    "sozler": [
+     "Иммануил",
+     "Бог",
+     "нами"
+    ],
+    "yalan": "Иерусалим"
+   },
+   "lugat": {
+    "родословие": {
+     "i": "🌳",
+     "x": "nəsil şəcərəsi",
+     "m": "Список имён предков одной семьи. Похоже на семейное дерево.",
+     "e": "Дедушка → папа → я. Это родословие."
+    },
+    "Авраам": {
+     "i": "⭐",
+     "x": "İbrahim",
+     "m": "Человек, который верил Богу и слушался Его. Бог сказал, что его потомков будет так же много, как звёзд на небе.",
+     "e": "По слову Бога Авраам покинул свою родину."
+    },
+    "Давид": {
+     "i": "👑",
+     "x": "Davud",
+     "m": "Известный царь Израиля. В детстве он пас овец.",
+     "e": "Давид победил великана Голиафа."
+    },
+    "обручённый": {
+     "i": "💍",
+     "x": "nişanlı",
+     "m": "Два человека, которые дали обещание пожениться. В то время обручение было таким же важным, как и свадьба.",
+     "e": "Обручённые женились примерно через год."
+    },
+    "Святой Дух": {
+     "i": "🕊️",
+     "x": "Müqəddəs Ruh",
+     "m": "Дух Божий. Он невидим, но совершает Божьи дела.",
+     "e": "Святой Дух помогает нам узнавать Бога."
+    },
+    "праведный": {
+     "i": "⚖️",
+     "x": "saleh",
+     "m": "Честный и добрый человек в глазах Бога. Говорит правду, любит других.",
+     "e": "Иосиф был праведным, поэтому он защитил Марию."
+    },
+    "ангел": {
+     "i": "👼",
+     "x": "mələk",
+     "m": "Небесный посланник от Бога. Он передаёт Божье слово людям.",
+     "e": "Ангел пришёл к Иосифу во сне."
+    },
+    "грех": {
+     "i": "🖤",
+     "x": "günah",
+     "m": "Делать то, что хотим мы, а не то, что хочет Бог. Лгать и ненавидеть — это тоже грех.",
+     "e": "Грех похож на пятно на чистой одежде."
+    },
+    "спасение": {
+     "i": "🛟",
+     "x": "xilas",
+     "m": "Избавление от опасности. Имя «Иисус» означает «Господь спасает».",
+     "e": "Как мы спасаем друга, упавшего в воду, так и Иисус спасает нас."
+    },
+    "пророк": {
+     "i": "📜",
+     "x": "peyğəmbər",
+     "m": "Человек, который получает слово от Бога и передаёт его людям.",
+     "e": "Пророк Исаия заранее сказал о приходе Иисуса."
+    },
+    "Иммануил": {
+     "i": "❤️",
+     "x": "İmmanuel",
+     "m": "Означает «Бог с нами». Это одно из имён Иисуса.",
+     "e": "Даже когда нам одиноко, Бог с нами."
+    },
+    "послушание": {
+     "i": "👣",
+     "x": "itaət",
+     "m": "Услышать слово и исполнить его.",
+     "e": "Иосиф проявил послушание, как только проснулся."
+    }
+   },
+   "test": [
+    {
+     "q": "Кто находится в самом начале родословия?",
+     "o": [
+      "Давид",
+      "Авраам",
+      "Иосиф"
+     ],
+     "a": 1,
+     "f": "Верно! Родословие начинается с отца веры, Авраама."
+    },
+    {
+     "q": "Когда ангел говорил с Иосифом?",
+     "o": [
+      "Во сне",
+      "На рынке",
+      "В храме"
+     ],
+     "a": 0,
+     "f": "Верно! Он говорил с ним ночью во сне."
+    },
+    {
+     "q": "Что означает имя «Иисус»?",
+     "o": [
+      "Великий царь",
+      "Господь спасает",
+      "Яркая звезда"
+     ],
+     "a": 1,
+     "f": "Верно! Иисус спасает нас."
+    },
+    {
+     "q": "Что означает «Иммануил»?",
+     "o": [
+      "Бог с нами",
+      "Радуйтесь",
+      "Спасибо"
+     ],
+     "a": 0,
+     "f": "Верно! Это есть и в памятном стихе."
+    }
+   ],
+   "dusun": [
+    "Почему Иосиф сначала хотел тайно отпустить Марию?",
+    "Было ли время, когда ты чувствовал, что Бог с тобой?",
+    "Как ты можешь слушаться Божьего слова, как Иосиф?"
+   ],
+   "fealiyyet": {
+    "ciz": "Нарисуй место, где Бог с тобой: дом, школа, дорога, твоя кровать…",
+    "b": "Напиши своё имя",
+    "p": "Напиши предложение «Бог вместе с …», вставив своё имя.",
+    "ph": "Например: Бог вместе с Аней. И даже когда она идёт в школу.",
+    "secim": {
+     "basliq": "От чего Иисус спасает тебя?",
+     "izah": "Нажимай и выбирай. Можно выбрать несколько.",
+     "cumle": "Иисус спасает меня от {x}!",
+     "bos": "…",
+     "bag": "и",
+     "secimler": [
+      [
+       "🖤",
+       "моих грехов"
+      ],
+      [
+       "😨",
+       "моих страхов"
+      ],
+      [
+       "😢",
+       "моей грусти"
+      ],
+      [
+       "😡",
+       "моего гнева"
+      ],
+      [
+       "🤥",
+       "моей лжи"
+      ]
+     ]
+    }
+   },
+   "dua": "Господь Бог, мы благодарим Тебя за то, что Ты исполнил Своё обещание и послал Иисуса. Иисус всегда с нами. Помоги нам верить Твоему слову и слушаться, как Иосиф. Молимся во имя Иисуса Христа. Аминь."
+  },
+  "genc": {
+   "basliq": "Бог с нами",
+   "giris": "Открывая первую страницу Нового Завета, мы видим более сорока незнакомых имён. Почему Матфей начинает Евангелие с этого, казалось бы, скучного списка?",
+   "meqsed": [
+    "Понять первых читателей Евангелия от Матфея и значение родословия.",
+    "Уметь объяснить, что имена «Иисус» и «Иммануил» говорят об Иисусе Христе.",
+    "Сравнить веру Иосифа, которая проявилась не в словах, а в делах, с нашей собственной жизнью."
+   ],
+   "sehneler": [
+    {
+     "b": "Почему начинается с родословия?",
+     "ayə": "Матфей 1:1–17",
+     "alt": "Родословное дерево от Авраама до Давида и Иисуса",
+     "p": [
+      "В первом же предложении Матфей представляет Иисуса как [[Мессию|Мессия]], Который есть «[[Сын Давидов]]» и «Сын Авраамов». Для первых читателей, иудеев, [[родословие]] было как удостоверение личности. Ведь обещанный Мессия обязательно должен был произойти из рода Давида.",
+      "Бог сказал Аврааму: «В тебе благословятся все племена земные» {{Быт. 12:3}}, а Давиду: «Престол твой устоит вовеки» {{2 Цар. 7:16}}. Матфей показывает, что Иисус является исполнением этих двух обещаний."
+     ],
+     "deep": {
+      "b": "Копнём глубже · Тайна числа 14",
+      "p": "Еврейские буквы также использовались как цифры. Имя Давид (דוד) составляет ד(4)+ו(6)+ד(4)=14. Многие учёные считают, что Матфей, разделив родословие на три части по 14 поколений, подчёркивает мысль о «[[Сыне Давидовом|Сын Давидов]]»."
+     }
+    },
+    {
+     "b": "Обручены, но ещё не женаты",
+     "ayə": "Матфей 1:18",
+     "alt": "Ангел приносит Марии благую весть",
+     "p": [
+      "В то время у иудеев [[обручение]] было более серьёзным обязательством, чем сегодня. По закону они уже считались мужем и женой, и чтобы расторгнуть обручение, требовался развод. Обычно примерно через год жених забирал невесту в свой дом, и они начинали жить вместе.",
+      "Именно в этот период Мария оказывается беременной от [[Святого Духа|Святой Дух]]. Матфей ясно показывает, что это не человеческий план, а дело Самого Бога."
+     ]
+    },
+    {
+     "b": "Выбор праведного Иосифа",
+     "ayə": "Матфей 1:19–21",
+     "alt": "Иосиф спит, ангел говорит с ним во сне",
+     "p": [
+      "По закону Иосиф мог предать это дело публичной огласке. Но он не хочет опозорить Марию и решает тайно отпустить её. [[Праведность|праведность]], о которой говорит Матфей, — это сочетание соблюдения закона и любви к человеку.",
+      "Тогда во сне ангел говорит ему: «Иосиф, сын Давидов! Не бойся», и велит назвать Младенца [[Иисусом|Иисус]]. Ибо Он [[спасёт|спасение]] Свой народ от их [[грехов|грех]]."
+     ],
+     "deep": {
+      "b": "Копнём глубже · Миссия внутри имени",
+      "p": "Имя «Иисус» происходит от еврейского «Иешуа» и означает «Господь спасает». Многие иудеи ждали Мессию, который освободит их от римской власти. Но ангел говорит, что Иисус спасёт их от «грехов». Это значит, что Он пришёл решить гораздо более глубокую проблему."
+     }
+    },
+    {
+     "b": "«Да сбудется речённое»",
+     "ayə": "Матфей 1:22–23",
+     "alt": "Пророк Исаия записывает Божье обещание на свитке",
+     "p": [
+      "Матфей говорит, что всё это произошло, чтобы [[исполнилось|исполниться]] речённое через [[пророка|пророк]] Исаию {{Ис. 7:14}}. В Евангелии от Матфея выражение об исполнении пророчеств встречается более десяти раз. Матфей хочет показать, что вся жизнь Иисуса — это завершение обещаний Ветхого Завета.",
+      "Имя того Младенца — [[Иммануил]], что значит «Бог с нами»."
+     ],
+     "deep": {
+      "b": "Копнём глубже · Начало и конец",
+      "p": "Евангелие от Матфея начинается в 1:23 со слов «Бог с нами» и заканчивается в 28:20 обещанием Иисуса: «Я с вами во все дни до скончания века». Вся книга охвачена темой «Бога, Который с нами»."
+     }
+    },
+    {
+     "b": "Не слова, а дела",
+     "ayə": "Матфей 1:24–25",
+     "alt": "Младенец Иисус, Мария, Иосиф и пастухи в хлеву",
+     "p": [
+      "Иосиф просыпается и, как повелел ангел, принимает Марию в свой дом. Когда рождается Младенец, он называет Его Иисусом.",
+      "В Библии не записано ни одного слова, сказанного Иосифом. Его вера видна не в словах, а в делах. То, что отец давал ребёнку имя, означало законное признание его своим сыном. Поэтому через Иосифа Иисус становится «Сыном Давидовым»."
+     ]
+    }
+   ],
+   "cedvel": {
+    "b": "Кратко об именах",
+    "alt": "В 1-й главе Иисус назван пятью именами",
+    "bas": [
+     "Имя",
+     "Значение",
+     "Что хотел сказать Матфей"
+    ],
+    "set": [
+     [
+      "Сын Авраамов",
+      "Потомок отца веры",
+      "Исполнение обещания о благословении всех народов"
+     ],
+     [
+      "Сын Давидов",
+      "Потомок царя Давида",
+      "Вечный Царь, обещанный Мессия"
+     ],
+     [
+      "Мессия",
+      "Помазанник",
+      "Назначенный Богом Царь-Спаситель"
+     ],
+     [
+      "Иисус",
+      "Господь спасает",
+      "Спасает Свой народ от грехов"
+     ],
+     [
+      "Иммануил",
+      "Бог с нами",
+      "Бог приходит к людям и пребывает с нами"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "«родит же Сына, и наречёшь Ему имя Иисус, ибо Он спасёт людей Своих от грехов их».",
+    "ref": "Матфей 1:21"
+   },
+   "lugat": {
+    "родословие": {
+     "i": "🌳",
+     "o": "Греч. biblos geneseos (книга родства)",
+     "x": "nəsil şəcərəsi",
+     "s": "Последовательный список имён предков",
+     "m": "Запись поколений одной семьи. В иудейском обществе это был важный документ, доказывающий принадлежность к определённому колену и семье.",
+     "e": "Слово «genesis» в Матфея 1:1 совпадает с названием книги Бытие. Это создаёт ощущение начала нового творения."
+    },
+    "Мессия": {
+     "i": "🫒",
+     "o": "Греч. Christos · Евр. Mashiach",
+     "x": "Məsih",
+     "s": "Помазанник, обещанный Спаситель",
+     "m": "Означает «Помазанник». В Ветхом Завете при назначении царя или священника на его голову возливали елей (масло). Это слово указывает на обещанного Богом Царя-Спасителя.",
+     "e": "«Иисус Христос» — это не имя и фамилия, а выражение веры в то, что «Иисус есть Христос»."
+    },
+    "Сын Давидов": {
+     "i": "👑",
+     "o": "Греч. huios David",
+     "x": "Davud oğlu",
+     "s": "Имя, которое иудеи давали Мессии",
+     "m": "Поскольку Бог обещал Давиду вечный престол, иудеи называли Мессию «Сыном Давидовым».",
+     "e": "В Евангелии от Матфея больные несколько раз взывают: «Помилуй нас, Господи, Сын Давидов!»"
+    },
+    "обручение": {
+     "i": "💍",
+     "o": "Греч. mnesteuo",
+     "x": "nişan",
+     "s": "Брачное обещание, имеющее юридическую силу",
+     "m": "В то время обручение юридически приравнивалось к браку. Хотя обручённые не жили вместе, для расторжения обручения требовалось разводное письмо.",
+     "e": "В стихах 19–20 Иосиф назван «мужем» Марии, а Мария — «женою» Иосифа."
+    },
+    "Святой Дух": {
+     "i": "🕊️",
+     "o": "Греч. Pneuma Hagion",
+     "x": "Müqəddəs Ruh",
+     "s": "Дух Божий",
+     "m": "Это Дух Бога. Дух Божий, Который носился над водою при сотворении мира в 1-й главе Бытия, теперь совершает новое начало.",
+     "e": "Зачатие Иисуса произошло не человеческой силой, а могуществом Бога."
+    },
+    "праведность": {
+     "i": "⚖️",
+     "o": "Греч. dikaios",
+     "x": "saleh",
+     "s": "Человек, правый перед Богом",
+     "m": "Жизнь в соответствии с Божьей волей. В Евангелии от Матфея праведность — это не только соблюдение правил, но и проявление милости.",
+     "e": "Это связано со словами Иисуса: «Милости хочу, а не жертвы» (Мф. 9:13)."
+    },
+    "Иисус": {
+     "i": "📛",
+     "o": "Евр. Yeshua · Греч. Iesus",
+     "x": "İsa",
+     "s": "Господь спасает",
+     "m": "Совпадает с ветхозаветным именем Иешуа (Иисус Навин). Означает «Господь спасает»; само имя указывает на миссию Иисуса.",
+     "e": "Как Иешуа ввёл народ в обетованную землю, так Иисус ведёт народ ко спасению от греха."
+    },
+    "грех": {
+     "i": "🎯",
+     "o": "Греч. hamartia",
+     "x": "günah",
+     "s": "Промах мимо цели",
+     "m": "Буквально означает «не попасть в цель». Указывает на состояние и поступки, отклонившиеся от цели, для которой Бог создал человека.",
+     "e": "Грех — это не просто несколько плохих поступков, а отдаление сердца от Бога."
+    },
+    "спасение": {
+     "i": "🛟",
+     "o": "Греч. sozo",
+     "x": "xilas",
+     "s": "Избавление от опасности и дарование жизни",
+     "m": "Также несёт значения: избавить от опасности, исцелить от болезни и сделать человека целостным.",
+     "e": "В Евангелии от Матфея это же слово используется для «исцеления» больных."
+    },
+    "пророк": {
+     "i": "📜",
+     "o": "Греч. prophetes · Евр. navi",
+     "x": "peyğəmbər",
+     "s": "Человек, передающий Божье слово",
+     "m": "Человек, который получает слово от Бога и передаёт его народу. Они также говорили о будущем, но чаще всего призывали народ вернуться к Богу.",
+     "e": "Пророк Исаия жил примерно за 700 лет до Иисуса."
+    },
+    "исполниться": {
+     "i": "💧",
+     "o": "Греч. pleroo",
+     "x": "yerinə yetmək",
+     "s": "Наполнить, завершить",
+     "m": "Означает завершение обещания, подобно наполнению пустого сосуда. Это одно из ключевых слов Евангелия от Матфея.",
+     "e": "Это же слово есть в стихе: «Не нарушить пришёл Я (Закон или пророков), но исполнить» (Мф. 5:17)."
+    },
+    "Иммануил": {
+     "i": "❤️",
+     "o": "Евр. Immanu El",
+     "x": "İmmanuel",
+     "s": "Бог с нами",
+     "m": "«Имману» значит «с нами», «Эль» — «Бог». Указывает на то, что Бог не где-то далеко, а приходит к нам и пребывает среди нас.",
+     "e": "Образует пару с последним обещанием в Матфея 28:20."
+    }
+   },
+   "test": [
+    {
+     "q": "Что чаще всего называют причиной того, что Матфей разделил родословие на три части по 14 поколений?",
+     "o": [
+      "Потому что 14 — счастливое число",
+      "Потому что сумма числовых значений букв в еврейском имени Давид равна 14",
+      "Потому что реальное число поколений было ровно 42"
+     ],
+     "a": 1,
+     "f": "Верно. Всё родословие указывает на Иисуса как на «Сына Давидова»."
+    },
+    {
+     "q": "Кого из этих женщин НЕТ среди четырёх женщин, упомянутых в родословии Матфея?",
+     "o": [
+      "Фамарь",
+      "Раав",
+      "Сарра",
+      "Руфь"
+     ],
+     "a": 2,
+     "f": "Верно. Сарра — жена Авраама, но её нет в родословии у Матфея."
+    },
+    {
+     "q": "Что лучше всего объясняет праведность Иосифа в 1-й главе Матфея?",
+     "o": [
+      "Строгое применение закона",
+      "Соблюдение закона вместе с защитой Марии",
+      "Ожидание без каких-либо действий"
+     ],
+     "a": 1,
+     "f": "Верно. Это сочетание правил и милости."
+    },
+    {
+     "q": "Что означает имя «Иисус»?",
+     "o": [
+      "Помазанник",
+      "Бог с нами",
+      "Господь спасает"
+     ],
+     "a": 2,
+     "f": "Верно. «Помазанник» — это Мессия, а «Бог с нами» — Иммануил."
+    },
+    {
+     "q": "Где записано последнее обещание, которое образует пару с именем «Иммануил» из 1:23?",
+     "o": [
+      "Матфей 5:17",
+      "Матфей 16:16",
+      "Матфей 28:20"
+     ],
+     "a": 2,
+     "f": "Верно. «Я с вами во все дни до скончания века»."
+    }
+   ],
+   "paylas": [
+    "Какое утешение приносит тебе то, что Матфей включил имена четырёх женщин в родословие?",
+    "Если бы ты был на месте Иосифа, что бы ты почувствовал на следующее утро после сна? Что было бы самым трудным?",
+    "Как слова «Бог с нами» могут изменить твою жизнь в школе, дома и в дружбе?",
+    "Какое дело ты можешь сделать на этой неделе, чтобы показать свою веру не словами, а поступками?"
+   ],
+   "etiraf": {
+    "b": "Моё признание",
+    "p": "Какое из пяти имён, которые мы сегодня изучили, тебе сейчас нужнее всего? Напиши три-четыре предложения, объясняя причину.",
+    "ph": "Например: Мне больше всего нужен «Иммануил». В последнее время в школе я чувствую себя одиноко…"
+   },
+   "dua": "Господь Бог, мы благодарим Тебя за то, что Ты не забыл Своё давнее обещание и послал Иисуса. Мы узнали о Твоей благодати, которая принимает даже людей с ошибками и ранами. Помоги нам, как Иосифу, верить Твоему слову и исполнять его даже тогда, когда мы чего-то не понимаем. Молимся во имя Иммануила, Иисуса Христа. Аминь."
+  }
+ }
 }

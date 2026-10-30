@@ -1,159 +1,1651 @@
 {
-"no": 15, "ref": "11:1–30", "deq": {"usaq": 40, "genc": 50},
-"img": ["matta/15-yehya-zindan.jpg", "matta/15-bazar.jpg", "27-usaqlar.jpg", "matta/15-boyunduruq.jpg"],
-"hero": 3,
-"ko": {
- "usaq": {
-  "basliq": "다 내게로 오라",
-  "hedef": ["감옥에 있던 세례 요한의 질문에 예수님이 어떻게 대답하셨는지 알아요.", "하나님이 어린아이에게 하나님 나라를 보여 주신다는 것을 배워요.", "힘들고 지칠 때 예수님께 가서 쉬는 법을 배워요."],
-  "sehneler": [
-   {"b": "감옥에서 보낸 질문", "ayə": "11:1–6", "alt": "감옥에서 제자들에게 이야기하는 세례 요한", "p": ["세례 요한은 헤롯 왕 때문에 [[감옥]]에 갇혀 있었어요. 요한은 제자들을 보내 물었어요. “오실 그분이 예수님이세요?”", "예수님이 대답하셨어요. “가서 보고 들은 것을 전하여라. 눈먼 사람이 보고, 걷지 못하는 사람이 걷고, 가난한 사람에게 [[복음]]이 전해진다.” 예수님이 바로 그분이세요."]},
-   {"b": "피리를 불어도", "ayə": "11:16–19", "alt": "장터에서 피리를 부는 아이들과 춤추지 않는 아이들", "p": ["예수님은 장터의 아이들 이야기를 하셨어요. “우리가 [[피리]]를 불어도 너희는 춤추지 않고, 슬픈 노래를 불러도 울지 않았어.”", "사람들은 요한도 싫어하고 예수님도 싫어했어요. 무엇을 해도 마음을 열지 않았어요."]},
-   {"b": "어린아이에게 보여 주셨어요", "ayə": "11:25–27", "alt": "아이들을 안고 기도하시는 예수님", "p": ["예수님이 기도하셨어요. “아버지, 이것을 똑똑하고 [[지혜]]로운 사람에게는 숨기시고 어린아이들에게는 보여 주셨으니 감사합니다.”", "하나님 나라는 똑똑한 사람이 아니라 어린아이처럼 마음을 여는 사람이 알 수 있어요."]},
-   {"b": "내게로 와서 쉬어라", "ayə": "11:28–30", "alt": "무거운 짐을 진 사람을 도와주시는 예수님", "p": ["예수님이 말씀하셨어요. “수고하고 무거운 [[짐]] 진 사람들아, 다 내게로 오너라. 내가 너희를 쉬게 하겠다.”", "“나는 마음이 [[온유]]하고 겸손하다. 나의 [[멍에]]는 쉽고 나의 짐은 가볍다.” 힘들 때 예수님께 가면 쉼을 얻어요."]}
-  ],
-  "aye": {"metn": "“수고하고 무거운 짐 진 자들아 다 내게로 오라. 내가 너희를 쉬게 하리라.”", "ref": "11:28", "bos": "수고하고 무거운 ___ 진 자들아 다 ___로 오라. 내가 너희를 ___ 하리라.", "sozler": ["짐", "내게", "쉬게"], "yalan": "일하게"},
-  "lugat": {
-   "감옥": {"i": "⛓️", "x": "zindan", "m": "죄를 지었다고 여겨진 사람을 가두는 곳이에요.", "e": "세례 요한은 감옥에 갇혔어요."},
-   "복음": {"i": "📣", "x": "Müjdə", "m": "예수님이 우리를 구원하러 오셨다는 기쁜 소식이에요.", "e": "가난한 사람에게 복음이 전해져요."},
-   "피리": {"i": "🎶", "x": "tütək", "m": "입으로 불어서 소리를 내는 악기예요.", "e": "피리를 불어도 춤추지 않았어요."},
-   "지혜": {"i": "🦉", "x": "müdriklik", "m": "옳은 것을 알고 바르게 판단하는 능력이에요.", "e": "하나님 나라는 지혜자가 아니라 어린아이에게 보여요."},
-   "짐": {"i": "🎒", "x": "yük", "m": "등에 지고 가는 무거운 물건이에요. 마음의 걱정과 슬픔도 짐이에요.", "e": "무거운 짐을 예수님께 가져가요."},
-   "온유": {"i": "🕊️", "x": "həlim", "m": "부드럽고 친절한 마음이에요.", "e": "예수님은 마음이 온유하세요."},
-   "멍에": {"i": "🐂", "x": "boyunduruq", "m": "두 마리 소가 함께 일하도록 목에 얹는 나무 틀이에요.", "e": "예수님의 멍에는 쉽고 가벼워요."}
-  },
-  "test": [
-   {"q": "세례 요한은 어디에서 질문을 보냈나요?", "o": ["감옥", "성전", "배 위"], "a": 0, "f": "맞아요! 힘든 곳에서도 예수님께 물었어요."},
-   {"q": "예수님은 요한에게 어떻게 대답하셨나요?", "o": ["보고 들은 것을 전하라", "대답하지 않으셨어요", "직접 가셨어요"], "a": 0, "f": "맞아요! 예수님이 하신 일이 대답이었어요."},
-   {"q": "하나님은 하나님 나라를 누구에게 보여 주셨나요?", "o": ["어린아이들", "부자들", "힘센 왕들"], "a": 0, "f": "맞아요! 마음을 연 사람에게 보여 주세요."},
-   {"q": "무거운 짐 진 사람에게 예수님이 하신 말씀은?", "o": ["내게로 오라, 쉬게 하리라", "혼자 해결하라", "더 열심히 일하라"], "a": 0, "f": "맞아요! 예수님께 가면 쉼이 있어요."}
-  ],
-  "dusun": ["요즘 나를 힘들게 하는 ‘무거운 짐’은 무엇인가요?", "어린아이처럼 마음을 연다는 것은 어떤 뜻일까요?", "예수님께 가서 쉰다는 것은 어떻게 하는 걸까요?"],
-  "fealiyyet": {"ciz": "무거운 가방을 예수님께 맡기고 웃고 있는 나를 그려 보세요.", "b": "예수님께 맡길 짐", "p": "예수님께 드리고 싶은 마음의 짐을 써 보세요.", "ph": "예) 친구와 싸워서 마음이 무거워요."},
-  "dua": "예수님, 무거운 짐을 진 저를 ‘내게로 오라’고 불러 주셔서 감사합니다. 힘들고 지칠 때 예수님께 가서 쉬게 해 주세요. 어린아이처럼 마음을 열고 예수님을 배우게 해 주세요. 예수님 이름으로 기도합니다. 아멘."
+ "no": 15,
+ "ref": "11:1–30",
+ "deq": {
+  "usaq": 40,
+  "genc": 50
  },
- "genc": {
-  "basliq": "쉼을 주시는 분",
-  "giris": "가장 위대한 선지자도 감옥에서는 흔들렸습니다. 세례 요한은 물었습니다. “정말 당신이 맞습니까?” 의심과 피로로 지친 사람들에게 예수님은 정답보다 먼저 초대를 건네십니다. 내게로 오라.",
-  "meqsed": ["세례 요한의 질문과 예수님의 대답에서 메시아의 정체를 이해해요.", "하나님 나라가 ‘어린아이’에게 열린다는 뜻을 설명할 수 있어요.", "예수님의 멍에를 메고 배우는 쉼을 내 삶에 적용해요."],
-  "sehneler": [
-   {"b": "흔들리는 요한", "ayə": "11:1–15", "alt": "감옥에서 제자들에게 이야기하는 세례 요한", "p": ["요한은 메시아가 도끼와 불로 심판하실 거라고 전했어요(3:10–12). 그런데 예수님은 병자를 고치고 죄인과 식사하세요. 감옥 안의 요한은 혼란스러웠어요.", "예수님은 이사야 35장과 61장을 엮어 대답하세요. 눈먼 자가 보고, 못 걷는 자가 걷고, 가난한 자에게 [[복음]]이 전파된다. 그리고 “나로 말미암아 실족하지 않는 자는 복이 있도다”라고 하세요."], "deep": {"b": "깊이 보기 · 의심을 꾸짖지 않으심", "p": "예수님은 요한의 질문 직후 “여자가 낳은 자 중에 요한보다 큰 이가 없다”고 칭찬하세요. 의심은 믿음의 반대가 아니에요. 요한은 의심을 들고 예수님께 갔어요. 그것이 믿음이에요."}},
-   {"b": "장터의 아이들", "ayə": "11:16–24", "alt": "장터에서 피리를 부는 아이들과 춤추지 않는 아이들", "p": ["예수님은 그 세대를 놀이를 거부하는 아이들에 비유하세요. 결혼식 놀이에도 장례식 놀이에도 끼지 않는 아이들이요. 요한은 금식하니 “귀신 들렸다”, 예수님은 먹고 마시니 “먹기를 탐하는 자”라고 했어요.", "기적을 가장 많이 본 고라신, 벳새다, 가버나움이 회개하지 않았어요. 예수님은 그 마을들을 두고 탄식하세요. 많이 본 만큼 책임도 커요."], "deep": {"b": "깊이 보기 · 지혜의 열매", "p": "“지혜는 그 행한 일로 인하여 옳다 함을 얻느니라”(11:19). 사람들의 비난이 아니라 열매가 진실을 증명해요. 7장의 “열매로 그들을 알리라”와 이어져요."}},
-   {"b": "어린아이들에게 나타내심", "ayə": "11:25–27", "alt": "아이들을 안고 기도하시는 예수님", "p": ["“천지의 주재이신 아버지여, 이것을 지혜롭고 슬기 있는 자들에게는 숨기시고 [[어린아이]]들에게는 나타내심을 감사하나이다.” 거절당한 순간 예수님은 원망 대신 감사하세요.", "“아버지 외에는 아들을 아는 자가 없고 아들과 또 아들의 소원대로 계시를 받는 자 외에는 아버지를 아는 자가 없느니라.” 하나님을 아는 길은 예수님을 통해서만 열려요."], "deep": {"b": "깊이 보기 · 계시", "p": "하나님을 아는 것은 공부로 ‘도달하는’ 것이 아니라 하나님이 ‘보여 주시는’ 것이에요. 그래서 겸손한 사람이 유리해요. 지식은 귀하지만, 교만한 지식은 눈을 가려요.", "rose": true}},
-   {"b": "나의 멍에를 메라", "ayə": "11:28–30", "alt": "무거운 짐을 진 사람을 도와주시는 예수님", "p": ["“수고하고 무거운 짐 진 자들아 다 내게로 오라.” 당시 바리새인들은 율법에 수백 가지 규칙을 덧붙여 사람들을 짓눌렀어요(23:4).", "예수님은 짐을 없애시는 게 아니라 [[멍에]]를 바꿔 주세요. 멍에는 두 마리 소가 함께 메는 거예요. 예수님과 함께 메면 그분이 무게를 지시고 우리는 그분께 ‘배워요’. “나는 마음이 온유하고 겸손하니 나의 멍에를 메고 내게 배우라.”"], "deep": {"b": "깊이 보기 · 쉼(아나파우시스)", "p": "구약에서 ‘쉼’은 안식일과 약속의 땅을 가리켜요. 바로 다음 12장이 안식일 논쟁이에요. 예수님은 안식일의 참된 쉼을 주시는 안식일의 주인이세요."}}
-  ],
-  "cedvel": {"b": "두 가지 멍에", "alt": "11:28–30 · 23:4", "bas": ["", "사람이 지운 멍에", "예수님의 멍에"], "set": [["모습", "무거운 짐을 남의 어깨에 지움", "함께 메고 무게를 지심"], ["태도", "손가락 하나도 움직이지 않음", "온유하고 겸손함"], ["결과", "지치고 낙심함", "마음의 쉼"], ["관계", "규칙을 지키는 노동", "예수님께 배우는 동행"]]},
-  "aye": {"metn": "“수고하고 무거운 짐 진 자들아 다 내게로 오라. 내가 너희를 쉬게 하리라. 나는 마음이 온유하고 겸손하니 나의 멍에를 메고 내게 배우라. 그리하면 너희 마음이 쉼을 얻으리니.”", "ref": "11:28–29"},
-  "lugat": {
-   "복음": {"i": "📣", "o": "헬라어 유앙겔리조, ‘좋은 소식을 전하다’", "x": "Müjdə", "s": "가난한 자에게 전해지는 소식", "m": "이사야 61:1의 성취예요. 예수님은 나사렛 회당에서도 이 말씀을 읽으셨어요(눅 4:18).", "e": "메시아의 표징은 군사력이 아니라 회복과 기쁜 소식이었어요."},
-   "어린아이": {"i": "🧒", "o": "헬라어 네피오스, ‘말 못 하는 아기’", "x": "körpə", "s": "배울 마음이 열린 사람", "m": "지식과 지위가 없는 사람을 가리켜요. 제자들도 율법 학교를 나오지 못한 ‘어린아이’ 같은 사람들이었어요.", "e": "18:3 “돌이켜 어린아이들과 같이 되지 아니하면”과 이어져요."},
-   "멍에": {"i": "🐂", "o": "헬라어 쥐고스", "x": "boyunduruq", "s": "가르침과 삶의 방식", "m": "유대 문헌에서 ‘율법의 멍에’는 랍비의 가르침을 따르는 것을 뜻했어요. 예수님은 자기 가르침을 멍에로 주세요.", "e": "목수였던 예수님은 멍에를 직접 만드셨을지도 몰라요."},
-   "쉼": {"i": "🛌", "o": "헬라어 아나파우시스", "x": "rahatlıq", "s": "안식, 회복", "m": "단순히 일을 멈추는 게 아니라 하나님 안에서 다시 숨 쉬는 회복이에요.", "e": "예레미야 6:16 “너희 심령이 평강을 얻으리라”의 인용이에요."}
+ "img": [
+  "matta/15-yehya-zindan.jpg",
+  "matta/15-bazar.jpg",
+  "27-usaqlar.jpg",
+  "matta/15-boyunduruq.jpg"
+ ],
+ "hero": 3,
+ "ko": {
+  "usaq": {
+   "basliq": "다 내게로 오라",
+   "hedef": [
+    "감옥에 있던 세례 요한의 질문에 예수님이 어떻게 대답하셨는지 알아요.",
+    "하나님이 어린아이에게 하나님 나라를 보여 주신다는 것을 배워요.",
+    "힘들고 지칠 때 예수님께 가서 쉬는 법을 배워요."
+   ],
+   "sehneler": [
+    {
+     "b": "감옥에서 보낸 질문",
+     "ayə": "11:1–6",
+     "alt": "감옥에서 제자들에게 이야기하는 세례 요한",
+     "p": [
+      "세례 요한은 헤롯 왕 때문에 [[감옥]]에 갇혀 있었어요. 요한은 제자들을 보내 물었어요. “오실 그분이 예수님이세요?”",
+      "예수님이 대답하셨어요. “가서 보고 들은 것을 전하여라. 눈먼 사람이 보고, 걷지 못하는 사람이 걷고, 가난한 사람에게 [[복음]]이 전해진다.” 예수님이 바로 그분이세요."
+     ]
+    },
+    {
+     "b": "피리를 불어도",
+     "ayə": "11:16–19",
+     "alt": "장터에서 피리를 부는 아이들과 춤추지 않는 아이들",
+     "p": [
+      "예수님은 장터의 아이들 이야기를 하셨어요. “우리가 [[피리]]를 불어도 너희는 춤추지 않고, 슬픈 노래를 불러도 울지 않았어.”",
+      "사람들은 요한도 싫어하고 예수님도 싫어했어요. 무엇을 해도 마음을 열지 않았어요."
+     ]
+    },
+    {
+     "b": "어린아이에게 보여 주셨어요",
+     "ayə": "11:25–27",
+     "alt": "아이들을 안고 기도하시는 예수님",
+     "p": [
+      "예수님이 기도하셨어요. “아버지, 이것을 똑똑하고 [[지혜]]로운 사람에게는 숨기시고 어린아이들에게는 보여 주셨으니 감사합니다.”",
+      "하나님 나라는 똑똑한 사람이 아니라 어린아이처럼 마음을 여는 사람이 알 수 있어요."
+     ]
+    },
+    {
+     "b": "내게로 와서 쉬어라",
+     "ayə": "11:28–30",
+     "alt": "무거운 짐을 진 사람을 도와주시는 예수님",
+     "p": [
+      "예수님이 말씀하셨어요. “수고하고 무거운 [[짐]] 진 사람들아, 다 내게로 오너라. 내가 너희를 쉬게 하겠다.”",
+      "“나는 마음이 [[온유]]하고 겸손하다. 나의 [[멍에]]는 쉽고 나의 짐은 가볍다.” 힘들 때 예수님께 가면 쉼을 얻어요."
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "“수고하고 무거운 짐 진 자들아 다 내게로 오라. 내가 너희를 쉬게 하리라.”",
+    "ref": "11:28",
+    "bos": "수고하고 무거운 ___ 진 자들아 다 ___로 오라. 내가 너희를 ___ 하리라.",
+    "sozler": [
+     "짐",
+     "내게",
+     "쉬게"
+    ],
+    "yalan": "일하게"
+   },
+   "lugat": {
+    "감옥": {
+     "i": "⛓️",
+     "x": "zindan",
+     "m": "죄를 지었다고 여겨진 사람을 가두는 곳이에요.",
+     "e": "세례 요한은 감옥에 갇혔어요."
+    },
+    "복음": {
+     "i": "📣",
+     "x": "Müjdə",
+     "m": "예수님이 우리를 구원하러 오셨다는 기쁜 소식이에요.",
+     "e": "가난한 사람에게 복음이 전해져요."
+    },
+    "피리": {
+     "i": "🎶",
+     "x": "tütək",
+     "m": "입으로 불어서 소리를 내는 악기예요.",
+     "e": "피리를 불어도 춤추지 않았어요."
+    },
+    "지혜": {
+     "i": "🦉",
+     "x": "müdriklik",
+     "m": "옳은 것을 알고 바르게 판단하는 능력이에요.",
+     "e": "하나님 나라는 지혜자가 아니라 어린아이에게 보여요."
+    },
+    "짐": {
+     "i": "🎒",
+     "x": "yük",
+     "m": "등에 지고 가는 무거운 물건이에요. 마음의 걱정과 슬픔도 짐이에요.",
+     "e": "무거운 짐을 예수님께 가져가요."
+    },
+    "온유": {
+     "i": "🕊️",
+     "x": "həlim",
+     "m": "부드럽고 친절한 마음이에요.",
+     "e": "예수님은 마음이 온유하세요."
+    },
+    "멍에": {
+     "i": "🐂",
+     "x": "boyunduruq",
+     "m": "두 마리 소가 함께 일하도록 목에 얹는 나무 틀이에요.",
+     "e": "예수님의 멍에는 쉽고 가벼워요."
+    }
+   },
+   "test": [
+    {
+     "q": "세례 요한은 어디에서 질문을 보냈나요?",
+     "o": [
+      "감옥",
+      "성전",
+      "배 위"
+     ],
+     "a": 0,
+     "f": "맞아요! 힘든 곳에서도 예수님께 물었어요."
+    },
+    {
+     "q": "예수님은 요한에게 어떻게 대답하셨나요?",
+     "o": [
+      "보고 들은 것을 전하라",
+      "대답하지 않으셨어요",
+      "직접 가셨어요"
+     ],
+     "a": 0,
+     "f": "맞아요! 예수님이 하신 일이 대답이었어요."
+    },
+    {
+     "q": "하나님은 하나님 나라를 누구에게 보여 주셨나요?",
+     "o": [
+      "어린아이들",
+      "부자들",
+      "힘센 왕들"
+     ],
+     "a": 0,
+     "f": "맞아요! 마음을 연 사람에게 보여 주세요."
+    },
+    {
+     "q": "무거운 짐 진 사람에게 예수님이 하신 말씀은?",
+     "o": [
+      "내게로 오라, 쉬게 하리라",
+      "혼자 해결하라",
+      "더 열심히 일하라"
+     ],
+     "a": 0,
+     "f": "맞아요! 예수님께 가면 쉼이 있어요."
+    }
+   ],
+   "dusun": [
+    "요즘 나를 힘들게 하는 ‘무거운 짐’은 무엇인가요?",
+    "어린아이처럼 마음을 연다는 것은 어떤 뜻일까요?",
+    "예수님께 가서 쉰다는 것은 어떻게 하는 걸까요?"
+   ],
+   "fealiyyet": {
+    "ciz": "무거운 가방을 예수님께 맡기고 웃고 있는 나를 그려 보세요.",
+    "b": "예수님께 맡길 짐",
+    "p": "예수님께 드리고 싶은 마음의 짐을 써 보세요.",
+    "ph": "예) 친구와 싸워서 마음이 무거워요."
+   },
+   "dua": "예수님, 무거운 짐을 진 저를 ‘내게로 오라’고 불러 주셔서 감사합니다. 힘들고 지칠 때 예수님께 가서 쉬게 해 주세요. 어린아이처럼 마음을 열고 예수님을 배우게 해 주세요. 예수님 이름으로 기도합니다. 아멘."
   },
-  "test": [
-   {"q": "세례 요한이 감옥에서 보낸 질문은?", "o": ["오실 그이가 당신입니까", "언제 나를 꺼내 주십니까", "왜 금식하지 않습니까"], "a": 0, "f": "맞아요. 위대한 선지자도 물었어요."},
-   {"q": "예수님의 대답은 주로 어느 책의 예언을 엮은 것인가요?", "o": ["이사야", "레위기", "잠언"], "a": 0, "f": "맞아요. 이사야 35장과 61장이에요."},
-   {"q": "기적을 많이 보고도 회개하지 않은 마을이 아닌 곳은?", "o": ["예루살렘", "고라신", "가버나움"], "a": 0, "f": "맞아요. 고라신, 벳새다, 가버나움이었어요."},
-   {"q": "예수님이 감사하신 이유는?", "o": ["어린아이들에게 나타내셔서", "많은 사람이 모여서", "로마가 물러가서"], "a": 0, "f": "맞아요. 겸손한 사람에게 열려요."},
-   {"q": "멍에의 특징으로 알맞은 것은?", "o": ["둘이 함께 메는 것", "혼자 지는 짐", "벌로 주는 도구"], "a": 0, "f": "맞아요. 예수님과 함께 메요."}
-  ],
-  "paylas": ["요한처럼 “정말 예수님이 맞나?” 의심해 본 적이 있나요? 그때 어떻게 했나요?", "‘피리를 불어도 춤추지 않는’ 내 모습은 어떤 때일까요?", "지금 나를 가장 지치게 하는 ‘짐’은 무엇인가요? 그것은 누가 지운 멍에일까요?", "예수님께 ‘배운다’는 것이 내 하루에서 어떤 모습일 수 있을까요?"],
-  "etiraf": {"b": "나의 고백", "p": "예수님의 초대 “내게로 오라”에 대답하는 짧은 편지를 써 보세요.", "ph": "예) 예수님, 저는 요즘 너무 지쳤어요. 시험과 관계 때문에 … 이제 예수님께 갈게요."},
-  "dua": "예수님, 의심하는 요한을 꾸짖지 않으시고 지친 사람들을 ‘내게로 오라’ 부르시는 예수님께 감사합니다. 제 마음의 무거운 짐을 내려놓고 예수님의 멍에를 메게 해 주세요. 온유하고 겸손하신 예수님께 배우며 참된 쉼을 누리게 해 주세요. 예수님 이름으로 기도합니다. 아멘."
- }
-},
-"az": {
- "usaq": {
-  "basliq": "Hamınız yanıma gəlin",
-  "hedef": ["Zindandakı Vəftizçi Yəhyanın sualına İsanın necə cavab verdiyini öyrənəcəyik.", "Allahın Padşahlığını körpələrə açdığını öyrənəcəyik.", "Yorulanda İsanın yanına gedib rahatlıq tapmağı öyrənəcəyik."],
-  "sehneler": [
-   {"b": "Zindandan gələn sual", "ayə": "Matta 11:1–6", "alt": "Zindanda şagirdləri ilə danışan Vəftizçi Yəhya", "p": ["Vəftizçi Yəhya Hirod padşah üzündən [[zindan]]a salınmışdı. Yəhya şagirdlərini göndərib soruşdu: “Gəlməli olan Sənsənmi?”", "İsa cavab verdi: “Gedib gördüklərinizi və eşitdiklərinizi bildirin: korlar görür, axsaqlar yeriyir, yoxsullara [[Müjdə]] çatdırılır.” Gəlməli olan İsadır."]},
-   {"b": "Tütək çaldıq, amma", "ayə": "Matta 11:16–19", "alt": "Bazarda tütək çalan uşaqlar və oynamayan uşaqlar", "p": ["İsa bazardakı uşaqlar haqqında danışdı: “Sizin üçün [[tütək]] çaldıq, oynamadınız. Ağı dedik, ağlamadınız.”", "İnsanlar Yəhyanı da bəyənmədilər, İsanı da. Nə olsa da, ürəklərini açmadılar."]},
-   {"b": "Körpələrə açdın", "ayə": "Matta 11:25–27", "alt": "Uşaqları qucaqlayıb dua edən İsa", "p": ["İsa dua etdi: “Ata, bunları müdrik və ağıllı adamlardan gizləyib körpələrə açdığın üçün Sənə şükür edirəm.”", "Allahın Padşahlığını ağıllı adamlar deyil, uşaq kimi ürəyini açanlar anlayır. Bu, [[müdriklik]]dən də böyükdür."]},
-   {"b": "Yanıma gəlin, dincəlin", "ayə": "Matta 11:28–30", "alt": "Ağır yük daşıyan adama kömək edən İsa", "p": ["İsa dedi: “Ey bütün yorğunlar və ağır [[yük]] daşıyanlar, Mənim yanıma gəlin, Mən sizə rahatlıq verəcəyəm.”", "“Mən [[həlim]] və təvazökar ürəkliyəm. Mənim [[boyunduruğum|boyunduruq]] rahat, yüküm yüngüldür.” Yorulanda İsanın yanına gedəndə dinclik tapırıq."]}
-  ],
-  "aye": {"metn": "“Ey bütün yorğunlar və ağır yük daşıyanlar, Mənim yanıma gəlin, Mən sizə rahatlıq verəcəyəm.”", "ref": "11:28", "bos": "Ey bütün yorğunlar və ağır ___ daşıyanlar, Mənim ___ gəlin, Mən sizə ___ verəcəyəm.", "sozler": ["yük", "yanıma", "rahatlıq"], "yalan": "iş"},
-  "lugat": {
-   "zindan": {"i": "⛓️", "x": "감옥", "m": "Təqsirli sayılan adamların salındığı yerdir.", "e": "Vəftizçi Yəhya zindana salındı."},
-   "Müjdə": {"i": "📣", "x": "복음", "m": "İsanın bizi xilas etməyə gəldiyi sevincli xəbərdir.", "e": "Yoxsullara Müjdə çatdırılır."},
-   "tütək": {"i": "🎶", "x": "피리", "m": "Ağızla üfürüb səs çıxarılan musiqi alətidir.", "e": "Tütək çaldıq, oynamadınız."},
-   "müdriklik": {"i": "🦉", "x": "지혜", "m": "Doğrunu bilib düzgün qərar vermək bacarığıdır.", "e": "Allahın Padşahlığı körpələrə açılır."},
-   "yük": {"i": "🎒", "x": "짐", "m": "Kürəkdə daşınan ağır şeydir. Ürəyin qayğısı və kədəri də yükdür.", "e": "Ağır yükümüzü İsaya gətiririk."},
-   "həlim": {"i": "🕊️", "x": "온유한", "m": "Yumşaq və mehriban ürəkdir.", "e": "İsa həlim ürəklidir."},
-   "boyunduruq": {"i": "🐂", "x": "멍에", "m": "İki öküzün birlikdə işləməsi üçün boynuna qoyulan taxta çərçivədir.", "e": "İsanın boyunduruğu rahatdır."}
-  },
-  "test": [
-   {"q": "Vəftizçi Yəhya sualı haradan göndərdi?", "o": ["Zindandan", "Məbəddən", "Qayıqdan"], "a": 0, "f": "Düzdür! Çətin yerdə də İsaya sual verdi."},
-   {"q": "İsa Yəhyaya necə cavab verdi?", "o": ["Gördüklərinizi və eşitdiklərinizi bildirin", "Cavab vermədi", "Özü getdi"], "a": 0, "f": "Düzdür! İsanın işləri cavab idi."},
-   {"q": "Allah Padşahlığını kimə açdı?", "o": ["Körpələrə", "Varlılara", "Güclü padşahlara"], "a": 0, "f": "Düzdür! Ürəyini açanlara."},
-   {"q": "İsa ağır yük daşıyanlara nə dedi?", "o": ["Yanıma gəlin, sizə rahatlıq verəcəyəm", "Özünüz həll edin", "Daha çox işləyin"], "a": 0, "f": "Düzdür! İsanın yanında dinclik var."}
-  ],
-  "dusun": ["Bu günlərdə səni yoran “ağır yük” nədir?", "Uşaq kimi ürəyini açmaq nə deməkdir?", "İsanın yanına gedib dincəlmək necə olur?"],
-  "fealiyyet": {"ciz": "Ağır çantasını İsaya verib gülümsəyən özünü çək.", "b": "İsaya nəyi gətirəcəksən?", "p": "İsaya vermək istədiyin ürək yükünü seç.", "ph": "",
-   "secim": {"basliq": "İsaya nəyi gətirəcəksən?", "izah": "Toxun və seç. Bir neçəsini seçə bilərsən.", "cumle": "İsa, mən {x} Sənə gətirirəm!", "bos": "yorğunluğumu", "bag": "və",
-    "secimler": [["😩", "yorğunluğumu"], ["😢", "kədərimi"], ["😨", "qorxumu"], ["📚", "dərs yükümü"], ["😠", "hirsimi"], ["😔", "tənhalığımı"]]}},
-  "dua": "İsa, ağır yük daşıyan məni “yanıma gəl” deyə çağırdığın üçün Sənə şükür edirəm. Yorulanda və çətinlikdə olanda Sənin yanına gəlib dincəlim. Uşaq kimi ürəyimi açıb Səndən öyrənim. İsa Məsihin adı ilə dua edirəm. Amin."
+  "genc": {
+   "basliq": "쉼을 주시는 분",
+   "giris": "가장 위대한 선지자도 감옥에서는 흔들렸습니다. 세례 요한은 물었습니다. “정말 당신이 맞습니까?” 의심과 피로로 지친 사람들에게 예수님은 정답보다 먼저 초대를 건네십니다. 내게로 오라.",
+   "meqsed": [
+    "세례 요한의 질문과 예수님의 대답에서 메시아의 정체를 이해해요.",
+    "하나님 나라가 ‘어린아이’에게 열린다는 뜻을 설명할 수 있어요.",
+    "예수님의 멍에를 메고 배우는 쉼을 내 삶에 적용해요."
+   ],
+   "sehneler": [
+    {
+     "b": "흔들리는 요한",
+     "ayə": "11:1–15",
+     "alt": "감옥에서 제자들에게 이야기하는 세례 요한",
+     "p": [
+      "요한은 메시아가 도끼와 불로 심판하실 거라고 전했어요(3:10–12). 그런데 예수님은 병자를 고치고 죄인과 식사하세요. 감옥 안의 요한은 혼란스러웠어요.",
+      "예수님은 이사야 35장과 61장을 엮어 대답하세요. 눈먼 자가 보고, 못 걷는 자가 걷고, 가난한 자에게 [[복음]]이 전파된다. 그리고 “나로 말미암아 실족하지 않는 자는 복이 있도다”라고 하세요."
+     ],
+     "deep": {
+      "b": "깊이 보기 · 의심을 꾸짖지 않으심",
+      "p": "예수님은 요한의 질문 직후 “여자가 낳은 자 중에 요한보다 큰 이가 없다”고 칭찬하세요. 의심은 믿음의 반대가 아니에요. 요한은 의심을 들고 예수님께 갔어요. 그것이 믿음이에요."
+     }
+    },
+    {
+     "b": "장터의 아이들",
+     "ayə": "11:16–24",
+     "alt": "장터에서 피리를 부는 아이들과 춤추지 않는 아이들",
+     "p": [
+      "예수님은 그 세대를 놀이를 거부하는 아이들에 비유하세요. 결혼식 놀이에도 장례식 놀이에도 끼지 않는 아이들이요. 요한은 금식하니 “귀신 들렸다”, 예수님은 먹고 마시니 “먹기를 탐하는 자”라고 했어요.",
+      "기적을 가장 많이 본 고라신, 벳새다, 가버나움이 회개하지 않았어요. 예수님은 그 마을들을 두고 탄식하세요. 많이 본 만큼 책임도 커요."
+     ],
+     "deep": {
+      "b": "깊이 보기 · 지혜의 열매",
+      "p": "“지혜는 그 행한 일로 인하여 옳다 함을 얻느니라”(11:19). 사람들의 비난이 아니라 열매가 진실을 증명해요. 7장의 “열매로 그들을 알리라”와 이어져요."
+     }
+    },
+    {
+     "b": "어린아이들에게 나타내심",
+     "ayə": "11:25–27",
+     "alt": "아이들을 안고 기도하시는 예수님",
+     "p": [
+      "“천지의 주재이신 아버지여, 이것을 지혜롭고 슬기 있는 자들에게는 숨기시고 [[어린아이]]들에게는 나타내심을 감사하나이다.” 거절당한 순간 예수님은 원망 대신 감사하세요.",
+      "“아버지 외에는 아들을 아는 자가 없고 아들과 또 아들의 소원대로 계시를 받는 자 외에는 아버지를 아는 자가 없느니라.” 하나님을 아는 길은 예수님을 통해서만 열려요."
+     ],
+     "deep": {
+      "b": "깊이 보기 · 계시",
+      "p": "하나님을 아는 것은 공부로 ‘도달하는’ 것이 아니라 하나님이 ‘보여 주시는’ 것이에요. 그래서 겸손한 사람이 유리해요. 지식은 귀하지만, 교만한 지식은 눈을 가려요.",
+      "rose": true
+     }
+    },
+    {
+     "b": "나의 멍에를 메라",
+     "ayə": "11:28–30",
+     "alt": "무거운 짐을 진 사람을 도와주시는 예수님",
+     "p": [
+      "“수고하고 무거운 짐 진 자들아 다 내게로 오라.” 당시 바리새인들은 율법에 수백 가지 규칙을 덧붙여 사람들을 짓눌렀어요(23:4).",
+      "예수님은 짐을 없애시는 게 아니라 [[멍에]]를 바꿔 주세요. 멍에는 두 마리 소가 함께 메는 거예요. 예수님과 함께 메면 그분이 무게를 지시고 우리는 그분께 ‘배워요’. “나는 마음이 온유하고 겸손하니 나의 멍에를 메고 내게 배우라.”"
+     ],
+     "deep": {
+      "b": "깊이 보기 · 쉼(아나파우시스)",
+      "p": "구약에서 ‘쉼’은 안식일과 약속의 땅을 가리켜요. 바로 다음 12장이 안식일 논쟁이에요. 예수님은 안식일의 참된 쉼을 주시는 안식일의 주인이세요."
+     }
+    }
+   ],
+   "cedvel": {
+    "b": "두 가지 멍에",
+    "alt": "11:28–30 · 23:4",
+    "bas": [
+     "",
+     "사람이 지운 멍에",
+     "예수님의 멍에"
+    ],
+    "set": [
+     [
+      "모습",
+      "무거운 짐을 남의 어깨에 지움",
+      "함께 메고 무게를 지심"
+     ],
+     [
+      "태도",
+      "손가락 하나도 움직이지 않음",
+      "온유하고 겸손함"
+     ],
+     [
+      "결과",
+      "지치고 낙심함",
+      "마음의 쉼"
+     ],
+     [
+      "관계",
+      "규칙을 지키는 노동",
+      "예수님께 배우는 동행"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "“수고하고 무거운 짐 진 자들아 다 내게로 오라. 내가 너희를 쉬게 하리라. 나는 마음이 온유하고 겸손하니 나의 멍에를 메고 내게 배우라. 그리하면 너희 마음이 쉼을 얻으리니.”",
+    "ref": "11:28–29"
+   },
+   "lugat": {
+    "복음": {
+     "i": "📣",
+     "o": "헬라어 유앙겔리조, ‘좋은 소식을 전하다’",
+     "x": "Müjdə",
+     "s": "가난한 자에게 전해지는 소식",
+     "m": "이사야 61:1의 성취예요. 예수님은 나사렛 회당에서도 이 말씀을 읽으셨어요(눅 4:18).",
+     "e": "메시아의 표징은 군사력이 아니라 회복과 기쁜 소식이었어요."
+    },
+    "어린아이": {
+     "i": "🧒",
+     "o": "헬라어 네피오스, ‘말 못 하는 아기’",
+     "x": "körpə",
+     "s": "배울 마음이 열린 사람",
+     "m": "지식과 지위가 없는 사람을 가리켜요. 제자들도 율법 학교를 나오지 못한 ‘어린아이’ 같은 사람들이었어요.",
+     "e": "18:3 “돌이켜 어린아이들과 같이 되지 아니하면”과 이어져요."
+    },
+    "멍에": {
+     "i": "🐂",
+     "o": "헬라어 쥐고스",
+     "x": "boyunduruq",
+     "s": "가르침과 삶의 방식",
+     "m": "유대 문헌에서 ‘율법의 멍에’는 랍비의 가르침을 따르는 것을 뜻했어요. 예수님은 자기 가르침을 멍에로 주세요.",
+     "e": "목수였던 예수님은 멍에를 직접 만드셨을지도 몰라요."
+    },
+    "쉼": {
+     "i": "🛌",
+     "o": "헬라어 아나파우시스",
+     "x": "rahatlıq",
+     "s": "안식, 회복",
+     "m": "단순히 일을 멈추는 게 아니라 하나님 안에서 다시 숨 쉬는 회복이에요.",
+     "e": "예레미야 6:16 “너희 심령이 평강을 얻으리라”의 인용이에요."
+    }
+   },
+   "test": [
+    {
+     "q": "세례 요한이 감옥에서 보낸 질문은?",
+     "o": [
+      "오실 그이가 당신입니까",
+      "언제 나를 꺼내 주십니까",
+      "왜 금식하지 않습니까"
+     ],
+     "a": 0,
+     "f": "맞아요. 위대한 선지자도 물었어요."
+    },
+    {
+     "q": "예수님의 대답은 주로 어느 책의 예언을 엮은 것인가요?",
+     "o": [
+      "이사야",
+      "레위기",
+      "잠언"
+     ],
+     "a": 0,
+     "f": "맞아요. 이사야 35장과 61장이에요."
+    },
+    {
+     "q": "기적을 많이 보고도 회개하지 않은 마을이 아닌 곳은?",
+     "o": [
+      "예루살렘",
+      "고라신",
+      "가버나움"
+     ],
+     "a": 0,
+     "f": "맞아요. 고라신, 벳새다, 가버나움이었어요."
+    },
+    {
+     "q": "예수님이 감사하신 이유는?",
+     "o": [
+      "어린아이들에게 나타내셔서",
+      "많은 사람이 모여서",
+      "로마가 물러가서"
+     ],
+     "a": 0,
+     "f": "맞아요. 겸손한 사람에게 열려요."
+    },
+    {
+     "q": "멍에의 특징으로 알맞은 것은?",
+     "o": [
+      "둘이 함께 메는 것",
+      "혼자 지는 짐",
+      "벌로 주는 도구"
+     ],
+     "a": 0,
+     "f": "맞아요. 예수님과 함께 메요."
+    }
+   ],
+   "paylas": [
+    "요한처럼 “정말 예수님이 맞나?” 의심해 본 적이 있나요? 그때 어떻게 했나요?",
+    "‘피리를 불어도 춤추지 않는’ 내 모습은 어떤 때일까요?",
+    "지금 나를 가장 지치게 하는 ‘짐’은 무엇인가요? 그것은 누가 지운 멍에일까요?",
+    "예수님께 ‘배운다’는 것이 내 하루에서 어떤 모습일 수 있을까요?"
+   ],
+   "etiraf": {
+    "b": "나의 고백",
+    "p": "예수님의 초대 “내게로 오라”에 대답하는 짧은 편지를 써 보세요.",
+    "ph": "예) 예수님, 저는 요즘 너무 지쳤어요. 시험과 관계 때문에 … 이제 예수님께 갈게요."
+   },
+   "dua": "예수님, 의심하는 요한을 꾸짖지 않으시고 지친 사람들을 ‘내게로 오라’ 부르시는 예수님께 감사합니다. 제 마음의 무거운 짐을 내려놓고 예수님의 멍에를 메게 해 주세요. 온유하고 겸손하신 예수님께 배우며 참된 쉼을 누리게 해 주세요. 예수님 이름으로 기도합니다. 아멘."
+  }
  },
- "genc": {
-  "basliq": "Rahatlıq verən",
-  "giris": "Ən böyük peyğəmbər belə zindanda tərəddüd etdi. Vəftizçi Yəhya soruşdu: “Həqiqətən Sənsənmi?” Şübhə və yorğunluqdan əldən düşən insanlara İsa cavabdan əvvəl dəvət edir: yanıma gəlin.",
-  "meqsed": ["Vəftizçi Yəhyanın sualında və İsanın cavabında Məsihin kimliyini anlayırıq.", "Allahın Padşahlığının “körpələrə” açılmasının mənasını izah edə bilirik.", "İsanın boyunduruğunu götürüb Ondan öyrənməklə gələn rahatlığı həyatımıza tətbiq edirik."],
-  "sehneler": [
-   {"b": "Tərəddüd edən Yəhya", "ayə": "Matta 11:1–15", "alt": "Zindanda şagirdləri ilə danışan Vəftizçi Yəhya", "p": ["Yəhya Məsihin balta və odla hökm edəcəyini demişdi (3:10–12). Amma İsa xəstələrə şəfa verir, günahkarlarla süfrə başında oturur. Zindandakı Yəhya çaşbaş qalmışdı.", "İsa Yeşaya 35 və 61-ci fəsilləri birləşdirib cavab verir: korlar görür, axsaqlar yeriyir, yoxsullara [[Müjdə]] çatdırılır. Və deyir: “Mənə görə büdrəməyən nə bəxtiyardır!”"], "deep": {"b": "Dərindən baxaq · Şübhəni danlamadı", "p": "İsa Yəhyanın sualından dərhal sonra “Qadından doğulanlar arasında Yəhyadan böyüyü olmayıb” deyə onu tərifləyir. Şübhə imanın əksi deyil. Yəhya şübhəsini götürüb İsanın yanına getdi. Bu, imandır."}},
-   {"b": "Bazardakı uşaqlar", "ayə": "Matta 11:16–24", "alt": "Bazarda tütək çalan uşaqlar və oynamayan uşaqlar", "p": ["İsa o nəsli oyunu rədd edən uşaqlara bənzədir: nə toy oyununa, nə də yas oyununa qoşulurlar. Yəhya oruc tutdu, “cinə tutulub” dedilər; İsa yeyib-içdi, “qarınqulu” dedilər.", "Ən çox möcüzə görən Korazin, Bet-Sayda və Kəfərnahum tövbə etmədi. İsa bu şəhərlərə görə ah çəkir. Çox görən çox məsuliyyət daşıyır."], "deep": {"b": "Dərindən baxaq · Müdrikliyin bəhrəsi", "p": "“Müdriklik öz əməlləri ilə doğruluğunu sübut edir” (11:19). Həqiqəti insanların tənqidi deyil, bəhrə sübut edir. Bu, 7-ci fəsildəki “onları bəhrələrindən tanıyacaqsınız” sözü ilə bağlıdır."}},
-   {"b": "Körpələrə açılan", "ayə": "Matta 11:25–27", "alt": "Uşaqları qucaqlayıb dua edən İsa", "p": ["“Ey göyün və yerin Rəbbi olan Ata, bunları müdrik və ağıllı adamlardan gizləyib [[körpə]]lərə açdığın üçün Sənə şükür edirəm.” Rədd edildiyi anda İsa giley əvəzinə şükür edir.", "“Atadan başqa heç kəs Oğulu tanımır. Oğuldan və Oğulun Onu açmaq istədiyi adamdan başqa heç kəs Atanı tanımır.” Allahı tanımaq yolu yalnız İsa vasitəsilə açılır."], "deep": {"b": "Dərindən baxaq · Vəhy", "p": "Allahı tanımaq dərs oxumaqla “çatılan” deyil, Allahın “göstərdiyi” bir şeydir. Buna görə təvazökar insan üstündür. Bilik qiymətlidir, amma təkəbbürlü bilik gözləri bağlayır.", "rose": true}},
-   {"b": "Boyunduruğumu götürün", "ayə": "Matta 11:28–30", "alt": "Ağır yük daşıyan adama kömək edən İsa", "p": ["“Ey bütün yorğunlar və ağır yük daşıyanlar, Mənim yanıma gəlin.” O vaxt fariseylər Qanuna yüzlərlə qayda əlavə edib insanları əzirdilər (23:4).", "İsa yükü yox etmir, [[boyunduruq]]u dəyişir. Boyunduruğu iki öküz birlikdə daşıyır. İsa ilə birlikdə daşıyanda ağırlığı O götürür, biz isə Ondan “öyrənirik”. “Mən həlim və təvazökar ürəkliyəm, boyunduruğumu götürün və Məndən öyrənin.”"], "deep": {"b": "Dərindən baxaq · Rahatlıq (anapausis)", "p": "Əhdi-Ətiqdə “rahatlıq” Şənbə gününü və vəd olunmuş torpağı bildirir. Elə növbəti 12-ci fəsil Şənbə mübahisəsidir. İsa Şənbənin əsl rahatlığını verən Şənbənin Rəbbidir."}}
-  ],
-  "cedvel": {"b": "İki boyunduruq", "alt": "11:28–30 · 23:4", "bas": ["", "İnsanların qoyduğu boyunduruq", "İsanın boyunduruğu"], "set": [["Görünüş", "Ağır yükü başqasının çiyninə qoyur", "Birlikdə daşıyır, ağırlığı Özü götürür"], ["Münasibət", "Barmağını belə tərpətmir", "Həlim və təvazökar"], ["Nəticə", "Yorğunluq və ümidsizlik", "Ürəyin rahatlığı"], ["Əlaqə", "Qayda yerinə yetirmək zəhməti", "İsadan öyrənən yoldaşlıq"]]},
-  "aye": {"metn": "“Ey bütün yorğunlar və ağır yük daşıyanlar, Mənim yanıma gəlin, Mən sizə rahatlıq verəcəyəm. Boyunduruğumu götürün və Məndən öyrənin, çünki Mən həlim və təvazökar ürəkliyəm. Beləcə canınıza rahatlıq taparsınız.”", "ref": "11:28–29"},
-  "lugat": {
-   "Müjdə": {"i": "📣", "o": "Yunanca evangelizo, “yaxşı xəbər çatdırmaq”", "x": "복음", "s": "Yoxsullara çatdırılan xəbər", "m": "Yeşaya 61:1-in yerinə yetməsidir. İsa Nazaret sinaqoqunda da bu sözü oxumuşdu (Luka 4:18).", "e": "Məsihin əlaməti hərbi güc deyil, bərpa və sevincli xəbər idi."},
-   "körpə": {"i": "🧒", "o": "Yunanca nepios, “danışa bilməyən uşaq”", "x": "어린아이", "s": "Öyrənməyə ürəyi açıq insan", "m": "Biliyi və mövqeyi olmayan insanları bildirir. Şagirdlər də Qanun məktəbini bitirməmiş “körpələr” kimi idilər.", "e": "18:3-dəki “dönüb uşaqlar kimi olmasanız” sözü ilə bağlıdır."},
-   "boyunduruq": {"i": "🐂", "o": "Yunanca ziqos", "x": "멍에", "s": "Təlim və yaşayış tərzi", "m": "Yəhudi yazılarında “Qanunun boyunduruğu” ravvinin təliminə tabe olmaq demək idi. İsa Öz təlimini boyunduruq kimi verir.", "e": "Dülgər olan İsa bəlkə də boyunduruqları özü düzəldirdi."},
-   "rahatlıq": {"i": "🛌", "o": "Yunanca anapausis", "x": "쉼", "s": "Dinclik, bərpa", "m": "Sadəcə işi dayandırmaq deyil, Allahda yenidən nəfəs almaq və bərpa olmaqdır.", "e": "Yeremya 6:16-dakı “canınıza rahatlıq taparsınız” sözündən sitatdır."}
+ "az": {
+  "usaq": {
+   "basliq": "Hamınız yanıma gəlin",
+   "hedef": [
+    "Zindandakı Vəftizçi Yəhyanın sualına İsanın necə cavab verdiyini öyrənəcəyik.",
+    "Allahın Padşahlığını körpələrə açdığını öyrənəcəyik.",
+    "Yorulanda İsanın yanına gedib rahatlıq tapmağı öyrənəcəyik."
+   ],
+   "sehneler": [
+    {
+     "b": "Zindandan gələn sual",
+     "ayə": "Matta 11:1–6",
+     "alt": "Zindanda şagirdləri ilə danışan Vəftizçi Yəhya",
+     "p": [
+      "Vəftizçi Yəhya Hirod padşah üzündən [[zindan]]a salınmışdı. Yəhya şagirdlərini göndərib soruşdu: “Gəlməli olan Sənsənmi?”",
+      "İsa cavab verdi: “Gedib gördüklərinizi və eşitdiklərinizi bildirin: korlar görür, axsaqlar yeriyir, yoxsullara [[Müjdə]] çatdırılır.” Gəlməli olan İsadır."
+     ]
+    },
+    {
+     "b": "Tütək çaldıq, amma",
+     "ayə": "Matta 11:16–19",
+     "alt": "Bazarda tütək çalan uşaqlar və oynamayan uşaqlar",
+     "p": [
+      "İsa bazardakı uşaqlar haqqında danışdı: “Sizin üçün [[tütək]] çaldıq, oynamadınız. Ağı dedik, ağlamadınız.”",
+      "İnsanlar Yəhyanı da bəyənmədilər, İsanı da. Nə olsa da, ürəklərini açmadılar."
+     ]
+    },
+    {
+     "b": "Körpələrə açdın",
+     "ayə": "Matta 11:25–27",
+     "alt": "Uşaqları qucaqlayıb dua edən İsa",
+     "p": [
+      "İsa dua etdi: “Ata, bunları müdrik və ağıllı adamlardan gizləyib körpələrə açdığın üçün Sənə şükür edirəm.”",
+      "Allahın Padşahlığını ağıllı adamlar deyil, uşaq kimi ürəyini açanlar anlayır. Bu, [[müdriklik]]dən də böyükdür."
+     ]
+    },
+    {
+     "b": "Yanıma gəlin, dincəlin",
+     "ayə": "Matta 11:28–30",
+     "alt": "Ağır yük daşıyan adama kömək edən İsa",
+     "p": [
+      "İsa dedi: “Ey bütün yorğunlar və ağır [[yük]] daşıyanlar, Mənim yanıma gəlin, Mən sizə rahatlıq verəcəyəm.”",
+      "“Mən [[həlim]] və təvazökar ürəkliyəm. Mənim [[boyunduruğum|boyunduruq]] rahat, yüküm yüngüldür.” Yorulanda İsanın yanına gedəndə dinclik tapırıq."
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "“Ey bütün yorğunlar və ağır yük daşıyanlar, Mənim yanıma gəlin, Mən sizə rahatlıq verəcəyəm.”",
+    "ref": "11:28",
+    "bos": "Ey bütün yorğunlar və ağır ___ daşıyanlar, Mənim ___ gəlin, Mən sizə ___ verəcəyəm.",
+    "sozler": [
+     "yük",
+     "yanıma",
+     "rahatlıq"
+    ],
+    "yalan": "iş"
+   },
+   "lugat": {
+    "zindan": {
+     "i": "⛓️",
+     "x": "감옥",
+     "m": "Təqsirli sayılan adamların salındığı yerdir.",
+     "e": "Vəftizçi Yəhya zindana salındı."
+    },
+    "Müjdə": {
+     "i": "📣",
+     "x": "복음",
+     "m": "İsanın bizi xilas etməyə gəldiyi sevincli xəbərdir.",
+     "e": "Yoxsullara Müjdə çatdırılır."
+    },
+    "tütək": {
+     "i": "🎶",
+     "x": "피리",
+     "m": "Ağızla üfürüb səs çıxarılan musiqi alətidir.",
+     "e": "Tütək çaldıq, oynamadınız."
+    },
+    "müdriklik": {
+     "i": "🦉",
+     "x": "지혜",
+     "m": "Doğrunu bilib düzgün qərar vermək bacarığıdır.",
+     "e": "Allahın Padşahlığı körpələrə açılır."
+    },
+    "yük": {
+     "i": "🎒",
+     "x": "짐",
+     "m": "Kürəkdə daşınan ağır şeydir. Ürəyin qayğısı və kədəri də yükdür.",
+     "e": "Ağır yükümüzü İsaya gətiririk."
+    },
+    "həlim": {
+     "i": "🕊️",
+     "x": "온유한",
+     "m": "Yumşaq və mehriban ürəkdir.",
+     "e": "İsa həlim ürəklidir."
+    },
+    "boyunduruq": {
+     "i": "🐂",
+     "x": "멍에",
+     "m": "İki öküzün birlikdə işləməsi üçün boynuna qoyulan taxta çərçivədir.",
+     "e": "İsanın boyunduruğu rahatdır."
+    }
+   },
+   "test": [
+    {
+     "q": "Vəftizçi Yəhya sualı haradan göndərdi?",
+     "o": [
+      "Zindandan",
+      "Məbəddən",
+      "Qayıqdan"
+     ],
+     "a": 0,
+     "f": "Düzdür! Çətin yerdə də İsaya sual verdi."
+    },
+    {
+     "q": "İsa Yəhyaya necə cavab verdi?",
+     "o": [
+      "Gördüklərinizi və eşitdiklərinizi bildirin",
+      "Cavab vermədi",
+      "Özü getdi"
+     ],
+     "a": 0,
+     "f": "Düzdür! İsanın işləri cavab idi."
+    },
+    {
+     "q": "Allah Padşahlığını kimə açdı?",
+     "o": [
+      "Körpələrə",
+      "Varlılara",
+      "Güclü padşahlara"
+     ],
+     "a": 0,
+     "f": "Düzdür! Ürəyini açanlara."
+    },
+    {
+     "q": "İsa ağır yük daşıyanlara nə dedi?",
+     "o": [
+      "Yanıma gəlin, sizə rahatlıq verəcəyəm",
+      "Özünüz həll edin",
+      "Daha çox işləyin"
+     ],
+     "a": 0,
+     "f": "Düzdür! İsanın yanında dinclik var."
+    }
+   ],
+   "dusun": [
+    "Bu günlərdə səni yoran “ağır yük” nədir?",
+    "Uşaq kimi ürəyini açmaq nə deməkdir?",
+    "İsanın yanına gedib dincəlmək necə olur?"
+   ],
+   "fealiyyet": {
+    "ciz": "Ağır çantasını İsaya verib gülümsəyən özünü çək.",
+    "b": "İsaya nəyi gətirəcəksən?",
+    "p": "İsaya vermək istədiyin ürək yükünü seç.",
+    "ph": "",
+    "secim": {
+     "basliq": "İsaya nəyi gətirəcəksən?",
+     "izah": "Toxun və seç. Bir neçəsini seçə bilərsən.",
+     "cumle": "İsa, mən {x} Sənə gətirirəm!",
+     "bos": "yorğunluğumu",
+     "bag": "və",
+     "secimler": [
+      [
+       "😩",
+       "yorğunluğumu"
+      ],
+      [
+       "😢",
+       "kədərimi"
+      ],
+      [
+       "😨",
+       "qorxumu"
+      ],
+      [
+       "📚",
+       "dərs yükümü"
+      ],
+      [
+       "😠",
+       "hirsimi"
+      ],
+      [
+       "😔",
+       "tənhalığımı"
+      ]
+     ]
+    }
+   },
+   "dua": "İsa, ağır yük daşıyan məni “yanıma gəl” deyə çağırdığın üçün Sənə şükür edirəm. Yorulanda və çətinlikdə olanda Sənin yanına gəlib dincəlim. Uşaq kimi ürəyimi açıb Səndən öyrənim. İsa Məsihin adı ilə dua edirəm. Amin."
   },
-  "test": [
-   {"q": "Vəftizçi Yəhyanın zindandan göndərdiyi sual nə idi?", "o": ["Gəlməli olan Sənsənmi?", "Məni nə vaxt çıxaracaqsan?", "Niyə oruc tutmursan?"], "a": 0, "f": "Düzdür. Böyük peyğəmbər də sual verdi."},
-   {"q": "İsanın cavabı əsasən hansı kitabın peyğəmbərliklərini birləşdirir?", "o": ["Yeşaya", "Levililər", "Süleymanın Məsəlləri"], "a": 0, "f": "Düzdür. Yeşaya 35 və 61."},
-   {"q": "Çox möcüzə görüb tövbə etməyən şəhər olmayan hansıdır?", "o": ["Yerusəlim", "Korazin", "Kəfərnahum"], "a": 0, "f": "Düzdür. Korazin, Bet-Sayda və Kəfərnahum idi."},
-   {"q": "İsa nəyə görə şükür etdi?", "o": ["Körpələrə açıldığı üçün", "Çox adam toplandığı üçün", "Roma getdiyi üçün"], "a": 0, "f": "Düzdür. Təvazökarlara açılır."},
-   {"q": "Boyunduruğun xüsusiyyəti hansıdır?", "o": ["İkisinin birlikdə daşıdığı şey", "Təkbaşına daşınan yük", "Cəza aləti"], "a": 0, "f": "Düzdür. İsa ilə birlikdə daşıyırıq."}
+  "genc": {
+   "basliq": "Rahatlıq verən",
+   "giris": "Ən böyük peyğəmbər belə zindanda tərəddüd etdi. Vəftizçi Yəhya soruşdu: “Həqiqətən Sənsənmi?” Şübhə və yorğunluqdan əldən düşən insanlara İsa cavabdan əvvəl dəvət edir: yanıma gəlin.",
+   "meqsed": [
+    "Vəftizçi Yəhyanın sualında və İsanın cavabında Məsihin kimliyini anlayırıq.",
+    "Allahın Padşahlığının “körpələrə” açılmasının mənasını izah edə bilirik.",
+    "İsanın boyunduruğunu götürüb Ondan öyrənməklə gələn rahatlığı həyatımıza tətbiq edirik."
+   ],
+   "sehneler": [
+    {
+     "b": "Tərəddüd edən Yəhya",
+     "ayə": "Matta 11:1–15",
+     "alt": "Zindanda şagirdləri ilə danışan Vəftizçi Yəhya",
+     "p": [
+      "Yəhya Məsihin balta və odla hökm edəcəyini demişdi (3:10–12). Amma İsa xəstələrə şəfa verir, günahkarlarla süfrə başında oturur. Zindandakı Yəhya çaşbaş qalmışdı.",
+      "İsa Yeşaya 35 və 61-ci fəsilləri birləşdirib cavab verir: korlar görür, axsaqlar yeriyir, yoxsullara [[Müjdə]] çatdırılır. Və deyir: “Mənə görə büdrəməyən nə bəxtiyardır!”"
+     ],
+     "deep": {
+      "b": "Dərindən baxaq · Şübhəni danlamadı",
+      "p": "İsa Yəhyanın sualından dərhal sonra “Qadından doğulanlar arasında Yəhyadan böyüyü olmayıb” deyə onu tərifləyir. Şübhə imanın əksi deyil. Yəhya şübhəsini götürüb İsanın yanına getdi. Bu, imandır."
+     }
+    },
+    {
+     "b": "Bazardakı uşaqlar",
+     "ayə": "Matta 11:16–24",
+     "alt": "Bazarda tütək çalan uşaqlar və oynamayan uşaqlar",
+     "p": [
+      "İsa o nəsli oyunu rədd edən uşaqlara bənzədir: nə toy oyununa, nə də yas oyununa qoşulurlar. Yəhya oruc tutdu, “cinə tutulub” dedilər; İsa yeyib-içdi, “qarınqulu” dedilər.",
+      "Ən çox möcüzə görən Korazin, Bet-Sayda və Kəfərnahum tövbə etmədi. İsa bu şəhərlərə görə ah çəkir. Çox görən çox məsuliyyət daşıyır."
+     ],
+     "deep": {
+      "b": "Dərindən baxaq · Müdrikliyin bəhrəsi",
+      "p": "“Müdriklik öz əməlləri ilə doğruluğunu sübut edir” (11:19). Həqiqəti insanların tənqidi deyil, bəhrə sübut edir. Bu, 7-ci fəsildəki “onları bəhrələrindən tanıyacaqsınız” sözü ilə bağlıdır."
+     }
+    },
+    {
+     "b": "Körpələrə açılan",
+     "ayə": "Matta 11:25–27",
+     "alt": "Uşaqları qucaqlayıb dua edən İsa",
+     "p": [
+      "“Ey göyün və yerin Rəbbi olan Ata, bunları müdrik və ağıllı adamlardan gizləyib [[körpə]]lərə açdığın üçün Sənə şükür edirəm.” Rədd edildiyi anda İsa giley əvəzinə şükür edir.",
+      "“Atadan başqa heç kəs Oğulu tanımır. Oğuldan və Oğulun Onu açmaq istədiyi adamdan başqa heç kəs Atanı tanımır.” Allahı tanımaq yolu yalnız İsa vasitəsilə açılır."
+     ],
+     "deep": {
+      "b": "Dərindən baxaq · Vəhy",
+      "p": "Allahı tanımaq dərs oxumaqla “çatılan” deyil, Allahın “göstərdiyi” bir şeydir. Buna görə təvazökar insan üstündür. Bilik qiymətlidir, amma təkəbbürlü bilik gözləri bağlayır.",
+      "rose": true
+     }
+    },
+    {
+     "b": "Boyunduruğumu götürün",
+     "ayə": "Matta 11:28–30",
+     "alt": "Ağır yük daşıyan adama kömək edən İsa",
+     "p": [
+      "“Ey bütün yorğunlar və ağır yük daşıyanlar, Mənim yanıma gəlin.” O vaxt fariseylər Qanuna yüzlərlə qayda əlavə edib insanları əzirdilər (23:4).",
+      "İsa yükü yox etmir, [[boyunduruq]]u dəyişir. Boyunduruğu iki öküz birlikdə daşıyır. İsa ilə birlikdə daşıyanda ağırlığı O götürür, biz isə Ondan “öyrənirik”. “Mən həlim və təvazökar ürəkliyəm, boyunduruğumu götürün və Məndən öyrənin.”"
+     ],
+     "deep": {
+      "b": "Dərindən baxaq · Rahatlıq (anapausis)",
+      "p": "Əhdi-Ətiqdə “rahatlıq” Şənbə gününü və vəd olunmuş torpağı bildirir. Elə növbəti 12-ci fəsil Şənbə mübahisəsidir. İsa Şənbənin əsl rahatlığını verən Şənbənin Rəbbidir."
+     }
+    }
+   ],
+   "cedvel": {
+    "b": "İki boyunduruq",
+    "alt": "11:28–30 · 23:4",
+    "bas": [
+     "",
+     "İnsanların qoyduğu boyunduruq",
+     "İsanın boyunduruğu"
+    ],
+    "set": [
+     [
+      "Görünüş",
+      "Ağır yükü başqasının çiyninə qoyur",
+      "Birlikdə daşıyır, ağırlığı Özü götürür"
+     ],
+     [
+      "Münasibət",
+      "Barmağını belə tərpətmir",
+      "Həlim və təvazökar"
+     ],
+     [
+      "Nəticə",
+      "Yorğunluq və ümidsizlik",
+      "Ürəyin rahatlığı"
+     ],
+     [
+      "Əlaqə",
+      "Qayda yerinə yetirmək zəhməti",
+      "İsadan öyrənən yoldaşlıq"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "“Ey bütün yorğunlar və ağır yük daşıyanlar, Mənim yanıma gəlin, Mən sizə rahatlıq verəcəyəm. Boyunduruğumu götürün və Məndən öyrənin, çünki Mən həlim və təvazökar ürəkliyəm. Beləcə canınıza rahatlıq taparsınız.”",
+    "ref": "11:28–29"
+   },
+   "lugat": {
+    "Müjdə": {
+     "i": "📣",
+     "o": "Yunanca evangelizo, “yaxşı xəbər çatdırmaq”",
+     "x": "복음",
+     "s": "Yoxsullara çatdırılan xəbər",
+     "m": "Yeşaya 61:1-in yerinə yetməsidir. İsa Nazaret sinaqoqunda da bu sözü oxumuşdu (Luka 4:18).",
+     "e": "Məsihin əlaməti hərbi güc deyil, bərpa və sevincli xəbər idi."
+    },
+    "körpə": {
+     "i": "🧒",
+     "o": "Yunanca nepios, “danışa bilməyən uşaq”",
+     "x": "어린아이",
+     "s": "Öyrənməyə ürəyi açıq insan",
+     "m": "Biliyi və mövqeyi olmayan insanları bildirir. Şagirdlər də Qanun məktəbini bitirməmiş “körpələr” kimi idilər.",
+     "e": "18:3-dəki “dönüb uşaqlar kimi olmasanız” sözü ilə bağlıdır."
+    },
+    "boyunduruq": {
+     "i": "🐂",
+     "o": "Yunanca ziqos",
+     "x": "멍에",
+     "s": "Təlim və yaşayış tərzi",
+     "m": "Yəhudi yazılarında “Qanunun boyunduruğu” ravvinin təliminə tabe olmaq demək idi. İsa Öz təlimini boyunduruq kimi verir.",
+     "e": "Dülgər olan İsa bəlkə də boyunduruqları özü düzəldirdi."
+    },
+    "rahatlıq": {
+     "i": "🛌",
+     "o": "Yunanca anapausis",
+     "x": "쉼",
+     "s": "Dinclik, bərpa",
+     "m": "Sadəcə işi dayandırmaq deyil, Allahda yenidən nəfəs almaq və bərpa olmaqdır.",
+     "e": "Yeremya 6:16-dakı “canınıza rahatlıq taparsınız” sözündən sitatdır."
+    }
+   },
+   "test": [
+    {
+     "q": "Vəftizçi Yəhyanın zindandan göndərdiyi sual nə idi?",
+     "o": [
+      "Gəlməli olan Sənsənmi?",
+      "Məni nə vaxt çıxaracaqsan?",
+      "Niyə oruc tutmursan?"
+     ],
+     "a": 0,
+     "f": "Düzdür. Böyük peyğəmbər də sual verdi."
+    },
+    {
+     "q": "İsanın cavabı əsasən hansı kitabın peyğəmbərliklərini birləşdirir?",
+     "o": [
+      "Yeşaya",
+      "Levililər",
+      "Süleymanın Məsəlləri"
+     ],
+     "a": 0,
+     "f": "Düzdür. Yeşaya 35 və 61."
+    },
+    {
+     "q": "Çox möcüzə görüb tövbə etməyən şəhər olmayan hansıdır?",
+     "o": [
+      "Yerusəlim",
+      "Korazin",
+      "Kəfərnahum"
+     ],
+     "a": 0,
+     "f": "Düzdür. Korazin, Bet-Sayda və Kəfərnahum idi."
+    },
+    {
+     "q": "İsa nəyə görə şükür etdi?",
+     "o": [
+      "Körpələrə açıldığı üçün",
+      "Çox adam toplandığı üçün",
+      "Roma getdiyi üçün"
+     ],
+     "a": 0,
+     "f": "Düzdür. Təvazökarlara açılır."
+    },
+    {
+     "q": "Boyunduruğun xüsusiyyəti hansıdır?",
+     "o": [
+      "İkisinin birlikdə daşıdığı şey",
+      "Təkbaşına daşınan yük",
+      "Cəza aləti"
+     ],
+     "a": 0,
+     "f": "Düzdür. İsa ilə birlikdə daşıyırıq."
+    }
+   ],
+   "paylas": [
+    "Yəhya kimi “İsa həqiqətən Odurmu?” deyə şübhə etdiyin olubmu? O vaxt nə etdin?",
+    "Mənim “tütək çalınanda oynamayan” halım hansı vaxtlardır?",
+    "İndi məni ən çox yoran “yük” nədir? Bu, kimin qoyduğu boyunduruqdur?",
+    "İsadan “öyrənmək” mənim günümdə necə görünə bilər?"
+   ],
+   "etiraf": {
+    "b": "Mənim etirafım",
+    "p": "İsanın “yanıma gəlin” dəvətinə cavab verən qısa məktub yaz.",
+    "ph": "Məsələn: İsa, bu günlərdə çox yorulmuşam. İmtahanlar və münasibətlər üzündən … İndi Sənin yanına gəlirəm."
+   },
+   "dua": "İsa, şübhə edən Yəhyanı danlamayan və yorğunları “yanıma gəlin” deyə çağıran Sənə şükür edirəm. Ürəyimdəki ağır yükü yerə qoyub Sənin boyunduruğunu götürüm. Həlim və təvazökar olan Səndən öyrənərək əsl rahatlıq tapım. İsa Məsihin adı ilə dua edirəm. Amin."
+  }
+ },
+ "muellim": {
+  "mesaj": "15과의 중심은 한 문장입니다. **의심하고 지친 사람에게 예수님은 정답보다 먼저 초대를 건네신다. 내게로 와서 나의 멍에를 메고 배우라.**",
+  "hazirliq": [
+   "학생용 교재를 열 휴대폰이나 태블릿, 이어폰",
+   "무거운 가방 하나 (짐 내려놓기 체험)",
+   "멍에 그림이나 사진"
   ],
-  "paylas": ["Yəhya kimi “İsa həqiqətən Odurmu?” deyə şübhə etdiyin olubmu? O vaxt nə etdin?", "Mənim “tütək çalınanda oynamayan” halım hansı vaxtlardır?", "İndi məni ən çox yoran “yük” nədir? Bu, kimin qoyduğu boyunduruqdur?", "İsadan “öyrənmək” mənim günümdə necə görünə bilər?"],
-  "etiraf": {"b": "Mənim etirafım", "p": "İsanın “yanıma gəlin” dəvətinə cavab verən qısa məktub yaz.", "ph": "Məsələn: İsa, bu günlərdə çox yorulmuşam. İmtahanlar və münasibətlər üzündən … İndi Sənin yanına gəlirəm."},
-  "dua": "İsa, şübhə edən Yəhyanı danlamayan və yorğunları “yanıma gəlin” deyə çağıran Sənə şükür edirəm. Ürəyimdəki ağır yükü yerə qoyub Sənin boyunduruğunu götürüm. Həlim və təvazökar olan Səndən öyrənərək əsl rahatlıq tapım. İsa Məsihin adı ilə dua edirəm. Amin."
+  "fon": [
+   [
+    "1. 요한의 감옥",
+    "요세푸스에 따르면 요한은 사해 동쪽 마케루스 요새에 갇혔습니다. 헤롯 안티파스가 형제의 아내 헤로디아와 결혼한 것을 비판했기 때문입니다(14:3–4)."
+   ],
+   [
+    "2. 메시아 기대",
+    "당시 많은 사람이 정치적·군사적 메시아를 기대했습니다. 예수님의 대답(이사야 35, 61장)은 메시아의 일이 회복과 치유임을 보여 줍니다."
+   ],
+   [
+    "3. 장터 놀이",
+    "아이들이 결혼식 놀이(피리, 춤)와 장례식 놀이(곡하기)를 하던 모습입니다. 어떤 제안에도 반응하지 않는 아이들처럼 그 세대는 무엇에도 응답하지 않았습니다."
+   ],
+   [
+    "4. 멍에",
+    "보통 두 마리 소가 함께 메는 나무 틀입니다. 경험 많은 소와 어린 소를 함께 메워 어린 소가 배우게 했다는 설명도 있습니다. ‘내게 배우라’와 잘 연결됩니다."
+   ],
+   [
+    "5. 그림 안내",
+    "세 번째 장면은 PPT의 ‘어린이를 축복하시는 예수님’(19장) 그림을 함께 씁니다. 11:25의 ‘어린아이들’을 표현하기 위한 것입니다."
+   ]
+  ],
+  "usaq_plan": [
+   [
+    "5분",
+    "무거운 가방",
+    "무거운 가방을 메고 교실 한 바퀴 → 내려놓기",
+    "“짐을 내려놓으니 어때요? 예수님께 마음의 짐도 내려놓을 수 있어요.”"
+   ],
+   [
+    "15분",
+    "장면 1–4 듣고 읽기",
+    "장면마다 듣기, 노란 낱말 누르기",
+    "“요한도 궁금한 게 있었어요. 질문해도 괜찮아요.”"
+   ],
+   [
+    "5분",
+    "외울 말씀",
+    "빈칸 놀이 → ‘내게로 오라’에 두 팔 벌리기",
+    ""
+   ],
+   [
+    "5분",
+    "확인 퀴즈",
+    "혼자 풀고 함께 확인",
+    ""
+   ],
+   [
+    "10분",
+    "활동과 기도",
+    "마음의 짐 고르기 → 조용히 눈 감고 예수님께 드리기",
+    ""
+   ]
+  ],
+  "genc_plan": [
+   [
+    "5분",
+    "열기",
+    "“요즘 피곤 지수 1–10” 손가락으로 표시",
+    ""
+   ],
+   [
+    "15분",
+    "장면 1–2",
+    "요한의 질문, 이사야의 표징, 장터 비유와 회개하지 않는 도시들",
+    ""
+   ],
+   [
+    "10분",
+    "장면 3–4와 멍에 표",
+    "어린아이에게 나타내심, 두 가지 멍에, 쉼",
+    "“내 짐은 누가 지운 멍에인가?”"
+   ],
+   [
+    "5분",
+    "확인 문제",
+    "",
+    ""
+   ],
+   [
+    "15분",
+    "나눔과 고백",
+    "나눔 질문 2개 → 예수님께 편지 → 조용한 기도",
+    ""
+   ]
+  ],
+  "ipucu_usaq": [
+   "‘쉼’을 게으름으로 오해하지 않게, 예수님 품에서 마음이 편해지는 것이라고 설명하세요.",
+   "마음의 짐을 고를 때 깊은 고민을 말하는 아이가 있으면 수업 뒤 따로 들어 주세요.",
+   "요한의 의심 이야기는 ‘질문해도 괜찮아요’로 따뜻하게 다루세요."
+  ],
+  "ipucu_genc": [
+   "의심을 고백하는 학생을 성급히 고치려 하지 마세요. 요한처럼 질문을 예수님께 가져가도록 도와주세요.",
+   "번아웃, 학업 스트레스가 큰 학생에게 이 본문은 큰 위로가 됩니다. 실제 휴식 습관(잠, 안식일)도 함께 이야기해 보세요.",
+   "다음 과(12장)는 안식일 논쟁입니다. ‘쉼’의 주제가 이어진다고 예고하세요."
+  ],
+  "suallar": [
+   [
+    "세례 요한은 왜 예수님을 의심했어요?",
+    "감옥에 오래 있어서 많이 힘들고 궁금했어요. 그래서 예수님께 직접 물어봤어요.",
+    "요한은 심판하는 메시아를 기대했는데 예수님은 치유하고 용서하셨어요. 기대와 달라서 혼란스러웠어요. 예수님은 그 질문을 존중하셨어요."
+   ],
+   [
+    "예수님께 가면 숙제가 없어져요?",
+    "숙제는 그대로 있지만, 예수님이 함께하셔서 마음이 가벼워져요.",
+    "예수님은 짐을 없애기보다 멍에를 바꿔 주세요. 같은 일도 예수님과 함께하면 다르게 지게 돼요."
+   ],
+   [
+    "왜 똑똑한 사람에게는 숨기세요?",
+    "하나님은 똑똑한 사람을 싫어하시지 않아요. 잘난 척하는 마음이 하나님을 못 보게 해요.",
+    "문제는 지식이 아니라 교만이에요. 겸손하게 배우려는 사람이라면 학자도 ‘어린아이’가 될 수 있어요(예: 니고데모)."
+   ]
+  ]
+ },
+ "ru": {
+  "usaq": {
+   "basliq": "Придите ко Мне все",
+   "hedef": [
+    "Мы узнаем, как Иисус ответил на вопрос Иоанна Крестителя из темницы.",
+    "Узнаем, что Бог открывает Царство Небесное младенцам.",
+    "Научимся приходить к Иисусу, когда устали, и находить у Него покой."
+   ],
+   "sehneler": [
+    {
+     "b": "Вопрос из темницы",
+     "ayə": "Матфей 11:1–6",
+     "alt": "Иоанн Креститель разговаривает с учениками в темнице",
+     "p": [
+      "Иоанн Креститель оказался в [[темницу|темница]] из-за царя Ирода. Иоанн послал своих учеников спросить: «Ты ли Тот, Кто должен прийти?»",
+      "Иисус ответил: «Пойдите, расскажите, что вы видите и слышите: слепые видят, хромые ходят, а бедным возвещается [[Евангелие]].» Иисус и есть Тот, Кто должен был прийти."
+     ]
+    },
+    {
+     "b": "Мы играли на свирели, но...",
+     "ayə": "Матфей 11:16–19",
+     "alt": "Дети на рынке играют на свирели, а другие не танцуют",
+     "p": [
+      "Иисус рассказал о детях на рынке: «Мы играли вам на [[свирели|свирель]], и вы не плясали; мы пели вам печальные песни, и вы не плакали».",
+      "Людям не нравился ни Иоанн, ни Иисус. Что бы ни происходило, они не открывали свои сердца."
+     ]
+    },
+    {
+     "b": "Ты открыл младенцам",
+     "ayə": "Матфей 11:25–27",
+     "alt": "Иисус обнимает детей и молится",
+     "p": [
+      "Иисус молился: «Отец, благодарю Тебя за то, что Ты утаил это от мудрых и разумных и открыл младенцам».",
+      "Царство Небесное понимают не просто умные люди, а те, кто открывает сердце, как ребёнок. Это больше, чем любая [[мудрость]]."
+     ]
+    },
+    {
+     "b": "Придите ко Мне и отдохните",
+     "ayə": "Матфей 11:28–30",
+     "alt": "Иисус помогает человеку, несущему тяжёлую ношу",
+     "p": [
+      "Иисус сказал: «Придите ко Мне все уставшие и несущие тяжёлое [[бремя]], и Я дам вам покой».",
+      "«Я [[кроток|кроткий]] и смирён сердцем. Моё [[иго]] благо, и бремя Моё легко». Когда мы устаём и приходим к Иисусу, мы находим покой."
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "«Придите ко Мне все труждающиеся и обремененные, и Я успокою вас».",
+    "ref": "11:28",
+    "bos": "«Придите ко Мне все ___ и ___, и Я ___ вас».",
+    "sozler": [
+     "труждающиеся",
+     "обремененные",
+     "успокою"
+    ],
+    "yalan": "накажу"
+   },
+   "lugat": {
+    "темница": {
+     "i": "⛓️",
+     "x": "zindan",
+     "m": "Место, куда сажают людей, которых считают виновными.",
+     "e": "Иоанн Креститель был брошен в темницу."
+    },
+    "Евангелие": {
+     "i": "📣",
+     "x": "Müjdə",
+     "m": "Радостная весть о том, что Иисус пришёл спасти нас.",
+     "e": "Бедным возвещается Евангелие."
+    },
+    "свирель": {
+     "i": "🎶",
+     "x": "tütək",
+     "m": "Музыкальный инструмент, в который дуют, чтобы извлекать звуки.",
+     "e": "Мы играли вам на свирели, а вы не плясали."
+    },
+    "мудрость": {
+     "i": "🦉",
+     "x": "müdriklik",
+     "m": "Способность знать истину и принимать правильные решения.",
+     "e": "Царство Небесное открывается младенцам, а не мудрецам."
+    },
+    "бремя": {
+     "i": "🎒",
+     "x": "yük",
+     "m": "Тяжёлая ноша, которую несут на спине. Тревоги и печали в сердце — это тоже бремя.",
+     "e": "Мы приносим своё тяжёлое бремя к Иисусу."
+    },
+    "кроткий": {
+     "i": "🕊️",
+     "x": "həlim",
+     "m": "Мягкое и доброе сердце.",
+     "e": "Иисус кроток сердцем."
+    },
+    "иго": {
+     "i": "🐂",
+     "x": "boyunduruq",
+     "m": "Деревянная рама, которую надевают на шею двум волам, чтобы они работали вместе.",
+     "e": "Иго Иисуса благое и удобное."
+    }
+   },
+   "test": [
+    {
+     "q": "Откуда Иоанн Креститель послал свой вопрос?",
+     "o": [
+      "Из темницы",
+      "Из храма",
+      "С лодки"
+     ],
+     "a": 0,
+     "f": "Верно! Даже в трудном месте он задавал вопросы Иисусу."
+    },
+    {
+     "q": "Как Иисус ответил Иоанну?",
+     "o": [
+      "Расскажите, что видите и слышите",
+      "Ничего не ответил",
+      "Пошёл к нему Сам"
+     ],
+     "a": 0,
+     "f": "Верно! Дела Иисуса были Его ответом."
+    },
+    {
+     "q": "Кому Бог открыл Своё Царство?",
+     "o": [
+      "Младенцам",
+      "Богачам",
+      "Сильным царям"
+     ],
+     "a": 0,
+     "f": "Верно! Тем, кто открывает Ему своё сердце."
+    },
+    {
+     "q": "Что Иисус сказал тем, кто несёт тяжёлое бремя?",
+     "o": [
+      "Придите ко Мне, и Я успокою вас",
+      "Справляйтесь сами",
+      "Работайте ещё больше"
+     ],
+     "a": 0,
+     "f": "Верно! Рядом с Иисусом мы находим покой."
+    }
+   ],
+   "dusun": [
+    "Что за «тяжёлое бремя» утомляет тебя в эти дни?",
+    "Что значит открыть своё сердце, как ребёнок?",
+    "Как это — прийти к Иисусу и отдохнуть?"
+   ],
+   "fealiyyet": {
+    "ciz": "Нарисуй себя улыбающимся, когда ты отдаёшь свой тяжёлый рюкзак Иисусу.",
+    "b": "Что ты принесёшь Иисусу?",
+    "p": "Выбери груз на сердце, который ты хочешь отдать Иисусу.",
+    "ph": "",
+    "secim": {
+     "basliq": "Что ты принесёшь Иисусу?",
+     "izah": "Нажимай и выбирай. Можно выбрать несколько.",
+     "cumle": "Иисус, я приношу Тебе {x}!",
+     "bos": "свою усталость",
+     "bag": "и",
+     "secimler": [
+      [
+       "😩",
+       "свою усталость"
+      ],
+      [
+       "😢",
+       "свою печаль"
+      ],
+      [
+       "😨",
+       "свой страх"
+      ],
+      [
+       "📚",
+       "свою школьную нагрузку"
+      ],
+      [
+       "😠",
+       "свой гнев"
+      ],
+      [
+       "😔",
+       "своё одиночество"
+      ]
+     ]
+    }
+   },
+   "dua": "Иисус, благодарю Тебя за то, что Ты зовёшь меня, несущего тяжёлое бремя, говоря: «Приди ко Мне». Когда я устаю и мне трудно, помоги мне приходить к Тебе и находить покой. Помоги мне открыть сердце, как ребёнок, и учиться у Тебя. Молюсь во имя Иисуса Христа. Аминь."
+  },
+  "genc": {
+   "basliq": "Дающий покой",
+   "giris": "Даже величайший пророк усомнился, находясь в темнице. Иоанн Креститель спросил: «Действительно ли Ты Тот Самый?» Людям, измученным сомнениями и усталостью, Иисус ещё до ответа предлагает приглашение: придите ко Мне.",
+   "meqsed": [
+    "Понять, кем является Мессия, через вопрос Иоанна Крестителя и ответ Иисуса.",
+    "Уметь объяснить, что значит открытие Царства Небесного «младенцам».",
+    "Применять в своей жизни покой, который приходит, когда мы берём иго Иисуса и учимся у Него."
+   ],
+   "sehneler": [
+    {
+     "b": "Сомневающийся Иоанн",
+     "ayə": "Матфей 11:1–15",
+     "alt": "Иоанн Креститель разговаривает с учениками в темнице",
+     "p": [
+      "Иоанн говорил, что Мессия будет судить с топором и огнём (3:10–12). Но Иисус исцеляет больных и сидит за столом с грешниками. Находясь в темнице, Иоанн был в замешательстве.",
+      "Иисус отвечает, объединяя 35-ю и 61-ю главы Исаии: слепые видят, хромые ходят, бедным возвещается [[Евангелие]]. И добавляет: «Блажен, кто не соблазнится о Мне!»"
+     ],
+     "deep": {
+      "b": "Взгляд вглубь · Не упрекнул за сомнение",
+      "p": "Сразу после вопроса Иоанна Иисус хвалит его, говоря: «Из рождённых жёнами не восставал больший Иоанна Крестителя». Сомнение — это не противоположность веры. Иоанн принёс свои сомнения к Иисусу. Это и есть вера."
+     }
+    },
+    {
+     "b": "Дети на рынке",
+     "ayə": "Матфей 11:16–24",
+     "alt": "Дети на рынке играют на свирели, а другие не танцуют",
+     "p": [
+      "Иисус сравнивает это поколение с детьми, которые отказываются играть: они не присоединяются ни к игре в свадьбу, ни к игре в похороны. Иоанн постился — сказали: «в нём бес»; Иисус ел и пил — сказали: «обжора».",
+      "Хоразин, Вифсаида и Капернаум, видевшие больше всего чудес, не покаялись. Иисус сокрушается об этих городах. Кто много видел, тот несёт большую ответственность."
+     ],
+     "deep": {
+      "b": "Взгляд вглубь · Плод мудрости",
+      "p": "«И оправдана мудрость чадами её» (в некоторых переводах — «делами её») (11:19). Истину доказывает не критика людей, а плоды. Это связано со словами из 7-й главы: «по плодам их узнаете их»."
+     }
+    },
+    {
+     "b": "Открыто младенцам",
+     "ayə": "Матфей 11:25–27",
+     "alt": "Иисус обнимает детей и молится",
+     "p": [
+      "«Славлю Тебя, Отче, Господи неба и земли, что Ты утаил сие от мудрых и разумных и открыл то [[младенцам|младенец]]». В момент отвержения Иисус вместо жалоб возносит благодарность.",
+      "«Никто не знает Сына, кроме Отца; и Отца не знает никто, кроме Сына, и кому Сын хочет открыть». Путь к познанию Бога открывается только через Иисуса."
+     ],
+     "deep": {
+      "b": "Взгляд вглубь · Откровение",
+      "p": "Познание Бога — это не то, чего можно «достичь» учёбой, а то, что Бог «показывает». Поэтому смиренный человек имеет преимущество. Знания ценны, но надменное знание ослепляет.",
+      "rose": true
+     }
+    },
+    {
+     "b": "Возьмите иго Моё",
+     "ayə": "Матфей 11:28–30",
+     "alt": "Иисус помогает человеку, несущему тяжёлую ношу",
+     "p": [
+      "«Придите ко Мне все труждающиеся и обременённые». В то время фарисеи добавляли к Закону сотни правил и угнетали людей (23:4).",
+      "Иисус не уничтожает бремя, Он меняет [[иго]]. Иго несут два вола вместе. Когда мы несём его вместе с Иисусом, Он берёт на Себя тяжесть, а мы «учимся» у Него. «Возьмите иго Моё на себя и научитесь от Меня, ибо Я кроток и смирён сердцем»."
+     ],
+     "deep": {
+      "b": "Взгляд вглубь · Покой (анапаусис)",
+      "p": "В Ветхом Завете «покой» указывает на субботу и обетованную землю. И как раз следующая, 12-я глава, посвящена спору о субботе. Иисус — Господин субботы, дающий истинный субботний [[покой]]."
+     }
+    }
+   ],
+   "cedvel": {
+    "b": "Два ига",
+    "alt": "11:28–30 · 23:4",
+    "bas": [
+     "",
+     "Иго, возложенное людьми",
+     "Иго Иисуса"
+    ],
+    "set": [
+     [
+      "Внешний вид",
+      "Возлагает тяжёлое бремя на чужие плечи",
+      "Несёт вместе с нами, берёт тяжесть на Себя"
+     ],
+     [
+      "Отношение",
+      "Даже пальцем не пошевелит",
+      "Кроток и смирён"
+     ],
+     [
+      "Результат",
+      "Усталость и отчаяние",
+      "Покой для души"
+     ],
+     [
+      "Связь",
+      "Тяжкий труд по исполнению правил",
+      "Общение и ученичество у Иисуса"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "«Придите ко Мне все труждающиеся и обремененные, и Я успокою вас; возьмите иго Мое на себя и научитесь от Меня, ибо Я кроток и смирен сердцем, и найдете покой душам вашим».",
+    "ref": "11:28–29"
+   },
+   "lugat": {
+    "Евангелие": {
+     "i": "📣",
+     "o": "По-гречески «евангелизо», «возвещать благую весть»",
+     "x": "Müjdə",
+     "s": "Весть, возвещаемая бедным",
+     "m": "Это исполнение пророчества из Исаии 61:1. Иисус также читал эти слова в синагоге Назарета (Луки 4:18).",
+     "e": "Признаком Мессии была не военная мощь, а восстановление и радостная весть."
+    },
+    "младенец": {
+     "i": "🧒",
+     "o": "По-гречески «непиос», «несмышлёный ребёнок»",
+     "x": "körpə",
+     "s": "Человек с открытым для обучения сердцем",
+     "m": "Означает людей, не имеющих знаний и положения. Ученики тоже были как «младенцы», не окончившие школу Закона.",
+     "e": "Это связано со словами из 18:3: «если не обратитесь и не будете как дети»."
+    },
+    "иго": {
+     "i": "🐂",
+     "o": "По-гречески «дзигос»",
+     "x": "boyunduruq",
+     "s": "Учение и образ жизни",
+     "m": "В иудейских писаниях «иго Закона» означало подчинение учению раввина. Иисус даёт Своё учение как иго.",
+     "e": "Будучи плотником, Иисус, возможно, Сам изготавливал ирма (ига)."
+    },
+    "покой": {
+     "i": "🛌",
+     "o": "По-гречески «анапаусис»",
+     "x": "rahatlıq",
+     "s": "Успокоение, восстановление",
+     "m": "Это не просто прекращение работы, а возможность снова свободно дышать и восстанавливаться в Боге.",
+     "e": "Это цитата из Иеремии 6:16: «и найдете покой душам вашим»."
+    }
+   },
+   "test": [
+    {
+     "q": "Какой вопрос послал Иоанн Креститель из темницы?",
+     "o": [
+      "Ты ли Тот, Кто должен прийти?",
+      "Когда Ты вытащишь меня отсюда?",
+      "Почему Ты не постишься?"
+     ],
+     "a": 0,
+     "f": "Верно. Даже великий пророк задавал вопросы."
+    },
+    {
+     "q": "Пророчества из какой книги в основном объединяет ответ Иисуса?",
+     "o": [
+      "Исаия",
+      "Левит",
+      "Притчи Соломона"
+     ],
+     "a": 0,
+     "f": "Верно. 35-я и 61-я главы Исаии."
+    },
+    {
+     "q": "Какой город НЕ входит в число тех, что видели много чудес, но не покаялись?",
+     "o": [
+      "Иерусалим",
+      "Хоразин",
+      "Капернаум"
+     ],
+     "a": 0,
+     "f": "Верно. Это были Хоразин, Вифсаида и Капернаум."
+    },
+    {
+     "q": "За что Иисус вознёс благодарность?",
+     "o": [
+      "За то, что открыто младенцам",
+      "За то, что собралось много людей",
+      "За то, что римляне ушли"
+     ],
+     "a": 0,
+     "f": "Верно. Истина открывается смиренным."
+    },
+    {
+     "q": "В чём особенность ига?",
+     "o": [
+      "Его несут двое вместе",
+      "Это ноша, которую несут в одиночку",
+      "Это орудие наказания"
+     ],
+     "a": 0,
+     "f": "Верно. Мы несём его вместе с Иисусом."
+    }
+   ],
+   "paylas": [
+    "Случалось ли тебе, как Иоанну, сомневаться: «Действительно ли Иисус — Тот Самый?» Что ты тогда делал?",
+    "В какие моменты я веду себя как те, кто «не пляшет, когда играют на свирели»?",
+    "Какое «бремя» сейчас утомляет меня больше всего? Чьё это иго?",
+    "Как может выглядеть «ученичество» у Иисуса в моей повседневной жизни?"
+   ],
+   "etiraf": {
+    "b": "Моё признание",
+    "p": "Напиши короткое письмо в ответ на приглашение Иисуса «придите ко Мне».",
+    "ph": "Например: Иисус, в эти дни я очень устал. Из-за экзаменов и отношений... Сейчас я прихожу к Тебе."
+   },
+   "dua": "Иисус, благодарю Тебя за то, что Ты не упрекаешь сомневающегося Иоанна и зовёшь уставших: «Придите ко Мне». Помоги мне сложить тяжёлое бремя с моего сердца и взять Твоё иго. Помоги мне учиться у Тебя, кроткого и смирённого, и найти истинный покой. Молюсь во имя Иисуса Христа. Аминь."
+  }
+ },
+ "en": {
+  "usaq": {
+   "basliq": "Come to Me, All of You",
+   "hedef": [
+    "We will learn how Jesus answered John the Baptist's question from prison.",
+    "We will learn that God reveals His Kingdom to little children.",
+    "We will learn to go to Jesus and find rest when we are tired."
+   ],
+   "sehneler": [
+    {
+     "b": "A Question from Prison",
+     "ayə": "Matthew 11:1–6",
+     "alt": "John the Baptist talking to his disciples in prison",
+     "p": [
+      "John the Baptist was put in [[prison]] by King Herod. John sent his disciples to ask: “Are You the one who is to come?”",
+      "Jesus answered: “Go and tell what you hear and see: the blind see, the lame walk, and the [[Gospel]] is preached to the poor.” Jesus is the one who was to come."
+     ]
+    },
+    {
+     "b": "We Played the Flute, But...",
+     "ayə": "Matthew 11:16–19",
+     "alt": "Children playing the flute in the market and children not dancing",
+     "p": [
+      "Jesus talked about children in the market: “We played the [[flute]] for you, and you didn't dance. We sang a sad song, and you didn't cry.”",
+      "The people didn't like John, and they didn't like Jesus either. No matter what happened, they didn't open their hearts."
+     ]
+    },
+    {
+     "b": "Revealed to Little Children",
+     "ayə": "Matthew 11:25–27",
+     "alt": "Jesus hugging children and praying",
+     "p": [
+      "Jesus prayed: “Father, I thank You that You have hidden these things from the wise and smart, and revealed them to little children.”",
+      "God's Kingdom is understood not by smart people, but by those who open their hearts like a child. This is greater than [[wisdom]]."
+     ]
+    },
+    {
+     "b": "Come to Me and Rest",
+     "ayə": "Matthew 11:28–30",
+     "alt": "Jesus helping a man carrying a heavy burden",
+     "p": [
+      "Jesus said: “Come to Me, all you who are tired and carry heavy [[burdens|burden]], and I will give you rest.”",
+      "“I am [[gentle]] and humble in heart. My [[yoke]] is easy, and my burden is light.” When we are tired, we find peace by going to Jesus."
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "“Come to Me, all you who are tired and carry heavy burdens, and I will give you rest.”",
+    "ref": "11:28",
+    "bos": "Come to ___, all you who are tired and carry heavy ___, and I will give you ___.",
+    "sozler": [
+     "Me",
+     "burdens",
+     "rest"
+    ],
+    "yalan": "work"
+   },
+   "lugat": {
+    "prison": {
+     "i": "⛓️",
+     "x": "zindan",
+     "m": "A place where people who are considered guilty are kept.",
+     "e": "John the Baptist was put in prison."
+    },
+    "Gospel": {
+     "i": "📣",
+     "x": "Müjdə",
+     "m": "The joyful news that Jesus came to save us.",
+     "e": "The Gospel is preached to the poor."
+    },
+    "flute": {
+     "i": "🎶",
+     "x": "tütək",
+     "m": "A musical instrument played by blowing air into it.",
+     "e": "We played the flute, and you didn't dance."
+    },
+    "wisdom": {
+     "i": "🦉",
+     "x": "müdriklik",
+     "m": "The ability to know what is right and make good choices.",
+     "e": "God's Kingdom is revealed to little children, not by human wisdom."
+    },
+    "burden": {
+     "i": "🎒",
+     "x": "yük",
+     "m": "A heavy thing carried on the back. Worries and sadness in the heart are also a burden.",
+     "e": "We bring our heavy burden to Jesus."
+    },
+    "gentle": {
+     "i": "🕊️",
+     "x": "həlim",
+     "m": "A soft and kind heart.",
+     "e": "Jesus has a gentle heart."
+    },
+    "yoke": {
+     "i": "🐂",
+     "x": "boyunduruq",
+     "m": "A wooden frame put on the necks of two oxen so they can work together.",
+     "e": "Jesus' yoke is easy."
+    }
+   },
+   "test": [
+    {
+     "q": "Where did John the Baptist send his question from?",
+     "o": [
+      "From prison",
+      "From the temple",
+      "From a boat"
+     ],
+     "a": 0,
+     "f": "Right! Even in a hard place, he asked Jesus a question."
+    },
+    {
+     "q": "How did Jesus answer John?",
+     "o": [
+      "Tell what you hear and see",
+      "He didn't answer",
+      "He went there Himself"
+     ],
+     "a": 0,
+     "f": "Right! Jesus' actions were the answer."
+    },
+    {
+     "q": "To whom did God reveal His Kingdom?",
+     "o": [
+      "To little children",
+      "To rich people",
+      "To strong kings"
+     ],
+     "a": 0,
+     "f": "Right! To those who open their hearts."
+    },
+    {
+     "q": "What did Jesus say to those carrying heavy burdens?",
+     "o": [
+      "Come to Me, and I will give you rest",
+      "Solve it yourself",
+      "Work harder"
+     ],
+     "a": 0,
+     "f": "Right! There is peace with Jesus."
+    }
+   ],
+   "dusun": [
+    "What is the 'heavy burden' that makes you tired these days?",
+    "What does it mean to open your heart like a child?",
+    "How do we go to Jesus and rest?"
+   ],
+   "fealiyyet": {
+    "ciz": "Draw yourself smiling after giving your heavy backpack to Jesus.",
+    "b": "What will you bring to Jesus?",
+    "p": "Choose the burden in your heart that you want to give to Jesus.",
+    "ph": "",
+    "secim": {
+     "basliq": "What will you bring to Jesus?",
+     "izah": "Tap to choose. You can choose more than one.",
+     "cumle": "Jesus, I bring my {x} to You!",
+     "bos": "tiredness",
+     "bag": "and",
+     "secimler": [
+      [
+       "😩",
+       "tiredness"
+      ],
+      [
+       "😢",
+       "sadness"
+      ],
+      [
+       "😨",
+       "fears"
+      ],
+      [
+       "📚",
+       "schoolwork"
+      ],
+      [
+       "😠",
+       "anger"
+      ],
+      [
+       "😔",
+       "loneliness"
+      ]
+     ]
+    }
+   },
+   "dua": "Jesus, thank You for calling me to 'come to Me' when I carry a heavy burden. When I am tired and in trouble, let me come to You and rest. Help me to open my heart like a child and learn from You. I pray in the name of Jesus Christ. Amen."
+  },
+  "genc": {
+   "basliq": "The One Who Gives Rest",
+   "giris": "Even the greatest prophet hesitated in prison. John the Baptist asked, “Are You really the One?” To people exhausted by doubt and weariness, Jesus offers an invitation before giving an answer: come to Me.",
+   "meqsed": [
+    "We understand the identity of the Messiah through John the Baptist's question and Jesus' answer.",
+    "We can explain what it means that God's Kingdom is revealed to 'little children'.",
+    "We apply the rest that comes from taking Jesus' yoke and learning from Him to our lives."
+   ],
+   "sehneler": [
+    {
+     "b": "John Hesitates",
+     "ayə": "Matthew 11:1–15",
+     "alt": "John the Baptist talking to his disciples in prison",
+     "p": [
+      "John had said the Messiah would judge with an ax and fire (3:10–12). But Jesus was healing the sick and eating with sinners. In prison, John was confused.",
+      "Jesus answers by combining Isaiah 35 and 61: the blind see, the lame walk, and the [[Gospel]] is preached to the poor. And He says: “Blessed is he who doesn't stumble because of Me!”"
+     ],
+     "deep": {
+      "b": "Look Deeper · He Didn't Scold the Doubt",
+      "p": "Right after John's question, Jesus praises him, saying, 'Among those born of women there has not risen anyone greater than John.' Doubt is not the opposite of faith. John took his doubt and went to Jesus. That is faith."
+     }
+    },
+    {
+     "b": "Children in the Market",
+     "ayə": "Matthew 11:16–24",
+     "alt": "Children playing the flute in the market and children not dancing",
+     "p": [
+      "Jesus compares that generation to children refusing to play: they won't join a wedding game or a funeral game. John fasted, and they said, 'He has a demon'; Jesus ate and drank, and they said, 'He is a glutton.'",
+      "Chorazin, Bethsaida, and Capernaum, which saw the most miracles, did not repent. Jesus sighs over these cities. Those who see much bear much responsibility."
+     ],
+     "deep": {
+      "b": "Look Deeper · The Fruit of Wisdom",
+      "p": "“Wisdom is proved right by her actions” (11:19). Truth is proven by fruit, not by people's criticism. This connects to the words in chapter 7, “by their fruit you will recognize them.”"
+     }
+    },
+    {
+     "b": "Revealed to Little Children",
+     "ayə": "Matthew 11:25–27",
+     "alt": "Jesus hugging children and praying",
+     "p": [
+      "“I thank You, Father, Lord of heaven and earth, that You have hidden these things from the wise and understanding, and revealed them to [[little children|little child]].” At the moment of rejection, Jesus gives thanks instead of complaining.",
+      "“No one knows the Son except the Father. No one knows the Father except the Son, and anyone to whom the Son desires to reveal Him.” The way to know God is opened only through Jesus."
+     ],
+     "deep": {
+      "b": "Look Deeper · Revelation",
+      "p": "Knowing God is not something 'achieved' by studying, but something God 'shows'. Therefore, a humble person has the advantage. Knowledge is valuable, but proud knowledge blinds the eyes.",
+      "rose": true
+     }
+    },
+    {
+     "b": "Take My Yoke",
+     "ayə": "Matthew 11:28–30",
+     "alt": "Jesus helping a man carrying a heavy burden",
+     "p": [
+      "“Come to Me, all you who labor and are heavily burdened.” At that time, the Pharisees added hundreds of rules to the Law, crushing the people (23:4).",
+      "Jesus doesn't make the burden disappear; He changes the [[yoke]]. A yoke is carried by two oxen together. When we carry it with Jesus, He takes the weight, and we 'learn' from Him. “I am gentle and humble in heart; take My yoke upon you and learn from Me.”"
+     ],
+     "deep": {
+      "b": "Look Deeper · Rest (Anapausis)",
+      "p": "In the Old Testament, 'rest' refers to the Sabbath and the Promised Land. The very next chapter, 12, is about a Sabbath dispute. Jesus is the Lord of the Sabbath who gives the true rest of the Sabbath."
+     }
+    }
+   ],
+   "cedvel": {
+    "b": "Two Yokes",
+    "alt": "11:28–30 · 23:4",
+    "bas": [
+     "",
+     "The Yoke Placed by People",
+     "Jesus' Yoke"
+    ],
+    "set": [
+     [
+      "Appearance",
+      "Puts a heavy burden on someone else's shoulders",
+      "Carries it together, takes the weight Himself"
+     ],
+     [
+      "Attitude",
+      "Doesn't lift a finger",
+      "Gentle and humble"
+     ],
+     [
+      "Result",
+      "Weariness and despair",
+      "Rest for the heart"
+     ],
+     [
+      "Relationship",
+      "The labor of following rules",
+      "Companionship learning from Jesus"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "“Come to Me, all you who labor and are heavily burdened, and I will give you rest. Take My yoke upon you and learn from Me, for I am gentle and humble in heart; and you will find rest for your souls.”",
+    "ref": "11:28–29"
+   },
+   "lugat": {
+    "Gospel": {
+     "i": "📣",
+     "o": "Greek evangelizo, 'to bring good news'",
+     "x": "Müjdə",
+     "s": "The news preached to the poor",
+     "m": "It is the fulfillment of Isaiah 61:1. Jesus also read these words in the synagogue in Nazareth (Luke 4:18).",
+     "e": "The sign of the Messiah was not military power, but restoration and joyful news."
+    },
+    "little child": {
+     "i": "🧒",
+     "o": "Greek nepios, 'an infant who cannot speak'",
+     "x": "körpə",
+     "s": "A person with an open heart to learn",
+     "m": "It refers to people without knowledge or status. The disciples were also like 'little children' who had not graduated from the Law school.",
+     "e": "It connects to the words in 18:3, 'unless you turn and become as little children'."
+    },
+    "yoke": {
+     "i": "🐂",
+     "o": "Greek zygos",
+     "x": "boyunduruq",
+     "s": "Teaching and way of life",
+     "m": "In Jewish writings, the 'yoke of the Law' meant submitting to a rabbi's teaching. Jesus gives His own teaching as a yoke.",
+     "e": "As a carpenter, Jesus might have made yokes Himself."
+    },
+    "rest": {
+     "i": "🛌",
+     "o": "Greek anapausis",
+     "x": "rahatlıq",
+     "s": "Peace, restoration",
+     "m": "It is not just stopping work, but breathing again and being restored in God.",
+     "e": "It is a quote from Jeremiah 6:16, 'you will find rest for your souls'."
+    }
+   },
+   "test": [
+    {
+     "q": "What was the question John the Baptist sent from prison?",
+     "o": [
+      "Are You the one who is to come?",
+      "When will You get me out?",
+      "Why don't You fast?"
+     ],
+     "a": 0,
+     "f": "Right. Even a great prophet asked questions."
+    },
+    {
+     "q": "Jesus' answer mainly combines the prophecies of which book?",
+     "o": [
+      "Isaiah",
+      "Leviticus",
+      "Proverbs"
+     ],
+     "a": 0,
+     "f": "Right. Isaiah 35 and 61."
+    },
+    {
+     "q": "Which of the following is NOT a city that saw many miracles but did not repent?",
+     "o": [
+      "Jerusalem",
+      "Chorazin",
+      "Capernaum"
+     ],
+     "a": 0,
+     "f": "Right. It was Chorazin, Bethsaida, and Capernaum."
+    },
+    {
+     "q": "Why did Jesus give thanks?",
+     "o": [
+      "Because it was revealed to little children",
+      "Because many people gathered",
+      "Because Rome retreated"
+     ],
+     "a": 0,
+     "f": "Right. It is revealed to the humble."
+    },
+    {
+     "q": "What is a characteristic of a yoke?",
+     "o": [
+      "Something carried by two together",
+      "A burden carried alone",
+      "A tool for punishment"
+     ],
+     "a": 0,
+     "f": "Right. We carry it together with Jesus."
+    }
+   ],
+   "paylas": [
+    "Have you ever doubted like John, asking, 'Is Jesus really the One?' What did you do then?",
+    "When are the times I act like I 'don't dance when the flute is played'?",
+    "What is the 'burden' that makes me most tired right now? Whose yoke is this?",
+    "What might 'learning' from Jesus look like in my daily life?"
+   ],
+   "etiraf": {
+    "b": "My Confession",
+    "p": "Write a short letter responding to Jesus' invitation to 'come to Me'.",
+    "ph": "Example: Jesus, I am very tired these days. Because of exams and relationships... I am coming to You now."
+   },
+   "dua": "Jesus, thank You for not scolding John when he doubted, and for calling the weary to 'come to Me'. Let me lay down the heavy burden in my heart and take Your yoke. Let me find true rest by learning from You, who are gentle and humble. I pray in the name of Jesus Christ. Amen."
+  }
  }
-},
-"muellim": {
- "mesaj": "15과의 중심은 한 문장입니다. **의심하고 지친 사람에게 예수님은 정답보다 먼저 초대를 건네신다. 내게로 와서 나의 멍에를 메고 배우라.**",
- "hazirliq": ["학생용 교재를 열 휴대폰이나 태블릿, 이어폰", "무거운 가방 하나 (짐 내려놓기 체험)", "멍에 그림이나 사진"],
- "fon": [
-  ["1. 요한의 감옥", "요세푸스에 따르면 요한은 사해 동쪽 마케루스 요새에 갇혔습니다. 헤롯 안티파스가 형제의 아내 헤로디아와 결혼한 것을 비판했기 때문입니다(14:3–4)."],
-  ["2. 메시아 기대", "당시 많은 사람이 정치적·군사적 메시아를 기대했습니다. 예수님의 대답(이사야 35, 61장)은 메시아의 일이 회복과 치유임을 보여 줍니다."],
-  ["3. 장터 놀이", "아이들이 결혼식 놀이(피리, 춤)와 장례식 놀이(곡하기)를 하던 모습입니다. 어떤 제안에도 반응하지 않는 아이들처럼 그 세대는 무엇에도 응답하지 않았습니다."],
-  ["4. 멍에", "보통 두 마리 소가 함께 메는 나무 틀입니다. 경험 많은 소와 어린 소를 함께 메워 어린 소가 배우게 했다는 설명도 있습니다. ‘내게 배우라’와 잘 연결됩니다."],
-  ["5. 그림 안내", "세 번째 장면은 PPT의 ‘어린이를 축복하시는 예수님’(19장) 그림을 함께 씁니다. 11:25의 ‘어린아이들’을 표현하기 위한 것입니다."]
- ],
- "usaq_plan": [
-  ["5분", "무거운 가방", "무거운 가방을 메고 교실 한 바퀴 → 내려놓기", "“짐을 내려놓으니 어때요? 예수님께 마음의 짐도 내려놓을 수 있어요.”"],
-  ["15분", "장면 1–4 듣고 읽기", "장면마다 듣기, 노란 낱말 누르기", "“요한도 궁금한 게 있었어요. 질문해도 괜찮아요.”"],
-  ["5분", "외울 말씀", "빈칸 놀이 → ‘내게로 오라’에 두 팔 벌리기", ""],
-  ["5분", "확인 퀴즈", "혼자 풀고 함께 확인", ""],
-  ["10분", "활동과 기도", "마음의 짐 고르기 → 조용히 눈 감고 예수님께 드리기", ""]
- ],
- "genc_plan": [
-  ["5분", "열기", "“요즘 피곤 지수 1–10” 손가락으로 표시", ""],
-  ["15분", "장면 1–2", "요한의 질문, 이사야의 표징, 장터 비유와 회개하지 않는 도시들", ""],
-  ["10분", "장면 3–4와 멍에 표", "어린아이에게 나타내심, 두 가지 멍에, 쉼", "“내 짐은 누가 지운 멍에인가?”"],
-  ["5분", "확인 문제", "", ""],
-  ["15분", "나눔과 고백", "나눔 질문 2개 → 예수님께 편지 → 조용한 기도", ""]
- ],
- "ipucu_usaq": ["‘쉼’을 게으름으로 오해하지 않게, 예수님 품에서 마음이 편해지는 것이라고 설명하세요.", "마음의 짐을 고를 때 깊은 고민을 말하는 아이가 있으면 수업 뒤 따로 들어 주세요.", "요한의 의심 이야기는 ‘질문해도 괜찮아요’로 따뜻하게 다루세요."],
- "ipucu_genc": ["의심을 고백하는 학생을 성급히 고치려 하지 마세요. 요한처럼 질문을 예수님께 가져가도록 도와주세요.", "번아웃, 학업 스트레스가 큰 학생에게 이 본문은 큰 위로가 됩니다. 실제 휴식 습관(잠, 안식일)도 함께 이야기해 보세요.", "다음 과(12장)는 안식일 논쟁입니다. ‘쉼’의 주제가 이어진다고 예고하세요."],
- "suallar": [
-  ["세례 요한은 왜 예수님을 의심했어요?", "감옥에 오래 있어서 많이 힘들고 궁금했어요. 그래서 예수님께 직접 물어봤어요.", "요한은 심판하는 메시아를 기대했는데 예수님은 치유하고 용서하셨어요. 기대와 달라서 혼란스러웠어요. 예수님은 그 질문을 존중하셨어요."],
-  ["예수님께 가면 숙제가 없어져요?", "숙제는 그대로 있지만, 예수님이 함께하셔서 마음이 가벼워져요.", "예수님은 짐을 없애기보다 멍에를 바꿔 주세요. 같은 일도 예수님과 함께하면 다르게 지게 돼요."],
-  ["왜 똑똑한 사람에게는 숨기세요?", "하나님은 똑똑한 사람을 싫어하시지 않아요. 잘난 척하는 마음이 하나님을 못 보게 해요.", "문제는 지식이 아니라 교만이에요. 겸손하게 배우려는 사람이라면 학자도 ‘어린아이’가 될 수 있어요(예: 니고데모)."]
- ]
-}
 }

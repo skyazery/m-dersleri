@@ -1,159 +1,1723 @@
 {
-"no": 9, "ref": "6:1–18", "deq": {"usaq": 40, "genc": 50},
-"img": ["matta/09-sedeqe.jpg", "matta/09-otaq.jpg", "matta/09-ata-dua.jpg", "matta/09-bagislama.jpg"],
-"hero": 2,
-"ko": {
- "usaq": {
-  "basliq": "하늘에 계신 우리 아버지",
-  "hedef": ["예수님이 가르쳐 주신 기도를 알아요.", "하나님은 숨어서 하는 일도 보신다는 것을 배워요.", "주기도문으로 하나님 아버지께 기도해요."],
-  "sehneler": [
-   {"b": "몰래 돕기", "ayə": "6:1–4", "alt": "가난한 사람을 조용히 돕는 아이", "p": ["어떤 사람들은 가난한 사람을 도울 때 나팔을 불며 자랑했어요. 사람들에게 칭찬받고 싶었거든요.", "예수님은 말씀하셨어요. “[[구제]]할 때는 오른손이 하는 일을 왼손이 모르게 하세요. 숨어서 하는 일을 보시는 아버지가 갚아 주실 거예요.”"]},
-   {"b": "골방에서 기도해요", "ayə": "6:5–8", "alt": "작은 방에서 문을 닫고 기도하는 아이", "p": ["“기도할 때는 사람들에게 보이려고 길모퉁이에서 기도하지 마세요. 네 [[골방]]에 들어가 문을 닫고 기도하세요.”", "“말을 많이 해야 들으시는 것이 아니에요. 하나님은 구하기 전에 너희에게 필요한 것을 다 아세요.”"]},
-   {"b": "이렇게 기도하세요", "ayə": "6:9–13", "alt": "제자들에게 기도를 가르치시는 예수님", "p": ["예수님이 기도를 가르쳐 주셨어요. 이것을 [[주기도문]]이라고 해요.", "“하늘에 계신 우리 아버지, 이름이 거룩히 여김을 받으시오며, 나라가 임하시오며, 뜻이 하늘에서 이루어진 것같이 땅에서도 이루어지이다. 오늘 우리에게 [[일용할 양식]]을 주시옵고, 우리가 우리에게 죄 지은 자를 사하여 준 것같이 우리 죄를 사하여 주시옵고, 우리를 시험에 들게 하지 마시옵고 다만 악에서 구하시옵소서.”"]},
-   {"b": "용서하는 마음", "ayə": "6:14–18", "alt": "서로 용서하고 안아 주는 형제", "p": ["“너희가 다른 사람의 잘못을 [[용서]]하면, 하늘 아버지도 너희 잘못을 용서해 주실 거예요.”", "[[금식]]할 때도 얼굴을 씻고 밝게 하세요. 사람이 아니라 하나님께 보여 드리는 거예요."]}
-  ],
-  "aye": {"metn": "“하늘에 계신 우리 아버지여, 이름이 거룩히 여김을 받으시오며”", "ref": "6:9", "bos": "___에 계신 우리 ___여, 이름이 ___ 여김을 받으시오며", "sozler": ["하늘", "아버지", "거룩히"], "yalan": "땅"},
-  "lugat": {
-   "구제": {"i": "🎁", "x": "sədəqə", "m": "가난하고 어려운 사람에게 필요한 것을 나눠 주는 거예요.", "e": "구제할 때는 몰래 하세요."},
-   "골방": {"i": "🚪", "x": "otaq", "m": "집 안의 작고 조용한 방이에요.", "e": "골방에 들어가 문을 닫고 기도해요."},
-   "주기도문": {"i": "🙏", "x": "Rəbbin duası", "m": "예수님이 직접 가르쳐 주신 기도예요.", "e": "우리는 예배 때 주기도문을 함께 드려요."},
-   "일용할 양식": {"i": "🍞", "x": "gündəlik çörək", "m": "오늘 하루 먹고 살아가는 데 필요한 음식이에요.", "e": "오늘 우리에게 일용할 양식을 주세요."},
-   "용서": {"i": "🤗", "x": "bağışlamaq", "m": "나에게 잘못한 사람에게 더 이상 벌을 주지 않고 받아 주는 거예요.", "e": "하나님은 우리 죄를 용서해 주세요."},
-   "금식": {"i": "🥣", "x": "oruc", "m": "하나님께 집중하려고 얼마 동안 음식을 먹지 않는 거예요.", "e": "금식할 때도 얼굴을 밝게 해요."}
-  },
-  "test": [
-   {"q": "구제할 때 어떻게 하라고 하셨나요?", "o": ["오른손이 하는 일을 왼손이 모르게", "나팔을 불면서", "사진을 찍어서"], "a": 0, "f": "맞아요! 하나님은 숨어서 하는 일도 보세요."},
-   {"q": "예수님은 어디에서 기도하라고 하셨나요?", "o": ["골방에서 문을 닫고", "길모퉁이에서 크게", "시장 한가운데서"], "a": 0, "f": "맞아요! 하나님과 단둘이 이야기해요."},
-   {"q": "주기도문에서 ‘오늘’ 달라고 하는 것은?", "o": ["일용할 양식", "큰 집", "새 장난감"], "a": 0, "f": "맞아요! 오늘 필요한 것을 구해요."},
-   {"q": "우리가 다른 사람을 용서하면?", "o": ["하늘 아버지도 우리를 용서해 주세요", "아무 일도 없어요", "친구가 화를 내요"], "a": 0, "f": "맞아요! 용서는 하나님의 마음이에요."}
-  ],
-  "dusun": ["하나님을 ‘아버지’라고 부를 수 있다는 것은 어떤 기분이에요?", "주기도문에서 가장 마음에 드는 부분은 어디예요?", "내가 용서해야 할 사람이 있나요?"],
-  "fealiyyet": {"ciz": "골방에서 하나님 아버지께 기도하는 나를 그려 보세요.", "b": "나의 기도 제목", "p": "하나님 아버지께 기도하고 싶은 것을 써 보세요.", "ph": "예) 아픈 할머니가 낫게 해 주세요."},
-  "dua": "하늘에 계신 우리 아버지, 저를 자녀로 불러 주시고 기도를 가르쳐 주셔서 감사합니다. 사람에게 보이려고 하지 않고 아버지께만 보여 드리게 해 주세요. 제게 잘못한 친구를 용서하게 해 주세요. 예수님 이름으로 기도합니다. 아멘."
+ "no": 9,
+ "ref": "6:1–18",
+ "deq": {
+  "usaq": 40,
+  "genc": 50
  },
- "genc": {
-  "basliq": "아버지께 드리는 기도",
-  "giris": "좋아요 수, 팔로워, 조회수. 우리는 ‘보이는 것’에 익숙합니다. 예수님은 신앙의 세 기둥인 구제, 기도, 금식을 말씀하시며 같은 질문을 던지셨습니다. 너는 누구에게 보이려고 하느냐?",
-  "meqsed": ["구제·기도·금식에 담긴 ‘보이기 위한 신앙’의 위험을 이해해요.", "주기도문의 구조와 각 간구의 뜻을 설명할 수 있어요.", "주기도문을 내 말로 풀어 하나님께 기도해요."],
-  "sehneler": [
-   {"b": "누구에게 보이려고?", "ayə": "6:1–4", "alt": "가난한 사람을 조용히 돕는 아이", "p": ["“사람에게 보이려고 그들 앞에서 너희 의를 행하지 않도록 주의하라.” 예수님은 [[외식]]하는 자들이 나팔을 불며 [[구제]]한다고 하세요.", "그들은 “이미 자기 상을 받았다”고 하세요. 사람의 칭찬이 그들이 받을 상의 전부라는 뜻이에요."], "deep": {"b": "깊이 보기 · 세 기둥", "p": "구제, 기도, 금식은 유대교 경건의 세 기둥이었어요. 예수님은 이것을 없애라고 하지 않으셨어요. 세 번 모두 “은밀한 중에 보시는 아버지께서 갚으시리라”는 같은 후렴으로 마무리하세요."}},
-   {"b": "골방과 아버지", "ayə": "6:5–8", "alt": "작은 방에서 문을 닫고 기도하는 아이", "p": ["당시 집에는 곡식이나 도구를 넣어 두는 창고 방, [[골방]]이 있었어요. 창문도 없는 작은 방이에요. 예수님은 그곳에서 문을 닫고 기도하라고 하세요.", "이방인처럼 말을 많이 해야 들으신다고 생각하지 말래요. 하나님은 이미 아시는 ‘아버지’이시기 때문이에요."], "deep": {"b": "깊이 보기 · ‘아버지’", "p": "산상설교에서 ‘아버지’는 17번 나오고, 그중 10번이 6:1–18에 있어요. 기도는 정보를 전달하는 일이 아니라 아버지와의 관계예요."}},
-   {"b": "주기도문", "ayə": "6:9–13", "alt": "제자들에게 기도를 가르치시는 예수님", "p": ["“그러므로 너희는 이렇게 기도하라.” [[주기도문]]은 앞의 세 간구가 ‘아버지의’ 이름·나라·뜻을, 뒤의 세 간구가 ‘우리의’ 양식·죄·시험을 구해요.", "하나님의 일이 먼저 나오고 내 필요가 뒤에 나와요. 그래도 내 필요는 빠지지 않아요. 아버지는 둘 다 관심 있으세요."], "deep": {"b": "깊이 보기 · ‘우리’", "p": "주기도문에는 ‘나’가 한 번도 안 나와요. ‘우리’ 아버지, ‘우리’ 양식, ‘우리’ 죄예요. 골방에서 혼자 기도해도 우리는 하나님 가족 전체와 함께 기도해요."}},
-   {"b": "용서와 금식", "ayə": "6:14–18", "alt": "서로 용서하고 안아 주는 형제", "p": ["예수님은 주기도문 가운데 하나만 다시 설명하세요. [[용서]]예요. “너희가 사람의 잘못을 용서하지 아니하면 너희 아버지께서도 너희 잘못을 용서하지 아니하시리라.”", "금식할 때도 슬픈 표정을 짓지 말고 머리에 기름을 바르고 얼굴을 씻으라고 하세요. 신앙은 연기가 아니에요."], "deep": {"b": "깊이 보기 · 용서는 조건인가?", "p": "용서를 ‘사서’ 받는다는 뜻이 아니에요. 용서받은 사람은 용서하는 사람이 돼요. 용서를 끝까지 거부한다면 하나님의 용서를 정말 받아들였는지 돌아보라는 경고예요(18:21–35).", "rose": true}}
-  ],
-  "cedvel": {"b": "주기도문의 구조", "alt": "6:9–13", "bas": ["간구", "뜻", "나의 말로"], "set": [["이름이 거룩히 여김을 받으시오며", "하나님이 하나님답게 높임받으심", "모든 사람이 하나님을 알게 해 주세요"], ["나라가 임하시오며", "하나님이 왕으로 다스리심", "내 삶의 왕이 되어 주세요"], ["뜻이 이루어지이다", "하나님의 뜻이 먼저", "내 뜻보다 아버지의 뜻을 따르게 해 주세요"], ["일용할 양식을 주시옵고", "오늘의 필요", "오늘 필요한 것을 채워 주세요"], ["우리 죄를 사하여 주시옵고", "용서받고 용서함", "저를 용서하시고 저도 용서하게 해 주세요"], ["시험에 들게 하지 마시옵고", "악에서 지켜 주심", "유혹을 이길 힘을 주세요"]]},
-  "aye": {"metn": "“너는 기도할 때에 네 골방에 들어가 문을 닫고 은밀한 중에 계신 네 아버지께 기도하라. 은밀한 중에 보시는 네 아버지께서 갚으시리라.”", "ref": "6:6"},
-  "lugat": {
-   "외식": {"i": "🎭", "o": "헬라어 휘포크리테스, ‘무대 배우’", "x": "ikiüzlülük", "s": "가면을 쓴 신앙", "m": "원래 가면을 쓰고 연기하는 배우를 가리키던 말이에요. 속과 겉이 다른 신앙이에요.", "e": "영어 hypocrite(위선자)가 이 말에서 나왔어요."},
-   "구제": {"i": "🎁", "o": "헬라어 엘레에모쉬네, ‘자비’", "x": "sədəqə", "s": "가난한 이웃을 돕는 일", "m": "‘자비, 긍휼’에서 나온 말이에요. 돕는 일은 하나님의 자비를 닮는 일이에요.", "e": "아제르바이잔어 ‘sədəqə’도 같은 뜻으로 일상에서 써요."},
-   "골방": {"i": "🚪", "o": "헬라어 타메이온, ‘창고 방’", "x": "otaq", "s": "숨겨진 곳", "m": "곡식이나 귀중품을 두던 집 안쪽의 작은 방이에요.", "e": "예수님은 가장 평범한 장소를 기도의 자리로 만드셨어요."},
-   "주기도문": {"i": "🙏", "o": "‘주님이 가르치신 기도’", "x": "Rəbbin duası", "s": "예수님이 주신 기도의 본", "m": "외워서 반복하는 주문이 아니라 기도의 방향과 순서를 알려 주는 본보기예요.", "e": "초대 교회는 하루 세 번 주기도문을 드렸어요(디다케 8장)."},
-   "용서": {"i": "🤗", "o": "헬라어 아피에미, ‘놓아 주다’", "x": "bağışlamaq", "s": "빚을 탕감함", "m": "붙잡고 있던 빚을 놓아 주는 거예요. 마태는 죄를 ‘빚’으로 표현해요.", "e": "“우리가 우리에게 빚진 자를 탕감하여 준 것같이”가 원래 표현이에요."}
+ "img": [
+  "matta/09-sedeqe.jpg",
+  "matta/09-otaq.jpg",
+  "matta/09-ata-dua.jpg",
+  "matta/09-bagislama.jpg"
+ ],
+ "hero": 2,
+ "ko": {
+  "usaq": {
+   "basliq": "하늘에 계신 우리 아버지",
+   "hedef": [
+    "예수님이 가르쳐 주신 기도를 알아요.",
+    "하나님은 숨어서 하는 일도 보신다는 것을 배워요.",
+    "주기도문으로 하나님 아버지께 기도해요."
+   ],
+   "sehneler": [
+    {
+     "b": "몰래 돕기",
+     "ayə": "6:1–4",
+     "alt": "가난한 사람을 조용히 돕는 아이",
+     "p": [
+      "어떤 사람들은 가난한 사람을 도울 때 나팔을 불며 자랑했어요. 사람들에게 칭찬받고 싶었거든요.",
+      "예수님은 말씀하셨어요. “[[구제]]할 때는 오른손이 하는 일을 왼손이 모르게 하세요. 숨어서 하는 일을 보시는 아버지가 갚아 주실 거예요.”"
+     ]
+    },
+    {
+     "b": "골방에서 기도해요",
+     "ayə": "6:5–8",
+     "alt": "작은 방에서 문을 닫고 기도하는 아이",
+     "p": [
+      "“기도할 때는 사람들에게 보이려고 길모퉁이에서 기도하지 마세요. 네 [[골방]]에 들어가 문을 닫고 기도하세요.”",
+      "“말을 많이 해야 들으시는 것이 아니에요. 하나님은 구하기 전에 너희에게 필요한 것을 다 아세요.”"
+     ]
+    },
+    {
+     "b": "이렇게 기도하세요",
+     "ayə": "6:9–13",
+     "alt": "제자들에게 기도를 가르치시는 예수님",
+     "p": [
+      "예수님이 기도를 가르쳐 주셨어요. 이것을 [[주기도문]]이라고 해요.",
+      "“하늘에 계신 우리 아버지, 이름이 거룩히 여김을 받으시오며, 나라가 임하시오며, 뜻이 하늘에서 이루어진 것같이 땅에서도 이루어지이다. 오늘 우리에게 [[일용할 양식]]을 주시옵고, 우리가 우리에게 죄 지은 자를 사하여 준 것같이 우리 죄를 사하여 주시옵고, 우리를 시험에 들게 하지 마시옵고 다만 악에서 구하시옵소서.”"
+     ]
+    },
+    {
+     "b": "용서하는 마음",
+     "ayə": "6:14–18",
+     "alt": "서로 용서하고 안아 주는 형제",
+     "p": [
+      "“너희가 다른 사람의 잘못을 [[용서]]하면, 하늘 아버지도 너희 잘못을 용서해 주실 거예요.”",
+      "[[금식]]할 때도 얼굴을 씻고 밝게 하세요. 사람이 아니라 하나님께 보여 드리는 거예요."
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "“하늘에 계신 우리 아버지여, 이름이 거룩히 여김을 받으시오며”",
+    "ref": "6:9",
+    "bos": "___에 계신 우리 ___여, 이름이 ___ 여김을 받으시오며",
+    "sozler": [
+     "하늘",
+     "아버지",
+     "거룩히"
+    ],
+    "yalan": "땅"
+   },
+   "lugat": {
+    "구제": {
+     "i": "🎁",
+     "x": "sədəqə",
+     "m": "가난하고 어려운 사람에게 필요한 것을 나눠 주는 거예요.",
+     "e": "구제할 때는 몰래 하세요."
+    },
+    "골방": {
+     "i": "🚪",
+     "x": "otaq",
+     "m": "집 안의 작고 조용한 방이에요.",
+     "e": "골방에 들어가 문을 닫고 기도해요."
+    },
+    "주기도문": {
+     "i": "🙏",
+     "x": "Rəbbin duası",
+     "m": "예수님이 직접 가르쳐 주신 기도예요.",
+     "e": "우리는 예배 때 주기도문을 함께 드려요."
+    },
+    "일용할 양식": {
+     "i": "🍞",
+     "x": "gündəlik çörək",
+     "m": "오늘 하루 먹고 살아가는 데 필요한 음식이에요.",
+     "e": "오늘 우리에게 일용할 양식을 주세요."
+    },
+    "용서": {
+     "i": "🤗",
+     "x": "bağışlamaq",
+     "m": "나에게 잘못한 사람에게 더 이상 벌을 주지 않고 받아 주는 거예요.",
+     "e": "하나님은 우리 죄를 용서해 주세요."
+    },
+    "금식": {
+     "i": "🥣",
+     "x": "oruc",
+     "m": "하나님께 집중하려고 얼마 동안 음식을 먹지 않는 거예요.",
+     "e": "금식할 때도 얼굴을 밝게 해요."
+    }
+   },
+   "test": [
+    {
+     "q": "구제할 때 어떻게 하라고 하셨나요?",
+     "o": [
+      "오른손이 하는 일을 왼손이 모르게",
+      "나팔을 불면서",
+      "사진을 찍어서"
+     ],
+     "a": 0,
+     "f": "맞아요! 하나님은 숨어서 하는 일도 보세요."
+    },
+    {
+     "q": "예수님은 어디에서 기도하라고 하셨나요?",
+     "o": [
+      "골방에서 문을 닫고",
+      "길모퉁이에서 크게",
+      "시장 한가운데서"
+     ],
+     "a": 0,
+     "f": "맞아요! 하나님과 단둘이 이야기해요."
+    },
+    {
+     "q": "주기도문에서 ‘오늘’ 달라고 하는 것은?",
+     "o": [
+      "일용할 양식",
+      "큰 집",
+      "새 장난감"
+     ],
+     "a": 0,
+     "f": "맞아요! 오늘 필요한 것을 구해요."
+    },
+    {
+     "q": "우리가 다른 사람을 용서하면?",
+     "o": [
+      "하늘 아버지도 우리를 용서해 주세요",
+      "아무 일도 없어요",
+      "친구가 화를 내요"
+     ],
+     "a": 0,
+     "f": "맞아요! 용서는 하나님의 마음이에요."
+    }
+   ],
+   "dusun": [
+    "하나님을 ‘아버지’라고 부를 수 있다는 것은 어떤 기분이에요?",
+    "주기도문에서 가장 마음에 드는 부분은 어디예요?",
+    "내가 용서해야 할 사람이 있나요?"
+   ],
+   "fealiyyet": {
+    "ciz": "골방에서 하나님 아버지께 기도하는 나를 그려 보세요.",
+    "b": "나의 기도 제목",
+    "p": "하나님 아버지께 기도하고 싶은 것을 써 보세요.",
+    "ph": "예) 아픈 할머니가 낫게 해 주세요."
+   },
+   "dua": "하늘에 계신 우리 아버지, 저를 자녀로 불러 주시고 기도를 가르쳐 주셔서 감사합니다. 사람에게 보이려고 하지 않고 아버지께만 보여 드리게 해 주세요. 제게 잘못한 친구를 용서하게 해 주세요. 예수님 이름으로 기도합니다. 아멘."
   },
-  "test": [
-   {"q": "예수님이 말씀하신 경건의 세 기둥은?", "o": ["구제·기도·금식", "찬양·설교·헌금", "공부·운동·봉사"], "a": 0, "f": "맞아요. 셋 다 ‘은밀히’ 하라고 하셨어요."},
-   {"q": "‘외식하는 자’라는 말은 원래 무엇을 뜻했나요?", "o": ["무대 배우", "부자", "제사장"], "a": 0, "f": "맞아요. 가면을 쓴 신앙이에요."},
-   {"q": "주기도문 앞의 세 간구의 공통점은?", "o": ["아버지의 이름·나라·뜻", "우리의 양식·죄·시험", "나의 꿈·건강·성적"], "a": 0, "f": "맞아요. 하나님의 일이 먼저예요."},
-   {"q": "주기도문에 한 번도 나오지 않는 말은?", "o": ["나", "우리", "아버지"], "a": 0, "f": "맞아요. 주기도문은 ‘우리’의 기도예요."},
-   {"q": "예수님이 주기도문 뒤에 다시 설명하신 간구는?", "o": ["용서", "양식", "나라"], "a": 0, "f": "맞아요. 용서받은 사람은 용서하는 사람이 돼요."}
-  ],
-  "paylas": ["SNS에 올리지 않았다면 하지 않았을 좋은 일이 있었나요? 솔직하게 나눠 봐요.", "나에게 ‘골방’은 어디인가요? 하나님과 단둘이 있는 시간을 어떻게 만들 수 있을까요?", "주기도문의 여섯 간구 중 지금 나에게 가장 필요한 간구는 무엇인가요?", "용서하기 가장 어려운 이유는 무엇인가요?"],
-  "etiraf": {"b": "나의 주기도문", "p": "위 표를 참고해서 주기도문을 내 말로 풀어 써 보세요.", "ph": "예) 하늘에 계신 아빠 하나님, 오늘 우리 학교에서도 하나님 이름이 …"},
-  "dua": "하늘에 계신 우리 아버지, 보이려는 신앙에서 벗어나 아버지 앞에서 진실하게 살게 해 주세요. 제 필요보다 아버지의 이름과 나라와 뜻을 먼저 구하게 해 주세요. 용서받은 사람으로서 저도 용서하게 해 주세요. 예수님 이름으로 기도합니다. 아멘."
- }
-},
-"az": {
- "usaq": {
-  "basliq": "Göylərdə olan Atamız",
-  "hedef": ["İsanın öyrətdiyi duanı öyrənəcəyik.", "Allahın gizlində etdiyimiz işləri də gördüyünü öyrənəcəyik.", "Rəbbin duası ilə Səmavi Atamıza dua edəcəyik."],
-  "sehneler": [
-   {"b": "Gizlicə kömək", "ayə": "Matta 6:1–4", "alt": "Kasıba sakitcə kömək edən uşaq", "p": ["Bəzi insanlar kasıblara kömək edəndə şeypur çalıb öyünürdülər. Onlar insanların tərifini istəyirdilər.", "İsa dedi: “[[Sədəqə]] verəndə sağ əlinin nə etdiyini sol əlin bilməsin. Gizlində olanı görən Atan sənin əvəzini verəcək.”"]},
-   {"b": "Otağında dua et", "ayə": "Matta 6:5–8", "alt": "Kiçik otaqda qapını bağlayıb dua edən uşaq", "p": ["“Dua edəndə insanlara görünmək üçün küçə tinlərində dua etməyin. Öz [[otağına|otaq]] gir, qapını bağla və dua et.”", "“Çox söz deməklə Allah eşitməz. Siz Ondan diləmədən əvvəl Atanız ehtiyaclarınızı bilir.”"]},
-   {"b": "Belə dua edin", "ayə": "Matta 6:9–13", "alt": "Şagirdlərinə dua etməyi öyrədən İsa", "p": ["İsa dua etməyi öyrətdi. Buna [[Rəbbin duası]] deyilir.", "“Ey göylərdə olan Atamız! Qoy Sənin isminə ehtiram edilsin, qoy Sənin Padşahlığın gəlsin, qoy Sənin iradən göydə olduğu kimi yerdə də yerinə yetsin. [[Gündəlik çörəyimizi|gündəlik çörək]] bu gün bizə ver. Bizə borclu olanları bağışladığımız kimi Sən də borclarımızı bağışla. Bizi sınağa çəkmə, bizi şərdən qoru.”"]},
-   {"b": "Bağışlayan ürək", "ayə": "Matta 6:14–18", "alt": "Bir-birini bağışlayıb qucaqlaşan qardaşlar", "p": ["“Əgər siz insanların təqsirlərini [[bağışlasanız|bağışlamaq]], Səmavi Atanız da sizi bağışlayacaq.”", "[[Oruc]] tutanda da üzünü yu və şən ol. Bunu insanlara deyil, Allaha göstəririk."]}
-  ],
-  "aye": {"metn": "“Ey göylərdə olan Atamız! Qoy Sənin isminə ehtiram edilsin.”", "ref": "6:9", "bos": "Ey ___ olan ___! Qoy Sənin isminə ___ edilsin.", "sozler": ["göylərdə", "Atamız", "ehtiram"], "yalan": "yerdə"},
-  "lugat": {
-   "Sədəqə": {"i": "🎁", "x": "구제", "m": "Kasıb və çətinlikdə olan insanlara lazım olanı verməkdir.", "e": "Sədəqəni gizlicə ver."},
-   "otaq": {"i": "🚪", "x": "골방", "m": "Evin kiçik və sakit otağıdır.", "e": "Otağına gir, qapını bağla və dua et."},
-   "Rəbbin duası": {"i": "🙏", "x": "주기도문", "m": "İsanın Özünün öyrətdiyi duadır.", "e": "İbadətdə Rəbbin duasını birlikdə oxuyuruq."},
-   "gündəlik çörək": {"i": "🍞", "x": "일용할 양식", "m": "Bu gün yaşamaq üçün lazım olan yeməkdir.", "e": "Gündəlik çörəyimizi bu gün bizə ver."},
-   "bağışlamaq": {"i": "🤗", "x": "용서", "m": "Bizə pislik edən adamı cəzalandırmayıb qəbul etməkdir.", "e": "Allah günahlarımızı bağışlayır."},
-   "Oruc": {"i": "🥣", "x": "금식", "m": "Allaha diqqət yetirmək üçün bir müddət yemək yeməməkdir.", "e": "Oruc tutanda da üzünü şən saxla."}
-  },
-  "test": [
-   {"q": "Sədəqə verəndə necə etməliyik?", "o": ["Sağ əlin etdiyini sol əl bilməsin", "Şeypur çalaraq", "Şəkil çəkərək"], "a": 0, "f": "Düzdür! Allah gizlində olanı da görür."},
-   {"q": "İsa harada dua etməyi dedi?", "o": ["Otaqda qapını bağlayıb", "Küçə tinində ucadan", "Bazarın ortasında"], "a": 0, "f": "Düzdür! Allahla təkbətək danışırıq."},
-   {"q": "Rəbbin duasında “bu gün” nə istəyirik?", "o": ["Gündəlik çörəyimizi", "Böyük ev", "Yeni oyuncaq"], "a": 0, "f": "Düzdür! Bu gün lazım olanı istəyirik."},
-   {"q": "Biz başqalarını bağışlasaq nə olar?", "o": ["Səmavi Atamız da bizi bağışlayar", "Heç nə olmaz", "Dostumuz hirslənər"], "a": 0, "f": "Düzdür! Bağışlamaq Allahın ürəyidir."}
-  ],
-  "dusun": ["Allahı “Ata” deyə çağıra bilmək necə hissdir?", "Rəbbin duasında ən çox xoşuna gələn hissə hansıdır?", "Bağışlamalı olduğun biri varmı?"],
-  "fealiyyet": {"ciz": "Otağında Səmavi Atana dua edən özünü çək.", "b": "Nə üçün dua edəcəksən?", "p": "Dua edəcəyin mövzunu seç.", "ph": "",
-   "secim": {"basliq": "Nə üçün dua edəcəksən?", "izah": "Toxun və seç. Bir neçəsini seçə bilərsən.", "cumle": "Mən Səmavi Atama {x} üçün dua edəcəyəm!", "bos": "ailəm", "bag": "və",
-    "secimler": [["👨‍👩‍👧", "ailəm"], ["👫", "dostlarım"], ["🏫", "məktəbim"], ["🤒", "xəstələr"], ["🍞", "gündəlik çörəyimiz"], ["🌍", "ölkəm"], ["🤗", "küsdüyüm adam"], ["⛪", "cəmiyyətimiz"]]}},
-  "dua": "Ey göylərdə olan Atamız, məni övladın adlandırdığın və dua etməyi öyrətdiyin üçün Sənə şükür edirəm. İnsanlara görünmək üçün deyil, yalnız Sənin üçün yaşamağıma kömək et. Mənə pislik edən dostumu bağışlamağıma kömək et. İsa Məsihin adı ilə dua edirəm. Amin."
+  "genc": {
+   "basliq": "아버지께 드리는 기도",
+   "giris": "좋아요 수, 팔로워, 조회수. 우리는 ‘보이는 것’에 익숙합니다. 예수님은 신앙의 세 기둥인 구제, 기도, 금식을 말씀하시며 같은 질문을 던지셨습니다. 너는 누구에게 보이려고 하느냐?",
+   "meqsed": [
+    "구제·기도·금식에 담긴 ‘보이기 위한 신앙’의 위험을 이해해요.",
+    "주기도문의 구조와 각 간구의 뜻을 설명할 수 있어요.",
+    "주기도문을 내 말로 풀어 하나님께 기도해요."
+   ],
+   "sehneler": [
+    {
+     "b": "누구에게 보이려고?",
+     "ayə": "6:1–4",
+     "alt": "가난한 사람을 조용히 돕는 아이",
+     "p": [
+      "“사람에게 보이려고 그들 앞에서 너희 의를 행하지 않도록 주의하라.” 예수님은 [[외식]]하는 자들이 나팔을 불며 [[구제]]한다고 하세요.",
+      "그들은 “이미 자기 상을 받았다”고 하세요. 사람의 칭찬이 그들이 받을 상의 전부라는 뜻이에요."
+     ],
+     "deep": {
+      "b": "깊이 보기 · 세 기둥",
+      "p": "구제, 기도, 금식은 유대교 경건의 세 기둥이었어요. 예수님은 이것을 없애라고 하지 않으셨어요. 세 번 모두 “은밀한 중에 보시는 아버지께서 갚으시리라”는 같은 후렴으로 마무리하세요."
+     }
+    },
+    {
+     "b": "골방과 아버지",
+     "ayə": "6:5–8",
+     "alt": "작은 방에서 문을 닫고 기도하는 아이",
+     "p": [
+      "당시 집에는 곡식이나 도구를 넣어 두는 창고 방, [[골방]]이 있었어요. 창문도 없는 작은 방이에요. 예수님은 그곳에서 문을 닫고 기도하라고 하세요.",
+      "이방인처럼 말을 많이 해야 들으신다고 생각하지 말래요. 하나님은 이미 아시는 ‘아버지’이시기 때문이에요."
+     ],
+     "deep": {
+      "b": "깊이 보기 · ‘아버지’",
+      "p": "산상설교에서 ‘아버지’는 17번 나오고, 그중 10번이 6:1–18에 있어요. 기도는 정보를 전달하는 일이 아니라 아버지와의 관계예요."
+     }
+    },
+    {
+     "b": "주기도문",
+     "ayə": "6:9–13",
+     "alt": "제자들에게 기도를 가르치시는 예수님",
+     "p": [
+      "“그러므로 너희는 이렇게 기도하라.” [[주기도문]]은 앞의 세 간구가 ‘아버지의’ 이름·나라·뜻을, 뒤의 세 간구가 ‘우리의’ 양식·죄·시험을 구해요.",
+      "하나님의 일이 먼저 나오고 내 필요가 뒤에 나와요. 그래도 내 필요는 빠지지 않아요. 아버지는 둘 다 관심 있으세요."
+     ],
+     "deep": {
+      "b": "깊이 보기 · ‘우리’",
+      "p": "주기도문에는 ‘나’가 한 번도 안 나와요. ‘우리’ 아버지, ‘우리’ 양식, ‘우리’ 죄예요. 골방에서 혼자 기도해도 우리는 하나님 가족 전체와 함께 기도해요."
+     }
+    },
+    {
+     "b": "용서와 금식",
+     "ayə": "6:14–18",
+     "alt": "서로 용서하고 안아 주는 형제",
+     "p": [
+      "예수님은 주기도문 가운데 하나만 다시 설명하세요. [[용서]]예요. “너희가 사람의 잘못을 용서하지 아니하면 너희 아버지께서도 너희 잘못을 용서하지 아니하시리라.”",
+      "금식할 때도 슬픈 표정을 짓지 말고 머리에 기름을 바르고 얼굴을 씻으라고 하세요. 신앙은 연기가 아니에요."
+     ],
+     "deep": {
+      "b": "깊이 보기 · 용서는 조건인가?",
+      "p": "용서를 ‘사서’ 받는다는 뜻이 아니에요. 용서받은 사람은 용서하는 사람이 돼요. 용서를 끝까지 거부한다면 하나님의 용서를 정말 받아들였는지 돌아보라는 경고예요(18:21–35).",
+      "rose": true
+     }
+    }
+   ],
+   "cedvel": {
+    "b": "주기도문의 구조",
+    "alt": "6:9–13",
+    "bas": [
+     "간구",
+     "뜻",
+     "나의 말로"
+    ],
+    "set": [
+     [
+      "이름이 거룩히 여김을 받으시오며",
+      "하나님이 하나님답게 높임받으심",
+      "모든 사람이 하나님을 알게 해 주세요"
+     ],
+     [
+      "나라가 임하시오며",
+      "하나님이 왕으로 다스리심",
+      "내 삶의 왕이 되어 주세요"
+     ],
+     [
+      "뜻이 이루어지이다",
+      "하나님의 뜻이 먼저",
+      "내 뜻보다 아버지의 뜻을 따르게 해 주세요"
+     ],
+     [
+      "일용할 양식을 주시옵고",
+      "오늘의 필요",
+      "오늘 필요한 것을 채워 주세요"
+     ],
+     [
+      "우리 죄를 사하여 주시옵고",
+      "용서받고 용서함",
+      "저를 용서하시고 저도 용서하게 해 주세요"
+     ],
+     [
+      "시험에 들게 하지 마시옵고",
+      "악에서 지켜 주심",
+      "유혹을 이길 힘을 주세요"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "“너는 기도할 때에 네 골방에 들어가 문을 닫고 은밀한 중에 계신 네 아버지께 기도하라. 은밀한 중에 보시는 네 아버지께서 갚으시리라.”",
+    "ref": "6:6"
+   },
+   "lugat": {
+    "외식": {
+     "i": "🎭",
+     "o": "헬라어 휘포크리테스, ‘무대 배우’",
+     "x": "ikiüzlülük",
+     "s": "가면을 쓴 신앙",
+     "m": "원래 가면을 쓰고 연기하는 배우를 가리키던 말이에요. 속과 겉이 다른 신앙이에요.",
+     "e": "영어 hypocrite(위선자)가 이 말에서 나왔어요."
+    },
+    "구제": {
+     "i": "🎁",
+     "o": "헬라어 엘레에모쉬네, ‘자비’",
+     "x": "sədəqə",
+     "s": "가난한 이웃을 돕는 일",
+     "m": "‘자비, 긍휼’에서 나온 말이에요. 돕는 일은 하나님의 자비를 닮는 일이에요.",
+     "e": "아제르바이잔어 ‘sədəqə’도 같은 뜻으로 일상에서 써요."
+    },
+    "골방": {
+     "i": "🚪",
+     "o": "헬라어 타메이온, ‘창고 방’",
+     "x": "otaq",
+     "s": "숨겨진 곳",
+     "m": "곡식이나 귀중품을 두던 집 안쪽의 작은 방이에요.",
+     "e": "예수님은 가장 평범한 장소를 기도의 자리로 만드셨어요."
+    },
+    "주기도문": {
+     "i": "🙏",
+     "o": "‘주님이 가르치신 기도’",
+     "x": "Rəbbin duası",
+     "s": "예수님이 주신 기도의 본",
+     "m": "외워서 반복하는 주문이 아니라 기도의 방향과 순서를 알려 주는 본보기예요.",
+     "e": "초대 교회는 하루 세 번 주기도문을 드렸어요(디다케 8장)."
+    },
+    "용서": {
+     "i": "🤗",
+     "o": "헬라어 아피에미, ‘놓아 주다’",
+     "x": "bağışlamaq",
+     "s": "빚을 탕감함",
+     "m": "붙잡고 있던 빚을 놓아 주는 거예요. 마태는 죄를 ‘빚’으로 표현해요.",
+     "e": "“우리가 우리에게 빚진 자를 탕감하여 준 것같이”가 원래 표현이에요."
+    }
+   },
+   "test": [
+    {
+     "q": "예수님이 말씀하신 경건의 세 기둥은?",
+     "o": [
+      "구제·기도·금식",
+      "찬양·설교·헌금",
+      "공부·운동·봉사"
+     ],
+     "a": 0,
+     "f": "맞아요. 셋 다 ‘은밀히’ 하라고 하셨어요."
+    },
+    {
+     "q": "‘외식하는 자’라는 말은 원래 무엇을 뜻했나요?",
+     "o": [
+      "무대 배우",
+      "부자",
+      "제사장"
+     ],
+     "a": 0,
+     "f": "맞아요. 가면을 쓴 신앙이에요."
+    },
+    {
+     "q": "주기도문 앞의 세 간구의 공통점은?",
+     "o": [
+      "아버지의 이름·나라·뜻",
+      "우리의 양식·죄·시험",
+      "나의 꿈·건강·성적"
+     ],
+     "a": 0,
+     "f": "맞아요. 하나님의 일이 먼저예요."
+    },
+    {
+     "q": "주기도문에 한 번도 나오지 않는 말은?",
+     "o": [
+      "나",
+      "우리",
+      "아버지"
+     ],
+     "a": 0,
+     "f": "맞아요. 주기도문은 ‘우리’의 기도예요."
+    },
+    {
+     "q": "예수님이 주기도문 뒤에 다시 설명하신 간구는?",
+     "o": [
+      "용서",
+      "양식",
+      "나라"
+     ],
+     "a": 0,
+     "f": "맞아요. 용서받은 사람은 용서하는 사람이 돼요."
+    }
+   ],
+   "paylas": [
+    "SNS에 올리지 않았다면 하지 않았을 좋은 일이 있었나요? 솔직하게 나눠 봐요.",
+    "나에게 ‘골방’은 어디인가요? 하나님과 단둘이 있는 시간을 어떻게 만들 수 있을까요?",
+    "주기도문의 여섯 간구 중 지금 나에게 가장 필요한 간구는 무엇인가요?",
+    "용서하기 가장 어려운 이유는 무엇인가요?"
+   ],
+   "etiraf": {
+    "b": "나의 주기도문",
+    "p": "위 표를 참고해서 주기도문을 내 말로 풀어 써 보세요.",
+    "ph": "예) 하늘에 계신 아빠 하나님, 오늘 우리 학교에서도 하나님 이름이 …"
+   },
+   "dua": "하늘에 계신 우리 아버지, 보이려는 신앙에서 벗어나 아버지 앞에서 진실하게 살게 해 주세요. 제 필요보다 아버지의 이름과 나라와 뜻을 먼저 구하게 해 주세요. 용서받은 사람으로서 저도 용서하게 해 주세요. 예수님 이름으로 기도합니다. 아멘."
+  }
  },
- "genc": {
-  "basliq": "Ataya dua",
-  "giris": "Bəyənmələr, izləyicilər, baxış sayı. Biz “görünməyə” öyrəşmişik. İsa imanın üç sütunu olan sədəqə, dua və orucdan danışaraq eyni sualı verdi: sən kimə görünmək istəyirsən?",
-  "meqsed": ["Sədəqə, dua və orucda “görünmək üçün iman”ın təhlükəsini anlayırıq.", "Rəbbin duasının quruluşunu və hər diləyin mənasını izah edə bilirik.", "Rəbbin duasını öz sözlərimizlə Allaha dua edirik."],
-  "sehneler": [
-   {"b": "Kimə görünmək üçün?", "ayə": "Matta 6:1–4", "alt": "Kasıba sakitcə kömək edən uşaq", "p": ["“Diqqət edin ki, salehliyinizi insanlara görünmək üçün onların qarşısında etməyəsiniz.” İsa deyir ki, [[ikiüzlü]]lər [[sədəqə]] verəndə şeypur çaldırırlar.", "“Onlar öz mükafatlarını artıq alıblar.” Yəni insanların tərifi onların alacağı mükafatın hamısıdır."], "deep": {"b": "Dərindən baxaq · Üç sütun", "p": "Sədəqə, dua və oruc yəhudi dindarlığının üç sütunu idi. İsa onları ləğv etmədi. Üçünün sonunda da eyni nəqarət gəlir: “Gizlində olanı görən Atan sənin əvəzini verəcək.”"}},
-   {"b": "Otaq və Ata", "ayə": "Matta 6:5–8", "alt": "Kiçik otaqda qapını bağlayıb dua edən uşaq", "p": ["O dövrdə evlərdə taxıl və alət saxlanan kiçik anbar [[otaq]] var idi, pəncərəsi belə olmurdu. İsa orada qapını bağlayıb dua etməyi deyir.", "Bütpərəstlər kimi çox danışmaqla eşidiləcəyinizi düşünməyin. Çünki Allah artıq bilən “Ata”dır."], "deep": {"b": "Dərindən baxaq · “Ata”", "p": "Dağüstü vəzdə “Ata” sözü 17 dəfə keçir, onlardan 10-u 6:1–18-dədir. Dua məlumat ötürmək deyil, Ata ilə münasibətdir."}},
-   {"b": "Rəbbin duası", "ayə": "Matta 6:9–13", "alt": "Şagirdlərinə dua etməyi öyrədən İsa", "p": ["“Siz belə dua edin.” [[Rəbbin duası]]nın ilk üç diləyi “Atanın” adını, Padşahlığını və iradəsini, son üç diləyi isə “bizim” çörəyimizi, borclarımızı və sınağımızı istəyir.", "Allahın işi əvvəl, mənim ehtiyacım sonra gəlir. Amma ehtiyacım unudulmur. Ata hər ikisi ilə maraqlanır."], "deep": {"b": "Dərindən baxaq · “Biz”", "p": "Rəbbin duasında “mən” sözü bir dəfə də keçmir. “Atamız”, “çörəyimiz”, “borclarımız”. Otaqda tək dua etsək də, Allahın bütün ailəsi ilə birlikdə dua edirik."}},
-   {"b": "Bağışlama və oruc", "ayə": "Matta 6:14–18", "alt": "Bir-birini bağışlayıb qucaqlaşan qardaşlar", "p": ["İsa Rəbbin duasından yalnız bir diləyi yenidən izah edir: [[bağışlama]]. “Əgər siz insanların təqsirlərini bağışlamasanız, Atanız da sizin təqsirlərinizi bağışlamayacaq.”", "Oruc tutanda da qaşqabaqlı olmayın, başınıza yağ sürtün və üzünüzü yuyun. İman tamaşa deyil."], "deep": {"b": "Dərindən baxaq · Bağışlama şərtdirmi?", "p": "Bu, bağışlanmanı “satın almaq” demək deyil. Bağışlanan insan bağışlayan insana çevrilir. Bağışlamağı axıradək rədd ediriksə, Allahın bağışlamasını həqiqətən qəbul edib-etmədiyimizə baxmaq lazımdır (18:21–35).", "rose": true}}
-  ],
-  "cedvel": {"b": "Rəbbin duasının quruluşu", "alt": "6:9–13", "bas": ["Dilək", "Mənası", "Öz sözlərimlə"], "set": [["Qoy Sənin isminə ehtiram edilsin", "Allah layiq olduğu kimi uca tutulsun", "Hamı Səni tanısın"], ["Qoy Sənin Padşahlığın gəlsin", "Allah Padşah kimi hökm sürsün", "Həyatımın Padşahı ol"], ["Qoy Sənin iradən yerinə yetsin", "Allahın iradəsi birinci", "Öz istəyimdən çox Sənin iradənə tabe olum"], ["Gündəlik çörəyimizi ver", "Bu günün ehtiyacı", "Bu gün lazım olanı ver"], ["Borclarımızı bağışla", "Bağışlanmaq və bağışlamaq", "Məni bağışla, mən də bağışlayım"], ["Bizi sınağa çəkmə", "Şərdən qorunmaq", "Sınağa qalib gəlmək üçün güc ver"]]},
-  "aye": {"metn": "“Sən dua edəndə öz otağına gir, qapını bağla və gizlində olan Atana dua et. Gizlində olanı görən Atan sənin əvəzini verəcək.”", "ref": "6:6"},
-  "lugat": {
-   "ikiüzlü": {"i": "🎭", "o": "Yunanca hipokrites, “səhnə aktyoru”", "x": "외식하는 자", "s": "Maska taxmış iman", "m": "Əslində maska taxıb oynayan aktyora deyilirdi. İçi ilə çölü fərqli olan imandır.", "e": "İngiliscə hypocrite sözü buradan gəlib."},
-   "sədəqə": {"i": "🎁", "o": "Yunanca eleemosine, “mərhəmət”", "x": "구제", "s": "Kasıb qonşuya kömək", "m": "“Mərhəmət” sözündən yaranıb. Kömək etmək Allahın mərhəmətinə bənzəməkdir.", "e": "Azərbaycanca “sədəqə” sözü gündəlik həyatda da işlənir."},
-   "otaq": {"i": "🚪", "o": "Yunanca tameion, “anbar otağı”", "x": "골방", "s": "Gizli yer", "m": "Evin içərisində taxıl və qiymətli əşyalar saxlanan kiçik otaq idi.", "e": "İsa ən adi yeri dua yerinə çevirdi."},
-   "Rəbbin duası": {"i": "🙏", "o": "“Rəbbin öyrətdiyi dua”", "x": "주기도문", "s": "İsanın verdiyi dua nümunəsi", "m": "Əzbərləyib təkrarlanan sehrli söz deyil, duanın istiqamətini və ardıcıllığını göstərən nümunədir.", "e": "İlk cəmiyyət Rəbbin duasını gündə üç dəfə oxuyurdu (Didaxe 8)."},
-   "bağışlama": {"i": "🤗", "o": "Yunanca afiemi, “buraxmaq”", "x": "용서", "s": "Borcu silmək", "m": "Tutduğun borcu buraxmaqdır. Matta günahı “borc” kimi təsvir edir.", "e": "“Bizə borclu olanları bağışladığımız kimi” ifadəsi buradan gəlir."}
+ "az": {
+  "usaq": {
+   "basliq": "Göylərdə olan Atamız",
+   "hedef": [
+    "İsanın öyrətdiyi duanı öyrənəcəyik.",
+    "Allahın gizlində etdiyimiz işləri də gördüyünü öyrənəcəyik.",
+    "Rəbbin duası ilə Səmavi Atamıza dua edəcəyik."
+   ],
+   "sehneler": [
+    {
+     "b": "Gizlicə kömək",
+     "ayə": "Matta 6:1–4",
+     "alt": "Kasıba sakitcə kömək edən uşaq",
+     "p": [
+      "Bəzi insanlar kasıblara kömək edəndə şeypur çalıb öyünürdülər. Onlar insanların tərifini istəyirdilər.",
+      "İsa dedi: “[[Sədəqə]] verəndə sağ əlinin nə etdiyini sol əlin bilməsin. Gizlində olanı görən Atan sənin əvəzini verəcək.”"
+     ]
+    },
+    {
+     "b": "Otağında dua et",
+     "ayə": "Matta 6:5–8",
+     "alt": "Kiçik otaqda qapını bağlayıb dua edən uşaq",
+     "p": [
+      "“Dua edəndə insanlara görünmək üçün küçə tinlərində dua etməyin. Öz [[otağına|otaq]] gir, qapını bağla və dua et.”",
+      "“Çox söz deməklə Allah eşitməz. Siz Ondan diləmədən əvvəl Atanız ehtiyaclarınızı bilir.”"
+     ]
+    },
+    {
+     "b": "Belə dua edin",
+     "ayə": "Matta 6:9–13",
+     "alt": "Şagirdlərinə dua etməyi öyrədən İsa",
+     "p": [
+      "İsa dua etməyi öyrətdi. Buna [[Rəbbin duası]] deyilir.",
+      "“Ey göylərdə olan Atamız! Qoy Sənin isminə ehtiram edilsin, qoy Sənin Padşahlığın gəlsin, qoy Sənin iradən göydə olduğu kimi yerdə də yerinə yetsin. [[Gündəlik çörəyimizi|gündəlik çörək]] bu gün bizə ver. Bizə borclu olanları bağışladığımız kimi Sən də borclarımızı bağışla. Bizi sınağa çəkmə, bizi şərdən qoru.”"
+     ]
+    },
+    {
+     "b": "Bağışlayan ürək",
+     "ayə": "Matta 6:14–18",
+     "alt": "Bir-birini bağışlayıb qucaqlaşan qardaşlar",
+     "p": [
+      "“Əgər siz insanların təqsirlərini [[bağışlasanız|bağışlamaq]], Səmavi Atanız da sizi bağışlayacaq.”",
+      "[[Oruc]] tutanda da üzünü yu və şən ol. Bunu insanlara deyil, Allaha göstəririk."
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "“Ey göylərdə olan Atamız! Qoy Sənin isminə ehtiram edilsin.”",
+    "ref": "6:9",
+    "bos": "Ey ___ olan ___! Qoy Sənin isminə ___ edilsin.",
+    "sozler": [
+     "göylərdə",
+     "Atamız",
+     "ehtiram"
+    ],
+    "yalan": "yerdə"
+   },
+   "lugat": {
+    "Sədəqə": {
+     "i": "🎁",
+     "x": "구제",
+     "m": "Kasıb və çətinlikdə olan insanlara lazım olanı verməkdir.",
+     "e": "Sədəqəni gizlicə ver."
+    },
+    "otaq": {
+     "i": "🚪",
+     "x": "골방",
+     "m": "Evin kiçik və sakit otağıdır.",
+     "e": "Otağına gir, qapını bağla və dua et."
+    },
+    "Rəbbin duası": {
+     "i": "🙏",
+     "x": "주기도문",
+     "m": "İsanın Özünün öyrətdiyi duadır.",
+     "e": "İbadətdə Rəbbin duasını birlikdə oxuyuruq."
+    },
+    "gündəlik çörək": {
+     "i": "🍞",
+     "x": "일용할 양식",
+     "m": "Bu gün yaşamaq üçün lazım olan yeməkdir.",
+     "e": "Gündəlik çörəyimizi bu gün bizə ver."
+    },
+    "bağışlamaq": {
+     "i": "🤗",
+     "x": "용서",
+     "m": "Bizə pislik edən adamı cəzalandırmayıb qəbul etməkdir.",
+     "e": "Allah günahlarımızı bağışlayır."
+    },
+    "Oruc": {
+     "i": "🥣",
+     "x": "금식",
+     "m": "Allaha diqqət yetirmək üçün bir müddət yemək yeməməkdir.",
+     "e": "Oruc tutanda da üzünü şən saxla."
+    }
+   },
+   "test": [
+    {
+     "q": "Sədəqə verəndə necə etməliyik?",
+     "o": [
+      "Sağ əlin etdiyini sol əl bilməsin",
+      "Şeypur çalaraq",
+      "Şəkil çəkərək"
+     ],
+     "a": 0,
+     "f": "Düzdür! Allah gizlində olanı da görür."
+    },
+    {
+     "q": "İsa harada dua etməyi dedi?",
+     "o": [
+      "Otaqda qapını bağlayıb",
+      "Küçə tinində ucadan",
+      "Bazarın ortasında"
+     ],
+     "a": 0,
+     "f": "Düzdür! Allahla təkbətək danışırıq."
+    },
+    {
+     "q": "Rəbbin duasında “bu gün” nə istəyirik?",
+     "o": [
+      "Gündəlik çörəyimizi",
+      "Böyük ev",
+      "Yeni oyuncaq"
+     ],
+     "a": 0,
+     "f": "Düzdür! Bu gün lazım olanı istəyirik."
+    },
+    {
+     "q": "Biz başqalarını bağışlasaq nə olar?",
+     "o": [
+      "Səmavi Atamız da bizi bağışlayar",
+      "Heç nə olmaz",
+      "Dostumuz hirslənər"
+     ],
+     "a": 0,
+     "f": "Düzdür! Bağışlamaq Allahın ürəyidir."
+    }
+   ],
+   "dusun": [
+    "Allahı “Ata” deyə çağıra bilmək necə hissdir?",
+    "Rəbbin duasında ən çox xoşuna gələn hissə hansıdır?",
+    "Bağışlamalı olduğun biri varmı?"
+   ],
+   "fealiyyet": {
+    "ciz": "Otağında Səmavi Atana dua edən özünü çək.",
+    "b": "Nə üçün dua edəcəksən?",
+    "p": "Dua edəcəyin mövzunu seç.",
+    "ph": "",
+    "secim": {
+     "basliq": "Nə üçün dua edəcəksən?",
+     "izah": "Toxun və seç. Bir neçəsini seçə bilərsən.",
+     "cumle": "Mən Səmavi Atama {x} üçün dua edəcəyəm!",
+     "bos": "ailəm",
+     "bag": "və",
+     "secimler": [
+      [
+       "👨‍👩‍👧",
+       "ailəm"
+      ],
+      [
+       "👫",
+       "dostlarım"
+      ],
+      [
+       "🏫",
+       "məktəbim"
+      ],
+      [
+       "🤒",
+       "xəstələr"
+      ],
+      [
+       "🍞",
+       "gündəlik çörəyimiz"
+      ],
+      [
+       "🌍",
+       "ölkəm"
+      ],
+      [
+       "🤗",
+       "küsdüyüm adam"
+      ],
+      [
+       "⛪",
+       "cəmiyyətimiz"
+      ]
+     ]
+    }
+   },
+   "dua": "Ey göylərdə olan Atamız, məni övladın adlandırdığın və dua etməyi öyrətdiyin üçün Sənə şükür edirəm. İnsanlara görünmək üçün deyil, yalnız Sənin üçün yaşamağıma kömək et. Mənə pislik edən dostumu bağışlamağıma kömək et. İsa Məsihin adı ilə dua edirəm. Amin."
   },
-  "test": [
-   {"q": "İsanın dediyi dindarlığın üç sütunu hansıdır?", "o": ["Sədəqə, dua, oruc", "İlahi, vəz, ianə", "Dərs, idman, xidmət"], "a": 0, "f": "Düzdür. Üçünü də “gizlində” etməyi dedi."},
-   {"q": "“İkiüzlü” sözü əslində nəyi bildirirdi?", "o": ["Səhnə aktyorunu", "Varlını", "Kahini"], "a": 0, "f": "Düzdür. Maska taxmış iman."},
-   {"q": "Rəbbin duasının ilk üç diləyinin ortaq cəhəti nədir?", "o": ["Atanın adı, Padşahlığı, iradəsi", "Bizim çörəyimiz, borcumuz, sınağımız", "Mənim arzum, sağlamlığım, qiymətim"], "a": 0, "f": "Düzdür. Allahın işi əvvəl gəlir."},
-   {"q": "Rəbbin duasında bir dəfə də keçməyən söz hansıdır?", "o": ["Mən", "Biz", "Ata"], "a": 0, "f": "Düzdür. Rəbbin duası “bizim” duamızdır."},
-   {"q": "İsa Rəbbin duasından sonra hansı diləyi yenidən izah etdi?", "o": ["Bağışlama", "Çörək", "Padşahlıq"], "a": 0, "f": "Düzdür. Bağışlanan insan bağışlayan olur."}
+  "genc": {
+   "basliq": "Ataya dua",
+   "giris": "Bəyənmələr, izləyicilər, baxış sayı. Biz “görünməyə” öyrəşmişik. İsa imanın üç sütunu olan sədəqə, dua və orucdan danışaraq eyni sualı verdi: sən kimə görünmək istəyirsən?",
+   "meqsed": [
+    "Sədəqə, dua və orucda “görünmək üçün iman”ın təhlükəsini anlayırıq.",
+    "Rəbbin duasının quruluşunu və hər diləyin mənasını izah edə bilirik.",
+    "Rəbbin duasını öz sözlərimizlə Allaha dua edirik."
+   ],
+   "sehneler": [
+    {
+     "b": "Kimə görünmək üçün?",
+     "ayə": "Matta 6:1–4",
+     "alt": "Kasıba sakitcə kömək edən uşaq",
+     "p": [
+      "“Diqqət edin ki, salehliyinizi insanlara görünmək üçün onların qarşısında etməyəsiniz.” İsa deyir ki, [[ikiüzlü]]lər [[sədəqə]] verəndə şeypur çaldırırlar.",
+      "“Onlar öz mükafatlarını artıq alıblar.” Yəni insanların tərifi onların alacağı mükafatın hamısıdır."
+     ],
+     "deep": {
+      "b": "Dərindən baxaq · Üç sütun",
+      "p": "Sədəqə, dua və oruc yəhudi dindarlığının üç sütunu idi. İsa onları ləğv etmədi. Üçünün sonunda da eyni nəqarət gəlir: “Gizlində olanı görən Atan sənin əvəzini verəcək.”"
+     }
+    },
+    {
+     "b": "Otaq və Ata",
+     "ayə": "Matta 6:5–8",
+     "alt": "Kiçik otaqda qapını bağlayıb dua edən uşaq",
+     "p": [
+      "O dövrdə evlərdə taxıl və alət saxlanan kiçik anbar [[otaq]] var idi, pəncərəsi belə olmurdu. İsa orada qapını bağlayıb dua etməyi deyir.",
+      "Bütpərəstlər kimi çox danışmaqla eşidiləcəyinizi düşünməyin. Çünki Allah artıq bilən “Ata”dır."
+     ],
+     "deep": {
+      "b": "Dərindən baxaq · “Ata”",
+      "p": "Dağüstü vəzdə “Ata” sözü 17 dəfə keçir, onlardan 10-u 6:1–18-dədir. Dua məlumat ötürmək deyil, Ata ilə münasibətdir."
+     }
+    },
+    {
+     "b": "Rəbbin duası",
+     "ayə": "Matta 6:9–13",
+     "alt": "Şagirdlərinə dua etməyi öyrədən İsa",
+     "p": [
+      "“Siz belə dua edin.” [[Rəbbin duası]]nın ilk üç diləyi “Atanın” adını, Padşahlığını və iradəsini, son üç diləyi isə “bizim” çörəyimizi, borclarımızı və sınağımızı istəyir.",
+      "Allahın işi əvvəl, mənim ehtiyacım sonra gəlir. Amma ehtiyacım unudulmur. Ata hər ikisi ilə maraqlanır."
+     ],
+     "deep": {
+      "b": "Dərindən baxaq · “Biz”",
+      "p": "Rəbbin duasında “mən” sözü bir dəfə də keçmir. “Atamız”, “çörəyimiz”, “borclarımız”. Otaqda tək dua etsək də, Allahın bütün ailəsi ilə birlikdə dua edirik."
+     }
+    },
+    {
+     "b": "Bağışlama və oruc",
+     "ayə": "Matta 6:14–18",
+     "alt": "Bir-birini bağışlayıb qucaqlaşan qardaşlar",
+     "p": [
+      "İsa Rəbbin duasından yalnız bir diləyi yenidən izah edir: [[bağışlama]]. “Əgər siz insanların təqsirlərini bağışlamasanız, Atanız da sizin təqsirlərinizi bağışlamayacaq.”",
+      "Oruc tutanda da qaşqabaqlı olmayın, başınıza yağ sürtün və üzünüzü yuyun. İman tamaşa deyil."
+     ],
+     "deep": {
+      "b": "Dərindən baxaq · Bağışlama şərtdirmi?",
+      "p": "Bu, bağışlanmanı “satın almaq” demək deyil. Bağışlanan insan bağışlayan insana çevrilir. Bağışlamağı axıradək rədd ediriksə, Allahın bağışlamasını həqiqətən qəbul edib-etmədiyimizə baxmaq lazımdır (18:21–35).",
+      "rose": true
+     }
+    }
+   ],
+   "cedvel": {
+    "b": "Rəbbin duasının quruluşu",
+    "alt": "6:9–13",
+    "bas": [
+     "Dilək",
+     "Mənası",
+     "Öz sözlərimlə"
+    ],
+    "set": [
+     [
+      "Qoy Sənin isminə ehtiram edilsin",
+      "Allah layiq olduğu kimi uca tutulsun",
+      "Hamı Səni tanısın"
+     ],
+     [
+      "Qoy Sənin Padşahlığın gəlsin",
+      "Allah Padşah kimi hökm sürsün",
+      "Həyatımın Padşahı ol"
+     ],
+     [
+      "Qoy Sənin iradən yerinə yetsin",
+      "Allahın iradəsi birinci",
+      "Öz istəyimdən çox Sənin iradənə tabe olum"
+     ],
+     [
+      "Gündəlik çörəyimizi ver",
+      "Bu günün ehtiyacı",
+      "Bu gün lazım olanı ver"
+     ],
+     [
+      "Borclarımızı bağışla",
+      "Bağışlanmaq və bağışlamaq",
+      "Məni bağışla, mən də bağışlayım"
+     ],
+     [
+      "Bizi sınağa çəkmə",
+      "Şərdən qorunmaq",
+      "Sınağa qalib gəlmək üçün güc ver"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "“Sən dua edəndə öz otağına gir, qapını bağla və gizlində olan Atana dua et. Gizlində olanı görən Atan sənin əvəzini verəcək.”",
+    "ref": "6:6"
+   },
+   "lugat": {
+    "ikiüzlü": {
+     "i": "🎭",
+     "o": "Yunanca hipokrites, “səhnə aktyoru”",
+     "x": "외식하는 자",
+     "s": "Maska taxmış iman",
+     "m": "Əslində maska taxıb oynayan aktyora deyilirdi. İçi ilə çölü fərqli olan imandır.",
+     "e": "İngiliscə hypocrite sözü buradan gəlib."
+    },
+    "sədəqə": {
+     "i": "🎁",
+     "o": "Yunanca eleemosine, “mərhəmət”",
+     "x": "구제",
+     "s": "Kasıb qonşuya kömək",
+     "m": "“Mərhəmət” sözündən yaranıb. Kömək etmək Allahın mərhəmətinə bənzəməkdir.",
+     "e": "Azərbaycanca “sədəqə” sözü gündəlik həyatda da işlənir."
+    },
+    "otaq": {
+     "i": "🚪",
+     "o": "Yunanca tameion, “anbar otağı”",
+     "x": "골방",
+     "s": "Gizli yer",
+     "m": "Evin içərisində taxıl və qiymətli əşyalar saxlanan kiçik otaq idi.",
+     "e": "İsa ən adi yeri dua yerinə çevirdi."
+    },
+    "Rəbbin duası": {
+     "i": "🙏",
+     "o": "“Rəbbin öyrətdiyi dua”",
+     "x": "주기도문",
+     "s": "İsanın verdiyi dua nümunəsi",
+     "m": "Əzbərləyib təkrarlanan sehrli söz deyil, duanın istiqamətini və ardıcıllığını göstərən nümunədir.",
+     "e": "İlk cəmiyyət Rəbbin duasını gündə üç dəfə oxuyurdu (Didaxe 8)."
+    },
+    "bağışlama": {
+     "i": "🤗",
+     "o": "Yunanca afiemi, “buraxmaq”",
+     "x": "용서",
+     "s": "Borcu silmək",
+     "m": "Tutduğun borcu buraxmaqdır. Matta günahı “borc” kimi təsvir edir.",
+     "e": "“Bizə borclu olanları bağışladığımız kimi” ifadəsi buradan gəlir."
+    }
+   },
+   "test": [
+    {
+     "q": "İsanın dediyi dindarlığın üç sütunu hansıdır?",
+     "o": [
+      "Sədəqə, dua, oruc",
+      "İlahi, vəz, ianə",
+      "Dərs, idman, xidmət"
+     ],
+     "a": 0,
+     "f": "Düzdür. Üçünü də “gizlində” etməyi dedi."
+    },
+    {
+     "q": "“İkiüzlü” sözü əslində nəyi bildirirdi?",
+     "o": [
+      "Səhnə aktyorunu",
+      "Varlını",
+      "Kahini"
+     ],
+     "a": 0,
+     "f": "Düzdür. Maska taxmış iman."
+    },
+    {
+     "q": "Rəbbin duasının ilk üç diləyinin ortaq cəhəti nədir?",
+     "o": [
+      "Atanın adı, Padşahlığı, iradəsi",
+      "Bizim çörəyimiz, borcumuz, sınağımız",
+      "Mənim arzum, sağlamlığım, qiymətim"
+     ],
+     "a": 0,
+     "f": "Düzdür. Allahın işi əvvəl gəlir."
+    },
+    {
+     "q": "Rəbbin duasında bir dəfə də keçməyən söz hansıdır?",
+     "o": [
+      "Mən",
+      "Biz",
+      "Ata"
+     ],
+     "a": 0,
+     "f": "Düzdür. Rəbbin duası “bizim” duamızdır."
+    },
+    {
+     "q": "İsa Rəbbin duasından sonra hansı diləyi yenidən izah etdi?",
+     "o": [
+      "Bağışlama",
+      "Çörək",
+      "Padşahlıq"
+     ],
+     "a": 0,
+     "f": "Düzdür. Bağışlanan insan bağışlayan olur."
+    }
+   ],
+   "paylas": [
+    "Sosial şəbəkədə paylaşmasaydın etməyəcəyin yaxşı bir iş olubmu? Səmimi danışaq.",
+    "Mənim “otağım” haradır? Allahla təkbətək vaxtı necə yarada bilərəm?",
+    "Rəbbin duasının altı diləyindən hansı indi mənə ən çox lazımdır?",
+    "Bağışlamağın ən çətin səbəbi nədir?"
+   ],
+   "etiraf": {
+    "b": "Mənim Rəbbin duam",
+    "p": "Yuxarıdakı cədvələ baxaraq Rəbbin duasını öz sözlərinlə yaz.",
+    "ph": "Məsələn: Ey göylərdə olan Atam, bu gün məktəbimizdə də Sənin adın …"
+   },
+   "dua": "Ey göylərdə olan Atamız, görünmək üçün olan imandan azad olub Sənin qarşında səmimi yaşamağıma kömək et. Öz ehtiyacımdan əvvəl Sənin adını, Padşahlığını və iradəni axtarım. Bağışlanmış insan kimi mən də bağışlayım. İsa Məsihin adı ilə dua edirəm. Amin."
+  }
+ },
+ "muellim": {
+  "mesaj": "9과의 중심은 한 문장입니다. **신앙은 사람에게 보이는 연기가 아니라 은밀히 보시는 아버지와의 관계이며, 주기도문은 그 관계의 본이다.**",
+  "hazirliq": [
+   "학생용 교재를 열 휴대폰이나 태블릿, 이어폰",
+   "주기도문 카드 (한국어·아제르바이잔어)",
+   "작은 상자나 천 (어린이반 ‘골방’ 놀이)"
   ],
-  "paylas": ["Sosial şəbəkədə paylaşmasaydın etməyəcəyin yaxşı bir iş olubmu? Səmimi danışaq.", "Mənim “otağım” haradır? Allahla təkbətək vaxtı necə yarada bilərəm?", "Rəbbin duasının altı diləyindən hansı indi mənə ən çox lazımdır?", "Bağışlamağın ən çətin səbəbi nədir?"],
-  "etiraf": {"b": "Mənim Rəbbin duam", "p": "Yuxarıdakı cədvələ baxaraq Rəbbin duasını öz sözlərinlə yaz.", "ph": "Məsələn: Ey göylərdə olan Atam, bu gün məktəbimizdə də Sənin adın …"},
-  "dua": "Ey göylərdə olan Atamız, görünmək üçün olan imandan azad olub Sənin qarşında səmimi yaşamağıma kömək et. Öz ehtiyacımdan əvvəl Sənin adını, Padşahlığını və iradəni axtarım. Bağışlanmış insan kimi mən də bağışlayım. İsa Məsihin adı ilə dua edirəm. Amin."
+  "fon": [
+   [
+    "1. 경건의 세 기둥",
+    "구제, 기도, 금식은 유대교의 핵심 실천이었습니다. 6:2, 5, 16에서 같은 구조(하지 말라 → 그들은 상을 받았다 → 너는 은밀히 → 아버지가 갚으신다)가 세 번 반복됩니다."
+   ],
+   [
+    "2. 나팔",
+    "구제할 때 실제로 나팔을 불었다는 기록은 없습니다. ‘요란하게 광고한다’는 과장 표현으로 보는 것이 일반적입니다."
+   ],
+   [
+    "3. 주기도문의 위치",
+    "6:9–13은 산상설교의 정중앙에 가깝습니다. 누가복음 11:2–4에도 짧은 형태가 나옵니다. 끝의 송영(‘나라와 권세와 영광이…’)은 후대 사본에서 덧붙여졌지만 예배에서는 함께 씁니다."
+   ],
+   [
+    "4. 아제르바이잔어 주기도문",
+    "‘Ey göylərdə olan Atamız!’로 시작합니다. 학생들이 집에서도 기도할 수 있도록 카드로 나눠 주세요."
+   ],
+   [
+    "5. 금식 문화",
+    "현지 학생들은 이슬람의 라마단 금식(oruc)에 익숙합니다. 같은 낱말이지만 예수님은 기간이나 규칙보다 ‘누구 앞에서’인지를 강조하신다는 점을 부드럽게 비교할 수 있습니다."
+   ]
+  ],
+  "usaq_plan": [
+   [
+    "5분",
+    "숨은 선물 찾기",
+    "교사가 몰래 준비한 작은 선물 찾기",
+    "“누가 했는지 몰라도 고마운 일이 있었나요? 하나님은 다 보세요.”"
+   ],
+   [
+    "15분",
+    "장면 1–4 듣고 읽기",
+    "장면마다 듣기, 노란 낱말 누르기",
+    "“하나님을 ‘아빠’라고 부를 수 있어요.”"
+   ],
+   [
+    "5분",
+    "외울 말씀",
+    "빈칸 놀이 → 주기도문 첫 구절 함께 외우기",
+    ""
+   ],
+   [
+    "5분",
+    "확인 퀴즈",
+    "혼자 풀고 함께 확인",
+    ""
+   ],
+   [
+    "10분",
+    "활동과 기도",
+    "기도 제목 고르기 → 주기도문으로 함께 마무리",
+    ""
+   ]
+  ],
+  "genc_plan": [
+   [
+    "5분",
+    "열기",
+    "“좋아요가 하나도 안 달려도 이 일을 할까?” 질문",
+    ""
+   ],
+   [
+    "15분",
+    "장면 1–2",
+    "세 기둥, 외식, 골방과 아버지",
+    ""
+   ],
+   [
+    "10분",
+    "장면 3–4와 구조 표",
+    "주기도문의 여섯 간구, ‘우리’, 용서",
+    "“지금 내게 가장 필요한 간구는?”"
+   ],
+   [
+    "5분",
+    "확인 문제",
+    "",
+    ""
+   ],
+   [
+    "15분",
+    "나눔과 고백",
+    "나눔 질문 2개 → 나의 주기도문 쓰기 → 함께 읽기",
+    ""
+   ]
+  ],
+  "ipucu_usaq": [
+   "주기도문을 한 번에 다 외우게 하지 말고, 매주 한 줄씩 더해 가세요.",
+   "‘골방’은 꼭 방이 아니어도 된다고 알려 주세요. 이불 속, 화장실, 등굣길도 하나님과 단둘이 있는 곳이 될 수 있어요.",
+   "용서할 사람을 억지로 말하게 하지 마세요."
+  ],
+  "ipucu_genc": [
+   "SNS 이야기를 할 때 비난조가 되지 않게 하세요. ‘보이는 것’ 자체가 아니라 ‘누구를 위해’가 핵심입니다.",
+   "‘나의 주기도문’은 원하는 학생만 소리 내어 읽게 하세요.",
+   "용서를 ‘조건’으로 오해해 두려워하는 학생에게 18장의 비유를 미리 소개해 주세요."
+  ],
+  "suallar": [
+   [
+    "하나님이 다 아시면 왜 기도해요?",
+    "아빠가 다 알아도 우리가 아빠랑 이야기하고 싶은 것처럼, 기도는 하나님과 친해지는 시간이에요.",
+    "기도는 정보 전달이 아니라 관계예요. 기도하며 우리 마음이 하나님의 뜻에 맞춰 바뀌어 가요."
+   ],
+   [
+    "교회에서 크게 기도하면 안 돼요?",
+    "아니에요. 함께 기도하는 것도 좋아요. 다만 사람에게 잘 보이려고 하지 않으면 돼요.",
+    "예수님도 공개적으로 기도하셨어요(11:25). 문제는 장소가 아니라 동기예요."
+   ],
+   [
+    "주기도문만 외우면 되나요?",
+    "주기도문은 기도의 좋은 본이에요. 내 말로도 하나님께 이야기할 수 있어요.",
+    "주기도문은 반복할 수도 있고, 순서를 따라 내 말로 풀어 기도할 수도 있어요. 둘 다 좋아요."
+   ]
+  ]
+ },
+ "ru": {
+  "usaq": {
+   "basliq": "Наш Небесный Отец",
+   "hedef": [
+    "Мы выучим молитву, которой научил Иисус.",
+    "Мы узнаем, что Бог видит даже то, что мы делаем втайне.",
+    "Мы будем молиться нашему Небесному Отцу молитвой «Отче наш»."
+   ],
+   "sehneler": [
+    {
+     "b": "Тайная помощь",
+     "ayə": "Матфей 6:1–4",
+     "alt": "Ребёнок тихо помогает бедному",
+     "p": [
+      "Некоторые люди, когда помогали бедным, трубили в трубы и хвастались. Они хотели, чтобы другие их хвалили.",
+      "Иисус сказал: «Когда творишь [[милостыню|милостыня]], пусть твоя левая рука не знает, что делает правая. Твой Отец, видящий тайное, воздаст тебе»."
+     ]
+    },
+    {
+     "b": "Молись в своей комнате",
+     "ayə": "Матфей 6:5–8",
+     "alt": "Ребёнок молится в маленькой комнате с закрытой дверью",
+     "p": [
+      "«Когда молишься, не стой на углах улиц, чтобы показаться людям. Войди в свою [[комнату|комната]], закрой дверь и помолись».",
+      "«Бог не услышит вас только из-за того, что вы говорите много слов. Ваш Отец знает, что вам нужно, ещё до того, как вы попросите»."
+     ]
+    },
+    {
+     "b": "Молитесь так",
+     "ayə": "Матфей 6:9–13",
+     "alt": "Иисус учит Своих учеников молиться",
+     "p": [
+      "Иисус научил нас молиться. Эта молитва называется [[Молитва Господня]].",
+      "«Отче наш, сущий на небесах! Да святится имя Твоё; да приидет Царство Твоё; да будет воля Твоя и на земле, как на небе. Дай нам на сей день наш [[насущный хлеб]]. И прости нам долги наши, как и мы прощаем должникам нашим. И не введи нас в искушение, но избавь нас от лукавого»."
+     ]
+    },
+    {
+     "b": "Прощающее сердце",
+     "ayə": "Матфей 6:14–18",
+     "alt": "Братья прощают друг друга и обнимаются",
+     "p": [
+      "«Если вы будете [[прощать]] людям их проступки, то и ваш Небесный Отец простит вас».",
+      "А когда держишь [[пост]], умой лицо и будь радостным. Мы делаем это не для людей, а для Бога."
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "«Отче наш, сущий на небесах! Да святится имя Твоё».",
+    "ref": "6:9",
+    "bos": "«___ наш, сущий на ___! Да святится ___ Твоё».",
+    "sozler": [
+     "Отче",
+     "небесах",
+     "имя"
+    ],
+    "yalan": "земле"
+   },
+   "lugat": {
+    "милостыня": {
+     "i": "🎁",
+     "x": "Sədəqə",
+     "m": "Это когда мы даём то, что нужно бедным и нуждающимся людям.",
+     "e": "Твори милостыню втайне."
+    },
+    "комната": {
+     "i": "🚪",
+     "x": "otaq",
+     "m": "Маленькая и тихая комната в доме.",
+     "e": "Войди в комнату, закрой дверь и помолись."
+    },
+    "Молитва Господня": {
+     "i": "🙏",
+     "x": "Rəbbin duası",
+     "m": "Это молитва, которой научил Сам Иисус.",
+     "e": "На богослужении мы вместе читаем Молитву Господню."
+    },
+    "насущный хлеб": {
+     "i": "🍞",
+     "x": "gündəlik çörək",
+     "m": "Это еда, которая нужна нам для жизни сегодня.",
+     "e": "Дай нам на сей день наш насущный хлеб."
+    },
+    "прощать": {
+     "i": "🤗",
+     "x": "bağışlamaq",
+     "m": "Это значит не наказывать того, кто сделал нам плохо, а принять его.",
+     "e": "Бог прощает наши грехи."
+    },
+    "пост": {
+     "i": "🥣",
+     "x": "Oruc",
+     "m": "Это время, когда мы не едим, чтобы сосредоточиться на Боге.",
+     "e": "Когда держишь пост, пусть твоё лицо будет радостным."
+    }
+   },
+   "test": [
+    {
+     "q": "Как мы должны творить милостыню?",
+     "o": [
+      "Так, чтобы левая рука не знала, что делает правая",
+      "Трубя в трубы",
+      "Фотографируя"
+     ],
+     "a": 0,
+     "f": "Верно! Бог видит даже то, что мы делаем втайне."
+    },
+    {
+     "q": "Где Иисус сказал нам молиться?",
+     "o": [
+      "В комнате, закрыв дверь",
+      "Громко на углу улицы",
+      "Посреди рынка"
+     ],
+     "a": 0,
+     "f": "Верно! Мы разговариваем с Богом наедине."
+    },
+    {
+     "q": "Что мы просим дать «на сей день» в Молитве Господней?",
+     "o": [
+      "Насущный хлеб",
+      "Большой дом",
+      "Новую игрушку"
+     ],
+     "a": 0,
+     "f": "Верно! Мы просим то, что нам нужно сегодня."
+    },
+    {
+     "q": "Что будет, если мы простим других?",
+     "o": [
+      "Наш Небесный Отец тоже простит нас",
+      "Ничего не будет",
+      "Наш друг разозлится"
+     ],
+     "a": 0,
+     "f": "Верно! Прощение — это то, чего хочет Бог."
+    }
+   ],
+   "dusun": [
+    "Каково это — иметь возможность называть Бога «Отцом»?",
+    "Какая часть Молитвы Господней нравится тебе больше всего?",
+    "Есть ли кто-то, кого тебе нужно простить?"
+   ],
+   "fealiyyet": {
+    "ciz": "Нарисуй себя, молящегося Небесному Отцу в своей комнате.",
+    "b": "О чём ты будешь молиться?",
+    "p": "Выбери темы для своей молитвы.",
+    "ph": "",
+    "secim": {
+     "basliq": "О чём ты будешь молиться?",
+     "izah": "Нажимай и выбирай. Можно выбрать несколько.",
+     "cumle": "Я буду молиться Небесному Отцу за {x}!",
+     "bos": "мою семью",
+     "bag": "и",
+     "secimler": [
+      [
+       "👨‍👩‍👧",
+       "мою семью"
+      ],
+      [
+       "👫",
+       "моих друзей"
+      ],
+      [
+       "🏫",
+       "мою школу"
+      ],
+      [
+       "🤒",
+       "больных"
+      ],
+      [
+       "🍞",
+       "наш насущный хлеб"
+      ],
+      [
+       "🌍",
+       "мою страну"
+      ],
+      [
+       "🤗",
+       "того, с кем я в ссоре"
+      ],
+      [
+       "⛪",
+       "нашу церковь"
+      ]
+     ]
+    }
+   },
+   "dua": "Отче наш, сущий на небесах, спасибо Тебе за то, что Ты назвал меня Своим ребёнком и научил молиться. Помоги мне жить только для Тебя, а не для того, чтобы показаться людям. Помоги мне простить друга, который сделал мне плохо. Молюсь во имя Иисуса Христа. Аминь."
+  },
+  "genc": {
+   "basliq": "Молитва Отцу",
+   "giris": "Лайки, подписчики, просмотры. Мы привыкли быть «на виду». Говоря о трёх столпах веры — милостыне, молитве и посте, Иисус задаёт один и тот же вопрос: перед кем ты хочешь показаться?",
+   "meqsed": [
+    "Мы понимаем опасность «веры напоказ» в милостыне, молитве и посте.",
+    "Мы можем объяснить структуру Молитвы Господней и значение каждой просьбы.",
+    "Мы молимся Богу Молитвой Господней своими словами."
+   ],
+   "sehneler": [
+    {
+     "b": "Перед кем показаться?",
+     "ayə": "Матфей 6:1–4",
+     "alt": "Ребёнок тихо помогает бедному",
+     "p": [
+      "«Смотрите, не творите милостыни вашей пред людьми с тем, чтобы они видели вас». Иисус говорит, что [[лицемеры|лицемер]], когда творят [[милостыню|милостыня]], трубят перед собою.",
+      "«Они уже получают награду свою». То есть похвала людей — это вся награда, которую они получат."
+     ],
+     "deep": {
+      "b": "Копнём глубже · Три столпа",
+      "p": "Милостыня, молитва и пост были тремя столпами иудейского благочестия. Иисус не отменил их. В конце каждого из трёх наставлений звучит один и тот же припев: «Твой Отец, видящий тайное, воздаст тебе»."
+     }
+    },
+    {
+     "b": "Комната и Отец",
+     "ayə": "Матфей 6:5–8",
+     "alt": "Ребёнок молится в маленькой комнате с закрытой дверью",
+     "p": [
+      "В то время в домах была маленькая кладовая — [[комната]], где хранились зерно и инструменты, в ней даже не было окон. Иисус говорит войти туда, закрыть дверь и молиться.",
+      "Не думайте, что будете услышаны в многословии, как язычники. Потому что Бог — это «Отец», Который уже всё знает."
+     ],
+     "deep": {
+      "b": "Копнём глубже · «Отец»",
+      "p": "В Нагорной проповеди слово «Отец» встречается 17 раз, из них 10 раз — в 6:1–18. Молитва — это не передача информации, а отношения с Отцом."
+     }
+    },
+    {
+     "b": "Молитва Господня",
+     "ayə": "Матфей 6:9–13",
+     "alt": "Иисус учит Своих учеников молиться",
+     "p": [
+      "«Молитесь же так». Первые три просьбы в [[Молитве Господней|Молитва Господня]] касаются имени, Царства и воли «Отца», а последние три — «нашего» хлеба, долгов и искушений.",
+      "Сначала идут Божьи дела, а потом — мои нужды. Но мои нужды не забыты. Отец заботится и о том, и о другом."
+     ],
+     "deep": {
+      "b": "Копнём глубже · «Мы»",
+      "p": "В Молитве Господней слово «я» не встречается ни разу. «Отче наш», «хлеб наш», «долги наши». Даже если мы молимся одни в комнате, мы молимся вместе со всей Божьей семьёй."
+     }
+    },
+    {
+     "b": "Прощение и пост",
+     "ayə": "Матфей 6:14–18",
+     "alt": "Братья прощают друг друга и обнимаются",
+     "p": [
+      "Иисус заново объясняет только одну просьбу из Молитвы Господней: [[прощение]]. «Если вы не будете прощать людям согрешения их, то и Отец ваш не простит вам согрешений ваших».",
+      "Когда поститесь, не будьте унылыми, помажьте голову и умойте лицо. Вера — это не спектакль."
+     ],
+     "deep": {
+      "b": "Копнём глубже · Является ли прощение условием?",
+      "p": "Это не значит, что прощение можно «купить». Прощённый человек становится прощающим. Если мы до конца отказываемся прощать, нужно задуматься, действительно ли мы приняли Божье прощение (18:21–35).",
+      "rose": true
+     }
+    }
+   ],
+   "cedvel": {
+    "b": "Структура Молитвы Господней",
+    "alt": "6:9–13",
+    "bas": [
+     "Просьба",
+     "Значение",
+     "Своими словами"
+    ],
+    "set": [
+     [
+      "Да святится имя Твоё",
+      "Пусть Бога возвеличивают так, как Он того достоин",
+      "Пусть все узнают Тебя"
+     ],
+     [
+      "Да приидет Царство Твоё",
+      "Пусть Бог правит как Царь",
+      "Будь Царём моей жизни"
+     ],
+     [
+      "Да будет воля Твоя",
+      "Божья воля на первом месте",
+      "Пусть я подчинюсь Твоей воле больше, чем своим желаниям"
+     ],
+     [
+      "Хлеб наш насущный дай нам",
+      "Нужда сегодняшнего дня",
+      "Дай то, что нужно сегодня"
+     ],
+     [
+      "Прости нам долги наши",
+      "Быть прощённым и прощать",
+      "Прости меня, и пусть я тоже прощу"
+     ],
+     [
+      "Не введи нас в искушение",
+      "Защита от зла",
+      "Дай силы победить искушение"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "«Ты же, когда молишься, войди в комнату твою и, затворив дверь твою, помолись Отцу твоему, Который втайне; и Отец твой, видящий тайное, воздаст тебе явно».",
+    "ref": "6:6"
+   },
+   "lugat": {
+    "лицемер": {
+     "i": "🎭",
+     "o": "Греч. hypokritēs, «театральный актёр»",
+     "x": "ikiüzlü",
+     "s": "Вера в маске",
+     "m": "Изначально так называли актёра, играющего в маске. Это вера, при которой внутри человек один, а снаружи — другой.",
+     "e": "Отсюда произошло английское слово hypocrite (лицемер)."
+    },
+    "милостыня": {
+     "i": "🎁",
+     "o": "Греч. eleēmosynē, «милосердие»",
+     "x": "sədəqə",
+     "s": "Помощь бедному ближнему",
+     "m": "Произошло от слова «милосердие». Помогать — значит уподобляться Божьему милосердию.",
+     "e": "В азербайджанском языке слово «sədəqə» также используется в повседневной жизни."
+    },
+    "комната": {
+     "i": "🚪",
+     "o": "Греч. tameion, «кладовая»",
+     "x": "otaq",
+     "s": "Тайное место",
+     "m": "Это была маленькая комната внутри дома, где хранились зерно и ценные вещи.",
+     "e": "Иисус превратил самое обычное место в место для молитвы."
+    },
+    "Молитва Господня": {
+     "i": "🙏",
+     "o": "«Молитва, которой научил Господь»",
+     "x": "Rəbbin duası",
+     "s": "Образец молитвы, данный Иисусом",
+     "m": "Это не магические слова для заучивания и повторения, а образец, показывающий направление и порядок молитвы.",
+     "e": "Ранняя церковь читала Молитву Господню трижды в день (Дидахе 8)."
+    },
+    "прощение": {
+     "i": "🤗",
+     "o": "Греч. aphiēmi, «отпускать»",
+     "x": "bağışlama",
+     "s": "Списание долга",
+     "m": "Это значит отпустить долг, который ты держишь. Матфей описывает грех как «долг».",
+     "e": "Отсюда происходит фраза «как и мы прощаем должникам нашим»."
+    }
+   },
+   "test": [
+    {
+     "q": "Каковы три столпа благочестия, о которых говорил Иисус?",
+     "o": [
+      "Милостыня, молитва, пост",
+      "Прославление, проповедь, пожертвование",
+      "Учёба, спорт, служение"
+     ],
+     "a": 0,
+     "f": "Верно. Иисус сказал делать всё это «втайне»."
+    },
+    {
+     "q": "Что изначально означало слово «лицемер»?",
+     "o": [
+      "Театрального актёра",
+      "Богача",
+      "Священника"
+     ],
+     "a": 0,
+     "f": "Верно. Это вера в маске."
+    },
+    {
+     "q": "Что общего у первых трёх просьб Молитвы Господней?",
+     "o": [
+      "Имя, Царство и воля Отца",
+      "Наш хлеб, долг, искушение",
+      "Моя мечта, здоровье, оценки"
+     ],
+     "a": 0,
+     "f": "Верно. Божьи дела идут первыми."
+    },
+    {
+     "q": "Какое слово ни разу не встречается в Молитве Господней?",
+     "o": [
+      "Я",
+      "Мы",
+      "Отец"
+     ],
+     "a": 0,
+     "f": "Верно. Молитва Господня — это «наша» молитва."
+    },
+    {
+     "q": "Какую просьбу Иисус заново объяснил после Молитвы Господней?",
+     "o": [
+      "Прощение",
+      "Хлеб",
+      "Царство"
+     ],
+     "a": 0,
+     "f": "Верно. Прощённый человек становится прощающим."
+    }
+   ],
+   "paylas": [
+    "Было ли у тебя хорошее дело, которое ты бы не сделал, если бы не мог поделиться им в соцсетях? Давай поговорим откровенно.",
+    "Где находится моя «комната»? Как я могу найти время, чтобы побыть с Богом наедине?",
+    "Какая из шести просьб Молитвы Господней нужна мне сейчас больше всего?",
+    "Что больше всего мешает прощать?"
+   ],
+   "etiraf": {
+    "b": "Моя Молитва Господня",
+    "p": "Глядя на таблицу выше, напиши Молитву Господню своими словами.",
+    "ph": "Например: Мой Небесный Отец, пусть сегодня и в нашей школе Твоё имя..."
+   },
+   "dua": "Отче наш, сущий на небесах, помоги мне освободиться от веры напоказ и жить искренне перед Тобой. Пусть я буду искать Твоё имя, Царство и волю прежде своих нужд. Как прощённый человек, пусть я тоже буду прощать. Молюсь во имя Иисуса Христа. Аминь."
+  }
+ },
+ "en": {
+  "usaq": {
+   "basliq": "Our Father in Heaven",
+   "hedef": [
+    "We will learn the prayer Jesus taught.",
+    "We will learn that God sees what we do in secret.",
+    "We will pray to our Heavenly Father using the Lord's Prayer."
+   ],
+   "sehneler": [
+    {
+     "b": "Helping in secret",
+     "ayə": "Matthew 6:1–4",
+     "alt": "A child quietly helping a poor person",
+     "p": [
+      "When some people helped the poor, they blew trumpets and bragged. They wanted people to praise them.",
+      "Jesus said: “When you give [[charity]], do not let your left hand know what your right hand is doing. Your Father who sees in secret will reward you.”"
+     ]
+    },
+    {
+     "b": "Pray in your room",
+     "ayə": "Matthew 6:5–8",
+     "alt": "A child praying in a small room with the door closed",
+     "p": [
+      "“When you pray, do not pray on the street corners to be seen by people. Go into your [[room]], close the door, and pray.”",
+      "“God does not hear you just because you use many words. Your Father knows what you need before you ask Him.”"
+     ]
+    },
+    {
+     "b": "Pray like this",
+     "ayə": "Matthew 6:9–13",
+     "alt": "Jesus teaching His disciples to pray",
+     "p": [
+      "Jesus taught how to pray. This is called [[the Lord's Prayer]].",
+      "“Our Father in heaven, may your name be kept holy. Let your Kingdom come. Let your will be done on earth as it is in heaven. Give us today our [[daily bread]]. Forgive us our debts, as we also forgive our debtors. Bring us not into temptation, but deliver us from the evil one.”"
+     ]
+    },
+    {
+     "b": "A forgiving heart",
+     "ayə": "Matthew 6:14–18",
+     "alt": "Brothers hugging and forgiving each other",
+     "p": [
+      "“If you [[forgive]] people their trespasses, your Heavenly Father will also forgive you.”",
+      "When you [[fast]], wash your face and be cheerful. We show this to God, not to people."
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "“Our Father in heaven! May your name be kept holy.”",
+    "ref": "6:9",
+    "bos": "“Our ___ in ___! May your name be kept ___.”",
+    "sozler": [
+     "Father",
+     "heaven",
+     "holy"
+    ],
+    "yalan": "earth"
+   },
+   "lugat": {
+    "charity": {
+     "i": "🎁",
+     "x": "Sədəqə",
+     "m": "Giving what is needed to poor people and those in trouble.",
+     "e": "Give charity in secret."
+    },
+    "room": {
+     "i": "🚪",
+     "x": "otaq",
+     "m": "A small and quiet room in the house.",
+     "e": "Go into your room, close the door, and pray."
+    },
+    "the Lord's Prayer": {
+     "i": "🙏",
+     "x": "Rəbbin duası",
+     "m": "The prayer that Jesus Himself taught.",
+     "e": "We read the Lord's Prayer together in worship."
+    },
+    "daily bread": {
+     "i": "🍞",
+     "x": "gündəlik çörək",
+     "m": "The food we need to live today.",
+     "e": "Give us today our daily bread."
+    },
+    "forgive": {
+     "i": "🤗",
+     "x": "bağışlamaq",
+     "m": "Accepting someone who did wrong to us without punishing them.",
+     "e": "God forgives our sins."
+    },
+    "fast": {
+     "i": "🥣",
+     "x": "Oruc",
+     "m": "Not eating food for a while to focus on God.",
+     "e": "Keep your face cheerful even when you fast."
+    }
+   },
+   "test": [
+    {
+     "q": "How should we act when we give charity?",
+     "o": [
+      "Do not let the left hand know what the right hand is doing",
+      "By blowing a trumpet",
+      "By taking pictures"
+     ],
+     "a": 0,
+     "f": "That's right! God sees what is done in secret."
+    },
+    {
+     "q": "Where did Jesus say to pray?",
+     "o": [
+      "In a room with the door closed",
+      "Loudly on the street corner",
+      "In the middle of the market"
+     ],
+     "a": 0,
+     "f": "That's right! We talk to God one-on-one."
+    },
+    {
+     "q": "What do we ask for 'today' in the Lord's Prayer?",
+     "o": [
+      "Our daily bread",
+      "A big house",
+      "A new toy"
+     ],
+     "a": 0,
+     "f": "That's right! We ask for what we need today."
+    },
+    {
+     "q": "What happens if we forgive others?",
+     "o": [
+      "Our Heavenly Father will also forgive us",
+      "Nothing happens",
+      "Our friend gets angry"
+     ],
+     "a": 0,
+     "f": "That's right! Forgiving is God's heart."
+    }
+   ],
+   "dusun": [
+    "How does it feel to be able to call God 'Father'?",
+    "What is your favorite part of the Lord's Prayer?",
+    "Is there someone you need to forgive?"
+   ],
+   "fealiyyet": {
+    "ciz": "Draw yourself praying to your Heavenly Father in your room.",
+    "b": "What will you pray for?",
+    "p": "Choose a topic to pray about.",
+    "ph": "",
+    "secim": {
+     "basliq": "What will you pray for?",
+     "izah": "Tap to choose. You can choose more than one.",
+     "cumle": "I will pray to my Heavenly Father for {x}!",
+     "bos": "my family",
+     "bag": "and",
+     "secimler": [
+      [
+       "👨‍👩‍👧",
+       "my family"
+      ],
+      [
+       "👫",
+       "my friends"
+      ],
+      [
+       "🏫",
+       "my school"
+      ],
+      [
+       "🤒",
+       "the sick"
+      ],
+      [
+       "🍞",
+       "our daily bread"
+      ],
+      [
+       "🌍",
+       "my country"
+      ],
+      [
+       "🤗",
+       "someone I am upset with"
+      ],
+      [
+       "⛪",
+       "our church"
+      ]
+     ]
+    }
+   },
+   "dua": "Our Father in heaven, thank You for calling me Your child and teaching me how to pray. Help me to live only for You, not to be seen by people. Help me to forgive my friend who did wrong to me. I pray in the name of Jesus Christ. Amen."
+  },
+  "genc": {
+   "basliq": "Prayer to the Father",
+   "giris": "Likes, followers, view counts. We are used to 'being seen'. Speaking of charity, prayer, and fasting—the three pillars of faith—Jesus asked the same question: who do you want to be seen by?",
+   "meqsed": [
+    "We understand the danger of 'faith to be seen' in charity, prayer, and fasting.",
+    "We can explain the structure of the Lord's Prayer and the meaning of each request.",
+    "We pray the Lord's Prayer to God in our own words."
+   ],
+   "sehneler": [
+    {
+     "b": "To be seen by whom?",
+     "ayə": "Matthew 6:1–4",
+     "alt": "A child quietly helping a poor person",
+     "p": [
+      "“Be careful that you don't do your charitable giving before men, to be seen by them.” Jesus says that [[hypocrites|hypocrite]] blow trumpets when they give [[charity]].",
+      "“They have received their reward in full.” That means people's praise is all the reward they will get."
+     ],
+     "deep": {
+      "b": "Look Deeper · Three pillars",
+      "p": "Charity, prayer, and fasting were the three pillars of Jewish piety. Jesus did not abolish them. At the end of all three comes the same refrain: “Your Father who sees in secret will reward you.”"
+     }
+    },
+    {
+     "b": "The room and the Father",
+     "ayə": "Matthew 6:5–8",
+     "alt": "A child praying in a small room with the door closed",
+     "p": [
+      "In those days, houses had a small storage [[room]] for grain and tools, without even a window. Jesus says to go in there, close the door, and pray.",
+      "Do not think you will be heard for your many words like the pagans. Because God is a 'Father' who already knows."
+     ],
+     "deep": {
+      "b": "Look Deeper · 'Father'",
+      "p": "In the Sermon on the Mount, the word 'Father' appears 17 times, 10 of which are in 6:1–18. Prayer is not transmitting information, but a relationship with the Father."
+     }
+    },
+    {
+     "b": "The Lord's Prayer",
+     "ayə": "Matthew 6:9–13",
+     "alt": "Jesus teaching His disciples to pray",
+     "p": [
+      "“Pray like this.” The first three requests of [[the Lord's Prayer]] ask for the 'Father's' name, Kingdom, and will, while the last three ask for 'our' bread, debts, and temptation.",
+      "God's work comes first, my needs come second. But my needs are not forgotten. The Father cares about both."
+     ],
+     "deep": {
+      "b": "Look Deeper · 'We'",
+      "p": "The word 'I' does not appear even once in the Lord's Prayer. 'Our Father', 'our bread', 'our debts'. Even if we pray alone in our room, we pray together with God's whole family."
+     }
+    },
+    {
+     "b": "Forgiveness and fasting",
+     "ayə": "Matthew 6:14–18",
+     "alt": "Brothers hugging and forgiving each other",
+     "p": [
+      "Jesus explains only one request from the Lord's Prayer again: [[forgiveness]]. “If you don't forgive men their trespasses, neither will your Father forgive your trespasses.”",
+      "When you fast, do not look gloomy, but anoint your head and wash your face. Faith is not a performance."
+     ],
+     "deep": {
+      "b": "Look Deeper · Is forgiveness a condition?",
+      "p": "This does not mean 'buying' forgiveness. A forgiven person becomes a forgiving person. If we reject forgiving to the end, we need to examine whether we have truly accepted God's forgiveness (18:21–35).",
+      "rose": true
+     }
+    }
+   ],
+   "cedvel": {
+    "b": "Structure of the Lord's Prayer",
+    "alt": "6:9–13",
+    "bas": [
+     "Request",
+     "Meaning",
+     "In my own words"
+    ],
+    "set": [
+     [
+      "May your name be kept holy",
+      "God is exalted as He deserves",
+      "May everyone know You"
+     ],
+     [
+      "Let your Kingdom come",
+      "God rules as King",
+      "Be the King of my life"
+     ],
+     [
+      "Let your will be done",
+      "God's will comes first",
+      "May I submit to Your will rather than my own"
+     ],
+     [
+      "Give us our daily bread",
+      "Today's need",
+      "Give me what I need today"
+     ],
+     [
+      "Forgive us our debts",
+      "Being forgiven and forgiving",
+      "Forgive me, and let me forgive"
+     ],
+     [
+      "Bring us not into temptation",
+      "Protection from evil",
+      "Give me strength to overcome temptation"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "“But you, when you pray, enter into your inner room, and having shut your door, pray to your Father who is in secret; and your Father who sees in secret will reward you.”",
+    "ref": "6:6"
+   },
+   "lugat": {
+    "hypocrite": {
+     "i": "🎭",
+     "o": "Greek hypokrites, 'stage actor'",
+     "x": "ikiüzlü",
+     "s": "Faith wearing a mask",
+     "m": "It originally referred to an actor playing a role with a mask. It is a faith where the inside and outside are different.",
+     "e": "The English word 'hypocrite' comes from this."
+    },
+    "charity": {
+     "i": "🎁",
+     "o": "Greek eleemosyne, 'mercy'",
+     "x": "sədəqə",
+     "s": "Helping a poor neighbor",
+     "m": "It comes from the word 'mercy'. Helping is imitating God's mercy.",
+     "e": "The Azerbaijani word 'sədəqə' is also used in everyday life."
+    },
+    "room": {
+     "i": "🚪",
+     "o": "Greek tameion, 'storage room'",
+     "x": "otaq",
+     "s": "A secret place",
+     "m": "It was a small room inside the house where grain and valuables were kept.",
+     "e": "Jesus turned the most ordinary place into a place of prayer."
+    },
+    "the Lord's Prayer": {
+     "i": "🙏",
+     "o": "'The prayer taught by the Lord'",
+     "x": "Rəbbin duası",
+     "s": "The model prayer given by Jesus",
+     "m": "It is not a magic spell to memorize and repeat, but a model showing the direction and order of prayer.",
+     "e": "The early church recited the Lord's Prayer three times a day (Didache 8)."
+    },
+    "forgiveness": {
+     "i": "🤗",
+     "o": "Greek aphiemi, 'to let go'",
+     "x": "bağışlama",
+     "s": "Canceling a debt",
+     "m": "It means letting go of a debt you hold. Matthew describes sin as a 'debt'.",
+     "e": "The phrase 'as we also forgive our debtors' comes from this."
+    }
+   },
+   "test": [
+    {
+     "q": "What are the three pillars of piety Jesus mentioned?",
+     "o": [
+      "Charity, prayer, fasting",
+      "Praise, sermon, offering",
+      "Study, sports, service"
+     ],
+     "a": 0,
+     "f": "Correct. He said to do all three 'in secret'."
+    },
+    {
+     "q": "What did the word 'hypocrite' originally mean?",
+     "o": [
+      "A stage actor",
+      "A rich person",
+      "A priest"
+     ],
+     "a": 0,
+     "f": "Correct. A faith wearing a mask."
+    },
+    {
+     "q": "What do the first three requests of the Lord's Prayer have in common?",
+     "o": [
+      "The Father's name, Kingdom, and will",
+      "Our bread, debt, and temptation",
+      "My dream, health, and grades"
+     ],
+     "a": 0,
+     "f": "Correct. God's work comes first."
+    },
+    {
+     "q": "Which word does not appear even once in the Lord's Prayer?",
+     "o": [
+      "I",
+      "We",
+      "Father"
+     ],
+     "a": 0,
+     "f": "Correct. The Lord's Prayer is 'our' prayer."
+    },
+    {
+     "q": "Which request did Jesus explain again after the Lord's Prayer?",
+     "o": [
+      "Forgiveness",
+      "Bread",
+      "Kingdom"
+     ],
+     "a": 0,
+     "f": "Correct. A forgiven person becomes a forgiving person."
+    }
+   ],
+   "paylas": [
+    "Has there been a good deed you wouldn't have done if you couldn't share it on social media? Let's be honest.",
+    "Where is my 'room'? How can I create one-on-one time with God?",
+    "Which of the six requests of the Lord's Prayer do I need the most right now?",
+    "What is the hardest reason to forgive?"
+   ],
+   "etiraf": {
+    "b": "My Lord's Prayer",
+    "p": "Looking at the table above, write the Lord's Prayer in your own words.",
+    "ph": "For example: My Father in heaven, may Your name be honored today at our school too..."
+   },
+   "dua": "Our Father in heaven, help me to be free from a faith meant to be seen, and to live sincerely before You. May I seek Your name, Your Kingdom, and Your will before my own needs. As a forgiven person, let me also forgive. I pray in the name of Jesus Christ. Amen."
+  }
  }
-},
-"muellim": {
- "mesaj": "9과의 중심은 한 문장입니다. **신앙은 사람에게 보이는 연기가 아니라 은밀히 보시는 아버지와의 관계이며, 주기도문은 그 관계의 본이다.**",
- "hazirliq": ["학생용 교재를 열 휴대폰이나 태블릿, 이어폰", "주기도문 카드 (한국어·아제르바이잔어)", "작은 상자나 천 (어린이반 ‘골방’ 놀이)"],
- "fon": [
-  ["1. 경건의 세 기둥", "구제, 기도, 금식은 유대교의 핵심 실천이었습니다. 6:2, 5, 16에서 같은 구조(하지 말라 → 그들은 상을 받았다 → 너는 은밀히 → 아버지가 갚으신다)가 세 번 반복됩니다."],
-  ["2. 나팔", "구제할 때 실제로 나팔을 불었다는 기록은 없습니다. ‘요란하게 광고한다’는 과장 표현으로 보는 것이 일반적입니다."],
-  ["3. 주기도문의 위치", "6:9–13은 산상설교의 정중앙에 가깝습니다. 누가복음 11:2–4에도 짧은 형태가 나옵니다. 끝의 송영(‘나라와 권세와 영광이…’)은 후대 사본에서 덧붙여졌지만 예배에서는 함께 씁니다."],
-  ["4. 아제르바이잔어 주기도문", "‘Ey göylərdə olan Atamız!’로 시작합니다. 학생들이 집에서도 기도할 수 있도록 카드로 나눠 주세요."],
-  ["5. 금식 문화", "현지 학생들은 이슬람의 라마단 금식(oruc)에 익숙합니다. 같은 낱말이지만 예수님은 기간이나 규칙보다 ‘누구 앞에서’인지를 강조하신다는 점을 부드럽게 비교할 수 있습니다."]
- ],
- "usaq_plan": [
-  ["5분", "숨은 선물 찾기", "교사가 몰래 준비한 작은 선물 찾기", "“누가 했는지 몰라도 고마운 일이 있었나요? 하나님은 다 보세요.”"],
-  ["15분", "장면 1–4 듣고 읽기", "장면마다 듣기, 노란 낱말 누르기", "“하나님을 ‘아빠’라고 부를 수 있어요.”"],
-  ["5분", "외울 말씀", "빈칸 놀이 → 주기도문 첫 구절 함께 외우기", ""],
-  ["5분", "확인 퀴즈", "혼자 풀고 함께 확인", ""],
-  ["10분", "활동과 기도", "기도 제목 고르기 → 주기도문으로 함께 마무리", ""]
- ],
- "genc_plan": [
-  ["5분", "열기", "“좋아요가 하나도 안 달려도 이 일을 할까?” 질문", ""],
-  ["15분", "장면 1–2", "세 기둥, 외식, 골방과 아버지", ""],
-  ["10분", "장면 3–4와 구조 표", "주기도문의 여섯 간구, ‘우리’, 용서", "“지금 내게 가장 필요한 간구는?”"],
-  ["5분", "확인 문제", "", ""],
-  ["15분", "나눔과 고백", "나눔 질문 2개 → 나의 주기도문 쓰기 → 함께 읽기", ""]
- ],
- "ipucu_usaq": ["주기도문을 한 번에 다 외우게 하지 말고, 매주 한 줄씩 더해 가세요.", "‘골방’은 꼭 방이 아니어도 된다고 알려 주세요. 이불 속, 화장실, 등굣길도 하나님과 단둘이 있는 곳이 될 수 있어요.", "용서할 사람을 억지로 말하게 하지 마세요."],
- "ipucu_genc": ["SNS 이야기를 할 때 비난조가 되지 않게 하세요. ‘보이는 것’ 자체가 아니라 ‘누구를 위해’가 핵심입니다.", "‘나의 주기도문’은 원하는 학생만 소리 내어 읽게 하세요.", "용서를 ‘조건’으로 오해해 두려워하는 학생에게 18장의 비유를 미리 소개해 주세요."],
- "suallar": [
-  ["하나님이 다 아시면 왜 기도해요?", "아빠가 다 알아도 우리가 아빠랑 이야기하고 싶은 것처럼, 기도는 하나님과 친해지는 시간이에요.", "기도는 정보 전달이 아니라 관계예요. 기도하며 우리 마음이 하나님의 뜻에 맞춰 바뀌어 가요."],
-  ["교회에서 크게 기도하면 안 돼요?", "아니에요. 함께 기도하는 것도 좋아요. 다만 사람에게 잘 보이려고 하지 않으면 돼요.", "예수님도 공개적으로 기도하셨어요(11:25). 문제는 장소가 아니라 동기예요."],
-  ["주기도문만 외우면 되나요?", "주기도문은 기도의 좋은 본이에요. 내 말로도 하나님께 이야기할 수 있어요.", "주기도문은 반복할 수도 있고, 순서를 따라 내 말로 풀어 기도할 수도 있어요. 둘 다 좋아요."]
- ]
-}
 }

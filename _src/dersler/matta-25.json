@@ -1,155 +1,1603 @@
 {
-"no": 25, "ref": "20:1–34", "deq": {"usaq": 40, "genc": 50},
-"img": ["matta/25-isciler.jpg", "matta/25-dinar.jpg", "matta/25-ana-istek.jpg", "28-bartimey.jpg"],
-"hero": 1,
-"ko": {
- "usaq": {
-  "basliq": "섬기러 오신 예수님",
-  "hedef": ["포도원 주인 비유로 하나님의 넉넉한 은혜를 알아요.", "하나님 나라에서는 섬기는 사람이 큰 사람임을 배워요.", "예수님처럼 다른 사람을 섬기기로 해요."],
-  "sehneler": [
-   {"b": "포도원 일꾼들", "ayə": "20:1–7", "alt": "장터에서 일꾼들을 부르는 포도원 주인", "p": ["어떤 [[포도원]] 주인이 아침 일찍 장터에 가서 일꾼들을 불렀어요. 하루 품삯은 한 데나리온이었어요.", "주인은 아홉 시, 열두 시, 세 시, 그리고 해 지기 한 시간 전인 다섯 시에도 나가서 일 없이 서 있는 사람들을 불렀어요."]},
-   {"b": "모두 똑같이 받았어요", "ayə": "20:8–16", "alt": "모든 일꾼에게 한 데나리온씩 주는 주인", "p": ["저녁이 되자 주인은 늦게 온 사람부터 품삯을 주었어요. 한 시간 일한 사람도 한 [[데나리온]]을 받았어요! 아침부터 일한 사람들은 더 받을 줄 알았는데 똑같이 한 데나리온이었어요.", "그들이 투덜거리자 주인이 말했어요. “나는 약속을 지켰어요. 내가 [[선]]하게 베푸는 것이 싫으냐?” 하나님은 늦게 온 사람에게도 똑같이 넉넉하세요."]},
-   {"b": "가장 높은 자리를 주세요", "ayə": "20:20–28", "alt": "두 아들을 위해 높은 자리를 부탁하는 어머니", "p": ["야고보와 요한의 어머니가 와서 부탁했어요. “제 두 아들을 주님 나라에서 오른쪽과 왼쪽에 앉게 해 주세요.” 다른 제자들은 화가 났어요.", "예수님이 말씀하셨어요. “너희 중에 크게 되고 싶은 사람은 다른 사람을 [[섬기는]] 사람이 되어야 한다. 나도 섬김을 받으러 온 것이 아니라 섬기러 왔고, 많은 사람을 위해 내 목숨을 주러 왔다.”"]},
-   {"b": "눈을 뜬 두 사람", "ayə": "20:29–34", "alt": "눈먼 사람의 눈을 만지시는 예수님", "p": ["여리고 길가에 앉은 두 [[맹인]]이 외쳤어요. “주님, 다윗의 자손이여, 우리를 불쌍히 여겨 주세요!” 사람들이 조용히 하라고 했지만 더 크게 외쳤어요.", "예수님이 멈춰 서서 물으셨어요. “내가 무엇을 해 주기를 원하느냐?” “눈을 뜨기를 원해요.” 예수님이 불쌍히 여기셔서 눈을 만지시자 곧 보게 되었고, 그들은 예수님을 따라갔어요."]}
-  ],
-  "aye": {"metn": "“인자가 온 것은 섬김을 받으려 함이 아니라 도리어 섬기려 하고 자기 목숨을 많은 사람의 대속물로 주려 함이니라.”", "ref": "20:28", "bos": "인자가 온 것은 ___을 받으려 함이 아니라 도리어 ___ 하고 자기 ___을 많은 사람의 대속물로 주려 함이니라.", "sozler": ["섬김", "섬기려", "목숨"], "yalan": "칭찬"},
-  "lugat": {
-   "포도원": {"i": "🍇", "x": "üzüm bağı", "m": "포도나무를 심어 기르는 밭이에요.", "e": "포도원 주인이 일꾼을 불렀어요."},
-   "데나리온": {"i": "🪙", "x": "dinar", "m": "그때 하루 일한 품삯이었던 은화예요.", "e": "모두 한 데나리온씩 받았어요."},
-   "선": {"i": "💛", "x": "xeyirxah", "m": "착하고 너그러운 거예요.", "e": "내가 선하게 베푸는 것이 싫으냐?"},
-   "섬기는": {"i": "🧺", "x": "xidmət edən", "m": "다른 사람을 위해 도와주고 일하는 거예요.", "e": "큰 사람은 섬기는 사람이에요."},
-   "맹인": {"i": "🦯", "x": "kor", "m": "눈이 보이지 않는 사람이에요.", "e": "두 맹인이 예수님을 불렀어요."}
-  },
-  "test": [
-   {"q": "한 시간만 일한 일꾼은 얼마를 받았나요?", "o": ["한 데나리온", "아무것도 못 받았어요", "동전 하나"], "a": 0, "f": "맞아요! 주인은 넉넉하게 주었어요."},
-   {"q": "주인의 모습은 누구를 보여 주나요?", "o": ["넉넉하신 하나님", "욕심 많은 사람", "게으른 사람"], "a": 0, "f": "맞아요! 하나님은 늦게 온 사람도 사랑하세요."},
-   {"q": "예수님은 크게 되고 싶은 사람은 어떻게 하라고 하셨나요?", "o": ["섬기는 사람이 되어라", "높은 자리에 앉아라", "명령을 많이 해라"], "a": 0, "f": "맞아요! 섬기는 사람이 큰 사람이에요."},
-   {"q": "두 맹인은 눈을 뜬 뒤 무엇을 했나요?", "o": ["예수님을 따라갔어요", "집으로 갔어요", "숨었어요"], "a": 0, "f": "맞아요! 고침받고 따랐어요."}
-  ],
-  "dusun": ["늦게 온 일꾼이 똑같이 받는 것을 보면 어떤 생각이 드나요?", "예수님은 왜 섬기러 오셨을까요?", "이번 주에 내가 섬길 수 있는 사람은 누구인가요?"],
-  "fealiyyet": {"ciz": "누군가를 도와주며 섬기는 나를 그려 보세요.", "b": "나의 섬김", "p": "이번 주에 할 섬김을 써 보세요.", "ph": "예) 동생의 신발을 정리해 줄 거예요."},
-  "dua": "예수님, 섬김을 받으러 오시지 않고 섬기러 오시고 저를 위해 목숨까지 주신 예수님께 감사합니다. 늦게 온 사람에게도 넉넉하신 하나님의 은혜를 기뻐하게 해 주세요. 높은 자리보다 섬기는 자리를 기뻐하는 사람이 되게 해 주세요. 예수님 이름으로 기도합니다. 아멘."
+ "no": 25,
+ "ref": "20:1–34",
+ "deq": {
+  "usaq": 40,
+  "genc": 50
  },
- "genc": {
-  "basliq": "은혜의 계산법",
-  "giris": "“공평하지 않아!” 하루 종일 일한 사람과 한 시간 일한 사람이 같은 돈을 받았습니다. 하나님 나라는 우리의 계산법을 뒤집습니다. 그리고 그 뒤집힌 계산법의 정점에 섬기러 오신 왕이 계십니다.",
-  "meqsed": ["포도원 품꾼 비유에서 은혜와 공평의 차이를 이해해요.", "세상의 리더십과 예수님의 섬기는 리더십을 비교할 수 있어요.", "‘대속물’의 의미를 이해하고 섬김의 자리를 정해요."],
-  "sehneler": [
-   {"b": "다섯 번의 부름", "ayə": "20:1–7", "alt": "장터에서 일꾼들을 부르는 포도원 주인", "p": ["포도 수확철에는 비가 오기 전에 서둘러 거둬야 해서 일손이 급했어요. 주인은 새벽 6시, 9시, 12시, 오후 3시, 그리고 해 지기 한 시간 전인 5시에도 장터에 나가요.", "오후 5시에 서 있던 사람들은 “아무도 우리를 품꾼으로 쓰지 아니함이니이다”라고 했어요. 나이 많거나 약해서 선택받지 못한 사람들이었을 거예요. 주인은 그들도 불렀어요."], "deep": {"b": "깊이 보기 · 찾아가는 주인", "p": "보통 일꾼이 주인을 찾지만, 이 주인은 다섯 번이나 직접 찾아 나가요. 9장의 목자, 18장의 잃은 양 목자와 같은 하나님의 모습이에요."}},
-   {"b": "나중 된 자가 먼저", "ayə": "20:8–16", "alt": "모든 일꾼에게 한 데나리온씩 주는 주인", "p": ["주인은 일부러 나중 온 사람부터 품삯을 주어 모두가 보게 했어요. 한 시간 일한 사람이 한 [[데나리온]]을 받자 아침 일꾼들은 기대했지만 그들도 한 데나리온이었어요. “우리와 같게 하였나이다”라고 원망했어요.", "주인의 대답: “친구여 내가 네게 잘못한 것이 없노라. … 내가 선하므로 네가 [[악하게 보느냐|악한 눈]]?” 아침 일꾼은 손해 본 게 없어요. 문제는 다른 사람이 받은 은혜를 기뻐하지 못하는 마음이에요."], "deep": {"b": "깊이 보기 · 탕자의 형", "p": "이 비유의 아침 일꾼은 누가복음 15장 탕자의 형과 닮았어요. 오래 신앙생활한 사람이 새로 온 사람에게 베풀어지는 은혜를 질투할 수 있어요. 19:27 베드로의 질문(“우리는 무엇을 얻겠습니까”)에 대한 대답이기도 해요."}},
-   {"b": "오른편과 왼편", "ayə": "20:17–28", "alt": "두 아들을 위해 높은 자리를 부탁하는 어머니", "p": ["예수님은 세 번째로 가장 자세하게 고난을 예고하세요. 넘겨지고, 정죄받고, 이방인에게 조롱당하고, 채찍질당하고, 십자가에 못 박히고, 사흘 만에 살아나리라. 바로 그 직후 세베대의 아들들의 어머니가 높은 자리를 구해요.", "예수님은 “내가 마시려는 [[잔]]을 너희가 마실 수 있느냐” 물으세요. 그리고 말씀하세요. “이방인의 집권자들이 임의로 주관하는 줄을 너희가 알거니와 너희 중에는 그렇지 아니하니 너희 중에 누구든지 크고자 하는 자는 너희를 섬기는 자가 되고.”"], "deep": {"b": "깊이 보기 · 대속물", "p": "‘대속물’(뤼트론)은 노예나 포로를 풀어 주려고 내는 몸값이에요. 예수님은 자기 목숨을 그 값으로 주러 오셨어요. 이사야 53장 고난받는 종의 성취예요. 섬김의 정점은 십자가예요.", "rose": true}},
-   {"b": "무엇을 원하느냐", "ayə": "20:29–34", "alt": "눈먼 사람의 눈을 만지시는 예수님", "p": ["여리고는 예루살렘으로 올라가는 마지막 관문이에요. 길가의 두 [[맹인]]이 “다윗의 자손이여 우리를 불쌍히 여기소서” 외쳤어요. 무리가 꾸짖자 더 크게 외쳤어요.", "예수님은 “내가 너희에게 무엇을 하여 주기를 원하느냐” 물으세요. 20:21에서 어머니에게 하신 것과 같은 질문이에요. 어머니는 권력을 구했고, 맹인들은 보기를 구했어요. 눈을 뜬 그들은 예수님을 따랐어요. 십자가를 향한 길이었어요."], "deep": {"b": "깊이 보기 · 진짜 눈먼 자", "p": "세 번이나 고난 예고를 듣고도 자리 다툼을 하는 제자들과, 눈은 멀었지만 예수님을 ‘다윗의 자손’으로 알아본 맹인들. 누가 진짜 보는 사람일까요?"}}
-  ],
-  "cedvel": {"b": "같은 질문, 다른 대답", "alt": "20:21, 32", "bas": ["", "세베대 아들들의 어머니", "두 맹인"], "set": [["예수님의 질문", "무엇을 원하느냐", "무엇을 하여 주기를 원하느냐"], ["구한 것", "높은 자리", "눈을 뜨는 것"], ["예수님을 부른 호칭", "(왕으로 기대함)", "주여, 다윗의 자손이여"], ["결과", "섬김에 대한 가르침", "보게 되어 예수님을 따름"]]},
-  "aye": {"metn": "“너희 중에 누구든지 크고자 하는 자는 너희를 섬기는 자가 되고 … 인자가 온 것은 섬김을 받으려 함이 아니라 도리어 섬기려 하고 자기 목숨을 많은 사람의 대속물로 주려 함이니라.”", "ref": "20:26–28"},
-  "lugat": {
-   "데나리온": {"i": "🪙", "o": "로마 은화 데나리우스", "x": "dinar", "s": "하루 품삯", "m": "한 가족이 하루를 살 수 있는 돈이었어요. 한 시간 일한 사람에게도 ‘하루 살 만큼’을 준 거예요.", "e": "주인은 각 사람의 ‘필요’를 채워 주었어요."},
-   "악한 눈": {"i": "👁️", "o": "헬라어 오프탈모스 포네로스", "x": "paxıl göz", "s": "질투와 인색함", "m": "6:23에서 배운 ‘나쁜 눈’이에요. 남이 잘되는 것을 기뻐하지 못하는 마음이에요.", "e": "“내가 선하므로 네가 악하게 보느냐”(20:15)."},
-   "잔": {"i": "🍷", "o": "헬라어 포테리온", "x": "kasa", "s": "하나님이 정하신 고난", "m": "구약에서 ‘진노의 잔’은 하나님의 심판을 뜻해요. 예수님은 겟세마네에서 “이 잔을 내게서 지나가게 하옵소서” 기도하세요(26:39).", "e": "야고보는 훗날 사도 중 처음으로 순교했어요(행 12:2)."},
-   "맹인": {"i": "🦯", "o": "헬라어 튀플로스", "x": "kor", "s": "보지 못하는 자, 그러나 알아본 자", "m": "마가복음은 한 명(바디매오)만 이름을 들어 소개하지만, 마태는 두 명이라고 해요. 증언에는 두 사람이 필요했어요(신 19:15).", "e": "9:27–31에서도 두 맹인이 같은 외침을 해요."}
+ "img": [
+  "matta/25-isciler.jpg",
+  "matta/25-dinar.jpg",
+  "matta/25-ana-istek.jpg",
+  "28-bartimey.jpg"
+ ],
+ "hero": 1,
+ "ko": {
+  "usaq": {
+   "basliq": "섬기러 오신 예수님",
+   "hedef": [
+    "포도원 주인 비유로 하나님의 넉넉한 은혜를 알아요.",
+    "하나님 나라에서는 섬기는 사람이 큰 사람임을 배워요.",
+    "예수님처럼 다른 사람을 섬기기로 해요."
+   ],
+   "sehneler": [
+    {
+     "b": "포도원 일꾼들",
+     "ayə": "20:1–7",
+     "alt": "장터에서 일꾼들을 부르는 포도원 주인",
+     "p": [
+      "어떤 [[포도원]] 주인이 아침 일찍 장터에 가서 일꾼들을 불렀어요. 하루 품삯은 한 데나리온이었어요.",
+      "주인은 아홉 시, 열두 시, 세 시, 그리고 해 지기 한 시간 전인 다섯 시에도 나가서 일 없이 서 있는 사람들을 불렀어요."
+     ]
+    },
+    {
+     "b": "모두 똑같이 받았어요",
+     "ayə": "20:8–16",
+     "alt": "모든 일꾼에게 한 데나리온씩 주는 주인",
+     "p": [
+      "저녁이 되자 주인은 늦게 온 사람부터 품삯을 주었어요. 한 시간 일한 사람도 한 [[데나리온]]을 받았어요! 아침부터 일한 사람들은 더 받을 줄 알았는데 똑같이 한 데나리온이었어요.",
+      "그들이 투덜거리자 주인이 말했어요. “나는 약속을 지켰어요. 내가 [[선]]하게 베푸는 것이 싫으냐?” 하나님은 늦게 온 사람에게도 똑같이 넉넉하세요."
+     ]
+    },
+    {
+     "b": "가장 높은 자리를 주세요",
+     "ayə": "20:20–28",
+     "alt": "두 아들을 위해 높은 자리를 부탁하는 어머니",
+     "p": [
+      "야고보와 요한의 어머니가 와서 부탁했어요. “제 두 아들을 주님 나라에서 오른쪽과 왼쪽에 앉게 해 주세요.” 다른 제자들은 화가 났어요.",
+      "예수님이 말씀하셨어요. “너희 중에 크게 되고 싶은 사람은 다른 사람을 [[섬기는]] 사람이 되어야 한다. 나도 섬김을 받으러 온 것이 아니라 섬기러 왔고, 많은 사람을 위해 내 목숨을 주러 왔다.”"
+     ]
+    },
+    {
+     "b": "눈을 뜬 두 사람",
+     "ayə": "20:29–34",
+     "alt": "눈먼 사람의 눈을 만지시는 예수님",
+     "p": [
+      "여리고 길가에 앉은 두 [[맹인]]이 외쳤어요. “주님, 다윗의 자손이여, 우리를 불쌍히 여겨 주세요!” 사람들이 조용히 하라고 했지만 더 크게 외쳤어요.",
+      "예수님이 멈춰 서서 물으셨어요. “내가 무엇을 해 주기를 원하느냐?” “눈을 뜨기를 원해요.” 예수님이 불쌍히 여기셔서 눈을 만지시자 곧 보게 되었고, 그들은 예수님을 따라갔어요."
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "“인자가 온 것은 섬김을 받으려 함이 아니라 도리어 섬기려 하고 자기 목숨을 많은 사람의 대속물로 주려 함이니라.”",
+    "ref": "20:28",
+    "bos": "인자가 온 것은 ___을 받으려 함이 아니라 도리어 ___ 하고 자기 ___을 많은 사람의 대속물로 주려 함이니라.",
+    "sozler": [
+     "섬김",
+     "섬기려",
+     "목숨"
+    ],
+    "yalan": "칭찬"
+   },
+   "lugat": {
+    "포도원": {
+     "i": "🍇",
+     "x": "üzüm bağı",
+     "m": "포도나무를 심어 기르는 밭이에요.",
+     "e": "포도원 주인이 일꾼을 불렀어요."
+    },
+    "데나리온": {
+     "i": "🪙",
+     "x": "dinar",
+     "m": "그때 하루 일한 품삯이었던 은화예요.",
+     "e": "모두 한 데나리온씩 받았어요."
+    },
+    "선": {
+     "i": "💛",
+     "x": "xeyirxah",
+     "m": "착하고 너그러운 거예요.",
+     "e": "내가 선하게 베푸는 것이 싫으냐?"
+    },
+    "섬기는": {
+     "i": "🧺",
+     "x": "xidmət edən",
+     "m": "다른 사람을 위해 도와주고 일하는 거예요.",
+     "e": "큰 사람은 섬기는 사람이에요."
+    },
+    "맹인": {
+     "i": "🦯",
+     "x": "kor",
+     "m": "눈이 보이지 않는 사람이에요.",
+     "e": "두 맹인이 예수님을 불렀어요."
+    }
+   },
+   "test": [
+    {
+     "q": "한 시간만 일한 일꾼은 얼마를 받았나요?",
+     "o": [
+      "한 데나리온",
+      "아무것도 못 받았어요",
+      "동전 하나"
+     ],
+     "a": 0,
+     "f": "맞아요! 주인은 넉넉하게 주었어요."
+    },
+    {
+     "q": "주인의 모습은 누구를 보여 주나요?",
+     "o": [
+      "넉넉하신 하나님",
+      "욕심 많은 사람",
+      "게으른 사람"
+     ],
+     "a": 0,
+     "f": "맞아요! 하나님은 늦게 온 사람도 사랑하세요."
+    },
+    {
+     "q": "예수님은 크게 되고 싶은 사람은 어떻게 하라고 하셨나요?",
+     "o": [
+      "섬기는 사람이 되어라",
+      "높은 자리에 앉아라",
+      "명령을 많이 해라"
+     ],
+     "a": 0,
+     "f": "맞아요! 섬기는 사람이 큰 사람이에요."
+    },
+    {
+     "q": "두 맹인은 눈을 뜬 뒤 무엇을 했나요?",
+     "o": [
+      "예수님을 따라갔어요",
+      "집으로 갔어요",
+      "숨었어요"
+     ],
+     "a": 0,
+     "f": "맞아요! 고침받고 따랐어요."
+    }
+   ],
+   "dusun": [
+    "늦게 온 일꾼이 똑같이 받는 것을 보면 어떤 생각이 드나요?",
+    "예수님은 왜 섬기러 오셨을까요?",
+    "이번 주에 내가 섬길 수 있는 사람은 누구인가요?"
+   ],
+   "fealiyyet": {
+    "ciz": "누군가를 도와주며 섬기는 나를 그려 보세요.",
+    "b": "나의 섬김",
+    "p": "이번 주에 할 섬김을 써 보세요.",
+    "ph": "예) 동생의 신발을 정리해 줄 거예요."
+   },
+   "dua": "예수님, 섬김을 받으러 오시지 않고 섬기러 오시고 저를 위해 목숨까지 주신 예수님께 감사합니다. 늦게 온 사람에게도 넉넉하신 하나님의 은혜를 기뻐하게 해 주세요. 높은 자리보다 섬기는 자리를 기뻐하는 사람이 되게 해 주세요. 예수님 이름으로 기도합니다. 아멘."
   },
-  "test": [
-   {"q": "주인이 다섯 시에 부른 일꾼들은 왜 서 있었나요?", "o": ["아무도 품꾼으로 쓰지 않아서", "게을러서", "늦잠을 자서"], "a": 0, "f": "맞아요. 선택받지 못한 사람들이었어요."},
-   {"q": "아침 일꾼들이 원망한 진짜 이유는?", "o": ["남이 받은 은혜를 질투해서", "약속보다 적게 받아서", "일이 너무 힘들어서"], "a": 0, "f": "맞아요. 그들은 손해 본 게 없었어요."},
-   {"q": "세 번째 고난 예고 직후에 일어난 일은?", "o": ["높은 자리를 구하는 요청", "오천 명을 먹이심", "변화산 사건"], "a": 0, "f": "맞아요. 제자들은 아직 이해하지 못했어요."},
-   {"q": "‘대속물’(뤼트론)의 뜻은?", "o": ["노예나 포로를 풀어 주는 몸값", "성전 헌금", "세금"], "a": 0, "f": "맞아요. 예수님의 목숨이 그 값이에요."},
-   {"q": "예수님이 어머니와 맹인들에게 공통으로 하신 질문은?", "o": ["무엇을 원하느냐", "누구냐", "어디서 왔느냐"], "a": 0, "f": "맞아요. 무엇을 구하느냐가 마음을 보여 줘요."}
-  ],
-  "paylas": ["나는 포도원 비유에서 아침 일꾼과 다섯 시 일꾼 중 누구에 더 공감하나요?", "다른 사람이 받은 복이나 칭찬을 기뻐하지 못했던 경험이 있나요?", "학교나 모임에서 ‘이방인의 리더십’과 ‘섬기는 리더십’을 본 적이 있나요?", "예수님이 지금 “무엇을 원하느냐?”고 물으신다면 나는 무엇을 구할까요?"],
-  "etiraf": {"b": "나의 고백", "p": "예수님이 나에게 “무엇을 원하느냐?”고 물으십니다. 높은 자리가 아니라 ‘보는 눈’을 구하는 기도를 서너 문장으로 써 보세요.", "ph": "예) 주님, 저는 인정받는 자리를 원했어요. 그런데 이제는 …"},
-  "dua": "섬기러 오신 예수님, 제 목숨의 값으로 주님의 목숨을 주신 사랑에 감사합니다. 다른 사람이 받은 은혜를 질투하지 않고 함께 기뻐하게 해 주세요. 높은 자리를 구하는 대신 눈을 떠서 주님을 보고, 섬기는 자리에서 주님을 따르게 해 주세요. 예수님 이름으로 기도합니다. 아멘."
- }
-},
-"az": {
- "usaq": {
-  "basliq": "Xidmət etməyə gələn İsa",
-  "hedef": ["Üzüm bağı sahibi məsəli ilə Allahın səxavətli lütfünü öyrənəcəyik.", "Allahın Padşahlığında xidmət edənin böyük olduğunu öyrənəcəyik.", "İsa kimi başqalarına xidmət etməyə qərar verəcəyik."],
-  "sehneler": [
-   {"b": "Üzüm bağının işçiləri", "ayə": "Matta 20:1–7", "alt": "Bazarda işçiləri çağıran üzüm bağı sahibi", "p": ["Bir [[üzüm bağı]] sahibi səhər tezdən bazara gedib işçiləri çağırdı. Bir günlük muzd bir dinar idi.", "Sahib saat doqquzda, on ikidə, üçdə və gün batmazdan bir saat əvvəl, beşdə də çıxıb işsiz duran adamları çağırdı."]},
-   {"b": "Hamı eyni aldı", "ayə": "Matta 20:8–16", "alt": "Bütün işçilərə bir dinar verən sahib", "p": ["Axşam sahib muzdu sonuncu gələnlərdən başlayaraq verdi. Bir saat işləyən də bir [[dinar]] aldı! Səhərdən işləyənlər daha çox alacaqlarını düşünürdülər, amma onlar da bir dinar aldılar.", "Onlar deyinəndə sahib dedi: “Mən sözümə əməl etdim. Mənim [[xeyirxah]] olmağım sənin xoşuna gəlmir?” Allah gec gələnlərə də eyni cür səxavətlidir."]},
-   {"b": "Ən yüksək yeri ver", "ayə": "Matta 20:20–28", "alt": "İki oğlu üçün yüksək yer istəyən ana", "p": ["Yaqubla Yəhyanın anası gəlib xahiş etdi: “İki oğlum Sənin Padşahlığında biri sağında, biri solunda otursun.” Digər şagirdlər hirsləndilər.", "İsa dedi: “Aranızda böyük olmaq istəyən başqalarına [[xidmət edən]] olsun. Mən də xidmət olunmağa deyil, xidmət etməyə və canımı çoxları üçün verməyə gəldim.”"]},
-   {"b": "Gözləri açılan iki adam", "ayə": "Matta 20:29–34", "alt": "Kor adamın gözlərinə toxunan İsa", "p": ["Yerixo yolunun kənarında oturan iki [[kor]] qışqırdı: “Ya Rəbb, Davud Oğlu, bizə rəhm et!” İnsanlar susmalarını desələr də, daha bərkdən qışqırdılar.", "İsa dayanıb soruşdu: “Sizin üçün nə etməyimi istəyirsiniz?” “Gözlərimiz açılsın.” İsanın rəhmi gəldi, gözlərinə toxundu, dərhal gördülər və Onun ardınca getdilər."]}
-  ],
-  "aye": {"metn": "“Bəşər Oğlu da xidmət olunmağa deyil, xidmət etməyə və canını çoxları üçün fidyə verməyə gəldi.”", "ref": "20:28", "bos": "Bəşər Oğlu da xidmət ___ deyil, xidmət ___ və ___ çoxları üçün fidyə verməyə gəldi.", "sozler": ["olunmağa", "etməyə", "canını"], "yalan": "oynamağa"},
-  "lugat": {
-   "üzüm bağı": {"i": "🍇", "x": "포도원", "m": "Üzüm tənəkləri əkilib becərilən bağdır.", "e": "Üzüm bağı sahibi işçiləri çağırdı."},
-   "dinar": {"i": "🪙", "x": "데나리온", "m": "O vaxt bir günlük əmək haqqı olan gümüş pul idi.", "e": "Hamı bir dinar aldı."},
-   "xeyirxah": {"i": "💛", "x": "선한", "m": "Yaxşı və səxavətli olmaqdır.", "e": "Mənim xeyirxah olmağım xoşuna gəlmir?"},
-   "xidmət edən": {"i": "🧺", "x": "섬기는 사람", "m": "Başqaları üçün kömək edən və çalışan adamdır.", "e": "Böyük insan xidmət edəndir."},
-   "kor": {"i": "🦯", "x": "맹인", "m": "Gözləri görməyən adamdır.", "e": "İki kor İsanı çağırdı."}
-  },
-  "test": [
-   {"q": "Bir saat işləyən işçi nə qədər aldı?", "o": ["Bir dinar", "Heç nə", "Bir qəpik"], "a": 0, "f": "Düzdür! Sahib səxavətlə verdi."},
-   {"q": "Bağ sahibi kimi göstərir?", "o": ["Səxavətli Allahı", "Tamahkar adamı", "Tənbəl adamı"], "a": 0, "f": "Düzdür! Allah gec gələni də sevir."},
-   {"q": "İsa böyük olmaq istəyənə nə dedi?", "o": ["Xidmət edən ol", "Yüksək yerdə otur", "Çox əmr ver"], "a": 0, "f": "Düzdür! Xidmət edən böyükdür."},
-   {"q": "İki kor gözləri açılandan sonra nə etdi?", "o": ["İsanın ardınca getdi", "Evinə getdi", "Gizləndi"], "a": 0, "f": "Düzdür! Şəfa tapıb ardınca getdilər."}
-  ],
-  "dusun": ["Gec gələn işçinin eyni almasını görəndə nə düşünürsən?", "İsa niyə xidmət etməyə gəldi?", "Bu həftə kimə xidmət edə bilərəm?"],
-  "fealiyyet": {"ciz": "Kiməsə kömək edib xidmət edən özünü çək.", "b": "Kimə xidmət edəcəksən?", "p": "Bu həftə xidmət edəcəyin adamı seç.", "ph": "",
-   "secim": {"basliq": "Kimə xidmət edəcəksən?", "izah": "Toxun və seç. Bir neçəsini seçə bilərsən.", "cumle": "Mən İsa kimi {x} xidmət edəcəyəm!", "bos": "evdə anama", "bag": "və",
-    "secimler": [["🧽", "evdə anama"], ["🧒", "kiçik qardaşıma"], ["👫", "dostlarıma"], ["👩‍🏫", "müəllimimə"], ["⛪", "cəmiyyətdə hamıya"], ["👵", "qonşu nənəyə"]]}},
-  "dua": "İsa, xidmət olunmağa deyil, xidmət etməyə gələn və mənim üçün canını verən Sənə şükür edirəm. Gec gələnlərə də səxavətli olan Allahın lütfünə sevinim. Yüksək yerdən çox xidmət yerini sevən insan olum. İsa Məsihin adı ilə dua edirəm. Amin."
+  "genc": {
+   "basliq": "은혜의 계산법",
+   "giris": "“공평하지 않아!” 하루 종일 일한 사람과 한 시간 일한 사람이 같은 돈을 받았습니다. 하나님 나라는 우리의 계산법을 뒤집습니다. 그리고 그 뒤집힌 계산법의 정점에 섬기러 오신 왕이 계십니다.",
+   "meqsed": [
+    "포도원 품꾼 비유에서 은혜와 공평의 차이를 이해해요.",
+    "세상의 리더십과 예수님의 섬기는 리더십을 비교할 수 있어요.",
+    "‘대속물’의 의미를 이해하고 섬김의 자리를 정해요."
+   ],
+   "sehneler": [
+    {
+     "b": "다섯 번의 부름",
+     "ayə": "20:1–7",
+     "alt": "장터에서 일꾼들을 부르는 포도원 주인",
+     "p": [
+      "포도 수확철에는 비가 오기 전에 서둘러 거둬야 해서 일손이 급했어요. 주인은 새벽 6시, 9시, 12시, 오후 3시, 그리고 해 지기 한 시간 전인 5시에도 장터에 나가요.",
+      "오후 5시에 서 있던 사람들은 “아무도 우리를 품꾼으로 쓰지 아니함이니이다”라고 했어요. 나이 많거나 약해서 선택받지 못한 사람들이었을 거예요. 주인은 그들도 불렀어요."
+     ],
+     "deep": {
+      "b": "깊이 보기 · 찾아가는 주인",
+      "p": "보통 일꾼이 주인을 찾지만, 이 주인은 다섯 번이나 직접 찾아 나가요. 9장의 목자, 18장의 잃은 양 목자와 같은 하나님의 모습이에요."
+     }
+    },
+    {
+     "b": "나중 된 자가 먼저",
+     "ayə": "20:8–16",
+     "alt": "모든 일꾼에게 한 데나리온씩 주는 주인",
+     "p": [
+      "주인은 일부러 나중 온 사람부터 품삯을 주어 모두가 보게 했어요. 한 시간 일한 사람이 한 [[데나리온]]을 받자 아침 일꾼들은 기대했지만 그들도 한 데나리온이었어요. “우리와 같게 하였나이다”라고 원망했어요.",
+      "주인의 대답: “친구여 내가 네게 잘못한 것이 없노라. … 내가 선하므로 네가 [[악하게 보느냐|악한 눈]]?” 아침 일꾼은 손해 본 게 없어요. 문제는 다른 사람이 받은 은혜를 기뻐하지 못하는 마음이에요."
+     ],
+     "deep": {
+      "b": "깊이 보기 · 탕자의 형",
+      "p": "이 비유의 아침 일꾼은 누가복음 15장 탕자의 형과 닮았어요. 오래 신앙생활한 사람이 새로 온 사람에게 베풀어지는 은혜를 질투할 수 있어요. 19:27 베드로의 질문(“우리는 무엇을 얻겠습니까”)에 대한 대답이기도 해요."
+     }
+    },
+    {
+     "b": "오른편과 왼편",
+     "ayə": "20:17–28",
+     "alt": "두 아들을 위해 높은 자리를 부탁하는 어머니",
+     "p": [
+      "예수님은 세 번째로 가장 자세하게 고난을 예고하세요. 넘겨지고, 정죄받고, 이방인에게 조롱당하고, 채찍질당하고, 십자가에 못 박히고, 사흘 만에 살아나리라. 바로 그 직후 세베대의 아들들의 어머니가 높은 자리를 구해요.",
+      "예수님은 “내가 마시려는 [[잔]]을 너희가 마실 수 있느냐” 물으세요. 그리고 말씀하세요. “이방인의 집권자들이 임의로 주관하는 줄을 너희가 알거니와 너희 중에는 그렇지 아니하니 너희 중에 누구든지 크고자 하는 자는 너희를 섬기는 자가 되고.”"
+     ],
+     "deep": {
+      "b": "깊이 보기 · 대속물",
+      "p": "‘대속물’(뤼트론)은 노예나 포로를 풀어 주려고 내는 몸값이에요. 예수님은 자기 목숨을 그 값으로 주러 오셨어요. 이사야 53장 고난받는 종의 성취예요. 섬김의 정점은 십자가예요.",
+      "rose": true
+     }
+    },
+    {
+     "b": "무엇을 원하느냐",
+     "ayə": "20:29–34",
+     "alt": "눈먼 사람의 눈을 만지시는 예수님",
+     "p": [
+      "여리고는 예루살렘으로 올라가는 마지막 관문이에요. 길가의 두 [[맹인]]이 “다윗의 자손이여 우리를 불쌍히 여기소서” 외쳤어요. 무리가 꾸짖자 더 크게 외쳤어요.",
+      "예수님은 “내가 너희에게 무엇을 하여 주기를 원하느냐” 물으세요. 20:21에서 어머니에게 하신 것과 같은 질문이에요. 어머니는 권력을 구했고, 맹인들은 보기를 구했어요. 눈을 뜬 그들은 예수님을 따랐어요. 십자가를 향한 길이었어요."
+     ],
+     "deep": {
+      "b": "깊이 보기 · 진짜 눈먼 자",
+      "p": "세 번이나 고난 예고를 듣고도 자리 다툼을 하는 제자들과, 눈은 멀었지만 예수님을 ‘다윗의 자손’으로 알아본 맹인들. 누가 진짜 보는 사람일까요?"
+     }
+    }
+   ],
+   "cedvel": {
+    "b": "같은 질문, 다른 대답",
+    "alt": "20:21, 32",
+    "bas": [
+     "",
+     "세베대 아들들의 어머니",
+     "두 맹인"
+    ],
+    "set": [
+     [
+      "예수님의 질문",
+      "무엇을 원하느냐",
+      "무엇을 하여 주기를 원하느냐"
+     ],
+     [
+      "구한 것",
+      "높은 자리",
+      "눈을 뜨는 것"
+     ],
+     [
+      "예수님을 부른 호칭",
+      "(왕으로 기대함)",
+      "주여, 다윗의 자손이여"
+     ],
+     [
+      "결과",
+      "섬김에 대한 가르침",
+      "보게 되어 예수님을 따름"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "“너희 중에 누구든지 크고자 하는 자는 너희를 섬기는 자가 되고 … 인자가 온 것은 섬김을 받으려 함이 아니라 도리어 섬기려 하고 자기 목숨을 많은 사람의 대속물로 주려 함이니라.”",
+    "ref": "20:26–28"
+   },
+   "lugat": {
+    "데나리온": {
+     "i": "🪙",
+     "o": "로마 은화 데나리우스",
+     "x": "dinar",
+     "s": "하루 품삯",
+     "m": "한 가족이 하루를 살 수 있는 돈이었어요. 한 시간 일한 사람에게도 ‘하루 살 만큼’을 준 거예요.",
+     "e": "주인은 각 사람의 ‘필요’를 채워 주었어요."
+    },
+    "악한 눈": {
+     "i": "👁️",
+     "o": "헬라어 오프탈모스 포네로스",
+     "x": "paxıl göz",
+     "s": "질투와 인색함",
+     "m": "6:23에서 배운 ‘나쁜 눈’이에요. 남이 잘되는 것을 기뻐하지 못하는 마음이에요.",
+     "e": "“내가 선하므로 네가 악하게 보느냐”(20:15)."
+    },
+    "잔": {
+     "i": "🍷",
+     "o": "헬라어 포테리온",
+     "x": "kasa",
+     "s": "하나님이 정하신 고난",
+     "m": "구약에서 ‘진노의 잔’은 하나님의 심판을 뜻해요. 예수님은 겟세마네에서 “이 잔을 내게서 지나가게 하옵소서” 기도하세요(26:39).",
+     "e": "야고보는 훗날 사도 중 처음으로 순교했어요(행 12:2)."
+    },
+    "맹인": {
+     "i": "🦯",
+     "o": "헬라어 튀플로스",
+     "x": "kor",
+     "s": "보지 못하는 자, 그러나 알아본 자",
+     "m": "마가복음은 한 명(바디매오)만 이름을 들어 소개하지만, 마태는 두 명이라고 해요. 증언에는 두 사람이 필요했어요(신 19:15).",
+     "e": "9:27–31에서도 두 맹인이 같은 외침을 해요."
+    }
+   },
+   "test": [
+    {
+     "q": "주인이 다섯 시에 부른 일꾼들은 왜 서 있었나요?",
+     "o": [
+      "아무도 품꾼으로 쓰지 않아서",
+      "게을러서",
+      "늦잠을 자서"
+     ],
+     "a": 0,
+     "f": "맞아요. 선택받지 못한 사람들이었어요."
+    },
+    {
+     "q": "아침 일꾼들이 원망한 진짜 이유는?",
+     "o": [
+      "남이 받은 은혜를 질투해서",
+      "약속보다 적게 받아서",
+      "일이 너무 힘들어서"
+     ],
+     "a": 0,
+     "f": "맞아요. 그들은 손해 본 게 없었어요."
+    },
+    {
+     "q": "세 번째 고난 예고 직후에 일어난 일은?",
+     "o": [
+      "높은 자리를 구하는 요청",
+      "오천 명을 먹이심",
+      "변화산 사건"
+     ],
+     "a": 0,
+     "f": "맞아요. 제자들은 아직 이해하지 못했어요."
+    },
+    {
+     "q": "‘대속물’(뤼트론)의 뜻은?",
+     "o": [
+      "노예나 포로를 풀어 주는 몸값",
+      "성전 헌금",
+      "세금"
+     ],
+     "a": 0,
+     "f": "맞아요. 예수님의 목숨이 그 값이에요."
+    },
+    {
+     "q": "예수님이 어머니와 맹인들에게 공통으로 하신 질문은?",
+     "o": [
+      "무엇을 원하느냐",
+      "누구냐",
+      "어디서 왔느냐"
+     ],
+     "a": 0,
+     "f": "맞아요. 무엇을 구하느냐가 마음을 보여 줘요."
+    }
+   ],
+   "paylas": [
+    "나는 포도원 비유에서 아침 일꾼과 다섯 시 일꾼 중 누구에 더 공감하나요?",
+    "다른 사람이 받은 복이나 칭찬을 기뻐하지 못했던 경험이 있나요?",
+    "학교나 모임에서 ‘이방인의 리더십’과 ‘섬기는 리더십’을 본 적이 있나요?",
+    "예수님이 지금 “무엇을 원하느냐?”고 물으신다면 나는 무엇을 구할까요?"
+   ],
+   "etiraf": {
+    "b": "나의 고백",
+    "p": "예수님이 나에게 “무엇을 원하느냐?”고 물으십니다. 높은 자리가 아니라 ‘보는 눈’을 구하는 기도를 서너 문장으로 써 보세요.",
+    "ph": "예) 주님, 저는 인정받는 자리를 원했어요. 그런데 이제는 …"
+   },
+   "dua": "섬기러 오신 예수님, 제 목숨의 값으로 주님의 목숨을 주신 사랑에 감사합니다. 다른 사람이 받은 은혜를 질투하지 않고 함께 기뻐하게 해 주세요. 높은 자리를 구하는 대신 눈을 떠서 주님을 보고, 섬기는 자리에서 주님을 따르게 해 주세요. 예수님 이름으로 기도합니다. 아멘."
+  }
  },
- "genc": {
-  "basliq": "Lütfün hesabı",
-  "giris": "“Bu ədalətli deyil!” Bütün gün işləyən ilə bir saat işləyən eyni pul aldı. Allahın Padşahlığı bizim hesabımızı tərsinə çevirir. O tərsinə çevrilmiş hesabın zirvəsində isə xidmət etməyə gələn Padşah dayanır.",
-  "meqsed": ["Üzüm bağı işçiləri məsəlində lütf ilə ədalət arasındakı fərqi anlayırıq.", "Dünyanın liderliyini İsanın xidmət edən liderliyi ilə müqayisə edə bilirik.", "“Fidyə” sözünün mənasını anlayıb xidmət yerimizi müəyyən edirik."],
-  "sehneler": [
-   {"b": "Beş dəfə çağırış", "ayə": "Matta 20:1–7", "alt": "Bazarda işçiləri çağıran üzüm bağı sahibi", "p": ["Üzüm yığımı vaxtı yağış yağmazdan əvvəl tələsik yığmaq lazım idi, buna görə işçi çatışmırdı. Sahib səhər saat 6-da, 9-da, 12-də, 3-də və gün batmazdan bir saat əvvəl, 5-də də bazara çıxır.", "Saat 5-də dayananlar “Heç kim bizi muzdla işə götürmədi” dedilər. Yəqin ki, yaşlı və ya zəif olduqları üçün seçilməyən insanlar idi. Sahib onları da çağırdı."], "deep": {"b": "Dərindən baxaq · Axtarıb gedən sahib", "p": "Adətən işçi sahibi axtarır, amma bu sahib beş dəfə özü axtarmağa çıxır. Bu, 9-cu fəsildəki Çoban və 18-ci fəsildəki itmiş qoyunu axtaran çoban kimi Allahın surətidir."}},
-   {"b": "Axırıncılar birinci", "ayə": "Matta 20:8–16", "alt": "Bütün işçilərə bir dinar verən sahib", "p": ["Sahib bilərəkdən muzdu sonuncu gələnlərdən başlayaraq verdi ki, hamı görsün. Bir saat işləyən bir [[dinar]] alanda səhər işçiləri ümidləndilər, amma onlar da bir dinar aldılar. “Onları bizə bərabər tutdun” deyə deyindilər.", "Sahibin cavabı: “Dostum, sənə haqsızlıq etmirəm. … Yoxsa mənim xeyirxahlığım sənin [[paxıl göz]]ünə batır?” Səhər işçisi heç nə itirmədi. Problem başqasının aldığı lütfə sevinə bilməyən ürəkdir."], "deep": {"b": "Dərindən baxaq · Azğın oğulun qardaşı", "p": "Bu məsəldəki səhər işçisi Luka 15-dəki azğın oğulun böyük qardaşına bənzəyir. Uzun müddət imanda olan insan yeni gələnə göstərilən lütfə paxıllıq edə bilər. Bu, həm də 19:27-dəki Peterin sualına (“Biz nə alacağıq?”) cavabdır."}},
-   {"b": "Sağ və sol tərəf", "ayə": "Matta 20:17–28", "alt": "İki oğlu üçün yüksək yer istəyən ana", "p": ["İsa üçüncü dəfə və ən ətraflı şəkildə əzabını xəbər verir: təslim ediləcək, məhkum olunacaq, yadellilər tərəfindən ələ salınacaq, qamçılanacaq, çarmıxa çəkiləcək və üçüncü gün diriləcək. Elə bundan dərhal sonra Zavdayın oğullarının anası yüksək yer istəyir.", "İsa soruşur: “Mənim içəcəyim [[kasa]]nı siz içə bilərsinizmi?” Sonra deyir: “Bilirsiniz ki, millətlərin hökmdarları onlara ağalıq edir. Amma aranızda belə olmamalıdır. Aranızda böyük olmaq istəyən sizə xidmət edən olsun.”"], "deep": {"b": "Dərindən baxaq · Fidyə", "p": "“Fidyə” (litron) qulu və ya əsiri azad etmək üçün ödənilən puldur. İsa öz canını bu qiymət kimi verməyə gəldi. Bu, Yeşaya 53-dəki əzab çəkən Qulun yerinə yetməsidir. Xidmətin zirvəsi çarmıxdır.", "rose": true}},
-   {"b": "Nə istəyirsiniz?", "ayə": "Matta 20:29–34", "alt": "Kor adamın gözlərinə toxunan İsa", "p": ["Yerixo Yerusəlimə qalxan yolun son qapısıdır. Yol kənarındakı iki [[kor]] “Davud Oğlu, bizə rəhm et” deyə qışqırdı. İzdiham onları danlayanda daha bərkdən qışqırdılar.", "İsa soruşur: “Sizin üçün nə etməyimi istəyirsiniz?” Bu, 20:21-də anaya verdiyi eyni sualdır. Ana hakimiyyət istədi, korlar isə görmək istədi. Gözləri açılanlar İsanın ardınca getdi. Bu, çarmıxa doğru gedən yol idi."], "deep": {"b": "Dərindən baxaq · Əsl kor kimdir?", "p": "Üç dəfə əzab xəbərini eşidib yer davası edən şagirdlər və gözləri kor olsa da İsanı “Davud Oğlu” kimi tanıyan korlar. Əsl görən kimdir?"}}
-  ],
-  "cedvel": {"b": "Eyni sual, fərqli cavab", "alt": "20:21, 32", "bas": ["", "Zavdayın oğullarının anası", "İki kor"], "set": [["İsanın sualı", "Nə istəyirsən?", "Sizin üçün nə etməyimi istəyirsiniz?"], ["İstədikləri", "Yüksək yer", "Gözlərin açılması"], ["İsaya müraciət", "(Padşah kimi gözləyir)", "Ya Rəbb, Davud Oğlu"], ["Nəticə", "Xidmət haqqında təlim", "Görüb İsanın ardınca getdilər"]]},
-  "aye": {"metn": "“Aranızda böyük olmaq istəyən sizə xidmət edən olsun … Necə ki Bəşər Oğlu da xidmət olunmağa deyil, xidmət etməyə və canını çoxları üçün fidyə verməyə gəldi.”", "ref": "20:26–28"},
-  "lugat": {
-   "dinar": {"i": "🪙", "o": "Roma gümüş sikkəsi denarius", "x": "데나리온", "s": "Bir günlük əmək haqqı", "m": "Bir ailənin bir gün yaşaya biləcəyi pul idi. Bir saat işləyənə də “bir gün yaşamağa bəs edəni” verdi.", "e": "Sahib hər kəsin “ehtiyacını” ödədi."},
-   "paxıl göz": {"i": "👁️", "o": "Yunanca oftalmos poneros", "x": "악한 눈", "s": "Paxıllıq və xəsislik", "m": "6:23-də öyrəndiyimiz “pis göz”dür. Başqasının uğuruna sevinə bilməyən ürəkdir.", "e": "“Yoxsa mənim xeyirxahlığım sənin paxıl gözünə batır?” (20:15)."},
-   "kasa": {"i": "🍷", "o": "Yunanca poterion", "x": "잔", "s": "Allahın təyin etdiyi əzab", "m": "Əhdi-Ətiqdə “qəzəb kasası” Allahın hökmünü bildirir. İsa Getsemanidə “bu kasa Məndən uzaq olsun” deyə dua edir (26:39).", "e": "Yaqub sonralar həvarilər arasında ilk şəhid oldu (Həv. 12:2)."},
-   "kor": {"i": "🦯", "o": "Yunanca tiflos", "x": "맹인", "s": "Görməyən, amma tanıyan", "m": "Mark yalnız birinin (Bartimey) adını çəkir, Matta isə iki nəfər olduğunu deyir. Şəhadət üçün iki nəfər lazım idi (Qan. 19:15).", "e": "9:27–31-də də iki kor eyni nida ilə gəlir."}
+ "az": {
+  "usaq": {
+   "basliq": "Xidmət etməyə gələn İsa",
+   "hedef": [
+    "Üzüm bağı sahibi məsəli ilə Allahın səxavətli lütfünü öyrənəcəyik.",
+    "Allahın Padşahlığında xidmət edənin böyük olduğunu öyrənəcəyik.",
+    "İsa kimi başqalarına xidmət etməyə qərar verəcəyik."
+   ],
+   "sehneler": [
+    {
+     "b": "Üzüm bağının işçiləri",
+     "ayə": "Matta 20:1–7",
+     "alt": "Bazarda işçiləri çağıran üzüm bağı sahibi",
+     "p": [
+      "Bir [[üzüm bağı]] sahibi səhər tezdən bazara gedib işçiləri çağırdı. Bir günlük muzd bir dinar idi.",
+      "Sahib saat doqquzda, on ikidə, üçdə və gün batmazdan bir saat əvvəl, beşdə də çıxıb işsiz duran adamları çağırdı."
+     ]
+    },
+    {
+     "b": "Hamı eyni aldı",
+     "ayə": "Matta 20:8–16",
+     "alt": "Bütün işçilərə bir dinar verən sahib",
+     "p": [
+      "Axşam sahib muzdu sonuncu gələnlərdən başlayaraq verdi. Bir saat işləyən də bir [[dinar]] aldı! Səhərdən işləyənlər daha çox alacaqlarını düşünürdülər, amma onlar da bir dinar aldılar.",
+      "Onlar deyinəndə sahib dedi: “Mən sözümə əməl etdim. Mənim [[xeyirxah]] olmağım sənin xoşuna gəlmir?” Allah gec gələnlərə də eyni cür səxavətlidir."
+     ]
+    },
+    {
+     "b": "Ən yüksək yeri ver",
+     "ayə": "Matta 20:20–28",
+     "alt": "İki oğlu üçün yüksək yer istəyən ana",
+     "p": [
+      "Yaqubla Yəhyanın anası gəlib xahiş etdi: “İki oğlum Sənin Padşahlığında biri sağında, biri solunda otursun.” Digər şagirdlər hirsləndilər.",
+      "İsa dedi: “Aranızda böyük olmaq istəyən başqalarına [[xidmət edən]] olsun. Mən də xidmət olunmağa deyil, xidmət etməyə və canımı çoxları üçün verməyə gəldim.”"
+     ]
+    },
+    {
+     "b": "Gözləri açılan iki adam",
+     "ayə": "Matta 20:29–34",
+     "alt": "Kor adamın gözlərinə toxunan İsa",
+     "p": [
+      "Yerixo yolunun kənarında oturan iki [[kor]] qışqırdı: “Ya Rəbb, Davud Oğlu, bizə rəhm et!” İnsanlar susmalarını desələr də, daha bərkdən qışqırdılar.",
+      "İsa dayanıb soruşdu: “Sizin üçün nə etməyimi istəyirsiniz?” “Gözlərimiz açılsın.” İsanın rəhmi gəldi, gözlərinə toxundu, dərhal gördülər və Onun ardınca getdilər."
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "“Bəşər Oğlu da xidmət olunmağa deyil, xidmət etməyə və canını çoxları üçün fidyə verməyə gəldi.”",
+    "ref": "20:28",
+    "bos": "Bəşər Oğlu da xidmət ___ deyil, xidmət ___ və ___ çoxları üçün fidyə verməyə gəldi.",
+    "sozler": [
+     "olunmağa",
+     "etməyə",
+     "canını"
+    ],
+    "yalan": "oynamağa"
+   },
+   "lugat": {
+    "üzüm bağı": {
+     "i": "🍇",
+     "x": "포도원",
+     "m": "Üzüm tənəkləri əkilib becərilən bağdır.",
+     "e": "Üzüm bağı sahibi işçiləri çağırdı."
+    },
+    "dinar": {
+     "i": "🪙",
+     "x": "데나리온",
+     "m": "O vaxt bir günlük əmək haqqı olan gümüş pul idi.",
+     "e": "Hamı bir dinar aldı."
+    },
+    "xeyirxah": {
+     "i": "💛",
+     "x": "선한",
+     "m": "Yaxşı və səxavətli olmaqdır.",
+     "e": "Mənim xeyirxah olmağım xoşuna gəlmir?"
+    },
+    "xidmət edən": {
+     "i": "🧺",
+     "x": "섬기는 사람",
+     "m": "Başqaları üçün kömək edən və çalışan adamdır.",
+     "e": "Böyük insan xidmət edəndir."
+    },
+    "kor": {
+     "i": "🦯",
+     "x": "맹인",
+     "m": "Gözləri görməyən adamdır.",
+     "e": "İki kor İsanı çağırdı."
+    }
+   },
+   "test": [
+    {
+     "q": "Bir saat işləyən işçi nə qədər aldı?",
+     "o": [
+      "Bir dinar",
+      "Heç nə",
+      "Bir qəpik"
+     ],
+     "a": 0,
+     "f": "Düzdür! Sahib səxavətlə verdi."
+    },
+    {
+     "q": "Bağ sahibi kimi göstərir?",
+     "o": [
+      "Səxavətli Allahı",
+      "Tamahkar adamı",
+      "Tənbəl adamı"
+     ],
+     "a": 0,
+     "f": "Düzdür! Allah gec gələni də sevir."
+    },
+    {
+     "q": "İsa böyük olmaq istəyənə nə dedi?",
+     "o": [
+      "Xidmət edən ol",
+      "Yüksək yerdə otur",
+      "Çox əmr ver"
+     ],
+     "a": 0,
+     "f": "Düzdür! Xidmət edən böyükdür."
+    },
+    {
+     "q": "İki kor gözləri açılandan sonra nə etdi?",
+     "o": [
+      "İsanın ardınca getdi",
+      "Evinə getdi",
+      "Gizləndi"
+     ],
+     "a": 0,
+     "f": "Düzdür! Şəfa tapıb ardınca getdilər."
+    }
+   ],
+   "dusun": [
+    "Gec gələn işçinin eyni almasını görəndə nə düşünürsən?",
+    "İsa niyə xidmət etməyə gəldi?",
+    "Bu həftə kimə xidmət edə bilərəm?"
+   ],
+   "fealiyyet": {
+    "ciz": "Kiməsə kömək edib xidmət edən özünü çək.",
+    "b": "Kimə xidmət edəcəksən?",
+    "p": "Bu həftə xidmət edəcəyin adamı seç.",
+    "ph": "",
+    "secim": {
+     "basliq": "Kimə xidmət edəcəksən?",
+     "izah": "Toxun və seç. Bir neçəsini seçə bilərsən.",
+     "cumle": "Mən İsa kimi {x} xidmət edəcəyəm!",
+     "bos": "evdə anama",
+     "bag": "və",
+     "secimler": [
+      [
+       "🧽",
+       "evdə anama"
+      ],
+      [
+       "🧒",
+       "kiçik qardaşıma"
+      ],
+      [
+       "👫",
+       "dostlarıma"
+      ],
+      [
+       "👩‍🏫",
+       "müəllimimə"
+      ],
+      [
+       "⛪",
+       "cəmiyyətdə hamıya"
+      ],
+      [
+       "👵",
+       "qonşu nənəyə"
+      ]
+     ]
+    }
+   },
+   "dua": "İsa, xidmət olunmağa deyil, xidmət etməyə gələn və mənim üçün canını verən Sənə şükür edirəm. Gec gələnlərə də səxavətli olan Allahın lütfünə sevinim. Yüksək yerdən çox xidmət yerini sevən insan olum. İsa Məsihin adı ilə dua edirəm. Amin."
   },
-  "test": [
-   {"q": "Sahibin saat 5-də çağırdığı işçilər niyə dayanmışdı?", "o": ["Heç kim onları işə götürmədiyi üçün", "Tənbəl olduqları üçün", "Gec oyandıqları üçün"], "a": 0, "f": "Düzdür. Seçilməyən insanlar idi."},
-   {"q": "Səhər işçilərinin deyinməsinin əsl səbəbi nə idi?", "o": ["Başqasının aldığı lütfə paxıllıq", "Vəddən az almaları", "İşin çox ağır olması"], "a": 0, "f": "Düzdür. Onlar heç nə itirmədilər."},
-   {"q": "Üçüncü əzab xəbərindən dərhal sonra nə baş verdi?", "o": ["Yüksək yer istəndi", "Beş min nəfər doyduruldu", "Görünüş dəyişdi"], "a": 0, "f": "Düzdür. Şagirdlər hələ anlamırdılar."},
-   {"q": "“Fidyə” (litron) nə deməkdir?", "o": ["Qulu və ya əsiri azad etmək üçün ödənilən pul", "Məbəd ianəsi", "Vergi"], "a": 0, "f": "Düzdür. İsanın canı o qiymətdir."},
-   {"q": "İsanın anaya və korlara verdiyi ortaq sual hansıdır?", "o": ["Nə istəyirsiniz?", "Kimsiniz?", "Haradan gəlmisiniz?"], "a": 0, "f": "Düzdür. Nə istədiyimiz ürəyimizi göstərir."}
+  "genc": {
+   "basliq": "Lütfün hesabı",
+   "giris": "“Bu ədalətli deyil!” Bütün gün işləyən ilə bir saat işləyən eyni pul aldı. Allahın Padşahlığı bizim hesabımızı tərsinə çevirir. O tərsinə çevrilmiş hesabın zirvəsində isə xidmət etməyə gələn Padşah dayanır.",
+   "meqsed": [
+    "Üzüm bağı işçiləri məsəlində lütf ilə ədalət arasındakı fərqi anlayırıq.",
+    "Dünyanın liderliyini İsanın xidmət edən liderliyi ilə müqayisə edə bilirik.",
+    "“Fidyə” sözünün mənasını anlayıb xidmət yerimizi müəyyən edirik."
+   ],
+   "sehneler": [
+    {
+     "b": "Beş dəfə çağırış",
+     "ayə": "Matta 20:1–7",
+     "alt": "Bazarda işçiləri çağıran üzüm bağı sahibi",
+     "p": [
+      "Üzüm yığımı vaxtı yağış yağmazdan əvvəl tələsik yığmaq lazım idi, buna görə işçi çatışmırdı. Sahib səhər saat 6-da, 9-da, 12-də, 3-də və gün batmazdan bir saat əvvəl, 5-də də bazara çıxır.",
+      "Saat 5-də dayananlar “Heç kim bizi muzdla işə götürmədi” dedilər. Yəqin ki, yaşlı və ya zəif olduqları üçün seçilməyən insanlar idi. Sahib onları da çağırdı."
+     ],
+     "deep": {
+      "b": "Dərindən baxaq · Axtarıb gedən sahib",
+      "p": "Adətən işçi sahibi axtarır, amma bu sahib beş dəfə özü axtarmağa çıxır. Bu, 9-cu fəsildəki Çoban və 18-ci fəsildəki itmiş qoyunu axtaran çoban kimi Allahın surətidir."
+     }
+    },
+    {
+     "b": "Axırıncılar birinci",
+     "ayə": "Matta 20:8–16",
+     "alt": "Bütün işçilərə bir dinar verən sahib",
+     "p": [
+      "Sahib bilərəkdən muzdu sonuncu gələnlərdən başlayaraq verdi ki, hamı görsün. Bir saat işləyən bir [[dinar]] alanda səhər işçiləri ümidləndilər, amma onlar da bir dinar aldılar. “Onları bizə bərabər tutdun” deyə deyindilər.",
+      "Sahibin cavabı: “Dostum, sənə haqsızlıq etmirəm. … Yoxsa mənim xeyirxahlığım sənin [[paxıl göz]]ünə batır?” Səhər işçisi heç nə itirmədi. Problem başqasının aldığı lütfə sevinə bilməyən ürəkdir."
+     ],
+     "deep": {
+      "b": "Dərindən baxaq · Azğın oğulun qardaşı",
+      "p": "Bu məsəldəki səhər işçisi Luka 15-dəki azğın oğulun böyük qardaşına bənzəyir. Uzun müddət imanda olan insan yeni gələnə göstərilən lütfə paxıllıq edə bilər. Bu, həm də 19:27-dəki Peterin sualına (“Biz nə alacağıq?”) cavabdır."
+     }
+    },
+    {
+     "b": "Sağ və sol tərəf",
+     "ayə": "Matta 20:17–28",
+     "alt": "İki oğlu üçün yüksək yer istəyən ana",
+     "p": [
+      "İsa üçüncü dəfə və ən ətraflı şəkildə əzabını xəbər verir: təslim ediləcək, məhkum olunacaq, yadellilər tərəfindən ələ salınacaq, qamçılanacaq, çarmıxa çəkiləcək və üçüncü gün diriləcək. Elə bundan dərhal sonra Zavdayın oğullarının anası yüksək yer istəyir.",
+      "İsa soruşur: “Mənim içəcəyim [[kasa]]nı siz içə bilərsinizmi?” Sonra deyir: “Bilirsiniz ki, millətlərin hökmdarları onlara ağalıq edir. Amma aranızda belə olmamalıdır. Aranızda böyük olmaq istəyən sizə xidmət edən olsun.”"
+     ],
+     "deep": {
+      "b": "Dərindən baxaq · Fidyə",
+      "p": "“Fidyə” (litron) qulu və ya əsiri azad etmək üçün ödənilən puldur. İsa öz canını bu qiymət kimi verməyə gəldi. Bu, Yeşaya 53-dəki əzab çəkən Qulun yerinə yetməsidir. Xidmətin zirvəsi çarmıxdır.",
+      "rose": true
+     }
+    },
+    {
+     "b": "Nə istəyirsiniz?",
+     "ayə": "Matta 20:29–34",
+     "alt": "Kor adamın gözlərinə toxunan İsa",
+     "p": [
+      "Yerixo Yerusəlimə qalxan yolun son qapısıdır. Yol kənarındakı iki [[kor]] “Davud Oğlu, bizə rəhm et” deyə qışqırdı. İzdiham onları danlayanda daha bərkdən qışqırdılar.",
+      "İsa soruşur: “Sizin üçün nə etməyimi istəyirsiniz?” Bu, 20:21-də anaya verdiyi eyni sualdır. Ana hakimiyyət istədi, korlar isə görmək istədi. Gözləri açılanlar İsanın ardınca getdi. Bu, çarmıxa doğru gedən yol idi."
+     ],
+     "deep": {
+      "b": "Dərindən baxaq · Əsl kor kimdir?",
+      "p": "Üç dəfə əzab xəbərini eşidib yer davası edən şagirdlər və gözləri kor olsa da İsanı “Davud Oğlu” kimi tanıyan korlar. Əsl görən kimdir?"
+     }
+    }
+   ],
+   "cedvel": {
+    "b": "Eyni sual, fərqli cavab",
+    "alt": "20:21, 32",
+    "bas": [
+     "",
+     "Zavdayın oğullarının anası",
+     "İki kor"
+    ],
+    "set": [
+     [
+      "İsanın sualı",
+      "Nə istəyirsən?",
+      "Sizin üçün nə etməyimi istəyirsiniz?"
+     ],
+     [
+      "İstədikləri",
+      "Yüksək yer",
+      "Gözlərin açılması"
+     ],
+     [
+      "İsaya müraciət",
+      "(Padşah kimi gözləyir)",
+      "Ya Rəbb, Davud Oğlu"
+     ],
+     [
+      "Nəticə",
+      "Xidmət haqqında təlim",
+      "Görüb İsanın ardınca getdilər"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "“Aranızda böyük olmaq istəyən sizə xidmət edən olsun … Necə ki Bəşər Oğlu da xidmət olunmağa deyil, xidmət etməyə və canını çoxları üçün fidyə verməyə gəldi.”",
+    "ref": "20:26–28"
+   },
+   "lugat": {
+    "dinar": {
+     "i": "🪙",
+     "o": "Roma gümüş sikkəsi denarius",
+     "x": "데나리온",
+     "s": "Bir günlük əmək haqqı",
+     "m": "Bir ailənin bir gün yaşaya biləcəyi pul idi. Bir saat işləyənə də “bir gün yaşamağa bəs edəni” verdi.",
+     "e": "Sahib hər kəsin “ehtiyacını” ödədi."
+    },
+    "paxıl göz": {
+     "i": "👁️",
+     "o": "Yunanca oftalmos poneros",
+     "x": "악한 눈",
+     "s": "Paxıllıq və xəsislik",
+     "m": "6:23-də öyrəndiyimiz “pis göz”dür. Başqasının uğuruna sevinə bilməyən ürəkdir.",
+     "e": "“Yoxsa mənim xeyirxahlığım sənin paxıl gözünə batır?” (20:15)."
+    },
+    "kasa": {
+     "i": "🍷",
+     "o": "Yunanca poterion",
+     "x": "잔",
+     "s": "Allahın təyin etdiyi əzab",
+     "m": "Əhdi-Ətiqdə “qəzəb kasası” Allahın hökmünü bildirir. İsa Getsemanidə “bu kasa Məndən uzaq olsun” deyə dua edir (26:39).",
+     "e": "Yaqub sonralar həvarilər arasında ilk şəhid oldu (Həv. 12:2)."
+    },
+    "kor": {
+     "i": "🦯",
+     "o": "Yunanca tiflos",
+     "x": "맹인",
+     "s": "Görməyən, amma tanıyan",
+     "m": "Mark yalnız birinin (Bartimey) adını çəkir, Matta isə iki nəfər olduğunu deyir. Şəhadət üçün iki nəfər lazım idi (Qan. 19:15).",
+     "e": "9:27–31-də də iki kor eyni nida ilə gəlir."
+    }
+   },
+   "test": [
+    {
+     "q": "Sahibin saat 5-də çağırdığı işçilər niyə dayanmışdı?",
+     "o": [
+      "Heç kim onları işə götürmədiyi üçün",
+      "Tənbəl olduqları üçün",
+      "Gec oyandıqları üçün"
+     ],
+     "a": 0,
+     "f": "Düzdür. Seçilməyən insanlar idi."
+    },
+    {
+     "q": "Səhər işçilərinin deyinməsinin əsl səbəbi nə idi?",
+     "o": [
+      "Başqasının aldığı lütfə paxıllıq",
+      "Vəddən az almaları",
+      "İşin çox ağır olması"
+     ],
+     "a": 0,
+     "f": "Düzdür. Onlar heç nə itirmədilər."
+    },
+    {
+     "q": "Üçüncü əzab xəbərindən dərhal sonra nə baş verdi?",
+     "o": [
+      "Yüksək yer istəndi",
+      "Beş min nəfər doyduruldu",
+      "Görünüş dəyişdi"
+     ],
+     "a": 0,
+     "f": "Düzdür. Şagirdlər hələ anlamırdılar."
+    },
+    {
+     "q": "“Fidyə” (litron) nə deməkdir?",
+     "o": [
+      "Qulu və ya əsiri azad etmək üçün ödənilən pul",
+      "Məbəd ianəsi",
+      "Vergi"
+     ],
+     "a": 0,
+     "f": "Düzdür. İsanın canı o qiymətdir."
+    },
+    {
+     "q": "İsanın anaya və korlara verdiyi ortaq sual hansıdır?",
+     "o": [
+      "Nə istəyirsiniz?",
+      "Kimsiniz?",
+      "Haradan gəlmisiniz?"
+     ],
+     "a": 0,
+     "f": "Düzdür. Nə istədiyimiz ürəyimizi göstərir."
+    }
+   ],
+   "paylas": [
+    "Üzüm bağı məsəlində səhər işçisi ilə saat 5 işçisindən hansına daha çox yaxınam?",
+    "Başqasının aldığı xeyir-duaya və ya tərifə sevinə bilmədiyim olubmu?",
+    "Məktəbdə və ya qrupda “millətlərin liderliyini” və “xidmət edən liderliyi” görmüsənmi?",
+    "İsa indi “Nə istəyirsən?” soruşsa, nə istəyərəm?"
+   ],
+   "etiraf": {
+    "b": "Mənim etirafım",
+    "p": "İsa səndən “Nə istəyirsən?” soruşur. Yüksək yer deyil, “görən göz” istəyən duanı üç-dörd cümlə ilə yaz.",
+    "ph": "Məsələn: Ya Rəbb, mən tanınacağım yeri istəyirdim. Amma indi …"
+   },
+   "dua": "Xidmət etməyə gələn İsa, mənim canımın qiyməti kimi Öz canını verdiyin məhəbbətə görə Sənə şükür edirəm. Başqasının aldığı lütfə paxıllıq etməyim, birlikdə sevinim. Yüksək yer istəmək əvəzinə gözlərim açılıb Səni görsün və xidmət yerində ardınca gedim. İsa Məsihin adı ilə dua edirəm. Amin."
+  }
+ },
+ "muellim": {
+  "mesaj": "25과의 중심은 한 문장입니다. **하나님 나라는 공로의 계산이 아니라 은혜의 넉넉함으로 움직이며, 그 나라의 왕은 섬김을 받으러 오지 않고 섬기러, 자기 목숨을 대속물로 주러 오셨다.**",
+  "hazirliq": [
+   "학생용 교재를 열 휴대폰이나 태블릿, 이어폰",
+   "동전 모양 사탕 (모두에게 똑같이 나눠 주기)",
+   "앞치마나 수건 (섬김 상징)"
   ],
-  "paylas": ["Üzüm bağı məsəlində səhər işçisi ilə saat 5 işçisindən hansına daha çox yaxınam?", "Başqasının aldığı xeyir-duaya və ya tərifə sevinə bilmədiyim olubmu?", "Məktəbdə və ya qrupda “millətlərin liderliyini” və “xidmət edən liderliyi” görmüsənmi?", "İsa indi “Nə istəyirsən?” soruşsa, nə istəyərəm?"],
-  "etiraf": {"b": "Mənim etirafım", "p": "İsa səndən “Nə istəyirsən?” soruşur. Yüksək yer deyil, “görən göz” istəyən duanı üç-dörd cümlə ilə yaz.", "ph": "Məsələn: Ya Rəbb, mən tanınacağım yeri istəyirdim. Amma indi …"},
-  "dua": "Xidmət etməyə gələn İsa, mənim canımın qiyməti kimi Öz canını verdiyin məhəbbətə görə Sənə şükür edirəm. Başqasının aldığı lütfə paxıllıq etməyim, birlikdə sevinim. Yüksək yer istəmək əvəzinə gözlərim açılıb Səni görsün və xidmət yerində ardınca gedim. İsa Məsihin adı ilə dua edirəm. Amin."
+  "fon": [
+   [
+    "1. 품꾼 시장",
+    "일용 노동자들은 새벽에 장터에 모여 고용을 기다렸습니다. 한 데나리온은 가족의 하루 생계비였습니다. 레위기 19:13은 품삯을 그날 주라고 명령합니다."
+   ],
+   [
+    "2. 비유의 틀",
+    "19:30 “먼저 된 자로서 나중 되고”와 20:16 “나중 된 자로서 먼저 되고”가 비유를 감쌉니다. 19:27 베드로의 질문에 대한 대답입니다."
+   ],
+   [
+    "3. 세 번째 고난 예고",
+    "16:21, 17:22–23에 이어 가장 구체적입니다. ‘이방인에게 넘겨’, ‘조롱’, ‘채찍질’, ‘십자가’가 처음으로 명시됩니다."
+   ],
+   [
+    "4. 대속물",
+    "20:28은 마가복음 10:45와 함께 예수님의 죽음의 의미를 설명하는 핵심 구절입니다. 이사야 53:10–12의 ‘많은 사람’과 연결됩니다."
+   ],
+   [
+    "5. 그림 안내",
+    "마지막 장면은 PPT의 ‘바디매오’ 그림입니다(마가복음 장면). 마태복음은 두 명의 맹인이라고 기록합니다."
+   ]
+  ],
+  "usaq_plan": [
+   [
+    "5분",
+    "똑같이 받기",
+    "늦게 온 친구에게도 사탕을 똑같이 주기 → 반응 보기",
+    "“늦게 온 친구도 똑같이 받으니 어때요?”"
+   ],
+   [
+    "15분",
+    "장면 1–4 듣고 읽기",
+    "장면마다 듣기, 노란 낱말 누르기",
+    "“예수님은 왕이신데 섬기러 오셨어요.”"
+   ],
+   [
+    "5분",
+    "외울 말씀",
+    "빈칸 놀이 → 수건을 들고 섬기는 동작으로 외우기",
+    ""
+   ],
+   [
+    "5분",
+    "확인 퀴즈",
+    "혼자 풀고 함께 확인",
+    ""
+   ],
+   [
+    "10분",
+    "활동과 기도",
+    "섬길 사람 고르기 → 기도",
+    ""
+   ]
+  ],
+  "genc_plan": [
+   [
+    "5분",
+    "열기",
+    "“시급이 다른데 월급이 같다면?” 공정성 토론",
+    ""
+   ],
+   [
+    "15분",
+    "장면 1–2",
+    "다섯 번의 부름, 은혜의 계산법, 악한 눈",
+    ""
+   ],
+   [
+    "10분",
+    "장면 3–4와 질문 비교 표",
+    "세 번째 예고, 잔, 대속물, 두 맹인",
+    "“무엇을 원하느냐?”"
+   ],
+   [
+    "5분",
+    "확인 문제",
+    "",
+    ""
+   ],
+   [
+    "15분",
+    "나눔과 고백",
+    "나눔 질문 2개 → ‘보는 눈’을 구하는 기도 쓰기 → 서로 섬김 실천 정하기",
+    ""
+   ]
+  ],
+  "ipucu_usaq": [
+   "‘불공평해요!’라는 반응을 환영하세요. 그 감정에서 은혜를 설명할 수 있습니다.",
+   "섬김 활동은 구체적으로 정해서 다음 주에 나누게 하세요.",
+   "야고보와 요한의 어머니를 나쁘게만 그리지 마세요. 아들을 사랑한 엄마였어요."
+  ],
+  "ipucu_genc": [
+   "‘대속물’ 개념을 시장 거래처럼 단순화하지 말고 사랑의 대가로 설명하세요.",
+   "교회 안의 ‘아침 일꾼’ 문화(오래 다닌 사람의 특권 의식)를 부드럽게 돌아보게 하세요.",
+   "다음 과(21–22장)는 예루살렘 입성과 혼인 잔치 비유, 가장 큰 계명입니다."
+  ],
+  "suallar": [
+   [
+    "늦게 온 사람이 똑같이 받으면 불공평하지 않아요?",
+    "주인은 약속한 대로 다 주었어요. 늦게 온 사람에게는 선물을 더 준 거예요. 하나님은 정말 넉넉하세요.",
+    "공평은 약속을 지키는 것이고, 은혜는 받을 자격 없는 사람에게 주는 거예요. 하나님은 아무에게도 불공평하지 않으시면서 모두에게 은혜로우세요."
+   ],
+   [
+    "예수님은 왕인데 왜 섬겨요?",
+    "진짜 위대한 사람은 남을 돕는 사람이라는 걸 보여 주시려고요.",
+    "예수님은 하나님 나라의 리더십을 직접 보여 주셨어요. 요한복음 13장의 발 씻기심도 같은 모습이에요."
+   ],
+   [
+    "대속물이 뭐예요?",
+    "갇힌 사람을 풀어 주기 위해 대신 내는 값이에요. 예수님은 우리를 위해 그 값을 대신 내셨어요.",
+    "죄에 묶인 우리를 풀어 주기 위해 예수님이 자기 생명을 값으로 치르셨다는 뜻이에요. 사랑이 치른 값이에요."
+   ]
+  ]
+ },
+ "en": {
+  "usaq": {
+   "basliq": "Jesus, Who Came to Serve",
+   "hedef": [
+    "We will learn about God's generous grace through the parable of the vineyard owner.",
+    "We will learn that the one who serves is great in the kingdom of heaven.",
+    "We will decide to serve others like Jesus."
+   ],
+   "sehneler": [
+    {
+     "b": "The workers in the vineyard",
+     "ayə": "Matthew 20:1–7",
+     "alt": "The vineyard owner calling workers in the marketplace",
+     "p": [
+      "A [[vineyard]] owner went to the marketplace early in the morning and called workers. The daily wage was one denarius.",
+      "The owner went out at nine o'clock, twelve o'clock, three o'clock, and even at five o'clock, one hour before sunset, and called people standing around without work."
+     ]
+    },
+    {
+     "b": "Everyone got the same",
+     "ayə": "Matthew 20:8–16",
+     "alt": "The owner giving one denarius to all the workers",
+     "p": [
+      "In the evening, the owner gave the wages, starting from the last ones to arrive. Even the one who worked for one hour got a [[denarius]]! Those who worked since morning thought they would get more, but they also got one denarius.",
+      "When they grumbled, the owner said: “I kept my word. Are you upset because I am [[generous]]?” God is equally generous to those who come late."
+     ]
+    },
+    {
+     "b": "Give the highest place",
+     "ayə": "Matthew 20:20–28",
+     "alt": "A mother asking for high places for her two sons",
+     "p": [
+      "The mother of James and John came and asked: “Let my two sons sit in Your Kingdom, one on Your right and one on Your left.” The other disciples were angry.",
+      "Jesus said: “Whoever wants to be great among you must be a [[servant]] to others. I also did not come to be served, but to serve and to give my life for many.”"
+     ]
+    },
+    {
+     "b": "Two men whose eyes were opened",
+     "ayə": "Matthew 20:29–34",
+     "alt": "Jesus touching the blind man's eyes",
+     "p": [
+      "Two [[blind]] men sitting by the road in Jericho shouted: “Lord, Son of David, have mercy on us!” Even though the people told them to be quiet, they shouted even louder.",
+      "Jesus stopped and asked: “What do you want me to do for you?” “Let our eyes be opened.” Jesus had compassion, touched their eyes, and immediately they saw and followed Him."
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "“Even as the Son of Man came not to be served, but to serve, and to give his life as a ransom for many.”",
+    "ref": "20:28",
+    "bos": "Even as the Son of Man came not to be ___, but to ___, and to give his ___ as a ransom for many.",
+    "sozler": [
+     "served",
+     "serve",
+     "life"
+    ],
+    "yalan": "play"
+   },
+   "lugat": {
+    "vineyard": {
+     "i": "🍇",
+     "x": "üzüm bağı",
+     "m": "A field where grapevines are planted and grown.",
+     "e": "The vineyard owner called the workers."
+    },
+    "denarius": {
+     "i": "🪙",
+     "x": "dinar",
+     "m": "A silver coin that was one day's wage at that time.",
+     "e": "Everyone got one denarius."
+    },
+    "generous": {
+     "i": "💛",
+     "x": "xeyirxah",
+     "m": "Being good and giving freely.",
+     "e": "Are you upset because I am generous?"
+    },
+    "servant": {
+     "i": "🧺",
+     "x": "xidmət edən",
+     "m": "A person who helps and works for others.",
+     "e": "A great person is a servant."
+    },
+    "blind": {
+     "i": "🦯",
+     "x": "kor",
+     "m": "A person whose eyes cannot see.",
+     "e": "Two blind men called Jesus."
+    }
+   },
+   "test": [
+    {
+     "q": "How much did the worker who worked for one hour get?",
+     "o": [
+      "One denarius",
+      "Nothing",
+      "One penny"
+     ],
+     "a": 0,
+     "f": "That's right! The owner gave generously."
+    },
+    {
+     "q": "Who does the vineyard owner show us?",
+     "o": [
+      "Generous God",
+      "A greedy person",
+      "A lazy person"
+     ],
+     "a": 0,
+     "f": "That's right! God loves even those who come late."
+    },
+    {
+     "q": "What did Jesus say to the one who wants to be great?",
+     "o": [
+      "Be a servant",
+      "Sit in a high place",
+      "Give many orders"
+     ],
+     "a": 0,
+     "f": "That's right! The one who serves is great."
+    },
+    {
+     "q": "What did the two blind men do after their eyes were opened?",
+     "o": [
+      "Followed Jesus",
+      "Went home",
+      "Hid"
+     ],
+     "a": 0,
+     "f": "That's right! They were healed and followed Him."
+    }
+   ],
+   "dusun": [
+    "What do you think when you see the worker who came late get the same amount?",
+    "Why did Jesus come to serve?",
+    "Who can I serve this week?"
+   ],
+   "fealiyyet": {
+    "ciz": "Draw yourself helping and serving someone.",
+    "b": "Who will you serve?",
+    "p": "Choose the person you will serve this week.",
+    "ph": "",
+    "secim": {
+     "basliq": "Who will you serve?",
+     "izah": "Tap to choose. You can choose more than one.",
+     "cumle": "I will serve {x} like Jesus!",
+     "bos": "my mom at home",
+     "bag": "and",
+     "secimler": [
+      [
+       "🧽",
+       "my mom at home"
+      ],
+      [
+       "🧒",
+       "my little brother"
+      ],
+      [
+       "👫",
+       "my friends"
+      ],
+      [
+       "👩‍🏫",
+       "my teacher"
+      ],
+      [
+       "⛪",
+       "everyone at church"
+      ],
+      [
+       "👵",
+       "the grandma next door"
+      ]
+     ]
+    }
+   },
+   "dua": "Jesus, I thank You that You came not to be served, but to serve and give Your life for me. Let me rejoice in the grace of God, who is generous even to those who come late. Let me be a person who loves the place of service more than a high place. I pray in the name of Jesus Christ. Amen."
+  },
+  "genc": {
+   "basliq": "The Math of Grace",
+   "giris": "“That's not fair!” The one who worked all day and the one who worked for one hour got the same money. The kingdom of heaven turns our math upside down. And at the peak of that upside-down math stands the King who came to serve.",
+   "meqsed": [
+    "We understand the difference between grace and fairness in the parable of the vineyard workers.",
+    "We can compare the world's leadership with Jesus' servant leadership.",
+    "We understand the meaning of the word 'ransom' and determine our place of service."
+   ],
+   "sehneler": [
+    {
+     "b": "Five Calls",
+     "ayə": "Matthew 20:1–7",
+     "alt": "The vineyard owner calling workers in the marketplace",
+     "p": [
+      "During the grape harvest, it was necessary to harvest quickly before it rained, so there was a shortage of workers. The owner goes to the marketplace at 6 a.m., 9 a.m., 12 p.m., 3 p.m., and even at 5 p.m., one hour before sunset.",
+      "Those standing at 5 p.m. said, “No one has hired us.” They were probably people who were not chosen because they were old or weak. The owner called them too."
+     ],
+     "deep": {
+      "b": "Look Deeper · The Owner Who Goes Seeking",
+      "p": "Usually, the worker looks for the owner, but this owner goes out to seek them himself five times. This is an image of God, like the Shepherd in chapter 9 and the shepherd seeking the lost sheep in chapter 18."
+     }
+    },
+    {
+     "b": "The Last Will Be First",
+     "ayə": "Matthew 20:8–16",
+     "alt": "The owner giving one denarius to all the workers",
+     "p": [
+      "The owner deliberately gave the wages starting from the last ones to arrive so everyone could see. When the one-hour worker received a [[denarius]], the morning workers got their hopes up, but they also received one denarius. They grumbled, “You made them equal to us.”",
+      "The owner's answer: “Friend, I am doing you no wrong. … Or is your [[evil eye]] envious because I am generous?” The morning worker lost nothing. The problem is a heart that cannot rejoice in the grace someone else receives."
+     ],
+     "deep": {
+      "b": "Look Deeper · The Prodigal Son's Brother",
+      "p": "The morning worker in this parable is like the older brother of the prodigal son in Luke 15. A person who has been in the faith for a long time might envy the grace shown to a newcomer. This is also an answer to Peter's question in 19:27 (“What will we get?”)."
+     }
+    },
+    {
+     "b": "The Right and Left Sides",
+     "ayə": "Matthew 20:17–28",
+     "alt": "A mother asking for high places for her two sons",
+     "p": [
+      "Jesus foretells His suffering for the third time and in the most detail: He will be handed over, condemned, mocked by the Gentiles, flogged, crucified, and raised on the third day. Right after this, the mother of Zebedee's sons asks for high places.",
+      "Jesus asks: “Are you able to drink the [[cup]] that I am about to drink?” Then He says: “You know that the rulers of the Gentiles lord it over them. But it shall not be so among you. Whoever desires to become great among you shall be your servant.”"
+     ],
+     "deep": {
+      "b": "Look Deeper · Ransom",
+      "p": "A 'ransom' (lutron) is the price paid to free a slave or captive. Jesus came to give His life as this price. This is the fulfillment of the Suffering Servant in Isaiah 53. The peak of service is the cross.",
+      "rose": true
+     }
+    },
+    {
+     "b": "What Do You Want?",
+     "ayə": "Matthew 20:29–34",
+     "alt": "Jesus touching the blind man's eyes",
+     "p": [
+      "Jericho is the last gate on the road going up to Jerusalem. Two [[blind]] men by the road shouted, “Lord, have mercy on us, Son of David!” When the crowd rebuked them, they shouted even louder.",
+      "Jesus asks: “What do you want me to do for you?” This is the same question He asked the mother in 20:21. The mother asked for power, while the blind men asked to see. Those whose eyes were opened followed Jesus. This was the road leading to the cross."
+     ],
+     "deep": {
+      "b": "Look Deeper · Who Is Truly Blind?",
+      "p": "The disciples who argued over positions even after hearing the prophecy of suffering three times, and the blind men who recognized Jesus as the 'Son of David' despite their physical blindness. Who is the one who truly sees?"
+     }
+    }
+   ],
+   "cedvel": {
+    "b": "Same Question, Different Answer",
+    "alt": "20:21, 32",
+    "bas": [
+     "",
+     "The mother of Zebedee's sons",
+     "The two blind men"
+    ],
+    "set": [
+     [
+      "Jesus' question",
+      "What do you want?",
+      "What do you want me to do for you?"
+     ],
+     [
+      "What they asked for",
+      "A high place",
+      "To have their eyes opened"
+     ],
+     [
+      "How they addressed Jesus",
+      "(Expecting a King)",
+      "Lord, Son of David"
+     ],
+     [
+      "Result",
+      "Teaching about service",
+      "They saw and followed Jesus"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "“Whoever desires to become great among you shall be your servant ... Even as the Son of Man came not to be served, but to serve, and to give his life as a ransom for many.”",
+    "ref": "20:26–28"
+   },
+   "lugat": {
+    "denarius": {
+     "i": "🪙",
+     "o": "Roman silver coin denarius",
+     "x": "dinar",
+     "s": "A day's wage",
+     "m": "It was enough money for a family to live on for one day. He gave even the one-hour worker 'enough to live for a day.'",
+     "e": "The owner met everyone's 'need'."
+    },
+    "evil eye": {
+     "i": "👁️",
+     "o": "Greek ophthalmos poneros",
+     "x": "paxıl göz",
+     "s": "Envy and stinginess",
+     "m": "It is the 'bad eye' we learned about in 6:23. It is a heart that cannot rejoice in someone else's success.",
+     "e": "“Or is your evil eye envious because I am generous?” (20:15)."
+    },
+    "cup": {
+     "i": "🍷",
+     "o": "Greek poterion",
+     "x": "kasa",
+     "s": "Suffering appointed by God",
+     "m": "In the Old Testament, the 'cup of wrath' represents God's judgment. Jesus prays in Gethsemane, 'let this cup pass from me' (26:39).",
+     "e": "James later became the first martyr among the apostles (Acts 12:2)."
+    },
+    "blind": {
+     "i": "🦯",
+     "o": "Greek typhlos",
+     "x": "kor",
+     "s": "One who cannot see, but recognized Him",
+     "m": "Mark mentions only one by name (Bartimaeus), but Matthew says there were two. Two people were needed for a testimony (Deut. 19:15).",
+     "e": "In 9:27–31, two blind men also come with the same cry."
+    }
+   },
+   "test": [
+    {
+     "q": "Why were the workers the owner called at 5 p.m. standing there?",
+     "o": [
+      "Because no one had hired them",
+      "Because they were lazy",
+      "Because they woke up late"
+     ],
+     "a": 0,
+     "f": "That's right. They were people who had not been chosen."
+    },
+    {
+     "q": "What was the real reason the morning workers grumbled?",
+     "o": [
+      "Envy of the grace someone else received",
+      "Getting less than promised",
+      "The work being too hard"
+     ],
+     "a": 0,
+     "f": "That's right. They lost nothing."
+    },
+    {
+     "q": "What happened right after the third prophecy of suffering?",
+     "o": [
+      "A request for a high place",
+      "The feeding of the five thousand",
+      "The transfiguration"
+     ],
+     "a": 0,
+     "f": "That's right. The disciples still did not understand."
+    },
+    {
+     "q": "What does 'ransom' (lutron) mean?",
+     "o": [
+      "The price paid to free a slave or captive",
+      "A temple donation",
+      "A tax"
+     ],
+     "a": 0,
+     "f": "That's right. Jesus' life is that price."
+    },
+    {
+     "q": "What is the common question Jesus asked the mother and the blind men?",
+     "o": [
+      "What do you want?",
+      "Who are you?",
+      "Where are you from?"
+     ],
+     "a": 0,
+     "f": "That's right. What we ask for shows our heart."
+    }
+   ],
+   "paylas": [
+    "In the parable of the vineyard, do I relate more to the morning worker or the 5 p.m. worker?",
+    "Have I ever been unable to rejoice in a blessing or praise someone else received?",
+    "Have you seen 'the leadership of the Gentiles' and 'servant leadership' at school or in a group?",
+    "If Jesus asked me right now, 'What do you want?', what would I ask for?"
+   ],
+   "etiraf": {
+    "b": "My Confession",
+    "p": "Jesus asks you, 'What do you want?' Write a prayer in three or four sentences asking for 'seeing eyes' instead of a high place.",
+    "ph": "For example: Lord, I wanted a place where I would be recognized. But now..."
+   },
+   "dua": "Jesus, who came to serve, I thank You for Your love in giving Your own life as the price for my life. Let me not envy the grace someone else receives, but rejoice together with them. Instead of asking for a high place, let my eyes be opened to see You, and let me follow You in the place of service. I pray in the name of Jesus Christ. Amen."
+  }
+ },
+ "ru": {
+  "usaq": {
+   "basliq": "Иисус, пришедший служить",
+   "hedef": [
+    "Через притчу о хозяине виноградника мы узнаем о щедрой благодати Божьей.",
+    "Мы узнаем, что в Царстве Небесном велик тот, кто служит.",
+    "Мы решим служить другим, как Иисус."
+   ],
+   "sehneler": [
+    {
+     "b": "Работники виноградника",
+     "ayə": "Матфей 20:1–7",
+     "alt": "Хозяин виноградника зовёт работников на рынке",
+     "p": [
+      "Один хозяин [[виноградника|виноградник]] пошёл рано утром на рынок и позвал работников. Плата за день была один динарий.",
+      "Хозяин выходил в девять, в двенадцать, в три часа и за час до заката, в пять часов, и звал людей, которые стояли без работы."
+     ]
+    },
+    {
+     "b": "Все получили одинаково",
+     "ayə": "Матфей 20:8–16",
+     "alt": "Хозяин даёт всем работникам по одному динарию",
+     "p": [
+      "Вечером хозяин выдал плату, начиная с пришедших последними. Тот, кто работал один час, тоже получил один [[динарий]]! Те, кто работал с утра, думали, что получат больше, но и они получили по одному динарию.",
+      "Когда они стали ворчать, хозяин сказал: «Я сдержал своё слово. Или тебе не нравится, что я [[добрый]]?» Бог так же щедр и к тем, кто приходит поздно."
+     ]
+    },
+    {
+     "b": "Дай самое высокое место",
+     "ayə": "Матфей 20:20–28",
+     "alt": "Мать просит высокое место для двух сыновей",
+     "p": [
+      "Мать Иакова и Иоанна подошла и попросила: «Пусть два моих сына сядут в Твоём Царстве один по правую, а другой по левую сторону от Тебя». Остальные ученики рассердились.",
+      "Иисус сказал: «Кто хочет быть большим между вами, да будет другим [[слугой|слуга]]. И Я пришёл не для того, чтобы Мне служили, но чтобы послужить и отдать Свою жизнь за многих»."
+     ]
+    },
+    {
+     "b": "Двое прозревших",
+     "ayə": "Матфей 20:29–34",
+     "alt": "Иисус прикасается к глазам слепого",
+     "p": [
+      "Двое [[слепых|слепой]], сидевших у дороги в Иерихон, закричали: «Господи, Сын Давидов, помилуй нас!» Люди велели им замолчать, но они кричали ещё громче.",
+      "Иисус остановился и спросил: «Что вы хотите, чтобы Я сделал для вас?» «Чтобы открылись наши глаза». Иисус сжалился, прикоснулся к их глазам, и они тотчас прозрели и пошли за Ним."
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "«Сын Человеческий не для того пришёл, чтобы Ему служили, но чтобы послужить и отдать душу Свою для искупления многих».",
+    "ref": "20:28",
+    "bos": "Сын Человеческий не для того пришёл, чтобы Ему ___, но чтобы ___ и отдать ___ Свою для искупления многих.",
+    "sozler": [
+     "служили",
+     "послужить",
+     "душу"
+    ],
+    "yalan": "играли"
+   },
+   "lugat": {
+    "виноградник": {
+     "i": "🍇",
+     "x": "üzüm bağı",
+     "m": "Это сад, где сажают и выращивают виноградные лозы.",
+     "e": "Хозяин виноградника позвал работников."
+    },
+    "динарий": {
+     "i": "🪙",
+     "x": "dinar",
+     "m": "В то время это была серебряная монета, равная плате за один день работы.",
+     "e": "Все получили по одному динарию."
+    },
+    "добрый": {
+     "i": "💛",
+     "x": "xeyirxah",
+     "m": "Быть хорошим и щедрым.",
+     "e": "Или тебе не нравится, что я добрый?"
+    },
+    "слуга": {
+     "i": "🧺",
+     "x": "xidmət edən",
+     "m": "Человек, который помогает и трудится для других.",
+     "e": "Великий человек — это слуга."
+    },
+    "слепой": {
+     "i": "🦯",
+     "x": "kor",
+     "m": "Человек, чьи глаза не видят.",
+     "e": "Двое слепых позвали Иисуса."
+    }
+   },
+   "test": [
+    {
+     "q": "Сколько получил работник, который трудился один час?",
+     "o": [
+      "Один динарий",
+      "Ничего",
+      "Одну копейку"
+     ],
+     "a": 0,
+     "f": "Верно! Хозяин дал щедро."
+    },
+    {
+     "q": "Кого символизирует хозяин виноградника?",
+     "o": [
+      "Щедрого Бога",
+      "Жадного человека",
+      "Ленивого человека"
+     ],
+     "a": 0,
+     "f": "Верно! Бог любит и тех, кто приходит поздно."
+    },
+    {
+     "q": "Что Иисус сказал тому, кто хочет быть большим?",
+     "o": [
+      "Будь слугой",
+      "Сядь на высокое место",
+      "Много приказывай"
+     ],
+     "a": 0,
+     "f": "Верно! Велик тот, кто служит."
+    },
+    {
+     "q": "Что сделали двое слепых после того, как прозрели?",
+     "o": [
+      "Пошли за Иисусом",
+      "Пошли домой",
+      "Спрятались"
+     ],
+     "a": 0,
+     "f": "Верно! Получив исцеление, они пошли за Ним."
+    }
+   ],
+   "dusun": [
+    "Что ты думаешь, когда видишь, что работник, пришедший поздно, получил столько же?",
+    "Почему Иисус пришёл служить?",
+    "Кому я могу послужить на этой неделе?"
+   ],
+   "fealiyyet": {
+    "ciz": "Нарисуй себя, когда ты кому-то помогаешь и служишь.",
+    "b": "Кому ты будешь служить?",
+    "p": "Выбери человека, которому ты послужишь на этой неделе.",
+    "ph": "",
+    "secim": {
+     "basliq": "Кому ты будешь служить?",
+     "izah": "Нажимай и выбирай. Можно выбрать несколько.",
+     "cumle": "Я буду служить {x}, как Иисус!",
+     "bos": "маме дома",
+     "bag": "и",
+     "secimler": [
+      [
+       "🧽",
+       "маме дома"
+      ],
+      [
+       "🧒",
+       "младшему брату"
+      ],
+      [
+       "👫",
+       "друзьям"
+      ],
+      [
+       "👩‍🏫",
+       "учителю"
+      ],
+      [
+       "⛪",
+       "всем в церкви"
+      ],
+      [
+       "👵",
+       "соседке-бабушке"
+      ]
+     ]
+    }
+   },
+   "dua": "Иисус, благодарю Тебя за то, что Ты пришёл не для того, чтобы Тебе служили, а чтобы послужить и отдать Свою жизнь за меня. Помоги мне радоваться благодати Бога, Который щедр даже к тем, кто приходит поздно. Пусть я буду человеком, который больше любит место служения, чем высокое место. Во имя Иисуса Христа молюсь. Аминь."
+  },
+  "genc": {
+   "basliq": "Счёт благодати",
+   "giris": "«Это несправедливо!» Тот, кто работал весь день, и тот, кто работал один час, получили одинаковые деньги. Царство Небесное переворачивает наш счёт с ног на голову. А на вершине этого перевёрнутого счёта стоит Царь, пришедший служить.",
+   "meqsed": [
+    "На примере притчи о работниках в винограднике мы понимаем разницу между благодатью и справедливостью.",
+    "Мы можем сравнить мирское лидерство с лидерством Иисуса, Который служит.",
+    "Мы понимаем значение слова «искупление» и определяем своё место служения."
+   ],
+   "sehneler": [
+    {
+     "b": "Пять призывов",
+     "ayə": "Матфей 20:1–7",
+     "alt": "Хозяин виноградника зовёт работников на рынке",
+     "p": [
+      "Во время сбора винограда нужно было спешить собрать урожай до дождя, поэтому не хватало рабочих рук. Хозяин выходит на рынок в 6, 9, 12, 15 часов и за час до заката, в 17 часов.",
+      "Те, кто стоял в 17 часов, сказали: «Никто нас не нанял». Вероятно, это были люди, которых не выбрали из-за возраста или слабости. Хозяин позвал и их."
+     ],
+     "deep": {
+      "b": "Взгляд в глубину · Хозяин, который идёт искать",
+      "p": "Обычно работник ищет хозяина, но этот хозяин сам выходит искать пять раз. Это образ Бога, подобный Пастырю из 9-й главы и пастуху, ищущему пропавшую овцу, из 18-й главы."
+     }
+    },
+    {
+     "b": "Последние станут первыми",
+     "ayə": "Матфей 20:8–16",
+     "alt": "Хозяин даёт всем работникам по одному динарию",
+     "p": [
+      "Хозяин намеренно выдал плату, начиная с пришедших последними, чтобы все видели. Когда работавший один час получил один [[динарий]], утренние работники обнадёжились, но и они получили по одному динарию. Они стали ворчать: «Ты сравнял их с нами».",
+      "Ответ хозяина: «Друг! я не делаю тебе обиды. … Или [[глаз твой завистлив|завистливый глаз]] оттого, что я добр?» Утренний работник ничего не потерял. Проблема в сердце, которое не может радоваться благодати, полученной другим."
+     ],
+     "deep": {
+      "b": "Взгляд в глубину · Брат блудного сына",
+      "p": "Утренний работник в этой притче похож на старшего брата блудного сына из 15-й главы Евангелия от Луки. Человек, давно находящийся в вере, может завидовать благодати, оказанной новичку. Это также ответ на вопрос Петра из 19:27 («Что же будет нам?»)."
+     }
+    },
+    {
+     "b": "Правая и левая сторона",
+     "ayə": "Матфей 20:17–28",
+     "alt": "Мать просит высокое место для двух сыновей",
+     "p": [
+      "Иисус в третий раз и наиболее подробно предсказывает Свои страдания: Он будет предан, осуждён, отдан язычникам на поругание, бичёван, распят и в третий день воскреснет. И сразу после этого мать сыновей Зеведеевых просит высокое место.",
+      "Иисус спрашивает: «Можете ли пить [[чашу|чаша]], которую Я буду пить?» Затем Он говорит: «Вы знаете, что князья народов господствуют над ними. Но между вами да не будет так: а кто хочет между вами быть большим, да будет вам слугою»."
+     ],
+     "deep": {
+      "b": "Взгляд в глубину · Искупление",
+      "p": "«Искупление» (литрон) — это плата за освобождение раба или пленника. Иисус пришёл отдать Свою жизнь как эту плату. Это исполнение пророчества о страдающем Рабе из 53-й главы Исаии. Вершина служения — это крест.",
+      "rose": true
+     }
+    },
+    {
+     "b": "Чего вы хотите?",
+     "ayə": "Матфей 20:29–34",
+     "alt": "Иисус прикасается к глазам слепого",
+     "p": [
+      "Иерихон — это последние врата на пути, ведущем вверх, в Иерусалим. Двое [[слепых|слепой]] у дороги закричали: «Помилуй нас, Господи, Сын Давидов!» Когда толпа заставляла их молчать, они кричали ещё громче.",
+      "Иисус спрашивает: «Чего вы хотите от Меня?» Это тот же вопрос, который Он задал матери в 20:21. Мать просила власти, а слепые просили прозрения. Прозревшие пошли за Иисусом. Это был путь, ведущий ко кресту."
+     ],
+     "deep": {
+      "b": "Взгляд в глубину · Кто на самом деле слеп?",
+      "p": "Ученики, которые трижды слышали весть о страданиях и спорят о местах, и слепые, которые, не имея зрения, узнали в Иисусе «Сына Давидова». Кто же на самом деле зрячий?"
+     }
+    }
+   ],
+   "cedvel": {
+    "b": "Одинаковый вопрос, разный ответ",
+    "alt": "20:21, 32",
+    "bas": [
+     "",
+     "Мать сыновей Зеведеевых",
+     "Двое слепых"
+    ],
+    "set": [
+     [
+      "Вопрос Иисуса",
+      "Чего ты хочешь?",
+      "Чего вы хотите от Меня?"
+     ],
+     [
+      "Что просили",
+      "Высокое место",
+      "Прозрение"
+     ],
+     [
+      "Обращение к Иисусу",
+      "(Ожидает как Царя)",
+      "Господи, Сын Давидов"
+     ],
+     [
+      "Результат",
+      "Учение о служении",
+      "Прозрели и пошли за Иисусом"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "«Кто хочет между вами быть большим, да будет вам слугою … так как Сын Человеческий не для того пришёл, чтобы Ему служили, но чтобы послужить и отдать душу Свою для искупления многих».",
+    "ref": "20:26–28"
+   },
+   "lugat": {
+    "динарий": {
+     "i": "🪙",
+     "o": "Римская серебряная монета denarius",
+     "x": "dinar",
+     "s": "Плата за один день",
+     "m": "Это были деньги, на которые семья могла прожить один день. Тому, кто работал один час, Он тоже дал «достаточно, чтобы прожить день».",
+     "e": "Хозяин восполнил «нужду» каждого."
+    },
+    "завистливый глаз": {
+     "i": "👁️",
+     "o": "По-гречески ophthalmos poneros",
+     "x": "paxıl göz",
+     "s": "Зависть и скупость",
+     "m": "Это «худой глаз», о котором мы узнали в 6:23. Это сердце, которое не может радоваться успеху другого.",
+     "e": "«Или завистливый глаз твой оттого, что я добр?» (20:15)."
+    },
+    "чаша": {
+     "i": "🍷",
+     "o": "По-гречески poterion",
+     "x": "kasa",
+     "s": "Страдания, определённые Богом",
+     "m": "В Ветхом Завете «чаша гнева» означает Божий суд. В Гефсимании Иисус молится: «Да минует Меня чаша сия» (26:39).",
+     "e": "Иаков впоследствии стал первым мучеником среди апостолов (Деян. 12:2)."
+    },
+    "слепой": {
+     "i": "🦯",
+     "o": "По-гречески typhlos",
+     "x": "kor",
+     "s": "Тот, кто не видел, но узнал",
+     "m": "Марк называет имя только одного (Вартимей), а Матфей говорит, что их было двое. Для свидетельства требовалось два человека (Втор. 19:15).",
+     "e": "В 9:27–31 двое слепых также приходят с таким же возгласом."
+    }
+   },
+   "test": [
+    {
+     "q": "Почему работники, которых хозяин позвал в 17 часов, стояли без дела?",
+     "o": [
+      "Потому что никто их не нанял",
+      "Потому что они были ленивыми",
+      "Потому что они поздно проснулись"
+     ],
+     "a": 0,
+     "f": "Верно. Это были люди, которых не выбрали."
+    },
+    {
+     "q": "В чём была истинная причина недовольства утренних работников?",
+     "o": [
+      "Зависть к благодати, полученной другим",
+      "То, что они получили меньше обещанного",
+      "То, что работа была слишком тяжёлой"
+     ],
+     "a": 0,
+     "f": "Верно. Они ничего не потеряли."
+    },
+    {
+     "q": "Что произошло сразу после третьего предсказания о страданиях?",
+     "o": [
+      "Просьба о высоком месте",
+      "Насыщение пяти тысяч человек",
+      "Преображение"
+     ],
+     "a": 0,
+     "f": "Верно. Ученики всё ещё не понимали."
+    },
+    {
+     "q": "Что означает слово «искупление» (литрон)?",
+     "o": [
+      "Плата за освобождение раба или пленника",
+      "Храмовое пожертвование",
+      "Налог"
+     ],
+     "a": 0,
+     "f": "Верно. Жизнь Иисуса — это та самая плата."
+    },
+    {
+     "q": "Какой общий вопрос Иисус задал матери и слепым?",
+     "o": [
+      "Чего вы хотите?",
+      "Кто вы?",
+      "Откуда вы пришли?"
+     ],
+     "a": 0,
+     "f": "Верно. То, чего мы хотим, показывает наше сердце."
+    }
+   ],
+   "paylas": [
+    "К кому я ближе в притче о винограднике: к утреннему работнику или к тому, кто пришёл в 17 часов?",
+    "Бывало ли так, что я не мог радоваться благословению или похвале, полученной другим?",
+    "Видел ли я в школе или в группе «лидерство язычников» и «лидерство служения»?",
+    "Если бы Иисус сейчас спросил: «Чего ты хочешь?», что бы я попросил?"
+   ],
+   "etiraf": {
+    "b": "Моё исповедание",
+    "p": "Иисус спрашивает тебя: «Чего ты хочешь?» Напиши в трёх-четырёх предложениях молитву, в которой ты просишь не высокое место, а «зрячие глаза».",
+    "ph": "Например: Господи, я хотел места, где меня будут признавать. Но теперь..."
+   },
+   "dua": "Иисус, пришедший служить, благодарю Тебя за любовь, с которой Ты отдал Свою жизнь как плату за мою душу. Помоги мне не завидовать благодати, полученной другим, а радоваться вместе. Вместо того чтобы просить высокое место, пусть мои глаза откроются, чтобы видеть Тебя, и пусть я пойду за Тобой на месте служения. Во имя Иисуса Христа молюсь. Аминь."
+  }
  }
-},
-"muellim": {
- "mesaj": "25과의 중심은 한 문장입니다. **하나님 나라는 공로의 계산이 아니라 은혜의 넉넉함으로 움직이며, 그 나라의 왕은 섬김을 받으러 오지 않고 섬기러, 자기 목숨을 대속물로 주러 오셨다.**",
- "hazirliq": ["학생용 교재를 열 휴대폰이나 태블릿, 이어폰", "동전 모양 사탕 (모두에게 똑같이 나눠 주기)", "앞치마나 수건 (섬김 상징)"],
- "fon": [
-  ["1. 품꾼 시장", "일용 노동자들은 새벽에 장터에 모여 고용을 기다렸습니다. 한 데나리온은 가족의 하루 생계비였습니다. 레위기 19:13은 품삯을 그날 주라고 명령합니다."],
-  ["2. 비유의 틀", "19:30 “먼저 된 자로서 나중 되고”와 20:16 “나중 된 자로서 먼저 되고”가 비유를 감쌉니다. 19:27 베드로의 질문에 대한 대답입니다."],
-  ["3. 세 번째 고난 예고", "16:21, 17:22–23에 이어 가장 구체적입니다. ‘이방인에게 넘겨’, ‘조롱’, ‘채찍질’, ‘십자가’가 처음으로 명시됩니다."],
-  ["4. 대속물", "20:28은 마가복음 10:45와 함께 예수님의 죽음의 의미를 설명하는 핵심 구절입니다. 이사야 53:10–12의 ‘많은 사람’과 연결됩니다."],
-  ["5. 그림 안내", "마지막 장면은 PPT의 ‘바디매오’ 그림입니다(마가복음 장면). 마태복음은 두 명의 맹인이라고 기록합니다."]
- ],
- "usaq_plan": [
-  ["5분", "똑같이 받기", "늦게 온 친구에게도 사탕을 똑같이 주기 → 반응 보기", "“늦게 온 친구도 똑같이 받으니 어때요?”"],
-  ["15분", "장면 1–4 듣고 읽기", "장면마다 듣기, 노란 낱말 누르기", "“예수님은 왕이신데 섬기러 오셨어요.”"],
-  ["5분", "외울 말씀", "빈칸 놀이 → 수건을 들고 섬기는 동작으로 외우기", ""],
-  ["5분", "확인 퀴즈", "혼자 풀고 함께 확인", ""],
-  ["10분", "활동과 기도", "섬길 사람 고르기 → 기도", ""]
- ],
- "genc_plan": [
-  ["5분", "열기", "“시급이 다른데 월급이 같다면?” 공정성 토론", ""],
-  ["15분", "장면 1–2", "다섯 번의 부름, 은혜의 계산법, 악한 눈", ""],
-  ["10분", "장면 3–4와 질문 비교 표", "세 번째 예고, 잔, 대속물, 두 맹인", "“무엇을 원하느냐?”"],
-  ["5분", "확인 문제", "", ""],
-  ["15분", "나눔과 고백", "나눔 질문 2개 → ‘보는 눈’을 구하는 기도 쓰기 → 서로 섬김 실천 정하기", ""]
- ],
- "ipucu_usaq": ["‘불공평해요!’라는 반응을 환영하세요. 그 감정에서 은혜를 설명할 수 있습니다.", "섬김 활동은 구체적으로 정해서 다음 주에 나누게 하세요.", "야고보와 요한의 어머니를 나쁘게만 그리지 마세요. 아들을 사랑한 엄마였어요."],
- "ipucu_genc": ["‘대속물’ 개념을 시장 거래처럼 단순화하지 말고 사랑의 대가로 설명하세요.", "교회 안의 ‘아침 일꾼’ 문화(오래 다닌 사람의 특권 의식)를 부드럽게 돌아보게 하세요.", "다음 과(21–22장)는 예루살렘 입성과 혼인 잔치 비유, 가장 큰 계명입니다."],
- "suallar": [
-  ["늦게 온 사람이 똑같이 받으면 불공평하지 않아요?", "주인은 약속한 대로 다 주었어요. 늦게 온 사람에게는 선물을 더 준 거예요. 하나님은 정말 넉넉하세요.", "공평은 약속을 지키는 것이고, 은혜는 받을 자격 없는 사람에게 주는 거예요. 하나님은 아무에게도 불공평하지 않으시면서 모두에게 은혜로우세요."],
-  ["예수님은 왕인데 왜 섬겨요?", "진짜 위대한 사람은 남을 돕는 사람이라는 걸 보여 주시려고요.", "예수님은 하나님 나라의 리더십을 직접 보여 주셨어요. 요한복음 13장의 발 씻기심도 같은 모습이에요."],
-  ["대속물이 뭐예요?", "갇힌 사람을 풀어 주기 위해 대신 내는 값이에요. 예수님은 우리를 위해 그 값을 대신 내셨어요.", "죄에 묶인 우리를 풀어 주기 위해 예수님이 자기 생명을 값으로 치르셨다는 뜻이에요. 사랑이 치른 값이에요."]
- ]
-}
 }

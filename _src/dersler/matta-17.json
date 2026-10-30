@@ -1,157 +1,1615 @@
 {
-"no": 17, "ref": "13:1–23", "deq": {"usaq": 40, "genc": 50},
-"img": ["matta/17-qayiqdan.jpg", "matta/17-yol-qaya.jpg", "matta/17-tikan.jpg", "16-toxumcu.jpg"],
-"hero": 3,
-"ko": {
- "usaq": {
-  "basliq": "씨 뿌리는 사람",
-  "hedef": ["예수님이 들려주신 씨 뿌리는 사람 이야기를 알아요.", "씨는 하나님의 말씀이고 밭은 우리 마음임을 배워요.", "말씀을 잘 받아들이는 좋은 땅이 되기로 해요."],
-  "sehneler": [
-   {"b": "배에서 가르치신 예수님", "ayə": "13:1–3", "alt": "배에 앉아 바닷가의 사람들을 가르치시는 예수님", "p": ["사람들이 너무 많이 모여서 예수님은 배에 올라앉으시고, 사람들은 바닷가에 서서 들었어요.", "예수님은 [[비유]]로 많은 것을 가르치셨어요. 비유는 쉬운 이야기 속에 하나님 나라의 비밀을 담은 거예요."]},
-   {"b": "길가와 돌밭", "ayə": "13:4–6, 19–21", "alt": "길가의 씨를 먹는 새와 돌밭에서 시든 싹", "p": ["어떤 [[씨]]는 길가에 떨어져서 새들이 와서 먹어 버렸어요. 말씀을 들어도 금방 잊어버리는 마음이에요.", "어떤 씨는 흙이 얕은 돌밭에 떨어졌어요. 싹이 빨리 났지만 [[뿌리]]가 없어서 해가 뜨자 시들었어요. 처음엔 좋아하다가 힘들면 금방 포기하는 마음이에요."]},
-   {"b": "가시덤불", "ayə": "13:7, 22", "alt": "가시덤불에 막혀 자라지 못하는 싹", "p": ["어떤 씨는 [[가시덤불]] 속에 떨어졌어요. 가시가 자라서 싹을 막아 버렸어요.", "말씀을 들어도 걱정과 욕심이 너무 많아서 말씀이 자라지 못하는 마음이에요."]},
-   {"b": "좋은 땅", "ayə": "13:8–9, 23", "alt": "좋은 땅에서 풍성하게 자란 곡식", "p": ["어떤 씨는 [[좋은 땅]]에 떨어졌어요. 쑥쑥 자라서 백 배, 육십 배, 삼십 배의 [[열매]]를 맺었어요!", "말씀을 듣고 깨닫고 지키는 마음이 좋은 땅이에요. 예수님이 말씀하셨어요. “귀 있는 사람은 들어라.”"]}
-  ],
-  "aye": {"metn": "“좋은 땅에 뿌려졌다는 것은 말씀을 듣고 깨닫는 자니”", "ref": "13:23", "bos": "___ 땅에 뿌려졌다는 것은 ___을 듣고 ___ 자니", "sozler": ["좋은", "말씀", "깨닫는"], "yalan": "잊는"},
-  "lugat": {
-   "비유": {"i": "📖", "x": "məsəl", "m": "쉬운 이야기로 깊은 뜻을 알려 주는 방법이에요.", "e": "예수님은 비유로 가르치셨어요."},
-   "씨": {"i": "🌱", "x": "toxum", "m": "땅에 심으면 싹이 나서 자라는 작은 알갱이예요. 이 이야기에서는 하나님의 말씀이에요.", "e": "씨 뿌리는 사람이 씨를 뿌렸어요."},
-   "뿌리": {"i": "🌿", "x": "kök", "m": "식물이 땅속으로 뻗어서 물과 영양을 먹는 부분이에요.", "e": "뿌리가 없어서 시들었어요."},
-   "가시덤불": {"i": "🌵", "x": "tikan", "m": "뾰족한 가시가 있는 풀이 뒤엉킨 곳이에요.", "e": "가시덤불이 싹을 막았어요."},
-   "좋은 땅": {"i": "🟫", "x": "yaxşı torpaq", "m": "부드럽고 깊어서 씨가 잘 자라는 땅이에요.", "e": "좋은 땅에서 열매가 많이 열렸어요."},
-   "열매": {"i": "🌾", "x": "bəhrə", "m": "식물이 자라서 맺는 곡식이나 과일이에요.", "e": "백 배의 열매를 맺었어요."}
-  },
-  "test": [
-   {"q": "예수님은 어디에 앉아서 가르치셨나요?", "o": ["배 위", "나무 위", "지붕 위"], "a": 0, "f": "맞아요! 사람들은 바닷가에서 들었어요."},
-   {"q": "길가에 떨어진 씨는 어떻게 되었나요?", "o": ["새들이 먹어 버렸어요", "크게 자랐어요", "꽃이 피었어요"], "a": 0, "f": "맞아요! 듣고 금방 잊어버리는 마음이에요."},
-   {"q": "가시덤불 속 싹을 막은 것은 무엇을 뜻하나요?", "o": ["걱정과 욕심", "비와 햇빛", "친구와 가족"], "a": 0, "f": "맞아요! 걱정과 욕심이 말씀을 막아요."},
-   {"q": "좋은 땅은 어떤 마음인가요?", "o": ["말씀을 듣고 깨닫는 마음", "말씀을 안 듣는 마음", "말씀을 잊는 마음"], "a": 0, "f": "맞아요! 열매를 많이 맺어요."}
-  ],
-  "dusun": ["내 마음은 네 가지 땅 중에 어떤 땅과 닮았나요?", "말씀이 내 마음에서 자라지 못하게 막는 ‘가시’는 무엇일까요?", "좋은 땅이 되려면 어떻게 해야 할까요?"],
-  "fealiyyet": {"ciz": "좋은 땅에서 쑥쑥 자란 곡식과 그 옆의 나를 그려 보세요.", "b": "좋은 땅이 되는 방법", "p": "말씀이 잘 자라도록 내가 할 일을 써 보세요.", "ph": "예) 설교 시간에 잘 듣고 집에서 다시 읽을 거예요."},
-  "dua": "예수님, 하나님의 말씀을 씨처럼 제 마음에 뿌려 주셔서 감사합니다. 제 마음이 길가나 돌밭이나 가시덤불이 아니라 좋은 땅이 되게 해 주세요. 말씀을 듣고 깨닫고 지켜서 많은 열매를 맺게 해 주세요. 예수님 이름으로 기도합니다. 아멘."
+ "no": 17,
+ "ref": "13:1–23",
+ "deq": {
+  "usaq": 40,
+  "genc": 50
  },
- "genc": {
-  "basliq": "네 가지 마음밭",
-  "giris": "같은 수업을 들어도 누군가는 바뀌고 누군가는 그대로입니다. 문제는 선생님일까요, 학생일까요? 예수님은 씨가 아니라 밭에 대해 이야기하십니다. 같은 씨, 다른 땅, 다른 결과.",
-  "meqsed": ["마태복음 세 번째 설교인 비유 설교의 시작을 이해해요.", "예수님이 왜 비유로 가르치셨는지 설명할 수 있어요.", "내 마음밭을 정직하게 진단하고 좋은 땅으로 가꿀 방법을 정해요."],
-  "sehneler": [
-   {"b": "배 위의 설교자", "ayə": "13:1–9", "alt": "배에 앉아 바닷가의 사람들을 가르치시는 예수님", "p": ["예수님은 배를 강단 삼아 앉으시고 해변을 객석 삼으셨어요. 갈릴리 호숫가의 비탈은 자연 원형극장이라 목소리가 멀리 퍼졌어요.", "농부는 먼저 씨를 뿌리고 나중에 갈았어요. 그래서 씨가 길, 돌밭, 가시덤불에도 떨어졌어요. 그런데 좋은 땅의 수확은 30배, 60배, 100배였어요. 당시 보통 수확은 7–10배였으니 엄청난 결과예요."], "deep": {"b": "깊이 보기 · 세 번째 설교", "p": "13장은 마태복음 다섯 설교 중 세 번째, 정중앙의 ‘비유 설교’예요. 일곱 개의 비유가 모두 ‘하늘나라’에 관한 것이에요. 12장에서 거절이 거세진 직후에 나와요."}},
-   {"b": "왜 비유로?", "ayə": "13:10–17", "alt": "길가의 씨를 먹는 새와 돌밭에서 시든 싹", "p": ["제자들이 물었어요. “왜 비유로 말씀하십니까?” 예수님은 “천국의 비밀을 아는 것이 너희에게는 허락되었으나 그들에게는 아니되었다”고 하시며 이사야 6:9–10을 인용하세요.", "[[비유]]는 마음이 열린 사람에게는 문이 되고, 닫힌 사람에게는 벽이 돼요. 예수님은 “너희 눈은 봄으로, 너희 귀는 들음으로 복이 있도다” 하세요. 많은 선지자가 보고 싶어 했던 것을 제자들은 보고 있었어요."], "deep": {"b": "깊이 보기 · 있는 자는 더 받고", "p": "“무릇 있는 자는 받아 넉넉하게 되되 없는 자는 그 있는 것도 빼앗기리라”(13:12). 돈 이야기가 아니라 들음의 이야기예요. 들은 말씀에 반응하면 더 깨닫고, 무시하면 아는 것마저 흐려져요."}},
-   {"b": "길가, 돌밭, 가시덤불", "ayə": "13:18–22", "alt": "가시덤불에 막혀 자라지 못하는 싹", "p": ["길가: 말씀을 듣고 깨닫지 못하면 악한 자가 와서 빼앗아 가요. 돌밭: 기쁘게 받지만 [[뿌리]]가 없어 환난이나 박해가 오면 곧 넘어져요.", "가시떨기: 말씀을 듣지만 세상의 [[염려]]와 재물의 유혹이 말씀을 막아 열매를 맺지 못해요. 이 셋은 ‘나쁜 사람’이 아니라 우리 모두에게 있는 모습이에요."], "deep": {"b": "깊이 보기 · 가장 위험한 땅", "p": "가시떨기 밭은 겉으로 보면 아무 문제가 없어요. 신앙도 있고 교회도 다녀요. 다만 다른 것이 너무 많이 자라서 말씀이 숨 쉴 공간이 없어요. 바쁨이 가장 조용한 가시일 수 있어요.", "rose": true}},
-   {"b": "백 배의 열매", "ayə": "13:23", "alt": "좋은 땅에서 풍성하게 자란 곡식", "p": ["“좋은 땅에 뿌려졌다는 것은 말씀을 듣고 깨닫는 자니 결실하여 어떤 것은 백 배, 어떤 것은 육십 배, 어떤 것은 삼십 배가 되느니라.”", "좋은 땅의 특징은 세 가지예요. 듣고, [[깨닫고]], 열매 맺어요. 열매의 양은 달라도 모두 좋은 땅이에요. 비교가 아니라 자라는 것이 중요해요."], "deep": {"b": "깊이 보기 · 씨 뿌리는 이의 낙관", "p": "농부는 길가와 돌밭에도 아낌없이 뿌려요. 하나님은 어떤 마음도 포기하지 않으시고 말씀을 뿌리세요. 또 세 곳에서 실패해도 좋은 땅 한 곳의 수확이 모든 손실을 넘어서요. 이 비유는 경고이자 희망이에요."}}
-  ],
-  "cedvel": {"b": "네 가지 마음밭 진단", "alt": "13:18–23", "bas": ["밭", "무엇이 일어나나", "오늘의 모습"], "set": [["길가", "깨닫지 못해 빼앗김", "설교를 듣고 5분 뒤 아무것도 기억 안 남"], ["돌밭", "뿌리가 없어 넘어짐", "수련회 땐 뜨겁다가 학교에서 놀림받으면 식음"], ["가시떨기", "염려와 재물이 막음", "신앙은 있지만 성적, 돈, 폰이 모든 시간을 차지함"], ["좋은 땅", "듣고 깨닫고 열매 맺음", "들은 말씀 하나를 붙들고 실제로 살아 봄"]]},
-  "aye": {"metn": "“좋은 땅에 뿌려졌다는 것은 말씀을 듣고 깨닫는 자니 결실하여 어떤 것은 백 배, 어떤 것은 육십 배, 어떤 것은 삼십 배가 되느니라.”", "ref": "13:23"},
-  "lugat": {
-   "비유": {"i": "📖", "o": "헬라어 파라볼레, ‘나란히 던지다’", "x": "məsəl", "s": "일상과 하나님 나라를 나란히 놓은 이야기", "m": "익숙한 장면 옆에 하나님 나라를 나란히 놓아 비교하게 하는 이야기예요. 듣는 사람이 스스로 생각하고 결단하게 만들어요.", "e": "영어 parable의 어원이에요."},
-   "뿌리": {"i": "🌿", "o": "헬라어 리자", "x": "kök", "s": "깊이와 지속성", "m": "보이지 않는 곳에서 자라는 부분이에요. 신앙의 뿌리는 혼자 있는 시간의 기도와 말씀이에요.", "e": "“그리스도 안에 뿌리를 박으며”(골 2:7)."},
-   "염려": {"i": "😟", "o": "헬라어 메림나", "x": "qayğı", "s": "마음을 나누는 걱정", "m": "6장에서 배운 그 ‘염려’예요. 걱정은 말씀이 자랄 자리를 빼앗아요.", "e": "6:25–34와 함께 읽어 보세요."},
-   "깨닫고": {"i": "💡", "o": "헬라어 쉬니에미, ‘하나로 모으다’", "x": "anlamaq", "s": "들은 것을 삶과 연결함", "m": "정보를 아는 것이 아니라, 말씀과 내 삶을 하나로 꿰어 이해하는 거예요. 13장에 여섯 번 나와요.", "e": "“이 모든 것을 깨달았느냐?” “그러하오이다”(13:51)."}
+ "img": [
+  "matta/17-qayiqdan.jpg",
+  "matta/17-yol-qaya.jpg",
+  "matta/17-tikan.jpg",
+  "16-toxumcu.jpg"
+ ],
+ "hero": 3,
+ "ko": {
+  "usaq": {
+   "basliq": "씨 뿌리는 사람",
+   "hedef": [
+    "예수님이 들려주신 씨 뿌리는 사람 이야기를 알아요.",
+    "씨는 하나님의 말씀이고 밭은 우리 마음임을 배워요.",
+    "말씀을 잘 받아들이는 좋은 땅이 되기로 해요."
+   ],
+   "sehneler": [
+    {
+     "b": "배에서 가르치신 예수님",
+     "ayə": "13:1–3",
+     "alt": "배에 앉아 바닷가의 사람들을 가르치시는 예수님",
+     "p": [
+      "사람들이 너무 많이 모여서 예수님은 배에 올라앉으시고, 사람들은 바닷가에 서서 들었어요.",
+      "예수님은 [[비유]]로 많은 것을 가르치셨어요. 비유는 쉬운 이야기 속에 하나님 나라의 비밀을 담은 거예요."
+     ]
+    },
+    {
+     "b": "길가와 돌밭",
+     "ayə": "13:4–6, 19–21",
+     "alt": "길가의 씨를 먹는 새와 돌밭에서 시든 싹",
+     "p": [
+      "어떤 [[씨]]는 길가에 떨어져서 새들이 와서 먹어 버렸어요. 말씀을 들어도 금방 잊어버리는 마음이에요.",
+      "어떤 씨는 흙이 얕은 돌밭에 떨어졌어요. 싹이 빨리 났지만 [[뿌리]]가 없어서 해가 뜨자 시들었어요. 처음엔 좋아하다가 힘들면 금방 포기하는 마음이에요."
+     ]
+    },
+    {
+     "b": "가시덤불",
+     "ayə": "13:7, 22",
+     "alt": "가시덤불에 막혀 자라지 못하는 싹",
+     "p": [
+      "어떤 씨는 [[가시덤불]] 속에 떨어졌어요. 가시가 자라서 싹을 막아 버렸어요.",
+      "말씀을 들어도 걱정과 욕심이 너무 많아서 말씀이 자라지 못하는 마음이에요."
+     ]
+    },
+    {
+     "b": "좋은 땅",
+     "ayə": "13:8–9, 23",
+     "alt": "좋은 땅에서 풍성하게 자란 곡식",
+     "p": [
+      "어떤 씨는 [[좋은 땅]]에 떨어졌어요. 쑥쑥 자라서 백 배, 육십 배, 삼십 배의 [[열매]]를 맺었어요!",
+      "말씀을 듣고 깨닫고 지키는 마음이 좋은 땅이에요. 예수님이 말씀하셨어요. “귀 있는 사람은 들어라.”"
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "“좋은 땅에 뿌려졌다는 것은 말씀을 듣고 깨닫는 자니”",
+    "ref": "13:23",
+    "bos": "___ 땅에 뿌려졌다는 것은 ___을 듣고 ___ 자니",
+    "sozler": [
+     "좋은",
+     "말씀",
+     "깨닫는"
+    ],
+    "yalan": "잊는"
+   },
+   "lugat": {
+    "비유": {
+     "i": "📖",
+     "x": "məsəl",
+     "m": "쉬운 이야기로 깊은 뜻을 알려 주는 방법이에요.",
+     "e": "예수님은 비유로 가르치셨어요."
+    },
+    "씨": {
+     "i": "🌱",
+     "x": "toxum",
+     "m": "땅에 심으면 싹이 나서 자라는 작은 알갱이예요. 이 이야기에서는 하나님의 말씀이에요.",
+     "e": "씨 뿌리는 사람이 씨를 뿌렸어요."
+    },
+    "뿌리": {
+     "i": "🌿",
+     "x": "kök",
+     "m": "식물이 땅속으로 뻗어서 물과 영양을 먹는 부분이에요.",
+     "e": "뿌리가 없어서 시들었어요."
+    },
+    "가시덤불": {
+     "i": "🌵",
+     "x": "tikan",
+     "m": "뾰족한 가시가 있는 풀이 뒤엉킨 곳이에요.",
+     "e": "가시덤불이 싹을 막았어요."
+    },
+    "좋은 땅": {
+     "i": "🟫",
+     "x": "yaxşı torpaq",
+     "m": "부드럽고 깊어서 씨가 잘 자라는 땅이에요.",
+     "e": "좋은 땅에서 열매가 많이 열렸어요."
+    },
+    "열매": {
+     "i": "🌾",
+     "x": "bəhrə",
+     "m": "식물이 자라서 맺는 곡식이나 과일이에요.",
+     "e": "백 배의 열매를 맺었어요."
+    }
+   },
+   "test": [
+    {
+     "q": "예수님은 어디에 앉아서 가르치셨나요?",
+     "o": [
+      "배 위",
+      "나무 위",
+      "지붕 위"
+     ],
+     "a": 0,
+     "f": "맞아요! 사람들은 바닷가에서 들었어요."
+    },
+    {
+     "q": "길가에 떨어진 씨는 어떻게 되었나요?",
+     "o": [
+      "새들이 먹어 버렸어요",
+      "크게 자랐어요",
+      "꽃이 피었어요"
+     ],
+     "a": 0,
+     "f": "맞아요! 듣고 금방 잊어버리는 마음이에요."
+    },
+    {
+     "q": "가시덤불 속 싹을 막은 것은 무엇을 뜻하나요?",
+     "o": [
+      "걱정과 욕심",
+      "비와 햇빛",
+      "친구와 가족"
+     ],
+     "a": 0,
+     "f": "맞아요! 걱정과 욕심이 말씀을 막아요."
+    },
+    {
+     "q": "좋은 땅은 어떤 마음인가요?",
+     "o": [
+      "말씀을 듣고 깨닫는 마음",
+      "말씀을 안 듣는 마음",
+      "말씀을 잊는 마음"
+     ],
+     "a": 0,
+     "f": "맞아요! 열매를 많이 맺어요."
+    }
+   ],
+   "dusun": [
+    "내 마음은 네 가지 땅 중에 어떤 땅과 닮았나요?",
+    "말씀이 내 마음에서 자라지 못하게 막는 ‘가시’는 무엇일까요?",
+    "좋은 땅이 되려면 어떻게 해야 할까요?"
+   ],
+   "fealiyyet": {
+    "ciz": "좋은 땅에서 쑥쑥 자란 곡식과 그 옆의 나를 그려 보세요.",
+    "b": "좋은 땅이 되는 방법",
+    "p": "말씀이 잘 자라도록 내가 할 일을 써 보세요.",
+    "ph": "예) 설교 시간에 잘 듣고 집에서 다시 읽을 거예요."
+   },
+   "dua": "예수님, 하나님의 말씀을 씨처럼 제 마음에 뿌려 주셔서 감사합니다. 제 마음이 길가나 돌밭이나 가시덤불이 아니라 좋은 땅이 되게 해 주세요. 말씀을 듣고 깨닫고 지켜서 많은 열매를 맺게 해 주세요. 예수님 이름으로 기도합니다. 아멘."
   },
-  "test": [
-   {"q": "13장은 마태복음 다섯 설교 중 몇 번째인가요?", "o": ["세 번째", "첫 번째", "다섯 번째"], "a": 0, "f": "맞아요. 정중앙의 비유 설교예요."},
-   {"q": "당시 보통 수확에 비해 100배는 어떤 의미였나요?", "o": ["엄청나게 큰 수확", "평범한 수확", "실패한 수확"], "a": 0, "f": "맞아요. 보통은 7–10배였어요."},
-   {"q": "예수님이 비유의 이유를 설명하며 인용하신 책은?", "o": ["이사야", "창세기", "룻기"], "a": 0, "f": "맞아요. 이사야 6:9–10이에요."},
-   {"q": "가시떨기가 상징하는 것은?", "o": ["세상의 염려와 재물의 유혹", "박해와 환난", "악한 자"], "a": 0, "f": "맞아요. 다른 것이 너무 많이 자라요."},
-   {"q": "좋은 땅의 세 가지 특징은?", "o": ["듣고, 깨닫고, 열매 맺음", "보고, 말하고, 떠남", "기뻐하고, 시들고, 잊음"], "a": 0, "f": "맞아요. 양보다 자라는 것이 중요해요."}
-  ],
-  "paylas": ["표를 보며 지금 내 마음밭은 어디에 가장 가까운지 솔직하게 나눠 봐요.", "내 신앙에서 ‘뿌리’를 깊게 하는 습관은 무엇일까요?", "내 시간표에서 말씀이 자랄 공간을 막는 ‘가시’는 무엇인가요?", "하나님이 길가 같은 마음에도 씨를 뿌리신다는 것은 어떤 위로가 되나요?"],
-  "etiraf": {"b": "나의 고백", "p": "내 마음밭을 진단하고, 좋은 땅으로 가꾸기 위해 이번 주에 뽑을 ‘가시’ 하나와 심을 ‘씨’ 하나를 써 보세요.", "ph": "예) 뽑을 가시: 잠들기 전 1시간 폰 보기. 심을 씨: 그 시간에 마태복음 한 장 읽기."},
-  "dua": "씨 뿌리시는 하나님, 길가 같은 제 마음에도 포기하지 않고 말씀을 뿌려 주셔서 감사합니다. 제 마음의 돌을 치우시고 가시를 뽑아 주세요. 말씀을 듣고 깨닫고 열매 맺는 좋은 땅이 되게 해 주세요. 예수님 이름으로 기도합니다. 아멘."
- }
-},
-"az": {
- "usaq": {
-  "basliq": "Toxum əkən adam",
-  "hedef": ["İsanın danışdığı toxum əkən adam məsəlini öyrənəcəyik.", "Toxumun Allahın Kəlamı, torpağın isə ürəyimiz olduğunu öyrənəcəyik.", "Kəlamı yaxşı qəbul edən yaxşı torpaq olmağa qərar verəcəyik."],
-  "sehneler": [
-   {"b": "Qayıqda öyrədən İsa", "ayə": "Matta 13:1–3", "alt": "Qayıqda oturub sahildəki insanlara öyrədən İsa", "p": ["Çox adam toplandığı üçün İsa qayığa minib oturdu, insanlar isə sahildə durub qulaq asdılar.", "İsa çox şeyi [[məsəl]]lərlə öyrədirdi. Məsəl sadə hekayənin içində Allahın Padşahlığının sirrini daşıyır."]},
-   {"b": "Yol kənarı və daşlıq", "ayə": "Matta 13:4–6, 19–21", "alt": "Yol kənarındakı toxumu yeyən quşlar və daşlıqda quruyan cücərti", "p": ["Bəzi [[toxum]]lar yol kənarına düşdü, quşlar gəlib onları yedi. Bu, Kəlamı eşidib tez unudan ürəkdir.", "Bəziləri torpağı az olan daşlığa düşdü. Tez cücərdi, amma [[kök]]ü olmadığı üçün günəş çıxanda qurudu. Əvvəlcə sevinib çətinlik gələndə tez təslim olan ürəkdir."]},
-   {"b": "Tikanlıq", "ayə": "Matta 13:7, 22", "alt": "Tikanlar arasında böyüyə bilməyən cücərti", "p": ["Bəzi toxumlar [[tikan]]ların arasına düşdü. Tikanlar böyüyüb cücərtini boğdu.", "Bu, Kəlamı eşitsə də, qayğı və tamah çox olduğu üçün Kəlamın böyüyə bilmədiyi ürəkdir."]},
-   {"b": "Yaxşı torpaq", "ayə": "Matta 13:8–9, 23", "alt": "Yaxşı torpaqda bol bitən zəmi", "p": ["Bəzi toxumlar isə [[yaxşı torpaq]]a düşdü. Böyüyüb yüz, altmış, otuz qat [[bəhrə]] verdi!", "Kəlamı eşidib anlayan və ona əməl edən ürək yaxşı torpaqdır. İsa dedi: “Qulağı olan eşitsin.”"]}
-  ],
-  "aye": {"metn": "“Yaxşı torpağa səpilən isə Kəlamı eşidib anlayan adamdır.”", "ref": "13:23", "bos": "___ torpağa səpilən isə ___ eşidib ___ adamdır.", "sozler": ["Yaxşı", "Kəlamı", "anlayan"], "yalan": "unudan"},
-  "lugat": {
-   "məsəl": {"i": "📖", "x": "비유", "m": "Sadə hekayə ilə dərin mənanı öyrətmək üsuludur.", "e": "İsa məsəllərlə öyrədirdi."},
-   "toxum": {"i": "🌱", "x": "씨", "m": "Torpağa əkiləndə cücərib böyüyən kiçik dənədir. Bu hekayədə Allahın Kəlamıdır.", "e": "Əkinçi toxum səpdi."},
-   "kök": {"i": "🌿", "x": "뿌리", "m": "Bitkinin torpağın altına uzanıb su və qida aldığı hissəsidir.", "e": "Kökü olmadığı üçün qurudu."},
-   "tikan": {"i": "🌵", "x": "가시덤불", "m": "İti tikanları olan bitkilərin dolaşdığı yerdir.", "e": "Tikanlar cücərtini boğdu."},
-   "yaxşı torpaq": {"i": "🟫", "x": "좋은 땅", "m": "Yumşaq və dərin olduğu üçün toxumun yaxşı bitdiyi torpaqdır.", "e": "Yaxşı torpaqda çox bəhrə oldu."},
-   "bəhrə": {"i": "🌾", "x": "열매", "m": "Bitkinin böyüyüb verdiyi taxıl və ya meyvədir.", "e": "Yüz qat bəhrə verdi."}
-  },
-  "test": [
-   {"q": "İsa harada oturub öyrədirdi?", "o": ["Qayıqda", "Ağacda", "Damda"], "a": 0, "f": "Düzdür! İnsanlar sahildə qulaq asırdılar."},
-   {"q": "Yol kənarına düşən toxumlara nə oldu?", "o": ["Quşlar yedi", "Böyük bitdi", "Çiçək açdı"], "a": 0, "f": "Düzdür! Eşidib tez unudan ürəkdir."},
-   {"q": "Tikanlar arasındakı cücərtini boğan nəyi bildirir?", "o": ["Qayğı və tamahı", "Yağış və günəşi", "Dost və ailəni"], "a": 0, "f": "Düzdür! Qayğı və tamah Kəlamı boğur."},
-   {"q": "Yaxşı torpaq hansı ürəkdir?", "o": ["Kəlamı eşidib anlayan", "Kəlamı eşitməyən", "Kəlamı unudan"], "a": 0, "f": "Düzdür! Çox bəhrə verir."}
-  ],
-  "dusun": ["Mənim ürəyim dörd torpaqdan hansına bənzəyir?", "Kəlamın ürəyimdə böyüməsinə mane olan “tikan” nədir?", "Yaxşı torpaq olmaq üçün nə etməliyəm?"],
-  "fealiyyet": {"ciz": "Yaxşı torpaqda bol bitən zəmini və yanında özünü çək.", "b": "Necə yaxşı torpaq olacaqsan?", "p": "Kəlamın yaxşı böyüməsi üçün edəcəyin işi seç.", "ph": "",
-   "secim": {"basliq": "Necə yaxşı torpaq olacaqsan?", "izah": "Toxun və seç. Bir neçəsini seçə bilərsən.", "cumle": "Mən yaxşı torpaq olacağam: {x}!", "bos": "Kəlamı diqqətlə dinləyəcəyəm", "bag": "və",
-    "secimler": [["👂", "Kəlamı diqqətlə dinləyəcəyəm"], ["🧠", "öyrəndiyimi yadda saxlayacağam"], ["🙏", "hər gün dua edəcəyəm"], ["❓", "sualımı soruşacağam"], ["✅", "Kəlama əməl edəcəyəm"]]}},
-  "dua": "İsa, Allahın Kəlamını toxum kimi ürəyimə səpdiyin üçün Sənə şükür edirəm. Ürəyim yol kənarı, daşlıq və ya tikanlıq deyil, yaxşı torpaq olsun. Kəlamı eşidib anlayım, ona əməl edim və çox bəhrə verim. İsa Məsihin adı ilə dua edirəm. Amin."
+  "genc": {
+   "basliq": "네 가지 마음밭",
+   "giris": "같은 수업을 들어도 누군가는 바뀌고 누군가는 그대로입니다. 문제는 선생님일까요, 학생일까요? 예수님은 씨가 아니라 밭에 대해 이야기하십니다. 같은 씨, 다른 땅, 다른 결과.",
+   "meqsed": [
+    "마태복음 세 번째 설교인 비유 설교의 시작을 이해해요.",
+    "예수님이 왜 비유로 가르치셨는지 설명할 수 있어요.",
+    "내 마음밭을 정직하게 진단하고 좋은 땅으로 가꿀 방법을 정해요."
+   ],
+   "sehneler": [
+    {
+     "b": "배 위의 설교자",
+     "ayə": "13:1–9",
+     "alt": "배에 앉아 바닷가의 사람들을 가르치시는 예수님",
+     "p": [
+      "예수님은 배를 강단 삼아 앉으시고 해변을 객석 삼으셨어요. 갈릴리 호숫가의 비탈은 자연 원형극장이라 목소리가 멀리 퍼졌어요.",
+      "농부는 먼저 씨를 뿌리고 나중에 갈았어요. 그래서 씨가 길, 돌밭, 가시덤불에도 떨어졌어요. 그런데 좋은 땅의 수확은 30배, 60배, 100배였어요. 당시 보통 수확은 7–10배였으니 엄청난 결과예요."
+     ],
+     "deep": {
+      "b": "깊이 보기 · 세 번째 설교",
+      "p": "13장은 마태복음 다섯 설교 중 세 번째, 정중앙의 ‘비유 설교’예요. 일곱 개의 비유가 모두 ‘하늘나라’에 관한 것이에요. 12장에서 거절이 거세진 직후에 나와요."
+     }
+    },
+    {
+     "b": "왜 비유로?",
+     "ayə": "13:10–17",
+     "alt": "길가의 씨를 먹는 새와 돌밭에서 시든 싹",
+     "p": [
+      "제자들이 물었어요. “왜 비유로 말씀하십니까?” 예수님은 “천국의 비밀을 아는 것이 너희에게는 허락되었으나 그들에게는 아니되었다”고 하시며 이사야 6:9–10을 인용하세요.",
+      "[[비유]]는 마음이 열린 사람에게는 문이 되고, 닫힌 사람에게는 벽이 돼요. 예수님은 “너희 눈은 봄으로, 너희 귀는 들음으로 복이 있도다” 하세요. 많은 선지자가 보고 싶어 했던 것을 제자들은 보고 있었어요."
+     ],
+     "deep": {
+      "b": "깊이 보기 · 있는 자는 더 받고",
+      "p": "“무릇 있는 자는 받아 넉넉하게 되되 없는 자는 그 있는 것도 빼앗기리라”(13:12). 돈 이야기가 아니라 들음의 이야기예요. 들은 말씀에 반응하면 더 깨닫고, 무시하면 아는 것마저 흐려져요."
+     }
+    },
+    {
+     "b": "길가, 돌밭, 가시덤불",
+     "ayə": "13:18–22",
+     "alt": "가시덤불에 막혀 자라지 못하는 싹",
+     "p": [
+      "길가: 말씀을 듣고 깨닫지 못하면 악한 자가 와서 빼앗아 가요. 돌밭: 기쁘게 받지만 [[뿌리]]가 없어 환난이나 박해가 오면 곧 넘어져요.",
+      "가시떨기: 말씀을 듣지만 세상의 [[염려]]와 재물의 유혹이 말씀을 막아 열매를 맺지 못해요. 이 셋은 ‘나쁜 사람’이 아니라 우리 모두에게 있는 모습이에요."
+     ],
+     "deep": {
+      "b": "깊이 보기 · 가장 위험한 땅",
+      "p": "가시떨기 밭은 겉으로 보면 아무 문제가 없어요. 신앙도 있고 교회도 다녀요. 다만 다른 것이 너무 많이 자라서 말씀이 숨 쉴 공간이 없어요. 바쁨이 가장 조용한 가시일 수 있어요.",
+      "rose": true
+     }
+    },
+    {
+     "b": "백 배의 열매",
+     "ayə": "13:23",
+     "alt": "좋은 땅에서 풍성하게 자란 곡식",
+     "p": [
+      "“좋은 땅에 뿌려졌다는 것은 말씀을 듣고 깨닫는 자니 결실하여 어떤 것은 백 배, 어떤 것은 육십 배, 어떤 것은 삼십 배가 되느니라.”",
+      "좋은 땅의 특징은 세 가지예요. 듣고, [[깨닫고]], 열매 맺어요. 열매의 양은 달라도 모두 좋은 땅이에요. 비교가 아니라 자라는 것이 중요해요."
+     ],
+     "deep": {
+      "b": "깊이 보기 · 씨 뿌리는 이의 낙관",
+      "p": "농부는 길가와 돌밭에도 아낌없이 뿌려요. 하나님은 어떤 마음도 포기하지 않으시고 말씀을 뿌리세요. 또 세 곳에서 실패해도 좋은 땅 한 곳의 수확이 모든 손실을 넘어서요. 이 비유는 경고이자 희망이에요."
+     }
+    }
+   ],
+   "cedvel": {
+    "b": "네 가지 마음밭 진단",
+    "alt": "13:18–23",
+    "bas": [
+     "밭",
+     "무엇이 일어나나",
+     "오늘의 모습"
+    ],
+    "set": [
+     [
+      "길가",
+      "깨닫지 못해 빼앗김",
+      "설교를 듣고 5분 뒤 아무것도 기억 안 남"
+     ],
+     [
+      "돌밭",
+      "뿌리가 없어 넘어짐",
+      "수련회 땐 뜨겁다가 학교에서 놀림받으면 식음"
+     ],
+     [
+      "가시떨기",
+      "염려와 재물이 막음",
+      "신앙은 있지만 성적, 돈, 폰이 모든 시간을 차지함"
+     ],
+     [
+      "좋은 땅",
+      "듣고 깨닫고 열매 맺음",
+      "들은 말씀 하나를 붙들고 실제로 살아 봄"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "“좋은 땅에 뿌려졌다는 것은 말씀을 듣고 깨닫는 자니 결실하여 어떤 것은 백 배, 어떤 것은 육십 배, 어떤 것은 삼십 배가 되느니라.”",
+    "ref": "13:23"
+   },
+   "lugat": {
+    "비유": {
+     "i": "📖",
+     "o": "헬라어 파라볼레, ‘나란히 던지다’",
+     "x": "məsəl",
+     "s": "일상과 하나님 나라를 나란히 놓은 이야기",
+     "m": "익숙한 장면 옆에 하나님 나라를 나란히 놓아 비교하게 하는 이야기예요. 듣는 사람이 스스로 생각하고 결단하게 만들어요.",
+     "e": "영어 parable의 어원이에요."
+    },
+    "뿌리": {
+     "i": "🌿",
+     "o": "헬라어 리자",
+     "x": "kök",
+     "s": "깊이와 지속성",
+     "m": "보이지 않는 곳에서 자라는 부분이에요. 신앙의 뿌리는 혼자 있는 시간의 기도와 말씀이에요.",
+     "e": "“그리스도 안에 뿌리를 박으며”(골 2:7)."
+    },
+    "염려": {
+     "i": "😟",
+     "o": "헬라어 메림나",
+     "x": "qayğı",
+     "s": "마음을 나누는 걱정",
+     "m": "6장에서 배운 그 ‘염려’예요. 걱정은 말씀이 자랄 자리를 빼앗아요.",
+     "e": "6:25–34와 함께 읽어 보세요."
+    },
+    "깨닫고": {
+     "i": "💡",
+     "o": "헬라어 쉬니에미, ‘하나로 모으다’",
+     "x": "anlamaq",
+     "s": "들은 것을 삶과 연결함",
+     "m": "정보를 아는 것이 아니라, 말씀과 내 삶을 하나로 꿰어 이해하는 거예요. 13장에 여섯 번 나와요.",
+     "e": "“이 모든 것을 깨달았느냐?” “그러하오이다”(13:51)."
+    }
+   },
+   "test": [
+    {
+     "q": "13장은 마태복음 다섯 설교 중 몇 번째인가요?",
+     "o": [
+      "세 번째",
+      "첫 번째",
+      "다섯 번째"
+     ],
+     "a": 0,
+     "f": "맞아요. 정중앙의 비유 설교예요."
+    },
+    {
+     "q": "당시 보통 수확에 비해 100배는 어떤 의미였나요?",
+     "o": [
+      "엄청나게 큰 수확",
+      "평범한 수확",
+      "실패한 수확"
+     ],
+     "a": 0,
+     "f": "맞아요. 보통은 7–10배였어요."
+    },
+    {
+     "q": "예수님이 비유의 이유를 설명하며 인용하신 책은?",
+     "o": [
+      "이사야",
+      "창세기",
+      "룻기"
+     ],
+     "a": 0,
+     "f": "맞아요. 이사야 6:9–10이에요."
+    },
+    {
+     "q": "가시떨기가 상징하는 것은?",
+     "o": [
+      "세상의 염려와 재물의 유혹",
+      "박해와 환난",
+      "악한 자"
+     ],
+     "a": 0,
+     "f": "맞아요. 다른 것이 너무 많이 자라요."
+    },
+    {
+     "q": "좋은 땅의 세 가지 특징은?",
+     "o": [
+      "듣고, 깨닫고, 열매 맺음",
+      "보고, 말하고, 떠남",
+      "기뻐하고, 시들고, 잊음"
+     ],
+     "a": 0,
+     "f": "맞아요. 양보다 자라는 것이 중요해요."
+    }
+   ],
+   "paylas": [
+    "표를 보며 지금 내 마음밭은 어디에 가장 가까운지 솔직하게 나눠 봐요.",
+    "내 신앙에서 ‘뿌리’를 깊게 하는 습관은 무엇일까요?",
+    "내 시간표에서 말씀이 자랄 공간을 막는 ‘가시’는 무엇인가요?",
+    "하나님이 길가 같은 마음에도 씨를 뿌리신다는 것은 어떤 위로가 되나요?"
+   ],
+   "etiraf": {
+    "b": "나의 고백",
+    "p": "내 마음밭을 진단하고, 좋은 땅으로 가꾸기 위해 이번 주에 뽑을 ‘가시’ 하나와 심을 ‘씨’ 하나를 써 보세요.",
+    "ph": "예) 뽑을 가시: 잠들기 전 1시간 폰 보기. 심을 씨: 그 시간에 마태복음 한 장 읽기."
+   },
+   "dua": "씨 뿌리시는 하나님, 길가 같은 제 마음에도 포기하지 않고 말씀을 뿌려 주셔서 감사합니다. 제 마음의 돌을 치우시고 가시를 뽑아 주세요. 말씀을 듣고 깨닫고 열매 맺는 좋은 땅이 되게 해 주세요. 예수님 이름으로 기도합니다. 아멘."
+  }
  },
- "genc": {
-  "basliq": "Dörd ürək torpağı",
-  "giris": "Eyni dərsi dinləsək də, kimsə dəyişir, kimsə olduğu kimi qalır. Problem müəllimdədir, yoxsa şagirddə? İsa toxum haqqında deyil, torpaq haqqında danışır. Eyni toxum, fərqli torpaq, fərqli nəticə.",
-  "meqsed": ["Matta Müjdəsinin üçüncü vəzi olan məsəllər vəzinin başlanğıcını anlayırıq.", "İsanın niyə məsəllərlə öyrətdiyini izah edə bilirik.", "Ürək torpağımızı səmimi yoxlayıb onu yaxşı torpağa çevirməyin yolunu müəyyən edirik."],
-  "sehneler": [
-   {"b": "Qayıqdakı vaiz", "ayə": "Matta 13:1–9", "alt": "Qayıqda oturub sahildəki insanlara öyrədən İsa", "p": ["İsa qayığı kürsü, sahili isə tamaşa zalı etdi. Qalileya gölünün kənarındakı yamaclar təbii amfiteatr idi, səs uzağa yayılırdı.", "Əkinçi əvvəlcə toxum səpir, sonra şumlayırdı. Buna görə toxum yola, daşlığa və tikanlığa da düşürdü. Amma yaxşı torpağın məhsulu 30, 60, 100 qat idi. O vaxt adi məhsul 7–10 qat olduğu üçün bu, heyrətamiz nəticədir."], "deep": {"b": "Dərindən baxaq · Üçüncü vəz", "p": "13-cü fəsil Matta Müjdəsinin beş vəzindən üçüncüsü, tam ortadakı “məsəllər vəzi”dir. Yeddi məsəlin hamısı “Səmavi Padşahlıq” haqqındadır. 12-ci fəsildə rədd edilmə güclənəndən dərhal sonra gəlir."}},
-   {"b": "Niyə məsəllərlə?", "ayə": "Matta 13:10–17", "alt": "Yol kənarındakı toxumu yeyən quşlar və daşlıqda quruyan cücərti", "p": ["Şagirdlər soruşdular: “Niyə məsəllərlə danışırsan?” İsa “Səmavi Padşahlığın sirlərini bilmək sizə verilib, onlara isə verilməyib” deyib Yeşaya 6:9–10-dan sitat gətirdi.", "[[Məsəl]] ürəyi açıq olana qapı, bağlı olana divar olur. İsa deyir: “Sizin gözləriniz nə bəxtiyardır, çünki görür; qulaqlarınız da, çünki eşidir.” Çox peyğəmbərin görmək istədiyini şagirdlər görürdü."], "deep": {"b": "Dərindən baxaq · Kimdə varsa, ona daha çox veriləcək", "p": "“Kimdə varsa, ona daha çox veriləcək və onda bolluca olacaq; kimdə yoxdursa, əlində olan da alınacaq” (13:12). Bu, pul haqqında deyil, eşitmək haqqındadır. Eşitdiyimiz Kəlama cavab versək, daha çox anlayarıq; etinasızlıq etsək, bildiyimiz də bulanıqlaşar."}},
-   {"b": "Yol, daşlıq, tikanlıq", "ayə": "Matta 13:18–22", "alt": "Tikanlar arasında böyüyə bilməyən cücərti", "p": ["Yol kənarı: Kəlamı eşidib anlamayanda Şər Olan gəlib onu oğurlayır. Daşlıq: sevinclə qəbul edir, amma [[kök]]ü olmadığı üçün əziyyət və təqib gələndə tez büdrəyir.", "Tikanlıq: Kəlamı eşidir, amma dünyanın [[qayğı]]sı və var-dövlətin aldadıcılığı Kəlamı boğur və bəhrəsiz qalır. Bu üçü “pis insanlar” deyil, hamımızda olan hallardır."], "deep": {"b": "Dərindən baxaq · Ən təhlükəli torpaq", "p": "Tikanlıq zahirən heç bir problemi olmayan torpaqdır. İman da var, cəmiyyətə də gedir. Sadəcə başqa şeylər o qədər çox bitir ki, Kəlamın nəfəs almağa yeri qalmır. Məşğulluq ən səssiz tikan ola bilər.", "rose": true}},
-   {"b": "Yüz qat bəhrə", "ayə": "Matta 13:23", "alt": "Yaxşı torpaqda bol bitən zəmi", "p": ["“Yaxşı torpağa səpilən isə Kəlamı eşidib anlayan adamdır. O, bəhrə verir: biri yüz, biri altmış, biri də otuz qat.”", "Yaxşı torpağın üç xüsusiyyəti var: eşidir, [[anlayır|anlamaq]], bəhrə verir. Bəhrənin miqdarı fərqli olsa da, hamısı yaxşı torpaqdır. Müqayisə yox, böyümək vacibdir."], "deep": {"b": "Dərindən baxaq · Əkinçinin nikbinliyi", "p": "Əkinçi yola və daşlığa da səxavətlə səpir. Allah heç bir ürəkdən ümidini kəsmir, Kəlamı səpir. Üç yerdə uğursuzluq olsa da, bir yaxşı torpağın məhsulu bütün itkiləri üstələyir. Bu məsəl həm xəbərdarlıq, həm də ümiddir."}}
-  ],
-  "cedvel": {"b": "Dörd ürək torpağının diaqnozu", "alt": "13:18–23", "bas": ["Torpaq", "Nə baş verir", "Bugünkü görünüşü"], "set": [["Yol kənarı", "Anlamır, Kəlam oğurlanır", "Vəzi dinləyib 5 dəqiqə sonra heç nə xatırlamır"], ["Daşlıq", "Kökü yoxdur, büdrəyir", "Düşərgədə qızğın, məktəbdə ələ salınanda soyuyur"], ["Tikanlıq", "Qayğı və var-dövlət boğur", "İman var, amma qiymət, pul, telefon bütün vaxtı tutur"], ["Yaxşı torpaq", "Eşidir, anlayır, bəhrə verir", "Eşitdiyi bir sözü tutub həqiqətən yaşayır"]]},
-  "aye": {"metn": "“Yaxşı torpağa səpilən isə Kəlamı eşidib anlayan adamdır. O, bəhrə verir: biri yüz, biri altmış, biri də otuz qat.”", "ref": "13:23"},
-  "lugat": {
-   "Məsəl": {"i": "📖", "o": "Yunanca parabole, “yanaşı atmaq”", "x": "비유", "s": "Gündəlik həyatı və Allahın Padşahlığını yanaşı qoyan hekayə", "m": "Tanış səhnənin yanına Allahın Padşahlığını qoyub müqayisə etdirən hekayədir. Dinləyəni özü düşünüb qərar verməyə sövq edir.", "e": "İngiliscə parable sözünün kökü budur."},
-   "kök": {"i": "🌿", "o": "Yunanca riza", "x": "뿌리", "s": "Dərinlik və davamlılıq", "m": "Görünməyən yerdə böyüyən hissədir. İmanın kökü təkbaşına keçirilən dua və Kəlam vaxtıdır.", "e": "“Məsihdə kök atın” (Kol. 2:7)."},
-   "qayğı": {"i": "😟", "o": "Yunanca merimna", "x": "염려", "s": "Ürəyi bölən narahatlıq", "m": "6-cı fəsildə öyrəndiyimiz “qayğı”dır. Narahatlıq Kəlamın böyüyəcəyi yeri əlindən alır.", "e": "6:25–34 ilə birlikdə oxuyun."},
-   "anlamaq": {"i": "💡", "o": "Yunanca sinyemi, “bir yerə toplamaq”", "x": "깨닫다", "s": "Eşidiləni həyatla birləşdirmək", "m": "Məlumatı bilmək deyil, Kəlamı həyatımla bir yerə toplayıb anlamaqdır. 13-cü fəsildə altı dəfə keçir.", "e": "“Bütün bunları anladınızmı?” “Bəli” (13:51)."}
+ "az": {
+  "usaq": {
+   "basliq": "Toxum əkən adam",
+   "hedef": [
+    "İsanın danışdığı toxum əkən adam məsəlini öyrənəcəyik.",
+    "Toxumun Allahın Kəlamı, torpağın isə ürəyimiz olduğunu öyrənəcəyik.",
+    "Kəlamı yaxşı qəbul edən yaxşı torpaq olmağa qərar verəcəyik."
+   ],
+   "sehneler": [
+    {
+     "b": "Qayıqda öyrədən İsa",
+     "ayə": "Matta 13:1–3",
+     "alt": "Qayıqda oturub sahildəki insanlara öyrədən İsa",
+     "p": [
+      "Çox adam toplandığı üçün İsa qayığa minib oturdu, insanlar isə sahildə durub qulaq asdılar.",
+      "İsa çox şeyi [[məsəl]]lərlə öyrədirdi. Məsəl sadə hekayənin içində Allahın Padşahlığının sirrini daşıyır."
+     ]
+    },
+    {
+     "b": "Yol kənarı və daşlıq",
+     "ayə": "Matta 13:4–6, 19–21",
+     "alt": "Yol kənarındakı toxumu yeyən quşlar və daşlıqda quruyan cücərti",
+     "p": [
+      "Bəzi [[toxum]]lar yol kənarına düşdü, quşlar gəlib onları yedi. Bu, Kəlamı eşidib tez unudan ürəkdir.",
+      "Bəziləri torpağı az olan daşlığa düşdü. Tez cücərdi, amma [[kök]]ü olmadığı üçün günəş çıxanda qurudu. Əvvəlcə sevinib çətinlik gələndə tez təslim olan ürəkdir."
+     ]
+    },
+    {
+     "b": "Tikanlıq",
+     "ayə": "Matta 13:7, 22",
+     "alt": "Tikanlar arasında böyüyə bilməyən cücərti",
+     "p": [
+      "Bəzi toxumlar [[tikan]]ların arasına düşdü. Tikanlar böyüyüb cücərtini boğdu.",
+      "Bu, Kəlamı eşitsə də, qayğı və tamah çox olduğu üçün Kəlamın böyüyə bilmədiyi ürəkdir."
+     ]
+    },
+    {
+     "b": "Yaxşı torpaq",
+     "ayə": "Matta 13:8–9, 23",
+     "alt": "Yaxşı torpaqda bol bitən zəmi",
+     "p": [
+      "Bəzi toxumlar isə [[yaxşı torpaq]]a düşdü. Böyüyüb yüz, altmış, otuz qat [[bəhrə]] verdi!",
+      "Kəlamı eşidib anlayan və ona əməl edən ürək yaxşı torpaqdır. İsa dedi: “Qulağı olan eşitsin.”"
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "“Yaxşı torpağa səpilən isə Kəlamı eşidib anlayan adamdır.”",
+    "ref": "13:23",
+    "bos": "___ torpağa səpilən isə ___ eşidib ___ adamdır.",
+    "sozler": [
+     "Yaxşı",
+     "Kəlamı",
+     "anlayan"
+    ],
+    "yalan": "unudan"
+   },
+   "lugat": {
+    "məsəl": {
+     "i": "📖",
+     "x": "비유",
+     "m": "Sadə hekayə ilə dərin mənanı öyrətmək üsuludur.",
+     "e": "İsa məsəllərlə öyrədirdi."
+    },
+    "toxum": {
+     "i": "🌱",
+     "x": "씨",
+     "m": "Torpağa əkiləndə cücərib böyüyən kiçik dənədir. Bu hekayədə Allahın Kəlamıdır.",
+     "e": "Əkinçi toxum səpdi."
+    },
+    "kök": {
+     "i": "🌿",
+     "x": "뿌리",
+     "m": "Bitkinin torpağın altına uzanıb su və qida aldığı hissəsidir.",
+     "e": "Kökü olmadığı üçün qurudu."
+    },
+    "tikan": {
+     "i": "🌵",
+     "x": "가시덤불",
+     "m": "İti tikanları olan bitkilərin dolaşdığı yerdir.",
+     "e": "Tikanlar cücərtini boğdu."
+    },
+    "yaxşı torpaq": {
+     "i": "🟫",
+     "x": "좋은 땅",
+     "m": "Yumşaq və dərin olduğu üçün toxumun yaxşı bitdiyi torpaqdır.",
+     "e": "Yaxşı torpaqda çox bəhrə oldu."
+    },
+    "bəhrə": {
+     "i": "🌾",
+     "x": "열매",
+     "m": "Bitkinin böyüyüb verdiyi taxıl və ya meyvədir.",
+     "e": "Yüz qat bəhrə verdi."
+    }
+   },
+   "test": [
+    {
+     "q": "İsa harada oturub öyrədirdi?",
+     "o": [
+      "Qayıqda",
+      "Ağacda",
+      "Damda"
+     ],
+     "a": 0,
+     "f": "Düzdür! İnsanlar sahildə qulaq asırdılar."
+    },
+    {
+     "q": "Yol kənarına düşən toxumlara nə oldu?",
+     "o": [
+      "Quşlar yedi",
+      "Böyük bitdi",
+      "Çiçək açdı"
+     ],
+     "a": 0,
+     "f": "Düzdür! Eşidib tez unudan ürəkdir."
+    },
+    {
+     "q": "Tikanlar arasındakı cücərtini boğan nəyi bildirir?",
+     "o": [
+      "Qayğı və tamahı",
+      "Yağış və günəşi",
+      "Dost və ailəni"
+     ],
+     "a": 0,
+     "f": "Düzdür! Qayğı və tamah Kəlamı boğur."
+    },
+    {
+     "q": "Yaxşı torpaq hansı ürəkdir?",
+     "o": [
+      "Kəlamı eşidib anlayan",
+      "Kəlamı eşitməyən",
+      "Kəlamı unudan"
+     ],
+     "a": 0,
+     "f": "Düzdür! Çox bəhrə verir."
+    }
+   ],
+   "dusun": [
+    "Mənim ürəyim dörd torpaqdan hansına bənzəyir?",
+    "Kəlamın ürəyimdə böyüməsinə mane olan “tikan” nədir?",
+    "Yaxşı torpaq olmaq üçün nə etməliyəm?"
+   ],
+   "fealiyyet": {
+    "ciz": "Yaxşı torpaqda bol bitən zəmini və yanında özünü çək.",
+    "b": "Necə yaxşı torpaq olacaqsan?",
+    "p": "Kəlamın yaxşı böyüməsi üçün edəcəyin işi seç.",
+    "ph": "",
+    "secim": {
+     "basliq": "Necə yaxşı torpaq olacaqsan?",
+     "izah": "Toxun və seç. Bir neçəsini seçə bilərsən.",
+     "cumle": "Mən yaxşı torpaq olacağam: {x}!",
+     "bos": "Kəlamı diqqətlə dinləyəcəyəm",
+     "bag": "və",
+     "secimler": [
+      [
+       "👂",
+       "Kəlamı diqqətlə dinləyəcəyəm"
+      ],
+      [
+       "🧠",
+       "öyrəndiyimi yadda saxlayacağam"
+      ],
+      [
+       "🙏",
+       "hər gün dua edəcəyəm"
+      ],
+      [
+       "❓",
+       "sualımı soruşacağam"
+      ],
+      [
+       "✅",
+       "Kəlama əməl edəcəyəm"
+      ]
+     ]
+    }
+   },
+   "dua": "İsa, Allahın Kəlamını toxum kimi ürəyimə səpdiyin üçün Sənə şükür edirəm. Ürəyim yol kənarı, daşlıq və ya tikanlıq deyil, yaxşı torpaq olsun. Kəlamı eşidib anlayım, ona əməl edim və çox bəhrə verim. İsa Məsihin adı ilə dua edirəm. Amin."
   },
-  "test": [
-   {"q": "13-cü fəsil Matta Müjdəsinin beş vəzindən neçəncisidir?", "o": ["Üçüncüsü", "Birincisi", "Beşincisi"], "a": 0, "f": "Düzdür. Tam ortadakı məsəllər vəzi."},
-   {"q": "Adi məhsulla müqayisədə 100 qat nə demək idi?", "o": ["Çox böyük məhsul", "Adi məhsul", "Uğursuz məhsul"], "a": 0, "f": "Düzdür. Adətən 7–10 qat olurdu."},
-   {"q": "İsa məsəllərin səbəbini izah edərkən hansı kitabdan sitat gətirdi?", "o": ["Yeşaya", "Yaradılış", "Rut"], "a": 0, "f": "Düzdür. Yeşaya 6:9–10."},
-   {"q": "Tikanlıq nəyin rəmzidir?", "o": ["Dünyanın qayğısı və var-dövlətin aldadıcılığı", "Təqib və əziyyət", "Şər Olan"], "a": 0, "f": "Düzdür. Başqa şeylər çox bitir."},
-   {"q": "Yaxşı torpağın üç xüsusiyyəti hansıdır?", "o": ["Eşidir, anlayır, bəhrə verir", "Görür, danışır, gedir", "Sevinir, quruyur, unudur"], "a": 0, "f": "Düzdür. Miqdardan çox böyümək vacibdir."}
+  "genc": {
+   "basliq": "Dörd ürək torpağı",
+   "giris": "Eyni dərsi dinləsək də, kimsə dəyişir, kimsə olduğu kimi qalır. Problem müəllimdədir, yoxsa şagirddə? İsa toxum haqqında deyil, torpaq haqqında danışır. Eyni toxum, fərqli torpaq, fərqli nəticə.",
+   "meqsed": [
+    "Matta Müjdəsinin üçüncü vəzi olan məsəllər vəzinin başlanğıcını anlayırıq.",
+    "İsanın niyə məsəllərlə öyrətdiyini izah edə bilirik.",
+    "Ürək torpağımızı səmimi yoxlayıb onu yaxşı torpağa çevirməyin yolunu müəyyən edirik."
+   ],
+   "sehneler": [
+    {
+     "b": "Qayıqdakı vaiz",
+     "ayə": "Matta 13:1–9",
+     "alt": "Qayıqda oturub sahildəki insanlara öyrədən İsa",
+     "p": [
+      "İsa qayığı kürsü, sahili isə tamaşa zalı etdi. Qalileya gölünün kənarındakı yamaclar təbii amfiteatr idi, səs uzağa yayılırdı.",
+      "Əkinçi əvvəlcə toxum səpir, sonra şumlayırdı. Buna görə toxum yola, daşlığa və tikanlığa da düşürdü. Amma yaxşı torpağın məhsulu 30, 60, 100 qat idi. O vaxt adi məhsul 7–10 qat olduğu üçün bu, heyrətamiz nəticədir."
+     ],
+     "deep": {
+      "b": "Dərindən baxaq · Üçüncü vəz",
+      "p": "13-cü fəsil Matta Müjdəsinin beş vəzindən üçüncüsü, tam ortadakı “məsəllər vəzi”dir. Yeddi məsəlin hamısı “Səmavi Padşahlıq” haqqındadır. 12-ci fəsildə rədd edilmə güclənəndən dərhal sonra gəlir."
+     }
+    },
+    {
+     "b": "Niyə məsəllərlə?",
+     "ayə": "Matta 13:10–17",
+     "alt": "Yol kənarındakı toxumu yeyən quşlar və daşlıqda quruyan cücərti",
+     "p": [
+      "Şagirdlər soruşdular: “Niyə məsəllərlə danışırsan?” İsa “Səmavi Padşahlığın sirlərini bilmək sizə verilib, onlara isə verilməyib” deyib Yeşaya 6:9–10-dan sitat gətirdi.",
+      "[[Məsəl]] ürəyi açıq olana qapı, bağlı olana divar olur. İsa deyir: “Sizin gözləriniz nə bəxtiyardır, çünki görür; qulaqlarınız da, çünki eşidir.” Çox peyğəmbərin görmək istədiyini şagirdlər görürdü."
+     ],
+     "deep": {
+      "b": "Dərindən baxaq · Kimdə varsa, ona daha çox veriləcək",
+      "p": "“Kimdə varsa, ona daha çox veriləcək və onda bolluca olacaq; kimdə yoxdursa, əlində olan da alınacaq” (13:12). Bu, pul haqqında deyil, eşitmək haqqındadır. Eşitdiyimiz Kəlama cavab versək, daha çox anlayarıq; etinasızlıq etsək, bildiyimiz də bulanıqlaşar."
+     }
+    },
+    {
+     "b": "Yol, daşlıq, tikanlıq",
+     "ayə": "Matta 13:18–22",
+     "alt": "Tikanlar arasında böyüyə bilməyən cücərti",
+     "p": [
+      "Yol kənarı: Kəlamı eşidib anlamayanda Şər Olan gəlib onu oğurlayır. Daşlıq: sevinclə qəbul edir, amma [[kök]]ü olmadığı üçün əziyyət və təqib gələndə tez büdrəyir.",
+      "Tikanlıq: Kəlamı eşidir, amma dünyanın [[qayğı]]sı və var-dövlətin aldadıcılığı Kəlamı boğur və bəhrəsiz qalır. Bu üçü “pis insanlar” deyil, hamımızda olan hallardır."
+     ],
+     "deep": {
+      "b": "Dərindən baxaq · Ən təhlükəli torpaq",
+      "p": "Tikanlıq zahirən heç bir problemi olmayan torpaqdır. İman da var, cəmiyyətə də gedir. Sadəcə başqa şeylər o qədər çox bitir ki, Kəlamın nəfəs almağa yeri qalmır. Məşğulluq ən səssiz tikan ola bilər.",
+      "rose": true
+     }
+    },
+    {
+     "b": "Yüz qat bəhrə",
+     "ayə": "Matta 13:23",
+     "alt": "Yaxşı torpaqda bol bitən zəmi",
+     "p": [
+      "“Yaxşı torpağa səpilən isə Kəlamı eşidib anlayan adamdır. O, bəhrə verir: biri yüz, biri altmış, biri də otuz qat.”",
+      "Yaxşı torpağın üç xüsusiyyəti var: eşidir, [[anlayır|anlamaq]], bəhrə verir. Bəhrənin miqdarı fərqli olsa da, hamısı yaxşı torpaqdır. Müqayisə yox, böyümək vacibdir."
+     ],
+     "deep": {
+      "b": "Dərindən baxaq · Əkinçinin nikbinliyi",
+      "p": "Əkinçi yola və daşlığa da səxavətlə səpir. Allah heç bir ürəkdən ümidini kəsmir, Kəlamı səpir. Üç yerdə uğursuzluq olsa da, bir yaxşı torpağın məhsulu bütün itkiləri üstələyir. Bu məsəl həm xəbərdarlıq, həm də ümiddir."
+     }
+    }
+   ],
+   "cedvel": {
+    "b": "Dörd ürək torpağının diaqnozu",
+    "alt": "13:18–23",
+    "bas": [
+     "Torpaq",
+     "Nə baş verir",
+     "Bugünkü görünüşü"
+    ],
+    "set": [
+     [
+      "Yol kənarı",
+      "Anlamır, Kəlam oğurlanır",
+      "Vəzi dinləyib 5 dəqiqə sonra heç nə xatırlamır"
+     ],
+     [
+      "Daşlıq",
+      "Kökü yoxdur, büdrəyir",
+      "Düşərgədə qızğın, məktəbdə ələ salınanda soyuyur"
+     ],
+     [
+      "Tikanlıq",
+      "Qayğı və var-dövlət boğur",
+      "İman var, amma qiymət, pul, telefon bütün vaxtı tutur"
+     ],
+     [
+      "Yaxşı torpaq",
+      "Eşidir, anlayır, bəhrə verir",
+      "Eşitdiyi bir sözü tutub həqiqətən yaşayır"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "“Yaxşı torpağa səpilən isə Kəlamı eşidib anlayan adamdır. O, bəhrə verir: biri yüz, biri altmış, biri də otuz qat.”",
+    "ref": "13:23"
+   },
+   "lugat": {
+    "Məsəl": {
+     "i": "📖",
+     "o": "Yunanca parabole, “yanaşı atmaq”",
+     "x": "비유",
+     "s": "Gündəlik həyatı və Allahın Padşahlığını yanaşı qoyan hekayə",
+     "m": "Tanış səhnənin yanına Allahın Padşahlığını qoyub müqayisə etdirən hekayədir. Dinləyəni özü düşünüb qərar verməyə sövq edir.",
+     "e": "İngiliscə parable sözünün kökü budur."
+    },
+    "kök": {
+     "i": "🌿",
+     "o": "Yunanca riza",
+     "x": "뿌리",
+     "s": "Dərinlik və davamlılıq",
+     "m": "Görünməyən yerdə böyüyən hissədir. İmanın kökü təkbaşına keçirilən dua və Kəlam vaxtıdır.",
+     "e": "“Məsihdə kök atın” (Kol. 2:7)."
+    },
+    "qayğı": {
+     "i": "😟",
+     "o": "Yunanca merimna",
+     "x": "염려",
+     "s": "Ürəyi bölən narahatlıq",
+     "m": "6-cı fəsildə öyrəndiyimiz “qayğı”dır. Narahatlıq Kəlamın böyüyəcəyi yeri əlindən alır.",
+     "e": "6:25–34 ilə birlikdə oxuyun."
+    },
+    "anlamaq": {
+     "i": "💡",
+     "o": "Yunanca sinyemi, “bir yerə toplamaq”",
+     "x": "깨닫다",
+     "s": "Eşidiləni həyatla birləşdirmək",
+     "m": "Məlumatı bilmək deyil, Kəlamı həyatımla bir yerə toplayıb anlamaqdır. 13-cü fəsildə altı dəfə keçir.",
+     "e": "“Bütün bunları anladınızmı?” “Bəli” (13:51)."
+    }
+   },
+   "test": [
+    {
+     "q": "13-cü fəsil Matta Müjdəsinin beş vəzindən neçəncisidir?",
+     "o": [
+      "Üçüncüsü",
+      "Birincisi",
+      "Beşincisi"
+     ],
+     "a": 0,
+     "f": "Düzdür. Tam ortadakı məsəllər vəzi."
+    },
+    {
+     "q": "Adi məhsulla müqayisədə 100 qat nə demək idi?",
+     "o": [
+      "Çox böyük məhsul",
+      "Adi məhsul",
+      "Uğursuz məhsul"
+     ],
+     "a": 0,
+     "f": "Düzdür. Adətən 7–10 qat olurdu."
+    },
+    {
+     "q": "İsa məsəllərin səbəbini izah edərkən hansı kitabdan sitat gətirdi?",
+     "o": [
+      "Yeşaya",
+      "Yaradılış",
+      "Rut"
+     ],
+     "a": 0,
+     "f": "Düzdür. Yeşaya 6:9–10."
+    },
+    {
+     "q": "Tikanlıq nəyin rəmzidir?",
+     "o": [
+      "Dünyanın qayğısı və var-dövlətin aldadıcılığı",
+      "Təqib və əziyyət",
+      "Şər Olan"
+     ],
+     "a": 0,
+     "f": "Düzdür. Başqa şeylər çox bitir."
+    },
+    {
+     "q": "Yaxşı torpağın üç xüsusiyyəti hansıdır?",
+     "o": [
+      "Eşidir, anlayır, bəhrə verir",
+      "Görür, danışır, gedir",
+      "Sevinir, quruyur, unudur"
+     ],
+     "a": 0,
+     "f": "Düzdür. Miqdardan çox böyümək vacibdir."
+    }
+   ],
+   "paylas": [
+    "Cədvələ baxaraq indi ürək torpağımın hansına daha yaxın olduğunu səmimi danışaq.",
+    "İmanımda “kökü” dərinləşdirən vərdiş hansıdır?",
+    "Cədvəlimdə Kəlamın böyüməsinə yer verməyən “tikan” nədir?",
+    "Allahın yol kənarı kimi ürəyə də toxum səpməsi mənə necə təsəlli verir?"
+   ],
+   "etiraf": {
+    "b": "Mənim etirafım",
+    "p": "Ürək torpağını yoxla və onu yaxşı torpağa çevirmək üçün bu həftə çıxaracağın bir “tikanı” və əkəcəyin bir “toxumu” yaz.",
+    "ph": "Məsələn: Çıxaracağım tikan: yatmazdan əvvəl 1 saat telefon. Əkəcəyim toxum: o vaxt Matta Müjdəsindən bir fəsil oxumaq."
+   },
+   "dua": "Toxum əkən Allah, yol kənarı kimi olan ürəyimə də ümidini kəsmədən Kəlam səpdiyin üçün Sənə şükür edirəm. Ürəyimdəki daşları təmizlə, tikanları çıxar. Kəlamı eşidən, anlayan və bəhrə verən yaxşı torpaq olum. İsa Məsihin adı ilə dua edirəm. Amin."
+  }
+ },
+ "muellim": {
+  "mesaj": "17과의 중심은 한 문장입니다. **하나님은 모든 마음에 아낌없이 말씀을 뿌리시고, 말씀을 듣고 깨닫고 열매 맺는 사람이 좋은 땅이다.**",
+  "hazirliq": [
+   "학생용 교재를 열 휴대폰이나 태블릿, 이어폰",
+   "작은 화분 네 개나 접시: 흙길(단단한 흙), 돌, 가시 있는 잔가지, 부드러운 흙",
+   "씨앗 (콩이나 밀)"
   ],
-  "paylas": ["Cədvələ baxaraq indi ürək torpağımın hansına daha yaxın olduğunu səmimi danışaq.", "İmanımda “kökü” dərinləşdirən vərdiş hansıdır?", "Cədvəlimdə Kəlamın böyüməsinə yer verməyən “tikan” nədir?", "Allahın yol kənarı kimi ürəyə də toxum səpməsi mənə necə təsəlli verir?"],
-  "etiraf": {"b": "Mənim etirafım", "p": "Ürək torpağını yoxla və onu yaxşı torpağa çevirmək üçün bu həftə çıxaracağın bir “tikanı” və əkəcəyin bir “toxumu” yaz.", "ph": "Məsələn: Çıxaracağım tikan: yatmazdan əvvəl 1 saat telefon. Əkəcəyim toxum: o vaxt Matta Müjdəsindən bir fəsil oxumaq."},
-  "dua": "Toxum əkən Allah, yol kənarı kimi olan ürəyimə də ümidini kəsmədən Kəlam səpdiyin üçün Sənə şükür edirəm. Ürəyimdəki daşları təmizlə, tikanları çıxar. Kəlamı eşidən, anlayan və bəhrə verən yaxşı torpaq olum. İsa Məsihin adı ilə dua edirəm. Amin."
+  "fon": [
+   [
+    "1. 씨 뿌리기 방법",
+    "팔레스타인 농부는 씨를 먼저 흩뿌리고 나중에 쟁기로 갈아엎었습니다. 그래서 밭 가장자리 길이나 얇은 흙이 덮인 석회암 지대에도 씨가 떨어졌습니다."
+   ],
+   [
+    "2. 수확 배수",
+    "당시 평균 수확은 7–10배였습니다. 30·60·100배는 하나님 나라의 놀라운 풍성함을 보여 주는 과장입니다(창 26:12 이삭의 100배 참고)."
+   ],
+   [
+    "3. 이사야 6장",
+    "이사야가 부르심을 받을 때 들은 말씀입니다. 비유는 이미 마음을 닫은 사람들에게 심판으로 작용하고, 열린 사람에게는 계시가 됩니다."
+   ],
+   [
+    "4. 13장 구조",
+    "씨 뿌리는 자(1–23), 가라지(24–30, 36–43), 겨자씨(31–32), 누룩(33), 감추인 보화(44), 진주(45–46), 그물(47–50). 다음 과에서 나머지 비유를 다룹니다."
+   ],
+   [
+    "5. 그림 안내",
+    "마지막 장면은 PPT의 ‘씨 뿌리는 사람’ 그림입니다. 나머지 세 장면은 같은 화풍으로 새로 그렸습니다."
+   ]
+  ],
+  "usaq_plan": [
+   [
+    "5분",
+    "네 가지 땅 관찰",
+    "화분 네 개에 씨를 놓아 보기",
+    "“어느 땅에서 씨가 가장 잘 자랄까요?”"
+   ],
+   [
+    "15분",
+    "장면 1–4 듣고 읽기",
+    "장면마다 듣기, 노란 낱말 누르기",
+    "“씨는 하나님 말씀, 땅은 우리 마음이에요.”"
+   ],
+   [
+    "5분",
+    "외울 말씀",
+    "빈칸 놀이 → ‘좋은 땅’에 두 손으로 큰 동그라미",
+    ""
+   ],
+   [
+    "5분",
+    "확인 퀴즈",
+    "혼자 풀고 함께 확인",
+    ""
+   ],
+   [
+    "10분",
+    "활동과 기도",
+    "좋은 땅 되는 방법 고르기 → 씨앗 하나씩 집에 가져가 심기",
+    ""
+   ]
+  ],
+  "genc_plan": [
+   [
+    "5분",
+    "열기",
+    "“같은 설교를 듣고도 반응이 다른 이유는?”",
+    ""
+   ],
+   [
+    "15분",
+    "장면 1–2",
+    "배 위의 설교, 100배의 의미, 왜 비유로?",
+    ""
+   ],
+   [
+    "10분",
+    "장면 3–4와 진단 표",
+    "네 가지 밭의 해석, 가장 위험한 가시떨기",
+    "“내 마음밭은?”"
+   ],
+   [
+    "5분",
+    "확인 문제",
+    "",
+    ""
+   ],
+   [
+    "15분",
+    "나눔과 고백",
+    "나눔 질문 2개 → 뽑을 가시와 심을 씨 쓰기 → 기도",
+    ""
+   ]
+  ],
+  "ipucu_usaq": [
+   "‘너는 길가야!’처럼 아이들에게 낙인을 찍지 않게 하세요. 우리 모두 네 가지 모습이 다 있다고 말해 주세요.",
+   "씨앗을 집에 가져가 심게 하면 다음 주 이야기 거리가 됩니다.",
+   "새, 해, 가시를 손동작으로 표현하면 아이들이 잘 기억합니다."
+  ],
+  "ipucu_genc": [
+   "진단 표는 자기 성찰용입니다. 다른 학생의 밭을 판단하지 않도록 안내하세요.",
+   "‘가시떨기’ 이야기에서 바쁨과 스마트폰을 다룰 때 훈계보다 공감으로 시작하세요.",
+   "다음 과(13:24–58)는 가라지, 겨자씨, 감추인 보화, 진주 비유입니다."
+  ],
+  "suallar": [
+   [
+    "저는 돌밭 같아요. 어떡해요?",
+    "괜찮아요. 하나님은 돌을 치워 주실 수 있어요. 매일 조금씩 기도하면 뿌리가 자라요.",
+    "밭은 바뀔 수 있어요. 돌을 골라내고 가시를 뽑는 농부처럼, 하나님과 공동체의 도움으로 마음밭은 가꾸어져요(렘 4:3 “묵은 땅을 갈라”)."
+   ],
+   [
+    "왜 하나님은 좋은 땅에만 뿌리지 않으세요?",
+    "하나님은 모든 사람을 사랑하셔서 모두에게 말씀을 주세요.",
+    "하나님의 넉넉한 은혜를 보여 줘요. 누가 좋은 땅이 될지 사람은 미리 알 수 없어요. 우리도 아낌없이 뿌리는 사람이 되어야 해요."
+   ],
+   [
+    "비유로 말하면 일부러 못 알아듣게 하는 거예요?",
+    "아니에요. 궁금해서 물어보는 제자들에게 예수님은 친절하게 설명해 주셨어요.",
+    "이미 마음을 닫은 사람에게는 비유가 감춰지지만, 궁금해서 묻는 사람(제자들)에게는 설명해 주셨어요. 비유는 ‘더 알고 싶니?’라는 초대예요."
+   ]
+  ]
+ },
+ "en": {
+  "usaq": {
+   "basliq": "The Farmer Who Planted Seeds",
+   "hedef": [
+    "We will learn the parable of the farmer planting seeds that Jesus told.",
+    "We will learn that the seed is the Word of God and the soil is our heart.",
+    "We will decide to be good soil that receives the Word well."
+   ],
+   "sehneler": [
+    {
+     "b": "Jesus Teaching from a Boat",
+     "ayə": "Matthew 13:1–3",
+     "alt": "Jesus sitting in a boat and teaching people on the shore",
+     "p": [
+      "Because a large crowd gathered, Jesus got into a boat and sat down, while the people stood on the shore and listened.",
+      "Jesus taught many things using [[parables|parable]]. A parable is a simple story that holds a secret about the kingdom of heaven."
+     ]
+    },
+    {
+     "b": "The Path and the Rocky Soil",
+     "ayə": "Matthew 13:4–6, 19–21",
+     "alt": "Birds eating seeds on the path and a withered sprout in rocky soil",
+     "p": [
+      "Some [[seeds|seed]] fell along the path, and birds came and ate them. This is a heart that hears the Word but quickly forgets it.",
+      "Some fell on rocky soil where there wasn't much dirt. They sprouted quickly, but because they had no [[roots|root]], they dried up when the sun came out. This is a heart that is happy at first but gives up quickly when trouble comes."
+     ]
+    },
+    {
+     "b": "The Thorny Soil",
+     "ayə": "Matthew 13:7, 22",
+     "alt": "A sprout unable to grow among thorns",
+     "p": [
+      "Some seeds fell among [[thorns|thorn]]. The thorns grew up and choked the sprouts.",
+      "This is a heart that hears the Word, but because of too many worries and greed, the Word cannot grow."
+     ]
+    },
+    {
+     "b": "The Good Soil",
+     "ayə": "Matthew 13:8–9, 23",
+     "alt": "A field growing abundantly in good soil",
+     "p": [
+      "But some seeds fell on [[good soil]]. They grew and produced a [[crop]]—a hundred, sixty, or thirty times what was planted!",
+      "A heart that hears the Word, understands it, and obeys it is the good soil. Jesus said, “He who has ears, let him hear.”"
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "“What was sown on the good soil is the one who hears the Word and understands it.”",
+    "ref": "13:23",
+    "bos": "“What was sown on the ___ soil is the one who hears the ___ and ___ it.”",
+    "sozler": [
+     "good",
+     "Word",
+     "understands"
+    ],
+    "yalan": "forgets"
+   },
+   "lugat": {
+    "parable": {
+     "i": "📖",
+     "x": "məsəl",
+     "m": "It is a way of teaching a deep meaning using a simple story.",
+     "e": "Jesus taught using parables."
+    },
+    "seed": {
+     "i": "🌱",
+     "x": "toxum",
+     "m": "It is a tiny grain that sprouts and grows when planted in the ground. In this story, it is the Word of God.",
+     "e": "The farmer planted the seed."
+    },
+    "root": {
+     "i": "🌿",
+     "x": "kök",
+     "m": "It is the part of a plant that grows under the ground to get water and food.",
+     "e": "It dried up because it had no root."
+    },
+    "thorn": {
+     "i": "🌵",
+     "x": "tikan",
+     "m": "It is a place tangled with plants that have sharp prickles.",
+     "e": "The thorns choked the sprout."
+    },
+    "good soil": {
+     "i": "🟫",
+     "x": "yaxşı torpaq",
+     "m": "It is soft and deep dirt where seeds can grow well.",
+     "e": "There was a large crop in the good soil."
+    },
+    "crop": {
+     "i": "🌾",
+     "x": "bəhrə",
+     "m": "It is the grain or fruit that a plant produces when it grows.",
+     "e": "It produced a crop a hundred times as much."
+    }
+   },
+   "test": [
+    {
+     "q": "Where did Jesus sit to teach?",
+     "o": [
+      "In a boat",
+      "In a tree",
+      "On a roof"
+     ],
+     "a": 0,
+     "f": "That's right! The people listened from the shore."
+    },
+    {
+     "q": "What happened to the seeds that fell along the path?",
+     "o": [
+      "Birds ate them",
+      "They grew big",
+      "They bloomed"
+     ],
+     "a": 0,
+     "f": "That's right! This is a heart that hears and quickly forgets."
+    },
+    {
+     "q": "What do the thorns that choked the sprout mean?",
+     "o": [
+      "Worries and greed",
+      "Rain and sunshine",
+      "Friends and family"
+     ],
+     "a": 0,
+     "f": "That's right! Worries and greed choke the Word."
+    },
+    {
+     "q": "What kind of heart is the good soil?",
+     "o": [
+      "One that hears and understands the Word",
+      "One that doesn't hear the Word",
+      "One that forgets the Word"
+     ],
+     "a": 0,
+     "f": "That's right! It produces a big crop."
+    }
+   ],
+   "dusun": [
+    "Which of the four soils is my heart most like?",
+    "What is a 'thorn' that keeps the Word from growing in my heart?",
+    "What should I do to be good soil?"
+   ],
+   "fealiyyet": {
+    "ciz": "Draw a field growing abundantly in good soil and draw yourself next to it.",
+    "b": "How will you be good soil?",
+    "p": "Choose what you will do to help the Word grow well.",
+    "ph": "",
+    "secim": {
+     "basliq": "How will you be good soil?",
+     "izah": "Tap to choose. You can choose more than one.",
+     "cumle": "I will be good soil: I will {x}!",
+     "bos": "listen to the Word carefully",
+     "bag": "and",
+     "secimler": [
+      [
+       "👂",
+       "listen to the Word carefully"
+      ],
+      [
+       "🧠",
+       "remember what I learned"
+      ],
+      [
+       "🙏",
+       "pray every day"
+      ],
+      [
+       "❓",
+       "ask my questions"
+      ],
+      [
+       "✅",
+       "obey the Word"
+      ]
+     ]
+    }
+   },
+   "dua": "Jesus, thank You for planting the Word of God in my heart like a seed. Please let my heart not be like the path, the rocky soil, or the thorny soil, but let it be good soil. Help me to hear the Word, understand it, obey it, and produce a big crop. I pray in the name of Jesus Christ. Amen."
+  },
+  "genc": {
+   "basliq": "The Four Soils of the Heart",
+   "giris": "Even when we listen to the same lesson, someone changes, while someone else stays the same. Is the problem with the teacher or the student? Jesus talks about the soil, not the seed. The same seed, different soils, different results.",
+   "meqsed": [
+    "We understand the beginning of the parables sermon, which is the third sermon in the Gospel of Matthew.",
+    "We can explain why Jesus taught in parables.",
+    "We honestly examine our heart's soil and determine how to turn it into good soil."
+   ],
+   "sehneler": [
+    {
+     "b": "The Preacher in the Boat",
+     "ayə": "Matthew 13:1–9",
+     "alt": "Jesus sitting in a boat and teaching people on the shore",
+     "p": [
+      "Jesus made the boat His pulpit and the shore His auditorium. The slopes by the Sea of Galilee formed a natural amphitheater, so His voice carried far.",
+      "A farmer would first scatter the seeds and then plow the field. Because of this, seeds also fell on the path, rocky places, and among thorns. But the harvest of the good soil was 30, 60, and 100 times what was sown. Since a normal harvest back then was 7 to 10 times, this is an astonishing result."
+     ],
+     "deep": {
+      "b": "A Deeper Look · The Third Sermon",
+      "p": "Chapter 13 is the third of the five sermons in the Gospel of Matthew, the 'parables sermon' right in the middle. All seven parables are about 'the kingdom of heaven.' It comes immediately after the rejection intensified in Chapter 12."
+     }
+    },
+    {
+     "b": "Why in Parables?",
+     "ayə": "Matthew 13:10–17",
+     "alt": "Birds eating seeds on the path and a withered sprout in rocky soil",
+     "p": [
+      "The disciples asked, “Why do you speak in parables?” Jesus said, “To you it is given to know the mysteries of the kingdom of heaven, but to them it is not given,” and He quoted Isaiah 6:9–10.",
+      "A [[parable]] becomes a door to an open heart and a wall to a closed one. Jesus says, “Blessed are your eyes, for they see; and your ears, for they hear.” The disciples were seeing what many prophets had longed to see."
+     ],
+     "deep": {
+      "b": "A Deeper Look · Whoever Has Will Be Given More",
+      "p": "“For whoever has, to him will be given, and he will have abundance; but whoever doesn't have, from him will be taken away even that which he has” (13:12). This isn't about money; it's about hearing. If we respond to the Word we hear, we will understand more; if we neglect it, even what we know will become blurry."
+     }
+    },
+    {
+     "b": "The Path, the Rocky Soil, and the Thorns",
+     "ayə": "Matthew 13:18–22",
+     "alt": "A sprout unable to grow among thorns",
+     "p": [
+      "The path: When someone hears the Word and doesn't understand it, the evil one comes and snatches it away. The rocky soil: receives it with joy, but since it has no [[root]], it quickly stumbles when trouble or persecution comes.",
+      "The thorny soil: hears the Word, but the [[worries|worry]] of the world and the deceitfulness of wealth choke the Word, making it unfruitful. These three aren't 'bad people,' but conditions we all have."
+     ],
+     "deep": {
+      "b": "A Deeper Look · The Most Dangerous Soil",
+      "p": "The thorny soil is one that outwardly seems to have no problems. There is faith, and they go to church. It's just that so many other things are growing that the Word has no room to breathe. Busyness can be the quietest thorn.",
+      "rose": true
+     }
+    },
+    {
+     "b": "A Hundredfold Harvest",
+     "ayə": "Matthew 13:23",
+     "alt": "A field growing abundantly in good soil",
+     "p": [
+      "“What was sown on the good soil, this is he who hears the Word and understands it, who most certainly bears fruit and produces, some a hundred times, some sixty, some thirty.”",
+      "The good soil has three characteristics: it hears, it [[understands|understand]], and it bears fruit. Even though the amount of fruit differs, they are all good soil. Growth is what matters, not comparison."
+     ],
+     "deep": {
+      "b": "A Deeper Look · The Sower's Optimism",
+      "p": "The sower generously scatters seed even on the path and the rocky soil. God never gives up on any heart; He sows the Word. Even if there is failure in three places, the harvest from one good soil surpasses all the losses. This parable is both a warning and a hope."
+     }
+    }
+   ],
+   "cedvel": {
+    "b": "Diagnosis of the Four Heart Soils",
+    "alt": "13:18–23",
+    "bas": [
+     "Soil",
+     "What Happens",
+     "What It Looks Like Today"
+    ],
+    "set": [
+     [
+      "The Path",
+      "Doesn't understand, the Word is snatched away",
+      "Listens to the sermon and remembers nothing 5 minutes later"
+     ],
+     [
+      "The Rocky Soil",
+      "Has no root, stumbles",
+      "Fired up at camp, but grows cold when mocked at school"
+     ],
+     [
+      "The Thorny Soil",
+      "Choked by worries and wealth",
+      "Has faith, but grades, money, and phones take up all their time"
+     ],
+     [
+      "The Good Soil",
+      "Hears, understands, and bears fruit",
+      "Holds onto one word they heard and truly lives it out"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "“What was sown on the good soil, this is he who hears the Word and understands it, who most certainly bears fruit and produces, some a hundred times, some sixty, some thirty.”",
+    "ref": "13:23"
+   },
+   "lugat": {
+    "parable": {
+     "i": "📖",
+     "o": "Greek parabole, 'to throw alongside'",
+     "x": "Məsəl",
+     "s": "A story placing daily life and the kingdom of heaven side by side",
+     "m": "It is a story that places the kingdom of heaven next to a familiar scene for comparison. It prompts the listener to think and make a decision for themselves.",
+     "e": "This is the root of the English word 'parable'."
+    },
+    "root": {
+     "i": "🌿",
+     "o": "Greek rhiza",
+     "x": "kök",
+     "s": "Depth and endurance",
+     "m": "It is the part that grows where it cannot be seen. The root of faith is the time spent alone in prayer and the Word.",
+     "e": "“Rooted in Christ” (Col. 2:7)."
+    },
+    "worry": {
+     "i": "😟",
+     "o": "Greek merimna",
+     "x": "qayğı",
+     "s": "Anxiety that divides the heart",
+     "m": "It is the 'worry' we learned about in Chapter 6. Anxiety takes away the space where the Word can grow.",
+     "e": "Read together with 6:25–34."
+    },
+    "understand": {
+     "i": "💡",
+     "o": "Greek syniemi, 'to bring together'",
+     "x": "anlamaq",
+     "s": "Connecting what is heard with life",
+     "m": "It is not just knowing information, but bringing the Word and my life together to understand it. It appears six times in Chapter 13.",
+     "e": "“Have you understood all these things?” “Yes” (13:51)."
+    }
+   },
+   "test": [
+    {
+     "q": "Which of the five sermons in the Gospel of Matthew is Chapter 13?",
+     "o": [
+      "The third",
+      "The first",
+      "The fifth"
+     ],
+     "a": 0,
+     "f": "Correct. It is the parables sermon right in the middle."
+    },
+    {
+     "q": "What did a 100-fold harvest mean compared to a normal harvest?",
+     "o": [
+      "A massive harvest",
+      "A normal harvest",
+      "A failed harvest"
+     ],
+     "a": 0,
+     "f": "Correct. It was usually 7 to 10 times."
+    },
+    {
+     "q": "Which book did Jesus quote when explaining the reason for parables?",
+     "o": [
+      "Isaiah",
+      "Genesis",
+      "Ruth"
+     ],
+     "a": 0,
+     "f": "Correct. Isaiah 6:9–10."
+    },
+    {
+     "q": "What does the thorny soil symbolize?",
+     "o": [
+      "The worries of the world and the deceitfulness of wealth",
+      "Persecution and trouble",
+      "The evil one"
+     ],
+     "a": 0,
+     "f": "Correct. Other things grow too much."
+    },
+    {
+     "q": "What are the three characteristics of the good soil?",
+     "o": [
+      "Hears, understands, and bears fruit",
+      "Sees, speaks, and leaves",
+      "Rejoices, dries up, and forgets"
+     ],
+     "a": 0,
+     "f": "Correct. Growing is more important than the amount."
+    }
+   ],
+   "paylas": [
+    "Looking at the chart, let's honestly share which soil our heart is closest to right now.",
+    "What is a habit that deepens the 'root' in my faith?",
+    "In my schedule, what is a 'thorn' that leaves no room for the Word to grow?",
+    "How does it comfort me that God sows seeds even on a heart like the path?"
+   ],
+   "etiraf": {
+    "b": "My Confession",
+    "p": "Examine your heart's soil, and write down one 'thorn' you will pull out and one 'seed' you will plant this week to turn it into good soil.",
+    "ph": "Example: Thorn to pull out: 1 hour on the phone before bed. Seed to plant: reading one chapter of the Gospel of Matthew during that time."
+   },
+   "dua": "God who sows the seeds, I thank You for not giving up on my heart, even when it is like the path, and for sowing Your Word in it. Please clear the stones from my heart and pull out the thorns. Let me be good soil that hears the Word, understands it, and bears fruit. I pray in the name of Jesus Christ. Amen."
+  }
+ },
+ "ru": {
+  "usaq": {
+   "basliq": "Сеятель",
+   "hedef": [
+    "Мы узнаем притчу Иисуса о сеятеле.",
+    "Мы узнаем, что семя — это Слово Божье, а почва — это наше сердце.",
+    "Мы решим стать доброй почвой, которая хорошо принимает Слово."
+   ],
+   "sehneler": [
+    {
+     "b": "Иисус учит с лодки",
+     "ayə": "Матфей 13:1–3",
+     "alt": "Иисус сидит в лодке и учит людей на берегу",
+     "p": [
+      "Собралось так много людей, что Иисус сел в лодку, а люди стояли на берегу и слушали.",
+      "Иисус многому учил [[притчами|притча]]. Притча — это простой рассказ, в котором скрыта тайна Царства Небесного."
+     ]
+    },
+    {
+     "b": "При дороге и на каменистом месте",
+     "ayə": "Матфей 13:4–6, 19–21",
+     "alt": "Птицы клюют семя при дороге, и росток засыхает на каменистом месте",
+     "p": [
+      "Некоторые [[семена|семя]] упали при дороге, и прилетели птицы и склевали их. Это сердце, которое слышит Слово и быстро забывает.",
+      "Некоторые упали на каменистые места, где было мало земли. Они быстро взошли, но так как у них не было [[корня|корень]], при восходе солнца они засохли. Это сердце, которое сначала радуется, но при трудностях быстро сдаётся."
+     ]
+    },
+    {
+     "b": "Тернии",
+     "ayə": "Матфей 13:7, 22",
+     "alt": "Росток, который не может вырасти среди терний",
+     "p": [
+      "Некоторые семена упали в [[тернии|терние]]. Тернии выросли и заглушили ростки.",
+      "Это сердце, которое слышит Слово, но из-за множества забот и желаний Слово не может в нём вырасти."
+     ]
+    },
+    {
+     "b": "Добрая почва",
+     "ayə": "Матфей 13:8–9, 23",
+     "alt": "Колосья, обильно растущие на доброй почве",
+     "p": [
+      "А некоторые семена упали на [[добрую почву|добрая почва]]. Они выросли и принесли [[плод]] во сто, в шестьдесят и в тридцать раз больше!",
+      "Сердце, которое слышит Слово, понимает его и исполняет, — это добрая почва. Иисус сказал: «Кто имеет уши слышать, да слышит»."
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "«Посеянное на доброй земле означает того, кто слышит Слово и понимает его».",
+    "ref": "13:23",
+    "bos": "«Посеянное на ___ земле означает того, кто слышит ___ и ___ его».",
+    "sozler": [
+     "доброй",
+     "Слово",
+     "понимает"
+    ],
+    "yalan": "забывает"
+   },
+   "lugat": {
+    "притча": {
+     "i": "📖",
+     "x": "məsəl",
+     "m": "Это способ объяснить глубокий смысл с помощью простого рассказа.",
+     "e": "Иисус учил притчами."
+    },
+    "семя": {
+     "i": "🌱",
+     "x": "toxum",
+     "m": "Маленькое зёрнышко, которое прорастает, если его посадить в землю. В этом рассказе это Слово Божье.",
+     "e": "Сеятель посеял семя."
+    },
+    "корень": {
+     "i": "🌿",
+     "x": "kök",
+     "m": "Часть растения, которая уходит под землю и получает воду и питание.",
+     "e": "Оно засохло, потому что у него не было корня."
+    },
+    "терние": {
+     "i": "🌵",
+     "x": "tikan",
+     "m": "Место, заросшее колючими растениями.",
+     "e": "Тернии заглушили росток."
+    },
+    "добрая почва": {
+     "i": "🟫",
+     "x": "yaxşı torpaq",
+     "m": "Мягкая и глубокая земля, в которой хорошо растут семена.",
+     "e": "На доброй почве выросло много плодов."
+    },
+    "плод": {
+     "i": "🌾",
+     "x": "bəhrə",
+     "m": "Зерно или фрукт, которое даёт выросшее растение.",
+     "e": "Оно принесло плод во сто крат."
+    }
+   },
+   "test": [
+    {
+     "q": "Где сидел Иисус, когда учил людей?",
+     "o": [
+      "В лодке",
+      "На дереве",
+      "На крыше"
+     ],
+     "a": 0,
+     "f": "Верно! А люди слушали на берегу."
+    },
+    {
+     "q": "Что случилось с семенами, упавшими при дороге?",
+     "o": [
+      "Их склевали птицы",
+      "Они выросли большими",
+      "Они расцвели"
+     ],
+     "a": 0,
+     "f": "Верно! Это сердце, которое слышит и быстро забывает."
+    },
+    {
+     "q": "Что означают тернии, которые заглушили росток?",
+     "o": [
+      "Заботы и желания",
+      "Дождь и солнце",
+      "Друзей и семью"
+     ],
+     "a": 0,
+     "f": "Верно! Заботы и желания заглушают Слово."
+    },
+    {
+     "q": "Какое сердце означает добрая почва?",
+     "o": [
+      "Которое слышит и понимает Слово",
+      "Которое не слышит Слово",
+      "Которое забывает Слово"
+     ],
+     "a": 0,
+     "f": "Верно! Оно приносит много плодов."
+    }
+   ],
+   "dusun": [
+    "На какую из четырёх почв похоже моё сердце?",
+    "Что за «тернии» мешают Слову расти в моём сердце?",
+    "Что мне нужно сделать, чтобы стать доброй почвой?"
+   ],
+   "fealiyyet": {
+    "ciz": "Нарисуй колосья, обильно растущие на доброй почве, и себя рядом с ними.",
+    "b": "Как ты станешь доброй почвой?",
+    "p": "Выбери, что ты будешь делать, чтобы Слово хорошо росло.",
+    "ph": "",
+    "secim": {
+     "basliq": "Как ты станешь доброй почвой?",
+     "izah": "Нажимай и выбирай. Можно выбрать несколько.",
+     "cumle": "Я буду доброй почвой: {x}!",
+     "bos": "буду внимательно слушать Слово",
+     "bag": "и",
+     "secimler": [
+      [
+       "👂",
+       "буду внимательно слушать Слово"
+      ],
+      [
+       "🧠",
+       "буду запоминать то, что узнал"
+      ],
+      [
+       "🙏",
+       "буду молиться каждый день"
+      ],
+      [
+       "❓",
+       "буду задавать вопросы"
+      ],
+      [
+       "✅",
+       "буду исполнять Слово"
+      ]
+     ]
+    }
+   },
+   "dua": "Иисус, спасибо Тебе за то, что Ты посеял Слово Божье в моё сердце, как семя. Пусть моё сердце будет не дорогой, не каменистым местом и не терниями, а доброй почвой. Помоги мне слышать Слово, понимать его, исполнять и приносить много плодов. Молюсь во имя Иисуса Христа. Аминь."
+  },
+  "genc": {
+   "basliq": "Четыре почвы сердца",
+   "giris": "Даже если мы слушаем один и тот же урок, кто-то меняется, а кто-то остаётся прежним. Проблема в учителе или в ученике? Иисус говорит не о семени, а о почве. Одно и то же семя, разная почва, разный результат.",
+   "meqsed": [
+    "Мы понимаем начало проповеди притчами — третьей проповеди в Евангелии от Матфея.",
+    "Мы можем объяснить, почему Иисус учил притчами.",
+    "Мы искренне проверяем почву своего сердца и определяем, как превратить её в добрую почву."
+   ],
+   "sehneler": [
+    {
+     "b": "Проповедник в лодке",
+     "ayə": "Матфей 13:1–9",
+     "alt": "Иисус сидит в лодке и учит людей на берегу",
+     "p": [
+      "Иисус сделал лодку кафедрой, а берег — зрительным залом. Склоны у Галилейского озера были естественным амфитеатром, и звук разносился далеко.",
+      "Земледелец сначала сеял семя, а потом пахал. Поэтому семя падало и на дорогу, и на каменистые места, и в тернии. Но урожай доброй почвы был в 30, 60 и 100 крат. В то время обычный урожай составлял 7–10 крат, так что это поразительный результат."
+     ],
+     "deep": {
+      "b": "Копнём глубже · Третья проповедь",
+      "p": "13-я глава — это третья из пяти проповедей в Евангелии от Матфея, центральная «проповедь притчами». Все семь притч рассказывают о «Царстве Небесном». Она звучит сразу после того, как в 12-й главе усилилось отвержение Иисуса."
+     }
+    },
+    {
+     "b": "Почему притчами?",
+     "ayə": "Матфей 13:10–17",
+     "alt": "Птицы клюют семя при дороге, и росток засыхает на каменистом месте",
+     "p": [
+      "Ученики спросили: «Для чего притчами говоришь им?» Иисус ответил: «Для того, что вам дано знать тайны Царствия Небесного, а им не дано», и процитировал Исаию 6:9–10.",
+      "[[Притча|притча]] становится дверью для открытого сердца и стеной для закрытого. Иисус говорит: «Ваши же блаженны очи, что видят, и уши ваши, что слышат». Ученики видели то, что хотели бы видеть многие пророки."
+     ],
+     "deep": {
+      "b": "Копнём глубже · Кто имеет, тому дано будет",
+      "p": "«Ибо кто имеет, тому дано будет и приумножится, а кто не имеет, у того отнимется и то, что имеет» (13:12). Речь идёт не о деньгах, а о слушании. Если мы откликаемся на услышанное Слово, мы поймём больше; если пренебрегаем, то затуманится и то, что мы уже знаем."
+     }
+    },
+    {
+     "b": "Дорога, каменистое место, тернии",
+     "ayə": "Матфей 13:18–22",
+     "alt": "Росток, который не может вырасти среди терний",
+     "p": [
+      "При дороге: когда человек слышит Слово и не понимает, приходит лукавый и похищает его. Каменистое место: с радостью принимает, но не имеет в себе [[корня|корень]], и когда наступает скорбь или гонение, быстро соблазняется.",
+      "Тернистое место: слышит Слово, но [[забота]] века сего и обольщение богатством заглушают Слово, и оно бывает бесплодно. Эти три — не «плохие люди», а состояния, которые бывают у всех нас."
+     ],
+     "deep": {
+      "b": "Копнём глубже · Самая опасная почва",
+      "p": "Тернистая почва внешне не имеет никаких проблем. Есть и вера, человек ходит в церковь. Просто там растёт так много другого, что для Слова не остаётся места, чтобы дышать. Занятость может быть самым тихим тернием.",
+      "rose": true
+     }
+    },
+    {
+     "b": "Плод во сто крат",
+     "ayə": "Матфей 13:23",
+     "alt": "Колосья, обильно растущие на доброй почве",
+     "p": [
+      "«Посеянное же на доброй земле означает слышащего слово и разумеющего, который и бывает плодоносен, так что иной приносит плод во сто крат, иной в шестьдесят, а иной в тридцать».",
+      "У доброй почвы три особенности: она слышит, [[понимает|понимать]] и приносит плод. Хотя количество плодов разное, всё это — добрая почва. Важно не сравнивать, а расти."
+     ],
+     "deep": {
+      "b": "Копнём глубже · Оптимизм сеятеля",
+      "p": "Сеятель щедро сеет и на дорогу, и на каменистые места. Бог не теряет надежды ни на одно сердце и сеет Слово. Даже если в трёх местах постигнет неудача, урожай с одной доброй почвы перекроет все потери. Эта притча — и предупреждение, и надежда."
+     }
+    }
+   ],
+   "cedvel": {
+    "b": "Диагностика четырёх почв сердца",
+    "alt": "13:18–23",
+    "bas": [
+     "Почва",
+     "Что происходит",
+     "Как это выглядит сегодня"
+    ],
+    "set": [
+     [
+      "При дороге",
+      "Не понимает, Слово похищается",
+      "Слушает проповедь и через 5 минут ничего не помнит"
+     ],
+     [
+      "Каменистое место",
+      "Нет корня, соблазняется",
+      "Горит на христианском лагере, но остывает, когда насмехаются в школе"
+     ],
+     [
+      "Тернистое место",
+      "Заботы и богатство заглушают",
+      "Вера есть, но оценки, деньги и телефон отнимают всё время"
+     ],
+     [
+      "Добрая почва",
+      "Слышит, понимает, приносит плод",
+      "Держится за одно услышанное слово и действительно живёт им"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "«Посеянное же на доброй земле означает слышащего слово и разумеющего, который и бывает плодоносен, так что иной приносит плод во сто крат, иной в шестьдесят, а иной в тридцать».",
+    "ref": "13:23"
+   },
+   "lugat": {
+    "притча": {
+     "i": "📖",
+     "o": "Греч. parabole, «бросать рядом»",
+     "x": "Məsəl",
+     "s": "Рассказ, ставящий рядом повседневную жизнь и Царство Божье",
+     "m": "Это рассказ, который ставит Царство Божье рядом со знакомой сценой для сравнения. Он побуждает слушателя самому задуматься и принять решение.",
+     "e": "От этого слова происходит английское слово parable."
+    },
+    "корень": {
+     "i": "🌿",
+     "o": "Греч. rhiza",
+     "x": "kök",
+     "s": "Глубина и постоянство",
+     "m": "Это часть, которая растёт в невидимом месте. Корень веры — это время, проведённое наедине в молитве и чтении Слова.",
+     "e": "«Будучи укоренены... в Нём» (Кол. 2:7)."
+    },
+    "забота": {
+     "i": "😟",
+     "o": "Греч. merimna",
+     "x": "qayğı",
+     "s": "Беспокойство, разделяющее сердце",
+     "m": "Это та самая «забота», о которой мы узнали в 6-й главе. Беспокойство отнимает место, где должно расти Слово.",
+     "e": "Прочитайте вместе с 6:25–34."
+    },
+    "понимать": {
+     "i": "💡",
+     "o": "Греч. syniemi, «собирать вместе»",
+     "x": "anlamaq",
+     "s": "Соединение услышанного с жизнью",
+     "m": "Это не просто знание информации, а соединение Слова с моей жизнью для понимания. В 13-й главе встречается шесть раз.",
+     "e": "«Поняли ли вы всё это?» — «Так, Господи!» (13:51)."
+    }
+   },
+   "test": [
+    {
+     "q": "Какой по счёту из пяти проповедей в Евангелии от Матфея является 13-я глава?",
+     "o": [
+      "Третьей",
+      "Первой",
+      "Пятой"
+     ],
+     "a": 0,
+     "f": "Верно. Это центральная проповедь притчами."
+    },
+    {
+     "q": "Что означал урожай во 100 крат по сравнению с обычным урожаем того времени?",
+     "o": [
+      "Огромный урожай",
+      "Обычный урожай",
+      "Неудачный урожай"
+     ],
+     "a": 0,
+     "f": "Верно. Обычно он составлял 7–10 крат."
+    },
+    {
+     "q": "Из какой книги процитировал Иисус, объясняя причину использования притч?",
+     "o": [
+      "Исаия",
+      "Бытие",
+      "Руфь"
+     ],
+     "a": 0,
+     "f": "Верно. Исаия 6:9–10."
+    },
+    {
+     "q": "Что символизируют тернии?",
+     "o": [
+      "Заботы века сего и обольщение богатством",
+      "Гонения и скорби",
+      "Лукавого"
+     ],
+     "a": 0,
+     "f": "Верно. Слишком много другого растёт в сердце."
+    },
+    {
+     "q": "Каковы три особенности доброй почвы?",
+     "o": [
+      "Слышит, понимает, приносит плод",
+      "Видит, говорит, уходит",
+      "Радуется, засыхает, забывает"
+     ],
+     "a": 0,
+     "f": "Верно. Важнее расти, чем сравнивать количество."
+    }
+   ],
+   "paylas": [
+    "Глядя на таблицу, давайте искренне поделимся, на какую почву сейчас больше всего похоже моё сердце.",
+    "Какая привычка углубляет «корень» в моей вере?",
+    "Что является «тернием» в моём расписании, не оставляющим места для роста Слова?",
+    "Как меня утешает то, что Бог сеет семя даже в сердце, похожее на дорогу?"
+   ],
+   "etiraf": {
+    "b": "Моё исповедание",
+    "p": "Проверь почву своего сердца и напиши одно «терние», которое ты вырвешь на этой неделе, и одно «семя», которое посадишь, чтобы стать доброй почвой.",
+    "ph": "Например: Терние, которое я вырву: сидеть в телефоне 1 час перед сном. Семя, которое я посажу: в это время читать одну главу из Евангелия от Матфея."
+   },
+   "dua": "Сеющий Бог, благодарю Тебя за то, что Ты не теряешь надежды и сеешь Слово даже в моё сердце, похожее на дорогу при дороге. Убери камни из моего сердца и вырви тернии. Помоги мне быть доброй почвой, которая слышит Слово, понимает его и приносит плод. Молюсь во имя Иисуса Христа. Аминь."
+  }
  }
-},
-"muellim": {
- "mesaj": "17과의 중심은 한 문장입니다. **하나님은 모든 마음에 아낌없이 말씀을 뿌리시고, 말씀을 듣고 깨닫고 열매 맺는 사람이 좋은 땅이다.**",
- "hazirliq": ["학생용 교재를 열 휴대폰이나 태블릿, 이어폰", "작은 화분 네 개나 접시: 흙길(단단한 흙), 돌, 가시 있는 잔가지, 부드러운 흙", "씨앗 (콩이나 밀)"],
- "fon": [
-  ["1. 씨 뿌리기 방법", "팔레스타인 농부는 씨를 먼저 흩뿌리고 나중에 쟁기로 갈아엎었습니다. 그래서 밭 가장자리 길이나 얇은 흙이 덮인 석회암 지대에도 씨가 떨어졌습니다."],
-  ["2. 수확 배수", "당시 평균 수확은 7–10배였습니다. 30·60·100배는 하나님 나라의 놀라운 풍성함을 보여 주는 과장입니다(창 26:12 이삭의 100배 참고)."],
-  ["3. 이사야 6장", "이사야가 부르심을 받을 때 들은 말씀입니다. 비유는 이미 마음을 닫은 사람들에게 심판으로 작용하고, 열린 사람에게는 계시가 됩니다."],
-  ["4. 13장 구조", "씨 뿌리는 자(1–23), 가라지(24–30, 36–43), 겨자씨(31–32), 누룩(33), 감추인 보화(44), 진주(45–46), 그물(47–50). 다음 과에서 나머지 비유를 다룹니다."],
-  ["5. 그림 안내", "마지막 장면은 PPT의 ‘씨 뿌리는 사람’ 그림입니다. 나머지 세 장면은 같은 화풍으로 새로 그렸습니다."]
- ],
- "usaq_plan": [
-  ["5분", "네 가지 땅 관찰", "화분 네 개에 씨를 놓아 보기", "“어느 땅에서 씨가 가장 잘 자랄까요?”"],
-  ["15분", "장면 1–4 듣고 읽기", "장면마다 듣기, 노란 낱말 누르기", "“씨는 하나님 말씀, 땅은 우리 마음이에요.”"],
-  ["5분", "외울 말씀", "빈칸 놀이 → ‘좋은 땅’에 두 손으로 큰 동그라미", ""],
-  ["5분", "확인 퀴즈", "혼자 풀고 함께 확인", ""],
-  ["10분", "활동과 기도", "좋은 땅 되는 방법 고르기 → 씨앗 하나씩 집에 가져가 심기", ""]
- ],
- "genc_plan": [
-  ["5분", "열기", "“같은 설교를 듣고도 반응이 다른 이유는?”", ""],
-  ["15분", "장면 1–2", "배 위의 설교, 100배의 의미, 왜 비유로?", ""],
-  ["10분", "장면 3–4와 진단 표", "네 가지 밭의 해석, 가장 위험한 가시떨기", "“내 마음밭은?”"],
-  ["5분", "확인 문제", "", ""],
-  ["15분", "나눔과 고백", "나눔 질문 2개 → 뽑을 가시와 심을 씨 쓰기 → 기도", ""]
- ],
- "ipucu_usaq": ["‘너는 길가야!’처럼 아이들에게 낙인을 찍지 않게 하세요. 우리 모두 네 가지 모습이 다 있다고 말해 주세요.", "씨앗을 집에 가져가 심게 하면 다음 주 이야기 거리가 됩니다.", "새, 해, 가시를 손동작으로 표현하면 아이들이 잘 기억합니다."],
- "ipucu_genc": ["진단 표는 자기 성찰용입니다. 다른 학생의 밭을 판단하지 않도록 안내하세요.", "‘가시떨기’ 이야기에서 바쁨과 스마트폰을 다룰 때 훈계보다 공감으로 시작하세요.", "다음 과(13:24–58)는 가라지, 겨자씨, 감추인 보화, 진주 비유입니다."],
- "suallar": [
-  ["저는 돌밭 같아요. 어떡해요?", "괜찮아요. 하나님은 돌을 치워 주실 수 있어요. 매일 조금씩 기도하면 뿌리가 자라요.", "밭은 바뀔 수 있어요. 돌을 골라내고 가시를 뽑는 농부처럼, 하나님과 공동체의 도움으로 마음밭은 가꾸어져요(렘 4:3 “묵은 땅을 갈라”)."],
-  ["왜 하나님은 좋은 땅에만 뿌리지 않으세요?", "하나님은 모든 사람을 사랑하셔서 모두에게 말씀을 주세요.", "하나님의 넉넉한 은혜를 보여 줘요. 누가 좋은 땅이 될지 사람은 미리 알 수 없어요. 우리도 아낌없이 뿌리는 사람이 되어야 해요."],
-  ["비유로 말하면 일부러 못 알아듣게 하는 거예요?", "아니에요. 궁금해서 물어보는 제자들에게 예수님은 친절하게 설명해 주셨어요.", "이미 마음을 닫은 사람에게는 비유가 감춰지지만, 궁금해서 묻는 사람(제자들)에게는 설명해 주셨어요. 비유는 ‘더 알고 싶니?’라는 초대예요."]
- ]
-}
 }

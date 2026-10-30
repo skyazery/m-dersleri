@@ -1375,5 +1375,433 @@
    },
    "dua": "Иисус, благодарю Тебя за то, что Ты научил нас счастью, которое отличается от мирского. Прими меня, стоящего перед Тобой с пустыми руками. Помоги мне быть солью, не теряющей силу, и светом, который не прячут, чтобы люди видели Отца Небесного. Молюсь во имя Иисуса Христа. Аминь."
   }
+ },
+ "en": {
+  "usaq": {
+   "basliq": "The salt and light of the world",
+   "hedef": [
+    "We will learn the words of 'blessing' Jesus taught on the mountain.",
+    "We will learn who God blesses.",
+    "We will find out how we can live as the salt and light of the world."
+   ],
+   "sehneler": [
+    {
+     "b": "The Teacher on the Mountain",
+     "ayə": "Matthew 5:1–2",
+     "alt": "Jesus sitting on the mountain and teaching people",
+     "p": [
+      "Many people followed Jesus. Jesus went up on a [[mountain]] and sat down, and His disciples and the people sat around Him.",
+      "Jesus began to speak and teach. These words are called the Sermon on the Mount."
+     ]
+    },
+    {
+     "b": "Such people are blessed",
+     "ayə": "Matthew 5:3–12",
+     "alt": "Jesus comforting a sad person",
+     "p": [
+      "Jesus said amazing words: “[[Blessed|blessed]] are the poor in spirit. Blessed are those who mourn, for God will comfort them.”",
+      "“Blessed are the [[gentle]], the merciful, the pure in heart, and the [[peacemakers|peace]].” God considers weak and humble people very precious."
+     ]
+    },
+    {
+     "b": "You are the salt of the world",
+     "ayə": "Matthew 5:13",
+     "alt": "A family adding salt to their food",
+     "p": [
+      "Jesus said: “You are the [[salt]] of the world.”",
+      "Salt makes food tasty and keeps it from spoiling. A person who follows Jesus is someone who brings a good flavor among their friends."
+     ]
+    },
+    {
+     "b": "You are the light of the world",
+     "ayə": "Matthew 5:14–16",
+     "alt": "A lamp on a lampstand lighting up the whole house",
+     "p": [
+      "“You are the [[light]] of the world. People do not light a lamp and put it under a bowl, but they put it on a [[lampstand]] so it gives light to everyone in the house.”",
+      "When we do good deeds, people see them and [[glorify]] God. We are little lamps shining Jesus' light."
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "“You are the salt of the world. … You are the light of the world.”",
+    "ref": "5:13–14",
+    "bos": "You are the ___ of the world. … You are the ___ of the ___.",
+    "sozler": [
+     "salt",
+     "light",
+     "world"
+    ],
+    "yalan": "water"
+   },
+   "lugat": {
+    "mountain": {
+     "i": "⛰️",
+     "x": "dağ",
+     "m": "A high place on the earth. Jesus taught on a hill overlooking the Sea of Galilee.",
+     "e": "Jesus went up on a mountain and sat down."
+    },
+    "blessed": {
+     "i": "🎁",
+     "x": "bəxtiyar",
+     "m": "A person who receives true joy and good things given by God.",
+     "e": "Blessed are those who mourn."
+    },
+    "gentle": {
+     "i": "🕊️",
+     "x": "həlim",
+     "m": "A person with a soft and humble heart who does not get angry easily.",
+     "e": "Blessed are the gentle."
+    },
+    "peace": {
+     "i": "🤝",
+     "x": "sülh",
+     "m": "Stopping fights and living in harmony with each other.",
+     "e": "Peacemakers will be called children of God."
+    },
+    "salt": {
+     "i": "🧂",
+     "x": "duz",
+     "m": "White grains that give flavor to food and keep it from spoiling.",
+     "e": "You are the salt of the world."
+    },
+    "light": {
+     "i": "💡",
+     "x": "nur",
+     "m": "Something that brightens the darkness and shows the way.",
+     "e": "You are the light of the world."
+    },
+    "lampstand": {
+     "i": "🪔",
+     "x": "çıraqdan",
+     "m": "A stand for putting a lamp up high.",
+     "e": "They put the lamp on a lampstand."
+    },
+    "glorify": {
+     "i": "✨",
+     "x": "izzət",
+     "m": "Praising God for how great and good He is.",
+     "e": "People glorify God."
+    }
+   },
+   "test": [
+    {
+     "q": "Where did Jesus sit and teach?",
+     "o": [
+      "On a mountain",
+      "In a boat",
+      "On a roof"
+     ],
+     "a": 0,
+     "f": "That's right! That is why it is called the Sermon on the Mount."
+    },
+    {
+     "q": "Who did Jesus say is 'blessed'?",
+     "o": [
+      "Peacemakers",
+      "Those who fight",
+      "Those who boast a lot"
+     ],
+     "a": 0,
+     "f": "That's right! Peacemakers will be called children of God."
+    },
+    {
+     "q": "What does salt do?",
+     "o": [
+      "Gives flavor and keeps things from spoiling",
+      "Brightens the darkness",
+      "Cools down water"
+     ],
+     "a": 0,
+     "f": "That's right! We are also people who bring a good flavor."
+    },
+    {
+     "q": "Where should a lamp be put?",
+     "o": [
+      "On a lampstand",
+      "Under a bowl",
+      "Under a bed"
+     ],
+     "a": 0,
+     "f": "That's right! When it is up high, the whole house is lit."
+    }
+   ],
+   "dusun": [
+    "Which of the 'blessed' people Jesus mentioned do you want to be?",
+    "What kind of friend in our class is a friend who brings a good flavor like 'salt'?",
+    "How can you shine your light this week?"
+   ],
+   "fealiyyet": {
+    "ciz": "Draw a lamp shining brightly on a lampstand, and draw yourself.",
+    "b": "How will you be a light this week?",
+    "p": "Choose a good deed you can do this week.",
+    "ph": "",
+    "secim": {
+     "basliq": "How will you be a light this week?",
+     "izah": "Tap to choose. You can choose more than one.",
+     "cumle": "This week I will shine Jesus' light by {x}!",
+     "bos": "helping my mom",
+     "bag": "and",
+     "secimler": [
+      [
+       "🧽",
+       "helping my mom"
+      ],
+      [
+       "💬",
+       "saying kind words to my friend"
+      ],
+      [
+       "🍎",
+       "sharing"
+      ],
+      [
+       "🤝",
+       "making peace"
+      ],
+      [
+       "🙏",
+       "praying"
+      ],
+      [
+       "✅",
+       "telling the truth"
+      ],
+      [
+       "🧸",
+       "caring for younger ones"
+      ],
+      [
+       "😊",
+       "smiling"
+      ]
+     ]
+    }
+   },
+   "dua": "Jesus, thank You for Your love that blesses weak and sad people. Thank You for calling me the salt and light of the world. Help me to do good deeds and shine Your light this week. I pray in the name of Jesus Christ. Amen."
+  },
+  "genc": {
+   "basliq": "Upside-down happiness",
+   "giris": "The world says that the rich, the strong, and those who laugh are happy. But on the mountain, Jesus presented the exact opposite list: the poor, those who weep, and the persecuted are blessed.",
+   "meqsed": [
+    "We understand the structure and meaning of the Beatitudes, which are the beginning of the Sermon on the Mount.",
+    "We can explain that 'blessedness' is a gift of the kingdom of heaven.",
+    "We determine the life we will show in our own place as salt and light."
+   ],
+   "sehneler": [
+    {
+     "b": "New Moses, new mountain",
+     "ayə": "Matthew 5:1–2",
+     "alt": "Jesus sitting on the mountain and teaching people",
+     "p": [
+      "Seeing the crowds, Jesus went up on a [[mountain]] and sat down. In those days, teachers sat to teach. This showed that an authoritative teaching was beginning.",
+      "Matthew's readers would remember Moses on Mount Sinai in this scene. Just as Moses received the Law on the mountain, Jesus teaches the life of the kingdom of heaven on the mountain."
+     ],
+     "deep": {
+      "b": "Looking deeper · Five great sermons",
+      "p": "There are five great sermons in the Gospel of Matthew (chapters 5–7, 10, 13, 18, 24–25). This structure brings to mind the five books of the Torah. The Sermon on the Mount is the first and most famous of them."
+     }
+    },
+    {
+     "b": "Upside-down happiness",
+     "ayə": "Matthew 5:3–12",
+     "alt": "Jesus comforting a sad person",
+     "p": [
+      "“[[Blessed|blessed]] are the [[poor in spirit]], for theirs is the kingdom of heaven.” Jesus declares “blessed” eight times.",
+      "This is not a list of conditions saying, “if you do this, you will be blessed.” It is a declaration of [[blessedness|blessed]] stating that the kingdom of heaven is already open to such people."
+     ],
+     "deep": {
+      "b": "Looking deeper · Beginning and end",
+      "p": "The first (5:3) and eighth (5:10) beatitudes end with the same words: “the kingdom of heaven is theirs.” All the blessings within this frame are about the kingdom of heaven. The first four are about poverty before God, and the last four are about a life directed toward one's neighbor."
+     }
+    },
+    {
+     "b": "Salt that has lost its flavor",
+     "ayə": "Matthew 5:13",
+     "alt": "A family adding salt to their food",
+     "p": [
+      "“You are the [[salt]] of the world.” Salt was a valuable thing that gave flavor and protected meat from spoiling.",
+      "The salt from near the Dead Sea contained impurities, and when its saltiness was gone, it became useless. When a disciple of Jesus becomes exactly like the world, they turn into salt that has lost its flavor."
+     ],
+     "deep": {
+      "b": "Looking deeper · “You are”",
+      "p": "Jesus does not say “become salt,” He says “you are salt.” This is an identity already given. The issue is not whether to be salt or not, but not to lose the flavor.",
+      "rose": true
+     }
+    },
+    {
+     "b": "A light that cannot be hidden",
+     "ayə": "Matthew 5:14–16",
+     "alt": "A lamp on a lampstand lighting up the whole house",
+     "p": [
+      "“You are the [[light]] of the world. A city set on a hill cannot be hidden.” The villages on the Galilean hills could be seen from far away even at night.",
+      "A small clay lamp would light up an entire one-room house. People who see our good deeds [[glorify]] the Father in heaven. This is not a light that boasts of itself, but a light that points to God."
+     ],
+     "deep": {
+      "b": "Looking deeper · Tension with 6:1",
+      "p": "5:16 says “let them see,” while 6:1 says “do not do them to be seen.” This is not a contradiction. The difference is in the purpose. If God is glorified, it is light; if I want to receive praise, it is a show."
+     }
+    }
+   ],
+   "cedvel": {
+    "b": "A glance at the Beatitudes",
+    "alt": "5:3–10",
+    "bas": [
+     "The Blessed",
+     "The Promise"
+    ],
+    "set": [
+     [
+      "The poor in spirit",
+      "Theirs is the kingdom of heaven"
+     ],
+     [
+      "Those who mourn",
+      "They will be comforted"
+     ],
+     [
+      "The gentle",
+      "They will inherit the earth"
+     ],
+     [
+      "Those who hunger and thirst for righteousness",
+      "They will be filled"
+     ],
+     [
+      "The merciful",
+      "They will receive mercy"
+     ],
+     [
+      "The pure in heart",
+      "They will see God"
+     ],
+     [
+      "The peacemakers",
+      "They will be called children of God"
+     ],
+     [
+      "Those persecuted for righteousness",
+      "Theirs is the kingdom of heaven"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "“Even so, let your light shine before men, that they may see your good works and glorify your Father who is in heaven.”",
+    "ref": "5:16"
+   },
+   "lugat": {
+    "mountain": {
+     "i": "⛰️",
+     "o": "Greek oros",
+     "x": "dağ",
+     "s": "Place of revelation",
+     "m": "In the Bible, a mountain is a place where God speaks. It reminds us of Moses on Mount Sinai and Elijah on Mount Carmel.",
+     "e": "Traditionally, the hill near Capernaum is called the Mount of Beatitudes."
+    },
+    "poor in spirit": {
+     "i": "🙏",
+     "o": "Greek ptochoi to pneumati",
+     "x": "ruhən yoxsul",
+     "s": "A person who knows they have nothing without God",
+     "m": "“Ptochos” means a poverty where one lives by begging. It is a person who knows they are empty-handed before God.",
+     "e": "A person who boasts in their own strength has no empty hands to receive the kingdom of heaven."
+    },
+    "blessed": {
+     "i": "🎁",
+     "o": "Greek makarios",
+     "x": "bəxtiyar",
+     "s": "True happiness approved by God",
+     "m": "It is not a good mood, but a state that God declares as “good.”",
+     "e": "In the Azerbaijani Bible, it is translated as “Nə bəxtiyardır …!” (How blessed is...!)."
+    },
+    "salt": {
+     "i": "🧂",
+     "o": "Greek halas",
+     "x": "duz",
+     "s": "Flavor and preservation",
+     "m": "In an era without refrigerators, it was a valuable thing that protected meat and fish from spoiling. It was also a symbol of the covenant (Lev. 2:13).",
+     "e": "The village of Magdala in Galilee was famous for salting fish."
+    },
+    "light": {
+     "i": "💡",
+     "o": "Greek phos",
+     "x": "nur",
+     "s": "God's presence overcoming darkness",
+     "m": "Isaiah said that Israel would be a “light to the nations” (Isa. 49:6). Jesus gives this mission to His disciples.",
+     "e": "The “great light” in 4:16 now shines through the disciples."
+    },
+    "glorify": {
+     "i": "✨",
+     "o": "Greek doxa",
+     "x": "izzət",
+     "s": "God's majesty and beauty",
+     "m": "The Hebrew word “kavod” also means “weight.” It is the showing of how great God is.",
+     "e": "Our good deeds bring glory to God."
+    }
+   },
+   "test": [
+    {
+     "q": "Which Old Testament figure does Jesus sitting and teaching on the mountain bring to mind?",
+     "o": [
+      "Moses",
+      "Samson",
+      "Jonah"
+     ],
+     "a": 0,
+     "f": "That's right. Moses, who received the Law on Mount Sinai."
+    },
+    {
+     "q": "What is the common promise in the first and eighth beatitudes?",
+     "o": [
+      "Theirs is the kingdom of heaven",
+      "They will inherit the earth",
+      "They will be filled"
+     ],
+     "a": 0,
+     "f": "That's right. This is the frame that covers the whole list."
+    },
+    {
+     "q": "What is the most appropriate meaning of the phrase “poor in spirit”?",
+     "o": [
+      "Knowing one is empty-handed before God",
+      "Having no money",
+      "Being in a bad mood"
+     ],
+     "a": 0,
+     "f": "That's right. Because of this, they can receive the kingdom of heaven."
+    },
+    {
+     "q": "What did Jesus say to His disciples?",
+     "o": [
+      "You are the salt of the world",
+      "Become salt",
+      "Sell salt"
+     ],
+     "a": 0,
+     "f": "That's right. This is an identity already given."
+    },
+    {
+     "q": "Who should people glorify when they see our good deeds?",
+     "o": [
+      "The Father in heaven",
+      "Me",
+      "Our building"
+     ],
+     "a": 0,
+     "f": "That's right. The light points to God."
+    }
+   ],
+   "paylas": [
+    "Which of the Beatitudes touches your heart the most right now? Why?",
+    "How is the happiness the world talks about different from the blessedness Jesus talks about?",
+    "When do I become exactly like those around me, like 'salt that has lost its flavor'?",
+    "What are specific ways to live as a light pointing to God at school or on social media?"
+   ],
+   "etiraf": {
+    "b": "My confession",
+    "p": "Choose one of the Beatitudes and write in three or four sentences how you will live this week as a person who receives that blessing.",
+    "ph": "For example: I want to be a peacemaker. This week, to a friend I am not speaking to..."
+   },
+   "dua": "Jesus, thank You for teaching a happiness different from the world's. Accept me, who is empty-handed before You. Help me to be salt that does not lose its flavor and a light that is not hidden, so that people may see the Father in heaven. I pray in the name of Jesus Christ. Amen."
+  }
  }
 }

@@ -1309,5 +1309,411 @@
    },
    "dua": "Иисус, спасибо Тебе за то, что Ты первым ищешь и призываешь людей, которых никто бы не выбрал. Помоги мне оставить сети, которые меня держат, и последовать за Тобой. Пусть то, что я умею делать, послужит для спасения людей. Молюсь во имя призвавшего меня Иисуса Христа. Аминь."
   }
+ },
+ "en": {
+  "usaq": {
+   "basliq": "Follow Me",
+   "hedef": [
+    "We will learn that Jesus called fishermen to be His disciples.",
+    "We will learn what it means to follow Jesus.",
+    "We will learn that we can tell our friends about Jesus."
+   ],
+   "sehneler": [
+    {
+     "b": "Light shining on Galilee",
+     "ayə": "Matthew 4:12–17",
+     "alt": "Jesus preaching in a village by the Sea of Galilee",
+     "p": [
+      "Jesus moved to the village of Capernaum by the [[Sea of Galilee]].",
+      "He began to spread the [[Gospel]] to the people: “Repent! The kingdom of heaven is near!” A great light dawned on the people who were in darkness."
+     ]
+    },
+    {
+     "b": "Peter and Andrew",
+     "ayə": "Matthew 4:18–20",
+     "alt": "Jesus calling fishermen casting a net",
+     "p": [
+      "As Jesus was walking by the sea, He saw two brothers who were [[fishermen|fisherman]] casting a [[net]]. They were Simon Peter and Andrew.",
+      "Jesus said, “Follow Me, and I will make you fishers of men.” They immediately left their nets and [[followed|follow]] Jesus."
+     ]
+    },
+    {
+     "b": "James and John",
+     "ayə": "Matthew 4:21–22",
+     "alt": "James and John leaving their boat and father to follow Jesus",
+     "p": [
+      "Going a little farther, Jesus saw two brothers, James and John, in a boat with their father Zebedee, mending their nets.",
+      "When Jesus called them, they immediately left the boat and their father and followed Him. Thus they became Jesus' first [[disciples|disciple]]."
+     ]
+    },
+    {
+     "b": "He healed the sick",
+     "ayə": "Matthew 4:23–25",
+     "alt": "Jesus healing many sick people",
+     "p": [
+      "Jesus traveled all over Galilee, teaching about the kingdom of God and [[healing|heal]] the sick.",
+      "This news spread everywhere, and very large crowds followed Him."
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "“Follow Me, and I will make you fishers of men.”",
+    "ref": "4:19",
+    "bos": "“___ Me, and I will make you ___ of ___.”",
+    "sozler": [
+     "Follow",
+     "fishers",
+     "men"
+    ],
+    "yalan": "kings"
+   },
+   "lugat": {
+    "Sea of Galilee": {
+     "i": "🌊",
+     "x": "Qalileya gölü",
+     "m": "It is a large lake in northern Israel. Many fishermen lived there because it had a lot of fish.",
+     "e": "Jesus called His disciples by the Sea of Galilee."
+    },
+    "Gospel": {
+     "i": "📣",
+     "x": "Müjdə",
+     "m": "It means “good news.” It is the news that Jesus came to save us.",
+     "e": "Jesus spread the Gospel in every village."
+    },
+    "net": {
+     "i": "🕸️",
+     "x": "tor",
+     "m": "It is a tool woven tightly from ropes to catch fish.",
+     "e": "Peter and Andrew left their nets and followed Jesus."
+    },
+    "fisherman": {
+     "i": "🎣",
+     "x": "balıqçı",
+     "m": "A person who makes a living by catching fish.",
+     "e": "Jesus' first disciples were fishermen."
+    },
+    "follow": {
+     "i": "🚶",
+     "x": "ardınca getmək",
+     "m": "To go after someone, learn from them, and live like them.",
+     "e": "The disciples followed Jesus."
+    },
+    "disciple": {
+     "i": "👣",
+     "x": "şagird",
+     "m": "A person who follows a teacher and learns from them.",
+     "e": "Jesus called twelve disciples."
+    },
+    "heal": {
+     "i": "🩹",
+     "x": "şəfa vermək",
+     "m": "To make a sick body or heart well.",
+     "e": "Jesus healed many people."
+    }
+   },
+   "test": [
+    {
+     "q": "Who were the first brothers Jesus called?",
+     "o": [
+      "Peter and Andrew",
+      "David and Solomon",
+      "Abraham and Lot"
+     ],
+     "a": 0,
+     "f": "That's right! They were fishermen brothers casting a net."
+    },
+    {
+     "q": "What did Jesus say He would make His disciples?",
+     "o": [
+      "Fishers of men",
+      "Rich merchants",
+      "Strong soldiers"
+     ],
+     "a": 0,
+     "f": "That's right! People who bring others to Jesus."
+    },
+    {
+     "q": "What did James and John leave behind to follow Jesus?",
+     "o": [
+      "Their boat and father",
+      "Sheep and goats",
+      "House and field"
+     ],
+     "a": 0,
+     "f": "That's right! They followed Him immediately."
+    },
+    {
+     "q": "Which of these did Jesus NOT do in Galilee?",
+     "o": [
+      "Teach",
+      "Heal the sick",
+      "Build a castle"
+     ],
+     "a": 2,
+     "f": "That's right! Jesus taught, spread the Gospel, and healed."
+    }
+   ],
+   "dusun": [
+    "Why did the disciples follow Jesus “immediately”?",
+    "What does a “fisher of men” do?",
+    "Do you have a friend or family member you want to tell about Jesus?"
+   ],
+   "fealiyyet": {
+    "ciz": "Draw the fishermen leaving their nets and following Jesus.",
+    "b": "Who will you tell about Jesus?",
+    "p": "Choose the person you want to tell about Jesus.",
+    "ph": "",
+    "secim": {
+     "basliq": "Who will you tell about Jesus?",
+     "izah": "Tap to choose. You can choose more than one.",
+     "cumle": "I will tell my {x} about Jesus!",
+     "bos": "friends",
+     "bag": "and",
+     "secimler": [
+      [
+       "👫",
+       "friend"
+      ],
+      [
+       "👨‍👩‍👧",
+       "family"
+      ],
+      [
+       "🧒",
+       "brother"
+      ],
+      [
+       "👧",
+       "sister"
+      ],
+      [
+       "🏫",
+       "classmate"
+      ],
+      [
+       "🏠",
+       "neighbor"
+      ],
+      [
+       "👵",
+       "grandmother"
+      ],
+      [
+       "👴",
+       "grandfather"
+      ]
+     ]
+    }
+   },
+   "dua": "Jesus, thank You for calling me just as You called ordinary fishermen to be Your disciples. Help me to follow You with joy. Let my friends and family know You too. I pray in the name of Jesus Christ. Amen."
+  },
+  "genc": {
+   "basliq": "Leaving the Nets",
+   "giris": "In those days, a student would choose a teacher they respected and go to them. Jesus, on the contrary, went Himself to the fishermen of Galilee, whom no one else would choose, and called them.",
+   "meqsed": [
+    "We understand the meaning of Jesus starting His ministry in Galilee.",
+    "We can explain the nature of the call to discipleship and the cost of following.",
+    "We find what we can do in our own lives as “fishers of men.”"
+   ],
+   "sehneler": [
+    {
+     "b": "Light Dawning in the Darkness",
+     "ayə": "Matthew 4:12–17",
+     "alt": "Jesus preaching in a village by the Sea of Galilee",
+     "p": [
+      "After John was arrested, Jesus moved to [[Capernaum]] and began His ministry. Matthew quotes Isaiah 9:1–2: “The people who sat in darkness saw a great light.”",
+      "[[Galilee]] was a remote area where various nations lived, so much so that it was called “Galilee of the Gentiles.” The light fell first on the outskirts, not on the elite of Jerusalem."
+     ],
+     "deep": {
+      "b": "A Deeper Look · Why Galilee?",
+      "p": "The land of Zebulun and Naphtali was the first place trampled by Assyria in the 8th century BC. The light came first to the place that fell into darkness first. God begins restoration where the wound is deepest."
+     }
+    },
+    {
+     "b": "The Teacher Calls Himself",
+     "ayə": "Matthew 4:18–20",
+     "alt": "Jesus calling fishermen casting a net",
+     "p": [
+      "At that time, to become a [[disciple]] of a [[rabbi]], a student would go to the teacher and ask to be accepted. But Jesus approached the working fishermen Himself and said, “Follow Me.”",
+      "Peter and Andrew “immediately” left their nets and followed Him. Matthew emphasizes this word “immediately” twice."
+     ],
+     "deep": {
+      "b": "A Deeper Look · Fishers of Men",
+      "p": "Jesus turned what they were good at, catching fish, into a new mission. The call sometimes requires us to leave what we have, and sometimes it calls us to use it in a new way for the kingdom of God."
+     }
+    },
+    {
+     "b": "Leaving the Boat and Father",
+     "ayə": "Matthew 4:21–22",
+     "alt": "James and John leaving their boat and father to follow Jesus",
+     "p": [
+      "James and John were mending their nets with their father Zebedee. This was a family business large enough to have hired men {Mark 1:20}.",
+      "They left the boat and their father and followed Him. There was a cost to following: job, security, and family expectations."
+     ],
+     "deep": {
+      "b": "A Deeper Look · Following with a Cost",
+      "p": "This scene is not a command to abandon one's family. It is a confession that Jesus is above everything. Later, Zebedee's wife also became one of those who followed Jesus (27:56).",
+      "rose": true
+     }
+    },
+    {
+     "b": "Teaching, Preaching, Healing",
+     "ayə": "Matthew 4:23–25",
+     "alt": "Jesus healing many sick people",
+     "p": [
+      "Jesus traveled all over Galilee, teaching in their [[synagogues|synagogue]], preaching the [[Gospel]] of the kingdom of heaven, and healing every kind of disease.",
+      "The news spread to Syria, the Decapolis, and across the Jordan. Jews and Gentiles came together."
+     ],
+     "deep": {
+      "b": "A Deeper Look · The Structure of the Gospel of Matthew",
+      "p": "4:23 and 9:35 are almost the exact same sentence. Between them come Jesus' “teaching” (chapters 5–7, the Sermon on the Mount) and “healings” (chapters 8–9, miracles). By showing word and deed together, Matthew proves who Jesus is."
+     }
+    }
+   ],
+   "cedvel": {
+    "b": "Three Aspects of Jesus' Ministry",
+    "alt": "4:23 · 9:35",
+    "bas": [
+     "Ministry",
+     "Where",
+     "What"
+    ],
+    "set": [
+     [
+      "Teaching",
+      "In synagogues",
+      "The true meaning of the Word"
+     ],
+     [
+      "Preaching",
+      "In villages and fields",
+      "The Gospel of the kingdom of heaven"
+     ],
+     [
+      "Healing",
+      "Wherever people were",
+      "Diseases of body and soul, demons"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "“Follow Me, and I will make you fishers of men.” They immediately left their nets and followed Him.",
+    "ref": "4:19–20"
+   },
+   "lugat": {
+    "Capernaum": {
+     "i": "🏘️",
+     "o": "Hebrew Kfar Nahum, “village of Nahum”",
+     "x": "Kəfərnahum",
+     "s": "The center of Jesus' ministry",
+     "m": "It was a village on the northern shore of the Sea of Galilee, and Peter's house was there. It is called Jesus' “own city” (9:1).",
+     "e": "Today, the remains of a first-century synagogue and Peter's house have been found there."
+    },
+    "Galilee": {
+     "i": "🗺️",
+     "o": "Hebrew Gelil hagoyim, “region of the Gentiles”",
+     "x": "Qalileya",
+     "s": "The northern outskirts of Israel",
+     "m": "It was a region despised by the people of Jerusalem because various nations lived there. The Galilean accent was also mocked (26:73).",
+     "e": "Most of Jesus' twelve disciples were from Galilee."
+    },
+    "rabbi": {
+     "i": "📚",
+     "o": "Hebrew “my teacher”",
+     "x": "ravvi",
+     "s": "A teacher who taught the Law",
+     "m": "A teacher who gathered disciples and taught the Law. The disciple lived with the teacher and learned his words and life.",
+     "e": "The disciples called Jesus “Rabbi.”"
+    },
+    "disciple": {
+     "i": "👣",
+     "o": "Greek mathetes, “learner”",
+     "x": "şagird",
+     "s": "One who follows and learns",
+     "m": "Not just a student who learns knowledge, but a person who walks with the teacher and tries to become like him in life.",
+     "e": "The Gospel of Matthew ends with the words “make disciples of all nations” (28:19)."
+    },
+    "synagogue": {
+     "i": "🕍",
+     "o": "Greek synagoge, “place of assembly”",
+     "x": "sinaqoq",
+     "s": "A place of worship and teaching in the village",
+     "m": "The temple was only in Jerusalem, but there was a synagogue in every village. They gathered there on the Sabbath to read the Word.",
+     "e": "Jesus often taught in synagogues."
+    },
+    "Gospel": {
+     "i": "📣",
+     "o": "Greek evangelion, “good news”",
+     "x": "Müjdə",
+     "s": "Joyful news announcing the King's victory",
+     "m": "It was originally a word announcing victory in war or the accession of a new king. Jesus announced that God had come as King.",
+     "e": "In Azerbaijani, it is called “Müjdə”."
+    }
+   },
+   "test": [
+    {
+     "q": "Which village did Jesus make the center of His ministry?",
+     "o": [
+      "Capernaum",
+      "Bethlehem",
+      "Jerusalem"
+     ],
+     "a": 0,
+     "f": "Correct. A village on the shore of the Sea of Galilee."
+    },
+    {
+     "q": "How does Isaiah 9, quoted by Matthew, describe Galilee?",
+     "o": [
+      "The people who sat in darkness saw a great light",
+      "A land flowing with milk and honey",
+      "The holy city"
+     ],
+     "a": 0,
+     "f": "Correct. The light came first to the darkest place."
+    },
+    {
+     "q": "What was the difference from the rabbi-disciple relationship of that time?",
+     "o": [
+      "Jesus called the disciples Himself",
+      "The disciples took an exam",
+      "They paid tuition fees"
+     ],
+     "a": 0,
+     "f": "Correct. The call starts from Jesus."
+    },
+    {
+     "q": "What did James and John leave behind?",
+     "o": [
+      "The boat and their father Zebedee",
+      "The house and the flock",
+      "The money bag"
+     ],
+     "a": 0,
+     "f": "Correct. There was a cost to following."
+    },
+    {
+     "q": "What are the three aspects of Jesus' ministry in 4:23?",
+     "o": [
+      "Teaching, preaching, healing",
+      "Prayer, fasting, almsgiving",
+      "Building, war, administration"
+     ],
+     "a": 0,
+     "f": "Correct. Chapters 5–9 unfold in this order."
+    }
+   ],
+   "paylas": [
+    "How does the fact that Jesus sought me “first” help me look at my faith differently?",
+    "What is the “net” I need to leave behind to follow Jesus?",
+    "What would it look like if I used what I am good at for the kingdom of God?",
+    "Who is a friend around me “sitting in darkness”? How can I be a light?"
+   ],
+   "etiraf": {
+    "b": "My Confession",
+    "p": "If Jesus called your name today and said, “Follow Me,” what would you answer? Write three or four sentences.",
+    "ph": "For example: Jesus, there are things I have a hard time letting go of. But still..."
+   },
+   "dua": "Jesus, thank You for first seeking and calling people whom no one else would choose. Help me to leave the nets that hold me back and follow You. Let me use the things I am good at to lead people to salvation. I pray in the name of Jesus Christ, who called me. Amen."
+  }
  }
 }

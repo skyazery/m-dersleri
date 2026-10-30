@@ -1,159 +1,1671 @@
 {
-"no": 8, "ref": "5:17–48", "deq": {"usaq": 40, "genc": 50},
-"img": ["13-dagustu-vaaz.jpg", "matta/08-barisiq.jpg", "matta/08-ikinci-mil.jpg", "matta/08-gunes.jpg"],
-"hero": 3,
-"ko": {
- "usaq": {
-  "basliq": "원수를 사랑하라",
-  "hedef": ["예수님이 하나님의 말씀을 완성하러 오셨음을 알아요.", "화가 날 때 먼저 화해해야 함을 배워요.", "나를 힘들게 하는 사람도 사랑하고 기도하는 법을 배워요."],
-  "sehneler": [
-   {"b": "말씀을 완성하러 오셨어요", "ayə": "5:17–20", "alt": "산 위에서 가르치시는 예수님", "p": ["예수님이 말씀하셨어요. “나는 하나님의 [[율법]]을 없애러 온 것이 아니라 [[완성]]하러 왔어요.”", "하나님의 말씀은 겉으로만 지키는 것이 아니라 마음으로 지키는 거예요."]},
-   {"b": "먼저 화해하세요", "ayə": "5:21–26", "alt": "다툰 친구와 화해하는 아이들", "p": ["“사람을 해치지 말라고 했지요? 나는 말해요. 마음속으로 형제에게 화를 내는 것도 잘못이에요.”", "“하나님께 예물을 드리러 왔다가 친구가 나 때문에 속상한 것이 생각나면, 먼저 가서 [[화해]]하고 오세요.”"]},
-   {"b": "십 리를 함께 가 주세요", "ayə": "5:38–42", "alt": "로마 군인의 짐을 더 멀리 들어 주는 사람", "p": ["그때 로마 군인은 사람들에게 짐을 오 리 동안 억지로 들게 할 수 있었어요.", "예수님은 말씀하셨어요. “누가 억지로 오 리를 가자고 하면 십 리를 함께 가 주세요.” 나쁜 것을 나쁜 것으로 갚지 않고, 오히려 [[선]]한 것으로 갚는 거예요."]},
-   {"b": "원수를 사랑하세요", "ayə": "5:43–48", "alt": "모든 사람 위에 해가 비치는 마을", "p": ["“너희 [[원수]]를 사랑하고, 너희를 괴롭히는 사람을 위해 [[기도]]하세요.”", "하나님은 착한 사람에게도 나쁜 사람에게도 똑같이 해를 비춰 주시고 비를 내려 주세요. 우리도 하늘 아버지를 닮은 자녀가 되어요."]}
-  ],
-  "aye": {"metn": "“너희 원수를 사랑하며 너희를 박해하는 자를 위하여 기도하라.”", "ref": "5:44", "bos": "너희 ___를 ___하며 너희를 박해하는 자를 위하여 ___하라.", "sozler": ["원수", "사랑", "기도"], "yalan": "미워"},
-  "lugat": {
-   "율법": {"i": "📜", "x": "Qanun", "m": "하나님이 모세를 통해 주신 말씀과 계명이에요.", "e": "예수님은 율법을 없애러 오지 않으셨어요."},
-   "완성": {"i": "🧩", "x": "yerinə yetirmək", "m": "모자란 것 없이 다 이루는 거예요.", "e": "예수님은 하나님의 말씀을 완성하셨어요."},
-   "화해": {"i": "🤝", "x": "barışmaq", "m": "다툰 사람과 다시 사이좋게 지내는 거예요.", "e": "먼저 가서 친구와 화해하세요."},
-   "선": {"i": "💛", "x": "yaxşılıq", "m": "착하고 좋은 것이에요.", "e": "나쁜 것을 선한 것으로 갚아요."},
-   "원수": {"i": "😠", "x": "düşmən", "m": "나를 미워하거나 괴롭히는 사람이에요.", "e": "예수님은 원수를 사랑하라고 하셨어요."},
-   "기도": {"i": "🙏", "x": "dua", "m": "하나님과 이야기하는 거예요.", "e": "나를 괴롭히는 사람을 위해서도 기도해요."}
-  },
-  "test": [
-   {"q": "예수님은 하나님의 율법을 어떻게 하러 오셨나요?", "o": ["완성하러", "없애러", "바꾸러"], "a": 0, "f": "맞아요! 말씀을 다 이루러 오셨어요."},
-   {"q": "예물을 드리다가 친구가 속상한 것이 생각나면?", "o": ["먼저 가서 화해한다", "모른 척한다", "더 큰 예물을 드린다"], "a": 0, "f": "맞아요! 화해가 먼저예요."},
-   {"q": "누가 억지로 오 리를 가자고 하면?", "o": ["십 리를 함께 간다", "도망간다", "화를 낸다"], "a": 0, "f": "맞아요! 나쁜 것을 선으로 갚아요."},
-   {"q": "하나님은 해를 누구에게 비춰 주시나요?", "o": ["착한 사람과 나쁜 사람 모두", "착한 사람에게만", "부자에게만"], "a": 0, "f": "맞아요! 하나님의 사랑은 모두에게 비쳐요."}
-  ],
-  "dusun": ["친구와 다퉜을 때 먼저 화해하기가 왜 어려울까요?", "나를 힘들게 하는 사람을 위해 기도하면 내 마음은 어떻게 될까요?", "하나님이 모든 사람에게 해를 비추신다는 것은 무엇을 알려 주나요?"],
-  "fealiyyet": {"ciz": "모든 집 위에 똑같이 비치는 해를 그려 보세요.", "b": "내가 기도할 사람", "p": "나를 힘들게 한 사람을 위해 짧은 기도를 써 보세요.", "ph": "예) 하나님, ○○가 오늘 기분이 좋게 해 주세요."},
-  "dua": "하나님, 착한 사람과 나쁜 사람 모두에게 해를 비춰 주시는 사랑에 감사합니다. 저도 다툰 친구와 먼저 화해하게 해 주세요. 저를 힘들게 하는 사람을 미워하지 않고 그 사람을 위해 기도하게 해 주세요. 예수님 이름으로 기도합니다. 아멘."
+ "no": 8,
+ "ref": "5:17–48",
+ "deq": {
+  "usaq": 40,
+  "genc": 50
  },
- "genc": {
-  "basliq": "더 깊은 의",
-  "giris": "“규칙만 안 어기면 괜찮지 않나요?” 예수님은 그보다 훨씬 깊은 곳, 마음을 보셨습니다. 그리고 가장 어려운 명령을 주셨습니다. 원수를 사랑하라.",
-  "meqsed": ["예수님이 율법을 ‘완성’하신다는 뜻을 이해해요.", "여섯 가지 “그러나 나는 너희에게 말한다”의 흐름을 설명할 수 있어요.", "내 삶에서 화해하고 원수를 사랑할 구체적인 사람을 정해요."],
-  "sehneler": [
-   {"b": "폐하러 온 것이 아니라", "ayə": "5:17–20", "alt": "산 위에서 가르치시는 예수님", "p": ["“내가 [[율법]]이나 선지자를 폐하러 온 줄로 생각하지 말라. 폐하러 온 것이 아니요 완전하게 하려 함이라.”", "당시 가장 열심 있던 사람들은 바리새인과 서기관이었어요. 예수님은 그들보다 더 나은 [[의]]가 있어야 천국에 들어간다고 하셨어요. 더 많은 규칙이 아니라 더 깊은 마음이에요."], "deep": {"b": "깊이 보기 · 일점일획", "p": "‘일점’은 히브리어 가장 작은 글자 요드, ‘일획’은 글자를 구별하는 작은 꼬리예요. 예수님은 구약을 가볍게 여기지 않으셨어요. 오히려 구약이 가리키던 목적을 자기 안에서 이루셨어요."}},
-   {"b": "분노와 화해", "ayə": "5:21–26", "alt": "다툰 친구와 화해하는 아이들", "p": ["“살인하지 말라”는 계명에 예수님은 “형제에게 노하는 자마다 심판을 받게 된다”고 덧붙이세요. 살인은 마음의 분노와 말의 멸시에서 시작돼요.", "예물을 [[제단]] 앞에 두고서라도 먼저 가서 형제와 화해하라고 하세요. 하나님과의 관계와 사람과의 관계는 따로 떼어 놓을 수 없어요."], "deep": {"b": "깊이 보기 · 여섯 대조", "p": "5:21–48에는 “옛사람에게 말한 바… 그러나 나는 너희에게 이르노니”가 여섯 번 나와요. 예수님은 랍비처럼 “누구는 이렇게 말했다”고 하지 않고 “나는 말한다”고 하세요. 율법을 주신 분의 권위예요(7:29)."}},
-   {"b": "오 리를 가자 하면", "ayə": "5:38–42", "alt": "로마 군인의 짐을 더 멀리 들어 주는 사람", "p": ["“눈은 눈으로”는 원래 복수를 제한하는 법이었어요. 예수님은 한 걸음 더 나가세요. “오른뺨을 치거든 왼뺨도 돌려 대라.”", "로마 군인은 식민지 백성에게 짐을 1마일(오 리) 동안 강제로 지게 할 수 있었어요. 예수님은 십 리를 함께 가 주라고 하세요. 억지로 하는 일을 자발적인 선으로 바꾸는 거예요."], "deep": {"b": "깊이 보기 · 약해서가 아니라", "p": "이것은 학대를 참으라는 말이 아니에요. 보복의 고리를 끊고 상대를 놀라게 하는 능동적인 사랑이에요. 위험한 상황에서는 도움을 요청하는 것도 지혜예요.", "rose": true}},
-   {"b": "원수를 사랑하라", "ayə": "5:43–48", "alt": "모든 사람 위에 해가 비치는 마을", "p": ["“네 이웃을 사랑하고 네 원수를 미워하라”는 말은 구약에 없어요. 사람들이 덧붙인 말이었어요. 예수님은 “너희 [[원수]]를 사랑하며 너희를 박해하는 자를 위하여 기도하라”고 하세요.", "하나님은 악인과 선인에게 해를 비추시고, 의로운 자와 불의한 자에게 비를 내리세요. 그래서 “너희도 [[온전]]하라”고 하세요."], "deep": {"b": "깊이 보기 · ‘온전하라’", "p": "‘텔레이오스’는 흠 하나 없는 완벽주의가 아니라 ‘목적에 이른, 다 자란’이라는 뜻이에요. 사랑의 범위가 원수까지 넓어질 때 우리는 하늘 아버지를 닮은 자녀로 자라 가요."}}
-  ],
-  "cedvel": {"b": "여섯 가지 대조", "alt": "5:21–48", "bas": ["옛사람에게 말한 바", "그러나 나는 말한다"], "set": [["살인하지 말라", "형제에게 노하지 말라"], ["간음하지 말라", "마음으로 음욕을 품지 말라"], ["이혼 증서를 주라", "아내를 쉽게 버리지 말라"], ["헛맹세하지 말라", "옳다, 아니다만 말하라"], ["눈은 눈으로", "악한 자를 대적하지 말라"], ["이웃을 사랑하라", "원수를 사랑하라"]]},
-  "aye": {"metn": "“나는 너희에게 이르노니 너희 원수를 사랑하며 너희를 박해하는 자를 위하여 기도하라. 이것이 하늘에 계신 너희 아버지의 아들이 되리니.”", "ref": "5:44–45"},
-  "lugat": {
-   "율법": {"i": "📜", "o": "헬라어 노모스, 히브리어 토라", "x": "Qanun", "s": "하나님의 가르침", "m": "‘토라’는 ‘가르침, 길 안내’라는 뜻이에요. 규칙집이 아니라 하나님 백성이 사는 길이에요.", "e": "‘율법과 선지자’는 구약 전체를 가리키는 표현이에요."},
-   "의": {"i": "⚖️", "o": "헬라어 디카이오쉬네", "x": "salehlik", "s": "하나님과 사람 앞에 바른 관계", "m": "규칙을 지킨 점수가 아니라 하나님과 이웃 앞에서 바르게 사는 삶 전체예요.", "e": "산상설교의 핵심 낱말이에요(5:6, 10, 20; 6:1, 33)."},
-   "제단": {"i": "🔥", "o": "헬라어 쒸시아스테리온", "x": "qurbangah", "s": "예물을 드리는 곳", "m": "예루살렘 성전에서 하나님께 제물을 바치던 곳이에요.", "e": "갈릴리에서 예루살렘까지는 걸어서 사흘이 걸렸어요. 그래도 먼저 화해하라고 하셨어요."},
-   "원수": {"i": "😠", "o": "헬라어 엑스트로스", "x": "düşmən", "s": "나를 미워하고 해치는 사람", "m": "개인적인 적뿐 아니라 민족의 적, 로마 군인까지 포함하는 말이었어요.", "e": "예수님은 십자가에서 자기를 못 박는 사람들을 위해 기도하셨어요(눅 23:34)."},
-   "온전": {"i": "🌳", "o": "헬라어 텔레이오스", "x": "kamil", "s": "목적에 이른, 성숙한", "m": "실수가 없는 완벽함이 아니라 사랑이 다 자라서 하나님을 닮은 상태예요.", "e": "누가복음은 같은 말씀을 “자비로운 자가 되라”로 전해요(눅 6:36)."}
+ "img": [
+  "13-dagustu-vaaz.jpg",
+  "matta/08-barisiq.jpg",
+  "matta/08-ikinci-mil.jpg",
+  "matta/08-gunes.jpg"
+ ],
+ "hero": 3,
+ "ko": {
+  "usaq": {
+   "basliq": "원수를 사랑하라",
+   "hedef": [
+    "예수님이 하나님의 말씀을 완성하러 오셨음을 알아요.",
+    "화가 날 때 먼저 화해해야 함을 배워요.",
+    "나를 힘들게 하는 사람도 사랑하고 기도하는 법을 배워요."
+   ],
+   "sehneler": [
+    {
+     "b": "말씀을 완성하러 오셨어요",
+     "ayə": "5:17–20",
+     "alt": "산 위에서 가르치시는 예수님",
+     "p": [
+      "예수님이 말씀하셨어요. “나는 하나님의 [[율법]]을 없애러 온 것이 아니라 [[완성]]하러 왔어요.”",
+      "하나님의 말씀은 겉으로만 지키는 것이 아니라 마음으로 지키는 거예요."
+     ]
+    },
+    {
+     "b": "먼저 화해하세요",
+     "ayə": "5:21–26",
+     "alt": "다툰 친구와 화해하는 아이들",
+     "p": [
+      "“사람을 해치지 말라고 했지요? 나는 말해요. 마음속으로 형제에게 화를 내는 것도 잘못이에요.”",
+      "“하나님께 예물을 드리러 왔다가 친구가 나 때문에 속상한 것이 생각나면, 먼저 가서 [[화해]]하고 오세요.”"
+     ]
+    },
+    {
+     "b": "십 리를 함께 가 주세요",
+     "ayə": "5:38–42",
+     "alt": "로마 군인의 짐을 더 멀리 들어 주는 사람",
+     "p": [
+      "그때 로마 군인은 사람들에게 짐을 오 리 동안 억지로 들게 할 수 있었어요.",
+      "예수님은 말씀하셨어요. “누가 억지로 오 리를 가자고 하면 십 리를 함께 가 주세요.” 나쁜 것을 나쁜 것으로 갚지 않고, 오히려 [[선]]한 것으로 갚는 거예요."
+     ]
+    },
+    {
+     "b": "원수를 사랑하세요",
+     "ayə": "5:43–48",
+     "alt": "모든 사람 위에 해가 비치는 마을",
+     "p": [
+      "“너희 [[원수]]를 사랑하고, 너희를 괴롭히는 사람을 위해 [[기도]]하세요.”",
+      "하나님은 착한 사람에게도 나쁜 사람에게도 똑같이 해를 비춰 주시고 비를 내려 주세요. 우리도 하늘 아버지를 닮은 자녀가 되어요."
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "“너희 원수를 사랑하며 너희를 박해하는 자를 위하여 기도하라.”",
+    "ref": "5:44",
+    "bos": "너희 ___를 ___하며 너희를 박해하는 자를 위하여 ___하라.",
+    "sozler": [
+     "원수",
+     "사랑",
+     "기도"
+    ],
+    "yalan": "미워"
+   },
+   "lugat": {
+    "율법": {
+     "i": "📜",
+     "x": "Qanun",
+     "m": "하나님이 모세를 통해 주신 말씀과 계명이에요.",
+     "e": "예수님은 율법을 없애러 오지 않으셨어요."
+    },
+    "완성": {
+     "i": "🧩",
+     "x": "yerinə yetirmək",
+     "m": "모자란 것 없이 다 이루는 거예요.",
+     "e": "예수님은 하나님의 말씀을 완성하셨어요."
+    },
+    "화해": {
+     "i": "🤝",
+     "x": "barışmaq",
+     "m": "다툰 사람과 다시 사이좋게 지내는 거예요.",
+     "e": "먼저 가서 친구와 화해하세요."
+    },
+    "선": {
+     "i": "💛",
+     "x": "yaxşılıq",
+     "m": "착하고 좋은 것이에요.",
+     "e": "나쁜 것을 선한 것으로 갚아요."
+    },
+    "원수": {
+     "i": "😠",
+     "x": "düşmən",
+     "m": "나를 미워하거나 괴롭히는 사람이에요.",
+     "e": "예수님은 원수를 사랑하라고 하셨어요."
+    },
+    "기도": {
+     "i": "🙏",
+     "x": "dua",
+     "m": "하나님과 이야기하는 거예요.",
+     "e": "나를 괴롭히는 사람을 위해서도 기도해요."
+    }
+   },
+   "test": [
+    {
+     "q": "예수님은 하나님의 율법을 어떻게 하러 오셨나요?",
+     "o": [
+      "완성하러",
+      "없애러",
+      "바꾸러"
+     ],
+     "a": 0,
+     "f": "맞아요! 말씀을 다 이루러 오셨어요."
+    },
+    {
+     "q": "예물을 드리다가 친구가 속상한 것이 생각나면?",
+     "o": [
+      "먼저 가서 화해한다",
+      "모른 척한다",
+      "더 큰 예물을 드린다"
+     ],
+     "a": 0,
+     "f": "맞아요! 화해가 먼저예요."
+    },
+    {
+     "q": "누가 억지로 오 리를 가자고 하면?",
+     "o": [
+      "십 리를 함께 간다",
+      "도망간다",
+      "화를 낸다"
+     ],
+     "a": 0,
+     "f": "맞아요! 나쁜 것을 선으로 갚아요."
+    },
+    {
+     "q": "하나님은 해를 누구에게 비춰 주시나요?",
+     "o": [
+      "착한 사람과 나쁜 사람 모두",
+      "착한 사람에게만",
+      "부자에게만"
+     ],
+     "a": 0,
+     "f": "맞아요! 하나님의 사랑은 모두에게 비쳐요."
+    }
+   ],
+   "dusun": [
+    "친구와 다퉜을 때 먼저 화해하기가 왜 어려울까요?",
+    "나를 힘들게 하는 사람을 위해 기도하면 내 마음은 어떻게 될까요?",
+    "하나님이 모든 사람에게 해를 비추신다는 것은 무엇을 알려 주나요?"
+   ],
+   "fealiyyet": {
+    "ciz": "모든 집 위에 똑같이 비치는 해를 그려 보세요.",
+    "b": "내가 기도할 사람",
+    "p": "나를 힘들게 한 사람을 위해 짧은 기도를 써 보세요.",
+    "ph": "예) 하나님, ○○가 오늘 기분이 좋게 해 주세요."
+   },
+   "dua": "하나님, 착한 사람과 나쁜 사람 모두에게 해를 비춰 주시는 사랑에 감사합니다. 저도 다툰 친구와 먼저 화해하게 해 주세요. 저를 힘들게 하는 사람을 미워하지 않고 그 사람을 위해 기도하게 해 주세요. 예수님 이름으로 기도합니다. 아멘."
   },
-  "test": [
-   {"q": "예수님은 율법과 선지자를 어떻게 하러 오셨나요?", "o": ["완전하게 하러", "폐하러", "새로 쓰러"], "a": 0, "f": "맞아요. 구약이 가리키던 목적을 이루셨어요."},
-   {"q": "5:21–48에 여섯 번 반복되는 표현은?", "o": ["그러나 나는 너희에게 이르노니", "회개하라 천국이 가까웠느니라", "복이 있나니"], "a": 0, "f": "맞아요. 율법을 주신 분의 권위예요."},
-   {"q": "예물을 드리다가 형제와의 문제가 생각나면?", "o": ["먼저 가서 화해한다", "예물을 두 배로 드린다", "기도만 한다"], "a": 0, "f": "맞아요. 사람과의 관계도 예배의 일부예요."},
-   {"q": "‘오 리를 가게 하거든’의 배경은?", "o": ["로마 군인의 강제 짐 나르기", "성전 순례길", "장사꾼의 배달"], "a": 0, "f": "맞아요. 억지를 자발적인 선으로 바꿔요."},
-   {"q": "5:48의 ‘온전하라’에 가장 가까운 뜻은?", "o": ["사랑이 다 자라 하나님을 닮아라", "실수를 하나도 하지 마라", "규칙을 더 만들어라"], "a": 0, "f": "맞아요. 원수까지 품는 성숙한 사랑이에요."}
-  ],
-  "paylas": ["“규칙만 안 어기면 된다”는 생각과 예수님의 ‘더 나은 의’는 어떻게 다른가요?", "지금 먼저 찾아가 화해해야 할 사람이 있나요? 무엇이 나를 망설이게 하나요?", "온라인에서 나를 무시하거나 공격한 사람에게 ‘십 리를 가는’ 반응은 어떤 모습일까요?", "원수를 위해 기도한다는 것이 내 마음에 어떤 변화를 줄 수 있을까요?"],
-  "etiraf": {"b": "나의 고백", "p": "나에게 ‘원수’처럼 느껴지는 사람(이름은 쓰지 않아도 돼요)을 떠올리며, 그를 위한 기도를 서너 문장으로 써 보세요.", "ph": "예) 하나님, 그 친구를 생각하면 아직 화가 나요. 그래도 그 친구가 …"},
-  "dua": "아버지 하나님, 악인과 선인 모두에게 해를 비추시는 사랑에 감사합니다. 겉만이 아니라 마음까지 바르게 살게 해 주세요. 먼저 화해할 용기를 주시고, 제가 미워하는 사람을 위해 기도할 수 있게 해 주세요. 원수를 위해 기도하신 예수님 이름으로 기도합니다. 아멘."
- }
-},
-"az": {
- "usaq": {
-  "basliq": "Düşmənlərinizi sevin",
-  "hedef": ["İsanın Allahın Kəlamını yerinə yetirməyə gəldiyini öyrənəcəyik.", "Hirsləndikdə əvvəlcə barışmağın vacib olduğunu öyrənəcəyik.", "Bizi incidən insanları da sevməyi və onlar üçün dua etməyi öyrənəcəyik."],
-  "sehneler": [
-   {"b": "Kəlamı yerinə yetirməyə gəldi", "ayə": "Matta 5:17–20", "alt": "Dağda öyrədən İsa", "p": ["İsa dedi: “Mən Allahın [[Qanun]]unu ləğv etməyə deyil, [[yerinə yetirməyə|yerinə yetirmək]] gəldim.”", "Allahın Kəlamına yalnız zahirən deyil, ürəkdən əməl etmək lazımdır."]},
-   {"b": "Əvvəlcə barışın", "ayə": "Matta 5:21–26", "alt": "Küsülü dostu ilə barışan uşaqlar", "p": ["“Sizə “adam öldürmə” deyilib. Mən isə deyirəm: qəlbində qardaşına hirslənmək də günahdır.”", "“Allaha hədiyyə gətirəndə dostunun səndən incik olduğunu xatırlasan, əvvəlcə gedib onunla [[barış]], sonra gəl.”"]},
-   {"b": "Onunla iki mil get", "ayə": "Matta 5:38–42", "alt": "Roma əsgərinin yükünü daha uzağa aparan adam", "p": ["O vaxt Roma əsgəri insanları bir mil yolu öz yükünü daşımağa məcbur edə bilərdi.", "İsa dedi: “Kim səni bir mil getməyə məcbur edərsə, onunla iki mil get.” Pisliyə pisliklə deyil, [[yaxşılıq]]la cavab vermək lazımdır."]},
-   {"b": "Düşmənlərinizi sevin", "ayə": "Matta 5:43–48", "alt": "Hamının üzərinə günəş parlayan kənd", "p": ["“[[Düşmən]]lərinizi sevin və sizi təqib edənlər üçün [[dua]] edin.”", "Allah günəşini həm yaxşıların, həm də pislərin üzərinə doğdurur, yağışını hamıya yağdırır. Biz də Səmavi Atamıza bənzəyən övladlar oluruq."]}
-  ],
-  "aye": {"metn": "“Düşmənlərinizi sevin, sizi təqib edənlər üçün dua edin.”", "ref": "5:44", "bos": "___ sevin, sizi təqib edənlər üçün ___ ___.", "sozler": ["Düşmənlərinizi", "dua", "edin"], "yalan": "qaçın"},
-  "lugat": {
-   "Qanun": {"i": "📜", "x": "율법", "m": "Allahın Musa vasitəsilə verdiyi sözlər və əmrlərdir.", "e": "İsa Qanunu ləğv etməyə gəlmədi."},
-   "yerinə yetirmək": {"i": "🧩", "x": "완성하다", "m": "Bir işi əskiksiz, tam etməkdir.", "e": "İsa Allahın Kəlamını yerinə yetirdi."},
-   "barış": {"i": "🤝", "x": "화해하다", "m": "Küsdüyün adamla yenidən mehriban olmaqdır.", "e": "Əvvəlcə gedib dostunla barış."},
-   "yaxşılıq": {"i": "💛", "x": "선", "m": "Xeyirli və gözəl işdir.", "e": "Pisliyə yaxşılıqla cavab veririk."},
-   "düşmən": {"i": "😠", "x": "원수", "m": "Bizə nifrət edən və ya bizi incidən adamdır.", "e": "İsa düşmənləri sevməyi öyrətdi."},
-   "dua": {"i": "🙏", "x": "기도", "m": "Allahla danışmaqdır.", "e": "Bizi incidənlər üçün də dua edirik."}
-  },
-  "test": [
-   {"q": "İsa Allahın Qanununu nə etməyə gəldi?", "o": ["Yerinə yetirməyə", "Ləğv etməyə", "Dəyişməyə"], "a": 0, "f": "Düzdür! Kəlamı tamamilə yerinə yetirməyə gəldi."},
-   {"q": "Hədiyyə gətirəndə dostunun incik olduğunu xatırlasan nə etməlisən?", "o": ["Əvvəlcə gedib barışmalı", "Özünü görməzliyə vurmalı", "Daha böyük hədiyyə verməli"], "a": 0, "f": "Düzdür! Əvvəl barışmaq lazımdır."},
-   {"q": "Kim səni bir mil getməyə məcbur edərsə?", "o": ["Onunla iki mil get", "Qaç", "Hirslən"], "a": 0, "f": "Düzdür! Pisliyə yaxşılıqla cavab veririk."},
-   {"q": "Allah günəşini kimin üzərinə doğdurur?", "o": ["Həm yaxşıların, həm pislərin", "Yalnız yaxşıların", "Yalnız varlıların"], "a": 0, "f": "Düzdür! Allahın məhəbbəti hamıya parlayır."}
-  ],
-  "dusun": ["Dostunla küsəndə əvvəlcə barışmaq niyə çətindir?", "Səni incidən adam üçün dua etsən, ürəyin necə olar?", "Allahın günəşi hamıya doğdurması bizə nə öyrədir?"],
-  "fealiyyet": {"ciz": "Bütün evlərin üzərinə eyni cür parlayan günəşi çək.", "b": "Kimin üçün dua edəcəksən?", "p": "Dua edəcəyin adamı seç.", "ph": "",
-   "secim": {"basliq": "Kimin üçün dua edəcəksən?", "izah": "Toxun və seç. Bir neçəsini seçə bilərsən.", "cumle": "Mən {x} üçün dua edəcəyəm və ona yaxşılıq edəcəyəm!", "bos": "mənə acıq verən uşaq", "bag": "və",
-    "secimler": [["😠", "mənə acıq verən uşaq"], ["🗣️", "məni ələ salan uşaq"], ["🤜", "mənimlə dalaşan dostum"], ["🙅", "mənimlə oynamayan uşaq"], ["😤", "küsdüyüm qardaşım"], ["😒", "küsdüyüm bacım"]]}},
-  "dua": "Allahım, günəşini həm yaxşıların, həm də pislərin üzərinə doğduran məhəbbətinə görə Sənə şükür edirəm. Küsdüyüm dostumla əvvəlcə barışmağıma kömək et. Məni incidən insanlara nifrət etməyim, onlar üçün dua edim. İsa Məsihin adı ilə dua edirəm. Amin."
+  "genc": {
+   "basliq": "더 깊은 의",
+   "giris": "“규칙만 안 어기면 괜찮지 않나요?” 예수님은 그보다 훨씬 깊은 곳, 마음을 보셨습니다. 그리고 가장 어려운 명령을 주셨습니다. 원수를 사랑하라.",
+   "meqsed": [
+    "예수님이 율법을 ‘완성’하신다는 뜻을 이해해요.",
+    "여섯 가지 “그러나 나는 너희에게 말한다”의 흐름을 설명할 수 있어요.",
+    "내 삶에서 화해하고 원수를 사랑할 구체적인 사람을 정해요."
+   ],
+   "sehneler": [
+    {
+     "b": "폐하러 온 것이 아니라",
+     "ayə": "5:17–20",
+     "alt": "산 위에서 가르치시는 예수님",
+     "p": [
+      "“내가 [[율법]]이나 선지자를 폐하러 온 줄로 생각하지 말라. 폐하러 온 것이 아니요 완전하게 하려 함이라.”",
+      "당시 가장 열심 있던 사람들은 바리새인과 서기관이었어요. 예수님은 그들보다 더 나은 [[의]]가 있어야 천국에 들어간다고 하셨어요. 더 많은 규칙이 아니라 더 깊은 마음이에요."
+     ],
+     "deep": {
+      "b": "깊이 보기 · 일점일획",
+      "p": "‘일점’은 히브리어 가장 작은 글자 요드, ‘일획’은 글자를 구별하는 작은 꼬리예요. 예수님은 구약을 가볍게 여기지 않으셨어요. 오히려 구약이 가리키던 목적을 자기 안에서 이루셨어요."
+     }
+    },
+    {
+     "b": "분노와 화해",
+     "ayə": "5:21–26",
+     "alt": "다툰 친구와 화해하는 아이들",
+     "p": [
+      "“살인하지 말라”는 계명에 예수님은 “형제에게 노하는 자마다 심판을 받게 된다”고 덧붙이세요. 살인은 마음의 분노와 말의 멸시에서 시작돼요.",
+      "예물을 [[제단]] 앞에 두고서라도 먼저 가서 형제와 화해하라고 하세요. 하나님과의 관계와 사람과의 관계는 따로 떼어 놓을 수 없어요."
+     ],
+     "deep": {
+      "b": "깊이 보기 · 여섯 대조",
+      "p": "5:21–48에는 “옛사람에게 말한 바… 그러나 나는 너희에게 이르노니”가 여섯 번 나와요. 예수님은 랍비처럼 “누구는 이렇게 말했다”고 하지 않고 “나는 말한다”고 하세요. 율법을 주신 분의 권위예요(7:29)."
+     }
+    },
+    {
+     "b": "오 리를 가자 하면",
+     "ayə": "5:38–42",
+     "alt": "로마 군인의 짐을 더 멀리 들어 주는 사람",
+     "p": [
+      "“눈은 눈으로”는 원래 복수를 제한하는 법이었어요. 예수님은 한 걸음 더 나가세요. “오른뺨을 치거든 왼뺨도 돌려 대라.”",
+      "로마 군인은 식민지 백성에게 짐을 1마일(오 리) 동안 강제로 지게 할 수 있었어요. 예수님은 십 리를 함께 가 주라고 하세요. 억지로 하는 일을 자발적인 선으로 바꾸는 거예요."
+     ],
+     "deep": {
+      "b": "깊이 보기 · 약해서가 아니라",
+      "p": "이것은 학대를 참으라는 말이 아니에요. 보복의 고리를 끊고 상대를 놀라게 하는 능동적인 사랑이에요. 위험한 상황에서는 도움을 요청하는 것도 지혜예요.",
+      "rose": true
+     }
+    },
+    {
+     "b": "원수를 사랑하라",
+     "ayə": "5:43–48",
+     "alt": "모든 사람 위에 해가 비치는 마을",
+     "p": [
+      "“네 이웃을 사랑하고 네 원수를 미워하라”는 말은 구약에 없어요. 사람들이 덧붙인 말이었어요. 예수님은 “너희 [[원수]]를 사랑하며 너희를 박해하는 자를 위하여 기도하라”고 하세요.",
+      "하나님은 악인과 선인에게 해를 비추시고, 의로운 자와 불의한 자에게 비를 내리세요. 그래서 “너희도 [[온전]]하라”고 하세요."
+     ],
+     "deep": {
+      "b": "깊이 보기 · ‘온전하라’",
+      "p": "‘텔레이오스’는 흠 하나 없는 완벽주의가 아니라 ‘목적에 이른, 다 자란’이라는 뜻이에요. 사랑의 범위가 원수까지 넓어질 때 우리는 하늘 아버지를 닮은 자녀로 자라 가요."
+     }
+    }
+   ],
+   "cedvel": {
+    "b": "여섯 가지 대조",
+    "alt": "5:21–48",
+    "bas": [
+     "옛사람에게 말한 바",
+     "그러나 나는 말한다"
+    ],
+    "set": [
+     [
+      "살인하지 말라",
+      "형제에게 노하지 말라"
+     ],
+     [
+      "간음하지 말라",
+      "마음으로 음욕을 품지 말라"
+     ],
+     [
+      "이혼 증서를 주라",
+      "아내를 쉽게 버리지 말라"
+     ],
+     [
+      "헛맹세하지 말라",
+      "옳다, 아니다만 말하라"
+     ],
+     [
+      "눈은 눈으로",
+      "악한 자를 대적하지 말라"
+     ],
+     [
+      "이웃을 사랑하라",
+      "원수를 사랑하라"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "“나는 너희에게 이르노니 너희 원수를 사랑하며 너희를 박해하는 자를 위하여 기도하라. 이것이 하늘에 계신 너희 아버지의 아들이 되리니.”",
+    "ref": "5:44–45"
+   },
+   "lugat": {
+    "율법": {
+     "i": "📜",
+     "o": "헬라어 노모스, 히브리어 토라",
+     "x": "Qanun",
+     "s": "하나님의 가르침",
+     "m": "‘토라’는 ‘가르침, 길 안내’라는 뜻이에요. 규칙집이 아니라 하나님 백성이 사는 길이에요.",
+     "e": "‘율법과 선지자’는 구약 전체를 가리키는 표현이에요."
+    },
+    "의": {
+     "i": "⚖️",
+     "o": "헬라어 디카이오쉬네",
+     "x": "salehlik",
+     "s": "하나님과 사람 앞에 바른 관계",
+     "m": "규칙을 지킨 점수가 아니라 하나님과 이웃 앞에서 바르게 사는 삶 전체예요.",
+     "e": "산상설교의 핵심 낱말이에요(5:6, 10, 20; 6:1, 33)."
+    },
+    "제단": {
+     "i": "🔥",
+     "o": "헬라어 쒸시아스테리온",
+     "x": "qurbangah",
+     "s": "예물을 드리는 곳",
+     "m": "예루살렘 성전에서 하나님께 제물을 바치던 곳이에요.",
+     "e": "갈릴리에서 예루살렘까지는 걸어서 사흘이 걸렸어요. 그래도 먼저 화해하라고 하셨어요."
+    },
+    "원수": {
+     "i": "😠",
+     "o": "헬라어 엑스트로스",
+     "x": "düşmən",
+     "s": "나를 미워하고 해치는 사람",
+     "m": "개인적인 적뿐 아니라 민족의 적, 로마 군인까지 포함하는 말이었어요.",
+     "e": "예수님은 십자가에서 자기를 못 박는 사람들을 위해 기도하셨어요(눅 23:34)."
+    },
+    "온전": {
+     "i": "🌳",
+     "o": "헬라어 텔레이오스",
+     "x": "kamil",
+     "s": "목적에 이른, 성숙한",
+     "m": "실수가 없는 완벽함이 아니라 사랑이 다 자라서 하나님을 닮은 상태예요.",
+     "e": "누가복음은 같은 말씀을 “자비로운 자가 되라”로 전해요(눅 6:36)."
+    }
+   },
+   "test": [
+    {
+     "q": "예수님은 율법과 선지자를 어떻게 하러 오셨나요?",
+     "o": [
+      "완전하게 하러",
+      "폐하러",
+      "새로 쓰러"
+     ],
+     "a": 0,
+     "f": "맞아요. 구약이 가리키던 목적을 이루셨어요."
+    },
+    {
+     "q": "5:21–48에 여섯 번 반복되는 표현은?",
+     "o": [
+      "그러나 나는 너희에게 이르노니",
+      "회개하라 천국이 가까웠느니라",
+      "복이 있나니"
+     ],
+     "a": 0,
+     "f": "맞아요. 율법을 주신 분의 권위예요."
+    },
+    {
+     "q": "예물을 드리다가 형제와의 문제가 생각나면?",
+     "o": [
+      "먼저 가서 화해한다",
+      "예물을 두 배로 드린다",
+      "기도만 한다"
+     ],
+     "a": 0,
+     "f": "맞아요. 사람과의 관계도 예배의 일부예요."
+    },
+    {
+     "q": "‘오 리를 가게 하거든’의 배경은?",
+     "o": [
+      "로마 군인의 강제 짐 나르기",
+      "성전 순례길",
+      "장사꾼의 배달"
+     ],
+     "a": 0,
+     "f": "맞아요. 억지를 자발적인 선으로 바꿔요."
+    },
+    {
+     "q": "5:48의 ‘온전하라’에 가장 가까운 뜻은?",
+     "o": [
+      "사랑이 다 자라 하나님을 닮아라",
+      "실수를 하나도 하지 마라",
+      "규칙을 더 만들어라"
+     ],
+     "a": 0,
+     "f": "맞아요. 원수까지 품는 성숙한 사랑이에요."
+    }
+   ],
+   "paylas": [
+    "“규칙만 안 어기면 된다”는 생각과 예수님의 ‘더 나은 의’는 어떻게 다른가요?",
+    "지금 먼저 찾아가 화해해야 할 사람이 있나요? 무엇이 나를 망설이게 하나요?",
+    "온라인에서 나를 무시하거나 공격한 사람에게 ‘십 리를 가는’ 반응은 어떤 모습일까요?",
+    "원수를 위해 기도한다는 것이 내 마음에 어떤 변화를 줄 수 있을까요?"
+   ],
+   "etiraf": {
+    "b": "나의 고백",
+    "p": "나에게 ‘원수’처럼 느껴지는 사람(이름은 쓰지 않아도 돼요)을 떠올리며, 그를 위한 기도를 서너 문장으로 써 보세요.",
+    "ph": "예) 하나님, 그 친구를 생각하면 아직 화가 나요. 그래도 그 친구가 …"
+   },
+   "dua": "아버지 하나님, 악인과 선인 모두에게 해를 비추시는 사랑에 감사합니다. 겉만이 아니라 마음까지 바르게 살게 해 주세요. 먼저 화해할 용기를 주시고, 제가 미워하는 사람을 위해 기도할 수 있게 해 주세요. 원수를 위해 기도하신 예수님 이름으로 기도합니다. 아멘."
+  }
  },
- "genc": {
-  "basliq": "Daha dərin salehlik",
-  "giris": "“Qaydaları pozmasam, bəs deyilmi?” İsa isə daha dərinə, ürəyə baxdı. Və ən çətin əmri verdi: düşmənlərinizi sevin.",
-  "meqsed": ["İsanın Qanunu “yerinə yetirməsi”nin mənasını anlayırıq.", "Altı dəfə təkrarlanan “Mən isə sizə deyirəm” ifadəsinin axarını izah edə bilirik.", "Həyatımızda barışacağımız və sevəcəyimiz konkret insanı müəyyən edirik."],
-  "sehneler": [
-   {"b": "Ləğv etməyə deyil", "ayə": "Matta 5:17–20", "alt": "Dağda öyrədən İsa", "p": ["“Elə düşünməyin ki, Mən [[Qanun]]u və ya peyğəmbərlərin sözlərini ləğv etməyə gəlmişəm. Ləğv etməyə deyil, yerinə yetirməyə gəlmişəm.”", "O dövrdə ən qeyrətli insanlar fariseylər və ilahiyyatçılar idi. İsa dedi ki, Səmavi Padşahlığa girmək üçün onlarınkından üstün [[salehlik]] lazımdır. Daha çox qayda deyil, daha dərin ürək."], "deep": {"b": "Dərindən baxaq · Bir nöqtə, bir xətt", "p": "“Nöqtə” ivrit əlifbasının ən kiçik hərfi olan yod, “xətt” isə hərfləri fərqləndirən kiçik qıvrımdır. İsa Əhdi-Ətiqə yüngül baxmadı. Əksinə, Əhdi-Ətiqin göstərdiyi məqsədi Özündə yerinə yetirdi."}},
-   {"b": "Qəzəb və barışıq", "ayə": "Matta 5:21–26", "alt": "Küsülü dostu ilə barışan uşaqlar", "p": ["“Adam öldürmə” əmrinə İsa əlavə edir: “Qardaşına qəzəblənən hər kəs mühakimə olunacaq.” Qətl ürəkdəki qəzəbdən və sözlə alçaltmaqdan başlayır.", "Hədiyyəni [[qurbangah]] qarşısında qoyub belə, əvvəlcə gedib qardaşınla barışmağı deyir. Allahla münasibəti insanlarla münasibətdən ayırmaq olmaz."], "deep": {"b": "Dərindən baxaq · Altı müqayisə", "p": "5:21–48-də “Qədimlərə deyildiyini eşitmisiniz… Mən isə sizə deyirəm” altı dəfə təkrarlanır. İsa ravvilər kimi “filankəs belə dedi” demir, “Mən deyirəm” deyir. Bu, Qanunu verənin səlahiyyətidir (7:29)."}},
-   {"b": "Bir mil getməyə məcbur edərsə", "ayə": "Matta 5:38–42", "alt": "Roma əsgərinin yükünü daha uzağa aparan adam", "p": ["“Gözə göz” əslində intiqamı məhdudlaşdıran qanun idi. İsa bir addım irəli gedir: “Kim sənin sağ yanağına vurarsa, o birini də ona çevir.”", "Roma əsgəri işğal olunmuş xalqın adamını bir mil yük daşımağa məcbur edə bilərdi. İsa onunla iki mil getməyi deyir. Məcburi işi könüllü yaxşılığa çevirmək."], "deep": {"b": "Dərindən baxaq · Zəiflikdən deyil", "p": "Bu, zorakılığa dözün demək deyil. Bu, intiqam zəncirini qıran və qarşı tərəfi təəccübləndirən fəal məhəbbətdir. Təhlükəli vəziyyətdə kömək istəmək də müdriklikdir.", "rose": true}},
-   {"b": "Düşmənlərinizi sevin", "ayə": "Matta 5:43–48", "alt": "Hamının üzərinə günəş parlayan kənd", "p": ["“Qonşunu sev, düşməninə nifrət et” sözü Əhdi-Ətiqdə yoxdur. Bunu insanlar əlavə etmişdi. İsa deyir: “[[Düşmən]]lərinizi sevin, sizi təqib edənlər üçün dua edin.”", "Allah günəşini pislərin də, yaxşıların da üzərinə doğdurur, yağışını salehlərə də, haqsızlara da yağdırır. Buna görə deyir: “Siz də [[kamil]] olun.”"], "deep": {"b": "Dərindən baxaq · “Kamil olun”", "p": "“Teleios” heç bir qüsursuz mükəmməllik deyil, “məqsədə çatmış, yetkin” deməkdir. Məhəbbətimiz düşmənə qədər genişlənəndə biz Səmavi Atamıza bənzəyən övladlar kimi böyüyürük."}}
-  ],
-  "cedvel": {"b": "Altı müqayisə", "alt": "5:21–48", "bas": ["Qədimlərə deyilib", "Mən isə sizə deyirəm"], "set": [["Adam öldürmə", "Qardaşına qəzəblənmə"], ["Zina etmə", "Ürəyində şəhvətlə baxma"], ["Boşanma kağızı ver", "Arvadını asanlıqla boşama"], ["Yalandan and içmə", "Yalnız “hə” və ya “yox” de"], ["Gözə göz", "Pis insana pisliklə qarşı durma"], ["Qonşunu sev", "Düşmənlərini sev"]]},
-  "aye": {"metn": "“Mən isə sizə deyirəm: düşmənlərinizi sevin, sizi təqib edənlər üçün dua edin ki, göylərdə olan Atanızın övladları olasınız.”", "ref": "5:44–45"},
-  "lugat": {
-   "Qanun": {"i": "📜", "o": "Yunanca nomos, ivritcə Tövrat", "x": "율법", "s": "Allahın təlimi", "m": "“Tövrat” sözü “təlim, yol göstərmə” deməkdir. Qaydalar kitabı deyil, Allahın xalqının yaşayış yoludur.", "e": "“Qanun və peyğəmbərlər” bütün Əhdi-Ətiqi bildirən ifadədir."},
-   "salehlik": {"i": "⚖️", "o": "Yunanca dikayosine", "x": "의", "s": "Allah və insanlar qarşısında düzgün münasibət", "m": "Qaydalara əməl etməyin balı deyil, Allah və qonşu qarşısında düzgün yaşanan bütün həyatdır.", "e": "Dağüstü vəzin əsas sözlərindəndir (5:6, 10, 20; 6:1, 33)."},
-   "qurbangah": {"i": "🔥", "o": "Yunanca fisiastirion", "x": "제단", "s": "Hədiyyə təqdim olunan yer", "m": "Yerusəlim məbədində Allaha qurban təqdim edilən yer idi.", "e": "Qalileyadan Yerusəlimə piyada üç gün yol idi. Yenə də İsa əvvəlcə barışmağı dedi."},
-   "düşmən": {"i": "😠", "o": "Yunanca extros", "x": "원수", "s": "Bizə nifrət edən və zərər verən", "m": "Təkcə şəxsi düşmənləri deyil, xalqın düşmənlərini, Roma əsgərlərini də əhatə edən söz idi.", "e": "İsa çarmıxda Onu mıxlayanlar üçün dua etdi (Luka 23:34)."},
-   "kamil": {"i": "🌳", "o": "Yunanca teleios", "x": "온전한", "s": "Məqsədə çatmış, yetkin", "m": "Səhvsiz mükəmməllik deyil, məhəbbəti tam böyüyüb Allaha bənzəyən vəziyyətdir.", "e": "Luka eyni sözü “mərhəmətli olun” kimi verir (Luka 6:36)."}
+ "az": {
+  "usaq": {
+   "basliq": "Düşmənlərinizi sevin",
+   "hedef": [
+    "İsanın Allahın Kəlamını yerinə yetirməyə gəldiyini öyrənəcəyik.",
+    "Hirsləndikdə əvvəlcə barışmağın vacib olduğunu öyrənəcəyik.",
+    "Bizi incidən insanları da sevməyi və onlar üçün dua etməyi öyrənəcəyik."
+   ],
+   "sehneler": [
+    {
+     "b": "Kəlamı yerinə yetirməyə gəldi",
+     "ayə": "Matta 5:17–20",
+     "alt": "Dağda öyrədən İsa",
+     "p": [
+      "İsa dedi: “Mən Allahın [[Qanun]]unu ləğv etməyə deyil, [[yerinə yetirməyə|yerinə yetirmək]] gəldim.”",
+      "Allahın Kəlamına yalnız zahirən deyil, ürəkdən əməl etmək lazımdır."
+     ]
+    },
+    {
+     "b": "Əvvəlcə barışın",
+     "ayə": "Matta 5:21–26",
+     "alt": "Küsülü dostu ilə barışan uşaqlar",
+     "p": [
+      "“Sizə “adam öldürmə” deyilib. Mən isə deyirəm: qəlbində qardaşına hirslənmək də günahdır.”",
+      "“Allaha hədiyyə gətirəndə dostunun səndən incik olduğunu xatırlasan, əvvəlcə gedib onunla [[barış]], sonra gəl.”"
+     ]
+    },
+    {
+     "b": "Onunla iki mil get",
+     "ayə": "Matta 5:38–42",
+     "alt": "Roma əsgərinin yükünü daha uzağa aparan adam",
+     "p": [
+      "O vaxt Roma əsgəri insanları bir mil yolu öz yükünü daşımağa məcbur edə bilərdi.",
+      "İsa dedi: “Kim səni bir mil getməyə məcbur edərsə, onunla iki mil get.” Pisliyə pisliklə deyil, [[yaxşılıq]]la cavab vermək lazımdır."
+     ]
+    },
+    {
+     "b": "Düşmənlərinizi sevin",
+     "ayə": "Matta 5:43–48",
+     "alt": "Hamının üzərinə günəş parlayan kənd",
+     "p": [
+      "“[[Düşmən]]lərinizi sevin və sizi təqib edənlər üçün [[dua]] edin.”",
+      "Allah günəşini həm yaxşıların, həm də pislərin üzərinə doğdurur, yağışını hamıya yağdırır. Biz də Səmavi Atamıza bənzəyən övladlar oluruq."
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "“Düşmənlərinizi sevin, sizi təqib edənlər üçün dua edin.”",
+    "ref": "5:44",
+    "bos": "___ sevin, sizi təqib edənlər üçün ___ ___.",
+    "sozler": [
+     "Düşmənlərinizi",
+     "dua",
+     "edin"
+    ],
+    "yalan": "qaçın"
+   },
+   "lugat": {
+    "Qanun": {
+     "i": "📜",
+     "x": "율법",
+     "m": "Allahın Musa vasitəsilə verdiyi sözlər və əmrlərdir.",
+     "e": "İsa Qanunu ləğv etməyə gəlmədi."
+    },
+    "yerinə yetirmək": {
+     "i": "🧩",
+     "x": "완성하다",
+     "m": "Bir işi əskiksiz, tam etməkdir.",
+     "e": "İsa Allahın Kəlamını yerinə yetirdi."
+    },
+    "barış": {
+     "i": "🤝",
+     "x": "화해하다",
+     "m": "Küsdüyün adamla yenidən mehriban olmaqdır.",
+     "e": "Əvvəlcə gedib dostunla barış."
+    },
+    "yaxşılıq": {
+     "i": "💛",
+     "x": "선",
+     "m": "Xeyirli və gözəl işdir.",
+     "e": "Pisliyə yaxşılıqla cavab veririk."
+    },
+    "düşmən": {
+     "i": "😠",
+     "x": "원수",
+     "m": "Bizə nifrət edən və ya bizi incidən adamdır.",
+     "e": "İsa düşmənləri sevməyi öyrətdi."
+    },
+    "dua": {
+     "i": "🙏",
+     "x": "기도",
+     "m": "Allahla danışmaqdır.",
+     "e": "Bizi incidənlər üçün də dua edirik."
+    }
+   },
+   "test": [
+    {
+     "q": "İsa Allahın Qanununu nə etməyə gəldi?",
+     "o": [
+      "Yerinə yetirməyə",
+      "Ləğv etməyə",
+      "Dəyişməyə"
+     ],
+     "a": 0,
+     "f": "Düzdür! Kəlamı tamamilə yerinə yetirməyə gəldi."
+    },
+    {
+     "q": "Hədiyyə gətirəndə dostunun incik olduğunu xatırlasan nə etməlisən?",
+     "o": [
+      "Əvvəlcə gedib barışmalı",
+      "Özünü görməzliyə vurmalı",
+      "Daha böyük hədiyyə verməli"
+     ],
+     "a": 0,
+     "f": "Düzdür! Əvvəl barışmaq lazımdır."
+    },
+    {
+     "q": "Kim səni bir mil getməyə məcbur edərsə?",
+     "o": [
+      "Onunla iki mil get",
+      "Qaç",
+      "Hirslən"
+     ],
+     "a": 0,
+     "f": "Düzdür! Pisliyə yaxşılıqla cavab veririk."
+    },
+    {
+     "q": "Allah günəşini kimin üzərinə doğdurur?",
+     "o": [
+      "Həm yaxşıların, həm pislərin",
+      "Yalnız yaxşıların",
+      "Yalnız varlıların"
+     ],
+     "a": 0,
+     "f": "Düzdür! Allahın məhəbbəti hamıya parlayır."
+    }
+   ],
+   "dusun": [
+    "Dostunla küsəndə əvvəlcə barışmaq niyə çətindir?",
+    "Səni incidən adam üçün dua etsən, ürəyin necə olar?",
+    "Allahın günəşi hamıya doğdurması bizə nə öyrədir?"
+   ],
+   "fealiyyet": {
+    "ciz": "Bütün evlərin üzərinə eyni cür parlayan günəşi çək.",
+    "b": "Kimin üçün dua edəcəksən?",
+    "p": "Dua edəcəyin adamı seç.",
+    "ph": "",
+    "secim": {
+     "basliq": "Kimin üçün dua edəcəksən?",
+     "izah": "Toxun və seç. Bir neçəsini seçə bilərsən.",
+     "cumle": "Mən {x} üçün dua edəcəyəm və ona yaxşılıq edəcəyəm!",
+     "bos": "mənə acıq verən uşaq",
+     "bag": "və",
+     "secimler": [
+      [
+       "😠",
+       "mənə acıq verən uşaq"
+      ],
+      [
+       "🗣️",
+       "məni ələ salan uşaq"
+      ],
+      [
+       "🤜",
+       "mənimlə dalaşan dostum"
+      ],
+      [
+       "🙅",
+       "mənimlə oynamayan uşaq"
+      ],
+      [
+       "😤",
+       "küsdüyüm qardaşım"
+      ],
+      [
+       "😒",
+       "küsdüyüm bacım"
+      ]
+     ]
+    }
+   },
+   "dua": "Allahım, günəşini həm yaxşıların, həm də pislərin üzərinə doğduran məhəbbətinə görə Sənə şükür edirəm. Küsdüyüm dostumla əvvəlcə barışmağıma kömək et. Məni incidən insanlara nifrət etməyim, onlar üçün dua edim. İsa Məsihin adı ilə dua edirəm. Amin."
   },
-  "test": [
-   {"q": "İsa Qanunu və peyğəmbərləri nə etməyə gəldi?", "o": ["Yerinə yetirməyə", "Ləğv etməyə", "Yenidən yazmağa"], "a": 0, "f": "Düzdür. Əhdi-Ətiqin göstərdiyi məqsədi yerinə yetirdi."},
-   {"q": "5:21–48-də altı dəfə təkrarlanan ifadə hansıdır?", "o": ["Mən isə sizə deyirəm", "Tövbə edin, Səmavi Padşahlıq yaxınlaşıb", "Nə bəxtiyardır"], "a": 0, "f": "Düzdür. Qanunu verənin səlahiyyəti."},
-   {"q": "Hədiyyə gətirəndə qardaşınla problemi xatırlasan?", "o": ["Əvvəlcə gedib barış", "Hədiyyəni ikiqat ver", "Yalnız dua et"], "a": 0, "f": "Düzdür. İnsanlarla münasibət də ibadətin bir hissəsidir."},
-   {"q": "“Bir mil getməyə məcbur edərsə” ifadəsinin arxa planı nədir?", "o": ["Roma əsgərinin məcburi yük daşıtması", "Məbəd ziyarəti yolu", "Tacirin çatdırması"], "a": 0, "f": "Düzdür. Məcburiyyəti könüllü yaxşılığa çevirmək."},
-   {"q": "5:48-dəki “kamil olun” ifadəsinə ən yaxın məna hansıdır?", "o": ["Məhəbbətin yetkinləşib Allaha bənzə", "Heç bir səhv etmə", "Daha çox qayda qoy"], "a": 0, "f": "Düzdür. Düşməni də əhatə edən yetkin məhəbbət."}
+  "genc": {
+   "basliq": "Daha dərin salehlik",
+   "giris": "“Qaydaları pozmasam, bəs deyilmi?” İsa isə daha dərinə, ürəyə baxdı. Və ən çətin əmri verdi: düşmənlərinizi sevin.",
+   "meqsed": [
+    "İsanın Qanunu “yerinə yetirməsi”nin mənasını anlayırıq.",
+    "Altı dəfə təkrarlanan “Mən isə sizə deyirəm” ifadəsinin axarını izah edə bilirik.",
+    "Həyatımızda barışacağımız və sevəcəyimiz konkret insanı müəyyən edirik."
+   ],
+   "sehneler": [
+    {
+     "b": "Ləğv etməyə deyil",
+     "ayə": "Matta 5:17–20",
+     "alt": "Dağda öyrədən İsa",
+     "p": [
+      "“Elə düşünməyin ki, Mən [[Qanun]]u və ya peyğəmbərlərin sözlərini ləğv etməyə gəlmişəm. Ləğv etməyə deyil, yerinə yetirməyə gəlmişəm.”",
+      "O dövrdə ən qeyrətli insanlar fariseylər və ilahiyyatçılar idi. İsa dedi ki, Səmavi Padşahlığa girmək üçün onlarınkından üstün [[salehlik]] lazımdır. Daha çox qayda deyil, daha dərin ürək."
+     ],
+     "deep": {
+      "b": "Dərindən baxaq · Bir nöqtə, bir xətt",
+      "p": "“Nöqtə” ivrit əlifbasının ən kiçik hərfi olan yod, “xətt” isə hərfləri fərqləndirən kiçik qıvrımdır. İsa Əhdi-Ətiqə yüngül baxmadı. Əksinə, Əhdi-Ətiqin göstərdiyi məqsədi Özündə yerinə yetirdi."
+     }
+    },
+    {
+     "b": "Qəzəb və barışıq",
+     "ayə": "Matta 5:21–26",
+     "alt": "Küsülü dostu ilə barışan uşaqlar",
+     "p": [
+      "“Adam öldürmə” əmrinə İsa əlavə edir: “Qardaşına qəzəblənən hər kəs mühakimə olunacaq.” Qətl ürəkdəki qəzəbdən və sözlə alçaltmaqdan başlayır.",
+      "Hədiyyəni [[qurbangah]] qarşısında qoyub belə, əvvəlcə gedib qardaşınla barışmağı deyir. Allahla münasibəti insanlarla münasibətdən ayırmaq olmaz."
+     ],
+     "deep": {
+      "b": "Dərindən baxaq · Altı müqayisə",
+      "p": "5:21–48-də “Qədimlərə deyildiyini eşitmisiniz… Mən isə sizə deyirəm” altı dəfə təkrarlanır. İsa ravvilər kimi “filankəs belə dedi” demir, “Mən deyirəm” deyir. Bu, Qanunu verənin səlahiyyətidir (7:29)."
+     }
+    },
+    {
+     "b": "Bir mil getməyə məcbur edərsə",
+     "ayə": "Matta 5:38–42",
+     "alt": "Roma əsgərinin yükünü daha uzağa aparan adam",
+     "p": [
+      "“Gözə göz” əslində intiqamı məhdudlaşdıran qanun idi. İsa bir addım irəli gedir: “Kim sənin sağ yanağına vurarsa, o birini də ona çevir.”",
+      "Roma əsgəri işğal olunmuş xalqın adamını bir mil yük daşımağa məcbur edə bilərdi. İsa onunla iki mil getməyi deyir. Məcburi işi könüllü yaxşılığa çevirmək."
+     ],
+     "deep": {
+      "b": "Dərindən baxaq · Zəiflikdən deyil",
+      "p": "Bu, zorakılığa dözün demək deyil. Bu, intiqam zəncirini qıran və qarşı tərəfi təəccübləndirən fəal məhəbbətdir. Təhlükəli vəziyyətdə kömək istəmək də müdriklikdir.",
+      "rose": true
+     }
+    },
+    {
+     "b": "Düşmənlərinizi sevin",
+     "ayə": "Matta 5:43–48",
+     "alt": "Hamının üzərinə günəş parlayan kənd",
+     "p": [
+      "“Qonşunu sev, düşməninə nifrət et” sözü Əhdi-Ətiqdə yoxdur. Bunu insanlar əlavə etmişdi. İsa deyir: “[[Düşmən]]lərinizi sevin, sizi təqib edənlər üçün dua edin.”",
+      "Allah günəşini pislərin də, yaxşıların da üzərinə doğdurur, yağışını salehlərə də, haqsızlara da yağdırır. Buna görə deyir: “Siz də [[kamil]] olun.”"
+     ],
+     "deep": {
+      "b": "Dərindən baxaq · “Kamil olun”",
+      "p": "“Teleios” heç bir qüsursuz mükəmməllik deyil, “məqsədə çatmış, yetkin” deməkdir. Məhəbbətimiz düşmənə qədər genişlənəndə biz Səmavi Atamıza bənzəyən övladlar kimi böyüyürük."
+     }
+    }
+   ],
+   "cedvel": {
+    "b": "Altı müqayisə",
+    "alt": "5:21–48",
+    "bas": [
+     "Qədimlərə deyilib",
+     "Mən isə sizə deyirəm"
+    ],
+    "set": [
+     [
+      "Adam öldürmə",
+      "Qardaşına qəzəblənmə"
+     ],
+     [
+      "Zina etmə",
+      "Ürəyində şəhvətlə baxma"
+     ],
+     [
+      "Boşanma kağızı ver",
+      "Arvadını asanlıqla boşama"
+     ],
+     [
+      "Yalandan and içmə",
+      "Yalnız “hə” və ya “yox” de"
+     ],
+     [
+      "Gözə göz",
+      "Pis insana pisliklə qarşı durma"
+     ],
+     [
+      "Qonşunu sev",
+      "Düşmənlərini sev"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "“Mən isə sizə deyirəm: düşmənlərinizi sevin, sizi təqib edənlər üçün dua edin ki, göylərdə olan Atanızın övladları olasınız.”",
+    "ref": "5:44–45"
+   },
+   "lugat": {
+    "Qanun": {
+     "i": "📜",
+     "o": "Yunanca nomos, ivritcə Tövrat",
+     "x": "율법",
+     "s": "Allahın təlimi",
+     "m": "“Tövrat” sözü “təlim, yol göstərmə” deməkdir. Qaydalar kitabı deyil, Allahın xalqının yaşayış yoludur.",
+     "e": "“Qanun və peyğəmbərlər” bütün Əhdi-Ətiqi bildirən ifadədir."
+    },
+    "salehlik": {
+     "i": "⚖️",
+     "o": "Yunanca dikayosine",
+     "x": "의",
+     "s": "Allah və insanlar qarşısında düzgün münasibət",
+     "m": "Qaydalara əməl etməyin balı deyil, Allah və qonşu qarşısında düzgün yaşanan bütün həyatdır.",
+     "e": "Dağüstü vəzin əsas sözlərindəndir (5:6, 10, 20; 6:1, 33)."
+    },
+    "qurbangah": {
+     "i": "🔥",
+     "o": "Yunanca fisiastirion",
+     "x": "제단",
+     "s": "Hədiyyə təqdim olunan yer",
+     "m": "Yerusəlim məbədində Allaha qurban təqdim edilən yer idi.",
+     "e": "Qalileyadan Yerusəlimə piyada üç gün yol idi. Yenə də İsa əvvəlcə barışmağı dedi."
+    },
+    "düşmən": {
+     "i": "😠",
+     "o": "Yunanca extros",
+     "x": "원수",
+     "s": "Bizə nifrət edən və zərər verən",
+     "m": "Təkcə şəxsi düşmənləri deyil, xalqın düşmənlərini, Roma əsgərlərini də əhatə edən söz idi.",
+     "e": "İsa çarmıxda Onu mıxlayanlar üçün dua etdi (Luka 23:34)."
+    },
+    "kamil": {
+     "i": "🌳",
+     "o": "Yunanca teleios",
+     "x": "온전한",
+     "s": "Məqsədə çatmış, yetkin",
+     "m": "Səhvsiz mükəmməllik deyil, məhəbbəti tam böyüyüb Allaha bənzəyən vəziyyətdir.",
+     "e": "Luka eyni sözü “mərhəmətli olun” kimi verir (Luka 6:36)."
+    }
+   },
+   "test": [
+    {
+     "q": "İsa Qanunu və peyğəmbərləri nə etməyə gəldi?",
+     "o": [
+      "Yerinə yetirməyə",
+      "Ləğv etməyə",
+      "Yenidən yazmağa"
+     ],
+     "a": 0,
+     "f": "Düzdür. Əhdi-Ətiqin göstərdiyi məqsədi yerinə yetirdi."
+    },
+    {
+     "q": "5:21–48-də altı dəfə təkrarlanan ifadə hansıdır?",
+     "o": [
+      "Mən isə sizə deyirəm",
+      "Tövbə edin, Səmavi Padşahlıq yaxınlaşıb",
+      "Nə bəxtiyardır"
+     ],
+     "a": 0,
+     "f": "Düzdür. Qanunu verənin səlahiyyəti."
+    },
+    {
+     "q": "Hədiyyə gətirəndə qardaşınla problemi xatırlasan?",
+     "o": [
+      "Əvvəlcə gedib barış",
+      "Hədiyyəni ikiqat ver",
+      "Yalnız dua et"
+     ],
+     "a": 0,
+     "f": "Düzdür. İnsanlarla münasibət də ibadətin bir hissəsidir."
+    },
+    {
+     "q": "“Bir mil getməyə məcbur edərsə” ifadəsinin arxa planı nədir?",
+     "o": [
+      "Roma əsgərinin məcburi yük daşıtması",
+      "Məbəd ziyarəti yolu",
+      "Tacirin çatdırması"
+     ],
+     "a": 0,
+     "f": "Düzdür. Məcburiyyəti könüllü yaxşılığa çevirmək."
+    },
+    {
+     "q": "5:48-dəki “kamil olun” ifadəsinə ən yaxın məna hansıdır?",
+     "o": [
+      "Məhəbbətin yetkinləşib Allaha bənzə",
+      "Heç bir səhv etmə",
+      "Daha çox qayda qoy"
+     ],
+     "a": 0,
+     "f": "Düzdür. Düşməni də əhatə edən yetkin məhəbbət."
+    }
+   ],
+   "paylas": [
+    "“Qaydaları pozmasam bəsdir” fikri ilə İsanın “üstün salehliyi” necə fərqlənir?",
+    "İndi əvvəlcə gedib barışmalı olduğum biri varmı? Məni nə tərəddüd etdirir?",
+    "İnternetdə məni alçaldan və ya hücum edən birinə “iki mil getmək” necə görünərdi?",
+    "Düşmən üçün dua etmək ürəyimdə hansı dəyişiklik yarada bilər?"
+   ],
+   "etiraf": {
+    "b": "Mənim etirafım",
+    "p": "Sənə “düşmən” kimi görünən birini xatırla (adını yazmaya bilərsən) və onun üçün üç-dörd cümləlik dua yaz.",
+    "ph": "Məsələn: Allahım, o dostu düşünəndə hələ də hirslənirəm. Amma yenə də onun …"
+   },
+   "dua": "Səmavi Atamız, günəşini pislərin də, yaxşıların da üzərinə doğduran məhəbbətinə görə Sənə şükür edirəm. Təkcə zahirən deyil, ürəkdən düzgün yaşamağıma kömək et. Əvvəlcə barışmağa cəsarət ver və nifrət etdiyim insan üçün dua etməyi öyrət. Düşmənləri üçün dua edən İsa Məsihin adı ilə dua edirəm. Amin."
+  }
+ },
+ "muellim": {
+  "mesaj": "8과의 중심은 한 문장입니다. **예수님은 율법을 마음 깊은 곳까지 완성하시고, 그 의의 정점은 원수까지 사랑하는 하나님 아버지를 닮는 것이다.**",
+  "hazirliq": [
+   "학생용 교재를 열 휴대폰이나 태블릿, 이어폰",
+   "무거운 가방 하나 (‘오 리, 십 리’ 체험)",
+   "해 그림이나 손전등"
   ],
-  "paylas": ["“Qaydaları pozmasam bəsdir” fikri ilə İsanın “üstün salehliyi” necə fərqlənir?", "İndi əvvəlcə gedib barışmalı olduğum biri varmı? Məni nə tərəddüd etdirir?", "İnternetdə məni alçaldan və ya hücum edən birinə “iki mil getmək” necə görünərdi?", "Düşmən üçün dua etmək ürəyimdə hansı dəyişiklik yarada bilər?"],
-  "etiraf": {"b": "Mənim etirafım", "p": "Sənə “düşmən” kimi görünən birini xatırla (adını yazmaya bilərsən) və onun üçün üç-dörd cümləlik dua yaz.", "ph": "Məsələn: Allahım, o dostu düşünəndə hələ də hirslənirəm. Amma yenə də onun …"},
-  "dua": "Səmavi Atamız, günəşini pislərin də, yaxşıların da üzərinə doğduran məhəbbətinə görə Sənə şükür edirəm. Təkcə zahirən deyil, ürəkdən düzgün yaşamağıma kömək et. Əvvəlcə barışmağa cəsarət ver və nifrət etdiyim insan üçün dua etməyi öyrət. Düşmənləri üçün dua edən İsa Məsihin adı ilə dua edirəm. Amin."
+  "fon": [
+   [
+    "1. 율법의 완성",
+    "5:17의 ‘완전하게 하다’(플레로오)는 마태복음에서 예언이 ‘이루어지다’에 쓰인 같은 동사입니다. 예수님은 율법이 가리키던 목적 자체이십니다."
+   ],
+   [
+    "2. 여섯 대조",
+    "형식은 ‘옛사람에게 말한 바 … 그러나 나는’입니다. 율법을 반대하는 것이 아니라, 율법의 외적 준수에서 마음과 관계로 깊어지는 방향입니다."
+   ],
+   [
+    "3. 로마의 강제 노역",
+    "로마 군인은 지역 주민에게 1마일(약 1.5km)까지 짐을 지게 할 법적 권리가 있었습니다(앙가레이아). 시몬이 십자가를 진 것도 같은 말입니다(27:32)."
+   ],
+   [
+    "4. 원수를 미워하라?",
+    "레위기 19:18은 이웃 사랑만 명령합니다. ‘원수를 미워하라’는 당시 일부 해석(예: 쿰란 공동체)의 덧붙임이었습니다."
+   ],
+   [
+    "5. 민감한 적용",
+    "‘다른 뺨도 돌려 대라’를 폭력이나 따돌림을 참으라는 말로 오해하지 않게 하세요. 학생이 위험에 처해 있다면 즉시 어른의 도움을 받도록 안내해야 합니다."
+   ]
+  ],
+  "usaq_plan": [
+   [
+    "5분",
+    "가방 들기",
+    "한 학생이 교실 한 바퀴 가방 들기 → ‘한 바퀴 더’ 해 보기",
+    "“억지로 할 때와 기쁘게 할 때 마음이 어떻게 달라요?”"
+   ],
+   [
+    "15분",
+    "장면 1–4 듣고 읽기",
+    "장면마다 듣기, 노란 낱말 누르기",
+    "“먼저 화해하는 건 왜 용기가 필요할까요?”"
+   ],
+   [
+    "5분",
+    "외울 말씀",
+    "빈칸 놀이 → 짝과 손잡고 함께 읽기",
+    ""
+   ],
+   [
+    "5분",
+    "확인 퀴즈",
+    "혼자 풀고 함께 확인",
+    ""
+   ],
+   [
+    "10분",
+    "활동과 기도",
+    "기도할 사람 고르기 → 이름 없이 함께 기도",
+    ""
+   ]
+  ],
+  "genc_plan": [
+   [
+    "5분",
+    "열기",
+    "“규칙만 지키면 착한 사람일까?” 짧은 토론",
+    ""
+   ],
+   [
+    "15분",
+    "장면 1–2와 대조 표",
+    "율법의 완성, 여섯 대조, 분노와 화해",
+    ""
+   ],
+   [
+    "10분",
+    "장면 3–4",
+    "십 리 동행, 원수 사랑, ‘온전하라’의 뜻",
+    "“학대를 참으라는 말인가?”도 함께 다루기"
+   ],
+   [
+    "5분",
+    "확인 문제",
+    "",
+    ""
+   ],
+   [
+    "15분",
+    "나눔과 고백",
+    "나눔 질문 2개 → 원수를 위한 기도 쓰기 → 기도",
+    ""
+   ]
+  ],
+  "ipucu_usaq": [
+   "‘원수’라는 말이 어린이에게 무겁다면 ‘나를 힘들게 하는 친구’로 바꿔 말하세요.",
+   "기도할 사람의 이름을 공개적으로 말하게 하지 마세요. 다툼이 커질 수 있습니다.",
+   "괴롭힘을 당하는 아이가 있다면 수업 후 따로 이야기를 들어 주세요."
+  ],
+  "ipucu_genc": [
+   "간음과 이혼 대조(5:27–32)는 표로만 소개하고, 질문이 나오면 개인적으로 대화하세요.",
+   "‘온전하라’를 완벽주의로 오해해 죄책감에 빠지지 않도록 은혜의 맥락을 강조하세요.",
+   "다음 과(6:1–18)는 주기도문입니다. 원수를 위한 기도가 주기도문의 ‘용서’로 이어진다고 예고하세요."
+  ],
+  "suallar": [
+   [
+    "저를 때리는 친구한테도 맞고만 있어야 해요?",
+    "아니에요. 선생님이나 부모님께 꼭 말해야 해요. 그리고 그 친구를 위해 기도할 수 있어요.",
+    "예수님의 말씀은 보복하지 말라는 뜻이지, 폭력을 참으라는 뜻이 아니에요. 안전을 지키고 도움을 요청하는 것도 사랑이에요."
+   ],
+   [
+    "미운 사람을 어떻게 사랑해요? 마음이 안 바뀌어요.",
+    "마음이 먼저 바뀌지 않아도 괜찮아요. 기도부터 시작하면 하나님이 마음을 바꿔 주세요.",
+    "성경의 사랑(아가페)은 감정보다 의지와 행동이에요. 그 사람의 좋은 것을 하나님께 구하는 기도가 첫걸음이에요."
+   ],
+   [
+    "예수님은 구약을 바꾸신 거예요?",
+    "아니에요. 하나님 말씀의 진짜 뜻을 알려 주신 거예요.",
+    "예수님은 구약의 목적을 이루셨어요. 그래서 제사법 같은 것은 예수님 안에서 성취되었고, 사랑의 계명은 더 깊어졌어요."
+   ]
+  ]
+ },
+ "ru": {
+  "usaq": {
+   "basliq": "Любите врагов ваших",
+   "hedef": [
+    "Мы узнаем, что Иисус пришёл исполнить Божье Слово.",
+    "Мы узнаем, что когда злимся, важно сначала помириться.",
+    "Мы научимся любить и молиться за тех, кто нас обижает."
+   ],
+   "sehneler": [
+    {
+     "b": "Пришёл исполнить Слово",
+     "ayə": "Матфей 5:17–20",
+     "alt": "Иисус учит на горе",
+     "p": [
+      "Иисус сказал: «Я пришёл не отменить Божий [[Закон]], а [[исполнить]].»",
+      "Божье Слово нужно соблюдать не только внешне, но и от всего сердца."
+     ]
+    },
+    {
+     "b": "Сначала помирись",
+     "ayə": "Матфей 5:21–26",
+     "alt": "Дети мирятся после ссоры",
+     "p": [
+      "«Вы слышали, что сказано: “не убивай”. А Я говорю: даже злиться на брата в сердце — это грех.»",
+      "«Если ты принёс Богу подарок и вспомнил, что друг на тебя обижен, сначала пойди и [[помирись|помириться]] с ним, а потом приходи.»"
+     ]
+    },
+    {
+     "b": "Пройди с ним два поприща",
+     "ayə": "Матфей 5:38–42",
+     "alt": "Человек несёт груз римского солдата дальше, чем нужно",
+     "p": [
+      "В то время римский солдат мог заставить человека нести его груз одно поприще (милю).",
+      "Иисус сказал: «Кто заставит тебя идти с ним одно поприще, иди с ним два.» На зло нужно отвечать не злом, а [[добром|добро]]."
+     ]
+    },
+    {
+     "b": "Любите врагов ваших",
+     "ayə": "Матфей 5:43–48",
+     "alt": "Деревня, над которой светит солнце для всех",
+     "p": [
+      "«Любите ваших [[врагов|враг]] и [[молитесь|молиться]] за тех, кто вас обижает.»",
+      "Бог повелевает солнцу светить и добрым, и злым, и посылает дождь для всех. Так мы становимся детьми, похожими на нашего Небесного Отца."
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "«Любите врагов ваших и молитесь за гонящих вас.»",
+    "ref": "5:44",
+    "bos": "«Любите ___ ваших и ___ за ___ вас.»",
+    "sozler": [
+     "врагов",
+     "молитесь",
+     "гонящих"
+    ],
+    "yalan": "бегите"
+   },
+   "lugat": {
+    "Закон": {
+     "i": "📜",
+     "x": "Qanun",
+     "m": "Слова и заповеди, которые Бог дал через Моисея.",
+     "e": "Иисус не пришёл отменить Закон."
+    },
+    "исполнить": {
+     "i": "🧩",
+     "x": "yerinə yetirmək",
+     "m": "Сделать дело полностью, без недостатков.",
+     "e": "Иисус исполнил Божье Слово."
+    },
+    "помириться": {
+     "i": "🤝",
+     "x": "barış",
+     "m": "Снова стать добрыми друзьями с тем, с кем поссорился.",
+     "e": "Сначала пойди и помирись с другом."
+    },
+    "добро": {
+     "i": "💛",
+     "x": "yaxşılıq",
+     "m": "Полезное и красивое дело.",
+     "e": "На зло мы отвечаем добром."
+    },
+    "враг": {
+     "i": "😠",
+     "x": "düşmən",
+     "m": "Человек, который нас ненавидит или обижает.",
+     "e": "Иисус учил любить врагов."
+    },
+    "молиться": {
+     "i": "🙏",
+     "x": "dua",
+     "m": "Разговаривать с Богом.",
+     "e": "Мы молимся и за тех, кто нас обижает."
+    }
+   },
+   "test": [
+    {
+     "q": "Что Иисус пришёл сделать с Божьим Законом?",
+     "o": [
+      "Исполнить",
+      "Отменить",
+      "Изменить"
+     ],
+     "a": 0,
+     "f": "Верно! Он пришёл полностью исполнить Слово."
+    },
+    {
+     "q": "Что нужно сделать, если ты принёс подарок Богу и вспомнил, что друг на тебя обижен?",
+     "o": [
+      "Сначала пойти и помириться",
+      "Сделать вид, что ничего не было",
+      "Дать подарок побольше"
+     ],
+     "a": 0,
+     "f": "Верно! Сначала нужно помириться."
+    },
+    {
+     "q": "Если кто-то заставит тебя идти с ним одно поприще (милю)?",
+     "o": [
+      "Иди с ним два",
+      "Убегай",
+      "Злись"
+     ],
+     "a": 0,
+     "f": "Верно! На зло мы отвечаем добром."
+    },
+    {
+     "q": "Над кем Бог повелевает светить солнцу?",
+     "o": [
+      "И над добрыми, и над злыми",
+      "Только над добрыми",
+      "Только над богатыми"
+     ],
+     "a": 0,
+     "f": "Верно! Божья любовь светит всем."
+    }
+   ],
+   "dusun": [
+    "Почему бывает трудно первым помириться, когда поссорился с другом?",
+    "Что произойдёт с твоим сердцем, если ты помолишься за человека, который тебя обидел?",
+    "Чему нас учит то, что Божье солнце светит для всех?"
+   ],
+   "fealiyyet": {
+    "ciz": "Нарисуй солнце, которое одинаково светит над всеми домами.",
+    "b": "За кого ты будешь молиться?",
+    "p": "Выбери человека, за которого ты будешь молиться.",
+    "ph": "",
+    "secim": {
+     "basliq": "За кого ты будешь молиться?",
+     "izah": "Нажимай и выбирай. Можно выбрать несколько.",
+     "cumle": "Я буду молиться за {x} и сделаю для него добро!",
+     "bos": "ребёнка, который меня дразнит",
+     "bag": "и",
+     "secimler": [
+      [
+       "😠",
+       "ребёнка, который меня дразнит"
+      ],
+      [
+       "🗣️",
+       "ребёнка, который надо мной смеётся"
+      ],
+      [
+       "🤜",
+       "друга, с которым я подрался"
+      ],
+      [
+       "🙅",
+       "ребёнка, который со мной не играет"
+      ],
+      [
+       "😤",
+       "брата, на которого я обижен"
+      ],
+      [
+       "😒",
+       "сестру, на которую я обижена"
+      ]
+     ]
+    }
+   },
+   "dua": "Господь, благодарю Тебя за Твою любовь, которая велит солнцу светить и над добрыми, и над злыми. Помоги мне первым помириться с другом, с которым я в ссоре. Пусть я не буду ненавидеть тех, кто меня обижает, а буду молиться за них. Во имя Иисуса Христа я молюсь. Аминь."
+  },
+  "genc": {
+   "basliq": "Более глубокая праведность",
+   "giris": "«Разве недостаточно просто не нарушать правила?» Иисус же смотрел глубже, в самое сердце. И Он дал самую трудную заповедь: любите врагов ваших.",
+   "meqsed": [
+    "Мы поймём, что значит то, что Иисус «исполнил» Закон.",
+    "Мы сможем объяснить суть шестикратно повторяющейся фразы «А Я говорю вам».",
+    "Мы определим конкретного человека в нашей жизни, с которым нужно помириться и которого нужно любить."
+   ],
+   "sehneler": [
+    {
+     "b": "Не нарушить",
+     "ayə": "Матфей 5:17–20",
+     "alt": "Иисус учит на горе",
+     "p": [
+      "«Не думайте, что Я пришёл нарушить [[Закон]] или пророков: не нарушить пришёл Я, но исполнить.»",
+      "В то время самыми ревностными людьми были фарисеи и книжники. Иисус сказал, что для того, чтобы войти в Царство Небесное, нужна [[праведность]], превосходящая их праведность. Не больше правил, а более глубокое сердце."
+     ],
+     "deep": {
+      "b": "Копнём глубже · Ни одна иота, ни одна черта",
+      "p": "«Иота» — это самая маленькая буква еврейского алфавита (йод), а «черта» — крошечный завиток, отличающий буквы друг от друга. Иисус не относился к Ветхому Завету легкомысленно. Наоборот, Он исполнил в Себе ту цель, на которую указывал Ветхий Завет."
+     }
+    },
+    {
+     "b": "Гнев и примирение",
+     "ayə": "Матфей 5:21–26",
+     "alt": "Дети мирятся после ссоры",
+     "p": [
+      "К заповеди «не убивай» Иисус добавляет: «Всякий, гневающийся на брата своего напрасно, подлежит суду.» Убийство начинается с гнева в сердце и унизительных слов.",
+      "Он говорит, что даже если ты оставишь дар перед [[жертвенником|жертвенник]], сначала пойди и примирись с братом. Отношения с Богом нельзя отделить от отношений с людьми."
+     ],
+     "deep": {
+      "b": "Копнём глубже · Шесть сравнений",
+      "p": "В 5:21–48 шесть раз повторяется: «Вы слышали, что сказано древним... А Я говорю вам». Иисус не говорит, как раввины: «такой-то сказал так», Он говорит: «А Я говорю». Это власть Того, Кто дал Закон (7:29)."
+     }
+    },
+    {
+     "b": "Если принудит идти одно поприще",
+     "ayə": "Матфей 5:38–42",
+     "alt": "Человек несёт груз римского солдата дальше, чем нужно",
+     "p": [
+      "«Око за око» на самом деле было законом, ограничивающим месть. Иисус идёт на шаг дальше: «Кто ударит тебя в правую щеку твою, обрати к нему и другую.»",
+      "Римский солдат мог заставить человека из покорённого народа нести груз одну милю (поприще). Иисус говорит идти с ним две мили. Превратить принудительный труд в добровольное благодеяние."
+     ],
+     "deep": {
+      "b": "Копнём глубже · Не от слабости",
+      "p": "Это не значит терпеть насилие. Это активная любовь, которая разрывает цепь мести и удивляет противника. Просить о помощи в опасной ситуации — это тоже мудрость.",
+      "rose": true
+     }
+    },
+    {
+     "b": "Любите врагов ваших",
+     "ayə": "Матфей 5:43–48",
+     "alt": "Деревня, над которой светит солнце для всех",
+     "p": [
+      "Слов «люби ближнего твоего и ненавидь врага твоего» в Ветхом Завете нет. Это добавили люди. Иисус говорит: «Любите [[врагов|враг]] ваших... и молитесь за гонящих вас.»",
+      "Бог повелевает солнцу восходить над злыми и добрыми и посылает дождь на праведных и неправедных. Поэтому Он говорит: «Итак, будьте [[совершенны|совершенный]].»"
+     ],
+     "deep": {
+      "b": "Копнём глубже · «Будьте совершенны»",
+      "p": "«Телейос» — это не безупречное совершенство без единой ошибки, а значение «достигший цели, зрелый». Когда наша любовь расширяется до того, чтобы охватить врага, мы растём как дети, похожие на нашего Небесного Отца."
+     }
+    }
+   ],
+   "cedvel": {
+    "b": "Шесть сравнений",
+    "alt": "5:21–48",
+    "bas": [
+     "Сказано древним",
+     "А Я говорю вам"
+    ],
+    "set": [
+     [
+      "Не убивай",
+      "Не гневайся на брата"
+     ],
+     [
+      "Не прелюбодействуй",
+      "Не смотри с вожделением в сердце"
+     ],
+     [
+      "Дай разводное письмо",
+      "Не разводись с женой легкомысленно"
+     ],
+     [
+      "Не клянись ложно",
+      "Говори только «да» или «нет»"
+     ],
+     [
+      "Око за око",
+      "Не противься злому"
+     ],
+     [
+      "Люби ближнего",
+      "Люби врагов"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "«А Я говорю вам: любите врагов ваших, благословляйте проклинающих вас, благотворите ненавидящим вас и молитесь за обижающих вас и гонящих вас, да будете сынами Отца вашего Небесного.»",
+    "ref": "5:44–45"
+   },
+   "lugat": {
+    "Закон": {
+     "i": "📜",
+     "o": "По-гречески «номос», на иврите «Тора»",
+     "x": "Qanun",
+     "s": "Божье учение",
+     "m": "Слово «Тора» означает «учение, наставление». Это не просто свод правил, а путь жизни Божьего народа.",
+     "e": "«Закон и пророки» — это выражение, обозначающее весь Ветхий Завет."
+    },
+    "праведность": {
+     "i": "⚖️",
+     "o": "По-гречески «дикайосюне»",
+     "x": "salehlik",
+     "s": "Правильные отношения перед Богом и людьми",
+     "m": "Это не баллы за соблюдение правил, а вся жизнь, прожитая правильно перед Богом и ближним.",
+     "e": "Одно из ключевых слов Нагорной проповеди (5:6, 10, 20; 6:1, 33)."
+    },
+    "жертвенник": {
+     "i": "🔥",
+     "o": "По-гречески «тюсиастерион»",
+     "x": "qurbangah",
+     "s": "Место принесения даров",
+     "m": "Место в Иерусалимском храме, где Богу приносили жертвы.",
+     "e": "От Галилеи до Иерусалима было три дня пути пешком. Но Иисус всё равно сказал сначала пойти и примириться."
+    },
+    "враг": {
+     "i": "😠",
+     "o": "По-гречески «эхтрос»",
+     "x": "düşmən",
+     "s": "Тот, кто нас ненавидит и причиняет вред",
+     "m": "Это слово охватывало не только личных врагов, но и врагов народа, включая римских солдат.",
+     "e": "На кресте Иисус молился за тех, кто прибивал Его гвоздями (Луки 23:34)."
+    },
+    "совершенный": {
+     "i": "🌳",
+     "o": "По-гречески «телейос»",
+     "x": "kamil",
+     "s": "Достигший цели, зрелый",
+     "m": "Это не безошибочное совершенство, а состояние, когда любовь полностью выросла и уподобилась Богу.",
+     "e": "В Евангелии от Луки та же мысль передана словами «будьте милосерды» (Луки 6:36)."
+    }
+   },
+   "test": [
+    {
+     "q": "Что Иисус пришёл сделать с Законом и пророками?",
+     "o": [
+      "Исполнить",
+      "Отменить",
+      "Переписать"
+     ],
+     "a": 0,
+     "f": "Верно. Он исполнил цель, на которую указывал Ветхий Завет."
+    },
+    {
+     "q": "Какая фраза повторяется шесть раз в 5:21–48?",
+     "o": [
+      "А Я говорю вам",
+      "Покайтесь, ибо приблизилось Царство Небесное",
+      "Блаженны"
+     ],
+     "a": 0,
+     "f": "Верно. Это власть Того, Кто дал Закон."
+    },
+    {
+     "q": "Что нужно сделать, если, принося дар, ты вспомнил о проблеме с братом?",
+     "o": [
+      "Сначала пойти и примириться",
+      "Принести двойной дар",
+      "Просто помолиться"
+     ],
+     "a": 0,
+     "f": "Верно. Отношения с людьми — это тоже часть поклонения."
+    },
+    {
+     "q": "Каков исторический фон фразы «если принудит тебя идти одно поприще»?",
+     "o": [
+      "Принудительное ношение груза римскими солдатами",
+      "Путь паломников в храм",
+      "Доставка товаров купцами"
+     ],
+     "a": 0,
+     "f": "Верно. Превращение принуждения в добровольное благодеяние."
+    },
+    {
+     "q": "Какое значение ближе всего к выражению «будьте совершенны» в 5:48?",
+     "o": [
+      "Пусть ваша любовь созреет и уподобится Богу",
+      "Не совершайте ни одной ошибки",
+      "Установите больше правил"
+     ],
+     "a": 0,
+     "f": "Верно. Это зрелая любовь, которая охватывает даже врагов."
+    }
+   ],
+   "paylas": [
+    "Чем отличается мысль «главное — не нарушать правила» от «превосходящей праведности» Иисуса?",
+    "Есть ли сейчас кто-то, к кому мне нужно пойти и примириться первым? Что заставляет меня колебаться?",
+    "Как бы выглядело «пройти два поприща» в ответ на человека, который унизил или напал на меня в интернете?",
+    "Как молитва за врага может изменить моё сердце?"
+   ],
+   "etiraf": {
+    "b": "Моё исповедание",
+    "p": "Вспомни человека, который кажется тебе «врагом» (можешь не писать его имя), и напиши молитву за него из трёх-четырёх предложений.",
+    "ph": "Например: Господь, когда я думаю об этом друге, я всё ещё злюсь. Но всё же пусть он..."
+   },
+   "dua": "Отец наш Небесный, благодарю Тебя за Твою любовь, которая велит солнцу восходить и над злыми, и над добрыми. Помоги мне жить праведно не только внешне, но и в сердце. Дай мне смелость первым идти на примирение и научи молиться за человека, которого я ненавижу. Молюсь во имя Иисуса Христа, Который молился за Своих врагов. Аминь."
+  }
+ },
+ "en": {
+  "usaq": {
+   "basliq": "Love Your Enemies",
+   "hedef": [
+    "We will learn that Jesus came to fulfill the Word of God.",
+    "We will learn that it is important to reconcile first when we are angry.",
+    "We will learn to love and pray for the people who hurt us."
+   ],
+   "sehneler": [
+    {
+     "b": "He came to fulfill the Word",
+     "ayə": "Matthew 5:17–20",
+     "alt": "Jesus teaching on the mountain",
+     "p": [
+      "Jesus said, “I didn't come to destroy God's [[Law]], but to [[fulfill]] it.”",
+      "We need to obey God's Word from the heart, not just on the outside."
+     ]
+    },
+    {
+     "b": "Reconcile first",
+     "ayə": "Matthew 5:21–26",
+     "alt": "Children reconciling with a friend they argued with",
+     "p": [
+      "“You were told, ‘Don't murder.’ But I tell you: being angry with your brother in your heart is also a sin.”",
+      "“If you remember that your friend is upset with you when you bring a gift to God, go and [[reconcile]] with them first, then come back.”"
+     ]
+    },
+    {
+     "b": "Go two miles with him",
+     "ayə": "Matthew 5:38–42",
+     "alt": "A man carrying a Roman soldier's load further",
+     "p": [
+      "At that time, a Roman soldier could force people to carry his load for one mile.",
+      "Jesus said, “Whoever forces you to go one mile, go with him two miles.” We should answer bad things with [[goodness]], not with more bad things."
+     ]
+    },
+    {
+     "b": "Love your enemies",
+     "ayə": "Matthew 5:43–48",
+     "alt": "A village where the sun shines on everyone",
+     "p": [
+      "“Love your [[enemies|enemy]] and [[pray]] for those who persecute you.”",
+      "God makes His sun rise on both the good and the bad, and sends rain on everyone. We also become children who are like our Father in heaven."
+     ]
+    }
+   ],
+   "aye": {
+    "metn": "“Love your enemies, and pray for those who persecute you.”",
+    "ref": "5:44",
+    "bos": "“___ your enemies, and ___ for those who ___ you.”",
+    "sozler": [
+     "Love",
+     "pray",
+     "persecute"
+    ],
+    "yalan": "hate"
+   },
+   "lugat": {
+    "Law": {
+     "i": "📜",
+     "x": "Qanun",
+     "m": "These are the words and commands God gave through Moses.",
+     "e": "Jesus didn't come to destroy the Law."
+    },
+    "fulfill": {
+     "i": "🧩",
+     "x": "yerinə yetirmək",
+     "m": "To complete something perfectly, without missing anything.",
+     "e": "Jesus fulfilled the Word of God."
+    },
+    "reconcile": {
+     "i": "🤝",
+     "x": "barış",
+     "m": "To become friendly again with someone you argued with.",
+     "e": "Go and reconcile with your friend first."
+    },
+    "goodness": {
+     "i": "💛",
+     "x": "yaxşılıq",
+     "m": "A helpful and beautiful action.",
+     "e": "We answer bad things with goodness."
+    },
+    "enemy": {
+     "i": "😠",
+     "x": "düşmən",
+     "m": "Someone who hates us or hurts us.",
+     "e": "Jesus taught us to love our enemies."
+    },
+    "pray": {
+     "i": "🙏",
+     "x": "dua",
+     "m": "To talk with God.",
+     "e": "We pray even for the people who hurt us."
+    }
+   },
+   "test": [
+    {
+     "q": "What did Jesus come to do with God's Law?",
+     "o": [
+      "To fulfill it",
+      "To destroy it",
+      "To change it"
+     ],
+     "a": 0,
+     "f": "That's right! He came to fulfill the Word completely."
+    },
+    {
+     "q": "What should you do if you remember your friend is upset when bringing a gift?",
+     "o": [
+      "Go and reconcile first",
+      "Pretend not to notice",
+      "Give a bigger gift"
+     ],
+     "a": 0,
+     "f": "That's right! You need to reconcile first."
+    },
+    {
+     "q": "If someone forces you to go one mile?",
+     "o": [
+      "Go two miles with him",
+      "Run away",
+      "Get angry"
+     ],
+     "a": 0,
+     "f": "That's right! We answer bad things with goodness."
+    },
+    {
+     "q": "Who does God make His sun rise on?",
+     "o": [
+      "Both the good and the bad",
+      "Only the good",
+      "Only the rich"
+     ],
+     "a": 0,
+     "f": "That's right! God's love shines on everyone."
+    }
+   ],
+   "dusun": [
+    "Why is it hard to reconcile first when you argue with a friend?",
+    "How will your heart feel if you pray for someone who hurt you?",
+    "What does it teach us that God makes His sun rise on everyone?"
+   ],
+   "fealiyyet": {
+    "ciz": "Draw the sun shining the same way on all the houses.",
+    "b": "Who will you pray for?",
+    "p": "Choose the person you will pray for.",
+    "ph": "",
+    "secim": {
+     "basliq": "Who will you pray for?",
+     "izah": "Tap to choose. You can choose more than one.",
+     "cumle": "I will pray for {x} and do good to them!",
+     "bos": "the kid who annoys me",
+     "bag": "and",
+     "secimler": [
+      [
+       "😠",
+       "the kid who annoys me"
+      ],
+      [
+       "🗣️",
+       "the kid who makes fun of me"
+      ],
+      [
+       "🤜",
+       "my friend who fights with me"
+      ],
+      [
+       "🙅",
+       "the kid who won't play with me"
+      ],
+      [
+       "😤",
+       "my brother who I argued with"
+      ],
+      [
+       "😒",
+       "my sister who I argued with"
+      ]
+     ]
+    }
+   },
+   "dua": "Dear God, thank You for Your love that makes the sun rise on both the good and the bad. Help me to reconcile first with my friend when we argue. Let me not hate the people who hurt me, but pray for them. I pray in the name of Jesus Christ. Amen."
+  },
+  "genc": {
+   "basliq": "Deeper Righteousness",
+   "giris": "“Isn't it enough if I don't break the rules?” But Jesus looked much deeper, into the heart. And He gave the hardest command: love your enemies.",
+   "meqsed": [
+    "We understand what it means that Jesus 'fulfilled' the Law.",
+    "We can explain the flow of the phrase 'But I tell you,' which is repeated six times.",
+    "We identify a specific person in our lives to reconcile with and love."
+   ],
+   "sehneler": [
+    {
+     "b": "Not to destroy",
+     "ayə": "Matthew 5:17–20",
+     "alt": "Jesus teaching on the mountain",
+     "p": [
+      "“Don't think that I came to destroy the [[Law]] or the Prophets. I didn't come to destroy, but to fulfill.”",
+      "At that time, the most zealous people were the Pharisees and the teachers of the law. Jesus said that to enter the kingdom of heaven, you need a [[righteousness]] that surpasses theirs. Not more rules, but a deeper heart."
+     ],
+     "deep": {
+      "b": "Looking deeper · One jot, one tittle",
+      "p": "A 'jot' is the smallest letter of the Hebrew alphabet, yodh, and a 'tittle' is a tiny stroke that distinguishes letters. Jesus didn't take the Old Testament lightly. Instead, He fulfilled the purpose the Old Testament pointed to in Himself."
+     }
+    },
+    {
+     "b": "Anger and reconciliation",
+     "ayə": "Matthew 5:21–26",
+     "alt": "Children reconciling with a friend they argued with",
+     "p": [
+      "To the command “Do not murder,” Jesus adds: “Everyone who is angry with his brother will be subject to judgment.” Murder starts with anger in the heart and degrading words.",
+      "He says to leave your gift in front of the [[altar]] and go reconcile with your brother first. Our relationship with God cannot be separated from our relationship with people."
+     ],
+     "deep": {
+      "b": "Looking deeper · Six comparisons",
+      "p": "In 5:21–48, “You have heard that it was said to the people long ago... But I tell you” is repeated six times. Jesus doesn't say “so-and-so said this” like the rabbis; He says “I tell you.” This is the authority of the One who gave the Law (7:29)."
+     }
+    },
+    {
+     "b": "If forced to go one mile",
+     "ayə": "Matthew 5:38–42",
+     "alt": "A man carrying a Roman soldier's load further",
+     "p": [
+      "“Eye for eye” was actually a law that limited revenge. Jesus goes a step further: “Whoever strikes you on your right cheek, turn the other to him as well.”",
+      "A Roman soldier could force a person from the occupied nation to carry a load for one mile. Jesus says to go with him two miles. Turning forced labor into voluntary goodness."
+     ],
+     "deep": {
+      "b": "Looking deeper · Not out of weakness",
+      "p": "This doesn't mean to just endure abuse. It is an active love that breaks the chain of revenge and surprises the other person. In a dangerous situation, asking for help is also wisdom.",
+      "rose": true
+     }
+    },
+    {
+     "b": "Love your enemies",
+     "ayə": "Matthew 5:43–48",
+     "alt": "A village where the sun shines on everyone",
+     "p": [
+      "The saying “Love your neighbor and hate your enemy” is not in the Old Testament. People had added it. Jesus says: “Love your [[enemies|enemy]], and pray for those who persecute you.”",
+      "God makes His sun rise on the evil and on the good, and sends rain on the righteous and on the unrighteous. Therefore He says: “You therefore shall be [[perfect]].”"
+     ],
+     "deep": {
+      "b": "Looking deeper · “Be perfect”",
+      "p": "“Teleios” doesn't mean flawless perfection; it means “having reached the goal, mature.” When our love expands to include our enemies, we grow as children who resemble our Father in heaven."
+     }
+    }
+   ],
+   "cedvel": {
+    "b": "Six comparisons",
+    "alt": "5:21–48",
+    "bas": [
+     "It was said to the people long ago",
+     "But I tell you"
+    ],
+    "set": [
+     [
+      "Do not murder",
+      "Do not be angry with your brother"
+     ],
+     [
+      "Do not commit adultery",
+      "Do not look with lust in your heart"
+     ],
+     [
+      "Give a certificate of divorce",
+      "Do not easily divorce your wife"
+     ],
+     [
+      "Do not swear falsely",
+      "Just say 'yes' or 'no'"
+     ],
+     [
+      "Eye for eye",
+      "Do not resist an evil person"
+     ],
+     [
+      "Love your neighbor",
+      "Love your enemies"
+     ]
+    ]
+   },
+   "aye": {
+    "metn": "“But I tell you, love your enemies, and pray for those who persecute you, that you may be children of your Father in heaven.”",
+    "ref": "5:44–45"
+   },
+   "lugat": {
+    "Law": {
+     "i": "📜",
+     "o": "Greek nomos, Hebrew Torah",
+     "x": "Qanun",
+     "s": "God's teaching",
+     "m": "The word 'Torah' means 'teaching, guidance.' It is not a rulebook, but the way of life for God's people.",
+     "e": "“The Law and the Prophets” is an expression referring to the entire Old Testament."
+    },
+    "righteousness": {
+     "i": "⚖️",
+     "o": "Greek dikaiosyne",
+     "x": "salehlik",
+     "s": "A right relationship before God and people",
+     "m": "It's not a score for keeping rules, but a whole life lived rightly before God and neighbor.",
+     "e": "It is one of the key words in the Sermon on the Mount (5:6, 10, 20; 6:1, 33)."
+    },
+    "altar": {
+     "i": "🔥",
+     "o": "Greek thysiasterion",
+     "x": "qurbangah",
+     "s": "The place where gifts are offered",
+     "m": "It was the place in the Jerusalem temple where sacrifices were offered to God.",
+     "e": "It was a three-day walk from Galilee to Jerusalem. Yet Jesus said to reconcile first."
+    },
+    "enemy": {
+     "i": "😠",
+     "o": "Greek echthros",
+     "x": "düşmən",
+     "s": "Someone who hates and harms us",
+     "m": "It was a word that included not only personal enemies, but also national enemies, like Roman soldiers.",
+     "e": "On the cross, Jesus prayed for those who nailed Him (Luke 23:34)."
+    },
+    "perfect": {
+     "i": "🌳",
+     "o": "Greek teleios",
+     "x": "kamil",
+     "s": "Having reached the goal, mature",
+     "m": "It is not a flawless perfection, but a state where love has fully grown to resemble God.",
+     "e": "Luke translates the same teaching as “be merciful” (Luke 6:36)."
+    }
+   },
+   "test": [
+    {
+     "q": "What did Jesus come to do with the Law and the Prophets?",
+     "o": [
+      "To fulfill them",
+      "To destroy them",
+      "To rewrite them"
+     ],
+     "a": 0,
+     "f": "Correct. He fulfilled the purpose the Old Testament pointed to."
+    },
+    {
+     "q": "Which phrase is repeated six times in 5:21–48?",
+     "o": [
+      "But I tell you",
+      "Repent, for the kingdom of heaven is at hand",
+      "Blessed are"
+     ],
+     "a": 0,
+     "f": "Correct. It shows the authority of the One who gave the Law."
+    },
+    {
+     "q": "If you remember a problem with your brother when bringing a gift?",
+     "o": [
+      "Go and reconcile first",
+      "Give a double gift",
+      "Just pray"
+     ],
+     "a": 0,
+     "f": "Correct. Our relationship with people is also part of worship."
+    },
+    {
+     "q": "What is the background of the phrase 'if forced to go one mile'?",
+     "o": [
+      "Roman soldiers forcing people to carry loads",
+      "The pilgrimage route to the temple",
+      "A merchant's delivery"
+     ],
+     "a": 0,
+     "f": "Correct. Turning coercion into voluntary goodness."
+    },
+    {
+     "q": "What is the closest meaning to the phrase 'be perfect' in 5:48?",
+     "o": [
+      "Let your love mature to resemble God",
+      "Make no mistakes at all",
+      "Make more rules"
+     ],
+     "a": 0,
+     "f": "Correct. A mature love that embraces even the enemy."
+    }
+   ],
+   "paylas": [
+    "How does the idea of 'it's enough if I don't break the rules' differ from Jesus' 'surpassing righteousness'?",
+    "Is there someone I need to go and reconcile with first right now? What makes me hesitate?",
+    "What would 'going two miles' look like toward someone who degrades or attacks me online?",
+    "What change can praying for an enemy create in my heart?"
+   ],
+   "etiraf": {
+    "b": "My confession",
+    "p": "Think of someone who feels like an 'enemy' to you (you don't have to write their name) and write a three- or four-sentence prayer for them.",
+    "ph": "For example: God, I still get angry when I think of that friend. But even so, they..."
+   },
+   "dua": "Our Father in heaven, thank You for Your love that makes the sun rise on both the evil and the good. Help me to live rightly not just on the outside, but from the heart. Give me the courage to reconcile first, and teach me to pray for the person I hate. I pray in the name of Jesus Christ, who prayed for His enemies. Amen."
+  }
  }
-},
-"muellim": {
- "mesaj": "8과의 중심은 한 문장입니다. **예수님은 율법을 마음 깊은 곳까지 완성하시고, 그 의의 정점은 원수까지 사랑하는 하나님 아버지를 닮는 것이다.**",
- "hazirliq": ["학생용 교재를 열 휴대폰이나 태블릿, 이어폰", "무거운 가방 하나 (‘오 리, 십 리’ 체험)", "해 그림이나 손전등"],
- "fon": [
-  ["1. 율법의 완성", "5:17의 ‘완전하게 하다’(플레로오)는 마태복음에서 예언이 ‘이루어지다’에 쓰인 같은 동사입니다. 예수님은 율법이 가리키던 목적 자체이십니다."],
-  ["2. 여섯 대조", "형식은 ‘옛사람에게 말한 바 … 그러나 나는’입니다. 율법을 반대하는 것이 아니라, 율법의 외적 준수에서 마음과 관계로 깊어지는 방향입니다."],
-  ["3. 로마의 강제 노역", "로마 군인은 지역 주민에게 1마일(약 1.5km)까지 짐을 지게 할 법적 권리가 있었습니다(앙가레이아). 시몬이 십자가를 진 것도 같은 말입니다(27:32)."],
-  ["4. 원수를 미워하라?", "레위기 19:18은 이웃 사랑만 명령합니다. ‘원수를 미워하라’는 당시 일부 해석(예: 쿰란 공동체)의 덧붙임이었습니다."],
-  ["5. 민감한 적용", "‘다른 뺨도 돌려 대라’를 폭력이나 따돌림을 참으라는 말로 오해하지 않게 하세요. 학생이 위험에 처해 있다면 즉시 어른의 도움을 받도록 안내해야 합니다."]
- ],
- "usaq_plan": [
-  ["5분", "가방 들기", "한 학생이 교실 한 바퀴 가방 들기 → ‘한 바퀴 더’ 해 보기", "“억지로 할 때와 기쁘게 할 때 마음이 어떻게 달라요?”"],
-  ["15분", "장면 1–4 듣고 읽기", "장면마다 듣기, 노란 낱말 누르기", "“먼저 화해하는 건 왜 용기가 필요할까요?”"],
-  ["5분", "외울 말씀", "빈칸 놀이 → 짝과 손잡고 함께 읽기", ""],
-  ["5분", "확인 퀴즈", "혼자 풀고 함께 확인", ""],
-  ["10분", "활동과 기도", "기도할 사람 고르기 → 이름 없이 함께 기도", ""]
- ],
- "genc_plan": [
-  ["5분", "열기", "“규칙만 지키면 착한 사람일까?” 짧은 토론", ""],
-  ["15분", "장면 1–2와 대조 표", "율법의 완성, 여섯 대조, 분노와 화해", ""],
-  ["10분", "장면 3–4", "십 리 동행, 원수 사랑, ‘온전하라’의 뜻", "“학대를 참으라는 말인가?”도 함께 다루기"],
-  ["5분", "확인 문제", "", ""],
-  ["15분", "나눔과 고백", "나눔 질문 2개 → 원수를 위한 기도 쓰기 → 기도", ""]
- ],
- "ipucu_usaq": ["‘원수’라는 말이 어린이에게 무겁다면 ‘나를 힘들게 하는 친구’로 바꿔 말하세요.", "기도할 사람의 이름을 공개적으로 말하게 하지 마세요. 다툼이 커질 수 있습니다.", "괴롭힘을 당하는 아이가 있다면 수업 후 따로 이야기를 들어 주세요."],
- "ipucu_genc": ["간음과 이혼 대조(5:27–32)는 표로만 소개하고, 질문이 나오면 개인적으로 대화하세요.", "‘온전하라’를 완벽주의로 오해해 죄책감에 빠지지 않도록 은혜의 맥락을 강조하세요.", "다음 과(6:1–18)는 주기도문입니다. 원수를 위한 기도가 주기도문의 ‘용서’로 이어진다고 예고하세요."],
- "suallar": [
-  ["저를 때리는 친구한테도 맞고만 있어야 해요?", "아니에요. 선생님이나 부모님께 꼭 말해야 해요. 그리고 그 친구를 위해 기도할 수 있어요.", "예수님의 말씀은 보복하지 말라는 뜻이지, 폭력을 참으라는 뜻이 아니에요. 안전을 지키고 도움을 요청하는 것도 사랑이에요."],
-  ["미운 사람을 어떻게 사랑해요? 마음이 안 바뀌어요.", "마음이 먼저 바뀌지 않아도 괜찮아요. 기도부터 시작하면 하나님이 마음을 바꿔 주세요.", "성경의 사랑(아가페)은 감정보다 의지와 행동이에요. 그 사람의 좋은 것을 하나님께 구하는 기도가 첫걸음이에요."],
-  ["예수님은 구약을 바꾸신 거예요?", "아니에요. 하나님 말씀의 진짜 뜻을 알려 주신 거예요.", "예수님은 구약의 목적을 이루셨어요. 그래서 제사법 같은 것은 예수님 안에서 성취되었고, 사랑의 계명은 더 깊어졌어요."]
- ]
-}
 }
