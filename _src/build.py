@@ -271,11 +271,11 @@ def build_usaq(L, lang):
             au.key(f'{w}. {x["m"]} {x["e"]}', f'd{j}')
     dd = {'dil': lang, 'sinif': 'usaq', 'ses': 'fayl' if lang in AUDIO_LANGS else 'cihaz', 'lugat': lug, 'test': d['test'],
           'oyun': {'sozler': v['sozler'], 'yalan': v['yalan']}}
-    tracker = None
-    if lang in AUDIO_LANGS:
-        tracker = {'sinif': 'usaq', 'ders': ders_id(n, lang), 'dil': lang}
-        if f.get('secim'):
-            tracker['secim'] = f['secim']
+    tracker = {'sinif': 'usaq', 'ders': ders_id(n, lang), 'dil': lang}
+    if lang not in AUDIO_LANGS:
+        tracker['yerli'] = True  # yalnız cihazda: ana səhifədəki irəliləyiş üçün
+    if f.get('secim'):
+        tracker['secim'] = f['secim']
     o.append(foot_js(dd, lang, tracker, n))
     return ''.join(o), au
 
@@ -346,7 +346,9 @@ def build_genc(L, lang):
         for j, (w, x) in enumerate(lug.items()):
             au.key(f'{w}. {x["m"]} {x["e"]}', f'd{j}')
     dd = {'dil': lang, 'sinif': 'genc', 'ses': 'fayl' if lang in AUDIO_LANGS else 'cihaz', 'lugat': lug, 'test': d['test']}
-    tracker = {'sinif': 'genc', 'ders': ders_id(n, lang), 'dil': lang} if lang in AUDIO_LANGS else None
+    tracker = {'sinif': 'genc', 'ders': ders_id(n, lang), 'dil': lang}
+    if lang not in AUDIO_LANGS:
+        tracker['yerli'] = True
     o.append(foot_js(dd, lang, tracker, n))
     return ''.join(o), au
 
@@ -511,7 +513,14 @@ def build_index(lessons):
                 t[ku] = L[lang]['usaq']['basliq']; t[kg] = L[lang]['genc']['basliq']
             elif os.path.exists(os.path.join(ROOT, f"matta-{L['no']:02d}-{ku}", 'index.html')):
                 t[ku] = h1(f"matta-{L['no']:02d}-{ku}"); t[kg] = h1(f"matta-{L['no']:02d}-{kg}")
-        meta.append({'no': L['no'], 'ref': L['ref'], 'img': L['img'][L.get('hero', 0)], 't': t})
+        v = {}
+        for lang, (ku, kg) in FOLD.items():
+            src = L.get(lang)
+            if src is None and lang == 'az' and os.path.exists(os.path.join(SRC, 'dersler', f"_matta-{L['no']:02d}-src.json")):
+                src = json.load(open(os.path.join(SRC, 'dersler', f"_matta-{L['no']:02d}-src.json"), encoding='utf-8'))['az']
+            if src and src['genc'].get('aye'):
+                a = src['genc']['aye']; v[kg] = [a['metn'], a.get('ref', '')]
+        meta.append({'no': L['no'], 'ref': L['ref'], 'img': L['img'][L.get('hero', 0)], 't': t, 'v': v})
     if not any(m['no'] == 1 for m in meta):
         meta.append({'no': 1, 'ref': '1:1–25', 'img': '02-isanin-dogulmasi.jpg', 't': {k: h1('matta-01-' + k) for k in keys[:4]}})
     meta.sort(key=lambda m: m['no'])
@@ -524,7 +533,10 @@ def build_index(lessons):
             w, h = im.size; tw = int(h * 4 / 3)
             if tw < w: im = im.crop(((w - tw) // 2, 0, (w - tw) // 2 + tw, h))
             im.resize((240, 180), Image.LANCZOS).save(dst, quality=78)
-    data = {k: [[m['no'], m['ref'], m['t'][k]] for m in meta if k in m['t']] for k in keys}
+        dst2 = os.path.join(ROOT, 'img', 'th', f"md-{m['no']:02d}.jpg")
+        if not os.path.exists(dst2) or os.path.getmtime(dst2) < os.path.getmtime(src):
+            im = Image.open(src).convert('RGB'); im.thumbnail((800, 800)); im.save(dst2, quality=76, optimize=True, progressive=True)
+    data = {k: [[m['no'], m['ref'], m['t'][k]] + ([m.get('v', {}).get(k)] if k.endswith('genc') else []) for m in meta if k in m['t']] for k in keys}
     js = json.dumps(data, ensure_ascii=False, separators=(',', ':'))
     write(os.path.join(ROOT, 'index.html'), open(os.path.join(SRC, 'ana.html'), encoding='utf-8').read().replace('/*DATA*/', js))
 

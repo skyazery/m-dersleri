@@ -37,13 +37,13 @@
       etrafli: etrafli == null ? '' : String(etrafli).slice(0, 1500),
       vaxt: new Date().toISOString(), cihaz: deviceId()
     });
-    writeQ(q);
+    if (!CFG.yerli) writeQ(q);
     flush();
   }
 
   var busy = false;
   function flush() {
-    if (busy || !ENDPOINT || !getName() || !navigator.onLine) return;
+    if (busy || CFG.yerli || !ENDPOINT || !getName() || !navigator.onLine) return;
     var q = readQ();
     if (!q.length) return;
     var name = getName();
@@ -100,6 +100,7 @@
     ru: { hi: 'Привет', wrong: 'Ошибки: ', allok: 'Всё верно', vDone: '✓ Выучил(а)', vBtn: 'Я выучил(а) стих', vMsg: 'Молодец! Учитель увидит.', pick: 'Нажимай и выбирай. Можно выбрать несколько.', send: 'Отправить учителю', needPick: 'Сначала выбери что-нибудь.', needText: 'Сначала напиши несколько слов.', saved: 'Сохранено. Отправится, когда будет интернет.', sent: 'Отправлено ✓', and: 'и', me: 'я', done: /Молодец/ },
     en: { hi: 'Hi', wrong: 'Wrong: ', allok: 'All correct', vDone: '✓ Memorized', vBtn: 'I memorized the verse', vMsg: 'Well done! Your teacher will see it.', pick: 'Tap to choose. You can choose more than one.', send: 'Send to teacher', needPick: 'Choose something first.', needText: 'Write a few words first.', saved: 'Saved. It will be sent when you are online.', sent: 'Sent ✓', and: 'and', me: 'I', done: /Well done/ }
   };
+  LT.ko = { hi: '안녕', wrong: '틀린 문제: ', allok: '모두 정답', vDone: '✓ 외웠어요', vBtn: '말씀을 외웠어요', vMsg: '잘했어요!', pick: '눌러서 고르세요.', send: '보내기', needPick: '먼저 골라 주세요.', needText: '먼저 몇 마디 써 주세요.', saved: '저장했어요.', sent: '보냈어요 ✓', and: '그리고', me: '나', done: /잘했어요/ };
   var L = LT[CFG.dil] || LT.az;
   var onNameChange = [];
   (function () {
@@ -171,6 +172,7 @@
         sent = true;
         var right = 0, wrong = [];
         for (var k = 0; k < qs.length; k++) { if (first[k]) right++; else wrong.push(k + 1); }
+        lsSet(sk('mders-test-' + CFG.ders), right + '/' + qs.length);
         send('quiz', right + '/' + qs.length, wrong.length ? L.wrong + wrong.join(', ') : L.allok);
       }
     });
@@ -210,7 +212,7 @@
 
   /* ---------- yazılı fəaliyyət ---------- */
   var ta = document.getElementById('mine');
-  if (ta && KIDS) {
+  if (ta && KIDS && !CFG.yerli) {
     /* Uşaqlar üçün yazmaq əvəzinə düymələrlə cümlə qururuq */
     /* Dərsə görə seçimlər: window.DERS.secim = {basliq, izah, cumle:'… {ad} … {x}', adsiz, bos, bag, secimler:[[emoji, söz]]} */
     var SC = CFG.secim || null;
@@ -263,7 +265,7 @@
     onNameChange.push(upd);
     upd();
   }
-  if (ta) {
+  if (ta && !CFG.yerli) {
     var arow = document.createElement('div');
     arow.className = 'dz-row'; arow.style.alignItems = 'center';
     var ab = document.createElement('button');
