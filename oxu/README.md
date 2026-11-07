@@ -10,7 +10,9 @@
 - `data/matta-oyrenme-01-10.json` 장별 소개·퀴즈·묵상 질문과 단어 사전
 - `apps-script/Code.gs` 구글 시트·텔레그램 연결 스크립트
 
-음성은 각 장의 IBT 사이트 페이지로 연결되는 "Səsli dinlə(듣기)" 버튼으로만 제공합니다.
+- `audio/matt-NN/<절>.mp3` 절마다 녹음한 아제르바이잔어 음성 (공과와 같은 Banu 목소리, `_src/oxu_ses.py`로 생성)
+
+학생은 **Fəsli dinlə(장 듣기)** 를 누르면 처음부터 들을 수 있고, 절 번호를 누르면 그 절부터 듣습니다. 읽는 절은 색으로 표시되고, 속도(0.8×/1.0×/1.2×)를 바꿀 수 있습니다. 사람 목소리가 필요하면 **İnsan səsi** 버튼이 IBT 사이트로 연결됩니다.
 
 ## 처음 한 번 설정 (약 15분)
 
@@ -55,7 +57,11 @@
 - 보내려면 퀴즈 3문제에 답하고 묵상 글을 한 문장(10자) 이상 써야 함
 
 ## 다음 10장 추가하는 법
-`data/matta-metn-11-20.json`, `data/matta-oyrenme-11-20.json`을 만들고 `ayarlar.js`의 목록에 추가하면 됩니다.
+클로드 코드에서 이 폴더(m-dersleri)를 열고 **"마태복음 11~20장 만들어 주세요"** 라고 하면 됩니다. 순서는 `.claude/skills/gundelik-oxu/SKILL.md`에 있습니다.
+1. `python3 _src/oxu_metn.py 40 11 20 matta` → 본문 파일 (원문 그대로)
+2. `data/matta-oyrenme-11-20.json` 작성 (제목·소개·퀴즈·묵상·사전·장면)
+3. `ayarlar.js` 목록에 두 파일 추가
+4. `python3 _src/oxu_ses.py` → 새 절 음성 녹음
 
 ## 저작권
 본문: Azərbaycan dilində Müqəddəs Kitab, © 2008 Müqəddəs Kitab Şirkəti, CC BY-NC-ND 4.0 (비상업적 이용, 출처 표기, 본문 변경 금지).

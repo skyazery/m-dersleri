@@ -157,7 +157,9 @@ button:focus-visible,a:focus-visible,textarea:focus-visible,input:focus-visible,
 .book-bil{font-size:16px;color:var(--soft)}
 
 /* ===== 듣기 ===== */
-.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);padding-block:6px}
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);padding-block:6px;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.pill{cursor:pointer;font-family:inherit}
+.bar .pill.ghost{font-size:15px;padding:9px 14px}
 .pill{display:inline-flex;align-items:center;gap:8px;text-decoration:none;font-size:17px;font-weight:800;border-radius:999px;padding:9px 16px;border:0;background:var(--indigo);color:var(--paper)}
 .pill .em{font-size:17px}
 .pill.ghost{background:var(--paper);color:var(--ink);border:1px solid var(--line)}
@@ -175,7 +177,9 @@ button:focus-visible,a:focus-visible,textarea:focus-visible,input:focus-visible,
 .text{font-size:20px;line-height:1.9}
 .verse{display:block;padding:3px 8px;margin:0 -8px;border-radius:8px}
 .verse.key{background:var(--gold-soft)}
-.vn{font-size:15px;font-weight:800;color:var(--teal);vertical-align:super;margin-right:3px}
+.vn{font-size:15px;font-weight:800;color:var(--teal);vertical-align:super;margin-right:3px;font-family:inherit;background:none;border:0;padding:2px 4px;cursor:pointer;border-radius:6px}
+.vn:focus-visible{outline:3px solid var(--teal);outline-offset:1px}
+.verse.reading{background:var(--teal-soft)}
 .w{cursor:pointer;border-radius:4px}
 .w:hover{background:var(--gold-soft)}
 .w.dict{border-bottom:2px dotted var(--gold)}
@@ -288,8 +292,10 @@ textarea{min-height:96px;resize:vertical}
       <p class="book-bil" id="bookBil"></p>
     </section>
 
-    <div class="bar">
-      <a class="pill" id="listen" target="_blank" rel="noopener"><span class="em">🎧</span><span>Səsli dinlə</span></a>
+    <div class="bar" role="group" aria-label="Səsli oxu">
+      <button class="pill" id="playBtn" type="button"><span class="em" id="playEm" aria-hidden="true">▶️</span><span id="playTx">Fəsli dinlə</span></button>
+      <button class="pill ghost" id="speedBtn" type="button" aria-label="Oxu sürəti">1.0×</button>
+      <a class="pill ghost" id="listen" target="_blank" rel="noopener"><span class="em">🎧</span><span>İnsan səsi</span></a>
     </div>
 
     <section class="intro" aria-labelledby="introH">
@@ -488,6 +494,33 @@ textarea{min-height:96px;resize:vertical}
     $("bookBil").textContent = M.bil || ""; $("bookBil").hidden = !M.bil;
   }
 
+  // Səsli oxu: hər ayənin öz faylı – audio/<kitab>-<fəsil>/<ayə>.mp3 (_src/oxu_ses.py yaradır)
+  const AUD = (() => {
+    const a = new Audio(); a.preload = "none";
+    let c = 0, n = 0, cur = 0, on = false, one = false, rate = 1;
+    const RATES = [0.8, 1, 1.2];
+    const src = i => "audio/" + (OYR.ibt || "Matt").toLowerCase() + "-" + String(c).padStart(2, "0") + "/" + (i + 1) + ".mp3";
+    function ui() {
+      $("playEm").textContent = on ? "⏸️" : "▶️";
+      $("playTx").textContent = on ? (OYR.kitab + " " + c + ":" + (cur + 1)) : "Fəsli dinlə";
+      document.querySelectorAll(".verse.reading").forEach(v => v.classList.remove("reading"));
+      if (on) { const v = $("v" + (cur + 1)); if (v) { v.classList.add("reading"); v.scrollIntoView({ block: "center", behavior: REDUCE ? "auto" : "smooth" }); } }
+    }
+    function play() {
+      if (cur >= n) { on = false; cur = 0; ui(); return; }
+      a.src = src(cur); a.playbackRate = rate; ui();
+      a.play().catch(() => { on = false; ui(); });
+    }
+    a.addEventListener("ended", () => { if (!on) return; if (one) { on = false; one = false; ui(); return; } cur++; play(); });
+    a.addEventListener("error", () => { on = false; ui(); $("playTx").textContent = "Səs tapılmadı – «İnsan səsi»"; });
+    $("playBtn").addEventListener("click", () => { if (on) { on = false; a.pause(); ui(); } else { on = true; one = false; play(); } });
+    $("speedBtn").addEventListener("click", e => { rate = RATES[(RATES.indexOf(rate) + 1) % RATES.length]; a.playbackRate = rate; e.currentTarget.textContent = rate.toFixed(1) + "×"; });
+    return {
+      load(ch, count) { on = false; a.pause(); c = ch; n = count; cur = 0; ui(); },
+      start(i, single) { cur = i; one = !!single; on = true; play(); }
+    };
+  })();
+
   function show(c) {
     view = c; answers = {};
     const f = OYR.fesiller[c] || {}, verses = METN[c];
@@ -499,15 +532,18 @@ textarea{min-height:96px;resize:vertical}
     $("sub").textContent = OYR.kitab + " " + c + " · " + verses.length + " ayə";
     document.title = OYR.kitab + " " + c + " · Gündəlik Oxu";
     $("listen").href = "https://ibtrussia.org/Azeri/Bible/study?audio=AZE&verse=" + (OYR.ibt || "Matt") + "." + c;
+    AUD.load(c, verses.length);
     $("giris").textContent = f.giris || "";
     $("look").innerHTML = ""; (f.bax || []).forEach(t => $("look").appendChild(el("span", null, t)));
     $("refH").textContent = "📖 " + OYR.kitab + " " + c;
-    $("copy").textContent = "Mətn: " + menbe + " Səs: IBT.";
+    $("copy").textContent = "Mətn: " + menbe + " Səs: süni səs (Banu); insan səsi: IBT.";
 
     const key = f["ayə"], text = $("text"); text.innerHTML = "";
     verses.forEach((v, i) => {
       const line = el("span", "verse" + (i + 1 === key ? " key" : ""));
-      line.appendChild(el("span", "vn", i + 1));
+      const vn = el("button", "vn", i + 1); vn.type = "button"; vn.setAttribute("aria-label", (i + 1) + "-ci ayədən dinlə");
+      vn.addEventListener("click", () => AUD.start(i)); line.id = "v" + (i + 1);
+      line.appendChild(vn);
       v.split(/(\s+)/).forEach(tok => {
         if (!tok || /^\s+$/.test(tok)) { line.appendChild(document.createTextNode(tok)); return; }
         const m = tok.match(/^([«“"(\[–—]*)(.*?)([»”".,:;!?)\]–—]*)$/u);
