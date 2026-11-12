@@ -125,10 +125,10 @@ document.getElementById('add').onsubmit=e=>{e.preventDefault();const ad=document
  if(addOne(ad.value,document.getElementById('q').value,document.getElementById('tel').value.trim())){save(S);render();ad.value='';document.getElementById('tel').value='';ad.focus();}
  else document.getElementById('msg').textContent='이미 있거나 이름이 비어 있어요.';};
 document.getElementById('load').onclick=async()=>{
- const m=document.getElementById('msg');m.textContent='불러오는 중…';let n=0;let EP=ENDPOINT;const mc=getMC();
- if(mc){try{const r=await fetch(ENDPOINT+'?muellim='+mc);const d=await r.json();if(d.url)EP=d.url;else{m.textContent='관리자 시트 ‘교사’ 탭에 이 코드('+mc+')가 없어요.';return;}}catch(e){m.textContent='불러오지 못했어요. 인터넷을 확인해 주세요.';return;}}
+ const m=document.getElementById('msg');m.textContent='불러오는 중…';let n=0;let EP=ENDPOINT,EPQ='';const mc=getMC();
+ if(mc){try{const r=await fetch(ENDPOINT+'?muellim='+mc);const d=await r.json();if(d.url)EP=d.url;else if(d.ad)EPQ='&m='+mc;else{m.textContent='관리자 시트 ‘교사’ 탭에 이 코드('+mc+')가 없어요.';return;}}catch(e){m.textContent='불러오지 못했어요. 인터넷을 확인해 주세요.';return;}}
  for(const [sinif,q] of [['usaq','az'],['genc','az-genc'],['ko-usaq','ko-usaq'],['ko-genc','ko-genc'],['ru','ru'],['ru-genc','ru-genc'],['en','en'],['en-genc','en-genc']]){
-  try{const r=await fetch(EP+'?siyahi='+sinif);const d=await r.json();(d.names||[]).forEach(x=>{if(addOne(x,q,''))n++;});}catch(e){}
+  try{const r=await fetch(EP+'?siyahi='+sinif+EPQ);const d=await r.json();(d.names||[]).forEach(x=>{if(addOne(x,q,''))n++;});}catch(e){}
  }
  save(S);render();m.textContent=n?n+'명을 추가했어요.':'새로 추가할 이름이 없어요. (시트 ‘명단’을 확인해 주세요)';
 };
