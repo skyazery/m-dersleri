@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<title>페이지를 찾을 수 없어요</title>
+<script>
+/* 기도편지 짧은 주소에 *, 마침표, 괄호 같은 글자가 붙거나 대소문자가 달라도 바로 넘어가게 */
+(function(){
+  var p = decodeURIComponent(location.pathname).toLowerCase();
+  var m = p.match(/\/(\d{1,2})_prayer/);
+  if (m) location.replace('/m-dersleri/' + parseInt(m[1],10) + '_Prayer/');
+})();
+</script>
+<style>
+body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;background:#f6f4ef;color:#2b2a26;
+  font:18px/1.6 -apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Noto Sans KR",sans-serif;text-align:center;padding:16px;box-sizing:border-box}
+a{color:#7a4a2e;font-weight:700}
+</style>
+</head>
+<body>
+<p>페이지를 찾을 수 없어요. · Səhifə tapılmadı.<br><a href="/m-dersleri/">첫 화면으로 · Ana səhifə</a></p>
+</body>
+</html>
